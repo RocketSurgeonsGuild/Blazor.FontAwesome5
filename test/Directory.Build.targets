@@ -1,0 +1,17 @@
+<Project>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" />
+        <PackageReference Include="Rocket.Surgery.Extensions.Testing.FakeItEasy" />
+        <PackageReference Include="Bogus" />
+        <PackageReference Include="coverlet.collector" />
+        <PackageReference Include="coverlet.msbuild" />
+        <PackageReference Include="FakeItEasy" />
+        <PackageReference Include="FakeItEasy.Analyzer.CSharp" />
+        <PackageReference Include="FluentAssertions" />
+        <PackageReference Include="FluentAssertions.Analyzers" />
+        <PackageReference Include="xunit" />
+        <PackageReference Include="xunit.analyzers" />
+        <PackageReference Include="xunit.runner.visualstudio" />
+    </ItemGroup>
+    <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.targets', '$(MSBuildThisFileDirectory)../'))" />
+</Project>

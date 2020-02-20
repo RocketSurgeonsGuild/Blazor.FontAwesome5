@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\Blazor.FontAwesome5.Free\Rocket.Surgery.Blazor.FontAwesome5.Free.csproj" />
+        <ProjectReference Include="..\..\src\Blazor.FontAwesome5.Pro\Rocket.Surgery.Blazor.FontAwesome5.Pro.csproj" />
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+image: Visual Studio 2019
+init:
+  - git config --global core.autocrlf input
+build_script:
+  - cmd: choco install dotnetcore-sdk --version=3.0.100
+  - ps: .\build.ps1
+test: off
+after_build:
+  - "SET PATH=C:\\Python34;C:\\Python34\\Scripts;%PATH%"
+  - pip install codecov
+  - codecov -f "./coverage/solution.cobertura"
+artifacts:
+  - path: ./artifacts/nuget/*.nupkg
+cache:
+  - tools -> build.cake, tools/packages.config
+nuget:
+  project_feed: true

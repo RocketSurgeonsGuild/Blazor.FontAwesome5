@@ -1,0 +1,19 @@
+<Project>
+    <PropertyGroup>
+        <Company>Rocket Surgeons Guild</Company>
+        <Copyright>Copyright Rocket Surgeons Guild © $([System.DateTime]::Now.ToString('yyyy'))</Copyright>
+        <Authors>David Driscoll,Rocket Surgeons Guild contributors</Authors>
+        <PackageProjectUrl>https://rocketsurgeonsguild.github.io/</PackageProjectUrl>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <PackageIcon>images/packageicon.png</PackageIcon>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageTags>fontawesome5;blazor;icons;rocket surgery;rocket surgeons;rsg;rocket surgeons guild</PackageTags>
+        <LangVersion>8.0</LangVersion>
+        <Nullable>enable</Nullable>
+        <LegacySupportPackagesProps>Packages.support.props</LegacySupportPackagesProps>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="$(MSBuildThisFileDirectory)/.tmp/packageicon.png" Condition="Exists('$(MSBuildThisFileDirectory)/.tmp/packageicon.png')" Pack="true" PackagePath="/images/" Visible="false" />
+        <None Include="$(MSBuildThisFileDirectory)/LICENSE" Pack="true" PackagePath="/" Visible="false" />
+    </ItemGroup>
+</Project>

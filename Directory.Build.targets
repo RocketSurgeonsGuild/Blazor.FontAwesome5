@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="2.0.52" />
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)\.editorconfig.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <!-- .editorconfig analyzer work around -->
+  <!--
+  <PropertyGroup>
+    SkipDefaultEditorConfigAsAdditionalFile>true</SkipDefaultEditorConfigAsAdditionalFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <AdditionalFiles Condition="Exists('$(MSBuildThisFileDirectory)\.editorconfig')" Include="$(MSBuildThisFileDirectory)\.editorconfig" />
+  </ItemGroup>
+  -->
+</Project>

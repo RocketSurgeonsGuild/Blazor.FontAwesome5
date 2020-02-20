@@ -1,0 +1,9 @@
+pull_request_rules:
+    - name: automatic merge when GitHub branch protection passes
+      conditions:
+          - base=master
+          - 'label=:shipit: merge'
+      actions:
+          merge:
+              method: merge
+              strict: smart

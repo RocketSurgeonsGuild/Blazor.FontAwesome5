@@ -13,7 +13,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// </summary>
         public static partial class Solid
         {
-            private static readonly Lazy<Icon> _ad = new Lazy<Icon>(() => new Icon(Style.Solid, "ad"));
+            private static readonly Lazy<Icon> _ad = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ad"));
             /// <summary>
             /// Ad
             /// </summary>
@@ -22,7 +22,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Ad => _ad.Value;
 
-            private static readonly Lazy<Icon> _addressBook = new Lazy<Icon>(() => new Icon(Style.Solid, "address-book"));
+            private static readonly Lazy<Icon> _addressBook = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "address-book"));
             /// <summary>
             /// Address Book
             /// </summary>
@@ -31,7 +31,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AddressBook => _addressBook.Value;
 
-            private static readonly Lazy<Icon> _addressCard = new Lazy<Icon>(() => new Icon(Style.Solid, "address-card"));
+            private static readonly Lazy<Icon> _addressCard = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "address-card"));
             /// <summary>
             /// Address Card
             /// </summary>
@@ -40,7 +40,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AddressCard => _addressCard.Value;
 
-            private static readonly Lazy<Icon> _adjust = new Lazy<Icon>(() => new Icon(Style.Solid, "adjust"));
+            private static readonly Lazy<Icon> _adjust = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "adjust"));
             /// <summary>
             /// Adjust
             /// </summary>
@@ -49,7 +49,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Adjust => _adjust.Value;
 
-            private static readonly Lazy<Icon> _airFreshener = new Lazy<Icon>(() => new Icon(Style.Solid, "air-freshener"));
+            private static readonly Lazy<Icon> _airFreshener = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "air-freshener"));
             /// <summary>
             /// Air Freshener
             /// </summary>
@@ -58,7 +58,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AirFreshener => _airFreshener.Value;
 
-            private static readonly Lazy<Icon> _alignCenter = new Lazy<Icon>(() => new Icon(Style.Solid, "align-center"));
+            private static readonly Lazy<Icon> _alignCenter = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "align-center"));
             /// <summary>
             /// Align Center
             /// </summary>
@@ -67,7 +67,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AlignCenter => _alignCenter.Value;
 
-            private static readonly Lazy<Icon> _alignJustify = new Lazy<Icon>(() => new Icon(Style.Solid, "align-justify"));
+            private static readonly Lazy<Icon> _alignJustify = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "align-justify"));
             /// <summary>
             /// Align Justify
             /// </summary>
@@ -76,7 +76,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AlignJustify => _alignJustify.Value;
 
-            private static readonly Lazy<Icon> _alignLeft = new Lazy<Icon>(() => new Icon(Style.Solid, "align-left"));
+            private static readonly Lazy<Icon> _alignLeft = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "align-left"));
             /// <summary>
             /// Align Left
             /// </summary>
@@ -85,7 +85,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AlignLeft => _alignLeft.Value;
 
-            private static readonly Lazy<Icon> _alignRight = new Lazy<Icon>(() => new Icon(Style.Solid, "align-right"));
+            private static readonly Lazy<Icon> _alignRight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "align-right"));
             /// <summary>
             /// Align Right
             /// </summary>
@@ -94,7 +94,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AlignRight => _alignRight.Value;
 
-            private static readonly Lazy<Icon> _allergies = new Lazy<Icon>(() => new Icon(Style.Solid, "allergies"));
+            private static readonly Lazy<Icon> _allergies = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "allergies"));
             /// <summary>
             /// Allergies
             /// </summary>
@@ -103,7 +103,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Allergies => _allergies.Value;
 
-            private static readonly Lazy<Icon> _ambulance = new Lazy<Icon>(() => new Icon(Style.Solid, "ambulance"));
+            private static readonly Lazy<Icon> _ambulance = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ambulance"));
             /// <summary>
             /// Ambulance
             /// </summary>
@@ -112,7 +112,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Ambulance => _ambulance.Value;
 
-            private static readonly Lazy<Icon> _americanSignLanguageInterpreting = new Lazy<Icon>(() => new Icon(Style.Solid, "american-sign-language-interpreting"));
+            private static readonly Lazy<Icon> _americanSignLanguageInterpreting = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "american-sign-language-interpreting"));
             /// <summary>
             /// American Sign Language Interpreting
             /// </summary>
@@ -121,7 +121,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AmericanSignLanguageInterpreting => _americanSignLanguageInterpreting.Value;
 
-            private static readonly Lazy<Icon> _anchor = new Lazy<Icon>(() => new Icon(Style.Solid, "anchor"));
+            private static readonly Lazy<Icon> _anchor = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "anchor"));
             /// <summary>
             /// Anchor
             /// </summary>
@@ -130,7 +130,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Anchor => _anchor.Value;
 
-            private static readonly Lazy<Icon> _angleDoubleDown = new Lazy<Icon>(() => new Icon(Style.Solid, "angle-double-down"));
+            private static readonly Lazy<Icon> _angleDoubleDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "angle-double-down"));
             /// <summary>
             /// Angle Double Down
             /// </summary>
@@ -139,7 +139,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AngleDoubleDown => _angleDoubleDown.Value;
 
-            private static readonly Lazy<Icon> _angleDoubleLeft = new Lazy<Icon>(() => new Icon(Style.Solid, "angle-double-left"));
+            private static readonly Lazy<Icon> _angleDoubleLeft = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "angle-double-left"));
             /// <summary>
             /// Angle Double Left
             /// </summary>
@@ -148,7 +148,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AngleDoubleLeft => _angleDoubleLeft.Value;
 
-            private static readonly Lazy<Icon> _angleDoubleRight = new Lazy<Icon>(() => new Icon(Style.Solid, "angle-double-right"));
+            private static readonly Lazy<Icon> _angleDoubleRight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "angle-double-right"));
             /// <summary>
             /// Angle Double Right
             /// </summary>
@@ -157,7 +157,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AngleDoubleRight => _angleDoubleRight.Value;
 
-            private static readonly Lazy<Icon> _angleDoubleUp = new Lazy<Icon>(() => new Icon(Style.Solid, "angle-double-up"));
+            private static readonly Lazy<Icon> _angleDoubleUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "angle-double-up"));
             /// <summary>
             /// Angle Double Up
             /// </summary>
@@ -166,7 +166,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AngleDoubleUp => _angleDoubleUp.Value;
 
-            private static readonly Lazy<Icon> _angleDown = new Lazy<Icon>(() => new Icon(Style.Solid, "angle-down"));
+            private static readonly Lazy<Icon> _angleDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "angle-down"));
             /// <summary>
             /// Angle Down
             /// </summary>
@@ -175,7 +175,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AngleDown => _angleDown.Value;
 
-            private static readonly Lazy<Icon> _angleLeft = new Lazy<Icon>(() => new Icon(Style.Solid, "angle-left"));
+            private static readonly Lazy<Icon> _angleLeft = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "angle-left"));
             /// <summary>
             /// Angle Left
             /// </summary>
@@ -184,7 +184,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AngleLeft => _angleLeft.Value;
 
-            private static readonly Lazy<Icon> _angleRight = new Lazy<Icon>(() => new Icon(Style.Solid, "angle-right"));
+            private static readonly Lazy<Icon> _angleRight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "angle-right"));
             /// <summary>
             /// Angle Right
             /// </summary>
@@ -193,7 +193,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AngleRight => _angleRight.Value;
 
-            private static readonly Lazy<Icon> _angleUp = new Lazy<Icon>(() => new Icon(Style.Solid, "angle-up"));
+            private static readonly Lazy<Icon> _angleUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "angle-up"));
             /// <summary>
             /// Angle Up
             /// </summary>
@@ -202,7 +202,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AngleUp => _angleUp.Value;
 
-            private static readonly Lazy<Icon> _angry = new Lazy<Icon>(() => new Icon(Style.Solid, "angry"));
+            private static readonly Lazy<Icon> _angry = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "angry"));
             /// <summary>
             /// Angry Face
             /// </summary>
@@ -211,7 +211,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Angry => _angry.Value;
 
-            private static readonly Lazy<Icon> _ankh = new Lazy<Icon>(() => new Icon(Style.Solid, "ankh"));
+            private static readonly Lazy<Icon> _ankh = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ankh"));
             /// <summary>
             /// Ankh
             /// </summary>
@@ -220,7 +220,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Ankh => _ankh.Value;
 
-            private static readonly Lazy<Icon> _appleAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "apple-alt"));
+            private static readonly Lazy<Icon> _appleAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "apple-alt"));
             /// <summary>
             /// Fruit Apple
             /// </summary>
@@ -229,7 +229,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AppleAlt => _appleAlt.Value;
 
-            private static readonly Lazy<Icon> _archive = new Lazy<Icon>(() => new Icon(Style.Solid, "archive"));
+            private static readonly Lazy<Icon> _archive = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "archive"));
             /// <summary>
             /// Archive
             /// </summary>
@@ -238,7 +238,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Archive => _archive.Value;
 
-            private static readonly Lazy<Icon> _archway = new Lazy<Icon>(() => new Icon(Style.Solid, "archway"));
+            private static readonly Lazy<Icon> _archway = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "archway"));
             /// <summary>
             /// Archway
             /// </summary>
@@ -247,7 +247,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Archway => _archway.Value;
 
-            private static readonly Lazy<Icon> _arrowAltCircleDown = new Lazy<Icon>(() => new Icon(Style.Solid, "arrow-alt-circle-down"));
+            private static readonly Lazy<Icon> _arrowAltCircleDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "arrow-alt-circle-down"));
             /// <summary>
             /// Alternate Arrow Circle Down
             /// </summary>
@@ -256,7 +256,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ArrowAltCircleDown => _arrowAltCircleDown.Value;
 
-            private static readonly Lazy<Icon> _arrowAltCircleLeft = new Lazy<Icon>(() => new Icon(Style.Solid, "arrow-alt-circle-left"));
+            private static readonly Lazy<Icon> _arrowAltCircleLeft = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "arrow-alt-circle-left"));
             /// <summary>
             /// Alternate Arrow Circle Left
             /// </summary>
@@ -265,7 +265,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ArrowAltCircleLeft => _arrowAltCircleLeft.Value;
 
-            private static readonly Lazy<Icon> _arrowAltCircleRight = new Lazy<Icon>(() => new Icon(Style.Solid, "arrow-alt-circle-right"));
+            private static readonly Lazy<Icon> _arrowAltCircleRight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "arrow-alt-circle-right"));
             /// <summary>
             /// Alternate Arrow Circle Right
             /// </summary>
@@ -274,7 +274,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ArrowAltCircleRight => _arrowAltCircleRight.Value;
 
-            private static readonly Lazy<Icon> _arrowAltCircleUp = new Lazy<Icon>(() => new Icon(Style.Solid, "arrow-alt-circle-up"));
+            private static readonly Lazy<Icon> _arrowAltCircleUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "arrow-alt-circle-up"));
             /// <summary>
             /// Alternate Arrow Circle Up
             /// </summary>
@@ -283,7 +283,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ArrowAltCircleUp => _arrowAltCircleUp.Value;
 
-            private static readonly Lazy<Icon> _arrowCircleDown = new Lazy<Icon>(() => new Icon(Style.Solid, "arrow-circle-down"));
+            private static readonly Lazy<Icon> _arrowCircleDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "arrow-circle-down"));
             /// <summary>
             /// Arrow Circle Down
             /// </summary>
@@ -292,7 +292,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ArrowCircleDown => _arrowCircleDown.Value;
 
-            private static readonly Lazy<Icon> _arrowCircleLeft = new Lazy<Icon>(() => new Icon(Style.Solid, "arrow-circle-left"));
+            private static readonly Lazy<Icon> _arrowCircleLeft = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "arrow-circle-left"));
             /// <summary>
             /// Arrow Circle Left
             /// </summary>
@@ -301,7 +301,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ArrowCircleLeft => _arrowCircleLeft.Value;
 
-            private static readonly Lazy<Icon> _arrowCircleRight = new Lazy<Icon>(() => new Icon(Style.Solid, "arrow-circle-right"));
+            private static readonly Lazy<Icon> _arrowCircleRight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "arrow-circle-right"));
             /// <summary>
             /// Arrow Circle Right
             /// </summary>
@@ -310,7 +310,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ArrowCircleRight => _arrowCircleRight.Value;
 
-            private static readonly Lazy<Icon> _arrowCircleUp = new Lazy<Icon>(() => new Icon(Style.Solid, "arrow-circle-up"));
+            private static readonly Lazy<Icon> _arrowCircleUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "arrow-circle-up"));
             /// <summary>
             /// Arrow Circle Up
             /// </summary>
@@ -319,7 +319,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ArrowCircleUp => _arrowCircleUp.Value;
 
-            private static readonly Lazy<Icon> _arrowDown = new Lazy<Icon>(() => new Icon(Style.Solid, "arrow-down"));
+            private static readonly Lazy<Icon> _arrowDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "arrow-down"));
             /// <summary>
             /// Arrow Down
             /// </summary>
@@ -328,7 +328,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ArrowDown => _arrowDown.Value;
 
-            private static readonly Lazy<Icon> _arrowLeft = new Lazy<Icon>(() => new Icon(Style.Solid, "arrow-left"));
+            private static readonly Lazy<Icon> _arrowLeft = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "arrow-left"));
             /// <summary>
             /// Arrow Left
             /// </summary>
@@ -337,7 +337,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ArrowLeft => _arrowLeft.Value;
 
-            private static readonly Lazy<Icon> _arrowRight = new Lazy<Icon>(() => new Icon(Style.Solid, "arrow-right"));
+            private static readonly Lazy<Icon> _arrowRight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "arrow-right"));
             /// <summary>
             /// Arrow Right
             /// </summary>
@@ -346,7 +346,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ArrowRight => _arrowRight.Value;
 
-            private static readonly Lazy<Icon> _arrowUp = new Lazy<Icon>(() => new Icon(Style.Solid, "arrow-up"));
+            private static readonly Lazy<Icon> _arrowUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "arrow-up"));
             /// <summary>
             /// Arrow Up
             /// </summary>
@@ -355,7 +355,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ArrowUp => _arrowUp.Value;
 
-            private static readonly Lazy<Icon> _arrowsAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "arrows-alt"));
+            private static readonly Lazy<Icon> _arrowsAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "arrows-alt"));
             /// <summary>
             /// Alternate Arrows
             /// </summary>
@@ -364,7 +364,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ArrowsAlt => _arrowsAlt.Value;
 
-            private static readonly Lazy<Icon> _arrowsAltH = new Lazy<Icon>(() => new Icon(Style.Solid, "arrows-alt-h"));
+            private static readonly Lazy<Icon> _arrowsAltH = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "arrows-alt-h"));
             /// <summary>
             /// Alternate Arrows Horizontal
             /// </summary>
@@ -373,7 +373,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ArrowsAltH => _arrowsAltH.Value;
 
-            private static readonly Lazy<Icon> _arrowsAltV = new Lazy<Icon>(() => new Icon(Style.Solid, "arrows-alt-v"));
+            private static readonly Lazy<Icon> _arrowsAltV = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "arrows-alt-v"));
             /// <summary>
             /// Alternate Arrows Vertical
             /// </summary>
@@ -382,7 +382,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ArrowsAltV => _arrowsAltV.Value;
 
-            private static readonly Lazy<Icon> _assistiveListeningSystems = new Lazy<Icon>(() => new Icon(Style.Solid, "assistive-listening-systems"));
+            private static readonly Lazy<Icon> _assistiveListeningSystems = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "assistive-listening-systems"));
             /// <summary>
             /// Assistive Listening Systems
             /// </summary>
@@ -391,7 +391,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AssistiveListeningSystems => _assistiveListeningSystems.Value;
 
-            private static readonly Lazy<Icon> _asterisk = new Lazy<Icon>(() => new Icon(Style.Solid, "asterisk"));
+            private static readonly Lazy<Icon> _asterisk = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "asterisk"));
             /// <summary>
             /// Asterisk
             /// </summary>
@@ -400,7 +400,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Asterisk => _asterisk.Value;
 
-            private static readonly Lazy<Icon> _at = new Lazy<Icon>(() => new Icon(Style.Solid, "at"));
+            private static readonly Lazy<Icon> _at = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "at"));
             /// <summary>
             /// At
             /// </summary>
@@ -409,7 +409,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon At => _at.Value;
 
-            private static readonly Lazy<Icon> _atlas = new Lazy<Icon>(() => new Icon(Style.Solid, "atlas"));
+            private static readonly Lazy<Icon> _atlas = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "atlas"));
             /// <summary>
             /// Atlas
             /// </summary>
@@ -418,7 +418,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Atlas => _atlas.Value;
 
-            private static readonly Lazy<Icon> _atom = new Lazy<Icon>(() => new Icon(Style.Solid, "atom"));
+            private static readonly Lazy<Icon> _atom = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "atom"));
             /// <summary>
             /// Atom
             /// </summary>
@@ -427,7 +427,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Atom => _atom.Value;
 
-            private static readonly Lazy<Icon> _audioDescription = new Lazy<Icon>(() => new Icon(Style.Solid, "audio-description"));
+            private static readonly Lazy<Icon> _audioDescription = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "audio-description"));
             /// <summary>
             /// Audio Description
             /// </summary>
@@ -436,7 +436,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon AudioDescription => _audioDescription.Value;
 
-            private static readonly Lazy<Icon> _award = new Lazy<Icon>(() => new Icon(Style.Solid, "award"));
+            private static readonly Lazy<Icon> _award = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "award"));
             /// <summary>
             /// Award
             /// </summary>
@@ -445,7 +445,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Award => _award.Value;
 
-            private static readonly Lazy<Icon> _baby = new Lazy<Icon>(() => new Icon(Style.Solid, "baby"));
+            private static readonly Lazy<Icon> _baby = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "baby"));
             /// <summary>
             /// Baby
             /// </summary>
@@ -454,7 +454,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Baby => _baby.Value;
 
-            private static readonly Lazy<Icon> _babyCarriage = new Lazy<Icon>(() => new Icon(Style.Solid, "baby-carriage"));
+            private static readonly Lazy<Icon> _babyCarriage = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "baby-carriage"));
             /// <summary>
             /// Baby Carriage
             /// </summary>
@@ -463,7 +463,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BabyCarriage => _babyCarriage.Value;
 
-            private static readonly Lazy<Icon> _backspace = new Lazy<Icon>(() => new Icon(Style.Solid, "backspace"));
+            private static readonly Lazy<Icon> _backspace = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "backspace"));
             /// <summary>
             /// Backspace
             /// </summary>
@@ -472,7 +472,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Backspace => _backspace.Value;
 
-            private static readonly Lazy<Icon> _backward = new Lazy<Icon>(() => new Icon(Style.Solid, "backward"));
+            private static readonly Lazy<Icon> _backward = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "backward"));
             /// <summary>
             /// Backward
             /// </summary>
@@ -481,7 +481,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Backward => _backward.Value;
 
-            private static readonly Lazy<Icon> _bacon = new Lazy<Icon>(() => new Icon(Style.Solid, "bacon"));
+            private static readonly Lazy<Icon> _bacon = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bacon"));
             /// <summary>
             /// Bacon
             /// </summary>
@@ -490,7 +490,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bacon => _bacon.Value;
 
-            private static readonly Lazy<Icon> _bahai = new Lazy<Icon>(() => new Icon(Style.Solid, "bahai"));
+            private static readonly Lazy<Icon> _bahai = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bahai"));
             /// <summary>
             /// Bahá Í
             /// </summary>
@@ -499,7 +499,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bahai => _bahai.Value;
 
-            private static readonly Lazy<Icon> _balanceScale = new Lazy<Icon>(() => new Icon(Style.Solid, "balance-scale"));
+            private static readonly Lazy<Icon> _balanceScale = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "balance-scale"));
             /// <summary>
             /// Balance Scale
             /// </summary>
@@ -508,7 +508,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BalanceScale => _balanceScale.Value;
 
-            private static readonly Lazy<Icon> _balanceScaleLeft = new Lazy<Icon>(() => new Icon(Style.Solid, "balance-scale-left"));
+            private static readonly Lazy<Icon> _balanceScaleLeft = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "balance-scale-left"));
             /// <summary>
             /// Balance Scale (Left Weighted)
             /// </summary>
@@ -517,7 +517,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BalanceScaleLeft => _balanceScaleLeft.Value;
 
-            private static readonly Lazy<Icon> _balanceScaleRight = new Lazy<Icon>(() => new Icon(Style.Solid, "balance-scale-right"));
+            private static readonly Lazy<Icon> _balanceScaleRight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "balance-scale-right"));
             /// <summary>
             /// Balance Scale (Right Weighted)
             /// </summary>
@@ -526,7 +526,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BalanceScaleRight => _balanceScaleRight.Value;
 
-            private static readonly Lazy<Icon> _ban = new Lazy<Icon>(() => new Icon(Style.Solid, "ban"));
+            private static readonly Lazy<Icon> _ban = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ban"));
             /// <summary>
             /// Ban
             /// </summary>
@@ -535,7 +535,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Ban => _ban.Value;
 
-            private static readonly Lazy<Icon> _bandAid = new Lazy<Icon>(() => new Icon(Style.Solid, "band-aid"));
+            private static readonly Lazy<Icon> _bandAid = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "band-aid"));
             /// <summary>
             /// Band Aid
             /// </summary>
@@ -544,7 +544,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BandAid => _bandAid.Value;
 
-            private static readonly Lazy<Icon> _barcode = new Lazy<Icon>(() => new Icon(Style.Solid, "barcode"));
+            private static readonly Lazy<Icon> _barcode = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "barcode"));
             /// <summary>
             /// Barcode
             /// </summary>
@@ -553,7 +553,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Barcode => _barcode.Value;
 
-            private static readonly Lazy<Icon> _bars = new Lazy<Icon>(() => new Icon(Style.Solid, "bars"));
+            private static readonly Lazy<Icon> _bars = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bars"));
             /// <summary>
             /// Bars
             /// </summary>
@@ -562,7 +562,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bars => _bars.Value;
 
-            private static readonly Lazy<Icon> _baseballBall = new Lazy<Icon>(() => new Icon(Style.Solid, "baseball-ball"));
+            private static readonly Lazy<Icon> _baseballBall = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "baseball-ball"));
             /// <summary>
             /// Baseball Ball
             /// </summary>
@@ -571,7 +571,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BaseballBall => _baseballBall.Value;
 
-            private static readonly Lazy<Icon> _basketballBall = new Lazy<Icon>(() => new Icon(Style.Solid, "basketball-ball"));
+            private static readonly Lazy<Icon> _basketballBall = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "basketball-ball"));
             /// <summary>
             /// Basketball Ball
             /// </summary>
@@ -580,7 +580,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BasketballBall => _basketballBall.Value;
 
-            private static readonly Lazy<Icon> _bath = new Lazy<Icon>(() => new Icon(Style.Solid, "bath"));
+            private static readonly Lazy<Icon> _bath = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bath"));
             /// <summary>
             /// Bath
             /// </summary>
@@ -589,7 +589,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bath => _bath.Value;
 
-            private static readonly Lazy<Icon> _batteryEmpty = new Lazy<Icon>(() => new Icon(Style.Solid, "battery-empty"));
+            private static readonly Lazy<Icon> _batteryEmpty = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "battery-empty"));
             /// <summary>
             /// Battery Empty
             /// </summary>
@@ -598,7 +598,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BatteryEmpty => _batteryEmpty.Value;
 
-            private static readonly Lazy<Icon> _batteryFull = new Lazy<Icon>(() => new Icon(Style.Solid, "battery-full"));
+            private static readonly Lazy<Icon> _batteryFull = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "battery-full"));
             /// <summary>
             /// Battery Full
             /// </summary>
@@ -607,7 +607,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BatteryFull => _batteryFull.Value;
 
-            private static readonly Lazy<Icon> _batteryHalf = new Lazy<Icon>(() => new Icon(Style.Solid, "battery-half"));
+            private static readonly Lazy<Icon> _batteryHalf = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "battery-half"));
             /// <summary>
             /// Battery 1 2 Full
             /// </summary>
@@ -616,7 +616,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BatteryHalf => _batteryHalf.Value;
 
-            private static readonly Lazy<Icon> _batteryQuarter = new Lazy<Icon>(() => new Icon(Style.Solid, "battery-quarter"));
+            private static readonly Lazy<Icon> _batteryQuarter = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "battery-quarter"));
             /// <summary>
             /// Battery 1 4 Full
             /// </summary>
@@ -625,7 +625,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BatteryQuarter => _batteryQuarter.Value;
 
-            private static readonly Lazy<Icon> _batteryThreeQuarters = new Lazy<Icon>(() => new Icon(Style.Solid, "battery-three-quarters"));
+            private static readonly Lazy<Icon> _batteryThreeQuarters = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "battery-three-quarters"));
             /// <summary>
             /// Battery 3 4 Full
             /// </summary>
@@ -634,7 +634,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BatteryThreeQuarters => _batteryThreeQuarters.Value;
 
-            private static readonly Lazy<Icon> _bed = new Lazy<Icon>(() => new Icon(Style.Solid, "bed"));
+            private static readonly Lazy<Icon> _bed = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bed"));
             /// <summary>
             /// Bed
             /// </summary>
@@ -643,7 +643,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bed => _bed.Value;
 
-            private static readonly Lazy<Icon> _beer = new Lazy<Icon>(() => new Icon(Style.Solid, "beer"));
+            private static readonly Lazy<Icon> _beer = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "beer"));
             /// <summary>
             /// Beer
             /// </summary>
@@ -652,7 +652,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Beer => _beer.Value;
 
-            private static readonly Lazy<Icon> _bell = new Lazy<Icon>(() => new Icon(Style.Solid, "bell"));
+            private static readonly Lazy<Icon> _bell = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bell"));
             /// <summary>
             /// Bell
             /// </summary>
@@ -661,7 +661,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bell => _bell.Value;
 
-            private static readonly Lazy<Icon> _bellSlash = new Lazy<Icon>(() => new Icon(Style.Solid, "bell-slash"));
+            private static readonly Lazy<Icon> _bellSlash = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bell-slash"));
             /// <summary>
             /// Bell Slash
             /// </summary>
@@ -670,7 +670,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BellSlash => _bellSlash.Value;
 
-            private static readonly Lazy<Icon> _bezierCurve = new Lazy<Icon>(() => new Icon(Style.Solid, "bezier-curve"));
+            private static readonly Lazy<Icon> _bezierCurve = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bezier-curve"));
             /// <summary>
             /// Bezier Curve
             /// </summary>
@@ -679,7 +679,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BezierCurve => _bezierCurve.Value;
 
-            private static readonly Lazy<Icon> _bible = new Lazy<Icon>(() => new Icon(Style.Solid, "bible"));
+            private static readonly Lazy<Icon> _bible = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bible"));
             /// <summary>
             /// Bible
             /// </summary>
@@ -688,7 +688,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bible => _bible.Value;
 
-            private static readonly Lazy<Icon> _bicycle = new Lazy<Icon>(() => new Icon(Style.Solid, "bicycle"));
+            private static readonly Lazy<Icon> _bicycle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bicycle"));
             /// <summary>
             /// Bicycle
             /// </summary>
@@ -697,7 +697,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bicycle => _bicycle.Value;
 
-            private static readonly Lazy<Icon> _biking = new Lazy<Icon>(() => new Icon(Style.Solid, "biking"));
+            private static readonly Lazy<Icon> _biking = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "biking"));
             /// <summary>
             /// Biking
             /// </summary>
@@ -706,7 +706,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Biking => _biking.Value;
 
-            private static readonly Lazy<Icon> _binoculars = new Lazy<Icon>(() => new Icon(Style.Solid, "binoculars"));
+            private static readonly Lazy<Icon> _binoculars = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "binoculars"));
             /// <summary>
             /// Binoculars
             /// </summary>
@@ -715,7 +715,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Binoculars => _binoculars.Value;
 
-            private static readonly Lazy<Icon> _biohazard = new Lazy<Icon>(() => new Icon(Style.Solid, "biohazard"));
+            private static readonly Lazy<Icon> _biohazard = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "biohazard"));
             /// <summary>
             /// Biohazard
             /// </summary>
@@ -724,7 +724,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Biohazard => _biohazard.Value;
 
-            private static readonly Lazy<Icon> _birthdayCake = new Lazy<Icon>(() => new Icon(Style.Solid, "birthday-cake"));
+            private static readonly Lazy<Icon> _birthdayCake = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "birthday-cake"));
             /// <summary>
             /// Birthday Cake
             /// </summary>
@@ -733,7 +733,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BirthdayCake => _birthdayCake.Value;
 
-            private static readonly Lazy<Icon> _blender = new Lazy<Icon>(() => new Icon(Style.Solid, "blender"));
+            private static readonly Lazy<Icon> _blender = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "blender"));
             /// <summary>
             /// Blender
             /// </summary>
@@ -742,7 +742,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Blender => _blender.Value;
 
-            private static readonly Lazy<Icon> _blenderPhone = new Lazy<Icon>(() => new Icon(Style.Solid, "blender-phone"));
+            private static readonly Lazy<Icon> _blenderPhone = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "blender-phone"));
             /// <summary>
             /// Blender Phone
             /// </summary>
@@ -751,7 +751,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BlenderPhone => _blenderPhone.Value;
 
-            private static readonly Lazy<Icon> _blind = new Lazy<Icon>(() => new Icon(Style.Solid, "blind"));
+            private static readonly Lazy<Icon> _blind = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "blind"));
             /// <summary>
             /// Blind
             /// </summary>
@@ -760,7 +760,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Blind => _blind.Value;
 
-            private static readonly Lazy<Icon> _blog = new Lazy<Icon>(() => new Icon(Style.Solid, "blog"));
+            private static readonly Lazy<Icon> _blog = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "blog"));
             /// <summary>
             /// Blog
             /// </summary>
@@ -769,7 +769,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Blog => _blog.Value;
 
-            private static readonly Lazy<Icon> _bold = new Lazy<Icon>(() => new Icon(Style.Solid, "bold"));
+            private static readonly Lazy<Icon> _bold = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bold"));
             /// <summary>
             /// Bold
             /// </summary>
@@ -778,7 +778,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bold => _bold.Value;
 
-            private static readonly Lazy<Icon> _bolt = new Lazy<Icon>(() => new Icon(Style.Solid, "bolt"));
+            private static readonly Lazy<Icon> _bolt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bolt"));
             /// <summary>
             /// Lightning Bolt
             /// </summary>
@@ -787,7 +787,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bolt => _bolt.Value;
 
-            private static readonly Lazy<Icon> _bomb = new Lazy<Icon>(() => new Icon(Style.Solid, "bomb"));
+            private static readonly Lazy<Icon> _bomb = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bomb"));
             /// <summary>
             /// Bomb
             /// </summary>
@@ -796,7 +796,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bomb => _bomb.Value;
 
-            private static readonly Lazy<Icon> _bone = new Lazy<Icon>(() => new Icon(Style.Solid, "bone"));
+            private static readonly Lazy<Icon> _bone = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bone"));
             /// <summary>
             /// Bone
             /// </summary>
@@ -805,7 +805,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bone => _bone.Value;
 
-            private static readonly Lazy<Icon> _bong = new Lazy<Icon>(() => new Icon(Style.Solid, "bong"));
+            private static readonly Lazy<Icon> _bong = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bong"));
             /// <summary>
             /// Bong
             /// </summary>
@@ -814,7 +814,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bong => _bong.Value;
 
-            private static readonly Lazy<Icon> _book = new Lazy<Icon>(() => new Icon(Style.Solid, "book"));
+            private static readonly Lazy<Icon> _book = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "book"));
             /// <summary>
             /// Book
             /// </summary>
@@ -823,7 +823,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Book => _book.Value;
 
-            private static readonly Lazy<Icon> _bookDead = new Lazy<Icon>(() => new Icon(Style.Solid, "book-dead"));
+            private static readonly Lazy<Icon> _bookDead = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "book-dead"));
             /// <summary>
             /// Book Of The Dead
             /// </summary>
@@ -832,7 +832,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BookDead => _bookDead.Value;
 
-            private static readonly Lazy<Icon> _bookMedical = new Lazy<Icon>(() => new Icon(Style.Solid, "book-medical"));
+            private static readonly Lazy<Icon> _bookMedical = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "book-medical"));
             /// <summary>
             /// Medical Book
             /// </summary>
@@ -841,7 +841,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BookMedical => _bookMedical.Value;
 
-            private static readonly Lazy<Icon> _bookOpen = new Lazy<Icon>(() => new Icon(Style.Solid, "book-open"));
+            private static readonly Lazy<Icon> _bookOpen = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "book-open"));
             /// <summary>
             /// Book Open
             /// </summary>
@@ -850,7 +850,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BookOpen => _bookOpen.Value;
 
-            private static readonly Lazy<Icon> _bookReader = new Lazy<Icon>(() => new Icon(Style.Solid, "book-reader"));
+            private static readonly Lazy<Icon> _bookReader = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "book-reader"));
             /// <summary>
             /// Book Reader
             /// </summary>
@@ -859,7 +859,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BookReader => _bookReader.Value;
 
-            private static readonly Lazy<Icon> _bookmark = new Lazy<Icon>(() => new Icon(Style.Solid, "bookmark"));
+            private static readonly Lazy<Icon> _bookmark = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bookmark"));
             /// <summary>
             /// Bookmark
             /// </summary>
@@ -868,7 +868,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bookmark => _bookmark.Value;
 
-            private static readonly Lazy<Icon> _borderAll = new Lazy<Icon>(() => new Icon(Style.Solid, "border-all"));
+            private static readonly Lazy<Icon> _borderAll = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "border-all"));
             /// <summary>
             /// Border All
             /// </summary>
@@ -877,7 +877,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BorderAll => _borderAll.Value;
 
-            private static readonly Lazy<Icon> _borderNone = new Lazy<Icon>(() => new Icon(Style.Solid, "border-none"));
+            private static readonly Lazy<Icon> _borderNone = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "border-none"));
             /// <summary>
             /// Border None
             /// </summary>
@@ -886,7 +886,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BorderNone => _borderNone.Value;
 
-            private static readonly Lazy<Icon> _borderStyle = new Lazy<Icon>(() => new Icon(Style.Solid, "border-style"));
+            private static readonly Lazy<Icon> _borderStyle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "border-style"));
             /// <summary>
             /// Border Style
             /// </summary>
@@ -895,7 +895,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BorderStyle => _borderStyle.Value;
 
-            private static readonly Lazy<Icon> _bowlingBall = new Lazy<Icon>(() => new Icon(Style.Solid, "bowling-ball"));
+            private static readonly Lazy<Icon> _bowlingBall = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bowling-ball"));
             /// <summary>
             /// Bowling Ball
             /// </summary>
@@ -904,7 +904,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BowlingBall => _bowlingBall.Value;
 
-            private static readonly Lazy<Icon> _box = new Lazy<Icon>(() => new Icon(Style.Solid, "box"));
+            private static readonly Lazy<Icon> _box = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "box"));
             /// <summary>
             /// Box
             /// </summary>
@@ -913,7 +913,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Box => _box.Value;
 
-            private static readonly Lazy<Icon> _boxOpen = new Lazy<Icon>(() => new Icon(Style.Solid, "box-open"));
+            private static readonly Lazy<Icon> _boxOpen = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "box-open"));
             /// <summary>
             /// Box Open
             /// </summary>
@@ -922,7 +922,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BoxOpen => _boxOpen.Value;
 
-            private static readonly Lazy<Icon> _boxes = new Lazy<Icon>(() => new Icon(Style.Solid, "boxes"));
+            private static readonly Lazy<Icon> _boxes = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "boxes"));
             /// <summary>
             /// Boxes
             /// </summary>
@@ -931,7 +931,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Boxes => _boxes.Value;
 
-            private static readonly Lazy<Icon> _braille = new Lazy<Icon>(() => new Icon(Style.Solid, "braille"));
+            private static readonly Lazy<Icon> _braille = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "braille"));
             /// <summary>
             /// Braille
             /// </summary>
@@ -940,7 +940,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Braille => _braille.Value;
 
-            private static readonly Lazy<Icon> _brain = new Lazy<Icon>(() => new Icon(Style.Solid, "brain"));
+            private static readonly Lazy<Icon> _brain = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "brain"));
             /// <summary>
             /// Brain
             /// </summary>
@@ -949,7 +949,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Brain => _brain.Value;
 
-            private static readonly Lazy<Icon> _breadSlice = new Lazy<Icon>(() => new Icon(Style.Solid, "bread-slice"));
+            private static readonly Lazy<Icon> _breadSlice = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bread-slice"));
             /// <summary>
             /// Bread Slice
             /// </summary>
@@ -958,7 +958,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BreadSlice => _breadSlice.Value;
 
-            private static readonly Lazy<Icon> _briefcase = new Lazy<Icon>(() => new Icon(Style.Solid, "briefcase"));
+            private static readonly Lazy<Icon> _briefcase = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "briefcase"));
             /// <summary>
             /// Briefcase
             /// </summary>
@@ -967,7 +967,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Briefcase => _briefcase.Value;
 
-            private static readonly Lazy<Icon> _briefcaseMedical = new Lazy<Icon>(() => new Icon(Style.Solid, "briefcase-medical"));
+            private static readonly Lazy<Icon> _briefcaseMedical = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "briefcase-medical"));
             /// <summary>
             /// Medical Briefcase
             /// </summary>
@@ -976,7 +976,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BriefcaseMedical => _briefcaseMedical.Value;
 
-            private static readonly Lazy<Icon> _broadcastTower = new Lazy<Icon>(() => new Icon(Style.Solid, "broadcast-tower"));
+            private static readonly Lazy<Icon> _broadcastTower = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "broadcast-tower"));
             /// <summary>
             /// Broadcast Tower
             /// </summary>
@@ -985,7 +985,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BroadcastTower => _broadcastTower.Value;
 
-            private static readonly Lazy<Icon> _broom = new Lazy<Icon>(() => new Icon(Style.Solid, "broom"));
+            private static readonly Lazy<Icon> _broom = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "broom"));
             /// <summary>
             /// Broom
             /// </summary>
@@ -994,7 +994,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Broom => _broom.Value;
 
-            private static readonly Lazy<Icon> _brush = new Lazy<Icon>(() => new Icon(Style.Solid, "brush"));
+            private static readonly Lazy<Icon> _brush = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "brush"));
             /// <summary>
             /// Brush
             /// </summary>
@@ -1003,7 +1003,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Brush => _brush.Value;
 
-            private static readonly Lazy<Icon> _bug = new Lazy<Icon>(() => new Icon(Style.Solid, "bug"));
+            private static readonly Lazy<Icon> _bug = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bug"));
             /// <summary>
             /// Bug
             /// </summary>
@@ -1012,7 +1012,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bug => _bug.Value;
 
-            private static readonly Lazy<Icon> _building = new Lazy<Icon>(() => new Icon(Style.Solid, "building"));
+            private static readonly Lazy<Icon> _building = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "building"));
             /// <summary>
             /// Building
             /// </summary>
@@ -1021,7 +1021,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Building => _building.Value;
 
-            private static readonly Lazy<Icon> _bullhorn = new Lazy<Icon>(() => new Icon(Style.Solid, "bullhorn"));
+            private static readonly Lazy<Icon> _bullhorn = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bullhorn"));
             /// <summary>
             /// Bullhorn
             /// </summary>
@@ -1030,7 +1030,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bullhorn => _bullhorn.Value;
 
-            private static readonly Lazy<Icon> _bullseye = new Lazy<Icon>(() => new Icon(Style.Solid, "bullseye"));
+            private static readonly Lazy<Icon> _bullseye = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bullseye"));
             /// <summary>
             /// Bullseye
             /// </summary>
@@ -1039,7 +1039,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bullseye => _bullseye.Value;
 
-            private static readonly Lazy<Icon> _burn = new Lazy<Icon>(() => new Icon(Style.Solid, "burn"));
+            private static readonly Lazy<Icon> _burn = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "burn"));
             /// <summary>
             /// Burn
             /// </summary>
@@ -1048,7 +1048,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Burn => _burn.Value;
 
-            private static readonly Lazy<Icon> _bus = new Lazy<Icon>(() => new Icon(Style.Solid, "bus"));
+            private static readonly Lazy<Icon> _bus = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bus"));
             /// <summary>
             /// Bus
             /// </summary>
@@ -1057,7 +1057,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Bus => _bus.Value;
 
-            private static readonly Lazy<Icon> _busAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "bus-alt"));
+            private static readonly Lazy<Icon> _busAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "bus-alt"));
             /// <summary>
             /// Bus Alt
             /// </summary>
@@ -1066,7 +1066,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BusAlt => _busAlt.Value;
 
-            private static readonly Lazy<Icon> _businessTime = new Lazy<Icon>(() => new Icon(Style.Solid, "business-time"));
+            private static readonly Lazy<Icon> _businessTime = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "business-time"));
             /// <summary>
             /// Business Time
             /// </summary>
@@ -1075,7 +1075,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon BusinessTime => _businessTime.Value;
 
-            private static readonly Lazy<Icon> _calculator = new Lazy<Icon>(() => new Icon(Style.Solid, "calculator"));
+            private static readonly Lazy<Icon> _calculator = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "calculator"));
             /// <summary>
             /// Calculator
             /// </summary>
@@ -1084,7 +1084,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Calculator => _calculator.Value;
 
-            private static readonly Lazy<Icon> _calendar = new Lazy<Icon>(() => new Icon(Style.Solid, "calendar"));
+            private static readonly Lazy<Icon> _calendar = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "calendar"));
             /// <summary>
             /// Calendar
             /// </summary>
@@ -1093,7 +1093,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Calendar => _calendar.Value;
 
-            private static readonly Lazy<Icon> _calendarAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "calendar-alt"));
+            private static readonly Lazy<Icon> _calendarAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "calendar-alt"));
             /// <summary>
             /// Alternate Calendar
             /// </summary>
@@ -1102,7 +1102,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CalendarAlt => _calendarAlt.Value;
 
-            private static readonly Lazy<Icon> _calendarCheck = new Lazy<Icon>(() => new Icon(Style.Solid, "calendar-check"));
+            private static readonly Lazy<Icon> _calendarCheck = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "calendar-check"));
             /// <summary>
             /// Calendar Check
             /// </summary>
@@ -1111,7 +1111,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CalendarCheck => _calendarCheck.Value;
 
-            private static readonly Lazy<Icon> _calendarDay = new Lazy<Icon>(() => new Icon(Style.Solid, "calendar-day"));
+            private static readonly Lazy<Icon> _calendarDay = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "calendar-day"));
             /// <summary>
             /// Calendar With Day Focus
             /// </summary>
@@ -1120,7 +1120,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CalendarDay => _calendarDay.Value;
 
-            private static readonly Lazy<Icon> _calendarMinus = new Lazy<Icon>(() => new Icon(Style.Solid, "calendar-minus"));
+            private static readonly Lazy<Icon> _calendarMinus = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "calendar-minus"));
             /// <summary>
             /// Calendar Minus
             /// </summary>
@@ -1129,7 +1129,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CalendarMinus => _calendarMinus.Value;
 
-            private static readonly Lazy<Icon> _calendarPlus = new Lazy<Icon>(() => new Icon(Style.Solid, "calendar-plus"));
+            private static readonly Lazy<Icon> _calendarPlus = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "calendar-plus"));
             /// <summary>
             /// Calendar Plus
             /// </summary>
@@ -1138,7 +1138,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CalendarPlus => _calendarPlus.Value;
 
-            private static readonly Lazy<Icon> _calendarTimes = new Lazy<Icon>(() => new Icon(Style.Solid, "calendar-times"));
+            private static readonly Lazy<Icon> _calendarTimes = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "calendar-times"));
             /// <summary>
             /// Calendar Times
             /// </summary>
@@ -1147,7 +1147,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CalendarTimes => _calendarTimes.Value;
 
-            private static readonly Lazy<Icon> _calendarWeek = new Lazy<Icon>(() => new Icon(Style.Solid, "calendar-week"));
+            private static readonly Lazy<Icon> _calendarWeek = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "calendar-week"));
             /// <summary>
             /// Calendar With Week Focus
             /// </summary>
@@ -1156,7 +1156,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CalendarWeek => _calendarWeek.Value;
 
-            private static readonly Lazy<Icon> _camera = new Lazy<Icon>(() => new Icon(Style.Solid, "camera"));
+            private static readonly Lazy<Icon> _camera = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "camera"));
             /// <summary>
             /// Camera
             /// </summary>
@@ -1165,7 +1165,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Camera => _camera.Value;
 
-            private static readonly Lazy<Icon> _cameraRetro = new Lazy<Icon>(() => new Icon(Style.Solid, "camera-retro"));
+            private static readonly Lazy<Icon> _cameraRetro = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "camera-retro"));
             /// <summary>
             /// Retro Camera
             /// </summary>
@@ -1174,7 +1174,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CameraRetro => _cameraRetro.Value;
 
-            private static readonly Lazy<Icon> _campground = new Lazy<Icon>(() => new Icon(Style.Solid, "campground"));
+            private static readonly Lazy<Icon> _campground = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "campground"));
             /// <summary>
             /// Campground
             /// </summary>
@@ -1183,7 +1183,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Campground => _campground.Value;
 
-            private static readonly Lazy<Icon> _candyCane = new Lazy<Icon>(() => new Icon(Style.Solid, "candy-cane"));
+            private static readonly Lazy<Icon> _candyCane = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "candy-cane"));
             /// <summary>
             /// Candy Cane
             /// </summary>
@@ -1192,7 +1192,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CandyCane => _candyCane.Value;
 
-            private static readonly Lazy<Icon> _cannabis = new Lazy<Icon>(() => new Icon(Style.Solid, "cannabis"));
+            private static readonly Lazy<Icon> _cannabis = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cannabis"));
             /// <summary>
             /// Cannabis
             /// </summary>
@@ -1201,7 +1201,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Cannabis => _cannabis.Value;
 
-            private static readonly Lazy<Icon> _capsules = new Lazy<Icon>(() => new Icon(Style.Solid, "capsules"));
+            private static readonly Lazy<Icon> _capsules = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "capsules"));
             /// <summary>
             /// Capsules
             /// </summary>
@@ -1210,7 +1210,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Capsules => _capsules.Value;
 
-            private static readonly Lazy<Icon> _car = new Lazy<Icon>(() => new Icon(Style.Solid, "car"));
+            private static readonly Lazy<Icon> _car = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "car"));
             /// <summary>
             /// Car
             /// </summary>
@@ -1219,7 +1219,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Car => _car.Value;
 
-            private static readonly Lazy<Icon> _carAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "car-alt"));
+            private static readonly Lazy<Icon> _carAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "car-alt"));
             /// <summary>
             /// Alternate Car
             /// </summary>
@@ -1228,7 +1228,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CarAlt => _carAlt.Value;
 
-            private static readonly Lazy<Icon> _carBattery = new Lazy<Icon>(() => new Icon(Style.Solid, "car-battery"));
+            private static readonly Lazy<Icon> _carBattery = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "car-battery"));
             /// <summary>
             /// Car Battery
             /// </summary>
@@ -1237,7 +1237,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CarBattery => _carBattery.Value;
 
-            private static readonly Lazy<Icon> _carCrash = new Lazy<Icon>(() => new Icon(Style.Solid, "car-crash"));
+            private static readonly Lazy<Icon> _carCrash = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "car-crash"));
             /// <summary>
             /// Car Crash
             /// </summary>
@@ -1246,7 +1246,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CarCrash => _carCrash.Value;
 
-            private static readonly Lazy<Icon> _carSide = new Lazy<Icon>(() => new Icon(Style.Solid, "car-side"));
+            private static readonly Lazy<Icon> _carSide = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "car-side"));
             /// <summary>
             /// Car Side
             /// </summary>
@@ -1255,7 +1255,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CarSide => _carSide.Value;
 
-            private static readonly Lazy<Icon> _caravan = new Lazy<Icon>(() => new Icon(Style.Solid, "caravan"));
+            private static readonly Lazy<Icon> _caravan = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "caravan"));
             /// <summary>
             /// Caravan
             /// </summary>
@@ -1264,7 +1264,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Caravan => _caravan.Value;
 
-            private static readonly Lazy<Icon> _caretDown = new Lazy<Icon>(() => new Icon(Style.Solid, "caret-down"));
+            private static readonly Lazy<Icon> _caretDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "caret-down"));
             /// <summary>
             /// Caret Down
             /// </summary>
@@ -1273,7 +1273,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CaretDown => _caretDown.Value;
 
-            private static readonly Lazy<Icon> _caretLeft = new Lazy<Icon>(() => new Icon(Style.Solid, "caret-left"));
+            private static readonly Lazy<Icon> _caretLeft = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "caret-left"));
             /// <summary>
             /// Caret Left
             /// </summary>
@@ -1282,7 +1282,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CaretLeft => _caretLeft.Value;
 
-            private static readonly Lazy<Icon> _caretRight = new Lazy<Icon>(() => new Icon(Style.Solid, "caret-right"));
+            private static readonly Lazy<Icon> _caretRight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "caret-right"));
             /// <summary>
             /// Caret Right
             /// </summary>
@@ -1291,7 +1291,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CaretRight => _caretRight.Value;
 
-            private static readonly Lazy<Icon> _caretSquareDown = new Lazy<Icon>(() => new Icon(Style.Solid, "caret-square-down"));
+            private static readonly Lazy<Icon> _caretSquareDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "caret-square-down"));
             /// <summary>
             /// Caret Square Down
             /// </summary>
@@ -1300,7 +1300,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CaretSquareDown => _caretSquareDown.Value;
 
-            private static readonly Lazy<Icon> _caretSquareLeft = new Lazy<Icon>(() => new Icon(Style.Solid, "caret-square-left"));
+            private static readonly Lazy<Icon> _caretSquareLeft = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "caret-square-left"));
             /// <summary>
             /// Caret Square Left
             /// </summary>
@@ -1309,7 +1309,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CaretSquareLeft => _caretSquareLeft.Value;
 
-            private static readonly Lazy<Icon> _caretSquareRight = new Lazy<Icon>(() => new Icon(Style.Solid, "caret-square-right"));
+            private static readonly Lazy<Icon> _caretSquareRight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "caret-square-right"));
             /// <summary>
             /// Caret Square Right
             /// </summary>
@@ -1318,7 +1318,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CaretSquareRight => _caretSquareRight.Value;
 
-            private static readonly Lazy<Icon> _caretSquareUp = new Lazy<Icon>(() => new Icon(Style.Solid, "caret-square-up"));
+            private static readonly Lazy<Icon> _caretSquareUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "caret-square-up"));
             /// <summary>
             /// Caret Square Up
             /// </summary>
@@ -1327,7 +1327,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CaretSquareUp => _caretSquareUp.Value;
 
-            private static readonly Lazy<Icon> _caretUp = new Lazy<Icon>(() => new Icon(Style.Solid, "caret-up"));
+            private static readonly Lazy<Icon> _caretUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "caret-up"));
             /// <summary>
             /// Caret Up
             /// </summary>
@@ -1336,7 +1336,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CaretUp => _caretUp.Value;
 
-            private static readonly Lazy<Icon> _carrot = new Lazy<Icon>(() => new Icon(Style.Solid, "carrot"));
+            private static readonly Lazy<Icon> _carrot = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "carrot"));
             /// <summary>
             /// Carrot
             /// </summary>
@@ -1345,7 +1345,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Carrot => _carrot.Value;
 
-            private static readonly Lazy<Icon> _cartArrowDown = new Lazy<Icon>(() => new Icon(Style.Solid, "cart-arrow-down"));
+            private static readonly Lazy<Icon> _cartArrowDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cart-arrow-down"));
             /// <summary>
             /// Shopping Cart Arrow Down
             /// </summary>
@@ -1354,7 +1354,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CartArrowDown => _cartArrowDown.Value;
 
-            private static readonly Lazy<Icon> _cartPlus = new Lazy<Icon>(() => new Icon(Style.Solid, "cart-plus"));
+            private static readonly Lazy<Icon> _cartPlus = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cart-plus"));
             /// <summary>
             /// Add To Shopping Cart
             /// </summary>
@@ -1363,7 +1363,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CartPlus => _cartPlus.Value;
 
-            private static readonly Lazy<Icon> _cashRegister = new Lazy<Icon>(() => new Icon(Style.Solid, "cash-register"));
+            private static readonly Lazy<Icon> _cashRegister = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cash-register"));
             /// <summary>
             /// Cash Register
             /// </summary>
@@ -1372,7 +1372,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CashRegister => _cashRegister.Value;
 
-            private static readonly Lazy<Icon> _cat = new Lazy<Icon>(() => new Icon(Style.Solid, "cat"));
+            private static readonly Lazy<Icon> _cat = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cat"));
             /// <summary>
             /// Cat
             /// </summary>
@@ -1381,7 +1381,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Cat => _cat.Value;
 
-            private static readonly Lazy<Icon> _certificate = new Lazy<Icon>(() => new Icon(Style.Solid, "certificate"));
+            private static readonly Lazy<Icon> _certificate = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "certificate"));
             /// <summary>
             /// Certificate
             /// </summary>
@@ -1390,7 +1390,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Certificate => _certificate.Value;
 
-            private static readonly Lazy<Icon> _chair = new Lazy<Icon>(() => new Icon(Style.Solid, "chair"));
+            private static readonly Lazy<Icon> _chair = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chair"));
             /// <summary>
             /// Chair
             /// </summary>
@@ -1399,7 +1399,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Chair => _chair.Value;
 
-            private static readonly Lazy<Icon> _chalkboard = new Lazy<Icon>(() => new Icon(Style.Solid, "chalkboard"));
+            private static readonly Lazy<Icon> _chalkboard = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chalkboard"));
             /// <summary>
             /// Chalkboard
             /// </summary>
@@ -1408,7 +1408,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Chalkboard => _chalkboard.Value;
 
-            private static readonly Lazy<Icon> _chalkboardTeacher = new Lazy<Icon>(() => new Icon(Style.Solid, "chalkboard-teacher"));
+            private static readonly Lazy<Icon> _chalkboardTeacher = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chalkboard-teacher"));
             /// <summary>
             /// Chalkboard Teacher
             /// </summary>
@@ -1417,7 +1417,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChalkboardTeacher => _chalkboardTeacher.Value;
 
-            private static readonly Lazy<Icon> _chargingStation = new Lazy<Icon>(() => new Icon(Style.Solid, "charging-station"));
+            private static readonly Lazy<Icon> _chargingStation = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "charging-station"));
             /// <summary>
             /// Charging Station
             /// </summary>
@@ -1426,7 +1426,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChargingStation => _chargingStation.Value;
 
-            private static readonly Lazy<Icon> _chartArea = new Lazy<Icon>(() => new Icon(Style.Solid, "chart-area"));
+            private static readonly Lazy<Icon> _chartArea = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chart-area"));
             /// <summary>
             /// Area Chart
             /// </summary>
@@ -1435,7 +1435,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChartArea => _chartArea.Value;
 
-            private static readonly Lazy<Icon> _chartBar = new Lazy<Icon>(() => new Icon(Style.Solid, "chart-bar"));
+            private static readonly Lazy<Icon> _chartBar = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chart-bar"));
             /// <summary>
             /// Bar Chart
             /// </summary>
@@ -1444,7 +1444,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChartBar => _chartBar.Value;
 
-            private static readonly Lazy<Icon> _chartLine = new Lazy<Icon>(() => new Icon(Style.Solid, "chart-line"));
+            private static readonly Lazy<Icon> _chartLine = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chart-line"));
             /// <summary>
             /// Line Chart
             /// </summary>
@@ -1453,7 +1453,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChartLine => _chartLine.Value;
 
-            private static readonly Lazy<Icon> _chartPie = new Lazy<Icon>(() => new Icon(Style.Solid, "chart-pie"));
+            private static readonly Lazy<Icon> _chartPie = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chart-pie"));
             /// <summary>
             /// Pie Chart
             /// </summary>
@@ -1462,7 +1462,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChartPie => _chartPie.Value;
 
-            private static readonly Lazy<Icon> _check = new Lazy<Icon>(() => new Icon(Style.Solid, "check"));
+            private static readonly Lazy<Icon> _check = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "check"));
             /// <summary>
             /// Check
             /// </summary>
@@ -1471,7 +1471,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Check => _check.Value;
 
-            private static readonly Lazy<Icon> _checkCircle = new Lazy<Icon>(() => new Icon(Style.Solid, "check-circle"));
+            private static readonly Lazy<Icon> _checkCircle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "check-circle"));
             /// <summary>
             /// Check Circle
             /// </summary>
@@ -1480,7 +1480,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CheckCircle => _checkCircle.Value;
 
-            private static readonly Lazy<Icon> _checkDouble = new Lazy<Icon>(() => new Icon(Style.Solid, "check-double"));
+            private static readonly Lazy<Icon> _checkDouble = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "check-double"));
             /// <summary>
             /// Double Check
             /// </summary>
@@ -1489,7 +1489,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CheckDouble => _checkDouble.Value;
 
-            private static readonly Lazy<Icon> _checkSquare = new Lazy<Icon>(() => new Icon(Style.Solid, "check-square"));
+            private static readonly Lazy<Icon> _checkSquare = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "check-square"));
             /// <summary>
             /// Check Square
             /// </summary>
@@ -1498,7 +1498,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CheckSquare => _checkSquare.Value;
 
-            private static readonly Lazy<Icon> _cheese = new Lazy<Icon>(() => new Icon(Style.Solid, "cheese"));
+            private static readonly Lazy<Icon> _cheese = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cheese"));
             /// <summary>
             /// Cheese
             /// </summary>
@@ -1507,7 +1507,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Cheese => _cheese.Value;
 
-            private static readonly Lazy<Icon> _chess = new Lazy<Icon>(() => new Icon(Style.Solid, "chess"));
+            private static readonly Lazy<Icon> _chess = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chess"));
             /// <summary>
             /// Chess
             /// </summary>
@@ -1516,7 +1516,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Chess => _chess.Value;
 
-            private static readonly Lazy<Icon> _chessBishop = new Lazy<Icon>(() => new Icon(Style.Solid, "chess-bishop"));
+            private static readonly Lazy<Icon> _chessBishop = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chess-bishop"));
             /// <summary>
             /// Chess Bishop
             /// </summary>
@@ -1525,7 +1525,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChessBishop => _chessBishop.Value;
 
-            private static readonly Lazy<Icon> _chessBoard = new Lazy<Icon>(() => new Icon(Style.Solid, "chess-board"));
+            private static readonly Lazy<Icon> _chessBoard = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chess-board"));
             /// <summary>
             /// Chess Board
             /// </summary>
@@ -1534,7 +1534,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChessBoard => _chessBoard.Value;
 
-            private static readonly Lazy<Icon> _chessKing = new Lazy<Icon>(() => new Icon(Style.Solid, "chess-king"));
+            private static readonly Lazy<Icon> _chessKing = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chess-king"));
             /// <summary>
             /// Chess King
             /// </summary>
@@ -1543,7 +1543,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChessKing => _chessKing.Value;
 
-            private static readonly Lazy<Icon> _chessKnight = new Lazy<Icon>(() => new Icon(Style.Solid, "chess-knight"));
+            private static readonly Lazy<Icon> _chessKnight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chess-knight"));
             /// <summary>
             /// Chess Knight
             /// </summary>
@@ -1552,7 +1552,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChessKnight => _chessKnight.Value;
 
-            private static readonly Lazy<Icon> _chessPawn = new Lazy<Icon>(() => new Icon(Style.Solid, "chess-pawn"));
+            private static readonly Lazy<Icon> _chessPawn = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chess-pawn"));
             /// <summary>
             /// Chess Pawn
             /// </summary>
@@ -1561,7 +1561,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChessPawn => _chessPawn.Value;
 
-            private static readonly Lazy<Icon> _chessQueen = new Lazy<Icon>(() => new Icon(Style.Solid, "chess-queen"));
+            private static readonly Lazy<Icon> _chessQueen = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chess-queen"));
             /// <summary>
             /// Chess Queen
             /// </summary>
@@ -1570,7 +1570,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChessQueen => _chessQueen.Value;
 
-            private static readonly Lazy<Icon> _chessRook = new Lazy<Icon>(() => new Icon(Style.Solid, "chess-rook"));
+            private static readonly Lazy<Icon> _chessRook = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chess-rook"));
             /// <summary>
             /// Chess Rook
             /// </summary>
@@ -1579,7 +1579,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChessRook => _chessRook.Value;
 
-            private static readonly Lazy<Icon> _chevronCircleDown = new Lazy<Icon>(() => new Icon(Style.Solid, "chevron-circle-down"));
+            private static readonly Lazy<Icon> _chevronCircleDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chevron-circle-down"));
             /// <summary>
             /// Chevron Circle Down
             /// </summary>
@@ -1588,7 +1588,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChevronCircleDown => _chevronCircleDown.Value;
 
-            private static readonly Lazy<Icon> _chevronCircleLeft = new Lazy<Icon>(() => new Icon(Style.Solid, "chevron-circle-left"));
+            private static readonly Lazy<Icon> _chevronCircleLeft = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chevron-circle-left"));
             /// <summary>
             /// Chevron Circle Left
             /// </summary>
@@ -1597,7 +1597,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChevronCircleLeft => _chevronCircleLeft.Value;
 
-            private static readonly Lazy<Icon> _chevronCircleRight = new Lazy<Icon>(() => new Icon(Style.Solid, "chevron-circle-right"));
+            private static readonly Lazy<Icon> _chevronCircleRight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chevron-circle-right"));
             /// <summary>
             /// Chevron Circle Right
             /// </summary>
@@ -1606,7 +1606,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChevronCircleRight => _chevronCircleRight.Value;
 
-            private static readonly Lazy<Icon> _chevronCircleUp = new Lazy<Icon>(() => new Icon(Style.Solid, "chevron-circle-up"));
+            private static readonly Lazy<Icon> _chevronCircleUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chevron-circle-up"));
             /// <summary>
             /// Chevron Circle Up
             /// </summary>
@@ -1615,7 +1615,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChevronCircleUp => _chevronCircleUp.Value;
 
-            private static readonly Lazy<Icon> _chevronDown = new Lazy<Icon>(() => new Icon(Style.Solid, "chevron-down"));
+            private static readonly Lazy<Icon> _chevronDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chevron-down"));
             /// <summary>
             /// Chevron Down
             /// </summary>
@@ -1624,7 +1624,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChevronDown => _chevronDown.Value;
 
-            private static readonly Lazy<Icon> _chevronLeft = new Lazy<Icon>(() => new Icon(Style.Solid, "chevron-left"));
+            private static readonly Lazy<Icon> _chevronLeft = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chevron-left"));
             /// <summary>
             /// Chevron Left
             /// </summary>
@@ -1633,7 +1633,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChevronLeft => _chevronLeft.Value;
 
-            private static readonly Lazy<Icon> _chevronRight = new Lazy<Icon>(() => new Icon(Style.Solid, "chevron-right"));
+            private static readonly Lazy<Icon> _chevronRight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chevron-right"));
             /// <summary>
             /// Chevron Right
             /// </summary>
@@ -1642,7 +1642,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChevronRight => _chevronRight.Value;
 
-            private static readonly Lazy<Icon> _chevronUp = new Lazy<Icon>(() => new Icon(Style.Solid, "chevron-up"));
+            private static readonly Lazy<Icon> _chevronUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "chevron-up"));
             /// <summary>
             /// Chevron Up
             /// </summary>
@@ -1651,7 +1651,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ChevronUp => _chevronUp.Value;
 
-            private static readonly Lazy<Icon> _child = new Lazy<Icon>(() => new Icon(Style.Solid, "child"));
+            private static readonly Lazy<Icon> _child = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "child"));
             /// <summary>
             /// Child
             /// </summary>
@@ -1660,7 +1660,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Child => _child.Value;
 
-            private static readonly Lazy<Icon> _church = new Lazy<Icon>(() => new Icon(Style.Solid, "church"));
+            private static readonly Lazy<Icon> _church = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "church"));
             /// <summary>
             /// Church
             /// </summary>
@@ -1669,7 +1669,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Church => _church.Value;
 
-            private static readonly Lazy<Icon> _circle = new Lazy<Icon>(() => new Icon(Style.Solid, "circle"));
+            private static readonly Lazy<Icon> _circle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "circle"));
             /// <summary>
             /// Circle
             /// </summary>
@@ -1678,7 +1678,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Circle => _circle.Value;
 
-            private static readonly Lazy<Icon> _circleNotch = new Lazy<Icon>(() => new Icon(Style.Solid, "circle-notch"));
+            private static readonly Lazy<Icon> _circleNotch = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "circle-notch"));
             /// <summary>
             /// Circle Notched
             /// </summary>
@@ -1687,7 +1687,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CircleNotch => _circleNotch.Value;
 
-            private static readonly Lazy<Icon> _city = new Lazy<Icon>(() => new Icon(Style.Solid, "city"));
+            private static readonly Lazy<Icon> _city = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "city"));
             /// <summary>
             /// City
             /// </summary>
@@ -1696,7 +1696,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon City => _city.Value;
 
-            private static readonly Lazy<Icon> _clinicMedical = new Lazy<Icon>(() => new Icon(Style.Solid, "clinic-medical"));
+            private static readonly Lazy<Icon> _clinicMedical = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "clinic-medical"));
             /// <summary>
             /// Medical Clinic
             /// </summary>
@@ -1705,7 +1705,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ClinicMedical => _clinicMedical.Value;
 
-            private static readonly Lazy<Icon> _clipboard = new Lazy<Icon>(() => new Icon(Style.Solid, "clipboard"));
+            private static readonly Lazy<Icon> _clipboard = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "clipboard"));
             /// <summary>
             /// Clipboard
             /// </summary>
@@ -1714,7 +1714,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Clipboard => _clipboard.Value;
 
-            private static readonly Lazy<Icon> _clipboardCheck = new Lazy<Icon>(() => new Icon(Style.Solid, "clipboard-check"));
+            private static readonly Lazy<Icon> _clipboardCheck = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "clipboard-check"));
             /// <summary>
             /// Clipboard With Check
             /// </summary>
@@ -1723,7 +1723,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ClipboardCheck => _clipboardCheck.Value;
 
-            private static readonly Lazy<Icon> _clipboardList = new Lazy<Icon>(() => new Icon(Style.Solid, "clipboard-list"));
+            private static readonly Lazy<Icon> _clipboardList = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "clipboard-list"));
             /// <summary>
             /// Clipboard List
             /// </summary>
@@ -1732,7 +1732,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ClipboardList => _clipboardList.Value;
 
-            private static readonly Lazy<Icon> _clock = new Lazy<Icon>(() => new Icon(Style.Solid, "clock"));
+            private static readonly Lazy<Icon> _clock = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "clock"));
             /// <summary>
             /// Clock
             /// </summary>
@@ -1741,7 +1741,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Clock => _clock.Value;
 
-            private static readonly Lazy<Icon> _clone = new Lazy<Icon>(() => new Icon(Style.Solid, "clone"));
+            private static readonly Lazy<Icon> _clone = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "clone"));
             /// <summary>
             /// Clone
             /// </summary>
@@ -1750,7 +1750,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Clone => _clone.Value;
 
-            private static readonly Lazy<Icon> _closedCaptioning = new Lazy<Icon>(() => new Icon(Style.Solid, "closed-captioning"));
+            private static readonly Lazy<Icon> _closedCaptioning = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "closed-captioning"));
             /// <summary>
             /// Closed Captioning
             /// </summary>
@@ -1759,7 +1759,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ClosedCaptioning => _closedCaptioning.Value;
 
-            private static readonly Lazy<Icon> _cloud = new Lazy<Icon>(() => new Icon(Style.Solid, "cloud"));
+            private static readonly Lazy<Icon> _cloud = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cloud"));
             /// <summary>
             /// Cloud
             /// </summary>
@@ -1768,7 +1768,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Cloud => _cloud.Value;
 
-            private static readonly Lazy<Icon> _cloudDownloadAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "cloud-download-alt"));
+            private static readonly Lazy<Icon> _cloudDownloadAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cloud-download-alt"));
             /// <summary>
             /// Alternate Cloud Download
             /// </summary>
@@ -1777,7 +1777,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CloudDownloadAlt => _cloudDownloadAlt.Value;
 
-            private static readonly Lazy<Icon> _cloudMeatball = new Lazy<Icon>(() => new Icon(Style.Solid, "cloud-meatball"));
+            private static readonly Lazy<Icon> _cloudMeatball = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cloud-meatball"));
             /// <summary>
             /// Cloud With A Chance Of Meatball
             /// </summary>
@@ -1786,7 +1786,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CloudMeatball => _cloudMeatball.Value;
 
-            private static readonly Lazy<Icon> _cloudMoon = new Lazy<Icon>(() => new Icon(Style.Solid, "cloud-moon"));
+            private static readonly Lazy<Icon> _cloudMoon = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cloud-moon"));
             /// <summary>
             /// Cloud With Moon
             /// </summary>
@@ -1795,7 +1795,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CloudMoon => _cloudMoon.Value;
 
-            private static readonly Lazy<Icon> _cloudMoonRain = new Lazy<Icon>(() => new Icon(Style.Solid, "cloud-moon-rain"));
+            private static readonly Lazy<Icon> _cloudMoonRain = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cloud-moon-rain"));
             /// <summary>
             /// Cloud With Moon And Rain
             /// </summary>
@@ -1804,7 +1804,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CloudMoonRain => _cloudMoonRain.Value;
 
-            private static readonly Lazy<Icon> _cloudRain = new Lazy<Icon>(() => new Icon(Style.Solid, "cloud-rain"));
+            private static readonly Lazy<Icon> _cloudRain = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cloud-rain"));
             /// <summary>
             /// Cloud With Rain
             /// </summary>
@@ -1813,7 +1813,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CloudRain => _cloudRain.Value;
 
-            private static readonly Lazy<Icon> _cloudShowersHeavy = new Lazy<Icon>(() => new Icon(Style.Solid, "cloud-showers-heavy"));
+            private static readonly Lazy<Icon> _cloudShowersHeavy = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cloud-showers-heavy"));
             /// <summary>
             /// Cloud With Heavy Showers
             /// </summary>
@@ -1822,7 +1822,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CloudShowersHeavy => _cloudShowersHeavy.Value;
 
-            private static readonly Lazy<Icon> _cloudSun = new Lazy<Icon>(() => new Icon(Style.Solid, "cloud-sun"));
+            private static readonly Lazy<Icon> _cloudSun = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cloud-sun"));
             /// <summary>
             /// Cloud With Sun
             /// </summary>
@@ -1831,7 +1831,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CloudSun => _cloudSun.Value;
 
-            private static readonly Lazy<Icon> _cloudSunRain = new Lazy<Icon>(() => new Icon(Style.Solid, "cloud-sun-rain"));
+            private static readonly Lazy<Icon> _cloudSunRain = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cloud-sun-rain"));
             /// <summary>
             /// Cloud With Sun And Rain
             /// </summary>
@@ -1840,7 +1840,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CloudSunRain => _cloudSunRain.Value;
 
-            private static readonly Lazy<Icon> _cloudUploadAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "cloud-upload-alt"));
+            private static readonly Lazy<Icon> _cloudUploadAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cloud-upload-alt"));
             /// <summary>
             /// Alternate Cloud Upload
             /// </summary>
@@ -1849,7 +1849,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CloudUploadAlt => _cloudUploadAlt.Value;
 
-            private static readonly Lazy<Icon> _cocktail = new Lazy<Icon>(() => new Icon(Style.Solid, "cocktail"));
+            private static readonly Lazy<Icon> _cocktail = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cocktail"));
             /// <summary>
             /// Cocktail
             /// </summary>
@@ -1858,7 +1858,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Cocktail => _cocktail.Value;
 
-            private static readonly Lazy<Icon> _code = new Lazy<Icon>(() => new Icon(Style.Solid, "code"));
+            private static readonly Lazy<Icon> _code = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "code"));
             /// <summary>
             /// Code
             /// </summary>
@@ -1867,7 +1867,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Code => _code.Value;
 
-            private static readonly Lazy<Icon> _codeBranch = new Lazy<Icon>(() => new Icon(Style.Solid, "code-branch"));
+            private static readonly Lazy<Icon> _codeBranch = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "code-branch"));
             /// <summary>
             /// Code Branch
             /// </summary>
@@ -1876,7 +1876,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CodeBranch => _codeBranch.Value;
 
-            private static readonly Lazy<Icon> _coffee = new Lazy<Icon>(() => new Icon(Style.Solid, "coffee"));
+            private static readonly Lazy<Icon> _coffee = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "coffee"));
             /// <summary>
             /// Coffee
             /// </summary>
@@ -1885,7 +1885,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Coffee => _coffee.Value;
 
-            private static readonly Lazy<Icon> _cog = new Lazy<Icon>(() => new Icon(Style.Solid, "cog"));
+            private static readonly Lazy<Icon> _cog = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cog"));
             /// <summary>
             /// Cog
             /// </summary>
@@ -1894,7 +1894,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Cog => _cog.Value;
 
-            private static readonly Lazy<Icon> _cogs = new Lazy<Icon>(() => new Icon(Style.Solid, "cogs"));
+            private static readonly Lazy<Icon> _cogs = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cogs"));
             /// <summary>
             /// Cogs
             /// </summary>
@@ -1903,7 +1903,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Cogs => _cogs.Value;
 
-            private static readonly Lazy<Icon> _coins = new Lazy<Icon>(() => new Icon(Style.Solid, "coins"));
+            private static readonly Lazy<Icon> _coins = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "coins"));
             /// <summary>
             /// Coins
             /// </summary>
@@ -1912,7 +1912,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Coins => _coins.Value;
 
-            private static readonly Lazy<Icon> _columns = new Lazy<Icon>(() => new Icon(Style.Solid, "columns"));
+            private static readonly Lazy<Icon> _columns = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "columns"));
             /// <summary>
             /// Columns
             /// </summary>
@@ -1921,7 +1921,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Columns => _columns.Value;
 
-            private static readonly Lazy<Icon> _comment = new Lazy<Icon>(() => new Icon(Style.Solid, "comment"));
+            private static readonly Lazy<Icon> _comment = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "comment"));
             /// <summary>
             /// Comment
             /// </summary>
@@ -1930,7 +1930,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Comment => _comment.Value;
 
-            private static readonly Lazy<Icon> _commentAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "comment-alt"));
+            private static readonly Lazy<Icon> _commentAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "comment-alt"));
             /// <summary>
             /// Alternate Comment
             /// </summary>
@@ -1939,7 +1939,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CommentAlt => _commentAlt.Value;
 
-            private static readonly Lazy<Icon> _commentDollar = new Lazy<Icon>(() => new Icon(Style.Solid, "comment-dollar"));
+            private static readonly Lazy<Icon> _commentDollar = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "comment-dollar"));
             /// <summary>
             /// Comment Dollar
             /// </summary>
@@ -1948,7 +1948,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CommentDollar => _commentDollar.Value;
 
-            private static readonly Lazy<Icon> _commentDots = new Lazy<Icon>(() => new Icon(Style.Solid, "comment-dots"));
+            private static readonly Lazy<Icon> _commentDots = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "comment-dots"));
             /// <summary>
             /// Comment Dots
             /// </summary>
@@ -1957,7 +1957,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CommentDots => _commentDots.Value;
 
-            private static readonly Lazy<Icon> _commentMedical = new Lazy<Icon>(() => new Icon(Style.Solid, "comment-medical"));
+            private static readonly Lazy<Icon> _commentMedical = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "comment-medical"));
             /// <summary>
             /// Alternate Medical Chat
             /// </summary>
@@ -1966,7 +1966,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CommentMedical => _commentMedical.Value;
 
-            private static readonly Lazy<Icon> _commentSlash = new Lazy<Icon>(() => new Icon(Style.Solid, "comment-slash"));
+            private static readonly Lazy<Icon> _commentSlash = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "comment-slash"));
             /// <summary>
             /// Comment Slash
             /// </summary>
@@ -1975,7 +1975,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CommentSlash => _commentSlash.Value;
 
-            private static readonly Lazy<Icon> _comments = new Lazy<Icon>(() => new Icon(Style.Solid, "comments"));
+            private static readonly Lazy<Icon> _comments = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "comments"));
             /// <summary>
             /// Comments
             /// </summary>
@@ -1984,7 +1984,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Comments => _comments.Value;
 
-            private static readonly Lazy<Icon> _commentsDollar = new Lazy<Icon>(() => new Icon(Style.Solid, "comments-dollar"));
+            private static readonly Lazy<Icon> _commentsDollar = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "comments-dollar"));
             /// <summary>
             /// Comments Dollar
             /// </summary>
@@ -1993,7 +1993,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CommentsDollar => _commentsDollar.Value;
 
-            private static readonly Lazy<Icon> _compactDisc = new Lazy<Icon>(() => new Icon(Style.Solid, "compact-disc"));
+            private static readonly Lazy<Icon> _compactDisc = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "compact-disc"));
             /// <summary>
             /// Compact Disc
             /// </summary>
@@ -2002,7 +2002,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CompactDisc => _compactDisc.Value;
 
-            private static readonly Lazy<Icon> _compass = new Lazy<Icon>(() => new Icon(Style.Solid, "compass"));
+            private static readonly Lazy<Icon> _compass = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "compass"));
             /// <summary>
             /// Compass
             /// </summary>
@@ -2011,7 +2011,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Compass => _compass.Value;
 
-            private static readonly Lazy<Icon> _compress = new Lazy<Icon>(() => new Icon(Style.Solid, "compress"));
+            private static readonly Lazy<Icon> _compress = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "compress"));
             /// <summary>
             /// Compress
             /// </summary>
@@ -2020,7 +2020,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Compress => _compress.Value;
 
-            private static readonly Lazy<Icon> _compressAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "compress-alt"));
+            private static readonly Lazy<Icon> _compressAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "compress-alt"));
             /// <summary>
             /// Alternate Compress
             /// </summary>
@@ -2029,7 +2029,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CompressAlt => _compressAlt.Value;
 
-            private static readonly Lazy<Icon> _compressArrowsAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "compress-arrows-alt"));
+            private static readonly Lazy<Icon> _compressArrowsAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "compress-arrows-alt"));
             /// <summary>
             /// Alternate Compress Arrows
             /// </summary>
@@ -2038,7 +2038,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CompressArrowsAlt => _compressArrowsAlt.Value;
 
-            private static readonly Lazy<Icon> _conciergeBell = new Lazy<Icon>(() => new Icon(Style.Solid, "concierge-bell"));
+            private static readonly Lazy<Icon> _conciergeBell = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "concierge-bell"));
             /// <summary>
             /// Concierge Bell
             /// </summary>
@@ -2047,7 +2047,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ConciergeBell => _conciergeBell.Value;
 
-            private static readonly Lazy<Icon> _cookie = new Lazy<Icon>(() => new Icon(Style.Solid, "cookie"));
+            private static readonly Lazy<Icon> _cookie = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cookie"));
             /// <summary>
             /// Cookie
             /// </summary>
@@ -2056,7 +2056,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Cookie => _cookie.Value;
 
-            private static readonly Lazy<Icon> _cookieBite = new Lazy<Icon>(() => new Icon(Style.Solid, "cookie-bite"));
+            private static readonly Lazy<Icon> _cookieBite = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cookie-bite"));
             /// <summary>
             /// Cookie Bite
             /// </summary>
@@ -2065,7 +2065,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CookieBite => _cookieBite.Value;
 
-            private static readonly Lazy<Icon> _copy = new Lazy<Icon>(() => new Icon(Style.Solid, "copy"));
+            private static readonly Lazy<Icon> _copy = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "copy"));
             /// <summary>
             /// Copy
             /// </summary>
@@ -2074,7 +2074,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Copy => _copy.Value;
 
-            private static readonly Lazy<Icon> _copyright = new Lazy<Icon>(() => new Icon(Style.Solid, "copyright"));
+            private static readonly Lazy<Icon> _copyright = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "copyright"));
             /// <summary>
             /// Copyright
             /// </summary>
@@ -2083,7 +2083,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Copyright => _copyright.Value;
 
-            private static readonly Lazy<Icon> _couch = new Lazy<Icon>(() => new Icon(Style.Solid, "couch"));
+            private static readonly Lazy<Icon> _couch = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "couch"));
             /// <summary>
             /// Couch
             /// </summary>
@@ -2092,7 +2092,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Couch => _couch.Value;
 
-            private static readonly Lazy<Icon> _creditCard = new Lazy<Icon>(() => new Icon(Style.Solid, "credit-card"));
+            private static readonly Lazy<Icon> _creditCard = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "credit-card"));
             /// <summary>
             /// Credit Card
             /// </summary>
@@ -2101,7 +2101,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CreditCard => _creditCard.Value;
 
-            private static readonly Lazy<Icon> _crop = new Lazy<Icon>(() => new Icon(Style.Solid, "crop"));
+            private static readonly Lazy<Icon> _crop = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "crop"));
             /// <summary>
             /// Crop
             /// </summary>
@@ -2110,7 +2110,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Crop => _crop.Value;
 
-            private static readonly Lazy<Icon> _cropAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "crop-alt"));
+            private static readonly Lazy<Icon> _cropAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "crop-alt"));
             /// <summary>
             /// Alternate Crop
             /// </summary>
@@ -2119,7 +2119,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon CropAlt => _cropAlt.Value;
 
-            private static readonly Lazy<Icon> _cross = new Lazy<Icon>(() => new Icon(Style.Solid, "cross"));
+            private static readonly Lazy<Icon> _cross = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cross"));
             /// <summary>
             /// Cross
             /// </summary>
@@ -2128,7 +2128,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Cross => _cross.Value;
 
-            private static readonly Lazy<Icon> _crosshairs = new Lazy<Icon>(() => new Icon(Style.Solid, "crosshairs"));
+            private static readonly Lazy<Icon> _crosshairs = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "crosshairs"));
             /// <summary>
             /// Crosshairs
             /// </summary>
@@ -2137,7 +2137,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Crosshairs => _crosshairs.Value;
 
-            private static readonly Lazy<Icon> _crow = new Lazy<Icon>(() => new Icon(Style.Solid, "crow"));
+            private static readonly Lazy<Icon> _crow = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "crow"));
             /// <summary>
             /// Crow
             /// </summary>
@@ -2146,7 +2146,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Crow => _crow.Value;
 
-            private static readonly Lazy<Icon> _crown = new Lazy<Icon>(() => new Icon(Style.Solid, "crown"));
+            private static readonly Lazy<Icon> _crown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "crown"));
             /// <summary>
             /// Crown
             /// </summary>
@@ -2155,7 +2155,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Crown => _crown.Value;
 
-            private static readonly Lazy<Icon> _crutch = new Lazy<Icon>(() => new Icon(Style.Solid, "crutch"));
+            private static readonly Lazy<Icon> _crutch = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "crutch"));
             /// <summary>
             /// Crutch
             /// </summary>
@@ -2164,7 +2164,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Crutch => _crutch.Value;
 
-            private static readonly Lazy<Icon> _cube = new Lazy<Icon>(() => new Icon(Style.Solid, "cube"));
+            private static readonly Lazy<Icon> _cube = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cube"));
             /// <summary>
             /// Cube
             /// </summary>
@@ -2173,7 +2173,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Cube => _cube.Value;
 
-            private static readonly Lazy<Icon> _cubes = new Lazy<Icon>(() => new Icon(Style.Solid, "cubes"));
+            private static readonly Lazy<Icon> _cubes = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cubes"));
             /// <summary>
             /// Cubes
             /// </summary>
@@ -2182,7 +2182,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Cubes => _cubes.Value;
 
-            private static readonly Lazy<Icon> _cut = new Lazy<Icon>(() => new Icon(Style.Solid, "cut"));
+            private static readonly Lazy<Icon> _cut = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "cut"));
             /// <summary>
             /// Cut
             /// </summary>
@@ -2191,7 +2191,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Cut => _cut.Value;
 
-            private static readonly Lazy<Icon> _database = new Lazy<Icon>(() => new Icon(Style.Solid, "database"));
+            private static readonly Lazy<Icon> _database = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "database"));
             /// <summary>
             /// Database
             /// </summary>
@@ -2200,7 +2200,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Database => _database.Value;
 
-            private static readonly Lazy<Icon> _deaf = new Lazy<Icon>(() => new Icon(Style.Solid, "deaf"));
+            private static readonly Lazy<Icon> _deaf = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "deaf"));
             /// <summary>
             /// Deaf
             /// </summary>
@@ -2209,7 +2209,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Deaf => _deaf.Value;
 
-            private static readonly Lazy<Icon> _democrat = new Lazy<Icon>(() => new Icon(Style.Solid, "democrat"));
+            private static readonly Lazy<Icon> _democrat = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "democrat"));
             /// <summary>
             /// Democrat
             /// </summary>
@@ -2218,7 +2218,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Democrat => _democrat.Value;
 
-            private static readonly Lazy<Icon> _desktop = new Lazy<Icon>(() => new Icon(Style.Solid, "desktop"));
+            private static readonly Lazy<Icon> _desktop = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "desktop"));
             /// <summary>
             /// Desktop
             /// </summary>
@@ -2227,7 +2227,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Desktop => _desktop.Value;
 
-            private static readonly Lazy<Icon> _dharmachakra = new Lazy<Icon>(() => new Icon(Style.Solid, "dharmachakra"));
+            private static readonly Lazy<Icon> _dharmachakra = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dharmachakra"));
             /// <summary>
             /// Dharmachakra
             /// </summary>
@@ -2236,7 +2236,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Dharmachakra => _dharmachakra.Value;
 
-            private static readonly Lazy<Icon> _diagnoses = new Lazy<Icon>(() => new Icon(Style.Solid, "diagnoses"));
+            private static readonly Lazy<Icon> _diagnoses = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "diagnoses"));
             /// <summary>
             /// Diagnoses
             /// </summary>
@@ -2245,7 +2245,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Diagnoses => _diagnoses.Value;
 
-            private static readonly Lazy<Icon> _dice = new Lazy<Icon>(() => new Icon(Style.Solid, "dice"));
+            private static readonly Lazy<Icon> _dice = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dice"));
             /// <summary>
             /// Dice
             /// </summary>
@@ -2254,7 +2254,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Dice => _dice.Value;
 
-            private static readonly Lazy<Icon> _diceD20 = new Lazy<Icon>(() => new Icon(Style.Solid, "dice-d20"));
+            private static readonly Lazy<Icon> _diceD20 = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dice-d20"));
             /// <summary>
             /// Dice D 20
             /// </summary>
@@ -2263,7 +2263,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DiceD20 => _diceD20.Value;
 
-            private static readonly Lazy<Icon> _diceD6 = new Lazy<Icon>(() => new Icon(Style.Solid, "dice-d6"));
+            private static readonly Lazy<Icon> _diceD6 = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dice-d6"));
             /// <summary>
             /// Dice D 6
             /// </summary>
@@ -2272,7 +2272,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DiceD6 => _diceD6.Value;
 
-            private static readonly Lazy<Icon> _diceFive = new Lazy<Icon>(() => new Icon(Style.Solid, "dice-five"));
+            private static readonly Lazy<Icon> _diceFive = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dice-five"));
             /// <summary>
             /// Dice Five
             /// </summary>
@@ -2281,7 +2281,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DiceFive => _diceFive.Value;
 
-            private static readonly Lazy<Icon> _diceFour = new Lazy<Icon>(() => new Icon(Style.Solid, "dice-four"));
+            private static readonly Lazy<Icon> _diceFour = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dice-four"));
             /// <summary>
             /// Dice Four
             /// </summary>
@@ -2290,7 +2290,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DiceFour => _diceFour.Value;
 
-            private static readonly Lazy<Icon> _diceOne = new Lazy<Icon>(() => new Icon(Style.Solid, "dice-one"));
+            private static readonly Lazy<Icon> _diceOne = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dice-one"));
             /// <summary>
             /// Dice One
             /// </summary>
@@ -2299,7 +2299,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DiceOne => _diceOne.Value;
 
-            private static readonly Lazy<Icon> _diceSix = new Lazy<Icon>(() => new Icon(Style.Solid, "dice-six"));
+            private static readonly Lazy<Icon> _diceSix = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dice-six"));
             /// <summary>
             /// Dice Six
             /// </summary>
@@ -2308,7 +2308,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DiceSix => _diceSix.Value;
 
-            private static readonly Lazy<Icon> _diceThree = new Lazy<Icon>(() => new Icon(Style.Solid, "dice-three"));
+            private static readonly Lazy<Icon> _diceThree = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dice-three"));
             /// <summary>
             /// Dice Three
             /// </summary>
@@ -2317,7 +2317,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DiceThree => _diceThree.Value;
 
-            private static readonly Lazy<Icon> _diceTwo = new Lazy<Icon>(() => new Icon(Style.Solid, "dice-two"));
+            private static readonly Lazy<Icon> _diceTwo = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dice-two"));
             /// <summary>
             /// Dice Two
             /// </summary>
@@ -2326,7 +2326,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DiceTwo => _diceTwo.Value;
 
-            private static readonly Lazy<Icon> _digitalTachograph = new Lazy<Icon>(() => new Icon(Style.Solid, "digital-tachograph"));
+            private static readonly Lazy<Icon> _digitalTachograph = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "digital-tachograph"));
             /// <summary>
             /// Digital Tachograph
             /// </summary>
@@ -2335,7 +2335,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DigitalTachograph => _digitalTachograph.Value;
 
-            private static readonly Lazy<Icon> _directions = new Lazy<Icon>(() => new Icon(Style.Solid, "directions"));
+            private static readonly Lazy<Icon> _directions = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "directions"));
             /// <summary>
             /// Directions
             /// </summary>
@@ -2344,7 +2344,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Directions => _directions.Value;
 
-            private static readonly Lazy<Icon> _divide = new Lazy<Icon>(() => new Icon(Style.Solid, "divide"));
+            private static readonly Lazy<Icon> _divide = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "divide"));
             /// <summary>
             /// Divide
             /// </summary>
@@ -2353,7 +2353,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Divide => _divide.Value;
 
-            private static readonly Lazy<Icon> _dizzy = new Lazy<Icon>(() => new Icon(Style.Solid, "dizzy"));
+            private static readonly Lazy<Icon> _dizzy = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dizzy"));
             /// <summary>
             /// Dizzy Face
             /// </summary>
@@ -2362,7 +2362,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Dizzy => _dizzy.Value;
 
-            private static readonly Lazy<Icon> _dna = new Lazy<Icon>(() => new Icon(Style.Solid, "dna"));
+            private static readonly Lazy<Icon> _dna = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dna"));
             /// <summary>
             /// DNA
             /// </summary>
@@ -2371,7 +2371,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Dna => _dna.Value;
 
-            private static readonly Lazy<Icon> _dog = new Lazy<Icon>(() => new Icon(Style.Solid, "dog"));
+            private static readonly Lazy<Icon> _dog = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dog"));
             /// <summary>
             /// Dog
             /// </summary>
@@ -2380,7 +2380,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Dog => _dog.Value;
 
-            private static readonly Lazy<Icon> _dollarSign = new Lazy<Icon>(() => new Icon(Style.Solid, "dollar-sign"));
+            private static readonly Lazy<Icon> _dollarSign = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dollar-sign"));
             /// <summary>
             /// Dollar Sign
             /// </summary>
@@ -2389,7 +2389,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DollarSign => _dollarSign.Value;
 
-            private static readonly Lazy<Icon> _dolly = new Lazy<Icon>(() => new Icon(Style.Solid, "dolly"));
+            private static readonly Lazy<Icon> _dolly = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dolly"));
             /// <summary>
             /// Dolly
             /// </summary>
@@ -2398,7 +2398,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Dolly => _dolly.Value;
 
-            private static readonly Lazy<Icon> _dollyFlatbed = new Lazy<Icon>(() => new Icon(Style.Solid, "dolly-flatbed"));
+            private static readonly Lazy<Icon> _dollyFlatbed = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dolly-flatbed"));
             /// <summary>
             /// Dolly Flatbed
             /// </summary>
@@ -2407,7 +2407,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DollyFlatbed => _dollyFlatbed.Value;
 
-            private static readonly Lazy<Icon> _donate = new Lazy<Icon>(() => new Icon(Style.Solid, "donate"));
+            private static readonly Lazy<Icon> _donate = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "donate"));
             /// <summary>
             /// Donate
             /// </summary>
@@ -2416,7 +2416,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Donate => _donate.Value;
 
-            private static readonly Lazy<Icon> _doorClosed = new Lazy<Icon>(() => new Icon(Style.Solid, "door-closed"));
+            private static readonly Lazy<Icon> _doorClosed = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "door-closed"));
             /// <summary>
             /// Door Closed
             /// </summary>
@@ -2425,7 +2425,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DoorClosed => _doorClosed.Value;
 
-            private static readonly Lazy<Icon> _doorOpen = new Lazy<Icon>(() => new Icon(Style.Solid, "door-open"));
+            private static readonly Lazy<Icon> _doorOpen = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "door-open"));
             /// <summary>
             /// Door Open
             /// </summary>
@@ -2434,7 +2434,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DoorOpen => _doorOpen.Value;
 
-            private static readonly Lazy<Icon> _dotCircle = new Lazy<Icon>(() => new Icon(Style.Solid, "dot-circle"));
+            private static readonly Lazy<Icon> _dotCircle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dot-circle"));
             /// <summary>
             /// Dot Circle
             /// </summary>
@@ -2443,7 +2443,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DotCircle => _dotCircle.Value;
 
-            private static readonly Lazy<Icon> _dove = new Lazy<Icon>(() => new Icon(Style.Solid, "dove"));
+            private static readonly Lazy<Icon> _dove = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dove"));
             /// <summary>
             /// Dove
             /// </summary>
@@ -2452,7 +2452,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Dove => _dove.Value;
 
-            private static readonly Lazy<Icon> _download = new Lazy<Icon>(() => new Icon(Style.Solid, "download"));
+            private static readonly Lazy<Icon> _download = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "download"));
             /// <summary>
             /// Download
             /// </summary>
@@ -2461,7 +2461,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Download => _download.Value;
 
-            private static readonly Lazy<Icon> _draftingCompass = new Lazy<Icon>(() => new Icon(Style.Solid, "drafting-compass"));
+            private static readonly Lazy<Icon> _draftingCompass = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "drafting-compass"));
             /// <summary>
             /// Drafting Compass
             /// </summary>
@@ -2470,7 +2470,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DraftingCompass => _draftingCompass.Value;
 
-            private static readonly Lazy<Icon> _dragon = new Lazy<Icon>(() => new Icon(Style.Solid, "dragon"));
+            private static readonly Lazy<Icon> _dragon = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dragon"));
             /// <summary>
             /// Dragon
             /// </summary>
@@ -2479,7 +2479,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Dragon => _dragon.Value;
 
-            private static readonly Lazy<Icon> _drawPolygon = new Lazy<Icon>(() => new Icon(Style.Solid, "draw-polygon"));
+            private static readonly Lazy<Icon> _drawPolygon = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "draw-polygon"));
             /// <summary>
             /// Draw Polygon
             /// </summary>
@@ -2488,7 +2488,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DrawPolygon => _drawPolygon.Value;
 
-            private static readonly Lazy<Icon> _drum = new Lazy<Icon>(() => new Icon(Style.Solid, "drum"));
+            private static readonly Lazy<Icon> _drum = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "drum"));
             /// <summary>
             /// Drum
             /// </summary>
@@ -2497,7 +2497,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Drum => _drum.Value;
 
-            private static readonly Lazy<Icon> _drumSteelpan = new Lazy<Icon>(() => new Icon(Style.Solid, "drum-steelpan"));
+            private static readonly Lazy<Icon> _drumSteelpan = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "drum-steelpan"));
             /// <summary>
             /// Drum Steelpan
             /// </summary>
@@ -2506,7 +2506,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DrumSteelpan => _drumSteelpan.Value;
 
-            private static readonly Lazy<Icon> _drumstickBite = new Lazy<Icon>(() => new Icon(Style.Solid, "drumstick-bite"));
+            private static readonly Lazy<Icon> _drumstickBite = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "drumstick-bite"));
             /// <summary>
             /// Drumstick With Bite Taken Out
             /// </summary>
@@ -2515,7 +2515,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DrumstickBite => _drumstickBite.Value;
 
-            private static readonly Lazy<Icon> _dumbbell = new Lazy<Icon>(() => new Icon(Style.Solid, "dumbbell"));
+            private static readonly Lazy<Icon> _dumbbell = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dumbbell"));
             /// <summary>
             /// Dumbbell
             /// </summary>
@@ -2524,7 +2524,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Dumbbell => _dumbbell.Value;
 
-            private static readonly Lazy<Icon> _dumpster = new Lazy<Icon>(() => new Icon(Style.Solid, "dumpster"));
+            private static readonly Lazy<Icon> _dumpster = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dumpster"));
             /// <summary>
             /// Dumpster
             /// </summary>
@@ -2533,7 +2533,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Dumpster => _dumpster.Value;
 
-            private static readonly Lazy<Icon> _dumpsterFire = new Lazy<Icon>(() => new Icon(Style.Solid, "dumpster-fire"));
+            private static readonly Lazy<Icon> _dumpsterFire = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dumpster-fire"));
             /// <summary>
             /// Dumpster Fire
             /// </summary>
@@ -2542,7 +2542,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon DumpsterFire => _dumpsterFire.Value;
 
-            private static readonly Lazy<Icon> _dungeon = new Lazy<Icon>(() => new Icon(Style.Solid, "dungeon"));
+            private static readonly Lazy<Icon> _dungeon = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "dungeon"));
             /// <summary>
             /// Dungeon
             /// </summary>
@@ -2551,7 +2551,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Dungeon => _dungeon.Value;
 
-            private static readonly Lazy<Icon> _edit = new Lazy<Icon>(() => new Icon(Style.Solid, "edit"));
+            private static readonly Lazy<Icon> _edit = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "edit"));
             /// <summary>
             /// Edit
             /// </summary>
@@ -2560,7 +2560,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Edit => _edit.Value;
 
-            private static readonly Lazy<Icon> _egg = new Lazy<Icon>(() => new Icon(Style.Solid, "egg"));
+            private static readonly Lazy<Icon> _egg = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "egg"));
             /// <summary>
             /// Egg
             /// </summary>
@@ -2569,7 +2569,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Egg => _egg.Value;
 
-            private static readonly Lazy<Icon> _eject = new Lazy<Icon>(() => new Icon(Style.Solid, "eject"));
+            private static readonly Lazy<Icon> _eject = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "eject"));
             /// <summary>
             /// Eject
             /// </summary>
@@ -2578,7 +2578,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Eject => _eject.Value;
 
-            private static readonly Lazy<Icon> _ellipsisH = new Lazy<Icon>(() => new Icon(Style.Solid, "ellipsis-h"));
+            private static readonly Lazy<Icon> _ellipsisH = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ellipsis-h"));
             /// <summary>
             /// Horizontal Ellipsis
             /// </summary>
@@ -2587,7 +2587,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon EllipsisH => _ellipsisH.Value;
 
-            private static readonly Lazy<Icon> _ellipsisV = new Lazy<Icon>(() => new Icon(Style.Solid, "ellipsis-v"));
+            private static readonly Lazy<Icon> _ellipsisV = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ellipsis-v"));
             /// <summary>
             /// Vertical Ellipsis
             /// </summary>
@@ -2596,7 +2596,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon EllipsisV => _ellipsisV.Value;
 
-            private static readonly Lazy<Icon> _envelope = new Lazy<Icon>(() => new Icon(Style.Solid, "envelope"));
+            private static readonly Lazy<Icon> _envelope = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "envelope"));
             /// <summary>
             /// Envelope
             /// </summary>
@@ -2605,7 +2605,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Envelope => _envelope.Value;
 
-            private static readonly Lazy<Icon> _envelopeOpen = new Lazy<Icon>(() => new Icon(Style.Solid, "envelope-open"));
+            private static readonly Lazy<Icon> _envelopeOpen = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "envelope-open"));
             /// <summary>
             /// Envelope Open
             /// </summary>
@@ -2614,7 +2614,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon EnvelopeOpen => _envelopeOpen.Value;
 
-            private static readonly Lazy<Icon> _envelopeOpenText = new Lazy<Icon>(() => new Icon(Style.Solid, "envelope-open-text"));
+            private static readonly Lazy<Icon> _envelopeOpenText = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "envelope-open-text"));
             /// <summary>
             /// Envelope Open Text
             /// </summary>
@@ -2623,7 +2623,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon EnvelopeOpenText => _envelopeOpenText.Value;
 
-            private static readonly Lazy<Icon> _envelopeSquare = new Lazy<Icon>(() => new Icon(Style.Solid, "envelope-square"));
+            private static readonly Lazy<Icon> _envelopeSquare = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "envelope-square"));
             /// <summary>
             /// Envelope Square
             /// </summary>
@@ -2632,7 +2632,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon EnvelopeSquare => _envelopeSquare.Value;
 
-            private static readonly Lazy<Icon> _equal = new Lazy<Icon>(() => new Icon(Style.Solid, "equals"));
+            private static readonly Lazy<Icon> _equal = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "equals"));
             /// <summary>
             /// Equals
             /// </summary>
@@ -2641,7 +2641,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Equal => _equal.Value;
 
-            private static readonly Lazy<Icon> _eraser = new Lazy<Icon>(() => new Icon(Style.Solid, "eraser"));
+            private static readonly Lazy<Icon> _eraser = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "eraser"));
             /// <summary>
             /// Eraser
             /// </summary>
@@ -2650,7 +2650,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Eraser => _eraser.Value;
 
-            private static readonly Lazy<Icon> _ethernet = new Lazy<Icon>(() => new Icon(Style.Solid, "ethernet"));
+            private static readonly Lazy<Icon> _ethernet = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ethernet"));
             /// <summary>
             /// Ethernet
             /// </summary>
@@ -2659,7 +2659,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Ethernet => _ethernet.Value;
 
-            private static readonly Lazy<Icon> _euroSign = new Lazy<Icon>(() => new Icon(Style.Solid, "euro-sign"));
+            private static readonly Lazy<Icon> _euroSign = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "euro-sign"));
             /// <summary>
             /// Euro Sign
             /// </summary>
@@ -2668,7 +2668,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon EuroSign => _euroSign.Value;
 
-            private static readonly Lazy<Icon> _exchangeAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "exchange-alt"));
+            private static readonly Lazy<Icon> _exchangeAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "exchange-alt"));
             /// <summary>
             /// Alternate Exchange
             /// </summary>
@@ -2677,7 +2677,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ExchangeAlt => _exchangeAlt.Value;
 
-            private static readonly Lazy<Icon> _exclamation = new Lazy<Icon>(() => new Icon(Style.Solid, "exclamation"));
+            private static readonly Lazy<Icon> _exclamation = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "exclamation"));
             /// <summary>
             /// Exclamation
             /// </summary>
@@ -2686,7 +2686,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Exclamation => _exclamation.Value;
 
-            private static readonly Lazy<Icon> _exclamationCircle = new Lazy<Icon>(() => new Icon(Style.Solid, "exclamation-circle"));
+            private static readonly Lazy<Icon> _exclamationCircle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "exclamation-circle"));
             /// <summary>
             /// Exclamation Circle
             /// </summary>
@@ -2695,7 +2695,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ExclamationCircle => _exclamationCircle.Value;
 
-            private static readonly Lazy<Icon> _exclamationTriangle = new Lazy<Icon>(() => new Icon(Style.Solid, "exclamation-triangle"));
+            private static readonly Lazy<Icon> _exclamationTriangle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "exclamation-triangle"));
             /// <summary>
             /// Exclamation Triangle
             /// </summary>
@@ -2704,7 +2704,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ExclamationTriangle => _exclamationTriangle.Value;
 
-            private static readonly Lazy<Icon> _expand = new Lazy<Icon>(() => new Icon(Style.Solid, "expand"));
+            private static readonly Lazy<Icon> _expand = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "expand"));
             /// <summary>
             /// Expand
             /// </summary>
@@ -2713,7 +2713,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Expand => _expand.Value;
 
-            private static readonly Lazy<Icon> _expandAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "expand-alt"));
+            private static readonly Lazy<Icon> _expandAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "expand-alt"));
             /// <summary>
             /// Alternate Expand
             /// </summary>
@@ -2722,7 +2722,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ExpandAlt => _expandAlt.Value;
 
-            private static readonly Lazy<Icon> _expandArrowsAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "expand-arrows-alt"));
+            private static readonly Lazy<Icon> _expandArrowsAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "expand-arrows-alt"));
             /// <summary>
             /// Alternate Expand Arrows
             /// </summary>
@@ -2731,7 +2731,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ExpandArrowsAlt => _expandArrowsAlt.Value;
 
-            private static readonly Lazy<Icon> _externalLinkAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "external-link-alt"));
+            private static readonly Lazy<Icon> _externalLinkAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "external-link-alt"));
             /// <summary>
             /// Alternate External Link
             /// </summary>
@@ -2740,7 +2740,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ExternalLinkAlt => _externalLinkAlt.Value;
 
-            private static readonly Lazy<Icon> _externalLinkSquareAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "external-link-square-alt"));
+            private static readonly Lazy<Icon> _externalLinkSquareAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "external-link-square-alt"));
             /// <summary>
             /// Alternate External Link Square
             /// </summary>
@@ -2749,7 +2749,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ExternalLinkSquareAlt => _externalLinkSquareAlt.Value;
 
-            private static readonly Lazy<Icon> _eye = new Lazy<Icon>(() => new Icon(Style.Solid, "eye"));
+            private static readonly Lazy<Icon> _eye = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "eye"));
             /// <summary>
             /// Eye
             /// </summary>
@@ -2758,7 +2758,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Eye => _eye.Value;
 
-            private static readonly Lazy<Icon> _eyeDropper = new Lazy<Icon>(() => new Icon(Style.Solid, "eye-dropper"));
+            private static readonly Lazy<Icon> _eyeDropper = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "eye-dropper"));
             /// <summary>
             /// Eye Dropper
             /// </summary>
@@ -2767,7 +2767,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon EyeDropper => _eyeDropper.Value;
 
-            private static readonly Lazy<Icon> _eyeSlash = new Lazy<Icon>(() => new Icon(Style.Solid, "eye-slash"));
+            private static readonly Lazy<Icon> _eyeSlash = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "eye-slash"));
             /// <summary>
             /// Eye Slash
             /// </summary>
@@ -2776,7 +2776,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon EyeSlash => _eyeSlash.Value;
 
-            private static readonly Lazy<Icon> _fan = new Lazy<Icon>(() => new Icon(Style.Solid, "fan"));
+            private static readonly Lazy<Icon> _fan = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "fan"));
             /// <summary>
             /// Fan
             /// </summary>
@@ -2785,7 +2785,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Fan => _fan.Value;
 
-            private static readonly Lazy<Icon> _fastBackward = new Lazy<Icon>(() => new Icon(Style.Solid, "fast-backward"));
+            private static readonly Lazy<Icon> _fastBackward = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "fast-backward"));
             /// <summary>
             /// Fast Backward
             /// </summary>
@@ -2794,7 +2794,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FastBackward => _fastBackward.Value;
 
-            private static readonly Lazy<Icon> _fastForward = new Lazy<Icon>(() => new Icon(Style.Solid, "fast-forward"));
+            private static readonly Lazy<Icon> _fastForward = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "fast-forward"));
             /// <summary>
             /// Fast Forward
             /// </summary>
@@ -2803,7 +2803,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FastForward => _fastForward.Value;
 
-            private static readonly Lazy<Icon> _fax = new Lazy<Icon>(() => new Icon(Style.Solid, "fax"));
+            private static readonly Lazy<Icon> _fax = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "fax"));
             /// <summary>
             /// Fax
             /// </summary>
@@ -2812,7 +2812,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Fax => _fax.Value;
 
-            private static readonly Lazy<Icon> _feather = new Lazy<Icon>(() => new Icon(Style.Solid, "feather"));
+            private static readonly Lazy<Icon> _feather = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "feather"));
             /// <summary>
             /// Feather
             /// </summary>
@@ -2821,7 +2821,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Feather => _feather.Value;
 
-            private static readonly Lazy<Icon> _featherAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "feather-alt"));
+            private static readonly Lazy<Icon> _featherAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "feather-alt"));
             /// <summary>
             /// Alternate Feather
             /// </summary>
@@ -2830,7 +2830,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FeatherAlt => _featherAlt.Value;
 
-            private static readonly Lazy<Icon> _female = new Lazy<Icon>(() => new Icon(Style.Solid, "female"));
+            private static readonly Lazy<Icon> _female = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "female"));
             /// <summary>
             /// Female
             /// </summary>
@@ -2839,7 +2839,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Female => _female.Value;
 
-            private static readonly Lazy<Icon> _fighterJet = new Lazy<Icon>(() => new Icon(Style.Solid, "fighter-jet"));
+            private static readonly Lazy<Icon> _fighterJet = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "fighter-jet"));
             /// <summary>
             /// Fighter Jet
             /// </summary>
@@ -2848,7 +2848,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FighterJet => _fighterJet.Value;
 
-            private static readonly Lazy<Icon> _file = new Lazy<Icon>(() => new Icon(Style.Solid, "file"));
+            private static readonly Lazy<Icon> _file = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file"));
             /// <summary>
             /// File
             /// </summary>
@@ -2857,7 +2857,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon File => _file.Value;
 
-            private static readonly Lazy<Icon> _fileAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "file-alt"));
+            private static readonly Lazy<Icon> _fileAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-alt"));
             /// <summary>
             /// Alternate File
             /// </summary>
@@ -2866,7 +2866,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileAlt => _fileAlt.Value;
 
-            private static readonly Lazy<Icon> _fileArchive = new Lazy<Icon>(() => new Icon(Style.Solid, "file-archive"));
+            private static readonly Lazy<Icon> _fileArchive = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-archive"));
             /// <summary>
             /// Archive File
             /// </summary>
@@ -2875,7 +2875,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileArchive => _fileArchive.Value;
 
-            private static readonly Lazy<Icon> _fileAudio = new Lazy<Icon>(() => new Icon(Style.Solid, "file-audio"));
+            private static readonly Lazy<Icon> _fileAudio = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-audio"));
             /// <summary>
             /// Audio File
             /// </summary>
@@ -2884,7 +2884,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileAudio => _fileAudio.Value;
 
-            private static readonly Lazy<Icon> _fileCode = new Lazy<Icon>(() => new Icon(Style.Solid, "file-code"));
+            private static readonly Lazy<Icon> _fileCode = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-code"));
             /// <summary>
             /// Code File
             /// </summary>
@@ -2893,7 +2893,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileCode => _fileCode.Value;
 
-            private static readonly Lazy<Icon> _fileContract = new Lazy<Icon>(() => new Icon(Style.Solid, "file-contract"));
+            private static readonly Lazy<Icon> _fileContract = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-contract"));
             /// <summary>
             /// File Contract
             /// </summary>
@@ -2902,7 +2902,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileContract => _fileContract.Value;
 
-            private static readonly Lazy<Icon> _fileCsv = new Lazy<Icon>(() => new Icon(Style.Solid, "file-csv"));
+            private static readonly Lazy<Icon> _fileCsv = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-csv"));
             /// <summary>
             /// File CSV
             /// </summary>
@@ -2911,7 +2911,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileCsv => _fileCsv.Value;
 
-            private static readonly Lazy<Icon> _fileDownload = new Lazy<Icon>(() => new Icon(Style.Solid, "file-download"));
+            private static readonly Lazy<Icon> _fileDownload = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-download"));
             /// <summary>
             /// File Download
             /// </summary>
@@ -2920,7 +2920,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileDownload => _fileDownload.Value;
 
-            private static readonly Lazy<Icon> _fileExcel = new Lazy<Icon>(() => new Icon(Style.Solid, "file-excel"));
+            private static readonly Lazy<Icon> _fileExcel = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-excel"));
             /// <summary>
             /// Excel File
             /// </summary>
@@ -2929,7 +2929,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileExcel => _fileExcel.Value;
 
-            private static readonly Lazy<Icon> _fileExport = new Lazy<Icon>(() => new Icon(Style.Solid, "file-export"));
+            private static readonly Lazy<Icon> _fileExport = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-export"));
             /// <summary>
             /// File Export
             /// </summary>
@@ -2938,7 +2938,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileExport => _fileExport.Value;
 
-            private static readonly Lazy<Icon> _fileImage = new Lazy<Icon>(() => new Icon(Style.Solid, "file-image"));
+            private static readonly Lazy<Icon> _fileImage = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-image"));
             /// <summary>
             /// Image File
             /// </summary>
@@ -2947,7 +2947,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileImage => _fileImage.Value;
 
-            private static readonly Lazy<Icon> _fileImport = new Lazy<Icon>(() => new Icon(Style.Solid, "file-import"));
+            private static readonly Lazy<Icon> _fileImport = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-import"));
             /// <summary>
             /// File Import
             /// </summary>
@@ -2956,7 +2956,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileImport => _fileImport.Value;
 
-            private static readonly Lazy<Icon> _fileInvoice = new Lazy<Icon>(() => new Icon(Style.Solid, "file-invoice"));
+            private static readonly Lazy<Icon> _fileInvoice = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-invoice"));
             /// <summary>
             /// File Invoice
             /// </summary>
@@ -2965,7 +2965,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileInvoice => _fileInvoice.Value;
 
-            private static readonly Lazy<Icon> _fileInvoiceDollar = new Lazy<Icon>(() => new Icon(Style.Solid, "file-invoice-dollar"));
+            private static readonly Lazy<Icon> _fileInvoiceDollar = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-invoice-dollar"));
             /// <summary>
             /// File Invoice With US Dollar
             /// </summary>
@@ -2974,7 +2974,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileInvoiceDollar => _fileInvoiceDollar.Value;
 
-            private static readonly Lazy<Icon> _fileMedical = new Lazy<Icon>(() => new Icon(Style.Solid, "file-medical"));
+            private static readonly Lazy<Icon> _fileMedical = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-medical"));
             /// <summary>
             /// Medical File
             /// </summary>
@@ -2983,7 +2983,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileMedical => _fileMedical.Value;
 
-            private static readonly Lazy<Icon> _fileMedicalAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "file-medical-alt"));
+            private static readonly Lazy<Icon> _fileMedicalAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-medical-alt"));
             /// <summary>
             /// Alternate Medical File
             /// </summary>
@@ -2992,7 +2992,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileMedicalAlt => _fileMedicalAlt.Value;
 
-            private static readonly Lazy<Icon> _filePdf = new Lazy<Icon>(() => new Icon(Style.Solid, "file-pdf"));
+            private static readonly Lazy<Icon> _filePdf = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-pdf"));
             /// <summary>
             /// PDF File
             /// </summary>
@@ -3001,7 +3001,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FilePdf => _filePdf.Value;
 
-            private static readonly Lazy<Icon> _filePowerpoint = new Lazy<Icon>(() => new Icon(Style.Solid, "file-powerpoint"));
+            private static readonly Lazy<Icon> _filePowerpoint = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-powerpoint"));
             /// <summary>
             /// Powerpoint File
             /// </summary>
@@ -3010,7 +3010,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FilePowerpoint => _filePowerpoint.Value;
 
-            private static readonly Lazy<Icon> _filePrescription = new Lazy<Icon>(() => new Icon(Style.Solid, "file-prescription"));
+            private static readonly Lazy<Icon> _filePrescription = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-prescription"));
             /// <summary>
             /// File Prescription
             /// </summary>
@@ -3019,7 +3019,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FilePrescription => _filePrescription.Value;
 
-            private static readonly Lazy<Icon> _fileSignature = new Lazy<Icon>(() => new Icon(Style.Solid, "file-signature"));
+            private static readonly Lazy<Icon> _fileSignature = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-signature"));
             /// <summary>
             /// File Signature
             /// </summary>
@@ -3028,7 +3028,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileSignature => _fileSignature.Value;
 
-            private static readonly Lazy<Icon> _fileUpload = new Lazy<Icon>(() => new Icon(Style.Solid, "file-upload"));
+            private static readonly Lazy<Icon> _fileUpload = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-upload"));
             /// <summary>
             /// File Upload
             /// </summary>
@@ -3037,7 +3037,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileUpload => _fileUpload.Value;
 
-            private static readonly Lazy<Icon> _fileVideo = new Lazy<Icon>(() => new Icon(Style.Solid, "file-video"));
+            private static readonly Lazy<Icon> _fileVideo = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-video"));
             /// <summary>
             /// Video File
             /// </summary>
@@ -3046,7 +3046,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileVideo => _fileVideo.Value;
 
-            private static readonly Lazy<Icon> _fileWord = new Lazy<Icon>(() => new Icon(Style.Solid, "file-word"));
+            private static readonly Lazy<Icon> _fileWord = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "file-word"));
             /// <summary>
             /// Word File
             /// </summary>
@@ -3055,7 +3055,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FileWord => _fileWord.Value;
 
-            private static readonly Lazy<Icon> _fill = new Lazy<Icon>(() => new Icon(Style.Solid, "fill"));
+            private static readonly Lazy<Icon> _fill = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "fill"));
             /// <summary>
             /// Fill
             /// </summary>
@@ -3064,7 +3064,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Fill => _fill.Value;
 
-            private static readonly Lazy<Icon> _fillDrip = new Lazy<Icon>(() => new Icon(Style.Solid, "fill-drip"));
+            private static readonly Lazy<Icon> _fillDrip = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "fill-drip"));
             /// <summary>
             /// Fill Drip
             /// </summary>
@@ -3073,7 +3073,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FillDrip => _fillDrip.Value;
 
-            private static readonly Lazy<Icon> _film = new Lazy<Icon>(() => new Icon(Style.Solid, "film"));
+            private static readonly Lazy<Icon> _film = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "film"));
             /// <summary>
             /// Film
             /// </summary>
@@ -3082,7 +3082,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Film => _film.Value;
 
-            private static readonly Lazy<Icon> _filter = new Lazy<Icon>(() => new Icon(Style.Solid, "filter"));
+            private static readonly Lazy<Icon> _filter = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "filter"));
             /// <summary>
             /// Filter
             /// </summary>
@@ -3091,7 +3091,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Filter => _filter.Value;
 
-            private static readonly Lazy<Icon> _fingerprint = new Lazy<Icon>(() => new Icon(Style.Solid, "fingerprint"));
+            private static readonly Lazy<Icon> _fingerprint = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "fingerprint"));
             /// <summary>
             /// Fingerprint
             /// </summary>
@@ -3100,7 +3100,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Fingerprint => _fingerprint.Value;
 
-            private static readonly Lazy<Icon> _fire = new Lazy<Icon>(() => new Icon(Style.Solid, "fire"));
+            private static readonly Lazy<Icon> _fire = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "fire"));
             /// <summary>
             /// Fire
             /// </summary>
@@ -3109,7 +3109,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Fire => _fire.Value;
 
-            private static readonly Lazy<Icon> _fireAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "fire-alt"));
+            private static readonly Lazy<Icon> _fireAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "fire-alt"));
             /// <summary>
             /// Alternate Fire
             /// </summary>
@@ -3118,7 +3118,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FireAlt => _fireAlt.Value;
 
-            private static readonly Lazy<Icon> _fireExtinguisher = new Lazy<Icon>(() => new Icon(Style.Solid, "fire-extinguisher"));
+            private static readonly Lazy<Icon> _fireExtinguisher = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "fire-extinguisher"));
             /// <summary>
             /// Fire Extinguisher
             /// </summary>
@@ -3127,7 +3127,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FireExtinguisher => _fireExtinguisher.Value;
 
-            private static readonly Lazy<Icon> _firstAid = new Lazy<Icon>(() => new Icon(Style.Solid, "first-aid"));
+            private static readonly Lazy<Icon> _firstAid = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "first-aid"));
             /// <summary>
             /// First Aid
             /// </summary>
@@ -3136,7 +3136,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FirstAid => _firstAid.Value;
 
-            private static readonly Lazy<Icon> _fish = new Lazy<Icon>(() => new Icon(Style.Solid, "fish"));
+            private static readonly Lazy<Icon> _fish = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "fish"));
             /// <summary>
             /// Fish
             /// </summary>
@@ -3145,7 +3145,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Fish => _fish.Value;
 
-            private static readonly Lazy<Icon> _fistRaised = new Lazy<Icon>(() => new Icon(Style.Solid, "fist-raised"));
+            private static readonly Lazy<Icon> _fistRaised = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "fist-raised"));
             /// <summary>
             /// Raised Fist
             /// </summary>
@@ -3154,7 +3154,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FistRaised => _fistRaised.Value;
 
-            private static readonly Lazy<Icon> _flag = new Lazy<Icon>(() => new Icon(Style.Solid, "flag"));
+            private static readonly Lazy<Icon> _flag = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "flag"));
             /// <summary>
             /// Flag
             /// </summary>
@@ -3163,7 +3163,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Flag => _flag.Value;
 
-            private static readonly Lazy<Icon> _flagCheckered = new Lazy<Icon>(() => new Icon(Style.Solid, "flag-checkered"));
+            private static readonly Lazy<Icon> _flagCheckered = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "flag-checkered"));
             /// <summary>
             /// Flag Checkered
             /// </summary>
@@ -3172,7 +3172,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FlagCheckered => _flagCheckered.Value;
 
-            private static readonly Lazy<Icon> _flagUsa = new Lazy<Icon>(() => new Icon(Style.Solid, "flag-usa"));
+            private static readonly Lazy<Icon> _flagUsa = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "flag-usa"));
             /// <summary>
             /// United States Of America Flag
             /// </summary>
@@ -3181,7 +3181,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FlagUsa => _flagUsa.Value;
 
-            private static readonly Lazy<Icon> _flask = new Lazy<Icon>(() => new Icon(Style.Solid, "flask"));
+            private static readonly Lazy<Icon> _flask = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "flask"));
             /// <summary>
             /// Flask
             /// </summary>
@@ -3190,7 +3190,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Flask => _flask.Value;
 
-            private static readonly Lazy<Icon> _flushed = new Lazy<Icon>(() => new Icon(Style.Solid, "flushed"));
+            private static readonly Lazy<Icon> _flushed = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "flushed"));
             /// <summary>
             /// Flushed Face
             /// </summary>
@@ -3199,7 +3199,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Flushed => _flushed.Value;
 
-            private static readonly Lazy<Icon> _folder = new Lazy<Icon>(() => new Icon(Style.Solid, "folder"));
+            private static readonly Lazy<Icon> _folder = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "folder"));
             /// <summary>
             /// Folder
             /// </summary>
@@ -3208,7 +3208,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Folder => _folder.Value;
 
-            private static readonly Lazy<Icon> _folderMinus = new Lazy<Icon>(() => new Icon(Style.Solid, "folder-minus"));
+            private static readonly Lazy<Icon> _folderMinus = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "folder-minus"));
             /// <summary>
             /// Folder Minus
             /// </summary>
@@ -3217,7 +3217,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FolderMinus => _folderMinus.Value;
 
-            private static readonly Lazy<Icon> _folderOpen = new Lazy<Icon>(() => new Icon(Style.Solid, "folder-open"));
+            private static readonly Lazy<Icon> _folderOpen = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "folder-open"));
             /// <summary>
             /// Folder Open
             /// </summary>
@@ -3226,7 +3226,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FolderOpen => _folderOpen.Value;
 
-            private static readonly Lazy<Icon> _folderPlus = new Lazy<Icon>(() => new Icon(Style.Solid, "folder-plus"));
+            private static readonly Lazy<Icon> _folderPlus = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "folder-plus"));
             /// <summary>
             /// Folder Plus
             /// </summary>
@@ -3235,7 +3235,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FolderPlus => _folderPlus.Value;
 
-            private static readonly Lazy<Icon> _font = new Lazy<Icon>(() => new Icon(Style.Solid, "font"));
+            private static readonly Lazy<Icon> _font = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "font"));
             /// <summary>
             /// Font
             /// </summary>
@@ -3244,7 +3244,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Font => _font.Value;
 
-            private static readonly Lazy<Icon> _fontAwesomeLogoFull = new Lazy<Icon>(() => new Icon(Style.Solid, "font-awesome-logo-full"));
+            private static readonly Lazy<Icon> _fontAwesomeLogoFull = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "font-awesome-logo-full"));
             /// <summary>
             /// Font Awesome Full Logo
             /// </summary>
@@ -3253,7 +3253,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FontAwesomeLogoFull => _fontAwesomeLogoFull.Value;
 
-            private static readonly Lazy<Icon> _footballBall = new Lazy<Icon>(() => new Icon(Style.Solid, "football-ball"));
+            private static readonly Lazy<Icon> _footballBall = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "football-ball"));
             /// <summary>
             /// Football Ball
             /// </summary>
@@ -3262,7 +3262,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FootballBall => _footballBall.Value;
 
-            private static readonly Lazy<Icon> _forward = new Lazy<Icon>(() => new Icon(Style.Solid, "forward"));
+            private static readonly Lazy<Icon> _forward = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "forward"));
             /// <summary>
             /// Forward
             /// </summary>
@@ -3271,7 +3271,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Forward => _forward.Value;
 
-            private static readonly Lazy<Icon> _frog = new Lazy<Icon>(() => new Icon(Style.Solid, "frog"));
+            private static readonly Lazy<Icon> _frog = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "frog"));
             /// <summary>
             /// Frog
             /// </summary>
@@ -3280,7 +3280,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Frog => _frog.Value;
 
-            private static readonly Lazy<Icon> _frown = new Lazy<Icon>(() => new Icon(Style.Solid, "frown"));
+            private static readonly Lazy<Icon> _frown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "frown"));
             /// <summary>
             /// Frowning Face
             /// </summary>
@@ -3289,7 +3289,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Frown => _frown.Value;
 
-            private static readonly Lazy<Icon> _frownOpen = new Lazy<Icon>(() => new Icon(Style.Solid, "frown-open"));
+            private static readonly Lazy<Icon> _frownOpen = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "frown-open"));
             /// <summary>
             /// Frowning Face With Open Mouth
             /// </summary>
@@ -3298,7 +3298,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FrownOpen => _frownOpen.Value;
 
-            private static readonly Lazy<Icon> _funnelDollar = new Lazy<Icon>(() => new Icon(Style.Solid, "funnel-dollar"));
+            private static readonly Lazy<Icon> _funnelDollar = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "funnel-dollar"));
             /// <summary>
             /// Funnel Dollar
             /// </summary>
@@ -3307,7 +3307,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon FunnelDollar => _funnelDollar.Value;
 
-            private static readonly Lazy<Icon> _futbol = new Lazy<Icon>(() => new Icon(Style.Solid, "futbol"));
+            private static readonly Lazy<Icon> _futbol = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "futbol"));
             /// <summary>
             /// Futbol
             /// </summary>
@@ -3316,7 +3316,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Futbol => _futbol.Value;
 
-            private static readonly Lazy<Icon> _gamepad = new Lazy<Icon>(() => new Icon(Style.Solid, "gamepad"));
+            private static readonly Lazy<Icon> _gamepad = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "gamepad"));
             /// <summary>
             /// Gamepad
             /// </summary>
@@ -3325,7 +3325,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Gamepad => _gamepad.Value;
 
-            private static readonly Lazy<Icon> _gasPump = new Lazy<Icon>(() => new Icon(Style.Solid, "gas-pump"));
+            private static readonly Lazy<Icon> _gasPump = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "gas-pump"));
             /// <summary>
             /// Gas Pump
             /// </summary>
@@ -3334,7 +3334,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GasPump => _gasPump.Value;
 
-            private static readonly Lazy<Icon> _gavel = new Lazy<Icon>(() => new Icon(Style.Solid, "gavel"));
+            private static readonly Lazy<Icon> _gavel = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "gavel"));
             /// <summary>
             /// Gavel
             /// </summary>
@@ -3343,7 +3343,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Gavel => _gavel.Value;
 
-            private static readonly Lazy<Icon> _gem = new Lazy<Icon>(() => new Icon(Style.Solid, "gem"));
+            private static readonly Lazy<Icon> _gem = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "gem"));
             /// <summary>
             /// Gem
             /// </summary>
@@ -3352,7 +3352,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Gem => _gem.Value;
 
-            private static readonly Lazy<Icon> _genderless = new Lazy<Icon>(() => new Icon(Style.Solid, "genderless"));
+            private static readonly Lazy<Icon> _genderless = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "genderless"));
             /// <summary>
             /// Genderless
             /// </summary>
@@ -3361,7 +3361,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Genderless => _genderless.Value;
 
-            private static readonly Lazy<Icon> _ghost = new Lazy<Icon>(() => new Icon(Style.Solid, "ghost"));
+            private static readonly Lazy<Icon> _ghost = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ghost"));
             /// <summary>
             /// Ghost
             /// </summary>
@@ -3370,7 +3370,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Ghost => _ghost.Value;
 
-            private static readonly Lazy<Icon> _gift = new Lazy<Icon>(() => new Icon(Style.Solid, "gift"));
+            private static readonly Lazy<Icon> _gift = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "gift"));
             /// <summary>
             /// Gift
             /// </summary>
@@ -3379,7 +3379,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Gift => _gift.Value;
 
-            private static readonly Lazy<Icon> _gifts = new Lazy<Icon>(() => new Icon(Style.Solid, "gifts"));
+            private static readonly Lazy<Icon> _gifts = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "gifts"));
             /// <summary>
             /// Gifts
             /// </summary>
@@ -3388,7 +3388,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Gifts => _gifts.Value;
 
-            private static readonly Lazy<Icon> _glassCheers = new Lazy<Icon>(() => new Icon(Style.Solid, "glass-cheers"));
+            private static readonly Lazy<Icon> _glassCheers = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "glass-cheers"));
             /// <summary>
             /// Glass Cheers
             /// </summary>
@@ -3397,7 +3397,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GlassCheers => _glassCheers.Value;
 
-            private static readonly Lazy<Icon> _glassMartini = new Lazy<Icon>(() => new Icon(Style.Solid, "glass-martini"));
+            private static readonly Lazy<Icon> _glassMartini = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "glass-martini"));
             /// <summary>
             /// Martini Glass
             /// </summary>
@@ -3406,7 +3406,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GlassMartini => _glassMartini.Value;
 
-            private static readonly Lazy<Icon> _glassMartiniAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "glass-martini-alt"));
+            private static readonly Lazy<Icon> _glassMartiniAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "glass-martini-alt"));
             /// <summary>
             /// Alternate Glass Martini
             /// </summary>
@@ -3415,7 +3415,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GlassMartiniAlt => _glassMartiniAlt.Value;
 
-            private static readonly Lazy<Icon> _glassWhiskey = new Lazy<Icon>(() => new Icon(Style.Solid, "glass-whiskey"));
+            private static readonly Lazy<Icon> _glassWhiskey = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "glass-whiskey"));
             /// <summary>
             /// Glass Whiskey
             /// </summary>
@@ -3424,7 +3424,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GlassWhiskey => _glassWhiskey.Value;
 
-            private static readonly Lazy<Icon> _glasses = new Lazy<Icon>(() => new Icon(Style.Solid, "glasses"));
+            private static readonly Lazy<Icon> _glasses = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "glasses"));
             /// <summary>
             /// Glasses
             /// </summary>
@@ -3433,7 +3433,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Glasses => _glasses.Value;
 
-            private static readonly Lazy<Icon> _globe = new Lazy<Icon>(() => new Icon(Style.Solid, "globe"));
+            private static readonly Lazy<Icon> _globe = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "globe"));
             /// <summary>
             /// Globe
             /// </summary>
@@ -3442,7 +3442,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Globe => _globe.Value;
 
-            private static readonly Lazy<Icon> _globeAfrica = new Lazy<Icon>(() => new Icon(Style.Solid, "globe-africa"));
+            private static readonly Lazy<Icon> _globeAfrica = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "globe-africa"));
             /// <summary>
             /// Globe With Africa Shown
             /// </summary>
@@ -3451,7 +3451,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GlobeAfrica => _globeAfrica.Value;
 
-            private static readonly Lazy<Icon> _globeAmericas = new Lazy<Icon>(() => new Icon(Style.Solid, "globe-americas"));
+            private static readonly Lazy<Icon> _globeAmericas = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "globe-americas"));
             /// <summary>
             /// Globe With Americas Shown
             /// </summary>
@@ -3460,7 +3460,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GlobeAmericas => _globeAmericas.Value;
 
-            private static readonly Lazy<Icon> _globeAsia = new Lazy<Icon>(() => new Icon(Style.Solid, "globe-asia"));
+            private static readonly Lazy<Icon> _globeAsia = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "globe-asia"));
             /// <summary>
             /// Globe With Asia Shown
             /// </summary>
@@ -3469,7 +3469,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GlobeAsia => _globeAsia.Value;
 
-            private static readonly Lazy<Icon> _globeEurope = new Lazy<Icon>(() => new Icon(Style.Solid, "globe-europe"));
+            private static readonly Lazy<Icon> _globeEurope = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "globe-europe"));
             /// <summary>
             /// Globe With Europe Shown
             /// </summary>
@@ -3478,7 +3478,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GlobeEurope => _globeEurope.Value;
 
-            private static readonly Lazy<Icon> _golfBall = new Lazy<Icon>(() => new Icon(Style.Solid, "golf-ball"));
+            private static readonly Lazy<Icon> _golfBall = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "golf-ball"));
             /// <summary>
             /// Golf Ball
             /// </summary>
@@ -3487,7 +3487,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GolfBall => _golfBall.Value;
 
-            private static readonly Lazy<Icon> _gopuram = new Lazy<Icon>(() => new Icon(Style.Solid, "gopuram"));
+            private static readonly Lazy<Icon> _gopuram = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "gopuram"));
             /// <summary>
             /// Gopuram
             /// </summary>
@@ -3496,7 +3496,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Gopuram => _gopuram.Value;
 
-            private static readonly Lazy<Icon> _graduationCap = new Lazy<Icon>(() => new Icon(Style.Solid, "graduation-cap"));
+            private static readonly Lazy<Icon> _graduationCap = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "graduation-cap"));
             /// <summary>
             /// Graduation Cap
             /// </summary>
@@ -3505,7 +3505,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GraduationCap => _graduationCap.Value;
 
-            private static readonly Lazy<Icon> _greaterThan = new Lazy<Icon>(() => new Icon(Style.Solid, "greater-than"));
+            private static readonly Lazy<Icon> _greaterThan = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "greater-than"));
             /// <summary>
             /// Greater Than
             /// </summary>
@@ -3514,7 +3514,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GreaterThan => _greaterThan.Value;
 
-            private static readonly Lazy<Icon> _greaterThanEqual = new Lazy<Icon>(() => new Icon(Style.Solid, "greater-than-equal"));
+            private static readonly Lazy<Icon> _greaterThanEqual = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "greater-than-equal"));
             /// <summary>
             /// Greater Than Equal To
             /// </summary>
@@ -3523,7 +3523,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GreaterThanEqual => _greaterThanEqual.Value;
 
-            private static readonly Lazy<Icon> _grimace = new Lazy<Icon>(() => new Icon(Style.Solid, "grimace"));
+            private static readonly Lazy<Icon> _grimace = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grimace"));
             /// <summary>
             /// Grimacing Face
             /// </summary>
@@ -3532,7 +3532,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Grimace => _grimace.Value;
 
-            private static readonly Lazy<Icon> _grin = new Lazy<Icon>(() => new Icon(Style.Solid, "grin"));
+            private static readonly Lazy<Icon> _grin = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grin"));
             /// <summary>
             /// Grinning Face
             /// </summary>
@@ -3541,7 +3541,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Grin => _grin.Value;
 
-            private static readonly Lazy<Icon> _grinAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "grin-alt"));
+            private static readonly Lazy<Icon> _grinAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grin-alt"));
             /// <summary>
             /// Alternate Grinning Face
             /// </summary>
@@ -3550,7 +3550,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GrinAlt => _grinAlt.Value;
 
-            private static readonly Lazy<Icon> _grinBeam = new Lazy<Icon>(() => new Icon(Style.Solid, "grin-beam"));
+            private static readonly Lazy<Icon> _grinBeam = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grin-beam"));
             /// <summary>
             /// Grinning Face With Smiling Eyes
             /// </summary>
@@ -3559,7 +3559,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GrinBeam => _grinBeam.Value;
 
-            private static readonly Lazy<Icon> _grinBeamSweat = new Lazy<Icon>(() => new Icon(Style.Solid, "grin-beam-sweat"));
+            private static readonly Lazy<Icon> _grinBeamSweat = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grin-beam-sweat"));
             /// <summary>
             /// Grinning Face With Sweat
             /// </summary>
@@ -3568,7 +3568,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GrinBeamSweat => _grinBeamSweat.Value;
 
-            private static readonly Lazy<Icon> _grinHearts = new Lazy<Icon>(() => new Icon(Style.Solid, "grin-hearts"));
+            private static readonly Lazy<Icon> _grinHearts = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grin-hearts"));
             /// <summary>
             /// Smiling Face With Heart Eyes
             /// </summary>
@@ -3577,7 +3577,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GrinHearts => _grinHearts.Value;
 
-            private static readonly Lazy<Icon> _grinSquint = new Lazy<Icon>(() => new Icon(Style.Solid, "grin-squint"));
+            private static readonly Lazy<Icon> _grinSquint = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grin-squint"));
             /// <summary>
             /// Grinning Squinting Face
             /// </summary>
@@ -3586,7 +3586,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GrinSquint => _grinSquint.Value;
 
-            private static readonly Lazy<Icon> _grinSquintTears = new Lazy<Icon>(() => new Icon(Style.Solid, "grin-squint-tears"));
+            private static readonly Lazy<Icon> _grinSquintTears = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grin-squint-tears"));
             /// <summary>
             /// Rolling On The Floor Laughing
             /// </summary>
@@ -3595,7 +3595,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GrinSquintTears => _grinSquintTears.Value;
 
-            private static readonly Lazy<Icon> _grinStars = new Lazy<Icon>(() => new Icon(Style.Solid, "grin-stars"));
+            private static readonly Lazy<Icon> _grinStars = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grin-stars"));
             /// <summary>
             /// Star Struck
             /// </summary>
@@ -3604,7 +3604,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GrinStars => _grinStars.Value;
 
-            private static readonly Lazy<Icon> _grinTears = new Lazy<Icon>(() => new Icon(Style.Solid, "grin-tears"));
+            private static readonly Lazy<Icon> _grinTears = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grin-tears"));
             /// <summary>
             /// Face With Tears Of Joy
             /// </summary>
@@ -3613,7 +3613,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GrinTears => _grinTears.Value;
 
-            private static readonly Lazy<Icon> _grinTongue = new Lazy<Icon>(() => new Icon(Style.Solid, "grin-tongue"));
+            private static readonly Lazy<Icon> _grinTongue = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grin-tongue"));
             /// <summary>
             /// Face With Tongue
             /// </summary>
@@ -3622,7 +3622,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GrinTongue => _grinTongue.Value;
 
-            private static readonly Lazy<Icon> _grinTongueSquint = new Lazy<Icon>(() => new Icon(Style.Solid, "grin-tongue-squint"));
+            private static readonly Lazy<Icon> _grinTongueSquint = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grin-tongue-squint"));
             /// <summary>
             /// Squinting Face With Tongue
             /// </summary>
@@ -3631,7 +3631,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GrinTongueSquint => _grinTongueSquint.Value;
 
-            private static readonly Lazy<Icon> _grinTongueWink = new Lazy<Icon>(() => new Icon(Style.Solid, "grin-tongue-wink"));
+            private static readonly Lazy<Icon> _grinTongueWink = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grin-tongue-wink"));
             /// <summary>
             /// Winking Face With Tongue
             /// </summary>
@@ -3640,7 +3640,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GrinTongueWink => _grinTongueWink.Value;
 
-            private static readonly Lazy<Icon> _grinWink = new Lazy<Icon>(() => new Icon(Style.Solid, "grin-wink"));
+            private static readonly Lazy<Icon> _grinWink = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grin-wink"));
             /// <summary>
             /// Grinning Winking Face
             /// </summary>
@@ -3649,7 +3649,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GrinWink => _grinWink.Value;
 
-            private static readonly Lazy<Icon> _gripHorizontal = new Lazy<Icon>(() => new Icon(Style.Solid, "grip-horizontal"));
+            private static readonly Lazy<Icon> _gripHorizontal = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grip-horizontal"));
             /// <summary>
             /// Grip Horizontal
             /// </summary>
@@ -3658,7 +3658,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GripHorizontal => _gripHorizontal.Value;
 
-            private static readonly Lazy<Icon> _gripLines = new Lazy<Icon>(() => new Icon(Style.Solid, "grip-lines"));
+            private static readonly Lazy<Icon> _gripLines = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grip-lines"));
             /// <summary>
             /// Grip Lines
             /// </summary>
@@ -3667,7 +3667,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GripLines => _gripLines.Value;
 
-            private static readonly Lazy<Icon> _gripLinesVertical = new Lazy<Icon>(() => new Icon(Style.Solid, "grip-lines-vertical"));
+            private static readonly Lazy<Icon> _gripLinesVertical = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grip-lines-vertical"));
             /// <summary>
             /// Grip Lines Vertical
             /// </summary>
@@ -3676,7 +3676,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GripLinesVertical => _gripLinesVertical.Value;
 
-            private static readonly Lazy<Icon> _gripVertical = new Lazy<Icon>(() => new Icon(Style.Solid, "grip-vertical"));
+            private static readonly Lazy<Icon> _gripVertical = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "grip-vertical"));
             /// <summary>
             /// Grip Vertical
             /// </summary>
@@ -3685,7 +3685,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon GripVertical => _gripVertical.Value;
 
-            private static readonly Lazy<Icon> _guitar = new Lazy<Icon>(() => new Icon(Style.Solid, "guitar"));
+            private static readonly Lazy<Icon> _guitar = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "guitar"));
             /// <summary>
             /// Guitar
             /// </summary>
@@ -3694,7 +3694,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Guitar => _guitar.Value;
 
-            private static readonly Lazy<Icon> _hSquare = new Lazy<Icon>(() => new Icon(Style.Solid, "h-square"));
+            private static readonly Lazy<Icon> _hSquare = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "h-square"));
             /// <summary>
             /// H Square
             /// </summary>
@@ -3703,7 +3703,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HSquare => _hSquare.Value;
 
-            private static readonly Lazy<Icon> _hamburger = new Lazy<Icon>(() => new Icon(Style.Solid, "hamburger"));
+            private static readonly Lazy<Icon> _hamburger = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hamburger"));
             /// <summary>
             /// Hamburger
             /// </summary>
@@ -3712,7 +3712,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Hamburger => _hamburger.Value;
 
-            private static readonly Lazy<Icon> _hammer = new Lazy<Icon>(() => new Icon(Style.Solid, "hammer"));
+            private static readonly Lazy<Icon> _hammer = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hammer"));
             /// <summary>
             /// Hammer
             /// </summary>
@@ -3721,7 +3721,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Hammer => _hammer.Value;
 
-            private static readonly Lazy<Icon> _hamsa = new Lazy<Icon>(() => new Icon(Style.Solid, "hamsa"));
+            private static readonly Lazy<Icon> _hamsa = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hamsa"));
             /// <summary>
             /// Hamsa
             /// </summary>
@@ -3730,7 +3730,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Hamsa => _hamsa.Value;
 
-            private static readonly Lazy<Icon> _handHolding = new Lazy<Icon>(() => new Icon(Style.Solid, "hand-holding"));
+            private static readonly Lazy<Icon> _handHolding = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hand-holding"));
             /// <summary>
             /// Hand Holding
             /// </summary>
@@ -3739,7 +3739,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandHolding => _handHolding.Value;
 
-            private static readonly Lazy<Icon> _handHoldingHeart = new Lazy<Icon>(() => new Icon(Style.Solid, "hand-holding-heart"));
+            private static readonly Lazy<Icon> _handHoldingHeart = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hand-holding-heart"));
             /// <summary>
             /// Hand Holding Heart
             /// </summary>
@@ -3748,7 +3748,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandHoldingHeart => _handHoldingHeart.Value;
 
-            private static readonly Lazy<Icon> _handHoldingUsd = new Lazy<Icon>(() => new Icon(Style.Solid, "hand-holding-usd"));
+            private static readonly Lazy<Icon> _handHoldingUsd = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hand-holding-usd"));
             /// <summary>
             /// Hand Holding US Dollar
             /// </summary>
@@ -3757,7 +3757,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandHoldingUsd => _handHoldingUsd.Value;
 
-            private static readonly Lazy<Icon> _handLizard = new Lazy<Icon>(() => new Icon(Style.Solid, "hand-lizard"));
+            private static readonly Lazy<Icon> _handLizard = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hand-lizard"));
             /// <summary>
             /// Lizard Hand
             /// </summary>
@@ -3766,7 +3766,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandLizard => _handLizard.Value;
 
-            private static readonly Lazy<Icon> _handMiddleFinger = new Lazy<Icon>(() => new Icon(Style.Solid, "hand-middle-finger"));
+            private static readonly Lazy<Icon> _handMiddleFinger = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hand-middle-finger"));
             /// <summary>
             /// Hand With Middle Finger Raised
             /// </summary>
@@ -3775,7 +3775,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandMiddleFinger => _handMiddleFinger.Value;
 
-            private static readonly Lazy<Icon> _handPaper = new Lazy<Icon>(() => new Icon(Style.Solid, "hand-paper"));
+            private static readonly Lazy<Icon> _handPaper = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hand-paper"));
             /// <summary>
             /// Paper Hand
             /// </summary>
@@ -3784,7 +3784,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandPaper => _handPaper.Value;
 
-            private static readonly Lazy<Icon> _handPeace = new Lazy<Icon>(() => new Icon(Style.Solid, "hand-peace"));
+            private static readonly Lazy<Icon> _handPeace = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hand-peace"));
             /// <summary>
             /// Peace Hand
             /// </summary>
@@ -3793,7 +3793,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandPeace => _handPeace.Value;
 
-            private static readonly Lazy<Icon> _handPointDown = new Lazy<Icon>(() => new Icon(Style.Solid, "hand-point-down"));
+            private static readonly Lazy<Icon> _handPointDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hand-point-down"));
             /// <summary>
             /// Hand Pointing Down
             /// </summary>
@@ -3802,7 +3802,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandPointDown => _handPointDown.Value;
 
-            private static readonly Lazy<Icon> _handPointLeft = new Lazy<Icon>(() => new Icon(Style.Solid, "hand-point-left"));
+            private static readonly Lazy<Icon> _handPointLeft = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hand-point-left"));
             /// <summary>
             /// Hand Pointing Left
             /// </summary>
@@ -3811,7 +3811,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandPointLeft => _handPointLeft.Value;
 
-            private static readonly Lazy<Icon> _handPointRight = new Lazy<Icon>(() => new Icon(Style.Solid, "hand-point-right"));
+            private static readonly Lazy<Icon> _handPointRight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hand-point-right"));
             /// <summary>
             /// Hand Pointing Right
             /// </summary>
@@ -3820,7 +3820,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandPointRight => _handPointRight.Value;
 
-            private static readonly Lazy<Icon> _handPointUp = new Lazy<Icon>(() => new Icon(Style.Solid, "hand-point-up"));
+            private static readonly Lazy<Icon> _handPointUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hand-point-up"));
             /// <summary>
             /// Hand Pointing Up
             /// </summary>
@@ -3829,7 +3829,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandPointUp => _handPointUp.Value;
 
-            private static readonly Lazy<Icon> _handPointer = new Lazy<Icon>(() => new Icon(Style.Solid, "hand-pointer"));
+            private static readonly Lazy<Icon> _handPointer = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hand-pointer"));
             /// <summary>
             /// Pointer Hand
             /// </summary>
@@ -3838,7 +3838,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandPointer => _handPointer.Value;
 
-            private static readonly Lazy<Icon> _handRock = new Lazy<Icon>(() => new Icon(Style.Solid, "hand-rock"));
+            private static readonly Lazy<Icon> _handRock = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hand-rock"));
             /// <summary>
             /// Rock Hand
             /// </summary>
@@ -3847,7 +3847,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandRock => _handRock.Value;
 
-            private static readonly Lazy<Icon> _handScissors = new Lazy<Icon>(() => new Icon(Style.Solid, "hand-scissors"));
+            private static readonly Lazy<Icon> _handScissors = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hand-scissors"));
             /// <summary>
             /// Scissors Hand
             /// </summary>
@@ -3856,7 +3856,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandScissors => _handScissors.Value;
 
-            private static readonly Lazy<Icon> _handSpock = new Lazy<Icon>(() => new Icon(Style.Solid, "hand-spock"));
+            private static readonly Lazy<Icon> _handSpock = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hand-spock"));
             /// <summary>
             /// Spock Hand
             /// </summary>
@@ -3865,7 +3865,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandSpock => _handSpock.Value;
 
-            private static readonly Lazy<Icon> _hands = new Lazy<Icon>(() => new Icon(Style.Solid, "hands"));
+            private static readonly Lazy<Icon> _hands = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hands"));
             /// <summary>
             /// Hands
             /// </summary>
@@ -3874,7 +3874,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Hands => _hands.Value;
 
-            private static readonly Lazy<Icon> _handsHelping = new Lazy<Icon>(() => new Icon(Style.Solid, "hands-helping"));
+            private static readonly Lazy<Icon> _handsHelping = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hands-helping"));
             /// <summary>
             /// Helping Hands
             /// </summary>
@@ -3883,7 +3883,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HandsHelping => _handsHelping.Value;
 
-            private static readonly Lazy<Icon> _handshake = new Lazy<Icon>(() => new Icon(Style.Solid, "handshake"));
+            private static readonly Lazy<Icon> _handshake = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "handshake"));
             /// <summary>
             /// Handshake
             /// </summary>
@@ -3892,7 +3892,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Handshake => _handshake.Value;
 
-            private static readonly Lazy<Icon> _hanukiah = new Lazy<Icon>(() => new Icon(Style.Solid, "hanukiah"));
+            private static readonly Lazy<Icon> _hanukiah = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hanukiah"));
             /// <summary>
             /// Hanukiah
             /// </summary>
@@ -3901,7 +3901,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Hanukiah => _hanukiah.Value;
 
-            private static readonly Lazy<Icon> _hardHat = new Lazy<Icon>(() => new Icon(Style.Solid, "hard-hat"));
+            private static readonly Lazy<Icon> _hardHat = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hard-hat"));
             /// <summary>
             /// Hard Hat
             /// </summary>
@@ -3910,7 +3910,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HardHat => _hardHat.Value;
 
-            private static readonly Lazy<Icon> _hashtag = new Lazy<Icon>(() => new Icon(Style.Solid, "hashtag"));
+            private static readonly Lazy<Icon> _hashtag = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hashtag"));
             /// <summary>
             /// Hashtag
             /// </summary>
@@ -3919,7 +3919,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Hashtag => _hashtag.Value;
 
-            private static readonly Lazy<Icon> _hatCowboy = new Lazy<Icon>(() => new Icon(Style.Solid, "hat-cowboy"));
+            private static readonly Lazy<Icon> _hatCowboy = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hat-cowboy"));
             /// <summary>
             /// Cowboy Hat
             /// </summary>
@@ -3928,7 +3928,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HatCowboy => _hatCowboy.Value;
 
-            private static readonly Lazy<Icon> _hatCowboySide = new Lazy<Icon>(() => new Icon(Style.Solid, "hat-cowboy-side"));
+            private static readonly Lazy<Icon> _hatCowboySide = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hat-cowboy-side"));
             /// <summary>
             /// Cowboy Hat Side
             /// </summary>
@@ -3937,7 +3937,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HatCowboySide => _hatCowboySide.Value;
 
-            private static readonly Lazy<Icon> _hatWizard = new Lazy<Icon>(() => new Icon(Style.Solid, "hat-wizard"));
+            private static readonly Lazy<Icon> _hatWizard = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hat-wizard"));
             /// <summary>
             /// Wizard S Hat
             /// </summary>
@@ -3946,7 +3946,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HatWizard => _hatWizard.Value;
 
-            private static readonly Lazy<Icon> _hdd = new Lazy<Icon>(() => new Icon(Style.Solid, "hdd"));
+            private static readonly Lazy<Icon> _hdd = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hdd"));
             /// <summary>
             /// HDD
             /// </summary>
@@ -3955,7 +3955,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Hdd => _hdd.Value;
 
-            private static readonly Lazy<Icon> _heading = new Lazy<Icon>(() => new Icon(Style.Solid, "heading"));
+            private static readonly Lazy<Icon> _heading = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "heading"));
             /// <summary>
             /// Heading
             /// </summary>
@@ -3964,7 +3964,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Heading => _heading.Value;
 
-            private static readonly Lazy<Icon> _headphones = new Lazy<Icon>(() => new Icon(Style.Solid, "headphones"));
+            private static readonly Lazy<Icon> _headphones = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "headphones"));
             /// <summary>
             /// Headphones
             /// </summary>
@@ -3973,7 +3973,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Headphones => _headphones.Value;
 
-            private static readonly Lazy<Icon> _headphonesAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "headphones-alt"));
+            private static readonly Lazy<Icon> _headphonesAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "headphones-alt"));
             /// <summary>
             /// Alternate Headphones
             /// </summary>
@@ -3982,7 +3982,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HeadphonesAlt => _headphonesAlt.Value;
 
-            private static readonly Lazy<Icon> _headset = new Lazy<Icon>(() => new Icon(Style.Solid, "headset"));
+            private static readonly Lazy<Icon> _headset = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "headset"));
             /// <summary>
             /// Headset
             /// </summary>
@@ -3991,7 +3991,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Headset => _headset.Value;
 
-            private static readonly Lazy<Icon> _heart = new Lazy<Icon>(() => new Icon(Style.Solid, "heart"));
+            private static readonly Lazy<Icon> _heart = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "heart"));
             /// <summary>
             /// Heart
             /// </summary>
@@ -4000,7 +4000,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Heart => _heart.Value;
 
-            private static readonly Lazy<Icon> _heartBroken = new Lazy<Icon>(() => new Icon(Style.Solid, "heart-broken"));
+            private static readonly Lazy<Icon> _heartBroken = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "heart-broken"));
             /// <summary>
             /// Heart Broken
             /// </summary>
@@ -4009,7 +4009,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HeartBroken => _heartBroken.Value;
 
-            private static readonly Lazy<Icon> _heartbeat = new Lazy<Icon>(() => new Icon(Style.Solid, "heartbeat"));
+            private static readonly Lazy<Icon> _heartbeat = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "heartbeat"));
             /// <summary>
             /// Heartbeat
             /// </summary>
@@ -4018,7 +4018,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Heartbeat => _heartbeat.Value;
 
-            private static readonly Lazy<Icon> _helicopter = new Lazy<Icon>(() => new Icon(Style.Solid, "helicopter"));
+            private static readonly Lazy<Icon> _helicopter = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "helicopter"));
             /// <summary>
             /// Helicopter
             /// </summary>
@@ -4027,7 +4027,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Helicopter => _helicopter.Value;
 
-            private static readonly Lazy<Icon> _highlighter = new Lazy<Icon>(() => new Icon(Style.Solid, "highlighter"));
+            private static readonly Lazy<Icon> _highlighter = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "highlighter"));
             /// <summary>
             /// Highlighter
             /// </summary>
@@ -4036,7 +4036,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Highlighter => _highlighter.Value;
 
-            private static readonly Lazy<Icon> _hiking = new Lazy<Icon>(() => new Icon(Style.Solid, "hiking"));
+            private static readonly Lazy<Icon> _hiking = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hiking"));
             /// <summary>
             /// Hiking
             /// </summary>
@@ -4045,7 +4045,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Hiking => _hiking.Value;
 
-            private static readonly Lazy<Icon> _hippo = new Lazy<Icon>(() => new Icon(Style.Solid, "hippo"));
+            private static readonly Lazy<Icon> _hippo = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hippo"));
             /// <summary>
             /// Hippo
             /// </summary>
@@ -4054,7 +4054,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Hippo => _hippo.Value;
 
-            private static readonly Lazy<Icon> _history = new Lazy<Icon>(() => new Icon(Style.Solid, "history"));
+            private static readonly Lazy<Icon> _history = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "history"));
             /// <summary>
             /// History
             /// </summary>
@@ -4063,7 +4063,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon History => _history.Value;
 
-            private static readonly Lazy<Icon> _hockeyPuck = new Lazy<Icon>(() => new Icon(Style.Solid, "hockey-puck"));
+            private static readonly Lazy<Icon> _hockeyPuck = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hockey-puck"));
             /// <summary>
             /// Hockey Puck
             /// </summary>
@@ -4072,7 +4072,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HockeyPuck => _hockeyPuck.Value;
 
-            private static readonly Lazy<Icon> _hollyBerry = new Lazy<Icon>(() => new Icon(Style.Solid, "holly-berry"));
+            private static readonly Lazy<Icon> _hollyBerry = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "holly-berry"));
             /// <summary>
             /// Holly Berry
             /// </summary>
@@ -4081,7 +4081,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HollyBerry => _hollyBerry.Value;
 
-            private static readonly Lazy<Icon> _home = new Lazy<Icon>(() => new Icon(Style.Solid, "home"));
+            private static readonly Lazy<Icon> _home = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "home"));
             /// <summary>
             /// Home
             /// </summary>
@@ -4090,7 +4090,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Home => _home.Value;
 
-            private static readonly Lazy<Icon> _horse = new Lazy<Icon>(() => new Icon(Style.Solid, "horse"));
+            private static readonly Lazy<Icon> _horse = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "horse"));
             /// <summary>
             /// Horse
             /// </summary>
@@ -4099,7 +4099,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Horse => _horse.Value;
 
-            private static readonly Lazy<Icon> _horseHead = new Lazy<Icon>(() => new Icon(Style.Solid, "horse-head"));
+            private static readonly Lazy<Icon> _horseHead = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "horse-head"));
             /// <summary>
             /// Horse Head
             /// </summary>
@@ -4108,7 +4108,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HorseHead => _horseHead.Value;
 
-            private static readonly Lazy<Icon> _hospital = new Lazy<Icon>(() => new Icon(Style.Solid, "hospital"));
+            private static readonly Lazy<Icon> _hospital = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hospital"));
             /// <summary>
             /// Hospital
             /// </summary>
@@ -4117,7 +4117,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Hospital => _hospital.Value;
 
-            private static readonly Lazy<Icon> _hospitalAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "hospital-alt"));
+            private static readonly Lazy<Icon> _hospitalAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hospital-alt"));
             /// <summary>
             /// Alternate Hospital
             /// </summary>
@@ -4126,7 +4126,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HospitalAlt => _hospitalAlt.Value;
 
-            private static readonly Lazy<Icon> _hospitalSymbol = new Lazy<Icon>(() => new Icon(Style.Solid, "hospital-symbol"));
+            private static readonly Lazy<Icon> _hospitalSymbol = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hospital-symbol"));
             /// <summary>
             /// Hospital Symbol
             /// </summary>
@@ -4135,7 +4135,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HospitalSymbol => _hospitalSymbol.Value;
 
-            private static readonly Lazy<Icon> _hotTub = new Lazy<Icon>(() => new Icon(Style.Solid, "hot-tub"));
+            private static readonly Lazy<Icon> _hotTub = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hot-tub"));
             /// <summary>
             /// Hot Tub
             /// </summary>
@@ -4144,7 +4144,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HotTub => _hotTub.Value;
 
-            private static readonly Lazy<Icon> _hotdog = new Lazy<Icon>(() => new Icon(Style.Solid, "hotdog"));
+            private static readonly Lazy<Icon> _hotdog = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hotdog"));
             /// <summary>
             /// Hot Dog
             /// </summary>
@@ -4153,7 +4153,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Hotdog => _hotdog.Value;
 
-            private static readonly Lazy<Icon> _hotel = new Lazy<Icon>(() => new Icon(Style.Solid, "hotel"));
+            private static readonly Lazy<Icon> _hotel = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hotel"));
             /// <summary>
             /// Hotel
             /// </summary>
@@ -4162,7 +4162,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Hotel => _hotel.Value;
 
-            private static readonly Lazy<Icon> _hourglass = new Lazy<Icon>(() => new Icon(Style.Solid, "hourglass"));
+            private static readonly Lazy<Icon> _hourglass = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hourglass"));
             /// <summary>
             /// Hourglass
             /// </summary>
@@ -4171,7 +4171,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Hourglass => _hourglass.Value;
 
-            private static readonly Lazy<Icon> _hourglassEnd = new Lazy<Icon>(() => new Icon(Style.Solid, "hourglass-end"));
+            private static readonly Lazy<Icon> _hourglassEnd = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hourglass-end"));
             /// <summary>
             /// Hourglass End
             /// </summary>
@@ -4180,7 +4180,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HourglassEnd => _hourglassEnd.Value;
 
-            private static readonly Lazy<Icon> _hourglassHalf = new Lazy<Icon>(() => new Icon(Style.Solid, "hourglass-half"));
+            private static readonly Lazy<Icon> _hourglassHalf = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hourglass-half"));
             /// <summary>
             /// Hourglass Half
             /// </summary>
@@ -4189,7 +4189,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HourglassHalf => _hourglassHalf.Value;
 
-            private static readonly Lazy<Icon> _hourglassStart = new Lazy<Icon>(() => new Icon(Style.Solid, "hourglass-start"));
+            private static readonly Lazy<Icon> _hourglassStart = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hourglass-start"));
             /// <summary>
             /// Hourglass Start
             /// </summary>
@@ -4198,7 +4198,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HourglassStart => _hourglassStart.Value;
 
-            private static readonly Lazy<Icon> _houseDamage = new Lazy<Icon>(() => new Icon(Style.Solid, "house-damage"));
+            private static readonly Lazy<Icon> _houseDamage = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "house-damage"));
             /// <summary>
             /// Damaged House
             /// </summary>
@@ -4207,7 +4207,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon HouseDamage => _houseDamage.Value;
 
-            private static readonly Lazy<Icon> _hryvnia = new Lazy<Icon>(() => new Icon(Style.Solid, "hryvnia"));
+            private static readonly Lazy<Icon> _hryvnia = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "hryvnia"));
             /// <summary>
             /// Hryvnia
             /// </summary>
@@ -4216,7 +4216,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Hryvnia => _hryvnia.Value;
 
-            private static readonly Lazy<Icon> _iCursor = new Lazy<Icon>(() => new Icon(Style.Solid, "i-cursor"));
+            private static readonly Lazy<Icon> _iCursor = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "i-cursor"));
             /// <summary>
             /// I Beam Cursor
             /// </summary>
@@ -4225,7 +4225,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ICursor => _iCursor.Value;
 
-            private static readonly Lazy<Icon> _iceCream = new Lazy<Icon>(() => new Icon(Style.Solid, "ice-cream"));
+            private static readonly Lazy<Icon> _iceCream = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ice-cream"));
             /// <summary>
             /// Ice Cream
             /// </summary>
@@ -4234,7 +4234,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon IceCream => _iceCream.Value;
 
-            private static readonly Lazy<Icon> _icicles = new Lazy<Icon>(() => new Icon(Style.Solid, "icicles"));
+            private static readonly Lazy<Icon> _icicles = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "icicles"));
             /// <summary>
             /// Icicles
             /// </summary>
@@ -4243,7 +4243,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Icicles => _icicles.Value;
 
-            private static readonly Lazy<Icon> _icons = new Lazy<Icon>(() => new Icon(Style.Solid, "icons"));
+            private static readonly Lazy<Icon> _icons = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "icons"));
             /// <summary>
             /// Icons
             /// </summary>
@@ -4252,7 +4252,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Icons => _icons.Value;
 
-            private static readonly Lazy<Icon> _idBadge = new Lazy<Icon>(() => new Icon(Style.Solid, "id-badge"));
+            private static readonly Lazy<Icon> _idBadge = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "id-badge"));
             /// <summary>
             /// Identification Badge
             /// </summary>
@@ -4261,7 +4261,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon IdBadge => _idBadge.Value;
 
-            private static readonly Lazy<Icon> _idCard = new Lazy<Icon>(() => new Icon(Style.Solid, "id-card"));
+            private static readonly Lazy<Icon> _idCard = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "id-card"));
             /// <summary>
             /// Identification Card
             /// </summary>
@@ -4270,7 +4270,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon IdCard => _idCard.Value;
 
-            private static readonly Lazy<Icon> _idCardAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "id-card-alt"));
+            private static readonly Lazy<Icon> _idCardAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "id-card-alt"));
             /// <summary>
             /// Alternate Identification Card
             /// </summary>
@@ -4279,7 +4279,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon IdCardAlt => _idCardAlt.Value;
 
-            private static readonly Lazy<Icon> _igloo = new Lazy<Icon>(() => new Icon(Style.Solid, "igloo"));
+            private static readonly Lazy<Icon> _igloo = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "igloo"));
             /// <summary>
             /// Igloo
             /// </summary>
@@ -4288,7 +4288,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Igloo => _igloo.Value;
 
-            private static readonly Lazy<Icon> _image = new Lazy<Icon>(() => new Icon(Style.Solid, "image"));
+            private static readonly Lazy<Icon> _image = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "image"));
             /// <summary>
             /// Image
             /// </summary>
@@ -4297,7 +4297,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Image => _image.Value;
 
-            private static readonly Lazy<Icon> _images = new Lazy<Icon>(() => new Icon(Style.Solid, "images"));
+            private static readonly Lazy<Icon> _images = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "images"));
             /// <summary>
             /// Images
             /// </summary>
@@ -4306,7 +4306,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Images => _images.Value;
 
-            private static readonly Lazy<Icon> _inbox = new Lazy<Icon>(() => new Icon(Style.Solid, "inbox"));
+            private static readonly Lazy<Icon> _inbox = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "inbox"));
             /// <summary>
             /// Inbox
             /// </summary>
@@ -4315,7 +4315,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Inbox => _inbox.Value;
 
-            private static readonly Lazy<Icon> _indent = new Lazy<Icon>(() => new Icon(Style.Solid, "indent"));
+            private static readonly Lazy<Icon> _indent = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "indent"));
             /// <summary>
             /// Indent
             /// </summary>
@@ -4324,7 +4324,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Indent => _indent.Value;
 
-            private static readonly Lazy<Icon> _industry = new Lazy<Icon>(() => new Icon(Style.Solid, "industry"));
+            private static readonly Lazy<Icon> _industry = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "industry"));
             /// <summary>
             /// Industry
             /// </summary>
@@ -4333,7 +4333,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Industry => _industry.Value;
 
-            private static readonly Lazy<Icon> _infinity = new Lazy<Icon>(() => new Icon(Style.Solid, "infinity"));
+            private static readonly Lazy<Icon> _infinity = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "infinity"));
             /// <summary>
             /// Infinity
             /// </summary>
@@ -4342,7 +4342,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Infinity => _infinity.Value;
 
-            private static readonly Lazy<Icon> _info = new Lazy<Icon>(() => new Icon(Style.Solid, "info"));
+            private static readonly Lazy<Icon> _info = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "info"));
             /// <summary>
             /// Info
             /// </summary>
@@ -4351,7 +4351,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Info => _info.Value;
 
-            private static readonly Lazy<Icon> _infoCircle = new Lazy<Icon>(() => new Icon(Style.Solid, "info-circle"));
+            private static readonly Lazy<Icon> _infoCircle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "info-circle"));
             /// <summary>
             /// Info Circle
             /// </summary>
@@ -4360,7 +4360,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon InfoCircle => _infoCircle.Value;
 
-            private static readonly Lazy<Icon> _italic = new Lazy<Icon>(() => new Icon(Style.Solid, "italic"));
+            private static readonly Lazy<Icon> _italic = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "italic"));
             /// <summary>
             /// Italic
             /// </summary>
@@ -4369,7 +4369,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Italic => _italic.Value;
 
-            private static readonly Lazy<Icon> _jedi = new Lazy<Icon>(() => new Icon(Style.Solid, "jedi"));
+            private static readonly Lazy<Icon> _jedi = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "jedi"));
             /// <summary>
             /// Jedi
             /// </summary>
@@ -4378,7 +4378,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Jedi => _jedi.Value;
 
-            private static readonly Lazy<Icon> _joint = new Lazy<Icon>(() => new Icon(Style.Solid, "joint"));
+            private static readonly Lazy<Icon> _joint = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "joint"));
             /// <summary>
             /// Joint
             /// </summary>
@@ -4387,7 +4387,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Joint => _joint.Value;
 
-            private static readonly Lazy<Icon> _journalWhills = new Lazy<Icon>(() => new Icon(Style.Solid, "journal-whills"));
+            private static readonly Lazy<Icon> _journalWhills = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "journal-whills"));
             /// <summary>
             /// Journal Of The Whills
             /// </summary>
@@ -4396,7 +4396,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon JournalWhills => _journalWhills.Value;
 
-            private static readonly Lazy<Icon> _kaaba = new Lazy<Icon>(() => new Icon(Style.Solid, "kaaba"));
+            private static readonly Lazy<Icon> _kaaba = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "kaaba"));
             /// <summary>
             /// Kaaba
             /// </summary>
@@ -4405,7 +4405,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Kaaba => _kaaba.Value;
 
-            private static readonly Lazy<Icon> _key = new Lazy<Icon>(() => new Icon(Style.Solid, "key"));
+            private static readonly Lazy<Icon> _key = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "key"));
             /// <summary>
             /// Key
             /// </summary>
@@ -4414,7 +4414,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Key => _key.Value;
 
-            private static readonly Lazy<Icon> _keyboard = new Lazy<Icon>(() => new Icon(Style.Solid, "keyboard"));
+            private static readonly Lazy<Icon> _keyboard = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "keyboard"));
             /// <summary>
             /// Keyboard
             /// </summary>
@@ -4423,7 +4423,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Keyboard => _keyboard.Value;
 
-            private static readonly Lazy<Icon> _khanda = new Lazy<Icon>(() => new Icon(Style.Solid, "khanda"));
+            private static readonly Lazy<Icon> _khanda = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "khanda"));
             /// <summary>
             /// Khanda
             /// </summary>
@@ -4432,7 +4432,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Khanda => _khanda.Value;
 
-            private static readonly Lazy<Icon> _kiss = new Lazy<Icon>(() => new Icon(Style.Solid, "kiss"));
+            private static readonly Lazy<Icon> _kiss = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "kiss"));
             /// <summary>
             /// Kissing Face
             /// </summary>
@@ -4441,7 +4441,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Kiss => _kiss.Value;
 
-            private static readonly Lazy<Icon> _kissBeam = new Lazy<Icon>(() => new Icon(Style.Solid, "kiss-beam"));
+            private static readonly Lazy<Icon> _kissBeam = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "kiss-beam"));
             /// <summary>
             /// Kissing Face With Smiling Eyes
             /// </summary>
@@ -4450,7 +4450,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon KissBeam => _kissBeam.Value;
 
-            private static readonly Lazy<Icon> _kissWinkHeart = new Lazy<Icon>(() => new Icon(Style.Solid, "kiss-wink-heart"));
+            private static readonly Lazy<Icon> _kissWinkHeart = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "kiss-wink-heart"));
             /// <summary>
             /// Face Blowing A Kiss
             /// </summary>
@@ -4459,7 +4459,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon KissWinkHeart => _kissWinkHeart.Value;
 
-            private static readonly Lazy<Icon> _kiwiBird = new Lazy<Icon>(() => new Icon(Style.Solid, "kiwi-bird"));
+            private static readonly Lazy<Icon> _kiwiBird = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "kiwi-bird"));
             /// <summary>
             /// Kiwi Bird
             /// </summary>
@@ -4468,7 +4468,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon KiwiBird => _kiwiBird.Value;
 
-            private static readonly Lazy<Icon> _landmark = new Lazy<Icon>(() => new Icon(Style.Solid, "landmark"));
+            private static readonly Lazy<Icon> _landmark = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "landmark"));
             /// <summary>
             /// Landmark
             /// </summary>
@@ -4477,7 +4477,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Landmark => _landmark.Value;
 
-            private static readonly Lazy<Icon> _language = new Lazy<Icon>(() => new Icon(Style.Solid, "language"));
+            private static readonly Lazy<Icon> _language = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "language"));
             /// <summary>
             /// Language
             /// </summary>
@@ -4486,7 +4486,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Language => _language.Value;
 
-            private static readonly Lazy<Icon> _laptop = new Lazy<Icon>(() => new Icon(Style.Solid, "laptop"));
+            private static readonly Lazy<Icon> _laptop = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "laptop"));
             /// <summary>
             /// Laptop
             /// </summary>
@@ -4495,7 +4495,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Laptop => _laptop.Value;
 
-            private static readonly Lazy<Icon> _laptopCode = new Lazy<Icon>(() => new Icon(Style.Solid, "laptop-code"));
+            private static readonly Lazy<Icon> _laptopCode = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "laptop-code"));
             /// <summary>
             /// Laptop Code
             /// </summary>
@@ -4504,7 +4504,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LaptopCode => _laptopCode.Value;
 
-            private static readonly Lazy<Icon> _laptopMedical = new Lazy<Icon>(() => new Icon(Style.Solid, "laptop-medical"));
+            private static readonly Lazy<Icon> _laptopMedical = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "laptop-medical"));
             /// <summary>
             /// Laptop Medical
             /// </summary>
@@ -4513,7 +4513,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LaptopMedical => _laptopMedical.Value;
 
-            private static readonly Lazy<Icon> _laugh = new Lazy<Icon>(() => new Icon(Style.Solid, "laugh"));
+            private static readonly Lazy<Icon> _laugh = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "laugh"));
             /// <summary>
             /// Grinning Face With Big Eyes
             /// </summary>
@@ -4522,7 +4522,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Laugh => _laugh.Value;
 
-            private static readonly Lazy<Icon> _laughBeam = new Lazy<Icon>(() => new Icon(Style.Solid, "laugh-beam"));
+            private static readonly Lazy<Icon> _laughBeam = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "laugh-beam"));
             /// <summary>
             /// Laugh Face With Beaming Eyes
             /// </summary>
@@ -4531,7 +4531,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LaughBeam => _laughBeam.Value;
 
-            private static readonly Lazy<Icon> _laughSquint = new Lazy<Icon>(() => new Icon(Style.Solid, "laugh-squint"));
+            private static readonly Lazy<Icon> _laughSquint = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "laugh-squint"));
             /// <summary>
             /// Laughing Squinting Face
             /// </summary>
@@ -4540,7 +4540,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LaughSquint => _laughSquint.Value;
 
-            private static readonly Lazy<Icon> _laughWink = new Lazy<Icon>(() => new Icon(Style.Solid, "laugh-wink"));
+            private static readonly Lazy<Icon> _laughWink = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "laugh-wink"));
             /// <summary>
             /// Laughing Winking Face
             /// </summary>
@@ -4549,7 +4549,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LaughWink => _laughWink.Value;
 
-            private static readonly Lazy<Icon> _layerGroup = new Lazy<Icon>(() => new Icon(Style.Solid, "layer-group"));
+            private static readonly Lazy<Icon> _layerGroup = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "layer-group"));
             /// <summary>
             /// Layer Group
             /// </summary>
@@ -4558,7 +4558,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LayerGroup => _layerGroup.Value;
 
-            private static readonly Lazy<Icon> _leaf = new Lazy<Icon>(() => new Icon(Style.Solid, "leaf"));
+            private static readonly Lazy<Icon> _leaf = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "leaf"));
             /// <summary>
             /// Leaf
             /// </summary>
@@ -4567,7 +4567,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Leaf => _leaf.Value;
 
-            private static readonly Lazy<Icon> _lemon = new Lazy<Icon>(() => new Icon(Style.Solid, "lemon"));
+            private static readonly Lazy<Icon> _lemon = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "lemon"));
             /// <summary>
             /// Lemon
             /// </summary>
@@ -4576,7 +4576,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Lemon => _lemon.Value;
 
-            private static readonly Lazy<Icon> _lessThan = new Lazy<Icon>(() => new Icon(Style.Solid, "less-than"));
+            private static readonly Lazy<Icon> _lessThan = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "less-than"));
             /// <summary>
             /// Less Than
             /// </summary>
@@ -4585,7 +4585,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LessThan => _lessThan.Value;
 
-            private static readonly Lazy<Icon> _lessThanEqual = new Lazy<Icon>(() => new Icon(Style.Solid, "less-than-equal"));
+            private static readonly Lazy<Icon> _lessThanEqual = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "less-than-equal"));
             /// <summary>
             /// Less Than Equal To
             /// </summary>
@@ -4594,7 +4594,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LessThanEqual => _lessThanEqual.Value;
 
-            private static readonly Lazy<Icon> _levelDownAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "level-down-alt"));
+            private static readonly Lazy<Icon> _levelDownAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "level-down-alt"));
             /// <summary>
             /// Alternate Level Down
             /// </summary>
@@ -4603,7 +4603,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LevelDownAlt => _levelDownAlt.Value;
 
-            private static readonly Lazy<Icon> _levelUpAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "level-up-alt"));
+            private static readonly Lazy<Icon> _levelUpAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "level-up-alt"));
             /// <summary>
             /// Alternate Level Up
             /// </summary>
@@ -4612,7 +4612,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LevelUpAlt => _levelUpAlt.Value;
 
-            private static readonly Lazy<Icon> _lifeRing = new Lazy<Icon>(() => new Icon(Style.Solid, "life-ring"));
+            private static readonly Lazy<Icon> _lifeRing = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "life-ring"));
             /// <summary>
             /// Life Ring
             /// </summary>
@@ -4621,7 +4621,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LifeRing => _lifeRing.Value;
 
-            private static readonly Lazy<Icon> _lightbulb = new Lazy<Icon>(() => new Icon(Style.Solid, "lightbulb"));
+            private static readonly Lazy<Icon> _lightbulb = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "lightbulb"));
             /// <summary>
             /// Lightbulb
             /// </summary>
@@ -4630,7 +4630,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Lightbulb => _lightbulb.Value;
 
-            private static readonly Lazy<Icon> _link = new Lazy<Icon>(() => new Icon(Style.Solid, "link"));
+            private static readonly Lazy<Icon> _link = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "link"));
             /// <summary>
             /// Link
             /// </summary>
@@ -4639,7 +4639,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Link => _link.Value;
 
-            private static readonly Lazy<Icon> _liraSign = new Lazy<Icon>(() => new Icon(Style.Solid, "lira-sign"));
+            private static readonly Lazy<Icon> _liraSign = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "lira-sign"));
             /// <summary>
             /// Turkish Lira Sign
             /// </summary>
@@ -4648,7 +4648,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LiraSign => _liraSign.Value;
 
-            private static readonly Lazy<Icon> _list = new Lazy<Icon>(() => new Icon(Style.Solid, "list"));
+            private static readonly Lazy<Icon> _list = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "list"));
             /// <summary>
             /// List
             /// </summary>
@@ -4657,7 +4657,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon List => _list.Value;
 
-            private static readonly Lazy<Icon> _listAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "list-alt"));
+            private static readonly Lazy<Icon> _listAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "list-alt"));
             /// <summary>
             /// Alternate List
             /// </summary>
@@ -4666,7 +4666,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ListAlt => _listAlt.Value;
 
-            private static readonly Lazy<Icon> _listOl = new Lazy<Icon>(() => new Icon(Style.Solid, "list-ol"));
+            private static readonly Lazy<Icon> _listOl = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "list-ol"));
             /// <summary>
             /// List Ol
             /// </summary>
@@ -4675,7 +4675,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ListOl => _listOl.Value;
 
-            private static readonly Lazy<Icon> _listUl = new Lazy<Icon>(() => new Icon(Style.Solid, "list-ul"));
+            private static readonly Lazy<Icon> _listUl = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "list-ul"));
             /// <summary>
             /// List Ul
             /// </summary>
@@ -4684,7 +4684,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ListUl => _listUl.Value;
 
-            private static readonly Lazy<Icon> _locationArrow = new Lazy<Icon>(() => new Icon(Style.Solid, "location-arrow"));
+            private static readonly Lazy<Icon> _locationArrow = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "location-arrow"));
             /// <summary>
             /// Location Arrow
             /// </summary>
@@ -4693,7 +4693,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LocationArrow => _locationArrow.Value;
 
-            private static readonly Lazy<Icon> _lock = new Lazy<Icon>(() => new Icon(Style.Solid, "lock"));
+            private static readonly Lazy<Icon> _lock = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "lock"));
             /// <summary>
             /// Lock
             /// </summary>
@@ -4702,7 +4702,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Lock => _lock.Value;
 
-            private static readonly Lazy<Icon> _lockOpen = new Lazy<Icon>(() => new Icon(Style.Solid, "lock-open"));
+            private static readonly Lazy<Icon> _lockOpen = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "lock-open"));
             /// <summary>
             /// Lock Open
             /// </summary>
@@ -4711,7 +4711,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LockOpen => _lockOpen.Value;
 
-            private static readonly Lazy<Icon> _longArrowAltDown = new Lazy<Icon>(() => new Icon(Style.Solid, "long-arrow-alt-down"));
+            private static readonly Lazy<Icon> _longArrowAltDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "long-arrow-alt-down"));
             /// <summary>
             /// Alternate Long Arrow Down
             /// </summary>
@@ -4720,7 +4720,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LongArrowAltDown => _longArrowAltDown.Value;
 
-            private static readonly Lazy<Icon> _longArrowAltLeft = new Lazy<Icon>(() => new Icon(Style.Solid, "long-arrow-alt-left"));
+            private static readonly Lazy<Icon> _longArrowAltLeft = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "long-arrow-alt-left"));
             /// <summary>
             /// Alternate Long Arrow Left
             /// </summary>
@@ -4729,7 +4729,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LongArrowAltLeft => _longArrowAltLeft.Value;
 
-            private static readonly Lazy<Icon> _longArrowAltRight = new Lazy<Icon>(() => new Icon(Style.Solid, "long-arrow-alt-right"));
+            private static readonly Lazy<Icon> _longArrowAltRight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "long-arrow-alt-right"));
             /// <summary>
             /// Alternate Long Arrow Right
             /// </summary>
@@ -4738,7 +4738,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LongArrowAltRight => _longArrowAltRight.Value;
 
-            private static readonly Lazy<Icon> _longArrowAltUp = new Lazy<Icon>(() => new Icon(Style.Solid, "long-arrow-alt-up"));
+            private static readonly Lazy<Icon> _longArrowAltUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "long-arrow-alt-up"));
             /// <summary>
             /// Alternate Long Arrow Up
             /// </summary>
@@ -4747,7 +4747,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LongArrowAltUp => _longArrowAltUp.Value;
 
-            private static readonly Lazy<Icon> _lowVision = new Lazy<Icon>(() => new Icon(Style.Solid, "low-vision"));
+            private static readonly Lazy<Icon> _lowVision = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "low-vision"));
             /// <summary>
             /// Low Vision
             /// </summary>
@@ -4756,7 +4756,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LowVision => _lowVision.Value;
 
-            private static readonly Lazy<Icon> _luggageCart = new Lazy<Icon>(() => new Icon(Style.Solid, "luggage-cart"));
+            private static readonly Lazy<Icon> _luggageCart = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "luggage-cart"));
             /// <summary>
             /// Luggage Cart
             /// </summary>
@@ -4765,7 +4765,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon LuggageCart => _luggageCart.Value;
 
-            private static readonly Lazy<Icon> _magic = new Lazy<Icon>(() => new Icon(Style.Solid, "magic"));
+            private static readonly Lazy<Icon> _magic = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "magic"));
             /// <summary>
             /// Magic
             /// </summary>
@@ -4774,7 +4774,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Magic => _magic.Value;
 
-            private static readonly Lazy<Icon> _magnet = new Lazy<Icon>(() => new Icon(Style.Solid, "magnet"));
+            private static readonly Lazy<Icon> _magnet = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "magnet"));
             /// <summary>
             /// Magnet
             /// </summary>
@@ -4783,7 +4783,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Magnet => _magnet.Value;
 
-            private static readonly Lazy<Icon> _mailBulk = new Lazy<Icon>(() => new Icon(Style.Solid, "mail-bulk"));
+            private static readonly Lazy<Icon> _mailBulk = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mail-bulk"));
             /// <summary>
             /// Mail Bulk
             /// </summary>
@@ -4792,7 +4792,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MailBulk => _mailBulk.Value;
 
-            private static readonly Lazy<Icon> _male = new Lazy<Icon>(() => new Icon(Style.Solid, "male"));
+            private static readonly Lazy<Icon> _male = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "male"));
             /// <summary>
             /// Male
             /// </summary>
@@ -4801,7 +4801,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Male => _male.Value;
 
-            private static readonly Lazy<Icon> _map = new Lazy<Icon>(() => new Icon(Style.Solid, "map"));
+            private static readonly Lazy<Icon> _map = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "map"));
             /// <summary>
             /// Map
             /// </summary>
@@ -4810,7 +4810,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Map => _map.Value;
 
-            private static readonly Lazy<Icon> _mapMarked = new Lazy<Icon>(() => new Icon(Style.Solid, "map-marked"));
+            private static readonly Lazy<Icon> _mapMarked = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "map-marked"));
             /// <summary>
             /// Map Marked
             /// </summary>
@@ -4819,7 +4819,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MapMarked => _mapMarked.Value;
 
-            private static readonly Lazy<Icon> _mapMarkedAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "map-marked-alt"));
+            private static readonly Lazy<Icon> _mapMarkedAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "map-marked-alt"));
             /// <summary>
             /// Alternate Map Marked
             /// </summary>
@@ -4828,7 +4828,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MapMarkedAlt => _mapMarkedAlt.Value;
 
-            private static readonly Lazy<Icon> _mapMarker = new Lazy<Icon>(() => new Icon(Style.Solid, "map-marker"));
+            private static readonly Lazy<Icon> _mapMarker = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "map-marker"));
             /// <summary>
             /// Map Marker
             /// </summary>
@@ -4837,7 +4837,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MapMarker => _mapMarker.Value;
 
-            private static readonly Lazy<Icon> _mapMarkerAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "map-marker-alt"));
+            private static readonly Lazy<Icon> _mapMarkerAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "map-marker-alt"));
             /// <summary>
             /// Alternate Map Marker
             /// </summary>
@@ -4846,7 +4846,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MapMarkerAlt => _mapMarkerAlt.Value;
 
-            private static readonly Lazy<Icon> _mapPin = new Lazy<Icon>(() => new Icon(Style.Solid, "map-pin"));
+            private static readonly Lazy<Icon> _mapPin = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "map-pin"));
             /// <summary>
             /// Map Pin
             /// </summary>
@@ -4855,7 +4855,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MapPin => _mapPin.Value;
 
-            private static readonly Lazy<Icon> _mapSigns = new Lazy<Icon>(() => new Icon(Style.Solid, "map-signs"));
+            private static readonly Lazy<Icon> _mapSigns = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "map-signs"));
             /// <summary>
             /// Map Signs
             /// </summary>
@@ -4864,7 +4864,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MapSigns => _mapSigns.Value;
 
-            private static readonly Lazy<Icon> _marker = new Lazy<Icon>(() => new Icon(Style.Solid, "marker"));
+            private static readonly Lazy<Icon> _marker = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "marker"));
             /// <summary>
             /// Marker
             /// </summary>
@@ -4873,7 +4873,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Marker => _marker.Value;
 
-            private static readonly Lazy<Icon> _mars = new Lazy<Icon>(() => new Icon(Style.Solid, "mars"));
+            private static readonly Lazy<Icon> _mars = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mars"));
             /// <summary>
             /// Mars
             /// </summary>
@@ -4882,7 +4882,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Mars => _mars.Value;
 
-            private static readonly Lazy<Icon> _marsDouble = new Lazy<Icon>(() => new Icon(Style.Solid, "mars-double"));
+            private static readonly Lazy<Icon> _marsDouble = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mars-double"));
             /// <summary>
             /// Mars Double
             /// </summary>
@@ -4891,7 +4891,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MarsDouble => _marsDouble.Value;
 
-            private static readonly Lazy<Icon> _marsStroke = new Lazy<Icon>(() => new Icon(Style.Solid, "mars-stroke"));
+            private static readonly Lazy<Icon> _marsStroke = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mars-stroke"));
             /// <summary>
             /// Mars Stroke
             /// </summary>
@@ -4900,7 +4900,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MarsStroke => _marsStroke.Value;
 
-            private static readonly Lazy<Icon> _marsStrokeH = new Lazy<Icon>(() => new Icon(Style.Solid, "mars-stroke-h"));
+            private static readonly Lazy<Icon> _marsStrokeH = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mars-stroke-h"));
             /// <summary>
             /// Mars Stroke Horizontal
             /// </summary>
@@ -4909,7 +4909,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MarsStrokeH => _marsStrokeH.Value;
 
-            private static readonly Lazy<Icon> _marsStrokeV = new Lazy<Icon>(() => new Icon(Style.Solid, "mars-stroke-v"));
+            private static readonly Lazy<Icon> _marsStrokeV = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mars-stroke-v"));
             /// <summary>
             /// Mars Stroke Vertical
             /// </summary>
@@ -4918,7 +4918,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MarsStrokeV => _marsStrokeV.Value;
 
-            private static readonly Lazy<Icon> _mask = new Lazy<Icon>(() => new Icon(Style.Solid, "mask"));
+            private static readonly Lazy<Icon> _mask = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mask"));
             /// <summary>
             /// Mask
             /// </summary>
@@ -4927,7 +4927,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Mask => _mask.Value;
 
-            private static readonly Lazy<Icon> _medal = new Lazy<Icon>(() => new Icon(Style.Solid, "medal"));
+            private static readonly Lazy<Icon> _medal = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "medal"));
             /// <summary>
             /// Medal
             /// </summary>
@@ -4936,7 +4936,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Medal => _medal.Value;
 
-            private static readonly Lazy<Icon> _medkit = new Lazy<Icon>(() => new Icon(Style.Solid, "medkit"));
+            private static readonly Lazy<Icon> _medkit = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "medkit"));
             /// <summary>
             /// Medkit
             /// </summary>
@@ -4945,7 +4945,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Medkit => _medkit.Value;
 
-            private static readonly Lazy<Icon> _meh = new Lazy<Icon>(() => new Icon(Style.Solid, "meh"));
+            private static readonly Lazy<Icon> _meh = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "meh"));
             /// <summary>
             /// Neutral Face
             /// </summary>
@@ -4954,7 +4954,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Meh => _meh.Value;
 
-            private static readonly Lazy<Icon> _mehBlank = new Lazy<Icon>(() => new Icon(Style.Solid, "meh-blank"));
+            private static readonly Lazy<Icon> _mehBlank = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "meh-blank"));
             /// <summary>
             /// Face Without Mouth
             /// </summary>
@@ -4963,7 +4963,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MehBlank => _mehBlank.Value;
 
-            private static readonly Lazy<Icon> _mehRollingEyes = new Lazy<Icon>(() => new Icon(Style.Solid, "meh-rolling-eyes"));
+            private static readonly Lazy<Icon> _mehRollingEyes = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "meh-rolling-eyes"));
             /// <summary>
             /// Face With Rolling Eyes
             /// </summary>
@@ -4972,7 +4972,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MehRollingEyes => _mehRollingEyes.Value;
 
-            private static readonly Lazy<Icon> _memory = new Lazy<Icon>(() => new Icon(Style.Solid, "memory"));
+            private static readonly Lazy<Icon> _memory = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "memory"));
             /// <summary>
             /// Memory
             /// </summary>
@@ -4981,7 +4981,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Memory => _memory.Value;
 
-            private static readonly Lazy<Icon> _menorah = new Lazy<Icon>(() => new Icon(Style.Solid, "menorah"));
+            private static readonly Lazy<Icon> _menorah = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "menorah"));
             /// <summary>
             /// Menorah
             /// </summary>
@@ -4990,7 +4990,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Menorah => _menorah.Value;
 
-            private static readonly Lazy<Icon> _mercury = new Lazy<Icon>(() => new Icon(Style.Solid, "mercury"));
+            private static readonly Lazy<Icon> _mercury = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mercury"));
             /// <summary>
             /// Mercury
             /// </summary>
@@ -4999,7 +4999,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Mercury => _mercury.Value;
 
-            private static readonly Lazy<Icon> _meteor = new Lazy<Icon>(() => new Icon(Style.Solid, "meteor"));
+            private static readonly Lazy<Icon> _meteor = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "meteor"));
             /// <summary>
             /// Meteor
             /// </summary>
@@ -5008,7 +5008,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Meteor => _meteor.Value;
 
-            private static readonly Lazy<Icon> _microchip = new Lazy<Icon>(() => new Icon(Style.Solid, "microchip"));
+            private static readonly Lazy<Icon> _microchip = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "microchip"));
             /// <summary>
             /// Microchip
             /// </summary>
@@ -5017,7 +5017,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Microchip => _microchip.Value;
 
-            private static readonly Lazy<Icon> _microphone = new Lazy<Icon>(() => new Icon(Style.Solid, "microphone"));
+            private static readonly Lazy<Icon> _microphone = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "microphone"));
             /// <summary>
             /// Microphone
             /// </summary>
@@ -5026,7 +5026,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Microphone => _microphone.Value;
 
-            private static readonly Lazy<Icon> _microphoneAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "microphone-alt"));
+            private static readonly Lazy<Icon> _microphoneAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "microphone-alt"));
             /// <summary>
             /// Alternate Microphone
             /// </summary>
@@ -5035,7 +5035,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MicrophoneAlt => _microphoneAlt.Value;
 
-            private static readonly Lazy<Icon> _microphoneAltSlash = new Lazy<Icon>(() => new Icon(Style.Solid, "microphone-alt-slash"));
+            private static readonly Lazy<Icon> _microphoneAltSlash = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "microphone-alt-slash"));
             /// <summary>
             /// Alternate Microphone Slash
             /// </summary>
@@ -5044,7 +5044,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MicrophoneAltSlash => _microphoneAltSlash.Value;
 
-            private static readonly Lazy<Icon> _microphoneSlash = new Lazy<Icon>(() => new Icon(Style.Solid, "microphone-slash"));
+            private static readonly Lazy<Icon> _microphoneSlash = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "microphone-slash"));
             /// <summary>
             /// Microphone Slash
             /// </summary>
@@ -5053,7 +5053,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MicrophoneSlash => _microphoneSlash.Value;
 
-            private static readonly Lazy<Icon> _microscope = new Lazy<Icon>(() => new Icon(Style.Solid, "microscope"));
+            private static readonly Lazy<Icon> _microscope = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "microscope"));
             /// <summary>
             /// Microscope
             /// </summary>
@@ -5062,7 +5062,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Microscope => _microscope.Value;
 
-            private static readonly Lazy<Icon> _minus = new Lazy<Icon>(() => new Icon(Style.Solid, "minus"));
+            private static readonly Lazy<Icon> _minus = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "minus"));
             /// <summary>
             /// Minus
             /// </summary>
@@ -5071,7 +5071,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Minus => _minus.Value;
 
-            private static readonly Lazy<Icon> _minusCircle = new Lazy<Icon>(() => new Icon(Style.Solid, "minus-circle"));
+            private static readonly Lazy<Icon> _minusCircle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "minus-circle"));
             /// <summary>
             /// Minus Circle
             /// </summary>
@@ -5080,7 +5080,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MinusCircle => _minusCircle.Value;
 
-            private static readonly Lazy<Icon> _minusSquare = new Lazy<Icon>(() => new Icon(Style.Solid, "minus-square"));
+            private static readonly Lazy<Icon> _minusSquare = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "minus-square"));
             /// <summary>
             /// Minus Square
             /// </summary>
@@ -5089,7 +5089,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MinusSquare => _minusSquare.Value;
 
-            private static readonly Lazy<Icon> _mitten = new Lazy<Icon>(() => new Icon(Style.Solid, "mitten"));
+            private static readonly Lazy<Icon> _mitten = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mitten"));
             /// <summary>
             /// Mitten
             /// </summary>
@@ -5098,7 +5098,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Mitten => _mitten.Value;
 
-            private static readonly Lazy<Icon> _mobile = new Lazy<Icon>(() => new Icon(Style.Solid, "mobile"));
+            private static readonly Lazy<Icon> _mobile = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mobile"));
             /// <summary>
             /// Mobile Phone
             /// </summary>
@@ -5107,7 +5107,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Mobile => _mobile.Value;
 
-            private static readonly Lazy<Icon> _mobileAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "mobile-alt"));
+            private static readonly Lazy<Icon> _mobileAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mobile-alt"));
             /// <summary>
             /// Alternate Mobile
             /// </summary>
@@ -5116,7 +5116,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MobileAlt => _mobileAlt.Value;
 
-            private static readonly Lazy<Icon> _moneyBill = new Lazy<Icon>(() => new Icon(Style.Solid, "money-bill"));
+            private static readonly Lazy<Icon> _moneyBill = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "money-bill"));
             /// <summary>
             /// Money Bill
             /// </summary>
@@ -5125,7 +5125,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MoneyBill => _moneyBill.Value;
 
-            private static readonly Lazy<Icon> _moneyBillAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "money-bill-alt"));
+            private static readonly Lazy<Icon> _moneyBillAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "money-bill-alt"));
             /// <summary>
             /// Alternate Money Bill
             /// </summary>
@@ -5134,7 +5134,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MoneyBillAlt => _moneyBillAlt.Value;
 
-            private static readonly Lazy<Icon> _moneyBillWave = new Lazy<Icon>(() => new Icon(Style.Solid, "money-bill-wave"));
+            private static readonly Lazy<Icon> _moneyBillWave = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "money-bill-wave"));
             /// <summary>
             /// Wavy Money Bill
             /// </summary>
@@ -5143,7 +5143,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MoneyBillWave => _moneyBillWave.Value;
 
-            private static readonly Lazy<Icon> _moneyBillWaveAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "money-bill-wave-alt"));
+            private static readonly Lazy<Icon> _moneyBillWaveAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "money-bill-wave-alt"));
             /// <summary>
             /// Alternate Wavy Money Bill
             /// </summary>
@@ -5152,7 +5152,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MoneyBillWaveAlt => _moneyBillWaveAlt.Value;
 
-            private static readonly Lazy<Icon> _moneyCheck = new Lazy<Icon>(() => new Icon(Style.Solid, "money-check"));
+            private static readonly Lazy<Icon> _moneyCheck = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "money-check"));
             /// <summary>
             /// Money Check
             /// </summary>
@@ -5161,7 +5161,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MoneyCheck => _moneyCheck.Value;
 
-            private static readonly Lazy<Icon> _moneyCheckAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "money-check-alt"));
+            private static readonly Lazy<Icon> _moneyCheckAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "money-check-alt"));
             /// <summary>
             /// Alternate Money Check
             /// </summary>
@@ -5170,7 +5170,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MoneyCheckAlt => _moneyCheckAlt.Value;
 
-            private static readonly Lazy<Icon> _monument = new Lazy<Icon>(() => new Icon(Style.Solid, "monument"));
+            private static readonly Lazy<Icon> _monument = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "monument"));
             /// <summary>
             /// Monument
             /// </summary>
@@ -5179,7 +5179,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Monument => _monument.Value;
 
-            private static readonly Lazy<Icon> _moon = new Lazy<Icon>(() => new Icon(Style.Solid, "moon"));
+            private static readonly Lazy<Icon> _moon = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "moon"));
             /// <summary>
             /// Moon
             /// </summary>
@@ -5188,7 +5188,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Moon => _moon.Value;
 
-            private static readonly Lazy<Icon> _mortarPestle = new Lazy<Icon>(() => new Icon(Style.Solid, "mortar-pestle"));
+            private static readonly Lazy<Icon> _mortarPestle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mortar-pestle"));
             /// <summary>
             /// Mortar Pestle
             /// </summary>
@@ -5197,7 +5197,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MortarPestle => _mortarPestle.Value;
 
-            private static readonly Lazy<Icon> _mosque = new Lazy<Icon>(() => new Icon(Style.Solid, "mosque"));
+            private static readonly Lazy<Icon> _mosque = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mosque"));
             /// <summary>
             /// Mosque
             /// </summary>
@@ -5206,7 +5206,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Mosque => _mosque.Value;
 
-            private static readonly Lazy<Icon> _motorcycle = new Lazy<Icon>(() => new Icon(Style.Solid, "motorcycle"));
+            private static readonly Lazy<Icon> _motorcycle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "motorcycle"));
             /// <summary>
             /// Motorcycle
             /// </summary>
@@ -5215,7 +5215,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Motorcycle => _motorcycle.Value;
 
-            private static readonly Lazy<Icon> _mountain = new Lazy<Icon>(() => new Icon(Style.Solid, "mountain"));
+            private static readonly Lazy<Icon> _mountain = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mountain"));
             /// <summary>
             /// Mountain
             /// </summary>
@@ -5224,7 +5224,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Mountain => _mountain.Value;
 
-            private static readonly Lazy<Icon> _mouse = new Lazy<Icon>(() => new Icon(Style.Solid, "mouse"));
+            private static readonly Lazy<Icon> _mouse = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mouse"));
             /// <summary>
             /// Mouse
             /// </summary>
@@ -5233,7 +5233,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Mouse => _mouse.Value;
 
-            private static readonly Lazy<Icon> _mousePointer = new Lazy<Icon>(() => new Icon(Style.Solid, "mouse-pointer"));
+            private static readonly Lazy<Icon> _mousePointer = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mouse-pointer"));
             /// <summary>
             /// Mouse Pointer
             /// </summary>
@@ -5242,7 +5242,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MousePointer => _mousePointer.Value;
 
-            private static readonly Lazy<Icon> _mugHot = new Lazy<Icon>(() => new Icon(Style.Solid, "mug-hot"));
+            private static readonly Lazy<Icon> _mugHot = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "mug-hot"));
             /// <summary>
             /// Mug Hot
             /// </summary>
@@ -5251,7 +5251,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon MugHot => _mugHot.Value;
 
-            private static readonly Lazy<Icon> _music = new Lazy<Icon>(() => new Icon(Style.Solid, "music"));
+            private static readonly Lazy<Icon> _music = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "music"));
             /// <summary>
             /// Music
             /// </summary>
@@ -5260,7 +5260,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Music => _music.Value;
 
-            private static readonly Lazy<Icon> _networkWired = new Lazy<Icon>(() => new Icon(Style.Solid, "network-wired"));
+            private static readonly Lazy<Icon> _networkWired = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "network-wired"));
             /// <summary>
             /// Wired Network
             /// </summary>
@@ -5269,7 +5269,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon NetworkWired => _networkWired.Value;
 
-            private static readonly Lazy<Icon> _neuter = new Lazy<Icon>(() => new Icon(Style.Solid, "neuter"));
+            private static readonly Lazy<Icon> _neuter = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "neuter"));
             /// <summary>
             /// Neuter
             /// </summary>
@@ -5278,7 +5278,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Neuter => _neuter.Value;
 
-            private static readonly Lazy<Icon> _newspaper = new Lazy<Icon>(() => new Icon(Style.Solid, "newspaper"));
+            private static readonly Lazy<Icon> _newspaper = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "newspaper"));
             /// <summary>
             /// Newspaper
             /// </summary>
@@ -5287,7 +5287,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Newspaper => _newspaper.Value;
 
-            private static readonly Lazy<Icon> _notEqual = new Lazy<Icon>(() => new Icon(Style.Solid, "not-equal"));
+            private static readonly Lazy<Icon> _notEqual = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "not-equal"));
             /// <summary>
             /// Not Equal
             /// </summary>
@@ -5296,7 +5296,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon NotEqual => _notEqual.Value;
 
-            private static readonly Lazy<Icon> _notesMedical = new Lazy<Icon>(() => new Icon(Style.Solid, "notes-medical"));
+            private static readonly Lazy<Icon> _notesMedical = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "notes-medical"));
             /// <summary>
             /// Medical Notes
             /// </summary>
@@ -5305,7 +5305,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon NotesMedical => _notesMedical.Value;
 
-            private static readonly Lazy<Icon> _objectGroup = new Lazy<Icon>(() => new Icon(Style.Solid, "object-group"));
+            private static readonly Lazy<Icon> _objectGroup = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "object-group"));
             /// <summary>
             /// Object Group
             /// </summary>
@@ -5314,7 +5314,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ObjectGroup => _objectGroup.Value;
 
-            private static readonly Lazy<Icon> _objectUngroup = new Lazy<Icon>(() => new Icon(Style.Solid, "object-ungroup"));
+            private static readonly Lazy<Icon> _objectUngroup = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "object-ungroup"));
             /// <summary>
             /// Object Ungroup
             /// </summary>
@@ -5323,7 +5323,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ObjectUngroup => _objectUngroup.Value;
 
-            private static readonly Lazy<Icon> _oilCan = new Lazy<Icon>(() => new Icon(Style.Solid, "oil-can"));
+            private static readonly Lazy<Icon> _oilCan = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "oil-can"));
             /// <summary>
             /// Oil Can
             /// </summary>
@@ -5332,7 +5332,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon OilCan => _oilCan.Value;
 
-            private static readonly Lazy<Icon> _om = new Lazy<Icon>(() => new Icon(Style.Solid, "om"));
+            private static readonly Lazy<Icon> _om = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "om"));
             /// <summary>
             /// Om
             /// </summary>
@@ -5341,7 +5341,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Om => _om.Value;
 
-            private static readonly Lazy<Icon> _otter = new Lazy<Icon>(() => new Icon(Style.Solid, "otter"));
+            private static readonly Lazy<Icon> _otter = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "otter"));
             /// <summary>
             /// Otter
             /// </summary>
@@ -5350,7 +5350,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Otter => _otter.Value;
 
-            private static readonly Lazy<Icon> _outdent = new Lazy<Icon>(() => new Icon(Style.Solid, "outdent"));
+            private static readonly Lazy<Icon> _outdent = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "outdent"));
             /// <summary>
             /// Outdent
             /// </summary>
@@ -5359,7 +5359,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Outdent => _outdent.Value;
 
-            private static readonly Lazy<Icon> _pager = new Lazy<Icon>(() => new Icon(Style.Solid, "pager"));
+            private static readonly Lazy<Icon> _pager = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pager"));
             /// <summary>
             /// Pager
             /// </summary>
@@ -5368,7 +5368,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Pager => _pager.Value;
 
-            private static readonly Lazy<Icon> _paintBrush = new Lazy<Icon>(() => new Icon(Style.Solid, "paint-brush"));
+            private static readonly Lazy<Icon> _paintBrush = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "paint-brush"));
             /// <summary>
             /// Paint Brush
             /// </summary>
@@ -5377,7 +5377,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PaintBrush => _paintBrush.Value;
 
-            private static readonly Lazy<Icon> _paintRoller = new Lazy<Icon>(() => new Icon(Style.Solid, "paint-roller"));
+            private static readonly Lazy<Icon> _paintRoller = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "paint-roller"));
             /// <summary>
             /// Paint Roller
             /// </summary>
@@ -5386,7 +5386,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PaintRoller => _paintRoller.Value;
 
-            private static readonly Lazy<Icon> _palette = new Lazy<Icon>(() => new Icon(Style.Solid, "palette"));
+            private static readonly Lazy<Icon> _palette = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "palette"));
             /// <summary>
             /// Palette
             /// </summary>
@@ -5395,7 +5395,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Palette => _palette.Value;
 
-            private static readonly Lazy<Icon> _pallet = new Lazy<Icon>(() => new Icon(Style.Solid, "pallet"));
+            private static readonly Lazy<Icon> _pallet = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pallet"));
             /// <summary>
             /// Pallet
             /// </summary>
@@ -5404,7 +5404,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Pallet => _pallet.Value;
 
-            private static readonly Lazy<Icon> _paperPlane = new Lazy<Icon>(() => new Icon(Style.Solid, "paper-plane"));
+            private static readonly Lazy<Icon> _paperPlane = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "paper-plane"));
             /// <summary>
             /// Paper Plane
             /// </summary>
@@ -5413,7 +5413,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PaperPlane => _paperPlane.Value;
 
-            private static readonly Lazy<Icon> _paperclip = new Lazy<Icon>(() => new Icon(Style.Solid, "paperclip"));
+            private static readonly Lazy<Icon> _paperclip = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "paperclip"));
             /// <summary>
             /// Paperclip
             /// </summary>
@@ -5422,7 +5422,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Paperclip => _paperclip.Value;
 
-            private static readonly Lazy<Icon> _parachuteBox = new Lazy<Icon>(() => new Icon(Style.Solid, "parachute-box"));
+            private static readonly Lazy<Icon> _parachuteBox = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "parachute-box"));
             /// <summary>
             /// Parachute Box
             /// </summary>
@@ -5431,7 +5431,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ParachuteBox => _parachuteBox.Value;
 
-            private static readonly Lazy<Icon> _paragraph = new Lazy<Icon>(() => new Icon(Style.Solid, "paragraph"));
+            private static readonly Lazy<Icon> _paragraph = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "paragraph"));
             /// <summary>
             /// Paragraph
             /// </summary>
@@ -5440,7 +5440,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Paragraph => _paragraph.Value;
 
-            private static readonly Lazy<Icon> _parking = new Lazy<Icon>(() => new Icon(Style.Solid, "parking"));
+            private static readonly Lazy<Icon> _parking = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "parking"));
             /// <summary>
             /// Parking
             /// </summary>
@@ -5449,7 +5449,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Parking => _parking.Value;
 
-            private static readonly Lazy<Icon> _passport = new Lazy<Icon>(() => new Icon(Style.Solid, "passport"));
+            private static readonly Lazy<Icon> _passport = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "passport"));
             /// <summary>
             /// Passport
             /// </summary>
@@ -5458,7 +5458,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Passport => _passport.Value;
 
-            private static readonly Lazy<Icon> _pastafarianism = new Lazy<Icon>(() => new Icon(Style.Solid, "pastafarianism"));
+            private static readonly Lazy<Icon> _pastafarianism = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pastafarianism"));
             /// <summary>
             /// Pastafarianism
             /// </summary>
@@ -5467,7 +5467,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Pastafarianism => _pastafarianism.Value;
 
-            private static readonly Lazy<Icon> _paste = new Lazy<Icon>(() => new Icon(Style.Solid, "paste"));
+            private static readonly Lazy<Icon> _paste = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "paste"));
             /// <summary>
             /// Paste
             /// </summary>
@@ -5476,7 +5476,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Paste => _paste.Value;
 
-            private static readonly Lazy<Icon> _pause = new Lazy<Icon>(() => new Icon(Style.Solid, "pause"));
+            private static readonly Lazy<Icon> _pause = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pause"));
             /// <summary>
             /// Pause
             /// </summary>
@@ -5485,7 +5485,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Pause => _pause.Value;
 
-            private static readonly Lazy<Icon> _pauseCircle = new Lazy<Icon>(() => new Icon(Style.Solid, "pause-circle"));
+            private static readonly Lazy<Icon> _pauseCircle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pause-circle"));
             /// <summary>
             /// Pause Circle
             /// </summary>
@@ -5494,7 +5494,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PauseCircle => _pauseCircle.Value;
 
-            private static readonly Lazy<Icon> _paw = new Lazy<Icon>(() => new Icon(Style.Solid, "paw"));
+            private static readonly Lazy<Icon> _paw = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "paw"));
             /// <summary>
             /// Paw
             /// </summary>
@@ -5503,7 +5503,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Paw => _paw.Value;
 
-            private static readonly Lazy<Icon> _peace = new Lazy<Icon>(() => new Icon(Style.Solid, "peace"));
+            private static readonly Lazy<Icon> _peace = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "peace"));
             /// <summary>
             /// Peace
             /// </summary>
@@ -5512,7 +5512,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Peace => _peace.Value;
 
-            private static readonly Lazy<Icon> _pen = new Lazy<Icon>(() => new Icon(Style.Solid, "pen"));
+            private static readonly Lazy<Icon> _pen = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pen"));
             /// <summary>
             /// Pen
             /// </summary>
@@ -5521,7 +5521,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Pen => _pen.Value;
 
-            private static readonly Lazy<Icon> _penAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "pen-alt"));
+            private static readonly Lazy<Icon> _penAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pen-alt"));
             /// <summary>
             /// Alternate Pen
             /// </summary>
@@ -5530,7 +5530,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PenAlt => _penAlt.Value;
 
-            private static readonly Lazy<Icon> _penFancy = new Lazy<Icon>(() => new Icon(Style.Solid, "pen-fancy"));
+            private static readonly Lazy<Icon> _penFancy = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pen-fancy"));
             /// <summary>
             /// Pen Fancy
             /// </summary>
@@ -5539,7 +5539,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PenFancy => _penFancy.Value;
 
-            private static readonly Lazy<Icon> _penNib = new Lazy<Icon>(() => new Icon(Style.Solid, "pen-nib"));
+            private static readonly Lazy<Icon> _penNib = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pen-nib"));
             /// <summary>
             /// Pen Nib
             /// </summary>
@@ -5548,7 +5548,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PenNib => _penNib.Value;
 
-            private static readonly Lazy<Icon> _penSquare = new Lazy<Icon>(() => new Icon(Style.Solid, "pen-square"));
+            private static readonly Lazy<Icon> _penSquare = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pen-square"));
             /// <summary>
             /// Pen Square
             /// </summary>
@@ -5557,7 +5557,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PenSquare => _penSquare.Value;
 
-            private static readonly Lazy<Icon> _pencilAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "pencil-alt"));
+            private static readonly Lazy<Icon> _pencilAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pencil-alt"));
             /// <summary>
             /// Alternate Pencil
             /// </summary>
@@ -5566,7 +5566,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PencilAlt => _pencilAlt.Value;
 
-            private static readonly Lazy<Icon> _pencilRuler = new Lazy<Icon>(() => new Icon(Style.Solid, "pencil-ruler"));
+            private static readonly Lazy<Icon> _pencilRuler = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pencil-ruler"));
             /// <summary>
             /// Pencil Ruler
             /// </summary>
@@ -5575,7 +5575,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PencilRuler => _pencilRuler.Value;
 
-            private static readonly Lazy<Icon> _peopleCarry = new Lazy<Icon>(() => new Icon(Style.Solid, "people-carry"));
+            private static readonly Lazy<Icon> _peopleCarry = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "people-carry"));
             /// <summary>
             /// People Carry
             /// </summary>
@@ -5584,7 +5584,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PeopleCarry => _peopleCarry.Value;
 
-            private static readonly Lazy<Icon> _pepperHot = new Lazy<Icon>(() => new Icon(Style.Solid, "pepper-hot"));
+            private static readonly Lazy<Icon> _pepperHot = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pepper-hot"));
             /// <summary>
             /// Hot Pepper
             /// </summary>
@@ -5593,7 +5593,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PepperHot => _pepperHot.Value;
 
-            private static readonly Lazy<Icon> _percent = new Lazy<Icon>(() => new Icon(Style.Solid, "percent"));
+            private static readonly Lazy<Icon> _percent = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "percent"));
             /// <summary>
             /// Percent
             /// </summary>
@@ -5602,7 +5602,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Percent => _percent.Value;
 
-            private static readonly Lazy<Icon> _percentage = new Lazy<Icon>(() => new Icon(Style.Solid, "percentage"));
+            private static readonly Lazy<Icon> _percentage = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "percentage"));
             /// <summary>
             /// Percentage
             /// </summary>
@@ -5611,7 +5611,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Percentage => _percentage.Value;
 
-            private static readonly Lazy<Icon> _personBooth = new Lazy<Icon>(() => new Icon(Style.Solid, "person-booth"));
+            private static readonly Lazy<Icon> _personBooth = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "person-booth"));
             /// <summary>
             /// Person Entering Booth
             /// </summary>
@@ -5620,7 +5620,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PersonBooth => _personBooth.Value;
 
-            private static readonly Lazy<Icon> _phone = new Lazy<Icon>(() => new Icon(Style.Solid, "phone"));
+            private static readonly Lazy<Icon> _phone = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "phone"));
             /// <summary>
             /// Phone
             /// </summary>
@@ -5629,7 +5629,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Phone => _phone.Value;
 
-            private static readonly Lazy<Icon> _phoneAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "phone-alt"));
+            private static readonly Lazy<Icon> _phoneAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "phone-alt"));
             /// <summary>
             /// Alternate Phone
             /// </summary>
@@ -5638,7 +5638,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PhoneAlt => _phoneAlt.Value;
 
-            private static readonly Lazy<Icon> _phoneSlash = new Lazy<Icon>(() => new Icon(Style.Solid, "phone-slash"));
+            private static readonly Lazy<Icon> _phoneSlash = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "phone-slash"));
             /// <summary>
             /// Phone Slash
             /// </summary>
@@ -5647,7 +5647,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PhoneSlash => _phoneSlash.Value;
 
-            private static readonly Lazy<Icon> _phoneSquare = new Lazy<Icon>(() => new Icon(Style.Solid, "phone-square"));
+            private static readonly Lazy<Icon> _phoneSquare = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "phone-square"));
             /// <summary>
             /// Phone Square
             /// </summary>
@@ -5656,7 +5656,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PhoneSquare => _phoneSquare.Value;
 
-            private static readonly Lazy<Icon> _phoneSquareAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "phone-square-alt"));
+            private static readonly Lazy<Icon> _phoneSquareAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "phone-square-alt"));
             /// <summary>
             /// Alternate Phone Square
             /// </summary>
@@ -5665,7 +5665,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PhoneSquareAlt => _phoneSquareAlt.Value;
 
-            private static readonly Lazy<Icon> _phoneVolume = new Lazy<Icon>(() => new Icon(Style.Solid, "phone-volume"));
+            private static readonly Lazy<Icon> _phoneVolume = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "phone-volume"));
             /// <summary>
             /// Phone Volume
             /// </summary>
@@ -5674,7 +5674,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PhoneVolume => _phoneVolume.Value;
 
-            private static readonly Lazy<Icon> _photoVideo = new Lazy<Icon>(() => new Icon(Style.Solid, "photo-video"));
+            private static readonly Lazy<Icon> _photoVideo = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "photo-video"));
             /// <summary>
             /// Photo Video
             /// </summary>
@@ -5683,7 +5683,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PhotoVideo => _photoVideo.Value;
 
-            private static readonly Lazy<Icon> _piggyBank = new Lazy<Icon>(() => new Icon(Style.Solid, "piggy-bank"));
+            private static readonly Lazy<Icon> _piggyBank = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "piggy-bank"));
             /// <summary>
             /// Piggy Bank
             /// </summary>
@@ -5692,7 +5692,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PiggyBank => _piggyBank.Value;
 
-            private static readonly Lazy<Icon> _pills = new Lazy<Icon>(() => new Icon(Style.Solid, "pills"));
+            private static readonly Lazy<Icon> _pills = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pills"));
             /// <summary>
             /// Pills
             /// </summary>
@@ -5701,7 +5701,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Pills => _pills.Value;
 
-            private static readonly Lazy<Icon> _pizzaSlice = new Lazy<Icon>(() => new Icon(Style.Solid, "pizza-slice"));
+            private static readonly Lazy<Icon> _pizzaSlice = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pizza-slice"));
             /// <summary>
             /// Pizza Slice
             /// </summary>
@@ -5710,7 +5710,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PizzaSlice => _pizzaSlice.Value;
 
-            private static readonly Lazy<Icon> _placeOfWorship = new Lazy<Icon>(() => new Icon(Style.Solid, "place-of-worship"));
+            private static readonly Lazy<Icon> _placeOfWorship = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "place-of-worship"));
             /// <summary>
             /// Place Of Worship
             /// </summary>
@@ -5719,7 +5719,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PlaceOfWorship => _placeOfWorship.Value;
 
-            private static readonly Lazy<Icon> _plane = new Lazy<Icon>(() => new Icon(Style.Solid, "plane"));
+            private static readonly Lazy<Icon> _plane = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "plane"));
             /// <summary>
             /// Plane
             /// </summary>
@@ -5728,7 +5728,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Plane => _plane.Value;
 
-            private static readonly Lazy<Icon> _planeArrival = new Lazy<Icon>(() => new Icon(Style.Solid, "plane-arrival"));
+            private static readonly Lazy<Icon> _planeArrival = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "plane-arrival"));
             /// <summary>
             /// Plane Arrival
             /// </summary>
@@ -5737,7 +5737,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PlaneArrival => _planeArrival.Value;
 
-            private static readonly Lazy<Icon> _planeDeparture = new Lazy<Icon>(() => new Icon(Style.Solid, "plane-departure"));
+            private static readonly Lazy<Icon> _planeDeparture = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "plane-departure"));
             /// <summary>
             /// Plane Departure
             /// </summary>
@@ -5746,7 +5746,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PlaneDeparture => _planeDeparture.Value;
 
-            private static readonly Lazy<Icon> _play = new Lazy<Icon>(() => new Icon(Style.Solid, "play"));
+            private static readonly Lazy<Icon> _play = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "play"));
             /// <summary>
             /// Play
             /// </summary>
@@ -5755,7 +5755,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Play => _play.Value;
 
-            private static readonly Lazy<Icon> _playCircle = new Lazy<Icon>(() => new Icon(Style.Solid, "play-circle"));
+            private static readonly Lazy<Icon> _playCircle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "play-circle"));
             /// <summary>
             /// Play Circle
             /// </summary>
@@ -5764,7 +5764,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PlayCircle => _playCircle.Value;
 
-            private static readonly Lazy<Icon> _plug = new Lazy<Icon>(() => new Icon(Style.Solid, "plug"));
+            private static readonly Lazy<Icon> _plug = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "plug"));
             /// <summary>
             /// Plug
             /// </summary>
@@ -5773,7 +5773,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Plug => _plug.Value;
 
-            private static readonly Lazy<Icon> _plus = new Lazy<Icon>(() => new Icon(Style.Solid, "plus"));
+            private static readonly Lazy<Icon> _plus = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "plus"));
             /// <summary>
             /// Plus
             /// </summary>
@@ -5782,7 +5782,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Plus => _plus.Value;
 
-            private static readonly Lazy<Icon> _plusCircle = new Lazy<Icon>(() => new Icon(Style.Solid, "plus-circle"));
+            private static readonly Lazy<Icon> _plusCircle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "plus-circle"));
             /// <summary>
             /// Plus Circle
             /// </summary>
@@ -5791,7 +5791,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PlusCircle => _plusCircle.Value;
 
-            private static readonly Lazy<Icon> _plusSquare = new Lazy<Icon>(() => new Icon(Style.Solid, "plus-square"));
+            private static readonly Lazy<Icon> _plusSquare = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "plus-square"));
             /// <summary>
             /// Plus Square
             /// </summary>
@@ -5800,7 +5800,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PlusSquare => _plusSquare.Value;
 
-            private static readonly Lazy<Icon> _podcast = new Lazy<Icon>(() => new Icon(Style.Solid, "podcast"));
+            private static readonly Lazy<Icon> _podcast = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "podcast"));
             /// <summary>
             /// Podcast
             /// </summary>
@@ -5809,7 +5809,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Podcast => _podcast.Value;
 
-            private static readonly Lazy<Icon> _poll = new Lazy<Icon>(() => new Icon(Style.Solid, "poll"));
+            private static readonly Lazy<Icon> _poll = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "poll"));
             /// <summary>
             /// Poll
             /// </summary>
@@ -5818,7 +5818,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Poll => _poll.Value;
 
-            private static readonly Lazy<Icon> _pollH = new Lazy<Icon>(() => new Icon(Style.Solid, "poll-h"));
+            private static readonly Lazy<Icon> _pollH = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "poll-h"));
             /// <summary>
             /// Poll H
             /// </summary>
@@ -5827,7 +5827,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PollH => _pollH.Value;
 
-            private static readonly Lazy<Icon> _poo = new Lazy<Icon>(() => new Icon(Style.Solid, "poo"));
+            private static readonly Lazy<Icon> _poo = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "poo"));
             /// <summary>
             /// Poo
             /// </summary>
@@ -5836,7 +5836,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Poo => _poo.Value;
 
-            private static readonly Lazy<Icon> _pooStorm = new Lazy<Icon>(() => new Icon(Style.Solid, "poo-storm"));
+            private static readonly Lazy<Icon> _pooStorm = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "poo-storm"));
             /// <summary>
             /// Poo Storm
             /// </summary>
@@ -5845,7 +5845,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PooStorm => _pooStorm.Value;
 
-            private static readonly Lazy<Icon> _poop = new Lazy<Icon>(() => new Icon(Style.Solid, "poop"));
+            private static readonly Lazy<Icon> _poop = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "poop"));
             /// <summary>
             /// Poop
             /// </summary>
@@ -5854,7 +5854,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Poop => _poop.Value;
 
-            private static readonly Lazy<Icon> _portrait = new Lazy<Icon>(() => new Icon(Style.Solid, "portrait"));
+            private static readonly Lazy<Icon> _portrait = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "portrait"));
             /// <summary>
             /// Portrait
             /// </summary>
@@ -5863,7 +5863,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Portrait => _portrait.Value;
 
-            private static readonly Lazy<Icon> _poundSign = new Lazy<Icon>(() => new Icon(Style.Solid, "pound-sign"));
+            private static readonly Lazy<Icon> _poundSign = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pound-sign"));
             /// <summary>
             /// Pound Sign
             /// </summary>
@@ -5872,7 +5872,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PoundSign => _poundSign.Value;
 
-            private static readonly Lazy<Icon> _powerOff = new Lazy<Icon>(() => new Icon(Style.Solid, "power-off"));
+            private static readonly Lazy<Icon> _powerOff = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "power-off"));
             /// <summary>
             /// Power Off
             /// </summary>
@@ -5881,7 +5881,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PowerOff => _powerOff.Value;
 
-            private static readonly Lazy<Icon> _pray = new Lazy<Icon>(() => new Icon(Style.Solid, "pray"));
+            private static readonly Lazy<Icon> _pray = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "pray"));
             /// <summary>
             /// Pray
             /// </summary>
@@ -5890,7 +5890,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Pray => _pray.Value;
 
-            private static readonly Lazy<Icon> _prayingHands = new Lazy<Icon>(() => new Icon(Style.Solid, "praying-hands"));
+            private static readonly Lazy<Icon> _prayingHands = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "praying-hands"));
             /// <summary>
             /// Praying Hands
             /// </summary>
@@ -5899,7 +5899,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PrayingHands => _prayingHands.Value;
 
-            private static readonly Lazy<Icon> _prescription = new Lazy<Icon>(() => new Icon(Style.Solid, "prescription"));
+            private static readonly Lazy<Icon> _prescription = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "prescription"));
             /// <summary>
             /// Prescription
             /// </summary>
@@ -5908,7 +5908,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Prescription => _prescription.Value;
 
-            private static readonly Lazy<Icon> _prescriptionBottle = new Lazy<Icon>(() => new Icon(Style.Solid, "prescription-bottle"));
+            private static readonly Lazy<Icon> _prescriptionBottle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "prescription-bottle"));
             /// <summary>
             /// Prescription Bottle
             /// </summary>
@@ -5917,7 +5917,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PrescriptionBottle => _prescriptionBottle.Value;
 
-            private static readonly Lazy<Icon> _prescriptionBottleAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "prescription-bottle-alt"));
+            private static readonly Lazy<Icon> _prescriptionBottleAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "prescription-bottle-alt"));
             /// <summary>
             /// Alternate Prescription Bottle
             /// </summary>
@@ -5926,7 +5926,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PrescriptionBottleAlt => _prescriptionBottleAlt.Value;
 
-            private static readonly Lazy<Icon> _print = new Lazy<Icon>(() => new Icon(Style.Solid, "print"));
+            private static readonly Lazy<Icon> _print = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "print"));
             /// <summary>
             /// Print
             /// </summary>
@@ -5935,7 +5935,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Print => _print.Value;
 
-            private static readonly Lazy<Icon> _procedures = new Lazy<Icon>(() => new Icon(Style.Solid, "procedures"));
+            private static readonly Lazy<Icon> _procedures = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "procedures"));
             /// <summary>
             /// Procedures
             /// </summary>
@@ -5944,7 +5944,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Procedures => _procedures.Value;
 
-            private static readonly Lazy<Icon> _projectDiagram = new Lazy<Icon>(() => new Icon(Style.Solid, "project-diagram"));
+            private static readonly Lazy<Icon> _projectDiagram = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "project-diagram"));
             /// <summary>
             /// Project Diagram
             /// </summary>
@@ -5953,7 +5953,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ProjectDiagram => _projectDiagram.Value;
 
-            private static readonly Lazy<Icon> _puzzlePiece = new Lazy<Icon>(() => new Icon(Style.Solid, "puzzle-piece"));
+            private static readonly Lazy<Icon> _puzzlePiece = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "puzzle-piece"));
             /// <summary>
             /// Puzzle Piece
             /// </summary>
@@ -5962,7 +5962,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon PuzzlePiece => _puzzlePiece.Value;
 
-            private static readonly Lazy<Icon> _qrcode = new Lazy<Icon>(() => new Icon(Style.Solid, "qrcode"));
+            private static readonly Lazy<Icon> _qrcode = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "qrcode"));
             /// <summary>
             /// Qrcode
             /// </summary>
@@ -5971,7 +5971,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Qrcode => _qrcode.Value;
 
-            private static readonly Lazy<Icon> _question = new Lazy<Icon>(() => new Icon(Style.Solid, "question"));
+            private static readonly Lazy<Icon> _question = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "question"));
             /// <summary>
             /// Question
             /// </summary>
@@ -5980,7 +5980,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Question => _question.Value;
 
-            private static readonly Lazy<Icon> _questionCircle = new Lazy<Icon>(() => new Icon(Style.Solid, "question-circle"));
+            private static readonly Lazy<Icon> _questionCircle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "question-circle"));
             /// <summary>
             /// Question Circle
             /// </summary>
@@ -5989,7 +5989,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon QuestionCircle => _questionCircle.Value;
 
-            private static readonly Lazy<Icon> _quidditch = new Lazy<Icon>(() => new Icon(Style.Solid, "quidditch"));
+            private static readonly Lazy<Icon> _quidditch = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "quidditch"));
             /// <summary>
             /// Quidditch
             /// </summary>
@@ -5998,7 +5998,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Quidditch => _quidditch.Value;
 
-            private static readonly Lazy<Icon> _quoteLeft = new Lazy<Icon>(() => new Icon(Style.Solid, "quote-left"));
+            private static readonly Lazy<Icon> _quoteLeft = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "quote-left"));
             /// <summary>
             /// Quote Left
             /// </summary>
@@ -6007,7 +6007,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon QuoteLeft => _quoteLeft.Value;
 
-            private static readonly Lazy<Icon> _quoteRight = new Lazy<Icon>(() => new Icon(Style.Solid, "quote-right"));
+            private static readonly Lazy<Icon> _quoteRight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "quote-right"));
             /// <summary>
             /// Quote Right
             /// </summary>
@@ -6016,7 +6016,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon QuoteRight => _quoteRight.Value;
 
-            private static readonly Lazy<Icon> _quran = new Lazy<Icon>(() => new Icon(Style.Solid, "quran"));
+            private static readonly Lazy<Icon> _quran = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "quran"));
             /// <summary>
             /// Quran
             /// </summary>
@@ -6025,7 +6025,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Quran => _quran.Value;
 
-            private static readonly Lazy<Icon> _radiation = new Lazy<Icon>(() => new Icon(Style.Solid, "radiation"));
+            private static readonly Lazy<Icon> _radiation = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "radiation"));
             /// <summary>
             /// Radiation
             /// </summary>
@@ -6034,7 +6034,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Radiation => _radiation.Value;
 
-            private static readonly Lazy<Icon> _radiationAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "radiation-alt"));
+            private static readonly Lazy<Icon> _radiationAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "radiation-alt"));
             /// <summary>
             /// Alternate Radiation
             /// </summary>
@@ -6043,7 +6043,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon RadiationAlt => _radiationAlt.Value;
 
-            private static readonly Lazy<Icon> _rainbow = new Lazy<Icon>(() => new Icon(Style.Solid, "rainbow"));
+            private static readonly Lazy<Icon> _rainbow = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "rainbow"));
             /// <summary>
             /// Rainbow
             /// </summary>
@@ -6052,7 +6052,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Rainbow => _rainbow.Value;
 
-            private static readonly Lazy<Icon> _random = new Lazy<Icon>(() => new Icon(Style.Solid, "random"));
+            private static readonly Lazy<Icon> _random = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "random"));
             /// <summary>
             /// Random
             /// </summary>
@@ -6061,7 +6061,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Random => _random.Value;
 
-            private static readonly Lazy<Icon> _receipt = new Lazy<Icon>(() => new Icon(Style.Solid, "receipt"));
+            private static readonly Lazy<Icon> _receipt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "receipt"));
             /// <summary>
             /// Receipt
             /// </summary>
@@ -6070,7 +6070,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Receipt => _receipt.Value;
 
-            private static readonly Lazy<Icon> _recordVinyl = new Lazy<Icon>(() => new Icon(Style.Solid, "record-vinyl"));
+            private static readonly Lazy<Icon> _recordVinyl = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "record-vinyl"));
             /// <summary>
             /// Record Vinyl
             /// </summary>
@@ -6079,7 +6079,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon RecordVinyl => _recordVinyl.Value;
 
-            private static readonly Lazy<Icon> _recycle = new Lazy<Icon>(() => new Icon(Style.Solid, "recycle"));
+            private static readonly Lazy<Icon> _recycle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "recycle"));
             /// <summary>
             /// Recycle
             /// </summary>
@@ -6088,7 +6088,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Recycle => _recycle.Value;
 
-            private static readonly Lazy<Icon> _redo = new Lazy<Icon>(() => new Icon(Style.Solid, "redo"));
+            private static readonly Lazy<Icon> _redo = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "redo"));
             /// <summary>
             /// Redo
             /// </summary>
@@ -6097,7 +6097,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Redo => _redo.Value;
 
-            private static readonly Lazy<Icon> _redoAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "redo-alt"));
+            private static readonly Lazy<Icon> _redoAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "redo-alt"));
             /// <summary>
             /// Alternate Redo
             /// </summary>
@@ -6106,7 +6106,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon RedoAlt => _redoAlt.Value;
 
-            private static readonly Lazy<Icon> _registered = new Lazy<Icon>(() => new Icon(Style.Solid, "registered"));
+            private static readonly Lazy<Icon> _registered = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "registered"));
             /// <summary>
             /// Registered Trademark
             /// </summary>
@@ -6115,7 +6115,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Registered => _registered.Value;
 
-            private static readonly Lazy<Icon> _removeFormat = new Lazy<Icon>(() => new Icon(Style.Solid, "remove-format"));
+            private static readonly Lazy<Icon> _removeFormat = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "remove-format"));
             /// <summary>
             /// Remove Format
             /// </summary>
@@ -6124,7 +6124,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon RemoveFormat => _removeFormat.Value;
 
-            private static readonly Lazy<Icon> _reply = new Lazy<Icon>(() => new Icon(Style.Solid, "reply"));
+            private static readonly Lazy<Icon> _reply = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "reply"));
             /// <summary>
             /// Reply
             /// </summary>
@@ -6133,7 +6133,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Reply => _reply.Value;
 
-            private static readonly Lazy<Icon> _replyAll = new Lazy<Icon>(() => new Icon(Style.Solid, "reply-all"));
+            private static readonly Lazy<Icon> _replyAll = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "reply-all"));
             /// <summary>
             /// Reply All
             /// </summary>
@@ -6142,7 +6142,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ReplyAll => _replyAll.Value;
 
-            private static readonly Lazy<Icon> _republican = new Lazy<Icon>(() => new Icon(Style.Solid, "republican"));
+            private static readonly Lazy<Icon> _republican = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "republican"));
             /// <summary>
             /// Republican
             /// </summary>
@@ -6151,7 +6151,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Republican => _republican.Value;
 
-            private static readonly Lazy<Icon> _restroom = new Lazy<Icon>(() => new Icon(Style.Solid, "restroom"));
+            private static readonly Lazy<Icon> _restroom = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "restroom"));
             /// <summary>
             /// Restroom
             /// </summary>
@@ -6160,7 +6160,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Restroom => _restroom.Value;
 
-            private static readonly Lazy<Icon> _retweet = new Lazy<Icon>(() => new Icon(Style.Solid, "retweet"));
+            private static readonly Lazy<Icon> _retweet = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "retweet"));
             /// <summary>
             /// Retweet
             /// </summary>
@@ -6169,7 +6169,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Retweet => _retweet.Value;
 
-            private static readonly Lazy<Icon> _ribbon = new Lazy<Icon>(() => new Icon(Style.Solid, "ribbon"));
+            private static readonly Lazy<Icon> _ribbon = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ribbon"));
             /// <summary>
             /// Ribbon
             /// </summary>
@@ -6178,7 +6178,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Ribbon => _ribbon.Value;
 
-            private static readonly Lazy<Icon> _ring = new Lazy<Icon>(() => new Icon(Style.Solid, "ring"));
+            private static readonly Lazy<Icon> _ring = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ring"));
             /// <summary>
             /// Ring
             /// </summary>
@@ -6187,7 +6187,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Ring => _ring.Value;
 
-            private static readonly Lazy<Icon> _road = new Lazy<Icon>(() => new Icon(Style.Solid, "road"));
+            private static readonly Lazy<Icon> _road = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "road"));
             /// <summary>
             /// Road
             /// </summary>
@@ -6196,7 +6196,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Road => _road.Value;
 
-            private static readonly Lazy<Icon> _robot = new Lazy<Icon>(() => new Icon(Style.Solid, "robot"));
+            private static readonly Lazy<Icon> _robot = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "robot"));
             /// <summary>
             /// Robot
             /// </summary>
@@ -6205,7 +6205,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Robot => _robot.Value;
 
-            private static readonly Lazy<Icon> _rocket = new Lazy<Icon>(() => new Icon(Style.Solid, "rocket"));
+            private static readonly Lazy<Icon> _rocket = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "rocket"));
             /// <summary>
             /// Rocket
             /// </summary>
@@ -6214,7 +6214,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Rocket => _rocket.Value;
 
-            private static readonly Lazy<Icon> _route = new Lazy<Icon>(() => new Icon(Style.Solid, "route"));
+            private static readonly Lazy<Icon> _route = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "route"));
             /// <summary>
             /// Route
             /// </summary>
@@ -6223,7 +6223,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Route => _route.Value;
 
-            private static readonly Lazy<Icon> _rss = new Lazy<Icon>(() => new Icon(Style.Solid, "rss"));
+            private static readonly Lazy<Icon> _rss = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "rss"));
             /// <summary>
             /// Rss
             /// </summary>
@@ -6232,7 +6232,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Rss => _rss.Value;
 
-            private static readonly Lazy<Icon> _rssSquare = new Lazy<Icon>(() => new Icon(Style.Solid, "rss-square"));
+            private static readonly Lazy<Icon> _rssSquare = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "rss-square"));
             /// <summary>
             /// RSS Square
             /// </summary>
@@ -6241,7 +6241,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon RssSquare => _rssSquare.Value;
 
-            private static readonly Lazy<Icon> _rubleSign = new Lazy<Icon>(() => new Icon(Style.Solid, "ruble-sign"));
+            private static readonly Lazy<Icon> _rubleSign = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ruble-sign"));
             /// <summary>
             /// Ruble Sign
             /// </summary>
@@ -6250,7 +6250,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon RubleSign => _rubleSign.Value;
 
-            private static readonly Lazy<Icon> _ruler = new Lazy<Icon>(() => new Icon(Style.Solid, "ruler"));
+            private static readonly Lazy<Icon> _ruler = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ruler"));
             /// <summary>
             /// Ruler
             /// </summary>
@@ -6259,7 +6259,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Ruler => _ruler.Value;
 
-            private static readonly Lazy<Icon> _rulerCombined = new Lazy<Icon>(() => new Icon(Style.Solid, "ruler-combined"));
+            private static readonly Lazy<Icon> _rulerCombined = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ruler-combined"));
             /// <summary>
             /// Ruler Combined
             /// </summary>
@@ -6268,7 +6268,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon RulerCombined => _rulerCombined.Value;
 
-            private static readonly Lazy<Icon> _rulerHorizontal = new Lazy<Icon>(() => new Icon(Style.Solid, "ruler-horizontal"));
+            private static readonly Lazy<Icon> _rulerHorizontal = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ruler-horizontal"));
             /// <summary>
             /// Ruler Horizontal
             /// </summary>
@@ -6277,7 +6277,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon RulerHorizontal => _rulerHorizontal.Value;
 
-            private static readonly Lazy<Icon> _rulerVertical = new Lazy<Icon>(() => new Icon(Style.Solid, "ruler-vertical"));
+            private static readonly Lazy<Icon> _rulerVertical = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ruler-vertical"));
             /// <summary>
             /// Ruler Vertical
             /// </summary>
@@ -6286,7 +6286,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon RulerVertical => _rulerVertical.Value;
 
-            private static readonly Lazy<Icon> _running = new Lazy<Icon>(() => new Icon(Style.Solid, "running"));
+            private static readonly Lazy<Icon> _running = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "running"));
             /// <summary>
             /// Running
             /// </summary>
@@ -6295,7 +6295,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Running => _running.Value;
 
-            private static readonly Lazy<Icon> _rupeeSign = new Lazy<Icon>(() => new Icon(Style.Solid, "rupee-sign"));
+            private static readonly Lazy<Icon> _rupeeSign = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "rupee-sign"));
             /// <summary>
             /// Indian Rupee Sign
             /// </summary>
@@ -6304,7 +6304,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon RupeeSign => _rupeeSign.Value;
 
-            private static readonly Lazy<Icon> _sadCry = new Lazy<Icon>(() => new Icon(Style.Solid, "sad-cry"));
+            private static readonly Lazy<Icon> _sadCry = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sad-cry"));
             /// <summary>
             /// Crying Face
             /// </summary>
@@ -6313,7 +6313,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SadCry => _sadCry.Value;
 
-            private static readonly Lazy<Icon> _sadTear = new Lazy<Icon>(() => new Icon(Style.Solid, "sad-tear"));
+            private static readonly Lazy<Icon> _sadTear = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sad-tear"));
             /// <summary>
             /// Loudly Crying Face
             /// </summary>
@@ -6322,7 +6322,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SadTear => _sadTear.Value;
 
-            private static readonly Lazy<Icon> _satellite = new Lazy<Icon>(() => new Icon(Style.Solid, "satellite"));
+            private static readonly Lazy<Icon> _satellite = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "satellite"));
             /// <summary>
             /// Satellite
             /// </summary>
@@ -6331,7 +6331,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Satellite => _satellite.Value;
 
-            private static readonly Lazy<Icon> _satelliteDish = new Lazy<Icon>(() => new Icon(Style.Solid, "satellite-dish"));
+            private static readonly Lazy<Icon> _satelliteDish = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "satellite-dish"));
             /// <summary>
             /// Satellite Dish
             /// </summary>
@@ -6340,7 +6340,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SatelliteDish => _satelliteDish.Value;
 
-            private static readonly Lazy<Icon> _save = new Lazy<Icon>(() => new Icon(Style.Solid, "save"));
+            private static readonly Lazy<Icon> _save = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "save"));
             /// <summary>
             /// Save
             /// </summary>
@@ -6349,7 +6349,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Save => _save.Value;
 
-            private static readonly Lazy<Icon> _school = new Lazy<Icon>(() => new Icon(Style.Solid, "school"));
+            private static readonly Lazy<Icon> _school = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "school"));
             /// <summary>
             /// School
             /// </summary>
@@ -6358,7 +6358,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon School => _school.Value;
 
-            private static readonly Lazy<Icon> _screwdriver = new Lazy<Icon>(() => new Icon(Style.Solid, "screwdriver"));
+            private static readonly Lazy<Icon> _screwdriver = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "screwdriver"));
             /// <summary>
             /// Screwdriver
             /// </summary>
@@ -6367,7 +6367,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Screwdriver => _screwdriver.Value;
 
-            private static readonly Lazy<Icon> _scroll = new Lazy<Icon>(() => new Icon(Style.Solid, "scroll"));
+            private static readonly Lazy<Icon> _scroll = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "scroll"));
             /// <summary>
             /// Scroll
             /// </summary>
@@ -6376,7 +6376,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Scroll => _scroll.Value;
 
-            private static readonly Lazy<Icon> _sdCard = new Lazy<Icon>(() => new Icon(Style.Solid, "sd-card"));
+            private static readonly Lazy<Icon> _sdCard = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sd-card"));
             /// <summary>
             /// Sd Card
             /// </summary>
@@ -6385,7 +6385,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SdCard => _sdCard.Value;
 
-            private static readonly Lazy<Icon> _search = new Lazy<Icon>(() => new Icon(Style.Solid, "search"));
+            private static readonly Lazy<Icon> _search = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "search"));
             /// <summary>
             /// Search
             /// </summary>
@@ -6394,7 +6394,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Search => _search.Value;
 
-            private static readonly Lazy<Icon> _searchDollar = new Lazy<Icon>(() => new Icon(Style.Solid, "search-dollar"));
+            private static readonly Lazy<Icon> _searchDollar = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "search-dollar"));
             /// <summary>
             /// Search Dollar
             /// </summary>
@@ -6403,7 +6403,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SearchDollar => _searchDollar.Value;
 
-            private static readonly Lazy<Icon> _searchLocation = new Lazy<Icon>(() => new Icon(Style.Solid, "search-location"));
+            private static readonly Lazy<Icon> _searchLocation = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "search-location"));
             /// <summary>
             /// Search Location
             /// </summary>
@@ -6412,7 +6412,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SearchLocation => _searchLocation.Value;
 
-            private static readonly Lazy<Icon> _searchMinus = new Lazy<Icon>(() => new Icon(Style.Solid, "search-minus"));
+            private static readonly Lazy<Icon> _searchMinus = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "search-minus"));
             /// <summary>
             /// Search Minus
             /// </summary>
@@ -6421,7 +6421,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SearchMinus => _searchMinus.Value;
 
-            private static readonly Lazy<Icon> _searchPlus = new Lazy<Icon>(() => new Icon(Style.Solid, "search-plus"));
+            private static readonly Lazy<Icon> _searchPlus = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "search-plus"));
             /// <summary>
             /// Search Plus
             /// </summary>
@@ -6430,7 +6430,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SearchPlus => _searchPlus.Value;
 
-            private static readonly Lazy<Icon> _seedling = new Lazy<Icon>(() => new Icon(Style.Solid, "seedling"));
+            private static readonly Lazy<Icon> _seedling = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "seedling"));
             /// <summary>
             /// Seedling
             /// </summary>
@@ -6439,7 +6439,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Seedling => _seedling.Value;
 
-            private static readonly Lazy<Icon> _server = new Lazy<Icon>(() => new Icon(Style.Solid, "server"));
+            private static readonly Lazy<Icon> _server = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "server"));
             /// <summary>
             /// Server
             /// </summary>
@@ -6448,7 +6448,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Server => _server.Value;
 
-            private static readonly Lazy<Icon> _shapes = new Lazy<Icon>(() => new Icon(Style.Solid, "shapes"));
+            private static readonly Lazy<Icon> _shapes = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "shapes"));
             /// <summary>
             /// Shapes
             /// </summary>
@@ -6457,7 +6457,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Shapes => _shapes.Value;
 
-            private static readonly Lazy<Icon> _share = new Lazy<Icon>(() => new Icon(Style.Solid, "share"));
+            private static readonly Lazy<Icon> _share = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "share"));
             /// <summary>
             /// Share
             /// </summary>
@@ -6466,7 +6466,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Share => _share.Value;
 
-            private static readonly Lazy<Icon> _shareAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "share-alt"));
+            private static readonly Lazy<Icon> _shareAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "share-alt"));
             /// <summary>
             /// Alternate Share
             /// </summary>
@@ -6475,7 +6475,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ShareAlt => _shareAlt.Value;
 
-            private static readonly Lazy<Icon> _shareAltSquare = new Lazy<Icon>(() => new Icon(Style.Solid, "share-alt-square"));
+            private static readonly Lazy<Icon> _shareAltSquare = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "share-alt-square"));
             /// <summary>
             /// Alternate Share Square
             /// </summary>
@@ -6484,7 +6484,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ShareAltSquare => _shareAltSquare.Value;
 
-            private static readonly Lazy<Icon> _shareSquare = new Lazy<Icon>(() => new Icon(Style.Solid, "share-square"));
+            private static readonly Lazy<Icon> _shareSquare = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "share-square"));
             /// <summary>
             /// Share Square
             /// </summary>
@@ -6493,7 +6493,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ShareSquare => _shareSquare.Value;
 
-            private static readonly Lazy<Icon> _shekelSign = new Lazy<Icon>(() => new Icon(Style.Solid, "shekel-sign"));
+            private static readonly Lazy<Icon> _shekelSign = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "shekel-sign"));
             /// <summary>
             /// Shekel Sign
             /// </summary>
@@ -6502,7 +6502,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ShekelSign => _shekelSign.Value;
 
-            private static readonly Lazy<Icon> _shieldAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "shield-alt"));
+            private static readonly Lazy<Icon> _shieldAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "shield-alt"));
             /// <summary>
             /// Alternate Shield
             /// </summary>
@@ -6511,7 +6511,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ShieldAlt => _shieldAlt.Value;
 
-            private static readonly Lazy<Icon> _ship = new Lazy<Icon>(() => new Icon(Style.Solid, "ship"));
+            private static readonly Lazy<Icon> _ship = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ship"));
             /// <summary>
             /// Ship
             /// </summary>
@@ -6520,7 +6520,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Ship => _ship.Value;
 
-            private static readonly Lazy<Icon> _shippingFast = new Lazy<Icon>(() => new Icon(Style.Solid, "shipping-fast"));
+            private static readonly Lazy<Icon> _shippingFast = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "shipping-fast"));
             /// <summary>
             /// Shipping Fast
             /// </summary>
@@ -6529,7 +6529,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ShippingFast => _shippingFast.Value;
 
-            private static readonly Lazy<Icon> _shoePrints = new Lazy<Icon>(() => new Icon(Style.Solid, "shoe-prints"));
+            private static readonly Lazy<Icon> _shoePrints = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "shoe-prints"));
             /// <summary>
             /// Shoe Prints
             /// </summary>
@@ -6538,7 +6538,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ShoePrints => _shoePrints.Value;
 
-            private static readonly Lazy<Icon> _shoppingBag = new Lazy<Icon>(() => new Icon(Style.Solid, "shopping-bag"));
+            private static readonly Lazy<Icon> _shoppingBag = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "shopping-bag"));
             /// <summary>
             /// Shopping Bag
             /// </summary>
@@ -6547,7 +6547,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ShoppingBag => _shoppingBag.Value;
 
-            private static readonly Lazy<Icon> _shoppingBasket = new Lazy<Icon>(() => new Icon(Style.Solid, "shopping-basket"));
+            private static readonly Lazy<Icon> _shoppingBasket = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "shopping-basket"));
             /// <summary>
             /// Shopping Basket
             /// </summary>
@@ -6556,7 +6556,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ShoppingBasket => _shoppingBasket.Value;
 
-            private static readonly Lazy<Icon> _shoppingCart = new Lazy<Icon>(() => new Icon(Style.Solid, "shopping-cart"));
+            private static readonly Lazy<Icon> _shoppingCart = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "shopping-cart"));
             /// <summary>
             /// Shopping Cart
             /// </summary>
@@ -6565,7 +6565,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ShoppingCart => _shoppingCart.Value;
 
-            private static readonly Lazy<Icon> _shower = new Lazy<Icon>(() => new Icon(Style.Solid, "shower"));
+            private static readonly Lazy<Icon> _shower = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "shower"));
             /// <summary>
             /// Shower
             /// </summary>
@@ -6574,7 +6574,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Shower => _shower.Value;
 
-            private static readonly Lazy<Icon> _shuttleVan = new Lazy<Icon>(() => new Icon(Style.Solid, "shuttle-van"));
+            private static readonly Lazy<Icon> _shuttleVan = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "shuttle-van"));
             /// <summary>
             /// Shuttle Van
             /// </summary>
@@ -6583,7 +6583,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ShuttleVan => _shuttleVan.Value;
 
-            private static readonly Lazy<Icon> _sign = new Lazy<Icon>(() => new Icon(Style.Solid, "sign"));
+            private static readonly Lazy<Icon> _sign = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sign"));
             /// <summary>
             /// Sign
             /// </summary>
@@ -6592,7 +6592,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Sign => _sign.Value;
 
-            private static readonly Lazy<Icon> _signInAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "sign-in-alt"));
+            private static readonly Lazy<Icon> _signInAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sign-in-alt"));
             /// <summary>
             /// Alternate Sign In
             /// </summary>
@@ -6601,7 +6601,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SignInAlt => _signInAlt.Value;
 
-            private static readonly Lazy<Icon> _signLanguage = new Lazy<Icon>(() => new Icon(Style.Solid, "sign-language"));
+            private static readonly Lazy<Icon> _signLanguage = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sign-language"));
             /// <summary>
             /// Sign Language
             /// </summary>
@@ -6610,7 +6610,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SignLanguage => _signLanguage.Value;
 
-            private static readonly Lazy<Icon> _signOutAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "sign-out-alt"));
+            private static readonly Lazy<Icon> _signOutAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sign-out-alt"));
             /// <summary>
             /// Alternate Sign Out
             /// </summary>
@@ -6619,7 +6619,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SignOutAlt => _signOutAlt.Value;
 
-            private static readonly Lazy<Icon> _signal = new Lazy<Icon>(() => new Icon(Style.Solid, "signal"));
+            private static readonly Lazy<Icon> _signal = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "signal"));
             /// <summary>
             /// Signal
             /// </summary>
@@ -6628,7 +6628,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Signal => _signal.Value;
 
-            private static readonly Lazy<Icon> _signature = new Lazy<Icon>(() => new Icon(Style.Solid, "signature"));
+            private static readonly Lazy<Icon> _signature = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "signature"));
             /// <summary>
             /// Signature
             /// </summary>
@@ -6637,7 +6637,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Signature => _signature.Value;
 
-            private static readonly Lazy<Icon> _simCard = new Lazy<Icon>(() => new Icon(Style.Solid, "sim-card"));
+            private static readonly Lazy<Icon> _simCard = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sim-card"));
             /// <summary>
             /// SIM Card
             /// </summary>
@@ -6646,7 +6646,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SimCard => _simCard.Value;
 
-            private static readonly Lazy<Icon> _sitemap = new Lazy<Icon>(() => new Icon(Style.Solid, "sitemap"));
+            private static readonly Lazy<Icon> _sitemap = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sitemap"));
             /// <summary>
             /// Sitemap
             /// </summary>
@@ -6655,7 +6655,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Sitemap => _sitemap.Value;
 
-            private static readonly Lazy<Icon> _skating = new Lazy<Icon>(() => new Icon(Style.Solid, "skating"));
+            private static readonly Lazy<Icon> _skating = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "skating"));
             /// <summary>
             /// Skating
             /// </summary>
@@ -6664,7 +6664,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Skating => _skating.Value;
 
-            private static readonly Lazy<Icon> _skiing = new Lazy<Icon>(() => new Icon(Style.Solid, "skiing"));
+            private static readonly Lazy<Icon> _skiing = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "skiing"));
             /// <summary>
             /// Skiing
             /// </summary>
@@ -6673,7 +6673,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Skiing => _skiing.Value;
 
-            private static readonly Lazy<Icon> _skiingNordic = new Lazy<Icon>(() => new Icon(Style.Solid, "skiing-nordic"));
+            private static readonly Lazy<Icon> _skiingNordic = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "skiing-nordic"));
             /// <summary>
             /// Skiing Nordic
             /// </summary>
@@ -6682,7 +6682,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SkiingNordic => _skiingNordic.Value;
 
-            private static readonly Lazy<Icon> _skull = new Lazy<Icon>(() => new Icon(Style.Solid, "skull"));
+            private static readonly Lazy<Icon> _skull = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "skull"));
             /// <summary>
             /// Skull
             /// </summary>
@@ -6691,7 +6691,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Skull => _skull.Value;
 
-            private static readonly Lazy<Icon> _skullCrossbones = new Lazy<Icon>(() => new Icon(Style.Solid, "skull-crossbones"));
+            private static readonly Lazy<Icon> _skullCrossbones = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "skull-crossbones"));
             /// <summary>
             /// Skull Crossbones
             /// </summary>
@@ -6700,7 +6700,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SkullCrossbones => _skullCrossbones.Value;
 
-            private static readonly Lazy<Icon> _slash = new Lazy<Icon>(() => new Icon(Style.Solid, "slash"));
+            private static readonly Lazy<Icon> _slash = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "slash"));
             /// <summary>
             /// Slash
             /// </summary>
@@ -6709,7 +6709,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Slash => _slash.Value;
 
-            private static readonly Lazy<Icon> _sleigh = new Lazy<Icon>(() => new Icon(Style.Solid, "sleigh"));
+            private static readonly Lazy<Icon> _sleigh = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sleigh"));
             /// <summary>
             /// Sleigh
             /// </summary>
@@ -6718,7 +6718,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Sleigh => _sleigh.Value;
 
-            private static readonly Lazy<Icon> _slidersH = new Lazy<Icon>(() => new Icon(Style.Solid, "sliders-h"));
+            private static readonly Lazy<Icon> _slidersH = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sliders-h"));
             /// <summary>
             /// Horizontal Sliders
             /// </summary>
@@ -6727,7 +6727,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SlidersH => _slidersH.Value;
 
-            private static readonly Lazy<Icon> _smile = new Lazy<Icon>(() => new Icon(Style.Solid, "smile"));
+            private static readonly Lazy<Icon> _smile = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "smile"));
             /// <summary>
             /// Smiling Face
             /// </summary>
@@ -6736,7 +6736,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Smile => _smile.Value;
 
-            private static readonly Lazy<Icon> _smileBeam = new Lazy<Icon>(() => new Icon(Style.Solid, "smile-beam"));
+            private static readonly Lazy<Icon> _smileBeam = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "smile-beam"));
             /// <summary>
             /// Beaming Face With Smiling Eyes
             /// </summary>
@@ -6745,7 +6745,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SmileBeam => _smileBeam.Value;
 
-            private static readonly Lazy<Icon> _smileWink = new Lazy<Icon>(() => new Icon(Style.Solid, "smile-wink"));
+            private static readonly Lazy<Icon> _smileWink = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "smile-wink"));
             /// <summary>
             /// Winking Face
             /// </summary>
@@ -6754,7 +6754,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SmileWink => _smileWink.Value;
 
-            private static readonly Lazy<Icon> _smog = new Lazy<Icon>(() => new Icon(Style.Solid, "smog"));
+            private static readonly Lazy<Icon> _smog = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "smog"));
             /// <summary>
             /// Smog
             /// </summary>
@@ -6763,7 +6763,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Smog => _smog.Value;
 
-            private static readonly Lazy<Icon> _smoking = new Lazy<Icon>(() => new Icon(Style.Solid, "smoking"));
+            private static readonly Lazy<Icon> _smoking = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "smoking"));
             /// <summary>
             /// Smoking
             /// </summary>
@@ -6772,7 +6772,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Smoking => _smoking.Value;
 
-            private static readonly Lazy<Icon> _smokingBan = new Lazy<Icon>(() => new Icon(Style.Solid, "smoking-ban"));
+            private static readonly Lazy<Icon> _smokingBan = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "smoking-ban"));
             /// <summary>
             /// Smoking Ban
             /// </summary>
@@ -6781,7 +6781,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SmokingBan => _smokingBan.Value;
 
-            private static readonly Lazy<Icon> _sms = new Lazy<Icon>(() => new Icon(Style.Solid, "sms"));
+            private static readonly Lazy<Icon> _sms = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sms"));
             /// <summary>
             /// SMS
             /// </summary>
@@ -6790,7 +6790,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Sms => _sms.Value;
 
-            private static readonly Lazy<Icon> _snowboarding = new Lazy<Icon>(() => new Icon(Style.Solid, "snowboarding"));
+            private static readonly Lazy<Icon> _snowboarding = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "snowboarding"));
             /// <summary>
             /// Snowboarding
             /// </summary>
@@ -6799,7 +6799,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Snowboarding => _snowboarding.Value;
 
-            private static readonly Lazy<Icon> _snowflake = new Lazy<Icon>(() => new Icon(Style.Solid, "snowflake"));
+            private static readonly Lazy<Icon> _snowflake = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "snowflake"));
             /// <summary>
             /// Snowflake
             /// </summary>
@@ -6808,7 +6808,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Snowflake => _snowflake.Value;
 
-            private static readonly Lazy<Icon> _snowman = new Lazy<Icon>(() => new Icon(Style.Solid, "snowman"));
+            private static readonly Lazy<Icon> _snowman = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "snowman"));
             /// <summary>
             /// Snowman
             /// </summary>
@@ -6817,7 +6817,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Snowman => _snowman.Value;
 
-            private static readonly Lazy<Icon> _snowplow = new Lazy<Icon>(() => new Icon(Style.Solid, "snowplow"));
+            private static readonly Lazy<Icon> _snowplow = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "snowplow"));
             /// <summary>
             /// Snowplow
             /// </summary>
@@ -6826,7 +6826,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Snowplow => _snowplow.Value;
 
-            private static readonly Lazy<Icon> _socks = new Lazy<Icon>(() => new Icon(Style.Solid, "socks"));
+            private static readonly Lazy<Icon> _socks = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "socks"));
             /// <summary>
             /// Socks
             /// </summary>
@@ -6835,7 +6835,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Socks => _socks.Value;
 
-            private static readonly Lazy<Icon> _solarPanel = new Lazy<Icon>(() => new Icon(Style.Solid, "solar-panel"));
+            private static readonly Lazy<Icon> _solarPanel = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "solar-panel"));
             /// <summary>
             /// Solar Panel
             /// </summary>
@@ -6844,7 +6844,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SolarPanel => _solarPanel.Value;
 
-            private static readonly Lazy<Icon> _sort = new Lazy<Icon>(() => new Icon(Style.Solid, "sort"));
+            private static readonly Lazy<Icon> _sort = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sort"));
             /// <summary>
             /// Sort
             /// </summary>
@@ -6853,7 +6853,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Sort => _sort.Value;
 
-            private static readonly Lazy<Icon> _sortAlphaDown = new Lazy<Icon>(() => new Icon(Style.Solid, "sort-alpha-down"));
+            private static readonly Lazy<Icon> _sortAlphaDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sort-alpha-down"));
             /// <summary>
             /// Sort Alphabetical Down
             /// </summary>
@@ -6862,7 +6862,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SortAlphaDown => _sortAlphaDown.Value;
 
-            private static readonly Lazy<Icon> _sortAlphaDownAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "sort-alpha-down-alt"));
+            private static readonly Lazy<Icon> _sortAlphaDownAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sort-alpha-down-alt"));
             /// <summary>
             /// Alternate Sort Alphabetical Down
             /// </summary>
@@ -6871,7 +6871,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SortAlphaDownAlt => _sortAlphaDownAlt.Value;
 
-            private static readonly Lazy<Icon> _sortAlphaUp = new Lazy<Icon>(() => new Icon(Style.Solid, "sort-alpha-up"));
+            private static readonly Lazy<Icon> _sortAlphaUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sort-alpha-up"));
             /// <summary>
             /// Sort Alphabetical Up
             /// </summary>
@@ -6880,7 +6880,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SortAlphaUp => _sortAlphaUp.Value;
 
-            private static readonly Lazy<Icon> _sortAlphaUpAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "sort-alpha-up-alt"));
+            private static readonly Lazy<Icon> _sortAlphaUpAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sort-alpha-up-alt"));
             /// <summary>
             /// Alternate Sort Alphabetical Up
             /// </summary>
@@ -6889,7 +6889,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SortAlphaUpAlt => _sortAlphaUpAlt.Value;
 
-            private static readonly Lazy<Icon> _sortAmountDown = new Lazy<Icon>(() => new Icon(Style.Solid, "sort-amount-down"));
+            private static readonly Lazy<Icon> _sortAmountDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sort-amount-down"));
             /// <summary>
             /// Sort Amount Down
             /// </summary>
@@ -6898,7 +6898,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SortAmountDown => _sortAmountDown.Value;
 
-            private static readonly Lazy<Icon> _sortAmountDownAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "sort-amount-down-alt"));
+            private static readonly Lazy<Icon> _sortAmountDownAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sort-amount-down-alt"));
             /// <summary>
             /// Alternate Sort Amount Down
             /// </summary>
@@ -6907,7 +6907,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SortAmountDownAlt => _sortAmountDownAlt.Value;
 
-            private static readonly Lazy<Icon> _sortAmountUp = new Lazy<Icon>(() => new Icon(Style.Solid, "sort-amount-up"));
+            private static readonly Lazy<Icon> _sortAmountUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sort-amount-up"));
             /// <summary>
             /// Sort Amount Up
             /// </summary>
@@ -6916,7 +6916,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SortAmountUp => _sortAmountUp.Value;
 
-            private static readonly Lazy<Icon> _sortAmountUpAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "sort-amount-up-alt"));
+            private static readonly Lazy<Icon> _sortAmountUpAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sort-amount-up-alt"));
             /// <summary>
             /// Alternate Sort Amount Up
             /// </summary>
@@ -6925,7 +6925,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SortAmountUpAlt => _sortAmountUpAlt.Value;
 
-            private static readonly Lazy<Icon> _sortDown = new Lazy<Icon>(() => new Icon(Style.Solid, "sort-down"));
+            private static readonly Lazy<Icon> _sortDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sort-down"));
             /// <summary>
             /// Sort Down Descending
             /// </summary>
@@ -6934,7 +6934,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SortDown => _sortDown.Value;
 
-            private static readonly Lazy<Icon> _sortNumericDown = new Lazy<Icon>(() => new Icon(Style.Solid, "sort-numeric-down"));
+            private static readonly Lazy<Icon> _sortNumericDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sort-numeric-down"));
             /// <summary>
             /// Sort Numeric Down
             /// </summary>
@@ -6943,7 +6943,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SortNumericDown => _sortNumericDown.Value;
 
-            private static readonly Lazy<Icon> _sortNumericDownAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "sort-numeric-down-alt"));
+            private static readonly Lazy<Icon> _sortNumericDownAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sort-numeric-down-alt"));
             /// <summary>
             /// Alternate Sort Numeric Down
             /// </summary>
@@ -6952,7 +6952,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SortNumericDownAlt => _sortNumericDownAlt.Value;
 
-            private static readonly Lazy<Icon> _sortNumericUp = new Lazy<Icon>(() => new Icon(Style.Solid, "sort-numeric-up"));
+            private static readonly Lazy<Icon> _sortNumericUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sort-numeric-up"));
             /// <summary>
             /// Sort Numeric Up
             /// </summary>
@@ -6961,7 +6961,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SortNumericUp => _sortNumericUp.Value;
 
-            private static readonly Lazy<Icon> _sortNumericUpAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "sort-numeric-up-alt"));
+            private static readonly Lazy<Icon> _sortNumericUpAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sort-numeric-up-alt"));
             /// <summary>
             /// Alternate Sort Numeric Up
             /// </summary>
@@ -6970,7 +6970,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SortNumericUpAlt => _sortNumericUpAlt.Value;
 
-            private static readonly Lazy<Icon> _sortUp = new Lazy<Icon>(() => new Icon(Style.Solid, "sort-up"));
+            private static readonly Lazy<Icon> _sortUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sort-up"));
             /// <summary>
             /// Sort Up Ascending
             /// </summary>
@@ -6979,7 +6979,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SortUp => _sortUp.Value;
 
-            private static readonly Lazy<Icon> _spa = new Lazy<Icon>(() => new Icon(Style.Solid, "spa"));
+            private static readonly Lazy<Icon> _spa = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "spa"));
             /// <summary>
             /// Spa
             /// </summary>
@@ -6988,7 +6988,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Spa => _spa.Value;
 
-            private static readonly Lazy<Icon> _spaceShuttle = new Lazy<Icon>(() => new Icon(Style.Solid, "space-shuttle"));
+            private static readonly Lazy<Icon> _spaceShuttle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "space-shuttle"));
             /// <summary>
             /// Space Shuttle
             /// </summary>
@@ -6997,7 +6997,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SpaceShuttle => _spaceShuttle.Value;
 
-            private static readonly Lazy<Icon> _spellCheck = new Lazy<Icon>(() => new Icon(Style.Solid, "spell-check"));
+            private static readonly Lazy<Icon> _spellCheck = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "spell-check"));
             /// <summary>
             /// Spell Check
             /// </summary>
@@ -7006,7 +7006,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SpellCheck => _spellCheck.Value;
 
-            private static readonly Lazy<Icon> _spider = new Lazy<Icon>(() => new Icon(Style.Solid, "spider"));
+            private static readonly Lazy<Icon> _spider = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "spider"));
             /// <summary>
             /// Spider
             /// </summary>
@@ -7015,7 +7015,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Spider => _spider.Value;
 
-            private static readonly Lazy<Icon> _spinner = new Lazy<Icon>(() => new Icon(Style.Solid, "spinner"));
+            private static readonly Lazy<Icon> _spinner = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "spinner"));
             /// <summary>
             /// Spinner
             /// </summary>
@@ -7024,7 +7024,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Spinner => _spinner.Value;
 
-            private static readonly Lazy<Icon> _splotch = new Lazy<Icon>(() => new Icon(Style.Solid, "splotch"));
+            private static readonly Lazy<Icon> _splotch = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "splotch"));
             /// <summary>
             /// Splotch
             /// </summary>
@@ -7033,7 +7033,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Splotch => _splotch.Value;
 
-            private static readonly Lazy<Icon> _sprayCan = new Lazy<Icon>(() => new Icon(Style.Solid, "spray-can"));
+            private static readonly Lazy<Icon> _sprayCan = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "spray-can"));
             /// <summary>
             /// Spray Can
             /// </summary>
@@ -7042,7 +7042,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SprayCan => _sprayCan.Value;
 
-            private static readonly Lazy<Icon> _square = new Lazy<Icon>(() => new Icon(Style.Solid, "square"));
+            private static readonly Lazy<Icon> _square = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "square"));
             /// <summary>
             /// Square
             /// </summary>
@@ -7051,7 +7051,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Square => _square.Value;
 
-            private static readonly Lazy<Icon> _squareFull = new Lazy<Icon>(() => new Icon(Style.Solid, "square-full"));
+            private static readonly Lazy<Icon> _squareFull = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "square-full"));
             /// <summary>
             /// Square Full
             /// </summary>
@@ -7060,7 +7060,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SquareFull => _squareFull.Value;
 
-            private static readonly Lazy<Icon> _squareRootAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "square-root-alt"));
+            private static readonly Lazy<Icon> _squareRootAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "square-root-alt"));
             /// <summary>
             /// Alternate Square Root
             /// </summary>
@@ -7069,7 +7069,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SquareRootAlt => _squareRootAlt.Value;
 
-            private static readonly Lazy<Icon> _stamp = new Lazy<Icon>(() => new Icon(Style.Solid, "stamp"));
+            private static readonly Lazy<Icon> _stamp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "stamp"));
             /// <summary>
             /// Stamp
             /// </summary>
@@ -7078,7 +7078,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Stamp => _stamp.Value;
 
-            private static readonly Lazy<Icon> _star = new Lazy<Icon>(() => new Icon(Style.Solid, "star"));
+            private static readonly Lazy<Icon> _star = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "star"));
             /// <summary>
             /// Star
             /// </summary>
@@ -7087,7 +7087,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Star => _star.Value;
 
-            private static readonly Lazy<Icon> _starAndCrescent = new Lazy<Icon>(() => new Icon(Style.Solid, "star-and-crescent"));
+            private static readonly Lazy<Icon> _starAndCrescent = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "star-and-crescent"));
             /// <summary>
             /// Star And Crescent
             /// </summary>
@@ -7096,7 +7096,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon StarAndCrescent => _starAndCrescent.Value;
 
-            private static readonly Lazy<Icon> _starHalf = new Lazy<Icon>(() => new Icon(Style.Solid, "star-half"));
+            private static readonly Lazy<Icon> _starHalf = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "star-half"));
             /// <summary>
             /// Star Half
             /// </summary>
@@ -7105,7 +7105,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon StarHalf => _starHalf.Value;
 
-            private static readonly Lazy<Icon> _starHalfAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "star-half-alt"));
+            private static readonly Lazy<Icon> _starHalfAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "star-half-alt"));
             /// <summary>
             /// Alternate Star Half
             /// </summary>
@@ -7114,7 +7114,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon StarHalfAlt => _starHalfAlt.Value;
 
-            private static readonly Lazy<Icon> _starOfDavid = new Lazy<Icon>(() => new Icon(Style.Solid, "star-of-david"));
+            private static readonly Lazy<Icon> _starOfDavid = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "star-of-david"));
             /// <summary>
             /// Star Of David
             /// </summary>
@@ -7123,7 +7123,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon StarOfDavid => _starOfDavid.Value;
 
-            private static readonly Lazy<Icon> _starOfLife = new Lazy<Icon>(() => new Icon(Style.Solid, "star-of-life"));
+            private static readonly Lazy<Icon> _starOfLife = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "star-of-life"));
             /// <summary>
             /// Star Of Life
             /// </summary>
@@ -7132,7 +7132,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon StarOfLife => _starOfLife.Value;
 
-            private static readonly Lazy<Icon> _stepBackward = new Lazy<Icon>(() => new Icon(Style.Solid, "step-backward"));
+            private static readonly Lazy<Icon> _stepBackward = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "step-backward"));
             /// <summary>
             /// Step Backward
             /// </summary>
@@ -7141,7 +7141,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon StepBackward => _stepBackward.Value;
 
-            private static readonly Lazy<Icon> _stepForward = new Lazy<Icon>(() => new Icon(Style.Solid, "step-forward"));
+            private static readonly Lazy<Icon> _stepForward = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "step-forward"));
             /// <summary>
             /// Step Forward
             /// </summary>
@@ -7150,7 +7150,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon StepForward => _stepForward.Value;
 
-            private static readonly Lazy<Icon> _stethoscope = new Lazy<Icon>(() => new Icon(Style.Solid, "stethoscope"));
+            private static readonly Lazy<Icon> _stethoscope = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "stethoscope"));
             /// <summary>
             /// Stethoscope
             /// </summary>
@@ -7159,7 +7159,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Stethoscope => _stethoscope.Value;
 
-            private static readonly Lazy<Icon> _stickyNote = new Lazy<Icon>(() => new Icon(Style.Solid, "sticky-note"));
+            private static readonly Lazy<Icon> _stickyNote = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sticky-note"));
             /// <summary>
             /// Sticky Note
             /// </summary>
@@ -7168,7 +7168,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon StickyNote => _stickyNote.Value;
 
-            private static readonly Lazy<Icon> _stop = new Lazy<Icon>(() => new Icon(Style.Solid, "stop"));
+            private static readonly Lazy<Icon> _stop = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "stop"));
             /// <summary>
             /// Stop
             /// </summary>
@@ -7177,7 +7177,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Stop => _stop.Value;
 
-            private static readonly Lazy<Icon> _stopCircle = new Lazy<Icon>(() => new Icon(Style.Solid, "stop-circle"));
+            private static readonly Lazy<Icon> _stopCircle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "stop-circle"));
             /// <summary>
             /// Stop Circle
             /// </summary>
@@ -7186,7 +7186,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon StopCircle => _stopCircle.Value;
 
-            private static readonly Lazy<Icon> _stopwatch = new Lazy<Icon>(() => new Icon(Style.Solid, "stopwatch"));
+            private static readonly Lazy<Icon> _stopwatch = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "stopwatch"));
             /// <summary>
             /// Stopwatch
             /// </summary>
@@ -7195,7 +7195,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Stopwatch => _stopwatch.Value;
 
-            private static readonly Lazy<Icon> _store = new Lazy<Icon>(() => new Icon(Style.Solid, "store"));
+            private static readonly Lazy<Icon> _store = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "store"));
             /// <summary>
             /// Store
             /// </summary>
@@ -7204,7 +7204,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Store => _store.Value;
 
-            private static readonly Lazy<Icon> _storeAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "store-alt"));
+            private static readonly Lazy<Icon> _storeAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "store-alt"));
             /// <summary>
             /// Alternate Store
             /// </summary>
@@ -7213,7 +7213,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon StoreAlt => _storeAlt.Value;
 
-            private static readonly Lazy<Icon> _stream = new Lazy<Icon>(() => new Icon(Style.Solid, "stream"));
+            private static readonly Lazy<Icon> _stream = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "stream"));
             /// <summary>
             /// Stream
             /// </summary>
@@ -7222,7 +7222,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Stream => _stream.Value;
 
-            private static readonly Lazy<Icon> _streetView = new Lazy<Icon>(() => new Icon(Style.Solid, "street-view"));
+            private static readonly Lazy<Icon> _streetView = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "street-view"));
             /// <summary>
             /// Street View
             /// </summary>
@@ -7231,7 +7231,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon StreetView => _streetView.Value;
 
-            private static readonly Lazy<Icon> _strikethrough = new Lazy<Icon>(() => new Icon(Style.Solid, "strikethrough"));
+            private static readonly Lazy<Icon> _strikethrough = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "strikethrough"));
             /// <summary>
             /// Strikethrough
             /// </summary>
@@ -7240,7 +7240,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Strikethrough => _strikethrough.Value;
 
-            private static readonly Lazy<Icon> _stroopwafel = new Lazy<Icon>(() => new Icon(Style.Solid, "stroopwafel"));
+            private static readonly Lazy<Icon> _stroopwafel = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "stroopwafel"));
             /// <summary>
             /// Stroopwafel
             /// </summary>
@@ -7249,7 +7249,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Stroopwafel => _stroopwafel.Value;
 
-            private static readonly Lazy<Icon> _subscript = new Lazy<Icon>(() => new Icon(Style.Solid, "subscript"));
+            private static readonly Lazy<Icon> _subscript = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "subscript"));
             /// <summary>
             /// Subscript
             /// </summary>
@@ -7258,7 +7258,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Subscript => _subscript.Value;
 
-            private static readonly Lazy<Icon> _subway = new Lazy<Icon>(() => new Icon(Style.Solid, "subway"));
+            private static readonly Lazy<Icon> _subway = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "subway"));
             /// <summary>
             /// Subway
             /// </summary>
@@ -7267,7 +7267,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Subway => _subway.Value;
 
-            private static readonly Lazy<Icon> _suitcase = new Lazy<Icon>(() => new Icon(Style.Solid, "suitcase"));
+            private static readonly Lazy<Icon> _suitcase = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "suitcase"));
             /// <summary>
             /// Suitcase
             /// </summary>
@@ -7276,7 +7276,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Suitcase => _suitcase.Value;
 
-            private static readonly Lazy<Icon> _suitcaseRolling = new Lazy<Icon>(() => new Icon(Style.Solid, "suitcase-rolling"));
+            private static readonly Lazy<Icon> _suitcaseRolling = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "suitcase-rolling"));
             /// <summary>
             /// Suitcase Rolling
             /// </summary>
@@ -7285,7 +7285,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SuitcaseRolling => _suitcaseRolling.Value;
 
-            private static readonly Lazy<Icon> _sun = new Lazy<Icon>(() => new Icon(Style.Solid, "sun"));
+            private static readonly Lazy<Icon> _sun = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sun"));
             /// <summary>
             /// Sun
             /// </summary>
@@ -7294,7 +7294,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Sun => _sun.Value;
 
-            private static readonly Lazy<Icon> _superscript = new Lazy<Icon>(() => new Icon(Style.Solid, "superscript"));
+            private static readonly Lazy<Icon> _superscript = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "superscript"));
             /// <summary>
             /// Superscript
             /// </summary>
@@ -7303,7 +7303,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Superscript => _superscript.Value;
 
-            private static readonly Lazy<Icon> _surprise = new Lazy<Icon>(() => new Icon(Style.Solid, "surprise"));
+            private static readonly Lazy<Icon> _surprise = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "surprise"));
             /// <summary>
             /// Hushed Face
             /// </summary>
@@ -7312,7 +7312,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Surprise => _surprise.Value;
 
-            private static readonly Lazy<Icon> _swatchbook = new Lazy<Icon>(() => new Icon(Style.Solid, "swatchbook"));
+            private static readonly Lazy<Icon> _swatchbook = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "swatchbook"));
             /// <summary>
             /// Swatchbook
             /// </summary>
@@ -7321,7 +7321,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Swatchbook => _swatchbook.Value;
 
-            private static readonly Lazy<Icon> _swimmer = new Lazy<Icon>(() => new Icon(Style.Solid, "swimmer"));
+            private static readonly Lazy<Icon> _swimmer = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "swimmer"));
             /// <summary>
             /// Swimmer
             /// </summary>
@@ -7330,7 +7330,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Swimmer => _swimmer.Value;
 
-            private static readonly Lazy<Icon> _swimmingPool = new Lazy<Icon>(() => new Icon(Style.Solid, "swimming-pool"));
+            private static readonly Lazy<Icon> _swimmingPool = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "swimming-pool"));
             /// <summary>
             /// Swimming Pool
             /// </summary>
@@ -7339,7 +7339,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SwimmingPool => _swimmingPool.Value;
 
-            private static readonly Lazy<Icon> _synagogue = new Lazy<Icon>(() => new Icon(Style.Solid, "synagogue"));
+            private static readonly Lazy<Icon> _synagogue = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "synagogue"));
             /// <summary>
             /// Synagogue
             /// </summary>
@@ -7348,7 +7348,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Synagogue => _synagogue.Value;
 
-            private static readonly Lazy<Icon> _sync = new Lazy<Icon>(() => new Icon(Style.Solid, "sync"));
+            private static readonly Lazy<Icon> _sync = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sync"));
             /// <summary>
             /// Sync
             /// </summary>
@@ -7357,7 +7357,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Sync => _sync.Value;
 
-            private static readonly Lazy<Icon> _syncAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "sync-alt"));
+            private static readonly Lazy<Icon> _syncAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "sync-alt"));
             /// <summary>
             /// Alternate Sync
             /// </summary>
@@ -7366,7 +7366,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon SyncAlt => _syncAlt.Value;
 
-            private static readonly Lazy<Icon> _syringe = new Lazy<Icon>(() => new Icon(Style.Solid, "syringe"));
+            private static readonly Lazy<Icon> _syringe = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "syringe"));
             /// <summary>
             /// Syringe
             /// </summary>
@@ -7375,7 +7375,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Syringe => _syringe.Value;
 
-            private static readonly Lazy<Icon> _table = new Lazy<Icon>(() => new Icon(Style.Solid, "table"));
+            private static readonly Lazy<Icon> _table = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "table"));
             /// <summary>
             /// Table
             /// </summary>
@@ -7384,7 +7384,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Table => _table.Value;
 
-            private static readonly Lazy<Icon> _tableTennis = new Lazy<Icon>(() => new Icon(Style.Solid, "table-tennis"));
+            private static readonly Lazy<Icon> _tableTennis = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "table-tennis"));
             /// <summary>
             /// Table Tennis
             /// </summary>
@@ -7393,7 +7393,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TableTennis => _tableTennis.Value;
 
-            private static readonly Lazy<Icon> _tablet = new Lazy<Icon>(() => new Icon(Style.Solid, "tablet"));
+            private static readonly Lazy<Icon> _tablet = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tablet"));
             /// <summary>
             /// Tablet
             /// </summary>
@@ -7402,7 +7402,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tablet => _tablet.Value;
 
-            private static readonly Lazy<Icon> _tabletAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "tablet-alt"));
+            private static readonly Lazy<Icon> _tabletAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tablet-alt"));
             /// <summary>
             /// Alternate Tablet
             /// </summary>
@@ -7411,7 +7411,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TabletAlt => _tabletAlt.Value;
 
-            private static readonly Lazy<Icon> _tablets = new Lazy<Icon>(() => new Icon(Style.Solid, "tablets"));
+            private static readonly Lazy<Icon> _tablets = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tablets"));
             /// <summary>
             /// Tablets
             /// </summary>
@@ -7420,7 +7420,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tablets => _tablets.Value;
 
-            private static readonly Lazy<Icon> _tachometerAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "tachometer-alt"));
+            private static readonly Lazy<Icon> _tachometerAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tachometer-alt"));
             /// <summary>
             /// Alternate Tachometer
             /// </summary>
@@ -7429,7 +7429,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TachometerAlt => _tachometerAlt.Value;
 
-            private static readonly Lazy<Icon> _tag = new Lazy<Icon>(() => new Icon(Style.Solid, "tag"));
+            private static readonly Lazy<Icon> _tag = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tag"));
             /// <summary>
             /// Tag
             /// </summary>
@@ -7438,7 +7438,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tag => _tag.Value;
 
-            private static readonly Lazy<Icon> _tags = new Lazy<Icon>(() => new Icon(Style.Solid, "tags"));
+            private static readonly Lazy<Icon> _tags = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tags"));
             /// <summary>
             /// Tags
             /// </summary>
@@ -7447,7 +7447,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tags => _tags.Value;
 
-            private static readonly Lazy<Icon> _tape = new Lazy<Icon>(() => new Icon(Style.Solid, "tape"));
+            private static readonly Lazy<Icon> _tape = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tape"));
             /// <summary>
             /// Tape
             /// </summary>
@@ -7456,7 +7456,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tape => _tape.Value;
 
-            private static readonly Lazy<Icon> _tasks = new Lazy<Icon>(() => new Icon(Style.Solid, "tasks"));
+            private static readonly Lazy<Icon> _tasks = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tasks"));
             /// <summary>
             /// Tasks
             /// </summary>
@@ -7465,7 +7465,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tasks => _tasks.Value;
 
-            private static readonly Lazy<Icon> _taxi = new Lazy<Icon>(() => new Icon(Style.Solid, "taxi"));
+            private static readonly Lazy<Icon> _taxi = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "taxi"));
             /// <summary>
             /// Taxi
             /// </summary>
@@ -7474,7 +7474,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Taxi => _taxi.Value;
 
-            private static readonly Lazy<Icon> _teeth = new Lazy<Icon>(() => new Icon(Style.Solid, "teeth"));
+            private static readonly Lazy<Icon> _teeth = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "teeth"));
             /// <summary>
             /// Teeth
             /// </summary>
@@ -7483,7 +7483,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Teeth => _teeth.Value;
 
-            private static readonly Lazy<Icon> _teethOpen = new Lazy<Icon>(() => new Icon(Style.Solid, "teeth-open"));
+            private static readonly Lazy<Icon> _teethOpen = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "teeth-open"));
             /// <summary>
             /// Teeth Open
             /// </summary>
@@ -7492,7 +7492,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TeethOpen => _teethOpen.Value;
 
-            private static readonly Lazy<Icon> _temperatureHigh = new Lazy<Icon>(() => new Icon(Style.Solid, "temperature-high"));
+            private static readonly Lazy<Icon> _temperatureHigh = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "temperature-high"));
             /// <summary>
             /// High Temperature
             /// </summary>
@@ -7501,7 +7501,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TemperatureHigh => _temperatureHigh.Value;
 
-            private static readonly Lazy<Icon> _temperatureLow = new Lazy<Icon>(() => new Icon(Style.Solid, "temperature-low"));
+            private static readonly Lazy<Icon> _temperatureLow = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "temperature-low"));
             /// <summary>
             /// Low Temperature
             /// </summary>
@@ -7510,7 +7510,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TemperatureLow => _temperatureLow.Value;
 
-            private static readonly Lazy<Icon> _tenge = new Lazy<Icon>(() => new Icon(Style.Solid, "tenge"));
+            private static readonly Lazy<Icon> _tenge = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tenge"));
             /// <summary>
             /// Tenge
             /// </summary>
@@ -7519,7 +7519,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tenge => _tenge.Value;
 
-            private static readonly Lazy<Icon> _terminal = new Lazy<Icon>(() => new Icon(Style.Solid, "terminal"));
+            private static readonly Lazy<Icon> _terminal = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "terminal"));
             /// <summary>
             /// Terminal
             /// </summary>
@@ -7528,7 +7528,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Terminal => _terminal.Value;
 
-            private static readonly Lazy<Icon> _textHeight = new Lazy<Icon>(() => new Icon(Style.Solid, "text-height"));
+            private static readonly Lazy<Icon> _textHeight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "text-height"));
             /// <summary>
             /// Text Height
             /// </summary>
@@ -7537,7 +7537,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TextHeight => _textHeight.Value;
 
-            private static readonly Lazy<Icon> _textWidth = new Lazy<Icon>(() => new Icon(Style.Solid, "text-width"));
+            private static readonly Lazy<Icon> _textWidth = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "text-width"));
             /// <summary>
             /// Text Width
             /// </summary>
@@ -7546,7 +7546,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TextWidth => _textWidth.Value;
 
-            private static readonly Lazy<Icon> _th = new Lazy<Icon>(() => new Icon(Style.Solid, "th"));
+            private static readonly Lazy<Icon> _th = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "th"));
             /// <summary>
             /// Th
             /// </summary>
@@ -7555,7 +7555,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Th => _th.Value;
 
-            private static readonly Lazy<Icon> _thLarge = new Lazy<Icon>(() => new Icon(Style.Solid, "th-large"));
+            private static readonly Lazy<Icon> _thLarge = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "th-large"));
             /// <summary>
             /// Th Large
             /// </summary>
@@ -7564,7 +7564,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ThLarge => _thLarge.Value;
 
-            private static readonly Lazy<Icon> _thList = new Lazy<Icon>(() => new Icon(Style.Solid, "th-list"));
+            private static readonly Lazy<Icon> _thList = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "th-list"));
             /// <summary>
             /// Th List
             /// </summary>
@@ -7573,7 +7573,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ThList => _thList.Value;
 
-            private static readonly Lazy<Icon> _theaterMasks = new Lazy<Icon>(() => new Icon(Style.Solid, "theater-masks"));
+            private static readonly Lazy<Icon> _theaterMasks = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "theater-masks"));
             /// <summary>
             /// Theater Masks
             /// </summary>
@@ -7582,7 +7582,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TheaterMasks => _theaterMasks.Value;
 
-            private static readonly Lazy<Icon> _thermometer = new Lazy<Icon>(() => new Icon(Style.Solid, "thermometer"));
+            private static readonly Lazy<Icon> _thermometer = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "thermometer"));
             /// <summary>
             /// Thermometer
             /// </summary>
@@ -7591,7 +7591,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Thermometer => _thermometer.Value;
 
-            private static readonly Lazy<Icon> _thermometerEmpty = new Lazy<Icon>(() => new Icon(Style.Solid, "thermometer-empty"));
+            private static readonly Lazy<Icon> _thermometerEmpty = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "thermometer-empty"));
             /// <summary>
             /// Thermometer Empty
             /// </summary>
@@ -7600,7 +7600,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ThermometerEmpty => _thermometerEmpty.Value;
 
-            private static readonly Lazy<Icon> _thermometerFull = new Lazy<Icon>(() => new Icon(Style.Solid, "thermometer-full"));
+            private static readonly Lazy<Icon> _thermometerFull = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "thermometer-full"));
             /// <summary>
             /// Thermometer Full
             /// </summary>
@@ -7609,7 +7609,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ThermometerFull => _thermometerFull.Value;
 
-            private static readonly Lazy<Icon> _thermometerHalf = new Lazy<Icon>(() => new Icon(Style.Solid, "thermometer-half"));
+            private static readonly Lazy<Icon> _thermometerHalf = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "thermometer-half"));
             /// <summary>
             /// Thermometer 1 2 Full
             /// </summary>
@@ -7618,7 +7618,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ThermometerHalf => _thermometerHalf.Value;
 
-            private static readonly Lazy<Icon> _thermometerQuarter = new Lazy<Icon>(() => new Icon(Style.Solid, "thermometer-quarter"));
+            private static readonly Lazy<Icon> _thermometerQuarter = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "thermometer-quarter"));
             /// <summary>
             /// Thermometer 1 4 Full
             /// </summary>
@@ -7627,7 +7627,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ThermometerQuarter => _thermometerQuarter.Value;
 
-            private static readonly Lazy<Icon> _thermometerThreeQuarters = new Lazy<Icon>(() => new Icon(Style.Solid, "thermometer-three-quarters"));
+            private static readonly Lazy<Icon> _thermometerThreeQuarters = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "thermometer-three-quarters"));
             /// <summary>
             /// Thermometer 3 4 Full
             /// </summary>
@@ -7636,7 +7636,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ThermometerThreeQuarters => _thermometerThreeQuarters.Value;
 
-            private static readonly Lazy<Icon> _thumbsDown = new Lazy<Icon>(() => new Icon(Style.Solid, "thumbs-down"));
+            private static readonly Lazy<Icon> _thumbsDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "thumbs-down"));
             /// <summary>
             /// Thumbs Down
             /// </summary>
@@ -7645,7 +7645,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ThumbsDown => _thumbsDown.Value;
 
-            private static readonly Lazy<Icon> _thumbsUp = new Lazy<Icon>(() => new Icon(Style.Solid, "thumbs-up"));
+            private static readonly Lazy<Icon> _thumbsUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "thumbs-up"));
             /// <summary>
             /// Thumbs Up
             /// </summary>
@@ -7654,7 +7654,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ThumbsUp => _thumbsUp.Value;
 
-            private static readonly Lazy<Icon> _thumbtack = new Lazy<Icon>(() => new Icon(Style.Solid, "thumbtack"));
+            private static readonly Lazy<Icon> _thumbtack = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "thumbtack"));
             /// <summary>
             /// Thumbtack
             /// </summary>
@@ -7663,7 +7663,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Thumbtack => _thumbtack.Value;
 
-            private static readonly Lazy<Icon> _ticketAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "ticket-alt"));
+            private static readonly Lazy<Icon> _ticketAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "ticket-alt"));
             /// <summary>
             /// Alternate Ticket
             /// </summary>
@@ -7672,7 +7672,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TicketAlt => _ticketAlt.Value;
 
-            private static readonly Lazy<Icon> _times = new Lazy<Icon>(() => new Icon(Style.Solid, "times"));
+            private static readonly Lazy<Icon> _times = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "times"));
             /// <summary>
             /// Times
             /// </summary>
@@ -7681,7 +7681,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Times => _times.Value;
 
-            private static readonly Lazy<Icon> _timesCircle = new Lazy<Icon>(() => new Icon(Style.Solid, "times-circle"));
+            private static readonly Lazy<Icon> _timesCircle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "times-circle"));
             /// <summary>
             /// Times Circle
             /// </summary>
@@ -7690,7 +7690,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TimesCircle => _timesCircle.Value;
 
-            private static readonly Lazy<Icon> _tint = new Lazy<Icon>(() => new Icon(Style.Solid, "tint"));
+            private static readonly Lazy<Icon> _tint = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tint"));
             /// <summary>
             /// Tint
             /// </summary>
@@ -7699,7 +7699,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tint => _tint.Value;
 
-            private static readonly Lazy<Icon> _tintSlash = new Lazy<Icon>(() => new Icon(Style.Solid, "tint-slash"));
+            private static readonly Lazy<Icon> _tintSlash = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tint-slash"));
             /// <summary>
             /// Tint Slash
             /// </summary>
@@ -7708,7 +7708,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TintSlash => _tintSlash.Value;
 
-            private static readonly Lazy<Icon> _tired = new Lazy<Icon>(() => new Icon(Style.Solid, "tired"));
+            private static readonly Lazy<Icon> _tired = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tired"));
             /// <summary>
             /// Tired Face
             /// </summary>
@@ -7717,7 +7717,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tired => _tired.Value;
 
-            private static readonly Lazy<Icon> _toggleOff = new Lazy<Icon>(() => new Icon(Style.Solid, "toggle-off"));
+            private static readonly Lazy<Icon> _toggleOff = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "toggle-off"));
             /// <summary>
             /// Toggle Off
             /// </summary>
@@ -7726,7 +7726,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ToggleOff => _toggleOff.Value;
 
-            private static readonly Lazy<Icon> _toggleOn = new Lazy<Icon>(() => new Icon(Style.Solid, "toggle-on"));
+            private static readonly Lazy<Icon> _toggleOn = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "toggle-on"));
             /// <summary>
             /// Toggle On
             /// </summary>
@@ -7735,7 +7735,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ToggleOn => _toggleOn.Value;
 
-            private static readonly Lazy<Icon> _toilet = new Lazy<Icon>(() => new Icon(Style.Solid, "toilet"));
+            private static readonly Lazy<Icon> _toilet = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "toilet"));
             /// <summary>
             /// Toilet
             /// </summary>
@@ -7744,7 +7744,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Toilet => _toilet.Value;
 
-            private static readonly Lazy<Icon> _toiletPaper = new Lazy<Icon>(() => new Icon(Style.Solid, "toilet-paper"));
+            private static readonly Lazy<Icon> _toiletPaper = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "toilet-paper"));
             /// <summary>
             /// Toilet Paper
             /// </summary>
@@ -7753,7 +7753,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ToiletPaper => _toiletPaper.Value;
 
-            private static readonly Lazy<Icon> _toolbox = new Lazy<Icon>(() => new Icon(Style.Solid, "toolbox"));
+            private static readonly Lazy<Icon> _toolbox = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "toolbox"));
             /// <summary>
             /// Toolbox
             /// </summary>
@@ -7762,7 +7762,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Toolbox => _toolbox.Value;
 
-            private static readonly Lazy<Icon> _tools = new Lazy<Icon>(() => new Icon(Style.Solid, "tools"));
+            private static readonly Lazy<Icon> _tools = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tools"));
             /// <summary>
             /// Tools
             /// </summary>
@@ -7771,7 +7771,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tools => _tools.Value;
 
-            private static readonly Lazy<Icon> _tooth = new Lazy<Icon>(() => new Icon(Style.Solid, "tooth"));
+            private static readonly Lazy<Icon> _tooth = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tooth"));
             /// <summary>
             /// Tooth
             /// </summary>
@@ -7780,7 +7780,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tooth => _tooth.Value;
 
-            private static readonly Lazy<Icon> _torah = new Lazy<Icon>(() => new Icon(Style.Solid, "torah"));
+            private static readonly Lazy<Icon> _torah = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "torah"));
             /// <summary>
             /// Torah
             /// </summary>
@@ -7789,7 +7789,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Torah => _torah.Value;
 
-            private static readonly Lazy<Icon> _toriiGate = new Lazy<Icon>(() => new Icon(Style.Solid, "torii-gate"));
+            private static readonly Lazy<Icon> _toriiGate = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "torii-gate"));
             /// <summary>
             /// Torii Gate
             /// </summary>
@@ -7798,7 +7798,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon ToriiGate => _toriiGate.Value;
 
-            private static readonly Lazy<Icon> _tractor = new Lazy<Icon>(() => new Icon(Style.Solid, "tractor"));
+            private static readonly Lazy<Icon> _tractor = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tractor"));
             /// <summary>
             /// Tractor
             /// </summary>
@@ -7807,7 +7807,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tractor => _tractor.Value;
 
-            private static readonly Lazy<Icon> _trademark = new Lazy<Icon>(() => new Icon(Style.Solid, "trademark"));
+            private static readonly Lazy<Icon> _trademark = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "trademark"));
             /// <summary>
             /// Trademark
             /// </summary>
@@ -7816,7 +7816,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Trademark => _trademark.Value;
 
-            private static readonly Lazy<Icon> _trafficLight = new Lazy<Icon>(() => new Icon(Style.Solid, "traffic-light"));
+            private static readonly Lazy<Icon> _trafficLight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "traffic-light"));
             /// <summary>
             /// Traffic Light
             /// </summary>
@@ -7825,7 +7825,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TrafficLight => _trafficLight.Value;
 
-            private static readonly Lazy<Icon> _trailer = new Lazy<Icon>(() => new Icon(Style.Solid, "trailer"));
+            private static readonly Lazy<Icon> _trailer = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "trailer"));
             /// <summary>
             /// Trailer
             /// </summary>
@@ -7834,7 +7834,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Trailer => _trailer.Value;
 
-            private static readonly Lazy<Icon> _train = new Lazy<Icon>(() => new Icon(Style.Solid, "train"));
+            private static readonly Lazy<Icon> _train = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "train"));
             /// <summary>
             /// Train
             /// </summary>
@@ -7843,7 +7843,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Train => _train.Value;
 
-            private static readonly Lazy<Icon> _tram = new Lazy<Icon>(() => new Icon(Style.Solid, "tram"));
+            private static readonly Lazy<Icon> _tram = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tram"));
             /// <summary>
             /// Tram
             /// </summary>
@@ -7852,7 +7852,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tram => _tram.Value;
 
-            private static readonly Lazy<Icon> _transgender = new Lazy<Icon>(() => new Icon(Style.Solid, "transgender"));
+            private static readonly Lazy<Icon> _transgender = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "transgender"));
             /// <summary>
             /// Transgender
             /// </summary>
@@ -7861,7 +7861,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Transgender => _transgender.Value;
 
-            private static readonly Lazy<Icon> _transgenderAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "transgender-alt"));
+            private static readonly Lazy<Icon> _transgenderAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "transgender-alt"));
             /// <summary>
             /// Alternate Transgender
             /// </summary>
@@ -7870,7 +7870,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TransgenderAlt => _transgenderAlt.Value;
 
-            private static readonly Lazy<Icon> _trash = new Lazy<Icon>(() => new Icon(Style.Solid, "trash"));
+            private static readonly Lazy<Icon> _trash = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "trash"));
             /// <summary>
             /// Trash
             /// </summary>
@@ -7879,7 +7879,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Trash => _trash.Value;
 
-            private static readonly Lazy<Icon> _trashAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "trash-alt"));
+            private static readonly Lazy<Icon> _trashAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "trash-alt"));
             /// <summary>
             /// Alternate Trash
             /// </summary>
@@ -7888,7 +7888,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TrashAlt => _trashAlt.Value;
 
-            private static readonly Lazy<Icon> _trashRestore = new Lazy<Icon>(() => new Icon(Style.Solid, "trash-restore"));
+            private static readonly Lazy<Icon> _trashRestore = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "trash-restore"));
             /// <summary>
             /// Trash Restore
             /// </summary>
@@ -7897,7 +7897,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TrashRestore => _trashRestore.Value;
 
-            private static readonly Lazy<Icon> _trashRestoreAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "trash-restore-alt"));
+            private static readonly Lazy<Icon> _trashRestoreAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "trash-restore-alt"));
             /// <summary>
             /// Alternative Trash Restore
             /// </summary>
@@ -7906,7 +7906,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TrashRestoreAlt => _trashRestoreAlt.Value;
 
-            private static readonly Lazy<Icon> _tree = new Lazy<Icon>(() => new Icon(Style.Solid, "tree"));
+            private static readonly Lazy<Icon> _tree = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tree"));
             /// <summary>
             /// Tree
             /// </summary>
@@ -7915,7 +7915,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tree => _tree.Value;
 
-            private static readonly Lazy<Icon> _trophy = new Lazy<Icon>(() => new Icon(Style.Solid, "trophy"));
+            private static readonly Lazy<Icon> _trophy = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "trophy"));
             /// <summary>
             /// Trophy
             /// </summary>
@@ -7924,7 +7924,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Trophy => _trophy.Value;
 
-            private static readonly Lazy<Icon> _truck = new Lazy<Icon>(() => new Icon(Style.Solid, "truck"));
+            private static readonly Lazy<Icon> _truck = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "truck"));
             /// <summary>
             /// Truck
             /// </summary>
@@ -7933,7 +7933,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Truck => _truck.Value;
 
-            private static readonly Lazy<Icon> _truckLoading = new Lazy<Icon>(() => new Icon(Style.Solid, "truck-loading"));
+            private static readonly Lazy<Icon> _truckLoading = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "truck-loading"));
             /// <summary>
             /// Truck Loading
             /// </summary>
@@ -7942,7 +7942,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TruckLoading => _truckLoading.Value;
 
-            private static readonly Lazy<Icon> _truckMonster = new Lazy<Icon>(() => new Icon(Style.Solid, "truck-monster"));
+            private static readonly Lazy<Icon> _truckMonster = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "truck-monster"));
             /// <summary>
             /// Truck Monster
             /// </summary>
@@ -7951,7 +7951,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TruckMonster => _truckMonster.Value;
 
-            private static readonly Lazy<Icon> _truckMoving = new Lazy<Icon>(() => new Icon(Style.Solid, "truck-moving"));
+            private static readonly Lazy<Icon> _truckMoving = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "truck-moving"));
             /// <summary>
             /// Truck Moving
             /// </summary>
@@ -7960,7 +7960,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TruckMoving => _truckMoving.Value;
 
-            private static readonly Lazy<Icon> _truckPickup = new Lazy<Icon>(() => new Icon(Style.Solid, "truck-pickup"));
+            private static readonly Lazy<Icon> _truckPickup = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "truck-pickup"));
             /// <summary>
             /// Truck Side
             /// </summary>
@@ -7969,7 +7969,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon TruckPickup => _truckPickup.Value;
 
-            private static readonly Lazy<Icon> _tshirt = new Lazy<Icon>(() => new Icon(Style.Solid, "tshirt"));
+            private static readonly Lazy<Icon> _tshirt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tshirt"));
             /// <summary>
             /// T Shirt
             /// </summary>
@@ -7978,7 +7978,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tshirt => _tshirt.Value;
 
-            private static readonly Lazy<Icon> _tty = new Lazy<Icon>(() => new Icon(Style.Solid, "tty"));
+            private static readonly Lazy<Icon> _tty = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tty"));
             /// <summary>
             /// TTY
             /// </summary>
@@ -7987,7 +7987,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tty => _tty.Value;
 
-            private static readonly Lazy<Icon> _tv = new Lazy<Icon>(() => new Icon(Style.Solid, "tv"));
+            private static readonly Lazy<Icon> _tv = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "tv"));
             /// <summary>
             /// Television
             /// </summary>
@@ -7996,7 +7996,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Tv => _tv.Value;
 
-            private static readonly Lazy<Icon> _umbrella = new Lazy<Icon>(() => new Icon(Style.Solid, "umbrella"));
+            private static readonly Lazy<Icon> _umbrella = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "umbrella"));
             /// <summary>
             /// Umbrella
             /// </summary>
@@ -8005,7 +8005,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Umbrella => _umbrella.Value;
 
-            private static readonly Lazy<Icon> _umbrellaBeach = new Lazy<Icon>(() => new Icon(Style.Solid, "umbrella-beach"));
+            private static readonly Lazy<Icon> _umbrellaBeach = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "umbrella-beach"));
             /// <summary>
             /// Umbrella Beach
             /// </summary>
@@ -8014,7 +8014,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UmbrellaBeach => _umbrellaBeach.Value;
 
-            private static readonly Lazy<Icon> _underline = new Lazy<Icon>(() => new Icon(Style.Solid, "underline"));
+            private static readonly Lazy<Icon> _underline = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "underline"));
             /// <summary>
             /// Underline
             /// </summary>
@@ -8023,7 +8023,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Underline => _underline.Value;
 
-            private static readonly Lazy<Icon> _undo = new Lazy<Icon>(() => new Icon(Style.Solid, "undo"));
+            private static readonly Lazy<Icon> _undo = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "undo"));
             /// <summary>
             /// Undo
             /// </summary>
@@ -8032,7 +8032,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Undo => _undo.Value;
 
-            private static readonly Lazy<Icon> _undoAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "undo-alt"));
+            private static readonly Lazy<Icon> _undoAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "undo-alt"));
             /// <summary>
             /// Alternate Undo
             /// </summary>
@@ -8041,7 +8041,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UndoAlt => _undoAlt.Value;
 
-            private static readonly Lazy<Icon> _universalAccess = new Lazy<Icon>(() => new Icon(Style.Solid, "universal-access"));
+            private static readonly Lazy<Icon> _universalAccess = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "universal-access"));
             /// <summary>
             /// Universal Access
             /// </summary>
@@ -8050,7 +8050,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UniversalAccess => _universalAccess.Value;
 
-            private static readonly Lazy<Icon> _university = new Lazy<Icon>(() => new Icon(Style.Solid, "university"));
+            private static readonly Lazy<Icon> _university = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "university"));
             /// <summary>
             /// University
             /// </summary>
@@ -8059,7 +8059,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon University => _university.Value;
 
-            private static readonly Lazy<Icon> _unlink = new Lazy<Icon>(() => new Icon(Style.Solid, "unlink"));
+            private static readonly Lazy<Icon> _unlink = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "unlink"));
             /// <summary>
             /// Unlink
             /// </summary>
@@ -8068,7 +8068,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Unlink => _unlink.Value;
 
-            private static readonly Lazy<Icon> _unlock = new Lazy<Icon>(() => new Icon(Style.Solid, "unlock"));
+            private static readonly Lazy<Icon> _unlock = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "unlock"));
             /// <summary>
             /// Unlock
             /// </summary>
@@ -8077,7 +8077,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Unlock => _unlock.Value;
 
-            private static readonly Lazy<Icon> _unlockAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "unlock-alt"));
+            private static readonly Lazy<Icon> _unlockAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "unlock-alt"));
             /// <summary>
             /// Alternate Unlock
             /// </summary>
@@ -8086,7 +8086,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UnlockAlt => _unlockAlt.Value;
 
-            private static readonly Lazy<Icon> _upload = new Lazy<Icon>(() => new Icon(Style.Solid, "upload"));
+            private static readonly Lazy<Icon> _upload = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "upload"));
             /// <summary>
             /// Upload
             /// </summary>
@@ -8095,7 +8095,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Upload => _upload.Value;
 
-            private static readonly Lazy<Icon> _user = new Lazy<Icon>(() => new Icon(Style.Solid, "user"));
+            private static readonly Lazy<Icon> _user = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user"));
             /// <summary>
             /// User
             /// </summary>
@@ -8104,7 +8104,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon User => _user.Value;
 
-            private static readonly Lazy<Icon> _userAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "user-alt"));
+            private static readonly Lazy<Icon> _userAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-alt"));
             /// <summary>
             /// Alternate User
             /// </summary>
@@ -8113,7 +8113,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserAlt => _userAlt.Value;
 
-            private static readonly Lazy<Icon> _userAltSlash = new Lazy<Icon>(() => new Icon(Style.Solid, "user-alt-slash"));
+            private static readonly Lazy<Icon> _userAltSlash = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-alt-slash"));
             /// <summary>
             /// Alternate User Slash
             /// </summary>
@@ -8122,7 +8122,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserAltSlash => _userAltSlash.Value;
 
-            private static readonly Lazy<Icon> _userAstronaut = new Lazy<Icon>(() => new Icon(Style.Solid, "user-astronaut"));
+            private static readonly Lazy<Icon> _userAstronaut = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-astronaut"));
             /// <summary>
             /// User Astronaut
             /// </summary>
@@ -8131,7 +8131,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserAstronaut => _userAstronaut.Value;
 
-            private static readonly Lazy<Icon> _userCheck = new Lazy<Icon>(() => new Icon(Style.Solid, "user-check"));
+            private static readonly Lazy<Icon> _userCheck = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-check"));
             /// <summary>
             /// User Check
             /// </summary>
@@ -8140,7 +8140,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserCheck => _userCheck.Value;
 
-            private static readonly Lazy<Icon> _userCircle = new Lazy<Icon>(() => new Icon(Style.Solid, "user-circle"));
+            private static readonly Lazy<Icon> _userCircle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-circle"));
             /// <summary>
             /// User Circle
             /// </summary>
@@ -8149,7 +8149,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserCircle => _userCircle.Value;
 
-            private static readonly Lazy<Icon> _userClock = new Lazy<Icon>(() => new Icon(Style.Solid, "user-clock"));
+            private static readonly Lazy<Icon> _userClock = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-clock"));
             /// <summary>
             /// User Clock
             /// </summary>
@@ -8158,7 +8158,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserClock => _userClock.Value;
 
-            private static readonly Lazy<Icon> _userCog = new Lazy<Icon>(() => new Icon(Style.Solid, "user-cog"));
+            private static readonly Lazy<Icon> _userCog = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-cog"));
             /// <summary>
             /// User Cog
             /// </summary>
@@ -8167,7 +8167,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserCog => _userCog.Value;
 
-            private static readonly Lazy<Icon> _userEdit = new Lazy<Icon>(() => new Icon(Style.Solid, "user-edit"));
+            private static readonly Lazy<Icon> _userEdit = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-edit"));
             /// <summary>
             /// User Edit
             /// </summary>
@@ -8176,7 +8176,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserEdit => _userEdit.Value;
 
-            private static readonly Lazy<Icon> _userFriends = new Lazy<Icon>(() => new Icon(Style.Solid, "user-friends"));
+            private static readonly Lazy<Icon> _userFriends = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-friends"));
             /// <summary>
             /// User Friends
             /// </summary>
@@ -8185,7 +8185,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserFriends => _userFriends.Value;
 
-            private static readonly Lazy<Icon> _userGraduate = new Lazy<Icon>(() => new Icon(Style.Solid, "user-graduate"));
+            private static readonly Lazy<Icon> _userGraduate = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-graduate"));
             /// <summary>
             /// User Graduate
             /// </summary>
@@ -8194,7 +8194,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserGraduate => _userGraduate.Value;
 
-            private static readonly Lazy<Icon> _userInjured = new Lazy<Icon>(() => new Icon(Style.Solid, "user-injured"));
+            private static readonly Lazy<Icon> _userInjured = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-injured"));
             /// <summary>
             /// User Injured
             /// </summary>
@@ -8203,7 +8203,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserInjured => _userInjured.Value;
 
-            private static readonly Lazy<Icon> _userLock = new Lazy<Icon>(() => new Icon(Style.Solid, "user-lock"));
+            private static readonly Lazy<Icon> _userLock = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-lock"));
             /// <summary>
             /// User Lock
             /// </summary>
@@ -8212,7 +8212,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserLock => _userLock.Value;
 
-            private static readonly Lazy<Icon> _userMd = new Lazy<Icon>(() => new Icon(Style.Solid, "user-md"));
+            private static readonly Lazy<Icon> _userMd = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-md"));
             /// <summary>
             /// Doctor
             /// </summary>
@@ -8221,7 +8221,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserMd => _userMd.Value;
 
-            private static readonly Lazy<Icon> _userMinus = new Lazy<Icon>(() => new Icon(Style.Solid, "user-minus"));
+            private static readonly Lazy<Icon> _userMinus = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-minus"));
             /// <summary>
             /// User Minus
             /// </summary>
@@ -8230,7 +8230,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserMinus => _userMinus.Value;
 
-            private static readonly Lazy<Icon> _userNinja = new Lazy<Icon>(() => new Icon(Style.Solid, "user-ninja"));
+            private static readonly Lazy<Icon> _userNinja = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-ninja"));
             /// <summary>
             /// User Ninja
             /// </summary>
@@ -8239,7 +8239,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserNinja => _userNinja.Value;
 
-            private static readonly Lazy<Icon> _userNurse = new Lazy<Icon>(() => new Icon(Style.Solid, "user-nurse"));
+            private static readonly Lazy<Icon> _userNurse = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-nurse"));
             /// <summary>
             /// Nurse
             /// </summary>
@@ -8248,7 +8248,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserNurse => _userNurse.Value;
 
-            private static readonly Lazy<Icon> _userPlus = new Lazy<Icon>(() => new Icon(Style.Solid, "user-plus"));
+            private static readonly Lazy<Icon> _userPlus = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-plus"));
             /// <summary>
             /// User Plus
             /// </summary>
@@ -8257,7 +8257,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserPlus => _userPlus.Value;
 
-            private static readonly Lazy<Icon> _userSecret = new Lazy<Icon>(() => new Icon(Style.Solid, "user-secret"));
+            private static readonly Lazy<Icon> _userSecret = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-secret"));
             /// <summary>
             /// User Secret
             /// </summary>
@@ -8266,7 +8266,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserSecret => _userSecret.Value;
 
-            private static readonly Lazy<Icon> _userShield = new Lazy<Icon>(() => new Icon(Style.Solid, "user-shield"));
+            private static readonly Lazy<Icon> _userShield = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-shield"));
             /// <summary>
             /// User Shield
             /// </summary>
@@ -8275,7 +8275,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserShield => _userShield.Value;
 
-            private static readonly Lazy<Icon> _userSlash = new Lazy<Icon>(() => new Icon(Style.Solid, "user-slash"));
+            private static readonly Lazy<Icon> _userSlash = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-slash"));
             /// <summary>
             /// User Slash
             /// </summary>
@@ -8284,7 +8284,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserSlash => _userSlash.Value;
 
-            private static readonly Lazy<Icon> _userTag = new Lazy<Icon>(() => new Icon(Style.Solid, "user-tag"));
+            private static readonly Lazy<Icon> _userTag = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-tag"));
             /// <summary>
             /// User Tag
             /// </summary>
@@ -8293,7 +8293,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserTag => _userTag.Value;
 
-            private static readonly Lazy<Icon> _userTie = new Lazy<Icon>(() => new Icon(Style.Solid, "user-tie"));
+            private static readonly Lazy<Icon> _userTie = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-tie"));
             /// <summary>
             /// User Tie
             /// </summary>
@@ -8302,7 +8302,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserTie => _userTie.Value;
 
-            private static readonly Lazy<Icon> _userTimes = new Lazy<Icon>(() => new Icon(Style.Solid, "user-times"));
+            private static readonly Lazy<Icon> _userTimes = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "user-times"));
             /// <summary>
             /// Remove User
             /// </summary>
@@ -8311,7 +8311,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UserTimes => _userTimes.Value;
 
-            private static readonly Lazy<Icon> _users = new Lazy<Icon>(() => new Icon(Style.Solid, "users"));
+            private static readonly Lazy<Icon> _users = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "users"));
             /// <summary>
             /// Users
             /// </summary>
@@ -8320,7 +8320,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Users => _users.Value;
 
-            private static readonly Lazy<Icon> _usersCog = new Lazy<Icon>(() => new Icon(Style.Solid, "users-cog"));
+            private static readonly Lazy<Icon> _usersCog = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "users-cog"));
             /// <summary>
             /// Users Cog
             /// </summary>
@@ -8329,7 +8329,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UsersCog => _usersCog.Value;
 
-            private static readonly Lazy<Icon> _utensilSpoon = new Lazy<Icon>(() => new Icon(Style.Solid, "utensil-spoon"));
+            private static readonly Lazy<Icon> _utensilSpoon = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "utensil-spoon"));
             /// <summary>
             /// Utensil Spoon
             /// </summary>
@@ -8338,7 +8338,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon UtensilSpoon => _utensilSpoon.Value;
 
-            private static readonly Lazy<Icon> _utensils = new Lazy<Icon>(() => new Icon(Style.Solid, "utensils"));
+            private static readonly Lazy<Icon> _utensils = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "utensils"));
             /// <summary>
             /// Utensils
             /// </summary>
@@ -8347,7 +8347,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Utensils => _utensils.Value;
 
-            private static readonly Lazy<Icon> _vectorSquare = new Lazy<Icon>(() => new Icon(Style.Solid, "vector-square"));
+            private static readonly Lazy<Icon> _vectorSquare = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "vector-square"));
             /// <summary>
             /// Vector Square
             /// </summary>
@@ -8356,7 +8356,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon VectorSquare => _vectorSquare.Value;
 
-            private static readonly Lazy<Icon> _venus = new Lazy<Icon>(() => new Icon(Style.Solid, "venus"));
+            private static readonly Lazy<Icon> _venus = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "venus"));
             /// <summary>
             /// Venus
             /// </summary>
@@ -8365,7 +8365,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Venus => _venus.Value;
 
-            private static readonly Lazy<Icon> _venusDouble = new Lazy<Icon>(() => new Icon(Style.Solid, "venus-double"));
+            private static readonly Lazy<Icon> _venusDouble = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "venus-double"));
             /// <summary>
             /// Venus Double
             /// </summary>
@@ -8374,7 +8374,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon VenusDouble => _venusDouble.Value;
 
-            private static readonly Lazy<Icon> _venusMars = new Lazy<Icon>(() => new Icon(Style.Solid, "venus-mars"));
+            private static readonly Lazy<Icon> _venusMars = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "venus-mars"));
             /// <summary>
             /// Venus Mars
             /// </summary>
@@ -8383,7 +8383,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon VenusMars => _venusMars.Value;
 
-            private static readonly Lazy<Icon> _vial = new Lazy<Icon>(() => new Icon(Style.Solid, "vial"));
+            private static readonly Lazy<Icon> _vial = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "vial"));
             /// <summary>
             /// Vial
             /// </summary>
@@ -8392,7 +8392,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Vial => _vial.Value;
 
-            private static readonly Lazy<Icon> _vials = new Lazy<Icon>(() => new Icon(Style.Solid, "vials"));
+            private static readonly Lazy<Icon> _vials = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "vials"));
             /// <summary>
             /// Vials
             /// </summary>
@@ -8401,7 +8401,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Vials => _vials.Value;
 
-            private static readonly Lazy<Icon> _video = new Lazy<Icon>(() => new Icon(Style.Solid, "video"));
+            private static readonly Lazy<Icon> _video = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "video"));
             /// <summary>
             /// Video
             /// </summary>
@@ -8410,7 +8410,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Video => _video.Value;
 
-            private static readonly Lazy<Icon> _videoSlash = new Lazy<Icon>(() => new Icon(Style.Solid, "video-slash"));
+            private static readonly Lazy<Icon> _videoSlash = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "video-slash"));
             /// <summary>
             /// Video Slash
             /// </summary>
@@ -8419,7 +8419,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon VideoSlash => _videoSlash.Value;
 
-            private static readonly Lazy<Icon> _vihara = new Lazy<Icon>(() => new Icon(Style.Solid, "vihara"));
+            private static readonly Lazy<Icon> _vihara = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "vihara"));
             /// <summary>
             /// Vihara
             /// </summary>
@@ -8428,7 +8428,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Vihara => _vihara.Value;
 
-            private static readonly Lazy<Icon> _voicemail = new Lazy<Icon>(() => new Icon(Style.Solid, "voicemail"));
+            private static readonly Lazy<Icon> _voicemail = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "voicemail"));
             /// <summary>
             /// Voicemail
             /// </summary>
@@ -8437,7 +8437,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Voicemail => _voicemail.Value;
 
-            private static readonly Lazy<Icon> _volleyballBall = new Lazy<Icon>(() => new Icon(Style.Solid, "volleyball-ball"));
+            private static readonly Lazy<Icon> _volleyballBall = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "volleyball-ball"));
             /// <summary>
             /// Volleyball Ball
             /// </summary>
@@ -8446,7 +8446,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon VolleyballBall => _volleyballBall.Value;
 
-            private static readonly Lazy<Icon> _volumeDown = new Lazy<Icon>(() => new Icon(Style.Solid, "volume-down"));
+            private static readonly Lazy<Icon> _volumeDown = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "volume-down"));
             /// <summary>
             /// Volume Down
             /// </summary>
@@ -8455,7 +8455,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon VolumeDown => _volumeDown.Value;
 
-            private static readonly Lazy<Icon> _volumeMute = new Lazy<Icon>(() => new Icon(Style.Solid, "volume-mute"));
+            private static readonly Lazy<Icon> _volumeMute = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "volume-mute"));
             /// <summary>
             /// Volume Mute
             /// </summary>
@@ -8464,7 +8464,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon VolumeMute => _volumeMute.Value;
 
-            private static readonly Lazy<Icon> _volumeOff = new Lazy<Icon>(() => new Icon(Style.Solid, "volume-off"));
+            private static readonly Lazy<Icon> _volumeOff = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "volume-off"));
             /// <summary>
             /// Volume Off
             /// </summary>
@@ -8473,7 +8473,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon VolumeOff => _volumeOff.Value;
 
-            private static readonly Lazy<Icon> _volumeUp = new Lazy<Icon>(() => new Icon(Style.Solid, "volume-up"));
+            private static readonly Lazy<Icon> _volumeUp = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "volume-up"));
             /// <summary>
             /// Volume Up
             /// </summary>
@@ -8482,7 +8482,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon VolumeUp => _volumeUp.Value;
 
-            private static readonly Lazy<Icon> _voteYea = new Lazy<Icon>(() => new Icon(Style.Solid, "vote-yea"));
+            private static readonly Lazy<Icon> _voteYea = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "vote-yea"));
             /// <summary>
             /// Vote Yea
             /// </summary>
@@ -8491,7 +8491,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon VoteYea => _voteYea.Value;
 
-            private static readonly Lazy<Icon> _vrCardboard = new Lazy<Icon>(() => new Icon(Style.Solid, "vr-cardboard"));
+            private static readonly Lazy<Icon> _vrCardboard = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "vr-cardboard"));
             /// <summary>
             /// Cardboard VR
             /// </summary>
@@ -8500,7 +8500,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon VrCardboard => _vrCardboard.Value;
 
-            private static readonly Lazy<Icon> _walking = new Lazy<Icon>(() => new Icon(Style.Solid, "walking"));
+            private static readonly Lazy<Icon> _walking = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "walking"));
             /// <summary>
             /// Walking
             /// </summary>
@@ -8509,7 +8509,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Walking => _walking.Value;
 
-            private static readonly Lazy<Icon> _wallet = new Lazy<Icon>(() => new Icon(Style.Solid, "wallet"));
+            private static readonly Lazy<Icon> _wallet = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "wallet"));
             /// <summary>
             /// Wallet
             /// </summary>
@@ -8518,7 +8518,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Wallet => _wallet.Value;
 
-            private static readonly Lazy<Icon> _warehouse = new Lazy<Icon>(() => new Icon(Style.Solid, "warehouse"));
+            private static readonly Lazy<Icon> _warehouse = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "warehouse"));
             /// <summary>
             /// Warehouse
             /// </summary>
@@ -8527,7 +8527,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Warehouse => _warehouse.Value;
 
-            private static readonly Lazy<Icon> _water = new Lazy<Icon>(() => new Icon(Style.Solid, "water"));
+            private static readonly Lazy<Icon> _water = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "water"));
             /// <summary>
             /// Water
             /// </summary>
@@ -8536,7 +8536,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Water => _water.Value;
 
-            private static readonly Lazy<Icon> _waveSquare = new Lazy<Icon>(() => new Icon(Style.Solid, "wave-square"));
+            private static readonly Lazy<Icon> _waveSquare = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "wave-square"));
             /// <summary>
             /// Square Wave
             /// </summary>
@@ -8545,7 +8545,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon WaveSquare => _waveSquare.Value;
 
-            private static readonly Lazy<Icon> _weight = new Lazy<Icon>(() => new Icon(Style.Solid, "weight"));
+            private static readonly Lazy<Icon> _weight = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "weight"));
             /// <summary>
             /// Weight
             /// </summary>
@@ -8554,7 +8554,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Weight => _weight.Value;
 
-            private static readonly Lazy<Icon> _weightHanging = new Lazy<Icon>(() => new Icon(Style.Solid, "weight-hanging"));
+            private static readonly Lazy<Icon> _weightHanging = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "weight-hanging"));
             /// <summary>
             /// Hanging Weight
             /// </summary>
@@ -8563,7 +8563,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon WeightHanging => _weightHanging.Value;
 
-            private static readonly Lazy<Icon> _wheelchair = new Lazy<Icon>(() => new Icon(Style.Solid, "wheelchair"));
+            private static readonly Lazy<Icon> _wheelchair = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "wheelchair"));
             /// <summary>
             /// Wheelchair
             /// </summary>
@@ -8572,7 +8572,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Wheelchair => _wheelchair.Value;
 
-            private static readonly Lazy<Icon> _wifi = new Lazy<Icon>(() => new Icon(Style.Solid, "wifi"));
+            private static readonly Lazy<Icon> _wifi = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "wifi"));
             /// <summary>
             /// Wi Fi
             /// </summary>
@@ -8581,7 +8581,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Wifi => _wifi.Value;
 
-            private static readonly Lazy<Icon> _wind = new Lazy<Icon>(() => new Icon(Style.Solid, "wind"));
+            private static readonly Lazy<Icon> _wind = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "wind"));
             /// <summary>
             /// Wind
             /// </summary>
@@ -8590,7 +8590,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Wind => _wind.Value;
 
-            private static readonly Lazy<Icon> _windowClose = new Lazy<Icon>(() => new Icon(Style.Solid, "window-close"));
+            private static readonly Lazy<Icon> _windowClose = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "window-close"));
             /// <summary>
             /// Window Close
             /// </summary>
@@ -8599,7 +8599,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon WindowClose => _windowClose.Value;
 
-            private static readonly Lazy<Icon> _windowMaximize = new Lazy<Icon>(() => new Icon(Style.Solid, "window-maximize"));
+            private static readonly Lazy<Icon> _windowMaximize = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "window-maximize"));
             /// <summary>
             /// Window Maximize
             /// </summary>
@@ -8608,7 +8608,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon WindowMaximize => _windowMaximize.Value;
 
-            private static readonly Lazy<Icon> _windowMinimize = new Lazy<Icon>(() => new Icon(Style.Solid, "window-minimize"));
+            private static readonly Lazy<Icon> _windowMinimize = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "window-minimize"));
             /// <summary>
             /// Window Minimize
             /// </summary>
@@ -8617,7 +8617,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon WindowMinimize => _windowMinimize.Value;
 
-            private static readonly Lazy<Icon> _windowRestore = new Lazy<Icon>(() => new Icon(Style.Solid, "window-restore"));
+            private static readonly Lazy<Icon> _windowRestore = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "window-restore"));
             /// <summary>
             /// Window Restore
             /// </summary>
@@ -8626,7 +8626,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon WindowRestore => _windowRestore.Value;
 
-            private static readonly Lazy<Icon> _wineBottle = new Lazy<Icon>(() => new Icon(Style.Solid, "wine-bottle"));
+            private static readonly Lazy<Icon> _wineBottle = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "wine-bottle"));
             /// <summary>
             /// Wine Bottle
             /// </summary>
@@ -8635,7 +8635,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon WineBottle => _wineBottle.Value;
 
-            private static readonly Lazy<Icon> _wineGlass = new Lazy<Icon>(() => new Icon(Style.Solid, "wine-glass"));
+            private static readonly Lazy<Icon> _wineGlass = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "wine-glass"));
             /// <summary>
             /// Wine Glass
             /// </summary>
@@ -8644,7 +8644,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon WineGlass => _wineGlass.Value;
 
-            private static readonly Lazy<Icon> _wineGlassAlt = new Lazy<Icon>(() => new Icon(Style.Solid, "wine-glass-alt"));
+            private static readonly Lazy<Icon> _wineGlassAlt = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "wine-glass-alt"));
             /// <summary>
             /// Alternate Wine Glas
             /// </summary>
@@ -8653,7 +8653,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon WineGlassAlt => _wineGlassAlt.Value;
 
-            private static readonly Lazy<Icon> _wonSign = new Lazy<Icon>(() => new Icon(Style.Solid, "won-sign"));
+            private static readonly Lazy<Icon> _wonSign = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "won-sign"));
             /// <summary>
             /// Won Sign
             /// </summary>
@@ -8662,7 +8662,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon WonSign => _wonSign.Value;
 
-            private static readonly Lazy<Icon> _wrench = new Lazy<Icon>(() => new Icon(Style.Solid, "wrench"));
+            private static readonly Lazy<Icon> _wrench = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "wrench"));
             /// <summary>
             /// Wrench
             /// </summary>
@@ -8671,7 +8671,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon Wrench => _wrench.Value;
 
-            private static readonly Lazy<Icon> _xRay = new Lazy<Icon>(() => new Icon(Style.Solid, "x-ray"));
+            private static readonly Lazy<Icon> _xRay = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "x-ray"));
             /// <summary>
             /// X Ray
             /// </summary>
@@ -8680,7 +8680,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon XRay => _xRay.Value;
 
-            private static readonly Lazy<Icon> _yenSign = new Lazy<Icon>(() => new Icon(Style.Solid, "yen-sign"));
+            private static readonly Lazy<Icon> _yenSign = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "yen-sign"));
             /// <summary>
             /// Yen Sign
             /// </summary>
@@ -8689,7 +8689,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon YenSign => _yenSign.Value;
 
-            private static readonly Lazy<Icon> _yinYang = new Lazy<Icon>(() => new Icon(Style.Solid, "yin-yang"));
+            private static readonly Lazy<Icon> _yinYang = new Lazy<Icon>(() => new Icon(IconStyle.Solid, "yin-yang"));
             /// <summary>
             /// Yin Yang
             /// </summary>

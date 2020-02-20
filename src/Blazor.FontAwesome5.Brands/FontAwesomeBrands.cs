@@ -8,12 +8,18 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
     /// </summary>
     public static partial class FontAwesome
     {
+        public enum BrandsE {
+
+            _500px,
+            AccessibleIcon
+        }
+
         /// <summary>
         /// Font Awesome Brands Icons
         /// </summary>
         public static partial class Brands
         {
-            private static readonly Lazy<Icon> __500px = new Lazy<Icon>(() => new Icon(Style.Brands, "500px"));
+            private static readonly Lazy<Icon> __500px = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "500px"));
             /// <summary>
             /// 500px
             /// </summary>
@@ -22,7 +28,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon _500px => __500px.Value;
 
-            private static readonly Lazy<Icon> _accessibleIcon = new Lazy<Icon>(() => new Icon(Style.Brands, "accessible-icon"));
+            private static readonly Lazy<Icon> _accessibleIcon = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "accessible-icon"));
             /// <summary>
             /// Accessible Icon
             /// </summary>
@@ -31,7 +37,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon AccessibleIcon => _accessibleIcon.Value;
 
-            private static readonly Lazy<Icon> _accusoft = new Lazy<Icon>(() => new Icon(Style.Brands, "accusoft"));
+            private static readonly Lazy<Icon> _accusoft = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "accusoft"));
             /// <summary>
             /// Accusoft
             /// </summary>
@@ -40,7 +46,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Accusoft => _accusoft.Value;
 
-            private static readonly Lazy<Icon> _acquisitionsIncorporated = new Lazy<Icon>(() => new Icon(Style.Brands, "acquisitions-incorporated"));
+            private static readonly Lazy<Icon> _acquisitionsIncorporated = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "acquisitions-incorporated"));
             /// <summary>
             /// Acquisitions Incorporated
             /// </summary>
@@ -49,7 +55,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon AcquisitionsIncorporated => _acquisitionsIncorporated.Value;
 
-            private static readonly Lazy<Icon> _adn = new Lazy<Icon>(() => new Icon(Style.Brands, "adn"));
+            private static readonly Lazy<Icon> _adn = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "adn"));
             /// <summary>
             /// App Net
             /// </summary>
@@ -58,7 +64,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Adn => _adn.Value;
 
-            private static readonly Lazy<Icon> _adobe = new Lazy<Icon>(() => new Icon(Style.Brands, "adobe"));
+            private static readonly Lazy<Icon> _adobe = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "adobe"));
             /// <summary>
             /// Adobe
             /// </summary>
@@ -67,7 +73,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Adobe => _adobe.Value;
 
-            private static readonly Lazy<Icon> _adversal = new Lazy<Icon>(() => new Icon(Style.Brands, "adversal"));
+            private static readonly Lazy<Icon> _adversal = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "adversal"));
             /// <summary>
             /// Adversal
             /// </summary>
@@ -76,7 +82,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Adversal => _adversal.Value;
 
-            private static readonly Lazy<Icon> _affiliatetheme = new Lazy<Icon>(() => new Icon(Style.Brands, "affiliatetheme"));
+            private static readonly Lazy<Icon> _affiliatetheme = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "affiliatetheme"));
             /// <summary>
             /// Affiliatetheme
             /// </summary>
@@ -85,7 +91,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Affiliatetheme => _affiliatetheme.Value;
 
-            private static readonly Lazy<Icon> _airbnb = new Lazy<Icon>(() => new Icon(Style.Brands, "airbnb"));
+            private static readonly Lazy<Icon> _airbnb = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "airbnb"));
             /// <summary>
             /// Airbnb
             /// </summary>
@@ -94,7 +100,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Airbnb => _airbnb.Value;
 
-            private static readonly Lazy<Icon> _algolia = new Lazy<Icon>(() => new Icon(Style.Brands, "algolia"));
+            private static readonly Lazy<Icon> _algolia = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "algolia"));
             /// <summary>
             /// Algolia
             /// </summary>
@@ -103,7 +109,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Algolia => _algolia.Value;
 
-            private static readonly Lazy<Icon> _alipay = new Lazy<Icon>(() => new Icon(Style.Brands, "alipay"));
+            private static readonly Lazy<Icon> _alipay = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "alipay"));
             /// <summary>
             /// Alipay
             /// </summary>
@@ -112,7 +118,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Alipay => _alipay.Value;
 
-            private static readonly Lazy<Icon> _amazon = new Lazy<Icon>(() => new Icon(Style.Brands, "amazon"));
+            private static readonly Lazy<Icon> _amazon = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "amazon"));
             /// <summary>
             /// Amazon
             /// </summary>
@@ -121,7 +127,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Amazon => _amazon.Value;
 
-            private static readonly Lazy<Icon> _amazonPay = new Lazy<Icon>(() => new Icon(Style.Brands, "amazon-pay"));
+            private static readonly Lazy<Icon> _amazonPay = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "amazon-pay"));
             /// <summary>
             /// Amazon Pay
             /// </summary>
@@ -130,7 +136,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon AmazonPay => _amazonPay.Value;
 
-            private static readonly Lazy<Icon> _amilia = new Lazy<Icon>(() => new Icon(Style.Brands, "amilia"));
+            private static readonly Lazy<Icon> _amilia = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "amilia"));
             /// <summary>
             /// Amilia
             /// </summary>
@@ -139,7 +145,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Amilia => _amilia.Value;
 
-            private static readonly Lazy<Icon> _android = new Lazy<Icon>(() => new Icon(Style.Brands, "android"));
+            private static readonly Lazy<Icon> _android = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "android"));
             /// <summary>
             /// Android
             /// </summary>
@@ -148,7 +154,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Android => _android.Value;
 
-            private static readonly Lazy<Icon> _angellist = new Lazy<Icon>(() => new Icon(Style.Brands, "angellist"));
+            private static readonly Lazy<Icon> _angellist = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "angellist"));
             /// <summary>
             /// Angel List
             /// </summary>
@@ -157,7 +163,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Angellist => _angellist.Value;
 
-            private static readonly Lazy<Icon> _angrycreative = new Lazy<Icon>(() => new Icon(Style.Brands, "angrycreative"));
+            private static readonly Lazy<Icon> _angrycreative = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "angrycreative"));
             /// <summary>
             /// Angry Creative
             /// </summary>
@@ -166,7 +172,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Angrycreative => _angrycreative.Value;
 
-            private static readonly Lazy<Icon> _angular = new Lazy<Icon>(() => new Icon(Style.Brands, "angular"));
+            private static readonly Lazy<Icon> _angular = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "angular"));
             /// <summary>
             /// Angular
             /// </summary>
@@ -175,7 +181,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Angular => _angular.Value;
 
-            private static readonly Lazy<Icon> _appStore = new Lazy<Icon>(() => new Icon(Style.Brands, "app-store"));
+            private static readonly Lazy<Icon> _appStore = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "app-store"));
             /// <summary>
             /// App Store
             /// </summary>
@@ -184,7 +190,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon AppStore => _appStore.Value;
 
-            private static readonly Lazy<Icon> _appStoreIos = new Lazy<Icon>(() => new Icon(Style.Brands, "app-store-ios"));
+            private static readonly Lazy<Icon> _appStoreIos = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "app-store-ios"));
             /// <summary>
             /// I OS App Store
             /// </summary>
@@ -193,7 +199,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon AppStoreIos => _appStoreIos.Value;
 
-            private static readonly Lazy<Icon> _apper = new Lazy<Icon>(() => new Icon(Style.Brands, "apper"));
+            private static readonly Lazy<Icon> _apper = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "apper"));
             /// <summary>
             /// Apper Systems AB
             /// </summary>
@@ -202,7 +208,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Apper => _apper.Value;
 
-            private static readonly Lazy<Icon> _apple = new Lazy<Icon>(() => new Icon(Style.Brands, "apple"));
+            private static readonly Lazy<Icon> _apple = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "apple"));
             /// <summary>
             /// Apple
             /// </summary>
@@ -211,7 +217,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Apple => _apple.Value;
 
-            private static readonly Lazy<Icon> _applePay = new Lazy<Icon>(() => new Icon(Style.Brands, "apple-pay"));
+            private static readonly Lazy<Icon> _applePay = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "apple-pay"));
             /// <summary>
             /// Apple Pay
             /// </summary>
@@ -220,7 +226,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon ApplePay => _applePay.Value;
 
-            private static readonly Lazy<Icon> _artstation = new Lazy<Icon>(() => new Icon(Style.Brands, "artstation"));
+            private static readonly Lazy<Icon> _artstation = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "artstation"));
             /// <summary>
             /// Artstation
             /// </summary>
@@ -229,7 +235,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Artstation => _artstation.Value;
 
-            private static readonly Lazy<Icon> _asymmetrik = new Lazy<Icon>(() => new Icon(Style.Brands, "asymmetrik"));
+            private static readonly Lazy<Icon> _asymmetrik = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "asymmetrik"));
             /// <summary>
             /// Asymmetrik Ltd
             /// </summary>
@@ -238,7 +244,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Asymmetrik => _asymmetrik.Value;
 
-            private static readonly Lazy<Icon> _atlassian = new Lazy<Icon>(() => new Icon(Style.Brands, "atlassian"));
+            private static readonly Lazy<Icon> _atlassian = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "atlassian"));
             /// <summary>
             /// Atlassian
             /// </summary>
@@ -247,7 +253,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Atlassian => _atlassian.Value;
 
-            private static readonly Lazy<Icon> _audible = new Lazy<Icon>(() => new Icon(Style.Brands, "audible"));
+            private static readonly Lazy<Icon> _audible = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "audible"));
             /// <summary>
             /// Audible
             /// </summary>
@@ -256,7 +262,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Audible => _audible.Value;
 
-            private static readonly Lazy<Icon> _autoprefixer = new Lazy<Icon>(() => new Icon(Style.Brands, "autoprefixer"));
+            private static readonly Lazy<Icon> _autoprefixer = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "autoprefixer"));
             /// <summary>
             /// Autoprefixer
             /// </summary>
@@ -265,7 +271,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Autoprefixer => _autoprefixer.Value;
 
-            private static readonly Lazy<Icon> _avianex = new Lazy<Icon>(() => new Icon(Style.Brands, "avianex"));
+            private static readonly Lazy<Icon> _avianex = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "avianex"));
             /// <summary>
             /// Avianex
             /// </summary>
@@ -274,7 +280,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Avianex => _avianex.Value;
 
-            private static readonly Lazy<Icon> _aviato = new Lazy<Icon>(() => new Icon(Style.Brands, "aviato"));
+            private static readonly Lazy<Icon> _aviato = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "aviato"));
             /// <summary>
             /// Aviato
             /// </summary>
@@ -283,7 +289,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Aviato => _aviato.Value;
 
-            private static readonly Lazy<Icon> _aws = new Lazy<Icon>(() => new Icon(Style.Brands, "aws"));
+            private static readonly Lazy<Icon> _aws = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "aws"));
             /// <summary>
             /// Amazon Web Services AWS
             /// </summary>
@@ -292,7 +298,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Aws => _aws.Value;
 
-            private static readonly Lazy<Icon> _bandcamp = new Lazy<Icon>(() => new Icon(Style.Brands, "bandcamp"));
+            private static readonly Lazy<Icon> _bandcamp = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "bandcamp"));
             /// <summary>
             /// Bandcamp
             /// </summary>
@@ -301,7 +307,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Bandcamp => _bandcamp.Value;
 
-            private static readonly Lazy<Icon> _battleNet = new Lazy<Icon>(() => new Icon(Style.Brands, "battle-net"));
+            private static readonly Lazy<Icon> _battleNet = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "battle-net"));
             /// <summary>
             /// Battle Net
             /// </summary>
@@ -310,7 +316,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon BattleNet => _battleNet.Value;
 
-            private static readonly Lazy<Icon> _behance = new Lazy<Icon>(() => new Icon(Style.Brands, "behance"));
+            private static readonly Lazy<Icon> _behance = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "behance"));
             /// <summary>
             /// Behance
             /// </summary>
@@ -319,7 +325,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Behance => _behance.Value;
 
-            private static readonly Lazy<Icon> _behanceSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "behance-square"));
+            private static readonly Lazy<Icon> _behanceSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "behance-square"));
             /// <summary>
             /// Behance Square
             /// </summary>
@@ -328,7 +334,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon BehanceSquare => _behanceSquare.Value;
 
-            private static readonly Lazy<Icon> _bimobject = new Lazy<Icon>(() => new Icon(Style.Brands, "bimobject"));
+            private static readonly Lazy<Icon> _bimobject = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "bimobject"));
             /// <summary>
             /// BI Mobject
             /// </summary>
@@ -337,7 +343,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Bimobject => _bimobject.Value;
 
-            private static readonly Lazy<Icon> _bitbucket = new Lazy<Icon>(() => new Icon(Style.Brands, "bitbucket"));
+            private static readonly Lazy<Icon> _bitbucket = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "bitbucket"));
             /// <summary>
             /// Bitbucket
             /// </summary>
@@ -346,7 +352,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Bitbucket => _bitbucket.Value;
 
-            private static readonly Lazy<Icon> _bitcoin = new Lazy<Icon>(() => new Icon(Style.Brands, "bitcoin"));
+            private static readonly Lazy<Icon> _bitcoin = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "bitcoin"));
             /// <summary>
             /// Bitcoin
             /// </summary>
@@ -355,7 +361,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Bitcoin => _bitcoin.Value;
 
-            private static readonly Lazy<Icon> _bity = new Lazy<Icon>(() => new Icon(Style.Brands, "bity"));
+            private static readonly Lazy<Icon> _bity = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "bity"));
             /// <summary>
             /// Bity
             /// </summary>
@@ -364,7 +370,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Bity => _bity.Value;
 
-            private static readonly Lazy<Icon> _blackTie = new Lazy<Icon>(() => new Icon(Style.Brands, "black-tie"));
+            private static readonly Lazy<Icon> _blackTie = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "black-tie"));
             /// <summary>
             /// Font Awesome Black Tie
             /// </summary>
@@ -373,7 +379,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon BlackTie => _blackTie.Value;
 
-            private static readonly Lazy<Icon> _blackberry = new Lazy<Icon>(() => new Icon(Style.Brands, "blackberry"));
+            private static readonly Lazy<Icon> _blackberry = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "blackberry"));
             /// <summary>
             /// Black Berry
             /// </summary>
@@ -382,7 +388,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Blackberry => _blackberry.Value;
 
-            private static readonly Lazy<Icon> _blogger = new Lazy<Icon>(() => new Icon(Style.Brands, "blogger"));
+            private static readonly Lazy<Icon> _blogger = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "blogger"));
             /// <summary>
             /// Blogger
             /// </summary>
@@ -391,7 +397,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Blogger => _blogger.Value;
 
-            private static readonly Lazy<Icon> _bloggerB = new Lazy<Icon>(() => new Icon(Style.Brands, "blogger-b"));
+            private static readonly Lazy<Icon> _bloggerB = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "blogger-b"));
             /// <summary>
             /// Blogger B
             /// </summary>
@@ -400,7 +406,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon BloggerB => _bloggerB.Value;
 
-            private static readonly Lazy<Icon> _bluetooth = new Lazy<Icon>(() => new Icon(Style.Brands, "bluetooth"));
+            private static readonly Lazy<Icon> _bluetooth = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "bluetooth"));
             /// <summary>
             /// Bluetooth
             /// </summary>
@@ -409,7 +415,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Bluetooth => _bluetooth.Value;
 
-            private static readonly Lazy<Icon> _bluetoothB = new Lazy<Icon>(() => new Icon(Style.Brands, "bluetooth-b"));
+            private static readonly Lazy<Icon> _bluetoothB = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "bluetooth-b"));
             /// <summary>
             /// Bluetooth
             /// </summary>
@@ -418,7 +424,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon BluetoothB => _bluetoothB.Value;
 
-            private static readonly Lazy<Icon> _bootstrap = new Lazy<Icon>(() => new Icon(Style.Brands, "bootstrap"));
+            private static readonly Lazy<Icon> _bootstrap = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "bootstrap"));
             /// <summary>
             /// Bootstrap
             /// </summary>
@@ -427,7 +433,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Bootstrap => _bootstrap.Value;
 
-            private static readonly Lazy<Icon> _btc = new Lazy<Icon>(() => new Icon(Style.Brands, "btc"));
+            private static readonly Lazy<Icon> _btc = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "btc"));
             /// <summary>
             /// BTC
             /// </summary>
@@ -436,7 +442,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Btc => _btc.Value;
 
-            private static readonly Lazy<Icon> _buffer = new Lazy<Icon>(() => new Icon(Style.Brands, "buffer"));
+            private static readonly Lazy<Icon> _buffer = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "buffer"));
             /// <summary>
             /// Buffer
             /// </summary>
@@ -445,7 +451,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Buffer => _buffer.Value;
 
-            private static readonly Lazy<Icon> _buromobelexperte = new Lazy<Icon>(() => new Icon(Style.Brands, "buromobelexperte"));
+            private static readonly Lazy<Icon> _buromobelexperte = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "buromobelexperte"));
             /// <summary>
             /// Büromöbel Experte Gmbh & Co. KG.
             /// </summary>
@@ -454,7 +460,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Buromobelexperte => _buromobelexperte.Value;
 
-            private static readonly Lazy<Icon> _buyNLarge = new Lazy<Icon>(() => new Icon(Style.Brands, "buy-n-large"));
+            private static readonly Lazy<Icon> _buyNLarge = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "buy-n-large"));
             /// <summary>
             /// Buy N Large
             /// </summary>
@@ -463,7 +469,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon BuyNLarge => _buyNLarge.Value;
 
-            private static readonly Lazy<Icon> _buysellads = new Lazy<Icon>(() => new Icon(Style.Brands, "buysellads"));
+            private static readonly Lazy<Icon> _buysellads = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "buysellads"));
             /// <summary>
             /// Buy Sell Ads
             /// </summary>
@@ -472,7 +478,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Buysellads => _buysellads.Value;
 
-            private static readonly Lazy<Icon> _canadianMapleLeaf = new Lazy<Icon>(() => new Icon(Style.Brands, "canadian-maple-leaf"));
+            private static readonly Lazy<Icon> _canadianMapleLeaf = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "canadian-maple-leaf"));
             /// <summary>
             /// Canadian Maple Leaf
             /// </summary>
@@ -481,7 +487,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CanadianMapleLeaf => _canadianMapleLeaf.Value;
 
-            private static readonly Lazy<Icon> _ccAmazonPay = new Lazy<Icon>(() => new Icon(Style.Brands, "cc-amazon-pay"));
+            private static readonly Lazy<Icon> _ccAmazonPay = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cc-amazon-pay"));
             /// <summary>
             /// Amazon Pay Credit Card
             /// </summary>
@@ -490,7 +496,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CcAmazonPay => _ccAmazonPay.Value;
 
-            private static readonly Lazy<Icon> _ccAmex = new Lazy<Icon>(() => new Icon(Style.Brands, "cc-amex"));
+            private static readonly Lazy<Icon> _ccAmex = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cc-amex"));
             /// <summary>
             /// American Express Credit Card
             /// </summary>
@@ -499,7 +505,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CcAmex => _ccAmex.Value;
 
-            private static readonly Lazy<Icon> _ccApplePay = new Lazy<Icon>(() => new Icon(Style.Brands, "cc-apple-pay"));
+            private static readonly Lazy<Icon> _ccApplePay = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cc-apple-pay"));
             /// <summary>
             /// Apple Pay Credit Card
             /// </summary>
@@ -508,7 +514,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CcApplePay => _ccApplePay.Value;
 
-            private static readonly Lazy<Icon> _ccDinersClub = new Lazy<Icon>(() => new Icon(Style.Brands, "cc-diners-club"));
+            private static readonly Lazy<Icon> _ccDinersClub = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cc-diners-club"));
             /// <summary>
             /// Diner S Club Credit Card
             /// </summary>
@@ -517,7 +523,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CcDinersClub => _ccDinersClub.Value;
 
-            private static readonly Lazy<Icon> _ccDiscover = new Lazy<Icon>(() => new Icon(Style.Brands, "cc-discover"));
+            private static readonly Lazy<Icon> _ccDiscover = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cc-discover"));
             /// <summary>
             /// Discover Credit Card
             /// </summary>
@@ -526,7 +532,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CcDiscover => _ccDiscover.Value;
 
-            private static readonly Lazy<Icon> _ccJcb = new Lazy<Icon>(() => new Icon(Style.Brands, "cc-jcb"));
+            private static readonly Lazy<Icon> _ccJcb = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cc-jcb"));
             /// <summary>
             /// JCB Credit Card
             /// </summary>
@@ -535,7 +541,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CcJcb => _ccJcb.Value;
 
-            private static readonly Lazy<Icon> _ccMastercard = new Lazy<Icon>(() => new Icon(Style.Brands, "cc-mastercard"));
+            private static readonly Lazy<Icon> _ccMastercard = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cc-mastercard"));
             /// <summary>
             /// Master Card Credit Card
             /// </summary>
@@ -544,7 +550,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CcMastercard => _ccMastercard.Value;
 
-            private static readonly Lazy<Icon> _ccPaypal = new Lazy<Icon>(() => new Icon(Style.Brands, "cc-paypal"));
+            private static readonly Lazy<Icon> _ccPaypal = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cc-paypal"));
             /// <summary>
             /// Paypal Credit Card
             /// </summary>
@@ -553,7 +559,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CcPaypal => _ccPaypal.Value;
 
-            private static readonly Lazy<Icon> _ccStripe = new Lazy<Icon>(() => new Icon(Style.Brands, "cc-stripe"));
+            private static readonly Lazy<Icon> _ccStripe = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cc-stripe"));
             /// <summary>
             /// Stripe Credit Card
             /// </summary>
@@ -562,7 +568,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CcStripe => _ccStripe.Value;
 
-            private static readonly Lazy<Icon> _ccVisa = new Lazy<Icon>(() => new Icon(Style.Brands, "cc-visa"));
+            private static readonly Lazy<Icon> _ccVisa = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cc-visa"));
             /// <summary>
             /// Visa Credit Card
             /// </summary>
@@ -571,7 +577,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CcVisa => _ccVisa.Value;
 
-            private static readonly Lazy<Icon> _centercode = new Lazy<Icon>(() => new Icon(Style.Brands, "centercode"));
+            private static readonly Lazy<Icon> _centercode = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "centercode"));
             /// <summary>
             /// Centercode
             /// </summary>
@@ -580,7 +586,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Centercode => _centercode.Value;
 
-            private static readonly Lazy<Icon> _centos = new Lazy<Icon>(() => new Icon(Style.Brands, "centos"));
+            private static readonly Lazy<Icon> _centos = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "centos"));
             /// <summary>
             /// Centos
             /// </summary>
@@ -589,7 +595,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Centos => _centos.Value;
 
-            private static readonly Lazy<Icon> _chrome = new Lazy<Icon>(() => new Icon(Style.Brands, "chrome"));
+            private static readonly Lazy<Icon> _chrome = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "chrome"));
             /// <summary>
             /// Chrome
             /// </summary>
@@ -598,7 +604,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Chrome => _chrome.Value;
 
-            private static readonly Lazy<Icon> _chromecast = new Lazy<Icon>(() => new Icon(Style.Brands, "chromecast"));
+            private static readonly Lazy<Icon> _chromecast = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "chromecast"));
             /// <summary>
             /// Chromecast
             /// </summary>
@@ -607,7 +613,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Chromecast => _chromecast.Value;
 
-            private static readonly Lazy<Icon> _cloudscale = new Lazy<Icon>(() => new Icon(Style.Brands, "cloudscale"));
+            private static readonly Lazy<Icon> _cloudscale = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cloudscale"));
             /// <summary>
             /// Cloudscale Ch
             /// </summary>
@@ -616,7 +622,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Cloudscale => _cloudscale.Value;
 
-            private static readonly Lazy<Icon> _cloudsmith = new Lazy<Icon>(() => new Icon(Style.Brands, "cloudsmith"));
+            private static readonly Lazy<Icon> _cloudsmith = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cloudsmith"));
             /// <summary>
             /// Cloudsmith
             /// </summary>
@@ -625,7 +631,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Cloudsmith => _cloudsmith.Value;
 
-            private static readonly Lazy<Icon> _cloudversify = new Lazy<Icon>(() => new Icon(Style.Brands, "cloudversify"));
+            private static readonly Lazy<Icon> _cloudversify = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cloudversify"));
             /// <summary>
             /// Cloudversify
             /// </summary>
@@ -634,7 +640,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Cloudversify => _cloudversify.Value;
 
-            private static readonly Lazy<Icon> _codepen = new Lazy<Icon>(() => new Icon(Style.Brands, "codepen"));
+            private static readonly Lazy<Icon> _codepen = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "codepen"));
             /// <summary>
             /// Codepen
             /// </summary>
@@ -643,7 +649,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Codepen => _codepen.Value;
 
-            private static readonly Lazy<Icon> _codiepie = new Lazy<Icon>(() => new Icon(Style.Brands, "codiepie"));
+            private static readonly Lazy<Icon> _codiepie = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "codiepie"));
             /// <summary>
             /// Codie Pie
             /// </summary>
@@ -652,7 +658,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Codiepie => _codiepie.Value;
 
-            private static readonly Lazy<Icon> _confluence = new Lazy<Icon>(() => new Icon(Style.Brands, "confluence"));
+            private static readonly Lazy<Icon> _confluence = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "confluence"));
             /// <summary>
             /// Confluence
             /// </summary>
@@ -661,7 +667,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Confluence => _confluence.Value;
 
-            private static readonly Lazy<Icon> _connectdevelop = new Lazy<Icon>(() => new Icon(Style.Brands, "connectdevelop"));
+            private static readonly Lazy<Icon> _connectdevelop = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "connectdevelop"));
             /// <summary>
             /// Connect Develop
             /// </summary>
@@ -670,7 +676,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Connectdevelop => _connectdevelop.Value;
 
-            private static readonly Lazy<Icon> _contao = new Lazy<Icon>(() => new Icon(Style.Brands, "contao"));
+            private static readonly Lazy<Icon> _contao = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "contao"));
             /// <summary>
             /// Contao
             /// </summary>
@@ -679,7 +685,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Contao => _contao.Value;
 
-            private static readonly Lazy<Icon> _cottonBureau = new Lazy<Icon>(() => new Icon(Style.Brands, "cotton-bureau"));
+            private static readonly Lazy<Icon> _cottonBureau = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cotton-bureau"));
             /// <summary>
             /// Cotton Bureau
             /// </summary>
@@ -688,7 +694,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CottonBureau => _cottonBureau.Value;
 
-            private static readonly Lazy<Icon> _cpanel = new Lazy<Icon>(() => new Icon(Style.Brands, "cpanel"));
+            private static readonly Lazy<Icon> _cpanel = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cpanel"));
             /// <summary>
             /// C Panel
             /// </summary>
@@ -697,7 +703,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Cpanel => _cpanel.Value;
 
-            private static readonly Lazy<Icon> _creativeCommons = new Lazy<Icon>(() => new Icon(Style.Brands, "creative-commons"));
+            private static readonly Lazy<Icon> _creativeCommons = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "creative-commons"));
             /// <summary>
             /// Creative Commons
             /// </summary>
@@ -706,7 +712,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CreativeCommons => _creativeCommons.Value;
 
-            private static readonly Lazy<Icon> _creativeCommonsBy = new Lazy<Icon>(() => new Icon(Style.Brands, "creative-commons-by"));
+            private static readonly Lazy<Icon> _creativeCommonsBy = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "creative-commons-by"));
             /// <summary>
             /// Creative Commons Attribution
             /// </summary>
@@ -715,7 +721,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CreativeCommonsBy => _creativeCommonsBy.Value;
 
-            private static readonly Lazy<Icon> _creativeCommonsNc = new Lazy<Icon>(() => new Icon(Style.Brands, "creative-commons-nc"));
+            private static readonly Lazy<Icon> _creativeCommonsNc = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "creative-commons-nc"));
             /// <summary>
             /// Creative Commons Noncommercial
             /// </summary>
@@ -724,7 +730,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CreativeCommonsNc => _creativeCommonsNc.Value;
 
-            private static readonly Lazy<Icon> _creativeCommonsNcEu = new Lazy<Icon>(() => new Icon(Style.Brands, "creative-commons-nc-eu"));
+            private static readonly Lazy<Icon> _creativeCommonsNcEu = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "creative-commons-nc-eu"));
             /// <summary>
             /// Creative Commons Noncommercial Euro Sign
             /// </summary>
@@ -733,7 +739,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CreativeCommonsNcEu => _creativeCommonsNcEu.Value;
 
-            private static readonly Lazy<Icon> _creativeCommonsNcJp = new Lazy<Icon>(() => new Icon(Style.Brands, "creative-commons-nc-jp"));
+            private static readonly Lazy<Icon> _creativeCommonsNcJp = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "creative-commons-nc-jp"));
             /// <summary>
             /// Creative Commons Noncommercial Yen Sign
             /// </summary>
@@ -742,7 +748,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CreativeCommonsNcJp => _creativeCommonsNcJp.Value;
 
-            private static readonly Lazy<Icon> _creativeCommonsNd = new Lazy<Icon>(() => new Icon(Style.Brands, "creative-commons-nd"));
+            private static readonly Lazy<Icon> _creativeCommonsNd = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "creative-commons-nd"));
             /// <summary>
             /// Creative Commons No Derivative Works
             /// </summary>
@@ -751,7 +757,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CreativeCommonsNd => _creativeCommonsNd.Value;
 
-            private static readonly Lazy<Icon> _creativeCommonsPd = new Lazy<Icon>(() => new Icon(Style.Brands, "creative-commons-pd"));
+            private static readonly Lazy<Icon> _creativeCommonsPd = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "creative-commons-pd"));
             /// <summary>
             /// Creative Commons Public Domain
             /// </summary>
@@ -760,7 +766,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CreativeCommonsPd => _creativeCommonsPd.Value;
 
-            private static readonly Lazy<Icon> _creativeCommonsPdAlt = new Lazy<Icon>(() => new Icon(Style.Brands, "creative-commons-pd-alt"));
+            private static readonly Lazy<Icon> _creativeCommonsPdAlt = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "creative-commons-pd-alt"));
             /// <summary>
             /// Alternate Creative Commons Public Domain
             /// </summary>
@@ -769,7 +775,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CreativeCommonsPdAlt => _creativeCommonsPdAlt.Value;
 
-            private static readonly Lazy<Icon> _creativeCommonsRemix = new Lazy<Icon>(() => new Icon(Style.Brands, "creative-commons-remix"));
+            private static readonly Lazy<Icon> _creativeCommonsRemix = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "creative-commons-remix"));
             /// <summary>
             /// Creative Commons Remix
             /// </summary>
@@ -778,7 +784,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CreativeCommonsRemix => _creativeCommonsRemix.Value;
 
-            private static readonly Lazy<Icon> _creativeCommonsSa = new Lazy<Icon>(() => new Icon(Style.Brands, "creative-commons-sa"));
+            private static readonly Lazy<Icon> _creativeCommonsSa = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "creative-commons-sa"));
             /// <summary>
             /// Creative Commons Share Alike
             /// </summary>
@@ -787,7 +793,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CreativeCommonsSa => _creativeCommonsSa.Value;
 
-            private static readonly Lazy<Icon> _creativeCommonsSampling = new Lazy<Icon>(() => new Icon(Style.Brands, "creative-commons-sampling"));
+            private static readonly Lazy<Icon> _creativeCommonsSampling = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "creative-commons-sampling"));
             /// <summary>
             /// Creative Commons Sampling
             /// </summary>
@@ -796,7 +802,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CreativeCommonsSampling => _creativeCommonsSampling.Value;
 
-            private static readonly Lazy<Icon> _creativeCommonsSamplingPlus = new Lazy<Icon>(() => new Icon(Style.Brands, "creative-commons-sampling-plus"));
+            private static readonly Lazy<Icon> _creativeCommonsSamplingPlus = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "creative-commons-sampling-plus"));
             /// <summary>
             /// Creative Commons Sampling
             /// </summary>
@@ -805,7 +811,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CreativeCommonsSamplingPlus => _creativeCommonsSamplingPlus.Value;
 
-            private static readonly Lazy<Icon> _creativeCommonsShare = new Lazy<Icon>(() => new Icon(Style.Brands, "creative-commons-share"));
+            private static readonly Lazy<Icon> _creativeCommonsShare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "creative-commons-share"));
             /// <summary>
             /// Creative Commons Share
             /// </summary>
@@ -814,7 +820,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CreativeCommonsShare => _creativeCommonsShare.Value;
 
-            private static readonly Lazy<Icon> _creativeCommonsZero = new Lazy<Icon>(() => new Icon(Style.Brands, "creative-commons-zero"));
+            private static readonly Lazy<Icon> _creativeCommonsZero = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "creative-commons-zero"));
             /// <summary>
             /// Creative Commons CC 0
             /// </summary>
@@ -823,7 +829,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CreativeCommonsZero => _creativeCommonsZero.Value;
 
-            private static readonly Lazy<Icon> _criticalRole = new Lazy<Icon>(() => new Icon(Style.Brands, "critical-role"));
+            private static readonly Lazy<Icon> _criticalRole = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "critical-role"));
             /// <summary>
             /// Critical Role
             /// </summary>
@@ -832,7 +838,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon CriticalRole => _criticalRole.Value;
 
-            private static readonly Lazy<Icon> _css3 = new Lazy<Icon>(() => new Icon(Style.Brands, "css3"));
+            private static readonly Lazy<Icon> _css3 = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "css3"));
             /// <summary>
             /// CSS 3 Logo
             /// </summary>
@@ -841,7 +847,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Css3 => _css3.Value;
 
-            private static readonly Lazy<Icon> _css3Alt = new Lazy<Icon>(() => new Icon(Style.Brands, "css3-alt"));
+            private static readonly Lazy<Icon> _css3Alt = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "css3-alt"));
             /// <summary>
             /// Alternate CSS 3 Logo
             /// </summary>
@@ -850,7 +856,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Css3Alt => _css3Alt.Value;
 
-            private static readonly Lazy<Icon> _cuttlefish = new Lazy<Icon>(() => new Icon(Style.Brands, "cuttlefish"));
+            private static readonly Lazy<Icon> _cuttlefish = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "cuttlefish"));
             /// <summary>
             /// Cuttlefish
             /// </summary>
@@ -859,7 +865,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Cuttlefish => _cuttlefish.Value;
 
-            private static readonly Lazy<Icon> _dAndD = new Lazy<Icon>(() => new Icon(Style.Brands, "d-and-d"));
+            private static readonly Lazy<Icon> _dAndD = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "d-and-d"));
             /// <summary>
             /// Dungeons Dragons
             /// </summary>
@@ -868,7 +874,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon DAndD => _dAndD.Value;
 
-            private static readonly Lazy<Icon> _dAndDBeyond = new Lazy<Icon>(() => new Icon(Style.Brands, "d-and-d-beyond"));
+            private static readonly Lazy<Icon> _dAndDBeyond = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "d-and-d-beyond"));
             /// <summary>
             /// D D Beyond
             /// </summary>
@@ -877,7 +883,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon DAndDBeyond => _dAndDBeyond.Value;
 
-            private static readonly Lazy<Icon> _dailymotion = new Lazy<Icon>(() => new Icon(Style.Brands, "dailymotion"));
+            private static readonly Lazy<Icon> _dailymotion = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "dailymotion"));
             /// <summary>
             /// Dailymotion
             /// </summary>
@@ -886,7 +892,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Dailymotion => _dailymotion.Value;
 
-            private static readonly Lazy<Icon> _dashcube = new Lazy<Icon>(() => new Icon(Style.Brands, "dashcube"));
+            private static readonly Lazy<Icon> _dashcube = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "dashcube"));
             /// <summary>
             /// Dash Cube
             /// </summary>
@@ -895,7 +901,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Dashcube => _dashcube.Value;
 
-            private static readonly Lazy<Icon> _delicious = new Lazy<Icon>(() => new Icon(Style.Brands, "delicious"));
+            private static readonly Lazy<Icon> _delicious = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "delicious"));
             /// <summary>
             /// Delicious
             /// </summary>
@@ -904,7 +910,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Delicious => _delicious.Value;
 
-            private static readonly Lazy<Icon> _deploydog = new Lazy<Icon>(() => new Icon(Style.Brands, "deploydog"));
+            private static readonly Lazy<Icon> _deploydog = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "deploydog"));
             /// <summary>
             /// Deploy Dog
             /// </summary>
@@ -913,7 +919,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Deploydog => _deploydog.Value;
 
-            private static readonly Lazy<Icon> _deskpro = new Lazy<Icon>(() => new Icon(Style.Brands, "deskpro"));
+            private static readonly Lazy<Icon> _deskpro = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "deskpro"));
             /// <summary>
             /// Deskpro
             /// </summary>
@@ -922,7 +928,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Deskpro => _deskpro.Value;
 
-            private static readonly Lazy<Icon> _dev = new Lazy<Icon>(() => new Icon(Style.Brands, "dev"));
+            private static readonly Lazy<Icon> _dev = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "dev"));
             /// <summary>
             /// DEV
             /// </summary>
@@ -931,7 +937,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Dev => _dev.Value;
 
-            private static readonly Lazy<Icon> _deviantart = new Lazy<Icon>(() => new Icon(Style.Brands, "deviantart"));
+            private static readonly Lazy<Icon> _deviantart = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "deviantart"));
             /// <summary>
             /// Deviant ART
             /// </summary>
@@ -940,7 +946,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Deviantart => _deviantart.Value;
 
-            private static readonly Lazy<Icon> _dhl = new Lazy<Icon>(() => new Icon(Style.Brands, "dhl"));
+            private static readonly Lazy<Icon> _dhl = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "dhl"));
             /// <summary>
             /// DHL
             /// </summary>
@@ -949,7 +955,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Dhl => _dhl.Value;
 
-            private static readonly Lazy<Icon> _diaspora = new Lazy<Icon>(() => new Icon(Style.Brands, "diaspora"));
+            private static readonly Lazy<Icon> _diaspora = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "diaspora"));
             /// <summary>
             /// Diaspora
             /// </summary>
@@ -958,7 +964,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Diaspora => _diaspora.Value;
 
-            private static readonly Lazy<Icon> _digg = new Lazy<Icon>(() => new Icon(Style.Brands, "digg"));
+            private static readonly Lazy<Icon> _digg = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "digg"));
             /// <summary>
             /// Digg Logo
             /// </summary>
@@ -967,7 +973,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Digg => _digg.Value;
 
-            private static readonly Lazy<Icon> _digitalOcean = new Lazy<Icon>(() => new Icon(Style.Brands, "digital-ocean"));
+            private static readonly Lazy<Icon> _digitalOcean = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "digital-ocean"));
             /// <summary>
             /// Digital Ocean
             /// </summary>
@@ -976,7 +982,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon DigitalOcean => _digitalOcean.Value;
 
-            private static readonly Lazy<Icon> _discord = new Lazy<Icon>(() => new Icon(Style.Brands, "discord"));
+            private static readonly Lazy<Icon> _discord = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "discord"));
             /// <summary>
             /// Discord
             /// </summary>
@@ -985,7 +991,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Discord => _discord.Value;
 
-            private static readonly Lazy<Icon> _discourse = new Lazy<Icon>(() => new Icon(Style.Brands, "discourse"));
+            private static readonly Lazy<Icon> _discourse = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "discourse"));
             /// <summary>
             /// Discourse
             /// </summary>
@@ -994,7 +1000,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Discourse => _discourse.Value;
 
-            private static readonly Lazy<Icon> _dochub = new Lazy<Icon>(() => new Icon(Style.Brands, "dochub"));
+            private static readonly Lazy<Icon> _dochub = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "dochub"));
             /// <summary>
             /// Doc Hub
             /// </summary>
@@ -1003,7 +1009,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Dochub => _dochub.Value;
 
-            private static readonly Lazy<Icon> _docker = new Lazy<Icon>(() => new Icon(Style.Brands, "docker"));
+            private static readonly Lazy<Icon> _docker = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "docker"));
             /// <summary>
             /// Docker
             /// </summary>
@@ -1012,7 +1018,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Docker => _docker.Value;
 
-            private static readonly Lazy<Icon> _draft2digital = new Lazy<Icon>(() => new Icon(Style.Brands, "draft2digital"));
+            private static readonly Lazy<Icon> _draft2digital = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "draft2digital"));
             /// <summary>
             /// Draft 2digital
             /// </summary>
@@ -1021,7 +1027,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Draft2digital => _draft2digital.Value;
 
-            private static readonly Lazy<Icon> _dribbble = new Lazy<Icon>(() => new Icon(Style.Brands, "dribbble"));
+            private static readonly Lazy<Icon> _dribbble = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "dribbble"));
             /// <summary>
             /// Dribbble
             /// </summary>
@@ -1030,7 +1036,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Dribbble => _dribbble.Value;
 
-            private static readonly Lazy<Icon> _dribbbleSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "dribbble-square"));
+            private static readonly Lazy<Icon> _dribbbleSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "dribbble-square"));
             /// <summary>
             /// Dribbble Square
             /// </summary>
@@ -1039,7 +1045,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon DribbbleSquare => _dribbbleSquare.Value;
 
-            private static readonly Lazy<Icon> _dropbox = new Lazy<Icon>(() => new Icon(Style.Brands, "dropbox"));
+            private static readonly Lazy<Icon> _dropbox = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "dropbox"));
             /// <summary>
             /// Dropbox
             /// </summary>
@@ -1048,7 +1054,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Dropbox => _dropbox.Value;
 
-            private static readonly Lazy<Icon> _drupal = new Lazy<Icon>(() => new Icon(Style.Brands, "drupal"));
+            private static readonly Lazy<Icon> _drupal = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "drupal"));
             /// <summary>
             /// Drupal Logo
             /// </summary>
@@ -1057,7 +1063,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Drupal => _drupal.Value;
 
-            private static readonly Lazy<Icon> _dyalog = new Lazy<Icon>(() => new Icon(Style.Brands, "dyalog"));
+            private static readonly Lazy<Icon> _dyalog = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "dyalog"));
             /// <summary>
             /// Dyalog
             /// </summary>
@@ -1066,7 +1072,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Dyalog => _dyalog.Value;
 
-            private static readonly Lazy<Icon> _earlybirds = new Lazy<Icon>(() => new Icon(Style.Brands, "earlybirds"));
+            private static readonly Lazy<Icon> _earlybirds = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "earlybirds"));
             /// <summary>
             /// Earlybirds
             /// </summary>
@@ -1075,7 +1081,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Earlybirds => _earlybirds.Value;
 
-            private static readonly Lazy<Icon> _ebay = new Lazy<Icon>(() => new Icon(Style.Brands, "ebay"));
+            private static readonly Lazy<Icon> _ebay = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "ebay"));
             /// <summary>
             /// E Bay
             /// </summary>
@@ -1084,7 +1090,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Ebay => _ebay.Value;
 
-            private static readonly Lazy<Icon> _edge = new Lazy<Icon>(() => new Icon(Style.Brands, "edge"));
+            private static readonly Lazy<Icon> _edge = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "edge"));
             /// <summary>
             /// Edge Browser
             /// </summary>
@@ -1093,7 +1099,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Edge => _edge.Value;
 
-            private static readonly Lazy<Icon> _elementor = new Lazy<Icon>(() => new Icon(Style.Brands, "elementor"));
+            private static readonly Lazy<Icon> _elementor = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "elementor"));
             /// <summary>
             /// Elementor
             /// </summary>
@@ -1102,7 +1108,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Elementor => _elementor.Value;
 
-            private static readonly Lazy<Icon> _ello = new Lazy<Icon>(() => new Icon(Style.Brands, "ello"));
+            private static readonly Lazy<Icon> _ello = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "ello"));
             /// <summary>
             /// Ello
             /// </summary>
@@ -1111,7 +1117,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Ello => _ello.Value;
 
-            private static readonly Lazy<Icon> _ember = new Lazy<Icon>(() => new Icon(Style.Brands, "ember"));
+            private static readonly Lazy<Icon> _ember = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "ember"));
             /// <summary>
             /// Ember
             /// </summary>
@@ -1120,7 +1126,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Ember => _ember.Value;
 
-            private static readonly Lazy<Icon> _empire = new Lazy<Icon>(() => new Icon(Style.Brands, "empire"));
+            private static readonly Lazy<Icon> _empire = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "empire"));
             /// <summary>
             /// Galactic Empire
             /// </summary>
@@ -1129,7 +1135,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Empire => _empire.Value;
 
-            private static readonly Lazy<Icon> _envira = new Lazy<Icon>(() => new Icon(Style.Brands, "envira"));
+            private static readonly Lazy<Icon> _envira = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "envira"));
             /// <summary>
             /// Envira Gallery
             /// </summary>
@@ -1138,7 +1144,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Envira => _envira.Value;
 
-            private static readonly Lazy<Icon> _erlang = new Lazy<Icon>(() => new Icon(Style.Brands, "erlang"));
+            private static readonly Lazy<Icon> _erlang = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "erlang"));
             /// <summary>
             /// Erlang
             /// </summary>
@@ -1147,7 +1153,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Erlang => _erlang.Value;
 
-            private static readonly Lazy<Icon> _ethereum = new Lazy<Icon>(() => new Icon(Style.Brands, "ethereum"));
+            private static readonly Lazy<Icon> _ethereum = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "ethereum"));
             /// <summary>
             /// Ethereum
             /// </summary>
@@ -1156,7 +1162,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Ethereum => _ethereum.Value;
 
-            private static readonly Lazy<Icon> _etsy = new Lazy<Icon>(() => new Icon(Style.Brands, "etsy"));
+            private static readonly Lazy<Icon> _etsy = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "etsy"));
             /// <summary>
             /// Etsy
             /// </summary>
@@ -1165,7 +1171,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Etsy => _etsy.Value;
 
-            private static readonly Lazy<Icon> _evernote = new Lazy<Icon>(() => new Icon(Style.Brands, "evernote"));
+            private static readonly Lazy<Icon> _evernote = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "evernote"));
             /// <summary>
             /// Evernote
             /// </summary>
@@ -1174,7 +1180,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Evernote => _evernote.Value;
 
-            private static readonly Lazy<Icon> _expeditedssl = new Lazy<Icon>(() => new Icon(Style.Brands, "expeditedssl"));
+            private static readonly Lazy<Icon> _expeditedssl = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "expeditedssl"));
             /// <summary>
             /// Expedited SSL
             /// </summary>
@@ -1183,7 +1189,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Expeditedssl => _expeditedssl.Value;
 
-            private static readonly Lazy<Icon> _facebook = new Lazy<Icon>(() => new Icon(Style.Brands, "facebook"));
+            private static readonly Lazy<Icon> _facebook = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "facebook"));
             /// <summary>
             /// Facebook
             /// </summary>
@@ -1192,7 +1198,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Facebook => _facebook.Value;
 
-            private static readonly Lazy<Icon> _facebookF = new Lazy<Icon>(() => new Icon(Style.Brands, "facebook-f"));
+            private static readonly Lazy<Icon> _facebookF = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "facebook-f"));
             /// <summary>
             /// Facebook F
             /// </summary>
@@ -1201,7 +1207,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon FacebookF => _facebookF.Value;
 
-            private static readonly Lazy<Icon> _facebookMessenger = new Lazy<Icon>(() => new Icon(Style.Brands, "facebook-messenger"));
+            private static readonly Lazy<Icon> _facebookMessenger = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "facebook-messenger"));
             /// <summary>
             /// Facebook Messenger
             /// </summary>
@@ -1210,7 +1216,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon FacebookMessenger => _facebookMessenger.Value;
 
-            private static readonly Lazy<Icon> _facebookSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "facebook-square"));
+            private static readonly Lazy<Icon> _facebookSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "facebook-square"));
             /// <summary>
             /// Facebook Square
             /// </summary>
@@ -1219,7 +1225,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon FacebookSquare => _facebookSquare.Value;
 
-            private static readonly Lazy<Icon> _fantasyFlightGames = new Lazy<Icon>(() => new Icon(Style.Brands, "fantasy-flight-games"));
+            private static readonly Lazy<Icon> _fantasyFlightGames = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "fantasy-flight-games"));
             /// <summary>
             /// Fantasy Flight Games
             /// </summary>
@@ -1228,7 +1234,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon FantasyFlightGames => _fantasyFlightGames.Value;
 
-            private static readonly Lazy<Icon> _fedex = new Lazy<Icon>(() => new Icon(Style.Brands, "fedex"));
+            private static readonly Lazy<Icon> _fedex = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "fedex"));
             /// <summary>
             /// Fed Ex
             /// </summary>
@@ -1237,7 +1243,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Fedex => _fedex.Value;
 
-            private static readonly Lazy<Icon> _fedora = new Lazy<Icon>(() => new Icon(Style.Brands, "fedora"));
+            private static readonly Lazy<Icon> _fedora = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "fedora"));
             /// <summary>
             /// Fedora
             /// </summary>
@@ -1246,7 +1252,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Fedora => _fedora.Value;
 
-            private static readonly Lazy<Icon> _figma = new Lazy<Icon>(() => new Icon(Style.Brands, "figma"));
+            private static readonly Lazy<Icon> _figma = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "figma"));
             /// <summary>
             /// Figma
             /// </summary>
@@ -1255,7 +1261,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Figma => _figma.Value;
 
-            private static readonly Lazy<Icon> _firefox = new Lazy<Icon>(() => new Icon(Style.Brands, "firefox"));
+            private static readonly Lazy<Icon> _firefox = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "firefox"));
             /// <summary>
             /// Firefox
             /// </summary>
@@ -1264,7 +1270,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Firefox => _firefox.Value;
 
-            private static readonly Lazy<Icon> _firefoxBrowser = new Lazy<Icon>(() => new Icon(Style.Brands, "firefox-browser"));
+            private static readonly Lazy<Icon> _firefoxBrowser = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "firefox-browser"));
             /// <summary>
             /// Firefox Browser
             /// </summary>
@@ -1273,7 +1279,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon FirefoxBrowser => _firefoxBrowser.Value;
 
-            private static readonly Lazy<Icon> _firstOrder = new Lazy<Icon>(() => new Icon(Style.Brands, "first-order"));
+            private static readonly Lazy<Icon> _firstOrder = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "first-order"));
             /// <summary>
             /// First Order
             /// </summary>
@@ -1282,7 +1288,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon FirstOrder => _firstOrder.Value;
 
-            private static readonly Lazy<Icon> _firstOrderAlt = new Lazy<Icon>(() => new Icon(Style.Brands, "first-order-alt"));
+            private static readonly Lazy<Icon> _firstOrderAlt = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "first-order-alt"));
             /// <summary>
             /// Alternate First Order
             /// </summary>
@@ -1291,7 +1297,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon FirstOrderAlt => _firstOrderAlt.Value;
 
-            private static readonly Lazy<Icon> _firstdraft = new Lazy<Icon>(() => new Icon(Style.Brands, "firstdraft"));
+            private static readonly Lazy<Icon> _firstdraft = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "firstdraft"));
             /// <summary>
             /// Firstdraft
             /// </summary>
@@ -1300,7 +1306,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Firstdraft => _firstdraft.Value;
 
-            private static readonly Lazy<Icon> _flickr = new Lazy<Icon>(() => new Icon(Style.Brands, "flickr"));
+            private static readonly Lazy<Icon> _flickr = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "flickr"));
             /// <summary>
             /// Flickr
             /// </summary>
@@ -1309,7 +1315,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Flickr => _flickr.Value;
 
-            private static readonly Lazy<Icon> _flipboard = new Lazy<Icon>(() => new Icon(Style.Brands, "flipboard"));
+            private static readonly Lazy<Icon> _flipboard = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "flipboard"));
             /// <summary>
             /// Flipboard
             /// </summary>
@@ -1318,7 +1324,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Flipboard => _flipboard.Value;
 
-            private static readonly Lazy<Icon> _fly = new Lazy<Icon>(() => new Icon(Style.Brands, "fly"));
+            private static readonly Lazy<Icon> _fly = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "fly"));
             /// <summary>
             /// Fly
             /// </summary>
@@ -1327,7 +1333,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Fly => _fly.Value;
 
-            private static readonly Lazy<Icon> _fontAwesome = new Lazy<Icon>(() => new Icon(Style.Brands, "font-awesome"));
+            private static readonly Lazy<Icon> _fontAwesome = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "font-awesome"));
             /// <summary>
             /// Font Awesome
             /// </summary>
@@ -1336,7 +1342,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon FontAwesome => _fontAwesome.Value;
 
-            private static readonly Lazy<Icon> _fontAwesomeAlt = new Lazy<Icon>(() => new Icon(Style.Brands, "font-awesome-alt"));
+            private static readonly Lazy<Icon> _fontAwesomeAlt = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "font-awesome-alt"));
             /// <summary>
             /// Alternate Font Awesome
             /// </summary>
@@ -1345,7 +1351,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon FontAwesomeAlt => _fontAwesomeAlt.Value;
 
-            private static readonly Lazy<Icon> _fontAwesomeFlag = new Lazy<Icon>(() => new Icon(Style.Brands, "font-awesome-flag"));
+            private static readonly Lazy<Icon> _fontAwesomeFlag = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "font-awesome-flag"));
             /// <summary>
             /// Font Awesome Flag
             /// </summary>
@@ -1354,7 +1360,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon FontAwesomeFlag => _fontAwesomeFlag.Value;
 
-            private static readonly Lazy<Icon> _fontAwesomeLogoFull = new Lazy<Icon>(() => new Icon(Style.Brands, "font-awesome-logo-full"));
+            private static readonly Lazy<Icon> _fontAwesomeLogoFull = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "font-awesome-logo-full"));
             /// <summary>
             /// Font Awesome Full Logo
             /// </summary>
@@ -1363,7 +1369,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon FontAwesomeLogoFull => _fontAwesomeLogoFull.Value;
 
-            private static readonly Lazy<Icon> _fonticons = new Lazy<Icon>(() => new Icon(Style.Brands, "fonticons"));
+            private static readonly Lazy<Icon> _fonticons = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "fonticons"));
             /// <summary>
             /// Fonticons
             /// </summary>
@@ -1372,7 +1378,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Fonticons => _fonticons.Value;
 
-            private static readonly Lazy<Icon> _fonticonsFi = new Lazy<Icon>(() => new Icon(Style.Brands, "fonticons-fi"));
+            private static readonly Lazy<Icon> _fonticonsFi = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "fonticons-fi"));
             /// <summary>
             /// Fonticons Fi
             /// </summary>
@@ -1381,7 +1387,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon FonticonsFi => _fonticonsFi.Value;
 
-            private static readonly Lazy<Icon> _fortAwesome = new Lazy<Icon>(() => new Icon(Style.Brands, "fort-awesome"));
+            private static readonly Lazy<Icon> _fortAwesome = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "fort-awesome"));
             /// <summary>
             /// Fort Awesome
             /// </summary>
@@ -1390,7 +1396,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon FortAwesome => _fortAwesome.Value;
 
-            private static readonly Lazy<Icon> _fortAwesomeAlt = new Lazy<Icon>(() => new Icon(Style.Brands, "fort-awesome-alt"));
+            private static readonly Lazy<Icon> _fortAwesomeAlt = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "fort-awesome-alt"));
             /// <summary>
             /// Alternate Fort Awesome
             /// </summary>
@@ -1399,7 +1405,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon FortAwesomeAlt => _fortAwesomeAlt.Value;
 
-            private static readonly Lazy<Icon> _forumbee = new Lazy<Icon>(() => new Icon(Style.Brands, "forumbee"));
+            private static readonly Lazy<Icon> _forumbee = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "forumbee"));
             /// <summary>
             /// Forumbee
             /// </summary>
@@ -1408,7 +1414,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Forumbee => _forumbee.Value;
 
-            private static readonly Lazy<Icon> _foursquare = new Lazy<Icon>(() => new Icon(Style.Brands, "foursquare"));
+            private static readonly Lazy<Icon> _foursquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "foursquare"));
             /// <summary>
             /// Foursquare
             /// </summary>
@@ -1417,7 +1423,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Foursquare => _foursquare.Value;
 
-            private static readonly Lazy<Icon> _freeCodeCamp = new Lazy<Icon>(() => new Icon(Style.Brands, "free-code-camp"));
+            private static readonly Lazy<Icon> _freeCodeCamp = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "free-code-camp"));
             /// <summary>
             /// Free Code Camp
             /// </summary>
@@ -1426,7 +1432,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon FreeCodeCamp => _freeCodeCamp.Value;
 
-            private static readonly Lazy<Icon> _freebsd = new Lazy<Icon>(() => new Icon(Style.Brands, "freebsd"));
+            private static readonly Lazy<Icon> _freebsd = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "freebsd"));
             /// <summary>
             /// Free BSD
             /// </summary>
@@ -1435,7 +1441,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Freebsd => _freebsd.Value;
 
-            private static readonly Lazy<Icon> _fulcrum = new Lazy<Icon>(() => new Icon(Style.Brands, "fulcrum"));
+            private static readonly Lazy<Icon> _fulcrum = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "fulcrum"));
             /// <summary>
             /// Fulcrum
             /// </summary>
@@ -1444,7 +1450,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Fulcrum => _fulcrum.Value;
 
-            private static readonly Lazy<Icon> _galacticRepublic = new Lazy<Icon>(() => new Icon(Style.Brands, "galactic-republic"));
+            private static readonly Lazy<Icon> _galacticRepublic = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "galactic-republic"));
             /// <summary>
             /// Galactic Republic
             /// </summary>
@@ -1453,7 +1459,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GalacticRepublic => _galacticRepublic.Value;
 
-            private static readonly Lazy<Icon> _galacticSenate = new Lazy<Icon>(() => new Icon(Style.Brands, "galactic-senate"));
+            private static readonly Lazy<Icon> _galacticSenate = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "galactic-senate"));
             /// <summary>
             /// Galactic Senate
             /// </summary>
@@ -1462,7 +1468,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GalacticSenate => _galacticSenate.Value;
 
-            private static readonly Lazy<Icon> _getPocket = new Lazy<Icon>(() => new Icon(Style.Brands, "get-pocket"));
+            private static readonly Lazy<Icon> _getPocket = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "get-pocket"));
             /// <summary>
             /// Get Pocket
             /// </summary>
@@ -1471,7 +1477,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GetPocket => _getPocket.Value;
 
-            private static readonly Lazy<Icon> _gg = new Lazy<Icon>(() => new Icon(Style.Brands, "gg"));
+            private static readonly Lazy<Icon> _gg = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "gg"));
             /// <summary>
             /// GG Currency
             /// </summary>
@@ -1480,7 +1486,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Gg => _gg.Value;
 
-            private static readonly Lazy<Icon> _ggCircle = new Lazy<Icon>(() => new Icon(Style.Brands, "gg-circle"));
+            private static readonly Lazy<Icon> _ggCircle = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "gg-circle"));
             /// <summary>
             /// GG Currency Circle
             /// </summary>
@@ -1489,7 +1495,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GgCircle => _ggCircle.Value;
 
-            private static readonly Lazy<Icon> _git = new Lazy<Icon>(() => new Icon(Style.Brands, "git"));
+            private static readonly Lazy<Icon> _git = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "git"));
             /// <summary>
             /// Git
             /// </summary>
@@ -1498,7 +1504,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Git => _git.Value;
 
-            private static readonly Lazy<Icon> _gitAlt = new Lazy<Icon>(() => new Icon(Style.Brands, "git-alt"));
+            private static readonly Lazy<Icon> _gitAlt = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "git-alt"));
             /// <summary>
             /// Git Alt
             /// </summary>
@@ -1507,7 +1513,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GitAlt => _gitAlt.Value;
 
-            private static readonly Lazy<Icon> _gitSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "git-square"));
+            private static readonly Lazy<Icon> _gitSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "git-square"));
             /// <summary>
             /// Git Square
             /// </summary>
@@ -1516,7 +1522,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GitSquare => _gitSquare.Value;
 
-            private static readonly Lazy<Icon> _github = new Lazy<Icon>(() => new Icon(Style.Brands, "github"));
+            private static readonly Lazy<Icon> _github = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "github"));
             /// <summary>
             /// Git Hub
             /// </summary>
@@ -1525,7 +1531,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Github => _github.Value;
 
-            private static readonly Lazy<Icon> _githubAlt = new Lazy<Icon>(() => new Icon(Style.Brands, "github-alt"));
+            private static readonly Lazy<Icon> _githubAlt = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "github-alt"));
             /// <summary>
             /// Alternate Git Hub
             /// </summary>
@@ -1534,7 +1540,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GithubAlt => _githubAlt.Value;
 
-            private static readonly Lazy<Icon> _githubSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "github-square"));
+            private static readonly Lazy<Icon> _githubSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "github-square"));
             /// <summary>
             /// Git Hub Square
             /// </summary>
@@ -1543,7 +1549,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GithubSquare => _githubSquare.Value;
 
-            private static readonly Lazy<Icon> _gitkraken = new Lazy<Icon>(() => new Icon(Style.Brands, "gitkraken"));
+            private static readonly Lazy<Icon> _gitkraken = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "gitkraken"));
             /// <summary>
             /// Git Kraken
             /// </summary>
@@ -1552,7 +1558,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Gitkraken => _gitkraken.Value;
 
-            private static readonly Lazy<Icon> _gitlab = new Lazy<Icon>(() => new Icon(Style.Brands, "gitlab"));
+            private static readonly Lazy<Icon> _gitlab = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "gitlab"));
             /// <summary>
             /// Git Lab
             /// </summary>
@@ -1561,7 +1567,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Gitlab => _gitlab.Value;
 
-            private static readonly Lazy<Icon> _gitter = new Lazy<Icon>(() => new Icon(Style.Brands, "gitter"));
+            private static readonly Lazy<Icon> _gitter = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "gitter"));
             /// <summary>
             /// Gitter
             /// </summary>
@@ -1570,7 +1576,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Gitter => _gitter.Value;
 
-            private static readonly Lazy<Icon> _glide = new Lazy<Icon>(() => new Icon(Style.Brands, "glide"));
+            private static readonly Lazy<Icon> _glide = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "glide"));
             /// <summary>
             /// Glide
             /// </summary>
@@ -1579,7 +1585,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Glide => _glide.Value;
 
-            private static readonly Lazy<Icon> _glideG = new Lazy<Icon>(() => new Icon(Style.Brands, "glide-g"));
+            private static readonly Lazy<Icon> _glideG = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "glide-g"));
             /// <summary>
             /// Glide G
             /// </summary>
@@ -1588,7 +1594,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GlideG => _glideG.Value;
 
-            private static readonly Lazy<Icon> _gofore = new Lazy<Icon>(() => new Icon(Style.Brands, "gofore"));
+            private static readonly Lazy<Icon> _gofore = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "gofore"));
             /// <summary>
             /// Gofore
             /// </summary>
@@ -1597,7 +1603,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Gofore => _gofore.Value;
 
-            private static readonly Lazy<Icon> _goodreads = new Lazy<Icon>(() => new Icon(Style.Brands, "goodreads"));
+            private static readonly Lazy<Icon> _goodreads = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "goodreads"));
             /// <summary>
             /// Goodreads
             /// </summary>
@@ -1606,7 +1612,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Goodreads => _goodreads.Value;
 
-            private static readonly Lazy<Icon> _goodreadsG = new Lazy<Icon>(() => new Icon(Style.Brands, "goodreads-g"));
+            private static readonly Lazy<Icon> _goodreadsG = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "goodreads-g"));
             /// <summary>
             /// Goodreads G
             /// </summary>
@@ -1615,7 +1621,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GoodreadsG => _goodreadsG.Value;
 
-            private static readonly Lazy<Icon> _google = new Lazy<Icon>(() => new Icon(Style.Brands, "google"));
+            private static readonly Lazy<Icon> _google = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "google"));
             /// <summary>
             /// Google Logo
             /// </summary>
@@ -1624,7 +1630,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Google => _google.Value;
 
-            private static readonly Lazy<Icon> _googleDrive = new Lazy<Icon>(() => new Icon(Style.Brands, "google-drive"));
+            private static readonly Lazy<Icon> _googleDrive = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "google-drive"));
             /// <summary>
             /// Google Drive
             /// </summary>
@@ -1633,7 +1639,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GoogleDrive => _googleDrive.Value;
 
-            private static readonly Lazy<Icon> _googlePlay = new Lazy<Icon>(() => new Icon(Style.Brands, "google-play"));
+            private static readonly Lazy<Icon> _googlePlay = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "google-play"));
             /// <summary>
             /// Google Play
             /// </summary>
@@ -1642,7 +1648,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GooglePlay => _googlePlay.Value;
 
-            private static readonly Lazy<Icon> _googlePlus = new Lazy<Icon>(() => new Icon(Style.Brands, "google-plus"));
+            private static readonly Lazy<Icon> _googlePlus = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "google-plus"));
             /// <summary>
             /// Google Plus
             /// </summary>
@@ -1651,7 +1657,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GooglePlus => _googlePlus.Value;
 
-            private static readonly Lazy<Icon> _googlePlusG = new Lazy<Icon>(() => new Icon(Style.Brands, "google-plus-g"));
+            private static readonly Lazy<Icon> _googlePlusG = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "google-plus-g"));
             /// <summary>
             /// Google Plus G
             /// </summary>
@@ -1660,7 +1666,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GooglePlusG => _googlePlusG.Value;
 
-            private static readonly Lazy<Icon> _googlePlusSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "google-plus-square"));
+            private static readonly Lazy<Icon> _googlePlusSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "google-plus-square"));
             /// <summary>
             /// Google Plus Square
             /// </summary>
@@ -1669,7 +1675,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GooglePlusSquare => _googlePlusSquare.Value;
 
-            private static readonly Lazy<Icon> _googleWallet = new Lazy<Icon>(() => new Icon(Style.Brands, "google-wallet"));
+            private static readonly Lazy<Icon> _googleWallet = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "google-wallet"));
             /// <summary>
             /// Google Wallet
             /// </summary>
@@ -1678,7 +1684,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon GoogleWallet => _googleWallet.Value;
 
-            private static readonly Lazy<Icon> _gratipay = new Lazy<Icon>(() => new Icon(Style.Brands, "gratipay"));
+            private static readonly Lazy<Icon> _gratipay = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "gratipay"));
             /// <summary>
             /// Gratipay Gittip
             /// </summary>
@@ -1687,7 +1693,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Gratipay => _gratipay.Value;
 
-            private static readonly Lazy<Icon> _grav = new Lazy<Icon>(() => new Icon(Style.Brands, "grav"));
+            private static readonly Lazy<Icon> _grav = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "grav"));
             /// <summary>
             /// Grav
             /// </summary>
@@ -1696,7 +1702,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Grav => _grav.Value;
 
-            private static readonly Lazy<Icon> _gripfire = new Lazy<Icon>(() => new Icon(Style.Brands, "gripfire"));
+            private static readonly Lazy<Icon> _gripfire = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "gripfire"));
             /// <summary>
             /// Gripfire Inc
             /// </summary>
@@ -1705,7 +1711,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Gripfire => _gripfire.Value;
 
-            private static readonly Lazy<Icon> _grunt = new Lazy<Icon>(() => new Icon(Style.Brands, "grunt"));
+            private static readonly Lazy<Icon> _grunt = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "grunt"));
             /// <summary>
             /// Grunt
             /// </summary>
@@ -1714,7 +1720,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Grunt => _grunt.Value;
 
-            private static readonly Lazy<Icon> _gulp = new Lazy<Icon>(() => new Icon(Style.Brands, "gulp"));
+            private static readonly Lazy<Icon> _gulp = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "gulp"));
             /// <summary>
             /// Gulp
             /// </summary>
@@ -1723,7 +1729,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Gulp => _gulp.Value;
 
-            private static readonly Lazy<Icon> _hackerNews = new Lazy<Icon>(() => new Icon(Style.Brands, "hacker-news"));
+            private static readonly Lazy<Icon> _hackerNews = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "hacker-news"));
             /// <summary>
             /// Hacker News
             /// </summary>
@@ -1732,7 +1738,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon HackerNews => _hackerNews.Value;
 
-            private static readonly Lazy<Icon> _hackerNewsSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "hacker-news-square"));
+            private static readonly Lazy<Icon> _hackerNewsSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "hacker-news-square"));
             /// <summary>
             /// Hacker News Square
             /// </summary>
@@ -1741,7 +1747,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon HackerNewsSquare => _hackerNewsSquare.Value;
 
-            private static readonly Lazy<Icon> _hackerrank = new Lazy<Icon>(() => new Icon(Style.Brands, "hackerrank"));
+            private static readonly Lazy<Icon> _hackerrank = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "hackerrank"));
             /// <summary>
             /// Hackerrank
             /// </summary>
@@ -1750,7 +1756,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Hackerrank => _hackerrank.Value;
 
-            private static readonly Lazy<Icon> _hips = new Lazy<Icon>(() => new Icon(Style.Brands, "hips"));
+            private static readonly Lazy<Icon> _hips = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "hips"));
             /// <summary>
             /// Hips
             /// </summary>
@@ -1759,7 +1765,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Hips => _hips.Value;
 
-            private static readonly Lazy<Icon> _hireAHelper = new Lazy<Icon>(() => new Icon(Style.Brands, "hire-a-helper"));
+            private static readonly Lazy<Icon> _hireAHelper = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "hire-a-helper"));
             /// <summary>
             /// Hire A Helper
             /// </summary>
@@ -1768,7 +1774,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon HireAHelper => _hireAHelper.Value;
 
-            private static readonly Lazy<Icon> _hooli = new Lazy<Icon>(() => new Icon(Style.Brands, "hooli"));
+            private static readonly Lazy<Icon> _hooli = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "hooli"));
             /// <summary>
             /// Hooli
             /// </summary>
@@ -1777,7 +1783,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Hooli => _hooli.Value;
 
-            private static readonly Lazy<Icon> _hornbill = new Lazy<Icon>(() => new Icon(Style.Brands, "hornbill"));
+            private static readonly Lazy<Icon> _hornbill = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "hornbill"));
             /// <summary>
             /// Hornbill
             /// </summary>
@@ -1786,7 +1792,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Hornbill => _hornbill.Value;
 
-            private static readonly Lazy<Icon> _hotjar = new Lazy<Icon>(() => new Icon(Style.Brands, "hotjar"));
+            private static readonly Lazy<Icon> _hotjar = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "hotjar"));
             /// <summary>
             /// Hotjar
             /// </summary>
@@ -1795,7 +1801,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Hotjar => _hotjar.Value;
 
-            private static readonly Lazy<Icon> _houzz = new Lazy<Icon>(() => new Icon(Style.Brands, "houzz"));
+            private static readonly Lazy<Icon> _houzz = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "houzz"));
             /// <summary>
             /// Houzz
             /// </summary>
@@ -1804,7 +1810,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Houzz => _houzz.Value;
 
-            private static readonly Lazy<Icon> _html5 = new Lazy<Icon>(() => new Icon(Style.Brands, "html5"));
+            private static readonly Lazy<Icon> _html5 = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "html5"));
             /// <summary>
             /// HTML 5 Logo
             /// </summary>
@@ -1813,7 +1819,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Html5 => _html5.Value;
 
-            private static readonly Lazy<Icon> _hubspot = new Lazy<Icon>(() => new Icon(Style.Brands, "hubspot"));
+            private static readonly Lazy<Icon> _hubspot = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "hubspot"));
             /// <summary>
             /// Hub Spot
             /// </summary>
@@ -1822,7 +1828,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Hubspot => _hubspot.Value;
 
-            private static readonly Lazy<Icon> _ideal = new Lazy<Icon>(() => new Icon(Style.Brands, "ideal"));
+            private static readonly Lazy<Icon> _ideal = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "ideal"));
             /// <summary>
             /// I Deal
             /// </summary>
@@ -1831,7 +1837,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Ideal => _ideal.Value;
 
-            private static readonly Lazy<Icon> _imdb = new Lazy<Icon>(() => new Icon(Style.Brands, "imdb"));
+            private static readonly Lazy<Icon> _imdb = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "imdb"));
             /// <summary>
             /// IMDB
             /// </summary>
@@ -1840,7 +1846,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Imdb => _imdb.Value;
 
-            private static readonly Lazy<Icon> _instagram = new Lazy<Icon>(() => new Icon(Style.Brands, "instagram"));
+            private static readonly Lazy<Icon> _instagram = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "instagram"));
             /// <summary>
             /// Instagram
             /// </summary>
@@ -1849,7 +1855,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Instagram => _instagram.Value;
 
-            private static readonly Lazy<Icon> _instagramSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "instagram-square"));
+            private static readonly Lazy<Icon> _instagramSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "instagram-square"));
             /// <summary>
             /// Instagram Square
             /// </summary>
@@ -1858,7 +1864,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon InstagramSquare => _instagramSquare.Value;
 
-            private static readonly Lazy<Icon> _intercom = new Lazy<Icon>(() => new Icon(Style.Brands, "intercom"));
+            private static readonly Lazy<Icon> _intercom = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "intercom"));
             /// <summary>
             /// Intercom
             /// </summary>
@@ -1867,7 +1873,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Intercom => _intercom.Value;
 
-            private static readonly Lazy<Icon> _internetExplorer = new Lazy<Icon>(() => new Icon(Style.Brands, "internet-explorer"));
+            private static readonly Lazy<Icon> _internetExplorer = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "internet-explorer"));
             /// <summary>
             /// Internet Explorer
             /// </summary>
@@ -1876,7 +1882,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon InternetExplorer => _internetExplorer.Value;
 
-            private static readonly Lazy<Icon> _invision = new Lazy<Icon>(() => new Icon(Style.Brands, "invision"));
+            private static readonly Lazy<Icon> _invision = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "invision"));
             /// <summary>
             /// In Vision
             /// </summary>
@@ -1885,7 +1891,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Invision => _invision.Value;
 
-            private static readonly Lazy<Icon> _ioxhost = new Lazy<Icon>(() => new Icon(Style.Brands, "ioxhost"));
+            private static readonly Lazy<Icon> _ioxhost = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "ioxhost"));
             /// <summary>
             /// Ioxhost
             /// </summary>
@@ -1894,7 +1900,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Ioxhost => _ioxhost.Value;
 
-            private static readonly Lazy<Icon> _itchIo = new Lazy<Icon>(() => new Icon(Style.Brands, "itch-io"));
+            private static readonly Lazy<Icon> _itchIo = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "itch-io"));
             /// <summary>
             /// Itch Io
             /// </summary>
@@ -1903,7 +1909,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon ItchIo => _itchIo.Value;
 
-            private static readonly Lazy<Icon> _itunes = new Lazy<Icon>(() => new Icon(Style.Brands, "itunes"));
+            private static readonly Lazy<Icon> _itunes = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "itunes"));
             /// <summary>
             /// I Tunes
             /// </summary>
@@ -1912,7 +1918,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Itunes => _itunes.Value;
 
-            private static readonly Lazy<Icon> _itunesNote = new Lazy<Icon>(() => new Icon(Style.Brands, "itunes-note"));
+            private static readonly Lazy<Icon> _itunesNote = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "itunes-note"));
             /// <summary>
             /// Itunes Note
             /// </summary>
@@ -1921,7 +1927,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon ItunesNote => _itunesNote.Value;
 
-            private static readonly Lazy<Icon> _java = new Lazy<Icon>(() => new Icon(Style.Brands, "java"));
+            private static readonly Lazy<Icon> _java = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "java"));
             /// <summary>
             /// Java
             /// </summary>
@@ -1930,7 +1936,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Java => _java.Value;
 
-            private static readonly Lazy<Icon> _jediOrder = new Lazy<Icon>(() => new Icon(Style.Brands, "jedi-order"));
+            private static readonly Lazy<Icon> _jediOrder = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "jedi-order"));
             /// <summary>
             /// Jedi Order
             /// </summary>
@@ -1939,7 +1945,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon JediOrder => _jediOrder.Value;
 
-            private static readonly Lazy<Icon> _jenkins = new Lazy<Icon>(() => new Icon(Style.Brands, "jenkins"));
+            private static readonly Lazy<Icon> _jenkins = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "jenkins"));
             /// <summary>
             /// Jenkis
             /// </summary>
@@ -1948,7 +1954,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Jenkins => _jenkins.Value;
 
-            private static readonly Lazy<Icon> _jira = new Lazy<Icon>(() => new Icon(Style.Brands, "jira"));
+            private static readonly Lazy<Icon> _jira = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "jira"));
             /// <summary>
             /// Jira
             /// </summary>
@@ -1957,7 +1963,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Jira => _jira.Value;
 
-            private static readonly Lazy<Icon> _joget = new Lazy<Icon>(() => new Icon(Style.Brands, "joget"));
+            private static readonly Lazy<Icon> _joget = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "joget"));
             /// <summary>
             /// Joget
             /// </summary>
@@ -1966,7 +1972,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Joget => _joget.Value;
 
-            private static readonly Lazy<Icon> _joomla = new Lazy<Icon>(() => new Icon(Style.Brands, "joomla"));
+            private static readonly Lazy<Icon> _joomla = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "joomla"));
             /// <summary>
             /// Joomla Logo
             /// </summary>
@@ -1975,7 +1981,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Joomla => _joomla.Value;
 
-            private static readonly Lazy<Icon> _js = new Lazy<Icon>(() => new Icon(Style.Brands, "js"));
+            private static readonly Lazy<Icon> _js = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "js"));
             /// <summary>
             /// Java Script JS
             /// </summary>
@@ -1984,7 +1990,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Js => _js.Value;
 
-            private static readonly Lazy<Icon> _jsSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "js-square"));
+            private static readonly Lazy<Icon> _jsSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "js-square"));
             /// <summary>
             /// Java Script JS Square
             /// </summary>
@@ -1993,7 +1999,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon JsSquare => _jsSquare.Value;
 
-            private static readonly Lazy<Icon> _jsfiddle = new Lazy<Icon>(() => new Icon(Style.Brands, "jsfiddle"));
+            private static readonly Lazy<Icon> _jsfiddle = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "jsfiddle"));
             /// <summary>
             /// Js Fiddle
             /// </summary>
@@ -2002,7 +2008,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Jsfiddle => _jsfiddle.Value;
 
-            private static readonly Lazy<Icon> _kaggle = new Lazy<Icon>(() => new Icon(Style.Brands, "kaggle"));
+            private static readonly Lazy<Icon> _kaggle = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "kaggle"));
             /// <summary>
             /// Kaggle
             /// </summary>
@@ -2011,7 +2017,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Kaggle => _kaggle.Value;
 
-            private static readonly Lazy<Icon> _keybase = new Lazy<Icon>(() => new Icon(Style.Brands, "keybase"));
+            private static readonly Lazy<Icon> _keybase = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "keybase"));
             /// <summary>
             /// Keybase
             /// </summary>
@@ -2020,7 +2026,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Keybase => _keybase.Value;
 
-            private static readonly Lazy<Icon> _keycdn = new Lazy<Icon>(() => new Icon(Style.Brands, "keycdn"));
+            private static readonly Lazy<Icon> _keycdn = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "keycdn"));
             /// <summary>
             /// Key CDN
             /// </summary>
@@ -2029,7 +2035,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Keycdn => _keycdn.Value;
 
-            private static readonly Lazy<Icon> _kickstarter = new Lazy<Icon>(() => new Icon(Style.Brands, "kickstarter"));
+            private static readonly Lazy<Icon> _kickstarter = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "kickstarter"));
             /// <summary>
             /// Kickstarter
             /// </summary>
@@ -2038,7 +2044,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Kickstarter => _kickstarter.Value;
 
-            private static readonly Lazy<Icon> _kickstarterK = new Lazy<Icon>(() => new Icon(Style.Brands, "kickstarter-k"));
+            private static readonly Lazy<Icon> _kickstarterK = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "kickstarter-k"));
             /// <summary>
             /// Kickstarter K
             /// </summary>
@@ -2047,7 +2053,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon KickstarterK => _kickstarterK.Value;
 
-            private static readonly Lazy<Icon> _korvue = new Lazy<Icon>(() => new Icon(Style.Brands, "korvue"));
+            private static readonly Lazy<Icon> _korvue = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "korvue"));
             /// <summary>
             /// KORVUE
             /// </summary>
@@ -2056,7 +2062,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Korvue => _korvue.Value;
 
-            private static readonly Lazy<Icon> _laravel = new Lazy<Icon>(() => new Icon(Style.Brands, "laravel"));
+            private static readonly Lazy<Icon> _laravel = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "laravel"));
             /// <summary>
             /// Laravel
             /// </summary>
@@ -2065,7 +2071,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Laravel => _laravel.Value;
 
-            private static readonly Lazy<Icon> _lastfm = new Lazy<Icon>(() => new Icon(Style.Brands, "lastfm"));
+            private static readonly Lazy<Icon> _lastfm = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "lastfm"));
             /// <summary>
             /// Last Fm
             /// </summary>
@@ -2074,7 +2080,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Lastfm => _lastfm.Value;
 
-            private static readonly Lazy<Icon> _lastfmSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "lastfm-square"));
+            private static readonly Lazy<Icon> _lastfmSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "lastfm-square"));
             /// <summary>
             /// Last Fm Square
             /// </summary>
@@ -2083,7 +2089,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon LastfmSquare => _lastfmSquare.Value;
 
-            private static readonly Lazy<Icon> _leanpub = new Lazy<Icon>(() => new Icon(Style.Brands, "leanpub"));
+            private static readonly Lazy<Icon> _leanpub = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "leanpub"));
             /// <summary>
             /// Leanpub
             /// </summary>
@@ -2092,7 +2098,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Leanpub => _leanpub.Value;
 
-            private static readonly Lazy<Icon> _less = new Lazy<Icon>(() => new Icon(Style.Brands, "less"));
+            private static readonly Lazy<Icon> _less = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "less"));
             /// <summary>
             /// Less
             /// </summary>
@@ -2101,7 +2107,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Less => _less.Value;
 
-            private static readonly Lazy<Icon> _line = new Lazy<Icon>(() => new Icon(Style.Brands, "line"));
+            private static readonly Lazy<Icon> _line = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "line"));
             /// <summary>
             /// Line
             /// </summary>
@@ -2110,7 +2116,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Line => _line.Value;
 
-            private static readonly Lazy<Icon> _linkedin = new Lazy<Icon>(() => new Icon(Style.Brands, "linkedin"));
+            private static readonly Lazy<Icon> _linkedin = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "linkedin"));
             /// <summary>
             /// Linked In
             /// </summary>
@@ -2119,7 +2125,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Linkedin => _linkedin.Value;
 
-            private static readonly Lazy<Icon> _linkedinIn = new Lazy<Icon>(() => new Icon(Style.Brands, "linkedin-in"));
+            private static readonly Lazy<Icon> _linkedinIn = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "linkedin-in"));
             /// <summary>
             /// Linked In In
             /// </summary>
@@ -2128,7 +2134,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon LinkedinIn => _linkedinIn.Value;
 
-            private static readonly Lazy<Icon> _linode = new Lazy<Icon>(() => new Icon(Style.Brands, "linode"));
+            private static readonly Lazy<Icon> _linode = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "linode"));
             /// <summary>
             /// Linode
             /// </summary>
@@ -2137,7 +2143,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Linode => _linode.Value;
 
-            private static readonly Lazy<Icon> _linux = new Lazy<Icon>(() => new Icon(Style.Brands, "linux"));
+            private static readonly Lazy<Icon> _linux = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "linux"));
             /// <summary>
             /// Linux
             /// </summary>
@@ -2146,7 +2152,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Linux => _linux.Value;
 
-            private static readonly Lazy<Icon> _lyft = new Lazy<Icon>(() => new Icon(Style.Brands, "lyft"));
+            private static readonly Lazy<Icon> _lyft = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "lyft"));
             /// <summary>
             /// Lyft
             /// </summary>
@@ -2155,7 +2161,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Lyft => _lyft.Value;
 
-            private static readonly Lazy<Icon> _magento = new Lazy<Icon>(() => new Icon(Style.Brands, "magento"));
+            private static readonly Lazy<Icon> _magento = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "magento"));
             /// <summary>
             /// Magento
             /// </summary>
@@ -2164,7 +2170,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Magento => _magento.Value;
 
-            private static readonly Lazy<Icon> _mailchimp = new Lazy<Icon>(() => new Icon(Style.Brands, "mailchimp"));
+            private static readonly Lazy<Icon> _mailchimp = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "mailchimp"));
             /// <summary>
             /// Mailchimp
             /// </summary>
@@ -2173,7 +2179,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Mailchimp => _mailchimp.Value;
 
-            private static readonly Lazy<Icon> _mandalorian = new Lazy<Icon>(() => new Icon(Style.Brands, "mandalorian"));
+            private static readonly Lazy<Icon> _mandalorian = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "mandalorian"));
             /// <summary>
             /// Mandalorian
             /// </summary>
@@ -2182,7 +2188,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Mandalorian => _mandalorian.Value;
 
-            private static readonly Lazy<Icon> _markdown = new Lazy<Icon>(() => new Icon(Style.Brands, "markdown"));
+            private static readonly Lazy<Icon> _markdown = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "markdown"));
             /// <summary>
             /// Markdown
             /// </summary>
@@ -2191,7 +2197,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Markdown => _markdown.Value;
 
-            private static readonly Lazy<Icon> _mastodon = new Lazy<Icon>(() => new Icon(Style.Brands, "mastodon"));
+            private static readonly Lazy<Icon> _mastodon = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "mastodon"));
             /// <summary>
             /// Mastodon
             /// </summary>
@@ -2200,7 +2206,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Mastodon => _mastodon.Value;
 
-            private static readonly Lazy<Icon> _maxcdn = new Lazy<Icon>(() => new Icon(Style.Brands, "maxcdn"));
+            private static readonly Lazy<Icon> _maxcdn = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "maxcdn"));
             /// <summary>
             /// Max CDN
             /// </summary>
@@ -2209,7 +2215,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Maxcdn => _maxcdn.Value;
 
-            private static readonly Lazy<Icon> _mdb = new Lazy<Icon>(() => new Icon(Style.Brands, "mdb"));
+            private static readonly Lazy<Icon> _mdb = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "mdb"));
             /// <summary>
             /// Material Design For Bootstrap
             /// </summary>
@@ -2218,7 +2224,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Mdb => _mdb.Value;
 
-            private static readonly Lazy<Icon> _medapps = new Lazy<Icon>(() => new Icon(Style.Brands, "medapps"));
+            private static readonly Lazy<Icon> _medapps = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "medapps"));
             /// <summary>
             /// Med Apps
             /// </summary>
@@ -2227,7 +2233,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Medapps => _medapps.Value;
 
-            private static readonly Lazy<Icon> _medium = new Lazy<Icon>(() => new Icon(Style.Brands, "medium"));
+            private static readonly Lazy<Icon> _medium = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "medium"));
             /// <summary>
             /// Medium
             /// </summary>
@@ -2236,7 +2242,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Medium => _medium.Value;
 
-            private static readonly Lazy<Icon> _mediumM = new Lazy<Icon>(() => new Icon(Style.Brands, "medium-m"));
+            private static readonly Lazy<Icon> _mediumM = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "medium-m"));
             /// <summary>
             /// Medium M
             /// </summary>
@@ -2245,7 +2251,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon MediumM => _mediumM.Value;
 
-            private static readonly Lazy<Icon> _medrt = new Lazy<Icon>(() => new Icon(Style.Brands, "medrt"));
+            private static readonly Lazy<Icon> _medrt = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "medrt"));
             /// <summary>
             /// MRT
             /// </summary>
@@ -2254,7 +2260,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Medrt => _medrt.Value;
 
-            private static readonly Lazy<Icon> _meetup = new Lazy<Icon>(() => new Icon(Style.Brands, "meetup"));
+            private static readonly Lazy<Icon> _meetup = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "meetup"));
             /// <summary>
             /// Meetup
             /// </summary>
@@ -2263,7 +2269,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Meetup => _meetup.Value;
 
-            private static readonly Lazy<Icon> _megaport = new Lazy<Icon>(() => new Icon(Style.Brands, "megaport"));
+            private static readonly Lazy<Icon> _megaport = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "megaport"));
             /// <summary>
             /// Megaport
             /// </summary>
@@ -2272,7 +2278,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Megaport => _megaport.Value;
 
-            private static readonly Lazy<Icon> _mendeley = new Lazy<Icon>(() => new Icon(Style.Brands, "mendeley"));
+            private static readonly Lazy<Icon> _mendeley = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "mendeley"));
             /// <summary>
             /// Mendeley
             /// </summary>
@@ -2281,7 +2287,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Mendeley => _mendeley.Value;
 
-            private static readonly Lazy<Icon> _microblog = new Lazy<Icon>(() => new Icon(Style.Brands, "microblog"));
+            private static readonly Lazy<Icon> _microblog = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "microblog"));
             /// <summary>
             /// Micro Blog
             /// </summary>
@@ -2290,7 +2296,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Microblog => _microblog.Value;
 
-            private static readonly Lazy<Icon> _microsoft = new Lazy<Icon>(() => new Icon(Style.Brands, "microsoft"));
+            private static readonly Lazy<Icon> _microsoft = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "microsoft"));
             /// <summary>
             /// Microsoft
             /// </summary>
@@ -2299,7 +2305,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Microsoft => _microsoft.Value;
 
-            private static readonly Lazy<Icon> _mix = new Lazy<Icon>(() => new Icon(Style.Brands, "mix"));
+            private static readonly Lazy<Icon> _mix = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "mix"));
             /// <summary>
             /// Mix
             /// </summary>
@@ -2308,7 +2314,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Mix => _mix.Value;
 
-            private static readonly Lazy<Icon> _mixcloud = new Lazy<Icon>(() => new Icon(Style.Brands, "mixcloud"));
+            private static readonly Lazy<Icon> _mixcloud = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "mixcloud"));
             /// <summary>
             /// Mixcloud
             /// </summary>
@@ -2317,7 +2323,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Mixcloud => _mixcloud.Value;
 
-            private static readonly Lazy<Icon> _mixer = new Lazy<Icon>(() => new Icon(Style.Brands, "mixer"));
+            private static readonly Lazy<Icon> _mixer = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "mixer"));
             /// <summary>
             /// Mixer
             /// </summary>
@@ -2326,7 +2332,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Mixer => _mixer.Value;
 
-            private static readonly Lazy<Icon> _mizuni = new Lazy<Icon>(() => new Icon(Style.Brands, "mizuni"));
+            private static readonly Lazy<Icon> _mizuni = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "mizuni"));
             /// <summary>
             /// Mizuni
             /// </summary>
@@ -2335,7 +2341,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Mizuni => _mizuni.Value;
 
-            private static readonly Lazy<Icon> _modx = new Lazy<Icon>(() => new Icon(Style.Brands, "modx"));
+            private static readonly Lazy<Icon> _modx = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "modx"));
             /// <summary>
             /// MODX
             /// </summary>
@@ -2344,7 +2350,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Modx => _modx.Value;
 
-            private static readonly Lazy<Icon> _monero = new Lazy<Icon>(() => new Icon(Style.Brands, "monero"));
+            private static readonly Lazy<Icon> _monero = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "monero"));
             /// <summary>
             /// Monero
             /// </summary>
@@ -2353,7 +2359,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Monero => _monero.Value;
 
-            private static readonly Lazy<Icon> _napster = new Lazy<Icon>(() => new Icon(Style.Brands, "napster"));
+            private static readonly Lazy<Icon> _napster = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "napster"));
             /// <summary>
             /// Napster
             /// </summary>
@@ -2362,7 +2368,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Napster => _napster.Value;
 
-            private static readonly Lazy<Icon> _neos = new Lazy<Icon>(() => new Icon(Style.Brands, "neos"));
+            private static readonly Lazy<Icon> _neos = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "neos"));
             /// <summary>
             /// Neos
             /// </summary>
@@ -2371,7 +2377,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Neos => _neos.Value;
 
-            private static readonly Lazy<Icon> _nimblr = new Lazy<Icon>(() => new Icon(Style.Brands, "nimblr"));
+            private static readonly Lazy<Icon> _nimblr = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "nimblr"));
             /// <summary>
             /// Nimblr
             /// </summary>
@@ -2380,7 +2386,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Nimblr => _nimblr.Value;
 
-            private static readonly Lazy<Icon> _node = new Lazy<Icon>(() => new Icon(Style.Brands, "node"));
+            private static readonly Lazy<Icon> _node = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "node"));
             /// <summary>
             /// Node Js
             /// </summary>
@@ -2389,7 +2395,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Node => _node.Value;
 
-            private static readonly Lazy<Icon> _nodeJs = new Lazy<Icon>(() => new Icon(Style.Brands, "node-js"));
+            private static readonly Lazy<Icon> _nodeJs = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "node-js"));
             /// <summary>
             /// Node Js JS
             /// </summary>
@@ -2398,7 +2404,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon NodeJs => _nodeJs.Value;
 
-            private static readonly Lazy<Icon> _npm = new Lazy<Icon>(() => new Icon(Style.Brands, "npm"));
+            private static readonly Lazy<Icon> _npm = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "npm"));
             /// <summary>
             /// Npm
             /// </summary>
@@ -2407,7 +2413,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Npm => _npm.Value;
 
-            private static readonly Lazy<Icon> _ns8 = new Lazy<Icon>(() => new Icon(Style.Brands, "ns8"));
+            private static readonly Lazy<Icon> _ns8 = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "ns8"));
             /// <summary>
             /// NS 8
             /// </summary>
@@ -2416,7 +2422,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Ns8 => _ns8.Value;
 
-            private static readonly Lazy<Icon> _nutritionix = new Lazy<Icon>(() => new Icon(Style.Brands, "nutritionix"));
+            private static readonly Lazy<Icon> _nutritionix = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "nutritionix"));
             /// <summary>
             /// Nutritionix
             /// </summary>
@@ -2425,7 +2431,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Nutritionix => _nutritionix.Value;
 
-            private static readonly Lazy<Icon> _odnoklassniki = new Lazy<Icon>(() => new Icon(Style.Brands, "odnoklassniki"));
+            private static readonly Lazy<Icon> _odnoklassniki = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "odnoklassniki"));
             /// <summary>
             /// Odnoklassniki
             /// </summary>
@@ -2434,7 +2440,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Odnoklassniki => _odnoklassniki.Value;
 
-            private static readonly Lazy<Icon> _odnoklassnikiSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "odnoklassniki-square"));
+            private static readonly Lazy<Icon> _odnoklassnikiSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "odnoklassniki-square"));
             /// <summary>
             /// Odnoklassniki Square
             /// </summary>
@@ -2443,7 +2449,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon OdnoklassnikiSquare => _odnoklassnikiSquare.Value;
 
-            private static readonly Lazy<Icon> _oldRepublic = new Lazy<Icon>(() => new Icon(Style.Brands, "old-republic"));
+            private static readonly Lazy<Icon> _oldRepublic = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "old-republic"));
             /// <summary>
             /// Old Republic
             /// </summary>
@@ -2452,7 +2458,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon OldRepublic => _oldRepublic.Value;
 
-            private static readonly Lazy<Icon> _opencart = new Lazy<Icon>(() => new Icon(Style.Brands, "opencart"));
+            private static readonly Lazy<Icon> _opencart = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "opencart"));
             /// <summary>
             /// Open Cart
             /// </summary>
@@ -2461,7 +2467,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Opencart => _opencart.Value;
 
-            private static readonly Lazy<Icon> _openid = new Lazy<Icon>(() => new Icon(Style.Brands, "openid"));
+            private static readonly Lazy<Icon> _openid = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "openid"));
             /// <summary>
             /// Open ID
             /// </summary>
@@ -2470,7 +2476,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Openid => _openid.Value;
 
-            private static readonly Lazy<Icon> _opera = new Lazy<Icon>(() => new Icon(Style.Brands, "opera"));
+            private static readonly Lazy<Icon> _opera = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "opera"));
             /// <summary>
             /// Opera
             /// </summary>
@@ -2479,7 +2485,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Opera => _opera.Value;
 
-            private static readonly Lazy<Icon> _optinMonster = new Lazy<Icon>(() => new Icon(Style.Brands, "optin-monster"));
+            private static readonly Lazy<Icon> _optinMonster = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "optin-monster"));
             /// <summary>
             /// Optin Monster
             /// </summary>
@@ -2488,7 +2494,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon OptinMonster => _optinMonster.Value;
 
-            private static readonly Lazy<Icon> _orcid = new Lazy<Icon>(() => new Icon(Style.Brands, "orcid"));
+            private static readonly Lazy<Icon> _orcid = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "orcid"));
             /// <summary>
             /// ORCID
             /// </summary>
@@ -2497,7 +2503,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Orcid => _orcid.Value;
 
-            private static readonly Lazy<Icon> _osi = new Lazy<Icon>(() => new Icon(Style.Brands, "osi"));
+            private static readonly Lazy<Icon> _osi = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "osi"));
             /// <summary>
             /// Open Source Initiative
             /// </summary>
@@ -2506,7 +2512,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Osi => _osi.Value;
 
-            private static readonly Lazy<Icon> _page4 = new Lazy<Icon>(() => new Icon(Style.Brands, "page4"));
+            private static readonly Lazy<Icon> _page4 = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "page4"));
             /// <summary>
             /// Page 4 Corporation
             /// </summary>
@@ -2515,7 +2521,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Page4 => _page4.Value;
 
-            private static readonly Lazy<Icon> _pagelines = new Lazy<Icon>(() => new Icon(Style.Brands, "pagelines"));
+            private static readonly Lazy<Icon> _pagelines = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "pagelines"));
             /// <summary>
             /// Pagelines
             /// </summary>
@@ -2524,7 +2530,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Pagelines => _pagelines.Value;
 
-            private static readonly Lazy<Icon> _palfed = new Lazy<Icon>(() => new Icon(Style.Brands, "palfed"));
+            private static readonly Lazy<Icon> _palfed = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "palfed"));
             /// <summary>
             /// Palfed
             /// </summary>
@@ -2533,7 +2539,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Palfed => _palfed.Value;
 
-            private static readonly Lazy<Icon> _patreon = new Lazy<Icon>(() => new Icon(Style.Brands, "patreon"));
+            private static readonly Lazy<Icon> _patreon = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "patreon"));
             /// <summary>
             /// Patreon
             /// </summary>
@@ -2542,7 +2548,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Patreon => _patreon.Value;
 
-            private static readonly Lazy<Icon> _paypal = new Lazy<Icon>(() => new Icon(Style.Brands, "paypal"));
+            private static readonly Lazy<Icon> _paypal = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "paypal"));
             /// <summary>
             /// Paypal
             /// </summary>
@@ -2551,7 +2557,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Paypal => _paypal.Value;
 
-            private static readonly Lazy<Icon> _pennyArcade = new Lazy<Icon>(() => new Icon(Style.Brands, "penny-arcade"));
+            private static readonly Lazy<Icon> _pennyArcade = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "penny-arcade"));
             /// <summary>
             /// Penny Arcade
             /// </summary>
@@ -2560,7 +2566,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon PennyArcade => _pennyArcade.Value;
 
-            private static readonly Lazy<Icon> _periscope = new Lazy<Icon>(() => new Icon(Style.Brands, "periscope"));
+            private static readonly Lazy<Icon> _periscope = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "periscope"));
             /// <summary>
             /// Periscope
             /// </summary>
@@ -2569,7 +2575,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Periscope => _periscope.Value;
 
-            private static readonly Lazy<Icon> _phabricator = new Lazy<Icon>(() => new Icon(Style.Brands, "phabricator"));
+            private static readonly Lazy<Icon> _phabricator = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "phabricator"));
             /// <summary>
             /// Phabricator
             /// </summary>
@@ -2578,7 +2584,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Phabricator => _phabricator.Value;
 
-            private static readonly Lazy<Icon> _phoenixFramework = new Lazy<Icon>(() => new Icon(Style.Brands, "phoenix-framework"));
+            private static readonly Lazy<Icon> _phoenixFramework = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "phoenix-framework"));
             /// <summary>
             /// Phoenix Framework
             /// </summary>
@@ -2587,7 +2593,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon PhoenixFramework => _phoenixFramework.Value;
 
-            private static readonly Lazy<Icon> _phoenixSquadron = new Lazy<Icon>(() => new Icon(Style.Brands, "phoenix-squadron"));
+            private static readonly Lazy<Icon> _phoenixSquadron = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "phoenix-squadron"));
             /// <summary>
             /// Phoenix Squadron
             /// </summary>
@@ -2596,7 +2602,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon PhoenixSquadron => _phoenixSquadron.Value;
 
-            private static readonly Lazy<Icon> _php = new Lazy<Icon>(() => new Icon(Style.Brands, "php"));
+            private static readonly Lazy<Icon> _php = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "php"));
             /// <summary>
             /// PHP
             /// </summary>
@@ -2605,7 +2611,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Php => _php.Value;
 
-            private static readonly Lazy<Icon> _piedPiper = new Lazy<Icon>(() => new Icon(Style.Brands, "pied-piper"));
+            private static readonly Lazy<Icon> _piedPiper = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "pied-piper"));
             /// <summary>
             /// Pied Piper Logo
             /// </summary>
@@ -2614,7 +2620,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon PiedPiper => _piedPiper.Value;
 
-            private static readonly Lazy<Icon> _piedPiperAlt = new Lazy<Icon>(() => new Icon(Style.Brands, "pied-piper-alt"));
+            private static readonly Lazy<Icon> _piedPiperAlt = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "pied-piper-alt"));
             /// <summary>
             /// Alternate Pied Piper Logo Old
             /// </summary>
@@ -2623,7 +2629,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon PiedPiperAlt => _piedPiperAlt.Value;
 
-            private static readonly Lazy<Icon> _piedPiperHat = new Lazy<Icon>(() => new Icon(Style.Brands, "pied-piper-hat"));
+            private static readonly Lazy<Icon> _piedPiperHat = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "pied-piper-hat"));
             /// <summary>
             /// Pied Piper Hat Old
             /// </summary>
@@ -2632,7 +2638,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon PiedPiperHat => _piedPiperHat.Value;
 
-            private static readonly Lazy<Icon> _piedPiperPp = new Lazy<Icon>(() => new Icon(Style.Brands, "pied-piper-pp"));
+            private static readonly Lazy<Icon> _piedPiperPp = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "pied-piper-pp"));
             /// <summary>
             /// Pied Piper PP Logo Old
             /// </summary>
@@ -2641,7 +2647,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon PiedPiperPp => _piedPiperPp.Value;
 
-            private static readonly Lazy<Icon> _piedPiperSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "pied-piper-square"));
+            private static readonly Lazy<Icon> _piedPiperSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "pied-piper-square"));
             /// <summary>
             /// Pied Piper Square Logo Old
             /// </summary>
@@ -2650,7 +2656,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon PiedPiperSquare => _piedPiperSquare.Value;
 
-            private static readonly Lazy<Icon> _pinterest = new Lazy<Icon>(() => new Icon(Style.Brands, "pinterest"));
+            private static readonly Lazy<Icon> _pinterest = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "pinterest"));
             /// <summary>
             /// Pinterest
             /// </summary>
@@ -2659,7 +2665,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Pinterest => _pinterest.Value;
 
-            private static readonly Lazy<Icon> _pinterestP = new Lazy<Icon>(() => new Icon(Style.Brands, "pinterest-p"));
+            private static readonly Lazy<Icon> _pinterestP = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "pinterest-p"));
             /// <summary>
             /// Pinterest P
             /// </summary>
@@ -2668,7 +2674,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon PinterestP => _pinterestP.Value;
 
-            private static readonly Lazy<Icon> _pinterestSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "pinterest-square"));
+            private static readonly Lazy<Icon> _pinterestSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "pinterest-square"));
             /// <summary>
             /// Pinterest Square
             /// </summary>
@@ -2677,7 +2683,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon PinterestSquare => _pinterestSquare.Value;
 
-            private static readonly Lazy<Icon> _playstation = new Lazy<Icon>(() => new Icon(Style.Brands, "playstation"));
+            private static readonly Lazy<Icon> _playstation = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "playstation"));
             /// <summary>
             /// Play Station
             /// </summary>
@@ -2686,7 +2692,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Playstation => _playstation.Value;
 
-            private static readonly Lazy<Icon> _productHunt = new Lazy<Icon>(() => new Icon(Style.Brands, "product-hunt"));
+            private static readonly Lazy<Icon> _productHunt = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "product-hunt"));
             /// <summary>
             /// Product Hunt
             /// </summary>
@@ -2695,7 +2701,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon ProductHunt => _productHunt.Value;
 
-            private static readonly Lazy<Icon> _pushed = new Lazy<Icon>(() => new Icon(Style.Brands, "pushed"));
+            private static readonly Lazy<Icon> _pushed = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "pushed"));
             /// <summary>
             /// Pushed
             /// </summary>
@@ -2704,7 +2710,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Pushed => _pushed.Value;
 
-            private static readonly Lazy<Icon> _python = new Lazy<Icon>(() => new Icon(Style.Brands, "python"));
+            private static readonly Lazy<Icon> _python = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "python"));
             /// <summary>
             /// Python
             /// </summary>
@@ -2713,7 +2719,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Python => _python.Value;
 
-            private static readonly Lazy<Icon> _qq = new Lazy<Icon>(() => new Icon(Style.Brands, "qq"));
+            private static readonly Lazy<Icon> _qq = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "qq"));
             /// <summary>
             /// QQ
             /// </summary>
@@ -2722,7 +2728,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Qq => _qq.Value;
 
-            private static readonly Lazy<Icon> _quinscape = new Lazy<Icon>(() => new Icon(Style.Brands, "quinscape"));
+            private static readonly Lazy<Icon> _quinscape = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "quinscape"));
             /// <summary>
             /// Quin Scape
             /// </summary>
@@ -2731,7 +2737,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Quinscape => _quinscape.Value;
 
-            private static readonly Lazy<Icon> _quora = new Lazy<Icon>(() => new Icon(Style.Brands, "quora"));
+            private static readonly Lazy<Icon> _quora = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "quora"));
             /// <summary>
             /// Quora
             /// </summary>
@@ -2740,7 +2746,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Quora => _quora.Value;
 
-            private static readonly Lazy<Icon> _rProject = new Lazy<Icon>(() => new Icon(Style.Brands, "r-project"));
+            private static readonly Lazy<Icon> _rProject = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "r-project"));
             /// <summary>
             /// R Project
             /// </summary>
@@ -2749,7 +2755,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon RProject => _rProject.Value;
 
-            private static readonly Lazy<Icon> _raspberryPi = new Lazy<Icon>(() => new Icon(Style.Brands, "raspberry-pi"));
+            private static readonly Lazy<Icon> _raspberryPi = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "raspberry-pi"));
             /// <summary>
             /// Raspberry Pi
             /// </summary>
@@ -2758,7 +2764,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon RaspberryPi => _raspberryPi.Value;
 
-            private static readonly Lazy<Icon> _ravelry = new Lazy<Icon>(() => new Icon(Style.Brands, "ravelry"));
+            private static readonly Lazy<Icon> _ravelry = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "ravelry"));
             /// <summary>
             /// Ravelry
             /// </summary>
@@ -2767,7 +2773,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Ravelry => _ravelry.Value;
 
-            private static readonly Lazy<Icon> _react = new Lazy<Icon>(() => new Icon(Style.Brands, "react"));
+            private static readonly Lazy<Icon> _react = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "react"));
             /// <summary>
             /// React
             /// </summary>
@@ -2776,7 +2782,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon React => _react.Value;
 
-            private static readonly Lazy<Icon> _reacteurope = new Lazy<Icon>(() => new Icon(Style.Brands, "reacteurope"));
+            private static readonly Lazy<Icon> _reacteurope = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "reacteurope"));
             /// <summary>
             /// React Europe
             /// </summary>
@@ -2785,7 +2791,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Reacteurope => _reacteurope.Value;
 
-            private static readonly Lazy<Icon> _readme = new Lazy<Icon>(() => new Icon(Style.Brands, "readme"));
+            private static readonly Lazy<Icon> _readme = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "readme"));
             /// <summary>
             /// Read Me
             /// </summary>
@@ -2794,7 +2800,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Readme => _readme.Value;
 
-            private static readonly Lazy<Icon> _rebel = new Lazy<Icon>(() => new Icon(Style.Brands, "rebel"));
+            private static readonly Lazy<Icon> _rebel = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "rebel"));
             /// <summary>
             /// Rebel Alliance
             /// </summary>
@@ -2803,7 +2809,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Rebel => _rebel.Value;
 
-            private static readonly Lazy<Icon> _redRiver = new Lazy<Icon>(() => new Icon(Style.Brands, "red-river"));
+            private static readonly Lazy<Icon> _redRiver = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "red-river"));
             /// <summary>
             /// Red River
             /// </summary>
@@ -2812,7 +2818,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon RedRiver => _redRiver.Value;
 
-            private static readonly Lazy<Icon> _reddit = new Lazy<Icon>(() => new Icon(Style.Brands, "reddit"));
+            private static readonly Lazy<Icon> _reddit = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "reddit"));
             /// <summary>
             /// Reddit Logo
             /// </summary>
@@ -2821,7 +2827,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Reddit => _reddit.Value;
 
-            private static readonly Lazy<Icon> _redditAlien = new Lazy<Icon>(() => new Icon(Style.Brands, "reddit-alien"));
+            private static readonly Lazy<Icon> _redditAlien = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "reddit-alien"));
             /// <summary>
             /// Reddit Alien
             /// </summary>
@@ -2830,7 +2836,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon RedditAlien => _redditAlien.Value;
 
-            private static readonly Lazy<Icon> _redditSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "reddit-square"));
+            private static readonly Lazy<Icon> _redditSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "reddit-square"));
             /// <summary>
             /// Reddit Square
             /// </summary>
@@ -2839,7 +2845,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon RedditSquare => _redditSquare.Value;
 
-            private static readonly Lazy<Icon> _redhat = new Lazy<Icon>(() => new Icon(Style.Brands, "redhat"));
+            private static readonly Lazy<Icon> _redhat = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "redhat"));
             /// <summary>
             /// Redhat
             /// </summary>
@@ -2848,7 +2854,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Redhat => _redhat.Value;
 
-            private static readonly Lazy<Icon> _renren = new Lazy<Icon>(() => new Icon(Style.Brands, "renren"));
+            private static readonly Lazy<Icon> _renren = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "renren"));
             /// <summary>
             /// Renren
             /// </summary>
@@ -2857,7 +2863,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Renren => _renren.Value;
 
-            private static readonly Lazy<Icon> _replyd = new Lazy<Icon>(() => new Icon(Style.Brands, "replyd"));
+            private static readonly Lazy<Icon> _replyd = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "replyd"));
             /// <summary>
             /// Replyd
             /// </summary>
@@ -2866,7 +2872,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Replyd => _replyd.Value;
 
-            private static readonly Lazy<Icon> _researchgate = new Lazy<Icon>(() => new Icon(Style.Brands, "researchgate"));
+            private static readonly Lazy<Icon> _researchgate = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "researchgate"));
             /// <summary>
             /// Researchgate
             /// </summary>
@@ -2875,7 +2881,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Researchgate => _researchgate.Value;
 
-            private static readonly Lazy<Icon> _resolving = new Lazy<Icon>(() => new Icon(Style.Brands, "resolving"));
+            private static readonly Lazy<Icon> _resolving = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "resolving"));
             /// <summary>
             /// Resolving
             /// </summary>
@@ -2884,7 +2890,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Resolving => _resolving.Value;
 
-            private static readonly Lazy<Icon> _rev = new Lazy<Icon>(() => new Icon(Style.Brands, "rev"));
+            private static readonly Lazy<Icon> _rev = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "rev"));
             /// <summary>
             /// Rev Io
             /// </summary>
@@ -2893,7 +2899,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Rev => _rev.Value;
 
-            private static readonly Lazy<Icon> _rocketchat = new Lazy<Icon>(() => new Icon(Style.Brands, "rocketchat"));
+            private static readonly Lazy<Icon> _rocketchat = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "rocketchat"));
             /// <summary>
             /// Rocket Chat
             /// </summary>
@@ -2902,7 +2908,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Rocketchat => _rocketchat.Value;
 
-            private static readonly Lazy<Icon> _rockrms = new Lazy<Icon>(() => new Icon(Style.Brands, "rockrms"));
+            private static readonly Lazy<Icon> _rockrms = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "rockrms"));
             /// <summary>
             /// Rockrms
             /// </summary>
@@ -2911,7 +2917,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Rockrms => _rockrms.Value;
 
-            private static readonly Lazy<Icon> _safari = new Lazy<Icon>(() => new Icon(Style.Brands, "safari"));
+            private static readonly Lazy<Icon> _safari = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "safari"));
             /// <summary>
             /// Safari
             /// </summary>
@@ -2920,7 +2926,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Safari => _safari.Value;
 
-            private static readonly Lazy<Icon> _salesforce = new Lazy<Icon>(() => new Icon(Style.Brands, "salesforce"));
+            private static readonly Lazy<Icon> _salesforce = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "salesforce"));
             /// <summary>
             /// Salesforce
             /// </summary>
@@ -2929,7 +2935,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Salesforce => _salesforce.Value;
 
-            private static readonly Lazy<Icon> _sass = new Lazy<Icon>(() => new Icon(Style.Brands, "sass"));
+            private static readonly Lazy<Icon> _sass = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "sass"));
             /// <summary>
             /// Sass
             /// </summary>
@@ -2938,7 +2944,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Sass => _sass.Value;
 
-            private static readonly Lazy<Icon> _schlix = new Lazy<Icon>(() => new Icon(Style.Brands, "schlix"));
+            private static readonly Lazy<Icon> _schlix = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "schlix"));
             /// <summary>
             /// SCHLIX
             /// </summary>
@@ -2947,7 +2953,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Schlix => _schlix.Value;
 
-            private static readonly Lazy<Icon> _scribd = new Lazy<Icon>(() => new Icon(Style.Brands, "scribd"));
+            private static readonly Lazy<Icon> _scribd = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "scribd"));
             /// <summary>
             /// Scribd
             /// </summary>
@@ -2956,7 +2962,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Scribd => _scribd.Value;
 
-            private static readonly Lazy<Icon> _searchengin = new Lazy<Icon>(() => new Icon(Style.Brands, "searchengin"));
+            private static readonly Lazy<Icon> _searchengin = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "searchengin"));
             /// <summary>
             /// Searchengin
             /// </summary>
@@ -2965,7 +2971,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Searchengin => _searchengin.Value;
 
-            private static readonly Lazy<Icon> _sellcast = new Lazy<Icon>(() => new Icon(Style.Brands, "sellcast"));
+            private static readonly Lazy<Icon> _sellcast = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "sellcast"));
             /// <summary>
             /// Sellcast
             /// </summary>
@@ -2974,7 +2980,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Sellcast => _sellcast.Value;
 
-            private static readonly Lazy<Icon> _sellsy = new Lazy<Icon>(() => new Icon(Style.Brands, "sellsy"));
+            private static readonly Lazy<Icon> _sellsy = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "sellsy"));
             /// <summary>
             /// Sellsy
             /// </summary>
@@ -2983,7 +2989,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Sellsy => _sellsy.Value;
 
-            private static readonly Lazy<Icon> _servicestack = new Lazy<Icon>(() => new Icon(Style.Brands, "servicestack"));
+            private static readonly Lazy<Icon> _servicestack = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "servicestack"));
             /// <summary>
             /// Servicestack
             /// </summary>
@@ -2992,7 +2998,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Servicestack => _servicestack.Value;
 
-            private static readonly Lazy<Icon> _shirtsinbulk = new Lazy<Icon>(() => new Icon(Style.Brands, "shirtsinbulk"));
+            private static readonly Lazy<Icon> _shirtsinbulk = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "shirtsinbulk"));
             /// <summary>
             /// Shirts In Bulk
             /// </summary>
@@ -3001,7 +3007,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Shirtsinbulk => _shirtsinbulk.Value;
 
-            private static readonly Lazy<Icon> _shopify = new Lazy<Icon>(() => new Icon(Style.Brands, "shopify"));
+            private static readonly Lazy<Icon> _shopify = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "shopify"));
             /// <summary>
             /// Shopify
             /// </summary>
@@ -3010,7 +3016,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Shopify => _shopify.Value;
 
-            private static readonly Lazy<Icon> _shopware = new Lazy<Icon>(() => new Icon(Style.Brands, "shopware"));
+            private static readonly Lazy<Icon> _shopware = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "shopware"));
             /// <summary>
             /// Shopware
             /// </summary>
@@ -3019,7 +3025,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Shopware => _shopware.Value;
 
-            private static readonly Lazy<Icon> _simplybuilt = new Lazy<Icon>(() => new Icon(Style.Brands, "simplybuilt"));
+            private static readonly Lazy<Icon> _simplybuilt = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "simplybuilt"));
             /// <summary>
             /// Simply Built
             /// </summary>
@@ -3028,7 +3034,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Simplybuilt => _simplybuilt.Value;
 
-            private static readonly Lazy<Icon> _sistrix = new Lazy<Icon>(() => new Icon(Style.Brands, "sistrix"));
+            private static readonly Lazy<Icon> _sistrix = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "sistrix"));
             /// <summary>
             /// SISTRIX
             /// </summary>
@@ -3037,7 +3043,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Sistrix => _sistrix.Value;
 
-            private static readonly Lazy<Icon> _sith = new Lazy<Icon>(() => new Icon(Style.Brands, "sith"));
+            private static readonly Lazy<Icon> _sith = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "sith"));
             /// <summary>
             /// Sith
             /// </summary>
@@ -3046,7 +3052,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Sith => _sith.Value;
 
-            private static readonly Lazy<Icon> _sketch = new Lazy<Icon>(() => new Icon(Style.Brands, "sketch"));
+            private static readonly Lazy<Icon> _sketch = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "sketch"));
             /// <summary>
             /// Sketch
             /// </summary>
@@ -3055,7 +3061,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Sketch => _sketch.Value;
 
-            private static readonly Lazy<Icon> _skyatlas = new Lazy<Icon>(() => new Icon(Style.Brands, "skyatlas"));
+            private static readonly Lazy<Icon> _skyatlas = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "skyatlas"));
             /// <summary>
             /// Skyatlas
             /// </summary>
@@ -3064,7 +3070,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Skyatlas => _skyatlas.Value;
 
-            private static readonly Lazy<Icon> _skype = new Lazy<Icon>(() => new Icon(Style.Brands, "skype"));
+            private static readonly Lazy<Icon> _skype = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "skype"));
             /// <summary>
             /// Skype
             /// </summary>
@@ -3073,7 +3079,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Skype => _skype.Value;
 
-            private static readonly Lazy<Icon> _slack = new Lazy<Icon>(() => new Icon(Style.Brands, "slack"));
+            private static readonly Lazy<Icon> _slack = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "slack"));
             /// <summary>
             /// Slack Logo
             /// </summary>
@@ -3082,7 +3088,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Slack => _slack.Value;
 
-            private static readonly Lazy<Icon> _slackHash = new Lazy<Icon>(() => new Icon(Style.Brands, "slack-hash"));
+            private static readonly Lazy<Icon> _slackHash = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "slack-hash"));
             /// <summary>
             /// Slack Hashtag
             /// </summary>
@@ -3091,7 +3097,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon SlackHash => _slackHash.Value;
 
-            private static readonly Lazy<Icon> _slideshare = new Lazy<Icon>(() => new Icon(Style.Brands, "slideshare"));
+            private static readonly Lazy<Icon> _slideshare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "slideshare"));
             /// <summary>
             /// Slideshare
             /// </summary>
@@ -3100,7 +3106,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Slideshare => _slideshare.Value;
 
-            private static readonly Lazy<Icon> _snapchat = new Lazy<Icon>(() => new Icon(Style.Brands, "snapchat"));
+            private static readonly Lazy<Icon> _snapchat = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "snapchat"));
             /// <summary>
             /// Snapchat
             /// </summary>
@@ -3109,7 +3115,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Snapchat => _snapchat.Value;
 
-            private static readonly Lazy<Icon> _snapchatGhost = new Lazy<Icon>(() => new Icon(Style.Brands, "snapchat-ghost"));
+            private static readonly Lazy<Icon> _snapchatGhost = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "snapchat-ghost"));
             /// <summary>
             /// Snapchat Ghost
             /// </summary>
@@ -3118,7 +3124,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon SnapchatGhost => _snapchatGhost.Value;
 
-            private static readonly Lazy<Icon> _snapchatSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "snapchat-square"));
+            private static readonly Lazy<Icon> _snapchatSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "snapchat-square"));
             /// <summary>
             /// Snapchat Square
             /// </summary>
@@ -3127,7 +3133,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon SnapchatSquare => _snapchatSquare.Value;
 
-            private static readonly Lazy<Icon> _soundcloud = new Lazy<Icon>(() => new Icon(Style.Brands, "soundcloud"));
+            private static readonly Lazy<Icon> _soundcloud = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "soundcloud"));
             /// <summary>
             /// Sound Cloud
             /// </summary>
@@ -3136,7 +3142,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Soundcloud => _soundcloud.Value;
 
-            private static readonly Lazy<Icon> _sourcetree = new Lazy<Icon>(() => new Icon(Style.Brands, "sourcetree"));
+            private static readonly Lazy<Icon> _sourcetree = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "sourcetree"));
             /// <summary>
             /// Sourcetree
             /// </summary>
@@ -3145,7 +3151,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Sourcetree => _sourcetree.Value;
 
-            private static readonly Lazy<Icon> _speakap = new Lazy<Icon>(() => new Icon(Style.Brands, "speakap"));
+            private static readonly Lazy<Icon> _speakap = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "speakap"));
             /// <summary>
             /// Speakap
             /// </summary>
@@ -3154,7 +3160,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Speakap => _speakap.Value;
 
-            private static readonly Lazy<Icon> _speakerDeck = new Lazy<Icon>(() => new Icon(Style.Brands, "speaker-deck"));
+            private static readonly Lazy<Icon> _speakerDeck = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "speaker-deck"));
             /// <summary>
             /// Speaker Deck
             /// </summary>
@@ -3163,7 +3169,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon SpeakerDeck => _speakerDeck.Value;
 
-            private static readonly Lazy<Icon> _spotify = new Lazy<Icon>(() => new Icon(Style.Brands, "spotify"));
+            private static readonly Lazy<Icon> _spotify = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "spotify"));
             /// <summary>
             /// Spotify
             /// </summary>
@@ -3172,7 +3178,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Spotify => _spotify.Value;
 
-            private static readonly Lazy<Icon> _squarespace = new Lazy<Icon>(() => new Icon(Style.Brands, "squarespace"));
+            private static readonly Lazy<Icon> _squarespace = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "squarespace"));
             /// <summary>
             /// Squarespace
             /// </summary>
@@ -3181,7 +3187,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Squarespace => _squarespace.Value;
 
-            private static readonly Lazy<Icon> _stackExchange = new Lazy<Icon>(() => new Icon(Style.Brands, "stack-exchange"));
+            private static readonly Lazy<Icon> _stackExchange = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "stack-exchange"));
             /// <summary>
             /// Stack Exchange
             /// </summary>
@@ -3190,7 +3196,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon StackExchange => _stackExchange.Value;
 
-            private static readonly Lazy<Icon> _stackOverflow = new Lazy<Icon>(() => new Icon(Style.Brands, "stack-overflow"));
+            private static readonly Lazy<Icon> _stackOverflow = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "stack-overflow"));
             /// <summary>
             /// Stack Overflow
             /// </summary>
@@ -3199,7 +3205,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon StackOverflow => _stackOverflow.Value;
 
-            private static readonly Lazy<Icon> _stackpath = new Lazy<Icon>(() => new Icon(Style.Brands, "stackpath"));
+            private static readonly Lazy<Icon> _stackpath = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "stackpath"));
             /// <summary>
             /// Stackpath
             /// </summary>
@@ -3208,7 +3214,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Stackpath => _stackpath.Value;
 
-            private static readonly Lazy<Icon> _staylinked = new Lazy<Icon>(() => new Icon(Style.Brands, "staylinked"));
+            private static readonly Lazy<Icon> _staylinked = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "staylinked"));
             /// <summary>
             /// Stay Linked
             /// </summary>
@@ -3217,7 +3223,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Staylinked => _staylinked.Value;
 
-            private static readonly Lazy<Icon> _steam = new Lazy<Icon>(() => new Icon(Style.Brands, "steam"));
+            private static readonly Lazy<Icon> _steam = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "steam"));
             /// <summary>
             /// Steam
             /// </summary>
@@ -3226,7 +3232,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Steam => _steam.Value;
 
-            private static readonly Lazy<Icon> _steamSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "steam-square"));
+            private static readonly Lazy<Icon> _steamSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "steam-square"));
             /// <summary>
             /// Steam Square
             /// </summary>
@@ -3235,7 +3241,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon SteamSquare => _steamSquare.Value;
 
-            private static readonly Lazy<Icon> _steamSymbol = new Lazy<Icon>(() => new Icon(Style.Brands, "steam-symbol"));
+            private static readonly Lazy<Icon> _steamSymbol = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "steam-symbol"));
             /// <summary>
             /// Steam Symbol
             /// </summary>
@@ -3244,7 +3250,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon SteamSymbol => _steamSymbol.Value;
 
-            private static readonly Lazy<Icon> _stickerMule = new Lazy<Icon>(() => new Icon(Style.Brands, "sticker-mule"));
+            private static readonly Lazy<Icon> _stickerMule = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "sticker-mule"));
             /// <summary>
             /// Sticker Mule
             /// </summary>
@@ -3253,7 +3259,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon StickerMule => _stickerMule.Value;
 
-            private static readonly Lazy<Icon> _strava = new Lazy<Icon>(() => new Icon(Style.Brands, "strava"));
+            private static readonly Lazy<Icon> _strava = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "strava"));
             /// <summary>
             /// Strava
             /// </summary>
@@ -3262,7 +3268,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Strava => _strava.Value;
 
-            private static readonly Lazy<Icon> _stripe = new Lazy<Icon>(() => new Icon(Style.Brands, "stripe"));
+            private static readonly Lazy<Icon> _stripe = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "stripe"));
             /// <summary>
             /// Stripe
             /// </summary>
@@ -3271,7 +3277,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Stripe => _stripe.Value;
 
-            private static readonly Lazy<Icon> _stripeS = new Lazy<Icon>(() => new Icon(Style.Brands, "stripe-s"));
+            private static readonly Lazy<Icon> _stripeS = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "stripe-s"));
             /// <summary>
             /// Stripe S
             /// </summary>
@@ -3280,7 +3286,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon StripeS => _stripeS.Value;
 
-            private static readonly Lazy<Icon> _studiovinari = new Lazy<Icon>(() => new Icon(Style.Brands, "studiovinari"));
+            private static readonly Lazy<Icon> _studiovinari = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "studiovinari"));
             /// <summary>
             /// Studio Vinari
             /// </summary>
@@ -3289,7 +3295,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Studiovinari => _studiovinari.Value;
 
-            private static readonly Lazy<Icon> _stumbleupon = new Lazy<Icon>(() => new Icon(Style.Brands, "stumbleupon"));
+            private static readonly Lazy<Icon> _stumbleupon = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "stumbleupon"));
             /// <summary>
             /// Stumble Upon Logo
             /// </summary>
@@ -3298,7 +3304,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Stumbleupon => _stumbleupon.Value;
 
-            private static readonly Lazy<Icon> _stumbleuponCircle = new Lazy<Icon>(() => new Icon(Style.Brands, "stumbleupon-circle"));
+            private static readonly Lazy<Icon> _stumbleuponCircle = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "stumbleupon-circle"));
             /// <summary>
             /// Stumble Upon Circle
             /// </summary>
@@ -3307,7 +3313,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon StumbleuponCircle => _stumbleuponCircle.Value;
 
-            private static readonly Lazy<Icon> _superpowers = new Lazy<Icon>(() => new Icon(Style.Brands, "superpowers"));
+            private static readonly Lazy<Icon> _superpowers = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "superpowers"));
             /// <summary>
             /// Superpowers
             /// </summary>
@@ -3316,7 +3322,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Superpowers => _superpowers.Value;
 
-            private static readonly Lazy<Icon> _supple = new Lazy<Icon>(() => new Icon(Style.Brands, "supple"));
+            private static readonly Lazy<Icon> _supple = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "supple"));
             /// <summary>
             /// Supple
             /// </summary>
@@ -3325,7 +3331,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Supple => _supple.Value;
 
-            private static readonly Lazy<Icon> _suse = new Lazy<Icon>(() => new Icon(Style.Brands, "suse"));
+            private static readonly Lazy<Icon> _suse = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "suse"));
             /// <summary>
             /// Suse
             /// </summary>
@@ -3334,7 +3340,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Suse => _suse.Value;
 
-            private static readonly Lazy<Icon> _swift = new Lazy<Icon>(() => new Icon(Style.Brands, "swift"));
+            private static readonly Lazy<Icon> _swift = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "swift"));
             /// <summary>
             /// Swift
             /// </summary>
@@ -3343,7 +3349,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Swift => _swift.Value;
 
-            private static readonly Lazy<Icon> _symfony = new Lazy<Icon>(() => new Icon(Style.Brands, "symfony"));
+            private static readonly Lazy<Icon> _symfony = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "symfony"));
             /// <summary>
             /// Symfony
             /// </summary>
@@ -3352,7 +3358,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Symfony => _symfony.Value;
 
-            private static readonly Lazy<Icon> _teamspeak = new Lazy<Icon>(() => new Icon(Style.Brands, "teamspeak"));
+            private static readonly Lazy<Icon> _teamspeak = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "teamspeak"));
             /// <summary>
             /// Team Speak
             /// </summary>
@@ -3361,7 +3367,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Teamspeak => _teamspeak.Value;
 
-            private static readonly Lazy<Icon> _telegram = new Lazy<Icon>(() => new Icon(Style.Brands, "telegram"));
+            private static readonly Lazy<Icon> _telegram = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "telegram"));
             /// <summary>
             /// Telegram
             /// </summary>
@@ -3370,7 +3376,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Telegram => _telegram.Value;
 
-            private static readonly Lazy<Icon> _telegramPlane = new Lazy<Icon>(() => new Icon(Style.Brands, "telegram-plane"));
+            private static readonly Lazy<Icon> _telegramPlane = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "telegram-plane"));
             /// <summary>
             /// Telegram Plane
             /// </summary>
@@ -3379,7 +3385,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon TelegramPlane => _telegramPlane.Value;
 
-            private static readonly Lazy<Icon> _tencentWeibo = new Lazy<Icon>(() => new Icon(Style.Brands, "tencent-weibo"));
+            private static readonly Lazy<Icon> _tencentWeibo = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "tencent-weibo"));
             /// <summary>
             /// Tencent Weibo
             /// </summary>
@@ -3388,7 +3394,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon TencentWeibo => _tencentWeibo.Value;
 
-            private static readonly Lazy<Icon> _theRedYeti = new Lazy<Icon>(() => new Icon(Style.Brands, "the-red-yeti"));
+            private static readonly Lazy<Icon> _theRedYeti = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "the-red-yeti"));
             /// <summary>
             /// The Red Yeti
             /// </summary>
@@ -3397,7 +3403,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon TheRedYeti => _theRedYeti.Value;
 
-            private static readonly Lazy<Icon> _themeco = new Lazy<Icon>(() => new Icon(Style.Brands, "themeco"));
+            private static readonly Lazy<Icon> _themeco = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "themeco"));
             /// <summary>
             /// Themeco
             /// </summary>
@@ -3406,7 +3412,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Themeco => _themeco.Value;
 
-            private static readonly Lazy<Icon> _themeisle = new Lazy<Icon>(() => new Icon(Style.Brands, "themeisle"));
+            private static readonly Lazy<Icon> _themeisle = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "themeisle"));
             /// <summary>
             /// Theme Isle
             /// </summary>
@@ -3415,7 +3421,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Themeisle => _themeisle.Value;
 
-            private static readonly Lazy<Icon> _thinkPeaks = new Lazy<Icon>(() => new Icon(Style.Brands, "think-peaks"));
+            private static readonly Lazy<Icon> _thinkPeaks = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "think-peaks"));
             /// <summary>
             /// Think Peaks
             /// </summary>
@@ -3424,7 +3430,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon ThinkPeaks => _thinkPeaks.Value;
 
-            private static readonly Lazy<Icon> _tradeFederation = new Lazy<Icon>(() => new Icon(Style.Brands, "trade-federation"));
+            private static readonly Lazy<Icon> _tradeFederation = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "trade-federation"));
             /// <summary>
             /// Trade Federation
             /// </summary>
@@ -3433,7 +3439,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon TradeFederation => _tradeFederation.Value;
 
-            private static readonly Lazy<Icon> _trello = new Lazy<Icon>(() => new Icon(Style.Brands, "trello"));
+            private static readonly Lazy<Icon> _trello = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "trello"));
             /// <summary>
             /// Trello
             /// </summary>
@@ -3442,7 +3448,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Trello => _trello.Value;
 
-            private static readonly Lazy<Icon> _tripadvisor = new Lazy<Icon>(() => new Icon(Style.Brands, "tripadvisor"));
+            private static readonly Lazy<Icon> _tripadvisor = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "tripadvisor"));
             /// <summary>
             /// Trip Advisor
             /// </summary>
@@ -3451,7 +3457,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Tripadvisor => _tripadvisor.Value;
 
-            private static readonly Lazy<Icon> _tumblr = new Lazy<Icon>(() => new Icon(Style.Brands, "tumblr"));
+            private static readonly Lazy<Icon> _tumblr = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "tumblr"));
             /// <summary>
             /// Tumblr
             /// </summary>
@@ -3460,7 +3466,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Tumblr => _tumblr.Value;
 
-            private static readonly Lazy<Icon> _tumblrSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "tumblr-square"));
+            private static readonly Lazy<Icon> _tumblrSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "tumblr-square"));
             /// <summary>
             /// Tumblr Square
             /// </summary>
@@ -3469,7 +3475,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon TumblrSquare => _tumblrSquare.Value;
 
-            private static readonly Lazy<Icon> _twitch = new Lazy<Icon>(() => new Icon(Style.Brands, "twitch"));
+            private static readonly Lazy<Icon> _twitch = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "twitch"));
             /// <summary>
             /// Twitch
             /// </summary>
@@ -3478,7 +3484,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Twitch => _twitch.Value;
 
-            private static readonly Lazy<Icon> _twitter = new Lazy<Icon>(() => new Icon(Style.Brands, "twitter"));
+            private static readonly Lazy<Icon> _twitter = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "twitter"));
             /// <summary>
             /// Twitter
             /// </summary>
@@ -3487,7 +3493,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Twitter => _twitter.Value;
 
-            private static readonly Lazy<Icon> _twitterSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "twitter-square"));
+            private static readonly Lazy<Icon> _twitterSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "twitter-square"));
             /// <summary>
             /// Twitter Square
             /// </summary>
@@ -3496,7 +3502,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon TwitterSquare => _twitterSquare.Value;
 
-            private static readonly Lazy<Icon> _typo3 = new Lazy<Icon>(() => new Icon(Style.Brands, "typo3"));
+            private static readonly Lazy<Icon> _typo3 = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "typo3"));
             /// <summary>
             /// Typo 3
             /// </summary>
@@ -3505,7 +3511,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Typo3 => _typo3.Value;
 
-            private static readonly Lazy<Icon> _uber = new Lazy<Icon>(() => new Icon(Style.Brands, "uber"));
+            private static readonly Lazy<Icon> _uber = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "uber"));
             /// <summary>
             /// Uber
             /// </summary>
@@ -3514,7 +3520,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Uber => _uber.Value;
 
-            private static readonly Lazy<Icon> _ubuntu = new Lazy<Icon>(() => new Icon(Style.Brands, "ubuntu"));
+            private static readonly Lazy<Icon> _ubuntu = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "ubuntu"));
             /// <summary>
             /// Ubuntu
             /// </summary>
@@ -3523,7 +3529,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Ubuntu => _ubuntu.Value;
 
-            private static readonly Lazy<Icon> _uikit = new Lazy<Icon>(() => new Icon(Style.Brands, "uikit"));
+            private static readonly Lazy<Icon> _uikit = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "uikit"));
             /// <summary>
             /// U Ikit
             /// </summary>
@@ -3532,7 +3538,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Uikit => _uikit.Value;
 
-            private static readonly Lazy<Icon> _umbraco = new Lazy<Icon>(() => new Icon(Style.Brands, "umbraco"));
+            private static readonly Lazy<Icon> _umbraco = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "umbraco"));
             /// <summary>
             /// Umbraco
             /// </summary>
@@ -3541,7 +3547,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Umbraco => _umbraco.Value;
 
-            private static readonly Lazy<Icon> _uniregistry = new Lazy<Icon>(() => new Icon(Style.Brands, "uniregistry"));
+            private static readonly Lazy<Icon> _uniregistry = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "uniregistry"));
             /// <summary>
             /// Uniregistry
             /// </summary>
@@ -3550,7 +3556,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Uniregistry => _uniregistry.Value;
 
-            private static readonly Lazy<Icon> _unity = new Lazy<Icon>(() => new Icon(Style.Brands, "unity"));
+            private static readonly Lazy<Icon> _unity = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "unity"));
             /// <summary>
             /// Unity 3 D
             /// </summary>
@@ -3559,7 +3565,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Unity => _unity.Value;
 
-            private static readonly Lazy<Icon> _untappd = new Lazy<Icon>(() => new Icon(Style.Brands, "untappd"));
+            private static readonly Lazy<Icon> _untappd = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "untappd"));
             /// <summary>
             /// Untappd
             /// </summary>
@@ -3568,7 +3574,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Untappd => _untappd.Value;
 
-            private static readonly Lazy<Icon> _ups = new Lazy<Icon>(() => new Icon(Style.Brands, "ups"));
+            private static readonly Lazy<Icon> _ups = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "ups"));
             /// <summary>
             /// UPS
             /// </summary>
@@ -3577,7 +3583,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Ups => _ups.Value;
 
-            private static readonly Lazy<Icon> _usb = new Lazy<Icon>(() => new Icon(Style.Brands, "usb"));
+            private static readonly Lazy<Icon> _usb = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "usb"));
             /// <summary>
             /// USB
             /// </summary>
@@ -3586,7 +3592,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Usb => _usb.Value;
 
-            private static readonly Lazy<Icon> _usps = new Lazy<Icon>(() => new Icon(Style.Brands, "usps"));
+            private static readonly Lazy<Icon> _usps = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "usps"));
             /// <summary>
             /// United States Postal Service
             /// </summary>
@@ -3595,7 +3601,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Usps => _usps.Value;
 
-            private static readonly Lazy<Icon> _ussunnah = new Lazy<Icon>(() => new Icon(Style.Brands, "ussunnah"));
+            private static readonly Lazy<Icon> _ussunnah = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "ussunnah"));
             /// <summary>
             /// Us Sunnah Foundation
             /// </summary>
@@ -3604,7 +3610,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Ussunnah => _ussunnah.Value;
 
-            private static readonly Lazy<Icon> _vaadin = new Lazy<Icon>(() => new Icon(Style.Brands, "vaadin"));
+            private static readonly Lazy<Icon> _vaadin = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "vaadin"));
             /// <summary>
             /// Vaadin
             /// </summary>
@@ -3613,7 +3619,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Vaadin => _vaadin.Value;
 
-            private static readonly Lazy<Icon> _viacoin = new Lazy<Icon>(() => new Icon(Style.Brands, "viacoin"));
+            private static readonly Lazy<Icon> _viacoin = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "viacoin"));
             /// <summary>
             /// Viacoin
             /// </summary>
@@ -3622,7 +3628,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Viacoin => _viacoin.Value;
 
-            private static readonly Lazy<Icon> _viadeo = new Lazy<Icon>(() => new Icon(Style.Brands, "viadeo"));
+            private static readonly Lazy<Icon> _viadeo = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "viadeo"));
             /// <summary>
             /// Video
             /// </summary>
@@ -3631,7 +3637,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Viadeo => _viadeo.Value;
 
-            private static readonly Lazy<Icon> _viadeoSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "viadeo-square"));
+            private static readonly Lazy<Icon> _viadeoSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "viadeo-square"));
             /// <summary>
             /// Video Square
             /// </summary>
@@ -3640,7 +3646,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon ViadeoSquare => _viadeoSquare.Value;
 
-            private static readonly Lazy<Icon> _viber = new Lazy<Icon>(() => new Icon(Style.Brands, "viber"));
+            private static readonly Lazy<Icon> _viber = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "viber"));
             /// <summary>
             /// Viber
             /// </summary>
@@ -3649,7 +3655,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Viber => _viber.Value;
 
-            private static readonly Lazy<Icon> _vimeo = new Lazy<Icon>(() => new Icon(Style.Brands, "vimeo"));
+            private static readonly Lazy<Icon> _vimeo = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "vimeo"));
             /// <summary>
             /// Vimeo
             /// </summary>
@@ -3658,7 +3664,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Vimeo => _vimeo.Value;
 
-            private static readonly Lazy<Icon> _vimeoSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "vimeo-square"));
+            private static readonly Lazy<Icon> _vimeoSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "vimeo-square"));
             /// <summary>
             /// Vimeo Square
             /// </summary>
@@ -3667,7 +3673,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon VimeoSquare => _vimeoSquare.Value;
 
-            private static readonly Lazy<Icon> _vimeoV = new Lazy<Icon>(() => new Icon(Style.Brands, "vimeo-v"));
+            private static readonly Lazy<Icon> _vimeoV = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "vimeo-v"));
             /// <summary>
             /// Vimeo
             /// </summary>
@@ -3676,7 +3682,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon VimeoV => _vimeoV.Value;
 
-            private static readonly Lazy<Icon> _vine = new Lazy<Icon>(() => new Icon(Style.Brands, "vine"));
+            private static readonly Lazy<Icon> _vine = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "vine"));
             /// <summary>
             /// Vine
             /// </summary>
@@ -3685,7 +3691,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Vine => _vine.Value;
 
-            private static readonly Lazy<Icon> _vk = new Lazy<Icon>(() => new Icon(Style.Brands, "vk"));
+            private static readonly Lazy<Icon> _vk = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "vk"));
             /// <summary>
             /// VK
             /// </summary>
@@ -3694,7 +3700,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Vk => _vk.Value;
 
-            private static readonly Lazy<Icon> _vnv = new Lazy<Icon>(() => new Icon(Style.Brands, "vnv"));
+            private static readonly Lazy<Icon> _vnv = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "vnv"));
             /// <summary>
             /// VNV
             /// </summary>
@@ -3703,7 +3709,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Vnv => _vnv.Value;
 
-            private static readonly Lazy<Icon> _vuejs = new Lazy<Icon>(() => new Icon(Style.Brands, "vuejs"));
+            private static readonly Lazy<Icon> _vuejs = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "vuejs"));
             /// <summary>
             /// Vue Js
             /// </summary>
@@ -3712,7 +3718,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Vuejs => _vuejs.Value;
 
-            private static readonly Lazy<Icon> _waze = new Lazy<Icon>(() => new Icon(Style.Brands, "waze"));
+            private static readonly Lazy<Icon> _waze = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "waze"));
             /// <summary>
             /// Waze
             /// </summary>
@@ -3721,7 +3727,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Waze => _waze.Value;
 
-            private static readonly Lazy<Icon> _weebly = new Lazy<Icon>(() => new Icon(Style.Brands, "weebly"));
+            private static readonly Lazy<Icon> _weebly = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "weebly"));
             /// <summary>
             /// Weebly
             /// </summary>
@@ -3730,7 +3736,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Weebly => _weebly.Value;
 
-            private static readonly Lazy<Icon> _weibo = new Lazy<Icon>(() => new Icon(Style.Brands, "weibo"));
+            private static readonly Lazy<Icon> _weibo = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "weibo"));
             /// <summary>
             /// Weibo
             /// </summary>
@@ -3739,7 +3745,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Weibo => _weibo.Value;
 
-            private static readonly Lazy<Icon> _weixin = new Lazy<Icon>(() => new Icon(Style.Brands, "weixin"));
+            private static readonly Lazy<Icon> _weixin = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "weixin"));
             /// <summary>
             /// Weixin We Chat
             /// </summary>
@@ -3748,7 +3754,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Weixin => _weixin.Value;
 
-            private static readonly Lazy<Icon> _whatsapp = new Lazy<Icon>(() => new Icon(Style.Brands, "whatsapp"));
+            private static readonly Lazy<Icon> _whatsapp = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "whatsapp"));
             /// <summary>
             /// What S App
             /// </summary>
@@ -3757,7 +3763,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Whatsapp => _whatsapp.Value;
 
-            private static readonly Lazy<Icon> _whatsappSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "whatsapp-square"));
+            private static readonly Lazy<Icon> _whatsappSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "whatsapp-square"));
             /// <summary>
             /// What S App Square
             /// </summary>
@@ -3766,7 +3772,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon WhatsappSquare => _whatsappSquare.Value;
 
-            private static readonly Lazy<Icon> _whmcs = new Lazy<Icon>(() => new Icon(Style.Brands, "whmcs"));
+            private static readonly Lazy<Icon> _whmcs = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "whmcs"));
             /// <summary>
             /// WHMCS
             /// </summary>
@@ -3775,7 +3781,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Whmcs => _whmcs.Value;
 
-            private static readonly Lazy<Icon> _wikipediaW = new Lazy<Icon>(() => new Icon(Style.Brands, "wikipedia-w"));
+            private static readonly Lazy<Icon> _wikipediaW = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "wikipedia-w"));
             /// <summary>
             /// Wikipedia W
             /// </summary>
@@ -3784,7 +3790,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon WikipediaW => _wikipediaW.Value;
 
-            private static readonly Lazy<Icon> _windows = new Lazy<Icon>(() => new Icon(Style.Brands, "windows"));
+            private static readonly Lazy<Icon> _windows = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "windows"));
             /// <summary>
             /// Windows
             /// </summary>
@@ -3793,7 +3799,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Windows => _windows.Value;
 
-            private static readonly Lazy<Icon> _wix = new Lazy<Icon>(() => new Icon(Style.Brands, "wix"));
+            private static readonly Lazy<Icon> _wix = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "wix"));
             /// <summary>
             /// Wix
             /// </summary>
@@ -3802,7 +3808,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Wix => _wix.Value;
 
-            private static readonly Lazy<Icon> _wizardsOfTheCoast = new Lazy<Icon>(() => new Icon(Style.Brands, "wizards-of-the-coast"));
+            private static readonly Lazy<Icon> _wizardsOfTheCoast = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "wizards-of-the-coast"));
             /// <summary>
             /// Wizards Of The Coast
             /// </summary>
@@ -3811,7 +3817,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon WizardsOfTheCoast => _wizardsOfTheCoast.Value;
 
-            private static readonly Lazy<Icon> _wolfPackBattalion = new Lazy<Icon>(() => new Icon(Style.Brands, "wolf-pack-battalion"));
+            private static readonly Lazy<Icon> _wolfPackBattalion = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "wolf-pack-battalion"));
             /// <summary>
             /// Wolf Pack Battalion
             /// </summary>
@@ -3820,7 +3826,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon WolfPackBattalion => _wolfPackBattalion.Value;
 
-            private static readonly Lazy<Icon> _wordpress = new Lazy<Icon>(() => new Icon(Style.Brands, "wordpress"));
+            private static readonly Lazy<Icon> _wordpress = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "wordpress"));
             /// <summary>
             /// Word Press Logo
             /// </summary>
@@ -3829,7 +3835,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Wordpress => _wordpress.Value;
 
-            private static readonly Lazy<Icon> _wordpressSimple = new Lazy<Icon>(() => new Icon(Style.Brands, "wordpress-simple"));
+            private static readonly Lazy<Icon> _wordpressSimple = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "wordpress-simple"));
             /// <summary>
             /// Wordpress Simple
             /// </summary>
@@ -3838,7 +3844,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon WordpressSimple => _wordpressSimple.Value;
 
-            private static readonly Lazy<Icon> _wpbeginner = new Lazy<Icon>(() => new Icon(Style.Brands, "wpbeginner"));
+            private static readonly Lazy<Icon> _wpbeginner = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "wpbeginner"));
             /// <summary>
             /// WP Beginner
             /// </summary>
@@ -3847,7 +3853,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Wpbeginner => _wpbeginner.Value;
 
-            private static readonly Lazy<Icon> _wpexplorer = new Lazy<Icon>(() => new Icon(Style.Brands, "wpexplorer"));
+            private static readonly Lazy<Icon> _wpexplorer = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "wpexplorer"));
             /// <summary>
             /// WP Explorer
             /// </summary>
@@ -3856,7 +3862,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Wpexplorer => _wpexplorer.Value;
 
-            private static readonly Lazy<Icon> _wpforms = new Lazy<Icon>(() => new Icon(Style.Brands, "wpforms"));
+            private static readonly Lazy<Icon> _wpforms = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "wpforms"));
             /// <summary>
             /// WP Forms
             /// </summary>
@@ -3865,7 +3871,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Wpforms => _wpforms.Value;
 
-            private static readonly Lazy<Icon> _wpressr = new Lazy<Icon>(() => new Icon(Style.Brands, "wpressr"));
+            private static readonly Lazy<Icon> _wpressr = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "wpressr"));
             /// <summary>
             /// Wpressr
             /// </summary>
@@ -3874,7 +3880,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Wpressr => _wpressr.Value;
 
-            private static readonly Lazy<Icon> _xbox = new Lazy<Icon>(() => new Icon(Style.Brands, "xbox"));
+            private static readonly Lazy<Icon> _xbox = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "xbox"));
             /// <summary>
             /// Xbox
             /// </summary>
@@ -3883,7 +3889,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Xbox => _xbox.Value;
 
-            private static readonly Lazy<Icon> _xing = new Lazy<Icon>(() => new Icon(Style.Brands, "xing"));
+            private static readonly Lazy<Icon> _xing = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "xing"));
             /// <summary>
             /// Xing
             /// </summary>
@@ -3892,7 +3898,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Xing => _xing.Value;
 
-            private static readonly Lazy<Icon> _xingSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "xing-square"));
+            private static readonly Lazy<Icon> _xingSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "xing-square"));
             /// <summary>
             /// Xing Square
             /// </summary>
@@ -3901,7 +3907,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon XingSquare => _xingSquare.Value;
 
-            private static readonly Lazy<Icon> _yCombinator = new Lazy<Icon>(() => new Icon(Style.Brands, "y-combinator"));
+            private static readonly Lazy<Icon> _yCombinator = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "y-combinator"));
             /// <summary>
             /// Y Combinator
             /// </summary>
@@ -3910,7 +3916,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon YCombinator => _yCombinator.Value;
 
-            private static readonly Lazy<Icon> _yahoo = new Lazy<Icon>(() => new Icon(Style.Brands, "yahoo"));
+            private static readonly Lazy<Icon> _yahoo = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "yahoo"));
             /// <summary>
             /// Yahoo Logo
             /// </summary>
@@ -3919,7 +3925,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Yahoo => _yahoo.Value;
 
-            private static readonly Lazy<Icon> _yammer = new Lazy<Icon>(() => new Icon(Style.Brands, "yammer"));
+            private static readonly Lazy<Icon> _yammer = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "yammer"));
             /// <summary>
             /// Yammer
             /// </summary>
@@ -3928,7 +3934,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Yammer => _yammer.Value;
 
-            private static readonly Lazy<Icon> _yandex = new Lazy<Icon>(() => new Icon(Style.Brands, "yandex"));
+            private static readonly Lazy<Icon> _yandex = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "yandex"));
             /// <summary>
             /// Yandex
             /// </summary>
@@ -3937,7 +3943,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Yandex => _yandex.Value;
 
-            private static readonly Lazy<Icon> _yandexInternational = new Lazy<Icon>(() => new Icon(Style.Brands, "yandex-international"));
+            private static readonly Lazy<Icon> _yandexInternational = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "yandex-international"));
             /// <summary>
             /// Yandex International
             /// </summary>
@@ -3946,7 +3952,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon YandexInternational => _yandexInternational.Value;
 
-            private static readonly Lazy<Icon> _yarn = new Lazy<Icon>(() => new Icon(Style.Brands, "yarn"));
+            private static readonly Lazy<Icon> _yarn = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "yarn"));
             /// <summary>
             /// Yarn
             /// </summary>
@@ -3955,7 +3961,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Yarn => _yarn.Value;
 
-            private static readonly Lazy<Icon> _yelp = new Lazy<Icon>(() => new Icon(Style.Brands, "yelp"));
+            private static readonly Lazy<Icon> _yelp = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "yelp"));
             /// <summary>
             /// Yelp
             /// </summary>
@@ -3964,7 +3970,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Yelp => _yelp.Value;
 
-            private static readonly Lazy<Icon> _yoast = new Lazy<Icon>(() => new Icon(Style.Brands, "yoast"));
+            private static readonly Lazy<Icon> _yoast = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "yoast"));
             /// <summary>
             /// Yoast
             /// </summary>
@@ -3973,7 +3979,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Yoast => _yoast.Value;
 
-            private static readonly Lazy<Icon> _youtube = new Lazy<Icon>(() => new Icon(Style.Brands, "youtube"));
+            private static readonly Lazy<Icon> _youtube = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "youtube"));
             /// <summary>
             /// You Tube
             /// </summary>
@@ -3982,7 +3988,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon Youtube => _youtube.Value;
 
-            private static readonly Lazy<Icon> _youtubeSquare = new Lazy<Icon>(() => new Icon(Style.Brands, "youtube-square"));
+            private static readonly Lazy<Icon> _youtubeSquare = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "youtube-square"));
             /// <summary>
             /// You Tube Square
             /// </summary>
@@ -3991,7 +3997,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
             /// </remarks>
             public static Icon YoutubeSquare => _youtubeSquare.Value;
 
-            private static readonly Lazy<Icon> _zhihu = new Lazy<Icon>(() => new Icon(Style.Brands, "zhihu"));
+            private static readonly Lazy<Icon> _zhihu = new Lazy<Icon>(() => new Icon(IconStyle.Brands, "zhihu"));
             /// <summary>
             /// Zhihu
             /// </summary>

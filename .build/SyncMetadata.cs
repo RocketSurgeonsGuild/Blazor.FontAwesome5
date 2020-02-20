@@ -81,7 +81,7 @@ internal partial class Solution
                     sb.AppendLine("        {");
                     foreach (var model in styleIcons)
                     {
-                        sb.AppendLine($"            private static readonly Lazy<Icon> _{ToModelName(model).Camelize()} = new Lazy<Icon>(() => new Icon(Style.{style}, \"{model.Name}\"));");
+                        sb.AppendLine($"            private static readonly Lazy<Icon> _{ToModelName(model).Camelize()} = new Lazy<Icon>(() => new Icon(IconStyle.{style}, \"{model.Name}\"));");
                         sb.AppendLine($"            /// <summary>");
                         sb.AppendLine($"            /// {model.Label.Titleize()}");
                         sb.AppendLine($"            /// </summary>");

@@ -8,9 +8,9 @@ using Microsoft.AspNetCore.Components;
 namespace Rocket.Surgery.Blazor.FontAwesome5.Shared
 {
     [DebuggerDisplay("{Style} {Name}")]
-    public class Icon
+    public class Icon : ITransformIcon
     {
-        public Icon(Style style, string name)
+        public Icon(IconStyle style, string name)
         {
             Style = style;
             Name = name;
@@ -30,7 +30,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Shared
         }
 
         private Icon(
-            Style style,
+            IconStyle style,
             string name,
             IconSize iconSize,
             bool fixedWidth,
@@ -67,7 +67,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Shared
             _cssStyle = cssStyle;
         }
 
-        public Style Style { get; }
+        public IconStyle Style { get; }
         public string Name { get; }
         internal readonly IconSize _size;
         internal readonly string _cssStyle;
@@ -88,14 +88,14 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Shared
         internal readonly IconFlip _flip;
         internal readonly Icon _mask;
 
-        public static string ToPrefix(Style style) =>
+        public static string ToPrefix(IconStyle style) =>
             style switch
             {
-                Style.Solid => "fas",
-                Style.Regular => "far",
-                Style.Light => "fal",
-                Style.Duotone => "fad",
-                Style.Brands => "fab",
+                IconStyle.Solid => "fas",
+                IconStyle.Regular => "far",
+                IconStyle.Light => "fal",
+                IconStyle.Duotone => "fad",
+                IconStyle.Brands => "fab",
                 _ => throw new NotSupportedException()
             };
 
@@ -257,49 +257,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Shared
                 data.Add("data-fa-mask", $"{ToPrefix(_mask.Style)} fa-{_mask.Name}");
             }
 
-            var transform = new List<string>();
-
-            if (_scale > 0.001)
-            {
-                transform.Add($"grow-{Math.Abs(_scale):F2}");
-            }
-
-            if (_scale > 0.001)
-            {
-                transform.Add($"shrink-{Math.Abs(_scale):F2}");
-            }
-
-            if (Math.Abs(_rotate) < 0.001)
-            {
-                transform.Add($"rotate-{_rotate:F2}");
-            }
-
-            if (_vertical > 0.001)
-            {
-                transform.Add($"up-{_vertical:F2}");
-            }
-
-            if (_vertical < -0.001)
-            {
-                transform.Add($"down-{Math.Abs(_vertical):F2}");
-            }
-
-            if (_horizontal < -0.001)
-            {
-                transform.Add($"left-{Math.Abs(_horizontal):F2}");
-            }
-
-            if (_horizontal > 0.001)
-            {
-                transform.Add($"right-{_horizontal:F2}");
-            }
-
-            if (_flip != IconFlip.None)
-            {
-                transform.Add(ToString(_flip));
-            }
-
-            if (transform.Any())
+            var transform = this.ToTransform();
+            if (!string.IsNullOrWhiteSpace(transform))
             {
                 data.Add("data-fa-transform", string.Join(" ", transform));
             }
@@ -340,5 +299,20 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Shared
 
         public string ToIcon() =>
             $"<i class=\"{ToClass()}\" {string.Join(" ", GetAttributes().Select(z => $"{z.Key}=\"{z.Value}\""))}></i>";
+
+        double ITransformIcon.Grow => _scale > 0.001 ? _scale : 0d;
+
+        double ITransformIcon.Shrink => _scale < -0.001 ? -_scale : 0d;
+
+        double ITransformIcon.Rotate => _rotate;
+
+        double ITransformIcon.Up => _vertical > 0.001 ? _vertical : 0d;
+
+        double ITransformIcon.Down => _vertical < -0.001 ? -_vertical : 0d;
+
+        double ITransformIcon.Left => _horizontal > 0.001 ? _horizontal : 0d;
+
+        double ITransformIcon.Right => _horizontal < -0.001 ? -_horizontal : 0d;
+        IconFlip? ITransformIcon.Flip => _flip;
     }
 }

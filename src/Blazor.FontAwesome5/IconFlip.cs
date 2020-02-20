@@ -1,6 +1,6 @@
 using System;
 
-namespace Rocket.Surgery.Blazor.FontAwesome5.Shared
+namespace Rocket.Surgery.Blazor.FontAwesome5
 {
     [Flags]
     public enum IconFlip

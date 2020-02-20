@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
-using Rocket.Surgery.Blazor.FontAwesome5.Shared;
 
 namespace Rocket.Surgery.Blazor.FontAwesome5
 {
@@ -138,7 +137,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
             builder.AddAttribute(3, "data-fa-transform", this.ToTransform());
             builder.AddMultipleAttributes(4, AdditionalAttributes);
             builder.CloseElement();
-
         }
     }
 }

@@ -5,8 +5,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components" />
-		<ProjectReference Include="../Blazor.FontAwesome5.Shared/Rocket.Surgery.Blazor.FontAwesome5.Shared.csproj" />
+        <ProjectReference Include="../Blazor.FontAwesome5.Free.Regular/Rocket.Surgery.Blazor.FontAwesome5.Free.Regular.csproj" />
+        <ProjectReference Include="../Blazor.FontAwesome5.Free.Solid/Rocket.Surgery.Blazor.FontAwesome5.Free.Solid.csproj" />
     </ItemGroup>
 
 </Project>

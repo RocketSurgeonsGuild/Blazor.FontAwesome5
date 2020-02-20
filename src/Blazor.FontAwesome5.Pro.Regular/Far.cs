@@ -1,5 +1,6 @@
 using System;
-using FA5 = global::Rocket.Surgery.Blazor.FontAwesome5.Pro;
+using Rocket.Surgery.Blazor.FontAwesome5.Shared;
+using FA5 = global::Rocket.Surgery.Blazor.FontAwesome5.Pro.FontAwesome;
 namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
 {
     /// <summary>
@@ -4677,7 +4678,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// equals - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Equals => FA5.Regular.Equals;
+        public static Icon Equal => FA5.Regular.Equal;
 
         /// <summary>
         /// Eraser

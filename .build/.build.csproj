@@ -15,6 +15,7 @@
     <PackageReference Include="GitVersion.Tool" ExcludeAssets="All" />
     <PackageReference Include="ReportGenerator" ExcludeAssets="All" />
     <PackageReference Include="Rocket.Surgery.Nuke.DotNetCore" />
+    <PackageReference Include="Humanizer.Core" />
   </ItemGroup>
 
   <ItemGroup>

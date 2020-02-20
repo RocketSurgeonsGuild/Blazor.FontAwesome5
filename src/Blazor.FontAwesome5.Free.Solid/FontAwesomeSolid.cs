@@ -1,5 +1,6 @@
 using System;
-using FA5 = global::Rocket.Surgery.Blazor.FontAwesome5.Free;
+using Rocket.Surgery.Blazor.FontAwesome5.Shared;
+using FA5 = global::Rocket.Surgery.Blazor.FontAwesome5.Free.FontAwesome;
 namespace Rocket.Surgery.Blazor.FontAwesome5.Free
 {
     /// <summary>
@@ -2631,14 +2632,14 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// </remarks>
             public static Icon EnvelopeSquare => _envelopeSquare.Value;
 
-            private static readonly Lazy<Icon> _equals = new Lazy<Icon>(() => new Icon(Style.Solid, "equals"));
+            private static readonly Lazy<Icon> _equal = new Lazy<Icon>(() => new Icon(Style.Solid, "equals"));
             /// <summary>
             /// Equals
             /// </summary>
             /// <remarks>
             /// equals - Available in Solid
             /// </remarks>
-            public static Icon Equals => _equals.Value;
+            public static Icon Equal => _equal.Value;
 
             private static readonly Lazy<Icon> _eraser = new Lazy<Icon>(() => new Icon(Style.Solid, "eraser"));
             /// <summary>

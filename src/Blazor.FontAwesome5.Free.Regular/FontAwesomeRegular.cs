@@ -1,5 +1,6 @@
 using System;
-using FA5 = global::Rocket.Surgery.Blazor.FontAwesome5.Free;
+using Rocket.Surgery.Blazor.FontAwesome5.Shared;
+using FA5 = global::Rocket.Surgery.Blazor.FontAwesome5.Free.FontAwesome;
 namespace Rocket.Surgery.Blazor.FontAwesome5.Free
 {
     /// <summary>

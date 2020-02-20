@@ -1,6 +1,7 @@
 using System;
-using FA5 = global::Rocket.Surgery.Blazor.FontAwesome5.Free;
-namespace Rocket.Surgery.Blazor.FontAwesome5.Free
+using Rocket.Surgery.Blazor.FontAwesome5.Shared;
+using FA5 = global::Rocket.Surgery.Blazor.FontAwesome5.Brands.FontAwesome;
+namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
 {
     /// <summary>
     /// Font Awesome Icons
@@ -1358,7 +1359,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
             /// Font Awesome Full Logo
             /// </summary>
             /// <remarks>
-            /// font-awesome-logo-full - Available in Regular, Solid, Brands
+            /// font-awesome-logo-full - Available in Solid, Regular, Light, Brands, Duotone
             /// </remarks>
             public static Icon FontAwesomeLogoFull => _fontAwesomeLogoFull.Value;
 

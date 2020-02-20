@@ -5,8 +5,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components" />
-		<ProjectReference Include="../Blazor.FontAwesome5.Shared/Rocket.Surgery.Blazor.FontAwesome5.Shared.csproj" />
+        <ProjectReference Include="../Blazor.FontAwesome5.Pro.Duotone/Rocket.Surgery.Blazor.FontAwesome5.Pro.Duotone.csproj" />
+        <ProjectReference Include="../Blazor.FontAwesome5.Pro.Light/Rocket.Surgery.Blazor.FontAwesome5.Pro.Light.csproj" />
+        <ProjectReference Include="../Blazor.FontAwesome5.Pro.Regular/Rocket.Surgery.Blazor.FontAwesome5.Pro.Regular.csproj" />
+        <ProjectReference Include="../Blazor.FontAwesome5.Pro.Solid/Rocket.Surgery.Blazor.FontAwesome5.Pro.Solid.csproj" />
     </ItemGroup>
 
 </Project>

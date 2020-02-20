@@ -1,6 +1,7 @@
 using System;
-using FA5 = global::Rocket.Surgery.Blazor.FontAwesome5.Pro;
-namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
+using Rocket.Surgery.Blazor.FontAwesome5.Shared;
+using FA5 = global::Rocket.Surgery.Blazor.FontAwesome5.Brands.FontAwesome;
+namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
 {
     /// <summary>
     /// Font Awesome Fab Icons

@@ -12,7 +12,7 @@ using Rocket.Surgery.Nuke.DotNetCore;
 )]
 [EnsurePackageSourceHasCredentials("RocketSurgeonsGuild")]
 [EnsureGitHooks(GitHook.PreCommit)]
-internal class Solution : DotNetCoreBuild, IDotNetCoreBuild
+internal partial class Solution : DotNetCoreBuild, IDotNetCoreBuild
 {
     /// <summary>
     /// Support plugins are available for:

@@ -1,12 +1,12 @@
 using System;
+using Rocket.Surgery.Blazor.FontAwesome5;
 using Rocket.Surgery.Blazor.FontAwesome5.Shared;
-using FA5 = global::Rocket.Surgery.Blazor.FontAwesome5.Free.FontAwesome;
 namespace Rocket.Surgery.Blazor.FontAwesome5.Free
 {
     /// <summary>
     /// Font Awesome Far Icons
     /// </summary>
-    public static partial class Far
+    public enum Far
     {
         /// <summary>
         /// Address Book
@@ -14,7 +14,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// address-book - Available in Solid, Regular
         /// </remarks>
-        public static Icon AddressBook => FA5.Regular.AddressBook;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("address-book")]
+        AddressBook,
 
         /// <summary>
         /// Address Card
@@ -22,7 +24,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// address-card - Available in Solid, Regular
         /// </remarks>
-        public static Icon AddressCard => FA5.Regular.AddressCard;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("address-card")]
+        AddressCard,
 
         /// <summary>
         /// Angry Face
@@ -30,7 +34,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// angry - Available in Solid, Regular
         /// </remarks>
-        public static Icon Angry => FA5.Regular.Angry;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("angry")]
+        Angry,
 
         /// <summary>
         /// Alternate Arrow Circle Down
@@ -38,7 +44,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// arrow-alt-circle-down - Available in Solid, Regular
         /// </remarks>
-        public static Icon ArrowAltCircleDown => FA5.Regular.ArrowAltCircleDown;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("arrow-alt-circle-down")]
+        ArrowAltCircleDown,
 
         /// <summary>
         /// Alternate Arrow Circle Left
@@ -46,7 +54,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// arrow-alt-circle-left - Available in Solid, Regular
         /// </remarks>
-        public static Icon ArrowAltCircleLeft => FA5.Regular.ArrowAltCircleLeft;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("arrow-alt-circle-left")]
+        ArrowAltCircleLeft,
 
         /// <summary>
         /// Alternate Arrow Circle Right
@@ -54,7 +64,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// arrow-alt-circle-right - Available in Solid, Regular
         /// </remarks>
-        public static Icon ArrowAltCircleRight => FA5.Regular.ArrowAltCircleRight;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("arrow-alt-circle-right")]
+        ArrowAltCircleRight,
 
         /// <summary>
         /// Alternate Arrow Circle Up
@@ -62,7 +74,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// arrow-alt-circle-up - Available in Solid, Regular
         /// </remarks>
-        public static Icon ArrowAltCircleUp => FA5.Regular.ArrowAltCircleUp;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("arrow-alt-circle-up")]
+        ArrowAltCircleUp,
 
         /// <summary>
         /// Bell
@@ -70,7 +84,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// bell - Available in Solid, Regular
         /// </remarks>
-        public static Icon Bell => FA5.Regular.Bell;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("bell")]
+        Bell,
 
         /// <summary>
         /// Bell Slash
@@ -78,7 +94,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// bell-slash - Available in Solid, Regular
         /// </remarks>
-        public static Icon BellSlash => FA5.Regular.BellSlash;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("bell-slash")]
+        BellSlash,
 
         /// <summary>
         /// Bookmark
@@ -86,7 +104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// bookmark - Available in Solid, Regular
         /// </remarks>
-        public static Icon Bookmark => FA5.Regular.Bookmark;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("bookmark")]
+        Bookmark,
 
         /// <summary>
         /// Building
@@ -94,7 +114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// building - Available in Solid, Regular
         /// </remarks>
-        public static Icon Building => FA5.Regular.Building;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("building")]
+        Building,
 
         /// <summary>
         /// Calendar
@@ -102,7 +124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// calendar - Available in Solid, Regular
         /// </remarks>
-        public static Icon Calendar => FA5.Regular.Calendar;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("calendar")]
+        Calendar,
 
         /// <summary>
         /// Alternate Calendar
@@ -110,7 +134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// calendar-alt - Available in Solid, Regular
         /// </remarks>
-        public static Icon CalendarAlt => FA5.Regular.CalendarAlt;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("calendar-alt")]
+        CalendarAlt,
 
         /// <summary>
         /// Calendar Check
@@ -118,7 +144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// calendar-check - Available in Solid, Regular
         /// </remarks>
-        public static Icon CalendarCheck => FA5.Regular.CalendarCheck;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("calendar-check")]
+        CalendarCheck,
 
         /// <summary>
         /// Calendar Minus
@@ -126,7 +154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// calendar-minus - Available in Solid, Regular
         /// </remarks>
-        public static Icon CalendarMinus => FA5.Regular.CalendarMinus;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("calendar-minus")]
+        CalendarMinus,
 
         /// <summary>
         /// Calendar Plus
@@ -134,7 +164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// calendar-plus - Available in Solid, Regular
         /// </remarks>
-        public static Icon CalendarPlus => FA5.Regular.CalendarPlus;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("calendar-plus")]
+        CalendarPlus,
 
         /// <summary>
         /// Calendar Times
@@ -142,7 +174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// calendar-times - Available in Solid, Regular
         /// </remarks>
-        public static Icon CalendarTimes => FA5.Regular.CalendarTimes;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("calendar-times")]
+        CalendarTimes,
 
         /// <summary>
         /// Caret Square Down
@@ -150,7 +184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// caret-square-down - Available in Solid, Regular
         /// </remarks>
-        public static Icon CaretSquareDown => FA5.Regular.CaretSquareDown;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("caret-square-down")]
+        CaretSquareDown,
 
         /// <summary>
         /// Caret Square Left
@@ -158,7 +194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// caret-square-left - Available in Solid, Regular
         /// </remarks>
-        public static Icon CaretSquareLeft => FA5.Regular.CaretSquareLeft;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("caret-square-left")]
+        CaretSquareLeft,
 
         /// <summary>
         /// Caret Square Right
@@ -166,7 +204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// caret-square-right - Available in Solid, Regular
         /// </remarks>
-        public static Icon CaretSquareRight => FA5.Regular.CaretSquareRight;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("caret-square-right")]
+        CaretSquareRight,
 
         /// <summary>
         /// Caret Square Up
@@ -174,7 +214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// caret-square-up - Available in Solid, Regular
         /// </remarks>
-        public static Icon CaretSquareUp => FA5.Regular.CaretSquareUp;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("caret-square-up")]
+        CaretSquareUp,
 
         /// <summary>
         /// Bar Chart
@@ -182,7 +224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// chart-bar - Available in Solid, Regular
         /// </remarks>
-        public static Icon ChartBar => FA5.Regular.ChartBar;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("chart-bar")]
+        ChartBar,
 
         /// <summary>
         /// Check Circle
@@ -190,7 +234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// check-circle - Available in Solid, Regular
         /// </remarks>
-        public static Icon CheckCircle => FA5.Regular.CheckCircle;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("check-circle")]
+        CheckCircle,
 
         /// <summary>
         /// Check Square
@@ -198,7 +244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// check-square - Available in Solid, Regular
         /// </remarks>
-        public static Icon CheckSquare => FA5.Regular.CheckSquare;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("check-square")]
+        CheckSquare,
 
         /// <summary>
         /// Circle
@@ -206,7 +254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// circle - Available in Solid, Regular
         /// </remarks>
-        public static Icon Circle => FA5.Regular.Circle;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("circle")]
+        Circle,
 
         /// <summary>
         /// Clipboard
@@ -214,7 +264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// clipboard - Available in Solid, Regular
         /// </remarks>
-        public static Icon Clipboard => FA5.Regular.Clipboard;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("clipboard")]
+        Clipboard,
 
         /// <summary>
         /// Clock
@@ -222,7 +274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// clock - Available in Solid, Regular
         /// </remarks>
-        public static Icon Clock => FA5.Regular.Clock;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("clock")]
+        Clock,
 
         /// <summary>
         /// Clone
@@ -230,7 +284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// clone - Available in Solid, Regular
         /// </remarks>
-        public static Icon Clone => FA5.Regular.Clone;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("clone")]
+        Clone,
 
         /// <summary>
         /// Closed Captioning
@@ -238,7 +294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// closed-captioning - Available in Solid, Regular
         /// </remarks>
-        public static Icon ClosedCaptioning => FA5.Regular.ClosedCaptioning;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("closed-captioning")]
+        ClosedCaptioning,
 
         /// <summary>
         /// Comment
@@ -246,7 +304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// comment - Available in Solid, Regular
         /// </remarks>
-        public static Icon Comment => FA5.Regular.Comment;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("comment")]
+        Comment,
 
         /// <summary>
         /// Alternate Comment
@@ -254,7 +314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// comment-alt - Available in Solid, Regular
         /// </remarks>
-        public static Icon CommentAlt => FA5.Regular.CommentAlt;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("comment-alt")]
+        CommentAlt,
 
         /// <summary>
         /// Comment Dots
@@ -262,7 +324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// comment-dots - Available in Solid, Regular
         /// </remarks>
-        public static Icon CommentDots => FA5.Regular.CommentDots;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("comment-dots")]
+        CommentDots,
 
         /// <summary>
         /// Comments
@@ -270,7 +334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// comments - Available in Solid, Regular
         /// </remarks>
-        public static Icon Comments => FA5.Regular.Comments;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("comments")]
+        Comments,
 
         /// <summary>
         /// Compass
@@ -278,7 +344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// compass - Available in Solid, Regular
         /// </remarks>
-        public static Icon Compass => FA5.Regular.Compass;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("compass")]
+        Compass,
 
         /// <summary>
         /// Copy
@@ -286,7 +354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// copy - Available in Solid, Regular
         /// </remarks>
-        public static Icon Copy => FA5.Regular.Copy;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("copy")]
+        Copy,
 
         /// <summary>
         /// Copyright
@@ -294,7 +364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// copyright - Available in Solid, Regular
         /// </remarks>
-        public static Icon Copyright => FA5.Regular.Copyright;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("copyright")]
+        Copyright,
 
         /// <summary>
         /// Credit Card
@@ -302,7 +374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// credit-card - Available in Solid, Regular
         /// </remarks>
-        public static Icon CreditCard => FA5.Regular.CreditCard;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("credit-card")]
+        CreditCard,
 
         /// <summary>
         /// Dizzy Face
@@ -310,7 +384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// dizzy - Available in Solid, Regular
         /// </remarks>
-        public static Icon Dizzy => FA5.Regular.Dizzy;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("dizzy")]
+        Dizzy,
 
         /// <summary>
         /// Dot Circle
@@ -318,7 +394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// dot-circle - Available in Solid, Regular
         /// </remarks>
-        public static Icon DotCircle => FA5.Regular.DotCircle;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("dot-circle")]
+        DotCircle,
 
         /// <summary>
         /// Edit
@@ -326,7 +404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// edit - Available in Solid, Regular
         /// </remarks>
-        public static Icon Edit => FA5.Regular.Edit;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("edit")]
+        Edit,
 
         /// <summary>
         /// Envelope
@@ -334,7 +414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// envelope - Available in Solid, Regular
         /// </remarks>
-        public static Icon Envelope => FA5.Regular.Envelope;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("envelope")]
+        Envelope,
 
         /// <summary>
         /// Envelope Open
@@ -342,7 +424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// envelope-open - Available in Solid, Regular
         /// </remarks>
-        public static Icon EnvelopeOpen => FA5.Regular.EnvelopeOpen;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("envelope-open")]
+        EnvelopeOpen,
 
         /// <summary>
         /// Eye
@@ -350,7 +434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// eye - Available in Solid, Regular
         /// </remarks>
-        public static Icon Eye => FA5.Regular.Eye;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("eye")]
+        Eye,
 
         /// <summary>
         /// Eye Slash
@@ -358,7 +444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// eye-slash - Available in Solid, Regular
         /// </remarks>
-        public static Icon EyeSlash => FA5.Regular.EyeSlash;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("eye-slash")]
+        EyeSlash,
 
         /// <summary>
         /// File
@@ -366,7 +454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// file - Available in Solid, Regular
         /// </remarks>
-        public static Icon File => FA5.Regular.File;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("file")]
+        File,
 
         /// <summary>
         /// Alternate File
@@ -374,7 +464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// file-alt - Available in Solid, Regular
         /// </remarks>
-        public static Icon FileAlt => FA5.Regular.FileAlt;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("file-alt")]
+        FileAlt,
 
         /// <summary>
         /// Archive File
@@ -382,7 +474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// file-archive - Available in Solid, Regular
         /// </remarks>
-        public static Icon FileArchive => FA5.Regular.FileArchive;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("file-archive")]
+        FileArchive,
 
         /// <summary>
         /// Audio File
@@ -390,7 +484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// file-audio - Available in Solid, Regular
         /// </remarks>
-        public static Icon FileAudio => FA5.Regular.FileAudio;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("file-audio")]
+        FileAudio,
 
         /// <summary>
         /// Code File
@@ -398,7 +494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// file-code - Available in Solid, Regular
         /// </remarks>
-        public static Icon FileCode => FA5.Regular.FileCode;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("file-code")]
+        FileCode,
 
         /// <summary>
         /// Excel File
@@ -406,7 +504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// file-excel - Available in Solid, Regular
         /// </remarks>
-        public static Icon FileExcel => FA5.Regular.FileExcel;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("file-excel")]
+        FileExcel,
 
         /// <summary>
         /// Image File
@@ -414,7 +514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// file-image - Available in Solid, Regular
         /// </remarks>
-        public static Icon FileImage => FA5.Regular.FileImage;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("file-image")]
+        FileImage,
 
         /// <summary>
         /// PDF File
@@ -422,7 +524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// file-pdf - Available in Solid, Regular
         /// </remarks>
-        public static Icon FilePdf => FA5.Regular.FilePdf;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("file-pdf")]
+        FilePdf,
 
         /// <summary>
         /// Powerpoint File
@@ -430,7 +534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// file-powerpoint - Available in Solid, Regular
         /// </remarks>
-        public static Icon FilePowerpoint => FA5.Regular.FilePowerpoint;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("file-powerpoint")]
+        FilePowerpoint,
 
         /// <summary>
         /// Video File
@@ -438,7 +544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// file-video - Available in Solid, Regular
         /// </remarks>
-        public static Icon FileVideo => FA5.Regular.FileVideo;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("file-video")]
+        FileVideo,
 
         /// <summary>
         /// Word File
@@ -446,7 +554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// file-word - Available in Solid, Regular
         /// </remarks>
-        public static Icon FileWord => FA5.Regular.FileWord;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("file-word")]
+        FileWord,
 
         /// <summary>
         /// Flag
@@ -454,7 +564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// flag - Available in Solid, Regular
         /// </remarks>
-        public static Icon Flag => FA5.Regular.Flag;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("flag")]
+        Flag,
 
         /// <summary>
         /// Flushed Face
@@ -462,7 +574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// flushed - Available in Solid, Regular
         /// </remarks>
-        public static Icon Flushed => FA5.Regular.Flushed;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("flushed")]
+        Flushed,
 
         /// <summary>
         /// Folder
@@ -470,7 +584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// folder - Available in Solid, Regular
         /// </remarks>
-        public static Icon Folder => FA5.Regular.Folder;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("folder")]
+        Folder,
 
         /// <summary>
         /// Folder Open
@@ -478,7 +594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// folder-open - Available in Solid, Regular
         /// </remarks>
-        public static Icon FolderOpen => FA5.Regular.FolderOpen;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("folder-open")]
+        FolderOpen,
 
         /// <summary>
         /// Font Awesome Full Logo
@@ -486,7 +604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// font-awesome-logo-full - Available in Regular, Solid, Brands
         /// </remarks>
-        public static Icon FontAwesomeLogoFull => FA5.Regular.FontAwesomeLogoFull;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("font-awesome-logo-full")]
+        FontAwesomeLogoFull,
 
         /// <summary>
         /// Frowning Face
@@ -494,7 +614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// frown - Available in Solid, Regular
         /// </remarks>
-        public static Icon Frown => FA5.Regular.Frown;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("frown")]
+        Frown,
 
         /// <summary>
         /// Frowning Face With Open Mouth
@@ -502,7 +624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// frown-open - Available in Solid, Regular
         /// </remarks>
-        public static Icon FrownOpen => FA5.Regular.FrownOpen;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("frown-open")]
+        FrownOpen,
 
         /// <summary>
         /// Futbol
@@ -510,7 +634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// futbol - Available in Solid, Regular
         /// </remarks>
-        public static Icon Futbol => FA5.Regular.Futbol;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("futbol")]
+        Futbol,
 
         /// <summary>
         /// Gem
@@ -518,7 +644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// gem - Available in Solid, Regular
         /// </remarks>
-        public static Icon Gem => FA5.Regular.Gem;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("gem")]
+        Gem,
 
         /// <summary>
         /// Grimacing Face
@@ -526,7 +654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// grimace - Available in Solid, Regular
         /// </remarks>
-        public static Icon Grimace => FA5.Regular.Grimace;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("grimace")]
+        Grimace,
 
         /// <summary>
         /// Grinning Face
@@ -534,7 +664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// grin - Available in Solid, Regular
         /// </remarks>
-        public static Icon Grin => FA5.Regular.Grin;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("grin")]
+        Grin,
 
         /// <summary>
         /// Alternate Grinning Face
@@ -542,7 +674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// grin-alt - Available in Solid, Regular
         /// </remarks>
-        public static Icon GrinAlt => FA5.Regular.GrinAlt;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("grin-alt")]
+        GrinAlt,
 
         /// <summary>
         /// Grinning Face With Smiling Eyes
@@ -550,7 +684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// grin-beam - Available in Solid, Regular
         /// </remarks>
-        public static Icon GrinBeam => FA5.Regular.GrinBeam;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("grin-beam")]
+        GrinBeam,
 
         /// <summary>
         /// Grinning Face With Sweat
@@ -558,7 +694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// grin-beam-sweat - Available in Solid, Regular
         /// </remarks>
-        public static Icon GrinBeamSweat => FA5.Regular.GrinBeamSweat;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("grin-beam-sweat")]
+        GrinBeamSweat,
 
         /// <summary>
         /// Smiling Face With Heart Eyes
@@ -566,7 +704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// grin-hearts - Available in Solid, Regular
         /// </remarks>
-        public static Icon GrinHearts => FA5.Regular.GrinHearts;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("grin-hearts")]
+        GrinHearts,
 
         /// <summary>
         /// Grinning Squinting Face
@@ -574,7 +714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// grin-squint - Available in Solid, Regular
         /// </remarks>
-        public static Icon GrinSquint => FA5.Regular.GrinSquint;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("grin-squint")]
+        GrinSquint,
 
         /// <summary>
         /// Rolling On The Floor Laughing
@@ -582,7 +724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// grin-squint-tears - Available in Solid, Regular
         /// </remarks>
-        public static Icon GrinSquintTears => FA5.Regular.GrinSquintTears;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("grin-squint-tears")]
+        GrinSquintTears,
 
         /// <summary>
         /// Star Struck
@@ -590,7 +734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// grin-stars - Available in Solid, Regular
         /// </remarks>
-        public static Icon GrinStars => FA5.Regular.GrinStars;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("grin-stars")]
+        GrinStars,
 
         /// <summary>
         /// Face With Tears Of Joy
@@ -598,7 +744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// grin-tears - Available in Solid, Regular
         /// </remarks>
-        public static Icon GrinTears => FA5.Regular.GrinTears;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("grin-tears")]
+        GrinTears,
 
         /// <summary>
         /// Face With Tongue
@@ -606,7 +754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// grin-tongue - Available in Solid, Regular
         /// </remarks>
-        public static Icon GrinTongue => FA5.Regular.GrinTongue;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("grin-tongue")]
+        GrinTongue,
 
         /// <summary>
         /// Squinting Face With Tongue
@@ -614,7 +764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// grin-tongue-squint - Available in Solid, Regular
         /// </remarks>
-        public static Icon GrinTongueSquint => FA5.Regular.GrinTongueSquint;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("grin-tongue-squint")]
+        GrinTongueSquint,
 
         /// <summary>
         /// Winking Face With Tongue
@@ -622,7 +774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// grin-tongue-wink - Available in Solid, Regular
         /// </remarks>
-        public static Icon GrinTongueWink => FA5.Regular.GrinTongueWink;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("grin-tongue-wink")]
+        GrinTongueWink,
 
         /// <summary>
         /// Grinning Winking Face
@@ -630,7 +784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// grin-wink - Available in Solid, Regular
         /// </remarks>
-        public static Icon GrinWink => FA5.Regular.GrinWink;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("grin-wink")]
+        GrinWink,
 
         /// <summary>
         /// Lizard Hand
@@ -638,7 +794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// hand-lizard - Available in Solid, Regular
         /// </remarks>
-        public static Icon HandLizard => FA5.Regular.HandLizard;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("hand-lizard")]
+        HandLizard,
 
         /// <summary>
         /// Paper Hand
@@ -646,7 +804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// hand-paper - Available in Solid, Regular
         /// </remarks>
-        public static Icon HandPaper => FA5.Regular.HandPaper;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("hand-paper")]
+        HandPaper,
 
         /// <summary>
         /// Peace Hand
@@ -654,7 +814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// hand-peace - Available in Solid, Regular
         /// </remarks>
-        public static Icon HandPeace => FA5.Regular.HandPeace;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("hand-peace")]
+        HandPeace,
 
         /// <summary>
         /// Hand Pointing Down
@@ -662,7 +824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// hand-point-down - Available in Solid, Regular
         /// </remarks>
-        public static Icon HandPointDown => FA5.Regular.HandPointDown;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("hand-point-down")]
+        HandPointDown,
 
         /// <summary>
         /// Hand Pointing Left
@@ -670,7 +834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// hand-point-left - Available in Solid, Regular
         /// </remarks>
-        public static Icon HandPointLeft => FA5.Regular.HandPointLeft;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("hand-point-left")]
+        HandPointLeft,
 
         /// <summary>
         /// Hand Pointing Right
@@ -678,7 +844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// hand-point-right - Available in Solid, Regular
         /// </remarks>
-        public static Icon HandPointRight => FA5.Regular.HandPointRight;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("hand-point-right")]
+        HandPointRight,
 
         /// <summary>
         /// Hand Pointing Up
@@ -686,7 +854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// hand-point-up - Available in Solid, Regular
         /// </remarks>
-        public static Icon HandPointUp => FA5.Regular.HandPointUp;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("hand-point-up")]
+        HandPointUp,
 
         /// <summary>
         /// Pointer Hand
@@ -694,7 +864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// hand-pointer - Available in Solid, Regular
         /// </remarks>
-        public static Icon HandPointer => FA5.Regular.HandPointer;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("hand-pointer")]
+        HandPointer,
 
         /// <summary>
         /// Rock Hand
@@ -702,7 +874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// hand-rock - Available in Solid, Regular
         /// </remarks>
-        public static Icon HandRock => FA5.Regular.HandRock;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("hand-rock")]
+        HandRock,
 
         /// <summary>
         /// Scissors Hand
@@ -710,7 +884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// hand-scissors - Available in Solid, Regular
         /// </remarks>
-        public static Icon HandScissors => FA5.Regular.HandScissors;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("hand-scissors")]
+        HandScissors,
 
         /// <summary>
         /// Spock Hand
@@ -718,7 +894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// hand-spock - Available in Solid, Regular
         /// </remarks>
-        public static Icon HandSpock => FA5.Regular.HandSpock;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("hand-spock")]
+        HandSpock,
 
         /// <summary>
         /// Handshake
@@ -726,7 +904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// handshake - Available in Solid, Regular
         /// </remarks>
-        public static Icon Handshake => FA5.Regular.Handshake;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("handshake")]
+        Handshake,
 
         /// <summary>
         /// HDD
@@ -734,7 +914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// hdd - Available in Solid, Regular
         /// </remarks>
-        public static Icon Hdd => FA5.Regular.Hdd;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("hdd")]
+        Hdd,
 
         /// <summary>
         /// Heart
@@ -742,7 +924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// heart - Available in Solid, Regular
         /// </remarks>
-        public static Icon Heart => FA5.Regular.Heart;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("heart")]
+        Heart,
 
         /// <summary>
         /// Hospital
@@ -750,7 +934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// hospital - Available in Solid, Regular
         /// </remarks>
-        public static Icon Hospital => FA5.Regular.Hospital;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("hospital")]
+        Hospital,
 
         /// <summary>
         /// Hourglass
@@ -758,7 +944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// hourglass - Available in Solid, Regular
         /// </remarks>
-        public static Icon Hourglass => FA5.Regular.Hourglass;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("hourglass")]
+        Hourglass,
 
         /// <summary>
         /// Identification Badge
@@ -766,7 +954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// id-badge - Available in Solid, Regular
         /// </remarks>
-        public static Icon IdBadge => FA5.Regular.IdBadge;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("id-badge")]
+        IdBadge,
 
         /// <summary>
         /// Identification Card
@@ -774,7 +964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// id-card - Available in Solid, Regular
         /// </remarks>
-        public static Icon IdCard => FA5.Regular.IdCard;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("id-card")]
+        IdCard,
 
         /// <summary>
         /// Image
@@ -782,7 +974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// image - Available in Solid, Regular
         /// </remarks>
-        public static Icon Image => FA5.Regular.Image;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("image")]
+        Image,
 
         /// <summary>
         /// Images
@@ -790,7 +984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// images - Available in Solid, Regular
         /// </remarks>
-        public static Icon Images => FA5.Regular.Images;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("images")]
+        Images,
 
         /// <summary>
         /// Keyboard
@@ -798,7 +994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// keyboard - Available in Solid, Regular
         /// </remarks>
-        public static Icon Keyboard => FA5.Regular.Keyboard;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("keyboard")]
+        Keyboard,
 
         /// <summary>
         /// Kissing Face
@@ -806,7 +1004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// kiss - Available in Solid, Regular
         /// </remarks>
-        public static Icon Kiss => FA5.Regular.Kiss;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("kiss")]
+        Kiss,
 
         /// <summary>
         /// Kissing Face With Smiling Eyes
@@ -814,7 +1014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// kiss-beam - Available in Solid, Regular
         /// </remarks>
-        public static Icon KissBeam => FA5.Regular.KissBeam;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("kiss-beam")]
+        KissBeam,
 
         /// <summary>
         /// Face Blowing A Kiss
@@ -822,7 +1024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// kiss-wink-heart - Available in Solid, Regular
         /// </remarks>
-        public static Icon KissWinkHeart => FA5.Regular.KissWinkHeart;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("kiss-wink-heart")]
+        KissWinkHeart,
 
         /// <summary>
         /// Grinning Face With Big Eyes
@@ -830,7 +1034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// laugh - Available in Solid, Regular
         /// </remarks>
-        public static Icon Laugh => FA5.Regular.Laugh;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("laugh")]
+        Laugh,
 
         /// <summary>
         /// Laugh Face With Beaming Eyes
@@ -838,7 +1044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// laugh-beam - Available in Solid, Regular
         /// </remarks>
-        public static Icon LaughBeam => FA5.Regular.LaughBeam;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("laugh-beam")]
+        LaughBeam,
 
         /// <summary>
         /// Laughing Squinting Face
@@ -846,7 +1054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// laugh-squint - Available in Solid, Regular
         /// </remarks>
-        public static Icon LaughSquint => FA5.Regular.LaughSquint;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("laugh-squint")]
+        LaughSquint,
 
         /// <summary>
         /// Laughing Winking Face
@@ -854,7 +1064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// laugh-wink - Available in Solid, Regular
         /// </remarks>
-        public static Icon LaughWink => FA5.Regular.LaughWink;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("laugh-wink")]
+        LaughWink,
 
         /// <summary>
         /// Lemon
@@ -862,7 +1074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// lemon - Available in Solid, Regular
         /// </remarks>
-        public static Icon Lemon => FA5.Regular.Lemon;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("lemon")]
+        Lemon,
 
         /// <summary>
         /// Life Ring
@@ -870,7 +1084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// life-ring - Available in Solid, Regular
         /// </remarks>
-        public static Icon LifeRing => FA5.Regular.LifeRing;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("life-ring")]
+        LifeRing,
 
         /// <summary>
         /// Lightbulb
@@ -878,7 +1094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// lightbulb - Available in Solid, Regular
         /// </remarks>
-        public static Icon Lightbulb => FA5.Regular.Lightbulb;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("lightbulb")]
+        Lightbulb,
 
         /// <summary>
         /// Alternate List
@@ -886,7 +1104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// list-alt - Available in Solid, Regular
         /// </remarks>
-        public static Icon ListAlt => FA5.Regular.ListAlt;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("list-alt")]
+        ListAlt,
 
         /// <summary>
         /// Map
@@ -894,7 +1114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// map - Available in Solid, Regular
         /// </remarks>
-        public static Icon Map => FA5.Regular.Map;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("map")]
+        Map,
 
         /// <summary>
         /// Neutral Face
@@ -902,7 +1124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// meh - Available in Solid, Regular
         /// </remarks>
-        public static Icon Meh => FA5.Regular.Meh;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("meh")]
+        Meh,
 
         /// <summary>
         /// Face Without Mouth
@@ -910,7 +1134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// meh-blank - Available in Solid, Regular
         /// </remarks>
-        public static Icon MehBlank => FA5.Regular.MehBlank;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("meh-blank")]
+        MehBlank,
 
         /// <summary>
         /// Face With Rolling Eyes
@@ -918,7 +1144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// meh-rolling-eyes - Available in Solid, Regular
         /// </remarks>
-        public static Icon MehRollingEyes => FA5.Regular.MehRollingEyes;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("meh-rolling-eyes")]
+        MehRollingEyes,
 
         /// <summary>
         /// Minus Square
@@ -926,7 +1154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// minus-square - Available in Solid, Regular
         /// </remarks>
-        public static Icon MinusSquare => FA5.Regular.MinusSquare;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("minus-square")]
+        MinusSquare,
 
         /// <summary>
         /// Alternate Money Bill
@@ -934,7 +1164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// money-bill-alt - Available in Solid, Regular
         /// </remarks>
-        public static Icon MoneyBillAlt => FA5.Regular.MoneyBillAlt;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("money-bill-alt")]
+        MoneyBillAlt,
 
         /// <summary>
         /// Moon
@@ -942,7 +1174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// moon - Available in Solid, Regular
         /// </remarks>
-        public static Icon Moon => FA5.Regular.Moon;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("moon")]
+        Moon,
 
         /// <summary>
         /// Newspaper
@@ -950,7 +1184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// newspaper - Available in Solid, Regular
         /// </remarks>
-        public static Icon Newspaper => FA5.Regular.Newspaper;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("newspaper")]
+        Newspaper,
 
         /// <summary>
         /// Object Group
@@ -958,7 +1194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// object-group - Available in Solid, Regular
         /// </remarks>
-        public static Icon ObjectGroup => FA5.Regular.ObjectGroup;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("object-group")]
+        ObjectGroup,
 
         /// <summary>
         /// Object Ungroup
@@ -966,7 +1204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// object-ungroup - Available in Solid, Regular
         /// </remarks>
-        public static Icon ObjectUngroup => FA5.Regular.ObjectUngroup;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("object-ungroup")]
+        ObjectUngroup,
 
         /// <summary>
         /// Paper Plane
@@ -974,7 +1214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// paper-plane - Available in Solid, Regular
         /// </remarks>
-        public static Icon PaperPlane => FA5.Regular.PaperPlane;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("paper-plane")]
+        PaperPlane,
 
         /// <summary>
         /// Pause Circle
@@ -982,7 +1224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// pause-circle - Available in Solid, Regular
         /// </remarks>
-        public static Icon PauseCircle => FA5.Regular.PauseCircle;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("pause-circle")]
+        PauseCircle,
 
         /// <summary>
         /// Play Circle
@@ -990,7 +1234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// play-circle - Available in Solid, Regular
         /// </remarks>
-        public static Icon PlayCircle => FA5.Regular.PlayCircle;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("play-circle")]
+        PlayCircle,
 
         /// <summary>
         /// Plus Square
@@ -998,7 +1244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// plus-square - Available in Solid, Regular
         /// </remarks>
-        public static Icon PlusSquare => FA5.Regular.PlusSquare;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("plus-square")]
+        PlusSquare,
 
         /// <summary>
         /// Question Circle
@@ -1006,7 +1254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// question-circle - Available in Solid, Regular
         /// </remarks>
-        public static Icon QuestionCircle => FA5.Regular.QuestionCircle;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("question-circle")]
+        QuestionCircle,
 
         /// <summary>
         /// Registered Trademark
@@ -1014,7 +1264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// registered - Available in Solid, Regular
         /// </remarks>
-        public static Icon Registered => FA5.Regular.Registered;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("registered")]
+        Registered,
 
         /// <summary>
         /// Crying Face
@@ -1022,7 +1274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// sad-cry - Available in Solid, Regular
         /// </remarks>
-        public static Icon SadCry => FA5.Regular.SadCry;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("sad-cry")]
+        SadCry,
 
         /// <summary>
         /// Loudly Crying Face
@@ -1030,7 +1284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// sad-tear - Available in Solid, Regular
         /// </remarks>
-        public static Icon SadTear => FA5.Regular.SadTear;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("sad-tear")]
+        SadTear,
 
         /// <summary>
         /// Save
@@ -1038,7 +1294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// save - Available in Solid, Regular
         /// </remarks>
-        public static Icon Save => FA5.Regular.Save;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("save")]
+        Save,
 
         /// <summary>
         /// Share Square
@@ -1046,7 +1304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// share-square - Available in Solid, Regular
         /// </remarks>
-        public static Icon ShareSquare => FA5.Regular.ShareSquare;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("share-square")]
+        ShareSquare,
 
         /// <summary>
         /// Smiling Face
@@ -1054,7 +1314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// smile - Available in Solid, Regular
         /// </remarks>
-        public static Icon Smile => FA5.Regular.Smile;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("smile")]
+        Smile,
 
         /// <summary>
         /// Beaming Face With Smiling Eyes
@@ -1062,7 +1324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// smile-beam - Available in Solid, Regular
         /// </remarks>
-        public static Icon SmileBeam => FA5.Regular.SmileBeam;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("smile-beam")]
+        SmileBeam,
 
         /// <summary>
         /// Winking Face
@@ -1070,7 +1334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// smile-wink - Available in Solid, Regular
         /// </remarks>
-        public static Icon SmileWink => FA5.Regular.SmileWink;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("smile-wink")]
+        SmileWink,
 
         /// <summary>
         /// Snowflake
@@ -1078,7 +1344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// snowflake - Available in Solid, Regular
         /// </remarks>
-        public static Icon Snowflake => FA5.Regular.Snowflake;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("snowflake")]
+        Snowflake,
 
         /// <summary>
         /// Square
@@ -1086,7 +1354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// square - Available in Solid, Regular
         /// </remarks>
-        public static Icon Square => FA5.Regular.Square;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("square")]
+        Square,
 
         /// <summary>
         /// Star
@@ -1094,7 +1364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// star - Available in Solid, Regular
         /// </remarks>
-        public static Icon Star => FA5.Regular.Star;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("star")]
+        Star,
 
         /// <summary>
         /// Star Half
@@ -1102,7 +1374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// star-half - Available in Solid, Regular
         /// </remarks>
-        public static Icon StarHalf => FA5.Regular.StarHalf;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("star-half")]
+        StarHalf,
 
         /// <summary>
         /// Sticky Note
@@ -1110,7 +1384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// sticky-note - Available in Solid, Regular
         /// </remarks>
-        public static Icon StickyNote => FA5.Regular.StickyNote;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("sticky-note")]
+        StickyNote,
 
         /// <summary>
         /// Stop Circle
@@ -1118,7 +1394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// stop-circle - Available in Solid, Regular
         /// </remarks>
-        public static Icon StopCircle => FA5.Regular.StopCircle;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("stop-circle")]
+        StopCircle,
 
         /// <summary>
         /// Sun
@@ -1126,7 +1404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// sun - Available in Solid, Regular
         /// </remarks>
-        public static Icon Sun => FA5.Regular.Sun;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("sun")]
+        Sun,
 
         /// <summary>
         /// Hushed Face
@@ -1134,7 +1414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// surprise - Available in Solid, Regular
         /// </remarks>
-        public static Icon Surprise => FA5.Regular.Surprise;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("surprise")]
+        Surprise,
 
         /// <summary>
         /// Thumbs Down
@@ -1142,7 +1424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// thumbs-down - Available in Solid, Regular
         /// </remarks>
-        public static Icon ThumbsDown => FA5.Regular.ThumbsDown;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("thumbs-down")]
+        ThumbsDown,
 
         /// <summary>
         /// Thumbs Up
@@ -1150,7 +1434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// thumbs-up - Available in Solid, Regular
         /// </remarks>
-        public static Icon ThumbsUp => FA5.Regular.ThumbsUp;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("thumbs-up")]
+        ThumbsUp,
 
         /// <summary>
         /// Times Circle
@@ -1158,7 +1444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// times-circle - Available in Solid, Regular
         /// </remarks>
-        public static Icon TimesCircle => FA5.Regular.TimesCircle;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("times-circle")]
+        TimesCircle,
 
         /// <summary>
         /// Tired Face
@@ -1166,7 +1454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// tired - Available in Solid, Regular
         /// </remarks>
-        public static Icon Tired => FA5.Regular.Tired;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("tired")]
+        Tired,
 
         /// <summary>
         /// Alternate Trash
@@ -1174,7 +1464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// trash-alt - Available in Solid, Regular
         /// </remarks>
-        public static Icon TrashAlt => FA5.Regular.TrashAlt;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("trash-alt")]
+        TrashAlt,
 
         /// <summary>
         /// User
@@ -1182,7 +1474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// user - Available in Solid, Regular
         /// </remarks>
-        public static Icon User => FA5.Regular.User;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("user")]
+        User,
 
         /// <summary>
         /// User Circle
@@ -1190,7 +1484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// user-circle - Available in Solid, Regular
         /// </remarks>
-        public static Icon UserCircle => FA5.Regular.UserCircle;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("user-circle")]
+        UserCircle,
 
         /// <summary>
         /// Window Close
@@ -1198,7 +1494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// window-close - Available in Solid, Regular
         /// </remarks>
-        public static Icon WindowClose => FA5.Regular.WindowClose;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("window-close")]
+        WindowClose,
 
         /// <summary>
         /// Window Maximize
@@ -1206,7 +1504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// window-maximize - Available in Solid, Regular
         /// </remarks>
-        public static Icon WindowMaximize => FA5.Regular.WindowMaximize;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("window-maximize")]
+        WindowMaximize,
 
         /// <summary>
         /// Window Minimize
@@ -1214,7 +1514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// window-minimize - Available in Solid, Regular
         /// </remarks>
-        public static Icon WindowMinimize => FA5.Regular.WindowMinimize;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("window-minimize")]
+        WindowMinimize,
 
         /// <summary>
         /// Window Restore
@@ -1222,7 +1524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// <remarks>
         /// window-restore - Available in Solid, Regular
         /// </remarks>
-        public static Icon WindowRestore => FA5.Regular.WindowRestore;
+        [FontAwesomeStyle(IconStyle.Regular)]
+        [FontAwesomeIconName("window-restore")]
+        WindowRestore,
 
     }
 }

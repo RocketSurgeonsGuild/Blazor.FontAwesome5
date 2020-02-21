@@ -119,17 +119,23 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
             {
                 values.Add(Class);
             }
-            values.Add(Position switch
-            {
-                IconCounterPosition.TopRight => "fa-layers-top-right",
-                IconCounterPosition.TopLeft => "fa-layers-top-left",
-                IconCounterPosition.BottomRight => "fa-layers-bottom-right",
-                IconCounterPosition.BottomLeft => "fa-layers-bottom-left",
-                _ => throw new NotSupportedException()
-            });
-            if (Inverse) values.Add("fa-inverse");
-            if (Spin) values.Add("fa-spinner");
-            else if (Pulse) values.Add("fa-pulse");
+
+            values.Add(
+                Position switch
+                {
+                    IconCounterPosition.TopRight    => "fa-layers-top-right",
+                    IconCounterPosition.TopLeft     => "fa-layers-top-left",
+                    IconCounterPosition.BottomRight => "fa-layers-bottom-right",
+                    IconCounterPosition.BottomLeft  => "fa-layers-bottom-left",
+                    _                               => throw new NotSupportedException()
+                }
+            );
+            if (Inverse)
+                values.Add("fa-inverse");
+            if (Spin)
+                values.Add("fa-spinner");
+            else if (Pulse)
+                values.Add("fa-pulse");
 
             return string.Join(" ", values);
         }
@@ -139,8 +145,11 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
             // <span class="@ToClass()" @attributes="GetAttributes()" style="@Style">@ChildContent</span>
             builder.OpenElement(0, "span");
             builder.AddAttribute(1, "class", ToClass());
-            builder.AddAttribute(2, "style", Style);
-            builder.AddAttribute(3, "data-fa-transform", this.ToTransform());
+            if (!string.IsNullOrWhiteSpace(Style))
+                builder.AddAttribute(2, "style", Style);
+            var transform = this.ToTransform();
+            if (!string.IsNullOrWhiteSpace(transform))
+                builder.AddAttribute(3, "data-fa-transform", transform);
             builder.AddMultipleAttributes(4, AdditionalAttributes);
             builder.AddContent(5, ChildContent);
             builder.CloseElement();

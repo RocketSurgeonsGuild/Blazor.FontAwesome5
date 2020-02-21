@@ -52,8 +52,8 @@ internal partial class Solution
                 {
                     var sb = new StringBuilder();
                     sb.AppendLine("using System;");
+                    sb.AppendLine("using Rocket.Surgery.Blazor.FontAwesome5;");
                     sb.AppendLine("using Rocket.Surgery.Blazor.FontAwesome5.Shared;");
-                    sb.AppendLine($"using FA5 = global::{@namespace}.FontAwesome;");
                     sb.AppendLine($"namespace {@namespace}");
                     sb.AppendLine("{");
                     sb.Append(str);
@@ -62,50 +62,6 @@ internal partial class Solution
                 }
 
                 var sb = new StringBuilder();
-                //sb.AppendLine("public struct Icon { public Icon(Style style, string name); public FontAwesomeStyle Style {get;set;} public string Name {get;set;} public override string ToString() { return \"<i class=\"{Style}\">\" }; }");
-                //sb.AppendLine($"public static class FontAwesome");
-                //sb.AppendLine("{");
-                foreach (var style in Enum.GetValues(typeof(FontAwesomeStyle)).OfType<FontAwesomeStyle>())
-                {
-                    var styleIcons = icons.Where(z => z.Styles.Any(s => s == style)).ToArray();
-                    if (!styleIcons.Any()) continue;
-                    sb.AppendLine($"    /// <summary>");
-                    sb.AppendLine($"    /// Font Awesome Icons");
-                    sb.AppendLine($"    /// </summary>");
-                    sb.AppendLine($"    public static partial class FontAwesome");
-                    sb.AppendLine("    {");
-                    sb.AppendLine($"        /// <summary>");
-                    sb.AppendLine($"        /// Font Awesome {style} Icons");
-                    sb.AppendLine($"        /// </summary>");
-                    sb.AppendLine($"        public static partial class {style}");
-                    sb.AppendLine("        {");
-                    foreach (var model in styleIcons)
-                    {
-                        sb.AppendLine($"            private static readonly Lazy<Icon> _{ToModelName(model).Camelize()} = new Lazy<Icon>(() => new Icon(IconStyle.{style}, \"{model.Name}\"));");
-                        sb.AppendLine($"            /// <summary>");
-                        sb.AppendLine($"            /// {model.Label.Titleize()}");
-                        sb.AppendLine($"            /// </summary>");
-                        sb.AppendLine($"            /// <remarks>");
-                        sb.AppendLine($"            /// {model.Name} - Available in {string.Join(", ", model.Styles)}");
-                        sb.AppendLine($"            /// </remarks>");
-                        sb.AppendLine($"            public static Icon {ToModelName(model).Pascalize()} => _{ToModelName(model).Camelize()}.Value;");
-                        sb.AppendLine("");
-                    }
-                    sb.AppendLine("        }");
-                    sb.AppendLine("    }");
-
-                    if (style == FontAwesomeStyle.Brands)
-                    {
-                        WriteAllText($@"{RootDirectory}\{sourcePath.Replace(".Free", "").Replace(".Pro", "")}.{style}\FontAwesome{style}.cs", UsingNamespace(@namespace.Replace(".Free", "").Replace(".Pro", "") + "." + style, sb.ToString()));
-                    }
-                    else
-                    {
-                        WriteAllText($@"{RootDirectory}\{sourcePath}.{style}\FontAwesome{style}.cs", UsingNamespace(@namespace, sb.ToString()));
-                    }
-                    sb = new StringBuilder();
-                }
-
-                sb = new StringBuilder();
                 foreach (var style in Enum.GetValues(typeof(FontAwesomeStyle)).OfType<FontAwesomeStyle>())
                 {
                     var styleIcons = icons.Where(z => z.Styles.Any(s => s == style));
@@ -113,7 +69,7 @@ internal partial class Solution
                     sb.AppendLine($"    /// <summary>");
                     sb.AppendLine($"    /// Font Awesome {ToPrefix(style).Pascalize()} Icons");
                     sb.AppendLine($"    /// </summary>");
-                    sb.AppendLine($"    public static partial class {ToPrefix(style).Pascalize()}");
+                    sb.AppendLine($"    public enum {ToPrefix(style).Pascalize()}");
                     sb.AppendLine("    {");
                     foreach (var model in styleIcons)
                     {
@@ -123,7 +79,9 @@ internal partial class Solution
                         sb.AppendLine($"        /// <remarks>");
                         sb.AppendLine($"        /// {model.Name} - Available in {string.Join(", ", model.Styles)}");
                         sb.AppendLine($"        /// </remarks>");
-                        sb.AppendLine($"        public static Icon {ToModelName(model).Pascalize()} => FA5.{style}.{ToModelName(model).Pascalize()};");
+                        sb.AppendLine($"        [FontAwesomeStyle(IconStyle.{style})]");
+                        sb.AppendLine($"        [FontAwesomeIconName(\"{model.Name}\")]");
+                        sb.AppendLine($"        {ToModelName(model).Pascalize()},");
                         sb.AppendLine("");
                     }
                     sb.AppendLine("    }");

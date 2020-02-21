@@ -2,7 +2,7 @@
 
 namespace Rocket.Surgery.Blazor.FontAwesome5
 {
-    [AttributeUsage(AttributeTargets.Enum)]
+    [AttributeUsage(AttributeTargets.Field)]
     public class FontAwesomeStyleAttribute : Attribute
     {
         public IconStyle IconStyle { get; }

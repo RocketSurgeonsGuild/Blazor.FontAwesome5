@@ -43,17 +43,20 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
             // <CascadingValue Value = "true" Name="IsInStack">
             //     <span class="@ToClass()" style="@Style">@ChildContent</span>
             // </CascadingValue>
-            builder.OpenComponent<CascadingValue<bool>>(0);
-            builder.AddAttribute(1, nameof(CascadingValue<bool>.Value), true);
-            builder.AddAttribute(2, nameof(CascadingValue<bool>.Name), nameof(FaIcon.IsInStack));
-            builder.AddContent(3, (b) =>
-            {
-                b.OpenElement(0, "span");
-                b.AddAttribute(1, "class", ToClass());
-                b.AddAttribute(2, "style", Style);
-                b.AddContent(3, ChildContent);
-                b.CloseElement();
-            });
+            builder.OpenComponent<CascadingValue<FaStack>>(0);
+            builder.AddAttribute(1, nameof(CascadingValue<FaStack>.Value), this);
+            builder.AddContent(
+                2,
+                (b) =>
+                {
+                    b.OpenElement(0, "span");
+                    b.AddAttribute(1, "class", ToClass());
+                    if (!string.IsNullOrWhiteSpace(Style))
+                        b.AddAttribute(2, "style", Style);
+                    b.AddContent(3, ChildContent);
+                    b.CloseElement();
+                }
+            );
             builder.CloseComponent();
         }
     }

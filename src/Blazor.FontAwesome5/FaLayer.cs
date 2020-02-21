@@ -36,7 +36,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
                 values.Add(Class);
             }
 
-            if (FixedWidth) values.Add("fa-fw");
+            if (FixedWidth)
+                values.Add("fa-fw");
 
             return string.Join(" ", values);
         }
@@ -46,8 +47,10 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
             // <span class="@ToClass()" style="@Style">@ChildContent</span>
             builder.OpenElement(0, "span");
             builder.AddAttribute(1, "class", ToClass());
-            builder.AddAttribute(2, "style", Style);
+            if (!string.IsNullOrWhiteSpace(Style))
+                builder.AddAttribute(2, "style", Style);
             builder.AddMultipleAttributes(3, AdditionalAttributes);
+            builder.AddContent(4, ChildContent);
             builder.CloseElement();
         }
     }

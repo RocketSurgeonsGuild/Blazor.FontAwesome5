@@ -1,12 +1,12 @@
 using System;
+using Rocket.Surgery.Blazor.FontAwesome5;
 using Rocket.Surgery.Blazor.FontAwesome5.Shared;
-using FA5 = global::Rocket.Surgery.Blazor.FontAwesome5.Brands.FontAwesome;
 namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
 {
     /// <summary>
     /// Font Awesome Fab Icons
     /// </summary>
-    public static partial class Fab
+    public enum Fab
     {
         /// <summary>
         /// 500px
@@ -14,7 +14,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// 500px - Available in Brands
         /// </remarks>
-        public static Icon _500px => FA5.Brands._500px;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("500px")]
+        _500px,
 
         /// <summary>
         /// Accessible Icon
@@ -22,7 +24,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// accessible-icon - Available in Brands
         /// </remarks>
-        public static Icon AccessibleIcon => FA5.Brands.AccessibleIcon;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("accessible-icon")]
+        AccessibleIcon,
 
         /// <summary>
         /// Accusoft
@@ -30,7 +34,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// accusoft - Available in Brands
         /// </remarks>
-        public static Icon Accusoft => FA5.Brands.Accusoft;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("accusoft")]
+        Accusoft,
 
         /// <summary>
         /// Acquisitions Incorporated
@@ -38,7 +44,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// acquisitions-incorporated - Available in Brands
         /// </remarks>
-        public static Icon AcquisitionsIncorporated => FA5.Brands.AcquisitionsIncorporated;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("acquisitions-incorporated")]
+        AcquisitionsIncorporated,
 
         /// <summary>
         /// App Net
@@ -46,7 +54,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// adn - Available in Brands
         /// </remarks>
-        public static Icon Adn => FA5.Brands.Adn;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("adn")]
+        Adn,
 
         /// <summary>
         /// Adobe
@@ -54,7 +64,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// adobe - Available in Brands
         /// </remarks>
-        public static Icon Adobe => FA5.Brands.Adobe;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("adobe")]
+        Adobe,
 
         /// <summary>
         /// Adversal
@@ -62,7 +74,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// adversal - Available in Brands
         /// </remarks>
-        public static Icon Adversal => FA5.Brands.Adversal;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("adversal")]
+        Adversal,
 
         /// <summary>
         /// Affiliatetheme
@@ -70,7 +84,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// affiliatetheme - Available in Brands
         /// </remarks>
-        public static Icon Affiliatetheme => FA5.Brands.Affiliatetheme;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("affiliatetheme")]
+        Affiliatetheme,
 
         /// <summary>
         /// Airbnb
@@ -78,7 +94,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// airbnb - Available in Brands
         /// </remarks>
-        public static Icon Airbnb => FA5.Brands.Airbnb;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("airbnb")]
+        Airbnb,
 
         /// <summary>
         /// Algolia
@@ -86,7 +104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// algolia - Available in Brands
         /// </remarks>
-        public static Icon Algolia => FA5.Brands.Algolia;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("algolia")]
+        Algolia,
 
         /// <summary>
         /// Alipay
@@ -94,7 +114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// alipay - Available in Brands
         /// </remarks>
-        public static Icon Alipay => FA5.Brands.Alipay;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("alipay")]
+        Alipay,
 
         /// <summary>
         /// Amazon
@@ -102,7 +124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// amazon - Available in Brands
         /// </remarks>
-        public static Icon Amazon => FA5.Brands.Amazon;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("amazon")]
+        Amazon,
 
         /// <summary>
         /// Amazon Pay
@@ -110,7 +134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// amazon-pay - Available in Brands
         /// </remarks>
-        public static Icon AmazonPay => FA5.Brands.AmazonPay;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("amazon-pay")]
+        AmazonPay,
 
         /// <summary>
         /// Amilia
@@ -118,7 +144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// amilia - Available in Brands
         /// </remarks>
-        public static Icon Amilia => FA5.Brands.Amilia;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("amilia")]
+        Amilia,
 
         /// <summary>
         /// Android
@@ -126,7 +154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// android - Available in Brands
         /// </remarks>
-        public static Icon Android => FA5.Brands.Android;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("android")]
+        Android,
 
         /// <summary>
         /// Angel List
@@ -134,7 +164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// angellist - Available in Brands
         /// </remarks>
-        public static Icon Angellist => FA5.Brands.Angellist;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("angellist")]
+        Angellist,
 
         /// <summary>
         /// Angry Creative
@@ -142,7 +174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// angrycreative - Available in Brands
         /// </remarks>
-        public static Icon Angrycreative => FA5.Brands.Angrycreative;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("angrycreative")]
+        Angrycreative,
 
         /// <summary>
         /// Angular
@@ -150,7 +184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// angular - Available in Brands
         /// </remarks>
-        public static Icon Angular => FA5.Brands.Angular;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("angular")]
+        Angular,
 
         /// <summary>
         /// App Store
@@ -158,7 +194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// app-store - Available in Brands
         /// </remarks>
-        public static Icon AppStore => FA5.Brands.AppStore;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("app-store")]
+        AppStore,
 
         /// <summary>
         /// I OS App Store
@@ -166,7 +204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// app-store-ios - Available in Brands
         /// </remarks>
-        public static Icon AppStoreIos => FA5.Brands.AppStoreIos;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("app-store-ios")]
+        AppStoreIos,
 
         /// <summary>
         /// Apper Systems AB
@@ -174,7 +214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// apper - Available in Brands
         /// </remarks>
-        public static Icon Apper => FA5.Brands.Apper;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("apper")]
+        Apper,
 
         /// <summary>
         /// Apple
@@ -182,7 +224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// apple - Available in Brands
         /// </remarks>
-        public static Icon Apple => FA5.Brands.Apple;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("apple")]
+        Apple,
 
         /// <summary>
         /// Apple Pay
@@ -190,7 +234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// apple-pay - Available in Brands
         /// </remarks>
-        public static Icon ApplePay => FA5.Brands.ApplePay;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("apple-pay")]
+        ApplePay,
 
         /// <summary>
         /// Artstation
@@ -198,7 +244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// artstation - Available in Brands
         /// </remarks>
-        public static Icon Artstation => FA5.Brands.Artstation;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("artstation")]
+        Artstation,
 
         /// <summary>
         /// Asymmetrik Ltd
@@ -206,7 +254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// asymmetrik - Available in Brands
         /// </remarks>
-        public static Icon Asymmetrik => FA5.Brands.Asymmetrik;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("asymmetrik")]
+        Asymmetrik,
 
         /// <summary>
         /// Atlassian
@@ -214,7 +264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// atlassian - Available in Brands
         /// </remarks>
-        public static Icon Atlassian => FA5.Brands.Atlassian;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("atlassian")]
+        Atlassian,
 
         /// <summary>
         /// Audible
@@ -222,7 +274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// audible - Available in Brands
         /// </remarks>
-        public static Icon Audible => FA5.Brands.Audible;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("audible")]
+        Audible,
 
         /// <summary>
         /// Autoprefixer
@@ -230,7 +284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// autoprefixer - Available in Brands
         /// </remarks>
-        public static Icon Autoprefixer => FA5.Brands.Autoprefixer;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("autoprefixer")]
+        Autoprefixer,
 
         /// <summary>
         /// Avianex
@@ -238,7 +294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// avianex - Available in Brands
         /// </remarks>
-        public static Icon Avianex => FA5.Brands.Avianex;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("avianex")]
+        Avianex,
 
         /// <summary>
         /// Aviato
@@ -246,7 +304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// aviato - Available in Brands
         /// </remarks>
-        public static Icon Aviato => FA5.Brands.Aviato;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("aviato")]
+        Aviato,
 
         /// <summary>
         /// Amazon Web Services AWS
@@ -254,7 +314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// aws - Available in Brands
         /// </remarks>
-        public static Icon Aws => FA5.Brands.Aws;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("aws")]
+        Aws,
 
         /// <summary>
         /// Bandcamp
@@ -262,7 +324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// bandcamp - Available in Brands
         /// </remarks>
-        public static Icon Bandcamp => FA5.Brands.Bandcamp;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("bandcamp")]
+        Bandcamp,
 
         /// <summary>
         /// Battle Net
@@ -270,7 +334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// battle-net - Available in Brands
         /// </remarks>
-        public static Icon BattleNet => FA5.Brands.BattleNet;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("battle-net")]
+        BattleNet,
 
         /// <summary>
         /// Behance
@@ -278,7 +344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// behance - Available in Brands
         /// </remarks>
-        public static Icon Behance => FA5.Brands.Behance;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("behance")]
+        Behance,
 
         /// <summary>
         /// Behance Square
@@ -286,7 +354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// behance-square - Available in Brands
         /// </remarks>
-        public static Icon BehanceSquare => FA5.Brands.BehanceSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("behance-square")]
+        BehanceSquare,
 
         /// <summary>
         /// BI Mobject
@@ -294,7 +364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// bimobject - Available in Brands
         /// </remarks>
-        public static Icon Bimobject => FA5.Brands.Bimobject;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("bimobject")]
+        Bimobject,
 
         /// <summary>
         /// Bitbucket
@@ -302,7 +374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// bitbucket - Available in Brands
         /// </remarks>
-        public static Icon Bitbucket => FA5.Brands.Bitbucket;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("bitbucket")]
+        Bitbucket,
 
         /// <summary>
         /// Bitcoin
@@ -310,7 +384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// bitcoin - Available in Brands
         /// </remarks>
-        public static Icon Bitcoin => FA5.Brands.Bitcoin;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("bitcoin")]
+        Bitcoin,
 
         /// <summary>
         /// Bity
@@ -318,7 +394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// bity - Available in Brands
         /// </remarks>
-        public static Icon Bity => FA5.Brands.Bity;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("bity")]
+        Bity,
 
         /// <summary>
         /// Font Awesome Black Tie
@@ -326,7 +404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// black-tie - Available in Brands
         /// </remarks>
-        public static Icon BlackTie => FA5.Brands.BlackTie;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("black-tie")]
+        BlackTie,
 
         /// <summary>
         /// Black Berry
@@ -334,7 +414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// blackberry - Available in Brands
         /// </remarks>
-        public static Icon Blackberry => FA5.Brands.Blackberry;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("blackberry")]
+        Blackberry,
 
         /// <summary>
         /// Blogger
@@ -342,7 +424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// blogger - Available in Brands
         /// </remarks>
-        public static Icon Blogger => FA5.Brands.Blogger;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("blogger")]
+        Blogger,
 
         /// <summary>
         /// Blogger B
@@ -350,7 +434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// blogger-b - Available in Brands
         /// </remarks>
-        public static Icon BloggerB => FA5.Brands.BloggerB;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("blogger-b")]
+        BloggerB,
 
         /// <summary>
         /// Bluetooth
@@ -358,7 +444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// bluetooth - Available in Brands
         /// </remarks>
-        public static Icon Bluetooth => FA5.Brands.Bluetooth;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("bluetooth")]
+        Bluetooth,
 
         /// <summary>
         /// Bluetooth
@@ -366,7 +454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// bluetooth-b - Available in Brands
         /// </remarks>
-        public static Icon BluetoothB => FA5.Brands.BluetoothB;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("bluetooth-b")]
+        BluetoothB,
 
         /// <summary>
         /// Bootstrap
@@ -374,7 +464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// bootstrap - Available in Brands
         /// </remarks>
-        public static Icon Bootstrap => FA5.Brands.Bootstrap;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("bootstrap")]
+        Bootstrap,
 
         /// <summary>
         /// BTC
@@ -382,7 +474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// btc - Available in Brands
         /// </remarks>
-        public static Icon Btc => FA5.Brands.Btc;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("btc")]
+        Btc,
 
         /// <summary>
         /// Buffer
@@ -390,7 +484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// buffer - Available in Brands
         /// </remarks>
-        public static Icon Buffer => FA5.Brands.Buffer;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("buffer")]
+        Buffer,
 
         /// <summary>
         /// Büromöbel Experte Gmbh & Co. KG.
@@ -398,7 +494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// buromobelexperte - Available in Brands
         /// </remarks>
-        public static Icon Buromobelexperte => FA5.Brands.Buromobelexperte;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("buromobelexperte")]
+        Buromobelexperte,
 
         /// <summary>
         /// Buy N Large
@@ -406,7 +504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// buy-n-large - Available in Brands
         /// </remarks>
-        public static Icon BuyNLarge => FA5.Brands.BuyNLarge;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("buy-n-large")]
+        BuyNLarge,
 
         /// <summary>
         /// Buy Sell Ads
@@ -414,7 +514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// buysellads - Available in Brands
         /// </remarks>
-        public static Icon Buysellads => FA5.Brands.Buysellads;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("buysellads")]
+        Buysellads,
 
         /// <summary>
         /// Canadian Maple Leaf
@@ -422,7 +524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// canadian-maple-leaf - Available in Brands
         /// </remarks>
-        public static Icon CanadianMapleLeaf => FA5.Brands.CanadianMapleLeaf;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("canadian-maple-leaf")]
+        CanadianMapleLeaf,
 
         /// <summary>
         /// Amazon Pay Credit Card
@@ -430,7 +534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cc-amazon-pay - Available in Brands
         /// </remarks>
-        public static Icon CcAmazonPay => FA5.Brands.CcAmazonPay;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cc-amazon-pay")]
+        CcAmazonPay,
 
         /// <summary>
         /// American Express Credit Card
@@ -438,7 +544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cc-amex - Available in Brands
         /// </remarks>
-        public static Icon CcAmex => FA5.Brands.CcAmex;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cc-amex")]
+        CcAmex,
 
         /// <summary>
         /// Apple Pay Credit Card
@@ -446,7 +554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cc-apple-pay - Available in Brands
         /// </remarks>
-        public static Icon CcApplePay => FA5.Brands.CcApplePay;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cc-apple-pay")]
+        CcApplePay,
 
         /// <summary>
         /// Diner S Club Credit Card
@@ -454,7 +564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cc-diners-club - Available in Brands
         /// </remarks>
-        public static Icon CcDinersClub => FA5.Brands.CcDinersClub;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cc-diners-club")]
+        CcDinersClub,
 
         /// <summary>
         /// Discover Credit Card
@@ -462,7 +574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cc-discover - Available in Brands
         /// </remarks>
-        public static Icon CcDiscover => FA5.Brands.CcDiscover;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cc-discover")]
+        CcDiscover,
 
         /// <summary>
         /// JCB Credit Card
@@ -470,7 +584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cc-jcb - Available in Brands
         /// </remarks>
-        public static Icon CcJcb => FA5.Brands.CcJcb;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cc-jcb")]
+        CcJcb,
 
         /// <summary>
         /// Master Card Credit Card
@@ -478,7 +594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cc-mastercard - Available in Brands
         /// </remarks>
-        public static Icon CcMastercard => FA5.Brands.CcMastercard;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cc-mastercard")]
+        CcMastercard,
 
         /// <summary>
         /// Paypal Credit Card
@@ -486,7 +604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cc-paypal - Available in Brands
         /// </remarks>
-        public static Icon CcPaypal => FA5.Brands.CcPaypal;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cc-paypal")]
+        CcPaypal,
 
         /// <summary>
         /// Stripe Credit Card
@@ -494,7 +614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cc-stripe - Available in Brands
         /// </remarks>
-        public static Icon CcStripe => FA5.Brands.CcStripe;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cc-stripe")]
+        CcStripe,
 
         /// <summary>
         /// Visa Credit Card
@@ -502,7 +624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cc-visa - Available in Brands
         /// </remarks>
-        public static Icon CcVisa => FA5.Brands.CcVisa;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cc-visa")]
+        CcVisa,
 
         /// <summary>
         /// Centercode
@@ -510,7 +634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// centercode - Available in Brands
         /// </remarks>
-        public static Icon Centercode => FA5.Brands.Centercode;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("centercode")]
+        Centercode,
 
         /// <summary>
         /// Centos
@@ -518,7 +644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// centos - Available in Brands
         /// </remarks>
-        public static Icon Centos => FA5.Brands.Centos;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("centos")]
+        Centos,
 
         /// <summary>
         /// Chrome
@@ -526,7 +654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// chrome - Available in Brands
         /// </remarks>
-        public static Icon Chrome => FA5.Brands.Chrome;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("chrome")]
+        Chrome,
 
         /// <summary>
         /// Chromecast
@@ -534,7 +664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// chromecast - Available in Brands
         /// </remarks>
-        public static Icon Chromecast => FA5.Brands.Chromecast;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("chromecast")]
+        Chromecast,
 
         /// <summary>
         /// Cloudscale Ch
@@ -542,7 +674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cloudscale - Available in Brands
         /// </remarks>
-        public static Icon Cloudscale => FA5.Brands.Cloudscale;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cloudscale")]
+        Cloudscale,
 
         /// <summary>
         /// Cloudsmith
@@ -550,7 +684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cloudsmith - Available in Brands
         /// </remarks>
-        public static Icon Cloudsmith => FA5.Brands.Cloudsmith;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cloudsmith")]
+        Cloudsmith,
 
         /// <summary>
         /// Cloudversify
@@ -558,7 +694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cloudversify - Available in Brands
         /// </remarks>
-        public static Icon Cloudversify => FA5.Brands.Cloudversify;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cloudversify")]
+        Cloudversify,
 
         /// <summary>
         /// Codepen
@@ -566,7 +704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// codepen - Available in Brands
         /// </remarks>
-        public static Icon Codepen => FA5.Brands.Codepen;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("codepen")]
+        Codepen,
 
         /// <summary>
         /// Codie Pie
@@ -574,7 +714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// codiepie - Available in Brands
         /// </remarks>
-        public static Icon Codiepie => FA5.Brands.Codiepie;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("codiepie")]
+        Codiepie,
 
         /// <summary>
         /// Confluence
@@ -582,7 +724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// confluence - Available in Brands
         /// </remarks>
-        public static Icon Confluence => FA5.Brands.Confluence;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("confluence")]
+        Confluence,
 
         /// <summary>
         /// Connect Develop
@@ -590,7 +734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// connectdevelop - Available in Brands
         /// </remarks>
-        public static Icon Connectdevelop => FA5.Brands.Connectdevelop;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("connectdevelop")]
+        Connectdevelop,
 
         /// <summary>
         /// Contao
@@ -598,7 +744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// contao - Available in Brands
         /// </remarks>
-        public static Icon Contao => FA5.Brands.Contao;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("contao")]
+        Contao,
 
         /// <summary>
         /// Cotton Bureau
@@ -606,7 +754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cotton-bureau - Available in Brands
         /// </remarks>
-        public static Icon CottonBureau => FA5.Brands.CottonBureau;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cotton-bureau")]
+        CottonBureau,
 
         /// <summary>
         /// C Panel
@@ -614,7 +764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cpanel - Available in Brands
         /// </remarks>
-        public static Icon Cpanel => FA5.Brands.Cpanel;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cpanel")]
+        Cpanel,
 
         /// <summary>
         /// Creative Commons
@@ -622,7 +774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// creative-commons - Available in Brands
         /// </remarks>
-        public static Icon CreativeCommons => FA5.Brands.CreativeCommons;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("creative-commons")]
+        CreativeCommons,
 
         /// <summary>
         /// Creative Commons Attribution
@@ -630,7 +784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// creative-commons-by - Available in Brands
         /// </remarks>
-        public static Icon CreativeCommonsBy => FA5.Brands.CreativeCommonsBy;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("creative-commons-by")]
+        CreativeCommonsBy,
 
         /// <summary>
         /// Creative Commons Noncommercial
@@ -638,7 +794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// creative-commons-nc - Available in Brands
         /// </remarks>
-        public static Icon CreativeCommonsNc => FA5.Brands.CreativeCommonsNc;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("creative-commons-nc")]
+        CreativeCommonsNc,
 
         /// <summary>
         /// Creative Commons Noncommercial Euro Sign
@@ -646,7 +804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// creative-commons-nc-eu - Available in Brands
         /// </remarks>
-        public static Icon CreativeCommonsNcEu => FA5.Brands.CreativeCommonsNcEu;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("creative-commons-nc-eu")]
+        CreativeCommonsNcEu,
 
         /// <summary>
         /// Creative Commons Noncommercial Yen Sign
@@ -654,7 +814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// creative-commons-nc-jp - Available in Brands
         /// </remarks>
-        public static Icon CreativeCommonsNcJp => FA5.Brands.CreativeCommonsNcJp;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("creative-commons-nc-jp")]
+        CreativeCommonsNcJp,
 
         /// <summary>
         /// Creative Commons No Derivative Works
@@ -662,7 +824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// creative-commons-nd - Available in Brands
         /// </remarks>
-        public static Icon CreativeCommonsNd => FA5.Brands.CreativeCommonsNd;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("creative-commons-nd")]
+        CreativeCommonsNd,
 
         /// <summary>
         /// Creative Commons Public Domain
@@ -670,7 +834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// creative-commons-pd - Available in Brands
         /// </remarks>
-        public static Icon CreativeCommonsPd => FA5.Brands.CreativeCommonsPd;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("creative-commons-pd")]
+        CreativeCommonsPd,
 
         /// <summary>
         /// Alternate Creative Commons Public Domain
@@ -678,7 +844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// creative-commons-pd-alt - Available in Brands
         /// </remarks>
-        public static Icon CreativeCommonsPdAlt => FA5.Brands.CreativeCommonsPdAlt;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("creative-commons-pd-alt")]
+        CreativeCommonsPdAlt,
 
         /// <summary>
         /// Creative Commons Remix
@@ -686,7 +854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// creative-commons-remix - Available in Brands
         /// </remarks>
-        public static Icon CreativeCommonsRemix => FA5.Brands.CreativeCommonsRemix;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("creative-commons-remix")]
+        CreativeCommonsRemix,
 
         /// <summary>
         /// Creative Commons Share Alike
@@ -694,7 +864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// creative-commons-sa - Available in Brands
         /// </remarks>
-        public static Icon CreativeCommonsSa => FA5.Brands.CreativeCommonsSa;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("creative-commons-sa")]
+        CreativeCommonsSa,
 
         /// <summary>
         /// Creative Commons Sampling
@@ -702,7 +874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// creative-commons-sampling - Available in Brands
         /// </remarks>
-        public static Icon CreativeCommonsSampling => FA5.Brands.CreativeCommonsSampling;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("creative-commons-sampling")]
+        CreativeCommonsSampling,
 
         /// <summary>
         /// Creative Commons Sampling
@@ -710,7 +884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// creative-commons-sampling-plus - Available in Brands
         /// </remarks>
-        public static Icon CreativeCommonsSamplingPlus => FA5.Brands.CreativeCommonsSamplingPlus;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("creative-commons-sampling-plus")]
+        CreativeCommonsSamplingPlus,
 
         /// <summary>
         /// Creative Commons Share
@@ -718,7 +894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// creative-commons-share - Available in Brands
         /// </remarks>
-        public static Icon CreativeCommonsShare => FA5.Brands.CreativeCommonsShare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("creative-commons-share")]
+        CreativeCommonsShare,
 
         /// <summary>
         /// Creative Commons CC 0
@@ -726,7 +904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// creative-commons-zero - Available in Brands
         /// </remarks>
-        public static Icon CreativeCommonsZero => FA5.Brands.CreativeCommonsZero;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("creative-commons-zero")]
+        CreativeCommonsZero,
 
         /// <summary>
         /// Critical Role
@@ -734,7 +914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// critical-role - Available in Brands
         /// </remarks>
-        public static Icon CriticalRole => FA5.Brands.CriticalRole;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("critical-role")]
+        CriticalRole,
 
         /// <summary>
         /// CSS 3 Logo
@@ -742,7 +924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// css3 - Available in Brands
         /// </remarks>
-        public static Icon Css3 => FA5.Brands.Css3;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("css3")]
+        Css3,
 
         /// <summary>
         /// Alternate CSS 3 Logo
@@ -750,7 +934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// css3-alt - Available in Brands
         /// </remarks>
-        public static Icon Css3Alt => FA5.Brands.Css3Alt;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("css3-alt")]
+        Css3Alt,
 
         /// <summary>
         /// Cuttlefish
@@ -758,7 +944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// cuttlefish - Available in Brands
         /// </remarks>
-        public static Icon Cuttlefish => FA5.Brands.Cuttlefish;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("cuttlefish")]
+        Cuttlefish,
 
         /// <summary>
         /// Dungeons Dragons
@@ -766,7 +954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// d-and-d - Available in Brands
         /// </remarks>
-        public static Icon DAndD => FA5.Brands.DAndD;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("d-and-d")]
+        DAndD,
 
         /// <summary>
         /// D D Beyond
@@ -774,7 +964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// d-and-d-beyond - Available in Brands
         /// </remarks>
-        public static Icon DAndDBeyond => FA5.Brands.DAndDBeyond;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("d-and-d-beyond")]
+        DAndDBeyond,
 
         /// <summary>
         /// Dailymotion
@@ -782,7 +974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// dailymotion - Available in Brands
         /// </remarks>
-        public static Icon Dailymotion => FA5.Brands.Dailymotion;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("dailymotion")]
+        Dailymotion,
 
         /// <summary>
         /// Dash Cube
@@ -790,7 +984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// dashcube - Available in Brands
         /// </remarks>
-        public static Icon Dashcube => FA5.Brands.Dashcube;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("dashcube")]
+        Dashcube,
 
         /// <summary>
         /// Delicious
@@ -798,7 +994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// delicious - Available in Brands
         /// </remarks>
-        public static Icon Delicious => FA5.Brands.Delicious;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("delicious")]
+        Delicious,
 
         /// <summary>
         /// Deploy Dog
@@ -806,7 +1004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// deploydog - Available in Brands
         /// </remarks>
-        public static Icon Deploydog => FA5.Brands.Deploydog;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("deploydog")]
+        Deploydog,
 
         /// <summary>
         /// Deskpro
@@ -814,7 +1014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// deskpro - Available in Brands
         /// </remarks>
-        public static Icon Deskpro => FA5.Brands.Deskpro;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("deskpro")]
+        Deskpro,
 
         /// <summary>
         /// DEV
@@ -822,7 +1024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// dev - Available in Brands
         /// </remarks>
-        public static Icon Dev => FA5.Brands.Dev;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("dev")]
+        Dev,
 
         /// <summary>
         /// Deviant ART
@@ -830,7 +1034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// deviantart - Available in Brands
         /// </remarks>
-        public static Icon Deviantart => FA5.Brands.Deviantart;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("deviantart")]
+        Deviantart,
 
         /// <summary>
         /// DHL
@@ -838,7 +1044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// dhl - Available in Brands
         /// </remarks>
-        public static Icon Dhl => FA5.Brands.Dhl;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("dhl")]
+        Dhl,
 
         /// <summary>
         /// Diaspora
@@ -846,7 +1054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// diaspora - Available in Brands
         /// </remarks>
-        public static Icon Diaspora => FA5.Brands.Diaspora;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("diaspora")]
+        Diaspora,
 
         /// <summary>
         /// Digg Logo
@@ -854,7 +1064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// digg - Available in Brands
         /// </remarks>
-        public static Icon Digg => FA5.Brands.Digg;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("digg")]
+        Digg,
 
         /// <summary>
         /// Digital Ocean
@@ -862,7 +1074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// digital-ocean - Available in Brands
         /// </remarks>
-        public static Icon DigitalOcean => FA5.Brands.DigitalOcean;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("digital-ocean")]
+        DigitalOcean,
 
         /// <summary>
         /// Discord
@@ -870,7 +1084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// discord - Available in Brands
         /// </remarks>
-        public static Icon Discord => FA5.Brands.Discord;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("discord")]
+        Discord,
 
         /// <summary>
         /// Discourse
@@ -878,7 +1094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// discourse - Available in Brands
         /// </remarks>
-        public static Icon Discourse => FA5.Brands.Discourse;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("discourse")]
+        Discourse,
 
         /// <summary>
         /// Doc Hub
@@ -886,7 +1104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// dochub - Available in Brands
         /// </remarks>
-        public static Icon Dochub => FA5.Brands.Dochub;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("dochub")]
+        Dochub,
 
         /// <summary>
         /// Docker
@@ -894,7 +1114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// docker - Available in Brands
         /// </remarks>
-        public static Icon Docker => FA5.Brands.Docker;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("docker")]
+        Docker,
 
         /// <summary>
         /// Draft 2digital
@@ -902,7 +1124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// draft2digital - Available in Brands
         /// </remarks>
-        public static Icon Draft2digital => FA5.Brands.Draft2digital;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("draft2digital")]
+        Draft2digital,
 
         /// <summary>
         /// Dribbble
@@ -910,7 +1134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// dribbble - Available in Brands
         /// </remarks>
-        public static Icon Dribbble => FA5.Brands.Dribbble;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("dribbble")]
+        Dribbble,
 
         /// <summary>
         /// Dribbble Square
@@ -918,7 +1144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// dribbble-square - Available in Brands
         /// </remarks>
-        public static Icon DribbbleSquare => FA5.Brands.DribbbleSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("dribbble-square")]
+        DribbbleSquare,
 
         /// <summary>
         /// Dropbox
@@ -926,7 +1154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// dropbox - Available in Brands
         /// </remarks>
-        public static Icon Dropbox => FA5.Brands.Dropbox;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("dropbox")]
+        Dropbox,
 
         /// <summary>
         /// Drupal Logo
@@ -934,7 +1164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// drupal - Available in Brands
         /// </remarks>
-        public static Icon Drupal => FA5.Brands.Drupal;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("drupal")]
+        Drupal,
 
         /// <summary>
         /// Dyalog
@@ -942,7 +1174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// dyalog - Available in Brands
         /// </remarks>
-        public static Icon Dyalog => FA5.Brands.Dyalog;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("dyalog")]
+        Dyalog,
 
         /// <summary>
         /// Earlybirds
@@ -950,7 +1184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// earlybirds - Available in Brands
         /// </remarks>
-        public static Icon Earlybirds => FA5.Brands.Earlybirds;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("earlybirds")]
+        Earlybirds,
 
         /// <summary>
         /// E Bay
@@ -958,7 +1194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// ebay - Available in Brands
         /// </remarks>
-        public static Icon Ebay => FA5.Brands.Ebay;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("ebay")]
+        Ebay,
 
         /// <summary>
         /// Edge Browser
@@ -966,7 +1204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// edge - Available in Brands
         /// </remarks>
-        public static Icon Edge => FA5.Brands.Edge;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("edge")]
+        Edge,
 
         /// <summary>
         /// Elementor
@@ -974,7 +1214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// elementor - Available in Brands
         /// </remarks>
-        public static Icon Elementor => FA5.Brands.Elementor;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("elementor")]
+        Elementor,
 
         /// <summary>
         /// Ello
@@ -982,7 +1224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// ello - Available in Brands
         /// </remarks>
-        public static Icon Ello => FA5.Brands.Ello;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("ello")]
+        Ello,
 
         /// <summary>
         /// Ember
@@ -990,7 +1234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// ember - Available in Brands
         /// </remarks>
-        public static Icon Ember => FA5.Brands.Ember;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("ember")]
+        Ember,
 
         /// <summary>
         /// Galactic Empire
@@ -998,7 +1244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// empire - Available in Brands
         /// </remarks>
-        public static Icon Empire => FA5.Brands.Empire;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("empire")]
+        Empire,
 
         /// <summary>
         /// Envira Gallery
@@ -1006,7 +1254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// envira - Available in Brands
         /// </remarks>
-        public static Icon Envira => FA5.Brands.Envira;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("envira")]
+        Envira,
 
         /// <summary>
         /// Erlang
@@ -1014,7 +1264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// erlang - Available in Brands
         /// </remarks>
-        public static Icon Erlang => FA5.Brands.Erlang;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("erlang")]
+        Erlang,
 
         /// <summary>
         /// Ethereum
@@ -1022,7 +1274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// ethereum - Available in Brands
         /// </remarks>
-        public static Icon Ethereum => FA5.Brands.Ethereum;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("ethereum")]
+        Ethereum,
 
         /// <summary>
         /// Etsy
@@ -1030,7 +1284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// etsy - Available in Brands
         /// </remarks>
-        public static Icon Etsy => FA5.Brands.Etsy;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("etsy")]
+        Etsy,
 
         /// <summary>
         /// Evernote
@@ -1038,7 +1294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// evernote - Available in Brands
         /// </remarks>
-        public static Icon Evernote => FA5.Brands.Evernote;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("evernote")]
+        Evernote,
 
         /// <summary>
         /// Expedited SSL
@@ -1046,7 +1304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// expeditedssl - Available in Brands
         /// </remarks>
-        public static Icon Expeditedssl => FA5.Brands.Expeditedssl;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("expeditedssl")]
+        Expeditedssl,
 
         /// <summary>
         /// Facebook
@@ -1054,7 +1314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// facebook - Available in Brands
         /// </remarks>
-        public static Icon Facebook => FA5.Brands.Facebook;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("facebook")]
+        Facebook,
 
         /// <summary>
         /// Facebook F
@@ -1062,7 +1324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// facebook-f - Available in Brands
         /// </remarks>
-        public static Icon FacebookF => FA5.Brands.FacebookF;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("facebook-f")]
+        FacebookF,
 
         /// <summary>
         /// Facebook Messenger
@@ -1070,7 +1334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// facebook-messenger - Available in Brands
         /// </remarks>
-        public static Icon FacebookMessenger => FA5.Brands.FacebookMessenger;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("facebook-messenger")]
+        FacebookMessenger,
 
         /// <summary>
         /// Facebook Square
@@ -1078,7 +1344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// facebook-square - Available in Brands
         /// </remarks>
-        public static Icon FacebookSquare => FA5.Brands.FacebookSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("facebook-square")]
+        FacebookSquare,
 
         /// <summary>
         /// Fantasy Flight Games
@@ -1086,7 +1354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// fantasy-flight-games - Available in Brands
         /// </remarks>
-        public static Icon FantasyFlightGames => FA5.Brands.FantasyFlightGames;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("fantasy-flight-games")]
+        FantasyFlightGames,
 
         /// <summary>
         /// Fed Ex
@@ -1094,7 +1364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// fedex - Available in Brands
         /// </remarks>
-        public static Icon Fedex => FA5.Brands.Fedex;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("fedex")]
+        Fedex,
 
         /// <summary>
         /// Fedora
@@ -1102,7 +1374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// fedora - Available in Brands
         /// </remarks>
-        public static Icon Fedora => FA5.Brands.Fedora;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("fedora")]
+        Fedora,
 
         /// <summary>
         /// Figma
@@ -1110,7 +1384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// figma - Available in Brands
         /// </remarks>
-        public static Icon Figma => FA5.Brands.Figma;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("figma")]
+        Figma,
 
         /// <summary>
         /// Firefox
@@ -1118,7 +1394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// firefox - Available in Brands
         /// </remarks>
-        public static Icon Firefox => FA5.Brands.Firefox;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("firefox")]
+        Firefox,
 
         /// <summary>
         /// Firefox Browser
@@ -1126,7 +1404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// firefox-browser - Available in Brands
         /// </remarks>
-        public static Icon FirefoxBrowser => FA5.Brands.FirefoxBrowser;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("firefox-browser")]
+        FirefoxBrowser,
 
         /// <summary>
         /// First Order
@@ -1134,7 +1414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// first-order - Available in Brands
         /// </remarks>
-        public static Icon FirstOrder => FA5.Brands.FirstOrder;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("first-order")]
+        FirstOrder,
 
         /// <summary>
         /// Alternate First Order
@@ -1142,7 +1424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// first-order-alt - Available in Brands
         /// </remarks>
-        public static Icon FirstOrderAlt => FA5.Brands.FirstOrderAlt;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("first-order-alt")]
+        FirstOrderAlt,
 
         /// <summary>
         /// Firstdraft
@@ -1150,7 +1434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// firstdraft - Available in Brands
         /// </remarks>
-        public static Icon Firstdraft => FA5.Brands.Firstdraft;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("firstdraft")]
+        Firstdraft,
 
         /// <summary>
         /// Flickr
@@ -1158,7 +1444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// flickr - Available in Brands
         /// </remarks>
-        public static Icon Flickr => FA5.Brands.Flickr;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("flickr")]
+        Flickr,
 
         /// <summary>
         /// Flipboard
@@ -1166,7 +1454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// flipboard - Available in Brands
         /// </remarks>
-        public static Icon Flipboard => FA5.Brands.Flipboard;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("flipboard")]
+        Flipboard,
 
         /// <summary>
         /// Fly
@@ -1174,7 +1464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// fly - Available in Brands
         /// </remarks>
-        public static Icon Fly => FA5.Brands.Fly;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("fly")]
+        Fly,
 
         /// <summary>
         /// Font Awesome
@@ -1182,7 +1474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// font-awesome - Available in Brands
         /// </remarks>
-        public static Icon FontAwesome => FA5.Brands.FontAwesome;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("font-awesome")]
+        FontAwesome,
 
         /// <summary>
         /// Alternate Font Awesome
@@ -1190,7 +1484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// font-awesome-alt - Available in Brands
         /// </remarks>
-        public static Icon FontAwesomeAlt => FA5.Brands.FontAwesomeAlt;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("font-awesome-alt")]
+        FontAwesomeAlt,
 
         /// <summary>
         /// Font Awesome Flag
@@ -1198,7 +1494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// font-awesome-flag - Available in Brands
         /// </remarks>
-        public static Icon FontAwesomeFlag => FA5.Brands.FontAwesomeFlag;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("font-awesome-flag")]
+        FontAwesomeFlag,
 
         /// <summary>
         /// Font Awesome Full Logo
@@ -1206,7 +1504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// font-awesome-logo-full - Available in Solid, Regular, Light, Brands, Duotone
         /// </remarks>
-        public static Icon FontAwesomeLogoFull => FA5.Brands.FontAwesomeLogoFull;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("font-awesome-logo-full")]
+        FontAwesomeLogoFull,
 
         /// <summary>
         /// Fonticons
@@ -1214,7 +1514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// fonticons - Available in Brands
         /// </remarks>
-        public static Icon Fonticons => FA5.Brands.Fonticons;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("fonticons")]
+        Fonticons,
 
         /// <summary>
         /// Fonticons Fi
@@ -1222,7 +1524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// fonticons-fi - Available in Brands
         /// </remarks>
-        public static Icon FonticonsFi => FA5.Brands.FonticonsFi;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("fonticons-fi")]
+        FonticonsFi,
 
         /// <summary>
         /// Fort Awesome
@@ -1230,7 +1534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// fort-awesome - Available in Brands
         /// </remarks>
-        public static Icon FortAwesome => FA5.Brands.FortAwesome;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("fort-awesome")]
+        FortAwesome,
 
         /// <summary>
         /// Alternate Fort Awesome
@@ -1238,7 +1544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// fort-awesome-alt - Available in Brands
         /// </remarks>
-        public static Icon FortAwesomeAlt => FA5.Brands.FortAwesomeAlt;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("fort-awesome-alt")]
+        FortAwesomeAlt,
 
         /// <summary>
         /// Forumbee
@@ -1246,7 +1554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// forumbee - Available in Brands
         /// </remarks>
-        public static Icon Forumbee => FA5.Brands.Forumbee;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("forumbee")]
+        Forumbee,
 
         /// <summary>
         /// Foursquare
@@ -1254,7 +1564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// foursquare - Available in Brands
         /// </remarks>
-        public static Icon Foursquare => FA5.Brands.Foursquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("foursquare")]
+        Foursquare,
 
         /// <summary>
         /// Free Code Camp
@@ -1262,7 +1574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// free-code-camp - Available in Brands
         /// </remarks>
-        public static Icon FreeCodeCamp => FA5.Brands.FreeCodeCamp;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("free-code-camp")]
+        FreeCodeCamp,
 
         /// <summary>
         /// Free BSD
@@ -1270,7 +1584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// freebsd - Available in Brands
         /// </remarks>
-        public static Icon Freebsd => FA5.Brands.Freebsd;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("freebsd")]
+        Freebsd,
 
         /// <summary>
         /// Fulcrum
@@ -1278,7 +1594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// fulcrum - Available in Brands
         /// </remarks>
-        public static Icon Fulcrum => FA5.Brands.Fulcrum;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("fulcrum")]
+        Fulcrum,
 
         /// <summary>
         /// Galactic Republic
@@ -1286,7 +1604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// galactic-republic - Available in Brands
         /// </remarks>
-        public static Icon GalacticRepublic => FA5.Brands.GalacticRepublic;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("galactic-republic")]
+        GalacticRepublic,
 
         /// <summary>
         /// Galactic Senate
@@ -1294,7 +1614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// galactic-senate - Available in Brands
         /// </remarks>
-        public static Icon GalacticSenate => FA5.Brands.GalacticSenate;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("galactic-senate")]
+        GalacticSenate,
 
         /// <summary>
         /// Get Pocket
@@ -1302,7 +1624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// get-pocket - Available in Brands
         /// </remarks>
-        public static Icon GetPocket => FA5.Brands.GetPocket;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("get-pocket")]
+        GetPocket,
 
         /// <summary>
         /// GG Currency
@@ -1310,7 +1634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// gg - Available in Brands
         /// </remarks>
-        public static Icon Gg => FA5.Brands.Gg;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("gg")]
+        Gg,
 
         /// <summary>
         /// GG Currency Circle
@@ -1318,7 +1644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// gg-circle - Available in Brands
         /// </remarks>
-        public static Icon GgCircle => FA5.Brands.GgCircle;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("gg-circle")]
+        GgCircle,
 
         /// <summary>
         /// Git
@@ -1326,7 +1654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// git - Available in Brands
         /// </remarks>
-        public static Icon Git => FA5.Brands.Git;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("git")]
+        Git,
 
         /// <summary>
         /// Git Alt
@@ -1334,7 +1664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// git-alt - Available in Brands
         /// </remarks>
-        public static Icon GitAlt => FA5.Brands.GitAlt;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("git-alt")]
+        GitAlt,
 
         /// <summary>
         /// Git Square
@@ -1342,7 +1674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// git-square - Available in Brands
         /// </remarks>
-        public static Icon GitSquare => FA5.Brands.GitSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("git-square")]
+        GitSquare,
 
         /// <summary>
         /// Git Hub
@@ -1350,7 +1684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// github - Available in Brands
         /// </remarks>
-        public static Icon Github => FA5.Brands.Github;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("github")]
+        Github,
 
         /// <summary>
         /// Alternate Git Hub
@@ -1358,7 +1694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// github-alt - Available in Brands
         /// </remarks>
-        public static Icon GithubAlt => FA5.Brands.GithubAlt;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("github-alt")]
+        GithubAlt,
 
         /// <summary>
         /// Git Hub Square
@@ -1366,7 +1704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// github-square - Available in Brands
         /// </remarks>
-        public static Icon GithubSquare => FA5.Brands.GithubSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("github-square")]
+        GithubSquare,
 
         /// <summary>
         /// Git Kraken
@@ -1374,7 +1714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// gitkraken - Available in Brands
         /// </remarks>
-        public static Icon Gitkraken => FA5.Brands.Gitkraken;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("gitkraken")]
+        Gitkraken,
 
         /// <summary>
         /// Git Lab
@@ -1382,7 +1724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// gitlab - Available in Brands
         /// </remarks>
-        public static Icon Gitlab => FA5.Brands.Gitlab;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("gitlab")]
+        Gitlab,
 
         /// <summary>
         /// Gitter
@@ -1390,7 +1734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// gitter - Available in Brands
         /// </remarks>
-        public static Icon Gitter => FA5.Brands.Gitter;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("gitter")]
+        Gitter,
 
         /// <summary>
         /// Glide
@@ -1398,7 +1744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// glide - Available in Brands
         /// </remarks>
-        public static Icon Glide => FA5.Brands.Glide;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("glide")]
+        Glide,
 
         /// <summary>
         /// Glide G
@@ -1406,7 +1754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// glide-g - Available in Brands
         /// </remarks>
-        public static Icon GlideG => FA5.Brands.GlideG;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("glide-g")]
+        GlideG,
 
         /// <summary>
         /// Gofore
@@ -1414,7 +1764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// gofore - Available in Brands
         /// </remarks>
-        public static Icon Gofore => FA5.Brands.Gofore;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("gofore")]
+        Gofore,
 
         /// <summary>
         /// Goodreads
@@ -1422,7 +1774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// goodreads - Available in Brands
         /// </remarks>
-        public static Icon Goodreads => FA5.Brands.Goodreads;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("goodreads")]
+        Goodreads,
 
         /// <summary>
         /// Goodreads G
@@ -1430,7 +1784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// goodreads-g - Available in Brands
         /// </remarks>
-        public static Icon GoodreadsG => FA5.Brands.GoodreadsG;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("goodreads-g")]
+        GoodreadsG,
 
         /// <summary>
         /// Google Logo
@@ -1438,7 +1794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// google - Available in Brands
         /// </remarks>
-        public static Icon Google => FA5.Brands.Google;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("google")]
+        Google,
 
         /// <summary>
         /// Google Drive
@@ -1446,7 +1804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// google-drive - Available in Brands
         /// </remarks>
-        public static Icon GoogleDrive => FA5.Brands.GoogleDrive;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("google-drive")]
+        GoogleDrive,
 
         /// <summary>
         /// Google Play
@@ -1454,7 +1814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// google-play - Available in Brands
         /// </remarks>
-        public static Icon GooglePlay => FA5.Brands.GooglePlay;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("google-play")]
+        GooglePlay,
 
         /// <summary>
         /// Google Plus
@@ -1462,7 +1824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// google-plus - Available in Brands
         /// </remarks>
-        public static Icon GooglePlus => FA5.Brands.GooglePlus;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("google-plus")]
+        GooglePlus,
 
         /// <summary>
         /// Google Plus G
@@ -1470,7 +1834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// google-plus-g - Available in Brands
         /// </remarks>
-        public static Icon GooglePlusG => FA5.Brands.GooglePlusG;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("google-plus-g")]
+        GooglePlusG,
 
         /// <summary>
         /// Google Plus Square
@@ -1478,7 +1844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// google-plus-square - Available in Brands
         /// </remarks>
-        public static Icon GooglePlusSquare => FA5.Brands.GooglePlusSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("google-plus-square")]
+        GooglePlusSquare,
 
         /// <summary>
         /// Google Wallet
@@ -1486,7 +1854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// google-wallet - Available in Brands
         /// </remarks>
-        public static Icon GoogleWallet => FA5.Brands.GoogleWallet;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("google-wallet")]
+        GoogleWallet,
 
         /// <summary>
         /// Gratipay Gittip
@@ -1494,7 +1864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// gratipay - Available in Brands
         /// </remarks>
-        public static Icon Gratipay => FA5.Brands.Gratipay;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("gratipay")]
+        Gratipay,
 
         /// <summary>
         /// Grav
@@ -1502,7 +1874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// grav - Available in Brands
         /// </remarks>
-        public static Icon Grav => FA5.Brands.Grav;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("grav")]
+        Grav,
 
         /// <summary>
         /// Gripfire Inc
@@ -1510,7 +1884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// gripfire - Available in Brands
         /// </remarks>
-        public static Icon Gripfire => FA5.Brands.Gripfire;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("gripfire")]
+        Gripfire,
 
         /// <summary>
         /// Grunt
@@ -1518,7 +1894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// grunt - Available in Brands
         /// </remarks>
-        public static Icon Grunt => FA5.Brands.Grunt;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("grunt")]
+        Grunt,
 
         /// <summary>
         /// Gulp
@@ -1526,7 +1904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// gulp - Available in Brands
         /// </remarks>
-        public static Icon Gulp => FA5.Brands.Gulp;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("gulp")]
+        Gulp,
 
         /// <summary>
         /// Hacker News
@@ -1534,7 +1914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// hacker-news - Available in Brands
         /// </remarks>
-        public static Icon HackerNews => FA5.Brands.HackerNews;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("hacker-news")]
+        HackerNews,
 
         /// <summary>
         /// Hacker News Square
@@ -1542,7 +1924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// hacker-news-square - Available in Brands
         /// </remarks>
-        public static Icon HackerNewsSquare => FA5.Brands.HackerNewsSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("hacker-news-square")]
+        HackerNewsSquare,
 
         /// <summary>
         /// Hackerrank
@@ -1550,7 +1934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// hackerrank - Available in Brands
         /// </remarks>
-        public static Icon Hackerrank => FA5.Brands.Hackerrank;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("hackerrank")]
+        Hackerrank,
 
         /// <summary>
         /// Hips
@@ -1558,7 +1944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// hips - Available in Brands
         /// </remarks>
-        public static Icon Hips => FA5.Brands.Hips;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("hips")]
+        Hips,
 
         /// <summary>
         /// Hire A Helper
@@ -1566,7 +1954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// hire-a-helper - Available in Brands
         /// </remarks>
-        public static Icon HireAHelper => FA5.Brands.HireAHelper;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("hire-a-helper")]
+        HireAHelper,
 
         /// <summary>
         /// Hooli
@@ -1574,7 +1964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// hooli - Available in Brands
         /// </remarks>
-        public static Icon Hooli => FA5.Brands.Hooli;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("hooli")]
+        Hooli,
 
         /// <summary>
         /// Hornbill
@@ -1582,7 +1974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// hornbill - Available in Brands
         /// </remarks>
-        public static Icon Hornbill => FA5.Brands.Hornbill;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("hornbill")]
+        Hornbill,
 
         /// <summary>
         /// Hotjar
@@ -1590,7 +1984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// hotjar - Available in Brands
         /// </remarks>
-        public static Icon Hotjar => FA5.Brands.Hotjar;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("hotjar")]
+        Hotjar,
 
         /// <summary>
         /// Houzz
@@ -1598,7 +1994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// houzz - Available in Brands
         /// </remarks>
-        public static Icon Houzz => FA5.Brands.Houzz;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("houzz")]
+        Houzz,
 
         /// <summary>
         /// HTML 5 Logo
@@ -1606,7 +2004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// html5 - Available in Brands
         /// </remarks>
-        public static Icon Html5 => FA5.Brands.Html5;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("html5")]
+        Html5,
 
         /// <summary>
         /// Hub Spot
@@ -1614,7 +2014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// hubspot - Available in Brands
         /// </remarks>
-        public static Icon Hubspot => FA5.Brands.Hubspot;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("hubspot")]
+        Hubspot,
 
         /// <summary>
         /// I Deal
@@ -1622,7 +2024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// ideal - Available in Brands
         /// </remarks>
-        public static Icon Ideal => FA5.Brands.Ideal;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("ideal")]
+        Ideal,
 
         /// <summary>
         /// IMDB
@@ -1630,7 +2034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// imdb - Available in Brands
         /// </remarks>
-        public static Icon Imdb => FA5.Brands.Imdb;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("imdb")]
+        Imdb,
 
         /// <summary>
         /// Instagram
@@ -1638,7 +2044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// instagram - Available in Brands
         /// </remarks>
-        public static Icon Instagram => FA5.Brands.Instagram;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("instagram")]
+        Instagram,
 
         /// <summary>
         /// Instagram Square
@@ -1646,7 +2054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// instagram-square - Available in Brands
         /// </remarks>
-        public static Icon InstagramSquare => FA5.Brands.InstagramSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("instagram-square")]
+        InstagramSquare,
 
         /// <summary>
         /// Intercom
@@ -1654,7 +2064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// intercom - Available in Brands
         /// </remarks>
-        public static Icon Intercom => FA5.Brands.Intercom;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("intercom")]
+        Intercom,
 
         /// <summary>
         /// Internet Explorer
@@ -1662,7 +2074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// internet-explorer - Available in Brands
         /// </remarks>
-        public static Icon InternetExplorer => FA5.Brands.InternetExplorer;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("internet-explorer")]
+        InternetExplorer,
 
         /// <summary>
         /// In Vision
@@ -1670,7 +2084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// invision - Available in Brands
         /// </remarks>
-        public static Icon Invision => FA5.Brands.Invision;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("invision")]
+        Invision,
 
         /// <summary>
         /// Ioxhost
@@ -1678,7 +2094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// ioxhost - Available in Brands
         /// </remarks>
-        public static Icon Ioxhost => FA5.Brands.Ioxhost;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("ioxhost")]
+        Ioxhost,
 
         /// <summary>
         /// Itch Io
@@ -1686,7 +2104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// itch-io - Available in Brands
         /// </remarks>
-        public static Icon ItchIo => FA5.Brands.ItchIo;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("itch-io")]
+        ItchIo,
 
         /// <summary>
         /// I Tunes
@@ -1694,7 +2114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// itunes - Available in Brands
         /// </remarks>
-        public static Icon Itunes => FA5.Brands.Itunes;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("itunes")]
+        Itunes,
 
         /// <summary>
         /// Itunes Note
@@ -1702,7 +2124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// itunes-note - Available in Brands
         /// </remarks>
-        public static Icon ItunesNote => FA5.Brands.ItunesNote;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("itunes-note")]
+        ItunesNote,
 
         /// <summary>
         /// Java
@@ -1710,7 +2134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// java - Available in Brands
         /// </remarks>
-        public static Icon Java => FA5.Brands.Java;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("java")]
+        Java,
 
         /// <summary>
         /// Jedi Order
@@ -1718,7 +2144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// jedi-order - Available in Brands
         /// </remarks>
-        public static Icon JediOrder => FA5.Brands.JediOrder;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("jedi-order")]
+        JediOrder,
 
         /// <summary>
         /// Jenkis
@@ -1726,7 +2154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// jenkins - Available in Brands
         /// </remarks>
-        public static Icon Jenkins => FA5.Brands.Jenkins;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("jenkins")]
+        Jenkins,
 
         /// <summary>
         /// Jira
@@ -1734,7 +2164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// jira - Available in Brands
         /// </remarks>
-        public static Icon Jira => FA5.Brands.Jira;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("jira")]
+        Jira,
 
         /// <summary>
         /// Joget
@@ -1742,7 +2174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// joget - Available in Brands
         /// </remarks>
-        public static Icon Joget => FA5.Brands.Joget;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("joget")]
+        Joget,
 
         /// <summary>
         /// Joomla Logo
@@ -1750,7 +2184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// joomla - Available in Brands
         /// </remarks>
-        public static Icon Joomla => FA5.Brands.Joomla;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("joomla")]
+        Joomla,
 
         /// <summary>
         /// Java Script JS
@@ -1758,7 +2194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// js - Available in Brands
         /// </remarks>
-        public static Icon Js => FA5.Brands.Js;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("js")]
+        Js,
 
         /// <summary>
         /// Java Script JS Square
@@ -1766,7 +2204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// js-square - Available in Brands
         /// </remarks>
-        public static Icon JsSquare => FA5.Brands.JsSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("js-square")]
+        JsSquare,
 
         /// <summary>
         /// Js Fiddle
@@ -1774,7 +2214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// jsfiddle - Available in Brands
         /// </remarks>
-        public static Icon Jsfiddle => FA5.Brands.Jsfiddle;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("jsfiddle")]
+        Jsfiddle,
 
         /// <summary>
         /// Kaggle
@@ -1782,7 +2224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// kaggle - Available in Brands
         /// </remarks>
-        public static Icon Kaggle => FA5.Brands.Kaggle;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("kaggle")]
+        Kaggle,
 
         /// <summary>
         /// Keybase
@@ -1790,7 +2234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// keybase - Available in Brands
         /// </remarks>
-        public static Icon Keybase => FA5.Brands.Keybase;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("keybase")]
+        Keybase,
 
         /// <summary>
         /// Key CDN
@@ -1798,7 +2244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// keycdn - Available in Brands
         /// </remarks>
-        public static Icon Keycdn => FA5.Brands.Keycdn;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("keycdn")]
+        Keycdn,
 
         /// <summary>
         /// Kickstarter
@@ -1806,7 +2254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// kickstarter - Available in Brands
         /// </remarks>
-        public static Icon Kickstarter => FA5.Brands.Kickstarter;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("kickstarter")]
+        Kickstarter,
 
         /// <summary>
         /// Kickstarter K
@@ -1814,7 +2264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// kickstarter-k - Available in Brands
         /// </remarks>
-        public static Icon KickstarterK => FA5.Brands.KickstarterK;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("kickstarter-k")]
+        KickstarterK,
 
         /// <summary>
         /// KORVUE
@@ -1822,7 +2274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// korvue - Available in Brands
         /// </remarks>
-        public static Icon Korvue => FA5.Brands.Korvue;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("korvue")]
+        Korvue,
 
         /// <summary>
         /// Laravel
@@ -1830,7 +2284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// laravel - Available in Brands
         /// </remarks>
-        public static Icon Laravel => FA5.Brands.Laravel;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("laravel")]
+        Laravel,
 
         /// <summary>
         /// Last Fm
@@ -1838,7 +2294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// lastfm - Available in Brands
         /// </remarks>
-        public static Icon Lastfm => FA5.Brands.Lastfm;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("lastfm")]
+        Lastfm,
 
         /// <summary>
         /// Last Fm Square
@@ -1846,7 +2304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// lastfm-square - Available in Brands
         /// </remarks>
-        public static Icon LastfmSquare => FA5.Brands.LastfmSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("lastfm-square")]
+        LastfmSquare,
 
         /// <summary>
         /// Leanpub
@@ -1854,7 +2314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// leanpub - Available in Brands
         /// </remarks>
-        public static Icon Leanpub => FA5.Brands.Leanpub;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("leanpub")]
+        Leanpub,
 
         /// <summary>
         /// Less
@@ -1862,7 +2324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// less - Available in Brands
         /// </remarks>
-        public static Icon Less => FA5.Brands.Less;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("less")]
+        Less,
 
         /// <summary>
         /// Line
@@ -1870,7 +2334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// line - Available in Brands
         /// </remarks>
-        public static Icon Line => FA5.Brands.Line;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("line")]
+        Line,
 
         /// <summary>
         /// Linked In
@@ -1878,7 +2344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// linkedin - Available in Brands
         /// </remarks>
-        public static Icon Linkedin => FA5.Brands.Linkedin;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("linkedin")]
+        Linkedin,
 
         /// <summary>
         /// Linked In In
@@ -1886,7 +2354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// linkedin-in - Available in Brands
         /// </remarks>
-        public static Icon LinkedinIn => FA5.Brands.LinkedinIn;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("linkedin-in")]
+        LinkedinIn,
 
         /// <summary>
         /// Linode
@@ -1894,7 +2364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// linode - Available in Brands
         /// </remarks>
-        public static Icon Linode => FA5.Brands.Linode;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("linode")]
+        Linode,
 
         /// <summary>
         /// Linux
@@ -1902,7 +2374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// linux - Available in Brands
         /// </remarks>
-        public static Icon Linux => FA5.Brands.Linux;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("linux")]
+        Linux,
 
         /// <summary>
         /// Lyft
@@ -1910,7 +2384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// lyft - Available in Brands
         /// </remarks>
-        public static Icon Lyft => FA5.Brands.Lyft;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("lyft")]
+        Lyft,
 
         /// <summary>
         /// Magento
@@ -1918,7 +2394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// magento - Available in Brands
         /// </remarks>
-        public static Icon Magento => FA5.Brands.Magento;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("magento")]
+        Magento,
 
         /// <summary>
         /// Mailchimp
@@ -1926,7 +2404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// mailchimp - Available in Brands
         /// </remarks>
-        public static Icon Mailchimp => FA5.Brands.Mailchimp;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("mailchimp")]
+        Mailchimp,
 
         /// <summary>
         /// Mandalorian
@@ -1934,7 +2414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// mandalorian - Available in Brands
         /// </remarks>
-        public static Icon Mandalorian => FA5.Brands.Mandalorian;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("mandalorian")]
+        Mandalorian,
 
         /// <summary>
         /// Markdown
@@ -1942,7 +2424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// markdown - Available in Brands
         /// </remarks>
-        public static Icon Markdown => FA5.Brands.Markdown;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("markdown")]
+        Markdown,
 
         /// <summary>
         /// Mastodon
@@ -1950,7 +2434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// mastodon - Available in Brands
         /// </remarks>
-        public static Icon Mastodon => FA5.Brands.Mastodon;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("mastodon")]
+        Mastodon,
 
         /// <summary>
         /// Max CDN
@@ -1958,7 +2444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// maxcdn - Available in Brands
         /// </remarks>
-        public static Icon Maxcdn => FA5.Brands.Maxcdn;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("maxcdn")]
+        Maxcdn,
 
         /// <summary>
         /// Material Design For Bootstrap
@@ -1966,7 +2454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// mdb - Available in Brands
         /// </remarks>
-        public static Icon Mdb => FA5.Brands.Mdb;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("mdb")]
+        Mdb,
 
         /// <summary>
         /// Med Apps
@@ -1974,7 +2464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// medapps - Available in Brands
         /// </remarks>
-        public static Icon Medapps => FA5.Brands.Medapps;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("medapps")]
+        Medapps,
 
         /// <summary>
         /// Medium
@@ -1982,7 +2474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// medium - Available in Brands
         /// </remarks>
-        public static Icon Medium => FA5.Brands.Medium;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("medium")]
+        Medium,
 
         /// <summary>
         /// Medium M
@@ -1990,7 +2484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// medium-m - Available in Brands
         /// </remarks>
-        public static Icon MediumM => FA5.Brands.MediumM;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("medium-m")]
+        MediumM,
 
         /// <summary>
         /// MRT
@@ -1998,7 +2494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// medrt - Available in Brands
         /// </remarks>
-        public static Icon Medrt => FA5.Brands.Medrt;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("medrt")]
+        Medrt,
 
         /// <summary>
         /// Meetup
@@ -2006,7 +2504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// meetup - Available in Brands
         /// </remarks>
-        public static Icon Meetup => FA5.Brands.Meetup;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("meetup")]
+        Meetup,
 
         /// <summary>
         /// Megaport
@@ -2014,7 +2514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// megaport - Available in Brands
         /// </remarks>
-        public static Icon Megaport => FA5.Brands.Megaport;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("megaport")]
+        Megaport,
 
         /// <summary>
         /// Mendeley
@@ -2022,7 +2524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// mendeley - Available in Brands
         /// </remarks>
-        public static Icon Mendeley => FA5.Brands.Mendeley;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("mendeley")]
+        Mendeley,
 
         /// <summary>
         /// Micro Blog
@@ -2030,7 +2534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// microblog - Available in Brands
         /// </remarks>
-        public static Icon Microblog => FA5.Brands.Microblog;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("microblog")]
+        Microblog,
 
         /// <summary>
         /// Microsoft
@@ -2038,7 +2544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// microsoft - Available in Brands
         /// </remarks>
-        public static Icon Microsoft => FA5.Brands.Microsoft;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("microsoft")]
+        Microsoft,
 
         /// <summary>
         /// Mix
@@ -2046,7 +2554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// mix - Available in Brands
         /// </remarks>
-        public static Icon Mix => FA5.Brands.Mix;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("mix")]
+        Mix,
 
         /// <summary>
         /// Mixcloud
@@ -2054,7 +2564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// mixcloud - Available in Brands
         /// </remarks>
-        public static Icon Mixcloud => FA5.Brands.Mixcloud;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("mixcloud")]
+        Mixcloud,
 
         /// <summary>
         /// Mixer
@@ -2062,7 +2574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// mixer - Available in Brands
         /// </remarks>
-        public static Icon Mixer => FA5.Brands.Mixer;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("mixer")]
+        Mixer,
 
         /// <summary>
         /// Mizuni
@@ -2070,7 +2584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// mizuni - Available in Brands
         /// </remarks>
-        public static Icon Mizuni => FA5.Brands.Mizuni;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("mizuni")]
+        Mizuni,
 
         /// <summary>
         /// MODX
@@ -2078,7 +2594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// modx - Available in Brands
         /// </remarks>
-        public static Icon Modx => FA5.Brands.Modx;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("modx")]
+        Modx,
 
         /// <summary>
         /// Monero
@@ -2086,7 +2604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// monero - Available in Brands
         /// </remarks>
-        public static Icon Monero => FA5.Brands.Monero;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("monero")]
+        Monero,
 
         /// <summary>
         /// Napster
@@ -2094,7 +2614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// napster - Available in Brands
         /// </remarks>
-        public static Icon Napster => FA5.Brands.Napster;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("napster")]
+        Napster,
 
         /// <summary>
         /// Neos
@@ -2102,7 +2624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// neos - Available in Brands
         /// </remarks>
-        public static Icon Neos => FA5.Brands.Neos;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("neos")]
+        Neos,
 
         /// <summary>
         /// Nimblr
@@ -2110,7 +2634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// nimblr - Available in Brands
         /// </remarks>
-        public static Icon Nimblr => FA5.Brands.Nimblr;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("nimblr")]
+        Nimblr,
 
         /// <summary>
         /// Node Js
@@ -2118,7 +2644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// node - Available in Brands
         /// </remarks>
-        public static Icon Node => FA5.Brands.Node;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("node")]
+        Node,
 
         /// <summary>
         /// Node Js JS
@@ -2126,7 +2654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// node-js - Available in Brands
         /// </remarks>
-        public static Icon NodeJs => FA5.Brands.NodeJs;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("node-js")]
+        NodeJs,
 
         /// <summary>
         /// Npm
@@ -2134,7 +2664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// npm - Available in Brands
         /// </remarks>
-        public static Icon Npm => FA5.Brands.Npm;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("npm")]
+        Npm,
 
         /// <summary>
         /// NS 8
@@ -2142,7 +2674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// ns8 - Available in Brands
         /// </remarks>
-        public static Icon Ns8 => FA5.Brands.Ns8;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("ns8")]
+        Ns8,
 
         /// <summary>
         /// Nutritionix
@@ -2150,7 +2684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// nutritionix - Available in Brands
         /// </remarks>
-        public static Icon Nutritionix => FA5.Brands.Nutritionix;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("nutritionix")]
+        Nutritionix,
 
         /// <summary>
         /// Odnoklassniki
@@ -2158,7 +2694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// odnoklassniki - Available in Brands
         /// </remarks>
-        public static Icon Odnoklassniki => FA5.Brands.Odnoklassniki;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("odnoklassniki")]
+        Odnoklassniki,
 
         /// <summary>
         /// Odnoklassniki Square
@@ -2166,7 +2704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// odnoklassniki-square - Available in Brands
         /// </remarks>
-        public static Icon OdnoklassnikiSquare => FA5.Brands.OdnoklassnikiSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("odnoklassniki-square")]
+        OdnoklassnikiSquare,
 
         /// <summary>
         /// Old Republic
@@ -2174,7 +2714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// old-republic - Available in Brands
         /// </remarks>
-        public static Icon OldRepublic => FA5.Brands.OldRepublic;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("old-republic")]
+        OldRepublic,
 
         /// <summary>
         /// Open Cart
@@ -2182,7 +2724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// opencart - Available in Brands
         /// </remarks>
-        public static Icon Opencart => FA5.Brands.Opencart;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("opencart")]
+        Opencart,
 
         /// <summary>
         /// Open ID
@@ -2190,7 +2734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// openid - Available in Brands
         /// </remarks>
-        public static Icon Openid => FA5.Brands.Openid;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("openid")]
+        Openid,
 
         /// <summary>
         /// Opera
@@ -2198,7 +2744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// opera - Available in Brands
         /// </remarks>
-        public static Icon Opera => FA5.Brands.Opera;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("opera")]
+        Opera,
 
         /// <summary>
         /// Optin Monster
@@ -2206,7 +2754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// optin-monster - Available in Brands
         /// </remarks>
-        public static Icon OptinMonster => FA5.Brands.OptinMonster;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("optin-monster")]
+        OptinMonster,
 
         /// <summary>
         /// ORCID
@@ -2214,7 +2764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// orcid - Available in Brands
         /// </remarks>
-        public static Icon Orcid => FA5.Brands.Orcid;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("orcid")]
+        Orcid,
 
         /// <summary>
         /// Open Source Initiative
@@ -2222,7 +2774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// osi - Available in Brands
         /// </remarks>
-        public static Icon Osi => FA5.Brands.Osi;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("osi")]
+        Osi,
 
         /// <summary>
         /// Page 4 Corporation
@@ -2230,7 +2784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// page4 - Available in Brands
         /// </remarks>
-        public static Icon Page4 => FA5.Brands.Page4;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("page4")]
+        Page4,
 
         /// <summary>
         /// Pagelines
@@ -2238,7 +2794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// pagelines - Available in Brands
         /// </remarks>
-        public static Icon Pagelines => FA5.Brands.Pagelines;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("pagelines")]
+        Pagelines,
 
         /// <summary>
         /// Palfed
@@ -2246,7 +2804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// palfed - Available in Brands
         /// </remarks>
-        public static Icon Palfed => FA5.Brands.Palfed;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("palfed")]
+        Palfed,
 
         /// <summary>
         /// Patreon
@@ -2254,7 +2814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// patreon - Available in Brands
         /// </remarks>
-        public static Icon Patreon => FA5.Brands.Patreon;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("patreon")]
+        Patreon,
 
         /// <summary>
         /// Paypal
@@ -2262,7 +2824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// paypal - Available in Brands
         /// </remarks>
-        public static Icon Paypal => FA5.Brands.Paypal;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("paypal")]
+        Paypal,
 
         /// <summary>
         /// Penny Arcade
@@ -2270,7 +2834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// penny-arcade - Available in Brands
         /// </remarks>
-        public static Icon PennyArcade => FA5.Brands.PennyArcade;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("penny-arcade")]
+        PennyArcade,
 
         /// <summary>
         /// Periscope
@@ -2278,7 +2844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// periscope - Available in Brands
         /// </remarks>
-        public static Icon Periscope => FA5.Brands.Periscope;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("periscope")]
+        Periscope,
 
         /// <summary>
         /// Phabricator
@@ -2286,7 +2854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// phabricator - Available in Brands
         /// </remarks>
-        public static Icon Phabricator => FA5.Brands.Phabricator;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("phabricator")]
+        Phabricator,
 
         /// <summary>
         /// Phoenix Framework
@@ -2294,7 +2864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// phoenix-framework - Available in Brands
         /// </remarks>
-        public static Icon PhoenixFramework => FA5.Brands.PhoenixFramework;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("phoenix-framework")]
+        PhoenixFramework,
 
         /// <summary>
         /// Phoenix Squadron
@@ -2302,7 +2874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// phoenix-squadron - Available in Brands
         /// </remarks>
-        public static Icon PhoenixSquadron => FA5.Brands.PhoenixSquadron;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("phoenix-squadron")]
+        PhoenixSquadron,
 
         /// <summary>
         /// PHP
@@ -2310,7 +2884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// php - Available in Brands
         /// </remarks>
-        public static Icon Php => FA5.Brands.Php;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("php")]
+        Php,
 
         /// <summary>
         /// Pied Piper Logo
@@ -2318,7 +2894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// pied-piper - Available in Brands
         /// </remarks>
-        public static Icon PiedPiper => FA5.Brands.PiedPiper;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("pied-piper")]
+        PiedPiper,
 
         /// <summary>
         /// Alternate Pied Piper Logo Old
@@ -2326,7 +2904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// pied-piper-alt - Available in Brands
         /// </remarks>
-        public static Icon PiedPiperAlt => FA5.Brands.PiedPiperAlt;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("pied-piper-alt")]
+        PiedPiperAlt,
 
         /// <summary>
         /// Pied Piper Hat Old
@@ -2334,7 +2914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// pied-piper-hat - Available in Brands
         /// </remarks>
-        public static Icon PiedPiperHat => FA5.Brands.PiedPiperHat;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("pied-piper-hat")]
+        PiedPiperHat,
 
         /// <summary>
         /// Pied Piper PP Logo Old
@@ -2342,7 +2924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// pied-piper-pp - Available in Brands
         /// </remarks>
-        public static Icon PiedPiperPp => FA5.Brands.PiedPiperPp;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("pied-piper-pp")]
+        PiedPiperPp,
 
         /// <summary>
         /// Pied Piper Square Logo Old
@@ -2350,7 +2934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// pied-piper-square - Available in Brands
         /// </remarks>
-        public static Icon PiedPiperSquare => FA5.Brands.PiedPiperSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("pied-piper-square")]
+        PiedPiperSquare,
 
         /// <summary>
         /// Pinterest
@@ -2358,7 +2944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// pinterest - Available in Brands
         /// </remarks>
-        public static Icon Pinterest => FA5.Brands.Pinterest;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("pinterest")]
+        Pinterest,
 
         /// <summary>
         /// Pinterest P
@@ -2366,7 +2954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// pinterest-p - Available in Brands
         /// </remarks>
-        public static Icon PinterestP => FA5.Brands.PinterestP;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("pinterest-p")]
+        PinterestP,
 
         /// <summary>
         /// Pinterest Square
@@ -2374,7 +2964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// pinterest-square - Available in Brands
         /// </remarks>
-        public static Icon PinterestSquare => FA5.Brands.PinterestSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("pinterest-square")]
+        PinterestSquare,
 
         /// <summary>
         /// Play Station
@@ -2382,7 +2974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// playstation - Available in Brands
         /// </remarks>
-        public static Icon Playstation => FA5.Brands.Playstation;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("playstation")]
+        Playstation,
 
         /// <summary>
         /// Product Hunt
@@ -2390,7 +2984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// product-hunt - Available in Brands
         /// </remarks>
-        public static Icon ProductHunt => FA5.Brands.ProductHunt;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("product-hunt")]
+        ProductHunt,
 
         /// <summary>
         /// Pushed
@@ -2398,7 +2994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// pushed - Available in Brands
         /// </remarks>
-        public static Icon Pushed => FA5.Brands.Pushed;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("pushed")]
+        Pushed,
 
         /// <summary>
         /// Python
@@ -2406,7 +3004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// python - Available in Brands
         /// </remarks>
-        public static Icon Python => FA5.Brands.Python;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("python")]
+        Python,
 
         /// <summary>
         /// QQ
@@ -2414,7 +3014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// qq - Available in Brands
         /// </remarks>
-        public static Icon Qq => FA5.Brands.Qq;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("qq")]
+        Qq,
 
         /// <summary>
         /// Quin Scape
@@ -2422,7 +3024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// quinscape - Available in Brands
         /// </remarks>
-        public static Icon Quinscape => FA5.Brands.Quinscape;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("quinscape")]
+        Quinscape,
 
         /// <summary>
         /// Quora
@@ -2430,7 +3034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// quora - Available in Brands
         /// </remarks>
-        public static Icon Quora => FA5.Brands.Quora;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("quora")]
+        Quora,
 
         /// <summary>
         /// R Project
@@ -2438,7 +3044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// r-project - Available in Brands
         /// </remarks>
-        public static Icon RProject => FA5.Brands.RProject;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("r-project")]
+        RProject,
 
         /// <summary>
         /// Raspberry Pi
@@ -2446,7 +3054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// raspberry-pi - Available in Brands
         /// </remarks>
-        public static Icon RaspberryPi => FA5.Brands.RaspberryPi;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("raspberry-pi")]
+        RaspberryPi,
 
         /// <summary>
         /// Ravelry
@@ -2454,7 +3064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// ravelry - Available in Brands
         /// </remarks>
-        public static Icon Ravelry => FA5.Brands.Ravelry;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("ravelry")]
+        Ravelry,
 
         /// <summary>
         /// React
@@ -2462,7 +3074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// react - Available in Brands
         /// </remarks>
-        public static Icon React => FA5.Brands.React;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("react")]
+        React,
 
         /// <summary>
         /// React Europe
@@ -2470,7 +3084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// reacteurope - Available in Brands
         /// </remarks>
-        public static Icon Reacteurope => FA5.Brands.Reacteurope;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("reacteurope")]
+        Reacteurope,
 
         /// <summary>
         /// Read Me
@@ -2478,7 +3094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// readme - Available in Brands
         /// </remarks>
-        public static Icon Readme => FA5.Brands.Readme;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("readme")]
+        Readme,
 
         /// <summary>
         /// Rebel Alliance
@@ -2486,7 +3104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// rebel - Available in Brands
         /// </remarks>
-        public static Icon Rebel => FA5.Brands.Rebel;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("rebel")]
+        Rebel,
 
         /// <summary>
         /// Red River
@@ -2494,7 +3114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// red-river - Available in Brands
         /// </remarks>
-        public static Icon RedRiver => FA5.Brands.RedRiver;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("red-river")]
+        RedRiver,
 
         /// <summary>
         /// Reddit Logo
@@ -2502,7 +3124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// reddit - Available in Brands
         /// </remarks>
-        public static Icon Reddit => FA5.Brands.Reddit;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("reddit")]
+        Reddit,
 
         /// <summary>
         /// Reddit Alien
@@ -2510,7 +3134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// reddit-alien - Available in Brands
         /// </remarks>
-        public static Icon RedditAlien => FA5.Brands.RedditAlien;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("reddit-alien")]
+        RedditAlien,
 
         /// <summary>
         /// Reddit Square
@@ -2518,7 +3144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// reddit-square - Available in Brands
         /// </remarks>
-        public static Icon RedditSquare => FA5.Brands.RedditSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("reddit-square")]
+        RedditSquare,
 
         /// <summary>
         /// Redhat
@@ -2526,7 +3154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// redhat - Available in Brands
         /// </remarks>
-        public static Icon Redhat => FA5.Brands.Redhat;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("redhat")]
+        Redhat,
 
         /// <summary>
         /// Renren
@@ -2534,7 +3164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// renren - Available in Brands
         /// </remarks>
-        public static Icon Renren => FA5.Brands.Renren;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("renren")]
+        Renren,
 
         /// <summary>
         /// Replyd
@@ -2542,7 +3174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// replyd - Available in Brands
         /// </remarks>
-        public static Icon Replyd => FA5.Brands.Replyd;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("replyd")]
+        Replyd,
 
         /// <summary>
         /// Researchgate
@@ -2550,7 +3184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// researchgate - Available in Brands
         /// </remarks>
-        public static Icon Researchgate => FA5.Brands.Researchgate;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("researchgate")]
+        Researchgate,
 
         /// <summary>
         /// Resolving
@@ -2558,7 +3194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// resolving - Available in Brands
         /// </remarks>
-        public static Icon Resolving => FA5.Brands.Resolving;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("resolving")]
+        Resolving,
 
         /// <summary>
         /// Rev Io
@@ -2566,7 +3204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// rev - Available in Brands
         /// </remarks>
-        public static Icon Rev => FA5.Brands.Rev;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("rev")]
+        Rev,
 
         /// <summary>
         /// Rocket Chat
@@ -2574,7 +3214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// rocketchat - Available in Brands
         /// </remarks>
-        public static Icon Rocketchat => FA5.Brands.Rocketchat;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("rocketchat")]
+        Rocketchat,
 
         /// <summary>
         /// Rockrms
@@ -2582,7 +3224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// rockrms - Available in Brands
         /// </remarks>
-        public static Icon Rockrms => FA5.Brands.Rockrms;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("rockrms")]
+        Rockrms,
 
         /// <summary>
         /// Safari
@@ -2590,7 +3234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// safari - Available in Brands
         /// </remarks>
-        public static Icon Safari => FA5.Brands.Safari;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("safari")]
+        Safari,
 
         /// <summary>
         /// Salesforce
@@ -2598,7 +3244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// salesforce - Available in Brands
         /// </remarks>
-        public static Icon Salesforce => FA5.Brands.Salesforce;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("salesforce")]
+        Salesforce,
 
         /// <summary>
         /// Sass
@@ -2606,7 +3254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// sass - Available in Brands
         /// </remarks>
-        public static Icon Sass => FA5.Brands.Sass;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("sass")]
+        Sass,
 
         /// <summary>
         /// SCHLIX
@@ -2614,7 +3264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// schlix - Available in Brands
         /// </remarks>
-        public static Icon Schlix => FA5.Brands.Schlix;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("schlix")]
+        Schlix,
 
         /// <summary>
         /// Scribd
@@ -2622,7 +3274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// scribd - Available in Brands
         /// </remarks>
-        public static Icon Scribd => FA5.Brands.Scribd;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("scribd")]
+        Scribd,
 
         /// <summary>
         /// Searchengin
@@ -2630,7 +3284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// searchengin - Available in Brands
         /// </remarks>
-        public static Icon Searchengin => FA5.Brands.Searchengin;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("searchengin")]
+        Searchengin,
 
         /// <summary>
         /// Sellcast
@@ -2638,7 +3294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// sellcast - Available in Brands
         /// </remarks>
-        public static Icon Sellcast => FA5.Brands.Sellcast;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("sellcast")]
+        Sellcast,
 
         /// <summary>
         /// Sellsy
@@ -2646,7 +3304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// sellsy - Available in Brands
         /// </remarks>
-        public static Icon Sellsy => FA5.Brands.Sellsy;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("sellsy")]
+        Sellsy,
 
         /// <summary>
         /// Servicestack
@@ -2654,7 +3314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// servicestack - Available in Brands
         /// </remarks>
-        public static Icon Servicestack => FA5.Brands.Servicestack;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("servicestack")]
+        Servicestack,
 
         /// <summary>
         /// Shirts In Bulk
@@ -2662,7 +3324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// shirtsinbulk - Available in Brands
         /// </remarks>
-        public static Icon Shirtsinbulk => FA5.Brands.Shirtsinbulk;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("shirtsinbulk")]
+        Shirtsinbulk,
 
         /// <summary>
         /// Shopify
@@ -2670,7 +3334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// shopify - Available in Brands
         /// </remarks>
-        public static Icon Shopify => FA5.Brands.Shopify;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("shopify")]
+        Shopify,
 
         /// <summary>
         /// Shopware
@@ -2678,7 +3344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// shopware - Available in Brands
         /// </remarks>
-        public static Icon Shopware => FA5.Brands.Shopware;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("shopware")]
+        Shopware,
 
         /// <summary>
         /// Simply Built
@@ -2686,7 +3354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// simplybuilt - Available in Brands
         /// </remarks>
-        public static Icon Simplybuilt => FA5.Brands.Simplybuilt;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("simplybuilt")]
+        Simplybuilt,
 
         /// <summary>
         /// SISTRIX
@@ -2694,7 +3364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// sistrix - Available in Brands
         /// </remarks>
-        public static Icon Sistrix => FA5.Brands.Sistrix;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("sistrix")]
+        Sistrix,
 
         /// <summary>
         /// Sith
@@ -2702,7 +3374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// sith - Available in Brands
         /// </remarks>
-        public static Icon Sith => FA5.Brands.Sith;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("sith")]
+        Sith,
 
         /// <summary>
         /// Sketch
@@ -2710,7 +3384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// sketch - Available in Brands
         /// </remarks>
-        public static Icon Sketch => FA5.Brands.Sketch;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("sketch")]
+        Sketch,
 
         /// <summary>
         /// Skyatlas
@@ -2718,7 +3394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// skyatlas - Available in Brands
         /// </remarks>
-        public static Icon Skyatlas => FA5.Brands.Skyatlas;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("skyatlas")]
+        Skyatlas,
 
         /// <summary>
         /// Skype
@@ -2726,7 +3404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// skype - Available in Brands
         /// </remarks>
-        public static Icon Skype => FA5.Brands.Skype;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("skype")]
+        Skype,
 
         /// <summary>
         /// Slack Logo
@@ -2734,7 +3414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// slack - Available in Brands
         /// </remarks>
-        public static Icon Slack => FA5.Brands.Slack;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("slack")]
+        Slack,
 
         /// <summary>
         /// Slack Hashtag
@@ -2742,7 +3424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// slack-hash - Available in Brands
         /// </remarks>
-        public static Icon SlackHash => FA5.Brands.SlackHash;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("slack-hash")]
+        SlackHash,
 
         /// <summary>
         /// Slideshare
@@ -2750,7 +3434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// slideshare - Available in Brands
         /// </remarks>
-        public static Icon Slideshare => FA5.Brands.Slideshare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("slideshare")]
+        Slideshare,
 
         /// <summary>
         /// Snapchat
@@ -2758,7 +3444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// snapchat - Available in Brands
         /// </remarks>
-        public static Icon Snapchat => FA5.Brands.Snapchat;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("snapchat")]
+        Snapchat,
 
         /// <summary>
         /// Snapchat Ghost
@@ -2766,7 +3454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// snapchat-ghost - Available in Brands
         /// </remarks>
-        public static Icon SnapchatGhost => FA5.Brands.SnapchatGhost;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("snapchat-ghost")]
+        SnapchatGhost,
 
         /// <summary>
         /// Snapchat Square
@@ -2774,7 +3464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// snapchat-square - Available in Brands
         /// </remarks>
-        public static Icon SnapchatSquare => FA5.Brands.SnapchatSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("snapchat-square")]
+        SnapchatSquare,
 
         /// <summary>
         /// Sound Cloud
@@ -2782,7 +3474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// soundcloud - Available in Brands
         /// </remarks>
-        public static Icon Soundcloud => FA5.Brands.Soundcloud;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("soundcloud")]
+        Soundcloud,
 
         /// <summary>
         /// Sourcetree
@@ -2790,7 +3484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// sourcetree - Available in Brands
         /// </remarks>
-        public static Icon Sourcetree => FA5.Brands.Sourcetree;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("sourcetree")]
+        Sourcetree,
 
         /// <summary>
         /// Speakap
@@ -2798,7 +3494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// speakap - Available in Brands
         /// </remarks>
-        public static Icon Speakap => FA5.Brands.Speakap;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("speakap")]
+        Speakap,
 
         /// <summary>
         /// Speaker Deck
@@ -2806,7 +3504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// speaker-deck - Available in Brands
         /// </remarks>
-        public static Icon SpeakerDeck => FA5.Brands.SpeakerDeck;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("speaker-deck")]
+        SpeakerDeck,
 
         /// <summary>
         /// Spotify
@@ -2814,7 +3514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// spotify - Available in Brands
         /// </remarks>
-        public static Icon Spotify => FA5.Brands.Spotify;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("spotify")]
+        Spotify,
 
         /// <summary>
         /// Squarespace
@@ -2822,7 +3524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// squarespace - Available in Brands
         /// </remarks>
-        public static Icon Squarespace => FA5.Brands.Squarespace;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("squarespace")]
+        Squarespace,
 
         /// <summary>
         /// Stack Exchange
@@ -2830,7 +3534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// stack-exchange - Available in Brands
         /// </remarks>
-        public static Icon StackExchange => FA5.Brands.StackExchange;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("stack-exchange")]
+        StackExchange,
 
         /// <summary>
         /// Stack Overflow
@@ -2838,7 +3544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// stack-overflow - Available in Brands
         /// </remarks>
-        public static Icon StackOverflow => FA5.Brands.StackOverflow;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("stack-overflow")]
+        StackOverflow,
 
         /// <summary>
         /// Stackpath
@@ -2846,7 +3554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// stackpath - Available in Brands
         /// </remarks>
-        public static Icon Stackpath => FA5.Brands.Stackpath;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("stackpath")]
+        Stackpath,
 
         /// <summary>
         /// Stay Linked
@@ -2854,7 +3564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// staylinked - Available in Brands
         /// </remarks>
-        public static Icon Staylinked => FA5.Brands.Staylinked;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("staylinked")]
+        Staylinked,
 
         /// <summary>
         /// Steam
@@ -2862,7 +3574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// steam - Available in Brands
         /// </remarks>
-        public static Icon Steam => FA5.Brands.Steam;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("steam")]
+        Steam,
 
         /// <summary>
         /// Steam Square
@@ -2870,7 +3584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// steam-square - Available in Brands
         /// </remarks>
-        public static Icon SteamSquare => FA5.Brands.SteamSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("steam-square")]
+        SteamSquare,
 
         /// <summary>
         /// Steam Symbol
@@ -2878,7 +3594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// steam-symbol - Available in Brands
         /// </remarks>
-        public static Icon SteamSymbol => FA5.Brands.SteamSymbol;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("steam-symbol")]
+        SteamSymbol,
 
         /// <summary>
         /// Sticker Mule
@@ -2886,7 +3604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// sticker-mule - Available in Brands
         /// </remarks>
-        public static Icon StickerMule => FA5.Brands.StickerMule;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("sticker-mule")]
+        StickerMule,
 
         /// <summary>
         /// Strava
@@ -2894,7 +3614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// strava - Available in Brands
         /// </remarks>
-        public static Icon Strava => FA5.Brands.Strava;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("strava")]
+        Strava,
 
         /// <summary>
         /// Stripe
@@ -2902,7 +3624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// stripe - Available in Brands
         /// </remarks>
-        public static Icon Stripe => FA5.Brands.Stripe;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("stripe")]
+        Stripe,
 
         /// <summary>
         /// Stripe S
@@ -2910,7 +3634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// stripe-s - Available in Brands
         /// </remarks>
-        public static Icon StripeS => FA5.Brands.StripeS;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("stripe-s")]
+        StripeS,
 
         /// <summary>
         /// Studio Vinari
@@ -2918,7 +3644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// studiovinari - Available in Brands
         /// </remarks>
-        public static Icon Studiovinari => FA5.Brands.Studiovinari;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("studiovinari")]
+        Studiovinari,
 
         /// <summary>
         /// Stumble Upon Logo
@@ -2926,7 +3654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// stumbleupon - Available in Brands
         /// </remarks>
-        public static Icon Stumbleupon => FA5.Brands.Stumbleupon;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("stumbleupon")]
+        Stumbleupon,
 
         /// <summary>
         /// Stumble Upon Circle
@@ -2934,7 +3664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// stumbleupon-circle - Available in Brands
         /// </remarks>
-        public static Icon StumbleuponCircle => FA5.Brands.StumbleuponCircle;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("stumbleupon-circle")]
+        StumbleuponCircle,
 
         /// <summary>
         /// Superpowers
@@ -2942,7 +3674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// superpowers - Available in Brands
         /// </remarks>
-        public static Icon Superpowers => FA5.Brands.Superpowers;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("superpowers")]
+        Superpowers,
 
         /// <summary>
         /// Supple
@@ -2950,7 +3684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// supple - Available in Brands
         /// </remarks>
-        public static Icon Supple => FA5.Brands.Supple;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("supple")]
+        Supple,
 
         /// <summary>
         /// Suse
@@ -2958,7 +3694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// suse - Available in Brands
         /// </remarks>
-        public static Icon Suse => FA5.Brands.Suse;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("suse")]
+        Suse,
 
         /// <summary>
         /// Swift
@@ -2966,7 +3704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// swift - Available in Brands
         /// </remarks>
-        public static Icon Swift => FA5.Brands.Swift;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("swift")]
+        Swift,
 
         /// <summary>
         /// Symfony
@@ -2974,7 +3714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// symfony - Available in Brands
         /// </remarks>
-        public static Icon Symfony => FA5.Brands.Symfony;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("symfony")]
+        Symfony,
 
         /// <summary>
         /// Team Speak
@@ -2982,7 +3724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// teamspeak - Available in Brands
         /// </remarks>
-        public static Icon Teamspeak => FA5.Brands.Teamspeak;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("teamspeak")]
+        Teamspeak,
 
         /// <summary>
         /// Telegram
@@ -2990,7 +3734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// telegram - Available in Brands
         /// </remarks>
-        public static Icon Telegram => FA5.Brands.Telegram;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("telegram")]
+        Telegram,
 
         /// <summary>
         /// Telegram Plane
@@ -2998,7 +3744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// telegram-plane - Available in Brands
         /// </remarks>
-        public static Icon TelegramPlane => FA5.Brands.TelegramPlane;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("telegram-plane")]
+        TelegramPlane,
 
         /// <summary>
         /// Tencent Weibo
@@ -3006,7 +3754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// tencent-weibo - Available in Brands
         /// </remarks>
-        public static Icon TencentWeibo => FA5.Brands.TencentWeibo;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("tencent-weibo")]
+        TencentWeibo,
 
         /// <summary>
         /// The Red Yeti
@@ -3014,7 +3764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// the-red-yeti - Available in Brands
         /// </remarks>
-        public static Icon TheRedYeti => FA5.Brands.TheRedYeti;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("the-red-yeti")]
+        TheRedYeti,
 
         /// <summary>
         /// Themeco
@@ -3022,7 +3774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// themeco - Available in Brands
         /// </remarks>
-        public static Icon Themeco => FA5.Brands.Themeco;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("themeco")]
+        Themeco,
 
         /// <summary>
         /// Theme Isle
@@ -3030,7 +3784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// themeisle - Available in Brands
         /// </remarks>
-        public static Icon Themeisle => FA5.Brands.Themeisle;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("themeisle")]
+        Themeisle,
 
         /// <summary>
         /// Think Peaks
@@ -3038,7 +3794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// think-peaks - Available in Brands
         /// </remarks>
-        public static Icon ThinkPeaks => FA5.Brands.ThinkPeaks;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("think-peaks")]
+        ThinkPeaks,
 
         /// <summary>
         /// Trade Federation
@@ -3046,7 +3804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// trade-federation - Available in Brands
         /// </remarks>
-        public static Icon TradeFederation => FA5.Brands.TradeFederation;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("trade-federation")]
+        TradeFederation,
 
         /// <summary>
         /// Trello
@@ -3054,7 +3814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// trello - Available in Brands
         /// </remarks>
-        public static Icon Trello => FA5.Brands.Trello;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("trello")]
+        Trello,
 
         /// <summary>
         /// Trip Advisor
@@ -3062,7 +3824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// tripadvisor - Available in Brands
         /// </remarks>
-        public static Icon Tripadvisor => FA5.Brands.Tripadvisor;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("tripadvisor")]
+        Tripadvisor,
 
         /// <summary>
         /// Tumblr
@@ -3070,7 +3834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// tumblr - Available in Brands
         /// </remarks>
-        public static Icon Tumblr => FA5.Brands.Tumblr;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("tumblr")]
+        Tumblr,
 
         /// <summary>
         /// Tumblr Square
@@ -3078,7 +3844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// tumblr-square - Available in Brands
         /// </remarks>
-        public static Icon TumblrSquare => FA5.Brands.TumblrSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("tumblr-square")]
+        TumblrSquare,
 
         /// <summary>
         /// Twitch
@@ -3086,7 +3854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// twitch - Available in Brands
         /// </remarks>
-        public static Icon Twitch => FA5.Brands.Twitch;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("twitch")]
+        Twitch,
 
         /// <summary>
         /// Twitter
@@ -3094,7 +3864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// twitter - Available in Brands
         /// </remarks>
-        public static Icon Twitter => FA5.Brands.Twitter;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("twitter")]
+        Twitter,
 
         /// <summary>
         /// Twitter Square
@@ -3102,7 +3874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// twitter-square - Available in Brands
         /// </remarks>
-        public static Icon TwitterSquare => FA5.Brands.TwitterSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("twitter-square")]
+        TwitterSquare,
 
         /// <summary>
         /// Typo 3
@@ -3110,7 +3884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// typo3 - Available in Brands
         /// </remarks>
-        public static Icon Typo3 => FA5.Brands.Typo3;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("typo3")]
+        Typo3,
 
         /// <summary>
         /// Uber
@@ -3118,7 +3894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// uber - Available in Brands
         /// </remarks>
-        public static Icon Uber => FA5.Brands.Uber;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("uber")]
+        Uber,
 
         /// <summary>
         /// Ubuntu
@@ -3126,7 +3904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// ubuntu - Available in Brands
         /// </remarks>
-        public static Icon Ubuntu => FA5.Brands.Ubuntu;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("ubuntu")]
+        Ubuntu,
 
         /// <summary>
         /// U Ikit
@@ -3134,7 +3914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// uikit - Available in Brands
         /// </remarks>
-        public static Icon Uikit => FA5.Brands.Uikit;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("uikit")]
+        Uikit,
 
         /// <summary>
         /// Umbraco
@@ -3142,7 +3924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// umbraco - Available in Brands
         /// </remarks>
-        public static Icon Umbraco => FA5.Brands.Umbraco;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("umbraco")]
+        Umbraco,
 
         /// <summary>
         /// Uniregistry
@@ -3150,7 +3934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// uniregistry - Available in Brands
         /// </remarks>
-        public static Icon Uniregistry => FA5.Brands.Uniregistry;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("uniregistry")]
+        Uniregistry,
 
         /// <summary>
         /// Unity 3 D
@@ -3158,7 +3944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// unity - Available in Brands
         /// </remarks>
-        public static Icon Unity => FA5.Brands.Unity;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("unity")]
+        Unity,
 
         /// <summary>
         /// Untappd
@@ -3166,7 +3954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// untappd - Available in Brands
         /// </remarks>
-        public static Icon Untappd => FA5.Brands.Untappd;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("untappd")]
+        Untappd,
 
         /// <summary>
         /// UPS
@@ -3174,7 +3964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// ups - Available in Brands
         /// </remarks>
-        public static Icon Ups => FA5.Brands.Ups;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("ups")]
+        Ups,
 
         /// <summary>
         /// USB
@@ -3182,7 +3974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// usb - Available in Brands
         /// </remarks>
-        public static Icon Usb => FA5.Brands.Usb;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("usb")]
+        Usb,
 
         /// <summary>
         /// United States Postal Service
@@ -3190,7 +3984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// usps - Available in Brands
         /// </remarks>
-        public static Icon Usps => FA5.Brands.Usps;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("usps")]
+        Usps,
 
         /// <summary>
         /// Us Sunnah Foundation
@@ -3198,7 +3994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// ussunnah - Available in Brands
         /// </remarks>
-        public static Icon Ussunnah => FA5.Brands.Ussunnah;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("ussunnah")]
+        Ussunnah,
 
         /// <summary>
         /// Vaadin
@@ -3206,7 +4004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// vaadin - Available in Brands
         /// </remarks>
-        public static Icon Vaadin => FA5.Brands.Vaadin;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("vaadin")]
+        Vaadin,
 
         /// <summary>
         /// Viacoin
@@ -3214,7 +4014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// viacoin - Available in Brands
         /// </remarks>
-        public static Icon Viacoin => FA5.Brands.Viacoin;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("viacoin")]
+        Viacoin,
 
         /// <summary>
         /// Video
@@ -3222,7 +4024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// viadeo - Available in Brands
         /// </remarks>
-        public static Icon Viadeo => FA5.Brands.Viadeo;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("viadeo")]
+        Viadeo,
 
         /// <summary>
         /// Video Square
@@ -3230,7 +4034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// viadeo-square - Available in Brands
         /// </remarks>
-        public static Icon ViadeoSquare => FA5.Brands.ViadeoSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("viadeo-square")]
+        ViadeoSquare,
 
         /// <summary>
         /// Viber
@@ -3238,7 +4044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// viber - Available in Brands
         /// </remarks>
-        public static Icon Viber => FA5.Brands.Viber;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("viber")]
+        Viber,
 
         /// <summary>
         /// Vimeo
@@ -3246,7 +4054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// vimeo - Available in Brands
         /// </remarks>
-        public static Icon Vimeo => FA5.Brands.Vimeo;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("vimeo")]
+        Vimeo,
 
         /// <summary>
         /// Vimeo Square
@@ -3254,7 +4064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// vimeo-square - Available in Brands
         /// </remarks>
-        public static Icon VimeoSquare => FA5.Brands.VimeoSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("vimeo-square")]
+        VimeoSquare,
 
         /// <summary>
         /// Vimeo
@@ -3262,7 +4074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// vimeo-v - Available in Brands
         /// </remarks>
-        public static Icon VimeoV => FA5.Brands.VimeoV;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("vimeo-v")]
+        VimeoV,
 
         /// <summary>
         /// Vine
@@ -3270,7 +4084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// vine - Available in Brands
         /// </remarks>
-        public static Icon Vine => FA5.Brands.Vine;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("vine")]
+        Vine,
 
         /// <summary>
         /// VK
@@ -3278,7 +4094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// vk - Available in Brands
         /// </remarks>
-        public static Icon Vk => FA5.Brands.Vk;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("vk")]
+        Vk,
 
         /// <summary>
         /// VNV
@@ -3286,7 +4104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// vnv - Available in Brands
         /// </remarks>
-        public static Icon Vnv => FA5.Brands.Vnv;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("vnv")]
+        Vnv,
 
         /// <summary>
         /// Vue Js
@@ -3294,7 +4114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// vuejs - Available in Brands
         /// </remarks>
-        public static Icon Vuejs => FA5.Brands.Vuejs;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("vuejs")]
+        Vuejs,
 
         /// <summary>
         /// Waze
@@ -3302,7 +4124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// waze - Available in Brands
         /// </remarks>
-        public static Icon Waze => FA5.Brands.Waze;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("waze")]
+        Waze,
 
         /// <summary>
         /// Weebly
@@ -3310,7 +4134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// weebly - Available in Brands
         /// </remarks>
-        public static Icon Weebly => FA5.Brands.Weebly;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("weebly")]
+        Weebly,
 
         /// <summary>
         /// Weibo
@@ -3318,7 +4144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// weibo - Available in Brands
         /// </remarks>
-        public static Icon Weibo => FA5.Brands.Weibo;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("weibo")]
+        Weibo,
 
         /// <summary>
         /// Weixin We Chat
@@ -3326,7 +4154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// weixin - Available in Brands
         /// </remarks>
-        public static Icon Weixin => FA5.Brands.Weixin;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("weixin")]
+        Weixin,
 
         /// <summary>
         /// What S App
@@ -3334,7 +4164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// whatsapp - Available in Brands
         /// </remarks>
-        public static Icon Whatsapp => FA5.Brands.Whatsapp;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("whatsapp")]
+        Whatsapp,
 
         /// <summary>
         /// What S App Square
@@ -3342,7 +4174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// whatsapp-square - Available in Brands
         /// </remarks>
-        public static Icon WhatsappSquare => FA5.Brands.WhatsappSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("whatsapp-square")]
+        WhatsappSquare,
 
         /// <summary>
         /// WHMCS
@@ -3350,7 +4184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// whmcs - Available in Brands
         /// </remarks>
-        public static Icon Whmcs => FA5.Brands.Whmcs;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("whmcs")]
+        Whmcs,
 
         /// <summary>
         /// Wikipedia W
@@ -3358,7 +4194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// wikipedia-w - Available in Brands
         /// </remarks>
-        public static Icon WikipediaW => FA5.Brands.WikipediaW;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("wikipedia-w")]
+        WikipediaW,
 
         /// <summary>
         /// Windows
@@ -3366,7 +4204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// windows - Available in Brands
         /// </remarks>
-        public static Icon Windows => FA5.Brands.Windows;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("windows")]
+        Windows,
 
         /// <summary>
         /// Wix
@@ -3374,7 +4214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// wix - Available in Brands
         /// </remarks>
-        public static Icon Wix => FA5.Brands.Wix;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("wix")]
+        Wix,
 
         /// <summary>
         /// Wizards Of The Coast
@@ -3382,7 +4224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// wizards-of-the-coast - Available in Brands
         /// </remarks>
-        public static Icon WizardsOfTheCoast => FA5.Brands.WizardsOfTheCoast;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("wizards-of-the-coast")]
+        WizardsOfTheCoast,
 
         /// <summary>
         /// Wolf Pack Battalion
@@ -3390,7 +4234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// wolf-pack-battalion - Available in Brands
         /// </remarks>
-        public static Icon WolfPackBattalion => FA5.Brands.WolfPackBattalion;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("wolf-pack-battalion")]
+        WolfPackBattalion,
 
         /// <summary>
         /// Word Press Logo
@@ -3398,7 +4244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// wordpress - Available in Brands
         /// </remarks>
-        public static Icon Wordpress => FA5.Brands.Wordpress;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("wordpress")]
+        Wordpress,
 
         /// <summary>
         /// Wordpress Simple
@@ -3406,7 +4254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// wordpress-simple - Available in Brands
         /// </remarks>
-        public static Icon WordpressSimple => FA5.Brands.WordpressSimple;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("wordpress-simple")]
+        WordpressSimple,
 
         /// <summary>
         /// WP Beginner
@@ -3414,7 +4264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// wpbeginner - Available in Brands
         /// </remarks>
-        public static Icon Wpbeginner => FA5.Brands.Wpbeginner;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("wpbeginner")]
+        Wpbeginner,
 
         /// <summary>
         /// WP Explorer
@@ -3422,7 +4274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// wpexplorer - Available in Brands
         /// </remarks>
-        public static Icon Wpexplorer => FA5.Brands.Wpexplorer;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("wpexplorer")]
+        Wpexplorer,
 
         /// <summary>
         /// WP Forms
@@ -3430,7 +4284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// wpforms - Available in Brands
         /// </remarks>
-        public static Icon Wpforms => FA5.Brands.Wpforms;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("wpforms")]
+        Wpforms,
 
         /// <summary>
         /// Wpressr
@@ -3438,7 +4294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// wpressr - Available in Brands
         /// </remarks>
-        public static Icon Wpressr => FA5.Brands.Wpressr;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("wpressr")]
+        Wpressr,
 
         /// <summary>
         /// Xbox
@@ -3446,7 +4304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// xbox - Available in Brands
         /// </remarks>
-        public static Icon Xbox => FA5.Brands.Xbox;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("xbox")]
+        Xbox,
 
         /// <summary>
         /// Xing
@@ -3454,7 +4314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// xing - Available in Brands
         /// </remarks>
-        public static Icon Xing => FA5.Brands.Xing;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("xing")]
+        Xing,
 
         /// <summary>
         /// Xing Square
@@ -3462,7 +4324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// xing-square - Available in Brands
         /// </remarks>
-        public static Icon XingSquare => FA5.Brands.XingSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("xing-square")]
+        XingSquare,
 
         /// <summary>
         /// Y Combinator
@@ -3470,7 +4334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// y-combinator - Available in Brands
         /// </remarks>
-        public static Icon YCombinator => FA5.Brands.YCombinator;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("y-combinator")]
+        YCombinator,
 
         /// <summary>
         /// Yahoo Logo
@@ -3478,7 +4344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// yahoo - Available in Brands
         /// </remarks>
-        public static Icon Yahoo => FA5.Brands.Yahoo;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("yahoo")]
+        Yahoo,
 
         /// <summary>
         /// Yammer
@@ -3486,7 +4354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// yammer - Available in Brands
         /// </remarks>
-        public static Icon Yammer => FA5.Brands.Yammer;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("yammer")]
+        Yammer,
 
         /// <summary>
         /// Yandex
@@ -3494,7 +4364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// yandex - Available in Brands
         /// </remarks>
-        public static Icon Yandex => FA5.Brands.Yandex;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("yandex")]
+        Yandex,
 
         /// <summary>
         /// Yandex International
@@ -3502,7 +4374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// yandex-international - Available in Brands
         /// </remarks>
-        public static Icon YandexInternational => FA5.Brands.YandexInternational;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("yandex-international")]
+        YandexInternational,
 
         /// <summary>
         /// Yarn
@@ -3510,7 +4384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// yarn - Available in Brands
         /// </remarks>
-        public static Icon Yarn => FA5.Brands.Yarn;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("yarn")]
+        Yarn,
 
         /// <summary>
         /// Yelp
@@ -3518,7 +4394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// yelp - Available in Brands
         /// </remarks>
-        public static Icon Yelp => FA5.Brands.Yelp;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("yelp")]
+        Yelp,
 
         /// <summary>
         /// Yoast
@@ -3526,7 +4404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// yoast - Available in Brands
         /// </remarks>
-        public static Icon Yoast => FA5.Brands.Yoast;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("yoast")]
+        Yoast,
 
         /// <summary>
         /// You Tube
@@ -3534,7 +4414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// youtube - Available in Brands
         /// </remarks>
-        public static Icon Youtube => FA5.Brands.Youtube;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("youtube")]
+        Youtube,
 
         /// <summary>
         /// You Tube Square
@@ -3542,7 +4424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// youtube-square - Available in Brands
         /// </remarks>
-        public static Icon YoutubeSquare => FA5.Brands.YoutubeSquare;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("youtube-square")]
+        YoutubeSquare,
 
         /// <summary>
         /// Zhihu
@@ -3550,7 +4434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// <remarks>
         /// zhihu - Available in Brands
         /// </remarks>
-        public static Icon Zhihu => FA5.Brands.Zhihu;
+        [FontAwesomeStyle(IconStyle.Brands)]
+        [FontAwesomeIconName("zhihu")]
+        Zhihu,
 
     }
 }

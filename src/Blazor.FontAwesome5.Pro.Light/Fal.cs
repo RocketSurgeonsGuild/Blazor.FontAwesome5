@@ -1,12 +1,12 @@
 using System;
+using Rocket.Surgery.Blazor.FontAwesome5;
 using Rocket.Surgery.Blazor.FontAwesome5.Shared;
-using FA5 = global::Rocket.Surgery.Blazor.FontAwesome5.Pro.FontAwesome;
 namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
 {
     /// <summary>
     /// Font Awesome Fal Icons
     /// </summary>
-    public static partial class Fal
+    public enum Fal
     {
         /// <summary>
         /// Abacus
@@ -14,7 +14,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// abacus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Abacus => FA5.Light.Abacus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("abacus")]
+        Abacus,
 
         /// <summary>
         /// Acorn
@@ -22,7 +24,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// acorn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Acorn => FA5.Light.Acorn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("acorn")]
+        Acorn,
 
         /// <summary>
         /// Ad
@@ -30,7 +34,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ad - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ad => FA5.Light.Ad;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ad")]
+        Ad,
 
         /// <summary>
         /// Address Book
@@ -38,7 +44,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// address-book - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AddressBook => FA5.Light.AddressBook;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("address-book")]
+        AddressBook,
 
         /// <summary>
         /// Address Card
@@ -46,7 +54,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// address-card - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AddressCard => FA5.Light.AddressCard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("address-card")]
+        AddressCard,
 
         /// <summary>
         /// Adjust
@@ -54,7 +64,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// adjust - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Adjust => FA5.Light.Adjust;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("adjust")]
+        Adjust,
 
         /// <summary>
         /// Air Conditioner
@@ -62,7 +74,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// air-conditioner - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AirConditioner => FA5.Light.AirConditioner;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("air-conditioner")]
+        AirConditioner,
 
         /// <summary>
         /// Air Freshener
@@ -70,7 +84,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// air-freshener - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AirFreshener => FA5.Light.AirFreshener;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("air-freshener")]
+        AirFreshener,
 
         /// <summary>
         /// Alarm Clock
@@ -78,7 +94,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// alarm-clock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AlarmClock => FA5.Light.AlarmClock;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("alarm-clock")]
+        AlarmClock,
 
         /// <summary>
         /// Alarm Exclamation
@@ -86,7 +104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// alarm-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AlarmExclamation => FA5.Light.AlarmExclamation;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("alarm-exclamation")]
+        AlarmExclamation,
 
         /// <summary>
         /// Alarm Plus
@@ -94,7 +114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// alarm-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AlarmPlus => FA5.Light.AlarmPlus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("alarm-plus")]
+        AlarmPlus,
 
         /// <summary>
         /// Alarm Snooze
@@ -102,7 +124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// alarm-snooze - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AlarmSnooze => FA5.Light.AlarmSnooze;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("alarm-snooze")]
+        AlarmSnooze,
 
         /// <summary>
         /// Album
@@ -110,7 +134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// album - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Album => FA5.Light.Album;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("album")]
+        Album,
 
         /// <summary>
         /// Album Collection
@@ -118,7 +144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// album-collection - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AlbumCollection => FA5.Light.AlbumCollection;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("album-collection")]
+        AlbumCollection,
 
         /// <summary>
         /// Alicorn
@@ -126,7 +154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// alicorn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Alicorn => FA5.Light.Alicorn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("alicorn")]
+        Alicorn,
 
         /// <summary>
         /// Alien
@@ -134,7 +164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// alien - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Alien => FA5.Light.Alien;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("alien")]
+        Alien,
 
         /// <summary>
         /// Alien Monster
@@ -142,7 +174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// alien-monster - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AlienMonster => FA5.Light.AlienMonster;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("alien-monster")]
+        AlienMonster,
 
         /// <summary>
         /// Align Center
@@ -150,7 +184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// align-center - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AlignCenter => FA5.Light.AlignCenter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("align-center")]
+        AlignCenter,
 
         /// <summary>
         /// Align Justify
@@ -158,7 +194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// align-justify - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AlignJustify => FA5.Light.AlignJustify;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("align-justify")]
+        AlignJustify,
 
         /// <summary>
         /// Align Left
@@ -166,7 +204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// align-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AlignLeft => FA5.Light.AlignLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("align-left")]
+        AlignLeft,
 
         /// <summary>
         /// Align Right
@@ -174,7 +214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// align-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AlignRight => FA5.Light.AlignRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("align-right")]
+        AlignRight,
 
         /// <summary>
         /// Align Slash
@@ -182,7 +224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// align-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AlignSlash => FA5.Light.AlignSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("align-slash")]
+        AlignSlash,
 
         /// <summary>
         /// Allergies
@@ -190,7 +234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// allergies - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Allergies => FA5.Light.Allergies;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("allergies")]
+        Allergies,
 
         /// <summary>
         /// Ambulance
@@ -198,7 +244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ambulance - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ambulance => FA5.Light.Ambulance;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ambulance")]
+        Ambulance,
 
         /// <summary>
         /// American Sign Language Interpreting
@@ -206,7 +254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// american-sign-language-interpreting - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AmericanSignLanguageInterpreting => FA5.Light.AmericanSignLanguageInterpreting;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("american-sign-language-interpreting")]
+        AmericanSignLanguageInterpreting,
 
         /// <summary>
         /// Guitar Amplifier
@@ -214,7 +264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// amp-guitar - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        public static Icon AmpGuitar => FA5.Light.AmpGuitar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("amp-guitar")]
+        AmpGuitar,
 
         /// <summary>
         /// Analytics
@@ -222,7 +274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// analytics - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Analytics => FA5.Light.Analytics;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("analytics")]
+        Analytics,
 
         /// <summary>
         /// Anchor
@@ -230,7 +284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// anchor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Anchor => FA5.Light.Anchor;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("anchor")]
+        Anchor,
 
         /// <summary>
         /// Angel
@@ -238,7 +294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// angel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Angel => FA5.Light.Angel;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("angel")]
+        Angel,
 
         /// <summary>
         /// Angle Double Down
@@ -246,7 +304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// angle-double-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AngleDoubleDown => FA5.Light.AngleDoubleDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("angle-double-down")]
+        AngleDoubleDown,
 
         /// <summary>
         /// Angle Double Left
@@ -254,7 +314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// angle-double-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AngleDoubleLeft => FA5.Light.AngleDoubleLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("angle-double-left")]
+        AngleDoubleLeft,
 
         /// <summary>
         /// Angle Double Right
@@ -262,7 +324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// angle-double-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AngleDoubleRight => FA5.Light.AngleDoubleRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("angle-double-right")]
+        AngleDoubleRight,
 
         /// <summary>
         /// Angle Double Up
@@ -270,7 +334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// angle-double-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AngleDoubleUp => FA5.Light.AngleDoubleUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("angle-double-up")]
+        AngleDoubleUp,
 
         /// <summary>
         /// Angle Down
@@ -278,7 +344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// angle-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AngleDown => FA5.Light.AngleDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("angle-down")]
+        AngleDown,
 
         /// <summary>
         /// Angle Left
@@ -286,7 +354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// angle-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AngleLeft => FA5.Light.AngleLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("angle-left")]
+        AngleLeft,
 
         /// <summary>
         /// Angle Right
@@ -294,7 +364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// angle-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AngleRight => FA5.Light.AngleRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("angle-right")]
+        AngleRight,
 
         /// <summary>
         /// Angle Up
@@ -302,7 +374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// angle-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AngleUp => FA5.Light.AngleUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("angle-up")]
+        AngleUp,
 
         /// <summary>
         /// Angry Face
@@ -310,7 +384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// angry - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Angry => FA5.Light.Angry;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("angry")]
+        Angry,
 
         /// <summary>
         /// Ankh
@@ -318,7 +394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ankh - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ankh => FA5.Light.Ankh;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ankh")]
+        Ankh,
 
         /// <summary>
         /// Fruit Apple
@@ -326,7 +404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// apple-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AppleAlt => FA5.Light.AppleAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("apple-alt")]
+        AppleAlt,
 
         /// <summary>
         /// Apple Crate
@@ -334,7 +414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// apple-crate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AppleCrate => FA5.Light.AppleCrate;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("apple-crate")]
+        AppleCrate,
 
         /// <summary>
         /// Archive
@@ -342,7 +424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// archive - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Archive => FA5.Light.Archive;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("archive")]
+        Archive,
 
         /// <summary>
         /// Archway
@@ -350,7 +434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// archway - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Archway => FA5.Light.Archway;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("archway")]
+        Archway,
 
         /// <summary>
         /// Alternate Arrow Circle Down
@@ -358,7 +444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-circle-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltCircleDown => FA5.Light.ArrowAltCircleDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-circle-down")]
+        ArrowAltCircleDown,
 
         /// <summary>
         /// Alternate Arrow Circle Left
@@ -366,7 +454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-circle-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltCircleLeft => FA5.Light.ArrowAltCircleLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-circle-left")]
+        ArrowAltCircleLeft,
 
         /// <summary>
         /// Alternate Arrow Circle Right
@@ -374,7 +464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-circle-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltCircleRight => FA5.Light.ArrowAltCircleRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-circle-right")]
+        ArrowAltCircleRight,
 
         /// <summary>
         /// Alternate Arrow Circle Up
@@ -382,7 +474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-circle-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltCircleUp => FA5.Light.ArrowAltCircleUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-circle-up")]
+        ArrowAltCircleUp,
 
         /// <summary>
         /// Alternate Arrow Down
@@ -390,7 +484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltDown => FA5.Light.ArrowAltDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-down")]
+        ArrowAltDown,
 
         /// <summary>
         /// Alternate Arrow From Bottom
@@ -398,7 +494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-from-bottom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltFromBottom => FA5.Light.ArrowAltFromBottom;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-from-bottom")]
+        ArrowAltFromBottom,
 
         /// <summary>
         /// Alternate Arrow From Left
@@ -406,7 +504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-from-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltFromLeft => FA5.Light.ArrowAltFromLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-from-left")]
+        ArrowAltFromLeft,
 
         /// <summary>
         /// Alternate Arrow From Right
@@ -414,7 +514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-from-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltFromRight => FA5.Light.ArrowAltFromRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-from-right")]
+        ArrowAltFromRight,
 
         /// <summary>
         /// Alternate Arrow From Top
@@ -422,7 +524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-from-top - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltFromTop => FA5.Light.ArrowAltFromTop;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-from-top")]
+        ArrowAltFromTop,
 
         /// <summary>
         /// Alternate Arrow Left
@@ -430,7 +534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltLeft => FA5.Light.ArrowAltLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-left")]
+        ArrowAltLeft,
 
         /// <summary>
         /// Alternate Arrow Right
@@ -438,7 +544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltRight => FA5.Light.ArrowAltRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-right")]
+        ArrowAltRight,
 
         /// <summary>
         /// Alternate Arrow Square Down
@@ -446,7 +554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-square-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltSquareDown => FA5.Light.ArrowAltSquareDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-square-down")]
+        ArrowAltSquareDown,
 
         /// <summary>
         /// Alternate Arrow Square Left
@@ -454,7 +564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-square-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltSquareLeft => FA5.Light.ArrowAltSquareLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-square-left")]
+        ArrowAltSquareLeft,
 
         /// <summary>
         /// Alternate Arrow Square Right
@@ -462,7 +574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-square-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltSquareRight => FA5.Light.ArrowAltSquareRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-square-right")]
+        ArrowAltSquareRight,
 
         /// <summary>
         /// Alternate Arrow Square Up
@@ -470,7 +584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-square-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltSquareUp => FA5.Light.ArrowAltSquareUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-square-up")]
+        ArrowAltSquareUp,
 
         /// <summary>
         /// Alternate Arrow To Bottom
@@ -478,7 +594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-to-bottom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltToBottom => FA5.Light.ArrowAltToBottom;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-to-bottom")]
+        ArrowAltToBottom,
 
         /// <summary>
         /// Alternate Arrow To Left
@@ -486,7 +604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-to-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltToLeft => FA5.Light.ArrowAltToLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-to-left")]
+        ArrowAltToLeft,
 
         /// <summary>
         /// Alternate Arrow To Right
@@ -494,7 +614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-to-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltToRight => FA5.Light.ArrowAltToRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-to-right")]
+        ArrowAltToRight,
 
         /// <summary>
         /// Alternate Arrow To Top
@@ -502,7 +624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-to-top - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltToTop => FA5.Light.ArrowAltToTop;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-to-top")]
+        ArrowAltToTop,
 
         /// <summary>
         /// Alternate Arrow Up
@@ -510,7 +634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-alt-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowAltUp => FA5.Light.ArrowAltUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-alt-up")]
+        ArrowAltUp,
 
         /// <summary>
         /// Arrow Circle Down
@@ -518,7 +644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-circle-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowCircleDown => FA5.Light.ArrowCircleDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-circle-down")]
+        ArrowCircleDown,
 
         /// <summary>
         /// Arrow Circle Left
@@ -526,7 +654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-circle-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowCircleLeft => FA5.Light.ArrowCircleLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-circle-left")]
+        ArrowCircleLeft,
 
         /// <summary>
         /// Arrow Circle Right
@@ -534,7 +664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-circle-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowCircleRight => FA5.Light.ArrowCircleRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-circle-right")]
+        ArrowCircleRight,
 
         /// <summary>
         /// Arrow Circle Up
@@ -542,7 +674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-circle-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowCircleUp => FA5.Light.ArrowCircleUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-circle-up")]
+        ArrowCircleUp,
 
         /// <summary>
         /// Arrow Down
@@ -550,7 +684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowDown => FA5.Light.ArrowDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-down")]
+        ArrowDown,
 
         /// <summary>
         /// Arrow From Bottom
@@ -558,7 +694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-from-bottom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowFromBottom => FA5.Light.ArrowFromBottom;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-from-bottom")]
+        ArrowFromBottom,
 
         /// <summary>
         /// Arrow From Left
@@ -566,7 +704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-from-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowFromLeft => FA5.Light.ArrowFromLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-from-left")]
+        ArrowFromLeft,
 
         /// <summary>
         /// Arrow From Right
@@ -574,7 +714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-from-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowFromRight => FA5.Light.ArrowFromRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-from-right")]
+        ArrowFromRight,
 
         /// <summary>
         /// Arrow From Top
@@ -582,7 +724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-from-top - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowFromTop => FA5.Light.ArrowFromTop;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-from-top")]
+        ArrowFromTop,
 
         /// <summary>
         /// Arrow Left
@@ -590,7 +734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowLeft => FA5.Light.ArrowLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-left")]
+        ArrowLeft,
 
         /// <summary>
         /// Arrow Right
@@ -598,7 +744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowRight => FA5.Light.ArrowRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-right")]
+        ArrowRight,
 
         /// <summary>
         /// Arrow Square Down
@@ -606,7 +754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-square-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowSquareDown => FA5.Light.ArrowSquareDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-square-down")]
+        ArrowSquareDown,
 
         /// <summary>
         /// Arrow Square Left
@@ -614,7 +764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-square-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowSquareLeft => FA5.Light.ArrowSquareLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-square-left")]
+        ArrowSquareLeft,
 
         /// <summary>
         /// Arrow Square Right
@@ -622,7 +774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-square-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowSquareRight => FA5.Light.ArrowSquareRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-square-right")]
+        ArrowSquareRight,
 
         /// <summary>
         /// Arrow Square Up
@@ -630,7 +784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-square-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowSquareUp => FA5.Light.ArrowSquareUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-square-up")]
+        ArrowSquareUp,
 
         /// <summary>
         /// Arrow To Bottom
@@ -638,7 +794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-to-bottom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowToBottom => FA5.Light.ArrowToBottom;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-to-bottom")]
+        ArrowToBottom,
 
         /// <summary>
         /// Arrow To Left
@@ -646,7 +804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-to-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowToLeft => FA5.Light.ArrowToLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-to-left")]
+        ArrowToLeft,
 
         /// <summary>
         /// Arrow To Right
@@ -654,7 +814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-to-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowToRight => FA5.Light.ArrowToRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-to-right")]
+        ArrowToRight,
 
         /// <summary>
         /// Arrow To Top
@@ -662,7 +824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-to-top - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowToTop => FA5.Light.ArrowToTop;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-to-top")]
+        ArrowToTop,
 
         /// <summary>
         /// Arrow Up
@@ -670,7 +834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrow-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowUp => FA5.Light.ArrowUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrow-up")]
+        ArrowUp,
 
         /// <summary>
         /// Arrows
@@ -678,7 +844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrows - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Arrows => FA5.Light.Arrows;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrows")]
+        Arrows,
 
         /// <summary>
         /// Alternate Arrows
@@ -686,7 +854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrows-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowsAlt => FA5.Light.ArrowsAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrows-alt")]
+        ArrowsAlt,
 
         /// <summary>
         /// Alternate Arrows Horizontal
@@ -694,7 +864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrows-alt-h - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowsAltH => FA5.Light.ArrowsAltH;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrows-alt-h")]
+        ArrowsAltH,
 
         /// <summary>
         /// Alternate Arrows Vertical
@@ -702,7 +874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrows-alt-v - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowsAltV => FA5.Light.ArrowsAltV;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrows-alt-v")]
+        ArrowsAltV,
 
         /// <summary>
         /// Arrows Horizontal
@@ -710,7 +884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrows-h - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowsH => FA5.Light.ArrowsH;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrows-h")]
+        ArrowsH,
 
         /// <summary>
         /// Arrows Vertical
@@ -718,7 +894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// arrows-v - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ArrowsV => FA5.Light.ArrowsV;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("arrows-v")]
+        ArrowsV,
 
         /// <summary>
         /// Assistive Listening Systems
@@ -726,7 +904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// assistive-listening-systems - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AssistiveListeningSystems => FA5.Light.AssistiveListeningSystems;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("assistive-listening-systems")]
+        AssistiveListeningSystems,
 
         /// <summary>
         /// Asterisk
@@ -734,7 +914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// asterisk - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Asterisk => FA5.Light.Asterisk;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("asterisk")]
+        Asterisk,
 
         /// <summary>
         /// At
@@ -742,7 +924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// at - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon At => FA5.Light.At;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("at")]
+        At,
 
         /// <summary>
         /// Atlas
@@ -750,7 +934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// atlas - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Atlas => FA5.Light.Atlas;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("atlas")]
+        Atlas,
 
         /// <summary>
         /// Atom
@@ -758,7 +944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// atom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Atom => FA5.Light.Atom;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("atom")]
+        Atom,
 
         /// <summary>
         /// Atom Alt
@@ -766,7 +954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// atom-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AtomAlt => FA5.Light.AtomAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("atom-alt")]
+        AtomAlt,
 
         /// <summary>
         /// Audio Description
@@ -774,7 +964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// audio-description - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AudioDescription => FA5.Light.AudioDescription;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("audio-description")]
+        AudioDescription,
 
         /// <summary>
         /// Award
@@ -782,7 +974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// award - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Award => FA5.Light.Award;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("award")]
+        Award,
 
         /// <summary>
         /// Axe
@@ -790,7 +984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// axe - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Axe => FA5.Light.Axe;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("axe")]
+        Axe,
 
         /// <summary>
         /// Axe Battle
@@ -798,7 +994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// axe-battle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon AxeBattle => FA5.Light.AxeBattle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("axe-battle")]
+        AxeBattle,
 
         /// <summary>
         /// Baby
@@ -806,7 +1004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// baby - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Baby => FA5.Light.Baby;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("baby")]
+        Baby,
 
         /// <summary>
         /// Baby Carriage
@@ -814,7 +1014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// baby-carriage - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BabyCarriage => FA5.Light.BabyCarriage;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("baby-carriage")]
+        BabyCarriage,
 
         /// <summary>
         /// Backpack
@@ -822,7 +1024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// backpack - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Backpack => FA5.Light.Backpack;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("backpack")]
+        Backpack,
 
         /// <summary>
         /// Backspace
@@ -830,7 +1034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// backspace - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Backspace => FA5.Light.Backspace;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("backspace")]
+        Backspace,
 
         /// <summary>
         /// Backward
@@ -838,7 +1044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// backward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Backward => FA5.Light.Backward;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("backward")]
+        Backward,
 
         /// <summary>
         /// Bacon
@@ -846,7 +1054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bacon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bacon => FA5.Light.Bacon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bacon")]
+        Bacon,
 
         /// <summary>
         /// Badge
@@ -854,7 +1064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// badge - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Badge => FA5.Light.Badge;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("badge")]
+        Badge,
 
         /// <summary>
         /// Check Badge
@@ -862,7 +1074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// badge-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BadgeCheck => FA5.Light.BadgeCheck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("badge-check")]
+        BadgeCheck,
 
         /// <summary>
         /// Badge Dollar
@@ -870,7 +1084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// badge-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BadgeDollar => FA5.Light.BadgeDollar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("badge-dollar")]
+        BadgeDollar,
 
         /// <summary>
         /// Badge Percent
@@ -878,7 +1094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// badge-percent - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BadgePercent => FA5.Light.BadgePercent;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("badge-percent")]
+        BadgePercent,
 
         /// <summary>
         /// Sheriff Badge
@@ -886,7 +1104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// badge-sheriff - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        public static Icon BadgeSheriff => FA5.Light.BadgeSheriff;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("badge-sheriff")]
+        BadgeSheriff,
 
         /// <summary>
         /// Honey Badger
@@ -894,7 +1114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// badger-honey - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BadgerHoney => FA5.Light.BadgerHoney;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("badger-honey")]
+        BadgerHoney,
 
         /// <summary>
         /// Shopping Bags
@@ -902,7 +1124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bags-shopping - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BagsShopping => FA5.Light.BagsShopping;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bags-shopping")]
+        BagsShopping,
 
         /// <summary>
         /// Bahá Í
@@ -910,7 +1134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bahai - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bahai => FA5.Light.Bahai;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bahai")]
+        Bahai,
 
         /// <summary>
         /// Balance Scale
@@ -918,7 +1144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// balance-scale - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BalanceScale => FA5.Light.BalanceScale;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("balance-scale")]
+        BalanceScale,
 
         /// <summary>
         /// Balance Scale (Left Weighted)
@@ -926,7 +1154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// balance-scale-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BalanceScaleLeft => FA5.Light.BalanceScaleLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("balance-scale-left")]
+        BalanceScaleLeft,
 
         /// <summary>
         /// Balance Scale (Right Weighted)
@@ -934,7 +1164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// balance-scale-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BalanceScaleRight => FA5.Light.BalanceScaleRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("balance-scale-right")]
+        BalanceScaleRight,
 
         /// <summary>
         /// Ball Pile
@@ -942,7 +1174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ball-pile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BallPile => FA5.Light.BallPile;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ball-pile")]
+        BallPile,
 
         /// <summary>
         /// Ballot
@@ -950,7 +1184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ballot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ballot => FA5.Light.Ballot;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ballot")]
+        Ballot,
 
         /// <summary>
         /// Ballot Check
@@ -958,7 +1194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ballot-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BallotCheck => FA5.Light.BallotCheck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ballot-check")]
+        BallotCheck,
 
         /// <summary>
         /// Ban
@@ -966,7 +1204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ban - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ban => FA5.Light.Ban;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ban")]
+        Ban,
 
         /// <summary>
         /// Band Aid
@@ -974,7 +1214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// band-aid - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BandAid => FA5.Light.BandAid;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("band-aid")]
+        BandAid,
 
         /// <summary>
         /// Banjo
@@ -982,7 +1224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// banjo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Banjo => FA5.Light.Banjo;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("banjo")]
+        Banjo,
 
         /// <summary>
         /// Barcode
@@ -990,7 +1234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// barcode - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Barcode => FA5.Light.Barcode;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("barcode")]
+        Barcode,
 
         /// <summary>
         /// Alternate Barcode
@@ -998,7 +1244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// barcode-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BarcodeAlt => FA5.Light.BarcodeAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("barcode-alt")]
+        BarcodeAlt,
 
         /// <summary>
         /// Barcode Read
@@ -1006,7 +1254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// barcode-read - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BarcodeRead => FA5.Light.BarcodeRead;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("barcode-read")]
+        BarcodeRead,
 
         /// <summary>
         /// Barcode Scan
@@ -1014,7 +1264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// barcode-scan - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BarcodeScan => FA5.Light.BarcodeScan;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("barcode-scan")]
+        BarcodeScan,
 
         /// <summary>
         /// Bars
@@ -1022,7 +1274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bars => FA5.Light.Bars;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bars")]
+        Bars,
 
         /// <summary>
         /// Baseball
@@ -1030,7 +1284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// baseball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Baseball => FA5.Light.Baseball;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("baseball")]
+        Baseball,
 
         /// <summary>
         /// Baseball Ball
@@ -1038,7 +1294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// baseball-ball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BaseballBall => FA5.Light.BaseballBall;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("baseball-ball")]
+        BaseballBall,
 
         /// <summary>
         /// Basketball Ball
@@ -1046,7 +1304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// basketball-ball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BasketballBall => FA5.Light.BasketballBall;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("basketball-ball")]
+        BasketballBall,
 
         /// <summary>
         /// Basketball Hoop
@@ -1054,7 +1314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// basketball-hoop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BasketballHoop => FA5.Light.BasketballHoop;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("basketball-hoop")]
+        BasketballHoop,
 
         /// <summary>
         /// Bat
@@ -1062,7 +1324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bat => FA5.Light.Bat;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bat")]
+        Bat,
 
         /// <summary>
         /// Bath
@@ -1070,7 +1334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bath - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bath => FA5.Light.Bath;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bath")]
+        Bath,
 
         /// <summary>
         /// Battery Bolt
@@ -1078,7 +1344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// battery-bolt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BatteryBolt => FA5.Light.BatteryBolt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("battery-bolt")]
+        BatteryBolt,
 
         /// <summary>
         /// Battery Empty
@@ -1086,7 +1354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// battery-empty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BatteryEmpty => FA5.Light.BatteryEmpty;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("battery-empty")]
+        BatteryEmpty,
 
         /// <summary>
         /// Battery Full
@@ -1094,7 +1364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// battery-full - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BatteryFull => FA5.Light.BatteryFull;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("battery-full")]
+        BatteryFull,
 
         /// <summary>
         /// Battery 1 2 Full
@@ -1102,7 +1374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// battery-half - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BatteryHalf => FA5.Light.BatteryHalf;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("battery-half")]
+        BatteryHalf,
 
         /// <summary>
         /// Battery 1 4 Full
@@ -1110,7 +1384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// battery-quarter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BatteryQuarter => FA5.Light.BatteryQuarter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("battery-quarter")]
+        BatteryQuarter,
 
         /// <summary>
         /// Battery Slash
@@ -1118,7 +1394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// battery-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BatterySlash => FA5.Light.BatterySlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("battery-slash")]
+        BatterySlash,
 
         /// <summary>
         /// Battery 3 4 Full
@@ -1126,7 +1404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// battery-three-quarters - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BatteryThreeQuarters => FA5.Light.BatteryThreeQuarters;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("battery-three-quarters")]
+        BatteryThreeQuarters,
 
         /// <summary>
         /// Bed
@@ -1134,7 +1414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bed => FA5.Light.Bed;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bed")]
+        Bed,
 
         /// <summary>
         /// Alternate Bed
@@ -1142,7 +1424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bed-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BedAlt => FA5.Light.BedAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bed-alt")]
+        BedAlt,
 
         /// <summary>
         /// Bunkbed
@@ -1150,7 +1434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bed-bunk - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BedBunk => FA5.Light.BedBunk;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bed-bunk")]
+        BedBunk,
 
         /// <summary>
         /// Bed Empty
@@ -1158,7 +1444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bed-empty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BedEmpty => FA5.Light.BedEmpty;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bed-empty")]
+        BedEmpty,
 
         /// <summary>
         /// Beer
@@ -1166,7 +1454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// beer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Beer => FA5.Light.Beer;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("beer")]
+        Beer,
 
         /// <summary>
         /// Bell
@@ -1174,7 +1464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bell - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bell => FA5.Light.Bell;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bell")]
+        Bell,
 
         /// <summary>
         /// Bell Exclamation
@@ -1182,7 +1474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bell-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BellExclamation => FA5.Light.BellExclamation;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bell-exclamation")]
+        BellExclamation,
 
         /// <summary>
         /// Bell On
@@ -1190,7 +1484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bell-on - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BellOn => FA5.Light.BellOn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bell-on")]
+        BellOn,
 
         /// <summary>
         /// Bell Plus
@@ -1198,7 +1494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bell-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BellPlus => FA5.Light.BellPlus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bell-plus")]
+        BellPlus,
 
         /// <summary>
         /// Bell School
@@ -1206,7 +1504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bell-school - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BellSchool => FA5.Light.BellSchool;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bell-school")]
+        BellSchool,
 
         /// <summary>
         /// Bell School Slash
@@ -1214,7 +1514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bell-school-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BellSchoolSlash => FA5.Light.BellSchoolSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bell-school-slash")]
+        BellSchoolSlash,
 
         /// <summary>
         /// Bell Slash
@@ -1222,7 +1524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bell-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BellSlash => FA5.Light.BellSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bell-slash")]
+        BellSlash,
 
         /// <summary>
         /// Bells
@@ -1230,7 +1534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bells - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bells => FA5.Light.Bells;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bells")]
+        Bells,
 
         /// <summary>
         /// Betamax
@@ -1238,7 +1544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// betamax - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Betamax => FA5.Light.Betamax;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("betamax")]
+        Betamax,
 
         /// <summary>
         /// Bezier Curve
@@ -1246,7 +1554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bezier-curve - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BezierCurve => FA5.Light.BezierCurve;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bezier-curve")]
+        BezierCurve,
 
         /// <summary>
         /// Bible
@@ -1254,7 +1564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bible - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bible => FA5.Light.Bible;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bible")]
+        Bible,
 
         /// <summary>
         /// Bicycle
@@ -1262,7 +1574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bicycle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bicycle => FA5.Light.Bicycle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bicycle")]
+        Bicycle,
 
         /// <summary>
         /// Biking
@@ -1270,7 +1584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// biking - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Biking => FA5.Light.Biking;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("biking")]
+        Biking,
 
         /// <summary>
         /// Biking Mountain
@@ -1278,7 +1594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// biking-mountain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BikingMountain => FA5.Light.BikingMountain;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("biking-mountain")]
+        BikingMountain,
 
         /// <summary>
         /// Binoculars
@@ -1286,7 +1604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// binoculars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Binoculars => FA5.Light.Binoculars;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("binoculars")]
+        Binoculars,
 
         /// <summary>
         /// Biohazard
@@ -1294,7 +1614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// biohazard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Biohazard => FA5.Light.Biohazard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("biohazard")]
+        Biohazard,
 
         /// <summary>
         /// Birthday Cake
@@ -1302,7 +1624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// birthday-cake - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BirthdayCake => FA5.Light.BirthdayCake;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("birthday-cake")]
+        BirthdayCake,
 
         /// <summary>
         /// Blanket
@@ -1310,7 +1634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// blanket - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Blanket => FA5.Light.Blanket;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("blanket")]
+        Blanket,
 
         /// <summary>
         /// Blender
@@ -1318,7 +1644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// blender - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Blender => FA5.Light.Blender;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("blender")]
+        Blender,
 
         /// <summary>
         /// Blender Phone
@@ -1326,7 +1654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// blender-phone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BlenderPhone => FA5.Light.BlenderPhone;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("blender-phone")]
+        BlenderPhone,
 
         /// <summary>
         /// Blind
@@ -1334,7 +1664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// blind - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Blind => FA5.Light.Blind;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("blind")]
+        Blind,
 
         /// <summary>
         /// Blinds
@@ -1342,7 +1674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// blinds - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Blinds => FA5.Light.Blinds;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("blinds")]
+        Blinds,
 
         /// <summary>
         /// Blinds Open
@@ -1350,7 +1684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// blinds-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BlindsOpen => FA5.Light.BlindsOpen;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("blinds-open")]
+        BlindsOpen,
 
         /// <summary>
         /// Blinds Raised
@@ -1358,7 +1694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// blinds-raised - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BlindsRaised => FA5.Light.BlindsRaised;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("blinds-raised")]
+        BlindsRaised,
 
         /// <summary>
         /// Blog
@@ -1366,7 +1704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// blog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Blog => FA5.Light.Blog;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("blog")]
+        Blog,
 
         /// <summary>
         /// Bold
@@ -1374,7 +1714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bold - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bold => FA5.Light.Bold;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bold")]
+        Bold,
 
         /// <summary>
         /// Lightning Bolt
@@ -1382,7 +1724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bolt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bolt => FA5.Light.Bolt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bolt")]
+        Bolt,
 
         /// <summary>
         /// Bomb
@@ -1390,7 +1734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bomb - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bomb => FA5.Light.Bomb;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bomb")]
+        Bomb,
 
         /// <summary>
         /// Bone
@@ -1398,7 +1744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bone => FA5.Light.Bone;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bone")]
+        Bone,
 
         /// <summary>
         /// Bone Break
@@ -1406,7 +1754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bone-break - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BoneBreak => FA5.Light.BoneBreak;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bone-break")]
+        BoneBreak,
 
         /// <summary>
         /// Bong
@@ -1414,7 +1764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bong - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bong => FA5.Light.Bong;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bong")]
+        Bong,
 
         /// <summary>
         /// Book
@@ -1422,7 +1774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// book - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Book => FA5.Light.Book;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("book")]
+        Book,
 
         /// <summary>
         /// Alternate Book
@@ -1430,7 +1784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// book-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BookAlt => FA5.Light.BookAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("book-alt")]
+        BookAlt,
 
         /// <summary>
         /// Book Of The Dead
@@ -1438,7 +1794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// book-dead - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BookDead => FA5.Light.BookDead;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("book-dead")]
+        BookDead,
 
         /// <summary>
         /// Book With Heart
@@ -1446,7 +1804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// book-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BookHeart => FA5.Light.BookHeart;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("book-heart")]
+        BookHeart,
 
         /// <summary>
         /// Medical Book
@@ -1454,7 +1814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// book-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BookMedical => FA5.Light.BookMedical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("book-medical")]
+        BookMedical,
 
         /// <summary>
         /// Book Open
@@ -1462,7 +1824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// book-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BookOpen => FA5.Light.BookOpen;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("book-open")]
+        BookOpen,
 
         /// <summary>
         /// Book Reader
@@ -1470,7 +1834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// book-reader - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BookReader => FA5.Light.BookReader;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("book-reader")]
+        BookReader,
 
         /// <summary>
         /// Book Of Spells
@@ -1478,7 +1844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// book-spells - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BookSpells => FA5.Light.BookSpells;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("book-spells")]
+        BookSpells,
 
         /// <summary>
         /// Book With User
@@ -1486,7 +1854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// book-user - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BookUser => FA5.Light.BookUser;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("book-user")]
+        BookUser,
 
         /// <summary>
         /// Bookmark
@@ -1494,7 +1864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bookmark - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bookmark => FA5.Light.Bookmark;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bookmark")]
+        Bookmark,
 
         /// <summary>
         /// Books
@@ -1502,7 +1874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// books - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Books => FA5.Light.Books;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("books")]
+        Books,
 
         /// <summary>
         /// Medical Books
@@ -1510,7 +1884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// books-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BooksMedical => FA5.Light.BooksMedical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("books-medical")]
+        BooksMedical,
 
         /// <summary>
         /// Boombox
@@ -1518,7 +1894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// boombox - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Boombox => FA5.Light.Boombox;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("boombox")]
+        Boombox,
 
         /// <summary>
         /// Boot
@@ -1526,7 +1904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// boot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Boot => FA5.Light.Boot;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("boot")]
+        Boot,
 
         /// <summary>
         /// Booth With Curtain
@@ -1534,7 +1914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// booth-curtain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BoothCurtain => FA5.Light.BoothCurtain;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("booth-curtain")]
+        BoothCurtain,
 
         /// <summary>
         /// Border All
@@ -1542,7 +1924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// border-all - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BorderAll => FA5.Light.BorderAll;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("border-all")]
+        BorderAll,
 
         /// <summary>
         /// Border Bottom
@@ -1550,7 +1934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// border-bottom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BorderBottom => FA5.Light.BorderBottom;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("border-bottom")]
+        BorderBottom,
 
         /// <summary>
         /// Border Center Horizontal
@@ -1558,7 +1944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// border-center-h - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BorderCenterH => FA5.Light.BorderCenterH;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("border-center-h")]
+        BorderCenterH,
 
         /// <summary>
         /// Border Center Vertical
@@ -1566,7 +1954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// border-center-v - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BorderCenterV => FA5.Light.BorderCenterV;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("border-center-v")]
+        BorderCenterV,
 
         /// <summary>
         /// Border Inner
@@ -1574,7 +1964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// border-inner - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BorderInner => FA5.Light.BorderInner;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("border-inner")]
+        BorderInner,
 
         /// <summary>
         /// Border Left
@@ -1582,7 +1974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// border-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BorderLeft => FA5.Light.BorderLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("border-left")]
+        BorderLeft,
 
         /// <summary>
         /// Border None
@@ -1590,7 +1984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// border-none - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BorderNone => FA5.Light.BorderNone;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("border-none")]
+        BorderNone,
 
         /// <summary>
         /// Border Outer
@@ -1598,7 +1994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// border-outer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BorderOuter => FA5.Light.BorderOuter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("border-outer")]
+        BorderOuter,
 
         /// <summary>
         /// Border Right
@@ -1606,7 +2004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// border-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BorderRight => FA5.Light.BorderRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("border-right")]
+        BorderRight,
 
         /// <summary>
         /// Border Style
@@ -1614,7 +2014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// border-style - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BorderStyle => FA5.Light.BorderStyle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("border-style")]
+        BorderStyle,
 
         /// <summary>
         /// Border Style Alt
@@ -1622,7 +2024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// border-style-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BorderStyleAlt => FA5.Light.BorderStyleAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("border-style-alt")]
+        BorderStyleAlt,
 
         /// <summary>
         /// Border Top
@@ -1630,7 +2034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// border-top - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BorderTop => FA5.Light.BorderTop;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("border-top")]
+        BorderTop,
 
         /// <summary>
         /// Bow Arrow
@@ -1638,7 +2044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bow-arrow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BowArrow => FA5.Light.BowArrow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bow-arrow")]
+        BowArrow,
 
         /// <summary>
         /// Bowling Ball
@@ -1646,7 +2054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bowling-ball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BowlingBall => FA5.Light.BowlingBall;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bowling-ball")]
+        BowlingBall,
 
         /// <summary>
         /// Bowling Pins
@@ -1654,7 +2064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bowling-pins - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BowlingPins => FA5.Light.BowlingPins;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bowling-pins")]
+        BowlingPins,
 
         /// <summary>
         /// Box
@@ -1662,7 +2074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// box - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Box => FA5.Light.Box;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("box")]
+        Box,
 
         /// <summary>
         /// Alternate Box
@@ -1670,7 +2084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// box-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BoxAlt => FA5.Light.BoxAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("box-alt")]
+        BoxAlt,
 
         /// <summary>
         /// Box Ballot
@@ -1678,7 +2094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// box-ballot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BoxBallot => FA5.Light.BoxBallot;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("box-ballot")]
+        BoxBallot,
 
         /// <summary>
         /// Box Check
@@ -1686,7 +2104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// box-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BoxCheck => FA5.Light.BoxCheck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("box-check")]
+        BoxCheck,
 
         /// <summary>
         /// Box Fragile
@@ -1694,7 +2114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// box-fragile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BoxFragile => FA5.Light.BoxFragile;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("box-fragile")]
+        BoxFragile,
 
         /// <summary>
         /// Box Full
@@ -1702,7 +2124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// box-full - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BoxFull => FA5.Light.BoxFull;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("box-full")]
+        BoxFull,
 
         /// <summary>
         /// Box With Heart
@@ -1710,7 +2134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// box-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BoxHeart => FA5.Light.BoxHeart;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("box-heart")]
+        BoxHeart,
 
         /// <summary>
         /// Box Open
@@ -1718,7 +2144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// box-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BoxOpen => FA5.Light.BoxOpen;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("box-open")]
+        BoxOpen,
 
         /// <summary>
         /// Box Up
@@ -1726,7 +2154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// box-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BoxUp => FA5.Light.BoxUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("box-up")]
+        BoxUp,
 
         /// <summary>
         /// Box With US Dollar
@@ -1734,7 +2164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// box-usd - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BoxUsd => FA5.Light.BoxUsd;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("box-usd")]
+        BoxUsd,
 
         /// <summary>
         /// Boxes
@@ -1742,7 +2174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// boxes - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Boxes => FA5.Light.Boxes;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("boxes")]
+        Boxes,
 
         /// <summary>
         /// Alternate Boxes
@@ -1750,7 +2184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// boxes-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BoxesAlt => FA5.Light.BoxesAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("boxes-alt")]
+        BoxesAlt,
 
         /// <summary>
         /// Boxing Glove
@@ -1758,7 +2194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// boxing-glove - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BoxingGlove => FA5.Light.BoxingGlove;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("boxing-glove")]
+        BoxingGlove,
 
         /// <summary>
         /// Brackets
@@ -1766,7 +2204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// brackets - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Brackets => FA5.Light.Brackets;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("brackets")]
+        Brackets,
 
         /// <summary>
         /// Curly Brackets
@@ -1774,7 +2214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// brackets-curly - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BracketsCurly => FA5.Light.BracketsCurly;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("brackets-curly")]
+        BracketsCurly,
 
         /// <summary>
         /// Braille
@@ -1782,7 +2224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// braille - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Braille => FA5.Light.Braille;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("braille")]
+        Braille,
 
         /// <summary>
         /// Brain
@@ -1790,7 +2234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// brain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Brain => FA5.Light.Brain;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("brain")]
+        Brain,
 
         /// <summary>
         /// Loaf Of Bread
@@ -1798,7 +2244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bread-loaf - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BreadLoaf => FA5.Light.BreadLoaf;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bread-loaf")]
+        BreadLoaf,
 
         /// <summary>
         /// Bread Slice
@@ -1806,7 +2254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bread-slice - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BreadSlice => FA5.Light.BreadSlice;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bread-slice")]
+        BreadSlice,
 
         /// <summary>
         /// Briefcase
@@ -1814,7 +2264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// briefcase - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Briefcase => FA5.Light.Briefcase;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("briefcase")]
+        Briefcase,
 
         /// <summary>
         /// Medical Briefcase
@@ -1822,7 +2274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// briefcase-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BriefcaseMedical => FA5.Light.BriefcaseMedical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("briefcase-medical")]
+        BriefcaseMedical,
 
         /// <summary>
         /// Bring Forward
@@ -1830,7 +2284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bring-forward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BringForward => FA5.Light.BringForward;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bring-forward")]
+        BringForward,
 
         /// <summary>
         /// Bring Front
@@ -1838,7 +2294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bring-front - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BringFront => FA5.Light.BringFront;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bring-front")]
+        BringFront,
 
         /// <summary>
         /// Broadcast Tower
@@ -1846,7 +2304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// broadcast-tower - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BroadcastTower => FA5.Light.BroadcastTower;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("broadcast-tower")]
+        BroadcastTower,
 
         /// <summary>
         /// Broom
@@ -1854,7 +2314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// broom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Broom => FA5.Light.Broom;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("broom")]
+        Broom,
 
         /// <summary>
         /// Browser
@@ -1862,7 +2324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// browser - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Browser => FA5.Light.Browser;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("browser")]
+        Browser,
 
         /// <summary>
         /// Brush
@@ -1870,7 +2334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// brush - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Brush => FA5.Light.Brush;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("brush")]
+        Brush,
 
         /// <summary>
         /// Bug
@@ -1878,7 +2344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bug - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bug => FA5.Light.Bug;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bug")]
+        Bug,
 
         /// <summary>
         /// Building
@@ -1886,7 +2354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// building - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Building => FA5.Light.Building;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("building")]
+        Building,
 
         /// <summary>
         /// Bullhorn
@@ -1894,7 +2364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bullhorn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bullhorn => FA5.Light.Bullhorn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bullhorn")]
+        Bullhorn,
 
         /// <summary>
         /// Bullseye
@@ -1902,7 +2374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bullseye - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bullseye => FA5.Light.Bullseye;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bullseye")]
+        Bullseye,
 
         /// <summary>
         /// Bullseye Arrow
@@ -1910,7 +2384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bullseye-arrow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BullseyeArrow => FA5.Light.BullseyeArrow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bullseye-arrow")]
+        BullseyeArrow,
 
         /// <summary>
         /// Bullseye Pointer
@@ -1918,7 +2394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bullseye-pointer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BullseyePointer => FA5.Light.BullseyePointer;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bullseye-pointer")]
+        BullseyePointer,
 
         /// <summary>
         /// Burger And Soda
@@ -1926,7 +2404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// burger-soda - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BurgerSoda => FA5.Light.BurgerSoda;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("burger-soda")]
+        BurgerSoda,
 
         /// <summary>
         /// Burn
@@ -1934,7 +2414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// burn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Burn => FA5.Light.Burn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("burn")]
+        Burn,
 
         /// <summary>
         /// Burrito
@@ -1942,7 +2424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// burrito - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Burrito => FA5.Light.Burrito;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("burrito")]
+        Burrito,
 
         /// <summary>
         /// Bus
@@ -1950,7 +2434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Bus => FA5.Light.Bus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bus")]
+        Bus,
 
         /// <summary>
         /// Bus Alt
@@ -1958,7 +2444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bus-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BusAlt => FA5.Light.BusAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bus-alt")]
+        BusAlt,
 
         /// <summary>
         /// Bus School
@@ -1966,7 +2454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// bus-school - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BusSchool => FA5.Light.BusSchool;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("bus-school")]
+        BusSchool,
 
         /// <summary>
         /// Business Time
@@ -1974,7 +2464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// business-time - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon BusinessTime => FA5.Light.BusinessTime;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("business-time")]
+        BusinessTime,
 
         /// <summary>
         /// Filing Cabinet
@@ -1982,7 +2474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cabinet-filing - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CabinetFiling => FA5.Light.CabinetFiling;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cabinet-filing")]
+        CabinetFiling,
 
         /// <summary>
         /// Cactus
@@ -1990,7 +2484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cactus - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        public static Icon Cactus => FA5.Light.Cactus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cactus")]
+        Cactus,
 
         /// <summary>
         /// Calculator
@@ -1998,7 +2494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// calculator - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Calculator => FA5.Light.Calculator;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("calculator")]
+        Calculator,
 
         /// <summary>
         /// Alternate Calculator
@@ -2006,7 +2504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// calculator-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CalculatorAlt => FA5.Light.CalculatorAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("calculator-alt")]
+        CalculatorAlt,
 
         /// <summary>
         /// Calendar
@@ -2014,7 +2514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// calendar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Calendar => FA5.Light.Calendar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("calendar")]
+        Calendar,
 
         /// <summary>
         /// Alternate Calendar
@@ -2022,7 +2524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// calendar-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CalendarAlt => FA5.Light.CalendarAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("calendar-alt")]
+        CalendarAlt,
 
         /// <summary>
         /// Calendar Check
@@ -2030,7 +2534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// calendar-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CalendarCheck => FA5.Light.CalendarCheck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("calendar-check")]
+        CalendarCheck,
 
         /// <summary>
         /// Calendar With Day Focus
@@ -2038,7 +2544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// calendar-day - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CalendarDay => FA5.Light.CalendarDay;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("calendar-day")]
+        CalendarDay,
 
         /// <summary>
         /// Calendar Edit
@@ -2046,7 +2554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// calendar-edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CalendarEdit => FA5.Light.CalendarEdit;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("calendar-edit")]
+        CalendarEdit,
 
         /// <summary>
         /// Calendar Exclamation
@@ -2054,7 +2564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// calendar-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CalendarExclamation => FA5.Light.CalendarExclamation;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("calendar-exclamation")]
+        CalendarExclamation,
 
         /// <summary>
         /// Calendar Minus
@@ -2062,7 +2574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// calendar-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CalendarMinus => FA5.Light.CalendarMinus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("calendar-minus")]
+        CalendarMinus,
 
         /// <summary>
         /// Calendar Plus
@@ -2070,7 +2584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// calendar-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CalendarPlus => FA5.Light.CalendarPlus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("calendar-plus")]
+        CalendarPlus,
 
         /// <summary>
         /// Calendar Star
@@ -2078,7 +2594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// calendar-star - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CalendarStar => FA5.Light.CalendarStar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("calendar-star")]
+        CalendarStar,
 
         /// <summary>
         /// Calendar Times
@@ -2086,7 +2604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// calendar-times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CalendarTimes => FA5.Light.CalendarTimes;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("calendar-times")]
+        CalendarTimes,
 
         /// <summary>
         /// Calendar With Week Focus
@@ -2094,7 +2614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// calendar-week - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CalendarWeek => FA5.Light.CalendarWeek;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("calendar-week")]
+        CalendarWeek,
 
         /// <summary>
         /// Camcorder
@@ -2102,7 +2624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// camcorder - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Camcorder => FA5.Light.Camcorder;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("camcorder")]
+        Camcorder,
 
         /// <summary>
         /// Camera
@@ -2110,7 +2634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// camera - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Camera => FA5.Light.Camera;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("camera")]
+        Camera,
 
         /// <summary>
         /// Alternate Camera
@@ -2118,7 +2644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// camera-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CameraAlt => FA5.Light.CameraAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("camera-alt")]
+        CameraAlt,
 
         /// <summary>
         /// Camera Home
@@ -2126,7 +2654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// camera-home - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CameraHome => FA5.Light.CameraHome;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("camera-home")]
+        CameraHome,
 
         /// <summary>
         /// Movie Camera
@@ -2134,7 +2664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// camera-movie - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CameraMovie => FA5.Light.CameraMovie;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("camera-movie")]
+        CameraMovie,
 
         /// <summary>
         /// Polaroid Camera
@@ -2142,7 +2674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// camera-polaroid - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CameraPolaroid => FA5.Light.CameraPolaroid;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("camera-polaroid")]
+        CameraPolaroid,
 
         /// <summary>
         /// Retro Camera
@@ -2150,7 +2684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// camera-retro - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CameraRetro => FA5.Light.CameraRetro;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("camera-retro")]
+        CameraRetro,
 
         /// <summary>
         /// Campfire
@@ -2158,7 +2694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// campfire - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Campfire => FA5.Light.Campfire;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("campfire")]
+        Campfire,
 
         /// <summary>
         /// Campground
@@ -2166,7 +2704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// campground - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Campground => FA5.Light.Campground;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("campground")]
+        Campground,
 
         /// <summary>
         /// Candle Holder
@@ -2174,7 +2714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// candle-holder - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CandleHolder => FA5.Light.CandleHolder;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("candle-holder")]
+        CandleHolder,
 
         /// <summary>
         /// Candy Cane
@@ -2182,7 +2724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// candy-cane - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CandyCane => FA5.Light.CandyCane;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("candy-cane")]
+        CandyCane,
 
         /// <summary>
         /// Candy Corn
@@ -2190,7 +2734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// candy-corn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CandyCorn => FA5.Light.CandyCorn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("candy-corn")]
+        CandyCorn,
 
         /// <summary>
         /// Cannabis
@@ -2198,7 +2744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cannabis - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cannabis => FA5.Light.Cannabis;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cannabis")]
+        Cannabis,
 
         /// <summary>
         /// Capsules
@@ -2206,7 +2754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// capsules - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Capsules => FA5.Light.Capsules;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("capsules")]
+        Capsules,
 
         /// <summary>
         /// Car
@@ -2214,7 +2764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// car - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Car => FA5.Light.Car;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("car")]
+        Car,
 
         /// <summary>
         /// Alternate Car
@@ -2222,7 +2774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// car-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CarAlt => FA5.Light.CarAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("car-alt")]
+        CarAlt,
 
         /// <summary>
         /// Car Battery
@@ -2230,7 +2784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// car-battery - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CarBattery => FA5.Light.CarBattery;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("car-battery")]
+        CarBattery,
 
         /// <summary>
         /// Car And Building
@@ -2238,7 +2794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// car-building - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CarBuilding => FA5.Light.CarBuilding;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("car-building")]
+        CarBuilding,
 
         /// <summary>
         /// Car Bump
@@ -2246,7 +2804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// car-bump - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CarBump => FA5.Light.CarBump;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("car-bump")]
+        CarBump,
 
         /// <summary>
         /// Car And Bus
@@ -2254,7 +2814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// car-bus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CarBus => FA5.Light.CarBus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("car-bus")]
+        CarBus,
 
         /// <summary>
         /// Car Crash
@@ -2262,7 +2824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// car-crash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CarCrash => FA5.Light.CarCrash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("car-crash")]
+        CarCrash,
 
         /// <summary>
         /// Car Garage
@@ -2270,7 +2834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// car-garage - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CarGarage => FA5.Light.CarGarage;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("car-garage")]
+        CarGarage,
 
         /// <summary>
         /// Car Mechanic
@@ -2278,7 +2844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// car-mechanic - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CarMechanic => FA5.Light.CarMechanic;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("car-mechanic")]
+        CarMechanic,
 
         /// <summary>
         /// Car Side
@@ -2286,7 +2854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// car-side - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CarSide => FA5.Light.CarSide;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("car-side")]
+        CarSide,
 
         /// <summary>
         /// Car Tilt
@@ -2294,7 +2864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// car-tilt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CarTilt => FA5.Light.CarTilt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("car-tilt")]
+        CarTilt,
 
         /// <summary>
         /// Car Wash
@@ -2302,7 +2874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// car-wash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CarWash => FA5.Light.CarWash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("car-wash")]
+        CarWash,
 
         /// <summary>
         /// Caravan
@@ -2310,7 +2884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// caravan - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Caravan => FA5.Light.Caravan;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("caravan")]
+        Caravan,
 
         /// <summary>
         /// Caravan Alternate
@@ -2318,7 +2894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// caravan-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CaravanAlt => FA5.Light.CaravanAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("caravan-alt")]
+        CaravanAlt,
 
         /// <summary>
         /// Caret Circle Down
@@ -2326,7 +2904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// caret-circle-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CaretCircleDown => FA5.Light.CaretCircleDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("caret-circle-down")]
+        CaretCircleDown,
 
         /// <summary>
         /// Caret Circle Left
@@ -2334,7 +2914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// caret-circle-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CaretCircleLeft => FA5.Light.CaretCircleLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("caret-circle-left")]
+        CaretCircleLeft,
 
         /// <summary>
         /// Caret Circle Right
@@ -2342,7 +2924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// caret-circle-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CaretCircleRight => FA5.Light.CaretCircleRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("caret-circle-right")]
+        CaretCircleRight,
 
         /// <summary>
         /// Caret Circle Up
@@ -2350,7 +2934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// caret-circle-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CaretCircleUp => FA5.Light.CaretCircleUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("caret-circle-up")]
+        CaretCircleUp,
 
         /// <summary>
         /// Caret Down
@@ -2358,7 +2944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// caret-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CaretDown => FA5.Light.CaretDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("caret-down")]
+        CaretDown,
 
         /// <summary>
         /// Caret Left
@@ -2366,7 +2954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// caret-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CaretLeft => FA5.Light.CaretLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("caret-left")]
+        CaretLeft,
 
         /// <summary>
         /// Caret Right
@@ -2374,7 +2964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// caret-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CaretRight => FA5.Light.CaretRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("caret-right")]
+        CaretRight,
 
         /// <summary>
         /// Caret Square Down
@@ -2382,7 +2974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// caret-square-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CaretSquareDown => FA5.Light.CaretSquareDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("caret-square-down")]
+        CaretSquareDown,
 
         /// <summary>
         /// Caret Square Left
@@ -2390,7 +2984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// caret-square-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CaretSquareLeft => FA5.Light.CaretSquareLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("caret-square-left")]
+        CaretSquareLeft,
 
         /// <summary>
         /// Caret Square Right
@@ -2398,7 +2994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// caret-square-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CaretSquareRight => FA5.Light.CaretSquareRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("caret-square-right")]
+        CaretSquareRight,
 
         /// <summary>
         /// Caret Square Up
@@ -2406,7 +3004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// caret-square-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CaretSquareUp => FA5.Light.CaretSquareUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("caret-square-up")]
+        CaretSquareUp,
 
         /// <summary>
         /// Caret Up
@@ -2414,7 +3014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// caret-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CaretUp => FA5.Light.CaretUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("caret-up")]
+        CaretUp,
 
         /// <summary>
         /// Carrot
@@ -2422,7 +3024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// carrot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Carrot => FA5.Light.Carrot;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("carrot")]
+        Carrot,
 
         /// <summary>
         /// Cars
@@ -2430,7 +3034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cars => FA5.Light.Cars;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cars")]
+        Cars,
 
         /// <summary>
         /// Shopping Cart Arrow Down
@@ -2438,7 +3044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cart-arrow-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CartArrowDown => FA5.Light.CartArrowDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cart-arrow-down")]
+        CartArrowDown,
 
         /// <summary>
         /// Add To Shopping Cart
@@ -2446,7 +3054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cart-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CartPlus => FA5.Light.CartPlus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cart-plus")]
+        CartPlus,
 
         /// <summary>
         /// Cash Register
@@ -2454,7 +3064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cash-register - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CashRegister => FA5.Light.CashRegister;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cash-register")]
+        CashRegister,
 
         /// <summary>
         /// Cassette Tape
@@ -2462,7 +3074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cassette-tape - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CassetteTape => FA5.Light.CassetteTape;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cassette-tape")]
+        CassetteTape,
 
         /// <summary>
         /// Cat
@@ -2470,7 +3084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cat => FA5.Light.Cat;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cat")]
+        Cat,
 
         /// <summary>
         /// Space Cat
@@ -2478,7 +3094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cat-space - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CatSpace => FA5.Light.CatSpace;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cat-space")]
+        CatSpace,
 
         /// <summary>
         /// Cauldron
@@ -2486,7 +3104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cauldron - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cauldron => FA5.Light.Cauldron;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cauldron")]
+        Cauldron,
 
         /// <summary>
         /// CCTV
@@ -2494,7 +3114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cctv - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cctv => FA5.Light.Cctv;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cctv")]
+        Cctv,
 
         /// <summary>
         /// Certificate
@@ -2502,7 +3124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// certificate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Certificate => FA5.Light.Certificate;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("certificate")]
+        Certificate,
 
         /// <summary>
         /// Chair
@@ -2510,7 +3134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chair - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Chair => FA5.Light.Chair;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chair")]
+        Chair,
 
         /// <summary>
         /// Office Chair
@@ -2518,7 +3144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chair-office - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChairOffice => FA5.Light.ChairOffice;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chair-office")]
+        ChairOffice,
 
         /// <summary>
         /// Chalkboard
@@ -2526,7 +3154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chalkboard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Chalkboard => FA5.Light.Chalkboard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chalkboard")]
+        Chalkboard,
 
         /// <summary>
         /// Chalkboard Teacher
@@ -2534,7 +3164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chalkboard-teacher - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChalkboardTeacher => FA5.Light.ChalkboardTeacher;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chalkboard-teacher")]
+        ChalkboardTeacher,
 
         /// <summary>
         /// Charging Station
@@ -2542,7 +3174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// charging-station - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChargingStation => FA5.Light.ChargingStation;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("charging-station")]
+        ChargingStation,
 
         /// <summary>
         /// Area Chart
@@ -2550,7 +3184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chart-area - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChartArea => FA5.Light.ChartArea;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chart-area")]
+        ChartArea,
 
         /// <summary>
         /// Bar Chart
@@ -2558,7 +3194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chart-bar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChartBar => FA5.Light.ChartBar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chart-bar")]
+        ChartBar,
 
         /// <summary>
         /// Line Chart
@@ -2566,7 +3204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chart-line - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChartLine => FA5.Light.ChartLine;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chart-line")]
+        ChartLine,
 
         /// <summary>
         /// Line Chart In Down Direction
@@ -2574,7 +3214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chart-line-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChartLineDown => FA5.Light.ChartLineDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chart-line-down")]
+        ChartLineDown,
 
         /// <summary>
         /// Network Chart
@@ -2582,7 +3224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chart-network - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChartNetwork => FA5.Light.ChartNetwork;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chart-network")]
+        ChartNetwork,
 
         /// <summary>
         /// Pie Chart
@@ -2590,7 +3234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chart-pie - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChartPie => FA5.Light.ChartPie;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chart-pie")]
+        ChartPie,
 
         /// <summary>
         /// Alternate Pie Chart
@@ -2598,7 +3244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chart-pie-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChartPieAlt => FA5.Light.ChartPieAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chart-pie-alt")]
+        ChartPieAlt,
 
         /// <summary>
         /// Scatter Chart
@@ -2606,7 +3254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chart-scatter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChartScatter => FA5.Light.ChartScatter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chart-scatter")]
+        ChartScatter,
 
         /// <summary>
         /// Check
@@ -2614,7 +3264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Check => FA5.Light.Check;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("check")]
+        Check,
 
         /// <summary>
         /// Check Circle
@@ -2622,7 +3274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// check-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CheckCircle => FA5.Light.CheckCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("check-circle")]
+        CheckCircle,
 
         /// <summary>
         /// Double Check
@@ -2630,7 +3284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// check-double - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CheckDouble => FA5.Light.CheckDouble;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("check-double")]
+        CheckDouble,
 
         /// <summary>
         /// Check Square
@@ -2638,7 +3294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// check-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CheckSquare => FA5.Light.CheckSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("check-square")]
+        CheckSquare,
 
         /// <summary>
         /// Cheese
@@ -2646,7 +3304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cheese - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cheese => FA5.Light.Cheese;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cheese")]
+        Cheese,
 
         /// <summary>
         /// Swiss Cheese
@@ -2654,7 +3314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cheese-swiss - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CheeseSwiss => FA5.Light.CheeseSwiss;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cheese-swiss")]
+        CheeseSwiss,
 
         /// <summary>
         /// Cheeseburger
@@ -2662,7 +3324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cheeseburger - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cheeseburger => FA5.Light.Cheeseburger;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cheeseburger")]
+        Cheeseburger,
 
         /// <summary>
         /// Chess
@@ -2670,7 +3334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Chess => FA5.Light.Chess;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess")]
+        Chess,
 
         /// <summary>
         /// Chess Bishop
@@ -2678,7 +3344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess-bishop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChessBishop => FA5.Light.ChessBishop;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess-bishop")]
+        ChessBishop,
 
         /// <summary>
         /// Alternate Chess Bishop
@@ -2686,7 +3354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess-bishop-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChessBishopAlt => FA5.Light.ChessBishopAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess-bishop-alt")]
+        ChessBishopAlt,
 
         /// <summary>
         /// Chess Board
@@ -2694,7 +3364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess-board - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChessBoard => FA5.Light.ChessBoard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess-board")]
+        ChessBoard,
 
         /// <summary>
         /// Chess Clock
@@ -2702,7 +3374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess-clock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChessClock => FA5.Light.ChessClock;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess-clock")]
+        ChessClock,
 
         /// <summary>
         /// Alternate Chess Clock
@@ -2710,7 +3384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess-clock-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChessClockAlt => FA5.Light.ChessClockAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess-clock-alt")]
+        ChessClockAlt,
 
         /// <summary>
         /// Chess King
@@ -2718,7 +3394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess-king - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChessKing => FA5.Light.ChessKing;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess-king")]
+        ChessKing,
 
         /// <summary>
         /// Alternate Chess King
@@ -2726,7 +3404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess-king-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChessKingAlt => FA5.Light.ChessKingAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess-king-alt")]
+        ChessKingAlt,
 
         /// <summary>
         /// Chess Knight
@@ -2734,7 +3414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess-knight - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChessKnight => FA5.Light.ChessKnight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess-knight")]
+        ChessKnight,
 
         /// <summary>
         /// Alternate Chess Knight
@@ -2742,7 +3424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess-knight-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChessKnightAlt => FA5.Light.ChessKnightAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess-knight-alt")]
+        ChessKnightAlt,
 
         /// <summary>
         /// Chess Pawn
@@ -2750,7 +3434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess-pawn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChessPawn => FA5.Light.ChessPawn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess-pawn")]
+        ChessPawn,
 
         /// <summary>
         /// Alternate Chess Pawn
@@ -2758,7 +3444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess-pawn-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChessPawnAlt => FA5.Light.ChessPawnAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess-pawn-alt")]
+        ChessPawnAlt,
 
         /// <summary>
         /// Chess Queen
@@ -2766,7 +3454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess-queen - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChessQueen => FA5.Light.ChessQueen;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess-queen")]
+        ChessQueen,
 
         /// <summary>
         /// Alternate Chess Queen
@@ -2774,7 +3464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess-queen-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChessQueenAlt => FA5.Light.ChessQueenAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess-queen-alt")]
+        ChessQueenAlt,
 
         /// <summary>
         /// Chess Rook
@@ -2782,7 +3474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess-rook - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChessRook => FA5.Light.ChessRook;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess-rook")]
+        ChessRook,
 
         /// <summary>
         /// Alternate Chess Rook
@@ -2790,7 +3484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chess-rook-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChessRookAlt => FA5.Light.ChessRookAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chess-rook-alt")]
+        ChessRookAlt,
 
         /// <summary>
         /// Chevron Circle Down
@@ -2798,7 +3494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-circle-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronCircleDown => FA5.Light.ChevronCircleDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-circle-down")]
+        ChevronCircleDown,
 
         /// <summary>
         /// Chevron Circle Left
@@ -2806,7 +3504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-circle-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronCircleLeft => FA5.Light.ChevronCircleLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-circle-left")]
+        ChevronCircleLeft,
 
         /// <summary>
         /// Chevron Circle Right
@@ -2814,7 +3514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-circle-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronCircleRight => FA5.Light.ChevronCircleRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-circle-right")]
+        ChevronCircleRight,
 
         /// <summary>
         /// Chevron Circle Up
@@ -2822,7 +3524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-circle-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronCircleUp => FA5.Light.ChevronCircleUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-circle-up")]
+        ChevronCircleUp,
 
         /// <summary>
         /// Chevron Double Down
@@ -2830,7 +3534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-double-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronDoubleDown => FA5.Light.ChevronDoubleDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-double-down")]
+        ChevronDoubleDown,
 
         /// <summary>
         /// Chevron Double Left
@@ -2838,7 +3544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-double-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronDoubleLeft => FA5.Light.ChevronDoubleLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-double-left")]
+        ChevronDoubleLeft,
 
         /// <summary>
         /// Chevron Double Right
@@ -2846,7 +3554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-double-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronDoubleRight => FA5.Light.ChevronDoubleRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-double-right")]
+        ChevronDoubleRight,
 
         /// <summary>
         /// Chevron Double Up
@@ -2854,7 +3564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-double-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronDoubleUp => FA5.Light.ChevronDoubleUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-double-up")]
+        ChevronDoubleUp,
 
         /// <summary>
         /// Chevron Down
@@ -2862,7 +3574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronDown => FA5.Light.ChevronDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-down")]
+        ChevronDown,
 
         /// <summary>
         /// Chevron Left
@@ -2870,7 +3584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronLeft => FA5.Light.ChevronLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-left")]
+        ChevronLeft,
 
         /// <summary>
         /// Chevron Right
@@ -2878,7 +3594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronRight => FA5.Light.ChevronRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-right")]
+        ChevronRight,
 
         /// <summary>
         /// Chevron Square Down
@@ -2886,7 +3604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-square-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronSquareDown => FA5.Light.ChevronSquareDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-square-down")]
+        ChevronSquareDown,
 
         /// <summary>
         /// Chevron Square Left
@@ -2894,7 +3614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-square-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronSquareLeft => FA5.Light.ChevronSquareLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-square-left")]
+        ChevronSquareLeft,
 
         /// <summary>
         /// Chevron Square Right
@@ -2902,7 +3624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-square-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronSquareRight => FA5.Light.ChevronSquareRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-square-right")]
+        ChevronSquareRight,
 
         /// <summary>
         /// Chevron Square Up
@@ -2910,7 +3634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-square-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronSquareUp => FA5.Light.ChevronSquareUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-square-up")]
+        ChevronSquareUp,
 
         /// <summary>
         /// Chevron Up
@@ -2918,7 +3644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chevron-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ChevronUp => FA5.Light.ChevronUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chevron-up")]
+        ChevronUp,
 
         /// <summary>
         /// Child
@@ -2926,7 +3654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// child - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Child => FA5.Light.Child;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("child")]
+        Child,
 
         /// <summary>
         /// Chimney
@@ -2934,7 +3664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// chimney - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Chimney => FA5.Light.Chimney;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("chimney")]
+        Chimney,
 
         /// <summary>
         /// Church
@@ -2942,7 +3674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// church - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Church => FA5.Light.Church;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("church")]
+        Church,
 
         /// <summary>
         /// Circle
@@ -2950,7 +3684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Circle => FA5.Light.Circle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("circle")]
+        Circle,
 
         /// <summary>
         /// Circle Notched
@@ -2958,7 +3694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// circle-notch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CircleNotch => FA5.Light.CircleNotch;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("circle-notch")]
+        CircleNotch,
 
         /// <summary>
         /// City
@@ -2966,7 +3704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// city - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon City => FA5.Light.City;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("city")]
+        City,
 
         /// <summary>
         /// Clarinet
@@ -2974,7 +3714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// clarinet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Clarinet => FA5.Light.Clarinet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("clarinet")]
+        Clarinet,
 
         /// <summary>
         /// Claw Marks
@@ -2982,7 +3724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// claw-marks - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ClawMarks => FA5.Light.ClawMarks;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("claw-marks")]
+        ClawMarks,
 
         /// <summary>
         /// Medical Clinic
@@ -2990,7 +3734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// clinic-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ClinicMedical => FA5.Light.ClinicMedical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("clinic-medical")]
+        ClinicMedical,
 
         /// <summary>
         /// Clipboard
@@ -2998,7 +3744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// clipboard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Clipboard => FA5.Light.Clipboard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("clipboard")]
+        Clipboard,
 
         /// <summary>
         /// Clipboard With Check
@@ -3006,7 +3754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// clipboard-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ClipboardCheck => FA5.Light.ClipboardCheck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("clipboard-check")]
+        ClipboardCheck,
 
         /// <summary>
         /// Clipboard List
@@ -3014,7 +3764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// clipboard-list - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ClipboardList => FA5.Light.ClipboardList;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("clipboard-list")]
+        ClipboardList,
 
         /// <summary>
         /// Clipboard List With Check
@@ -3022,7 +3774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// clipboard-list-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ClipboardListCheck => FA5.Light.ClipboardListCheck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("clipboard-list-check")]
+        ClipboardListCheck,
 
         /// <summary>
         /// Clipboard Prescription
@@ -3030,7 +3784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// clipboard-prescription - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ClipboardPrescription => FA5.Light.ClipboardPrescription;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("clipboard-prescription")]
+        ClipboardPrescription,
 
         /// <summary>
         /// Clipboard With User
@@ -3038,7 +3794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// clipboard-user - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ClipboardUser => FA5.Light.ClipboardUser;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("clipboard-user")]
+        ClipboardUser,
 
         /// <summary>
         /// Clock
@@ -3046,7 +3804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// clock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Clock => FA5.Light.Clock;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("clock")]
+        Clock,
 
         /// <summary>
         /// Clone
@@ -3054,7 +3814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// clone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Clone => FA5.Light.Clone;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("clone")]
+        Clone,
 
         /// <summary>
         /// Closed Captioning
@@ -3062,7 +3824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// closed-captioning - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ClosedCaptioning => FA5.Light.ClosedCaptioning;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("closed-captioning")]
+        ClosedCaptioning,
 
         /// <summary>
         /// Cloud
@@ -3070,7 +3834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cloud => FA5.Light.Cloud;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud")]
+        Cloud,
 
         /// <summary>
         /// Cloud Download
@@ -3078,7 +3844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-download - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudDownload => FA5.Light.CloudDownload;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-download")]
+        CloudDownload,
 
         /// <summary>
         /// Alternate Cloud Download
@@ -3086,7 +3854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-download-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudDownloadAlt => FA5.Light.CloudDownloadAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-download-alt")]
+        CloudDownloadAlt,
 
         /// <summary>
         /// Cloud With Drizzle
@@ -3094,7 +3864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-drizzle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudDrizzle => FA5.Light.CloudDrizzle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-drizzle")]
+        CloudDrizzle,
 
         /// <summary>
         /// Cloud With Hail
@@ -3102,7 +3874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-hail - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudHail => FA5.Light.CloudHail;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-hail")]
+        CloudHail,
 
         /// <summary>
         /// Cloud With Mixed Hail
@@ -3110,7 +3884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-hail-mixed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudHailMixed => FA5.Light.CloudHailMixed;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-hail-mixed")]
+        CloudHailMixed,
 
         /// <summary>
         /// Cloud With A Chance Of Meatball
@@ -3118,7 +3894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-meatball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudMeatball => FA5.Light.CloudMeatball;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-meatball")]
+        CloudMeatball,
 
         /// <summary>
         /// Cloud With Moon
@@ -3126,7 +3904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-moon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudMoon => FA5.Light.CloudMoon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-moon")]
+        CloudMoon,
 
         /// <summary>
         /// Cloud With Moon And Rain
@@ -3134,7 +3914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-moon-rain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudMoonRain => FA5.Light.CloudMoonRain;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-moon-rain")]
+        CloudMoonRain,
 
         /// <summary>
         /// Cloud Music
@@ -3142,7 +3924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudMusic => FA5.Light.CloudMusic;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-music")]
+        CloudMusic,
 
         /// <summary>
         /// Cloud With Rain
@@ -3150,7 +3934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-rain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudRain => FA5.Light.CloudRain;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-rain")]
+        CloudRain,
 
         /// <summary>
         /// Cloud With Rainbow
@@ -3158,7 +3944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-rainbow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudRainbow => FA5.Light.CloudRainbow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-rainbow")]
+        CloudRainbow,
 
         /// <summary>
         /// Cloud With Showers
@@ -3166,7 +3954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-showers - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudShowers => FA5.Light.CloudShowers;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-showers")]
+        CloudShowers,
 
         /// <summary>
         /// Cloud With Heavy Showers
@@ -3174,7 +3964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-showers-heavy - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudShowersHeavy => FA5.Light.CloudShowersHeavy;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-showers-heavy")]
+        CloudShowersHeavy,
 
         /// <summary>
         /// Cloud With Sleet
@@ -3182,7 +3974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-sleet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudSleet => FA5.Light.CloudSleet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-sleet")]
+        CloudSleet,
 
         /// <summary>
         /// Cloud With Snow
@@ -3190,7 +3984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-snow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudSnow => FA5.Light.CloudSnow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-snow")]
+        CloudSnow,
 
         /// <summary>
         /// Cloud With Sun
@@ -3198,7 +3994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-sun - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudSun => FA5.Light.CloudSun;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-sun")]
+        CloudSun,
 
         /// <summary>
         /// Cloud With Sun And Rain
@@ -3206,7 +4004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-sun-rain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudSunRain => FA5.Light.CloudSunRain;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-sun-rain")]
+        CloudSunRain,
 
         /// <summary>
         /// Cloud Upload
@@ -3214,7 +4014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-upload - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudUpload => FA5.Light.CloudUpload;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-upload")]
+        CloudUpload,
 
         /// <summary>
         /// Alternate Cloud Upload
@@ -3222,7 +4024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cloud-upload-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudUploadAlt => FA5.Light.CloudUploadAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cloud-upload-alt")]
+        CloudUploadAlt,
 
         /// <summary>
         /// Clouds
@@ -3230,7 +4034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// clouds - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Clouds => FA5.Light.Clouds;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("clouds")]
+        Clouds,
 
         /// <summary>
         /// Clouds With Moon
@@ -3238,7 +4044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// clouds-moon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudsMoon => FA5.Light.CloudsMoon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("clouds-moon")]
+        CloudsMoon,
 
         /// <summary>
         /// Clouds With Sun
@@ -3246,7 +4054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// clouds-sun - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CloudsSun => FA5.Light.CloudsSun;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("clouds-sun")]
+        CloudsSun,
 
         /// <summary>
         /// Club
@@ -3254,7 +4064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// club - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Club => FA5.Light.Club;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("club")]
+        Club,
 
         /// <summary>
         /// Cocktail
@@ -3262,7 +4074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cocktail - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cocktail => FA5.Light.Cocktail;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cocktail")]
+        Cocktail,
 
         /// <summary>
         /// Code
@@ -3270,7 +4084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// code - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Code => FA5.Light.Code;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("code")]
+        Code,
 
         /// <summary>
         /// Code Branch
@@ -3278,7 +4094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// code-branch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CodeBranch => FA5.Light.CodeBranch;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("code-branch")]
+        CodeBranch,
 
         /// <summary>
         /// Code Commit
@@ -3286,7 +4104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// code-commit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CodeCommit => FA5.Light.CodeCommit;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("code-commit")]
+        CodeCommit,
 
         /// <summary>
         /// Code Merge
@@ -3294,7 +4114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// code-merge - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CodeMerge => FA5.Light.CodeMerge;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("code-merge")]
+        CodeMerge,
 
         /// <summary>
         /// Coffee
@@ -3302,7 +4124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// coffee - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Coffee => FA5.Light.Coffee;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("coffee")]
+        Coffee,
 
         /// <summary>
         /// Coffee Pot
@@ -3310,7 +4134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// coffee-pot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CoffeePot => FA5.Light.CoffeePot;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("coffee-pot")]
+        CoffeePot,
 
         /// <summary>
         /// To Go Coffee
@@ -3318,7 +4144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// coffee-togo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CoffeeTogo => FA5.Light.CoffeeTogo;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("coffee-togo")]
+        CoffeeTogo,
 
         /// <summary>
         /// Coffin
@@ -3326,7 +4154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// coffin - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Coffin => FA5.Light.Coffin;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("coffin")]
+        Coffin,
 
         /// <summary>
         /// Coffin With Cross
@@ -3334,7 +4164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// coffin-cross - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CoffinCross => FA5.Light.CoffinCross;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("coffin-cross")]
+        CoffinCross,
 
         /// <summary>
         /// Cog
@@ -3342,7 +4174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cog => FA5.Light.Cog;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cog")]
+        Cog,
 
         /// <summary>
         /// Cogs
@@ -3350,7 +4184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cogs - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cogs => FA5.Light.Cogs;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cogs")]
+        Cogs,
 
         /// <summary>
         /// Coin
@@ -3358,7 +4194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// coin - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Coin => FA5.Light.Coin;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("coin")]
+        Coin,
 
         /// <summary>
         /// Coins
@@ -3366,7 +4204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// coins - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Coins => FA5.Light.Coins;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("coins")]
+        Coins,
 
         /// <summary>
         /// Columns
@@ -3374,7 +4214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// columns - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Columns => FA5.Light.Columns;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("columns")]
+        Columns,
 
         /// <summary>
         /// Comet
@@ -3382,7 +4224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Comet => FA5.Light.Comet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comet")]
+        Comet,
 
         /// <summary>
         /// Comment
@@ -3390,7 +4234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Comment => FA5.Light.Comment;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment")]
+        Comment,
 
         /// <summary>
         /// Alternate Comment
@@ -3398,7 +4244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentAlt => FA5.Light.CommentAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-alt")]
+        CommentAlt,
 
         /// <summary>
         /// Alternate Comment Check
@@ -3406,7 +4254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-alt-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentAltCheck => FA5.Light.CommentAltCheck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-alt-check")]
+        CommentAltCheck,
 
         /// <summary>
         /// Comment Alt Dollar
@@ -3414,7 +4264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-alt-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentAltDollar => FA5.Light.CommentAltDollar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-alt-dollar")]
+        CommentAltDollar,
 
         /// <summary>
         /// Alternate Comment Dots
@@ -3422,7 +4274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-alt-dots - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentAltDots => FA5.Light.CommentAltDots;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-alt-dots")]
+        CommentAltDots,
 
         /// <summary>
         /// Alternate Comment Edit
@@ -3430,7 +4284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-alt-edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentAltEdit => FA5.Light.CommentAltEdit;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-alt-edit")]
+        CommentAltEdit,
 
         /// <summary>
         /// Alternate Comment Exclamation
@@ -3438,7 +4294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-alt-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentAltExclamation => FA5.Light.CommentAltExclamation;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-alt-exclamation")]
+        CommentAltExclamation,
 
         /// <summary>
         /// Alternate Comment Lines
@@ -3446,7 +4304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-alt-lines - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentAltLines => FA5.Light.CommentAltLines;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-alt-lines")]
+        CommentAltLines,
 
         /// <summary>
         /// Medical Chat
@@ -3454,7 +4314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-alt-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentAltMedical => FA5.Light.CommentAltMedical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-alt-medical")]
+        CommentAltMedical,
 
         /// <summary>
         /// Alternate Comment Minus
@@ -3462,7 +4324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-alt-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentAltMinus => FA5.Light.CommentAltMinus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-alt-minus")]
+        CommentAltMinus,
 
         /// <summary>
         /// Alternate Comment Music
@@ -3470,7 +4334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-alt-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentAltMusic => FA5.Light.CommentAltMusic;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-alt-music")]
+        CommentAltMusic,
 
         /// <summary>
         /// Alternate Comment Plus
@@ -3478,7 +4344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-alt-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentAltPlus => FA5.Light.CommentAltPlus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-alt-plus")]
+        CommentAltPlus,
 
         /// <summary>
         /// Alternate Comment Slash
@@ -3486,7 +4354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-alt-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentAltSlash => FA5.Light.CommentAltSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-alt-slash")]
+        CommentAltSlash,
 
         /// <summary>
         /// Alternate Comment Smile
@@ -3494,7 +4364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-alt-smile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentAltSmile => FA5.Light.CommentAltSmile;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-alt-smile")]
+        CommentAltSmile,
 
         /// <summary>
         /// Alternate Comment Times
@@ -3502,7 +4374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-alt-times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentAltTimes => FA5.Light.CommentAltTimes;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-alt-times")]
+        CommentAltTimes,
 
         /// <summary>
         /// Comment Check
@@ -3510,7 +4384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentCheck => FA5.Light.CommentCheck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-check")]
+        CommentCheck,
 
         /// <summary>
         /// Comment Dollar
@@ -3518,7 +4394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentDollar => FA5.Light.CommentDollar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-dollar")]
+        CommentDollar,
 
         /// <summary>
         /// Comment Dots
@@ -3526,7 +4404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-dots - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentDots => FA5.Light.CommentDots;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-dots")]
+        CommentDots,
 
         /// <summary>
         /// Comment Edit
@@ -3534,7 +4414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentEdit => FA5.Light.CommentEdit;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-edit")]
+        CommentEdit,
 
         /// <summary>
         /// Comment Exclamation
@@ -3542,7 +4424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentExclamation => FA5.Light.CommentExclamation;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-exclamation")]
+        CommentExclamation,
 
         /// <summary>
         /// Comment Lines
@@ -3550,7 +4434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-lines - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentLines => FA5.Light.CommentLines;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-lines")]
+        CommentLines,
 
         /// <summary>
         /// Alternate Medical Chat
@@ -3558,7 +4444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentMedical => FA5.Light.CommentMedical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-medical")]
+        CommentMedical,
 
         /// <summary>
         /// Comment Minus
@@ -3566,7 +4454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentMinus => FA5.Light.CommentMinus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-minus")]
+        CommentMinus,
 
         /// <summary>
         /// Comment Music
@@ -3574,7 +4464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentMusic => FA5.Light.CommentMusic;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-music")]
+        CommentMusic,
 
         /// <summary>
         /// Comment Plus
@@ -3582,7 +4474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentPlus => FA5.Light.CommentPlus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-plus")]
+        CommentPlus,
 
         /// <summary>
         /// Comment Slash
@@ -3590,7 +4484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentSlash => FA5.Light.CommentSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-slash")]
+        CommentSlash,
 
         /// <summary>
         /// Comment Smile
@@ -3598,7 +4494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-smile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentSmile => FA5.Light.CommentSmile;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-smile")]
+        CommentSmile,
 
         /// <summary>
         /// Comment Times
@@ -3606,7 +4504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comment-times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentTimes => FA5.Light.CommentTimes;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comment-times")]
+        CommentTimes,
 
         /// <summary>
         /// Comments
@@ -3614,7 +4514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comments - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Comments => FA5.Light.Comments;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comments")]
+        Comments,
 
         /// <summary>
         /// Alternate Comments
@@ -3622,7 +4524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comments-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentsAlt => FA5.Light.CommentsAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comments-alt")]
+        CommentsAlt,
 
         /// <summary>
         /// Alternate Comments Dollar
@@ -3630,7 +4534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comments-alt-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentsAltDollar => FA5.Light.CommentsAltDollar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comments-alt-dollar")]
+        CommentsAltDollar,
 
         /// <summary>
         /// Comments Dollar
@@ -3638,7 +4544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// comments-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CommentsDollar => FA5.Light.CommentsDollar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("comments-dollar")]
+        CommentsDollar,
 
         /// <summary>
         /// Compact Disc
@@ -3646,7 +4554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// compact-disc - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CompactDisc => FA5.Light.CompactDisc;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("compact-disc")]
+        CompactDisc,
 
         /// <summary>
         /// Compass
@@ -3654,7 +4564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// compass - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Compass => FA5.Light.Compass;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("compass")]
+        Compass,
 
         /// <summary>
         /// Compass Slash
@@ -3662,7 +4574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// compass-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CompassSlash => FA5.Light.CompassSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("compass-slash")]
+        CompassSlash,
 
         /// <summary>
         /// Compress
@@ -3670,7 +4584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// compress - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Compress => FA5.Light.Compress;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("compress")]
+        Compress,
 
         /// <summary>
         /// Alternate Compress
@@ -3678,7 +4594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// compress-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CompressAlt => FA5.Light.CompressAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("compress-alt")]
+        CompressAlt,
 
         /// <summary>
         /// Alternate Compress Arrows
@@ -3686,7 +4604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// compress-arrows-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CompressArrowsAlt => FA5.Light.CompressArrowsAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("compress-arrows-alt")]
+        CompressArrowsAlt,
 
         /// <summary>
         /// Compress Wide
@@ -3694,7 +4614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// compress-wide - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CompressWide => FA5.Light.CompressWide;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("compress-wide")]
+        CompressWide,
 
         /// <summary>
         /// Classic Computer
@@ -3702,7 +4624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// computer-classic - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ComputerClassic => FA5.Light.ComputerClassic;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("computer-classic")]
+        ComputerClassic,
 
         /// <summary>
         /// Computer Speaker
@@ -3710,7 +4634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// computer-speaker - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ComputerSpeaker => FA5.Light.ComputerSpeaker;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("computer-speaker")]
+        ComputerSpeaker,
 
         /// <summary>
         /// Concierge Bell
@@ -3718,7 +4644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// concierge-bell - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ConciergeBell => FA5.Light.ConciergeBell;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("concierge-bell")]
+        ConciergeBell,
 
         /// <summary>
         /// Construction
@@ -3726,7 +4654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// construction - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Construction => FA5.Light.Construction;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("construction")]
+        Construction,
 
         /// <summary>
         /// Container Storage
@@ -3734,7 +4664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// container-storage - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ContainerStorage => FA5.Light.ContainerStorage;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("container-storage")]
+        ContainerStorage,
 
         /// <summary>
         /// Conveyor Belt
@@ -3742,7 +4674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// conveyor-belt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ConveyorBelt => FA5.Light.ConveyorBelt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("conveyor-belt")]
+        ConveyorBelt,
 
         /// <summary>
         /// Alternate Conveyor Belt
@@ -3750,7 +4684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// conveyor-belt-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ConveyorBeltAlt => FA5.Light.ConveyorBeltAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("conveyor-belt-alt")]
+        ConveyorBeltAlt,
 
         /// <summary>
         /// Cookie
@@ -3758,7 +4694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cookie - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cookie => FA5.Light.Cookie;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cookie")]
+        Cookie,
 
         /// <summary>
         /// Cookie Bite
@@ -3766,7 +4704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cookie-bite - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CookieBite => FA5.Light.CookieBite;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cookie-bite")]
+        CookieBite,
 
         /// <summary>
         /// Copy
@@ -3774,7 +4714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// copy - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Copy => FA5.Light.Copy;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("copy")]
+        Copy,
 
         /// <summary>
         /// Copyright
@@ -3782,7 +4724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// copyright - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Copyright => FA5.Light.Copyright;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("copyright")]
+        Copyright,
 
         /// <summary>
         /// Corn
@@ -3790,7 +4734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// corn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Corn => FA5.Light.Corn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("corn")]
+        Corn,
 
         /// <summary>
         /// Couch
@@ -3798,7 +4744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// couch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Couch => FA5.Light.Couch;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("couch")]
+        Couch,
 
         /// <summary>
         /// Cow
@@ -3806,7 +4754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cow => FA5.Light.Cow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cow")]
+        Cow,
 
         /// <summary>
         /// Cowbell
@@ -3814,7 +4764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cowbell - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cowbell => FA5.Light.Cowbell;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cowbell")]
+        Cowbell,
 
         /// <summary>
         /// Cowbell More
@@ -3822,7 +4774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cowbell-more - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CowbellMore => FA5.Light.CowbellMore;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cowbell-more")]
+        CowbellMore,
 
         /// <summary>
         /// Credit Card
@@ -3830,7 +4784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// credit-card - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CreditCard => FA5.Light.CreditCard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("credit-card")]
+        CreditCard,
 
         /// <summary>
         /// Credit Card Blank
@@ -3838,7 +4794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// credit-card-blank - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CreditCardBlank => FA5.Light.CreditCardBlank;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("credit-card-blank")]
+        CreditCardBlank,
 
         /// <summary>
         /// Credit Card Front
@@ -3846,7 +4804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// credit-card-front - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CreditCardFront => FA5.Light.CreditCardFront;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("credit-card-front")]
+        CreditCardFront,
 
         /// <summary>
         /// Cricket
@@ -3854,7 +4814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cricket - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cricket => FA5.Light.Cricket;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cricket")]
+        Cricket,
 
         /// <summary>
         /// Croissant
@@ -3862,7 +4824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// croissant - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Croissant => FA5.Light.Croissant;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("croissant")]
+        Croissant,
 
         /// <summary>
         /// Crop
@@ -3870,7 +4834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// crop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Crop => FA5.Light.Crop;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("crop")]
+        Crop,
 
         /// <summary>
         /// Alternate Crop
@@ -3878,7 +4844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// crop-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon CropAlt => FA5.Light.CropAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("crop-alt")]
+        CropAlt,
 
         /// <summary>
         /// Cross
@@ -3886,7 +4854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cross - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cross => FA5.Light.Cross;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cross")]
+        Cross,
 
         /// <summary>
         /// Crosshairs
@@ -3894,7 +4864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// crosshairs - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Crosshairs => FA5.Light.Crosshairs;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("crosshairs")]
+        Crosshairs,
 
         /// <summary>
         /// Crow
@@ -3902,7 +4874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// crow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Crow => FA5.Light.Crow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("crow")]
+        Crow,
 
         /// <summary>
         /// Crown
@@ -3910,7 +4884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// crown - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Crown => FA5.Light.Crown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("crown")]
+        Crown,
 
         /// <summary>
         /// Crutch
@@ -3918,7 +4894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// crutch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Crutch => FA5.Light.Crutch;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("crutch")]
+        Crutch,
 
         /// <summary>
         /// Crutches
@@ -3926,7 +4904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// crutches - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Crutches => FA5.Light.Crutches;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("crutches")]
+        Crutches,
 
         /// <summary>
         /// Cube
@@ -3934,7 +4914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cube - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cube => FA5.Light.Cube;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cube")]
+        Cube,
 
         /// <summary>
         /// Cubes
@@ -3942,7 +4924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cubes - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cubes => FA5.Light.Cubes;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cubes")]
+        Cubes,
 
         /// <summary>
         /// Curling
@@ -3950,7 +4934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// curling - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Curling => FA5.Light.Curling;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("curling")]
+        Curling,
 
         /// <summary>
         /// Cut
@@ -3958,7 +4944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// cut - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Cut => FA5.Light.Cut;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("cut")]
+        Cut,
 
         /// <summary>
         /// Dagger
@@ -3966,7 +4954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dagger - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Dagger => FA5.Light.Dagger;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dagger")]
+        Dagger,
 
         /// <summary>
         /// Database
@@ -3974,7 +4964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// database - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Database => FA5.Light.Database;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("database")]
+        Database,
 
         /// <summary>
         /// Deaf
@@ -3982,7 +4974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// deaf - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Deaf => FA5.Light.Deaf;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("deaf")]
+        Deaf,
 
         /// <summary>
         /// Debug
@@ -3990,7 +4984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// debug - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Debug => FA5.Light.Debug;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("debug")]
+        Debug,
 
         /// <summary>
         /// Deer
@@ -3998,7 +4994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// deer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Deer => FA5.Light.Deer;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("deer")]
+        Deer,
 
         /// <summary>
         /// Deer Rudolph
@@ -4006,7 +5004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// deer-rudolph - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DeerRudolph => FA5.Light.DeerRudolph;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("deer-rudolph")]
+        DeerRudolph,
 
         /// <summary>
         /// Democrat
@@ -4014,7 +5014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// democrat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Democrat => FA5.Light.Democrat;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("democrat")]
+        Democrat,
 
         /// <summary>
         /// Desktop
@@ -4022,7 +5024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// desktop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Desktop => FA5.Light.Desktop;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("desktop")]
+        Desktop,
 
         /// <summary>
         /// Alternate Desktop
@@ -4030,7 +5034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// desktop-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DesktopAlt => FA5.Light.DesktopAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("desktop-alt")]
+        DesktopAlt,
 
         /// <summary>
         /// Dewpoint
@@ -4038,7 +5044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dewpoint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Dewpoint => FA5.Light.Dewpoint;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dewpoint")]
+        Dewpoint,
 
         /// <summary>
         /// Dharmachakra
@@ -4046,7 +5054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dharmachakra - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Dharmachakra => FA5.Light.Dharmachakra;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dharmachakra")]
+        Dharmachakra,
 
         /// <summary>
         /// Diagnoses
@@ -4054,7 +5064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// diagnoses - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Diagnoses => FA5.Light.Diagnoses;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("diagnoses")]
+        Diagnoses,
 
         /// <summary>
         /// Diamond
@@ -4062,7 +5074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// diamond - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Diamond => FA5.Light.Diamond;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("diamond")]
+        Diamond,
 
         /// <summary>
         /// Dice
@@ -4070,7 +5084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dice - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Dice => FA5.Light.Dice;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dice")]
+        Dice,
 
         /// <summary>
         /// Dice D 10
@@ -4078,7 +5094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dice-d10 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DiceD10 => FA5.Light.DiceD10;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dice-d10")]
+        DiceD10,
 
         /// <summary>
         /// Dice D 12
@@ -4086,7 +5104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dice-d12 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DiceD12 => FA5.Light.DiceD12;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dice-d12")]
+        DiceD12,
 
         /// <summary>
         /// Dice D 20
@@ -4094,7 +5114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dice-d20 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DiceD20 => FA5.Light.DiceD20;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dice-d20")]
+        DiceD20,
 
         /// <summary>
         /// Dice D 4
@@ -4102,7 +5124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dice-d4 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DiceD4 => FA5.Light.DiceD4;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dice-d4")]
+        DiceD4,
 
         /// <summary>
         /// Dice D 6
@@ -4110,7 +5134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dice-d6 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DiceD6 => FA5.Light.DiceD6;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dice-d6")]
+        DiceD6,
 
         /// <summary>
         /// Dice D 8
@@ -4118,7 +5144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dice-d8 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DiceD8 => FA5.Light.DiceD8;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dice-d8")]
+        DiceD8,
 
         /// <summary>
         /// Dice Five
@@ -4126,7 +5154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dice-five - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DiceFive => FA5.Light.DiceFive;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dice-five")]
+        DiceFive,
 
         /// <summary>
         /// Dice Four
@@ -4134,7 +5164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dice-four - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DiceFour => FA5.Light.DiceFour;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dice-four")]
+        DiceFour,
 
         /// <summary>
         /// Dice One
@@ -4142,7 +5174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dice-one - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DiceOne => FA5.Light.DiceOne;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dice-one")]
+        DiceOne,
 
         /// <summary>
         /// Dice Six
@@ -4150,7 +5184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dice-six - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DiceSix => FA5.Light.DiceSix;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dice-six")]
+        DiceSix,
 
         /// <summary>
         /// Dice Three
@@ -4158,7 +5194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dice-three - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DiceThree => FA5.Light.DiceThree;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dice-three")]
+        DiceThree,
 
         /// <summary>
         /// Dice Two
@@ -4166,7 +5204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dice-two - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DiceTwo => FA5.Light.DiceTwo;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dice-two")]
+        DiceTwo,
 
         /// <summary>
         /// Digging
@@ -4174,7 +5214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// digging - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Digging => FA5.Light.Digging;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("digging")]
+        Digging,
 
         /// <summary>
         /// Digital Tachograph
@@ -4182,7 +5224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// digital-tachograph - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DigitalTachograph => FA5.Light.DigitalTachograph;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("digital-tachograph")]
+        DigitalTachograph,
 
         /// <summary>
         /// Diploma
@@ -4190,7 +5234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// diploma - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Diploma => FA5.Light.Diploma;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("diploma")]
+        Diploma,
 
         /// <summary>
         /// Directions
@@ -4198,7 +5244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// directions - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Directions => FA5.Light.Directions;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("directions")]
+        Directions,
 
         /// <summary>
         /// Disc Drive
@@ -4206,7 +5254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// disc-drive - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DiscDrive => FA5.Light.DiscDrive;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("disc-drive")]
+        DiscDrive,
 
         /// <summary>
         /// Disease
@@ -4214,7 +5264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// disease - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Disease => FA5.Light.Disease;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("disease")]
+        Disease,
 
         /// <summary>
         /// Divide
@@ -4222,7 +5274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// divide - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Divide => FA5.Light.Divide;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("divide")]
+        Divide,
 
         /// <summary>
         /// Dizzy Face
@@ -4230,7 +5284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dizzy - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Dizzy => FA5.Light.Dizzy;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dizzy")]
+        Dizzy,
 
         /// <summary>
         /// DNA
@@ -4238,7 +5294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dna - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Dna => FA5.Light.Dna;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dna")]
+        Dna,
 
         /// <summary>
         /// Do Not Enter
@@ -4246,7 +5304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// do-not-enter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DoNotEnter => FA5.Light.DoNotEnter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("do-not-enter")]
+        DoNotEnter,
 
         /// <summary>
         /// Dog
@@ -4254,7 +5314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Dog => FA5.Light.Dog;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dog")]
+        Dog,
 
         /// <summary>
         /// Leashed Dog
@@ -4262,7 +5324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dog-leashed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DogLeashed => FA5.Light.DogLeashed;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dog-leashed")]
+        DogLeashed,
 
         /// <summary>
         /// Dollar Sign
@@ -4270,7 +5334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dollar-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DollarSign => FA5.Light.DollarSign;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dollar-sign")]
+        DollarSign,
 
         /// <summary>
         /// Dolly
@@ -4278,7 +5344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dolly - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Dolly => FA5.Light.Dolly;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dolly")]
+        Dolly,
 
         /// <summary>
         /// Dolly Empty
@@ -4286,7 +5354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dolly-empty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DollyEmpty => FA5.Light.DollyEmpty;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dolly-empty")]
+        DollyEmpty,
 
         /// <summary>
         /// Dolly Flatbed
@@ -4294,7 +5364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dolly-flatbed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DollyFlatbed => FA5.Light.DollyFlatbed;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dolly-flatbed")]
+        DollyFlatbed,
 
         /// <summary>
         /// Alternate Dolly Flatbed
@@ -4302,7 +5374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dolly-flatbed-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DollyFlatbedAlt => FA5.Light.DollyFlatbedAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dolly-flatbed-alt")]
+        DollyFlatbedAlt,
 
         /// <summary>
         /// Dolly Flatbed Empty
@@ -4310,7 +5384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dolly-flatbed-empty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DollyFlatbedEmpty => FA5.Light.DollyFlatbedEmpty;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dolly-flatbed-empty")]
+        DollyFlatbedEmpty,
 
         /// <summary>
         /// Donate
@@ -4318,7 +5394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// donate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Donate => FA5.Light.Donate;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("donate")]
+        Donate,
 
         /// <summary>
         /// Door Closed
@@ -4326,7 +5404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// door-closed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DoorClosed => FA5.Light.DoorClosed;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("door-closed")]
+        DoorClosed,
 
         /// <summary>
         /// Door Open
@@ -4334,7 +5414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// door-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DoorOpen => FA5.Light.DoorOpen;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("door-open")]
+        DoorOpen,
 
         /// <summary>
         /// Dot Circle
@@ -4342,7 +5424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dot-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DotCircle => FA5.Light.DotCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dot-circle")]
+        DotCircle,
 
         /// <summary>
         /// Dove
@@ -4350,7 +5434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dove - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Dove => FA5.Light.Dove;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dove")]
+        Dove,
 
         /// <summary>
         /// Download
@@ -4358,7 +5444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// download - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Download => FA5.Light.Download;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("download")]
+        Download,
 
         /// <summary>
         /// Drafting Compass
@@ -4366,7 +5454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// drafting-compass - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DraftingCompass => FA5.Light.DraftingCompass;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("drafting-compass")]
+        DraftingCompass,
 
         /// <summary>
         /// Dragon
@@ -4374,7 +5464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dragon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Dragon => FA5.Light.Dragon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dragon")]
+        Dragon,
 
         /// <summary>
         /// Draw Circle
@@ -4382,7 +5474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// draw-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DrawCircle => FA5.Light.DrawCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("draw-circle")]
+        DrawCircle,
 
         /// <summary>
         /// Draw Polygon
@@ -4390,7 +5484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// draw-polygon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DrawPolygon => FA5.Light.DrawPolygon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("draw-polygon")]
+        DrawPolygon,
 
         /// <summary>
         /// Draw Square
@@ -4398,7 +5494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// draw-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DrawSquare => FA5.Light.DrawSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("draw-square")]
+        DrawSquare,
 
         /// <summary>
         /// Dreidel
@@ -4406,7 +5504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dreidel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Dreidel => FA5.Light.Dreidel;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dreidel")]
+        Dreidel,
 
         /// <summary>
         /// Drone
@@ -4414,7 +5514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// drone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Drone => FA5.Light.Drone;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("drone")]
+        Drone,
 
         /// <summary>
         /// Alternate Drone
@@ -4422,7 +5524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// drone-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DroneAlt => FA5.Light.DroneAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("drone-alt")]
+        DroneAlt,
 
         /// <summary>
         /// Drum
@@ -4430,7 +5534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// drum - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Drum => FA5.Light.Drum;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("drum")]
+        Drum,
 
         /// <summary>
         /// Drum Steelpan
@@ -4438,7 +5544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// drum-steelpan - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DrumSteelpan => FA5.Light.DrumSteelpan;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("drum-steelpan")]
+        DrumSteelpan,
 
         /// <summary>
         /// Drumstick
@@ -4446,7 +5554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// drumstick - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Drumstick => FA5.Light.Drumstick;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("drumstick")]
+        Drumstick,
 
         /// <summary>
         /// Drumstick With Bite Taken Out
@@ -4454,7 +5564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// drumstick-bite - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DrumstickBite => FA5.Light.DrumstickBite;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("drumstick-bite")]
+        DrumstickBite,
 
         /// <summary>
         /// Dryer
@@ -4462,7 +5574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dryer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Dryer => FA5.Light.Dryer;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dryer")]
+        Dryer,
 
         /// <summary>
         /// Alternate Dryer
@@ -4470,7 +5584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dryer-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DryerAlt => FA5.Light.DryerAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dryer-alt")]
+        DryerAlt,
 
         /// <summary>
         /// Duck
@@ -4478,7 +5594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// duck - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Duck => FA5.Light.Duck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("duck")]
+        Duck,
 
         /// <summary>
         /// Dumbbell
@@ -4486,7 +5604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dumbbell - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Dumbbell => FA5.Light.Dumbbell;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dumbbell")]
+        Dumbbell,
 
         /// <summary>
         /// Dumpster
@@ -4494,7 +5614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dumpster - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Dumpster => FA5.Light.Dumpster;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dumpster")]
+        Dumpster,
 
         /// <summary>
         /// Dumpster Fire
@@ -4502,7 +5624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dumpster-fire - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon DumpsterFire => FA5.Light.DumpsterFire;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dumpster-fire")]
+        DumpsterFire,
 
         /// <summary>
         /// Dungeon
@@ -4510,7 +5634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// dungeon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Dungeon => FA5.Light.Dungeon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("dungeon")]
+        Dungeon,
 
         /// <summary>
         /// Ear
@@ -4518,7 +5644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ear - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ear => FA5.Light.Ear;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ear")]
+        Ear,
 
         /// <summary>
         /// Ear Muffs
@@ -4526,7 +5654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ear-muffs - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EarMuffs => FA5.Light.EarMuffs;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ear-muffs")]
+        EarMuffs,
 
         /// <summary>
         /// Eclipse
@@ -4534,7 +5664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// eclipse - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Eclipse => FA5.Light.Eclipse;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("eclipse")]
+        Eclipse,
 
         /// <summary>
         /// Alternate Eclipse
@@ -4542,7 +5674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// eclipse-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EclipseAlt => FA5.Light.EclipseAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("eclipse-alt")]
+        EclipseAlt,
 
         /// <summary>
         /// Edit
@@ -4550,7 +5684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Edit => FA5.Light.Edit;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("edit")]
+        Edit,
 
         /// <summary>
         /// Egg
@@ -4558,7 +5694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// egg - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Egg => FA5.Light.Egg;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("egg")]
+        Egg,
 
         /// <summary>
         /// Fried Egg
@@ -4566,7 +5704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// egg-fried - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EggFried => FA5.Light.EggFried;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("egg-fried")]
+        EggFried,
 
         /// <summary>
         /// Eject
@@ -4574,7 +5714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// eject - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Eject => FA5.Light.Eject;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("eject")]
+        Eject,
 
         /// <summary>
         /// Elephant
@@ -4582,7 +5724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// elephant - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Elephant => FA5.Light.Elephant;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("elephant")]
+        Elephant,
 
         /// <summary>
         /// Horizontal Ellipsis
@@ -4590,7 +5734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ellipsis-h - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EllipsisH => FA5.Light.EllipsisH;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ellipsis-h")]
+        EllipsisH,
 
         /// <summary>
         /// Alternate Horizontal Ellipsis
@@ -4598,7 +5744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ellipsis-h-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EllipsisHAlt => FA5.Light.EllipsisHAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ellipsis-h-alt")]
+        EllipsisHAlt,
 
         /// <summary>
         /// Vertical Ellipsis
@@ -4606,7 +5754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ellipsis-v - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EllipsisV => FA5.Light.EllipsisV;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ellipsis-v")]
+        EllipsisV,
 
         /// <summary>
         /// Alternate Vertical Ellipsis
@@ -4614,7 +5764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ellipsis-v-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EllipsisVAlt => FA5.Light.EllipsisVAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ellipsis-v-alt")]
+        EllipsisVAlt,
 
         /// <summary>
         /// Empty Set
@@ -4622,7 +5774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// empty-set - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EmptySet => FA5.Light.EmptySet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("empty-set")]
+        EmptySet,
 
         /// <summary>
         /// Engine Warning
@@ -4630,7 +5784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// engine-warning - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EngineWarning => FA5.Light.EngineWarning;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("engine-warning")]
+        EngineWarning,
 
         /// <summary>
         /// Envelope
@@ -4638,7 +5794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// envelope - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Envelope => FA5.Light.Envelope;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("envelope")]
+        Envelope,
 
         /// <summary>
         /// Envelope Open
@@ -4646,7 +5804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// envelope-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EnvelopeOpen => FA5.Light.EnvelopeOpen;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("envelope-open")]
+        EnvelopeOpen,
 
         /// <summary>
         /// Envelope Open Dollar
@@ -4654,7 +5814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// envelope-open-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EnvelopeOpenDollar => FA5.Light.EnvelopeOpenDollar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("envelope-open-dollar")]
+        EnvelopeOpenDollar,
 
         /// <summary>
         /// Envelope Open Text
@@ -4662,7 +5824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// envelope-open-text - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EnvelopeOpenText => FA5.Light.EnvelopeOpenText;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("envelope-open-text")]
+        EnvelopeOpenText,
 
         /// <summary>
         /// Envelope Square
@@ -4670,7 +5834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// envelope-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EnvelopeSquare => FA5.Light.EnvelopeSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("envelope-square")]
+        EnvelopeSquare,
 
         /// <summary>
         /// Equals
@@ -4678,7 +5844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// equals - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Equal => FA5.Light.Equal;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("equals")]
+        Equal,
 
         /// <summary>
         /// Eraser
@@ -4686,7 +5854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// eraser - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Eraser => FA5.Light.Eraser;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("eraser")]
+        Eraser,
 
         /// <summary>
         /// Ethernet
@@ -4694,7 +5864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ethernet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ethernet => FA5.Light.Ethernet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ethernet")]
+        Ethernet,
 
         /// <summary>
         /// Euro Sign
@@ -4702,7 +5874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// euro-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EuroSign => FA5.Light.EuroSign;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("euro-sign")]
+        EuroSign,
 
         /// <summary>
         /// Exchange
@@ -4710,7 +5884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// exchange - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Exchange => FA5.Light.Exchange;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("exchange")]
+        Exchange,
 
         /// <summary>
         /// Alternate Exchange
@@ -4718,7 +5894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// exchange-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ExchangeAlt => FA5.Light.ExchangeAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("exchange-alt")]
+        ExchangeAlt,
 
         /// <summary>
         /// Exclamation
@@ -4726,7 +5904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Exclamation => FA5.Light.Exclamation;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("exclamation")]
+        Exclamation,
 
         /// <summary>
         /// Exclamation Circle
@@ -4734,7 +5914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// exclamation-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ExclamationCircle => FA5.Light.ExclamationCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("exclamation-circle")]
+        ExclamationCircle,
 
         /// <summary>
         /// Exclamation Square
@@ -4742,7 +5924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// exclamation-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ExclamationSquare => FA5.Light.ExclamationSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("exclamation-square")]
+        ExclamationSquare,
 
         /// <summary>
         /// Exclamation Triangle
@@ -4750,7 +5934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// exclamation-triangle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ExclamationTriangle => FA5.Light.ExclamationTriangle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("exclamation-triangle")]
+        ExclamationTriangle,
 
         /// <summary>
         /// Expand
@@ -4758,7 +5944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// expand - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Expand => FA5.Light.Expand;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("expand")]
+        Expand,
 
         /// <summary>
         /// Alternate Expand
@@ -4766,7 +5954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// expand-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ExpandAlt => FA5.Light.ExpandAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("expand-alt")]
+        ExpandAlt,
 
         /// <summary>
         /// Expand Arrows
@@ -4774,7 +5964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// expand-arrows - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ExpandArrows => FA5.Light.ExpandArrows;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("expand-arrows")]
+        ExpandArrows,
 
         /// <summary>
         /// Alternate Expand Arrows
@@ -4782,7 +5974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// expand-arrows-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ExpandArrowsAlt => FA5.Light.ExpandArrowsAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("expand-arrows-alt")]
+        ExpandArrowsAlt,
 
         /// <summary>
         /// Expand Wide
@@ -4790,7 +5984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// expand-wide - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ExpandWide => FA5.Light.ExpandWide;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("expand-wide")]
+        ExpandWide,
 
         /// <summary>
         /// External Link
@@ -4798,7 +5994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// external-link - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ExternalLink => FA5.Light.ExternalLink;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("external-link")]
+        ExternalLink,
 
         /// <summary>
         /// Alternate External Link
@@ -4806,7 +6004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// external-link-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ExternalLinkAlt => FA5.Light.ExternalLinkAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("external-link-alt")]
+        ExternalLinkAlt,
 
         /// <summary>
         /// External Link Square
@@ -4814,7 +6014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// external-link-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ExternalLinkSquare => FA5.Light.ExternalLinkSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("external-link-square")]
+        ExternalLinkSquare,
 
         /// <summary>
         /// Alternate External Link Square
@@ -4822,7 +6024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// external-link-square-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ExternalLinkSquareAlt => FA5.Light.ExternalLinkSquareAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("external-link-square-alt")]
+        ExternalLinkSquareAlt,
 
         /// <summary>
         /// Eye
@@ -4830,7 +6034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// eye - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Eye => FA5.Light.Eye;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("eye")]
+        Eye,
 
         /// <summary>
         /// Eye Dropper
@@ -4838,7 +6044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// eye-dropper - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EyeDropper => FA5.Light.EyeDropper;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("eye-dropper")]
+        EyeDropper,
 
         /// <summary>
         /// Evil Eye
@@ -4846,7 +6054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// eye-evil - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EyeEvil => FA5.Light.EyeEvil;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("eye-evil")]
+        EyeEvil,
 
         /// <summary>
         /// Eye Slash
@@ -4854,7 +6064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// eye-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon EyeSlash => FA5.Light.EyeSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("eye-slash")]
+        EyeSlash,
 
         /// <summary>
         /// Fan
@@ -4862,7 +6074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fan - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Fan => FA5.Light.Fan;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fan")]
+        Fan,
 
         /// <summary>
         /// Fan Table
@@ -4870,7 +6084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fan-table - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FanTable => FA5.Light.FanTable;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fan-table")]
+        FanTable,
 
         /// <summary>
         /// Farm
@@ -4878,7 +6094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// farm - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Farm => FA5.Light.Farm;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("farm")]
+        Farm,
 
         /// <summary>
         /// Fast Backward
@@ -4886,7 +6104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fast-backward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FastBackward => FA5.Light.FastBackward;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fast-backward")]
+        FastBackward,
 
         /// <summary>
         /// Fast Forward
@@ -4894,7 +6114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fast-forward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FastForward => FA5.Light.FastForward;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fast-forward")]
+        FastForward,
 
         /// <summary>
         /// Faucet
@@ -4902,7 +6124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// faucet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Faucet => FA5.Light.Faucet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("faucet")]
+        Faucet,
 
         /// <summary>
         /// Faucet Drip
@@ -4910,7 +6134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// faucet-drip - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FaucetDrip => FA5.Light.FaucetDrip;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("faucet-drip")]
+        FaucetDrip,
 
         /// <summary>
         /// Fax
@@ -4918,7 +6144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fax - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Fax => FA5.Light.Fax;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fax")]
+        Fax,
 
         /// <summary>
         /// Feather
@@ -4926,7 +6154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// feather - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Feather => FA5.Light.Feather;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("feather")]
+        Feather,
 
         /// <summary>
         /// Alternate Feather
@@ -4934,7 +6164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// feather-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FeatherAlt => FA5.Light.FeatherAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("feather-alt")]
+        FeatherAlt,
 
         /// <summary>
         /// Female
@@ -4942,7 +6174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// female - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Female => FA5.Light.Female;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("female")]
+        Female,
 
         /// <summary>
         /// Field Hockey
@@ -4950,7 +6184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// field-hockey - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FieldHockey => FA5.Light.FieldHockey;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("field-hockey")]
+        FieldHockey,
 
         /// <summary>
         /// Fighter Jet
@@ -4958,7 +6194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fighter-jet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FighterJet => FA5.Light.FighterJet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fighter-jet")]
+        FighterJet,
 
         /// <summary>
         /// File
@@ -4966,7 +6204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon File => FA5.Light.File;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file")]
+        File,
 
         /// <summary>
         /// Alternate File
@@ -4974,7 +6214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileAlt => FA5.Light.FileAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-alt")]
+        FileAlt,
 
         /// <summary>
         /// Archive File
@@ -4982,7 +6224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-archive - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileArchive => FA5.Light.FileArchive;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-archive")]
+        FileArchive,
 
         /// <summary>
         /// Audio File
@@ -4990,7 +6234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-audio - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileAudio => FA5.Light.FileAudio;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-audio")]
+        FileAudio,
 
         /// <summary>
         /// File Certificate
@@ -4998,7 +6244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-certificate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileCertificate => FA5.Light.FileCertificate;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-certificate")]
+        FileCertificate,
 
         /// <summary>
         /// Chart Line File
@@ -5006,7 +6254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-chart-line - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileChartLine => FA5.Light.FileChartLine;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-chart-line")]
+        FileChartLine,
 
         /// <summary>
         /// Pie Chart File
@@ -5014,7 +6264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-chart-pie - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileChartPie => FA5.Light.FileChartPie;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-chart-pie")]
+        FileChartPie,
 
         /// <summary>
         /// Check File
@@ -5022,7 +6274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileCheck => FA5.Light.FileCheck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-check")]
+        FileCheck,
 
         /// <summary>
         /// Code File
@@ -5030,7 +6284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-code - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileCode => FA5.Light.FileCode;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-code")]
+        FileCode,
 
         /// <summary>
         /// File Contract
@@ -5038,7 +6294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-contract - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileContract => FA5.Light.FileContract;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-contract")]
+        FileContract,
 
         /// <summary>
         /// File CSV
@@ -5046,7 +6304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-csv - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileCsv => FA5.Light.FileCsv;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-csv")]
+        FileCsv,
 
         /// <summary>
         /// File Download
@@ -5054,7 +6314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-download - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileDownload => FA5.Light.FileDownload;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-download")]
+        FileDownload,
 
         /// <summary>
         /// Edit File
@@ -5062,7 +6324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileEdit => FA5.Light.FileEdit;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-edit")]
+        FileEdit,
 
         /// <summary>
         /// Excel File
@@ -5070,7 +6334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-excel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileExcel => FA5.Light.FileExcel;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-excel")]
+        FileExcel,
 
         /// <summary>
         /// Exclamation File
@@ -5078,7 +6344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileExclamation => FA5.Light.FileExclamation;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-exclamation")]
+        FileExclamation,
 
         /// <summary>
         /// File Export
@@ -5086,7 +6354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-export - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileExport => FA5.Light.FileExport;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-export")]
+        FileExport,
 
         /// <summary>
         /// Image File
@@ -5094,7 +6364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-image - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileImage => FA5.Light.FileImage;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-image")]
+        FileImage,
 
         /// <summary>
         /// File Import
@@ -5102,7 +6374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-import - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileImport => FA5.Light.FileImport;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-import")]
+        FileImport,
 
         /// <summary>
         /// File Invoice
@@ -5110,7 +6384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-invoice - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileInvoice => FA5.Light.FileInvoice;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-invoice")]
+        FileInvoice,
 
         /// <summary>
         /// File Invoice With US Dollar
@@ -5118,7 +6394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-invoice-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileInvoiceDollar => FA5.Light.FileInvoiceDollar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-invoice-dollar")]
+        FileInvoiceDollar,
 
         /// <summary>
         /// Medical File
@@ -5126,7 +6404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileMedical => FA5.Light.FileMedical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-medical")]
+        FileMedical,
 
         /// <summary>
         /// Alternate Medical File
@@ -5134,7 +6414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-medical-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileMedicalAlt => FA5.Light.FileMedicalAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-medical-alt")]
+        FileMedicalAlt,
 
         /// <summary>
         /// Minus File
@@ -5142,7 +6424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileMinus => FA5.Light.FileMinus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-minus")]
+        FileMinus,
 
         /// <summary>
         /// File Music
@@ -5150,7 +6434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileMusic => FA5.Light.FileMusic;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-music")]
+        FileMusic,
 
         /// <summary>
         /// PDF File
@@ -5158,7 +6444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-pdf - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FilePdf => FA5.Light.FilePdf;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-pdf")]
+        FilePdf,
 
         /// <summary>
         /// Plus File
@@ -5166,7 +6454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FilePlus => FA5.Light.FilePlus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-plus")]
+        FilePlus,
 
         /// <summary>
         /// Powerpoint File
@@ -5174,7 +6464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-powerpoint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FilePowerpoint => FA5.Light.FilePowerpoint;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-powerpoint")]
+        FilePowerpoint,
 
         /// <summary>
         /// File Prescription
@@ -5182,7 +6474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-prescription - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FilePrescription => FA5.Light.FilePrescription;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-prescription")]
+        FilePrescription,
 
         /// <summary>
         /// File Search
@@ -5190,7 +6484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-search - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileSearch => FA5.Light.FileSearch;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-search")]
+        FileSearch,
 
         /// <summary>
         /// File Signature
@@ -5198,7 +6494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-signature - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileSignature => FA5.Light.FileSignature;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-signature")]
+        FileSignature,
 
         /// <summary>
         /// Spreadsheet File
@@ -5206,7 +6504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-spreadsheet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileSpreadsheet => FA5.Light.FileSpreadsheet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-spreadsheet")]
+        FileSpreadsheet,
 
         /// <summary>
         /// Times File
@@ -5214,7 +6514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileTimes => FA5.Light.FileTimes;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-times")]
+        FileTimes,
 
         /// <summary>
         /// File Upload
@@ -5222,7 +6524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-upload - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileUpload => FA5.Light.FileUpload;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-upload")]
+        FileUpload,
 
         /// <summary>
         /// User File
@@ -5230,7 +6534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-user - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileUser => FA5.Light.FileUser;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-user")]
+        FileUser,
 
         /// <summary>
         /// Video File
@@ -5238,7 +6544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-video - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileVideo => FA5.Light.FileVideo;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-video")]
+        FileVideo,
 
         /// <summary>
         /// Word File
@@ -5246,7 +6554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// file-word - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FileWord => FA5.Light.FileWord;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("file-word")]
+        FileWord,
 
         /// <summary>
         /// Medical Files
@@ -5254,7 +6564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// files-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FilesMedical => FA5.Light.FilesMedical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("files-medical")]
+        FilesMedical,
 
         /// <summary>
         /// Fill
@@ -5262,7 +6574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fill - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Fill => FA5.Light.Fill;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fill")]
+        Fill,
 
         /// <summary>
         /// Fill Drip
@@ -5270,7 +6584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fill-drip - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FillDrip => FA5.Light.FillDrip;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fill-drip")]
+        FillDrip,
 
         /// <summary>
         /// Film
@@ -5278,7 +6594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// film - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Film => FA5.Light.Film;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("film")]
+        Film,
 
         /// <summary>
         /// Alternate Film
@@ -5286,7 +6604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// film-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FilmAlt => FA5.Light.FilmAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("film-alt")]
+        FilmAlt,
 
         /// <summary>
         /// Film Canister
@@ -5294,7 +6614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// film-canister - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FilmCanister => FA5.Light.FilmCanister;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("film-canister")]
+        FilmCanister,
 
         /// <summary>
         /// Filter
@@ -5302,7 +6624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// filter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Filter => FA5.Light.Filter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("filter")]
+        Filter,
 
         /// <summary>
         /// Fingerprint
@@ -5310,7 +6634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fingerprint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Fingerprint => FA5.Light.Fingerprint;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fingerprint")]
+        Fingerprint,
 
         /// <summary>
         /// Fire
@@ -5318,7 +6644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fire - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Fire => FA5.Light.Fire;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fire")]
+        Fire,
 
         /// <summary>
         /// Alternate Fire
@@ -5326,7 +6654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fire-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FireAlt => FA5.Light.FireAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fire-alt")]
+        FireAlt,
 
         /// <summary>
         /// Fire Extinguisher
@@ -5334,7 +6664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fire-extinguisher - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FireExtinguisher => FA5.Light.FireExtinguisher;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fire-extinguisher")]
+        FireExtinguisher,
 
         /// <summary>
         /// Fire And Smoke
@@ -5342,7 +6674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fire-smoke - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FireSmoke => FA5.Light.FireSmoke;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fire-smoke")]
+        FireSmoke,
 
         /// <summary>
         /// Fireplace
@@ -5350,7 +6684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fireplace - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Fireplace => FA5.Light.Fireplace;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fireplace")]
+        Fireplace,
 
         /// <summary>
         /// First Aid
@@ -5358,7 +6694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// first-aid - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FirstAid => FA5.Light.FirstAid;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("first-aid")]
+        FirstAid,
 
         /// <summary>
         /// Fish
@@ -5366,7 +6704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fish - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Fish => FA5.Light.Fish;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fish")]
+        Fish,
 
         /// <summary>
         /// Cooked Fish
@@ -5374,7 +6714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fish-cooked - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FishCooked => FA5.Light.FishCooked;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fish-cooked")]
+        FishCooked,
 
         /// <summary>
         /// Raised Fist
@@ -5382,7 +6724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fist-raised - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FistRaised => FA5.Light.FistRaised;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fist-raised")]
+        FistRaised,
 
         /// <summary>
         /// Flag
@@ -5390,7 +6734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// flag - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Flag => FA5.Light.Flag;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("flag")]
+        Flag,
 
         /// <summary>
         /// Alternate Flag
@@ -5398,7 +6744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// flag-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FlagAlt => FA5.Light.FlagAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("flag-alt")]
+        FlagAlt,
 
         /// <summary>
         /// Flag Checkered
@@ -5406,7 +6754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// flag-checkered - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FlagCheckered => FA5.Light.FlagCheckered;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("flag-checkered")]
+        FlagCheckered,
 
         /// <summary>
         /// United States Of America Flag
@@ -5414,7 +6764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// flag-usa - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FlagUsa => FA5.Light.FlagUsa;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("flag-usa")]
+        FlagUsa,
 
         /// <summary>
         /// Flame
@@ -5422,7 +6774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// flame - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Flame => FA5.Light.Flame;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("flame")]
+        Flame,
 
         /// <summary>
         /// Flashlight
@@ -5430,7 +6784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// flashlight - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Flashlight => FA5.Light.Flashlight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("flashlight")]
+        Flashlight,
 
         /// <summary>
         /// Flask
@@ -5438,7 +6794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// flask - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Flask => FA5.Light.Flask;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("flask")]
+        Flask,
 
         /// <summary>
         /// Flask Poison
@@ -5446,7 +6804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// flask-poison - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FlaskPoison => FA5.Light.FlaskPoison;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("flask-poison")]
+        FlaskPoison,
 
         /// <summary>
         /// Flask Potion
@@ -5454,7 +6814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// flask-potion - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FlaskPotion => FA5.Light.FlaskPotion;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("flask-potion")]
+        FlaskPotion,
 
         /// <summary>
         /// Flower
@@ -5462,7 +6824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// flower - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Flower => FA5.Light.Flower;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("flower")]
+        Flower,
 
         /// <summary>
         /// Flower Daffodil
@@ -5470,7 +6834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// flower-daffodil - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FlowerDaffodil => FA5.Light.FlowerDaffodil;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("flower-daffodil")]
+        FlowerDaffodil,
 
         /// <summary>
         /// Flower Tulip
@@ -5478,7 +6844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// flower-tulip - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FlowerTulip => FA5.Light.FlowerTulip;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("flower-tulip")]
+        FlowerTulip,
 
         /// <summary>
         /// Flushed Face
@@ -5486,7 +6854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// flushed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Flushed => FA5.Light.Flushed;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("flushed")]
+        Flushed,
 
         /// <summary>
         /// Flute
@@ -5494,7 +6864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// flute - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Flute => FA5.Light.Flute;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("flute")]
+        Flute,
 
         /// <summary>
         /// Flux Capacitor
@@ -5502,7 +6874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// flux-capacitor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FluxCapacitor => FA5.Light.FluxCapacitor;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("flux-capacitor")]
+        FluxCapacitor,
 
         /// <summary>
         /// Fog
@@ -5510,7 +6884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Fog => FA5.Light.Fog;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fog")]
+        Fog,
 
         /// <summary>
         /// Folder
@@ -5518,7 +6894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// folder - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Folder => FA5.Light.Folder;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("folder")]
+        Folder,
 
         /// <summary>
         /// Folder Download
@@ -5526,7 +6904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// folder-download - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        public static Icon FolderDownload => FA5.Light.FolderDownload;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("folder-download")]
+        FolderDownload,
 
         /// <summary>
         /// Folder Minus
@@ -5534,7 +6914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// folder-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FolderMinus => FA5.Light.FolderMinus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("folder-minus")]
+        FolderMinus,
 
         /// <summary>
         /// Folder Open
@@ -5542,7 +6924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// folder-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FolderOpen => FA5.Light.FolderOpen;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("folder-open")]
+        FolderOpen,
 
         /// <summary>
         /// Folder Plus
@@ -5550,7 +6934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// folder-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FolderPlus => FA5.Light.FolderPlus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("folder-plus")]
+        FolderPlus,
 
         /// <summary>
         /// Folder Times
@@ -5558,7 +6944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// folder-times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FolderTimes => FA5.Light.FolderTimes;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("folder-times")]
+        FolderTimes,
 
         /// <summary>
         /// Folder Tree
@@ -5566,7 +6954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// folder-tree - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FolderTree => FA5.Light.FolderTree;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("folder-tree")]
+        FolderTree,
 
         /// <summary>
         /// Folder Upload
@@ -5574,7 +6964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// folder-upload - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        public static Icon FolderUpload => FA5.Light.FolderUpload;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("folder-upload")]
+        FolderUpload,
 
         /// <summary>
         /// Folders
@@ -5582,7 +6974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// folders - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Folders => FA5.Light.Folders;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("folders")]
+        Folders,
 
         /// <summary>
         /// Font
@@ -5590,7 +6984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// font - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Font => FA5.Light.Font;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("font")]
+        Font,
 
         /// <summary>
         /// Font Awesome Full Logo
@@ -5598,7 +6994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// font-awesome-logo-full - Available in Solid, Regular, Light, Brands, Duotone
         /// </remarks>
-        public static Icon FontAwesomeLogoFull => FA5.Light.FontAwesomeLogoFull;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("font-awesome-logo-full")]
+        FontAwesomeLogoFull,
 
         /// <summary>
         /// Font Case
@@ -5606,7 +7004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// font-case - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FontCase => FA5.Light.FontCase;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("font-case")]
+        FontCase,
 
         /// <summary>
         /// Football Ball
@@ -5614,7 +7014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// football-ball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FootballBall => FA5.Light.FootballBall;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("football-ball")]
+        FootballBall,
 
         /// <summary>
         /// Football Helmet
@@ -5622,7 +7024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// football-helmet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FootballHelmet => FA5.Light.FootballHelmet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("football-helmet")]
+        FootballHelmet,
 
         /// <summary>
         /// Forklift
@@ -5630,7 +7034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// forklift - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Forklift => FA5.Light.Forklift;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("forklift")]
+        Forklift,
 
         /// <summary>
         /// Forward
@@ -5638,7 +7044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// forward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Forward => FA5.Light.Forward;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("forward")]
+        Forward,
 
         /// <summary>
         /// Fragile
@@ -5646,7 +7054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// fragile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Fragile => FA5.Light.Fragile;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("fragile")]
+        Fragile,
 
         /// <summary>
         /// French Fries
@@ -5654,7 +7064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// french-fries - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FrenchFries => FA5.Light.FrenchFries;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("french-fries")]
+        FrenchFries,
 
         /// <summary>
         /// Frog
@@ -5662,7 +7074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// frog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Frog => FA5.Light.Frog;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("frog")]
+        Frog,
 
         /// <summary>
         /// Frosty Head
@@ -5670,7 +7084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// frosty-head - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FrostyHead => FA5.Light.FrostyHead;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("frosty-head")]
+        FrostyHead,
 
         /// <summary>
         /// Frowning Face
@@ -5678,7 +7094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// frown - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Frown => FA5.Light.Frown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("frown")]
+        Frown,
 
         /// <summary>
         /// Frowning Face With Open Mouth
@@ -5686,7 +7104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// frown-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FrownOpen => FA5.Light.FrownOpen;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("frown-open")]
+        FrownOpen,
 
         /// <summary>
         /// Function
@@ -5694,7 +7114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// function - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Function => FA5.Light.Function;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("function")]
+        Function,
 
         /// <summary>
         /// Funnel Dollar
@@ -5702,7 +7124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// funnel-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon FunnelDollar => FA5.Light.FunnelDollar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("funnel-dollar")]
+        FunnelDollar,
 
         /// <summary>
         /// Futbol
@@ -5710,7 +7134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// futbol - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Futbol => FA5.Light.Futbol;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("futbol")]
+        Futbol,
 
         /// <summary>
         /// Galaxy
@@ -5718,7 +7144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// galaxy - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Galaxy => FA5.Light.Galaxy;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("galaxy")]
+        Galaxy,
 
         /// <summary>
         /// Game Board
@@ -5726,7 +7154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// game-board - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GameBoard => FA5.Light.GameBoard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("game-board")]
+        GameBoard,
 
         /// <summary>
         /// Alternate Game Board
@@ -5734,7 +7164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// game-board-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GameBoardAlt => FA5.Light.GameBoardAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("game-board-alt")]
+        GameBoardAlt,
 
         /// <summary>
         /// Handheld Game Console
@@ -5742,7 +7174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// game-console-handheld - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GameConsoleHandheld => FA5.Light.GameConsoleHandheld;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("game-console-handheld")]
+        GameConsoleHandheld,
 
         /// <summary>
         /// Gamepad
@@ -5750,7 +7184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// gamepad - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Gamepad => FA5.Light.Gamepad;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("gamepad")]
+        Gamepad,
 
         /// <summary>
         /// Alternate Gamepad
@@ -5758,7 +7194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// gamepad-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GamepadAlt => FA5.Light.GamepadAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("gamepad-alt")]
+        GamepadAlt,
 
         /// <summary>
         /// Garage
@@ -5766,7 +7204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// garage - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Garage => FA5.Light.Garage;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("garage")]
+        Garage,
 
         /// <summary>
         /// Garage Car
@@ -5774,7 +7214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// garage-car - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GarageCar => FA5.Light.GarageCar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("garage-car")]
+        GarageCar,
 
         /// <summary>
         /// Garage Open
@@ -5782,7 +7224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// garage-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GarageOpen => FA5.Light.GarageOpen;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("garage-open")]
+        GarageOpen,
 
         /// <summary>
         /// Gas Pump
@@ -5790,7 +7234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// gas-pump - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GasPump => FA5.Light.GasPump;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("gas-pump")]
+        GasPump,
 
         /// <summary>
         /// Gas Pump Slash
@@ -5798,7 +7244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// gas-pump-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GasPumpSlash => FA5.Light.GasPumpSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("gas-pump-slash")]
+        GasPumpSlash,
 
         /// <summary>
         /// Gavel
@@ -5806,7 +7254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// gavel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Gavel => FA5.Light.Gavel;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("gavel")]
+        Gavel,
 
         /// <summary>
         /// Gem
@@ -5814,7 +7264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// gem - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Gem => FA5.Light.Gem;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("gem")]
+        Gem,
 
         /// <summary>
         /// Genderless
@@ -5822,7 +7274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// genderless - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Genderless => FA5.Light.Genderless;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("genderless")]
+        Genderless,
 
         /// <summary>
         /// Ghost
@@ -5830,7 +7284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ghost - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ghost => FA5.Light.Ghost;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ghost")]
+        Ghost,
 
         /// <summary>
         /// Gift
@@ -5838,7 +7294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// gift - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Gift => FA5.Light.Gift;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("gift")]
+        Gift,
 
         /// <summary>
         /// Gift Card
@@ -5846,7 +7304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// gift-card - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GiftCard => FA5.Light.GiftCard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("gift-card")]
+        GiftCard,
 
         /// <summary>
         /// Gifts
@@ -5854,7 +7314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// gifts - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Gifts => FA5.Light.Gifts;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("gifts")]
+        Gifts,
 
         /// <summary>
         /// Gingerbread Man
@@ -5862,7 +7324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// gingerbread-man - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GingerbreadMan => FA5.Light.GingerbreadMan;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("gingerbread-man")]
+        GingerbreadMan,
 
         /// <summary>
         /// Glass
@@ -5870,7 +7334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// glass - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Glass => FA5.Light.Glass;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("glass")]
+        Glass,
 
         /// <summary>
         /// Glass Champagne
@@ -5878,7 +7344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// glass-champagne - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GlassChampagne => FA5.Light.GlassChampagne;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("glass-champagne")]
+        GlassChampagne,
 
         /// <summary>
         /// Glass Cheers
@@ -5886,7 +7354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// glass-cheers - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GlassCheers => FA5.Light.GlassCheers;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("glass-cheers")]
+        GlassCheers,
 
         /// <summary>
         /// Glass Citrus
@@ -5894,7 +7364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// glass-citrus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GlassCitrus => FA5.Light.GlassCitrus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("glass-citrus")]
+        GlassCitrus,
 
         /// <summary>
         /// Martini Glass
@@ -5902,7 +7374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// glass-martini - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GlassMartini => FA5.Light.GlassMartini;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("glass-martini")]
+        GlassMartini,
 
         /// <summary>
         /// Alternate Glass Martini
@@ -5910,7 +7384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// glass-martini-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GlassMartiniAlt => FA5.Light.GlassMartiniAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("glass-martini-alt")]
+        GlassMartiniAlt,
 
         /// <summary>
         /// Glass Whiskey
@@ -5918,7 +7394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// glass-whiskey - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GlassWhiskey => FA5.Light.GlassWhiskey;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("glass-whiskey")]
+        GlassWhiskey,
 
         /// <summary>
         /// Glass Whiskey Rocks
@@ -5926,7 +7404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// glass-whiskey-rocks - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GlassWhiskeyRocks => FA5.Light.GlassWhiskeyRocks;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("glass-whiskey-rocks")]
+        GlassWhiskeyRocks,
 
         /// <summary>
         /// Glasses
@@ -5934,7 +7414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// glasses - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Glasses => FA5.Light.Glasses;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("glasses")]
+        Glasses,
 
         /// <summary>
         /// Alternate Glasses
@@ -5942,7 +7424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// glasses-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GlassesAlt => FA5.Light.GlassesAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("glasses-alt")]
+        GlassesAlt,
 
         /// <summary>
         /// Globe
@@ -5950,7 +7434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// globe - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Globe => FA5.Light.Globe;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("globe")]
+        Globe,
 
         /// <summary>
         /// Globe With Africa Shown
@@ -5958,7 +7444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// globe-africa - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GlobeAfrica => FA5.Light.GlobeAfrica;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("globe-africa")]
+        GlobeAfrica,
 
         /// <summary>
         /// Globe With Americas Shown
@@ -5966,7 +7454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// globe-americas - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GlobeAmericas => FA5.Light.GlobeAmericas;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("globe-americas")]
+        GlobeAmericas,
 
         /// <summary>
         /// Globe With Asia Shown
@@ -5974,7 +7464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// globe-asia - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GlobeAsia => FA5.Light.GlobeAsia;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("globe-asia")]
+        GlobeAsia,
 
         /// <summary>
         /// Globe With Europe Shown
@@ -5982,7 +7474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// globe-europe - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GlobeEurope => FA5.Light.GlobeEurope;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("globe-europe")]
+        GlobeEurope,
 
         /// <summary>
         /// Globe Snow
@@ -5990,7 +7484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// globe-snow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GlobeSnow => FA5.Light.GlobeSnow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("globe-snow")]
+        GlobeSnow,
 
         /// <summary>
         /// Globe Stand
@@ -5998,7 +7494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// globe-stand - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GlobeStand => FA5.Light.GlobeStand;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("globe-stand")]
+        GlobeStand,
 
         /// <summary>
         /// Golf Ball
@@ -6006,7 +7504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// golf-ball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GolfBall => FA5.Light.GolfBall;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("golf-ball")]
+        GolfBall,
 
         /// <summary>
         /// Golf Club
@@ -6014,7 +7514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// golf-club - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GolfClub => FA5.Light.GolfClub;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("golf-club")]
+        GolfClub,
 
         /// <summary>
         /// Gopuram
@@ -6022,7 +7524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// gopuram - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Gopuram => FA5.Light.Gopuram;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("gopuram")]
+        Gopuram,
 
         /// <summary>
         /// Graduation Cap
@@ -6030,7 +7534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// graduation-cap - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GraduationCap => FA5.Light.GraduationCap;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("graduation-cap")]
+        GraduationCap,
 
         /// <summary>
         /// Gramophone
@@ -6038,7 +7544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// gramophone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Gramophone => FA5.Light.Gramophone;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("gramophone")]
+        Gramophone,
 
         /// <summary>
         /// Greater Than
@@ -6046,7 +7554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// greater-than - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GreaterThan => FA5.Light.GreaterThan;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("greater-than")]
+        GreaterThan,
 
         /// <summary>
         /// Greater Than Equal To
@@ -6054,7 +7564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// greater-than-equal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GreaterThanEqual => FA5.Light.GreaterThanEqual;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("greater-than-equal")]
+        GreaterThanEqual,
 
         /// <summary>
         /// Grimacing Face
@@ -6062,7 +7574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grimace - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Grimace => FA5.Light.Grimace;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grimace")]
+        Grimace,
 
         /// <summary>
         /// Grinning Face
@@ -6070,7 +7584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grin - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Grin => FA5.Light.Grin;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grin")]
+        Grin,
 
         /// <summary>
         /// Alternate Grinning Face
@@ -6078,7 +7594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grin-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GrinAlt => FA5.Light.GrinAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grin-alt")]
+        GrinAlt,
 
         /// <summary>
         /// Grinning Face With Smiling Eyes
@@ -6086,7 +7604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grin-beam - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GrinBeam => FA5.Light.GrinBeam;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grin-beam")]
+        GrinBeam,
 
         /// <summary>
         /// Grinning Face With Sweat
@@ -6094,7 +7614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grin-beam-sweat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GrinBeamSweat => FA5.Light.GrinBeamSweat;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grin-beam-sweat")]
+        GrinBeamSweat,
 
         /// <summary>
         /// Smiling Face With Heart Eyes
@@ -6102,7 +7624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grin-hearts - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GrinHearts => FA5.Light.GrinHearts;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grin-hearts")]
+        GrinHearts,
 
         /// <summary>
         /// Grinning Squinting Face
@@ -6110,7 +7634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grin-squint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GrinSquint => FA5.Light.GrinSquint;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grin-squint")]
+        GrinSquint,
 
         /// <summary>
         /// Rolling On The Floor Laughing
@@ -6118,7 +7644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grin-squint-tears - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GrinSquintTears => FA5.Light.GrinSquintTears;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grin-squint-tears")]
+        GrinSquintTears,
 
         /// <summary>
         /// Star Struck
@@ -6126,7 +7654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grin-stars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GrinStars => FA5.Light.GrinStars;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grin-stars")]
+        GrinStars,
 
         /// <summary>
         /// Face With Tears Of Joy
@@ -6134,7 +7664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grin-tears - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GrinTears => FA5.Light.GrinTears;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grin-tears")]
+        GrinTears,
 
         /// <summary>
         /// Face With Tongue
@@ -6142,7 +7674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grin-tongue - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GrinTongue => FA5.Light.GrinTongue;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grin-tongue")]
+        GrinTongue,
 
         /// <summary>
         /// Squinting Face With Tongue
@@ -6150,7 +7684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grin-tongue-squint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GrinTongueSquint => FA5.Light.GrinTongueSquint;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grin-tongue-squint")]
+        GrinTongueSquint,
 
         /// <summary>
         /// Winking Face With Tongue
@@ -6158,7 +7694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grin-tongue-wink - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GrinTongueWink => FA5.Light.GrinTongueWink;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grin-tongue-wink")]
+        GrinTongueWink,
 
         /// <summary>
         /// Grinning Winking Face
@@ -6166,7 +7704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grin-wink - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GrinWink => FA5.Light.GrinWink;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grin-wink")]
+        GrinWink,
 
         /// <summary>
         /// Grip Horizontal
@@ -6174,7 +7714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grip-horizontal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GripHorizontal => FA5.Light.GripHorizontal;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grip-horizontal")]
+        GripHorizontal,
 
         /// <summary>
         /// Grip Lines
@@ -6182,7 +7724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grip-lines - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GripLines => FA5.Light.GripLines;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grip-lines")]
+        GripLines,
 
         /// <summary>
         /// Grip Lines Vertical
@@ -6190,7 +7734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grip-lines-vertical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GripLinesVertical => FA5.Light.GripLinesVertical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grip-lines-vertical")]
+        GripLinesVertical,
 
         /// <summary>
         /// Grip Vertical
@@ -6198,7 +7744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// grip-vertical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GripVertical => FA5.Light.GripVertical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("grip-vertical")]
+        GripVertical,
 
         /// <summary>
         /// Guitar
@@ -6206,7 +7754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// guitar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Guitar => FA5.Light.Guitar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("guitar")]
+        Guitar,
 
         /// <summary>
         /// Guitar Electric
@@ -6214,7 +7764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// guitar-electric - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon GuitarElectric => FA5.Light.GuitarElectric;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("guitar-electric")]
+        GuitarElectric,
 
         /// <summary>
         /// Guitars
@@ -6222,7 +7774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// guitars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Guitars => FA5.Light.Guitars;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("guitars")]
+        Guitars,
 
         /// <summary>
         /// H Square
@@ -6230,7 +7784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// h-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HSquare => FA5.Light.HSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("h-square")]
+        HSquare,
 
         /// <summary>
         /// H 1 Heading
@@ -6238,7 +7794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// h1 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon H1 => FA5.Light.H1;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("h1")]
+        H1,
 
         /// <summary>
         /// H 2 Heading
@@ -6246,7 +7804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// h2 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon H2 => FA5.Light.H2;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("h2")]
+        H2,
 
         /// <summary>
         /// H 3 Heading
@@ -6254,7 +7814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// h3 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon H3 => FA5.Light.H3;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("h3")]
+        H3,
 
         /// <summary>
         /// H 4
@@ -6262,7 +7824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// h4 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon H4 => FA5.Light.H4;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("h4")]
+        H4,
 
         /// <summary>
         /// Hamburger
@@ -6270,7 +7834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hamburger - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hamburger => FA5.Light.Hamburger;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hamburger")]
+        Hamburger,
 
         /// <summary>
         /// Hammer
@@ -6278,7 +7844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hammer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hammer => FA5.Light.Hammer;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hammer")]
+        Hammer,
 
         /// <summary>
         /// Hammer War
@@ -6286,7 +7854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hammer-war - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HammerWar => FA5.Light.HammerWar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hammer-war")]
+        HammerWar,
 
         /// <summary>
         /// Hamsa
@@ -6294,7 +7864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hamsa - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hamsa => FA5.Light.Hamsa;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hamsa")]
+        Hamsa,
 
         /// <summary>
         /// Hand With Heart
@@ -6302,7 +7874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandHeart => FA5.Light.HandHeart;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-heart")]
+        HandHeart,
 
         /// <summary>
         /// Hand Holding
@@ -6310,7 +7884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-holding - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandHolding => FA5.Light.HandHolding;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-holding")]
+        HandHolding,
 
         /// <summary>
         /// Hand Holding Box
@@ -6318,7 +7894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-holding-box - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandHoldingBox => FA5.Light.HandHoldingBox;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-holding-box")]
+        HandHoldingBox,
 
         /// <summary>
         /// Hand Holding Heart
@@ -6326,7 +7904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-holding-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandHoldingHeart => FA5.Light.HandHoldingHeart;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-holding-heart")]
+        HandHoldingHeart,
 
         /// <summary>
         /// Hand Holding Magic
@@ -6334,7 +7914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-holding-magic - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandHoldingMagic => FA5.Light.HandHoldingMagic;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-holding-magic")]
+        HandHoldingMagic,
 
         /// <summary>
         /// Hand Holding Seedling
@@ -6342,7 +7924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-holding-seedling - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandHoldingSeedling => FA5.Light.HandHoldingSeedling;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-holding-seedling")]
+        HandHoldingSeedling,
 
         /// <summary>
         /// Hand Holding US Dollar
@@ -6350,7 +7934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-holding-usd - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandHoldingUsd => FA5.Light.HandHoldingUsd;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-holding-usd")]
+        HandHoldingUsd,
 
         /// <summary>
         /// Hand Holding Water
@@ -6358,7 +7944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-holding-water - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandHoldingWater => FA5.Light.HandHoldingWater;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-holding-water")]
+        HandHoldingWater,
 
         /// <summary>
         /// Lizard Hand
@@ -6366,7 +7954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-lizard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandLizard => FA5.Light.HandLizard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-lizard")]
+        HandLizard,
 
         /// <summary>
         /// Hand With Middle Finger Raised
@@ -6374,7 +7964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-middle-finger - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandMiddleFinger => FA5.Light.HandMiddleFinger;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-middle-finger")]
+        HandMiddleFinger,
 
         /// <summary>
         /// Paper Hand
@@ -6382,7 +7974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-paper - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandPaper => FA5.Light.HandPaper;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-paper")]
+        HandPaper,
 
         /// <summary>
         /// Peace Hand
@@ -6390,7 +7984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-peace - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandPeace => FA5.Light.HandPeace;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-peace")]
+        HandPeace,
 
         /// <summary>
         /// Hand Pointing Down
@@ -6398,7 +7994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-point-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandPointDown => FA5.Light.HandPointDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-point-down")]
+        HandPointDown,
 
         /// <summary>
         /// Hand Pointing Left
@@ -6406,7 +8004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-point-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandPointLeft => FA5.Light.HandPointLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-point-left")]
+        HandPointLeft,
 
         /// <summary>
         /// Hand Pointing Right
@@ -6414,7 +8014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-point-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandPointRight => FA5.Light.HandPointRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-point-right")]
+        HandPointRight,
 
         /// <summary>
         /// Hand Pointing Up
@@ -6422,7 +8024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-point-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandPointUp => FA5.Light.HandPointUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-point-up")]
+        HandPointUp,
 
         /// <summary>
         /// Pointer Hand
@@ -6430,7 +8034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-pointer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandPointer => FA5.Light.HandPointer;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-pointer")]
+        HandPointer,
 
         /// <summary>
         /// Hand Receiving
@@ -6438,7 +8044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-receiving - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandReceiving => FA5.Light.HandReceiving;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-receiving")]
+        HandReceiving,
 
         /// <summary>
         /// Rock Hand
@@ -6446,7 +8054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-rock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandRock => FA5.Light.HandRock;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-rock")]
+        HandRock,
 
         /// <summary>
         /// Scissors Hand
@@ -6454,7 +8064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-scissors - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandScissors => FA5.Light.HandScissors;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-scissors")]
+        HandScissors,
 
         /// <summary>
         /// Spock Hand
@@ -6462,7 +8074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hand-spock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandSpock => FA5.Light.HandSpock;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hand-spock")]
+        HandSpock,
 
         /// <summary>
         /// Hands
@@ -6470,7 +8084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hands - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hands => FA5.Light.Hands;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hands")]
+        Hands,
 
         /// <summary>
         /// Hands Heart
@@ -6478,7 +8094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hands-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandsHeart => FA5.Light.HandsHeart;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hands-heart")]
+        HandsHeart,
 
         /// <summary>
         /// Helping Hands
@@ -6486,7 +8104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hands-helping - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandsHelping => FA5.Light.HandsHelping;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hands-helping")]
+        HandsHelping,
 
         /// <summary>
         /// Hands With US Dollar
@@ -6494,7 +8114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hands-usd - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandsUsd => FA5.Light.HandsUsd;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hands-usd")]
+        HandsUsd,
 
         /// <summary>
         /// Handshake
@@ -6502,7 +8124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// handshake - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Handshake => FA5.Light.Handshake;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("handshake")]
+        Handshake,
 
         /// <summary>
         /// Alternate Handshake
@@ -6510,7 +8134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// handshake-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HandshakeAlt => FA5.Light.HandshakeAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("handshake-alt")]
+        HandshakeAlt,
 
         /// <summary>
         /// Hanukiah
@@ -6518,7 +8144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hanukiah - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hanukiah => FA5.Light.Hanukiah;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hanukiah")]
+        Hanukiah,
 
         /// <summary>
         /// Hard Hat
@@ -6526,7 +8154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hard-hat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HardHat => FA5.Light.HardHat;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hard-hat")]
+        HardHat,
 
         /// <summary>
         /// Hashtag
@@ -6534,7 +8164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hashtag - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hashtag => FA5.Light.Hashtag;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hashtag")]
+        Hashtag,
 
         /// <summary>
         /// Chef Hat
@@ -6542,7 +8174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hat-chef - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HatChef => FA5.Light.HatChef;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hat-chef")]
+        HatChef,
 
         /// <summary>
         /// Cowboy Hat
@@ -6550,7 +8184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hat-cowboy - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        public static Icon HatCowboy => FA5.Light.HatCowboy;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hat-cowboy")]
+        HatCowboy,
 
         /// <summary>
         /// Cowboy Hat Side
@@ -6558,7 +8194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hat-cowboy-side - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        public static Icon HatCowboySide => FA5.Light.HatCowboySide;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hat-cowboy-side")]
+        HatCowboySide,
 
         /// <summary>
         /// Santa S Hat
@@ -6566,7 +8204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hat-santa - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HatSanta => FA5.Light.HatSanta;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hat-santa")]
+        HatSanta,
 
         /// <summary>
         /// Hat Winter
@@ -6574,7 +8214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hat-winter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HatWinter => FA5.Light.HatWinter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hat-winter")]
+        HatWinter,
 
         /// <summary>
         /// Witch S Hat
@@ -6582,7 +8224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hat-witch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HatWitch => FA5.Light.HatWitch;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hat-witch")]
+        HatWitch,
 
         /// <summary>
         /// Wizard S Hat
@@ -6590,7 +8234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hat-wizard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HatWizard => FA5.Light.HatWizard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hat-wizard")]
+        HatWizard,
 
         /// <summary>
         /// HDD
@@ -6598,7 +8244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hdd - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hdd => FA5.Light.Hdd;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hdd")]
+        Hdd,
 
         /// <summary>
         /// Head Side
@@ -6606,7 +8254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// head-side - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HeadSide => FA5.Light.HeadSide;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("head-side")]
+        HeadSide,
 
         /// <summary>
         /// Head Side With Brain
@@ -6614,7 +8264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// head-side-brain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HeadSideBrain => FA5.Light.HeadSideBrain;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("head-side-brain")]
+        HeadSideBrain,
 
         /// <summary>
         /// Head Side With Headphones
@@ -6622,7 +8274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// head-side-headphones - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HeadSideHeadphones => FA5.Light.HeadSideHeadphones;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("head-side-headphones")]
+        HeadSideHeadphones,
 
         /// <summary>
         /// Head Side With Medical Symbol
@@ -6630,7 +8284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// head-side-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HeadSideMedical => FA5.Light.HeadSideMedical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("head-side-medical")]
+        HeadSideMedical,
 
         /// <summary>
         /// Head VR
@@ -6638,7 +8294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// head-vr - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HeadVr => FA5.Light.HeadVr;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("head-vr")]
+        HeadVr,
 
         /// <summary>
         /// Heading
@@ -6646,7 +8304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// heading - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Heading => FA5.Light.Heading;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("heading")]
+        Heading,
 
         /// <summary>
         /// Headphones
@@ -6654,7 +8314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// headphones - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Headphones => FA5.Light.Headphones;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("headphones")]
+        Headphones,
 
         /// <summary>
         /// Alternate Headphones
@@ -6662,7 +8324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// headphones-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HeadphonesAlt => FA5.Light.HeadphonesAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("headphones-alt")]
+        HeadphonesAlt,
 
         /// <summary>
         /// Headset
@@ -6670,7 +8334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// headset - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Headset => FA5.Light.Headset;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("headset")]
+        Headset,
 
         /// <summary>
         /// Heart
@@ -6678,7 +8344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Heart => FA5.Light.Heart;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("heart")]
+        Heart,
 
         /// <summary>
         /// Heart Broken
@@ -6686,7 +8354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// heart-broken - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HeartBroken => FA5.Light.HeartBroken;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("heart-broken")]
+        HeartBroken,
 
         /// <summary>
         /// Heart Circle
@@ -6694,7 +8364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// heart-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HeartCircle => FA5.Light.HeartCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("heart-circle")]
+        HeartCircle,
 
         /// <summary>
         /// Heart Rate
@@ -6702,7 +8374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// heart-rate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HeartRate => FA5.Light.HeartRate;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("heart-rate")]
+        HeartRate,
 
         /// <summary>
         /// Heart Square
@@ -6710,7 +8384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// heart-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HeartSquare => FA5.Light.HeartSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("heart-square")]
+        HeartSquare,
 
         /// <summary>
         /// Heartbeat
@@ -6718,7 +8394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// heartbeat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Heartbeat => FA5.Light.Heartbeat;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("heartbeat")]
+        Heartbeat,
 
         /// <summary>
         /// Heat
@@ -6726,7 +8404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// heat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Heat => FA5.Light.Heat;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("heat")]
+        Heat,
 
         /// <summary>
         /// Helicopter
@@ -6734,7 +8414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// helicopter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Helicopter => FA5.Light.Helicopter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("helicopter")]
+        Helicopter,
 
         /// <summary>
         /// Battle Helmet
@@ -6742,7 +8424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// helmet-battle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HelmetBattle => FA5.Light.HelmetBattle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("helmet-battle")]
+        HelmetBattle,
 
         /// <summary>
         /// Hexagon
@@ -6750,7 +8434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hexagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hexagon => FA5.Light.Hexagon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hexagon")]
+        Hexagon,
 
         /// <summary>
         /// Highlighter
@@ -6758,7 +8444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// highlighter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Highlighter => FA5.Light.Highlighter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("highlighter")]
+        Highlighter,
 
         /// <summary>
         /// Hiking
@@ -6766,7 +8454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hiking - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hiking => FA5.Light.Hiking;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hiking")]
+        Hiking,
 
         /// <summary>
         /// Hippo
@@ -6774,7 +8464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hippo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hippo => FA5.Light.Hippo;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hippo")]
+        Hippo,
 
         /// <summary>
         /// History
@@ -6782,7 +8474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// history - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon History => FA5.Light.History;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("history")]
+        History,
 
         /// <summary>
         /// Hockey Mask
@@ -6790,7 +8484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hockey-mask - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HockeyMask => FA5.Light.HockeyMask;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hockey-mask")]
+        HockeyMask,
 
         /// <summary>
         /// Hockey Puck
@@ -6798,7 +8494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hockey-puck - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HockeyPuck => FA5.Light.HockeyPuck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hockey-puck")]
+        HockeyPuck,
 
         /// <summary>
         /// Hockey Sticks
@@ -6806,7 +8504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hockey-sticks - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HockeySticks => FA5.Light.HockeySticks;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hockey-sticks")]
+        HockeySticks,
 
         /// <summary>
         /// Holly Berry
@@ -6814,7 +8514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// holly-berry - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HollyBerry => FA5.Light.HollyBerry;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("holly-berry")]
+        HollyBerry,
 
         /// <summary>
         /// Home
@@ -6822,7 +8524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// home - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Home => FA5.Light.Home;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("home")]
+        Home,
 
         /// <summary>
         /// Alternate Home
@@ -6830,7 +8534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// home-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HomeAlt => FA5.Light.HomeAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("home-alt")]
+        HomeAlt,
 
         /// <summary>
         /// Home Heart
@@ -6838,7 +8544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// home-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HomeHeart => FA5.Light.HomeHeart;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("home-heart")]
+        HomeHeart,
 
         /// <summary>
         /// Home Large
@@ -6846,7 +8554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// home-lg - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HomeLg => FA5.Light.HomeLg;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("home-lg")]
+        HomeLg,
 
         /// <summary>
         /// Alternative Home Large
@@ -6854,7 +8564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// home-lg-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HomeLgAlt => FA5.Light.HomeLgAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("home-lg-alt")]
+        HomeLgAlt,
 
         /// <summary>
         /// Hood Cloak
@@ -6862,7 +8574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hood-cloak - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HoodCloak => FA5.Light.HoodCloak;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hood-cloak")]
+        HoodCloak,
 
         /// <summary>
         /// Horizontal Rule
@@ -6870,7 +8584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// horizontal-rule - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HorizontalRule => FA5.Light.HorizontalRule;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("horizontal-rule")]
+        HorizontalRule,
 
         /// <summary>
         /// Horse
@@ -6878,7 +8594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// horse - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Horse => FA5.Light.Horse;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("horse")]
+        Horse,
 
         /// <summary>
         /// Horse Head
@@ -6886,7 +8604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// horse-head - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HorseHead => FA5.Light.HorseHead;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("horse-head")]
+        HorseHead,
 
         /// <summary>
         /// Horse Saddle
@@ -6894,7 +8614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// horse-saddle - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        public static Icon HorseSaddle => FA5.Light.HorseSaddle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("horse-saddle")]
+        HorseSaddle,
 
         /// <summary>
         /// Hospital
@@ -6902,7 +8624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hospital - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hospital => FA5.Light.Hospital;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hospital")]
+        Hospital,
 
         /// <summary>
         /// Alternate Hospital
@@ -6910,7 +8634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hospital-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HospitalAlt => FA5.Light.HospitalAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hospital-alt")]
+        HospitalAlt,
 
         /// <summary>
         /// Hospital Symbol
@@ -6918,7 +8644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hospital-symbol - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HospitalSymbol => FA5.Light.HospitalSymbol;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hospital-symbol")]
+        HospitalSymbol,
 
         /// <summary>
         /// Hospital With User
@@ -6926,7 +8654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hospital-user - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HospitalUser => FA5.Light.HospitalUser;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hospital-user")]
+        HospitalUser,
 
         /// <summary>
         /// Hospitals
@@ -6934,7 +8664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hospitals - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hospitals => FA5.Light.Hospitals;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hospitals")]
+        Hospitals,
 
         /// <summary>
         /// Hot Tub
@@ -6942,7 +8674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hot-tub - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HotTub => FA5.Light.HotTub;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hot-tub")]
+        HotTub,
 
         /// <summary>
         /// Hot Dog
@@ -6950,7 +8684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hotdog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hotdog => FA5.Light.Hotdog;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hotdog")]
+        Hotdog,
 
         /// <summary>
         /// Hotel
@@ -6958,7 +8694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hotel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hotel => FA5.Light.Hotel;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hotel")]
+        Hotel,
 
         /// <summary>
         /// Hourglass
@@ -6966,7 +8704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hourglass - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hourglass => FA5.Light.Hourglass;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hourglass")]
+        Hourglass,
 
         /// <summary>
         /// Hourglass End
@@ -6974,7 +8714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hourglass-end - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HourglassEnd => FA5.Light.HourglassEnd;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hourglass-end")]
+        HourglassEnd,
 
         /// <summary>
         /// Hourglass Half
@@ -6982,7 +8724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hourglass-half - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HourglassHalf => FA5.Light.HourglassHalf;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hourglass-half")]
+        HourglassHalf,
 
         /// <summary>
         /// Hourglass Start
@@ -6990,7 +8734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hourglass-start - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HourglassStart => FA5.Light.HourglassStart;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hourglass-start")]
+        HourglassStart,
 
         /// <summary>
         /// House
@@ -6998,7 +8744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// house - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon House => FA5.Light.House;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("house")]
+        House,
 
         /// <summary>
         /// Damaged House
@@ -7006,7 +8754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// house-damage - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HouseDamage => FA5.Light.HouseDamage;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("house-damage")]
+        HouseDamage,
 
         /// <summary>
         /// House Day
@@ -7014,7 +8764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// house-day - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HouseDay => FA5.Light.HouseDay;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("house-day")]
+        HouseDay,
 
         /// <summary>
         /// Flooded House
@@ -7022,7 +8774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// house-flood - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HouseFlood => FA5.Light.HouseFlood;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("house-flood")]
+        HouseFlood,
 
         /// <summary>
         /// House Leave
@@ -7030,7 +8784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// house-leave - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HouseLeave => FA5.Light.HouseLeave;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("house-leave")]
+        HouseLeave,
 
         /// <summary>
         /// House Night
@@ -7038,7 +8794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// house-night - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HouseNight => FA5.Light.HouseNight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("house-night")]
+        HouseNight,
 
         /// <summary>
         /// House Return
@@ -7046,7 +8804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// house-return - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HouseReturn => FA5.Light.HouseReturn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("house-return")]
+        HouseReturn,
 
         /// <summary>
         /// House Signal
@@ -7054,7 +8814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// house-signal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon HouseSignal => FA5.Light.HouseSignal;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("house-signal")]
+        HouseSignal,
 
         /// <summary>
         /// Hryvnia
@@ -7062,7 +8824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hryvnia - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hryvnia => FA5.Light.Hryvnia;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hryvnia")]
+        Hryvnia,
 
         /// <summary>
         /// Humidity
@@ -7070,7 +8834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// humidity - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Humidity => FA5.Light.Humidity;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("humidity")]
+        Humidity,
 
         /// <summary>
         /// Hurricane
@@ -7078,7 +8844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// hurricane - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Hurricane => FA5.Light.Hurricane;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("hurricane")]
+        Hurricane,
 
         /// <summary>
         /// I Beam Cursor
@@ -7086,7 +8854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// i-cursor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ICursor => FA5.Light.ICursor;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("i-cursor")]
+        ICursor,
 
         /// <summary>
         /// Ice Cream
@@ -7094,7 +8864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ice-cream - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon IceCream => FA5.Light.IceCream;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ice-cream")]
+        IceCream,
 
         /// <summary>
         /// Ice Skate
@@ -7102,7 +8874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ice-skate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon IceSkate => FA5.Light.IceSkate;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ice-skate")]
+        IceSkate,
 
         /// <summary>
         /// Icicles
@@ -7110,7 +8884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// icicles - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Icicles => FA5.Light.Icicles;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("icicles")]
+        Icicles,
 
         /// <summary>
         /// Icons
@@ -7118,7 +8894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// icons - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Icons => FA5.Light.Icons;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("icons")]
+        Icons,
 
         /// <summary>
         /// Alternate Icons
@@ -7126,7 +8904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// icons-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon IconsAlt => FA5.Light.IconsAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("icons-alt")]
+        IconsAlt,
 
         /// <summary>
         /// Identification Badge
@@ -7134,7 +8914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// id-badge - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon IdBadge => FA5.Light.IdBadge;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("id-badge")]
+        IdBadge,
 
         /// <summary>
         /// Identification Card
@@ -7142,7 +8924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// id-card - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon IdCard => FA5.Light.IdCard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("id-card")]
+        IdCard,
 
         /// <summary>
         /// Alternate Identification Card
@@ -7150,7 +8934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// id-card-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon IdCardAlt => FA5.Light.IdCardAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("id-card-alt")]
+        IdCardAlt,
 
         /// <summary>
         /// Igloo
@@ -7158,7 +8944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// igloo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Igloo => FA5.Light.Igloo;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("igloo")]
+        Igloo,
 
         /// <summary>
         /// Image
@@ -7166,7 +8954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// image - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Image => FA5.Light.Image;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("image")]
+        Image,
 
         /// <summary>
         /// Polaroid Image
@@ -7174,7 +8964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// image-polaroid - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ImagePolaroid => FA5.Light.ImagePolaroid;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("image-polaroid")]
+        ImagePolaroid,
 
         /// <summary>
         /// Images
@@ -7182,7 +8974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// images - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Images => FA5.Light.Images;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("images")]
+        Images,
 
         /// <summary>
         /// Inbox
@@ -7190,7 +8984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// inbox - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Inbox => FA5.Light.Inbox;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("inbox")]
+        Inbox,
 
         /// <summary>
         /// Inbox In
@@ -7198,7 +8994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// inbox-in - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon InboxIn => FA5.Light.InboxIn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("inbox-in")]
+        InboxIn,
 
         /// <summary>
         /// Inbox Out
@@ -7206,7 +9004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// inbox-out - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon InboxOut => FA5.Light.InboxOut;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("inbox-out")]
+        InboxOut,
 
         /// <summary>
         /// Indent
@@ -7214,7 +9014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// indent - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Indent => FA5.Light.Indent;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("indent")]
+        Indent,
 
         /// <summary>
         /// Industry
@@ -7222,7 +9024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// industry - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Industry => FA5.Light.Industry;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("industry")]
+        Industry,
 
         /// <summary>
         /// Alternate Industry
@@ -7230,7 +9034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// industry-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon IndustryAlt => FA5.Light.IndustryAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("industry-alt")]
+        IndustryAlt,
 
         /// <summary>
         /// Infinity
@@ -7238,7 +9044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// infinity - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Infinity => FA5.Light.Infinity;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("infinity")]
+        Infinity,
 
         /// <summary>
         /// Info
@@ -7246,7 +9054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// info - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Info => FA5.Light.Info;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("info")]
+        Info,
 
         /// <summary>
         /// Info Circle
@@ -7254,7 +9064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// info-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon InfoCircle => FA5.Light.InfoCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("info-circle")]
+        InfoCircle,
 
         /// <summary>
         /// Info Square
@@ -7262,7 +9074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// info-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon InfoSquare => FA5.Light.InfoSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("info-square")]
+        InfoSquare,
 
         /// <summary>
         /// Inhaler
@@ -7270,7 +9084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// inhaler - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Inhaler => FA5.Light.Inhaler;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("inhaler")]
+        Inhaler,
 
         /// <summary>
         /// Integral
@@ -7278,7 +9094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// integral - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Integral => FA5.Light.Integral;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("integral")]
+        Integral,
 
         /// <summary>
         /// Intersection
@@ -7286,7 +9104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// intersection - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Intersection => FA5.Light.Intersection;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("intersection")]
+        Intersection,
 
         /// <summary>
         /// Inventory
@@ -7294,7 +9114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// inventory - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Inventory => FA5.Light.Inventory;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("inventory")]
+        Inventory,
 
         /// <summary>
         /// Tropical Island
@@ -7302,7 +9124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// island-tropical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon IslandTropical => FA5.Light.IslandTropical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("island-tropical")]
+        IslandTropical,
 
         /// <summary>
         /// Italic
@@ -7310,7 +9134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// italic - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Italic => FA5.Light.Italic;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("italic")]
+        Italic,
 
         /// <summary>
         /// Jack O' Lantern
@@ -7318,7 +9144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// jack-o-lantern - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon JackOLantern => FA5.Light.JackOLantern;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("jack-o-lantern")]
+        JackOLantern,
 
         /// <summary>
         /// Jedi
@@ -7326,7 +9154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// jedi - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Jedi => FA5.Light.Jedi;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("jedi")]
+        Jedi,
 
         /// <summary>
         /// Joint
@@ -7334,7 +9164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// joint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Joint => FA5.Light.Joint;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("joint")]
+        Joint,
 
         /// <summary>
         /// Journal Of The Whills
@@ -7342,7 +9174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// journal-whills - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon JournalWhills => FA5.Light.JournalWhills;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("journal-whills")]
+        JournalWhills,
 
         /// <summary>
         /// Joystick
@@ -7350,7 +9184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// joystick - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Joystick => FA5.Light.Joystick;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("joystick")]
+        Joystick,
 
         /// <summary>
         /// Jug
@@ -7358,7 +9194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// jug - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        public static Icon Jug => FA5.Light.Jug;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("jug")]
+        Jug,
 
         /// <summary>
         /// Kaaba
@@ -7366,7 +9204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// kaaba - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Kaaba => FA5.Light.Kaaba;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("kaaba")]
+        Kaaba,
 
         /// <summary>
         /// Kazoo
@@ -7374,7 +9214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// kazoo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Kazoo => FA5.Light.Kazoo;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("kazoo")]
+        Kazoo,
 
         /// <summary>
         /// Kerning
@@ -7382,7 +9224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// kerning - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Kerning => FA5.Light.Kerning;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("kerning")]
+        Kerning,
 
         /// <summary>
         /// Key
@@ -7390,7 +9234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// key - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Key => FA5.Light.Key;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("key")]
+        Key,
 
         /// <summary>
         /// Key Skeleton
@@ -7398,7 +9244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// key-skeleton - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon KeySkeleton => FA5.Light.KeySkeleton;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("key-skeleton")]
+        KeySkeleton,
 
         /// <summary>
         /// Keyboard
@@ -7406,7 +9254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// keyboard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Keyboard => FA5.Light.Keyboard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("keyboard")]
+        Keyboard,
 
         /// <summary>
         /// Keynote
@@ -7414,7 +9264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// keynote - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Keynote => FA5.Light.Keynote;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("keynote")]
+        Keynote,
 
         /// <summary>
         /// Khanda
@@ -7422,7 +9274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// khanda - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Khanda => FA5.Light.Khanda;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("khanda")]
+        Khanda,
 
         /// <summary>
         /// Kidneys
@@ -7430,7 +9284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// kidneys - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Kidneys => FA5.Light.Kidneys;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("kidneys")]
+        Kidneys,
 
         /// <summary>
         /// Kissing Face
@@ -7438,7 +9294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// kiss - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Kiss => FA5.Light.Kiss;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("kiss")]
+        Kiss,
 
         /// <summary>
         /// Kissing Face With Smiling Eyes
@@ -7446,7 +9304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// kiss-beam - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon KissBeam => FA5.Light.KissBeam;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("kiss-beam")]
+        KissBeam,
 
         /// <summary>
         /// Face Blowing A Kiss
@@ -7454,7 +9314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// kiss-wink-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon KissWinkHeart => FA5.Light.KissWinkHeart;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("kiss-wink-heart")]
+        KissWinkHeart,
 
         /// <summary>
         /// Kite
@@ -7462,7 +9324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// kite - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Kite => FA5.Light.Kite;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("kite")]
+        Kite,
 
         /// <summary>
         /// Kiwi Bird
@@ -7470,7 +9334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// kiwi-bird - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon KiwiBird => FA5.Light.KiwiBird;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("kiwi-bird")]
+        KiwiBird,
 
         /// <summary>
         /// Knife Kitchen
@@ -7478,7 +9344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// knife-kitchen - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon KnifeKitchen => FA5.Light.KnifeKitchen;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("knife-kitchen")]
+        KnifeKitchen,
 
         /// <summary>
         /// Lambda
@@ -7486,7 +9354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lambda - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Lambda => FA5.Light.Lambda;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lambda")]
+        Lambda,
 
         /// <summary>
         /// Lamp
@@ -7494,7 +9364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lamp - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Lamp => FA5.Light.Lamp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lamp")]
+        Lamp,
 
         /// <summary>
         /// Lamp Desk
@@ -7502,7 +9374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lamp-desk - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LampDesk => FA5.Light.LampDesk;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lamp-desk")]
+        LampDesk,
 
         /// <summary>
         /// Lamp Floor
@@ -7510,7 +9384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lamp-floor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LampFloor => FA5.Light.LampFloor;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lamp-floor")]
+        LampFloor,
 
         /// <summary>
         /// Landmark
@@ -7518,7 +9394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// landmark - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Landmark => FA5.Light.Landmark;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("landmark")]
+        Landmark,
 
         /// <summary>
         /// Alternative Landmark
@@ -7526,7 +9404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// landmark-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LandmarkAlt => FA5.Light.LandmarkAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("landmark-alt")]
+        LandmarkAlt,
 
         /// <summary>
         /// Language
@@ -7534,7 +9414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// language - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Language => FA5.Light.Language;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("language")]
+        Language,
 
         /// <summary>
         /// Laptop
@@ -7542,7 +9424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// laptop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Laptop => FA5.Light.Laptop;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("laptop")]
+        Laptop,
 
         /// <summary>
         /// Laptop Code
@@ -7550,7 +9434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// laptop-code - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LaptopCode => FA5.Light.LaptopCode;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("laptop-code")]
+        LaptopCode,
 
         /// <summary>
         /// Laptop Medical
@@ -7558,7 +9444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// laptop-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LaptopMedical => FA5.Light.LaptopMedical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("laptop-medical")]
+        LaptopMedical,
 
         /// <summary>
         /// Lasso
@@ -7566,7 +9454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lasso - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        public static Icon Lasso => FA5.Light.Lasso;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lasso")]
+        Lasso,
 
         /// <summary>
         /// Grinning Face With Big Eyes
@@ -7574,7 +9464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// laugh - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Laugh => FA5.Light.Laugh;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("laugh")]
+        Laugh,
 
         /// <summary>
         /// Laugh Face With Beaming Eyes
@@ -7582,7 +9474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// laugh-beam - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LaughBeam => FA5.Light.LaughBeam;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("laugh-beam")]
+        LaughBeam,
 
         /// <summary>
         /// Laughing Squinting Face
@@ -7590,7 +9484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// laugh-squint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LaughSquint => FA5.Light.LaughSquint;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("laugh-squint")]
+        LaughSquint,
 
         /// <summary>
         /// Laughing Winking Face
@@ -7598,7 +9494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// laugh-wink - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LaughWink => FA5.Light.LaughWink;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("laugh-wink")]
+        LaughWink,
 
         /// <summary>
         /// Layer Group
@@ -7606,7 +9504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// layer-group - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LayerGroup => FA5.Light.LayerGroup;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("layer-group")]
+        LayerGroup,
 
         /// <summary>
         /// Layer Minus
@@ -7614,7 +9514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// layer-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LayerMinus => FA5.Light.LayerMinus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("layer-minus")]
+        LayerMinus,
 
         /// <summary>
         /// Layer Plus
@@ -7622,7 +9524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// layer-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LayerPlus => FA5.Light.LayerPlus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("layer-plus")]
+        LayerPlus,
 
         /// <summary>
         /// Leaf
@@ -7630,7 +9534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// leaf - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Leaf => FA5.Light.Leaf;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("leaf")]
+        Leaf,
 
         /// <summary>
         /// Leaf With A Heart
@@ -7638,7 +9544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// leaf-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LeafHeart => FA5.Light.LeafHeart;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("leaf-heart")]
+        LeafHeart,
 
         /// <summary>
         /// Maple Leaf
@@ -7646,7 +9554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// leaf-maple - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LeafMaple => FA5.Light.LeafMaple;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("leaf-maple")]
+        LeafMaple,
 
         /// <summary>
         /// Oak Leaf
@@ -7654,7 +9564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// leaf-oak - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LeafOak => FA5.Light.LeafOak;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("leaf-oak")]
+        LeafOak,
 
         /// <summary>
         /// Lemon
@@ -7662,7 +9574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lemon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Lemon => FA5.Light.Lemon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lemon")]
+        Lemon,
 
         /// <summary>
         /// Less Than
@@ -7670,7 +9584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// less-than - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LessThan => FA5.Light.LessThan;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("less-than")]
+        LessThan,
 
         /// <summary>
         /// Less Than Equal To
@@ -7678,7 +9594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// less-than-equal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LessThanEqual => FA5.Light.LessThanEqual;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("less-than-equal")]
+        LessThanEqual,
 
         /// <summary>
         /// Level Down
@@ -7686,7 +9604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// level-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LevelDown => FA5.Light.LevelDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("level-down")]
+        LevelDown,
 
         /// <summary>
         /// Alternate Level Down
@@ -7694,7 +9614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// level-down-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LevelDownAlt => FA5.Light.LevelDownAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("level-down-alt")]
+        LevelDownAlt,
 
         /// <summary>
         /// Level Up
@@ -7702,7 +9624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// level-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LevelUp => FA5.Light.LevelUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("level-up")]
+        LevelUp,
 
         /// <summary>
         /// Alternate Level Up
@@ -7710,7 +9634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// level-up-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LevelUpAlt => FA5.Light.LevelUpAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("level-up-alt")]
+        LevelUpAlt,
 
         /// <summary>
         /// Life Ring
@@ -7718,7 +9644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// life-ring - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LifeRing => FA5.Light.LifeRing;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("life-ring")]
+        LifeRing,
 
         /// <summary>
         /// Light Ceiling
@@ -7726,7 +9654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// light-ceiling - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LightCeiling => FA5.Light.LightCeiling;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("light-ceiling")]
+        LightCeiling,
 
         /// <summary>
         /// Light Switch
@@ -7734,7 +9664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// light-switch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LightSwitch => FA5.Light.LightSwitch;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("light-switch")]
+        LightSwitch,
 
         /// <summary>
         /// Light Switch Off
@@ -7742,7 +9674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// light-switch-off - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LightSwitchOff => FA5.Light.LightSwitchOff;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("light-switch-off")]
+        LightSwitchOff,
 
         /// <summary>
         /// Light Switch On
@@ -7750,7 +9684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// light-switch-on - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LightSwitchOn => FA5.Light.LightSwitchOn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("light-switch-on")]
+        LightSwitchOn,
 
         /// <summary>
         /// Lightbulb
@@ -7758,7 +9694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lightbulb - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Lightbulb => FA5.Light.Lightbulb;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lightbulb")]
+        Lightbulb,
 
         /// <summary>
         /// Lightbulb Dollar
@@ -7766,7 +9704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lightbulb-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LightbulbDollar => FA5.Light.LightbulbDollar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lightbulb-dollar")]
+        LightbulbDollar,
 
         /// <summary>
         /// Lightbulb Exclamation
@@ -7774,7 +9714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lightbulb-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LightbulbExclamation => FA5.Light.LightbulbExclamation;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lightbulb-exclamation")]
+        LightbulbExclamation,
 
         /// <summary>
         /// Lightbulb On
@@ -7782,7 +9724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lightbulb-on - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LightbulbOn => FA5.Light.LightbulbOn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lightbulb-on")]
+        LightbulbOn,
 
         /// <summary>
         /// Lightbulb Slash
@@ -7790,7 +9734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lightbulb-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LightbulbSlash => FA5.Light.LightbulbSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lightbulb-slash")]
+        LightbulbSlash,
 
         /// <summary>
         /// Holiday Lights
@@ -7798,7 +9744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lights-holiday - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LightsHoliday => FA5.Light.LightsHoliday;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lights-holiday")]
+        LightsHoliday,
 
         /// <summary>
         /// Line Columns
@@ -7806,7 +9754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// line-columns - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LineColumns => FA5.Light.LineColumns;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("line-columns")]
+        LineColumns,
 
         /// <summary>
         /// Line Height
@@ -7814,7 +9764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// line-height - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LineHeight => FA5.Light.LineHeight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("line-height")]
+        LineHeight,
 
         /// <summary>
         /// Link
@@ -7822,7 +9774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// link - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Link => FA5.Light.Link;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("link")]
+        Link,
 
         /// <summary>
         /// Lips
@@ -7830,7 +9784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lips - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Lips => FA5.Light.Lips;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lips")]
+        Lips,
 
         /// <summary>
         /// Turkish Lira Sign
@@ -7838,7 +9794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lira-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LiraSign => FA5.Light.LiraSign;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lira-sign")]
+        LiraSign,
 
         /// <summary>
         /// List
@@ -7846,7 +9804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// list - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon List => FA5.Light.List;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("list")]
+        List,
 
         /// <summary>
         /// Alternate List
@@ -7854,7 +9814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// list-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ListAlt => FA5.Light.ListAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("list-alt")]
+        ListAlt,
 
         /// <summary>
         /// List Music
@@ -7862,7 +9824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// list-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ListMusic => FA5.Light.ListMusic;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("list-music")]
+        ListMusic,
 
         /// <summary>
         /// List Ol
@@ -7870,7 +9834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// list-ol - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ListOl => FA5.Light.ListOl;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("list-ol")]
+        ListOl,
 
         /// <summary>
         /// List Ul
@@ -7878,7 +9844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// list-ul - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ListUl => FA5.Light.ListUl;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("list-ul")]
+        ListUl,
 
         /// <summary>
         /// Location
@@ -7886,7 +9854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// location - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Location => FA5.Light.Location;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("location")]
+        Location,
 
         /// <summary>
         /// Location Arrow
@@ -7894,7 +9864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// location-arrow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LocationArrow => FA5.Light.LocationArrow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("location-arrow")]
+        LocationArrow,
 
         /// <summary>
         /// Location Circle
@@ -7902,7 +9874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// location-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LocationCircle => FA5.Light.LocationCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("location-circle")]
+        LocationCircle,
 
         /// <summary>
         /// Location Slash
@@ -7910,7 +9884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// location-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LocationSlash => FA5.Light.LocationSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("location-slash")]
+        LocationSlash,
 
         /// <summary>
         /// Lock
@@ -7918,7 +9894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Lock => FA5.Light.Lock;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lock")]
+        Lock,
 
         /// <summary>
         /// Alternate Lock
@@ -7926,7 +9904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lock-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LockAlt => FA5.Light.LockAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lock-alt")]
+        LockAlt,
 
         /// <summary>
         /// Lock Open
@@ -7934,7 +9914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lock-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LockOpen => FA5.Light.LockOpen;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lock-open")]
+        LockOpen,
 
         /// <summary>
         /// Alternate Lock Open
@@ -7942,7 +9924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lock-open-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LockOpenAlt => FA5.Light.LockOpenAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lock-open-alt")]
+        LockOpenAlt,
 
         /// <summary>
         /// Alternate Long Arrow Down
@@ -7950,7 +9934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// long-arrow-alt-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LongArrowAltDown => FA5.Light.LongArrowAltDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("long-arrow-alt-down")]
+        LongArrowAltDown,
 
         /// <summary>
         /// Alternate Long Arrow Left
@@ -7958,7 +9944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// long-arrow-alt-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LongArrowAltLeft => FA5.Light.LongArrowAltLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("long-arrow-alt-left")]
+        LongArrowAltLeft,
 
         /// <summary>
         /// Alternate Long Arrow Right
@@ -7966,7 +9954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// long-arrow-alt-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LongArrowAltRight => FA5.Light.LongArrowAltRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("long-arrow-alt-right")]
+        LongArrowAltRight,
 
         /// <summary>
         /// Alternate Long Arrow Up
@@ -7974,7 +9964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// long-arrow-alt-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LongArrowAltUp => FA5.Light.LongArrowAltUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("long-arrow-alt-up")]
+        LongArrowAltUp,
 
         /// <summary>
         /// Long Arrow Down
@@ -7982,7 +9974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// long-arrow-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LongArrowDown => FA5.Light.LongArrowDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("long-arrow-down")]
+        LongArrowDown,
 
         /// <summary>
         /// Long Arrow Left
@@ -7990,7 +9984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// long-arrow-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LongArrowLeft => FA5.Light.LongArrowLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("long-arrow-left")]
+        LongArrowLeft,
 
         /// <summary>
         /// Long Arrow Right
@@ -7998,7 +9994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// long-arrow-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LongArrowRight => FA5.Light.LongArrowRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("long-arrow-right")]
+        LongArrowRight,
 
         /// <summary>
         /// Long Arrow Up
@@ -8006,7 +10004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// long-arrow-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LongArrowUp => FA5.Light.LongArrowUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("long-arrow-up")]
+        LongArrowUp,
 
         /// <summary>
         /// Loveseat
@@ -8014,7 +10014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// loveseat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Loveseat => FA5.Light.Loveseat;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("loveseat")]
+        Loveseat,
 
         /// <summary>
         /// Low Vision
@@ -8022,7 +10024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// low-vision - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LowVision => FA5.Light.LowVision;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("low-vision")]
+        LowVision,
 
         /// <summary>
         /// Luchador
@@ -8030,7 +10034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// luchador - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Luchador => FA5.Light.Luchador;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("luchador")]
+        Luchador,
 
         /// <summary>
         /// Luggage Cart
@@ -8038,7 +10044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// luggage-cart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon LuggageCart => FA5.Light.LuggageCart;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("luggage-cart")]
+        LuggageCart,
 
         /// <summary>
         /// Lungs
@@ -8046,7 +10054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// lungs - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Lungs => FA5.Light.Lungs;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("lungs")]
+        Lungs,
 
         /// <summary>
         /// Mace
@@ -8054,7 +10064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mace - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Mace => FA5.Light.Mace;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mace")]
+        Mace,
 
         /// <summary>
         /// Magic
@@ -8062,7 +10074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// magic - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Magic => FA5.Light.Magic;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("magic")]
+        Magic,
 
         /// <summary>
         /// Magnet
@@ -8070,7 +10084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// magnet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Magnet => FA5.Light.Magnet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("magnet")]
+        Magnet,
 
         /// <summary>
         /// Mail Bulk
@@ -8078,7 +10094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mail-bulk - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MailBulk => FA5.Light.MailBulk;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mail-bulk")]
+        MailBulk,
 
         /// <summary>
         /// Mailbox
@@ -8086,7 +10104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mailbox - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Mailbox => FA5.Light.Mailbox;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mailbox")]
+        Mailbox,
 
         /// <summary>
         /// Male
@@ -8094,7 +10114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// male - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Male => FA5.Light.Male;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("male")]
+        Male,
 
         /// <summary>
         /// Mandolin
@@ -8102,7 +10124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mandolin - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Mandolin => FA5.Light.Mandolin;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mandolin")]
+        Mandolin,
 
         /// <summary>
         /// Map
@@ -8110,7 +10134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Map => FA5.Light.Map;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map")]
+        Map,
 
         /// <summary>
         /// Map Marked
@@ -8118,7 +10144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-marked - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapMarked => FA5.Light.MapMarked;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-marked")]
+        MapMarked,
 
         /// <summary>
         /// Alternate Map Marked
@@ -8126,7 +10154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-marked-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapMarkedAlt => FA5.Light.MapMarkedAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-marked-alt")]
+        MapMarkedAlt,
 
         /// <summary>
         /// Map Marker
@@ -8134,7 +10164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-marker - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapMarker => FA5.Light.MapMarker;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-marker")]
+        MapMarker,
 
         /// <summary>
         /// Alternate Map Marker
@@ -8142,7 +10174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-marker-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapMarkerAlt => FA5.Light.MapMarkerAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-marker-alt")]
+        MapMarkerAlt,
 
         /// <summary>
         /// Alternate Map Marker Slash
@@ -8150,7 +10184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-marker-alt-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapMarkerAltSlash => FA5.Light.MapMarkerAltSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-marker-alt-slash")]
+        MapMarkerAltSlash,
 
         /// <summary>
         /// Map Marker Check
@@ -8158,7 +10194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-marker-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapMarkerCheck => FA5.Light.MapMarkerCheck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-marker-check")]
+        MapMarkerCheck,
 
         /// <summary>
         /// Map Marker Edit
@@ -8166,7 +10204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-marker-edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapMarkerEdit => FA5.Light.MapMarkerEdit;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-marker-edit")]
+        MapMarkerEdit,
 
         /// <summary>
         /// Map Marker Exclamation
@@ -8174,7 +10214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-marker-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapMarkerExclamation => FA5.Light.MapMarkerExclamation;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-marker-exclamation")]
+        MapMarkerExclamation,
 
         /// <summary>
         /// Map Marker Minus
@@ -8182,7 +10224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-marker-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapMarkerMinus => FA5.Light.MapMarkerMinus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-marker-minus")]
+        MapMarkerMinus,
 
         /// <summary>
         /// Map Marker Plus
@@ -8190,7 +10234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-marker-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapMarkerPlus => FA5.Light.MapMarkerPlus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-marker-plus")]
+        MapMarkerPlus,
 
         /// <summary>
         /// Map Marker Question
@@ -8198,7 +10244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-marker-question - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapMarkerQuestion => FA5.Light.MapMarkerQuestion;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-marker-question")]
+        MapMarkerQuestion,
 
         /// <summary>
         /// Map Marker Slash
@@ -8206,7 +10254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-marker-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapMarkerSlash => FA5.Light.MapMarkerSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-marker-slash")]
+        MapMarkerSlash,
 
         /// <summary>
         /// Map Marker Smile
@@ -8214,7 +10264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-marker-smile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapMarkerSmile => FA5.Light.MapMarkerSmile;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-marker-smile")]
+        MapMarkerSmile,
 
         /// <summary>
         /// Map Marker Times
@@ -8222,7 +10274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-marker-times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapMarkerTimes => FA5.Light.MapMarkerTimes;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-marker-times")]
+        MapMarkerTimes,
 
         /// <summary>
         /// Map Pin
@@ -8230,7 +10284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-pin - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapPin => FA5.Light.MapPin;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-pin")]
+        MapPin,
 
         /// <summary>
         /// Map Signs
@@ -8238,7 +10294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// map-signs - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MapSigns => FA5.Light.MapSigns;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("map-signs")]
+        MapSigns,
 
         /// <summary>
         /// Marker
@@ -8246,7 +10304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// marker - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Marker => FA5.Light.Marker;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("marker")]
+        Marker,
 
         /// <summary>
         /// Mars
@@ -8254,7 +10314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Mars => FA5.Light.Mars;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mars")]
+        Mars,
 
         /// <summary>
         /// Mars Double
@@ -8262,7 +10324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mars-double - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MarsDouble => FA5.Light.MarsDouble;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mars-double")]
+        MarsDouble,
 
         /// <summary>
         /// Mars Stroke
@@ -8270,7 +10334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mars-stroke - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MarsStroke => FA5.Light.MarsStroke;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mars-stroke")]
+        MarsStroke,
 
         /// <summary>
         /// Mars Stroke Horizontal
@@ -8278,7 +10344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mars-stroke-h - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MarsStrokeH => FA5.Light.MarsStrokeH;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mars-stroke-h")]
+        MarsStrokeH,
 
         /// <summary>
         /// Mars Stroke Vertical
@@ -8286,7 +10354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mars-stroke-v - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MarsStrokeV => FA5.Light.MarsStrokeV;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mars-stroke-v")]
+        MarsStrokeV,
 
         /// <summary>
         /// Mask
@@ -8294,7 +10364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mask - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Mask => FA5.Light.Mask;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mask")]
+        Mask,
 
         /// <summary>
         /// Meat
@@ -8302,7 +10374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// meat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Meat => FA5.Light.Meat;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("meat")]
+        Meat,
 
         /// <summary>
         /// Medal
@@ -8310,7 +10384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// medal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Medal => FA5.Light.Medal;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("medal")]
+        Medal,
 
         /// <summary>
         /// Medkit
@@ -8318,7 +10394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// medkit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Medkit => FA5.Light.Medkit;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("medkit")]
+        Medkit,
 
         /// <summary>
         /// Megaphone
@@ -8326,7 +10404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// megaphone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Megaphone => FA5.Light.Megaphone;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("megaphone")]
+        Megaphone,
 
         /// <summary>
         /// Neutral Face
@@ -8334,7 +10414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// meh - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Meh => FA5.Light.Meh;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("meh")]
+        Meh,
 
         /// <summary>
         /// Face Without Mouth
@@ -8342,7 +10424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// meh-blank - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MehBlank => FA5.Light.MehBlank;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("meh-blank")]
+        MehBlank,
 
         /// <summary>
         /// Face With Rolling Eyes
@@ -8350,7 +10434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// meh-rolling-eyes - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MehRollingEyes => FA5.Light.MehRollingEyes;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("meh-rolling-eyes")]
+        MehRollingEyes,
 
         /// <summary>
         /// Memory
@@ -8358,7 +10444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// memory - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Memory => FA5.Light.Memory;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("memory")]
+        Memory,
 
         /// <summary>
         /// Menorah
@@ -8366,7 +10454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// menorah - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Menorah => FA5.Light.Menorah;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("menorah")]
+        Menorah,
 
         /// <summary>
         /// Mercury
@@ -8374,7 +10464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mercury - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Mercury => FA5.Light.Mercury;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mercury")]
+        Mercury,
 
         /// <summary>
         /// Meteor
@@ -8382,7 +10474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// meteor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Meteor => FA5.Light.Meteor;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("meteor")]
+        Meteor,
 
         /// <summary>
         /// Microchip
@@ -8390,7 +10484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// microchip - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Microchip => FA5.Light.Microchip;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("microchip")]
+        Microchip,
 
         /// <summary>
         /// Microphone
@@ -8398,7 +10494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// microphone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Microphone => FA5.Light.Microphone;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("microphone")]
+        Microphone,
 
         /// <summary>
         /// Alternate Microphone
@@ -8406,7 +10504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// microphone-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MicrophoneAlt => FA5.Light.MicrophoneAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("microphone-alt")]
+        MicrophoneAlt,
 
         /// <summary>
         /// Alternate Microphone Slash
@@ -8414,7 +10514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// microphone-alt-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MicrophoneAltSlash => FA5.Light.MicrophoneAltSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("microphone-alt-slash")]
+        MicrophoneAltSlash,
 
         /// <summary>
         /// Microphone Slash
@@ -8422,7 +10524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// microphone-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MicrophoneSlash => FA5.Light.MicrophoneSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("microphone-slash")]
+        MicrophoneSlash,
 
         /// <summary>
         /// Microphone Stand
@@ -8430,7 +10534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// microphone-stand - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MicrophoneStand => FA5.Light.MicrophoneStand;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("microphone-stand")]
+        MicrophoneStand,
 
         /// <summary>
         /// Microscope
@@ -8438,7 +10544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// microscope - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Microscope => FA5.Light.Microscope;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("microscope")]
+        Microscope,
 
         /// <summary>
         /// Microwave
@@ -8446,7 +10554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// microwave - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Microwave => FA5.Light.Microwave;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("microwave")]
+        Microwave,
 
         /// <summary>
         /// Mind Share
@@ -8454,7 +10564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mind-share - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MindShare => FA5.Light.MindShare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mind-share")]
+        MindShare,
 
         /// <summary>
         /// Minus
@@ -8462,7 +10574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Minus => FA5.Light.Minus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("minus")]
+        Minus,
 
         /// <summary>
         /// Minus Circle
@@ -8470,7 +10584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// minus-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MinusCircle => FA5.Light.MinusCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("minus-circle")]
+        MinusCircle,
 
         /// <summary>
         /// Minus Hexagon
@@ -8478,7 +10594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// minus-hexagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MinusHexagon => FA5.Light.MinusHexagon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("minus-hexagon")]
+        MinusHexagon,
 
         /// <summary>
         /// Minus Octagon
@@ -8486,7 +10604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// minus-octagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MinusOctagon => FA5.Light.MinusOctagon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("minus-octagon")]
+        MinusOctagon,
 
         /// <summary>
         /// Minus Square
@@ -8494,7 +10614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// minus-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MinusSquare => FA5.Light.MinusSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("minus-square")]
+        MinusSquare,
 
         /// <summary>
         /// Mistletoe
@@ -8502,7 +10624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mistletoe - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Mistletoe => FA5.Light.Mistletoe;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mistletoe")]
+        Mistletoe,
 
         /// <summary>
         /// Mitten
@@ -8510,7 +10634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mitten - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Mitten => FA5.Light.Mitten;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mitten")]
+        Mitten,
 
         /// <summary>
         /// Mobile Phone
@@ -8518,7 +10644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mobile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Mobile => FA5.Light.Mobile;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mobile")]
+        Mobile,
 
         /// <summary>
         /// Alternate Mobile
@@ -8526,7 +10654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mobile-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MobileAlt => FA5.Light.MobileAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mobile-alt")]
+        MobileAlt,
 
         /// <summary>
         /// Mobile Android
@@ -8534,7 +10664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mobile-android - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MobileAndroid => FA5.Light.MobileAndroid;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mobile-android")]
+        MobileAndroid,
 
         /// <summary>
         /// Alternate Mobile Android
@@ -8542,7 +10674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mobile-android-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MobileAndroidAlt => FA5.Light.MobileAndroidAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mobile-android-alt")]
+        MobileAndroidAlt,
 
         /// <summary>
         /// Money Bill
@@ -8550,7 +10684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// money-bill - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MoneyBill => FA5.Light.MoneyBill;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("money-bill")]
+        MoneyBill,
 
         /// <summary>
         /// Alternate Money Bill
@@ -8558,7 +10694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// money-bill-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MoneyBillAlt => FA5.Light.MoneyBillAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("money-bill-alt")]
+        MoneyBillAlt,
 
         /// <summary>
         /// Wavy Money Bill
@@ -8566,7 +10704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// money-bill-wave - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MoneyBillWave => FA5.Light.MoneyBillWave;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("money-bill-wave")]
+        MoneyBillWave,
 
         /// <summary>
         /// Alternate Wavy Money Bill
@@ -8574,7 +10714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// money-bill-wave-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MoneyBillWaveAlt => FA5.Light.MoneyBillWaveAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("money-bill-wave-alt")]
+        MoneyBillWaveAlt,
 
         /// <summary>
         /// Money Check
@@ -8582,7 +10724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// money-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MoneyCheck => FA5.Light.MoneyCheck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("money-check")]
+        MoneyCheck,
 
         /// <summary>
         /// Alternate Money Check
@@ -8590,7 +10734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// money-check-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MoneyCheckAlt => FA5.Light.MoneyCheckAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("money-check-alt")]
+        MoneyCheckAlt,
 
         /// <summary>
         /// Money Check Edit
@@ -8598,7 +10744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// money-check-edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MoneyCheckEdit => FA5.Light.MoneyCheckEdit;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("money-check-edit")]
+        MoneyCheckEdit,
 
         /// <summary>
         /// Alternate Money Check Edit
@@ -8606,7 +10754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// money-check-edit-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MoneyCheckEditAlt => FA5.Light.MoneyCheckEditAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("money-check-edit-alt")]
+        MoneyCheckEditAlt,
 
         /// <summary>
         /// Heart Rate Monitor
@@ -8614,7 +10764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// monitor-heart-rate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MonitorHeartRate => FA5.Light.MonitorHeartRate;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("monitor-heart-rate")]
+        MonitorHeartRate,
 
         /// <summary>
         /// Monkey
@@ -8622,7 +10774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// monkey - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Monkey => FA5.Light.Monkey;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("monkey")]
+        Monkey,
 
         /// <summary>
         /// Monument
@@ -8630,7 +10784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// monument - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Monument => FA5.Light.Monument;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("monument")]
+        Monument,
 
         /// <summary>
         /// Moon
@@ -8638,7 +10794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// moon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Moon => FA5.Light.Moon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("moon")]
+        Moon,
 
         /// <summary>
         /// Moon With Cloud
@@ -8646,7 +10804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// moon-cloud - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MoonCloud => FA5.Light.MoonCloud;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("moon-cloud")]
+        MoonCloud,
 
         /// <summary>
         /// Moon With Stars
@@ -8654,7 +10814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// moon-stars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MoonStars => FA5.Light.MoonStars;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("moon-stars")]
+        MoonStars,
 
         /// <summary>
         /// Mortar Pestle
@@ -8662,7 +10824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mortar-pestle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MortarPestle => FA5.Light.MortarPestle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mortar-pestle")]
+        MortarPestle,
 
         /// <summary>
         /// Mosque
@@ -8670,7 +10834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mosque - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Mosque => FA5.Light.Mosque;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mosque")]
+        Mosque,
 
         /// <summary>
         /// Motorcycle
@@ -8678,7 +10844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// motorcycle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Motorcycle => FA5.Light.Motorcycle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("motorcycle")]
+        Motorcycle,
 
         /// <summary>
         /// Mountain
@@ -8686,7 +10854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mountain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Mountain => FA5.Light.Mountain;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mountain")]
+        Mountain,
 
         /// <summary>
         /// Mountains
@@ -8694,7 +10864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mountains - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Mountains => FA5.Light.Mountains;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mountains")]
+        Mountains,
 
         /// <summary>
         /// Mouse
@@ -8702,7 +10874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mouse - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Mouse => FA5.Light.Mouse;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mouse")]
+        Mouse,
 
         /// <summary>
         /// Alternate Mouse
@@ -8710,7 +10884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mouse-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MouseAlt => FA5.Light.MouseAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mouse-alt")]
+        MouseAlt,
 
         /// <summary>
         /// Mouse Pointer
@@ -8718,7 +10894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mouse-pointer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MousePointer => FA5.Light.MousePointer;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mouse-pointer")]
+        MousePointer,
 
         /// <summary>
         /// MP 3 Player
@@ -8726,7 +10904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mp3-player - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Mp3Player => FA5.Light.Mp3Player;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mp3-player")]
+        Mp3Player,
 
         /// <summary>
         /// Mug
@@ -8734,7 +10914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mug - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Mug => FA5.Light.Mug;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mug")]
+        Mug,
 
         /// <summary>
         /// Mug Hot
@@ -8742,7 +10924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mug-hot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MugHot => FA5.Light.MugHot;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mug-hot")]
+        MugHot,
 
         /// <summary>
         /// Mug With Marshmallows
@@ -8750,7 +10934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mug-marshmallows - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MugMarshmallows => FA5.Light.MugMarshmallows;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mug-marshmallows")]
+        MugMarshmallows,
 
         /// <summary>
         /// Mug Tea
@@ -8758,7 +10944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// mug-tea - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MugTea => FA5.Light.MugTea;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("mug-tea")]
+        MugTea,
 
         /// <summary>
         /// Music
@@ -8766,7 +10954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Music => FA5.Light.Music;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("music")]
+        Music,
 
         /// <summary>
         /// Alternate Music
@@ -8774,7 +10964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// music-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MusicAlt => FA5.Light.MusicAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("music-alt")]
+        MusicAlt,
 
         /// <summary>
         /// Alternate Music Slash
@@ -8782,7 +10974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// music-alt-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MusicAltSlash => FA5.Light.MusicAltSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("music-alt-slash")]
+        MusicAltSlash,
 
         /// <summary>
         /// Music Slash
@@ -8790,7 +10984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// music-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon MusicSlash => FA5.Light.MusicSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("music-slash")]
+        MusicSlash,
 
         /// <summary>
         /// Narwhal
@@ -8798,7 +10994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// narwhal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Narwhal => FA5.Light.Narwhal;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("narwhal")]
+        Narwhal,
 
         /// <summary>
         /// Wired Network
@@ -8806,7 +11004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// network-wired - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon NetworkWired => FA5.Light.NetworkWired;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("network-wired")]
+        NetworkWired,
 
         /// <summary>
         /// Neuter
@@ -8814,7 +11014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// neuter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Neuter => FA5.Light.Neuter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("neuter")]
+        Neuter,
 
         /// <summary>
         /// Newspaper
@@ -8822,7 +11024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// newspaper - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Newspaper => FA5.Light.Newspaper;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("newspaper")]
+        Newspaper,
 
         /// <summary>
         /// Not Equal
@@ -8830,7 +11034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// not-equal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon NotEqual => FA5.Light.NotEqual;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("not-equal")]
+        NotEqual,
 
         /// <summary>
         /// Medical Notes
@@ -8838,7 +11044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// notes-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon NotesMedical => FA5.Light.NotesMedical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("notes-medical")]
+        NotesMedical,
 
         /// <summary>
         /// Object Group
@@ -8846,7 +11054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// object-group - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ObjectGroup => FA5.Light.ObjectGroup;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("object-group")]
+        ObjectGroup,
 
         /// <summary>
         /// Object Ungroup
@@ -8854,7 +11064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// object-ungroup - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ObjectUngroup => FA5.Light.ObjectUngroup;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("object-ungroup")]
+        ObjectUngroup,
 
         /// <summary>
         /// Octagon
@@ -8862,7 +11074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// octagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Octagon => FA5.Light.Octagon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("octagon")]
+        Octagon,
 
         /// <summary>
         /// Oil Can
@@ -8870,7 +11084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// oil-can - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon OilCan => FA5.Light.OilCan;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("oil-can")]
+        OilCan,
 
         /// <summary>
         /// Oil Temp
@@ -8878,7 +11094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// oil-temp - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon OilTemp => FA5.Light.OilTemp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("oil-temp")]
+        OilTemp,
 
         /// <summary>
         /// Om
@@ -8886,7 +11104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// om - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Om => FA5.Light.Om;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("om")]
+        Om,
 
         /// <summary>
         /// Omega
@@ -8894,7 +11114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// omega - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Omega => FA5.Light.Omega;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("omega")]
+        Omega,
 
         /// <summary>
         /// Ornament
@@ -8902,7 +11124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ornament - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ornament => FA5.Light.Ornament;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ornament")]
+        Ornament,
 
         /// <summary>
         /// Otter
@@ -8910,7 +11134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// otter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Otter => FA5.Light.Otter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("otter")]
+        Otter,
 
         /// <summary>
         /// Outdent
@@ -8918,7 +11144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// outdent - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Outdent => FA5.Light.Outdent;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("outdent")]
+        Outdent,
 
         /// <summary>
         /// Outlet
@@ -8926,7 +11154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// outlet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Outlet => FA5.Light.Outlet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("outlet")]
+        Outlet,
 
         /// <summary>
         /// Oven
@@ -8934,7 +11164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// oven - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Oven => FA5.Light.Oven;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("oven")]
+        Oven,
 
         /// <summary>
         /// Overline
@@ -8942,7 +11174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// overline - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Overline => FA5.Light.Overline;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("overline")]
+        Overline,
 
         /// <summary>
         /// Page Break
@@ -8950,7 +11184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// page-break - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PageBreak => FA5.Light.PageBreak;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("page-break")]
+        PageBreak,
 
         /// <summary>
         /// Pager
@@ -8958,7 +11194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pager - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Pager => FA5.Light.Pager;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pager")]
+        Pager,
 
         /// <summary>
         /// Paint Brush
@@ -8966,7 +11204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// paint-brush - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PaintBrush => FA5.Light.PaintBrush;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("paint-brush")]
+        PaintBrush,
 
         /// <summary>
         /// Alternate Paint Brush
@@ -8974,7 +11214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// paint-brush-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PaintBrushAlt => FA5.Light.PaintBrushAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("paint-brush-alt")]
+        PaintBrushAlt,
 
         /// <summary>
         /// Paint Roller
@@ -8982,7 +11224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// paint-roller - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PaintRoller => FA5.Light.PaintRoller;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("paint-roller")]
+        PaintRoller,
 
         /// <summary>
         /// Palette
@@ -8990,7 +11234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// palette - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Palette => FA5.Light.Palette;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("palette")]
+        Palette,
 
         /// <summary>
         /// Pallet
@@ -8998,7 +11244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pallet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Pallet => FA5.Light.Pallet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pallet")]
+        Pallet,
 
         /// <summary>
         /// Alternate Pallet
@@ -9006,7 +11254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pallet-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PalletAlt => FA5.Light.PalletAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pallet-alt")]
+        PalletAlt,
 
         /// <summary>
         /// Paper Plane
@@ -9014,7 +11264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// paper-plane - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PaperPlane => FA5.Light.PaperPlane;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("paper-plane")]
+        PaperPlane,
 
         /// <summary>
         /// Paperclip
@@ -9022,7 +11274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// paperclip - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Paperclip => FA5.Light.Paperclip;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("paperclip")]
+        Paperclip,
 
         /// <summary>
         /// Parachute Box
@@ -9030,7 +11284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// parachute-box - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ParachuteBox => FA5.Light.ParachuteBox;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("parachute-box")]
+        ParachuteBox,
 
         /// <summary>
         /// Paragraph
@@ -9038,7 +11294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// paragraph - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Paragraph => FA5.Light.Paragraph;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("paragraph")]
+        Paragraph,
 
         /// <summary>
         /// Paragraph Right To Left
@@ -9046,7 +11304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// paragraph-rtl - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ParagraphRtl => FA5.Light.ParagraphRtl;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("paragraph-rtl")]
+        ParagraphRtl,
 
         /// <summary>
         /// Parking
@@ -9054,7 +11314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// parking - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Parking => FA5.Light.Parking;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("parking")]
+        Parking,
 
         /// <summary>
         /// Parking Circle
@@ -9062,7 +11324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// parking-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ParkingCircle => FA5.Light.ParkingCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("parking-circle")]
+        ParkingCircle,
 
         /// <summary>
         /// Parking Circle Slash
@@ -9070,7 +11334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// parking-circle-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ParkingCircleSlash => FA5.Light.ParkingCircleSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("parking-circle-slash")]
+        ParkingCircleSlash,
 
         /// <summary>
         /// Parking Slash
@@ -9078,7 +11344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// parking-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ParkingSlash => FA5.Light.ParkingSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("parking-slash")]
+        ParkingSlash,
 
         /// <summary>
         /// Passport
@@ -9086,7 +11354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// passport - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Passport => FA5.Light.Passport;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("passport")]
+        Passport,
 
         /// <summary>
         /// Pastafarianism
@@ -9094,7 +11364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pastafarianism - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Pastafarianism => FA5.Light.Pastafarianism;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pastafarianism")]
+        Pastafarianism,
 
         /// <summary>
         /// Paste
@@ -9102,7 +11374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// paste - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Paste => FA5.Light.Paste;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("paste")]
+        Paste,
 
         /// <summary>
         /// Pause
@@ -9110,7 +11384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pause - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Pause => FA5.Light.Pause;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pause")]
+        Pause,
 
         /// <summary>
         /// Pause Circle
@@ -9118,7 +11394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pause-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PauseCircle => FA5.Light.PauseCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pause-circle")]
+        PauseCircle,
 
         /// <summary>
         /// Paw
@@ -9126,7 +11404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// paw - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Paw => FA5.Light.Paw;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("paw")]
+        Paw,
 
         /// <summary>
         /// Paw Alt
@@ -9134,7 +11414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// paw-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PawAlt => FA5.Light.PawAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("paw-alt")]
+        PawAlt,
 
         /// <summary>
         /// Paw Claws
@@ -9142,7 +11424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// paw-claws - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PawClaws => FA5.Light.PawClaws;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("paw-claws")]
+        PawClaws,
 
         /// <summary>
         /// Peace
@@ -9150,7 +11434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// peace - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Peace => FA5.Light.Peace;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("peace")]
+        Peace,
 
         /// <summary>
         /// Pegasus
@@ -9158,7 +11444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pegasus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Pegasus => FA5.Light.Pegasus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pegasus")]
+        Pegasus,
 
         /// <summary>
         /// Pen
@@ -9166,7 +11454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pen - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Pen => FA5.Light.Pen;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pen")]
+        Pen,
 
         /// <summary>
         /// Alternate Pen
@@ -9174,7 +11464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pen-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PenAlt => FA5.Light.PenAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pen-alt")]
+        PenAlt,
 
         /// <summary>
         /// Pen Fancy
@@ -9182,7 +11474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pen-fancy - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PenFancy => FA5.Light.PenFancy;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pen-fancy")]
+        PenFancy,
 
         /// <summary>
         /// Pen Nib
@@ -9190,7 +11484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pen-nib - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PenNib => FA5.Light.PenNib;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pen-nib")]
+        PenNib,
 
         /// <summary>
         /// Pen Square
@@ -9198,7 +11494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pen-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PenSquare => FA5.Light.PenSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pen-square")]
+        PenSquare,
 
         /// <summary>
         /// Pencil
@@ -9206,7 +11504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pencil - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Pencil => FA5.Light.Pencil;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pencil")]
+        Pencil,
 
         /// <summary>
         /// Alternate Pencil
@@ -9214,7 +11514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pencil-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PencilAlt => FA5.Light.PencilAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pencil-alt")]
+        PencilAlt,
 
         /// <summary>
         /// Pencil Paintbrush
@@ -9222,7 +11524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pencil-paintbrush - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PencilPaintbrush => FA5.Light.PencilPaintbrush;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pencil-paintbrush")]
+        PencilPaintbrush,
 
         /// <summary>
         /// Pencil Ruler
@@ -9230,7 +11534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pencil-ruler - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PencilRuler => FA5.Light.PencilRuler;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pencil-ruler")]
+        PencilRuler,
 
         /// <summary>
         /// Pennant
@@ -9238,7 +11544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pennant - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Pennant => FA5.Light.Pennant;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pennant")]
+        Pennant,
 
         /// <summary>
         /// People Carry
@@ -9246,7 +11554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// people-carry - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PeopleCarry => FA5.Light.PeopleCarry;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("people-carry")]
+        PeopleCarry,
 
         /// <summary>
         /// Hot Pepper
@@ -9254,7 +11564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pepper-hot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PepperHot => FA5.Light.PepperHot;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pepper-hot")]
+        PepperHot,
 
         /// <summary>
         /// Percent
@@ -9262,7 +11574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// percent - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Percent => FA5.Light.Percent;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("percent")]
+        Percent,
 
         /// <summary>
         /// Percentage
@@ -9270,7 +11584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// percentage - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Percentage => FA5.Light.Percentage;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("percentage")]
+        Percentage,
 
         /// <summary>
         /// Person Entering Booth
@@ -9278,7 +11594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// person-booth - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PersonBooth => FA5.Light.PersonBooth;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("person-booth")]
+        PersonBooth,
 
         /// <summary>
         /// Person Carry
@@ -9286,7 +11604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// person-carry - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PersonCarry => FA5.Light.PersonCarry;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("person-carry")]
+        PersonCarry,
 
         /// <summary>
         /// Person And Dolly
@@ -9294,7 +11614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// person-dolly - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PersonDolly => FA5.Light.PersonDolly;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("person-dolly")]
+        PersonDolly,
 
         /// <summary>
         /// Person And Empty Dolly
@@ -9302,7 +11624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// person-dolly-empty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PersonDollyEmpty => FA5.Light.PersonDollyEmpty;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("person-dolly-empty")]
+        PersonDollyEmpty,
 
         /// <summary>
         /// Person Holding Sign
@@ -9310,7 +11634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// person-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PersonSign => FA5.Light.PersonSign;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("person-sign")]
+        PersonSign,
 
         /// <summary>
         /// Phone
@@ -9318,7 +11644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// phone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Phone => FA5.Light.Phone;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("phone")]
+        Phone,
 
         /// <summary>
         /// Alternate Phone
@@ -9326,7 +11654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// phone-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PhoneAlt => FA5.Light.PhoneAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("phone-alt")]
+        PhoneAlt,
 
         /// <summary>
         /// Phone And Laptop
@@ -9334,7 +11664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// phone-laptop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PhoneLaptop => FA5.Light.PhoneLaptop;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("phone-laptop")]
+        PhoneLaptop,
 
         /// <summary>
         /// Office Phone
@@ -9342,7 +11674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// phone-office - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PhoneOffice => FA5.Light.PhoneOffice;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("phone-office")]
+        PhoneOffice,
 
         /// <summary>
         /// Phone Plus
@@ -9350,7 +11684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// phone-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PhonePlus => FA5.Light.PhonePlus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("phone-plus")]
+        PhonePlus,
 
         /// <summary>
         /// Rotary Phone
@@ -9358,7 +11694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// phone-rotary - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PhoneRotary => FA5.Light.PhoneRotary;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("phone-rotary")]
+        PhoneRotary,
 
         /// <summary>
         /// Phone Slash
@@ -9366,7 +11704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// phone-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PhoneSlash => FA5.Light.PhoneSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("phone-slash")]
+        PhoneSlash,
 
         /// <summary>
         /// Phone Square
@@ -9374,7 +11714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// phone-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PhoneSquare => FA5.Light.PhoneSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("phone-square")]
+        PhoneSquare,
 
         /// <summary>
         /// Alternate Phone Square
@@ -9382,7 +11724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// phone-square-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PhoneSquareAlt => FA5.Light.PhoneSquareAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("phone-square-alt")]
+        PhoneSquareAlt,
 
         /// <summary>
         /// Phone Volume
@@ -9390,7 +11734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// phone-volume - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PhoneVolume => FA5.Light.PhoneVolume;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("phone-volume")]
+        PhoneVolume,
 
         /// <summary>
         /// Photo Video
@@ -9398,7 +11744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// photo-video - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PhotoVideo => FA5.Light.PhotoVideo;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("photo-video")]
+        PhotoVideo,
 
         /// <summary>
         /// Pi
@@ -9406,7 +11754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pi - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Pi => FA5.Light.Pi;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pi")]
+        Pi,
 
         /// <summary>
         /// Piano
@@ -9414,7 +11764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// piano - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Piano => FA5.Light.Piano;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("piano")]
+        Piano,
 
         /// <summary>
         /// Piano Keyboard
@@ -9422,7 +11774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// piano-keyboard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PianoKeyboard => FA5.Light.PianoKeyboard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("piano-keyboard")]
+        PianoKeyboard,
 
         /// <summary>
         /// Pie
@@ -9430,7 +11784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pie - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Pie => FA5.Light.Pie;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pie")]
+        Pie,
 
         /// <summary>
         /// Pig
@@ -9438,7 +11794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pig - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Pig => FA5.Light.Pig;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pig")]
+        Pig,
 
         /// <summary>
         /// Piggy Bank
@@ -9446,7 +11804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// piggy-bank - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PiggyBank => FA5.Light.PiggyBank;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("piggy-bank")]
+        PiggyBank,
 
         /// <summary>
         /// Pills
@@ -9454,7 +11814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pills - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Pills => FA5.Light.Pills;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pills")]
+        Pills,
 
         /// <summary>
         /// Pizza
@@ -9462,7 +11824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pizza - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Pizza => FA5.Light.Pizza;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pizza")]
+        Pizza,
 
         /// <summary>
         /// Pizza Slice
@@ -9470,7 +11834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pizza-slice - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PizzaSlice => FA5.Light.PizzaSlice;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pizza-slice")]
+        PizzaSlice,
 
         /// <summary>
         /// Place Of Worship
@@ -9478,7 +11844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// place-of-worship - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PlaceOfWorship => FA5.Light.PlaceOfWorship;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("place-of-worship")]
+        PlaceOfWorship,
 
         /// <summary>
         /// Plane
@@ -9486,7 +11854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// plane - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Plane => FA5.Light.Plane;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("plane")]
+        Plane,
 
         /// <summary>
         /// Alternate Plane
@@ -9494,7 +11864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// plane-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PlaneAlt => FA5.Light.PlaneAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("plane-alt")]
+        PlaneAlt,
 
         /// <summary>
         /// Plane Arrival
@@ -9502,7 +11874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// plane-arrival - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PlaneArrival => FA5.Light.PlaneArrival;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("plane-arrival")]
+        PlaneArrival,
 
         /// <summary>
         /// Plane Departure
@@ -9510,7 +11884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// plane-departure - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PlaneDeparture => FA5.Light.PlaneDeparture;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("plane-departure")]
+        PlaneDeparture,
 
         /// <summary>
         /// Planet With Moon
@@ -9518,7 +11894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// planet-moon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PlanetMoon => FA5.Light.PlanetMoon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("planet-moon")]
+        PlanetMoon,
 
         /// <summary>
         /// Ringed Planet
@@ -9526,7 +11904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// planet-ringed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PlanetRinged => FA5.Light.PlanetRinged;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("planet-ringed")]
+        PlanetRinged,
 
         /// <summary>
         /// Play
@@ -9534,7 +11914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// play - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Play => FA5.Light.Play;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("play")]
+        Play,
 
         /// <summary>
         /// Play Circle
@@ -9542,7 +11924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// play-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PlayCircle => FA5.Light.PlayCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("play-circle")]
+        PlayCircle,
 
         /// <summary>
         /// Plug
@@ -9550,7 +11934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// plug - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Plug => FA5.Light.Plug;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("plug")]
+        Plug,
 
         /// <summary>
         /// Plus
@@ -9558,7 +11944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Plus => FA5.Light.Plus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("plus")]
+        Plus,
 
         /// <summary>
         /// Plus Circle
@@ -9566,7 +11954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// plus-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PlusCircle => FA5.Light.PlusCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("plus-circle")]
+        PlusCircle,
 
         /// <summary>
         /// Plus Hexagon
@@ -9574,7 +11964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// plus-hexagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PlusHexagon => FA5.Light.PlusHexagon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("plus-hexagon")]
+        PlusHexagon,
 
         /// <summary>
         /// Plus Octagon
@@ -9582,7 +11974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// plus-octagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PlusOctagon => FA5.Light.PlusOctagon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("plus-octagon")]
+        PlusOctagon,
 
         /// <summary>
         /// Plus Square
@@ -9590,7 +11984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// plus-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PlusSquare => FA5.Light.PlusSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("plus-square")]
+        PlusSquare,
 
         /// <summary>
         /// Podcast
@@ -9598,7 +11994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// podcast - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Podcast => FA5.Light.Podcast;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("podcast")]
+        Podcast,
 
         /// <summary>
         /// Podium
@@ -9606,7 +12004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// podium - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Podium => FA5.Light.Podium;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("podium")]
+        Podium,
 
         /// <summary>
         /// Podium With Star
@@ -9614,7 +12014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// podium-star - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PodiumStar => FA5.Light.PodiumStar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("podium-star")]
+        PodiumStar,
 
         /// <summary>
         /// Police Box
@@ -9622,7 +12024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// police-box - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PoliceBox => FA5.Light.PoliceBox;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("police-box")]
+        PoliceBox,
 
         /// <summary>
         /// Poll
@@ -9630,7 +12034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// poll - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Poll => FA5.Light.Poll;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("poll")]
+        Poll,
 
         /// <summary>
         /// Poll H
@@ -9638,7 +12044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// poll-h - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PollH => FA5.Light.PollH;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("poll-h")]
+        PollH,
 
         /// <summary>
         /// Poll People
@@ -9646,7 +12054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// poll-people - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PollPeople => FA5.Light.PollPeople;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("poll-people")]
+        PollPeople,
 
         /// <summary>
         /// Poo
@@ -9654,7 +12064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// poo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Poo => FA5.Light.Poo;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("poo")]
+        Poo,
 
         /// <summary>
         /// Poo Storm
@@ -9662,7 +12074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// poo-storm - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PooStorm => FA5.Light.PooStorm;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("poo-storm")]
+        PooStorm,
 
         /// <summary>
         /// Poop
@@ -9670,7 +12084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// poop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Poop => FA5.Light.Poop;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("poop")]
+        Poop,
 
         /// <summary>
         /// Popcorn
@@ -9678,7 +12094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// popcorn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Popcorn => FA5.Light.Popcorn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("popcorn")]
+        Popcorn,
 
         /// <summary>
         /// Portal Enter
@@ -9686,7 +12104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// portal-enter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PortalEnter => FA5.Light.PortalEnter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("portal-enter")]
+        PortalEnter,
 
         /// <summary>
         /// Portal Exit
@@ -9694,7 +12114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// portal-exit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PortalExit => FA5.Light.PortalExit;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("portal-exit")]
+        PortalExit,
 
         /// <summary>
         /// Portrait
@@ -9702,7 +12124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// portrait - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Portrait => FA5.Light.Portrait;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("portrait")]
+        Portrait,
 
         /// <summary>
         /// Pound Sign
@@ -9710,7 +12134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pound-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PoundSign => FA5.Light.PoundSign;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pound-sign")]
+        PoundSign,
 
         /// <summary>
         /// Power Off
@@ -9718,7 +12144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// power-off - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PowerOff => FA5.Light.PowerOff;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("power-off")]
+        PowerOff,
 
         /// <summary>
         /// Pray
@@ -9726,7 +12154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pray - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Pray => FA5.Light.Pray;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pray")]
+        Pray,
 
         /// <summary>
         /// Praying Hands
@@ -9734,7 +12164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// praying-hands - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PrayingHands => FA5.Light.PrayingHands;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("praying-hands")]
+        PrayingHands,
 
         /// <summary>
         /// Prescription
@@ -9742,7 +12174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// prescription - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Prescription => FA5.Light.Prescription;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("prescription")]
+        Prescription,
 
         /// <summary>
         /// Prescription Bottle
@@ -9750,7 +12184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// prescription-bottle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PrescriptionBottle => FA5.Light.PrescriptionBottle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("prescription-bottle")]
+        PrescriptionBottle,
 
         /// <summary>
         /// Alternate Prescription Bottle
@@ -9758,7 +12194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// prescription-bottle-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PrescriptionBottleAlt => FA5.Light.PrescriptionBottleAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("prescription-bottle-alt")]
+        PrescriptionBottleAlt,
 
         /// <summary>
         /// Presentation
@@ -9766,7 +12204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// presentation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Presentation => FA5.Light.Presentation;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("presentation")]
+        Presentation,
 
         /// <summary>
         /// Print
@@ -9774,7 +12214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// print - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Print => FA5.Light.Print;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("print")]
+        Print,
 
         /// <summary>
         /// Print Search
@@ -9782,7 +12224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// print-search - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PrintSearch => FA5.Light.PrintSearch;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("print-search")]
+        PrintSearch,
 
         /// <summary>
         /// Print Slash
@@ -9790,7 +12234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// print-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PrintSlash => FA5.Light.PrintSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("print-slash")]
+        PrintSlash,
 
         /// <summary>
         /// Procedures
@@ -9798,7 +12244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// procedures - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Procedures => FA5.Light.Procedures;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("procedures")]
+        Procedures,
 
         /// <summary>
         /// Project Diagram
@@ -9806,7 +12254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// project-diagram - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ProjectDiagram => FA5.Light.ProjectDiagram;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("project-diagram")]
+        ProjectDiagram,
 
         /// <summary>
         /// Projector
@@ -9814,7 +12264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// projector - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Projector => FA5.Light.Projector;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("projector")]
+        Projector,
 
         /// <summary>
         /// Pumpkin
@@ -9822,7 +12274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// pumpkin - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Pumpkin => FA5.Light.Pumpkin;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("pumpkin")]
+        Pumpkin,
 
         /// <summary>
         /// Puzzle Piece
@@ -9830,7 +12284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// puzzle-piece - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon PuzzlePiece => FA5.Light.PuzzlePiece;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("puzzle-piece")]
+        PuzzlePiece,
 
         /// <summary>
         /// Qrcode
@@ -9838,7 +12294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// qrcode - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Qrcode => FA5.Light.Qrcode;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("qrcode")]
+        Qrcode,
 
         /// <summary>
         /// Question
@@ -9846,7 +12304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// question - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Question => FA5.Light.Question;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("question")]
+        Question,
 
         /// <summary>
         /// Question Circle
@@ -9854,7 +12314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// question-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon QuestionCircle => FA5.Light.QuestionCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("question-circle")]
+        QuestionCircle,
 
         /// <summary>
         /// Question Square
@@ -9862,7 +12324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// question-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon QuestionSquare => FA5.Light.QuestionSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("question-square")]
+        QuestionSquare,
 
         /// <summary>
         /// Quidditch
@@ -9870,7 +12334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// quidditch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Quidditch => FA5.Light.Quidditch;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("quidditch")]
+        Quidditch,
 
         /// <summary>
         /// Quote Left
@@ -9878,7 +12344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// quote-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon QuoteLeft => FA5.Light.QuoteLeft;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("quote-left")]
+        QuoteLeft,
 
         /// <summary>
         /// Quote Right
@@ -9886,7 +12354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// quote-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon QuoteRight => FA5.Light.QuoteRight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("quote-right")]
+        QuoteRight,
 
         /// <summary>
         /// Quran
@@ -9894,7 +12364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// quran - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Quran => FA5.Light.Quran;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("quran")]
+        Quran,
 
         /// <summary>
         /// Rabbit
@@ -9902,7 +12374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// rabbit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Rabbit => FA5.Light.Rabbit;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("rabbit")]
+        Rabbit,
 
         /// <summary>
         /// Fast Rabbit
@@ -9910,7 +12384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// rabbit-fast - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RabbitFast => FA5.Light.RabbitFast;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("rabbit-fast")]
+        RabbitFast,
 
         /// <summary>
         /// Racquet
@@ -9918,7 +12394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// racquet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Racquet => FA5.Light.Racquet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("racquet")]
+        Racquet,
 
         /// <summary>
         /// Radar
@@ -9926,7 +12404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// radar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Radar => FA5.Light.Radar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("radar")]
+        Radar,
 
         /// <summary>
         /// Radiation
@@ -9934,7 +12414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// radiation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Radiation => FA5.Light.Radiation;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("radiation")]
+        Radiation,
 
         /// <summary>
         /// Alternate Radiation
@@ -9942,7 +12424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// radiation-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RadiationAlt => FA5.Light.RadiationAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("radiation-alt")]
+        RadiationAlt,
 
         /// <summary>
         /// Radio
@@ -9950,7 +12434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// radio - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Radio => FA5.Light.Radio;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("radio")]
+        Radio,
 
         /// <summary>
         /// Alternate Radio
@@ -9958,7 +12444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// radio-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RadioAlt => FA5.Light.RadioAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("radio-alt")]
+        RadioAlt,
 
         /// <summary>
         /// Rainbow
@@ -9966,7 +12454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// rainbow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Rainbow => FA5.Light.Rainbow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("rainbow")]
+        Rainbow,
 
         /// <summary>
         /// Raindrops
@@ -9974,7 +12464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// raindrops - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Raindrops => FA5.Light.Raindrops;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("raindrops")]
+        Raindrops,
 
         /// <summary>
         /// Ram
@@ -9982,7 +12474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ram - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ram => FA5.Light.Ram;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ram")]
+        Ram,
 
         /// <summary>
         /// Ramp Loading
@@ -9990,7 +12484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ramp-loading - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RampLoading => FA5.Light.RampLoading;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ramp-loading")]
+        RampLoading,
 
         /// <summary>
         /// Random
@@ -9998,7 +12494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// random - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Random => FA5.Light.Random;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("random")]
+        Random,
 
         /// <summary>
         /// Raygun
@@ -10006,7 +12504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// raygun - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Raygun => FA5.Light.Raygun;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("raygun")]
+        Raygun,
 
         /// <summary>
         /// Receipt
@@ -10014,7 +12514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// receipt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Receipt => FA5.Light.Receipt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("receipt")]
+        Receipt,
 
         /// <summary>
         /// Record Vinyl
@@ -10022,7 +12524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// record-vinyl - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RecordVinyl => FA5.Light.RecordVinyl;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("record-vinyl")]
+        RecordVinyl,
 
         /// <summary>
         /// Landscape Rectangle
@@ -10030,7 +12534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// rectangle-landscape - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RectangleLandscape => FA5.Light.RectangleLandscape;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("rectangle-landscape")]
+        RectangleLandscape,
 
         /// <summary>
         /// Portrait Rectangle
@@ -10038,7 +12544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// rectangle-portrait - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RectanglePortrait => FA5.Light.RectanglePortrait;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("rectangle-portrait")]
+        RectanglePortrait,
 
         /// <summary>
         /// Wide Rectangle
@@ -10046,7 +12554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// rectangle-wide - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RectangleWide => FA5.Light.RectangleWide;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("rectangle-wide")]
+        RectangleWide,
 
         /// <summary>
         /// Recycle
@@ -10054,7 +12564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// recycle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Recycle => FA5.Light.Recycle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("recycle")]
+        Recycle,
 
         /// <summary>
         /// Redo
@@ -10062,7 +12574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// redo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Redo => FA5.Light.Redo;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("redo")]
+        Redo,
 
         /// <summary>
         /// Alternate Redo
@@ -10070,7 +12584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// redo-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RedoAlt => FA5.Light.RedoAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("redo-alt")]
+        RedoAlt,
 
         /// <summary>
         /// Refrigerator
@@ -10078,7 +12594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// refrigerator - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Refrigerator => FA5.Light.Refrigerator;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("refrigerator")]
+        Refrigerator,
 
         /// <summary>
         /// Registered Trademark
@@ -10086,7 +12604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// registered - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Registered => FA5.Light.Registered;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("registered")]
+        Registered,
 
         /// <summary>
         /// Remove Format
@@ -10094,7 +12614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// remove-format - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RemoveFormat => FA5.Light.RemoveFormat;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("remove-format")]
+        RemoveFormat,
 
         /// <summary>
         /// Repeat
@@ -10102,7 +12624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// repeat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Repeat => FA5.Light.Repeat;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("repeat")]
+        Repeat,
 
         /// <summary>
         /// Repeat 1
@@ -10110,7 +12634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// repeat-1 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Repeat1 => FA5.Light.Repeat1;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("repeat-1")]
+        Repeat1,
 
         /// <summary>
         /// Alternate Repeat 1
@@ -10118,7 +12644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// repeat-1-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Repeat1Alt => FA5.Light.Repeat1Alt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("repeat-1-alt")]
+        Repeat1Alt,
 
         /// <summary>
         /// Alternate Repeat
@@ -10126,7 +12654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// repeat-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RepeatAlt => FA5.Light.RepeatAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("repeat-alt")]
+        RepeatAlt,
 
         /// <summary>
         /// Reply
@@ -10134,7 +12664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// reply - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Reply => FA5.Light.Reply;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("reply")]
+        Reply,
 
         /// <summary>
         /// Reply All
@@ -10142,7 +12674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// reply-all - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ReplyAll => FA5.Light.ReplyAll;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("reply-all")]
+        ReplyAll,
 
         /// <summary>
         /// Republican
@@ -10150,7 +12684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// republican - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Republican => FA5.Light.Republican;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("republican")]
+        Republican,
 
         /// <summary>
         /// Restroom
@@ -10158,7 +12694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// restroom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Restroom => FA5.Light.Restroom;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("restroom")]
+        Restroom,
 
         /// <summary>
         /// Retweet
@@ -10166,7 +12704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// retweet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Retweet => FA5.Light.Retweet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("retweet")]
+        Retweet,
 
         /// <summary>
         /// Alternate Retweet
@@ -10174,7 +12714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// retweet-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RetweetAlt => FA5.Light.RetweetAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("retweet-alt")]
+        RetweetAlt,
 
         /// <summary>
         /// Ribbon
@@ -10182,7 +12724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ribbon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ribbon => FA5.Light.Ribbon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ribbon")]
+        Ribbon,
 
         /// <summary>
         /// Ring
@@ -10190,7 +12734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ring - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ring => FA5.Light.Ring;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ring")]
+        Ring,
 
         /// <summary>
         /// Rings Wedding
@@ -10198,7 +12744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// rings-wedding - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RingsWedding => FA5.Light.RingsWedding;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("rings-wedding")]
+        RingsWedding,
 
         /// <summary>
         /// Road
@@ -10206,7 +12754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// road - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Road => FA5.Light.Road;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("road")]
+        Road,
 
         /// <summary>
         /// Robot
@@ -10214,7 +12764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// robot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Robot => FA5.Light.Robot;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("robot")]
+        Robot,
 
         /// <summary>
         /// Rocket
@@ -10222,7 +12774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// rocket - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Rocket => FA5.Light.Rocket;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("rocket")]
+        Rocket,
 
         /// <summary>
         /// Rocket Launch
@@ -10230,7 +12784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// rocket-launch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RocketLaunch => FA5.Light.RocketLaunch;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("rocket-launch")]
+        RocketLaunch,
 
         /// <summary>
         /// Route
@@ -10238,7 +12794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// route - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Route => FA5.Light.Route;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("route")]
+        Route,
 
         /// <summary>
         /// Route Highway
@@ -10246,7 +12804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// route-highway - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RouteHighway => FA5.Light.RouteHighway;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("route-highway")]
+        RouteHighway,
 
         /// <summary>
         /// Route Interstate
@@ -10254,7 +12814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// route-interstate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RouteInterstate => FA5.Light.RouteInterstate;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("route-interstate")]
+        RouteInterstate,
 
         /// <summary>
         /// Router
@@ -10262,7 +12824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// router - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Router => FA5.Light.Router;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("router")]
+        Router,
 
         /// <summary>
         /// Rss
@@ -10270,7 +12834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// rss - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Rss => FA5.Light.Rss;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("rss")]
+        Rss,
 
         /// <summary>
         /// RSS Square
@@ -10278,7 +12844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// rss-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RssSquare => FA5.Light.RssSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("rss-square")]
+        RssSquare,
 
         /// <summary>
         /// Ruble Sign
@@ -10286,7 +12854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ruble-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RubleSign => FA5.Light.RubleSign;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ruble-sign")]
+        RubleSign,
 
         /// <summary>
         /// Ruler
@@ -10294,7 +12864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ruler - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ruler => FA5.Light.Ruler;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ruler")]
+        Ruler,
 
         /// <summary>
         /// Ruler Combined
@@ -10302,7 +12874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ruler-combined - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RulerCombined => FA5.Light.RulerCombined;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ruler-combined")]
+        RulerCombined,
 
         /// <summary>
         /// Ruler Horizontal
@@ -10310,7 +12884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ruler-horizontal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RulerHorizontal => FA5.Light.RulerHorizontal;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ruler-horizontal")]
+        RulerHorizontal,
 
         /// <summary>
         /// Ruler Triangle
@@ -10318,7 +12894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ruler-triangle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RulerTriangle => FA5.Light.RulerTriangle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ruler-triangle")]
+        RulerTriangle,
 
         /// <summary>
         /// Ruler Vertical
@@ -10326,7 +12904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ruler-vertical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RulerVertical => FA5.Light.RulerVertical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ruler-vertical")]
+        RulerVertical,
 
         /// <summary>
         /// Running
@@ -10334,7 +12914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// running - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Running => FA5.Light.Running;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("running")]
+        Running,
 
         /// <summary>
         /// Indian Rupee Sign
@@ -10342,7 +12924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// rupee-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon RupeeSign => FA5.Light.RupeeSign;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("rupee-sign")]
+        RupeeSign,
 
         /// <summary>
         /// R V
@@ -10350,7 +12934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// rv - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Rv => FA5.Light.Rv;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("rv")]
+        Rv,
 
         /// <summary>
         /// Sack
@@ -10358,7 +12944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sack - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sack => FA5.Light.Sack;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sack")]
+        Sack,
 
         /// <summary>
         /// Sack Of Money
@@ -10366,7 +12954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sack-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SackDollar => FA5.Light.SackDollar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sack-dollar")]
+        SackDollar,
 
         /// <summary>
         /// Crying Face
@@ -10374,7 +12964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sad-cry - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SadCry => FA5.Light.SadCry;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sad-cry")]
+        SadCry,
 
         /// <summary>
         /// Loudly Crying Face
@@ -10382,7 +12974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sad-tear - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SadTear => FA5.Light.SadTear;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sad-tear")]
+        SadTear,
 
         /// <summary>
         /// Salad
@@ -10390,7 +12984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// salad - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Salad => FA5.Light.Salad;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("salad")]
+        Salad,
 
         /// <summary>
         /// Sandwich
@@ -10398,7 +12994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sandwich - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sandwich => FA5.Light.Sandwich;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sandwich")]
+        Sandwich,
 
         /// <summary>
         /// Satellite
@@ -10406,7 +13004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// satellite - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Satellite => FA5.Light.Satellite;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("satellite")]
+        Satellite,
 
         /// <summary>
         /// Satellite Dish
@@ -10414,7 +13014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// satellite-dish - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SatelliteDish => FA5.Light.SatelliteDish;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("satellite-dish")]
+        SatelliteDish,
 
         /// <summary>
         /// Sausage
@@ -10422,7 +13024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sausage - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sausage => FA5.Light.Sausage;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sausage")]
+        Sausage,
 
         /// <summary>
         /// Save
@@ -10430,7 +13034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// save - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Save => FA5.Light.Save;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("save")]
+        Save,
 
         /// <summary>
         /// Hot Saxophone
@@ -10438,7 +13044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sax-hot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SaxHot => FA5.Light.SaxHot;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sax-hot")]
+        SaxHot,
 
         /// <summary>
         /// Saxophone
@@ -10446,7 +13054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// saxophone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Saxophone => FA5.Light.Saxophone;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("saxophone")]
+        Saxophone,
 
         /// <summary>
         /// Scalpel
@@ -10454,7 +13064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// scalpel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Scalpel => FA5.Light.Scalpel;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("scalpel")]
+        Scalpel,
 
         /// <summary>
         /// Scalpel Path
@@ -10462,7 +13074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// scalpel-path - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ScalpelPath => FA5.Light.ScalpelPath;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("scalpel-path")]
+        ScalpelPath,
 
         /// <summary>
         /// Scanner
@@ -10470,7 +13084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// scanner - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Scanner => FA5.Light.Scanner;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("scanner")]
+        Scanner,
 
         /// <summary>
         /// Image Scanner
@@ -10478,7 +13094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// scanner-image - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ScannerImage => FA5.Light.ScannerImage;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("scanner-image")]
+        ScannerImage,
 
         /// <summary>
         /// Scanner Keyboard
@@ -10486,7 +13104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// scanner-keyboard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ScannerKeyboard => FA5.Light.ScannerKeyboard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("scanner-keyboard")]
+        ScannerKeyboard,
 
         /// <summary>
         /// Scanner Touchscreen
@@ -10494,7 +13114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// scanner-touchscreen - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ScannerTouchscreen => FA5.Light.ScannerTouchscreen;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("scanner-touchscreen")]
+        ScannerTouchscreen,
 
         /// <summary>
         /// Scarecrow
@@ -10502,7 +13124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// scarecrow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Scarecrow => FA5.Light.Scarecrow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("scarecrow")]
+        Scarecrow,
 
         /// <summary>
         /// Scarf
@@ -10510,7 +13134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// scarf - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Scarf => FA5.Light.Scarf;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("scarf")]
+        Scarf,
 
         /// <summary>
         /// School
@@ -10518,7 +13144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// school - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon School => FA5.Light.School;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("school")]
+        School,
 
         /// <summary>
         /// Screwdriver
@@ -10526,7 +13154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// screwdriver - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Screwdriver => FA5.Light.Screwdriver;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("screwdriver")]
+        Screwdriver,
 
         /// <summary>
         /// Scroll
@@ -10534,7 +13164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// scroll - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Scroll => FA5.Light.Scroll;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("scroll")]
+        Scroll,
 
         /// <summary>
         /// Scroll Old
@@ -10542,7 +13174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// scroll-old - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ScrollOld => FA5.Light.ScrollOld;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("scroll-old")]
+        ScrollOld,
 
         /// <summary>
         /// Scrubber
@@ -10550,7 +13184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// scrubber - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Scrubber => FA5.Light.Scrubber;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("scrubber")]
+        Scrubber,
 
         /// <summary>
         /// Scythe
@@ -10558,7 +13194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// scythe - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Scythe => FA5.Light.Scythe;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("scythe")]
+        Scythe,
 
         /// <summary>
         /// Sd Card
@@ -10566,7 +13204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sd-card - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SdCard => FA5.Light.SdCard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sd-card")]
+        SdCard,
 
         /// <summary>
         /// Search
@@ -10574,7 +13214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// search - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Search => FA5.Light.Search;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("search")]
+        Search,
 
         /// <summary>
         /// Search Dollar
@@ -10582,7 +13224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// search-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SearchDollar => FA5.Light.SearchDollar;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("search-dollar")]
+        SearchDollar,
 
         /// <summary>
         /// Search Location
@@ -10590,7 +13234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// search-location - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SearchLocation => FA5.Light.SearchLocation;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("search-location")]
+        SearchLocation,
 
         /// <summary>
         /// Search Minus
@@ -10598,7 +13244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// search-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SearchMinus => FA5.Light.SearchMinus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("search-minus")]
+        SearchMinus,
 
         /// <summary>
         /// Search Plus
@@ -10606,7 +13254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// search-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SearchPlus => FA5.Light.SearchPlus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("search-plus")]
+        SearchPlus,
 
         /// <summary>
         /// Seedling
@@ -10614,7 +13264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// seedling - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Seedling => FA5.Light.Seedling;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("seedling")]
+        Seedling,
 
         /// <summary>
         /// Send Back
@@ -10622,7 +13274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// send-back - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SendBack => FA5.Light.SendBack;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("send-back")]
+        SendBack,
 
         /// <summary>
         /// Send Backward
@@ -10630,7 +13284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// send-backward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SendBackward => FA5.Light.SendBackward;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("send-backward")]
+        SendBackward,
 
         /// <summary>
         /// Sensor
@@ -10638,7 +13294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sensor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sensor => FA5.Light.Sensor;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sensor")]
+        Sensor,
 
         /// <summary>
         /// Sensor Alert
@@ -10646,7 +13304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sensor-alert - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SensorAlert => FA5.Light.SensorAlert;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sensor-alert")]
+        SensorAlert,
 
         /// <summary>
         /// Sensor Fire
@@ -10654,7 +13314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sensor-fire - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SensorFire => FA5.Light.SensorFire;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sensor-fire")]
+        SensorFire,
 
         /// <summary>
         /// Sensor On
@@ -10662,7 +13324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sensor-on - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SensorOn => FA5.Light.SensorOn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sensor-on")]
+        SensorOn,
 
         /// <summary>
         /// Sensor Smoke
@@ -10670,7 +13334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sensor-smoke - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SensorSmoke => FA5.Light.SensorSmoke;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sensor-smoke")]
+        SensorSmoke,
 
         /// <summary>
         /// Server
@@ -10678,7 +13344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// server - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Server => FA5.Light.Server;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("server")]
+        Server,
 
         /// <summary>
         /// Shapes
@@ -10686,7 +13354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shapes - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Shapes => FA5.Light.Shapes;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shapes")]
+        Shapes,
 
         /// <summary>
         /// Share
@@ -10694,7 +13364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// share - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Share => FA5.Light.Share;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("share")]
+        Share,
 
         /// <summary>
         /// Share All
@@ -10702,7 +13374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// share-all - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShareAll => FA5.Light.ShareAll;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("share-all")]
+        ShareAll,
 
         /// <summary>
         /// Alternate Share
@@ -10710,7 +13384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// share-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShareAlt => FA5.Light.ShareAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("share-alt")]
+        ShareAlt,
 
         /// <summary>
         /// Alternate Share Square
@@ -10718,7 +13394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// share-alt-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShareAltSquare => FA5.Light.ShareAltSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("share-alt-square")]
+        ShareAltSquare,
 
         /// <summary>
         /// Share Square
@@ -10726,7 +13404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// share-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShareSquare => FA5.Light.ShareSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("share-square")]
+        ShareSquare,
 
         /// <summary>
         /// Sheep
@@ -10734,7 +13414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sheep - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sheep => FA5.Light.Sheep;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sheep")]
+        Sheep,
 
         /// <summary>
         /// Shekel Sign
@@ -10742,7 +13424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shekel-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShekelSign => FA5.Light.ShekelSign;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shekel-sign")]
+        ShekelSign,
 
         /// <summary>
         /// Shield
@@ -10750,7 +13434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shield - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Shield => FA5.Light.Shield;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shield")]
+        Shield,
 
         /// <summary>
         /// Alternate Shield
@@ -10758,7 +13444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shield-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShieldAlt => FA5.Light.ShieldAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shield-alt")]
+        ShieldAlt,
 
         /// <summary>
         /// Shield
@@ -10766,7 +13454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shield-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShieldCheck => FA5.Light.ShieldCheck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shield-check")]
+        ShieldCheck,
 
         /// <summary>
         /// Shield Cross
@@ -10774,7 +13464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shield-cross - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShieldCross => FA5.Light.ShieldCross;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shield-cross")]
+        ShieldCross,
 
         /// <summary>
         /// Ship
@@ -10782,7 +13474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ship - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ship => FA5.Light.Ship;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ship")]
+        Ship,
 
         /// <summary>
         /// Shipping Fast
@@ -10790,7 +13484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shipping-fast - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShippingFast => FA5.Light.ShippingFast;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shipping-fast")]
+        ShippingFast,
 
         /// <summary>
         /// Shipping Timed
@@ -10798,7 +13494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shipping-timed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShippingTimed => FA5.Light.ShippingTimed;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shipping-timed")]
+        ShippingTimed,
 
         /// <summary>
         /// Shish Kebab
@@ -10806,7 +13504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shish-kebab - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShishKebab => FA5.Light.ShishKebab;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shish-kebab")]
+        ShishKebab,
 
         /// <summary>
         /// Shoe Prints
@@ -10814,7 +13514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shoe-prints - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShoePrints => FA5.Light.ShoePrints;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shoe-prints")]
+        ShoePrints,
 
         /// <summary>
         /// Shopping Bag
@@ -10822,7 +13524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shopping-bag - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShoppingBag => FA5.Light.ShoppingBag;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shopping-bag")]
+        ShoppingBag,
 
         /// <summary>
         /// Shopping Basket
@@ -10830,7 +13534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shopping-basket - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShoppingBasket => FA5.Light.ShoppingBasket;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shopping-basket")]
+        ShoppingBasket,
 
         /// <summary>
         /// Shopping Cart
@@ -10838,7 +13544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shopping-cart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShoppingCart => FA5.Light.ShoppingCart;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shopping-cart")]
+        ShoppingCart,
 
         /// <summary>
         /// Shovel
@@ -10846,7 +13554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shovel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Shovel => FA5.Light.Shovel;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shovel")]
+        Shovel,
 
         /// <summary>
         /// Shovel Snow
@@ -10854,7 +13564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shovel-snow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShovelSnow => FA5.Light.ShovelSnow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shovel-snow")]
+        ShovelSnow,
 
         /// <summary>
         /// Shower
@@ -10862,7 +13574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shower - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Shower => FA5.Light.Shower;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shower")]
+        Shower,
 
         /// <summary>
         /// Shredder
@@ -10870,7 +13584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shredder - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Shredder => FA5.Light.Shredder;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shredder")]
+        Shredder,
 
         /// <summary>
         /// Shuttle Van
@@ -10878,7 +13594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shuttle-van - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ShuttleVan => FA5.Light.ShuttleVan;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shuttle-van")]
+        ShuttleVan,
 
         /// <summary>
         /// Shuttlecock
@@ -10886,7 +13604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// shuttlecock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Shuttlecock => FA5.Light.Shuttlecock;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("shuttlecock")]
+        Shuttlecock,
 
         /// <summary>
         /// Sickle
@@ -10894,7 +13614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sickle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sickle => FA5.Light.Sickle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sickle")]
+        Sickle,
 
         /// <summary>
         /// Sigma Summation
@@ -10902,7 +13624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sigma - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sigma => FA5.Light.Sigma;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sigma")]
+        Sigma,
 
         /// <summary>
         /// Sign
@@ -10910,7 +13634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sign => FA5.Light.Sign;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sign")]
+        Sign,
 
         /// <summary>
         /// Sign In
@@ -10918,7 +13644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sign-in - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SignIn => FA5.Light.SignIn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sign-in")]
+        SignIn,
 
         /// <summary>
         /// Alternate Sign In
@@ -10926,7 +13654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sign-in-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SignInAlt => FA5.Light.SignInAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sign-in-alt")]
+        SignInAlt,
 
         /// <summary>
         /// Sign Language
@@ -10934,7 +13664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sign-language - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SignLanguage => FA5.Light.SignLanguage;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sign-language")]
+        SignLanguage,
 
         /// <summary>
         /// Sign Out
@@ -10942,7 +13674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sign-out - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SignOut => FA5.Light.SignOut;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sign-out")]
+        SignOut,
 
         /// <summary>
         /// Alternate Sign Out
@@ -10950,7 +13684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sign-out-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SignOutAlt => FA5.Light.SignOutAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sign-out-alt")]
+        SignOutAlt,
 
         /// <summary>
         /// Signal
@@ -10958,7 +13694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// signal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Signal => FA5.Light.Signal;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("signal")]
+        Signal,
 
         /// <summary>
         /// Signal 1
@@ -10966,7 +13704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// signal-1 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Signal1 => FA5.Light.Signal1;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("signal-1")]
+        Signal1,
 
         /// <summary>
         /// Signal 2
@@ -10974,7 +13714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// signal-2 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Signal2 => FA5.Light.Signal2;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("signal-2")]
+        Signal2,
 
         /// <summary>
         /// Signal 3
@@ -10982,7 +13724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// signal-3 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Signal3 => FA5.Light.Signal3;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("signal-3")]
+        Signal3,
 
         /// <summary>
         /// Signal 4
@@ -10990,7 +13734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// signal-4 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Signal4 => FA5.Light.Signal4;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("signal-4")]
+        Signal4,
 
         /// <summary>
         /// Alternate Signal
@@ -10998,7 +13744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// signal-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SignalAlt => FA5.Light.SignalAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("signal-alt")]
+        SignalAlt,
 
         /// <summary>
         /// Alternate Signal 1
@@ -11006,7 +13754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// signal-alt-1 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SignalAlt1 => FA5.Light.SignalAlt1;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("signal-alt-1")]
+        SignalAlt1,
 
         /// <summary>
         /// Alternate Signal 2
@@ -11014,7 +13764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// signal-alt-2 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SignalAlt2 => FA5.Light.SignalAlt2;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("signal-alt-2")]
+        SignalAlt2,
 
         /// <summary>
         /// Alternate Signal 3
@@ -11022,7 +13774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// signal-alt-3 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SignalAlt3 => FA5.Light.SignalAlt3;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("signal-alt-3")]
+        SignalAlt3,
 
         /// <summary>
         /// Alternate Signal Slash
@@ -11030,7 +13784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// signal-alt-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SignalAltSlash => FA5.Light.SignalAltSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("signal-alt-slash")]
+        SignalAltSlash,
 
         /// <summary>
         /// Signal Slash
@@ -11038,7 +13794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// signal-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SignalSlash => FA5.Light.SignalSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("signal-slash")]
+        SignalSlash,
 
         /// <summary>
         /// Signal Stream
@@ -11046,7 +13804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// signal-stream - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SignalStream => FA5.Light.SignalStream;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("signal-stream")]
+        SignalStream,
 
         /// <summary>
         /// Signature
@@ -11054,7 +13814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// signature - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Signature => FA5.Light.Signature;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("signature")]
+        Signature,
 
         /// <summary>
         /// SIM Card
@@ -11062,7 +13824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sim-card - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SimCard => FA5.Light.SimCard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sim-card")]
+        SimCard,
 
         /// <summary>
         /// Siren
@@ -11070,7 +13834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// siren - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Siren => FA5.Light.Siren;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("siren")]
+        Siren,
 
         /// <summary>
         /// Siren On
@@ -11078,7 +13844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// siren-on - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SirenOn => FA5.Light.SirenOn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("siren-on")]
+        SirenOn,
 
         /// <summary>
         /// Sitemap
@@ -11086,7 +13854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sitemap - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sitemap => FA5.Light.Sitemap;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sitemap")]
+        Sitemap,
 
         /// <summary>
         /// Skating
@@ -11094,7 +13864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// skating - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Skating => FA5.Light.Skating;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("skating")]
+        Skating,
 
         /// <summary>
         /// Skeleton
@@ -11102,7 +13874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// skeleton - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Skeleton => FA5.Light.Skeleton;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("skeleton")]
+        Skeleton,
 
         /// <summary>
         /// Ski Jump
@@ -11110,7 +13884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ski-jump - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SkiJump => FA5.Light.SkiJump;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ski-jump")]
+        SkiJump,
 
         /// <summary>
         /// Ski Lift
@@ -11118,7 +13894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ski-lift - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SkiLift => FA5.Light.SkiLift;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ski-lift")]
+        SkiLift,
 
         /// <summary>
         /// Skiing
@@ -11126,7 +13904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// skiing - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Skiing => FA5.Light.Skiing;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("skiing")]
+        Skiing,
 
         /// <summary>
         /// Skiing Nordic
@@ -11134,7 +13914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// skiing-nordic - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SkiingNordic => FA5.Light.SkiingNordic;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("skiing-nordic")]
+        SkiingNordic,
 
         /// <summary>
         /// Skull
@@ -11142,7 +13924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// skull - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Skull => FA5.Light.Skull;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("skull")]
+        Skull,
 
         /// <summary>
         /// Cow Skull
@@ -11150,7 +13934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// skull-cow - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        public static Icon SkullCow => FA5.Light.SkullCow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("skull-cow")]
+        SkullCow,
 
         /// <summary>
         /// Skull Crossbones
@@ -11158,7 +13944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// skull-crossbones - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SkullCrossbones => FA5.Light.SkullCrossbones;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("skull-crossbones")]
+        SkullCrossbones,
 
         /// <summary>
         /// Slash
@@ -11166,7 +13954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Slash => FA5.Light.Slash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("slash")]
+        Slash,
 
         /// <summary>
         /// Sledding
@@ -11174,7 +13964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sledding - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sledding => FA5.Light.Sledding;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sledding")]
+        Sledding,
 
         /// <summary>
         /// Sleigh
@@ -11182,7 +13974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sleigh - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sleigh => FA5.Light.Sleigh;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sleigh")]
+        Sleigh,
 
         /// <summary>
         /// Horizontal Sliders
@@ -11190,7 +13984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sliders-h - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SlidersH => FA5.Light.SlidersH;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sliders-h")]
+        SlidersH,
 
         /// <summary>
         /// Square Horizontal Sliders
@@ -11198,7 +13994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sliders-h-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SlidersHSquare => FA5.Light.SlidersHSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sliders-h-square")]
+        SlidersHSquare,
 
         /// <summary>
         /// Vertical Sliders
@@ -11206,7 +14004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sliders-v - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SlidersV => FA5.Light.SlidersV;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sliders-v")]
+        SlidersV,
 
         /// <summary>
         /// Square Vertical Sliders
@@ -11214,7 +14014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sliders-v-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SlidersVSquare => FA5.Light.SlidersVSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sliders-v-square")]
+        SlidersVSquare,
 
         /// <summary>
         /// Smiling Face
@@ -11222,7 +14024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// smile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Smile => FA5.Light.Smile;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("smile")]
+        Smile,
 
         /// <summary>
         /// Beaming Face With Smiling Eyes
@@ -11230,7 +14034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// smile-beam - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SmileBeam => FA5.Light.SmileBeam;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("smile-beam")]
+        SmileBeam,
 
         /// <summary>
         /// Smiling Face Plus
@@ -11238,7 +14044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// smile-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SmilePlus => FA5.Light.SmilePlus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("smile-plus")]
+        SmilePlus,
 
         /// <summary>
         /// Winking Face
@@ -11246,7 +14054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// smile-wink - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SmileWink => FA5.Light.SmileWink;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("smile-wink")]
+        SmileWink,
 
         /// <summary>
         /// Smog
@@ -11254,7 +14064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// smog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Smog => FA5.Light.Smog;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("smog")]
+        Smog,
 
         /// <summary>
         /// Smoke
@@ -11262,7 +14074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// smoke - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Smoke => FA5.Light.Smoke;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("smoke")]
+        Smoke,
 
         /// <summary>
         /// Smoking
@@ -11270,7 +14084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// smoking - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Smoking => FA5.Light.Smoking;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("smoking")]
+        Smoking,
 
         /// <summary>
         /// Smoking Ban
@@ -11278,7 +14094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// smoking-ban - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SmokingBan => FA5.Light.SmokingBan;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("smoking-ban")]
+        SmokingBan,
 
         /// <summary>
         /// SMS
@@ -11286,7 +14104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sms - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sms => FA5.Light.Sms;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sms")]
+        Sms,
 
         /// <summary>
         /// Snake
@@ -11294,7 +14114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// snake - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Snake => FA5.Light.Snake;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("snake")]
+        Snake,
 
         /// <summary>
         /// Snooze
@@ -11302,7 +14124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// snooze - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Snooze => FA5.Light.Snooze;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("snooze")]
+        Snooze,
 
         /// <summary>
         /// Snow Blowing
@@ -11310,7 +14134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// snow-blowing - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SnowBlowing => FA5.Light.SnowBlowing;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("snow-blowing")]
+        SnowBlowing,
 
         /// <summary>
         /// Snowboarding
@@ -11318,7 +14144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// snowboarding - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Snowboarding => FA5.Light.Snowboarding;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("snowboarding")]
+        Snowboarding,
 
         /// <summary>
         /// Snowflake
@@ -11326,7 +14154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// snowflake - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Snowflake => FA5.Light.Snowflake;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("snowflake")]
+        Snowflake,
 
         /// <summary>
         /// Snowflakes
@@ -11334,7 +14164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// snowflakes - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Snowflakes => FA5.Light.Snowflakes;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("snowflakes")]
+        Snowflakes,
 
         /// <summary>
         /// Snowman
@@ -11342,7 +14174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// snowman - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Snowman => FA5.Light.Snowman;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("snowman")]
+        Snowman,
 
         /// <summary>
         /// Snowmobile
@@ -11350,7 +14184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// snowmobile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Snowmobile => FA5.Light.Snowmobile;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("snowmobile")]
+        Snowmobile,
 
         /// <summary>
         /// Snowplow
@@ -11358,7 +14194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// snowplow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Snowplow => FA5.Light.Snowplow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("snowplow")]
+        Snowplow,
 
         /// <summary>
         /// Socks
@@ -11366,7 +14204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// socks - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Socks => FA5.Light.Socks;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("socks")]
+        Socks,
 
         /// <summary>
         /// Solar Panel
@@ -11374,7 +14214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// solar-panel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SolarPanel => FA5.Light.SolarPanel;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("solar-panel")]
+        SolarPanel,
 
         /// <summary>
         /// Solar System
@@ -11382,7 +14224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// solar-system - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SolarSystem => FA5.Light.SolarSystem;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("solar-system")]
+        SolarSystem,
 
         /// <summary>
         /// Sort
@@ -11390,7 +14234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sort => FA5.Light.Sort;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort")]
+        Sort,
 
         /// <summary>
         /// Sort Alphabetical Down
@@ -11398,7 +14244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-alpha-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortAlphaDown => FA5.Light.SortAlphaDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-alpha-down")]
+        SortAlphaDown,
 
         /// <summary>
         /// Alternate Sort Alphabetical Down
@@ -11406,7 +14254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-alpha-down-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortAlphaDownAlt => FA5.Light.SortAlphaDownAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-alpha-down-alt")]
+        SortAlphaDownAlt,
 
         /// <summary>
         /// Sort Alphabetical Up
@@ -11414,7 +14264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-alpha-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortAlphaUp => FA5.Light.SortAlphaUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-alpha-up")]
+        SortAlphaUp,
 
         /// <summary>
         /// Alternate Sort Alphabetical Up
@@ -11422,7 +14274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-alpha-up-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortAlphaUpAlt => FA5.Light.SortAlphaUpAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-alpha-up-alt")]
+        SortAlphaUpAlt,
 
         /// <summary>
         /// Alternate Sort
@@ -11430,7 +14284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortAlt => FA5.Light.SortAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-alt")]
+        SortAlt,
 
         /// <summary>
         /// Sort Amount Down
@@ -11438,7 +14294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-amount-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortAmountDown => FA5.Light.SortAmountDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-amount-down")]
+        SortAmountDown,
 
         /// <summary>
         /// Alternate Sort Amount Down
@@ -11446,7 +14304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-amount-down-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortAmountDownAlt => FA5.Light.SortAmountDownAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-amount-down-alt")]
+        SortAmountDownAlt,
 
         /// <summary>
         /// Sort Amount Up
@@ -11454,7 +14314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-amount-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortAmountUp => FA5.Light.SortAmountUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-amount-up")]
+        SortAmountUp,
 
         /// <summary>
         /// Alternate Sort Amount Up
@@ -11462,7 +14324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-amount-up-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortAmountUpAlt => FA5.Light.SortAmountUpAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-amount-up-alt")]
+        SortAmountUpAlt,
 
         /// <summary>
         /// Sort Circle
@@ -11470,7 +14334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortCircle => FA5.Light.SortCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-circle")]
+        SortCircle,
 
         /// <summary>
         /// Sort Circle Down
@@ -11478,7 +14344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-circle-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortCircleDown => FA5.Light.SortCircleDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-circle-down")]
+        SortCircleDown,
 
         /// <summary>
         /// Sort Circle Up
@@ -11486,7 +14354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-circle-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortCircleUp => FA5.Light.SortCircleUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-circle-up")]
+        SortCircleUp,
 
         /// <summary>
         /// Sort Down Descending
@@ -11494,7 +14364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortDown => FA5.Light.SortDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-down")]
+        SortDown,
 
         /// <summary>
         /// Sort Numeric Down
@@ -11502,7 +14374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-numeric-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortNumericDown => FA5.Light.SortNumericDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-numeric-down")]
+        SortNumericDown,
 
         /// <summary>
         /// Alternate Sort Numeric Down
@@ -11510,7 +14384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-numeric-down-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortNumericDownAlt => FA5.Light.SortNumericDownAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-numeric-down-alt")]
+        SortNumericDownAlt,
 
         /// <summary>
         /// Sort Numeric Up
@@ -11518,7 +14394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-numeric-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortNumericUp => FA5.Light.SortNumericUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-numeric-up")]
+        SortNumericUp,
 
         /// <summary>
         /// Alternate Sort Numeric Up
@@ -11526,7 +14404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-numeric-up-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortNumericUpAlt => FA5.Light.SortNumericUpAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-numeric-up-alt")]
+        SortNumericUpAlt,
 
         /// <summary>
         /// Sort Shapes Down
@@ -11534,7 +14414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-shapes-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortShapesDown => FA5.Light.SortShapesDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-shapes-down")]
+        SortShapesDown,
 
         /// <summary>
         /// Alternate Sort Shapes Down
@@ -11542,7 +14424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-shapes-down-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortShapesDownAlt => FA5.Light.SortShapesDownAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-shapes-down-alt")]
+        SortShapesDownAlt,
 
         /// <summary>
         /// Sort Shapes Up
@@ -11550,7 +14434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-shapes-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortShapesUp => FA5.Light.SortShapesUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-shapes-up")]
+        SortShapesUp,
 
         /// <summary>
         /// Alternate Sort Shapes Up
@@ -11558,7 +14444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-shapes-up-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortShapesUpAlt => FA5.Light.SortShapesUpAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-shapes-up-alt")]
+        SortShapesUpAlt,
 
         /// <summary>
         /// Sort Size Down
@@ -11566,7 +14454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-size-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortSizeDown => FA5.Light.SortSizeDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-size-down")]
+        SortSizeDown,
 
         /// <summary>
         /// Alternate Sort Size Down
@@ -11574,7 +14464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-size-down-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortSizeDownAlt => FA5.Light.SortSizeDownAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-size-down-alt")]
+        SortSizeDownAlt,
 
         /// <summary>
         /// Sort Size Up
@@ -11582,7 +14474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-size-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortSizeUp => FA5.Light.SortSizeUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-size-up")]
+        SortSizeUp,
 
         /// <summary>
         /// Alternate Sort Size Up
@@ -11590,7 +14484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-size-up-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortSizeUpAlt => FA5.Light.SortSizeUpAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-size-up-alt")]
+        SortSizeUpAlt,
 
         /// <summary>
         /// Sort Up Ascending
@@ -11598,7 +14494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sort-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SortUp => FA5.Light.SortUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sort-up")]
+        SortUp,
 
         /// <summary>
         /// Soup
@@ -11606,7 +14504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// soup - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Soup => FA5.Light.Soup;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("soup")]
+        Soup,
 
         /// <summary>
         /// Spa
@@ -11614,7 +14514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// spa - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Spa => FA5.Light.Spa;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("spa")]
+        Spa,
 
         /// <summary>
         /// Space Shuttle
@@ -11622,7 +14524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// space-shuttle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SpaceShuttle => FA5.Light.SpaceShuttle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("space-shuttle")]
+        SpaceShuttle,
 
         /// <summary>
         /// Moon Space Station
@@ -11630,7 +14534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// space-station-moon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SpaceStationMoon => FA5.Light.SpaceStationMoon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("space-station-moon")]
+        SpaceStationMoon,
 
         /// <summary>
         /// Moon Space Station Under Construction
@@ -11638,7 +14544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// space-station-moon-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SpaceStationMoonAlt => FA5.Light.SpaceStationMoonAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("space-station-moon-alt")]
+        SpaceStationMoonAlt,
 
         /// <summary>
         /// Spade
@@ -11646,7 +14554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// spade - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Spade => FA5.Light.Spade;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("spade")]
+        Spade,
 
         /// <summary>
         /// Sparkles
@@ -11654,7 +14564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sparkles - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sparkles => FA5.Light.Sparkles;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sparkles")]
+        Sparkles,
 
         /// <summary>
         /// Speaker
@@ -11662,7 +14574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// speaker - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Speaker => FA5.Light.Speaker;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("speaker")]
+        Speaker,
 
         /// <summary>
         /// Speakers
@@ -11670,7 +14584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// speakers - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Speakers => FA5.Light.Speakers;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("speakers")]
+        Speakers,
 
         /// <summary>
         /// Spell Check
@@ -11678,7 +14594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// spell-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SpellCheck => FA5.Light.SpellCheck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("spell-check")]
+        SpellCheck,
 
         /// <summary>
         /// Spider
@@ -11686,7 +14604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// spider - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Spider => FA5.Light.Spider;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("spider")]
+        Spider,
 
         /// <summary>
         /// Black Widow Spider
@@ -11694,7 +14614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// spider-black-widow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SpiderBlackWidow => FA5.Light.SpiderBlackWidow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("spider-black-widow")]
+        SpiderBlackWidow,
 
         /// <summary>
         /// Spider Web
@@ -11702,7 +14624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// spider-web - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SpiderWeb => FA5.Light.SpiderWeb;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("spider-web")]
+        SpiderWeb,
 
         /// <summary>
         /// Spinner
@@ -11710,7 +14634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// spinner - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Spinner => FA5.Light.Spinner;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("spinner")]
+        Spinner,
 
         /// <summary>
         /// Spinner Third
@@ -11718,7 +14644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// spinner-third - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SpinnerThird => FA5.Light.SpinnerThird;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("spinner-third")]
+        SpinnerThird,
 
         /// <summary>
         /// Splotch
@@ -11726,7 +14654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// splotch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Splotch => FA5.Light.Splotch;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("splotch")]
+        Splotch,
 
         /// <summary>
         /// Spray Can
@@ -11734,7 +14664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// spray-can - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SprayCan => FA5.Light.SprayCan;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("spray-can")]
+        SprayCan,
 
         /// <summary>
         /// Sprinkler
@@ -11742,7 +14674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sprinkler - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sprinkler => FA5.Light.Sprinkler;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sprinkler")]
+        Sprinkler,
 
         /// <summary>
         /// Square
@@ -11750,7 +14684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Square => FA5.Light.Square;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("square")]
+        Square,
 
         /// <summary>
         /// Square Full
@@ -11758,7 +14694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// square-full - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SquareFull => FA5.Light.SquareFull;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("square-full")]
+        SquareFull,
 
         /// <summary>
         /// Square Root
@@ -11766,7 +14704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// square-root - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SquareRoot => FA5.Light.SquareRoot;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("square-root")]
+        SquareRoot,
 
         /// <summary>
         /// Alternate Square Root
@@ -11774,7 +14714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// square-root-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SquareRootAlt => FA5.Light.SquareRootAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("square-root-alt")]
+        SquareRootAlt,
 
         /// <summary>
         /// Squirrel
@@ -11782,7 +14724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// squirrel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Squirrel => FA5.Light.Squirrel;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("squirrel")]
+        Squirrel,
 
         /// <summary>
         /// Staff
@@ -11790,7 +14734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// staff - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Staff => FA5.Light.Staff;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("staff")]
+        Staff,
 
         /// <summary>
         /// Stamp
@@ -11798,7 +14744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// stamp - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Stamp => FA5.Light.Stamp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("stamp")]
+        Stamp,
 
         /// <summary>
         /// Star
@@ -11806,7 +14754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// star - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Star => FA5.Light.Star;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("star")]
+        Star,
 
         /// <summary>
         /// Star And Crescent
@@ -11814,7 +14764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// star-and-crescent - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StarAndCrescent => FA5.Light.StarAndCrescent;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("star-and-crescent")]
+        StarAndCrescent,
 
         /// <summary>
         /// Christmas Star
@@ -11822,7 +14774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// star-christmas - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StarChristmas => FA5.Light.StarChristmas;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("star-christmas")]
+        StarChristmas,
 
         /// <summary>
         /// Exclamation Star
@@ -11830,7 +14784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// star-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StarExclamation => FA5.Light.StarExclamation;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("star-exclamation")]
+        StarExclamation,
 
         /// <summary>
         /// Star Half
@@ -11838,7 +14794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// star-half - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StarHalf => FA5.Light.StarHalf;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("star-half")]
+        StarHalf,
 
         /// <summary>
         /// Alternate Star Half
@@ -11846,7 +14804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// star-half-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StarHalfAlt => FA5.Light.StarHalfAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("star-half-alt")]
+        StarHalfAlt,
 
         /// <summary>
         /// Star Of David
@@ -11854,7 +14814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// star-of-david - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StarOfDavid => FA5.Light.StarOfDavid;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("star-of-david")]
+        StarOfDavid,
 
         /// <summary>
         /// Star Of Life
@@ -11862,7 +14824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// star-of-life - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StarOfLife => FA5.Light.StarOfLife;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("star-of-life")]
+        StarOfLife,
 
         /// <summary>
         /// Star Shooting
@@ -11870,7 +14834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// star-shooting - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StarShooting => FA5.Light.StarShooting;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("star-shooting")]
+        StarShooting,
 
         /// <summary>
         /// Starfighter
@@ -11878,7 +14844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// starfighter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Starfighter => FA5.Light.Starfighter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("starfighter")]
+        Starfighter,
 
         /// <summary>
         /// Starfighter Alternate
@@ -11886,7 +14854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// starfighter-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StarfighterAlt => FA5.Light.StarfighterAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("starfighter-alt")]
+        StarfighterAlt,
 
         /// <summary>
         /// Stars
@@ -11894,7 +14864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// stars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Stars => FA5.Light.Stars;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("stars")]
+        Stars,
 
         /// <summary>
         /// Starship
@@ -11902,7 +14874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// starship - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Starship => FA5.Light.Starship;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("starship")]
+        Starship,
 
         /// <summary>
         /// Starship Freighter
@@ -11910,7 +14884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// starship-freighter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StarshipFreighter => FA5.Light.StarshipFreighter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("starship-freighter")]
+        StarshipFreighter,
 
         /// <summary>
         /// Steak
@@ -11918,7 +14894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// steak - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Steak => FA5.Light.Steak;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("steak")]
+        Steak,
 
         /// <summary>
         /// Wheel Steering
@@ -11926,7 +14904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// steering-wheel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SteeringWheel => FA5.Light.SteeringWheel;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("steering-wheel")]
+        SteeringWheel,
 
         /// <summary>
         /// Step Backward
@@ -11934,7 +14914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// step-backward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StepBackward => FA5.Light.StepBackward;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("step-backward")]
+        StepBackward,
 
         /// <summary>
         /// Step Forward
@@ -11942,7 +14924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// step-forward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StepForward => FA5.Light.StepForward;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("step-forward")]
+        StepForward,
 
         /// <summary>
         /// Stethoscope
@@ -11950,7 +14934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// stethoscope - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Stethoscope => FA5.Light.Stethoscope;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("stethoscope")]
+        Stethoscope,
 
         /// <summary>
         /// Sticky Note
@@ -11958,7 +14944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sticky-note - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StickyNote => FA5.Light.StickyNote;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sticky-note")]
+        StickyNote,
 
         /// <summary>
         /// Stocking
@@ -11966,7 +14954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// stocking - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Stocking => FA5.Light.Stocking;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("stocking")]
+        Stocking,
 
         /// <summary>
         /// Stomach
@@ -11974,7 +14964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// stomach - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Stomach => FA5.Light.Stomach;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("stomach")]
+        Stomach,
 
         /// <summary>
         /// Stop
@@ -11982,7 +14974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// stop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Stop => FA5.Light.Stop;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("stop")]
+        Stop,
 
         /// <summary>
         /// Stop Circle
@@ -11990,7 +14984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// stop-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StopCircle => FA5.Light.StopCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("stop-circle")]
+        StopCircle,
 
         /// <summary>
         /// Stopwatch
@@ -11998,7 +14994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// stopwatch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Stopwatch => FA5.Light.Stopwatch;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("stopwatch")]
+        Stopwatch,
 
         /// <summary>
         /// Store
@@ -12006,7 +15004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// store - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Store => FA5.Light.Store;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("store")]
+        Store,
 
         /// <summary>
         /// Alternate Store
@@ -12014,7 +15014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// store-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StoreAlt => FA5.Light.StoreAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("store-alt")]
+        StoreAlt,
 
         /// <summary>
         /// Stream
@@ -12022,7 +15024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// stream - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Stream => FA5.Light.Stream;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("stream")]
+        Stream,
 
         /// <summary>
         /// Street View
@@ -12030,7 +15034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// street-view - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon StreetView => FA5.Light.StreetView;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("street-view")]
+        StreetView,
 
         /// <summary>
         /// Stretcher
@@ -12038,7 +15044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// stretcher - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Stretcher => FA5.Light.Stretcher;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("stretcher")]
+        Stretcher,
 
         /// <summary>
         /// Strikethrough
@@ -12046,7 +15054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// strikethrough - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Strikethrough => FA5.Light.Strikethrough;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("strikethrough")]
+        Strikethrough,
 
         /// <summary>
         /// Stroopwafel
@@ -12054,7 +15064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// stroopwafel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Stroopwafel => FA5.Light.Stroopwafel;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("stroopwafel")]
+        Stroopwafel,
 
         /// <summary>
         /// Subscript
@@ -12062,7 +15074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// subscript - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Subscript => FA5.Light.Subscript;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("subscript")]
+        Subscript,
 
         /// <summary>
         /// Subway
@@ -12070,7 +15084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// subway - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Subway => FA5.Light.Subway;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("subway")]
+        Subway,
 
         /// <summary>
         /// Suitcase
@@ -12078,7 +15094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// suitcase - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Suitcase => FA5.Light.Suitcase;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("suitcase")]
+        Suitcase,
 
         /// <summary>
         /// Suitcase Rolling
@@ -12086,7 +15104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// suitcase-rolling - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SuitcaseRolling => FA5.Light.SuitcaseRolling;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("suitcase-rolling")]
+        SuitcaseRolling,
 
         /// <summary>
         /// Sun
@@ -12094,7 +15114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sun - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sun => FA5.Light.Sun;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sun")]
+        Sun,
 
         /// <summary>
         /// Sun With Cloud
@@ -12102,7 +15124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sun-cloud - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SunCloud => FA5.Light.SunCloud;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sun-cloud")]
+        SunCloud,
 
         /// <summary>
         /// Sun Dust
@@ -12110,7 +15134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sun-dust - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SunDust => FA5.Light.SunDust;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sun-dust")]
+        SunDust,
 
         /// <summary>
         /// Sun Haze
@@ -12118,7 +15144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sun-haze - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SunHaze => FA5.Light.SunHaze;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sun-haze")]
+        SunHaze,
 
         /// <summary>
         /// Sunglasses
@@ -12126,7 +15154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sunglasses - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sunglasses => FA5.Light.Sunglasses;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sunglasses")]
+        Sunglasses,
 
         /// <summary>
         /// Sunrise
@@ -12134,7 +15164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sunrise - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sunrise => FA5.Light.Sunrise;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sunrise")]
+        Sunrise,
 
         /// <summary>
         /// Sunset
@@ -12142,7 +15174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sunset - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sunset => FA5.Light.Sunset;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sunset")]
+        Sunset,
 
         /// <summary>
         /// Superscript
@@ -12150,7 +15184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// superscript - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Superscript => FA5.Light.Superscript;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("superscript")]
+        Superscript,
 
         /// <summary>
         /// Hushed Face
@@ -12158,7 +15194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// surprise - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Surprise => FA5.Light.Surprise;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("surprise")]
+        Surprise,
 
         /// <summary>
         /// Swatchbook
@@ -12166,7 +15204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// swatchbook - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Swatchbook => FA5.Light.Swatchbook;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("swatchbook")]
+        Swatchbook,
 
         /// <summary>
         /// Swimmer
@@ -12174,7 +15214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// swimmer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Swimmer => FA5.Light.Swimmer;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("swimmer")]
+        Swimmer,
 
         /// <summary>
         /// Swimming Pool
@@ -12182,7 +15224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// swimming-pool - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SwimmingPool => FA5.Light.SwimmingPool;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("swimming-pool")]
+        SwimmingPool,
 
         /// <summary>
         /// Sword
@@ -12190,7 +15234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sword - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sword => FA5.Light.Sword;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sword")]
+        Sword,
 
         /// <summary>
         /// Sword Laser
@@ -12198,7 +15244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sword-laser - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SwordLaser => FA5.Light.SwordLaser;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sword-laser")]
+        SwordLaser,
 
         /// <summary>
         /// Sword Laser Alternate
@@ -12206,7 +15254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sword-laser-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SwordLaserAlt => FA5.Light.SwordLaserAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sword-laser-alt")]
+        SwordLaserAlt,
 
         /// <summary>
         /// Swords
@@ -12214,7 +15264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// swords - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Swords => FA5.Light.Swords;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("swords")]
+        Swords,
 
         /// <summary>
         /// Swords Laser
@@ -12222,7 +15274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// swords-laser - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SwordsLaser => FA5.Light.SwordsLaser;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("swords-laser")]
+        SwordsLaser,
 
         /// <summary>
         /// Synagogue
@@ -12230,7 +15284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// synagogue - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Synagogue => FA5.Light.Synagogue;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("synagogue")]
+        Synagogue,
 
         /// <summary>
         /// Sync
@@ -12238,7 +15294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sync - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Sync => FA5.Light.Sync;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sync")]
+        Sync,
 
         /// <summary>
         /// Alternate Sync
@@ -12246,7 +15304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// sync-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon SyncAlt => FA5.Light.SyncAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("sync-alt")]
+        SyncAlt,
 
         /// <summary>
         /// Syringe
@@ -12254,7 +15314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// syringe - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Syringe => FA5.Light.Syringe;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("syringe")]
+        Syringe,
 
         /// <summary>
         /// Table
@@ -12262,7 +15324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// table - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Table => FA5.Light.Table;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("table")]
+        Table,
 
         /// <summary>
         /// Table Tennis
@@ -12270,7 +15334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// table-tennis - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TableTennis => FA5.Light.TableTennis;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("table-tennis")]
+        TableTennis,
 
         /// <summary>
         /// Tablet
@@ -12278,7 +15344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tablet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tablet => FA5.Light.Tablet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tablet")]
+        Tablet,
 
         /// <summary>
         /// Alternate Tablet
@@ -12286,7 +15354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tablet-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TabletAlt => FA5.Light.TabletAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tablet-alt")]
+        TabletAlt,
 
         /// <summary>
         /// Tablet Android
@@ -12294,7 +15364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tablet-android - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TabletAndroid => FA5.Light.TabletAndroid;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tablet-android")]
+        TabletAndroid,
 
         /// <summary>
         /// Alternate Tablet Android
@@ -12302,7 +15374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tablet-android-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TabletAndroidAlt => FA5.Light.TabletAndroidAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tablet-android-alt")]
+        TabletAndroidAlt,
 
         /// <summary>
         /// Rugged Tablet
@@ -12310,7 +15384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tablet-rugged - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TabletRugged => FA5.Light.TabletRugged;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tablet-rugged")]
+        TabletRugged,
 
         /// <summary>
         /// Tablets
@@ -12318,7 +15394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tablets - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tablets => FA5.Light.Tablets;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tablets")]
+        Tablets,
 
         /// <summary>
         /// Tachometer
@@ -12326,7 +15404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tachometer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tachometer => FA5.Light.Tachometer;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tachometer")]
+        Tachometer,
 
         /// <summary>
         /// Alternate Tachometer
@@ -12334,7 +15414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tachometer-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TachometerAlt => FA5.Light.TachometerAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tachometer-alt")]
+        TachometerAlt,
 
         /// <summary>
         /// Alternate Tachometer Average
@@ -12342,7 +15424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tachometer-alt-average - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TachometerAltAverage => FA5.Light.TachometerAltAverage;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tachometer-alt-average")]
+        TachometerAltAverage,
 
         /// <summary>
         /// Alternate Tachometer Fast
@@ -12350,7 +15434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tachometer-alt-fast - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TachometerAltFast => FA5.Light.TachometerAltFast;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tachometer-alt-fast")]
+        TachometerAltFast,
 
         /// <summary>
         /// Alternate Tachometer Fastest
@@ -12358,7 +15444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tachometer-alt-fastest - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TachometerAltFastest => FA5.Light.TachometerAltFastest;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tachometer-alt-fastest")]
+        TachometerAltFastest,
 
         /// <summary>
         /// Alternate Tachometer Slow
@@ -12366,7 +15454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tachometer-alt-slow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TachometerAltSlow => FA5.Light.TachometerAltSlow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tachometer-alt-slow")]
+        TachometerAltSlow,
 
         /// <summary>
         /// Alternate Tachometer Slowest
@@ -12374,7 +15464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tachometer-alt-slowest - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TachometerAltSlowest => FA5.Light.TachometerAltSlowest;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tachometer-alt-slowest")]
+        TachometerAltSlowest,
 
         /// <summary>
         /// Tachometer Average
@@ -12382,7 +15474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tachometer-average - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TachometerAverage => FA5.Light.TachometerAverage;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tachometer-average")]
+        TachometerAverage,
 
         /// <summary>
         /// Tachometer Fast
@@ -12390,7 +15484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tachometer-fast - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TachometerFast => FA5.Light.TachometerFast;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tachometer-fast")]
+        TachometerFast,
 
         /// <summary>
         /// Tachometer Fastest
@@ -12398,7 +15494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tachometer-fastest - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TachometerFastest => FA5.Light.TachometerFastest;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tachometer-fastest")]
+        TachometerFastest,
 
         /// <summary>
         /// Tachometer Slow
@@ -12406,7 +15504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tachometer-slow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TachometerSlow => FA5.Light.TachometerSlow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tachometer-slow")]
+        TachometerSlow,
 
         /// <summary>
         /// Tachometer Slowest
@@ -12414,7 +15514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tachometer-slowest - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TachometerSlowest => FA5.Light.TachometerSlowest;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tachometer-slowest")]
+        TachometerSlowest,
 
         /// <summary>
         /// Taco
@@ -12422,7 +15524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// taco - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Taco => FA5.Light.Taco;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("taco")]
+        Taco,
 
         /// <summary>
         /// Tag
@@ -12430,7 +15534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tag - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tag => FA5.Light.Tag;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tag")]
+        Tag,
 
         /// <summary>
         /// Tags
@@ -12438,7 +15544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tags - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tags => FA5.Light.Tags;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tags")]
+        Tags,
 
         /// <summary>
         /// Tally
@@ -12446,7 +15554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tally - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tally => FA5.Light.Tally;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tally")]
+        Tally,
 
         /// <summary>
         /// Tanakh
@@ -12454,7 +15564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tanakh - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tanakh => FA5.Light.Tanakh;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tanakh")]
+        Tanakh,
 
         /// <summary>
         /// Tape
@@ -12462,7 +15574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tape - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tape => FA5.Light.Tape;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tape")]
+        Tape,
 
         /// <summary>
         /// Tasks
@@ -12470,7 +15584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tasks - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tasks => FA5.Light.Tasks;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tasks")]
+        Tasks,
 
         /// <summary>
         /// Alternate Tasks
@@ -12478,7 +15594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tasks-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TasksAlt => FA5.Light.TasksAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tasks-alt")]
+        TasksAlt,
 
         /// <summary>
         /// Taxi
@@ -12486,7 +15604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// taxi - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Taxi => FA5.Light.Taxi;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("taxi")]
+        Taxi,
 
         /// <summary>
         /// Teeth
@@ -12494,7 +15614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// teeth - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Teeth => FA5.Light.Teeth;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("teeth")]
+        Teeth,
 
         /// <summary>
         /// Teeth Open
@@ -12502,7 +15624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// teeth-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TeethOpen => FA5.Light.TeethOpen;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("teeth-open")]
+        TeethOpen,
 
         /// <summary>
         /// Telescope
@@ -12510,7 +15634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// telescope - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Telescope => FA5.Light.Telescope;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("telescope")]
+        Telescope,
 
         /// <summary>
         /// Temperature Down
@@ -12518,7 +15644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// temperature-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TemperatureDown => FA5.Light.TemperatureDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("temperature-down")]
+        TemperatureDown,
 
         /// <summary>
         /// Temperature Frigid
@@ -12526,7 +15654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// temperature-frigid - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TemperatureFrigid => FA5.Light.TemperatureFrigid;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("temperature-frigid")]
+        TemperatureFrigid,
 
         /// <summary>
         /// High Temperature
@@ -12534,7 +15664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// temperature-high - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TemperatureHigh => FA5.Light.TemperatureHigh;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("temperature-high")]
+        TemperatureHigh,
 
         /// <summary>
         /// Temperature Hot
@@ -12542,7 +15674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// temperature-hot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TemperatureHot => FA5.Light.TemperatureHot;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("temperature-hot")]
+        TemperatureHot,
 
         /// <summary>
         /// Low Temperature
@@ -12550,7 +15684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// temperature-low - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TemperatureLow => FA5.Light.TemperatureLow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("temperature-low")]
+        TemperatureLow,
 
         /// <summary>
         /// Temperature Up
@@ -12558,7 +15694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// temperature-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TemperatureUp => FA5.Light.TemperatureUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("temperature-up")]
+        TemperatureUp,
 
         /// <summary>
         /// Tenge
@@ -12566,7 +15704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tenge - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tenge => FA5.Light.Tenge;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tenge")]
+        Tenge,
 
         /// <summary>
         /// Tennis Ball
@@ -12574,7 +15714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tennis-ball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TennisBall => FA5.Light.TennisBall;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tennis-ball")]
+        TennisBall,
 
         /// <summary>
         /// Terminal
@@ -12582,7 +15724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// terminal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Terminal => FA5.Light.Terminal;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("terminal")]
+        Terminal,
 
         /// <summary>
         /// Text
@@ -12590,7 +15734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// text - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Text => FA5.Light.Text;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("text")]
+        Text,
 
         /// <summary>
         /// Text Height
@@ -12598,7 +15744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// text-height - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TextHeight => FA5.Light.TextHeight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("text-height")]
+        TextHeight,
 
         /// <summary>
         /// Text Size
@@ -12606,7 +15754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// text-size - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TextSize => FA5.Light.TextSize;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("text-size")]
+        TextSize,
 
         /// <summary>
         /// Text Width
@@ -12614,7 +15764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// text-width - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TextWidth => FA5.Light.TextWidth;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("text-width")]
+        TextWidth,
 
         /// <summary>
         /// Th
@@ -12622,7 +15774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// th - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Th => FA5.Light.Th;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("th")]
+        Th,
 
         /// <summary>
         /// Th Large
@@ -12630,7 +15784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// th-large - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ThLarge => FA5.Light.ThLarge;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("th-large")]
+        ThLarge,
 
         /// <summary>
         /// Th List
@@ -12638,7 +15794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// th-list - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ThList => FA5.Light.ThList;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("th-list")]
+        ThList,
 
         /// <summary>
         /// Theater Masks
@@ -12646,7 +15804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// theater-masks - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TheaterMasks => FA5.Light.TheaterMasks;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("theater-masks")]
+        TheaterMasks,
 
         /// <summary>
         /// Thermometer
@@ -12654,7 +15814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// thermometer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Thermometer => FA5.Light.Thermometer;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("thermometer")]
+        Thermometer,
 
         /// <summary>
         /// Thermometer Empty
@@ -12662,7 +15824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// thermometer-empty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ThermometerEmpty => FA5.Light.ThermometerEmpty;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("thermometer-empty")]
+        ThermometerEmpty,
 
         /// <summary>
         /// Thermometer Full
@@ -12670,7 +15834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// thermometer-full - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ThermometerFull => FA5.Light.ThermometerFull;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("thermometer-full")]
+        ThermometerFull,
 
         /// <summary>
         /// Thermometer 1 2 Full
@@ -12678,7 +15844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// thermometer-half - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ThermometerHalf => FA5.Light.ThermometerHalf;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("thermometer-half")]
+        ThermometerHalf,
 
         /// <summary>
         /// Thermometer 1 4 Full
@@ -12686,7 +15854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// thermometer-quarter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ThermometerQuarter => FA5.Light.ThermometerQuarter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("thermometer-quarter")]
+        ThermometerQuarter,
 
         /// <summary>
         /// Thermometer 3 4 Full
@@ -12694,7 +15864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// thermometer-three-quarters - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ThermometerThreeQuarters => FA5.Light.ThermometerThreeQuarters;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("thermometer-three-quarters")]
+        ThermometerThreeQuarters,
 
         /// <summary>
         /// Theta
@@ -12702,7 +15874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// theta - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Theta => FA5.Light.Theta;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("theta")]
+        Theta,
 
         /// <summary>
         /// Thumbs Down
@@ -12710,7 +15884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// thumbs-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ThumbsDown => FA5.Light.ThumbsDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("thumbs-down")]
+        ThumbsDown,
 
         /// <summary>
         /// Thumbs Up
@@ -12718,7 +15894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// thumbs-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ThumbsUp => FA5.Light.ThumbsUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("thumbs-up")]
+        ThumbsUp,
 
         /// <summary>
         /// Thumbtack
@@ -12726,7 +15904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// thumbtack - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Thumbtack => FA5.Light.Thumbtack;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("thumbtack")]
+        Thumbtack,
 
         /// <summary>
         /// Thunderstorm
@@ -12734,7 +15914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// thunderstorm - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Thunderstorm => FA5.Light.Thunderstorm;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("thunderstorm")]
+        Thunderstorm,
 
         /// <summary>
         /// Thunderstorm With Moon
@@ -12742,7 +15924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// thunderstorm-moon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ThunderstormMoon => FA5.Light.ThunderstormMoon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("thunderstorm-moon")]
+        ThunderstormMoon,
 
         /// <summary>
         /// Thunderstorm With Sun
@@ -12750,7 +15934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// thunderstorm-sun - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ThunderstormSun => FA5.Light.ThunderstormSun;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("thunderstorm-sun")]
+        ThunderstormSun,
 
         /// <summary>
         /// Ticket
@@ -12758,7 +15944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ticket - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ticket => FA5.Light.Ticket;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ticket")]
+        Ticket,
 
         /// <summary>
         /// Alternate Ticket
@@ -12766,7 +15954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ticket-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TicketAlt => FA5.Light.TicketAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ticket-alt")]
+        TicketAlt,
 
         /// <summary>
         /// Tilde
@@ -12774,7 +15964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tilde - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tilde => FA5.Light.Tilde;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tilde")]
+        Tilde,
 
         /// <summary>
         /// Times
@@ -12782,7 +15974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Times => FA5.Light.Times;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("times")]
+        Times,
 
         /// <summary>
         /// Times Circle
@@ -12790,7 +15984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// times-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TimesCircle => FA5.Light.TimesCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("times-circle")]
+        TimesCircle,
 
         /// <summary>
         /// Times Hexagon
@@ -12798,7 +15994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// times-hexagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TimesHexagon => FA5.Light.TimesHexagon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("times-hexagon")]
+        TimesHexagon,
 
         /// <summary>
         /// Times Octagon
@@ -12806,7 +16004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// times-octagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TimesOctagon => FA5.Light.TimesOctagon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("times-octagon")]
+        TimesOctagon,
 
         /// <summary>
         /// Times Square
@@ -12814,7 +16014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// times-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TimesSquare => FA5.Light.TimesSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("times-square")]
+        TimesSquare,
 
         /// <summary>
         /// Tint
@@ -12822,7 +16024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tint => FA5.Light.Tint;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tint")]
+        Tint,
 
         /// <summary>
         /// Tint Slash
@@ -12830,7 +16034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tint-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TintSlash => FA5.Light.TintSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tint-slash")]
+        TintSlash,
 
         /// <summary>
         /// Tire
@@ -12838,7 +16044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tire - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tire => FA5.Light.Tire;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tire")]
+        Tire,
 
         /// <summary>
         /// Tire Flat
@@ -12846,7 +16054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tire-flat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TireFlat => FA5.Light.TireFlat;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tire-flat")]
+        TireFlat,
 
         /// <summary>
         /// Tire Pressure Warning
@@ -12854,7 +16064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tire-pressure-warning - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TirePressureWarning => FA5.Light.TirePressureWarning;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tire-pressure-warning")]
+        TirePressureWarning,
 
         /// <summary>
         /// Tire Rugged
@@ -12862,7 +16074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tire-rugged - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TireRugged => FA5.Light.TireRugged;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tire-rugged")]
+        TireRugged,
 
         /// <summary>
         /// Tired Face
@@ -12870,7 +16084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tired - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tired => FA5.Light.Tired;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tired")]
+        Tired,
 
         /// <summary>
         /// Toggle Off
@@ -12878,7 +16094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// toggle-off - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ToggleOff => FA5.Light.ToggleOff;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("toggle-off")]
+        ToggleOff,
 
         /// <summary>
         /// Toggle On
@@ -12886,7 +16104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// toggle-on - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ToggleOn => FA5.Light.ToggleOn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("toggle-on")]
+        ToggleOn,
 
         /// <summary>
         /// Toilet
@@ -12894,7 +16114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// toilet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Toilet => FA5.Light.Toilet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("toilet")]
+        Toilet,
 
         /// <summary>
         /// Toilet Paper
@@ -12902,7 +16124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// toilet-paper - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ToiletPaper => FA5.Light.ToiletPaper;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("toilet-paper")]
+        ToiletPaper,
 
         /// <summary>
         /// Alternate Toilet Paper
@@ -12910,7 +16134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// toilet-paper-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ToiletPaperAlt => FA5.Light.ToiletPaperAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("toilet-paper-alt")]
+        ToiletPaperAlt,
 
         /// <summary>
         /// Tombstone
@@ -12918,7 +16144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tombstone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tombstone => FA5.Light.Tombstone;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tombstone")]
+        Tombstone,
 
         /// <summary>
         /// Alternate Tombstone
@@ -12926,7 +16154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tombstone-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TombstoneAlt => FA5.Light.TombstoneAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tombstone-alt")]
+        TombstoneAlt,
 
         /// <summary>
         /// Toolbox
@@ -12934,7 +16164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// toolbox - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Toolbox => FA5.Light.Toolbox;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("toolbox")]
+        Toolbox,
 
         /// <summary>
         /// Tools
@@ -12942,7 +16174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tools - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tools => FA5.Light.Tools;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tools")]
+        Tools,
 
         /// <summary>
         /// Tooth
@@ -12950,7 +16184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tooth - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tooth => FA5.Light.Tooth;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tooth")]
+        Tooth,
 
         /// <summary>
         /// Toothbrush
@@ -12958,7 +16194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// toothbrush - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Toothbrush => FA5.Light.Toothbrush;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("toothbrush")]
+        Toothbrush,
 
         /// <summary>
         /// Torah
@@ -12966,7 +16204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// torah - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Torah => FA5.Light.Torah;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("torah")]
+        Torah,
 
         /// <summary>
         /// Torii Gate
@@ -12974,7 +16214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// torii-gate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ToriiGate => FA5.Light.ToriiGate;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("torii-gate")]
+        ToriiGate,
 
         /// <summary>
         /// Tornado
@@ -12982,7 +16224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tornado - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tornado => FA5.Light.Tornado;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tornado")]
+        Tornado,
 
         /// <summary>
         /// Tractor
@@ -12990,7 +16234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tractor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tractor => FA5.Light.Tractor;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tractor")]
+        Tractor,
 
         /// <summary>
         /// Trademark
@@ -12998,7 +16244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// trademark - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Trademark => FA5.Light.Trademark;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("trademark")]
+        Trademark,
 
         /// <summary>
         /// Traffic Cone
@@ -13006,7 +16254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// traffic-cone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TrafficCone => FA5.Light.TrafficCone;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("traffic-cone")]
+        TrafficCone,
 
         /// <summary>
         /// Traffic Light
@@ -13014,7 +16264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// traffic-light - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TrafficLight => FA5.Light.TrafficLight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("traffic-light")]
+        TrafficLight,
 
         /// <summary>
         /// Traffic Light Go
@@ -13022,7 +16274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// traffic-light-go - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TrafficLightGo => FA5.Light.TrafficLightGo;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("traffic-light-go")]
+        TrafficLightGo,
 
         /// <summary>
         /// Traffic Light Slow
@@ -13030,7 +16284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// traffic-light-slow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TrafficLightSlow => FA5.Light.TrafficLightSlow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("traffic-light-slow")]
+        TrafficLightSlow,
 
         /// <summary>
         /// Traffic Light Stop
@@ -13038,7 +16294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// traffic-light-stop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TrafficLightStop => FA5.Light.TrafficLightStop;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("traffic-light-stop")]
+        TrafficLightStop,
 
         /// <summary>
         /// Trailer
@@ -13046,7 +16304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// trailer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Trailer => FA5.Light.Trailer;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("trailer")]
+        Trailer,
 
         /// <summary>
         /// Train
@@ -13054,7 +16314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// train - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Train => FA5.Light.Train;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("train")]
+        Train,
 
         /// <summary>
         /// Tram
@@ -13062,7 +16324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tram - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tram => FA5.Light.Tram;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tram")]
+        Tram,
 
         /// <summary>
         /// Transgender
@@ -13070,7 +16334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// transgender - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Transgender => FA5.Light.Transgender;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("transgender")]
+        Transgender,
 
         /// <summary>
         /// Alternate Transgender
@@ -13078,7 +16344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// transgender-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TransgenderAlt => FA5.Light.TransgenderAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("transgender-alt")]
+        TransgenderAlt,
 
         /// <summary>
         /// Transporter
@@ -13086,7 +16354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// transporter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Transporter => FA5.Light.Transporter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("transporter")]
+        Transporter,
 
         /// <summary>
         /// Transporter 1
@@ -13094,7 +16364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// transporter-1 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Transporter1 => FA5.Light.Transporter1;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("transporter-1")]
+        Transporter1,
 
         /// <summary>
         /// Transporter 2
@@ -13102,7 +16374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// transporter-2 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Transporter2 => FA5.Light.Transporter2;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("transporter-2")]
+        Transporter2,
 
         /// <summary>
         /// Transporter 3
@@ -13110,7 +16384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// transporter-3 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Transporter3 => FA5.Light.Transporter3;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("transporter-3")]
+        Transporter3,
 
         /// <summary>
         /// Transporter Empty
@@ -13118,7 +16394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// transporter-empty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TransporterEmpty => FA5.Light.TransporterEmpty;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("transporter-empty")]
+        TransporterEmpty,
 
         /// <summary>
         /// Trash
@@ -13126,7 +16404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// trash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Trash => FA5.Light.Trash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("trash")]
+        Trash,
 
         /// <summary>
         /// Alternate Trash
@@ -13134,7 +16414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// trash-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TrashAlt => FA5.Light.TrashAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("trash-alt")]
+        TrashAlt,
 
         /// <summary>
         /// Trash Restore
@@ -13142,7 +16424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// trash-restore - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TrashRestore => FA5.Light.TrashRestore;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("trash-restore")]
+        TrashRestore,
 
         /// <summary>
         /// Alternative Trash Restore
@@ -13150,7 +16434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// trash-restore-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TrashRestoreAlt => FA5.Light.TrashRestoreAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("trash-restore-alt")]
+        TrashRestoreAlt,
 
         /// <summary>
         /// Trash Undo
@@ -13158,7 +16444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// trash-undo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TrashUndo => FA5.Light.TrashUndo;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("trash-undo")]
+        TrashUndo,
 
         /// <summary>
         /// Alternate Trash Undo
@@ -13166,7 +16454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// trash-undo-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TrashUndoAlt => FA5.Light.TrashUndoAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("trash-undo-alt")]
+        TrashUndoAlt,
 
         /// <summary>
         /// Treasure Chest
@@ -13174,7 +16464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// treasure-chest - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TreasureChest => FA5.Light.TreasureChest;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("treasure-chest")]
+        TreasureChest,
 
         /// <summary>
         /// Tree
@@ -13182,7 +16474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tree - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tree => FA5.Light.Tree;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tree")]
+        Tree,
 
         /// <summary>
         /// Alternate Tree
@@ -13190,7 +16484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tree-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TreeAlt => FA5.Light.TreeAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tree-alt")]
+        TreeAlt,
 
         /// <summary>
         /// Christmas Tree
@@ -13198,7 +16494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tree-christmas - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TreeChristmas => FA5.Light.TreeChristmas;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tree-christmas")]
+        TreeChristmas,
 
         /// <summary>
         /// Tree Decorated
@@ -13206,7 +16504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tree-decorated - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TreeDecorated => FA5.Light.TreeDecorated;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tree-decorated")]
+        TreeDecorated,
 
         /// <summary>
         /// Tree Large
@@ -13214,7 +16514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tree-large - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TreeLarge => FA5.Light.TreeLarge;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tree-large")]
+        TreeLarge,
 
         /// <summary>
         /// Palm Tree
@@ -13222,7 +16524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tree-palm - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TreePalm => FA5.Light.TreePalm;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tree-palm")]
+        TreePalm,
 
         /// <summary>
         /// Trees
@@ -13230,7 +16534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// trees - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Trees => FA5.Light.Trees;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("trees")]
+        Trees,
 
         /// <summary>
         /// Triangle
@@ -13238,7 +16544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// triangle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Triangle => FA5.Light.Triangle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("triangle")]
+        Triangle,
 
         /// <summary>
         /// Musical Triangle
@@ -13246,7 +16554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// triangle-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TriangleMusic => FA5.Light.TriangleMusic;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("triangle-music")]
+        TriangleMusic,
 
         /// <summary>
         /// Trophy
@@ -13254,7 +16564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// trophy - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Trophy => FA5.Light.Trophy;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("trophy")]
+        Trophy,
 
         /// <summary>
         /// Alternate Trophy
@@ -13262,7 +16574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// trophy-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TrophyAlt => FA5.Light.TrophyAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("trophy-alt")]
+        TrophyAlt,
 
         /// <summary>
         /// Truck
@@ -13270,7 +16584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// truck - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Truck => FA5.Light.Truck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("truck")]
+        Truck,
 
         /// <summary>
         /// Truck Container
@@ -13278,7 +16594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// truck-container - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TruckContainer => FA5.Light.TruckContainer;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("truck-container")]
+        TruckContainer,
 
         /// <summary>
         /// Truck Couch
@@ -13286,7 +16604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// truck-couch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TruckCouch => FA5.Light.TruckCouch;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("truck-couch")]
+        TruckCouch,
 
         /// <summary>
         /// Truck Loading
@@ -13294,7 +16614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// truck-loading - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TruckLoading => FA5.Light.TruckLoading;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("truck-loading")]
+        TruckLoading,
 
         /// <summary>
         /// Truck Monster
@@ -13302,7 +16624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// truck-monster - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TruckMonster => FA5.Light.TruckMonster;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("truck-monster")]
+        TruckMonster,
 
         /// <summary>
         /// Truck Moving
@@ -13310,7 +16634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// truck-moving - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TruckMoving => FA5.Light.TruckMoving;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("truck-moving")]
+        TruckMoving,
 
         /// <summary>
         /// Truck Side
@@ -13318,7 +16644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// truck-pickup - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TruckPickup => FA5.Light.TruckPickup;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("truck-pickup")]
+        TruckPickup,
 
         /// <summary>
         /// Truck Plow
@@ -13326,7 +16654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// truck-plow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TruckPlow => FA5.Light.TruckPlow;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("truck-plow")]
+        TruckPlow,
 
         /// <summary>
         /// Truck Ramp
@@ -13334,7 +16664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// truck-ramp - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TruckRamp => FA5.Light.TruckRamp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("truck-ramp")]
+        TruckRamp,
 
         /// <summary>
         /// Trumpet
@@ -13342,7 +16674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// trumpet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Trumpet => FA5.Light.Trumpet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("trumpet")]
+        Trumpet,
 
         /// <summary>
         /// T Shirt
@@ -13350,7 +16684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tshirt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tshirt => FA5.Light.Tshirt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tshirt")]
+        Tshirt,
 
         /// <summary>
         /// TTY
@@ -13358,7 +16694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tty => FA5.Light.Tty;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tty")]
+        Tty,
 
         /// <summary>
         /// Turkey
@@ -13366,7 +16704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// turkey - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Turkey => FA5.Light.Turkey;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("turkey")]
+        Turkey,
 
         /// <summary>
         /// Turntable
@@ -13374,7 +16714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// turntable - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Turntable => FA5.Light.Turntable;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("turntable")]
+        Turntable,
 
         /// <summary>
         /// Turtle
@@ -13382,7 +16724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// turtle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Turtle => FA5.Light.Turtle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("turtle")]
+        Turtle,
 
         /// <summary>
         /// Television
@@ -13390,7 +16734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tv - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Tv => FA5.Light.Tv;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tv")]
+        Tv,
 
         /// <summary>
         /// Alternate Television
@@ -13398,7 +16744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tv-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TvAlt => FA5.Light.TvAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tv-alt")]
+        TvAlt,
 
         /// <summary>
         /// TV Music
@@ -13406,7 +16754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tv-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TvMusic => FA5.Light.TvMusic;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tv-music")]
+        TvMusic,
 
         /// <summary>
         /// Retro Televison
@@ -13414,7 +16764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// tv-retro - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon TvRetro => FA5.Light.TvRetro;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("tv-retro")]
+        TvRetro,
 
         /// <summary>
         /// Typewriter
@@ -13422,7 +16774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// typewriter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Typewriter => FA5.Light.Typewriter;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("typewriter")]
+        Typewriter,
 
         /// <summary>
         /// U F O
@@ -13430,7 +16784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ufo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Ufo => FA5.Light.Ufo;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ufo")]
+        Ufo,
 
         /// <summary>
         /// U F O With Beam
@@ -13438,7 +16794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// ufo-beam - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UfoBeam => FA5.Light.UfoBeam;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("ufo-beam")]
+        UfoBeam,
 
         /// <summary>
         /// Umbrella
@@ -13446,7 +16804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// umbrella - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Umbrella => FA5.Light.Umbrella;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("umbrella")]
+        Umbrella,
 
         /// <summary>
         /// Umbrella Beach
@@ -13454,7 +16814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// umbrella-beach - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UmbrellaBeach => FA5.Light.UmbrellaBeach;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("umbrella-beach")]
+        UmbrellaBeach,
 
         /// <summary>
         /// Underline
@@ -13462,7 +16824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// underline - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Underline => FA5.Light.Underline;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("underline")]
+        Underline,
 
         /// <summary>
         /// Undo
@@ -13470,7 +16834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// undo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Undo => FA5.Light.Undo;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("undo")]
+        Undo,
 
         /// <summary>
         /// Alternate Undo
@@ -13478,7 +16844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// undo-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UndoAlt => FA5.Light.UndoAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("undo-alt")]
+        UndoAlt,
 
         /// <summary>
         /// Unicorn
@@ -13486,7 +16854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// unicorn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Unicorn => FA5.Light.Unicorn;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("unicorn")]
+        Unicorn,
 
         /// <summary>
         /// Union
@@ -13494,7 +16864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// union - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Union => FA5.Light.Union;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("union")]
+        Union,
 
         /// <summary>
         /// Universal Access
@@ -13502,7 +16874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// universal-access - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UniversalAccess => FA5.Light.UniversalAccess;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("universal-access")]
+        UniversalAccess,
 
         /// <summary>
         /// University
@@ -13510,7 +16884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// university - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon University => FA5.Light.University;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("university")]
+        University,
 
         /// <summary>
         /// Unlink
@@ -13518,7 +16894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// unlink - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Unlink => FA5.Light.Unlink;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("unlink")]
+        Unlink,
 
         /// <summary>
         /// Unlock
@@ -13526,7 +16904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// unlock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Unlock => FA5.Light.Unlock;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("unlock")]
+        Unlock,
 
         /// <summary>
         /// Alternate Unlock
@@ -13534,7 +16914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// unlock-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UnlockAlt => FA5.Light.UnlockAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("unlock-alt")]
+        UnlockAlt,
 
         /// <summary>
         /// Upload
@@ -13542,7 +16924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// upload - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Upload => FA5.Light.Upload;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("upload")]
+        Upload,
 
         /// <summary>
         /// USB Drive
@@ -13550,7 +16934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// usb-drive - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UsbDrive => FA5.Light.UsbDrive;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("usb-drive")]
+        UsbDrive,
 
         /// <summary>
         /// US Dollar Circle
@@ -13558,7 +16944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// usd-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UsdCircle => FA5.Light.UsdCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("usd-circle")]
+        UsdCircle,
 
         /// <summary>
         /// US Dollar Square
@@ -13566,7 +16954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// usd-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UsdSquare => FA5.Light.UsdSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("usd-square")]
+        UsdSquare,
 
         /// <summary>
         /// User
@@ -13574,7 +16964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon User => FA5.Light.User;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user")]
+        User,
 
         /// <summary>
         /// User Alien
@@ -13582,7 +16974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-alien - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserAlien => FA5.Light.UserAlien;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-alien")]
+        UserAlien,
 
         /// <summary>
         /// Alternate User
@@ -13590,7 +16984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserAlt => FA5.Light.UserAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-alt")]
+        UserAlt,
 
         /// <summary>
         /// Alternate User Slash
@@ -13598,7 +16994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-alt-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserAltSlash => FA5.Light.UserAltSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-alt-slash")]
+        UserAltSlash,
 
         /// <summary>
         /// User Astronaut
@@ -13606,7 +17004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-astronaut - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserAstronaut => FA5.Light.UserAstronaut;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-astronaut")]
+        UserAstronaut,
 
         /// <summary>
         /// User Chart
@@ -13614,7 +17014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-chart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserChart => FA5.Light.UserChart;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-chart")]
+        UserChart,
 
         /// <summary>
         /// User Check
@@ -13622,7 +17024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserCheck => FA5.Light.UserCheck;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-check")]
+        UserCheck,
 
         /// <summary>
         /// User Circle
@@ -13630,7 +17034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserCircle => FA5.Light.UserCircle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-circle")]
+        UserCircle,
 
         /// <summary>
         /// User Clock
@@ -13638,7 +17044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-clock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserClock => FA5.Light.UserClock;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-clock")]
+        UserClock,
 
         /// <summary>
         /// User Cog
@@ -13646,7 +17054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-cog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserCog => FA5.Light.UserCog;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-cog")]
+        UserCog,
 
         /// <summary>
         /// User Cowboy
@@ -13654,7 +17064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-cowboy - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        public static Icon UserCowboy => FA5.Light.UserCowboy;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-cowboy")]
+        UserCowboy,
 
         /// <summary>
         /// User Crown
@@ -13662,7 +17074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-crown - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserCrown => FA5.Light.UserCrown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-crown")]
+        UserCrown,
 
         /// <summary>
         /// User Edit
@@ -13670,7 +17084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserEdit => FA5.Light.UserEdit;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-edit")]
+        UserEdit,
 
         /// <summary>
         /// User Friends
@@ -13678,7 +17094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-friends - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserFriends => FA5.Light.UserFriends;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-friends")]
+        UserFriends,
 
         /// <summary>
         /// User Graduate
@@ -13686,7 +17104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-graduate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserGraduate => FA5.Light.UserGraduate;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-graduate")]
+        UserGraduate,
 
         /// <summary>
         /// Construction Worker
@@ -13694,7 +17114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-hard-hat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserHardHat => FA5.Light.UserHardHat;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-hard-hat")]
+        UserHardHat,
 
         /// <summary>
         /// User Headset
@@ -13702,7 +17124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-headset - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserHeadset => FA5.Light.UserHeadset;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-headset")]
+        UserHeadset,
 
         /// <summary>
         /// User Injured
@@ -13710,7 +17134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-injured - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserInjured => FA5.Light.UserInjured;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-injured")]
+        UserInjured,
 
         /// <summary>
         /// User Lock
@@ -13718,7 +17144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-lock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserLock => FA5.Light.UserLock;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-lock")]
+        UserLock,
 
         /// <summary>
         /// Doctor
@@ -13726,7 +17154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-md - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserMd => FA5.Light.UserMd;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-md")]
+        UserMd,
 
         /// <summary>
         /// Chat With Doctor
@@ -13734,7 +17164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-md-chat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserMdChat => FA5.Light.UserMdChat;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-md-chat")]
+        UserMdChat,
 
         /// <summary>
         /// User Minus
@@ -13742,7 +17174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserMinus => FA5.Light.UserMinus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-minus")]
+        UserMinus,
 
         /// <summary>
         /// User Music
@@ -13750,7 +17184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserMusic => FA5.Light.UserMusic;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-music")]
+        UserMusic,
 
         /// <summary>
         /// User Ninja
@@ -13758,7 +17194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-ninja - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserNinja => FA5.Light.UserNinja;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-ninja")]
+        UserNinja,
 
         /// <summary>
         /// Nurse
@@ -13766,7 +17204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-nurse - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserNurse => FA5.Light.UserNurse;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-nurse")]
+        UserNurse,
 
         /// <summary>
         /// User Plus
@@ -13774,7 +17214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserPlus => FA5.Light.UserPlus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-plus")]
+        UserPlus,
 
         /// <summary>
         /// User Robot
@@ -13782,7 +17224,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-robot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserRobot => FA5.Light.UserRobot;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-robot")]
+        UserRobot,
 
         /// <summary>
         /// User Secret
@@ -13790,7 +17234,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-secret - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserSecret => FA5.Light.UserSecret;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-secret")]
+        UserSecret,
 
         /// <summary>
         /// User Shield
@@ -13798,7 +17244,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-shield - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserShield => FA5.Light.UserShield;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-shield")]
+        UserShield,
 
         /// <summary>
         /// User Slash
@@ -13806,7 +17254,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserSlash => FA5.Light.UserSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-slash")]
+        UserSlash,
 
         /// <summary>
         /// User Tag
@@ -13814,7 +17264,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-tag - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserTag => FA5.Light.UserTag;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-tag")]
+        UserTag,
 
         /// <summary>
         /// User Tie
@@ -13822,7 +17274,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-tie - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserTie => FA5.Light.UserTie;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-tie")]
+        UserTie,
 
         /// <summary>
         /// Remove User
@@ -13830,7 +17284,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserTimes => FA5.Light.UserTimes;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-times")]
+        UserTimes,
 
         /// <summary>
         /// User Unlock
@@ -13838,7 +17294,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-unlock - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        public static Icon UserUnlock => FA5.Light.UserUnlock;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-unlock")]
+        UserUnlock,
 
         /// <summary>
         /// User Visor
@@ -13846,7 +17304,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// user-visor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UserVisor => FA5.Light.UserVisor;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("user-visor")]
+        UserVisor,
 
         /// <summary>
         /// Users
@@ -13854,7 +17314,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// users - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Users => FA5.Light.Users;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("users")]
+        Users,
 
         /// <summary>
         /// Users Class
@@ -13862,7 +17324,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// users-class - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UsersClass => FA5.Light.UsersClass;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("users-class")]
+        UsersClass,
 
         /// <summary>
         /// Users Cog
@@ -13870,7 +17334,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// users-cog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UsersCog => FA5.Light.UsersCog;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("users-cog")]
+        UsersCog,
 
         /// <summary>
         /// Users Crown
@@ -13878,7 +17344,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// users-crown - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UsersCrown => FA5.Light.UsersCrown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("users-crown")]
+        UsersCrown,
 
         /// <summary>
         /// Users With Medical Symbol
@@ -13886,7 +17354,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// users-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UsersMedical => FA5.Light.UsersMedical;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("users-medical")]
+        UsersMedical,
 
         /// <summary>
         /// Utensil Fork
@@ -13894,7 +17364,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// utensil-fork - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UtensilFork => FA5.Light.UtensilFork;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("utensil-fork")]
+        UtensilFork,
 
         /// <summary>
         /// Utensil Knife
@@ -13902,7 +17374,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// utensil-knife - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UtensilKnife => FA5.Light.UtensilKnife;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("utensil-knife")]
+        UtensilKnife,
 
         /// <summary>
         /// Utensil Spoon
@@ -13910,7 +17384,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// utensil-spoon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UtensilSpoon => FA5.Light.UtensilSpoon;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("utensil-spoon")]
+        UtensilSpoon,
 
         /// <summary>
         /// Utensils
@@ -13918,7 +17394,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// utensils - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Utensils => FA5.Light.Utensils;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("utensils")]
+        Utensils,
 
         /// <summary>
         /// Alternate Utensils
@@ -13926,7 +17404,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// utensils-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon UtensilsAlt => FA5.Light.UtensilsAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("utensils-alt")]
+        UtensilsAlt,
 
         /// <summary>
         /// Vacuum
@@ -13934,7 +17414,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// vacuum - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Vacuum => FA5.Light.Vacuum;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("vacuum")]
+        Vacuum,
 
         /// <summary>
         /// Robot Vacuum
@@ -13942,7 +17424,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// vacuum-robot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon VacuumRobot => FA5.Light.VacuumRobot;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("vacuum-robot")]
+        VacuumRobot,
 
         /// <summary>
         /// Value Absolute
@@ -13950,7 +17434,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// value-absolute - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon ValueAbsolute => FA5.Light.ValueAbsolute;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("value-absolute")]
+        ValueAbsolute,
 
         /// <summary>
         /// Vector Square
@@ -13958,7 +17444,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// vector-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon VectorSquare => FA5.Light.VectorSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("vector-square")]
+        VectorSquare,
 
         /// <summary>
         /// Venus
@@ -13966,7 +17454,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// venus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Venus => FA5.Light.Venus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("venus")]
+        Venus,
 
         /// <summary>
         /// Venus Double
@@ -13974,7 +17464,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// venus-double - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon VenusDouble => FA5.Light.VenusDouble;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("venus-double")]
+        VenusDouble,
 
         /// <summary>
         /// Venus Mars
@@ -13982,7 +17474,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// venus-mars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon VenusMars => FA5.Light.VenusMars;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("venus-mars")]
+        VenusMars,
 
         /// <summary>
         /// VHS
@@ -13990,7 +17484,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// vhs - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Vhs => FA5.Light.Vhs;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("vhs")]
+        Vhs,
 
         /// <summary>
         /// Vial
@@ -13998,7 +17494,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// vial - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Vial => FA5.Light.Vial;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("vial")]
+        Vial,
 
         /// <summary>
         /// Vials
@@ -14006,7 +17504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// vials - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Vials => FA5.Light.Vials;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("vials")]
+        Vials,
 
         /// <summary>
         /// Video
@@ -14014,7 +17514,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// video - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Video => FA5.Light.Video;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("video")]
+        Video,
 
         /// <summary>
         /// Video Plus
@@ -14022,7 +17524,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// video-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon VideoPlus => FA5.Light.VideoPlus;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("video-plus")]
+        VideoPlus,
 
         /// <summary>
         /// Video Slash
@@ -14030,7 +17534,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// video-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon VideoSlash => FA5.Light.VideoSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("video-slash")]
+        VideoSlash,
 
         /// <summary>
         /// Vihara
@@ -14038,7 +17544,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// vihara - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Vihara => FA5.Light.Vihara;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("vihara")]
+        Vihara,
 
         /// <summary>
         /// Violin
@@ -14046,7 +17554,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// violin - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Violin => FA5.Light.Violin;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("violin")]
+        Violin,
 
         /// <summary>
         /// Voicemail
@@ -14054,7 +17564,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// voicemail - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Voicemail => FA5.Light.Voicemail;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("voicemail")]
+        Voicemail,
 
         /// <summary>
         /// Volcano
@@ -14062,7 +17574,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// volcano - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Volcano => FA5.Light.Volcano;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("volcano")]
+        Volcano,
 
         /// <summary>
         /// Volleyball Ball
@@ -14070,7 +17584,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// volleyball-ball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon VolleyballBall => FA5.Light.VolleyballBall;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("volleyball-ball")]
+        VolleyballBall,
 
         /// <summary>
         /// Volume
@@ -14078,7 +17594,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// volume - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Volume => FA5.Light.Volume;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("volume")]
+        Volume,
 
         /// <summary>
         /// Volume Down
@@ -14086,7 +17604,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// volume-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon VolumeDown => FA5.Light.VolumeDown;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("volume-down")]
+        VolumeDown,
 
         /// <summary>
         /// Volume Mute
@@ -14094,7 +17614,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// volume-mute - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon VolumeMute => FA5.Light.VolumeMute;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("volume-mute")]
+        VolumeMute,
 
         /// <summary>
         /// Volume Off
@@ -14102,7 +17624,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// volume-off - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon VolumeOff => FA5.Light.VolumeOff;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("volume-off")]
+        VolumeOff,
 
         /// <summary>
         /// Volume Slash
@@ -14110,7 +17634,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// volume-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon VolumeSlash => FA5.Light.VolumeSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("volume-slash")]
+        VolumeSlash,
 
         /// <summary>
         /// Volume Up
@@ -14118,7 +17644,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// volume-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon VolumeUp => FA5.Light.VolumeUp;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("volume-up")]
+        VolumeUp,
 
         /// <summary>
         /// Vote Nay
@@ -14126,7 +17654,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// vote-nay - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon VoteNay => FA5.Light.VoteNay;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("vote-nay")]
+        VoteNay,
 
         /// <summary>
         /// Vote Yea
@@ -14134,7 +17664,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// vote-yea - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon VoteYea => FA5.Light.VoteYea;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("vote-yea")]
+        VoteYea,
 
         /// <summary>
         /// Cardboard VR
@@ -14142,7 +17674,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// vr-cardboard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon VrCardboard => FA5.Light.VrCardboard;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("vr-cardboard")]
+        VrCardboard,
 
         /// <summary>
         /// Covered Wagon
@@ -14150,7 +17684,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wagon-covered - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        public static Icon WagonCovered => FA5.Light.WagonCovered;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wagon-covered")]
+        WagonCovered,
 
         /// <summary>
         /// Walker
@@ -14158,7 +17694,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// walker - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Walker => FA5.Light.Walker;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("walker")]
+        Walker,
 
         /// <summary>
         /// Walkie Talkie
@@ -14166,7 +17704,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// walkie-talkie - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WalkieTalkie => FA5.Light.WalkieTalkie;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("walkie-talkie")]
+        WalkieTalkie,
 
         /// <summary>
         /// Walking
@@ -14174,7 +17714,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// walking - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Walking => FA5.Light.Walking;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("walking")]
+        Walking,
 
         /// <summary>
         /// Wallet
@@ -14182,7 +17724,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wallet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Wallet => FA5.Light.Wallet;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wallet")]
+        Wallet,
 
         /// <summary>
         /// Wand
@@ -14190,7 +17734,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wand - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Wand => FA5.Light.Wand;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wand")]
+        Wand,
 
         /// <summary>
         /// Wand Magic
@@ -14198,7 +17744,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wand-magic - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WandMagic => FA5.Light.WandMagic;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wand-magic")]
+        WandMagic,
 
         /// <summary>
         /// Warehouse
@@ -14206,7 +17754,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// warehouse - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Warehouse => FA5.Light.Warehouse;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("warehouse")]
+        Warehouse,
 
         /// <summary>
         /// Alternate Warehouse
@@ -14214,7 +17764,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// warehouse-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WarehouseAlt => FA5.Light.WarehouseAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("warehouse-alt")]
+        WarehouseAlt,
 
         /// <summary>
         /// Washer
@@ -14222,7 +17774,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// washer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Washer => FA5.Light.Washer;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("washer")]
+        Washer,
 
         /// <summary>
         /// Watch
@@ -14230,7 +17784,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// watch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Watch => FA5.Light.Watch;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("watch")]
+        Watch,
 
         /// <summary>
         /// Calculator Watch
@@ -14238,7 +17794,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// watch-calculator - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WatchCalculator => FA5.Light.WatchCalculator;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("watch-calculator")]
+        WatchCalculator,
 
         /// <summary>
         /// Watch Fitness
@@ -14246,7 +17804,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// watch-fitness - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WatchFitness => FA5.Light.WatchFitness;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("watch-fitness")]
+        WatchFitness,
 
         /// <summary>
         /// Water
@@ -14254,7 +17814,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// water - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Water => FA5.Light.Water;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("water")]
+        Water,
 
         /// <summary>
         /// Lower Water Level
@@ -14262,7 +17824,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// water-lower - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WaterLower => FA5.Light.WaterLower;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("water-lower")]
+        WaterLower,
 
         /// <summary>
         /// Rising Water Level
@@ -14270,7 +17834,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// water-rise - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WaterRise => FA5.Light.WaterRise;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("water-rise")]
+        WaterRise,
 
         /// <summary>
         /// Sine Wave
@@ -14278,7 +17844,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wave-sine - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WaveSine => FA5.Light.WaveSine;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wave-sine")]
+        WaveSine,
 
         /// <summary>
         /// Square Wave
@@ -14286,7 +17854,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wave-square - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        public static Icon WaveSquare => FA5.Light.WaveSquare;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wave-square")]
+        WaveSquare,
 
         /// <summary>
         /// Triangle Wave
@@ -14294,7 +17864,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wave-triangle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WaveTriangle => FA5.Light.WaveTriangle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wave-triangle")]
+        WaveTriangle,
 
         /// <summary>
         /// Waveform
@@ -14302,7 +17874,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// waveform - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Waveform => FA5.Light.Waveform;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("waveform")]
+        Waveform,
 
         /// <summary>
         /// Waveform Path
@@ -14310,7 +17884,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// waveform-path - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WaveformPath => FA5.Light.WaveformPath;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("waveform-path")]
+        WaveformPath,
 
         /// <summary>
         /// Webcam
@@ -14318,7 +17894,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// webcam - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Webcam => FA5.Light.Webcam;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("webcam")]
+        Webcam,
 
         /// <summary>
         /// Webcam Slash
@@ -14326,7 +17904,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// webcam-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WebcamSlash => FA5.Light.WebcamSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("webcam-slash")]
+        WebcamSlash,
 
         /// <summary>
         /// Weight
@@ -14334,7 +17914,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// weight - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Weight => FA5.Light.Weight;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("weight")]
+        Weight,
 
         /// <summary>
         /// Hanging Weight
@@ -14342,7 +17924,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// weight-hanging - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WeightHanging => FA5.Light.WeightHanging;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("weight-hanging")]
+        WeightHanging,
 
         /// <summary>
         /// Whale
@@ -14350,7 +17934,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// whale - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Whale => FA5.Light.Whale;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("whale")]
+        Whale,
 
         /// <summary>
         /// Wheat
@@ -14358,7 +17944,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wheat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Wheat => FA5.Light.Wheat;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wheat")]
+        Wheat,
 
         /// <summary>
         /// Wheelchair
@@ -14366,7 +17954,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wheelchair - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Wheelchair => FA5.Light.Wheelchair;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wheelchair")]
+        Wheelchair,
 
         /// <summary>
         /// Whistle
@@ -14374,7 +17964,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// whistle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Whistle => FA5.Light.Whistle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("whistle")]
+        Whistle,
 
         /// <summary>
         /// Wi Fi
@@ -14382,7 +17974,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wifi - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Wifi => FA5.Light.Wifi;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wifi")]
+        Wifi,
 
         /// <summary>
         /// Wifi 1
@@ -14390,7 +17984,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wifi-1 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Wifi1 => FA5.Light.Wifi1;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wifi-1")]
+        Wifi1,
 
         /// <summary>
         /// Wifi 2
@@ -14398,7 +17994,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wifi-2 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Wifi2 => FA5.Light.Wifi2;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wifi-2")]
+        Wifi2,
 
         /// <summary>
         /// Wifi Slash
@@ -14406,7 +18004,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wifi-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WifiSlash => FA5.Light.WifiSlash;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wifi-slash")]
+        WifiSlash,
 
         /// <summary>
         /// Wind
@@ -14414,7 +18014,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wind - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Wind => FA5.Light.Wind;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wind")]
+        Wind,
 
         /// <summary>
         /// Wind Turbine
@@ -14422,7 +18024,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wind-turbine - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WindTurbine => FA5.Light.WindTurbine;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wind-turbine")]
+        WindTurbine,
 
         /// <summary>
         /// Wind Warning
@@ -14430,7 +18034,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wind-warning - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WindWarning => FA5.Light.WindWarning;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wind-warning")]
+        WindWarning,
 
         /// <summary>
         /// Window
@@ -14438,7 +18044,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// window - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Window => FA5.Light.Window;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("window")]
+        Window,
 
         /// <summary>
         /// Alternate Window
@@ -14446,7 +18054,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// window-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WindowAlt => FA5.Light.WindowAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("window-alt")]
+        WindowAlt,
 
         /// <summary>
         /// Window Close
@@ -14454,7 +18064,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// window-close - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WindowClose => FA5.Light.WindowClose;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("window-close")]
+        WindowClose,
 
         /// <summary>
         /// House Window
@@ -14462,7 +18074,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// window-frame - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WindowFrame => FA5.Light.WindowFrame;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("window-frame")]
+        WindowFrame,
 
         /// <summary>
         /// House Window Open
@@ -14470,7 +18084,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// window-frame-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WindowFrameOpen => FA5.Light.WindowFrameOpen;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("window-frame-open")]
+        WindowFrameOpen,
 
         /// <summary>
         /// Window Maximize
@@ -14478,7 +18094,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// window-maximize - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WindowMaximize => FA5.Light.WindowMaximize;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("window-maximize")]
+        WindowMaximize,
 
         /// <summary>
         /// Window Minimize
@@ -14486,7 +18104,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// window-minimize - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WindowMinimize => FA5.Light.WindowMinimize;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("window-minimize")]
+        WindowMinimize,
 
         /// <summary>
         /// Window Restore
@@ -14494,7 +18114,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// window-restore - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WindowRestore => FA5.Light.WindowRestore;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("window-restore")]
+        WindowRestore,
 
         /// <summary>
         /// Windsock
@@ -14502,7 +18124,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// windsock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Windsock => FA5.Light.Windsock;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("windsock")]
+        Windsock,
 
         /// <summary>
         /// Wine Bottle
@@ -14510,7 +18134,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wine-bottle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WineBottle => FA5.Light.WineBottle;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wine-bottle")]
+        WineBottle,
 
         /// <summary>
         /// Wine Glass
@@ -14518,7 +18144,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wine-glass - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WineGlass => FA5.Light.WineGlass;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wine-glass")]
+        WineGlass,
 
         /// <summary>
         /// Alternate Wine Glas
@@ -14526,7 +18154,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wine-glass-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WineGlassAlt => FA5.Light.WineGlassAlt;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wine-glass-alt")]
+        WineGlassAlt,
 
         /// <summary>
         /// Won Sign
@@ -14534,7 +18164,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// won-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon WonSign => FA5.Light.WonSign;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("won-sign")]
+        WonSign,
 
         /// <summary>
         /// Wreath
@@ -14542,7 +18174,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wreath - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Wreath => FA5.Light.Wreath;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wreath")]
+        Wreath,
 
         /// <summary>
         /// Wrench
@@ -14550,7 +18184,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// wrench - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon Wrench => FA5.Light.Wrench;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("wrench")]
+        Wrench,
 
         /// <summary>
         /// X Ray
@@ -14558,7 +18194,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// x-ray - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon XRay => FA5.Light.XRay;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("x-ray")]
+        XRay,
 
         /// <summary>
         /// Yen Sign
@@ -14566,7 +18204,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// yen-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon YenSign => FA5.Light.YenSign;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("yen-sign")]
+        YenSign,
 
         /// <summary>
         /// Yin Yang
@@ -14574,7 +18214,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// <remarks>
         /// yin-yang - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        public static Icon YinYang => FA5.Light.YinYang;
+        [FontAwesomeStyle(IconStyle.Light)]
+        [FontAwesomeIconName("yin-yang")]
+        YinYang,
 
     }
 }

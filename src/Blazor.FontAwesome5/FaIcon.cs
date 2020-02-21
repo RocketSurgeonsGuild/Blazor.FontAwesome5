@@ -7,12 +7,12 @@ using Rocket.Surgery.Blazor.FontAwesome5.Shared;
 
 namespace Rocket.Surgery.Blazor.FontAwesome5
 {
-    public class FaIcon : ComponentBase, ITransformIcon
+    public class FaIcon : ComponentBase, IIcon
     {
-        private Icon _icon;
+        private Icon _icon = new Icon(IconStyle.Unknown, "");
 
-        [CascadingParameter(Name = "IsInStack")]
-        public bool IsInStack { get; set; }
+        [CascadingParameter(Name = "FaStack")]
+        FaStack FaStack { get; set; }
 
         [Parameter]
         public Icon Icon
@@ -56,7 +56,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
                     Inverse = _icon._inverse;
                 }
 
-                if (Math.Abs(_icon._rotate) < 0.001)
+                // ReSharper disable once CompareOfFloatsByEqualityOperator
+                if (_icon._rotate > 0.001 || _icon._rotate < -0.001)
                 {
                     _rotate = _icon._rotate;
                 }
@@ -66,44 +67,32 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
                     Flip = _icon._flip;
                 }
 
-                if (_icon._scale < -0.001)
+                void AssignIfGreaterThan0(ref double lhs, double value)
                 {
-                    _shrink = Math.Abs(_icon._scale);
-                }
-                else if (_icon._scale > 0.001)
-                {
-                    _grow = Math.Abs(_icon._scale);
-                }
-
-                if (_icon._vertical > 0.001)
-                {
-                    _up = Math.Abs(_icon._vertical);
-                }
-                else if (_icon._vertical < 0.001)
-                {
-                    _down = Math.Abs(_icon._vertical);
+                    if (value > 0.001)
+                    {
+                        lhs = value;
+                    }
                 }
 
-                if (_icon._horizontal > 0.001)
-                {
-                    _right = Math.Abs(_icon._horizontal);
-                }
-                else if (_icon._horizontal < 0.001)
-                {
-                    _left = Math.Abs(_icon._horizontal);
-                }
+                AssignIfGreaterThan0(ref _shrink, _icon._shrink);
+                AssignIfGreaterThan0(ref _grow, _icon._grow);
+                AssignIfGreaterThan0(ref _up, _icon._up);
+                AssignIfGreaterThan0(ref _down, _icon._down);
+                AssignIfGreaterThan0(ref _left, _icon._left);
+                AssignIfGreaterThan0(ref _right, _icon._right);
 
                 if (_icon._mask != null)
                 {
                     Mask = _icon._mask;
                 }
 
-                if (_icon._mask != null)
+                if (_icon._cssClass != null)
                 {
                     Class = _icon._cssClass;
                 }
 
-                if (_icon._mask != null)
+                if (_icon._cssStyle != null)
                 {
                     Style = _icon._cssStyle;
                 }
@@ -239,7 +228,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
         public string ToStyle()
         {
             var values = new List<string>();
-            if (!string.IsNullOrWhiteSpace(Style)) values.Add(Style);
+            if (!string.IsNullOrWhiteSpace(Style))
+                values.Add(Style);
 
             if (_primaryOpacity.HasValue)
             {
@@ -278,49 +268,34 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
 
         double ITransformIcon.Right => _right;
 
-        public string ToClass()
-        {
-            var values = new List<string>()
-            {
-                Icon.ToPrefix(Icon.Style),
-                $"fa-{Icon.Name}",
-            };
+        IconStyle IIcon.Style => _icon.Style;
 
-            if (!string.IsNullOrWhiteSpace(Class))
-            {
-                values.Add(Class);
-            }
+        string IIcon.CssStyle => Style;
 
-            values.Add(Icon.ToString(Size, IsInStack));
-            if (FixedWidth) values.Add("fa-fw");
-            if (Border) values.Add("fa-border");
-            if (Inverse) values.Add("fa-inverse");
-            if (SwapOpacity) values.Add("fa-swap-opacity");
-            if (Spin) values.Add("fa-spinner");
-            else if (Pulse) values.Add("fa-pulse");
+        string IIcon.CssClass => Class;
 
-            if (Pull.HasValue && Pull != IconPull.None)
-            {
-                values.Add(Icon.ToString(Pull.Value));
-            }
+        string IIcon.Name => _icon.Name;
 
-            return string.Join(" ", values);
-        }
+        IconPull IIcon.Pull => Pull ?? IconPull.None;
 
         protected override void BuildRenderTree(RenderTreeBuilder builder)
         {
             //<i class="@ToClass()" @attributes="GetAttributes()" style="@AllStyle"></i>
             builder.OpenElement(0, "i");
-            builder.AddAttribute(1, "class", ToClass());
-            builder.AddAttribute(2, "style", ToStyle());
-            builder.AddAttribute(3, "data-fa-transform", this.ToTransform());
+            builder.AddAttribute(1, "class", this.ToClass(Class));
+            var style = ToStyle();
+            if (!string.IsNullOrWhiteSpace(style))
+                builder.AddAttribute(2, "style", style);
+            var transform = this.ToTransform();
+            if (!string.IsNullOrWhiteSpace(transform))
+                builder.AddAttribute(3, "data-fa-transform", transform);
             if (Mask != null)
             {
-                builder.AddAttribute(4, "data-fa-mask", $"{Icon.ToPrefix(Mask.Style)} fa-{Mask.Name}");
+                builder.AddAttribute(4, "data-fa-mask", this.ToMask());
             }
+
             builder.AddMultipleAttributes(5, AdditionalAttributes);
             builder.CloseElement();
         }
     }
 }
-

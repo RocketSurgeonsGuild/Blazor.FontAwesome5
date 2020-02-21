@@ -83,7 +83,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
         public IconFlip? Flip { get; set; }
 
         [Parameter]
-        public IconCounterPosition Position { get; set; }
+        public IconCounterPosition? Position { get; set; }
 
         [Parameter]
         public string? Class { get; set; }
@@ -120,16 +120,20 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
                 values.Add(Class);
             }
 
-            values.Add(
-                Position switch
-                {
-                    IconCounterPosition.TopRight    => "fa-layers-top-right",
-                    IconCounterPosition.TopLeft     => "fa-layers-top-left",
-                    IconCounterPosition.BottomRight => "fa-layers-bottom-right",
-                    IconCounterPosition.BottomLeft  => "fa-layers-bottom-left",
-                    _                               => throw new NotSupportedException()
-                }
-            );
+            if (Position.HasValue)
+            {
+                values.Add(
+                    Position.Value switch
+                    {
+                        IconCounterPosition.TopRight    => "fa-layers-top-right",
+                        IconCounterPosition.TopLeft     => "fa-layers-top-left",
+                        IconCounterPosition.BottomRight => "fa-layers-bottom-right",
+                        IconCounterPosition.BottomLeft  => "fa-layers-bottom-left",
+                        _                               => throw new NotSupportedException()
+                    }
+                );
+            }
+
             if (Inverse)
                 values.Add("fa-inverse");
             if (Spin)
@@ -151,7 +155,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
             if (!string.IsNullOrWhiteSpace(transform))
                 builder.AddAttribute(3, "data-fa-transform", transform);
             builder.AddMultipleAttributes(4, AdditionalAttributes);
-            builder.AddContent(5, ChildContent);
+            if (ChildContent != null)
+                builder.AddContent(5, ChildContent);
             builder.CloseElement();
         }
     }

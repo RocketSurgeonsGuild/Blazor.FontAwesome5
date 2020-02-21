@@ -50,7 +50,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
             if (!string.IsNullOrWhiteSpace(Style))
                 builder.AddAttribute(2, "style", Style);
             builder.AddMultipleAttributes(3, AdditionalAttributes);
-            builder.AddContent(4, ChildContent);
+            if (ChildContent != null)
+                builder.AddContent(4, ChildContent);
             builder.CloseElement();
         }
     }

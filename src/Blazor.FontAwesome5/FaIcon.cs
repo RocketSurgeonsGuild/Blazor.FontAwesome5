@@ -11,8 +11,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
     {
         private Icon _icon = new Icon(IconStyle.Unknown, "");
 
-        [CascadingParameter(Name = "FaStack")]
-        FaStack FaStack { get; set; }
+        [CascadingParameter]
+        FaStack Stack { get; set; }
 
         [Parameter]
         public Icon Icon
@@ -227,31 +227,33 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
 
         public string ToStyle()
         {
-            var values = new List<string>();
+            var sb = new StringBuilder();
             if (!string.IsNullOrWhiteSpace(Style))
-                values.Add(Style);
+            {
+                sb.Append(Style);
+            }
 
             if (_primaryOpacity.HasValue)
             {
-                values.Add($"--fa-primary-opacity: {_primaryOpacity:F2}");
+                sb.Append($";--fa-primary-opacity: {_primaryOpacity:F2}");
             }
 
             if (PrimaryColor != null)
             {
-                values.Add($"--fa-primary-color: {PrimaryColor}");
+                sb.Append($";--fa-primary-color: {PrimaryColor}");
             }
 
             if (_secondaryOpacity.HasValue)
             {
-                values.Add($"--fa-secondary-opacity: {_secondaryOpacity:F2}");
+                sb.Append($";--fa-secondary-opacity: {_secondaryOpacity:F2}");
             }
 
             if (SecondaryColor != null)
             {
-                values.Add($"--fa-secondary-color: {SecondaryColor}");
+                sb.Append($";--fa-secondary-color: {SecondaryColor}");
             }
 
-            return string.Join(";", values);
+            return sb.ToString();
         }
 
         double ITransformIcon.Grow => _grow;
@@ -282,7 +284,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
         {
             //<i class="@ToClass()" @attributes="GetAttributes()" style="@AllStyle"></i>
             builder.OpenElement(0, "i");
-            builder.AddAttribute(1, "class", this.ToClass(Class));
+
+            builder.AddAttribute(1, "class", this.ToClass(Stack != null, Class));
             var style = ToStyle();
             if (!string.IsNullOrWhiteSpace(style))
                 builder.AddAttribute(2, "style", style);

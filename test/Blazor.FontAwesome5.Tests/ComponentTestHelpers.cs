@@ -179,7 +179,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
 
     public interface IRenderFragmentBuilder
     {
-        IRenderFragmentBuilder RenderFragment(string markup);
+        IRenderFragmentBuilder Markup(string markup);
 
         IRenderFragmentBuilder RenderComponent<T>(Action<IComponentBuilder<T>> builderCallback)
             where T : class, IComponent;
@@ -189,7 +189,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
     {
         private readonly List<RenderFragment> _renderFragments = new List<RenderFragment>();
 
-        public IRenderFragmentBuilder RenderFragment(string markup)
+        public IRenderFragmentBuilder Markup(string markup)
         {
             _renderFragments.Add(markup.ToMarkupRenderFragment());
             return this;
@@ -251,7 +251,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
         );
 
         IComponentBuilder<TComponent> ChildContent(string markup);
-        IComponentBuilder<TComponent> ChildContent(RenderFragment renderFragment);
         IComponentBuilder<TComponent> ChildContent(Action<RenderFragmentBuilder> builderCallback);
 
         IComponentBuilder<TComponent> RenderFragment<T>(
@@ -263,11 +262,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
         IComponentBuilder<TComponent> RenderFragment(
             Expression<Func<TComponent, RenderFragment>> expression,
             string markup
-        );
-
-        IComponentBuilder<TComponent> RenderFragment(
-            Expression<Func<TComponent, RenderFragment>> expression,
-            RenderFragment renderFragment
         );
 
         IComponentBuilder<TComponent> RenderFragment(
@@ -371,12 +365,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
             return this;
         }
 
-        public IComponentBuilder<TComponent> ChildContent(RenderFragment renderFragment)
-        {
-            _componentParameters.Add(ComponentParameter.CreateParameter(nameof(ChildContent), renderFragment));
-            return this;
-        }
-
         public IComponentBuilder<TComponent> ChildContent(Action<RenderFragmentBuilder> builderCallback)
         {
             var renderFragmentBuilder = new RenderFragmentBuilder();
@@ -412,16 +400,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
         {
             var propertyName = GetPropertyName(expression);
             _componentParameters.Add(ComponentParameter.CreateParameter(propertyName, markup.ToMarkupRenderFragment()));
-            return this;
-        }
-
-        public IComponentBuilder<TComponent> RenderFragment(
-            Expression<Func<TComponent, RenderFragment>> expression,
-            RenderFragment renderFragment
-        )
-        {
-            var propertyName = GetPropertyName(expression);
-            _componentParameters.Add(ComponentParameter.CreateParameter(propertyName, renderFragment));
             return this;
         }
 

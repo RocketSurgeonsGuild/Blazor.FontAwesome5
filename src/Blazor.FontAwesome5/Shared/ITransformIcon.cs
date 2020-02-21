@@ -41,10 +41,10 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
             return sb.ToString();
         }
         
-        public static string ToClass(this IIcon icon, string @class = null)
+        public static string ToClass(this IIcon icon, bool stack, string @class = null)
         {
             var sb = new StringBuilder();
-            ApplyClass(icon, sb, @class);
+            ApplyClass(icon, sb, stack, @class);
             return sb.ToString();
         }
 
@@ -116,7 +116,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
             }
         }
 
-        public static void ApplyClass(this IIcon icon, StringBuilder sb, string @class = null)
+        public static void ApplyClass(this IIcon icon, StringBuilder sb, bool stack = false, string @class = null)
         {
             sb.Append(Icon.ToPrefix(icon.Style));
             sb.Append(" ");
@@ -133,11 +133,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
                 sb.Append(icon.CssClass);
             }
 
-            if (icon.Size != IconSize.Normal)
-            {
-                sb.Append(" ");
-                sb.Append(Icon.ToString(icon.Size));
-            }
+            sb.Append(Icon.ToString(icon.Size, stack));
 
             if (icon.FixedWidth)
             {

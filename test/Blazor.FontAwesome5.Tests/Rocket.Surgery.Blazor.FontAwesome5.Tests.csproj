@@ -11,5 +11,6 @@
         <PackageReference Include="Microsoft.AspNetCore.Components" />
         <PackageReference Include="Microsoft.AspNetCore.Components.Web" />
         <PackageReference Include="Razor.Components.Testing.Library" />
+        <ProjectReference Include="..\..\src\Blazor.FontAwesome5\Rocket.Surgery.Blazor.FontAwesome5.csproj" />
     </ItemGroup>
 </Project>

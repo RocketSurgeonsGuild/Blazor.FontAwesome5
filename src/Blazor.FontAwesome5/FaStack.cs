@@ -23,19 +23,17 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
 
         public string ToClass()
         {
-            var values = new List<string>()
-            {
-                "fa-stack"
-            };
+            var sb = new StringBuilder();
+            sb.Append("fa-stack");
 
             if (!string.IsNullOrWhiteSpace(Class))
             {
-                values.Add(Class);
+                sb.Append(" ");
+                sb.Append(Class);
             }
 
-            values.Add(Icon.ToString(Size));
-
-            return string.Join(" ", values);
+            sb.Append(Icon.ToString(Size, false));
+            return sb.ToString();
         }
 
         protected override void BuildRenderTree(RenderTreeBuilder builder)
@@ -45,17 +43,26 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
             // </CascadingValue>
             builder.OpenComponent<CascadingValue<FaStack>>(0);
             builder.AddAttribute(1, nameof(CascadingValue<FaStack>.Value), this);
-            builder.AddContent(
+            builder.AddAttribute(
                 2,
-                (b) =>
+                nameof(CascadingValue<FaStack>.ChildContent),
+                (RenderFragment)( b =>
                 {
                     b.OpenElement(0, "span");
                     b.AddAttribute(1, "class", ToClass());
+
                     if (!string.IsNullOrWhiteSpace(Style))
+                    {
                         b.AddAttribute(2, "style", Style);
-                    b.AddContent(3, ChildContent);
+                    }
+
+                    if (ChildContent != null)
+                    {
+                        b.AddContent(3, ChildContent);
+                    }
+
                     b.CloseElement();
-                }
+                } )
             );
             builder.CloseComponent();
         }

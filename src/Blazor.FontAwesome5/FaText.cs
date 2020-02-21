@@ -111,24 +111,23 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
 
         public string ToClass()
         {
-            var values = new List<string>()
-            {
-                "fa-layers-text"
-            };
+            var sb = new StringBuilder();
+            sb.Append("fa-layers-text");
 
             if (!string.IsNullOrWhiteSpace(Class))
             {
-                values.Add(Class);
+                sb.Append(" ");
+                sb.Append(Class);
             }
 
             if (Inverse)
-                values.Add("fa-inverse");
+                sb.Append(" fa-inverse");
             if (Spin)
-                values.Add("fa-spinner");
+                sb.Append(" fa-spinner");
             else if (Pulse)
-                values.Add("fa-pulse");
+                sb.Append(" fa-pulse");
 
-            return string.Join(" ", values);
+            return sb.ToString();
         }
 
         protected override void BuildRenderTree(RenderTreeBuilder builder)
@@ -142,6 +141,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5
             if (!string.IsNullOrWhiteSpace(transform))
                 builder.AddAttribute(3, "data-fa-transform", transform);
             builder.AddMultipleAttributes(4, AdditionalAttributes);
+            if (ChildContent != null)
+                builder.AddContent(5, ChildContent);
             builder.CloseElement();
         }
     }

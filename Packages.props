@@ -28,7 +28,7 @@
     </ItemGroup>
     <ItemGroup>
         <PackageReference Update="Microsoft.CodeAnalysis.CSharp" Version="3.4.0"/>
-        <PackageReference Update="System.Text.Json" Version="4.7.0"/>
+        <PackageReference Update="System.Text.Json" Version="4.7.1"/>
     </ItemGroup>
     <ItemGroup>
         <PackageReference Update="Bogus" Version="28.4.4"/>

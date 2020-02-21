@@ -56,7 +56,7 @@ github:
 azurepipelines:
   account: rocketsurgeonsguild
   teamproject: Libraries
-  builddefinition:
+  builddefinition: 43
 appveyor:
   account: RocketSurgeonsGuild
   build: blazor-fontawesome5

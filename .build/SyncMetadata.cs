@@ -79,8 +79,7 @@ internal partial class Solution
                         sb.AppendLine($"        /// <remarks>");
                         sb.AppendLine($"        /// {model.Name} - Available in {string.Join(", ", model.Styles)}");
                         sb.AppendLine($"        /// </remarks>");
-                        sb.AppendLine($"        [FontAwesomeStyle(IconStyle.{style})]");
-                        sb.AppendLine($"        [FontAwesomeIconName(\"{model.Name}\")]");
+                        sb.AppendLine($"        [FontAwesome(IconStyle.{style}, \"{model.Name}\")]");
                         sb.AppendLine($"        {ToModelName(model).Pascalize()},");
                         sb.AppendLine("");
                     }

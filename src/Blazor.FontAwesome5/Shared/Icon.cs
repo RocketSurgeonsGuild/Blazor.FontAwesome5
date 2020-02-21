@@ -17,9 +17,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Shared
         {
             var enumType = enumValue.GetType();
             var member = enumType.GetMember(Enum.GetName(enumType, enumValue))[0];
-            var style = member.GetCustomAttribute<FontAwesomeStyleAttribute>(true);
-            var iconName = member.GetCustomAttribute<FontAwesomeIconNameAttribute>(true);
-            return new Icon(style?.IconStyle ?? IconStyle.Unknown, iconName?.Name ?? string.Empty);
+            var faa = member.GetCustomAttribute<FontAwesomeAttribute>(true);
+            return new Icon(faa?.IconStyle ?? IconStyle.Unknown, faa?.Name ?? string.Empty);
         }
 
         public Icon(IconStyle style, string name)

@@ -177,7 +177,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
 
         enum Custom
         {
-            [FontAwesomeStyle(IconStyle.Regular)] [FontAwesomeIconName("adjust")]
+            [FontAwesome(IconStyle.Regular, "adjust")]
             Name
         }
     }
@@ -477,7 +477,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
 
         enum Custom
         {
-            [FontAwesomeStyle(IconStyle.Regular)] [FontAwesomeIconName("adjust")]
+            [FontAwesome(IconStyle.Regular, "adjust")]
             Name
         }
     }

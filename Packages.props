@@ -17,7 +17,7 @@
     <PackageReference Update="JetBrains.ReSharper.CommandLineTools" Version="2019.3.3" />
     <PackageReference Update="Nuke.Common" Version="0.24.2" />
     <PackageReference Update="ReportGenerator" Version="4.4.7" />
-    <PackageReference Update="Rocket.Surgery.Nuke.DotNetCore" Version="0.13.1" />
+    <PackageReference Update="Rocket.Surgery.Nuke.DotNetCore" Version="0.13.3" />
     <PackageReference Update="Humanizer.Core" Version="2.7.9" />
   </ItemGroup>
   <ItemGroup>
@@ -39,7 +39,7 @@
     <PackageReference Update="FluentAssertions" Version="5.10.2" />
     <PackageReference Update="FluentAssertions.Analyzers" Version="0.11.4" />
     <PackageReference Update="Microsoft.NET.Test.Sdk" Version="16.5.0" />
-    <PackageReference Update="Rocket.Surgery.Extensions.Testing.FakeItEasy" Version="4.1.1" />
+    <PackageReference Update="Rocket.Surgery.Extensions.Testing.FakeItEasy" Version="5.0.0" />
     <PackageReference Update="xunit" Version="2.4.1" />
     <PackageReference Update="xunit.analyzers" Version="0.10.0" />
     <PackageReference Update="xunit.runner.visualstudio" Version="2.4.1" />

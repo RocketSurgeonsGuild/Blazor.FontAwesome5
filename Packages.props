@@ -16,7 +16,7 @@
     <PackageReference Update="GitVersion.Tool" Version="5.2.4" />
     <PackageReference Update="JetBrains.ReSharper.CommandLineTools" Version="2019.3.4" />
     <PackageReference Update="Nuke.Common" Version="0.24.7" />
-    <PackageReference Update="ReportGenerator" Version="4.5.2" />
+    <PackageReference Update="ReportGenerator" Version="4.5.3" />
     <PackageReference Update="Rocket.Surgery.Nuke.DotNetCore" Version="0.13.4" />
     <PackageReference Update="Humanizer.Core" Version="2.7.9" />
   </ItemGroup>

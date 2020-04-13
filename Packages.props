@@ -31,7 +31,7 @@
     <PackageReference Update="System.Text.Json" Version="4.7.1" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Update="Bogus" Version="29.0.1" />
+    <PackageReference Update="Bogus" Version="29.0.2" />
     <PackageReference Update="coverlet.collector" Version="1.2.1" />
     <PackageReference Update="coverlet.msbuild" Version="2.8.1" />
     <PackageReference Update="FakeItEasy" Version="6.0.0" />

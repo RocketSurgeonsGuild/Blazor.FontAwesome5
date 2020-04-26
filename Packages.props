@@ -14,11 +14,11 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Update="GitVersion.Tool" Version="5.2.4" />
-    <PackageReference Update="JetBrains.ReSharper.CommandLineTools" Version="2019.3.4" />
-    <PackageReference Update="Nuke.Common" Version="0.24.7" />
-    <PackageReference Update="ReportGenerator" Version="4.5.2" />
-    <PackageReference Update="Rocket.Surgery.Nuke.DotNetCore" Version="0.13.4" />
-    <PackageReference Update="Humanizer.Core" Version="2.7.9" />
+    <PackageReference Update="JetBrains.ReSharper.CommandLineTools" Version="2020.1.0" />
+    <PackageReference Update="Nuke.Common" Version="0.24.9" />
+    <PackageReference Update="ReportGenerator" Version="4.5.6" />
+    <PackageReference Update="Rocket.Surgery.Nuke.DotNetCore" Version="0.13.5" />
+    <PackageReference Update="Humanizer.Core" Version="2.8.2" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Update="Microsoft.AspNetCore.Components" Version="3.1.2" />
@@ -31,15 +31,15 @@
     <PackageReference Update="System.Text.Json" Version="4.7.1" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Update="Bogus" Version="29.0.1" />
-    <PackageReference Update="coverlet.collector" Version="1.2.0" />
-    <PackageReference Update="coverlet.msbuild" Version="2.8.0" />
+    <PackageReference Update="Bogus" Version="29.0.2" />
+    <PackageReference Update="coverlet.collector" Version="1.2.1" />
+    <PackageReference Update="coverlet.msbuild" Version="2.8.1" />
     <PackageReference Update="FakeItEasy" Version="6.0.0" />
     <PackageReference Update="FakeItEasy.Analyzer.CSharp" Version="6.0.0" />
     <PackageReference Update="FluentAssertions" Version="5.10.3" />
     <PackageReference Update="FluentAssertions.Analyzers" Version="0.11.4" />
-    <PackageReference Update="Microsoft.NET.Test.Sdk" Version="16.5.0" />
-    <PackageReference Update="Rocket.Surgery.Extensions.Testing.FakeItEasy" Version="5.0.0" />
+    <PackageReference Update="Microsoft.NET.Test.Sdk" Version="16.6.0" />
+    <PackageReference Update="Rocket.Surgery.Extensions.Testing.FakeItEasy" Version="5.1.1" />
     <PackageReference Update="xunit" Version="2.4.1" />
     <PackageReference Update="xunit.analyzers" Version="0.10.0" />
     <PackageReference Update="xunit.runner.visualstudio" Version="2.4.1" />

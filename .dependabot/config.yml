@@ -18,6 +18,39 @@ update_configs:
                 dependency_name: 'JetBrains.ReSharper.CommandLineTools'
                 update_type: 'all'
           - match:
+                dependency_name: 'System.Reactive.*'
+                update_type: 'semver:minor'
+          - match:
+                dependency_name: 'System.Interactive.*'
+                update_type: 'semver:minor'
+          - match:
+              dependency_name: System.Diagnostics.*
+              update_type: 'semver:minor'
+          - match:
+                dependency_name: 'Microsoft.NET.Test.Sdk'
+                update_type: 'all'
+          - match:
+                dependency_name: 'Moq'
+                update_type: 'all'
+          - match:
+                dependency_name: 'Nuke.Common'
+                update_type: 'all'
+          - match:
+                dependency_name: 'Bogus'
+                update_type: 'all'
+          - match:
+                dependency_name: 'FakeItEasy.*'
+                update_type: 'all'
+          - match:
+                dependency_name: 'coverlet.*'
+                update_type: 'all'
+          - match:
+                dependency_name: 'FluentAssertions.*'
+                update_type: 'all'
+          - match:
+                dependency_name: 'GitVersion.Tool'
+                update_type: 'all'
+          - match:
                 dependency_name: 'ReportGenerator'
                 update_type: 'semver:minor'
       ignored_updates:

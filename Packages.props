@@ -14,7 +14,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Update="GitVersion.Tool" Version="5.2.4" />
-    <PackageReference Update="JetBrains.ReSharper.CommandLineTools" Version="2020.1.0" />
+    <PackageReference Update="JetBrains.ReSharper.CommandLineTools" Version="2020.1.1" />
     <PackageReference Update="Nuke.Common" Version="0.24.10" />
     <PackageReference Update="ReportGenerator" Version="4.5.6" />
     <PackageReference Update="Rocket.Surgery.Nuke.DotNetCore" Version="0.13.5" />

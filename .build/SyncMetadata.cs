@@ -18,15 +18,15 @@ public partial class Solution
     Target RegenerateFromMetadata => _ => _
         .Executes(() =>
         {
-            var metadata = new List<(string name, string nodeModule, AbsolutePath sourcePath)>()
+            var metadata = new List<(string name, string nodeModule, string sourcePath)>()
             {
-                ("Free", "@fortawesome/fontawesome-free", (AbsolutePath)@"src\Blazor.FontAwesome5.Free"),
+                ("Free", "@fortawesome/fontawesome-free", @"src\Blazor.FontAwesome5.Free"),
             };
 
             WriteAllText(TemporaryDirectory / "package.json", "{}");
             if (!string.IsNullOrWhiteSpace(FontAwesomeToken))
             {
-                metadata.Add(("Pro", "@fortawesome/fontawesome-pro", (AbsolutePath)@"src\Blazor.FontAwesome5.Pro"));
+                metadata.Add(("Pro", "@fortawesome/fontawesome-pro", @"src\Blazor.FontAwesome5.Pro"));
                 WriteAllText(TemporaryDirectory / ".npmrc", $@"@fortawesome:registry=https://npm.fontawesome.com/
 //npm.fontawesome.com/:_authToken={FontAwesomeToken}");
             }

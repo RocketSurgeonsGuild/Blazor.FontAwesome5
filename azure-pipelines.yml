@@ -3,6 +3,7 @@ trigger:
   branches:
     include:
       - master
+      - next
       - refs/tags/*
   paths:
     exclude:
@@ -22,13 +23,14 @@ pr:
   branches:
     include:
       - master
+      - next
 
 resources:
   repositories:
     - repository: rsg
       type: github
       name: RocketSurgeonsGuild/AzureDevopsTemplates
-      ref: refs/tags/v0.12.0
+      ref: refs/tags/v0.13.0
       endpoint: github
 
 variables:
@@ -45,31 +47,16 @@ variables:
   - name: CodeCovToken
     value: '44898e42-b539-48d5-b034-864e1b4a57c7'
   - group: rsg-bot
-  # Fixes the github package repo warnings on restore
-  - name: EmitAssetsLogMessages
-    value: false
-  - name: HideWarningsAndErrors
-    value: true
 
 jobs:
-  - template: jobs/gitversion.yml@rsg
   - template: jobs/publish-release.yml@rsg
     parameters:
-      EnableReleaseNotes: true
-      GitHub: true
       GitHubPackages: true
       GitHubAuthVariableGroup: rsg-bot
       PublishNuGetPackagesFromArtifact: 'NuGet - Windows'
-      AuthNuGetFeeds:
-        - name: RocketSurgeonsGuild
-          source: https://nuget.pkg.github.com/RocketSurgeonsGuild/index.json
-          username: $(GitHub.UserName)
-          password: $(GitHub.Token)
 
   - job: Build
     dependsOn:
-      - ${{ if startsWith(variables['Build.SourceBranch'], 'refs/tags/v') }}:
-          - GitHub_Draft_Release
     variables:
       - group: rsg-bot
     strategy:
@@ -87,19 +74,13 @@ jobs:
       vmImage: $(ImageName)
     steps:
       - template: support/mono.yml@rsg
-      - ${{ if startsWith(variables['Build.SourceBranch'], 'refs/tags/v') }}:
-          - template: support/download-release-notes.yml@rsg
+      # - ${{ if startsWith(variables['Build.SourceBranch'], 'refs/tags/v') }}:
+      #   - template: support/download-release-notes.yml@rsg
       - template: support/install-dotnet.yml@rsg
         parameters:
           DotNetSdk:
             - '2.x'
             - '3.x'
-          AuthNuGetFeeds:
-            - name: RocketSurgeonsGuild
-              source: https://nuget.pkg.github.com/RocketSurgeonsGuild/index.json
-              username: $(GitHub.UserName)
-              password: $(GitHub.Token)
-      - template: support/gitversion-hack.yml@rsg
 
       - task: DotNetCoreCLI@2
         displayName: 'dotnet tool restore'

@@ -1,12 +1,4 @@
 pull_request_rules:
-  - name: automatic merge when GitHub branch protection passes (dependabot)
-    conditions:
-      - base=master
-      - author~=^dependabot(|-preview)\[bot\]$
-      - 'label=:shipit: merge'
-    actions:
-      comment:
-        message: '@dependabot squash and merge'
   - name: automatic merge when GitHub branch protection passes (others)
     conditions:
       - base=master

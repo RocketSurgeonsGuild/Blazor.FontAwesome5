@@ -32,7 +32,7 @@ jobs:
         run: |
           dotnet nuke RegenerateFromMetadata --font-awesome-token ${{ secrets.FONTAWESOME_TOKEN }} --skip
       - name: ⬅ Pull Request
-        uses: gr2m/create-or-update-pull-request-action@v1
+        uses: gr2m/create-or-update-pull-request-action@v1.2.2
         with:
           title: 'Update Font Awesome Icons'
           body: 'Add / update new font awesome icon names'

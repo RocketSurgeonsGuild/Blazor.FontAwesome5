@@ -2,9 +2,7 @@ name: Font Awesome Updater
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  push:
-    branches: [master]
+    - cron: '*/5 * * * *'
 
 jobs:
   Update_Font_Awesome:

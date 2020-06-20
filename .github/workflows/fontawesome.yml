@@ -26,17 +26,14 @@ jobs:
       - name: 🎁 dotnet tool restore
         run: |
           dotnet tool restore
-      # - name: 📦 Regenerate From Metadata
-      #   run: |
-      #     dotnet nuke RegenerateFromMetadata --font-awesome-token "${{ secrets.FONTAWESOME_TOKEN }}" --skip
+      - name: 📦 Regenerate From Metadata
+        run: |
+          dotnet nuke RegenerateFromMetadata --font-awesome-token "${{ secrets.FONTAWESOME_TOKEN }}" --skip
       - name: ⬅ Pull Request
-        uses: technote-space/create-pr-action@v2
+        uses: repo-sync/pull-request@v2
         with:
-          GITHUB_TOKEN: ${{ secrets.RSG_BOT_TOKEN }}
-          EXECUTE_COMMANDS: |
-            dotnet nuke RegenerateFromMetadata --font-awesome-token "${{ secrets.FONTAWESOME_TOKEN }}" --skip
-          COMMIT_MESSAGE: 'Add and update new font awesome icon names'
-          COMMIT_NAME: 'Rocket Understudy'
-          COMMIT_EMAIL: 'rsg-bot@nowhere.com'
-          PR_BRANCH_NAME: 'update-fontawesome-latest'
-          PR_TITLE: 'Update Font Awesome Icons'
+          github_token: ${{ secrets.RSG_BOT_TOKEN }}
+          destination_branch: 'master'
+          pr_title: 'add and update new font awesome icon names'
+          pr_body: ':robot: Automated PR to add and update new font awesome icon names'
+          pr_label: ':shipit: merge'

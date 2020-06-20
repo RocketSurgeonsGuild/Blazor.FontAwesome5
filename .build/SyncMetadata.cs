@@ -10,6 +10,7 @@ using static Nuke.Common.IO.TextTasks;
 using static Nuke.Common.IO.FileSystemTasks;
 using Nuke.Common.Tools.Npm;
 using static Nuke.Common.Tools.Npm.NpmTasks;
+using Nuke.Common.IO;
 
 public partial class Solution
 {
@@ -17,15 +18,15 @@ public partial class Solution
     Target RegenerateFromMetadata => _ => _
         .Executes(() =>
         {
-            var metadata = new List<(string name, string nodeModule, string sourcePath)>()
+            var metadata = new List<(string name, string nodeModule, AbsolutePath sourcePath)>()
             {
-                ("Free", "@fortawesome/fontawesome-free", @"src\Blazor.FontAwesome5.Free"),
+                ("Free", "@fortawesome/fontawesome-free", (AbsolutePath)@"src\Blazor.FontAwesome5.Free"),
             };
 
             WriteAllText(TemporaryDirectory / "package.json", "{}");
             if (!string.IsNullOrWhiteSpace(FontAwesomeToken))
             {
-                metadata.Add(("Pro", "@fortawesome/fontawesome-pro", @"src\Blazor.FontAwesome5.Pro"));
+                metadata.Add(("Pro", "@fortawesome/fontawesome-pro", (AbsolutePath)@"src\Blazor.FontAwesome5.Pro"));
                 WriteAllText(TemporaryDirectory / ".npmrc", $@"@fortawesome:registry=https://npm.fontawesome.com/
 //npm.fontawesome.com/:_authToken={FontAwesomeToken}");
             }
@@ -34,8 +35,8 @@ public partial class Solution
             {
                 Npm($"install {module} --no-package-lock", TemporaryDirectory);
 
-                var iconsData = $@"{TemporaryDirectory}\node_modules\{module}\metadata\icons.yml";
-                var categoriesData = $@"{TemporaryDirectory}\node_modules\{module}\metadata\categories.yml";
+                var iconsData = TemporaryDirectory / "node_modules" / module / "metadata" / "icons.yml";
+                var categoriesData = TemporaryDirectory / "node_modules" / module / "metadata" / "categories.yml";
                 var @namespace = $@"Rocket.Surgery.Blazor.FontAwesome5.{name}";
 
                 var ds = new DeserializerBuilder()
@@ -87,11 +88,11 @@ public partial class Solution
 
                     if (style == FontAwesomeStyle.Brands)
                     {
-                        WriteAllText($@"{RootDirectory}\{sourcePath.Replace(".Free", "").Replace(".Pro", "")}.{style}\{ToPrefix(style).Pascalize()}.cs", UsingNamespace(@namespace.Replace(".Free", "").Replace(".Pro", "") + "." + style, sb.ToString()));
+                        WriteAllText(RootDirectory / $"{sourcePath.ToString().Replace(".Free", "").Replace(".Pro", "")}.{style}" / $"{ToPrefix(style).Pascalize()}.cs", UsingNamespace(@namespace.Replace(".Free", "").Replace(".Pro", "") + "." + style, sb.ToString()));
                     }
                     else
                     {
-                        WriteAllText($@"{RootDirectory}\{sourcePath}.{style}\{ToPrefix(style).Pascalize()}.cs", UsingNamespace(@namespace, sb.ToString()));
+                        WriteAllText(RootDirectory / $"{sourcePath}.{style}" / $"{ToPrefix(style).Pascalize()}.cs", UsingNamespace(@namespace, sb.ToString()));
                     }
 
                     sb = new StringBuilder();

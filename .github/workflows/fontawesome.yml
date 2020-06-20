@@ -30,14 +30,14 @@ jobs:
           dotnet tool restore
       - name: 📦 Regenerate From Metadata
         run: |
-          dotnet nuke RegenerateFromMetadata --font-awesome-token ${{ secrets.FONTAWESOME_TOKEN }} --skip
+          dotnet nuke RegenerateFromMetadata --font-awesome-token "${{ secrets.FONTAWESOME_TOKEN }}" --skip
       - name: ⬅ Pull Request
         uses: gr2m/create-or-update-pull-request-action@v1.2.2
         with:
           title: 'Update Font Awesome Icons'
           body: 'Add / update new font awesome icon names'
           branch: 'update-fontawesome-latest'
-          commit-message: 'My commit message for uncommitted changes in lib/ folder'
+          commit-message: 'Add / update new font awesome icon names'
           author: 'Rocket Understudy <rsg-bot@nowhere.com>'
         env:
           GITHUB_TOKEN: ${{ secrets.RSG_BOT_TOKEN }}

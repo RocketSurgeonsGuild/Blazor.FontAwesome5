@@ -2,16 +2,16 @@ name: Font Awesome Updater
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 0 * * 4'
 
 jobs:
   Update_Font_Awesome:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.3.0
         with:
-          clean: 'false'
+          fetch-depth: 0
       - name: Fetch all history for all tags and branches
         run: |
           git fetch --prune --unshallow

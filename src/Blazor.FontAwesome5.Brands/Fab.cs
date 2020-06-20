@@ -891,15 +891,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Dashcube,
 
         /// <summary>
-        /// Deezer
-        /// </summary>
-        /// <remarks>
-        /// deezer - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "deezer")]
-        Deezer,
-
-        /// <summary>
         /// Delicious
         /// </summary>
         /// <remarks>
@@ -1096,15 +1087,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "edge")]
         Edge,
-
-        /// <summary>
-        /// Edge Legacy Browser
-        /// </summary>
-        /// <remarks>
-        /// edge-legacy - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "edge-legacy")]
-        EdgeLegacy,
 
         /// <summary>
         /// Elementor
@@ -1645,15 +1627,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "google-drive")]
         GoogleDrive,
-
-        /// <summary>
-        /// Google Pay
-        /// </summary>
-        /// <remarks>
-        /// google-pay - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "google-pay")]
-        GooglePay,
 
         /// <summary>
         /// Google Play
@@ -2934,15 +2907,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Rockrms,
 
         /// <summary>
-        /// Rust
-        /// </summary>
-        /// <remarks>
-        /// rust - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "rust")]
-        Rust,
-
-        /// <summary>
         /// Safari
         /// </summary>
         /// <remarks>
@@ -3456,15 +3420,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         ThinkPeaks,
 
         /// <summary>
-        /// Tik Tok
-        /// </summary>
-        /// <remarks>
-        /// tiktok - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "tiktok")]
-        Tiktok,
-
-        /// <summary>
         /// Trade Federation
         /// </summary>
         /// <remarks>
@@ -3598,15 +3553,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "unity")]
         Unity,
-
-        /// <summary>
-        /// Unsplash
-        /// </summary>
-        /// <remarks>
-        /// unsplash - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "unsplash")]
-        Unsplash,
 
         /// <summary>
         /// Untappd

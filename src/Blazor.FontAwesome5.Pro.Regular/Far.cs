@@ -954,24 +954,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         Bacon,
 
         /// <summary>
-        /// Bacteria
-        /// </summary>
-        /// <remarks>
-        /// bacteria - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "bacteria")]
-        Bacteria,
-
-        /// <summary>
-        /// Bacterium
-        /// </summary>
-        /// <remarks>
-        /// bacterium - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "bacterium")]
-        Bacterium,
-
-        /// <summary>
         /// Badge
         /// </summary>
         /// <remarks>
@@ -1951,15 +1933,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "box-open")]
         BoxOpen,
-
-        /// <summary>
-        /// Tissue Box
-        /// </summary>
-        /// <remarks>
-        /// box-tissue - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "box-tissue")]
-        BoxTissue,
 
         /// <summary>
         /// Box Up
@@ -7155,15 +7128,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         HandHoldingMagic,
 
         /// <summary>
-        /// Hand Holding Medical Cross
-        /// </summary>
-        /// <remarks>
-        /// hand-holding-medical - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "hand-holding-medical")]
-        HandHoldingMedical,
-
-        /// <summary>
         /// Hand Holding Seedling
         /// </summary>
         /// <remarks>
@@ -7299,15 +7263,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         HandScissors,
 
         /// <summary>
-        /// Hand Sparkles
-        /// </summary>
-        /// <remarks>
-        /// hand-sparkles - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "hand-sparkles")]
-        HandSparkles,
-
-        /// <summary>
         /// Spock Hand
         /// </summary>
         /// <remarks>
@@ -7353,15 +7308,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         HandsUsd,
 
         /// <summary>
-        /// Hands Wash
-        /// </summary>
-        /// <remarks>
-        /// hands-wash - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "hands-wash")]
-        HandsWash,
-
-        /// <summary>
         /// Handshake
         /// </summary>
         /// <remarks>
@@ -7378,24 +7324,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "handshake-alt")]
         HandshakeAlt,
-
-        /// <summary>
-        /// Handshake Alternate Slash
-        /// </summary>
-        /// <remarks>
-        /// handshake-alt-slash - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "handshake-alt-slash")]
-        HandshakeAltSlash,
-
-        /// <summary>
-        /// Handshake Slash
-        /// </summary>
-        /// <remarks>
-        /// handshake-slash - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "handshake-slash")]
-        HandshakeSlash,
 
         /// <summary>
         /// Hanukiah
@@ -7515,24 +7443,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         HeadSideBrain,
 
         /// <summary>
-        /// Head Side Cough
-        /// </summary>
-        /// <remarks>
-        /// head-side-cough - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "head-side-cough")]
-        HeadSideCough,
-
-        /// <summary>
-        /// Head Side Cough Slash
-        /// </summary>
-        /// <remarks>
-        /// head-side-cough-slash - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "head-side-cough-slash")]
-        HeadSideCoughSlash,
-
-        /// <summary>
         /// Head Side With Headphones
         /// </summary>
         /// <remarks>
@@ -7542,15 +7452,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         HeadSideHeadphones,
 
         /// <summary>
-        /// Head Side Mask
-        /// </summary>
-        /// <remarks>
-        /// head-side-mask - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "head-side-mask")]
-        HeadSideMask,
-
-        /// <summary>
         /// Head Side With Medical Symbol
         /// </summary>
         /// <remarks>
@@ -7558,15 +7459,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "head-side-medical")]
         HeadSideMedical,
-
-        /// <summary>
-        /// Head Side Virus
-        /// </summary>
-        /// <remarks>
-        /// head-side-virus - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "head-side-virus")]
-        HeadSideVirus,
 
         /// <summary>
         /// Head VR
@@ -8044,15 +7936,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "house-signal")]
         HouseSignal,
-
-        /// <summary>
-        /// House User
-        /// </summary>
-        /// <remarks>
-        /// house-user - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "house-user")]
-        HouseUser,
 
         /// <summary>
         /// Hryvnia
@@ -8613,15 +8496,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         LaptopCode,
 
         /// <summary>
-        /// Laptop House
-        /// </summary>
-        /// <remarks>
-        /// laptop-house - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "laptop-house")]
-        LaptopHouse,
-
-        /// <summary>
         /// Laptop Medical
         /// </summary>
         /// <remarks>
@@ -9178,15 +9052,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "lungs")]
         Lungs,
-
-        /// <summary>
-        /// Lungs Virus
-        /// </summary>
-        /// <remarks>
-        /// lungs-virus - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "lungs-virus")]
-        LungsVirus,
 
         /// <summary>
         /// Mace
@@ -10530,15 +10395,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         Pennant,
 
         /// <summary>
-        /// People Arrows
-        /// </summary>
-        /// <remarks>
-        /// people-arrows - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "people-arrows")]
-        PeopleArrows,
-
-        /// <summary>
         /// People Carry
         /// </summary>
         /// <remarks>
@@ -10843,15 +10699,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "plane-departure")]
         PlaneDeparture,
-
-        /// <summary>
-        /// Plane Slash
-        /// </summary>
-        /// <remarks>
-        /// plane-slash - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "plane-slash")]
-        PlaneSlash,
 
         /// <summary>
         /// Planet With Moon
@@ -11194,24 +11041,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "projector")]
         Projector,
-
-        /// <summary>
-        /// Pump Medical
-        /// </summary>
-        /// <remarks>
-        /// pump-medical - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "pump-medical")]
-        PumpMedical,
-
-        /// <summary>
-        /// Pump Soap
-        /// </summary>
-        /// <remarks>
-        /// pump-soap - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "pump-soap")]
-        PumpSoap,
 
         /// <summary>
         /// Pumpkin
@@ -12294,15 +12123,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ShieldCross,
 
         /// <summary>
-        /// Shield Virus
-        /// </summary>
-        /// <remarks>
-        /// shield-virus - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "shield-virus")]
-        ShieldVirus,
-
-        /// <summary>
         /// Ship
         /// </summary>
         /// <remarks>
@@ -12625,15 +12445,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "sim-card")]
         SimCard,
-
-        /// <summary>
-        /// Sink
-        /// </summary>
-        /// <remarks>
-        /// sink - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "sink")]
-        Sink,
 
         /// <summary>
         /// Siren
@@ -12967,15 +12778,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "snowplow")]
         Snowplow,
-
-        /// <summary>
-        /// Soap
-        /// </summary>
-        /// <remarks>
-        /// soap - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "soap")]
-        Soap,
 
         /// <summary>
         /// Socks
@@ -13698,15 +13500,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         Stopwatch,
 
         /// <summary>
-        /// Stopwatch 20
-        /// </summary>
-        /// <remarks>
-        /// stopwatch-20 - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "stopwatch-20")]
-        Stopwatch20,
-
-        /// <summary>
         /// Store
         /// </summary>
         /// <remarks>
@@ -13723,24 +13516,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "store-alt")]
         StoreAlt,
-
-        /// <summary>
-        /// Alternate Store Slash
-        /// </summary>
-        /// <remarks>
-        /// store-alt-slash - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "store-alt-slash")]
-        StoreAltSlash,
-
-        /// <summary>
-        /// Store Slash
-        /// </summary>
-        /// <remarks>
-        /// store-slash - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "store-slash")]
-        StoreSlash,
 
         /// <summary>
         /// Stream
@@ -14749,15 +14524,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "toilet-paper-alt")]
         ToiletPaperAlt,
-
-        /// <summary>
-        /// Toilet Paper Slash
-        /// </summary>
-        /// <remarks>
-        /// toilet-paper-slash - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "toilet-paper-slash")]
-        ToiletPaperSlash,
 
         /// <summary>
         /// Tombstone
@@ -15858,15 +15624,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         UsersMedical,
 
         /// <summary>
-        /// Users Slash
-        /// </summary>
-        /// <remarks>
-        /// users-slash - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "users-slash")]
-        UsersSlash,
-
-        /// <summary>
         /// Utensil Fork
         /// </summary>
         /// <remarks>
@@ -16045,33 +15802,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "violin")]
         Violin,
-
-        /// <summary>
-        /// Virus
-        /// </summary>
-        /// <remarks>
-        /// virus - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "virus")]
-        Virus,
-
-        /// <summary>
-        /// Virus Slash
-        /// </summary>
-        /// <remarks>
-        /// virus-slash - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "virus-slash")]
-        VirusSlash,
-
-        /// <summary>
-        /// Viruses
-        /// </summary>
-        /// <remarks>
-        /// viruses - Available in Light, Regular, Solid, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "viruses")]
-        Viruses,
 
         /// <summary>
         /// Voicemail

@@ -486,24 +486,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         Bacon,
 
         /// <summary>
-        /// Bacteria
-        /// </summary>
-        /// <remarks>
-        /// bacteria - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "bacteria")]
-        Bacteria,
-
-        /// <summary>
-        /// Bacterium
-        /// </summary>
-        /// <remarks>
-        /// bacterium - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "bacterium")]
-        Bacterium,
-
-        /// <summary>
         /// Bahá Í
         /// </summary>
         /// <remarks>
@@ -934,15 +916,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "box-open")]
         BoxOpen,
-
-        /// <summary>
-        /// Tissue Box
-        /// </summary>
-        /// <remarks>
-        /// box-tissue - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "box-tissue")]
-        BoxTissue,
 
         /// <summary>
         /// Boxes
@@ -2367,15 +2340,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         Directions,
 
         /// <summary>
-        /// Disease
-        /// </summary>
-        /// <remarks>
-        /// disease - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "disease")]
-        Disease,
-
-        /// <summary>
         /// Divide
         /// </summary>
         /// <remarks>
@@ -2833,15 +2797,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "fast-forward")]
         FastForward,
-
-        /// <summary>
-        /// Faucet
-        /// </summary>
-        /// <remarks>
-        /// faucet - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "faucet")]
-        Faucet,
 
         /// <summary>
         /// Fax
@@ -3789,15 +3744,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         HandHoldingHeart,
 
         /// <summary>
-        /// Hand Holding Medical Cross
-        /// </summary>
-        /// <remarks>
-        /// hand-holding-medical - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "hand-holding-medical")]
-        HandHoldingMedical,
-
-        /// <summary>
         /// Hand Holding US Dollar
         /// </summary>
         /// <remarks>
@@ -3805,15 +3751,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-holding-usd")]
         HandHoldingUsd,
-
-        /// <summary>
-        /// Hand Holding Water
-        /// </summary>
-        /// <remarks>
-        /// hand-holding-water - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "hand-holding-water")]
-        HandHoldingWater,
 
         /// <summary>
         /// Lizard Hand
@@ -3915,15 +3852,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         HandScissors,
 
         /// <summary>
-        /// Hand Sparkles
-        /// </summary>
-        /// <remarks>
-        /// hand-sparkles - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "hand-sparkles")]
-        HandSparkles,
-
-        /// <summary>
         /// Spock Hand
         /// </summary>
         /// <remarks>
@@ -3951,15 +3879,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         HandsHelping,
 
         /// <summary>
-        /// Hands Wash
-        /// </summary>
-        /// <remarks>
-        /// hands-wash - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "hands-wash")]
-        HandsWash,
-
-        /// <summary>
         /// Handshake
         /// </summary>
         /// <remarks>
@@ -3967,24 +3886,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "handshake")]
         Handshake,
-
-        /// <summary>
-        /// Handshake Alternate Slash
-        /// </summary>
-        /// <remarks>
-        /// handshake-alt-slash - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "handshake-alt-slash")]
-        HandshakeAltSlash,
-
-        /// <summary>
-        /// Handshake Slash
-        /// </summary>
-        /// <remarks>
-        /// handshake-slash - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "handshake-slash")]
-        HandshakeSlash,
 
         /// <summary>
         /// Hanukiah
@@ -4048,42 +3949,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hdd")]
         Hdd,
-
-        /// <summary>
-        /// Head Side Cough
-        /// </summary>
-        /// <remarks>
-        /// head-side-cough - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "head-side-cough")]
-        HeadSideCough,
-
-        /// <summary>
-        /// Head Side Cough Slash
-        /// </summary>
-        /// <remarks>
-        /// head-side-cough-slash - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "head-side-cough-slash")]
-        HeadSideCoughSlash,
-
-        /// <summary>
-        /// Head Side Mask
-        /// </summary>
-        /// <remarks>
-        /// head-side-mask - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "head-side-mask")]
-        HeadSideMask,
-
-        /// <summary>
-        /// Head Side Virus
-        /// </summary>
-        /// <remarks>
-        /// head-side-virus - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "head-side-virus")]
-        HeadSideVirus,
 
         /// <summary>
         /// Heading
@@ -4266,15 +4131,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         HospitalSymbol,
 
         /// <summary>
-        /// Hospital With User
-        /// </summary>
-        /// <remarks>
-        /// hospital-user - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "hospital-user")]
-        HospitalUser,
-
-        /// <summary>
         /// Hot Tub
         /// </summary>
         /// <remarks>
@@ -4345,15 +4201,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "house-damage")]
         HouseDamage,
-
-        /// <summary>
-        /// House User
-        /// </summary>
-        /// <remarks>
-        /// house-user - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "house-user")]
-        HouseUser,
 
         /// <summary>
         /// Hryvnia
@@ -4653,15 +4500,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         LaptopCode,
 
         /// <summary>
-        /// Laptop House
-        /// </summary>
-        /// <remarks>
-        /// laptop-house - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "laptop-house")]
-        LaptopHouse,
-
-        /// <summary>
         /// Laptop Medical
         /// </summary>
         /// <remarks>
@@ -4921,24 +4759,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "luggage-cart")]
         LuggageCart,
-
-        /// <summary>
-        /// Lungs
-        /// </summary>
-        /// <remarks>
-        /// lungs - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "lungs")]
-        Lungs,
-
-        /// <summary>
-        /// Lungs Virus
-        /// </summary>
-        /// <remarks>
-        /// lungs-virus - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "lungs-virus")]
-        LungsVirus,
 
         /// <summary>
         /// Magic
@@ -5751,15 +5571,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         PencilRuler,
 
         /// <summary>
-        /// People Arrows
-        /// </summary>
-        /// <remarks>
-        /// people-arrows - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "people-arrows")]
-        PeopleArrows,
-
-        /// <summary>
         /// People Carry
         /// </summary>
         /// <remarks>
@@ -5929,15 +5740,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "plane-departure")]
         PlaneDeparture,
-
-        /// <summary>
-        /// Plane Slash
-        /// </summary>
-        /// <remarks>
-        /// plane-slash - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "plane-slash")]
-        PlaneSlash,
 
         /// <summary>
         /// Play
@@ -6145,24 +5947,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "project-diagram")]
         ProjectDiagram,
-
-        /// <summary>
-        /// Pump Medical
-        /// </summary>
-        /// <remarks>
-        /// pump-medical - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "pump-medical")]
-        PumpMedical,
-
-        /// <summary>
-        /// Pump Soap
-        /// </summary>
-        /// <remarks>
-        /// pump-soap - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "pump-soap")]
-        PumpSoap,
 
         /// <summary>
         /// Puzzle Piece
@@ -6723,15 +6507,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         ShieldAlt,
 
         /// <summary>
-        /// Shield Virus
-        /// </summary>
-        /// <remarks>
-        /// shield-virus - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "shield-virus")]
-        ShieldVirus,
-
-        /// <summary>
         /// Ship
         /// </summary>
         /// <remarks>
@@ -6865,15 +6640,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sim-card")]
         SimCard,
-
-        /// <summary>
-        /// Sink
-        /// </summary>
-        /// <remarks>
-        /// sink - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "sink")]
-        Sink,
 
         /// <summary>
         /// Sitemap
@@ -7054,15 +6820,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "snowplow")]
         Snowplow,
-
-        /// <summary>
-        /// Soap
-        /// </summary>
-        /// <remarks>
-        /// soap - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "soap")]
-        Soap,
 
         /// <summary>
         /// Socks
@@ -7434,15 +7191,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         Stopwatch,
 
         /// <summary>
-        /// Stopwatch 20
-        /// </summary>
-        /// <remarks>
-        /// stopwatch-20 - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "stopwatch-20")]
-        Stopwatch20,
-
-        /// <summary>
         /// Store
         /// </summary>
         /// <remarks>
@@ -7459,24 +7207,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "store-alt")]
         StoreAlt,
-
-        /// <summary>
-        /// Alternate Store Slash
-        /// </summary>
-        /// <remarks>
-        /// store-alt-slash - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "store-alt-slash")]
-        StoreAltSlash,
-
-        /// <summary>
-        /// Store Slash
-        /// </summary>
-        /// <remarks>
-        /// store-slash - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "store-slash")]
-        StoreSlash,
 
         /// <summary>
         /// Stream
@@ -8017,15 +7747,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "toilet-paper")]
         ToiletPaper,
-
-        /// <summary>
-        /// Toilet Paper Slash
-        /// </summary>
-        /// <remarks>
-        /// toilet-paper-slash - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "toilet-paper-slash")]
-        ToiletPaperSlash,
 
         /// <summary>
         /// Toolbox
@@ -8604,15 +8325,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         UsersCog,
 
         /// <summary>
-        /// Users Slash
-        /// </summary>
-        /// <remarks>
-        /// users-slash - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "users-slash")]
-        UsersSlash,
-
-        /// <summary>
         /// Utensil Spoon
         /// </summary>
         /// <remarks>
@@ -8710,33 +8422,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "vihara")]
         Vihara,
-
-        /// <summary>
-        /// Virus
-        /// </summary>
-        /// <remarks>
-        /// virus - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "virus")]
-        Virus,
-
-        /// <summary>
-        /// Virus Slash
-        /// </summary>
-        /// <remarks>
-        /// virus-slash - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "virus-slash")]
-        VirusSlash,
-
-        /// <summary>
-        /// Viruses
-        /// </summary>
-        /// <remarks>
-        /// viruses - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "viruses")]
-        Viruses,
 
         /// <summary>
         /// Voicemail

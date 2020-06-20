@@ -11,7 +11,7 @@ using static Nuke.Common.IO.FileSystemTasks;
 using Nuke.Common.Tools.Npm;
 using static Nuke.Common.Tools.Npm.NpmTasks;
 
-internal partial class Solution
+public partial class Solution
 {
     [Parameter] string FontAwesomeToken { get; set; }
     Target RegenerateFromMetadata => _ => _

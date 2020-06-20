@@ -2,7 +2,7 @@
   "private": true,
   "devDependencies": {
     "husky": "^3.0.9",
-    "lint-staged": "^9.4.3",
+    "lint-staged": "^10.2.11",
     "prettier": "^1.19.1"
   }
 }

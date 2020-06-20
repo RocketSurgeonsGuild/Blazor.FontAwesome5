@@ -29,12 +29,19 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: '3.1.x'
-      - name: 📦
       - name: 🎁 dotnet tool restore
         run: |
           dotnet tool restore
-      - name: 🎁 Restore
+      - name: 📦 Regenerate From Metadata
         run: |
           dotnet nuke RegenerateFromMetadata --font-awesome-token ${{ secrets.FONTAWESOME_TOKEN }} --skip
-
-# RegenerateFromMetadata
+      - name: ⬅ Pull Request
+        uses: gr2m/create-or-update-pull-request-action@v1
+        with:
+          title: 'Update Font Awesome Icons'
+          body: 'Add / update new font awesome icon names'
+          branch: 'update-fontawesome-latest'
+          commit-message: 'My commit message for uncommitted changes in lib/ folder'
+          author: 'Rocket Understudy <rsg-bot@nowhere.com>'
+        env:
+          GITHUB_TOKEN: ${{ secrets.RSG_BOT_TOKEN }}

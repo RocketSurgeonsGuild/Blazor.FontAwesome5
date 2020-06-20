@@ -20,11 +20,13 @@ on:
   push:
     branches:
       - master
+      - next
     tags:
       - v*
   pull_request:
     branches:
       - master
+      - next
 
 jobs:
   Build:
@@ -54,20 +56,14 @@ jobs:
         run: |
           $version = Split-Path (Split-Path $ENV:DOTNET_ROOT -Parent) -Leaf;
           $root = Split-Path (Split-Path $ENV:DOTNET_ROOT -Parent) -Parent;
-          $directories = Get-ChildItem $ENV:DOTNET_ROOT | Where-Object { $_.Name -ne $version };
+          $directories = Get-ChildItem $root | Where-Object { $_.Name -ne $version };
           foreach ($dir in $directories) {
           $from = $dir.FullName;
-          $to = "$root/$version/$($dir.Name)";
+          $to = "$root/$version";
           Write-Host Copying from $from to $to;
-          Copy-Item $from $to -Recurse -Force;
+          Copy-Item "$from\*" $to -Recurse -Force;
           }
-      - name: 📲 Install GitVersion
-        uses: gittools/actions/gitversion/setup@master
-        with:
-          versionSpec: '5.1.x'
-      - name: 🔨 Use GitVersion
-        id: gitversion
-        uses: gittools/actions/gitversion/execute@master
+          
       - name: 🎁 dotnet tool restore
         run: |
           dotnet tool restore

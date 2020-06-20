@@ -18,6 +18,9 @@ jobs:
       - name: Fetch all history for all tags and branches
         run: |
           git fetch --prune
+      - name: switch
+        run: |
+          git switch update-
       - name: 🔨 Use .NET Core 2.1 SDK
         uses: actions/setup-dotnet@v1
         with:
@@ -33,10 +36,10 @@ jobs:
         run: |
           dotnet nuke RegenerateFromMetadata --font-awesome-token "${{ secrets.FONTAWESOME_TOKEN }}" --skip
       - name: ⬅ Pull Request
-        uses: repo-sync/pull-request@v2
+        uses: peter-evans/create-pull-request@v2
         with:
-          github_token: ${{ secrets.RSG_BOT_TOKEN }}
-          destination_branch: 'master'
-          pr_title: 'add and update new font awesome icon names'
-          pr_body: ':robot: Automated PR to add and update new font awesome icon names'
-          pr_label: ':shipit: merge'
+          token: ${{ secrets.RSG_BOT_TOKEN }}
+          branch: 'update/icons'
+          title: 'add and update new font awesome icon names'
+          body: ':robot: Automated PR to add and update new font awesome icon names'
+          labels: ':shipit: merge,:fire: enhancement'

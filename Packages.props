@@ -44,5 +44,4 @@
     <PackageReference Update="xunit.analyzers" Version="0.10.0" />
     <PackageReference Update="xunit.runner.visualstudio" Version="2.4.2" />
   </ItemGroup>
-  <Import Project="$(MSBuildThisFileDirectory)/$(LegacySupportPackagesProps)" Condition="Exists('$(MSBuildThisFileDirectory)/$(LegacySupportPackagesProps)')" />
 </Project>

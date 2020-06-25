@@ -263,6 +263,8 @@ dotnet_naming_style.begins_with_t.required_suffix=
 dotnet_naming_style.begins_with_t.word_separator=
 dotnet_naming_style.begins_with_t.capitalization=pascal_case
 
+dotnet_diagnostic.IDE0058.severity = none
+
 # CodeQuality
 # CA1000: Do not declare static members on generic types
 # dotnet_diagnostic.CA1000.severity = warning

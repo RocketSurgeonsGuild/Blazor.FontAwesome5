@@ -6,7 +6,7 @@
     <GlobalPackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" />
     <GlobalPackageReference Include="Rocket.Surgery.MSBuild.CI" Version="0.3.1" />
     <GlobalPackageReference Include="Rocket.Surgery.MSBuild.GitVersion" Version="0.3.1" />
-    <GlobalPackageReference Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="0.3.1" Condition="'$(MSBuildProjectName)'!='.build'" />
+    <GlobalPackageReference Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="1.0.0" Condition="'$(MSBuildProjectName)'!='.build'" />
     <!-- <GlobalPackageReference Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="2.9.8" /> -->
     <GlobalPackageReference Include="Rocket.Surgery.MSBuild.Metadata" Version="0.3.1" />
     <GlobalPackageReference Include="Rocket.Surgery.MSBuild.SourceLink" Version="0.3.1" />

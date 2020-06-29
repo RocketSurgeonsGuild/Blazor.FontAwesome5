@@ -4,12 +4,12 @@
     <GlobalPackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.0.0" />
     <GlobalPackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0" />
     <GlobalPackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" />
-    <GlobalPackageReference Include="Rocket.Surgery.MSBuild.CI" Version="0.3.1" />
-    <GlobalPackageReference Include="Rocket.Surgery.MSBuild.GitVersion" Version="0.3.1" />
-    <GlobalPackageReference Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="0.3.1" Condition="'$(MSBuildProjectName)'!='.build'" />
+    <GlobalPackageReference Include="Rocket.Surgery.MSBuild.CI" Version="1.0.0" />
+    <GlobalPackageReference Include="Rocket.Surgery.MSBuild.GitVersion" Version="1.0.0" />
+    <GlobalPackageReference Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="1.0.0" Condition="'$(MSBuildProjectName)'!='.build'" />
     <!-- <GlobalPackageReference Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="2.9.8" /> -->
-    <GlobalPackageReference Include="Rocket.Surgery.MSBuild.Metadata" Version="0.3.1" />
-    <GlobalPackageReference Include="Rocket.Surgery.MSBuild.SourceLink" Version="0.3.1" />
+    <GlobalPackageReference Include="Rocket.Surgery.MSBuild.Metadata" Version="1.0.0" />
+    <GlobalPackageReference Include="Rocket.Surgery.MSBuild.SourceLink" Version="1.0.0" />
     <GlobalPackageReference Include="Roslynator.Analyzers" Version="2.3.0" />
   </ItemGroup>
   <ItemGroup>
@@ -39,7 +39,7 @@
     <PackageReference Update="FluentAssertions" Version="5.10.3" />
     <PackageReference Update="FluentAssertions.Analyzers" Version="0.11.4" />
     <PackageReference Update="Microsoft.NET.Test.Sdk" Version="16.6.1" />
-    <PackageReference Update="Rocket.Surgery.Extensions.Testing.FakeItEasy" Version="5.1.1" />
+    <PackageReference Update="Rocket.Surgery.Extensions.Testing.FakeItEasy" Version="5.2.0" />
     <PackageReference Update="xunit" Version="2.4.1" />
     <PackageReference Update="xunit.analyzers" Version="0.10.0" />
     <PackageReference Update="xunit.runner.visualstudio" Version="2.4.2" />

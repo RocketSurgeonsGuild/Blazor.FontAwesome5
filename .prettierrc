@@ -5,7 +5,7 @@
     "singleQuote": true,
     "arrowParens": "avoid",
     "bracketSpacing": true,
-    "printWidth": 120,
+    "printWidth": 160,
     "overrides": [
         {
             "files": [

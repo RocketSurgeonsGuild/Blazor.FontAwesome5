@@ -27,7 +27,7 @@
     <PackageReference Update="Razor.Components.Testing.Library" Version="1.0.0-beta-5.1" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Update="Microsoft.CodeAnalysis.CSharp" Version="3.6.0" />
+    <PackageReference Update="Microsoft.CodeAnalysis.CSharp" Version="3.7.0" />
     <PackageReference Update="System.Text.Json" Version="4.7.2" />
   </ItemGroup>
   <ItemGroup>

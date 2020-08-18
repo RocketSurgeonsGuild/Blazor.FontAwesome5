@@ -81,7 +81,7 @@ jobs:
         run: |
           dotnet nuke Pack --skip
       - name: 🐿 Publish Coverage
-        uses: codecov/codecov-action@v1.0.12
+        uses: codecov/codecov-action@v1.0.13
         with:
           name: 'actions-${{ matrix.os }}'
           fail_ci_if_error: 'true'

@@ -22,9 +22,3 @@ issue-labels-include:
   - ':package: dependencies'
   - ':construction: deprecated'
   - ':wastebasket: removed'
-issue-labels-exclude:
-  - ':family: duplicate'
-  - ':grey_question: question'
-  - ':lock: wontfix'
-  - ':shipit: merge'
-  - ':x: invalid'

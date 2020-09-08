@@ -10,7 +10,7 @@
     <!-- <GlobalPackageReference Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="2.9.8" /> -->
     <GlobalPackageReference Include="Rocket.Surgery.MSBuild.Metadata" Version="1.0.0" />
     <GlobalPackageReference Include="Rocket.Surgery.MSBuild.SourceLink" Version="1.0.0" />
-    <GlobalPackageReference Include="Roslynator.Analyzers" Version="2.3.0" />
+    <GlobalPackageReference Include="Roslynator.Analyzers" Version="3.0.0" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Update="GitVersion.Tool" Version="5.3.7" />

@@ -30,7 +30,7 @@ resources:
     - repository: rsg
       type: github
       name: RocketSurgeonsGuild/AzureDevopsTemplates
-      ref: refs/tags/v0.13.0
+      ref: refs/tags/v0.13.1
       endpoint: github
 
 variables:
@@ -51,8 +51,12 @@ variables:
 jobs:
   - template: jobs/publish-release.yml@rsg
     parameters:
-      GitHubPackages: true
+      GitHubPackages: false
       GitHubAuthVariableGroup: rsg-bot
+      AzureDevOpsPackages: true
+      AzureDevOpsFeed: 'Libraries/Packages'
+      AzureDevOpsPreviewPackages: true
+      AzureDevOpsPreviewFeed: 'Libraries/Preview'
       PublishNuGetPackagesFromArtifact: 'NuGet - Windows'
 
   - job: Build

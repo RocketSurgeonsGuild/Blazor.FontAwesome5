@@ -15975,6 +15975,24 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         VenusMars,
 
         /// <summary>
+        /// Vest
+        /// </summary>
+        /// <remarks>
+        /// vest - Available in Solid, Light, Regular, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "vest")]
+        Vest,
+
+        /// <summary>
+        /// Vest Patches
+        /// </summary>
+        /// <remarks>
+        /// vest-patches - Available in Solid, Light, Regular, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "vest-patches")]
+        VestPatches,
+
+        /// <summary>
         /// VHS
         /// </summary>
         /// <remarks>

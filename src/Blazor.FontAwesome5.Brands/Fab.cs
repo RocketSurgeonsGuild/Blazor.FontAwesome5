@@ -54,15 +54,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Adn,
 
         /// <summary>
-        /// Adobe
-        /// </summary>
-        /// <remarks>
-        /// adobe - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "adobe")]
-        Adobe,
-
-        /// <summary>
         /// Adversal
         /// </summary>
         /// <remarks>
@@ -601,6 +592,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "chromecast")]
         Chromecast,
+
+        /// <summary>
+        /// Cloudflare
+        /// </summary>
+        /// <remarks>
+        /// cloudflare - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "cloudflare")]
+        Cloudflare,
 
         /// <summary>
         /// Cloudscale Ch
@@ -1737,6 +1737,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Grunt,
 
         /// <summary>
+        /// Guilded
+        /// </summary>
+        /// <remarks>
+        /// guilded - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "guilded")]
+        Guilded,
+
+        /// <summary>
         /// Gulp
         /// </summary>
         /// <remarks>
@@ -1789,6 +1798,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "hire-a-helper")]
         HireAHelper,
+
+        /// <summary>
+        /// Hive Blockchain Network
+        /// </summary>
+        /// <remarks>
+        /// hive - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "hive")]
+        Hive,
 
         /// <summary>
         /// Hooli
@@ -1863,6 +1881,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Imdb,
 
         /// <summary>
+        /// Innosoft
+        /// </summary>
+        /// <remarks>
+        /// innosoft - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "innosoft")]
+        Innosoft,
+
+        /// <summary>
         /// Instagram
         /// </summary>
         /// <remarks>
@@ -1879,6 +1906,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "instagram-square")]
         InstagramSquare,
+
+        /// <summary>
+        /// Insta LOD
+        /// </summary>
+        /// <remarks>
+        /// instalod - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "instalod")]
+        Instalod,
 
         /// <summary>
         /// Intercom
@@ -2448,6 +2484,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Nutritionix,
 
         /// <summary>
+        /// Octopus Deploy
+        /// </summary>
+        /// <remarks>
+        /// octopus-deploy - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "octopus-deploy")]
+        OctopusDeploy,
+
+        /// <summary>
         /// Odnoklassniki
         /// </summary>
         /// <remarks>
@@ -2581,6 +2626,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "penny-arcade")]
         PennyArcade,
+
+        /// <summary>
+        /// Per Byte
+        /// </summary>
+        /// <remarks>
+        /// perbyte - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "perbyte")]
+        Perbyte,
 
         /// <summary>
         /// Periscope
@@ -3582,6 +3636,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Umbraco,
 
         /// <summary>
+        /// Uncharted Software
+        /// </summary>
+        /// <remarks>
+        /// uncharted - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "uncharted")]
+        Uncharted,
+
+        /// <summary>
         /// Uniregistry
         /// </summary>
         /// <remarks>
@@ -3762,6 +3825,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Vuejs,
 
         /// <summary>
+        /// Watchman Monitoring
+        /// </summary>
+        /// <remarks>
+        /// watchman-monitoring - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "watchman-monitoring")]
+        WatchmanMonitoring,
+
+        /// <summary>
         /// Waze
         /// </summary>
         /// <remarks>
@@ -3859,6 +3931,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "wizards-of-the-coast")]
         WizardsOfTheCoast,
+
+        /// <summary>
+        /// Wodu
+        /// </summary>
+        /// <remarks>
+        /// wodu - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "wodu")]
+        Wodu,
 
         /// <summary>
         /// Wolf Pack Battalion

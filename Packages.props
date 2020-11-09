@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
   <ItemGroup>
-    <GlobalPackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.0" />
+    <GlobalPackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.1" />
     <GlobalPackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0" />
     <GlobalPackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" />
     <GlobalPackageReference Include="Rocket.Surgery.MSBuild.CI" Version="1.0.0" />

@@ -6,27 +6,7 @@ using Rocket.Surgery.Nuke.ContinuousIntegration;
 using Rocket.Surgery.Nuke.DotNetCore;
 using Rocket.Surgery.Nuke.GithubActions;
 
-[AzurePipelinesSteps(
-    AutoGenerate = false,
-    InvokeTargets = new[] { nameof(Default) },
-    NonEntryTargets = new[]
-    {
-        nameof(ICIEnvironment.CIEnvironment),
-        nameof(ITriggerCodeCoverageReports.Trigger_Code_Coverage_Reports),
-        nameof(ITriggerCodeCoverageReports.Generate_Code_Coverage_Report_Cobertura),
-        nameof(IGenerateCodeCoverageBadges.Generate_Code_Coverage_Badges),
-        nameof(IGenerateCodeCoverageReport.Generate_Code_Coverage_Report),
-        nameof(IGenerateCodeCoverageSummary.Generate_Code_Coverage_Summary),
-        nameof(Default)
-    },
-    ExcludedTargets = new[]
-        { nameof(ICanClean.Clean), nameof(ICanRestoreWithDotNetCore.Restore), nameof(ICanRestoreWithDotNetCore.DotnetToolRestore) },
-    Parameters = new[]
-    {
-        nameof(IHaveCodeCoverage.CoverageDirectory), nameof(IHaveOutputArtifacts.ArtifactsDirectory), nameof(Verbosity),
-        nameof(IHaveConfiguration.Configuration)
-    }
-)]
+
 [GitHubActionsSteps("ci", GitHubActionsImage.MacOsLatest, GitHubActionsImage.WindowsLatest, GitHubActionsImage.UbuntuLatest,
     AutoGenerate = false,
     On = new[] { GitHubActionsTrigger.Push },

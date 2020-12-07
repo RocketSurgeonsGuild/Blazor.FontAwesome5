@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Nuke.Common" />
-    <PackageReference Include="JetBrains.ReSharper.CommandLineTools" ExcludeAssets="All" />
+    <PackageReference Include="JetBrains.ReSharper.GlobalTools" ExcludeAssets="All" />
     <PackageReference Include="GitVersion.Tool" ExcludeAssets="All" />
     <PackageReference Include="ReportGenerator" ExcludeAssets="All" />
     <PackageReference Include="Rocket.Surgery.Nuke" />

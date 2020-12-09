@@ -40,8 +40,8 @@ jobs:
           ApiKey: ${{ secrets.RSG_NUGET_API_KEY }}
         shell: pwsh
         run: |
-          dotnet nuget push **/*.nupkg  --skip-duplicate --api-key $ENV:ApiKey
-          dotnet nuget push **/*.snupkg --skip-duplicate --api-key $ENV:ApiKey
+          dotnet nuget push **/*.nupkg  --skip-duplicate -s nuget.org --api-key $ENV:ApiKey
+          dotnet nuget push **/*.snupkg --skip-duplicate -s nuget.org --api-key $ENV:ApiKey
 
       - name: dev.azure.com
         # continue-on-error: true

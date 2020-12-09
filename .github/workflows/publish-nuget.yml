@@ -11,12 +11,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
+
       - uses: nuget/setup-nuget@v1
         with:
           nuget-version: '5.x'
 
       - name: Download artifact
         uses: dawidd6/action-download-artifact@v2
+        if: github.event.workflow_run.conclusion == 'success'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           workflow: ci.yml
@@ -29,12 +35,13 @@ jobs:
 
       - name: nuget.org
         # continue-on-error: true
-        if: startsWith(github.ref, 'refs/tags/v')
+        if: (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main') && startsWith(github.event.workflow_run.head_branch, 'v') # this is the best approximation for a tag
         env:
           ApiKey: ${{ secrets.RSG_NUGET_API_KEY }}
         shell: pwsh
         run: |
-          dotnet nuget push **/*.nupkg --skip-duplicate --api-key $ENV:ApiKey --source nuget.org
+          dotnet nuget push **/*.nupkg  --skip-duplicate --api-key $ENV:ApiKey
+          dotnet nuget push **/*.snupkg --skip-duplicate --api-key $ENV:ApiKey
 
       - name: dev.azure.com
         # continue-on-error: true

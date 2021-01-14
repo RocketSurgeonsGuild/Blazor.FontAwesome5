@@ -3735,7 +3735,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Viacoin,
 
         /// <summary>
-        /// Video
+        /// Viadeo
         /// </summary>
         /// <remarks>
         /// viadeo - Available in Brands
@@ -3744,7 +3744,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Viadeo,
 
         /// <summary>
-        /// Video Square
+        /// Viadeo Square
         /// </summary>
         /// <remarks>
         /// viadeo-square - Available in Brands

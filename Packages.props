@@ -16,7 +16,7 @@
     <PackageReference Update="JetBrains.ReSharper.GlobalTools" Version="2021.1.2" />
     <PackageReference Update="Nuke.Common" Version="5.0.2" />
     <PackageReference Update="ReportGenerator" Version="4.8.8" />
-    <PackageReference Update="Rocket.Surgery.Nuke" Version="0.14.3" />
+    <PackageReference Update="Rocket.Surgery.Nuke" Version="0.15.0" />
     <PackageReference Update="Humanizer.Core" Version="2.8.26" />
   </ItemGroup>
   <ItemGroup>

@@ -14,7 +14,7 @@
   <ItemGroup>
     <PackageReference Update="GitVersion.Tool" Version="5.6.9" />
     <PackageReference Update="JetBrains.ReSharper.GlobalTools" Version="2021.1.2" />
-    <PackageReference Update="Nuke.Common" Version="5.0.2" />
+    <PackageReference Update="Nuke.Common" Version="5.1.1" />
     <PackageReference Update="ReportGenerator" Version="4.8.8" />
     <PackageReference Update="Rocket.Surgery.Nuke" Version="0.14.3" />
     <PackageReference Update="Humanizer.Core" Version="2.8.26" />

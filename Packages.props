@@ -33,7 +33,7 @@
     <PackageReference Update="Bogus" Version="33.0.2" />
     <PackageReference Update="coverlet.collector" Version="3.0.3" />
     <PackageReference Update="coverlet.msbuild" Version="3.0.3" />
-    <PackageReference Update="FakeItEasy" Version="7.0.1" />
+    <PackageReference Update="FakeItEasy" Version="7.0.2" />
     <PackageReference Update="FakeItEasy.Analyzer.CSharp" Version="6.1.0" />
     <PackageReference Update="FluentAssertions" Version="5.10.3" />
     <PackageReference Update="FluentAssertions.Analyzers" Version="0.11.4" />

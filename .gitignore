@@ -195,6 +195,7 @@ lib/
 .nuget/
 project.lock.json
 *.nupkg
+/.nuke/temp/
 .automation/
 /tools/*/
 /tools/*.exe

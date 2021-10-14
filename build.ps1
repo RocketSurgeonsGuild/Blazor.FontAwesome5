@@ -14,9 +14,9 @@ $PSScriptRoot = Split-Path $MyInvocation.MyCommand.Path -Parent
 ###########################################################################
 
 $BuildProjectFile = "$PSScriptRoot\.build\.build.csproj"
-$TempDirectory = "$PSScriptRoot\\.nuke\temp"
+$TempDirectory = "$PSScriptRoot\.nuke\temp"
 
-$DotNetGlobalFile = "$PSScriptRoot\\global.json"
+$DotNetGlobalFile = "$PSScriptRoot\global.json"
 $DotNetInstallUrl = "https://dot.net/v1/dotnet-install.ps1"
 $DotNetChannel = "Current"
 
@@ -50,6 +50,9 @@ else {
         $DotNetGlobal = $(Get-Content $DotNetGlobalFile | Out-String | ConvertFrom-Json)
         if ($DotNetGlobal.PSObject.Properties["sdk"] -and $DotNetGlobal.sdk.PSObject.Properties["version"]) {
             $DotNetVersion = $DotNetGlobal.sdk.version
+            if ($DotNetVersion -match '-') {
+                $DotNetVersion = $DotNetVersion.Substring(0, $DotNetVersion.IndexOf('-'))
+            }
         }
     }
 

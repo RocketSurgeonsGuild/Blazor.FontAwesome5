@@ -41,9 +41,13 @@ else
     # If global.json exists, load expected version
     if [[ -f "$DOTNET_GLOBAL_FILE" ]]; then
         DOTNET_VERSION=$(FirstJsonValue "version" "$(cat "$DOTNET_GLOBAL_FILE")")
+        if [[ "$DOTNET_VERSION" == *"-"* ]]; then
+            DOTNET_VERSION=$(cut -d '-' -f 1 <<< "$DOTNET_VERSION")
+        fi
         if [[ "$DOTNET_VERSION" == ""  ]]; then
             unset DOTNET_VERSION
         fi
+
     fi
 
     # Install by channel or version

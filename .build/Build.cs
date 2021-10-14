@@ -1,8 +1,6 @@
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using JetBrains.Annotations;
 using Nuke.Common;
+using Nuke.Common.CI;
 using Nuke.Common.Execution;
 using Nuke.Common.Git;
 using Nuke.Common.Tools.DotNet;
@@ -16,23 +14,24 @@ using Rocket.Surgery.Nuke.DotNetCore;
 [UnsetVisualStudioEnvironmentVariables]
 [PackageIcon("https://raw.githubusercontent.com/RocketSurgeonsGuild/graphics/master/png/social-square-thrust-rounded.png")]
 [EnsureGitHooks(GitHook.PreCommit)]
-[EnsureReadmeIsUpdated]
+[EnsureReadmeIsUpdated("Readme.md")]
 [DotNetVerbosityMapping]
 [MSBuildVerbosityMapping]
 [NuGetVerbosityMapping]
+[ShutdownDotNetAfterServerBuild]
 public partial class Solution : NukeBuild,
-                        ICanRestoreWithDotNetCore,
-                        ICanBuildWithDotNetCore,
-                        ICanTestWithDotNetCore,
-                        ICanPackWithDotNetCore,
-                        IHaveDataCollector,
-                        ICanClean,
-                        ICanUpdateReadme,
-                        IGenerateCodeCoverageReport,
-                        IGenerateCodeCoverageSummary,
-                        IGenerateCodeCoverageBadges,
-                        IHaveConfiguration<Configuration>,
-                        ICanLint
+                                ICanRestoreWithDotNetCore,
+                                ICanBuildWithDotNetCore,
+                                ICanTestWithDotNetCore,
+                                ICanPackWithDotNetCore,
+                                IHaveDataCollector,
+                                ICanClean,
+                                ICanUpdateReadme,
+                                IGenerateCodeCoverageReport,
+                                IGenerateCodeCoverageSummary,
+                                IGenerateCodeCoverageBadges,
+                                IHaveConfiguration<Configuration>,
+                                ICanLint
 {
     /// <summary>
     /// Support plugins are available for:
@@ -61,6 +60,7 @@ public partial class Solution : NukeBuild,
     public GitVersion GitVersion { get; } = null!;
 
     public Target Clean => _ => _.Inherit<ICanClean>(x => x.Clean);
+    public Target Lint => _ => _.Inherit<ICanLint>(x => x.Lint);
     public Target Restore => _ => _.Inherit<ICanRestoreWithDotNetCore>(x => x.CoreRestore);
     public Target Test => _ => _.Inherit<ICanTestWithDotNetCore>(x => x.CoreTest);
 

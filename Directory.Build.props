@@ -7,12 +7,19 @@
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <PackageIcon>images/packageicon.png</PackageIcon>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
-        <PackageTags>fontawesome5;blazor;icons;rocket surgery;rocket surgeons;rsg;rocket surgeons guild</PackageTags>
+        <!--
+            in package
+            Title
+            Description
+            Tags
+        -->
         <LangVersion>preview</LangVersion>
         <Features>strict</Features>
         <Nullable>enable</Nullable>
         <AnalysisMode>AllEnabledByDefault</AnalysisMode>
         <EnableNETAnalyzers>true</EnableNETAnalyzers>
+        <NukeTelemetryVersion>1</NukeTelemetryVersion>
+        <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
     </PropertyGroup>
     <ItemGroup>
         <None Include="$(MSBuildThisFileDirectory)/.nuke/temp/packageicon.png" Condition="Exists('$(MSBuildThisFileDirectory)/.nuke/temp/packageicon.png')" Pack="true" PackagePath="/images/" Visible="false" />

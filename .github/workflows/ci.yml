@@ -37,7 +37,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.3.4
         with:
           clean: 'false'
           fetch-depth: '0'
@@ -45,18 +45,22 @@ jobs:
         run: |
           git fetch --prune
       - name: 🔨 Use .NET Core 2.1 SDK
-        uses: actions/setup-dotnet@v1
+        uses: actions/setup-dotnet@v1.8.2
         with:
           dotnet-version: '2.1.x'
       - name: 🔨 Use .NET Core 3.1 SDK
-        uses: actions/setup-dotnet@v1
+        uses: actions/setup-dotnet@v1.8.2
         with:
           dotnet-version: '3.1.x'
       - name: 🔨 Use .NET Core 5.0 SDK
-        uses: actions/setup-dotnet@v1
+        uses: actions/setup-dotnet@v1.8.2
         with:
           dotnet-version: '5.0.x'
-
+      - name: 🔨 Use .NET Core 6.0 SDK
+        uses: actions/setup-dotnet@v1.8.2
+        with:
+          dotnet-version: '6.0.x'
+          include-prerelease: true
       - name: 🎁 dotnet tool restore
         run: |
           dotnet tool restore
@@ -78,25 +82,25 @@ jobs:
           name: 'actions-${{ matrix.os }}'
       - name: 🏺 Publish logs
         if: always()
-        uses: actions/upload-artifact@v2.2.3
+        uses: actions/upload-artifact@v2.2.4
         with:
           name: 'logs'
           path: 'artifacts/logs/'
       - name: 🏺 Publish coverage data
         if: always()
-        uses: actions/upload-artifact@v2.2.3
+        uses: actions/upload-artifact@v2.2.4
         with:
           name: 'coverage'
           path: 'coverage/'
       - name: 🏺 Publish test data
         if: always()
-        uses: actions/upload-artifact@v2.2.3
+        uses: actions/upload-artifact@v2.2.4
         with:
           name: 'test data'
           path: 'artifacts/test/'
       - name: 🏺 Publish NuGet Packages
         if: always()
-        uses: actions/upload-artifact@v2.2.3
+        uses: actions/upload-artifact@v2.2.4
         with:
           name: 'nuget'
           path: 'artifacts/nuget/'

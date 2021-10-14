@@ -1,21 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <RootNamespace></RootNamespace>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace />
     <IsPackable>False</IsPackable>
     <NoWarn>CS0649;CS0169</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Nuke.Common" />
-    <PackageReference Include="JetBrains.ReSharper.GlobalTools" ExcludeAssets="All" />
     <PackageReference Include="GitVersion.Tool" ExcludeAssets="All" />
     <PackageReference Include="ReportGenerator" ExcludeAssets="All" />
     <PackageReference Include="Rocket.Surgery.Nuke" />
-    <PackageReference Include="Humanizer.Core" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,5 +19,4 @@
     <NukeExternalFiles Include="**\*.*.ext" Exclude="bin\**;obj\**" />
     <None Remove="*.csproj.DotSettings;*.ref.*.txt" />
   </ItemGroup>
-
 </Project>

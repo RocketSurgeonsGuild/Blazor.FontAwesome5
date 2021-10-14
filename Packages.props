@@ -37,7 +37,7 @@
     <PackageReference Update="FluentAssertions" Version="6.1.0" />
     <PackageReference Update="FluentAssertions.Analyzers" Version="0.12.0" />
     <PackageReference Update="Microsoft.NET.Test.Sdk" Version="16.11.0" />
-    <PackageReference Update="Rocket.Surgery.Extensions.Testing.FakeItEasy" Version="6.0.1" />
+    <PackageReference Update="Rocket.Surgery.Extensions.Testing.FakeItEasy" Version="6.0.2" />
     <PackageReference Update="Rocket.Surgery.Extensions.Testing.XUnit" Version="6.0.2" />
     <PackageReference Update="xunit" Version="2.4.1" />
     <PackageReference Update="xunit.analyzers" Version="0.10.0" />

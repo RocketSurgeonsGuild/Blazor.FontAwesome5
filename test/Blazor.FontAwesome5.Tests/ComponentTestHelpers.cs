@@ -4,9 +4,10 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Threading.Tasks;
-using Egil.RazorComponents.Testing;
-using Egil.RazorComponents.Testing.Extensions;
+using Bunit;
+using Bunit.Extensions;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Rendering;
 using EC = Microsoft.AspNetCore.Components.EventCallback;
 
 namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
@@ -17,7 +18,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
     public static class ComponentParameterHelpers
     {
         /// <summary>
-        /// Creates a <see cref="ComponentParameter"/> with an <see cref="Microsoft.AspNetCore.Components.EventCallback"/> as parameter value 
+        /// Creates a <see cref="ComponentParameter"/> with an <see cref="Microsoft.AspNetCore.Components.EventCallback"/> as parameter value
         /// for this <see cref="TestContext"/> and
         /// <paramref name="callback"/>.
         /// </summary>
@@ -124,7 +125,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
             => ComponentParameter.CreateCascadingValue(null, value);
 
         /// <summary>
-        /// Creates a ChildContent <see cref="Microsoft.AspNetCore.Components.RenderFragment"/> with the provided 
+        /// Creates a ChildContent <see cref="Microsoft.AspNetCore.Components.RenderFragment"/> with the provided
         /// <paramref name="markup"/> as rendered output.
         /// </summary>
         /// <param name="markup">Markup to pass to the child content parameter</param>
@@ -142,7 +143,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
             where TComponent : class, IComponent => RenderFragment<TComponent>(nameof(ChildContent), parameters);
 
         /// <summary>
-        /// Creates a <see cref="Microsoft.AspNetCore.Components.RenderFragment"/> with the provided 
+        /// Creates a <see cref="Microsoft.AspNetCore.Components.RenderFragment"/> with the provided
         /// <paramref name="markup"/> as rendered output and passes it to the parameter specified in <paramref name="name"/>.
         /// </summary>
         /// <param name="name">Parameter name.</param>
@@ -162,7 +163,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
         public static ComponentParameter RenderFragment<TComponent>(string name, params ComponentParameter[] parameters)
             where TComponent : class, IComponent => ComponentParameter.CreateParameter(
             name,
-            parameters.ToComponentRenderFragment<TComponent>()
+            new ComponentParameterCollection { parameters }.ToRenderFragment<TComponent>()
         );
 
         /// <summary>
@@ -465,22 +466,23 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
         }
 
         public RenderFragment ToRenderFragment()
-            => _componentParameters.AsReadOnly().ToComponentRenderFragment<TComponent>();
+            => new ComponentParameterCollection() { _componentParameters }.ToRenderFragment<TComponent>();
 
         public IReadOnlyList<ComponentParameter> Parameters => _componentParameters.AsReadOnly();
     }
 
     public static class TestContextExtensions
     {
-        public static IRenderedComponent<TComponent> RenderComponent<TComponent>(
-            this ITestContext context,
+        public static RenderTreeBuilder RenderComponent<TComponent>(
+            this RenderTreeBuilder treeBuilder,
             Action<IComponentBuilder<TComponent>> builderCallback
         )
             where TComponent : class, IComponent
         {
             var builder = new ComponentBuilder<TComponent>();
             builderCallback(builder);
-            return context.RenderComponent<TComponent>(builder.Parameters.ToArray());
+            builder.ToRenderFragment()(treeBuilder);
+            return treeBuilder;
         }
     }
 }

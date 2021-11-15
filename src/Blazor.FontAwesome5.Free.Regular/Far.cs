@@ -63,7 +63,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         ArrowAltCircleRight,
 
         /// <summary>
-        /// Alternate Arrow Circle Up
+        /// Alternate Arrow Circle up
         /// </summary>
         /// <remarks>
         /// arrow-alt-circle-up - Available in Solid, Regular
@@ -189,7 +189,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         CaretSquareRight,
 
         /// <summary>
-        /// Caret Square Up
+        /// Caret Square up
         /// </summary>
         /// <remarks>
         /// caret-square-up - Available in Solid, Regular
@@ -648,7 +648,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         GrinSquint,
 
         /// <summary>
-        /// Rolling On The Floor Laughing
+        /// Rolling on the Floor Laughing
         /// </summary>
         /// <remarks>
         /// grin-squint-tears - Available in Solid, Regular
@@ -666,7 +666,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         GrinStars,
 
         /// <summary>
-        /// Face With Tears Of Joy
+        /// Face With Tears of Joy
         /// </summary>
         /// <remarks>
         /// grin-tears - Available in Solid, Regular
@@ -765,7 +765,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         HandPointRight,
 
         /// <summary>
-        /// Hand Pointing Up
+        /// Hand Pointing up
         /// </summary>
         /// <remarks>
         /// hand-point-up - Available in Solid, Regular
@@ -918,7 +918,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         KissBeam,
 
         /// <summary>
-        /// Face Blowing A Kiss
+        /// Face Blowing a Kiss
         /// </summary>
         /// <remarks>
         /// kiss-wink-heart - Available in Solid, Regular
@@ -1287,7 +1287,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         ThumbsDown,
 
         /// <summary>
-        /// Thumbs Up
+        /// Thumbs up
         /// </summary>
         /// <remarks>
         /// thumbs-up - Available in Solid, Regular

@@ -5,66 +5,65 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
 using Rocket.Surgery.Blazor.FontAwesome5.Shared;
 
-namespace Rocket.Surgery.Blazor.FontAwesome5
+namespace Rocket.Surgery.Blazor.FontAwesome5;
+
+public class FaStack : ComponentBase
 {
-    public class FaStack : ComponentBase
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+    [Parameter]
+    public IconSize Size { get; set; }
+
+    [Parameter]
+    public string? Class { get; set; }
+
+    [Parameter]
+    public string? Style { get; set; }
+
+    public string ToClass()
     {
-        [Parameter]
-        public RenderFragment ChildContent { get; set; }
+        var sb = new StringBuilder();
+        sb.Append("fa-stack");
 
-        [Parameter]
-        public IconSize Size { get; set; }
-
-        [Parameter]
-        public string? Class { get; set; }
-
-        [Parameter]
-        public string? Style { get; set; }
-
-        public string ToClass()
+        if (!string.IsNullOrWhiteSpace(Class))
         {
-            var sb = new StringBuilder();
-            sb.Append("fa-stack");
+            sb.Append(" ");
+            sb.Append(Class);
+        }
 
-            if (!string.IsNullOrWhiteSpace(Class))
+        sb.Append(Icon.ToString(Size, false));
+        return sb.ToString();
+    }
+
+    protected override void BuildRenderTree(RenderTreeBuilder builder)
+    {
+        // <CascadingValue Value = "true" Name="IsInStack">
+        //     <span class="@ToClass()" style="@Style">@ChildContent</span>
+        // </CascadingValue>
+        builder.OpenComponent<CascadingValue<FaStack>>(0);
+        builder.AddAttribute(1, nameof(CascadingValue<FaStack>.Value), this);
+        builder.AddAttribute(
+            2,
+            nameof(CascadingValue<FaStack>.ChildContent),
+            (RenderFragment)( b =>
             {
-                sb.Append(" ");
-                sb.Append(Class);
-            }
+                b.OpenElement(0, "span");
+                b.AddAttribute(1, "class", ToClass());
 
-            sb.Append(Icon.ToString(Size, false));
-            return sb.ToString();
-        }
-
-        protected override void BuildRenderTree(RenderTreeBuilder builder)
-        {
-            // <CascadingValue Value = "true" Name="IsInStack">
-            //     <span class="@ToClass()" style="@Style">@ChildContent</span>
-            // </CascadingValue>
-            builder.OpenComponent<CascadingValue<FaStack>>(0);
-            builder.AddAttribute(1, nameof(CascadingValue<FaStack>.Value), this);
-            builder.AddAttribute(
-                2,
-                nameof(CascadingValue<FaStack>.ChildContent),
-                (RenderFragment)( b =>
+                if (!string.IsNullOrWhiteSpace(Style))
                 {
-                    b.OpenElement(0, "span");
-                    b.AddAttribute(1, "class", ToClass());
+                    b.AddAttribute(2, "style", Style);
+                }
 
-                    if (!string.IsNullOrWhiteSpace(Style))
-                    {
-                        b.AddAttribute(2, "style", Style);
-                    }
+                if (ChildContent != null)
+                {
+                    b.AddContent(3, ChildContent);
+                }
 
-                    if (ChildContent != null)
-                    {
-                        b.AddContent(3, ChildContent);
-                    }
-
-                    b.CloseElement();
-                } )
-            );
-            builder.CloseComponent();
-        }
+                b.CloseElement();
+            } )
+        );
+        builder.CloseComponent();
     }
 }

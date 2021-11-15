@@ -1,17 +1,16 @@
 ﻿using System;
 
-namespace Rocket.Surgery.Blazor.FontAwesome5
-{
-    [AttributeUsage(AttributeTargets.Field)]
-    public class FontAwesomeAttribute : Attribute
-    {
-        public IconStyle IconStyle { get; }
-        public string Name { get; }
+namespace Rocket.Surgery.Blazor.FontAwesome5;
 
-        public FontAwesomeAttribute(IconStyle iconStyle, string name)
-        {
-            IconStyle = iconStyle;
-            Name = name;
-        }
+[AttributeUsage(AttributeTargets.Field)]
+public class FontAwesomeAttribute : Attribute
+{
+    public IconStyle IconStyle { get; }
+    public string Name { get; }
+
+    public FontAwesomeAttribute(IconStyle iconStyle, string name)
+    {
+        IconStyle = iconStyle;
+        Name = name;
     }
 }

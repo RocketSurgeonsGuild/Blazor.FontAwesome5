@@ -1791,7 +1791,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Hips,
 
         /// <summary>
-        /// Hire A Helper
+        /// Hire a Helper
         /// </summary>
         /// <remarks>
         /// hire-a-helper - Available in Brands
@@ -2169,7 +2169,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Line,
 
         /// <summary>
-        /// Linked In
+        /// Linked in
         /// </summary>
         /// <remarks>
         /// linkedin - Available in Brands
@@ -2178,7 +2178,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Linkedin,
 
         /// <summary>
-        /// Linked In In
+        /// Linked in in
         /// </summary>
         /// <remarks>
         /// linkedin-in - Available in Brands
@@ -2268,7 +2268,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Maxcdn,
 
         /// <summary>
-        /// Material Design For Bootstrap
+        /// Material Design for Bootstrap
         /// </summary>
         /// <remarks>
         /// mdb - Available in Brands
@@ -3078,7 +3078,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Servicestack,
 
         /// <summary>
-        /// Shirts In Bulk
+        /// Shirts in Bulk
         /// </summary>
         /// <remarks>
         /// shirtsinbulk - Available in Brands
@@ -3537,15 +3537,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Trello,
 
         /// <summary>
-        /// Trip Advisor
-        /// </summary>
-        /// <remarks>
-        /// tripadvisor - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "tripadvisor")]
-        Tripadvisor,
-
-        /// <summary>
         /// Tumblr
         /// </summary>
         /// <remarks>
@@ -3924,7 +3915,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
         Wix,
 
         /// <summary>
-        /// Wizards Of The Coast
+        /// Wizards of the Coast
         /// </summary>
         /// <remarks>
         /// wizards-of-the-coast - Available in Brands

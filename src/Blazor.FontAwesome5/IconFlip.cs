@@ -1,5 +1,3 @@
-using System;
-
 namespace Rocket.Surgery.Blazor.FontAwesome5;
 
 [Flags]

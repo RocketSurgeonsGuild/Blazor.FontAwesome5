@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Rocket.Surgery.Blazor.FontAwesome5;
+﻿namespace Rocket.Surgery.Blazor.FontAwesome5;
 
 [AttributeUsage(AttributeTargets.Field)]
 public class FontAwesomeAttribute : Attribute

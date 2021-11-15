@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.AspNetCore.Components;
+﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
-using Rocket.Surgery.Blazor.FontAwesome5.Shared;
 
 namespace Rocket.Surgery.Blazor.FontAwesome5;
 

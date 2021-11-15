@@ -36,4 +36,8 @@
         <ProjectCapability Include="DynamicDependentFile" />
         <ProjectCapability Include="DynamicFileNesting" />
     </ItemGroup>
+    <ItemGroup>
+        <Using Include="JetBrains.Annotations" />
+        <Using Include="System.Diagnostics.CodeAnalysis" />
+    </ItemGroup>
 </Project>

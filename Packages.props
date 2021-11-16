@@ -2,7 +2,7 @@
 <Project>
   <ItemGroup>
     <GlobalPackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" />
-    <GlobalPackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" />
+    <GlobalPackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" />
     <GlobalPackageReference Include="Rocket.Surgery.MSBuild.CI" Version="1.1.0" />
     <GlobalPackageReference Include="Rocket.Surgery.MSBuild.GitVersion" Version="1.1.0" />
     <GlobalPackageReference Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="1.1.0" Condition="'$(MSBuildProjectName)'!='.build'" />

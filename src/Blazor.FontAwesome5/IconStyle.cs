@@ -1,12 +1,11 @@
-namespace Rocket.Surgery.Blazor.FontAwesome5
+namespace Rocket.Surgery.Blazor.FontAwesome5;
+
+public enum IconStyle
 {
-    public enum IconStyle
-    {
-        Unknown,
-        Solid,
-        Regular,
-        Light,
-        Duotone,
-        Brands
-    }
+    Unknown,
+    Solid,
+    Regular,
+    Light,
+    Duotone,
+    Brands
 }

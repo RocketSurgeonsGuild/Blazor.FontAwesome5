@@ -1,9 +1,8 @@
-namespace Rocket.Surgery.Blazor.FontAwesome5
+namespace Rocket.Surgery.Blazor.FontAwesome5;
+
+public enum IconPull
 {
-    public enum IconPull
-    {
-        None,
-        Left,
-        Right
-    }
+    None,
+    Left,
+    Right
 }

@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Egil.RazorComponents.Testing;
+using Bunit;
 using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Rocket.Surgery.Blazor.FontAwesome5.Pro;
@@ -14,29 +14,32 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
     public class FaLayerTests : LoggerTest
     {
         private TestContext _host = new TestContext();
-        public FaLayerTests(ITestOutputHelper testOutputHelper) : base(testOutputHelper, LogLevel.Information) { }
+
+        public FaLayerTests(ITestOutputHelper testOutputHelper) : base(testOutputHelper, LogLevel.Information)
+        {
+        }
 
         [Fact]
         public void Should_Support_Documentation_styling_layering_example_1()
         {
             var icon = _host.RenderComponent<FaLayer>(
                 builder => builder
-                   .Parameter(x => x.FixedWidth, true)
-                   .Parameter(x => x.Style, "background:MistyRose")
-                   .ChildContent(
-                        b => b
-                           .RenderComponent<FaIcon>(
-                                c => c
-                                   .Parameter(x => x.Icon, Fas.Circle)
-                                   .Parameter(x => x.Style, "color:Tomato")
-                            )
-                           .RenderComponent<FaIcon>(
-                                c => c
-                                   .Parameter(x => x.Icon, Fas.Times)
-                                   .Parameter(x => x.Shrink, "6")
-                                   .Parameter(x => x.Inverse, true)
-                            )
-                    )
+                          .Add(z => z.FixedWidth, true)
+                          .Add(x => x.Style, "background:MistyRose")
+                          .AddChildContent(
+                               b => b
+                                   .RenderComponent<FaIcon>(
+                                        c => c
+                                            .Parameter(x => x.Icon, Fas.Circle)
+                                            .Parameter(x => x.Style, "color:Tomato")
+                                    )
+                                   .RenderComponent<FaIcon>(
+                                        c => c
+                                            .Parameter(x => x.Icon, Fas.Times)
+                                            .Parameter(x => x.Shrink, "6")
+                                            .Parameter(x => x.Inverse, true)
+                                    )
+                           )
             );
 
             icon.Markup.Should().Be(
@@ -52,23 +55,23 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
         {
             var icon = _host.RenderComponent<FaLayer>(
                 builder => builder
-                   .Parameter(x => x.FixedWidth, true)
-                   .Parameter(x => x.Style, "background:MistyRose")
-                   .ChildContent(
-                        b => b
-                           .RenderComponent<FaIcon>(
-                                c => c
-                                   .Parameter(x => x.Icon, Fas.Bookmark)
-                            )
-                           .RenderComponent<FaIcon>(
-                                c => c
-                                   .Parameter(x => x.Icon, Fas.Heart)
-                                   .Parameter(x => x.Inverse, true)
-                                   .Parameter(x => x.Shrink, "10")
-                                   .Parameter(x => x.Up, "2")
-                                   .Parameter(x => x.Style, "color:Tomato")
-                            )
-                    )
+                          .Add(x => x.FixedWidth, true)
+                          .Add(x => x.Style, "background:MistyRose")
+                          .AddChildContent(
+                               b => b
+                                   .RenderComponent<FaIcon>(
+                                        c => c
+                                           .Parameter(x => x.Icon, Fas.Bookmark)
+                                    )
+                                   .RenderComponent<FaIcon>(
+                                        c => c
+                                            .Parameter(x => x.Icon, Fas.Heart)
+                                            .Parameter(x => x.Inverse, true)
+                                            .Parameter(x => x.Shrink, "10")
+                                            .Parameter(x => x.Up, "2")
+                                            .Parameter(x => x.Style, "color:Tomato")
+                                    )
+                           )
             );
 
             icon.Markup.Should().Be(
@@ -84,40 +87,40 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
         {
             var icon = _host.RenderComponent<FaLayer>(
                 builder => builder
-                   .Parameter(x => x.FixedWidth, true)
-                   .Parameter(x => x.Style, "background:MistyRose")
-                   .ChildContent(
-                        b => b
-                           .RenderComponent<FaIcon>(
-                                c => c
-                                   .Parameter(x => x.Icon, Fas.Play)
-                                   .Parameter(x => x.Rotate, "-90")
-                                   .Parameter(x => x.Grow, "2")
-                            )
-                           .RenderComponent<FaIcon>(
-                                c => c
-                                   .Parameter(x => x.Icon, Fas.Sun)
-                                   .Parameter(x => x.Inverse, true)
-                                   .Parameter(x => x.Shrink, "10")
-                                   .Parameter(x => x.Up, "2")
-                            )
-                           .RenderComponent<FaIcon>(
-                                c => c
-                                   .Parameter(x => x.Icon, Fas.Moon)
-                                   .Parameter(x => x.Inverse, true)
-                                   .Parameter(x => x.Shrink, "11")
-                                   .Parameter(x => x.Down, "4.2")
-                                   .Parameter(x => x.Left, "4")
-                            )
-                           .RenderComponent<FaIcon>(
-                                c => c
-                                   .Parameter(x => x.Icon, Fas.Star)
-                                   .Parameter(x => x.Inverse, true)
-                                   .Parameter(x => x.Shrink, "11")
-                                   .Parameter(x => x.Down, "4.2")
-                                   .Parameter(x => x.Right, "4")
-                            )
-                    )
+                          .Add(x => x.FixedWidth, true)
+                          .Add(x => x.Style, "background:MistyRose")
+                          .AddChildContent(
+                               b => b
+                                   .RenderComponent<FaIcon>(
+                                        c => c
+                                            .Parameter(x => x.Icon, Fas.Play)
+                                            .Parameter(x => x.Rotate, "-90")
+                                            .Parameter(x => x.Grow, "2")
+                                    )
+                                   .RenderComponent<FaIcon>(
+                                        c => c
+                                            .Parameter(x => x.Icon, Fas.Sun)
+                                            .Parameter(x => x.Inverse, true)
+                                            .Parameter(x => x.Shrink, "10")
+                                            .Parameter(x => x.Up, "2")
+                                    )
+                                   .RenderComponent<FaIcon>(
+                                        c => c
+                                            .Parameter(x => x.Icon, Fas.Moon)
+                                            .Parameter(x => x.Inverse, true)
+                                            .Parameter(x => x.Shrink, "11")
+                                            .Parameter(x => x.Down, "4.2")
+                                            .Parameter(x => x.Left, "4")
+                                    )
+                                   .RenderComponent<FaIcon>(
+                                        c => c
+                                            .Parameter(x => x.Icon, Fas.Star)
+                                            .Parameter(x => x.Inverse, true)
+                                            .Parameter(x => x.Shrink, "11")
+                                            .Parameter(x => x.Down, "4.2")
+                                            .Parameter(x => x.Right, "4")
+                                    )
+                           )
             );
 
             icon.Markup.Should().Be(
@@ -135,23 +138,23 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
         {
             var icon = _host.RenderComponent<FaLayer>(
                 builder => builder
-                   .Parameter(x => x.FixedWidth, true)
-                   .Parameter(x => x.Style, "background:MistyRose")
-                   .ChildContent(
-                        b => b
-                           .RenderComponent<FaIcon>(
-                                c => c
-                                   .Parameter(x => x.Icon, Fas.Calendar)
-                            )
-                           .RenderComponent<FaText>(
-                                c => c
-                                   .Parameter(x => x.Inverse, true)
-                                   .Parameter(x => x.Shrink, "8")
-                                   .Parameter(x => x.Down, "3")
-                                   .Parameter(x => x.Style, "font-weight:900")
-                                   .ChildContent("27")
-                            )
-                    )
+                          .Add(x => x.FixedWidth, true)
+                          .Add(x => x.Style, "background:MistyRose")
+                          .AddChildContent(
+                               b => b
+                                   .RenderComponent<FaIcon>(
+                                        c => c
+                                           .Parameter(x => x.Icon, Fas.Calendar)
+                                    )
+                                   .RenderComponent<FaText>(
+                                        c => c
+                                            .Parameter(x => x.Inverse, true)
+                                            .Parameter(x => x.Shrink, "8")
+                                            .Parameter(x => x.Down, "3")
+                                            .Parameter(x => x.Style, "font-weight:900")
+                                            .ChildContent("27")
+                                    )
+                           )
             );
 
             icon.Markup.Should().Be(
@@ -167,23 +170,23 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
         {
             var icon = _host.RenderComponent<FaLayer>(
                 builder => builder
-                   .Parameter(x => x.FixedWidth, true)
-                   .Parameter(x => x.Style, "background:MistyRose")
-                   .ChildContent(
-                        b => b
-                           .RenderComponent<FaIcon>(
-                                c => c
-                                   .Parameter(x => x.Icon, Fas.Certificate)
-                            )
-                           .RenderComponent<FaText>(
-                                c => c
-                                   .Parameter(x => x.Inverse, true)
-                                   .Parameter(x => x.Shrink, "11.5")
-                                   .Parameter(x => x.Rotate, "-30")
-                                   .Parameter(x => x.Style, "font-weight:900")
-                                   .ChildContent("NEW")
-                            )
-                    )
+                          .Add(x => x.FixedWidth, true)
+                          .Add(x => x.Style, "background:MistyRose")
+                          .AddChildContent(
+                               b => b
+                                   .RenderComponent<FaIcon>(
+                                        c => c
+                                           .Parameter(x => x.Icon, Fas.Certificate)
+                                    )
+                                   .RenderComponent<FaText>(
+                                        c => c
+                                            .Parameter(x => x.Inverse, true)
+                                            .Parameter(x => x.Shrink, "11.5")
+                                            .Parameter(x => x.Rotate, "-30")
+                                            .Parameter(x => x.Style, "font-weight:900")
+                                            .ChildContent("NEW")
+                                    )
+                           )
             );
 
             icon.Markup.Should().Be(
@@ -199,20 +202,20 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
         {
             var icon = _host.RenderComponent<FaLayer>(
                 builder => builder
-                   .Parameter(x => x.FixedWidth, true)
-                   .Parameter(x => x.Style, "background:MistyRose")
-                   .ChildContent(
-                        b => b
-                           .RenderComponent<FaIcon>(
-                                c => c
-                                   .Parameter(x => x.Icon, Fas.Envelope)
-                            )
-                           .RenderComponent<FaCounter>(
-                                c => c
-                                   .Parameter(x => x.Style, "background:Tomato")
-                                   .ChildContent("1,419")
-                            )
-                    )
+                          .Add(x => x.FixedWidth, true)
+                          .Add(x => x.Style, "background:MistyRose")
+                          .AddChildContent(
+                               b => b
+                                   .RenderComponent<FaIcon>(
+                                        c => c
+                                           .Parameter(x => x.Icon, Fas.Envelope)
+                                    )
+                                   .RenderComponent<FaCounter>(
+                                        c => c
+                                            .Parameter(x => x.Style, "background:Tomato")
+                                            .ChildContent("1,419")
+                                    )
+                           )
             );
 
             icon.Markup.Should().Be(

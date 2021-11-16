@@ -1,4 +1,4 @@
-﻿using Egil.RazorComponents.Testing;
+﻿using Bunit;
 using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Rocket.Surgery.Blazor.FontAwesome5.Pro;
@@ -16,7 +16,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         public void Should_Support_Implicit_Conversion_From_Known_Enum()
         {
             var icon = _host.RenderComponent<FaIcon>(
-                builder => builder.Parameter(x => x.Icon, Far.Adjust)
+                builder => builder.Add(x => x.Icon, Far.Adjust)
             );
             icon.Markup.Should().Be("<i class=\"far fa-adjust\"></i>");
         }
@@ -25,7 +25,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         public void Should_Support_Implicit_Conversion_From_Custom_Enum()
         {
             var icon = _host.RenderComponent<FaIcon>(
-                builder => builder.Parameter(x => x.Icon, Custom.Name)
+                builder => builder.Add(x => x.Icon, Custom.Name)
             );
             icon.Markup.Should().Be("<i class=\"far fa-adjust\"></i>");
         }
@@ -40,7 +40,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         public void Should_Render_An_Icon()
         {
             var icon = _host.RenderComponent<FaIcon>(
-                builder => builder.Parameter(x => x.Icon, Custom.Name)
+                builder => builder.Add(x => x.Icon, Custom.Name)
             );
             icon.Markup.Should().Be("<i class=\"far fa-adjust\"></i>");
         }
@@ -50,14 +50,14 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         {
             var icon = _host.RenderComponent<FaIcon>(
                 builder => builder
-                   .Parameter(x => x.Icon, Far.Adjust)
-                   .Parameter(x => x.Rotate, "-40")
-                   .Parameter(x => x.Left, "2")
-                   .Parameter(x => x.Down, "4")
-                   .Parameter(x => x.Right, "1")
-                   .Parameter(x => x.Up, "12")
-                   .Parameter(x => x.Grow, "6")
-                   .Parameter(x => x.Shrink, "4")
+                   .Add(x => x.Icon, Far.Adjust)
+                   .Add(x => x.Rotate, "-40")
+                   .Add(x => x.Left, "2")
+                   .Add(x => x.Down, "4")
+                   .Add(x => x.Right, "1")
+                   .Add(x => x.Up, "12")
+                   .Add(x => x.Grow, "6")
+                   .Add(x => x.Shrink, "4")
             );
             icon.Markup.Should().Be(
                 "<i class=\"far fa-adjust\" data-fa-transform=\"grow-6.00 shrink-4.00 rotate--40.00 up-12.00 down-4.00 left-2.00 right-1.00\"></i>"
@@ -73,8 +73,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         {
             var icon = _host.RenderComponent<FaIcon>(
                 builder => builder
-                   .Parameter(x => x.Icon, Far.Adjust)
-                   .Parameter(x => x.Flip, iconFlip)
+                   .Add(x => x.Icon, Far.Adjust)
+                   .Add(x => x.Flip, iconFlip)
             );
             icon.Markup.Should().Be(expected);
         }
@@ -91,8 +91,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         {
             var icon = _host.RenderComponent<FaIcon>(
                 builder => builder
-                   .Parameter(x => x.Icon, Far.Adjust)
-                   .Parameter(x => x.Size, iconSize)
+                   .Add(x => x.Icon, Far.Adjust)
+                   .Add(x => x.Size, iconSize)
             );
             icon.Markup.Should().Be(expected);
         }
@@ -102,8 +102,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         {
             var icon = _host.RenderComponent<FaIcon>(
                 builder => builder
-                   .Parameter(x => x.Icon, Far.Adjust)
-                   .Parameter(x => x.FixedWidth, true)
+                   .Add(x => x.Icon, Far.Adjust)
+                   .Add(x => x.FixedWidth, true)
             );
             icon.Markup.Should().Be("<i class=\"far fa-adjust fa-fw\"></i>");
         }
@@ -113,8 +113,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         {
             var icon = _host.RenderComponent<FaIcon>(
                 builder => builder
-                   .Parameter(x => x.Icon, Far.Adjust)
-                   .Parameter(x => x.Spin, true)
+                   .Add(x => x.Icon, Far.Adjust)
+                   .Add(x => x.Spin, true)
             );
             icon.Markup.Should().Be("<i class=\"far fa-adjust fa-spinner\"></i>");
         }
@@ -124,8 +124,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         {
             var icon = _host.RenderComponent<FaIcon>(
                 builder => builder
-                   .Parameter(x => x.Icon, Far.Adjust)
-                   .Parameter(x => x.Pulse, true)
+                   .Add(x => x.Icon, Far.Adjust)
+                   .Add(x => x.Pulse, true)
             );
             icon.Markup.Should().Be("<i class=\"far fa-adjust fa-pulse\"></i>");
         }
@@ -135,8 +135,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         {
             var icon = _host.RenderComponent<FaIcon>(
                 builder => builder
-                   .Parameter(x => x.Icon, Far.Adjust)
-                   .Parameter(x => x.Border, true)
+                   .Add(x => x.Icon, Far.Adjust)
+                   .Add(x => x.Border, true)
             );
             icon.Markup.Should().Be("<i class=\"far fa-adjust fa-border\"></i>");
         }
@@ -146,8 +146,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         {
             var icon = _host.RenderComponent<FaIcon>(
                 builder => builder
-                   .Parameter(x => x.Icon, Far.Adjust)
-                   .Parameter(x => x.Inverse, true)
+                   .Add(x => x.Icon, Far.Adjust)
+                   .Add(x => x.Inverse, true)
             );
             icon.Markup.Should().Be("<i class=\"far fa-adjust fa-inverse\"></i>");
         }
@@ -157,8 +157,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         {
             var icon = _host.RenderComponent<FaIcon>(
                 builder => builder
-                   .Parameter(x => x.Icon, Far.Adjust)
-                   .Parameter(x => x.Mask, Fad.Analytics)
+                   .Add(x => x.Icon, Far.Adjust)
+                   .Add(x => x.Mask, Fad.Analytics)
             );
             icon.Markup.Should().Be("<i class=\"far fa-adjust\" data-fa-mask=\"fad fa-analytics\"></i>");
         }
@@ -171,8 +171,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         {
             var icon = _host.RenderComponent<FaIcon>(
                 builder => builder
-                   .Parameter(x => x.Icon, Far.Adjust)
-                   .Parameter(x => x.Pull, iconPull)
+                   .Add(x => x.Icon, Far.Adjust)
+                   .Add(x => x.Pull, iconPull)
             );
             icon.Markup.Should().Be(expected);
         }

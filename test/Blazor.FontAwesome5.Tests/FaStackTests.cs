@@ -1,4 +1,4 @@
-﻿using Egil.RazorComponents.Testing;
+﻿using Bunit;
 using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Rocket.Surgery.Blazor.FontAwesome5.Brands;
@@ -18,8 +18,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         {
             var icon = _host.RenderComponent<FaStack>(
                 builder => builder
-                   .Parameter(x => x.Size, IconSize._2X)
-                   .ChildContent(
+                   .Add(x => x.Size, IconSize._2X)
+                   .AddChildContent(
                         child => child
                            .RenderComponent<FaIcon>(
                                 fa => fa
@@ -47,8 +47,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         {
             var icon = _host.RenderComponent<FaStack>(
                 builder => builder
-                   .Parameter(x => x.Size, IconSize._2X)
-                   .ChildContent(
+                   .Add(x => x.Size, IconSize._2X)
+                   .AddChildContent(
                         child => child
                            .RenderComponent<FaIcon>(
                                 fa => fa
@@ -76,8 +76,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         {
             var icon = _host.RenderComponent<FaStack>(
                 builder => builder
-                   .Parameter(x => x.Size, IconSize._2X)
-                   .ChildContent(
+                   .Add(x => x.Size, IconSize._2X)
+                   .AddChildContent(
                         child => child
                            .RenderComponent<FaIcon>(
                                 fa => fa
@@ -105,8 +105,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests {
         {
             var icon = _host.RenderComponent<FaStack>(
                 builder => builder
-                   .Parameter(x => x.Size, IconSize._2X)
-                   .ChildContent(
+                   .Add(x => x.Size, IconSize._2X)
+                   .AddChildContent(
                         child => child
                            .RenderComponent<FaIcon>(
                                 fa => fa

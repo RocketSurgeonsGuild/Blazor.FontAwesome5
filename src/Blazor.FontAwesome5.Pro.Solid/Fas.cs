@@ -297,7 +297,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         AngleDoubleRight,
 
         /// <summary>
-        /// Angle Double Up
+        /// Angle Double up
         /// </summary>
         /// <remarks>
         /// angle-double-up - Available in Solid, Regular, Light, Duotone
@@ -333,7 +333,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         AngleRight,
 
         /// <summary>
-        /// Angle Up
+        /// Angle up
         /// </summary>
         /// <remarks>
         /// angle-up - Available in Solid, Regular, Light, Duotone
@@ -423,7 +423,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ArrowAltCircleRight,
 
         /// <summary>
-        /// Alternate Arrow Circle Up
+        /// Alternate Arrow Circle up
         /// </summary>
         /// <remarks>
         /// arrow-alt-circle-up - Available in Solid, Regular, Light, Duotone
@@ -522,7 +522,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ArrowAltSquareRight,
 
         /// <summary>
-        /// Alternate Arrow Square Up
+        /// Alternate Arrow Square up
         /// </summary>
         /// <remarks>
         /// arrow-alt-square-up - Available in Solid, Regular, Light, Duotone
@@ -531,7 +531,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ArrowAltSquareUp,
 
         /// <summary>
-        /// Alternate Arrow To Bottom
+        /// Alternate Arrow to Bottom
         /// </summary>
         /// <remarks>
         /// arrow-alt-to-bottom - Available in Solid, Regular, Light, Duotone
@@ -540,7 +540,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ArrowAltToBottom,
 
         /// <summary>
-        /// Alternate Arrow To Left
+        /// Alternate Arrow to Left
         /// </summary>
         /// <remarks>
         /// arrow-alt-to-left - Available in Solid, Regular, Light, Duotone
@@ -549,7 +549,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ArrowAltToLeft,
 
         /// <summary>
-        /// Alternate Arrow To Right
+        /// Alternate Arrow to Right
         /// </summary>
         /// <remarks>
         /// arrow-alt-to-right - Available in Solid, Regular, Light, Duotone
@@ -558,7 +558,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ArrowAltToRight,
 
         /// <summary>
-        /// Alternate Arrow To Top
+        /// Alternate Arrow to Top
         /// </summary>
         /// <remarks>
         /// arrow-alt-to-top - Available in Solid, Regular, Light, Duotone
@@ -567,7 +567,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ArrowAltToTop,
 
         /// <summary>
-        /// Alternate Arrow Up
+        /// Alternate Arrow up
         /// </summary>
         /// <remarks>
         /// arrow-alt-up - Available in Solid, Regular, Light, Duotone
@@ -603,7 +603,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ArrowCircleRight,
 
         /// <summary>
-        /// Arrow Circle Up
+        /// Arrow Circle up
         /// </summary>
         /// <remarks>
         /// arrow-circle-up - Available in Solid, Regular, Light, Duotone
@@ -702,7 +702,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ArrowSquareRight,
 
         /// <summary>
-        /// Arrow Square Up
+        /// Arrow Square up
         /// </summary>
         /// <remarks>
         /// arrow-square-up - Available in Solid, Regular, Light, Duotone
@@ -711,7 +711,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ArrowSquareUp,
 
         /// <summary>
-        /// Arrow To Bottom
+        /// Arrow to Bottom
         /// </summary>
         /// <remarks>
         /// arrow-to-bottom - Available in Solid, Regular, Light, Duotone
@@ -720,7 +720,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ArrowToBottom,
 
         /// <summary>
-        /// Arrow To Left
+        /// Arrow to Left
         /// </summary>
         /// <remarks>
         /// arrow-to-left - Available in Solid, Regular, Light, Duotone
@@ -729,7 +729,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ArrowToLeft,
 
         /// <summary>
-        /// Arrow To Right
+        /// Arrow to Right
         /// </summary>
         /// <remarks>
         /// arrow-to-right - Available in Solid, Regular, Light, Duotone
@@ -738,7 +738,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ArrowToRight,
 
         /// <summary>
-        /// Arrow To Top
+        /// Arrow to Top
         /// </summary>
         /// <remarks>
         /// arrow-to-top - Available in Solid, Regular, Light, Duotone
@@ -747,7 +747,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ArrowToTop,
 
         /// <summary>
-        /// Arrow Up
+        /// Arrow up
         /// </summary>
         /// <remarks>
         /// arrow-up - Available in Solid, Regular, Light, Duotone
@@ -1350,7 +1350,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         BellExclamation,
 
         /// <summary>
-        /// Bell On
+        /// Bell on
         /// </summary>
         /// <remarks>
         /// bell-on - Available in Solid, Regular, Light, Duotone
@@ -1629,7 +1629,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         BookAlt,
 
         /// <summary>
-        /// Book Of The Dead
+        /// Book of the Dead
         /// </summary>
         /// <remarks>
         /// book-dead - Available in Solid, Regular, Light, Duotone
@@ -1674,7 +1674,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         BookReader,
 
         /// <summary>
-        /// Book Of Spells
+        /// Book of Spells
         /// </summary>
         /// <remarks>
         /// book-spells - Available in Solid, Regular, Light, Duotone
@@ -1962,7 +1962,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         BoxTissue,
 
         /// <summary>
-        /// Box Up
+        /// Box up
         /// </summary>
         /// <remarks>
         /// box-up - Available in Solid, Regular, Light, Duotone
@@ -2043,7 +2043,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         Brain,
 
         /// <summary>
-        /// Loaf Of Bread
+        /// Loaf of Bread
         /// </summary>
         /// <remarks>
         /// bread-loaf - Available in Solid, Regular, Light, Duotone
@@ -2187,7 +2187,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         BullseyePointer,
 
         /// <summary>
-        /// Burger And Soda
+        /// Burger and Soda
         /// </summary>
         /// <remarks>
         /// burger-soda - Available in Solid, Regular, Light, Duotone
@@ -2538,7 +2538,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         CarBattery,
 
         /// <summary>
-        /// Car And Building
+        /// Car and Building
         /// </summary>
         /// <remarks>
         /// car-building - Available in Solid, Regular, Light, Duotone
@@ -2556,7 +2556,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         CarBump,
 
         /// <summary>
-        /// Car And Bus
+        /// Car and Bus
         /// </summary>
         /// <remarks>
         /// car-bus - Available in Solid, Regular, Light, Duotone
@@ -2664,7 +2664,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         CaretCircleRight,
 
         /// <summary>
-        /// Caret Circle Up
+        /// Caret Circle up
         /// </summary>
         /// <remarks>
         /// caret-circle-up - Available in Solid, Regular, Light, Duotone
@@ -2727,7 +2727,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         CaretSquareRight,
 
         /// <summary>
-        /// Caret Square Up
+        /// Caret Square up
         /// </summary>
         /// <remarks>
         /// caret-square-up - Available in Solid, Regular, Light, Duotone
@@ -2736,7 +2736,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         CaretSquareUp,
 
         /// <summary>
-        /// Caret Up
+        /// Caret up
         /// </summary>
         /// <remarks>
         /// caret-up - Available in Solid, Regular, Light, Duotone
@@ -2772,7 +2772,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         CartArrowDown,
 
         /// <summary>
-        /// Add To Shopping Cart
+        /// Add to Shopping Cart
         /// </summary>
         /// <remarks>
         /// cart-plus - Available in Solid, Regular, Light, Duotone
@@ -2916,7 +2916,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ChartLine,
 
         /// <summary>
-        /// Line Chart In Down Direction
+        /// Line Chart in Down Direction
         /// </summary>
         /// <remarks>
         /// chart-line-down - Available in Solid, Regular, Light, Duotone
@@ -3195,7 +3195,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ChevronCircleRight,
 
         /// <summary>
-        /// Chevron Circle Up
+        /// Chevron Circle up
         /// </summary>
         /// <remarks>
         /// chevron-circle-up - Available in Solid, Regular, Light, Duotone
@@ -3231,7 +3231,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ChevronDoubleRight,
 
         /// <summary>
-        /// Chevron Double Up
+        /// Chevron Double up
         /// </summary>
         /// <remarks>
         /// chevron-double-up - Available in Solid, Regular, Light, Duotone
@@ -3294,7 +3294,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ChevronSquareRight,
 
         /// <summary>
-        /// Chevron Square Up
+        /// Chevron Square up
         /// </summary>
         /// <remarks>
         /// chevron-square-up - Available in Solid, Regular, Light, Duotone
@@ -3303,7 +3303,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ChevronSquareUp,
 
         /// <summary>
-        /// Chevron Up
+        /// Chevron up
         /// </summary>
         /// <remarks>
         /// chevron-up - Available in Solid, Regular, Light, Duotone
@@ -3528,7 +3528,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         CloudHailMixed,
 
         /// <summary>
-        /// Cloud With A Chance Of Meatball
+        /// Cloud With a Chance of Meatball
         /// </summary>
         /// <remarks>
         /// cloud-meatball - Available in Solid, Regular, Light, Duotone
@@ -3546,7 +3546,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         CloudMoon,
 
         /// <summary>
-        /// Cloud With Moon And Rain
+        /// Cloud With Moon and Rain
         /// </summary>
         /// <remarks>
         /// cloud-moon-rain - Available in Solid, Regular, Light, Duotone
@@ -3627,7 +3627,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         CloudSun,
 
         /// <summary>
-        /// Cloud With Sun And Rain
+        /// Cloud With Sun and Rain
         /// </summary>
         /// <remarks>
         /// cloud-sun-rain - Available in Solid, Regular, Light, Duotone
@@ -6030,7 +6030,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         FireExtinguisher,
 
         /// <summary>
-        /// Fire And Smoke
+        /// Fire and Smoke
         /// </summary>
         /// <remarks>
         /// fire-smoke - Available in Solid, Regular, Light, Duotone
@@ -6111,7 +6111,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         FlagCheckered,
 
         /// <summary>
-        /// United States Of America Flag
+        /// United States of America Flag
         /// </summary>
         /// <remarks>
         /// flag-usa - Available in Solid, Regular, Light, Duotone
@@ -6831,7 +6831,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         GreaterThan,
 
         /// <summary>
-        /// Greater Than Equal To
+        /// Greater Than Equal to
         /// </summary>
         /// <remarks>
         /// greater-than-equal - Available in Solid, Regular, Light, Duotone
@@ -6903,7 +6903,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         GrinSquint,
 
         /// <summary>
-        /// Rolling On The Floor Laughing
+        /// Rolling on the Floor Laughing
         /// </summary>
         /// <remarks>
         /// grin-squint-tears - Available in Solid, Regular, Light, Duotone
@@ -6921,7 +6921,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         GrinStars,
 
         /// <summary>
-        /// Face With Tears Of Joy
+        /// Face With Tears of Joy
         /// </summary>
         /// <remarks>
         /// grin-tears - Available in Solid, Regular, Light, Duotone
@@ -7254,7 +7254,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         HandPointRight,
 
         /// <summary>
-        /// Hand Pointing Up
+        /// Hand Pointing up
         /// </summary>
         /// <remarks>
         /// hand-point-up - Available in Solid, Regular, Light, Duotone
@@ -8208,7 +8208,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         Inbox,
 
         /// <summary>
-        /// Inbox In
+        /// Inbox in
         /// </summary>
         /// <remarks>
         /// inbox-in - Available in Solid, Regular, Light, Duotone
@@ -8370,7 +8370,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         Joint,
 
         /// <summary>
-        /// Journal Of The Whills
+        /// Journal of the Whills
         /// </summary>
         /// <remarks>
         /// journal-whills - Available in Solid, Regular, Light, Duotone
@@ -8496,7 +8496,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         KissBeam,
 
         /// <summary>
-        /// Face Blowing A Kiss
+        /// Face Blowing a Kiss
         /// </summary>
         /// <remarks>
         /// kiss-wink-heart - Available in Solid, Regular, Light, Duotone
@@ -8712,7 +8712,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         Leaf,
 
         /// <summary>
-        /// Leaf With A Heart
+        /// Leaf With a Heart
         /// </summary>
         /// <remarks>
         /// leaf-heart - Available in Solid, Regular, Light, Duotone
@@ -8757,7 +8757,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         LessThan,
 
         /// <summary>
-        /// Less Than Equal To
+        /// Less Than Equal to
         /// </summary>
         /// <remarks>
         /// less-than-equal - Available in Solid, Regular, Light, Duotone
@@ -8784,7 +8784,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         LevelDownAlt,
 
         /// <summary>
-        /// Level Up
+        /// Level up
         /// </summary>
         /// <remarks>
         /// level-up - Available in Solid, Regular, Light, Duotone
@@ -8793,7 +8793,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         LevelUp,
 
         /// <summary>
-        /// Alternate Level Up
+        /// Alternate Level up
         /// </summary>
         /// <remarks>
         /// level-up-alt - Available in Solid, Regular, Light, Duotone
@@ -8829,7 +8829,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         LightSwitch,
 
         /// <summary>
-        /// Light Switch Off
+        /// Light Switch off
         /// </summary>
         /// <remarks>
         /// light-switch-off - Available in Solid, Regular, Light, Duotone
@@ -8838,7 +8838,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         LightSwitchOff,
 
         /// <summary>
-        /// Light Switch On
+        /// Light Switch on
         /// </summary>
         /// <remarks>
         /// light-switch-on - Available in Solid, Regular, Light, Duotone
@@ -8874,7 +8874,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         LightbulbExclamation,
 
         /// <summary>
-        /// Lightbulb On
+        /// Lightbulb on
         /// </summary>
         /// <remarks>
         /// lightbulb-on - Available in Solid, Regular, Light, Duotone
@@ -9090,7 +9090,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         LongArrowAltRight,
 
         /// <summary>
-        /// Alternate Long Arrow Up
+        /// Alternate Long Arrow up
         /// </summary>
         /// <remarks>
         /// long-arrow-alt-up - Available in Solid, Regular, Light, Duotone
@@ -9126,7 +9126,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         LongArrowRight,
 
         /// <summary>
-        /// Long Arrow Up
+        /// Long Arrow up
         /// </summary>
         /// <remarks>
         /// long-arrow-up - Available in Solid, Regular, Light, Duotone
@@ -10305,7 +10305,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         Paragraph,
 
         /// <summary>
-        /// Paragraph Right To Left
+        /// Paragraph Right to Left
         /// </summary>
         /// <remarks>
         /// paragraph-rtl - Available in Solid, Regular, Light, Duotone
@@ -10593,7 +10593,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         PersonCarry,
 
         /// <summary>
-        /// Person And Dolly
+        /// Person and Dolly
         /// </summary>
         /// <remarks>
         /// person-dolly - Available in Solid, Regular, Light, Duotone
@@ -10602,7 +10602,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         PersonDolly,
 
         /// <summary>
-        /// Person And Empty Dolly
+        /// Person and Empty Dolly
         /// </summary>
         /// <remarks>
         /// person-dolly-empty - Available in Solid, Regular, Light, Duotone
@@ -10638,7 +10638,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         PhoneAlt,
 
         /// <summary>
-        /// Phone And Laptop
+        /// Phone and Laptop
         /// </summary>
         /// <remarks>
         /// phone-laptop - Available in Solid, Regular, Light, Duotone
@@ -10800,7 +10800,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         PizzaSlice,
 
         /// <summary>
-        /// Place Of Worship
+        /// Place of Worship
         /// </summary>
         /// <remarks>
         /// place-of-worship - Available in Solid, Regular, Light, Duotone
@@ -11079,7 +11079,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         PoundSign,
 
         /// <summary>
-        /// Power Off
+        /// Power off
         /// </summary>
         /// <remarks>
         /// power-off - Available in Solid, Regular, Light, Duotone
@@ -11826,7 +11826,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         Sack,
 
         /// <summary>
-        /// Sack Of Money
+        /// Sack of Money
         /// </summary>
         /// <remarks>
         /// sack-dollar - Available in Solid, Regular, Light, Duotone
@@ -12159,7 +12159,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         SensorFire,
 
         /// <summary>
-        /// Sensor On
+        /// Sensor on
         /// </summary>
         /// <remarks>
         /// sensor-on - Available in Solid, Regular, Light, Duotone
@@ -12456,7 +12456,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         Sign,
 
         /// <summary>
-        /// Sign In
+        /// Sign in
         /// </summary>
         /// <remarks>
         /// sign-in - Available in Solid, Regular, Light, Duotone
@@ -12465,7 +12465,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         SignIn,
 
         /// <summary>
-        /// Alternate Sign In
+        /// Alternate Sign in
         /// </summary>
         /// <remarks>
         /// sign-in-alt - Available in Solid, Regular, Light, Duotone
@@ -12645,7 +12645,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         Siren,
 
         /// <summary>
-        /// Siren On
+        /// Siren on
         /// </summary>
         /// <remarks>
         /// siren-on - Available in Solid, Regular, Light, Duotone
@@ -13032,7 +13032,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         SortAlphaDownAlt,
 
         /// <summary>
-        /// Sort Alphabetical Up
+        /// Sort Alphabetical up
         /// </summary>
         /// <remarks>
         /// sort-alpha-up - Available in Solid, Regular, Light, Duotone
@@ -13041,7 +13041,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         SortAlphaUp,
 
         /// <summary>
-        /// Alternate Sort Alphabetical Up
+        /// Alternate Sort Alphabetical up
         /// </summary>
         /// <remarks>
         /// sort-alpha-up-alt - Available in Solid, Regular, Light, Duotone
@@ -13077,7 +13077,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         SortAmountDownAlt,
 
         /// <summary>
-        /// Sort Amount Up
+        /// Sort Amount up
         /// </summary>
         /// <remarks>
         /// sort-amount-up - Available in Solid, Regular, Light, Duotone
@@ -13086,7 +13086,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         SortAmountUp,
 
         /// <summary>
-        /// Alternate Sort Amount Up
+        /// Alternate Sort Amount up
         /// </summary>
         /// <remarks>
         /// sort-amount-up-alt - Available in Solid, Regular, Light, Duotone
@@ -13113,7 +13113,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         SortCircleDown,
 
         /// <summary>
-        /// Sort Circle Up
+        /// Sort Circle up
         /// </summary>
         /// <remarks>
         /// sort-circle-up - Available in Solid, Regular, Light, Duotone
@@ -13149,7 +13149,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         SortNumericDownAlt,
 
         /// <summary>
-        /// Sort Numeric Up
+        /// Sort Numeric up
         /// </summary>
         /// <remarks>
         /// sort-numeric-up - Available in Solid, Regular, Light, Duotone
@@ -13158,7 +13158,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         SortNumericUp,
 
         /// <summary>
-        /// Alternate Sort Numeric Up
+        /// Alternate Sort Numeric up
         /// </summary>
         /// <remarks>
         /// sort-numeric-up-alt - Available in Solid, Regular, Light, Duotone
@@ -13185,7 +13185,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         SortShapesDownAlt,
 
         /// <summary>
-        /// Sort Shapes Up
+        /// Sort Shapes up
         /// </summary>
         /// <remarks>
         /// sort-shapes-up - Available in Solid, Regular, Light, Duotone
@@ -13194,7 +13194,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         SortShapesUp,
 
         /// <summary>
-        /// Alternate Sort Shapes Up
+        /// Alternate Sort Shapes up
         /// </summary>
         /// <remarks>
         /// sort-shapes-up-alt - Available in Solid, Regular, Light, Duotone
@@ -13221,7 +13221,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         SortSizeDownAlt,
 
         /// <summary>
-        /// Sort Size Up
+        /// Sort Size up
         /// </summary>
         /// <remarks>
         /// sort-size-up - Available in Solid, Regular, Light, Duotone
@@ -13230,7 +13230,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         SortSizeUp,
 
         /// <summary>
-        /// Alternate Sort Size Up
+        /// Alternate Sort Size up
         /// </summary>
         /// <remarks>
         /// sort-size-up-alt - Available in Solid, Regular, Light, Duotone
@@ -13239,7 +13239,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         SortSizeUpAlt,
 
         /// <summary>
-        /// Sort Up Ascending
+        /// Sort up Ascending
         /// </summary>
         /// <remarks>
         /// sort-up - Available in Solid, Regular, Light, Duotone
@@ -13482,7 +13482,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         Star,
 
         /// <summary>
-        /// Star And Crescent
+        /// Star and Crescent
         /// </summary>
         /// <remarks>
         /// star-and-crescent - Available in Solid, Regular, Light, Duotone
@@ -13527,7 +13527,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         StarHalfAlt,
 
         /// <summary>
-        /// Star Of David
+        /// Star of David
         /// </summary>
         /// <remarks>
         /// star-of-david - Available in Solid, Regular, Light, Duotone
@@ -13536,7 +13536,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         StarOfDavid,
 
         /// <summary>
-        /// Star Of Life
+        /// Star of Life
         /// </summary>
         /// <remarks>
         /// star-of-life - Available in Solid, Regular, Light, Duotone
@@ -14346,7 +14346,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         TemperatureLow,
 
         /// <summary>
-        /// Temperature Up
+        /// Temperature up
         /// </summary>
         /// <remarks>
         /// temperature-up - Available in Solid, Regular, Light, Duotone
@@ -14526,7 +14526,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ThumbsDown,
 
         /// <summary>
-        /// Thumbs Up
+        /// Thumbs up
         /// </summary>
         /// <remarks>
         /// thumbs-up - Available in Solid, Regular, Light, Duotone
@@ -14706,7 +14706,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         Tired,
 
         /// <summary>
-        /// Toggle Off
+        /// Toggle off
         /// </summary>
         /// <remarks>
         /// toggle-off - Available in Solid, Regular, Light, Duotone
@@ -14715,7 +14715,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         ToggleOff,
 
         /// <summary>
-        /// Toggle On
+        /// Toggle on
         /// </summary>
         /// <remarks>
         /// toggle-on - Available in Solid, Regular, Light, Duotone
@@ -16146,7 +16146,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         VolumeMute,
 
         /// <summary>
-        /// Volume Off
+        /// Volume off
         /// </summary>
         /// <remarks>
         /// volume-off - Available in Solid, Regular, Light, Duotone
@@ -16164,7 +16164,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
         VolumeSlash,
 
         /// <summary>
-        /// Volume Up
+        /// Volume up
         /// </summary>
         /// <remarks>
         /// volume-up - Available in Solid, Regular, Light, Duotone

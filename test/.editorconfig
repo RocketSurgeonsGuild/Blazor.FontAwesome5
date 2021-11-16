@@ -1,0 +1,21 @@
+﻿[*]
+dotnet_diagnostic.CS0436.severity = none
+dotnet_diagnostic.CA1014.severity = none
+dotnet_diagnostic.CA1034.severity = none
+dotnet_diagnostic.CA1040.severity = none
+dotnet_diagnostic.CA1062.severity = none
+dotnet_diagnostic.CA1707.severity = none
+dotnet_diagnostic.CA1711.severity = none
+dotnet_diagnostic.CA1715.severity = none
+dotnet_diagnostic.CA1720.severity = none
+dotnet_diagnostic.CA1812.severity = none
+dotnet_diagnostic.CA1848.severity = none
+dotnet_diagnostic.CA2000.severity = none
+dotnet_diagnostic.CA2225.severity = none
+dotnet_diagnostic.CA2227.severity = none
+dotnet_diagnostic.CA2254.severity = none
+dotnet_diagnostic.IDE0060.severity = none
+dotnet_diagnostic.RCS1163.severity = none
+resharper_possible_multiple_enumeration_highlighting = none
+resharper_template_is_not_compile_time_constant_problem_highlighting = none
+resharper_inconsistent_naming_highlighting = none

@@ -1,10 +1,9 @@
-namespace Rocket.Surgery.Blazor.FontAwesome5
+namespace Rocket.Surgery.Blazor.FontAwesome5;
+
+public enum IconCounterPosition
 {
-    public enum IconCounterPosition
-    {
-        TopRight,
-        TopLeft,
-        BottomRight,
-        BottomLeft
-    }
+    TopRight,
+    TopLeft,
+    BottomRight,
+    BottomLeft
 }

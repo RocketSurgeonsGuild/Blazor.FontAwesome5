@@ -3,5 +3,6 @@
     <PropertyGroup>
         <MergeCoverage>true</MergeCoverage>
         <IncludeTestAssembly>true</IncludeTestAssembly>
+        <IsPackable>false</IsPackable>
     </PropertyGroup>
 </Project>

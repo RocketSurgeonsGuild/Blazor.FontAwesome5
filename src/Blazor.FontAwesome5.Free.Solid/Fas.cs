@@ -153,7 +153,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         AngleDoubleRight,
 
         /// <summary>
-        /// Angle Double Up
+        /// Angle Double up
         /// </summary>
         /// <remarks>
         /// angle-double-up - Available in Solid
@@ -189,7 +189,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         AngleRight,
 
         /// <summary>
-        /// Angle Up
+        /// Angle up
         /// </summary>
         /// <remarks>
         /// angle-up - Available in Solid
@@ -270,7 +270,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         ArrowAltCircleRight,
 
         /// <summary>
-        /// Alternate Arrow Circle Up
+        /// Alternate Arrow Circle up
         /// </summary>
         /// <remarks>
         /// arrow-alt-circle-up - Available in Solid, Regular
@@ -306,7 +306,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         ArrowCircleRight,
 
         /// <summary>
-        /// Arrow Circle Up
+        /// Arrow Circle up
         /// </summary>
         /// <remarks>
         /// arrow-circle-up - Available in Solid
@@ -342,7 +342,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         ArrowRight,
 
         /// <summary>
-        /// Arrow Up
+        /// Arrow up
         /// </summary>
         /// <remarks>
         /// arrow-up - Available in Solid
@@ -837,7 +837,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         Book,
 
         /// <summary>
-        /// Book Of The Dead
+        /// Book of the Dead
         /// </summary>
         /// <remarks>
         /// book-dead - Available in Solid
@@ -1341,7 +1341,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         CaretSquareRight,
 
         /// <summary>
-        /// Caret Square Up
+        /// Caret Square up
         /// </summary>
         /// <remarks>
         /// caret-square-up - Available in Solid, Regular
@@ -1350,7 +1350,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         CaretSquareUp,
 
         /// <summary>
-        /// Caret Up
+        /// Caret up
         /// </summary>
         /// <remarks>
         /// caret-up - Available in Solid
@@ -1377,7 +1377,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         CartArrowDown,
 
         /// <summary>
-        /// Add To Shopping Cart
+        /// Add to Shopping Cart
         /// </summary>
         /// <remarks>
         /// cart-plus - Available in Solid
@@ -1629,7 +1629,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         ChevronCircleRight,
 
         /// <summary>
-        /// Chevron Circle Up
+        /// Chevron Circle up
         /// </summary>
         /// <remarks>
         /// chevron-circle-up - Available in Solid
@@ -1665,7 +1665,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         ChevronRight,
 
         /// <summary>
-        /// Chevron Up
+        /// Chevron up
         /// </summary>
         /// <remarks>
         /// chevron-up - Available in Solid
@@ -1800,7 +1800,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         CloudDownloadAlt,
 
         /// <summary>
-        /// Cloud With A Chance Of Meatball
+        /// Cloud With a Chance of Meatball
         /// </summary>
         /// <remarks>
         /// cloud-meatball - Available in Solid
@@ -1818,7 +1818,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         CloudMoon,
 
         /// <summary>
-        /// Cloud With Moon And Rain
+        /// Cloud With Moon and Rain
         /// </summary>
         /// <remarks>
         /// cloud-moon-rain - Available in Solid
@@ -1854,7 +1854,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         CloudSun,
 
         /// <summary>
-        /// Cloud With Sun And Rain
+        /// Cloud With Sun and Rain
         /// </summary>
         /// <remarks>
         /// cloud-sun-rain - Available in Solid
@@ -3213,7 +3213,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         FlagCheckered,
 
         /// <summary>
-        /// United States Of America Flag
+        /// United States of America Flag
         /// </summary>
         /// <remarks>
         /// flag-usa - Available in Solid
@@ -3555,7 +3555,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         GreaterThan,
 
         /// <summary>
-        /// Greater Than Equal To
+        /// Greater Than Equal to
         /// </summary>
         /// <remarks>
         /// greater-than-equal - Available in Solid
@@ -3627,7 +3627,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         GrinSquint,
 
         /// <summary>
-        /// Rolling On The Floor Laughing
+        /// Rolling on the Floor Laughing
         /// </summary>
         /// <remarks>
         /// grin-squint-tears - Available in Solid, Regular
@@ -3645,7 +3645,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         GrinStars,
 
         /// <summary>
-        /// Face With Tears Of Joy
+        /// Face With Tears of Joy
         /// </summary>
         /// <remarks>
         /// grin-tears - Available in Solid, Regular
@@ -3879,7 +3879,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         HandPointRight,
 
         /// <summary>
-        /// Hand Pointing Up
+        /// Hand Pointing up
         /// </summary>
         /// <remarks>
         /// hand-point-up - Available in Solid, Regular
@@ -4536,7 +4536,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         Joint,
 
         /// <summary>
-        /// Journal Of The Whills
+        /// Journal of the Whills
         /// </summary>
         /// <remarks>
         /// journal-whills - Available in Solid
@@ -4599,7 +4599,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         KissBeam,
 
         /// <summary>
-        /// Face Blowing A Kiss
+        /// Face Blowing a Kiss
         /// </summary>
         /// <remarks>
         /// kiss-wink-heart - Available in Solid, Regular
@@ -4743,7 +4743,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         LessThan,
 
         /// <summary>
-        /// Less Than Equal To
+        /// Less Than Equal to
         /// </summary>
         /// <remarks>
         /// less-than-equal - Available in Solid
@@ -4761,7 +4761,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         LevelDownAlt,
 
         /// <summary>
-        /// Alternate Level Up
+        /// Alternate Level up
         /// </summary>
         /// <remarks>
         /// level-up-alt - Available in Solid
@@ -4896,7 +4896,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         LongArrowAltRight,
 
         /// <summary>
-        /// Alternate Long Arrow Up
+        /// Alternate Long Arrow up
         /// </summary>
         /// <remarks>
         /// long-arrow-alt-up - Available in Solid
@@ -5895,7 +5895,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         PizzaSlice,
 
         /// <summary>
-        /// Place Of Worship
+        /// Place of Worship
         /// </summary>
         /// <remarks>
         /// place-of-worship - Available in Solid
@@ -6066,7 +6066,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         PoundSign,
 
         /// <summary>
-        /// Power Off
+        /// Power off
         /// </summary>
         /// <remarks>
         /// power-off - Available in Solid
@@ -6813,7 +6813,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         Sign,
 
         /// <summary>
-        /// Alternate Sign In
+        /// Alternate Sign in
         /// </summary>
         /// <remarks>
         /// sign-in-alt - Available in Solid
@@ -7110,7 +7110,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         SortAlphaDownAlt,
 
         /// <summary>
-        /// Sort Alphabetical Up
+        /// Sort Alphabetical up
         /// </summary>
         /// <remarks>
         /// sort-alpha-up - Available in Solid
@@ -7119,7 +7119,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         SortAlphaUp,
 
         /// <summary>
-        /// Alternate Sort Alphabetical Up
+        /// Alternate Sort Alphabetical up
         /// </summary>
         /// <remarks>
         /// sort-alpha-up-alt - Available in Solid
@@ -7146,7 +7146,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         SortAmountDownAlt,
 
         /// <summary>
-        /// Sort Amount Up
+        /// Sort Amount up
         /// </summary>
         /// <remarks>
         /// sort-amount-up - Available in Solid
@@ -7155,7 +7155,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         SortAmountUp,
 
         /// <summary>
-        /// Alternate Sort Amount Up
+        /// Alternate Sort Amount up
         /// </summary>
         /// <remarks>
         /// sort-amount-up-alt - Available in Solid
@@ -7191,7 +7191,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         SortNumericDownAlt,
 
         /// <summary>
-        /// Sort Numeric Up
+        /// Sort Numeric up
         /// </summary>
         /// <remarks>
         /// sort-numeric-up - Available in Solid
@@ -7200,7 +7200,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         SortNumericUp,
 
         /// <summary>
-        /// Alternate Sort Numeric Up
+        /// Alternate Sort Numeric up
         /// </summary>
         /// <remarks>
         /// sort-numeric-up-alt - Available in Solid
@@ -7209,7 +7209,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         SortNumericUpAlt,
 
         /// <summary>
-        /// Sort Up Ascending
+        /// Sort up Ascending
         /// </summary>
         /// <remarks>
         /// sort-up - Available in Solid
@@ -7326,7 +7326,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         Star,
 
         /// <summary>
-        /// Star And Crescent
+        /// Star and Crescent
         /// </summary>
         /// <remarks>
         /// star-and-crescent - Available in Solid
@@ -7353,7 +7353,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         StarHalfAlt,
 
         /// <summary>
-        /// Star Of David
+        /// Star of David
         /// </summary>
         /// <remarks>
         /// star-of-david - Available in Solid
@@ -7362,7 +7362,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         StarOfDavid,
 
         /// <summary>
-        /// Star Of Life
+        /// Star of Life
         /// </summary>
         /// <remarks>
         /// star-of-life - Available in Solid
@@ -7911,7 +7911,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         ThumbsDown,
 
         /// <summary>
-        /// Thumbs Up
+        /// Thumbs up
         /// </summary>
         /// <remarks>
         /// thumbs-up - Available in Solid, Regular
@@ -7983,7 +7983,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         Tired,
 
         /// <summary>
-        /// Toggle Off
+        /// Toggle off
         /// </summary>
         /// <remarks>
         /// toggle-off - Available in Solid
@@ -7992,7 +7992,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         ToggleOff,
 
         /// <summary>
-        /// Toggle On
+        /// Toggle on
         /// </summary>
         /// <remarks>
         /// toggle-on - Available in Solid
@@ -8793,7 +8793,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         VolumeMute,
 
         /// <summary>
-        /// Volume Off
+        /// Volume off
         /// </summary>
         /// <remarks>
         /// volume-off - Available in Solid
@@ -8802,7 +8802,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Free
         VolumeOff,
 
         /// <summary>
-        /// Volume Up
+        /// Volume up
         /// </summary>
         /// <remarks>
         /// volume-up - Available in Solid

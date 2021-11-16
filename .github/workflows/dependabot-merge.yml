@@ -29,45 +29,45 @@ jobs:
         env:
           RUNNER_CONTEXT: ${{ toJson(runner) }}
         run: echo "$RUNNER_CONTEXT"
-      - uses: actions/checkout@v2.3.4
+      - uses: actions/checkout@v2.4.0
         with:
           ref: master
       - name: Dependabot Commenter
         if: |
+          (
             (
-              (
-                github.event.action == 'labeled'
-                && (
-                        contains(github.event.label.name, ':shipit: merge')
-                     || contains(github.event.label.name, 'javascript')
-                     || contains(github.event.label.name, 'github-actions')
-                   )
-              )
-              ||
-              (
-                contains(github.event.action, 'opened') &&
-                (
-                  (
-                        contains(github.event.pull_request.labels.*.name, ':shipit: merge')
-                     || contains(github.event.pull_request.labels.*.name, 'javascript')
-                     || contains(github.event.pull_request.labels.*.name, 'github-actions')
-                  )
-                  || startsWith(github.event.pull_request.title, 'Bump JetBrains.ReSharper.CommandLineTools')
-                  || startsWith(github.event.pull_request.title, 'Bump ReportGenerator')
-                  || startsWith(github.event.pull_request.title, 'Bump Nuke.Common')
-                  || startsWith(github.event.pull_request.title, 'Bump GitVersion.Tool')
-                  || startsWith(github.event.pull_request.title, 'Bump Bogus')
-                  || startsWith(github.event.pull_request.title, 'Bump coverlet')
-                  || startsWith(github.event.pull_request.title, 'Bump FakeItEasy')
-                  || startsWith(github.event.pull_request.title, 'Bump FluentAssertions')
-                  || startsWith(github.event.pull_request.title, 'Bump xunit')
-                  || startsWith(github.event.pull_request.title, 'Bump Microsoft.NET.Test.Sdk')
-                )
-              )
-            ) && (
-                 github.event.pull_request.user.login == 'dependabot[bot]'
-              || github.event.pull_request.user.login == 'dependabot-preview[bot]'
+              github.event.action == 'labeled'
+              && (
+                      contains(github.event.label.name, ':shipit: merge')
+                   || contains(github.event.label.name, 'javascript')
+                   || contains(github.event.label.name, 'github-actions')
+                 )
             )
+            ||
+            (
+              contains(github.event.action, 'opened') &&
+              (
+                (
+                      contains(github.event.pull_request.labels.*.name, ':shipit: merge')
+                   || contains(github.event.pull_request.labels.*.name, 'javascript')
+                   || contains(github.event.pull_request.labels.*.name, 'github-actions')
+                )
+                || startsWith(github.event.pull_request.title, 'Bump JetBrains.ReSharper.CommandLineTools')
+                || startsWith(github.event.pull_request.title, 'Bump ReportGenerator')
+                || startsWith(github.event.pull_request.title, 'Bump Nuke.Common')
+                || startsWith(github.event.pull_request.title, 'Bump GitVersion.Tool')
+                || startsWith(github.event.pull_request.title, 'Bump Bogus')
+                || startsWith(github.event.pull_request.title, 'Bump coverlet')
+                || startsWith(github.event.pull_request.title, 'Bump FakeItEasy')
+                || startsWith(github.event.pull_request.title, 'Bump FluentAssertions')
+                || startsWith(github.event.pull_request.title, 'Bump xunit')
+                || startsWith(github.event.pull_request.title, 'Bump Microsoft.NET.Test.Sdk')
+              )
+            )
+          ) && (
+               github.event.pull_request.user.login == 'dependabot[bot]'
+            || github.event.pull_request.user.login == 'dependabot-preview[bot]'
+          )
         uses: peaceiris/actions-label-commenter@v1.10.0
         with:
           github_token: ${{ secrets.RSG_BOT_TOKEN }}
@@ -76,14 +76,15 @@ jobs:
       - name: GitHub Automerge
         if: |
           (
-               github.event.label.name == ':shipit: merge'
-            && github.event.pull_request.user.login != 'dependabot[bot]'
+            github.event.label.name == ':shipit: merge'
+          ) && (
+               github.event.pull_request.user.login != 'dependabot[bot]'
             && github.event.pull_request.user.login != 'dependabot-preview[bot]'
           )
         uses: alexwilson/enable-github-automerge-action@1.0.0
         with:
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-          merge-method: "SQUASH"
+          github-token: '${{ secrets.GITHUB_TOKEN }}'
+          merge-method: 'SQUASH'
 
       - name: GitHub Remove Labels
         if: |
@@ -91,7 +92,7 @@ jobs:
         uses: actions-ecosystem/action-remove-labels@v1
         with:
           labels: |
-              :shipit: merge
-              github-actions
-              javascript
-              .NET
+            :shipit: merge
+            github-actions
+            javascript
+            .NET

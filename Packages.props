@@ -16,7 +16,7 @@
     <PackageReference Update="Nuke.Common" Version="5.3.0" />
     <PackageReference Update="ReportGenerator" Version="5.0.0" />
     <PackageReference Update="Rocket.Surgery.Nuke" Version="0.16.2" />
-    <PackageReference Update="Humanizer.Core" Version="2.11.10" />
+    <PackageReference Update="Humanizer.Core" Version="2.13.14" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Update="Microsoft.AspNetCore.Components" Version="6.0.0" />

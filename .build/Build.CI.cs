@@ -1,43 +1,104 @@
-using System.Collections.Generic;
-using System.Linq;
+using Newtonsoft.Json;
 using Nuke.Common.CI.GitHubActions;
-using Rocket.Surgery.Nuke;
+using Nuke.Common.CI.GitHubActions.Configuration;
 using Rocket.Surgery.Nuke.ContinuousIntegration;
 using Rocket.Surgery.Nuke.DotNetCore;
 using Rocket.Surgery.Nuke.GithubActions;
+using YamlDotNet.Core;
 
+#pragma warning disable CA1050
+
+class LocalConstants
+{
+    public static string[] PathsIgnore =
+    {
+        ".codecov.yml",
+        ".editorconfig",
+        ".gitattributes",
+        ".gitignore",
+        ".gitmodules",
+        ".lintstagedrc.js",
+        ".prettierignore",
+        ".prettierrc",
+        "LICENSE",
+        "nukeeper.settings.json",
+        "omnisharp.json",
+        "package-lock.json",
+        "package.json",
+        "Readme.md"
+    };
+}
+
+[GitHubActionsSteps(
+    "ci-ignore",
+    GitHubActionsImage.WindowsLatest,
+    GitHubActionsImage.UbuntuLatest,
+    On = new[] { GitHubActionsTrigger.Push },
+    OnPushTags = new[] { "v*" },
+    OnPushBranches = new[] { "master", "main", "next" },
+    OnPullRequestBranches = new[] { "master", "main", "next" },
+    Enhancements = new[] { nameof(CiIgnoreMiddleware) }
+)]
 [GitHubActionsSteps(
     "ci",
     GitHubActionsImage.MacOsLatest,
     GitHubActionsImage.WindowsLatest,
     GitHubActionsImage.UbuntuLatest,
-    AutoGenerate = false,
     On = new[] { GitHubActionsTrigger.Push },
     OnPushTags = new[] { "v*" },
-    OnPushBranches = new[] { "master", "next" },
-    OnPullRequestBranches = new[] { "master", "next" },
+    OnPushBranches = new[] { "master", "main", "next" },
+    OnPullRequestBranches = new[] { "master", "main", "next" },
     InvokedTargets = new[] { nameof(Default) },
     NonEntryTargets = new[]
     {
         nameof(ICIEnvironment.CIEnvironment),
-        nameof(ITriggerCodeCoverageReports.Trigger_Code_Coverage_Reports),
-        nameof(ITriggerCodeCoverageReports.Generate_Code_Coverage_Report_Cobertura),
-        nameof(IGenerateCodeCoverageBadges.Generate_Code_Coverage_Badges),
-        nameof(IGenerateCodeCoverageReport.Generate_Code_Coverage_Report),
-        nameof(IGenerateCodeCoverageSummary.Generate_Code_Coverage_Summary),
+        nameof(ITriggerCodeCoverageReports.TriggerCodeCoverageReports),
+        nameof(ITriggerCodeCoverageReports.GenerateCodeCoverageReportCobertura),
+        nameof(IGenerateCodeCoverageBadges.GenerateCodeCoverageBadges),
+        nameof(IGenerateCodeCoverageReport.GenerateCodeCoverageReport),
+        nameof(IGenerateCodeCoverageSummary.GenerateCodeCoverageSummary),
         nameof(Default)
     },
     ExcludedTargets = new[] { nameof(ICanClean.Clean), nameof(ICanRestoreWithDotNetCore.DotnetToolRestore) },
-    Enhancements = new[] { nameof(Middleware) }
+    Enhancements = new[] { nameof(CiMiddleware) }
 )]
 [PrintBuildVersion]
 [PrintCIEnvironment]
-[UploadLogs]
+[UploadLogs, TitleEvents]
 public partial class Solution
 {
-    public static RocketSurgeonGitHubActionsConfiguration Middleware(RocketSurgeonGitHubActionsConfiguration configuration)
+    public static RocketSurgeonGitHubActionsConfiguration CiIgnoreMiddleware(
+        RocketSurgeonGitHubActionsConfiguration configuration
+    )
     {
-        var buildJob = configuration.Jobs.First(z => z.Name == "Build");
+        foreach (var item in configuration.DetailedTriggers.OfType<RocketSurgeonGitHubActionsVcsTrigger>())
+        {
+            item.IncludePaths = LocalConstants.PathsIgnore;
+        }
+
+        configuration.Jobs.RemoveAt(1);
+        ( (RocketSurgeonsGithubActionsJob)configuration.Jobs[0] ).Steps = new List<GitHubActionsStep>()
+        {
+            new RunStep("N/A")
+            {
+                Run = "echo \"No build required\""
+            }
+        };
+
+        return configuration;
+    }
+
+    public static RocketSurgeonGitHubActionsConfiguration CiMiddleware(
+        RocketSurgeonGitHubActionsConfiguration configuration
+    )
+    {
+        foreach (var item in configuration.DetailedTriggers.OfType<RocketSurgeonGitHubActionsVcsTrigger>())
+        {
+            item.ExcludePaths = LocalConstants.PathsIgnore;
+        }
+
+        var buildJob = configuration.Jobs.OfType<RocketSurgeonsGithubActionsJob>().First(z => z.Name == "Build");
+        buildJob.FailFast = false;
         var checkoutStep = buildJob.Steps.OfType<CheckoutStep>().Single();
         // For fetch all
         checkoutStep.FetchDepth = 0;

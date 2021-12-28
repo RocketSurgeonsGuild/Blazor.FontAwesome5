@@ -19,14 +19,46 @@ name: ci
 on:
   push:
     branches:
-      - master
-      - next
+      - 'master'
+      - 'main'
+      - 'next'
     tags:
-      - v*
+      - 'v*'
+    paths-ignore:
+      - '.codecov.yml'
+      - '.editorconfig'
+      - '.gitattributes'
+      - '.gitignore'
+      - '.gitmodules'
+      - '.lintstagedrc.js'
+      - '.prettierignore'
+      - '.prettierrc'
+      - 'LICENSE'
+      - 'nukeeper.settings.json'
+      - 'omnisharp.json'
+      - 'package-lock.json'
+      - 'package.json'
+      - 'Readme.md'
   pull_request:
     branches:
-      - master
-      - next
+      - 'master'
+      - 'main'
+      - 'next'
+    paths-ignore:
+      - '.codecov.yml'
+      - '.editorconfig'
+      - '.gitattributes'
+      - '.gitignore'
+      - '.gitmodules'
+      - '.lintstagedrc.js'
+      - '.prettierignore'
+      - '.prettierrc'
+      - 'LICENSE'
+      - 'nukeeper.settings.json'
+      - 'omnisharp.json'
+      - 'package-lock.json'
+      - 'package.json'
+      - 'Readme.md'
 
 jobs:
   Build:
@@ -45,22 +77,21 @@ jobs:
         run: |
           git fetch --prune
       - name: 🔨 Use .NET Core 2.1 SDK
-        uses: actions/setup-dotnet@v1.8.2
+        uses: actions/setup-dotnet@v1.9.0
         with:
           dotnet-version: '2.1.x'
       - name: 🔨 Use .NET Core 3.1 SDK
-        uses: actions/setup-dotnet@v1.8.2
+        uses: actions/setup-dotnet@v1.9.0
         with:
           dotnet-version: '3.1.x'
       - name: 🔨 Use .NET Core 5.0 SDK
-        uses: actions/setup-dotnet@v1.8.2
+        uses: actions/setup-dotnet@v1.9.0
         with:
           dotnet-version: '5.0.x'
       - name: 🔨 Use .NET Core 6.0 SDK
-        uses: actions/setup-dotnet@v1.8.2
+        uses: actions/setup-dotnet@v1.9.0
         with:
           dotnet-version: '6.0.x'
-          include-prerelease: true
       - name: 🎁 dotnet tool restore
         run: |
           dotnet tool restore
@@ -72,7 +103,7 @@ jobs:
           dotnet nuke Build --skip
       - name: 🚦 Test
         run: |
-          dotnet nuke Test Trigger_Code_Coverage_Reports Generate_Code_Coverage_Report_Cobertura Generate_Code_Coverage_Badges Generate_Code_Coverage_Summary Generate_Code_Coverage_Report --skip
+          dotnet nuke Test TriggerCodeCoverageReports GenerateCodeCoverageReportCobertura GenerateCodeCoverageBadges GenerateCodeCoverageSummary GenerateCodeCoverageReport --skip
       - name: 📦 Pack
         run: |
           dotnet nuke Pack --skip
@@ -82,25 +113,32 @@ jobs:
           name: 'actions-${{ matrix.os }}'
       - name: 🏺 Publish logs
         if: always()
-        uses: actions/upload-artifact@v2.2.4
+        uses: actions/upload-artifact@v2.3.1
         with:
           name: 'logs'
           path: 'artifacts/logs/'
       - name: 🏺 Publish coverage data
         if: always()
-        uses: actions/upload-artifact@v2.2.4
+        uses: actions/upload-artifact@v2.3.1
         with:
           name: 'coverage'
           path: 'coverage/'
       - name: 🏺 Publish test data
         if: always()
-        uses: actions/upload-artifact@v2.2.4
+        uses: actions/upload-artifact@v2.3.1
         with:
           name: 'test data'
           path: 'artifacts/test/'
       - name: 🏺 Publish NuGet Packages
         if: always()
-        uses: actions/upload-artifact@v2.2.4
+        uses: actions/upload-artifact@v2.3.1
         with:
           name: 'nuget'
           path: 'artifacts/nuget/'
+  Publish:
+    needs:
+      - Build
+    uses: RocketSurgeonsGuild/actions/.github/workflows/publish-nuget.yml@v0.2.5
+    secrets:
+      RSG_NUGET_API_KEY: '${{ secrets.RSG_NUGET_API_KEY }}'
+      RSG_AZURE_DEVOPS: '${{ secrets.RSG_AZURE_DEVOPS }}'

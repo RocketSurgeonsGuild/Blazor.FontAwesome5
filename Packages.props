@@ -14,7 +14,7 @@
   <ItemGroup>
     <PackageReference Update="GitVersion.Tool" Version="5.8.1" />
     <PackageReference Update="Nuke.Common" Version="6.0.1" />
-    <PackageReference Update="ReportGenerator" Version="5.0.0" />
+    <PackageReference Update="ReportGenerator" Version="5.0.2" />
     <PackageReference Update="Rocket.Surgery.Nuke" Version="0.17.0" />
     <PackageReference Update="Humanizer.Core" Version="2.13.14" />
   </ItemGroup>

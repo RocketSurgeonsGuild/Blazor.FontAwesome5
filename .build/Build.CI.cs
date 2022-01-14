@@ -1,14 +1,12 @@
-using Newtonsoft.Json;
 using Nuke.Common.CI.GitHubActions;
 using Nuke.Common.CI.GitHubActions.Configuration;
 using Rocket.Surgery.Nuke.ContinuousIntegration;
 using Rocket.Surgery.Nuke.DotNetCore;
 using Rocket.Surgery.Nuke.GithubActions;
-using YamlDotNet.Core;
 
 #pragma warning disable CA1050
 
-class LocalConstants
+internal class LocalConstants
 {
     public static string[] PathsIgnore =
     {
@@ -64,7 +62,8 @@ class LocalConstants
 )]
 [PrintBuildVersion]
 [PrintCIEnvironment]
-[UploadLogs, TitleEvents]
+[UploadLogs]
+[TitleEvents]
 public partial class Solution
 {
     public static RocketSurgeonGitHubActionsConfiguration CiIgnoreMiddleware(
@@ -77,7 +76,7 @@ public partial class Solution
         }
 
         configuration.Jobs.RemoveAt(1);
-        ( (RocketSurgeonsGithubActionsJob)configuration.Jobs[0] ).Steps = new List<GitHubActionsStep>()
+        ( (RocketSurgeonsGithubActionsJob)configuration.Jobs[0] ).Steps = new List<GitHubActionsStep>
         {
             new RunStep("N/A")
             {
@@ -117,10 +116,6 @@ public partial class Solution
                 new SetupDotNetStep("Use .NET Core 3.1 SDK")
                 {
                     DotNetVersion = "3.1.x"
-                },
-                new SetupDotNetStep("Use .NET Core 5.0 SDK")
-                {
-                    DotNetVersion = "5.0.x"
                 },
                 new SetupDotNetStep("Use .NET Core 6.0 SDK")
                 {

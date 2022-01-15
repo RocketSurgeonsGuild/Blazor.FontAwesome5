@@ -7,14 +7,14 @@ export:
   include-created-date-in-title: true
   created-date-string-format: MMMM dd, yyyy
   perform-regex-removal: true
-  regex-text: '([a-f\d]{40}\s|:boom:|:rocket:|:fire:|:blue_book:|:beetle:|:squirrel:|:raised_hand:|:sparkles:|:package:|:old_key:|:wastebasket:|:construction:)'
+  regex-text: '([a-f\d]{40}\s|:boom:|:rocket:|:fire:|:blue_book:|:lady_beetle:|:squirrel:|:raised_hand:|:sparkles:|:package:|:old_key:|:wastebasket:|:construction:)'
 issue-labels-include:
   - ':boom: breaking change'
   - ':rocket: feature'
   - ':fire: enhancement'
   - ':old_key: security'
   - ':blue_book: documentation'
-  - ':beetle: bug'
+  - ':lady_beetle: bug'
   - ':hammer: chore'
   - 'good first issue'
   - 'help wanted'

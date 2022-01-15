@@ -7,6 +7,6 @@ on:
       - '**/*.md'
 jobs:
   create_milestone_and_draft_release:
-    uses: RocketSurgeonsGuild/actions/.github/workflows/draft-release.yml@v0.2.5
+    uses: RocketSurgeonsGuild/actions/.github/workflows/draft-release.yml@v0.2.6
     secrets:
       RSG_BOT_TOKEN: ${{ secrets.RSG_BOT_TOKEN }}

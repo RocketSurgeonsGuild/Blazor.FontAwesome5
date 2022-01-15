@@ -22,7 +22,4 @@ updates:
       interval: 'daily'
     assignees:
       - 'david-driscoll'
-    ignore:
-      - dependency-name: Microsoft.Extensions.*
-      - dependency-name: Microsoft.AspNetCore.*
     open-pull-requests-limit: 100

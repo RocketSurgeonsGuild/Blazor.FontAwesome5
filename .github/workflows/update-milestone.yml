@@ -9,4 +9,4 @@ on:
 
 jobs:
   update_milestone:
-    uses: RocketSurgeonsGuild/actions/.github/workflows/update-milestone.yml@v0.2.5
+    uses: RocketSurgeonsGuild/actions/.github/workflows/update-milestone.yml@v0.2.6

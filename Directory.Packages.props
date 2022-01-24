@@ -9,7 +9,7 @@
     <!-- <PackageVersion Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="2.9.8" /> -->
     <PackageVersion Include="Rocket.Surgery.MSBuild.Metadata" Version="1.1.0" />
     <PackageVersion Include="Rocket.Surgery.MSBuild.SourceLink" Version="1.1.0" />
-    <PackageVersion Include="Roslynator.Analyzers" Version="3.3.0" />
+    <PackageVersion Include="Roslynator.Analyzers" Version="4.0.0" />
   </ItemGroup>
   <ItemGroup>
     <PackageVersion Include="GitVersion.Tool" Version="5.8.1" />

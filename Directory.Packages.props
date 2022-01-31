@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
   <ItemGroup>
     <PackageVersion Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" />
@@ -29,7 +29,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageVersion Include="Bogus" Version="34.0.1" />
-    <PackageVersion Include="coverlet.collector" Version="3.1.0" />
+    <PackageVersion Include="coverlet.collector" Version="3.1.1" />
     <PackageVersion Include="coverlet.msbuild" Version="3.1.1" />
     <PackageVersion Include="FakeItEasy" Version="7.3.0" />
     <PackageVersion Include="FakeItEasy.Analyzer.CSharp" Version="6.1.0" />
@@ -42,8 +42,5 @@
     <PackageVersion Include="xunit.analyzers" Version="0.10.0" />
     <PackageVersion Include="xunit.runner.visualstudio" Version="2.4.3" />
   </ItemGroup>
-  <Import
-        Project="$(MSBuildThisFileDirectory)/Directory.Packages.support.props"
-        Condition="Exists('$(MSBuildThisFileDirectory)/Directory.Packages.support.props')"
-    />
+  <Import Project="$(MSBuildThisFileDirectory)/Directory.Packages.support.props" Condition="Exists('$(MSBuildThisFileDirectory)/Directory.Packages.support.props')" />
 </Project>

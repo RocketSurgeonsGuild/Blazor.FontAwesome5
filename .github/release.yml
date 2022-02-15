@@ -1,0 +1,40 @@
+changelog:
+  exclude:
+    labels:
+      - ':shipit: merge'
+      - github-actions
+      - javascript
+      - .NET
+  categories:
+    - title: ':boom: Breaking Changes'
+      labels:
+        - ':boom: breaking change'
+    - title: ':rocket: Features and :fire: Enhancements'
+      labels:
+        - ':rocket: feature'
+        - ':fire: enhancement'
+    - title: ':lady_beetle: Bugs and Security Fixes'
+      labels:
+        - ':lady_beetle: bug'
+        - ':old_key: security'
+    - title: ':blue_book: Documentation'
+      labels:
+        - ':blue_book: documentation'
+    - title: ':construction: Deprecated and :wastebasket: Removed'
+      labels:
+        - ':construction: deprecated'
+        - ':wastebasket: removed'
+    - title: Public Dependencies
+      labels:
+        - ':package: dependencies'
+    - title: ':hammer: Chores and Dependencies'
+      labels:
+        - ':hammer: chore'
+        - ':briefcase: private-dependencies'
+    - title: Help Wanted
+      labels:
+        - 'good first issue'
+        - 'help wanted'
+    - title: Other Items
+      labels:
+        - '*'

@@ -39,6 +39,10 @@ on:
       - 'package-lock.json'
       - 'package.json'
       - 'Readme.md'
+      - '.github/dependabot.yml'
+      - '.github/labels.yml'
+      - '.github/release.yml'
+      - '.github/renovate.json'
   pull_request:
     branches:
       - 'master'
@@ -59,6 +63,10 @@ on:
       - 'package-lock.json'
       - 'package.json'
       - 'Readme.md'
+      - '.github/dependabot.yml'
+      - '.github/labels.yml'
+      - '.github/release.yml'
+      - '.github/renovate.json'
 
 jobs:
   Build:

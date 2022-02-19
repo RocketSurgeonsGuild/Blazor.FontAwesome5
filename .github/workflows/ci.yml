@@ -39,6 +39,10 @@ on:
       - 'package-lock.json'
       - 'package.json'
       - 'Readme.md'
+      - '.github/dependabot.yml'
+      - '.github/labels.yml'
+      - '.github/release.yml'
+      - '.github/renovate.json'
   pull_request:
     branches:
       - 'master'
@@ -59,9 +63,15 @@ on:
       - 'package-lock.json'
       - 'package.json'
       - 'Readme.md'
+      - '.github/dependabot.yml'
+      - '.github/labels.yml'
+      - '.github/release.yml'
+      - '.github/renovate.json'
 
 jobs:
   Build:
+    env:
+      NUGET_PACKAGES: '${{ github.workspace }}/.nuget/packages'
     strategy:
       fail-fast: false
       matrix:
@@ -76,18 +86,17 @@ jobs:
       - name: Fetch all history for all tags and branches
         run: |
           git fetch --prune
-      - name: 🔨 Use .NET Core 2.1 SDK
-        uses: actions/setup-dotnet@v1.9.0
+      - name: NuGet Cache
+        uses: actions/cache@v2
         with:
-          dotnet-version: '2.1.x'
+          path: '${{ github.workspace }}/.nuget/packages'
+          key: "${{ runner.os }}-nuget-${{ hashFiles('**/Directory.Packages.props') }}-${{ hashFiles('**/Directory.Packages.support.props') }}"
+          restore-keys: |
+            ${{ runner.os }}-nuget-
       - name: 🔨 Use .NET Core 3.1 SDK
         uses: actions/setup-dotnet@v1.9.0
         with:
           dotnet-version: '3.1.x'
-      - name: 🔨 Use .NET Core 5.0 SDK
-        uses: actions/setup-dotnet@v1.9.0
-        with:
-          dotnet-version: '5.0.x'
       - name: 🔨 Use .NET Core 6.0 SDK
         uses: actions/setup-dotnet@v1.9.0
         with:
@@ -138,7 +147,7 @@ jobs:
   Publish:
     needs:
       - Build
-    uses: RocketSurgeonsGuild/actions/.github/workflows/publish-nuget.yml@v0.3.0
     secrets:
       RSG_NUGET_API_KEY: '${{ secrets.RSG_NUGET_API_KEY }}'
       RSG_AZURE_DEVOPS: '${{ secrets.RSG_AZURE_DEVOPS }}'
+    uses: RocketSurgeonsGuild/actions/.github/workflows/publish-nuget.yml@v0.3.0

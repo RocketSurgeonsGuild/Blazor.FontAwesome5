@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Project>
   <ItemGroup>
     <PackageVersion Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" />
@@ -15,7 +15,7 @@
     <PackageVersion Include="GitVersion.Tool" Version="5.8.2" />
     <PackageVersion Include="Nuke.Common" Version="6.0.1" />
     <PackageVersion Include="ReportGenerator" Version="5.0.4" />
-    <PackageVersion Include="Rocket.Surgery.Nuke" Version="0.17.3" />
+    <PackageVersion Include="Rocket.Surgery.Nuke" Version="0.17.4" />
     <PackageVersion Include="Humanizer.Core" Version="2.14.1" />
   </ItemGroup>
   <ItemGroup>
@@ -42,5 +42,8 @@
     <PackageVersion Include="xunit.analyzers" Version="0.10.0" />
     <PackageVersion Include="xunit.runner.visualstudio" Version="2.4.3" />
   </ItemGroup>
-  <Import Project="$(MSBuildThisFileDirectory)/Directory.Packages.support.props" Condition="Exists('$(MSBuildThisFileDirectory)/Directory.Packages.support.props')" />
+  <Import
+        Project="$(MSBuildThisFileDirectory)/Directory.Packages.support.props"
+        Condition="Exists('$(MSBuildThisFileDirectory)/Directory.Packages.support.props')"
+    />
 </Project>

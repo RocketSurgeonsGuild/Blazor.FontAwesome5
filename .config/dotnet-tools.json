@@ -7,7 +7,7 @@
             "commands": ["dotnet-outdated"]
         },
         "gitversion.tool": {
-            "version": "5.8.2",
+            "version": "5.8.3",
             "commands": ["dotnet-gitversion"]
         },
         "dotnet-reportgenerator-globaltool": {

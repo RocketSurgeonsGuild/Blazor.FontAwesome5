@@ -20,7 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageVersion Include="Microsoft.AspNetCore.Components" Version="6.0.3" />
-    <PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="6.0.2" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="6.0.3" />
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageVersion Include="bunit" Version="1.6.4" />
   </ItemGroup>

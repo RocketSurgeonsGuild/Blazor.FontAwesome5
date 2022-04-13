@@ -13,7 +13,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageVersion Include="GitVersion.Tool" Version="5.9.0" />
-    <PackageVersion Include="Nuke.Common" Version="6.0.1" />
+    <PackageVersion Include="Nuke.Common" Version="6.0.2" />
     <PackageVersion Include="ReportGenerator" Version="5.1.4" />
     <PackageVersion Include="Rocket.Surgery.Nuke" Version="0.17.9" />
     <PackageVersion Include="Humanizer.Core" Version="2.14.1" />

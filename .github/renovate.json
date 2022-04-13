@@ -7,15 +7,5 @@
         "labels": [":truck: private-dependencies"]
     },
     "packageRules": [
-        {
-            "description": "dotnet monorepo",
-            "enabled": false,
-            "matchSourceUrlPrefixes": [
-                "https://github.com/dotnet/aspnetcore",
-                "https://github.com/dotnet/efcore",
-                "https://github.com/dotnet/extensions",
-                "https://github.com/dotnet/runtime"
-            ]
-        }
     ]
 }

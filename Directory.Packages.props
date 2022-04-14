@@ -12,7 +12,7 @@
     <PackageVersion Include="Roslynator.Analyzers" Version="4.1.0" />
   </ItemGroup>
   <ItemGroup>
-    <PackageVersion Include="GitVersion.Tool" Version="5.9.0" />
+    <PackageVersion Include="GitVersion.Tool" Version="5.10.0" />
     <PackageVersion Include="Nuke.Common" Version="6.0.2" />
     <PackageVersion Include="ReportGenerator" Version="5.1.4" />
     <PackageVersion Include="Rocket.Surgery.Nuke" Version="0.17.9" />

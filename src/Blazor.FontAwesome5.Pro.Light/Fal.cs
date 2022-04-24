@@ -1,16531 +1,16688 @@
+using System;
+using Rocket.Surgery.Blazor.FontAwesome5;
 namespace Rocket.Surgery.Blazor.FontAwesome5.Pro
 {
     /// <summary>
-    ///     Font Awesome Fal Icons
+    /// Font Awesome Fal Icons
     /// </summary>
     public enum Fal
     {
         /// <summary>
-        ///     Abacus
+        /// Abacus
         /// </summary>
         /// <remarks>
-        ///     abacus - Available in Solid, Regular, Light, Duotone
+        /// abacus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "abacus")]
         Abacus,
 
         /// <summary>
-        ///     Acorn
+        /// Acorn
         /// </summary>
         /// <remarks>
-        ///     acorn - Available in Solid, Regular, Light, Duotone
+        /// acorn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "acorn")]
         Acorn,
 
         /// <summary>
-        ///     Ad
+        /// Ad
         /// </summary>
         /// <remarks>
-        ///     ad - Available in Solid, Regular, Light, Duotone
+        /// ad - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "ad")] Ad,
+        [FontAwesome(IconStyle.Light, "ad")]
+        Ad,
 
         /// <summary>
-        ///     Address Book
+        /// Address Book
         /// </summary>
         /// <remarks>
-        ///     address-book - Available in Solid, Regular, Light, Duotone
+        /// address-book - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "address-book")]
         AddressBook,
 
         /// <summary>
-        ///     Address Card
+        /// Address Card
         /// </summary>
         /// <remarks>
-        ///     address-card - Available in Solid, Regular, Light, Duotone
+        /// address-card - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "address-card")]
         AddressCard,
 
         /// <summary>
-        ///     Adjust
+        /// Adjust
         /// </summary>
         /// <remarks>
-        ///     adjust - Available in Solid, Regular, Light, Duotone
+        /// adjust - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "adjust")]
         Adjust,
 
         /// <summary>
-        ///     Air Conditioner
+        /// Air Conditioner
         /// </summary>
         /// <remarks>
-        ///     air-conditioner - Available in Solid, Regular, Light, Duotone
+        /// air-conditioner - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "air-conditioner")]
         AirConditioner,
 
         /// <summary>
-        ///     Air Freshener
+        /// Air Freshener
         /// </summary>
         /// <remarks>
-        ///     air-freshener - Available in Solid, Regular, Light, Duotone
+        /// air-freshener - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "air-freshener")]
         AirFreshener,
 
         /// <summary>
-        ///     Alarm Clock
+        /// Alarm Clock
         /// </summary>
         /// <remarks>
-        ///     alarm-clock - Available in Solid, Regular, Light, Duotone
+        /// alarm-clock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "alarm-clock")]
         AlarmClock,
 
         /// <summary>
-        ///     Alarm Exclamation
+        /// Alarm Exclamation
         /// </summary>
         /// <remarks>
-        ///     alarm-exclamation - Available in Solid, Regular, Light, Duotone
+        /// alarm-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "alarm-exclamation")]
         AlarmExclamation,
 
         /// <summary>
-        ///     Alarm Plus
+        /// Alarm Plus
         /// </summary>
         /// <remarks>
-        ///     alarm-plus - Available in Solid, Regular, Light, Duotone
+        /// alarm-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "alarm-plus")]
         AlarmPlus,
 
         /// <summary>
-        ///     Alarm Snooze
+        /// Alarm Snooze
         /// </summary>
         /// <remarks>
-        ///     alarm-snooze - Available in Solid, Regular, Light, Duotone
+        /// alarm-snooze - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "alarm-snooze")]
         AlarmSnooze,
 
         /// <summary>
-        ///     Album
+        /// Album
         /// </summary>
         /// <remarks>
-        ///     album - Available in Solid, Regular, Light, Duotone
+        /// album - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "album")]
         Album,
 
         /// <summary>
-        ///     Album Collection
+        /// Album Collection
         /// </summary>
         /// <remarks>
-        ///     album-collection - Available in Solid, Regular, Light, Duotone
+        /// album-collection - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "album-collection")]
         AlbumCollection,
 
         /// <summary>
-        ///     Alicorn
+        /// Alicorn
         /// </summary>
         /// <remarks>
-        ///     alicorn - Available in Solid, Regular, Light, Duotone
+        /// alicorn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "alicorn")]
         Alicorn,
 
         /// <summary>
-        ///     Alien
+        /// Alien
         /// </summary>
         /// <remarks>
-        ///     alien - Available in Solid, Regular, Light, Duotone
+        /// alien - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "alien")]
         Alien,
 
         /// <summary>
-        ///     Alien Monster
+        /// Alien Monster
         /// </summary>
         /// <remarks>
-        ///     alien-monster - Available in Solid, Regular, Light, Duotone
+        /// alien-monster - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "alien-monster")]
         AlienMonster,
 
         /// <summary>
-        ///     Align Center
+        /// Align Center
         /// </summary>
         /// <remarks>
-        ///     align-center - Available in Solid, Regular, Light, Duotone
+        /// align-center - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "align-center")]
         AlignCenter,
 
         /// <summary>
-        ///     Align Justify
+        /// Align Justify
         /// </summary>
         /// <remarks>
-        ///     align-justify - Available in Solid, Regular, Light, Duotone
+        /// align-justify - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "align-justify")]
         AlignJustify,
 
         /// <summary>
-        ///     Align Left
+        /// Align Left
         /// </summary>
         /// <remarks>
-        ///     align-left - Available in Solid, Regular, Light, Duotone
+        /// align-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "align-left")]
         AlignLeft,
 
         /// <summary>
-        ///     Align Right
+        /// Align Right
         /// </summary>
         /// <remarks>
-        ///     align-right - Available in Solid, Regular, Light, Duotone
+        /// align-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "align-right")]
         AlignRight,
 
         /// <summary>
-        ///     Align Slash
+        /// Align Slash
         /// </summary>
         /// <remarks>
-        ///     align-slash - Available in Solid, Regular, Light, Duotone
+        /// align-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "align-slash")]
         AlignSlash,
 
         /// <summary>
-        ///     Allergies
+        /// Allergies
         /// </summary>
         /// <remarks>
-        ///     allergies - Available in Solid, Regular, Light, Duotone
+        /// allergies - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "allergies")]
         Allergies,
 
         /// <summary>
-        ///     Ambulance
+        /// Ambulance
         /// </summary>
         /// <remarks>
-        ///     ambulance - Available in Solid, Regular, Light, Duotone
+        /// ambulance - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ambulance")]
         Ambulance,
 
         /// <summary>
-        ///     American Sign Language Interpreting
+        /// American Sign Language Interpreting
         /// </summary>
         /// <remarks>
-        ///     american-sign-language-interpreting - Available in Solid, Regular, Light, Duotone
+        /// american-sign-language-interpreting - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "american-sign-language-interpreting")]
         AmericanSignLanguageInterpreting,
 
         /// <summary>
-        ///     Guitar Amplifier
+        /// Guitar Amplifier
         /// </summary>
         /// <remarks>
-        ///     amp-guitar - Available in Light, Regular, Solid, Duotone
+        /// amp-guitar - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "amp-guitar")]
         AmpGuitar,
 
         /// <summary>
-        ///     Analytics
+        /// Analytics
         /// </summary>
         /// <remarks>
-        ///     analytics - Available in Solid, Regular, Light, Duotone
+        /// analytics - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "analytics")]
         Analytics,
 
         /// <summary>
-        ///     Anchor
+        /// Anchor
         /// </summary>
         /// <remarks>
-        ///     anchor - Available in Solid, Regular, Light, Duotone
+        /// anchor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "anchor")]
         Anchor,
 
         /// <summary>
-        ///     Angel
+        /// Angel
         /// </summary>
         /// <remarks>
-        ///     angel - Available in Solid, Regular, Light, Duotone
+        /// angel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "angel")]
         Angel,
 
         /// <summary>
-        ///     Angle Double Down
+        /// Angle Double Down
         /// </summary>
         /// <remarks>
-        ///     angle-double-down - Available in Solid, Regular, Light, Duotone
+        /// angle-double-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "angle-double-down")]
         AngleDoubleDown,
 
         /// <summary>
-        ///     Angle Double Left
+        /// Angle Double Left
         /// </summary>
         /// <remarks>
-        ///     angle-double-left - Available in Solid, Regular, Light, Duotone
+        /// angle-double-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "angle-double-left")]
         AngleDoubleLeft,
 
         /// <summary>
-        ///     Angle Double Right
+        /// Angle Double Right
         /// </summary>
         /// <remarks>
-        ///     angle-double-right - Available in Solid, Regular, Light, Duotone
+        /// angle-double-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "angle-double-right")]
         AngleDoubleRight,
 
         /// <summary>
-        ///     Angle Double up
+        /// Angle Double up
         /// </summary>
         /// <remarks>
-        ///     angle-double-up - Available in Solid, Regular, Light, Duotone
+        /// angle-double-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "angle-double-up")]
         AngleDoubleUp,
 
         /// <summary>
-        ///     Angle Down
+        /// Angle Down
         /// </summary>
         /// <remarks>
-        ///     angle-down - Available in Solid, Regular, Light, Duotone
+        /// angle-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "angle-down")]
         AngleDown,
 
         /// <summary>
-        ///     Angle Left
+        /// Angle Left
         /// </summary>
         /// <remarks>
-        ///     angle-left - Available in Solid, Regular, Light, Duotone
+        /// angle-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "angle-left")]
         AngleLeft,
 
         /// <summary>
-        ///     Angle Right
+        /// Angle Right
         /// </summary>
         /// <remarks>
-        ///     angle-right - Available in Solid, Regular, Light, Duotone
+        /// angle-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "angle-right")]
         AngleRight,
 
         /// <summary>
-        ///     Angle up
+        /// Angle up
         /// </summary>
         /// <remarks>
-        ///     angle-up - Available in Solid, Regular, Light, Duotone
+        /// angle-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "angle-up")]
         AngleUp,
 
         /// <summary>
-        ///     Angry Face
+        /// Angry Face
         /// </summary>
         /// <remarks>
-        ///     angry - Available in Solid, Regular, Light, Duotone
+        /// angry - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "angry")]
         Angry,
 
         /// <summary>
-        ///     Ankh
+        /// Ankh
         /// </summary>
         /// <remarks>
-        ///     ankh - Available in Solid, Regular, Light, Duotone
+        /// ankh - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "ankh")] Ankh,
+        [FontAwesome(IconStyle.Light, "ankh")]
+        Ankh,
 
         /// <summary>
-        ///     Fruit Apple
+        /// Fruit Apple
         /// </summary>
         /// <remarks>
-        ///     apple-alt - Available in Solid, Regular, Light, Duotone
+        /// apple-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "apple-alt")]
         AppleAlt,
 
         /// <summary>
-        ///     Apple Crate
+        /// Apple Crate
         /// </summary>
         /// <remarks>
-        ///     apple-crate - Available in Solid, Regular, Light, Duotone
+        /// apple-crate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "apple-crate")]
         AppleCrate,
 
         /// <summary>
-        ///     Archive
+        /// Archive
         /// </summary>
         /// <remarks>
-        ///     archive - Available in Solid, Regular, Light, Duotone
+        /// archive - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "archive")]
         Archive,
 
         /// <summary>
-        ///     Archway
+        /// Archway
         /// </summary>
         /// <remarks>
-        ///     archway - Available in Solid, Regular, Light, Duotone
+        /// archway - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "archway")]
         Archway,
 
         /// <summary>
-        ///     Alternate Arrow Circle Down
+        /// Alternate Arrow Circle Down
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-circle-down - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-circle-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-circle-down")]
         ArrowAltCircleDown,
 
         /// <summary>
-        ///     Alternate Arrow Circle Left
+        /// Alternate Arrow Circle Left
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-circle-left - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-circle-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-circle-left")]
         ArrowAltCircleLeft,
 
         /// <summary>
-        ///     Alternate Arrow Circle Right
+        /// Alternate Arrow Circle Right
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-circle-right - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-circle-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-circle-right")]
         ArrowAltCircleRight,
 
         /// <summary>
-        ///     Alternate Arrow Circle up
+        /// Alternate Arrow Circle up
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-circle-up - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-circle-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-circle-up")]
         ArrowAltCircleUp,
 
         /// <summary>
-        ///     Alternate Arrow Down
+        /// Alternate Arrow Down
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-down - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-down")]
         ArrowAltDown,
 
         /// <summary>
-        ///     Alternate Arrow From Bottom
+        /// Alternate Arrow From Bottom
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-from-bottom - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-from-bottom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-from-bottom")]
         ArrowAltFromBottom,
 
         /// <summary>
-        ///     Alternate Arrow From Left
+        /// Alternate Arrow From Left
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-from-left - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-from-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-from-left")]
         ArrowAltFromLeft,
 
         /// <summary>
-        ///     Alternate Arrow From Right
+        /// Alternate Arrow From Right
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-from-right - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-from-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-from-right")]
         ArrowAltFromRight,
 
         /// <summary>
-        ///     Alternate Arrow From Top
+        /// Alternate Arrow From Top
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-from-top - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-from-top - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-from-top")]
         ArrowAltFromTop,
 
         /// <summary>
-        ///     Alternate Arrow Left
+        /// Alternate Arrow Left
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-left - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-left")]
         ArrowAltLeft,
 
         /// <summary>
-        ///     Alternate Arrow Right
+        /// Alternate Arrow Right
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-right - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-right")]
         ArrowAltRight,
 
         /// <summary>
-        ///     Alternate Arrow Square Down
+        /// Alternate Arrow Square Down
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-square-down - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-square-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-square-down")]
         ArrowAltSquareDown,
 
         /// <summary>
-        ///     Alternate Arrow Square Left
+        /// Alternate Arrow Square Left
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-square-left - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-square-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-square-left")]
         ArrowAltSquareLeft,
 
         /// <summary>
-        ///     Alternate Arrow Square Right
+        /// Alternate Arrow Square Right
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-square-right - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-square-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-square-right")]
         ArrowAltSquareRight,
 
         /// <summary>
-        ///     Alternate Arrow Square up
+        /// Alternate Arrow Square up
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-square-up - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-square-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-square-up")]
         ArrowAltSquareUp,
 
         /// <summary>
-        ///     Alternate Arrow to Bottom
+        /// Alternate Arrow to Bottom
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-to-bottom - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-to-bottom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-to-bottom")]
         ArrowAltToBottom,
 
         /// <summary>
-        ///     Alternate Arrow to Left
+        /// Alternate Arrow to Left
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-to-left - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-to-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-to-left")]
         ArrowAltToLeft,
 
         /// <summary>
-        ///     Alternate Arrow to Right
+        /// Alternate Arrow to Right
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-to-right - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-to-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-to-right")]
         ArrowAltToRight,
 
         /// <summary>
-        ///     Alternate Arrow to Top
+        /// Alternate Arrow to Top
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-to-top - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-to-top - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-to-top")]
         ArrowAltToTop,
 
         /// <summary>
-        ///     Alternate Arrow up
+        /// Alternate Arrow up
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-up - Available in Solid, Regular, Light, Duotone
+        /// arrow-alt-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-alt-up")]
         ArrowAltUp,
 
         /// <summary>
-        ///     Arrow Circle Down
+        /// Arrow Circle Down
         /// </summary>
         /// <remarks>
-        ///     arrow-circle-down - Available in Solid, Regular, Light, Duotone
+        /// arrow-circle-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-circle-down")]
         ArrowCircleDown,
 
         /// <summary>
-        ///     Arrow Circle Left
+        /// Arrow Circle Left
         /// </summary>
         /// <remarks>
-        ///     arrow-circle-left - Available in Solid, Regular, Light, Duotone
+        /// arrow-circle-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-circle-left")]
         ArrowCircleLeft,
 
         /// <summary>
-        ///     Arrow Circle Right
+        /// Arrow Circle Right
         /// </summary>
         /// <remarks>
-        ///     arrow-circle-right - Available in Solid, Regular, Light, Duotone
+        /// arrow-circle-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-circle-right")]
         ArrowCircleRight,
 
         /// <summary>
-        ///     Arrow Circle up
+        /// Arrow Circle up
         /// </summary>
         /// <remarks>
-        ///     arrow-circle-up - Available in Solid, Regular, Light, Duotone
+        /// arrow-circle-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-circle-up")]
         ArrowCircleUp,
 
         /// <summary>
-        ///     Arrow Down
+        /// Arrow Down
         /// </summary>
         /// <remarks>
-        ///     arrow-down - Available in Solid, Regular, Light, Duotone
+        /// arrow-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-down")]
         ArrowDown,
 
         /// <summary>
-        ///     Arrow From Bottom
+        /// Arrow From Bottom
         /// </summary>
         /// <remarks>
-        ///     arrow-from-bottom - Available in Solid, Regular, Light, Duotone
+        /// arrow-from-bottom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-from-bottom")]
         ArrowFromBottom,
 
         /// <summary>
-        ///     Arrow From Left
+        /// Arrow From Left
         /// </summary>
         /// <remarks>
-        ///     arrow-from-left - Available in Solid, Regular, Light, Duotone
+        /// arrow-from-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-from-left")]
         ArrowFromLeft,
 
         /// <summary>
-        ///     Arrow From Right
+        /// Arrow From Right
         /// </summary>
         /// <remarks>
-        ///     arrow-from-right - Available in Solid, Regular, Light, Duotone
+        /// arrow-from-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-from-right")]
         ArrowFromRight,
 
         /// <summary>
-        ///     Arrow From Top
+        /// Arrow From Top
         /// </summary>
         /// <remarks>
-        ///     arrow-from-top - Available in Solid, Regular, Light, Duotone
+        /// arrow-from-top - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-from-top")]
         ArrowFromTop,
 
         /// <summary>
-        ///     Arrow Left
+        /// Arrow Left
         /// </summary>
         /// <remarks>
-        ///     arrow-left - Available in Solid, Regular, Light, Duotone
+        /// arrow-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-left")]
         ArrowLeft,
 
         /// <summary>
-        ///     Arrow Right
+        /// Arrow Right
         /// </summary>
         /// <remarks>
-        ///     arrow-right - Available in Solid, Regular, Light, Duotone
+        /// arrow-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-right")]
         ArrowRight,
 
         /// <summary>
-        ///     Arrow Square Down
+        /// Arrow Square Down
         /// </summary>
         /// <remarks>
-        ///     arrow-square-down - Available in Solid, Regular, Light, Duotone
+        /// arrow-square-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-square-down")]
         ArrowSquareDown,
 
         /// <summary>
-        ///     Arrow Square Left
+        /// Arrow Square Left
         /// </summary>
         /// <remarks>
-        ///     arrow-square-left - Available in Solid, Regular, Light, Duotone
+        /// arrow-square-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-square-left")]
         ArrowSquareLeft,
 
         /// <summary>
-        ///     Arrow Square Right
+        /// Arrow Square Right
         /// </summary>
         /// <remarks>
-        ///     arrow-square-right - Available in Solid, Regular, Light, Duotone
+        /// arrow-square-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-square-right")]
         ArrowSquareRight,
 
         /// <summary>
-        ///     Arrow Square up
+        /// Arrow Square up
         /// </summary>
         /// <remarks>
-        ///     arrow-square-up - Available in Solid, Regular, Light, Duotone
+        /// arrow-square-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-square-up")]
         ArrowSquareUp,
 
         /// <summary>
-        ///     Arrow to Bottom
+        /// Arrow to Bottom
         /// </summary>
         /// <remarks>
-        ///     arrow-to-bottom - Available in Solid, Regular, Light, Duotone
+        /// arrow-to-bottom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-to-bottom")]
         ArrowToBottom,
 
         /// <summary>
-        ///     Arrow to Left
+        /// Arrow to Left
         /// </summary>
         /// <remarks>
-        ///     arrow-to-left - Available in Solid, Regular, Light, Duotone
+        /// arrow-to-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-to-left")]
         ArrowToLeft,
 
         /// <summary>
-        ///     Arrow to Right
+        /// Arrow to Right
         /// </summary>
         /// <remarks>
-        ///     arrow-to-right - Available in Solid, Regular, Light, Duotone
+        /// arrow-to-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-to-right")]
         ArrowToRight,
 
         /// <summary>
-        ///     Arrow to Top
+        /// Arrow to Top
         /// </summary>
         /// <remarks>
-        ///     arrow-to-top - Available in Solid, Regular, Light, Duotone
+        /// arrow-to-top - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-to-top")]
         ArrowToTop,
 
         /// <summary>
-        ///     Arrow up
+        /// Arrow up
         /// </summary>
         /// <remarks>
-        ///     arrow-up - Available in Solid, Regular, Light, Duotone
+        /// arrow-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrow-up")]
         ArrowUp,
 
         /// <summary>
-        ///     Arrows
+        /// Arrows
         /// </summary>
         /// <remarks>
-        ///     arrows - Available in Solid, Regular, Light, Duotone
+        /// arrows - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrows")]
         Arrows,
 
         /// <summary>
-        ///     Alternate Arrows
+        /// Alternate Arrows
         /// </summary>
         /// <remarks>
-        ///     arrows-alt - Available in Solid, Regular, Light, Duotone
+        /// arrows-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrows-alt")]
         ArrowsAlt,
 
         /// <summary>
-        ///     Alternate Arrows Horizontal
+        /// Alternate Arrows Horizontal
         /// </summary>
         /// <remarks>
-        ///     arrows-alt-h - Available in Solid, Regular, Light, Duotone
+        /// arrows-alt-h - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrows-alt-h")]
         ArrowsAltH,
 
         /// <summary>
-        ///     Alternate Arrows Vertical
+        /// Alternate Arrows Vertical
         /// </summary>
         /// <remarks>
-        ///     arrows-alt-v - Available in Solid, Regular, Light, Duotone
+        /// arrows-alt-v - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrows-alt-v")]
         ArrowsAltV,
 
         /// <summary>
-        ///     Arrows Horizontal
+        /// Arrows Horizontal
         /// </summary>
         /// <remarks>
-        ///     arrows-h - Available in Solid, Regular, Light, Duotone
+        /// arrows-h - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrows-h")]
         ArrowsH,
 
         /// <summary>
-        ///     Arrows Vertical
+        /// Arrows Vertical
         /// </summary>
         /// <remarks>
-        ///     arrows-v - Available in Solid, Regular, Light, Duotone
+        /// arrows-v - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "arrows-v")]
         ArrowsV,
 
         /// <summary>
-        ///     Assistive Listening Systems
+        /// Assistive Listening Systems
         /// </summary>
         /// <remarks>
-        ///     assistive-listening-systems - Available in Solid, Regular, Light, Duotone
+        /// assistive-listening-systems - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "assistive-listening-systems")]
         AssistiveListeningSystems,
 
         /// <summary>
-        ///     Asterisk
+        /// Asterisk
         /// </summary>
         /// <remarks>
-        ///     asterisk - Available in Solid, Regular, Light, Duotone
+        /// asterisk - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "asterisk")]
         Asterisk,
 
         /// <summary>
-        ///     At
+        /// At
         /// </summary>
         /// <remarks>
-        ///     at - Available in Solid, Regular, Light, Duotone
+        /// at - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "at")] At,
+        [FontAwesome(IconStyle.Light, "at")]
+        At,
 
         /// <summary>
-        ///     Atlas
+        /// Atlas
         /// </summary>
         /// <remarks>
-        ///     atlas - Available in Solid, Regular, Light, Duotone
+        /// atlas - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "atlas")]
         Atlas,
 
         /// <summary>
-        ///     Atom
+        /// Atom
         /// </summary>
         /// <remarks>
-        ///     atom - Available in Solid, Regular, Light, Duotone
+        /// atom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "atom")] Atom,
+        [FontAwesome(IconStyle.Light, "atom")]
+        Atom,
 
         /// <summary>
-        ///     Atom Alt
+        /// Atom Alt
         /// </summary>
         /// <remarks>
-        ///     atom-alt - Available in Solid, Regular, Light, Duotone
+        /// atom-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "atom-alt")]
         AtomAlt,
 
         /// <summary>
-        ///     Audio Description
+        /// Audio Description
         /// </summary>
         /// <remarks>
-        ///     audio-description - Available in Solid, Regular, Light, Duotone
+        /// audio-description - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "audio-description")]
         AudioDescription,
 
         /// <summary>
-        ///     Award
+        /// Award
         /// </summary>
         /// <remarks>
-        ///     award - Available in Solid, Regular, Light, Duotone
+        /// award - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "award")]
         Award,
 
         /// <summary>
-        ///     Axe
+        /// Axe
         /// </summary>
         /// <remarks>
-        ///     axe - Available in Solid, Regular, Light, Duotone
+        /// axe - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "axe")] Axe,
+        [FontAwesome(IconStyle.Light, "axe")]
+        Axe,
 
         /// <summary>
-        ///     Axe Battle
+        /// Axe Battle
         /// </summary>
         /// <remarks>
-        ///     axe-battle - Available in Solid, Regular, Light, Duotone
+        /// axe-battle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "axe-battle")]
         AxeBattle,
 
         /// <summary>
-        ///     Baby
+        /// Baby
         /// </summary>
         /// <remarks>
-        ///     baby - Available in Solid, Regular, Light, Duotone
+        /// baby - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "baby")] Baby,
+        [FontAwesome(IconStyle.Light, "baby")]
+        Baby,
 
         /// <summary>
-        ///     Baby Carriage
+        /// Baby Carriage
         /// </summary>
         /// <remarks>
-        ///     baby-carriage - Available in Solid, Regular, Light, Duotone
+        /// baby-carriage - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "baby-carriage")]
         BabyCarriage,
 
         /// <summary>
-        ///     Backpack
+        /// Backpack
         /// </summary>
         /// <remarks>
-        ///     backpack - Available in Solid, Regular, Light, Duotone
+        /// backpack - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "backpack")]
         Backpack,
 
         /// <summary>
-        ///     Backspace
+        /// Backspace
         /// </summary>
         /// <remarks>
-        ///     backspace - Available in Solid, Regular, Light, Duotone
+        /// backspace - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "backspace")]
         Backspace,
 
         /// <summary>
-        ///     Backward
+        /// Backward
         /// </summary>
         /// <remarks>
-        ///     backward - Available in Solid, Regular, Light, Duotone
+        /// backward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "backward")]
         Backward,
 
         /// <summary>
-        ///     Bacon
+        /// Bacon
         /// </summary>
         /// <remarks>
-        ///     bacon - Available in Solid, Regular, Light, Duotone
+        /// bacon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bacon")]
         Bacon,
 
         /// <summary>
-        ///     Bacteria
+        /// Bacteria
         /// </summary>
         /// <remarks>
-        ///     bacteria - Available in Light, Regular, Solid, Duotone
+        /// bacteria - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bacteria")]
         Bacteria,
 
         /// <summary>
-        ///     Bacterium
+        /// Bacterium
         /// </summary>
         /// <remarks>
-        ///     bacterium - Available in Light, Regular, Solid, Duotone
+        /// bacterium - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bacterium")]
         Bacterium,
 
         /// <summary>
-        ///     Badge
+        /// Badge
         /// </summary>
         /// <remarks>
-        ///     badge - Available in Solid, Regular, Light, Duotone
+        /// badge - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "badge")]
         Badge,
 
         /// <summary>
-        ///     Check Badge
+        /// Check Badge
         /// </summary>
         /// <remarks>
-        ///     badge-check - Available in Solid, Regular, Light, Duotone
+        /// badge-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "badge-check")]
         BadgeCheck,
 
         /// <summary>
-        ///     Badge Dollar
+        /// Badge Dollar
         /// </summary>
         /// <remarks>
-        ///     badge-dollar - Available in Solid, Regular, Light, Duotone
+        /// badge-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "badge-dollar")]
         BadgeDollar,
 
         /// <summary>
-        ///     Badge Percent
+        /// Badge Percent
         /// </summary>
         /// <remarks>
-        ///     badge-percent - Available in Solid, Regular, Light, Duotone
+        /// badge-percent - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "badge-percent")]
         BadgePercent,
 
         /// <summary>
-        ///     Sheriff Badge
+        /// Sheriff Badge
         /// </summary>
         /// <remarks>
-        ///     badge-sheriff - Available in Light, Regular, Solid, Duotone
+        /// badge-sheriff - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "badge-sheriff")]
         BadgeSheriff,
 
         /// <summary>
-        ///     Honey Badger
+        /// Honey Badger
         /// </summary>
         /// <remarks>
-        ///     badger-honey - Available in Solid, Regular, Light, Duotone
+        /// badger-honey - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "badger-honey")]
         BadgerHoney,
 
         /// <summary>
-        ///     Shopping Bags
+        /// Shopping Bags
         /// </summary>
         /// <remarks>
-        ///     bags-shopping - Available in Solid, Regular, Light, Duotone
+        /// bags-shopping - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bags-shopping")]
         BagsShopping,
 
         /// <summary>
-        ///     Bahá Í
+        /// Bahá Í
         /// </summary>
         /// <remarks>
-        ///     bahai - Available in Solid, Regular, Light, Duotone
+        /// bahai - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bahai")]
         Bahai,
 
         /// <summary>
-        ///     Balance Scale
+        /// Balance Scale
         /// </summary>
         /// <remarks>
-        ///     balance-scale - Available in Solid, Regular, Light, Duotone
+        /// balance-scale - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "balance-scale")]
         BalanceScale,
 
         /// <summary>
-        ///     Balance Scale (Left Weighted)
+        /// Balance Scale (Left Weighted)
         /// </summary>
         /// <remarks>
-        ///     balance-scale-left - Available in Solid, Regular, Light, Duotone
+        /// balance-scale-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "balance-scale-left")]
         BalanceScaleLeft,
 
         /// <summary>
-        ///     Balance Scale (Right Weighted)
+        /// Balance Scale (Right Weighted)
         /// </summary>
         /// <remarks>
-        ///     balance-scale-right - Available in Solid, Regular, Light, Duotone
+        /// balance-scale-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "balance-scale-right")]
         BalanceScaleRight,
 
         /// <summary>
-        ///     Ball Pile
+        /// Ball Pile
         /// </summary>
         /// <remarks>
-        ///     ball-pile - Available in Solid, Regular, Light, Duotone
+        /// ball-pile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ball-pile")]
         BallPile,
 
         /// <summary>
-        ///     Ballot
+        /// Ballot
         /// </summary>
         /// <remarks>
-        ///     ballot - Available in Solid, Regular, Light, Duotone
+        /// ballot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ballot")]
         Ballot,
 
         /// <summary>
-        ///     Ballot Check
+        /// Ballot Check
         /// </summary>
         /// <remarks>
-        ///     ballot-check - Available in Solid, Regular, Light, Duotone
+        /// ballot-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ballot-check")]
         BallotCheck,
 
         /// <summary>
-        ///     Ban
+        /// Ban
         /// </summary>
         /// <remarks>
-        ///     ban - Available in Solid, Regular, Light, Duotone
+        /// ban - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "ban")] Ban,
+        [FontAwesome(IconStyle.Light, "ban")]
+        Ban,
 
         /// <summary>
-        ///     Band Aid
+        /// Band Aid
         /// </summary>
         /// <remarks>
-        ///     band-aid - Available in Solid, Regular, Light, Duotone
+        /// band-aid - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "band-aid")]
         BandAid,
 
         /// <summary>
-        ///     Banjo
+        /// Banjo
         /// </summary>
         /// <remarks>
-        ///     banjo - Available in Solid, Regular, Light, Duotone
+        /// banjo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "banjo")]
         Banjo,
 
         /// <summary>
-        ///     Barcode
+        /// Barcode
         /// </summary>
         /// <remarks>
-        ///     barcode - Available in Solid, Regular, Light, Duotone
+        /// barcode - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "barcode")]
         Barcode,
 
         /// <summary>
-        ///     Alternate Barcode
+        /// Alternate Barcode
         /// </summary>
         /// <remarks>
-        ///     barcode-alt - Available in Solid, Regular, Light, Duotone
+        /// barcode-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "barcode-alt")]
         BarcodeAlt,
 
         /// <summary>
-        ///     Barcode Read
+        /// Barcode Read
         /// </summary>
         /// <remarks>
-        ///     barcode-read - Available in Solid, Regular, Light, Duotone
+        /// barcode-read - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "barcode-read")]
         BarcodeRead,
 
         /// <summary>
-        ///     Barcode Scan
+        /// Barcode Scan
         /// </summary>
         /// <remarks>
-        ///     barcode-scan - Available in Solid, Regular, Light, Duotone
+        /// barcode-scan - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "barcode-scan")]
         BarcodeScan,
 
         /// <summary>
-        ///     Bars
+        /// Bars
         /// </summary>
         /// <remarks>
-        ///     bars - Available in Solid, Regular, Light, Duotone
+        /// bars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "bars")] Bars,
+        [FontAwesome(IconStyle.Light, "bars")]
+        Bars,
 
         /// <summary>
-        ///     Baseball
+        /// Baseball
         /// </summary>
         /// <remarks>
-        ///     baseball - Available in Solid, Regular, Light, Duotone
+        /// baseball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "baseball")]
         Baseball,
 
         /// <summary>
-        ///     Baseball Ball
+        /// Baseball Ball
         /// </summary>
         /// <remarks>
-        ///     baseball-ball - Available in Solid, Regular, Light, Duotone
+        /// baseball-ball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "baseball-ball")]
         BaseballBall,
 
         /// <summary>
-        ///     Basketball Ball
+        /// Basketball Ball
         /// </summary>
         /// <remarks>
-        ///     basketball-ball - Available in Solid, Regular, Light, Duotone
+        /// basketball-ball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "basketball-ball")]
         BasketballBall,
 
         /// <summary>
-        ///     Basketball Hoop
+        /// Basketball Hoop
         /// </summary>
         /// <remarks>
-        ///     basketball-hoop - Available in Solid, Regular, Light, Duotone
+        /// basketball-hoop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "basketball-hoop")]
         BasketballHoop,
 
         /// <summary>
-        ///     Bat
+        /// Bat
         /// </summary>
         /// <remarks>
-        ///     bat - Available in Solid, Regular, Light, Duotone
+        /// bat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "bat")] Bat,
+        [FontAwesome(IconStyle.Light, "bat")]
+        Bat,
 
         /// <summary>
-        ///     Bath
+        /// Bath
         /// </summary>
         /// <remarks>
-        ///     bath - Available in Solid, Regular, Light, Duotone
+        /// bath - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "bath")] Bath,
+        [FontAwesome(IconStyle.Light, "bath")]
+        Bath,
 
         /// <summary>
-        ///     Battery Bolt
+        /// Battery Bolt
         /// </summary>
         /// <remarks>
-        ///     battery-bolt - Available in Solid, Regular, Light, Duotone
+        /// battery-bolt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "battery-bolt")]
         BatteryBolt,
 
         /// <summary>
-        ///     Battery Empty
+        /// Battery Empty
         /// </summary>
         /// <remarks>
-        ///     battery-empty - Available in Solid, Regular, Light, Duotone
+        /// battery-empty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "battery-empty")]
         BatteryEmpty,
 
         /// <summary>
-        ///     Battery Full
+        /// Battery Full
         /// </summary>
         /// <remarks>
-        ///     battery-full - Available in Solid, Regular, Light, Duotone
+        /// battery-full - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "battery-full")]
         BatteryFull,
 
         /// <summary>
-        ///     Battery 1 2 Full
+        /// Battery 1 2 Full
         /// </summary>
         /// <remarks>
-        ///     battery-half - Available in Solid, Regular, Light, Duotone
+        /// battery-half - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "battery-half")]
         BatteryHalf,
 
         /// <summary>
-        ///     Battery 1 4 Full
+        /// Battery 1 4 Full
         /// </summary>
         /// <remarks>
-        ///     battery-quarter - Available in Solid, Regular, Light, Duotone
+        /// battery-quarter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "battery-quarter")]
         BatteryQuarter,
 
         /// <summary>
-        ///     Battery Slash
+        /// Battery Slash
         /// </summary>
         /// <remarks>
-        ///     battery-slash - Available in Solid, Regular, Light, Duotone
+        /// battery-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "battery-slash")]
         BatterySlash,
 
         /// <summary>
-        ///     Battery 3 4 Full
+        /// Battery 3 4 Full
         /// </summary>
         /// <remarks>
-        ///     battery-three-quarters - Available in Solid, Regular, Light, Duotone
+        /// battery-three-quarters - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "battery-three-quarters")]
         BatteryThreeQuarters,
 
         /// <summary>
-        ///     Bed
+        /// Bed
         /// </summary>
         /// <remarks>
-        ///     bed - Available in Solid, Regular, Light, Duotone
+        /// bed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "bed")] Bed,
+        [FontAwesome(IconStyle.Light, "bed")]
+        Bed,
 
         /// <summary>
-        ///     Alternate Bed
+        /// Alternate Bed
         /// </summary>
         /// <remarks>
-        ///     bed-alt - Available in Solid, Regular, Light, Duotone
+        /// bed-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bed-alt")]
         BedAlt,
 
         /// <summary>
-        ///     Bunkbed
+        /// Bunkbed
         /// </summary>
         /// <remarks>
-        ///     bed-bunk - Available in Solid, Regular, Light, Duotone
+        /// bed-bunk - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bed-bunk")]
         BedBunk,
 
         /// <summary>
-        ///     Bed Empty
+        /// Bed Empty
         /// </summary>
         /// <remarks>
-        ///     bed-empty - Available in Solid, Regular, Light, Duotone
+        /// bed-empty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bed-empty")]
         BedEmpty,
 
         /// <summary>
-        ///     Beer
+        /// Beer
         /// </summary>
         /// <remarks>
-        ///     beer - Available in Solid, Regular, Light, Duotone
+        /// beer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "beer")] Beer,
+        [FontAwesome(IconStyle.Light, "beer")]
+        Beer,
 
         /// <summary>
-        ///     Bell
+        /// Bell
         /// </summary>
         /// <remarks>
-        ///     bell - Available in Solid, Regular, Light, Duotone
+        /// bell - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "bell")] Bell,
+        [FontAwesome(IconStyle.Light, "bell")]
+        Bell,
 
         /// <summary>
-        ///     Bell Exclamation
+        /// Bell Exclamation
         /// </summary>
         /// <remarks>
-        ///     bell-exclamation - Available in Solid, Regular, Light, Duotone
+        /// bell-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bell-exclamation")]
         BellExclamation,
 
         /// <summary>
-        ///     Bell on
+        /// Bell on
         /// </summary>
         /// <remarks>
-        ///     bell-on - Available in Solid, Regular, Light, Duotone
+        /// bell-on - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bell-on")]
         BellOn,
 
         /// <summary>
-        ///     Bell Plus
+        /// Bell Plus
         /// </summary>
         /// <remarks>
-        ///     bell-plus - Available in Solid, Regular, Light, Duotone
+        /// bell-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bell-plus")]
         BellPlus,
 
         /// <summary>
-        ///     Bell School
+        /// Bell School
         /// </summary>
         /// <remarks>
-        ///     bell-school - Available in Solid, Regular, Light, Duotone
+        /// bell-school - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bell-school")]
         BellSchool,
 
         /// <summary>
-        ///     Bell School Slash
+        /// Bell School Slash
         /// </summary>
         /// <remarks>
-        ///     bell-school-slash - Available in Solid, Regular, Light, Duotone
+        /// bell-school-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bell-school-slash")]
         BellSchoolSlash,
 
         /// <summary>
-        ///     Bell Slash
+        /// Bell Slash
         /// </summary>
         /// <remarks>
-        ///     bell-slash - Available in Solid, Regular, Light, Duotone
+        /// bell-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bell-slash")]
         BellSlash,
 
         /// <summary>
-        ///     Bells
+        /// Bells
         /// </summary>
         /// <remarks>
-        ///     bells - Available in Solid, Regular, Light, Duotone
+        /// bells - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bells")]
         Bells,
 
         /// <summary>
-        ///     Betamax
+        /// Betamax
         /// </summary>
         /// <remarks>
-        ///     betamax - Available in Solid, Regular, Light, Duotone
+        /// betamax - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "betamax")]
         Betamax,
 
         /// <summary>
-        ///     Bezier Curve
+        /// Bezier Curve
         /// </summary>
         /// <remarks>
-        ///     bezier-curve - Available in Solid, Regular, Light, Duotone
+        /// bezier-curve - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bezier-curve")]
         BezierCurve,
 
         /// <summary>
-        ///     Bible
+        /// Bible
         /// </summary>
         /// <remarks>
-        ///     bible - Available in Solid, Regular, Light, Duotone
+        /// bible - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bible")]
         Bible,
 
         /// <summary>
-        ///     Bicycle
+        /// Bicycle
         /// </summary>
         /// <remarks>
-        ///     bicycle - Available in Solid, Regular, Light, Duotone
+        /// bicycle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bicycle")]
         Bicycle,
 
         /// <summary>
-        ///     Biking
+        /// Biking
         /// </summary>
         /// <remarks>
-        ///     biking - Available in Solid, Regular, Light, Duotone
+        /// biking - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "biking")]
         Biking,
 
         /// <summary>
-        ///     Biking Mountain
+        /// Biking Mountain
         /// </summary>
         /// <remarks>
-        ///     biking-mountain - Available in Solid, Regular, Light, Duotone
+        /// biking-mountain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "biking-mountain")]
         BikingMountain,
 
         /// <summary>
-        ///     Binoculars
+        /// Binoculars
         /// </summary>
         /// <remarks>
-        ///     binoculars - Available in Solid, Regular, Light, Duotone
+        /// binoculars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "binoculars")]
         Binoculars,
 
         /// <summary>
-        ///     Biohazard
+        /// Biohazard
         /// </summary>
         /// <remarks>
-        ///     biohazard - Available in Solid, Regular, Light, Duotone
+        /// biohazard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "biohazard")]
         Biohazard,
 
         /// <summary>
-        ///     Birthday Cake
+        /// Birthday Cake
         /// </summary>
         /// <remarks>
-        ///     birthday-cake - Available in Solid, Regular, Light, Duotone
+        /// birthday-cake - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "birthday-cake")]
         BirthdayCake,
 
         /// <summary>
-        ///     Blanket
+        /// Blanket
         /// </summary>
         /// <remarks>
-        ///     blanket - Available in Solid, Regular, Light, Duotone
+        /// blanket - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "blanket")]
         Blanket,
 
         /// <summary>
-        ///     Blender
+        /// Blender
         /// </summary>
         /// <remarks>
-        ///     blender - Available in Solid, Regular, Light, Duotone
+        /// blender - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "blender")]
         Blender,
 
         /// <summary>
-        ///     Blender Phone
+        /// Blender Phone
         /// </summary>
         /// <remarks>
-        ///     blender-phone - Available in Solid, Regular, Light, Duotone
+        /// blender-phone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "blender-phone")]
         BlenderPhone,
 
         /// <summary>
-        ///     Blind
+        /// Blind
         /// </summary>
         /// <remarks>
-        ///     blind - Available in Solid, Regular, Light, Duotone
+        /// blind - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "blind")]
         Blind,
 
         /// <summary>
-        ///     Blinds
+        /// Blinds
         /// </summary>
         /// <remarks>
-        ///     blinds - Available in Solid, Regular, Light, Duotone
+        /// blinds - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "blinds")]
         Blinds,
 
         /// <summary>
-        ///     Blinds Open
+        /// Blinds Open
         /// </summary>
         /// <remarks>
-        ///     blinds-open - Available in Solid, Regular, Light, Duotone
+        /// blinds-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "blinds-open")]
         BlindsOpen,
 
         /// <summary>
-        ///     Blinds Raised
+        /// Blinds Raised
         /// </summary>
         /// <remarks>
-        ///     blinds-raised - Available in Solid, Regular, Light, Duotone
+        /// blinds-raised - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "blinds-raised")]
         BlindsRaised,
 
         /// <summary>
-        ///     Blog
+        /// Blog
         /// </summary>
         /// <remarks>
-        ///     blog - Available in Solid, Regular, Light, Duotone
+        /// blog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "blog")] Blog,
+        [FontAwesome(IconStyle.Light, "blog")]
+        Blog,
 
         /// <summary>
-        ///     Bold
+        /// Bold
         /// </summary>
         /// <remarks>
-        ///     bold - Available in Solid, Regular, Light, Duotone
+        /// bold - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "bold")] Bold,
+        [FontAwesome(IconStyle.Light, "bold")]
+        Bold,
 
         /// <summary>
-        ///     Lightning Bolt
+        /// Lightning Bolt
         /// </summary>
         /// <remarks>
-        ///     bolt - Available in Solid, Regular, Light, Duotone
+        /// bolt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "bolt")] Bolt,
+        [FontAwesome(IconStyle.Light, "bolt")]
+        Bolt,
 
         /// <summary>
-        ///     Bomb
+        /// Bomb
         /// </summary>
         /// <remarks>
-        ///     bomb - Available in Solid, Regular, Light, Duotone
+        /// bomb - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "bomb")] Bomb,
+        [FontAwesome(IconStyle.Light, "bomb")]
+        Bomb,
 
         /// <summary>
-        ///     Bone
+        /// Bone
         /// </summary>
         /// <remarks>
-        ///     bone - Available in Solid, Regular, Light, Duotone
+        /// bone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "bone")] Bone,
+        [FontAwesome(IconStyle.Light, "bone")]
+        Bone,
 
         /// <summary>
-        ///     Bone Break
+        /// Bone Break
         /// </summary>
         /// <remarks>
-        ///     bone-break - Available in Solid, Regular, Light, Duotone
+        /// bone-break - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bone-break")]
         BoneBreak,
 
         /// <summary>
-        ///     Bong
+        /// Bong
         /// </summary>
         /// <remarks>
-        ///     bong - Available in Solid, Regular, Light, Duotone
+        /// bong - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "bong")] Bong,
+        [FontAwesome(IconStyle.Light, "bong")]
+        Bong,
 
         /// <summary>
-        ///     Book
+        /// Book
         /// </summary>
         /// <remarks>
-        ///     book - Available in Solid, Regular, Light, Duotone
+        /// book - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "book")] Book,
+        [FontAwesome(IconStyle.Light, "book")]
+        Book,
 
         /// <summary>
-        ///     Alternate Book
+        /// Alternate Book
         /// </summary>
         /// <remarks>
-        ///     book-alt - Available in Solid, Regular, Light, Duotone
+        /// book-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "book-alt")]
         BookAlt,
 
         /// <summary>
-        ///     Book of the Dead
+        /// Book of the Dead
         /// </summary>
         /// <remarks>
-        ///     book-dead - Available in Solid, Regular, Light, Duotone
+        /// book-dead - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "book-dead")]
         BookDead,
 
         /// <summary>
-        ///     Book With Heart
+        /// Book With Heart
         /// </summary>
         /// <remarks>
-        ///     book-heart - Available in Solid, Regular, Light, Duotone
+        /// book-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "book-heart")]
         BookHeart,
 
         /// <summary>
-        ///     Medical Book
+        /// Medical Book
         /// </summary>
         /// <remarks>
-        ///     book-medical - Available in Solid, Regular, Light, Duotone
+        /// book-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "book-medical")]
         BookMedical,
 
         /// <summary>
-        ///     Book Open
+        /// Book Open
         /// </summary>
         /// <remarks>
-        ///     book-open - Available in Solid, Regular, Light, Duotone
+        /// book-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "book-open")]
         BookOpen,
 
         /// <summary>
-        ///     Book Reader
+        /// Book Reader
         /// </summary>
         /// <remarks>
-        ///     book-reader - Available in Solid, Regular, Light, Duotone
+        /// book-reader - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "book-reader")]
         BookReader,
 
         /// <summary>
-        ///     Book of Spells
+        /// Book of Spells
         /// </summary>
         /// <remarks>
-        ///     book-spells - Available in Solid, Regular, Light, Duotone
+        /// book-spells - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "book-spells")]
         BookSpells,
 
         /// <summary>
-        ///     Book With User
+        /// Book With User
         /// </summary>
         /// <remarks>
-        ///     book-user - Available in Solid, Regular, Light, Duotone
+        /// book-user - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "book-user")]
         BookUser,
 
         /// <summary>
-        ///     Bookmark
+        /// Bookmark
         /// </summary>
         /// <remarks>
-        ///     bookmark - Available in Solid, Regular, Light, Duotone
+        /// bookmark - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bookmark")]
         Bookmark,
 
         /// <summary>
-        ///     Books
+        /// Books
         /// </summary>
         /// <remarks>
-        ///     books - Available in Solid, Regular, Light, Duotone
+        /// books - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "books")]
         Books,
 
         /// <summary>
-        ///     Medical Books
+        /// Medical Books
         /// </summary>
         /// <remarks>
-        ///     books-medical - Available in Solid, Regular, Light, Duotone
+        /// books-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "books-medical")]
         BooksMedical,
 
         /// <summary>
-        ///     Boombox
+        /// Boombox
         /// </summary>
         /// <remarks>
-        ///     boombox - Available in Solid, Regular, Light, Duotone
+        /// boombox - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "boombox")]
         Boombox,
 
         /// <summary>
-        ///     Boot
+        /// Boot
         /// </summary>
         /// <remarks>
-        ///     boot - Available in Solid, Regular, Light, Duotone
+        /// boot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "boot")] Boot,
+        [FontAwesome(IconStyle.Light, "boot")]
+        Boot,
 
         /// <summary>
-        ///     Booth With Curtain
+        /// Booth With Curtain
         /// </summary>
         /// <remarks>
-        ///     booth-curtain - Available in Solid, Regular, Light, Duotone
+        /// booth-curtain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "booth-curtain")]
         BoothCurtain,
 
         /// <summary>
-        ///     Border All
+        /// Border All
         /// </summary>
         /// <remarks>
-        ///     border-all - Available in Solid, Regular, Light, Duotone
+        /// border-all - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "border-all")]
         BorderAll,
 
         /// <summary>
-        ///     Border Bottom
+        /// Border Bottom
         /// </summary>
         /// <remarks>
-        ///     border-bottom - Available in Solid, Regular, Light, Duotone
+        /// border-bottom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "border-bottom")]
         BorderBottom,
 
         /// <summary>
-        ///     Border Center Horizontal
+        /// Border Center Horizontal
         /// </summary>
         /// <remarks>
-        ///     border-center-h - Available in Solid, Regular, Light, Duotone
+        /// border-center-h - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "border-center-h")]
         BorderCenterH,
 
         /// <summary>
-        ///     Border Center Vertical
+        /// Border Center Vertical
         /// </summary>
         /// <remarks>
-        ///     border-center-v - Available in Solid, Regular, Light, Duotone
+        /// border-center-v - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "border-center-v")]
         BorderCenterV,
 
         /// <summary>
-        ///     Border Inner
+        /// Border Inner
         /// </summary>
         /// <remarks>
-        ///     border-inner - Available in Solid, Regular, Light, Duotone
+        /// border-inner - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "border-inner")]
         BorderInner,
 
         /// <summary>
-        ///     Border Left
+        /// Border Left
         /// </summary>
         /// <remarks>
-        ///     border-left - Available in Solid, Regular, Light, Duotone
+        /// border-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "border-left")]
         BorderLeft,
 
         /// <summary>
-        ///     Border None
+        /// Border None
         /// </summary>
         /// <remarks>
-        ///     border-none - Available in Solid, Regular, Light, Duotone
+        /// border-none - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "border-none")]
         BorderNone,
 
         /// <summary>
-        ///     Border Outer
+        /// Border Outer
         /// </summary>
         /// <remarks>
-        ///     border-outer - Available in Solid, Regular, Light, Duotone
+        /// border-outer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "border-outer")]
         BorderOuter,
 
         /// <summary>
-        ///     Border Right
+        /// Border Right
         /// </summary>
         /// <remarks>
-        ///     border-right - Available in Solid, Regular, Light, Duotone
+        /// border-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "border-right")]
         BorderRight,
 
         /// <summary>
-        ///     Border Style
+        /// Border Style
         /// </summary>
         /// <remarks>
-        ///     border-style - Available in Solid, Regular, Light, Duotone
+        /// border-style - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "border-style")]
         BorderStyle,
 
         /// <summary>
-        ///     Border Style Alt
+        /// Border Style Alt
         /// </summary>
         /// <remarks>
-        ///     border-style-alt - Available in Solid, Regular, Light, Duotone
+        /// border-style-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "border-style-alt")]
         BorderStyleAlt,
 
         /// <summary>
-        ///     Border Top
+        /// Border Top
         /// </summary>
         /// <remarks>
-        ///     border-top - Available in Solid, Regular, Light, Duotone
+        /// border-top - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "border-top")]
         BorderTop,
 
         /// <summary>
-        ///     Bow Arrow
+        /// Bow Arrow
         /// </summary>
         /// <remarks>
-        ///     bow-arrow - Available in Solid, Regular, Light, Duotone
+        /// bow-arrow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bow-arrow")]
         BowArrow,
 
         /// <summary>
-        ///     Bowling Ball
+        /// Bowling Ball
         /// </summary>
         /// <remarks>
-        ///     bowling-ball - Available in Solid, Regular, Light, Duotone
+        /// bowling-ball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bowling-ball")]
         BowlingBall,
 
         /// <summary>
-        ///     Bowling Pins
+        /// Bowling Pins
         /// </summary>
         /// <remarks>
-        ///     bowling-pins - Available in Solid, Regular, Light, Duotone
+        /// bowling-pins - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bowling-pins")]
         BowlingPins,
 
         /// <summary>
-        ///     Box
+        /// Box
         /// </summary>
         /// <remarks>
-        ///     box - Available in Solid, Regular, Light, Duotone
+        /// box - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "box")] Box,
+        [FontAwesome(IconStyle.Light, "box")]
+        Box,
 
         /// <summary>
-        ///     Alternate Box
+        /// Alternate Box
         /// </summary>
         /// <remarks>
-        ///     box-alt - Available in Solid, Regular, Light, Duotone
+        /// box-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "box-alt")]
         BoxAlt,
 
         /// <summary>
-        ///     Box Ballot
+        /// Box Ballot
         /// </summary>
         /// <remarks>
-        ///     box-ballot - Available in Solid, Regular, Light, Duotone
+        /// box-ballot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "box-ballot")]
         BoxBallot,
 
         /// <summary>
-        ///     Box Check
+        /// Box Check
         /// </summary>
         /// <remarks>
-        ///     box-check - Available in Solid, Regular, Light, Duotone
+        /// box-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "box-check")]
         BoxCheck,
 
         /// <summary>
-        ///     Box Fragile
+        /// Box Fragile
         /// </summary>
         /// <remarks>
-        ///     box-fragile - Available in Solid, Regular, Light, Duotone
+        /// box-fragile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "box-fragile")]
         BoxFragile,
 
         /// <summary>
-        ///     Box Full
+        /// Box Full
         /// </summary>
         /// <remarks>
-        ///     box-full - Available in Solid, Regular, Light, Duotone
+        /// box-full - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "box-full")]
         BoxFull,
 
         /// <summary>
-        ///     Box With Heart
+        /// Box With Heart
         /// </summary>
         /// <remarks>
-        ///     box-heart - Available in Solid, Regular, Light, Duotone
+        /// box-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "box-heart")]
         BoxHeart,
 
         /// <summary>
-        ///     Box Open
+        /// Box Open
         /// </summary>
         /// <remarks>
-        ///     box-open - Available in Solid, Regular, Light, Duotone
+        /// box-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "box-open")]
         BoxOpen,
 
         /// <summary>
-        ///     Tissue Box
+        /// Tissue Box
         /// </summary>
         /// <remarks>
-        ///     box-tissue - Available in Light, Regular, Solid, Duotone
+        /// box-tissue - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "box-tissue")]
         BoxTissue,
 
         /// <summary>
-        ///     Box up
+        /// Box up
         /// </summary>
         /// <remarks>
-        ///     box-up - Available in Solid, Regular, Light, Duotone
+        /// box-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "box-up")]
         BoxUp,
 
         /// <summary>
-        ///     Box With US Dollar
+        /// Box With US Dollar
         /// </summary>
         /// <remarks>
-        ///     box-usd - Available in Solid, Regular, Light, Duotone
+        /// box-usd - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "box-usd")]
         BoxUsd,
 
         /// <summary>
-        ///     Boxes
+        /// Boxes
         /// </summary>
         /// <remarks>
-        ///     boxes - Available in Solid, Regular, Light, Duotone
+        /// boxes - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "boxes")]
         Boxes,
 
         /// <summary>
-        ///     Alternate Boxes
+        /// Alternate Boxes
         /// </summary>
         /// <remarks>
-        ///     boxes-alt - Available in Solid, Regular, Light, Duotone
+        /// boxes-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "boxes-alt")]
         BoxesAlt,
 
         /// <summary>
-        ///     Boxing Glove
+        /// Boxing Glove
         /// </summary>
         /// <remarks>
-        ///     boxing-glove - Available in Solid, Regular, Light, Duotone
+        /// boxing-glove - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "boxing-glove")]
         BoxingGlove,
 
         /// <summary>
-        ///     Brackets
+        /// Brackets
         /// </summary>
         /// <remarks>
-        ///     brackets - Available in Solid, Regular, Light, Duotone
+        /// brackets - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "brackets")]
         Brackets,
 
         /// <summary>
-        ///     Curly Brackets
+        /// Curly Brackets
         /// </summary>
         /// <remarks>
-        ///     brackets-curly - Available in Solid, Regular, Light, Duotone
+        /// brackets-curly - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "brackets-curly")]
         BracketsCurly,
 
         /// <summary>
-        ///     Braille
+        /// Braille
         /// </summary>
         /// <remarks>
-        ///     braille - Available in Solid, Regular, Light, Duotone
+        /// braille - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "braille")]
         Braille,
 
         /// <summary>
-        ///     Brain
+        /// Brain
         /// </summary>
         /// <remarks>
-        ///     brain - Available in Solid, Regular, Light, Duotone
+        /// brain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "brain")]
         Brain,
 
         /// <summary>
-        ///     Loaf of Bread
+        /// Loaf of Bread
         /// </summary>
         /// <remarks>
-        ///     bread-loaf - Available in Solid, Regular, Light, Duotone
+        /// bread-loaf - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bread-loaf")]
         BreadLoaf,
 
         /// <summary>
-        ///     Bread Slice
+        /// Bread Slice
         /// </summary>
         /// <remarks>
-        ///     bread-slice - Available in Solid, Regular, Light, Duotone
+        /// bread-slice - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bread-slice")]
         BreadSlice,
 
         /// <summary>
-        ///     Briefcase
+        /// Briefcase
         /// </summary>
         /// <remarks>
-        ///     briefcase - Available in Solid, Regular, Light, Duotone
+        /// briefcase - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "briefcase")]
         Briefcase,
 
         /// <summary>
-        ///     Medical Briefcase
+        /// Medical Briefcase
         /// </summary>
         /// <remarks>
-        ///     briefcase-medical - Available in Solid, Regular, Light, Duotone
+        /// briefcase-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "briefcase-medical")]
         BriefcaseMedical,
 
         /// <summary>
-        ///     Bring Forward
+        /// Bring Forward
         /// </summary>
         /// <remarks>
-        ///     bring-forward - Available in Solid, Regular, Light, Duotone
+        /// bring-forward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bring-forward")]
         BringForward,
 
         /// <summary>
-        ///     Bring Front
+        /// Bring Front
         /// </summary>
         /// <remarks>
-        ///     bring-front - Available in Solid, Regular, Light, Duotone
+        /// bring-front - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bring-front")]
         BringFront,
 
         /// <summary>
-        ///     Broadcast Tower
+        /// Broadcast Tower
         /// </summary>
         /// <remarks>
-        ///     broadcast-tower - Available in Solid, Regular, Light, Duotone
+        /// broadcast-tower - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "broadcast-tower")]
         BroadcastTower,
 
         /// <summary>
-        ///     Broom
+        /// Broom
         /// </summary>
         /// <remarks>
-        ///     broom - Available in Solid, Regular, Light, Duotone
+        /// broom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "broom")]
         Broom,
 
         /// <summary>
-        ///     Browser
+        /// Browser
         /// </summary>
         /// <remarks>
-        ///     browser - Available in Solid, Regular, Light, Duotone
+        /// browser - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "browser")]
         Browser,
 
         /// <summary>
-        ///     Brush
+        /// Brush
         /// </summary>
         /// <remarks>
-        ///     brush - Available in Solid, Regular, Light, Duotone
+        /// brush - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "brush")]
         Brush,
 
         /// <summary>
-        ///     Bug
+        /// Bug
         /// </summary>
         /// <remarks>
-        ///     bug - Available in Solid, Regular, Light, Duotone
+        /// bug - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "bug")] Bug,
+        [FontAwesome(IconStyle.Light, "bug")]
+        Bug,
 
         /// <summary>
-        ///     Building
+        /// Building
         /// </summary>
         /// <remarks>
-        ///     building - Available in Solid, Regular, Light, Duotone
+        /// building - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "building")]
         Building,
 
         /// <summary>
-        ///     Bullhorn
+        /// Bullhorn
         /// </summary>
         /// <remarks>
-        ///     bullhorn - Available in Solid, Regular, Light, Duotone
+        /// bullhorn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bullhorn")]
         Bullhorn,
 
         /// <summary>
-        ///     Bullseye
+        /// Bullseye
         /// </summary>
         /// <remarks>
-        ///     bullseye - Available in Solid, Regular, Light, Duotone
+        /// bullseye - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bullseye")]
         Bullseye,
 
         /// <summary>
-        ///     Bullseye Arrow
+        /// Bullseye Arrow
         /// </summary>
         /// <remarks>
-        ///     bullseye-arrow - Available in Solid, Regular, Light, Duotone
+        /// bullseye-arrow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bullseye-arrow")]
         BullseyeArrow,
 
         /// <summary>
-        ///     Bullseye Pointer
+        /// Bullseye Pointer
         /// </summary>
         /// <remarks>
-        ///     bullseye-pointer - Available in Solid, Regular, Light, Duotone
+        /// bullseye-pointer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bullseye-pointer")]
         BullseyePointer,
 
         /// <summary>
-        ///     Burger and Soda
+        /// Burger and Soda
         /// </summary>
         /// <remarks>
-        ///     burger-soda - Available in Solid, Regular, Light, Duotone
+        /// burger-soda - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "burger-soda")]
         BurgerSoda,
 
         /// <summary>
-        ///     Burn
+        /// Burn
         /// </summary>
         /// <remarks>
-        ///     burn - Available in Solid, Regular, Light, Duotone
+        /// burn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "burn")] Burn,
+        [FontAwesome(IconStyle.Light, "burn")]
+        Burn,
 
         /// <summary>
-        ///     Burrito
+        /// Burrito
         /// </summary>
         /// <remarks>
-        ///     burrito - Available in Solid, Regular, Light, Duotone
+        /// burrito - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "burrito")]
         Burrito,
 
         /// <summary>
-        ///     Bus
+        /// Bus
         /// </summary>
         /// <remarks>
-        ///     bus - Available in Solid, Regular, Light, Duotone
+        /// bus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "bus")] Bus,
+        [FontAwesome(IconStyle.Light, "bus")]
+        Bus,
 
         /// <summary>
-        ///     Bus Alt
+        /// Bus Alt
         /// </summary>
         /// <remarks>
-        ///     bus-alt - Available in Solid, Regular, Light, Duotone
+        /// bus-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bus-alt")]
         BusAlt,
 
         /// <summary>
-        ///     Bus School
+        /// Bus School
         /// </summary>
         /// <remarks>
-        ///     bus-school - Available in Solid, Regular, Light, Duotone
+        /// bus-school - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "bus-school")]
         BusSchool,
 
         /// <summary>
-        ///     Business Time
+        /// Business Time
         /// </summary>
         /// <remarks>
-        ///     business-time - Available in Solid, Regular, Light, Duotone
+        /// business-time - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "business-time")]
         BusinessTime,
 
         /// <summary>
-        ///     Filing Cabinet
+        /// Filing Cabinet
         /// </summary>
         /// <remarks>
-        ///     cabinet-filing - Available in Solid, Regular, Light, Duotone
+        /// cabinet-filing - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cabinet-filing")]
         CabinetFiling,
 
         /// <summary>
-        ///     Cactus
+        /// Cactus
         /// </summary>
         /// <remarks>
-        ///     cactus - Available in Light, Regular, Solid, Duotone
+        /// cactus - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cactus")]
         Cactus,
 
         /// <summary>
-        ///     Calculator
+        /// Calculator
         /// </summary>
         /// <remarks>
-        ///     calculator - Available in Solid, Regular, Light, Duotone
+        /// calculator - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "calculator")]
         Calculator,
 
         /// <summary>
-        ///     Alternate Calculator
+        /// Alternate Calculator
         /// </summary>
         /// <remarks>
-        ///     calculator-alt - Available in Solid, Regular, Light, Duotone
+        /// calculator-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "calculator-alt")]
         CalculatorAlt,
 
         /// <summary>
-        ///     Calendar
+        /// Calendar
         /// </summary>
         /// <remarks>
-        ///     calendar - Available in Solid, Regular, Light, Duotone
+        /// calendar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "calendar")]
         Calendar,
 
         /// <summary>
-        ///     Alternate Calendar
+        /// Alternate Calendar
         /// </summary>
         /// <remarks>
-        ///     calendar-alt - Available in Solid, Regular, Light, Duotone
+        /// calendar-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "calendar-alt")]
         CalendarAlt,
 
         /// <summary>
-        ///     Calendar Check
+        /// Calendar Check
         /// </summary>
         /// <remarks>
-        ///     calendar-check - Available in Solid, Regular, Light, Duotone
+        /// calendar-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "calendar-check")]
         CalendarCheck,
 
         /// <summary>
-        ///     Calendar With Day Focus
+        /// Calendar With Day Focus
         /// </summary>
         /// <remarks>
-        ///     calendar-day - Available in Solid, Regular, Light, Duotone
+        /// calendar-day - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "calendar-day")]
         CalendarDay,
 
         /// <summary>
-        ///     Calendar Edit
+        /// Calendar Edit
         /// </summary>
         /// <remarks>
-        ///     calendar-edit - Available in Solid, Regular, Light, Duotone
+        /// calendar-edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "calendar-edit")]
         CalendarEdit,
 
         /// <summary>
-        ///     Calendar Exclamation
+        /// Calendar Exclamation
         /// </summary>
         /// <remarks>
-        ///     calendar-exclamation - Available in Solid, Regular, Light, Duotone
+        /// calendar-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "calendar-exclamation")]
         CalendarExclamation,
 
         /// <summary>
-        ///     Calendar Minus
+        /// Calendar Minus
         /// </summary>
         /// <remarks>
-        ///     calendar-minus - Available in Solid, Regular, Light, Duotone
+        /// calendar-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "calendar-minus")]
         CalendarMinus,
 
         /// <summary>
-        ///     Calendar Plus
+        /// Calendar Plus
         /// </summary>
         /// <remarks>
-        ///     calendar-plus - Available in Solid, Regular, Light, Duotone
+        /// calendar-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "calendar-plus")]
         CalendarPlus,
 
         /// <summary>
-        ///     Calendar Star
+        /// Calendar Star
         /// </summary>
         /// <remarks>
-        ///     calendar-star - Available in Solid, Regular, Light, Duotone
+        /// calendar-star - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "calendar-star")]
         CalendarStar,
 
         /// <summary>
-        ///     Calendar Times
+        /// Calendar Times
         /// </summary>
         /// <remarks>
-        ///     calendar-times - Available in Solid, Regular, Light, Duotone
+        /// calendar-times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "calendar-times")]
         CalendarTimes,
 
         /// <summary>
-        ///     Calendar With Week Focus
+        /// Calendar With Week Focus
         /// </summary>
         /// <remarks>
-        ///     calendar-week - Available in Solid, Regular, Light, Duotone
+        /// calendar-week - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "calendar-week")]
         CalendarWeek,
 
         /// <summary>
-        ///     Camcorder
+        /// Camcorder
         /// </summary>
         /// <remarks>
-        ///     camcorder - Available in Solid, Regular, Light, Duotone
+        /// camcorder - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "camcorder")]
         Camcorder,
 
         /// <summary>
-        ///     Camera
+        /// Camera
         /// </summary>
         /// <remarks>
-        ///     camera - Available in Solid, Regular, Light, Duotone
+        /// camera - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "camera")]
         Camera,
 
         /// <summary>
-        ///     Alternate Camera
+        /// Alternate Camera
         /// </summary>
         /// <remarks>
-        ///     camera-alt - Available in Solid, Regular, Light, Duotone
+        /// camera-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "camera-alt")]
         CameraAlt,
 
         /// <summary>
-        ///     Camera Home
+        /// Camera Home
         /// </summary>
         /// <remarks>
-        ///     camera-home - Available in Solid, Regular, Light, Duotone
+        /// camera-home - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "camera-home")]
         CameraHome,
 
         /// <summary>
-        ///     Movie Camera
+        /// Movie Camera
         /// </summary>
         /// <remarks>
-        ///     camera-movie - Available in Solid, Regular, Light, Duotone
+        /// camera-movie - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "camera-movie")]
         CameraMovie,
 
         /// <summary>
-        ///     Polaroid Camera
+        /// Polaroid Camera
         /// </summary>
         /// <remarks>
-        ///     camera-polaroid - Available in Solid, Regular, Light, Duotone
+        /// camera-polaroid - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "camera-polaroid")]
         CameraPolaroid,
 
         /// <summary>
-        ///     Retro Camera
+        /// Retro Camera
         /// </summary>
         /// <remarks>
-        ///     camera-retro - Available in Solid, Regular, Light, Duotone
+        /// camera-retro - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "camera-retro")]
         CameraRetro,
 
         /// <summary>
-        ///     Campfire
+        /// Campfire
         /// </summary>
         /// <remarks>
-        ///     campfire - Available in Solid, Regular, Light, Duotone
+        /// campfire - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "campfire")]
         Campfire,
 
         /// <summary>
-        ///     Campground
+        /// Campground
         /// </summary>
         /// <remarks>
-        ///     campground - Available in Solid, Regular, Light, Duotone
+        /// campground - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "campground")]
         Campground,
 
         /// <summary>
-        ///     Candle Holder
+        /// Candle Holder
         /// </summary>
         /// <remarks>
-        ///     candle-holder - Available in Solid, Regular, Light, Duotone
+        /// candle-holder - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "candle-holder")]
         CandleHolder,
 
         /// <summary>
-        ///     Candy Cane
+        /// Candy Cane
         /// </summary>
         /// <remarks>
-        ///     candy-cane - Available in Solid, Regular, Light, Duotone
+        /// candy-cane - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "candy-cane")]
         CandyCane,
 
         /// <summary>
-        ///     Candy Corn
+        /// Candy Corn
         /// </summary>
         /// <remarks>
-        ///     candy-corn - Available in Solid, Regular, Light, Duotone
+        /// candy-corn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "candy-corn")]
         CandyCorn,
 
         /// <summary>
-        ///     Cannabis
+        /// Cannabis
         /// </summary>
         /// <remarks>
-        ///     cannabis - Available in Solid, Regular, Light, Duotone
+        /// cannabis - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cannabis")]
         Cannabis,
 
         /// <summary>
-        ///     Capsules
+        /// Capsules
         /// </summary>
         /// <remarks>
-        ///     capsules - Available in Solid, Regular, Light, Duotone
+        /// capsules - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "capsules")]
         Capsules,
 
         /// <summary>
-        ///     Car
+        /// Car
         /// </summary>
         /// <remarks>
-        ///     car - Available in Solid, Regular, Light, Duotone
+        /// car - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "car")] Car,
+        [FontAwesome(IconStyle.Light, "car")]
+        Car,
 
         /// <summary>
-        ///     Alternate Car
+        /// Alternate Car
         /// </summary>
         /// <remarks>
-        ///     car-alt - Available in Solid, Regular, Light, Duotone
+        /// car-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "car-alt")]
         CarAlt,
 
         /// <summary>
-        ///     Car Battery
+        /// Car Battery
         /// </summary>
         /// <remarks>
-        ///     car-battery - Available in Solid, Regular, Light, Duotone
+        /// car-battery - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "car-battery")]
         CarBattery,
 
         /// <summary>
-        ///     Car and Building
+        /// Car and Building
         /// </summary>
         /// <remarks>
-        ///     car-building - Available in Solid, Regular, Light, Duotone
+        /// car-building - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "car-building")]
         CarBuilding,
 
         /// <summary>
-        ///     Car Bump
+        /// Car Bump
         /// </summary>
         /// <remarks>
-        ///     car-bump - Available in Solid, Regular, Light, Duotone
+        /// car-bump - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "car-bump")]
         CarBump,
 
         /// <summary>
-        ///     Car and Bus
+        /// Car and Bus
         /// </summary>
         /// <remarks>
-        ///     car-bus - Available in Solid, Regular, Light, Duotone
+        /// car-bus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "car-bus")]
         CarBus,
 
         /// <summary>
-        ///     Car Crash
+        /// Car Crash
         /// </summary>
         /// <remarks>
-        ///     car-crash - Available in Solid, Regular, Light, Duotone
+        /// car-crash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "car-crash")]
         CarCrash,
 
         /// <summary>
-        ///     Car Garage
+        /// Car Garage
         /// </summary>
         /// <remarks>
-        ///     car-garage - Available in Solid, Regular, Light, Duotone
+        /// car-garage - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "car-garage")]
         CarGarage,
 
         /// <summary>
-        ///     Car Mechanic
+        /// Car Mechanic
         /// </summary>
         /// <remarks>
-        ///     car-mechanic - Available in Solid, Regular, Light, Duotone
+        /// car-mechanic - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "car-mechanic")]
         CarMechanic,
 
         /// <summary>
-        ///     Car Side
+        /// Car Side
         /// </summary>
         /// <remarks>
-        ///     car-side - Available in Solid, Regular, Light, Duotone
+        /// car-side - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "car-side")]
         CarSide,
 
         /// <summary>
-        ///     Car Tilt
+        /// Car Tilt
         /// </summary>
         /// <remarks>
-        ///     car-tilt - Available in Solid, Regular, Light, Duotone
+        /// car-tilt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "car-tilt")]
         CarTilt,
 
         /// <summary>
-        ///     Car Wash
+        /// Car Wash
         /// </summary>
         /// <remarks>
-        ///     car-wash - Available in Solid, Regular, Light, Duotone
+        /// car-wash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "car-wash")]
         CarWash,
 
         /// <summary>
-        ///     Caravan
+        /// Caravan
         /// </summary>
         /// <remarks>
-        ///     caravan - Available in Solid, Regular, Light, Duotone
+        /// caravan - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "caravan")]
         Caravan,
 
         /// <summary>
-        ///     Caravan Alternate
+        /// Caravan Alternate
         /// </summary>
         /// <remarks>
-        ///     caravan-alt - Available in Solid, Regular, Light, Duotone
+        /// caravan-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "caravan-alt")]
         CaravanAlt,
 
         /// <summary>
-        ///     Caret Circle Down
+        /// Caret Circle Down
         /// </summary>
         /// <remarks>
-        ///     caret-circle-down - Available in Solid, Regular, Light, Duotone
+        /// caret-circle-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "caret-circle-down")]
         CaretCircleDown,
 
         /// <summary>
-        ///     Caret Circle Left
+        /// Caret Circle Left
         /// </summary>
         /// <remarks>
-        ///     caret-circle-left - Available in Solid, Regular, Light, Duotone
+        /// caret-circle-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "caret-circle-left")]
         CaretCircleLeft,
 
         /// <summary>
-        ///     Caret Circle Right
+        /// Caret Circle Right
         /// </summary>
         /// <remarks>
-        ///     caret-circle-right - Available in Solid, Regular, Light, Duotone
+        /// caret-circle-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "caret-circle-right")]
         CaretCircleRight,
 
         /// <summary>
-        ///     Caret Circle up
+        /// Caret Circle up
         /// </summary>
         /// <remarks>
-        ///     caret-circle-up - Available in Solid, Regular, Light, Duotone
+        /// caret-circle-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "caret-circle-up")]
         CaretCircleUp,
 
         /// <summary>
-        ///     Caret Down
+        /// Caret Down
         /// </summary>
         /// <remarks>
-        ///     caret-down - Available in Solid, Regular, Light, Duotone
+        /// caret-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "caret-down")]
         CaretDown,
 
         /// <summary>
-        ///     Caret Left
+        /// Caret Left
         /// </summary>
         /// <remarks>
-        ///     caret-left - Available in Solid, Regular, Light, Duotone
+        /// caret-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "caret-left")]
         CaretLeft,
 
         /// <summary>
-        ///     Caret Right
+        /// Caret Right
         /// </summary>
         /// <remarks>
-        ///     caret-right - Available in Solid, Regular, Light, Duotone
+        /// caret-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "caret-right")]
         CaretRight,
 
         /// <summary>
-        ///     Caret Square Down
+        /// Caret Square Down
         /// </summary>
         /// <remarks>
-        ///     caret-square-down - Available in Solid, Regular, Light, Duotone
+        /// caret-square-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "caret-square-down")]
         CaretSquareDown,
 
         /// <summary>
-        ///     Caret Square Left
+        /// Caret Square Left
         /// </summary>
         /// <remarks>
-        ///     caret-square-left - Available in Solid, Regular, Light, Duotone
+        /// caret-square-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "caret-square-left")]
         CaretSquareLeft,
 
         /// <summary>
-        ///     Caret Square Right
+        /// Caret Square Right
         /// </summary>
         /// <remarks>
-        ///     caret-square-right - Available in Solid, Regular, Light, Duotone
+        /// caret-square-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "caret-square-right")]
         CaretSquareRight,
 
         /// <summary>
-        ///     Caret Square up
+        /// Caret Square up
         /// </summary>
         /// <remarks>
-        ///     caret-square-up - Available in Solid, Regular, Light, Duotone
+        /// caret-square-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "caret-square-up")]
         CaretSquareUp,
 
         /// <summary>
-        ///     Caret up
+        /// Caret up
         /// </summary>
         /// <remarks>
-        ///     caret-up - Available in Solid, Regular, Light, Duotone
+        /// caret-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "caret-up")]
         CaretUp,
 
         /// <summary>
-        ///     Carrot
+        /// Carrot
         /// </summary>
         /// <remarks>
-        ///     carrot - Available in Solid, Regular, Light, Duotone
+        /// carrot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "carrot")]
         Carrot,
 
         /// <summary>
-        ///     Cars
+        /// Cars
         /// </summary>
         /// <remarks>
-        ///     cars - Available in Solid, Regular, Light, Duotone
+        /// cars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "cars")] Cars,
+        [FontAwesome(IconStyle.Light, "cars")]
+        Cars,
 
         /// <summary>
-        ///     Shopping Cart Arrow Down
+        /// Shopping Cart Arrow Down
         /// </summary>
         /// <remarks>
-        ///     cart-arrow-down - Available in Solid, Regular, Light, Duotone
+        /// cart-arrow-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cart-arrow-down")]
         CartArrowDown,
 
         /// <summary>
-        ///     Add to Shopping Cart
+        /// Add to Shopping Cart
         /// </summary>
         /// <remarks>
-        ///     cart-plus - Available in Solid, Regular, Light, Duotone
+        /// cart-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cart-plus")]
         CartPlus,
 
         /// <summary>
-        ///     Cash Register
+        /// Cash Register
         /// </summary>
         /// <remarks>
-        ///     cash-register - Available in Solid, Regular, Light, Duotone
+        /// cash-register - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cash-register")]
         CashRegister,
 
         /// <summary>
-        ///     Cassette Tape
+        /// Cassette Tape
         /// </summary>
         /// <remarks>
-        ///     cassette-tape - Available in Solid, Regular, Light, Duotone
+        /// cassette-tape - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cassette-tape")]
         CassetteTape,
 
         /// <summary>
-        ///     Cat
+        /// Cat
         /// </summary>
         /// <remarks>
-        ///     cat - Available in Solid, Regular, Light, Duotone
+        /// cat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "cat")] Cat,
+        [FontAwesome(IconStyle.Light, "cat")]
+        Cat,
 
         /// <summary>
-        ///     Space Cat
+        /// Space Cat
         /// </summary>
         /// <remarks>
-        ///     cat-space - Available in Solid, Regular, Light, Duotone
+        /// cat-space - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cat-space")]
         CatSpace,
 
         /// <summary>
-        ///     Cauldron
+        /// Cauldron
         /// </summary>
         /// <remarks>
-        ///     cauldron - Available in Solid, Regular, Light, Duotone
+        /// cauldron - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cauldron")]
         Cauldron,
 
         /// <summary>
-        ///     CCTV
+        /// CCTV
         /// </summary>
         /// <remarks>
-        ///     cctv - Available in Solid, Regular, Light, Duotone
+        /// cctv - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "cctv")] Cctv,
+        [FontAwesome(IconStyle.Light, "cctv")]
+        Cctv,
 
         /// <summary>
-        ///     Certificate
+        /// Certificate
         /// </summary>
         /// <remarks>
-        ///     certificate - Available in Solid, Regular, Light, Duotone
+        /// certificate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "certificate")]
         Certificate,
 
         /// <summary>
-        ///     Chair
+        /// Chair
         /// </summary>
         /// <remarks>
-        ///     chair - Available in Solid, Regular, Light, Duotone
+        /// chair - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chair")]
         Chair,
 
         /// <summary>
-        ///     Office Chair
+        /// Office Chair
         /// </summary>
         /// <remarks>
-        ///     chair-office - Available in Solid, Regular, Light, Duotone
+        /// chair-office - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chair-office")]
         ChairOffice,
 
         /// <summary>
-        ///     Chalkboard
+        /// Chalkboard
         /// </summary>
         /// <remarks>
-        ///     chalkboard - Available in Solid, Regular, Light, Duotone
+        /// chalkboard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chalkboard")]
         Chalkboard,
 
         /// <summary>
-        ///     Chalkboard Teacher
+        /// Chalkboard Teacher
         /// </summary>
         /// <remarks>
-        ///     chalkboard-teacher - Available in Solid, Regular, Light, Duotone
+        /// chalkboard-teacher - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chalkboard-teacher")]
         ChalkboardTeacher,
 
         /// <summary>
-        ///     Charging Station
+        /// Charging Station
         /// </summary>
         /// <remarks>
-        ///     charging-station - Available in Solid, Regular, Light, Duotone
+        /// charging-station - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "charging-station")]
         ChargingStation,
 
         /// <summary>
-        ///     Area Chart
+        /// Area Chart
         /// </summary>
         /// <remarks>
-        ///     chart-area - Available in Solid, Regular, Light, Duotone
+        /// chart-area - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chart-area")]
         ChartArea,
 
         /// <summary>
-        ///     Bar Chart
+        /// Bar Chart
         /// </summary>
         /// <remarks>
-        ///     chart-bar - Available in Solid, Regular, Light, Duotone
+        /// chart-bar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chart-bar")]
         ChartBar,
 
         /// <summary>
-        ///     Line Chart
+        /// Line Chart
         /// </summary>
         /// <remarks>
-        ///     chart-line - Available in Solid, Regular, Light, Duotone
+        /// chart-line - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chart-line")]
         ChartLine,
 
         /// <summary>
-        ///     Line Chart in Down Direction
+        /// Line Chart in Down Direction
         /// </summary>
         /// <remarks>
-        ///     chart-line-down - Available in Solid, Regular, Light, Duotone
+        /// chart-line-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chart-line-down")]
         ChartLineDown,
 
         /// <summary>
-        ///     Network Chart
+        /// Network Chart
         /// </summary>
         /// <remarks>
-        ///     chart-network - Available in Solid, Regular, Light, Duotone
+        /// chart-network - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chart-network")]
         ChartNetwork,
 
         /// <summary>
-        ///     Pie Chart
+        /// Pie Chart
         /// </summary>
         /// <remarks>
-        ///     chart-pie - Available in Solid, Regular, Light, Duotone
+        /// chart-pie - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chart-pie")]
         ChartPie,
 
         /// <summary>
-        ///     Alternate Pie Chart
+        /// Alternate Pie Chart
         /// </summary>
         /// <remarks>
-        ///     chart-pie-alt - Available in Solid, Regular, Light, Duotone
+        /// chart-pie-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chart-pie-alt")]
         ChartPieAlt,
 
         /// <summary>
-        ///     Scatter Chart
+        /// Scatter Chart
         /// </summary>
         /// <remarks>
-        ///     chart-scatter - Available in Solid, Regular, Light, Duotone
+        /// chart-scatter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chart-scatter")]
         ChartScatter,
 
         /// <summary>
-        ///     Check
+        /// Check
         /// </summary>
         /// <remarks>
-        ///     check - Available in Solid, Regular, Light, Duotone
+        /// check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "check")]
         Check,
 
         /// <summary>
-        ///     Check Circle
+        /// Check Circle
         /// </summary>
         /// <remarks>
-        ///     check-circle - Available in Solid, Regular, Light, Duotone
+        /// check-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "check-circle")]
         CheckCircle,
 
         /// <summary>
-        ///     Double Check
+        /// Double Check
         /// </summary>
         /// <remarks>
-        ///     check-double - Available in Solid, Regular, Light, Duotone
+        /// check-double - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "check-double")]
         CheckDouble,
 
         /// <summary>
-        ///     Check Square
+        /// Check Square
         /// </summary>
         /// <remarks>
-        ///     check-square - Available in Solid, Regular, Light, Duotone
+        /// check-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "check-square")]
         CheckSquare,
 
         /// <summary>
-        ///     Cheese
+        /// Cheese
         /// </summary>
         /// <remarks>
-        ///     cheese - Available in Solid, Regular, Light, Duotone
+        /// cheese - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cheese")]
         Cheese,
 
         /// <summary>
-        ///     Swiss Cheese
+        /// Swiss Cheese
         /// </summary>
         /// <remarks>
-        ///     cheese-swiss - Available in Solid, Regular, Light, Duotone
+        /// cheese-swiss - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cheese-swiss")]
         CheeseSwiss,
 
         /// <summary>
-        ///     Cheeseburger
+        /// Cheeseburger
         /// </summary>
         /// <remarks>
-        ///     cheeseburger - Available in Solid, Regular, Light, Duotone
+        /// cheeseburger - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cheeseburger")]
         Cheeseburger,
 
         /// <summary>
-        ///     Chess
+        /// Chess
         /// </summary>
         /// <remarks>
-        ///     chess - Available in Solid, Regular, Light, Duotone
+        /// chess - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess")]
         Chess,
 
         /// <summary>
-        ///     Chess Bishop
+        /// Chess Bishop
         /// </summary>
         /// <remarks>
-        ///     chess-bishop - Available in Solid, Regular, Light, Duotone
+        /// chess-bishop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess-bishop")]
         ChessBishop,
 
         /// <summary>
-        ///     Alternate Chess Bishop
+        /// Alternate Chess Bishop
         /// </summary>
         /// <remarks>
-        ///     chess-bishop-alt - Available in Solid, Regular, Light, Duotone
+        /// chess-bishop-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess-bishop-alt")]
         ChessBishopAlt,
 
         /// <summary>
-        ///     Chess Board
+        /// Chess Board
         /// </summary>
         /// <remarks>
-        ///     chess-board - Available in Solid, Regular, Light, Duotone
+        /// chess-board - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess-board")]
         ChessBoard,
 
         /// <summary>
-        ///     Chess Clock
+        /// Chess Clock
         /// </summary>
         /// <remarks>
-        ///     chess-clock - Available in Solid, Regular, Light, Duotone
+        /// chess-clock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess-clock")]
         ChessClock,
 
         /// <summary>
-        ///     Alternate Chess Clock
+        /// Alternate Chess Clock
         /// </summary>
         /// <remarks>
-        ///     chess-clock-alt - Available in Solid, Regular, Light, Duotone
+        /// chess-clock-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess-clock-alt")]
         ChessClockAlt,
 
         /// <summary>
-        ///     Chess King
+        /// Chess King
         /// </summary>
         /// <remarks>
-        ///     chess-king - Available in Solid, Regular, Light, Duotone
+        /// chess-king - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess-king")]
         ChessKing,
 
         /// <summary>
-        ///     Alternate Chess King
+        /// Alternate Chess King
         /// </summary>
         /// <remarks>
-        ///     chess-king-alt - Available in Solid, Regular, Light, Duotone
+        /// chess-king-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess-king-alt")]
         ChessKingAlt,
 
         /// <summary>
-        ///     Chess Knight
+        /// Chess Knight
         /// </summary>
         /// <remarks>
-        ///     chess-knight - Available in Solid, Regular, Light, Duotone
+        /// chess-knight - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess-knight")]
         ChessKnight,
 
         /// <summary>
-        ///     Alternate Chess Knight
+        /// Alternate Chess Knight
         /// </summary>
         /// <remarks>
-        ///     chess-knight-alt - Available in Solid, Regular, Light, Duotone
+        /// chess-knight-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess-knight-alt")]
         ChessKnightAlt,
 
         /// <summary>
-        ///     Chess Pawn
+        /// Chess Pawn
         /// </summary>
         /// <remarks>
-        ///     chess-pawn - Available in Solid, Regular, Light, Duotone
+        /// chess-pawn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess-pawn")]
         ChessPawn,
 
         /// <summary>
-        ///     Alternate Chess Pawn
+        /// Alternate Chess Pawn
         /// </summary>
         /// <remarks>
-        ///     chess-pawn-alt - Available in Solid, Regular, Light, Duotone
+        /// chess-pawn-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess-pawn-alt")]
         ChessPawnAlt,
 
         /// <summary>
-        ///     Chess Queen
+        /// Chess Queen
         /// </summary>
         /// <remarks>
-        ///     chess-queen - Available in Solid, Regular, Light, Duotone
+        /// chess-queen - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess-queen")]
         ChessQueen,
 
         /// <summary>
-        ///     Alternate Chess Queen
+        /// Alternate Chess Queen
         /// </summary>
         /// <remarks>
-        ///     chess-queen-alt - Available in Solid, Regular, Light, Duotone
+        /// chess-queen-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess-queen-alt")]
         ChessQueenAlt,
 
         /// <summary>
-        ///     Chess Rook
+        /// Chess Rook
         /// </summary>
         /// <remarks>
-        ///     chess-rook - Available in Solid, Regular, Light, Duotone
+        /// chess-rook - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess-rook")]
         ChessRook,
 
         /// <summary>
-        ///     Alternate Chess Rook
+        /// Alternate Chess Rook
         /// </summary>
         /// <remarks>
-        ///     chess-rook-alt - Available in Solid, Regular, Light, Duotone
+        /// chess-rook-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chess-rook-alt")]
         ChessRookAlt,
 
         /// <summary>
-        ///     Chevron Circle Down
+        /// Chevron Circle Down
         /// </summary>
         /// <remarks>
-        ///     chevron-circle-down - Available in Solid, Regular, Light, Duotone
+        /// chevron-circle-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-circle-down")]
         ChevronCircleDown,
 
         /// <summary>
-        ///     Chevron Circle Left
+        /// Chevron Circle Left
         /// </summary>
         /// <remarks>
-        ///     chevron-circle-left - Available in Solid, Regular, Light, Duotone
+        /// chevron-circle-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-circle-left")]
         ChevronCircleLeft,
 
         /// <summary>
-        ///     Chevron Circle Right
+        /// Chevron Circle Right
         /// </summary>
         /// <remarks>
-        ///     chevron-circle-right - Available in Solid, Regular, Light, Duotone
+        /// chevron-circle-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-circle-right")]
         ChevronCircleRight,
 
         /// <summary>
-        ///     Chevron Circle up
+        /// Chevron Circle up
         /// </summary>
         /// <remarks>
-        ///     chevron-circle-up - Available in Solid, Regular, Light, Duotone
+        /// chevron-circle-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-circle-up")]
         ChevronCircleUp,
 
         /// <summary>
-        ///     Chevron Double Down
+        /// Chevron Double Down
         /// </summary>
         /// <remarks>
-        ///     chevron-double-down - Available in Solid, Regular, Light, Duotone
+        /// chevron-double-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-double-down")]
         ChevronDoubleDown,
 
         /// <summary>
-        ///     Chevron Double Left
+        /// Chevron Double Left
         /// </summary>
         /// <remarks>
-        ///     chevron-double-left - Available in Solid, Regular, Light, Duotone
+        /// chevron-double-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-double-left")]
         ChevronDoubleLeft,
 
         /// <summary>
-        ///     Chevron Double Right
+        /// Chevron Double Right
         /// </summary>
         /// <remarks>
-        ///     chevron-double-right - Available in Solid, Regular, Light, Duotone
+        /// chevron-double-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-double-right")]
         ChevronDoubleRight,
 
         /// <summary>
-        ///     Chevron Double up
+        /// Chevron Double up
         /// </summary>
         /// <remarks>
-        ///     chevron-double-up - Available in Solid, Regular, Light, Duotone
+        /// chevron-double-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-double-up")]
         ChevronDoubleUp,
 
         /// <summary>
-        ///     Chevron Down
+        /// Chevron Down
         /// </summary>
         /// <remarks>
-        ///     chevron-down - Available in Solid, Regular, Light, Duotone
+        /// chevron-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-down")]
         ChevronDown,
 
         /// <summary>
-        ///     Chevron Left
+        /// Chevron Left
         /// </summary>
         /// <remarks>
-        ///     chevron-left - Available in Solid, Regular, Light, Duotone
+        /// chevron-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-left")]
         ChevronLeft,
 
         /// <summary>
-        ///     Chevron Right
+        /// Chevron Right
         /// </summary>
         /// <remarks>
-        ///     chevron-right - Available in Solid, Regular, Light, Duotone
+        /// chevron-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-right")]
         ChevronRight,
 
         /// <summary>
-        ///     Chevron Square Down
+        /// Chevron Square Down
         /// </summary>
         /// <remarks>
-        ///     chevron-square-down - Available in Solid, Regular, Light, Duotone
+        /// chevron-square-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-square-down")]
         ChevronSquareDown,
 
         /// <summary>
-        ///     Chevron Square Left
+        /// Chevron Square Left
         /// </summary>
         /// <remarks>
-        ///     chevron-square-left - Available in Solid, Regular, Light, Duotone
+        /// chevron-square-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-square-left")]
         ChevronSquareLeft,
 
         /// <summary>
-        ///     Chevron Square Right
+        /// Chevron Square Right
         /// </summary>
         /// <remarks>
-        ///     chevron-square-right - Available in Solid, Regular, Light, Duotone
+        /// chevron-square-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-square-right")]
         ChevronSquareRight,
 
         /// <summary>
-        ///     Chevron Square up
+        /// Chevron Square up
         /// </summary>
         /// <remarks>
-        ///     chevron-square-up - Available in Solid, Regular, Light, Duotone
+        /// chevron-square-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-square-up")]
         ChevronSquareUp,
 
         /// <summary>
-        ///     Chevron up
+        /// Chevron up
         /// </summary>
         /// <remarks>
-        ///     chevron-up - Available in Solid, Regular, Light, Duotone
+        /// chevron-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chevron-up")]
         ChevronUp,
 
         /// <summary>
-        ///     Child
+        /// Child
         /// </summary>
         /// <remarks>
-        ///     child - Available in Solid, Regular, Light, Duotone
+        /// child - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "child")]
         Child,
 
         /// <summary>
-        ///     Chimney
+        /// Chimney
         /// </summary>
         /// <remarks>
-        ///     chimney - Available in Solid, Regular, Light, Duotone
+        /// chimney - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "chimney")]
         Chimney,
 
         /// <summary>
-        ///     Church
+        /// Church
         /// </summary>
         /// <remarks>
-        ///     church - Available in Solid, Regular, Light, Duotone
+        /// church - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "church")]
         Church,
 
         /// <summary>
-        ///     Circle
+        /// Circle
         /// </summary>
         /// <remarks>
-        ///     circle - Available in Solid, Regular, Light, Duotone
+        /// circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "circle")]
         Circle,
 
         /// <summary>
-        ///     Circle Notched
+        /// Circle Notched
         /// </summary>
         /// <remarks>
-        ///     circle-notch - Available in Solid, Regular, Light, Duotone
+        /// circle-notch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "circle-notch")]
         CircleNotch,
 
         /// <summary>
-        ///     City
+        /// City
         /// </summary>
         /// <remarks>
-        ///     city - Available in Solid, Regular, Light, Duotone
+        /// city - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "city")] City,
+        [FontAwesome(IconStyle.Light, "city")]
+        City,
 
         /// <summary>
-        ///     Clarinet
+        /// Clarinet
         /// </summary>
         /// <remarks>
-        ///     clarinet - Available in Solid, Regular, Light, Duotone
+        /// clarinet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "clarinet")]
         Clarinet,
 
         /// <summary>
-        ///     Claw Marks
+        /// Claw Marks
         /// </summary>
         /// <remarks>
-        ///     claw-marks - Available in Solid, Regular, Light, Duotone
+        /// claw-marks - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "claw-marks")]
         ClawMarks,
 
         /// <summary>
-        ///     Medical Clinic
+        /// Medical Clinic
         /// </summary>
         /// <remarks>
-        ///     clinic-medical - Available in Solid, Regular, Light, Duotone
+        /// clinic-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "clinic-medical")]
         ClinicMedical,
 
         /// <summary>
-        ///     Clipboard
+        /// Clipboard
         /// </summary>
         /// <remarks>
-        ///     clipboard - Available in Solid, Regular, Light, Duotone
+        /// clipboard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "clipboard")]
         Clipboard,
 
         /// <summary>
-        ///     Clipboard With Check
+        /// Clipboard With Check
         /// </summary>
         /// <remarks>
-        ///     clipboard-check - Available in Solid, Regular, Light, Duotone
+        /// clipboard-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "clipboard-check")]
         ClipboardCheck,
 
         /// <summary>
-        ///     Clipboard List
+        /// Clipboard List
         /// </summary>
         /// <remarks>
-        ///     clipboard-list - Available in Solid, Regular, Light, Duotone
+        /// clipboard-list - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "clipboard-list")]
         ClipboardList,
 
         /// <summary>
-        ///     Clipboard List With Check
+        /// Clipboard List With Check
         /// </summary>
         /// <remarks>
-        ///     clipboard-list-check - Available in Solid, Regular, Light, Duotone
+        /// clipboard-list-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "clipboard-list-check")]
         ClipboardListCheck,
 
         /// <summary>
-        ///     Clipboard Prescription
+        /// Clipboard Prescription
         /// </summary>
         /// <remarks>
-        ///     clipboard-prescription - Available in Solid, Regular, Light, Duotone
+        /// clipboard-prescription - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "clipboard-prescription")]
         ClipboardPrescription,
 
         /// <summary>
-        ///     Clipboard With User
+        /// Clipboard With User
         /// </summary>
         /// <remarks>
-        ///     clipboard-user - Available in Solid, Regular, Light, Duotone
+        /// clipboard-user - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "clipboard-user")]
         ClipboardUser,
 
         /// <summary>
-        ///     Clock
+        /// Clock
         /// </summary>
         /// <remarks>
-        ///     clock - Available in Solid, Regular, Light, Duotone
+        /// clock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "clock")]
         Clock,
 
         /// <summary>
-        ///     Clone
+        /// Clone
         /// </summary>
         /// <remarks>
-        ///     clone - Available in Solid, Regular, Light, Duotone
+        /// clone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "clone")]
         Clone,
 
         /// <summary>
-        ///     Closed Captioning
+        /// Closed Captioning
         /// </summary>
         /// <remarks>
-        ///     closed-captioning - Available in Solid, Regular, Light, Duotone
+        /// closed-captioning - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "closed-captioning")]
         ClosedCaptioning,
 
         /// <summary>
-        ///     Cloud
+        /// Cloud
         /// </summary>
         /// <remarks>
-        ///     cloud - Available in Solid, Regular, Light, Duotone
+        /// cloud - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud")]
         Cloud,
 
         /// <summary>
-        ///     Cloud Download
+        /// Cloud Download
         /// </summary>
         /// <remarks>
-        ///     cloud-download - Available in Solid, Regular, Light, Duotone
+        /// cloud-download - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-download")]
         CloudDownload,
 
         /// <summary>
-        ///     Alternate Cloud Download
+        /// Alternate Cloud Download
         /// </summary>
         /// <remarks>
-        ///     cloud-download-alt - Available in Solid, Regular, Light, Duotone
+        /// cloud-download-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-download-alt")]
         CloudDownloadAlt,
 
         /// <summary>
-        ///     Cloud With Drizzle
+        /// Cloud With Drizzle
         /// </summary>
         /// <remarks>
-        ///     cloud-drizzle - Available in Solid, Regular, Light, Duotone
+        /// cloud-drizzle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-drizzle")]
         CloudDrizzle,
 
         /// <summary>
-        ///     Cloud With Hail
+        /// Cloud With Hail
         /// </summary>
         /// <remarks>
-        ///     cloud-hail - Available in Solid, Regular, Light, Duotone
+        /// cloud-hail - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-hail")]
         CloudHail,
 
         /// <summary>
-        ///     Cloud With Mixed Hail
+        /// Cloud With Mixed Hail
         /// </summary>
         /// <remarks>
-        ///     cloud-hail-mixed - Available in Solid, Regular, Light, Duotone
+        /// cloud-hail-mixed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-hail-mixed")]
         CloudHailMixed,
 
         /// <summary>
-        ///     Cloud With a Chance of Meatball
+        /// Cloud With a Chance of Meatball
         /// </summary>
         /// <remarks>
-        ///     cloud-meatball - Available in Solid, Regular, Light, Duotone
+        /// cloud-meatball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-meatball")]
         CloudMeatball,
 
         /// <summary>
-        ///     Cloud With Moon
+        /// Cloud With Moon
         /// </summary>
         /// <remarks>
-        ///     cloud-moon - Available in Solid, Regular, Light, Duotone
+        /// cloud-moon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-moon")]
         CloudMoon,
 
         /// <summary>
-        ///     Cloud With Moon and Rain
+        /// Cloud With Moon and Rain
         /// </summary>
         /// <remarks>
-        ///     cloud-moon-rain - Available in Solid, Regular, Light, Duotone
+        /// cloud-moon-rain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-moon-rain")]
         CloudMoonRain,
 
         /// <summary>
-        ///     Cloud Music
+        /// Cloud Music
         /// </summary>
         /// <remarks>
-        ///     cloud-music - Available in Solid, Regular, Light, Duotone
+        /// cloud-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-music")]
         CloudMusic,
 
         /// <summary>
-        ///     Cloud With Rain
+        /// Cloud With Rain
         /// </summary>
         /// <remarks>
-        ///     cloud-rain - Available in Solid, Regular, Light, Duotone
+        /// cloud-rain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-rain")]
         CloudRain,
 
         /// <summary>
-        ///     Cloud With Rainbow
+        /// Cloud With Rainbow
         /// </summary>
         /// <remarks>
-        ///     cloud-rainbow - Available in Solid, Regular, Light, Duotone
+        /// cloud-rainbow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-rainbow")]
         CloudRainbow,
 
         /// <summary>
-        ///     Cloud With Showers
+        /// Cloud With Showers
         /// </summary>
         /// <remarks>
-        ///     cloud-showers - Available in Solid, Regular, Light, Duotone
+        /// cloud-showers - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-showers")]
         CloudShowers,
 
         /// <summary>
-        ///     Cloud With Heavy Showers
+        /// Cloud With Heavy Showers
         /// </summary>
         /// <remarks>
-        ///     cloud-showers-heavy - Available in Solid, Regular, Light, Duotone
+        /// cloud-showers-heavy - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-showers-heavy")]
         CloudShowersHeavy,
 
         /// <summary>
-        ///     Cloud With Sleet
+        /// Cloud With Sleet
         /// </summary>
         /// <remarks>
-        ///     cloud-sleet - Available in Solid, Regular, Light, Duotone
+        /// cloud-sleet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-sleet")]
         CloudSleet,
 
         /// <summary>
-        ///     Cloud With Snow
+        /// Cloud With Snow
         /// </summary>
         /// <remarks>
-        ///     cloud-snow - Available in Solid, Regular, Light, Duotone
+        /// cloud-snow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-snow")]
         CloudSnow,
 
         /// <summary>
-        ///     Cloud With Sun
+        /// Cloud With Sun
         /// </summary>
         /// <remarks>
-        ///     cloud-sun - Available in Solid, Regular, Light, Duotone
+        /// cloud-sun - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-sun")]
         CloudSun,
 
         /// <summary>
-        ///     Cloud With Sun and Rain
+        /// Cloud With Sun and Rain
         /// </summary>
         /// <remarks>
-        ///     cloud-sun-rain - Available in Solid, Regular, Light, Duotone
+        /// cloud-sun-rain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-sun-rain")]
         CloudSunRain,
 
         /// <summary>
-        ///     Cloud Upload
+        /// Cloud Upload
         /// </summary>
         /// <remarks>
-        ///     cloud-upload - Available in Solid, Regular, Light, Duotone
+        /// cloud-upload - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-upload")]
         CloudUpload,
 
         /// <summary>
-        ///     Alternate Cloud Upload
+        /// Alternate Cloud Upload
         /// </summary>
         /// <remarks>
-        ///     cloud-upload-alt - Available in Solid, Regular, Light, Duotone
+        /// cloud-upload-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cloud-upload-alt")]
         CloudUploadAlt,
 
         /// <summary>
-        ///     Clouds
+        /// Clouds
         /// </summary>
         /// <remarks>
-        ///     clouds - Available in Solid, Regular, Light, Duotone
+        /// clouds - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "clouds")]
         Clouds,
 
         /// <summary>
-        ///     Clouds With Moon
+        /// Clouds With Moon
         /// </summary>
         /// <remarks>
-        ///     clouds-moon - Available in Solid, Regular, Light, Duotone
+        /// clouds-moon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "clouds-moon")]
         CloudsMoon,
 
         /// <summary>
-        ///     Clouds With Sun
+        /// Clouds With Sun
         /// </summary>
         /// <remarks>
-        ///     clouds-sun - Available in Solid, Regular, Light, Duotone
+        /// clouds-sun - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "clouds-sun")]
         CloudsSun,
 
         /// <summary>
-        ///     Club
+        /// Club
         /// </summary>
         /// <remarks>
-        ///     club - Available in Solid, Regular, Light, Duotone
+        /// club - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "club")] Club,
+        [FontAwesome(IconStyle.Light, "club")]
+        Club,
 
         /// <summary>
-        ///     Cocktail
+        /// Cocktail
         /// </summary>
         /// <remarks>
-        ///     cocktail - Available in Solid, Regular, Light, Duotone
+        /// cocktail - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cocktail")]
         Cocktail,
 
         /// <summary>
-        ///     Code
+        /// Code
         /// </summary>
         /// <remarks>
-        ///     code - Available in Solid, Regular, Light, Duotone
+        /// code - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "code")] Code,
+        [FontAwesome(IconStyle.Light, "code")]
+        Code,
 
         /// <summary>
-        ///     Code Branch
+        /// Code Branch
         /// </summary>
         /// <remarks>
-        ///     code-branch - Available in Solid, Regular, Light, Duotone
+        /// code-branch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "code-branch")]
         CodeBranch,
 
         /// <summary>
-        ///     Code Commit
+        /// Code Commit
         /// </summary>
         /// <remarks>
-        ///     code-commit - Available in Solid, Regular, Light, Duotone
+        /// code-commit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "code-commit")]
         CodeCommit,
 
         /// <summary>
-        ///     Code Merge
+        /// Code Merge
         /// </summary>
         /// <remarks>
-        ///     code-merge - Available in Solid, Regular, Light, Duotone
+        /// code-merge - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "code-merge")]
         CodeMerge,
 
         /// <summary>
-        ///     Coffee
+        /// Coffee
         /// </summary>
         /// <remarks>
-        ///     coffee - Available in Solid, Regular, Light, Duotone
+        /// coffee - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "coffee")]
         Coffee,
 
         /// <summary>
-        ///     Coffee Pot
+        /// Coffee Pot
         /// </summary>
         /// <remarks>
-        ///     coffee-pot - Available in Solid, Regular, Light, Duotone
+        /// coffee-pot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "coffee-pot")]
         CoffeePot,
 
         /// <summary>
-        ///     To Go Coffee
+        /// To Go Coffee
         /// </summary>
         /// <remarks>
-        ///     coffee-togo - Available in Solid, Regular, Light, Duotone
+        /// coffee-togo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "coffee-togo")]
         CoffeeTogo,
 
         /// <summary>
-        ///     Coffin
+        /// Coffin
         /// </summary>
         /// <remarks>
-        ///     coffin - Available in Solid, Regular, Light, Duotone
+        /// coffin - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "coffin")]
         Coffin,
 
         /// <summary>
-        ///     Coffin With Cross
+        /// Coffin With Cross
         /// </summary>
         /// <remarks>
-        ///     coffin-cross - Available in Solid, Regular, Light, Duotone
+        /// coffin-cross - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "coffin-cross")]
         CoffinCross,
 
         /// <summary>
-        ///     Cog
+        /// Cog
         /// </summary>
         /// <remarks>
-        ///     cog - Available in Solid, Regular, Light, Duotone
+        /// cog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "cog")] Cog,
+        [FontAwesome(IconStyle.Light, "cog")]
+        Cog,
 
         /// <summary>
-        ///     Cogs
+        /// Cogs
         /// </summary>
         /// <remarks>
-        ///     cogs - Available in Solid, Regular, Light, Duotone
+        /// cogs - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "cogs")] Cogs,
+        [FontAwesome(IconStyle.Light, "cogs")]
+        Cogs,
 
         /// <summary>
-        ///     Coin
+        /// Coin
         /// </summary>
         /// <remarks>
-        ///     coin - Available in Solid, Regular, Light, Duotone
+        /// coin - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "coin")] Coin,
+        [FontAwesome(IconStyle.Light, "coin")]
+        Coin,
 
         /// <summary>
-        ///     Coins
+        /// Coins
         /// </summary>
         /// <remarks>
-        ///     coins - Available in Solid, Regular, Light, Duotone
+        /// coins - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "coins")]
         Coins,
 
         /// <summary>
-        ///     Columns
+        /// Columns
         /// </summary>
         /// <remarks>
-        ///     columns - Available in Solid, Regular, Light, Duotone
+        /// columns - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "columns")]
         Columns,
 
         /// <summary>
-        ///     Comet
+        /// Comet
         /// </summary>
         /// <remarks>
-        ///     comet - Available in Solid, Regular, Light, Duotone
+        /// comet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comet")]
         Comet,
 
         /// <summary>
-        ///     Comment
+        /// Comment
         /// </summary>
         /// <remarks>
-        ///     comment - Available in Solid, Regular, Light, Duotone
+        /// comment - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment")]
         Comment,
 
         /// <summary>
-        ///     Alternate Comment
+        /// Alternate Comment
         /// </summary>
         /// <remarks>
-        ///     comment-alt - Available in Solid, Regular, Light, Duotone
+        /// comment-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-alt")]
         CommentAlt,
 
         /// <summary>
-        ///     Alternate Comment Check
+        /// Alternate Comment Check
         /// </summary>
         /// <remarks>
-        ///     comment-alt-check - Available in Solid, Regular, Light, Duotone
+        /// comment-alt-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-alt-check")]
         CommentAltCheck,
 
         /// <summary>
-        ///     Comment Alt Dollar
+        /// Comment Alt Dollar
         /// </summary>
         /// <remarks>
-        ///     comment-alt-dollar - Available in Solid, Regular, Light, Duotone
+        /// comment-alt-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-alt-dollar")]
         CommentAltDollar,
 
         /// <summary>
-        ///     Alternate Comment Dots
+        /// Alternate Comment Dots
         /// </summary>
         /// <remarks>
-        ///     comment-alt-dots - Available in Solid, Regular, Light, Duotone
+        /// comment-alt-dots - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-alt-dots")]
         CommentAltDots,
 
         /// <summary>
-        ///     Alternate Comment Edit
+        /// Alternate Comment Edit
         /// </summary>
         /// <remarks>
-        ///     comment-alt-edit - Available in Solid, Regular, Light, Duotone
+        /// comment-alt-edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-alt-edit")]
         CommentAltEdit,
 
         /// <summary>
-        ///     Alternate Comment Exclamation
+        /// Alternate Comment Exclamation
         /// </summary>
         /// <remarks>
-        ///     comment-alt-exclamation - Available in Solid, Regular, Light, Duotone
+        /// comment-alt-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-alt-exclamation")]
         CommentAltExclamation,
 
         /// <summary>
-        ///     Alternate Comment Lines
+        /// Alternate Comment Lines
         /// </summary>
         /// <remarks>
-        ///     comment-alt-lines - Available in Solid, Regular, Light, Duotone
+        /// comment-alt-lines - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-alt-lines")]
         CommentAltLines,
 
         /// <summary>
-        ///     Medical Chat
+        /// Medical Chat
         /// </summary>
         /// <remarks>
-        ///     comment-alt-medical - Available in Solid, Regular, Light, Duotone
+        /// comment-alt-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-alt-medical")]
         CommentAltMedical,
 
         /// <summary>
-        ///     Alternate Comment Minus
+        /// Alternate Comment Minus
         /// </summary>
         /// <remarks>
-        ///     comment-alt-minus - Available in Solid, Regular, Light, Duotone
+        /// comment-alt-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-alt-minus")]
         CommentAltMinus,
 
         /// <summary>
-        ///     Alternate Comment Music
+        /// Alternate Comment Music
         /// </summary>
         /// <remarks>
-        ///     comment-alt-music - Available in Solid, Regular, Light, Duotone
+        /// comment-alt-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-alt-music")]
         CommentAltMusic,
 
         /// <summary>
-        ///     Alternate Comment Plus
+        /// Alternate Comment Plus
         /// </summary>
         /// <remarks>
-        ///     comment-alt-plus - Available in Solid, Regular, Light, Duotone
+        /// comment-alt-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-alt-plus")]
         CommentAltPlus,
 
         /// <summary>
-        ///     Alternate Comment Slash
+        /// Alternate Comment Slash
         /// </summary>
         /// <remarks>
-        ///     comment-alt-slash - Available in Solid, Regular, Light, Duotone
+        /// comment-alt-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-alt-slash")]
         CommentAltSlash,
 
         /// <summary>
-        ///     Alternate Comment Smile
+        /// Alternate Comment Smile
         /// </summary>
         /// <remarks>
-        ///     comment-alt-smile - Available in Solid, Regular, Light, Duotone
+        /// comment-alt-smile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-alt-smile")]
         CommentAltSmile,
 
         /// <summary>
-        ///     Alternate Comment Times
+        /// Alternate Comment Times
         /// </summary>
         /// <remarks>
-        ///     comment-alt-times - Available in Solid, Regular, Light, Duotone
+        /// comment-alt-times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-alt-times")]
         CommentAltTimes,
 
         /// <summary>
-        ///     Comment Check
+        /// Comment Check
         /// </summary>
         /// <remarks>
-        ///     comment-check - Available in Solid, Regular, Light, Duotone
+        /// comment-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-check")]
         CommentCheck,
 
         /// <summary>
-        ///     Comment Dollar
+        /// Comment Dollar
         /// </summary>
         /// <remarks>
-        ///     comment-dollar - Available in Solid, Regular, Light, Duotone
+        /// comment-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-dollar")]
         CommentDollar,
 
         /// <summary>
-        ///     Comment Dots
+        /// Comment Dots
         /// </summary>
         /// <remarks>
-        ///     comment-dots - Available in Solid, Regular, Light, Duotone
+        /// comment-dots - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-dots")]
         CommentDots,
 
         /// <summary>
-        ///     Comment Edit
+        /// Comment Edit
         /// </summary>
         /// <remarks>
-        ///     comment-edit - Available in Solid, Regular, Light, Duotone
+        /// comment-edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-edit")]
         CommentEdit,
 
         /// <summary>
-        ///     Comment Exclamation
+        /// Comment Exclamation
         /// </summary>
         /// <remarks>
-        ///     comment-exclamation - Available in Solid, Regular, Light, Duotone
+        /// comment-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-exclamation")]
         CommentExclamation,
 
         /// <summary>
-        ///     Comment Lines
+        /// Comment Lines
         /// </summary>
         /// <remarks>
-        ///     comment-lines - Available in Solid, Regular, Light, Duotone
+        /// comment-lines - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-lines")]
         CommentLines,
 
         /// <summary>
-        ///     Alternate Medical Chat
+        /// Alternate Medical Chat
         /// </summary>
         /// <remarks>
-        ///     comment-medical - Available in Solid, Regular, Light, Duotone
+        /// comment-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-medical")]
         CommentMedical,
 
         /// <summary>
-        ///     Comment Minus
+        /// Comment Minus
         /// </summary>
         /// <remarks>
-        ///     comment-minus - Available in Solid, Regular, Light, Duotone
+        /// comment-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-minus")]
         CommentMinus,
 
         /// <summary>
-        ///     Comment Music
+        /// Comment Music
         /// </summary>
         /// <remarks>
-        ///     comment-music - Available in Solid, Regular, Light, Duotone
+        /// comment-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-music")]
         CommentMusic,
 
         /// <summary>
-        ///     Comment Plus
+        /// Comment Plus
         /// </summary>
         /// <remarks>
-        ///     comment-plus - Available in Solid, Regular, Light, Duotone
+        /// comment-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-plus")]
         CommentPlus,
 
         /// <summary>
-        ///     Comment Slash
+        /// Comment Slash
         /// </summary>
         /// <remarks>
-        ///     comment-slash - Available in Solid, Regular, Light, Duotone
+        /// comment-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-slash")]
         CommentSlash,
 
         /// <summary>
-        ///     Comment Smile
+        /// Comment Smile
         /// </summary>
         /// <remarks>
-        ///     comment-smile - Available in Solid, Regular, Light, Duotone
+        /// comment-smile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-smile")]
         CommentSmile,
 
         /// <summary>
-        ///     Comment Times
+        /// Comment Times
         /// </summary>
         /// <remarks>
-        ///     comment-times - Available in Solid, Regular, Light, Duotone
+        /// comment-times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comment-times")]
         CommentTimes,
 
         /// <summary>
-        ///     Comments
+        /// Comments
         /// </summary>
         /// <remarks>
-        ///     comments - Available in Solid, Regular, Light, Duotone
+        /// comments - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comments")]
         Comments,
 
         /// <summary>
-        ///     Alternate Comments
+        /// Alternate Comments
         /// </summary>
         /// <remarks>
-        ///     comments-alt - Available in Solid, Regular, Light, Duotone
+        /// comments-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comments-alt")]
         CommentsAlt,
 
         /// <summary>
-        ///     Alternate Comments Dollar
+        /// Alternate Comments Dollar
         /// </summary>
         /// <remarks>
-        ///     comments-alt-dollar - Available in Solid, Regular, Light, Duotone
+        /// comments-alt-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comments-alt-dollar")]
         CommentsAltDollar,
 
         /// <summary>
-        ///     Comments Dollar
+        /// Comments Dollar
         /// </summary>
         /// <remarks>
-        ///     comments-dollar - Available in Solid, Regular, Light, Duotone
+        /// comments-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "comments-dollar")]
         CommentsDollar,
 
         /// <summary>
-        ///     Compact Disc
+        /// Compact Disc
         /// </summary>
         /// <remarks>
-        ///     compact-disc - Available in Solid, Regular, Light, Duotone
+        /// compact-disc - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "compact-disc")]
         CompactDisc,
 
         /// <summary>
-        ///     Compass
+        /// Compass
         /// </summary>
         /// <remarks>
-        ///     compass - Available in Solid, Regular, Light, Duotone
+        /// compass - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "compass")]
         Compass,
 
         /// <summary>
-        ///     Compass Slash
+        /// Compass Slash
         /// </summary>
         /// <remarks>
-        ///     compass-slash - Available in Solid, Regular, Light, Duotone
+        /// compass-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "compass-slash")]
         CompassSlash,
 
         /// <summary>
-        ///     Compress
+        /// Compress
         /// </summary>
         /// <remarks>
-        ///     compress - Available in Solid, Regular, Light, Duotone
+        /// compress - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "compress")]
         Compress,
 
         /// <summary>
-        ///     Alternate Compress
+        /// Alternate Compress
         /// </summary>
         /// <remarks>
-        ///     compress-alt - Available in Solid, Regular, Light, Duotone
+        /// compress-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "compress-alt")]
         CompressAlt,
 
         /// <summary>
-        ///     Alternate Compress Arrows
+        /// Alternate Compress Arrows
         /// </summary>
         /// <remarks>
-        ///     compress-arrows-alt - Available in Solid, Regular, Light, Duotone
+        /// compress-arrows-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "compress-arrows-alt")]
         CompressArrowsAlt,
 
         /// <summary>
-        ///     Compress Wide
+        /// Compress Wide
         /// </summary>
         /// <remarks>
-        ///     compress-wide - Available in Solid, Regular, Light, Duotone
+        /// compress-wide - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "compress-wide")]
         CompressWide,
 
         /// <summary>
-        ///     Classic Computer
+        /// Classic Computer
         /// </summary>
         /// <remarks>
-        ///     computer-classic - Available in Solid, Regular, Light, Duotone
+        /// computer-classic - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "computer-classic")]
         ComputerClassic,
 
         /// <summary>
-        ///     Computer Speaker
+        /// Computer Speaker
         /// </summary>
         /// <remarks>
-        ///     computer-speaker - Available in Solid, Regular, Light, Duotone
+        /// computer-speaker - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "computer-speaker")]
         ComputerSpeaker,
 
         /// <summary>
-        ///     Concierge Bell
+        /// Concierge Bell
         /// </summary>
         /// <remarks>
-        ///     concierge-bell - Available in Solid, Regular, Light, Duotone
+        /// concierge-bell - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "concierge-bell")]
         ConciergeBell,
 
         /// <summary>
-        ///     Construction
+        /// Construction
         /// </summary>
         /// <remarks>
-        ///     construction - Available in Solid, Regular, Light, Duotone
+        /// construction - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "construction")]
         Construction,
 
         /// <summary>
-        ///     Container Storage
+        /// Container Storage
         /// </summary>
         /// <remarks>
-        ///     container-storage - Available in Solid, Regular, Light, Duotone
+        /// container-storage - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "container-storage")]
         ContainerStorage,
 
         /// <summary>
-        ///     Conveyor Belt
+        /// Conveyor Belt
         /// </summary>
         /// <remarks>
-        ///     conveyor-belt - Available in Solid, Regular, Light, Duotone
+        /// conveyor-belt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "conveyor-belt")]
         ConveyorBelt,
 
         /// <summary>
-        ///     Alternate Conveyor Belt
+        /// Alternate Conveyor Belt
         /// </summary>
         /// <remarks>
-        ///     conveyor-belt-alt - Available in Solid, Regular, Light, Duotone
+        /// conveyor-belt-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "conveyor-belt-alt")]
         ConveyorBeltAlt,
 
         /// <summary>
-        ///     Cookie
+        /// Cookie
         /// </summary>
         /// <remarks>
-        ///     cookie - Available in Solid, Regular, Light, Duotone
+        /// cookie - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cookie")]
         Cookie,
 
         /// <summary>
-        ///     Cookie Bite
+        /// Cookie Bite
         /// </summary>
         /// <remarks>
-        ///     cookie-bite - Available in Solid, Regular, Light, Duotone
+        /// cookie-bite - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cookie-bite")]
         CookieBite,
 
         /// <summary>
-        ///     Copy
+        /// Copy
         /// </summary>
         /// <remarks>
-        ///     copy - Available in Solid, Regular, Light, Duotone
+        /// copy - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "copy")] Copy,
+        [FontAwesome(IconStyle.Light, "copy")]
+        Copy,
 
         /// <summary>
-        ///     Copyright
+        /// Copyright
         /// </summary>
         /// <remarks>
-        ///     copyright - Available in Solid, Regular, Light, Duotone
+        /// copyright - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "copyright")]
         Copyright,
 
         /// <summary>
-        ///     Corn
+        /// Corn
         /// </summary>
         /// <remarks>
-        ///     corn - Available in Solid, Regular, Light, Duotone
+        /// corn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "corn")] Corn,
+        [FontAwesome(IconStyle.Light, "corn")]
+        Corn,
 
         /// <summary>
-        ///     Couch
+        /// Couch
         /// </summary>
         /// <remarks>
-        ///     couch - Available in Solid, Regular, Light, Duotone
+        /// couch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "couch")]
         Couch,
 
         /// <summary>
-        ///     Cow
+        /// Cow
         /// </summary>
         /// <remarks>
-        ///     cow - Available in Solid, Regular, Light, Duotone
+        /// cow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "cow")] Cow,
+        [FontAwesome(IconStyle.Light, "cow")]
+        Cow,
 
         /// <summary>
-        ///     Cowbell
+        /// Cowbell
         /// </summary>
         /// <remarks>
-        ///     cowbell - Available in Solid, Regular, Light, Duotone
+        /// cowbell - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cowbell")]
         Cowbell,
 
         /// <summary>
-        ///     Cowbell More
+        /// Cowbell More
         /// </summary>
         /// <remarks>
-        ///     cowbell-more - Available in Solid, Regular, Light, Duotone
+        /// cowbell-more - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cowbell-more")]
         CowbellMore,
 
         /// <summary>
-        ///     Credit Card
+        /// Credit Card
         /// </summary>
         /// <remarks>
-        ///     credit-card - Available in Solid, Regular, Light, Duotone
+        /// credit-card - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "credit-card")]
         CreditCard,
 
         /// <summary>
-        ///     Credit Card Blank
+        /// Credit Card Blank
         /// </summary>
         /// <remarks>
-        ///     credit-card-blank - Available in Solid, Regular, Light, Duotone
+        /// credit-card-blank - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "credit-card-blank")]
         CreditCardBlank,
 
         /// <summary>
-        ///     Credit Card Front
+        /// Credit Card Front
         /// </summary>
         /// <remarks>
-        ///     credit-card-front - Available in Solid, Regular, Light, Duotone
+        /// credit-card-front - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "credit-card-front")]
         CreditCardFront,
 
         /// <summary>
-        ///     Cricket
+        /// Cricket
         /// </summary>
         /// <remarks>
-        ///     cricket - Available in Solid, Regular, Light, Duotone
+        /// cricket - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cricket")]
         Cricket,
 
         /// <summary>
-        ///     Croissant
+        /// Croissant
         /// </summary>
         /// <remarks>
-        ///     croissant - Available in Solid, Regular, Light, Duotone
+        /// croissant - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "croissant")]
         Croissant,
 
         /// <summary>
-        ///     Crop
+        /// Crop
         /// </summary>
         /// <remarks>
-        ///     crop - Available in Solid, Regular, Light, Duotone
+        /// crop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "crop")] Crop,
+        [FontAwesome(IconStyle.Light, "crop")]
+        Crop,
 
         /// <summary>
-        ///     Alternate Crop
+        /// Alternate Crop
         /// </summary>
         /// <remarks>
-        ///     crop-alt - Available in Solid, Regular, Light, Duotone
+        /// crop-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "crop-alt")]
         CropAlt,
 
         /// <summary>
-        ///     Cross
+        /// Cross
         /// </summary>
         /// <remarks>
-        ///     cross - Available in Solid, Regular, Light, Duotone
+        /// cross - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cross")]
         Cross,
 
         /// <summary>
-        ///     Crosshairs
+        /// Crosshairs
         /// </summary>
         /// <remarks>
-        ///     crosshairs - Available in Solid, Regular, Light, Duotone
+        /// crosshairs - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "crosshairs")]
         Crosshairs,
 
         /// <summary>
-        ///     Crow
+        /// Crow
         /// </summary>
         /// <remarks>
-        ///     crow - Available in Solid, Regular, Light, Duotone
+        /// crow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "crow")] Crow,
+        [FontAwesome(IconStyle.Light, "crow")]
+        Crow,
 
         /// <summary>
-        ///     Crown
+        /// Crown
         /// </summary>
         /// <remarks>
-        ///     crown - Available in Solid, Regular, Light, Duotone
+        /// crown - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "crown")]
         Crown,
 
         /// <summary>
-        ///     Crutch
+        /// Crutch
         /// </summary>
         /// <remarks>
-        ///     crutch - Available in Solid, Regular, Light, Duotone
+        /// crutch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "crutch")]
         Crutch,
 
         /// <summary>
-        ///     Crutches
+        /// Crutches
         /// </summary>
         /// <remarks>
-        ///     crutches - Available in Solid, Regular, Light, Duotone
+        /// crutches - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "crutches")]
         Crutches,
 
         /// <summary>
-        ///     Cube
+        /// Cube
         /// </summary>
         /// <remarks>
-        ///     cube - Available in Solid, Regular, Light, Duotone
+        /// cube - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "cube")] Cube,
+        [FontAwesome(IconStyle.Light, "cube")]
+        Cube,
 
         /// <summary>
-        ///     Cubes
+        /// Cubes
         /// </summary>
         /// <remarks>
-        ///     cubes - Available in Solid, Regular, Light, Duotone
+        /// cubes - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "cubes")]
         Cubes,
 
         /// <summary>
-        ///     Curling
+        /// Curling
         /// </summary>
         /// <remarks>
-        ///     curling - Available in Solid, Regular, Light, Duotone
+        /// curling - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "curling")]
         Curling,
 
         /// <summary>
-        ///     Cut
+        /// Cut
         /// </summary>
         /// <remarks>
-        ///     cut - Available in Solid, Regular, Light, Duotone
+        /// cut - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "cut")] Cut,
+        [FontAwesome(IconStyle.Light, "cut")]
+        Cut,
 
         /// <summary>
-        ///     Dagger
+        /// Dagger
         /// </summary>
         /// <remarks>
-        ///     dagger - Available in Solid, Regular, Light, Duotone
+        /// dagger - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dagger")]
         Dagger,
 
         /// <summary>
-        ///     Database
+        /// Database
         /// </summary>
         /// <remarks>
-        ///     database - Available in Solid, Regular, Light, Duotone
+        /// database - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "database")]
         Database,
 
         /// <summary>
-        ///     Deaf
+        /// Deaf
         /// </summary>
         /// <remarks>
-        ///     deaf - Available in Solid, Regular, Light, Duotone
+        /// deaf - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "deaf")] Deaf,
+        [FontAwesome(IconStyle.Light, "deaf")]
+        Deaf,
 
         /// <summary>
-        ///     Debug
+        /// Debug
         /// </summary>
         /// <remarks>
-        ///     debug - Available in Solid, Regular, Light, Duotone
+        /// debug - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "debug")]
         Debug,
 
         /// <summary>
-        ///     Deer
+        /// Deer
         /// </summary>
         /// <remarks>
-        ///     deer - Available in Solid, Regular, Light, Duotone
+        /// deer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "deer")] Deer,
+        [FontAwesome(IconStyle.Light, "deer")]
+        Deer,
 
         /// <summary>
-        ///     Deer Rudolph
+        /// Deer Rudolph
         /// </summary>
         /// <remarks>
-        ///     deer-rudolph - Available in Solid, Regular, Light, Duotone
+        /// deer-rudolph - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "deer-rudolph")]
         DeerRudolph,
 
         /// <summary>
-        ///     Democrat
+        /// Democrat
         /// </summary>
         /// <remarks>
-        ///     democrat - Available in Solid, Regular, Light, Duotone
+        /// democrat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "democrat")]
         Democrat,
 
         /// <summary>
-        ///     Desktop
+        /// Desktop
         /// </summary>
         /// <remarks>
-        ///     desktop - Available in Solid, Regular, Light, Duotone
+        /// desktop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "desktop")]
         Desktop,
 
         /// <summary>
-        ///     Alternate Desktop
+        /// Alternate Desktop
         /// </summary>
         /// <remarks>
-        ///     desktop-alt - Available in Solid, Regular, Light, Duotone
+        /// desktop-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "desktop-alt")]
         DesktopAlt,
 
         /// <summary>
-        ///     Dewpoint
+        /// Dewpoint
         /// </summary>
         /// <remarks>
-        ///     dewpoint - Available in Solid, Regular, Light, Duotone
+        /// dewpoint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dewpoint")]
         Dewpoint,
 
         /// <summary>
-        ///     Dharmachakra
+        /// Dharmachakra
         /// </summary>
         /// <remarks>
-        ///     dharmachakra - Available in Solid, Regular, Light, Duotone
+        /// dharmachakra - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dharmachakra")]
         Dharmachakra,
 
         /// <summary>
-        ///     Diagnoses
+        /// Diagnoses
         /// </summary>
         /// <remarks>
-        ///     diagnoses - Available in Solid, Regular, Light, Duotone
+        /// diagnoses - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "diagnoses")]
         Diagnoses,
 
         /// <summary>
-        ///     Diamond
+        /// Diamond
         /// </summary>
         /// <remarks>
-        ///     diamond - Available in Solid, Regular, Light, Duotone
+        /// diamond - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "diamond")]
         Diamond,
 
         /// <summary>
-        ///     Dice
+        /// Dice
         /// </summary>
         /// <remarks>
-        ///     dice - Available in Solid, Regular, Light, Duotone
+        /// dice - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "dice")] Dice,
+        [FontAwesome(IconStyle.Light, "dice")]
+        Dice,
 
         /// <summary>
-        ///     Dice D 10
+        /// Dice D 10
         /// </summary>
         /// <remarks>
-        ///     dice-d10 - Available in Solid, Regular, Light, Duotone
+        /// dice-d10 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dice-d10")]
         DiceD10,
 
         /// <summary>
-        ///     Dice D 12
+        /// Dice D 12
         /// </summary>
         /// <remarks>
-        ///     dice-d12 - Available in Solid, Regular, Light, Duotone
+        /// dice-d12 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dice-d12")]
         DiceD12,
 
         /// <summary>
-        ///     Dice D 20
+        /// Dice D 20
         /// </summary>
         /// <remarks>
-        ///     dice-d20 - Available in Solid, Regular, Light, Duotone
+        /// dice-d20 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dice-d20")]
         DiceD20,
 
         /// <summary>
-        ///     Dice D 4
+        /// Dice D 4
         /// </summary>
         /// <remarks>
-        ///     dice-d4 - Available in Solid, Regular, Light, Duotone
+        /// dice-d4 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dice-d4")]
         DiceD4,
 
         /// <summary>
-        ///     Dice D 6
+        /// Dice D 6
         /// </summary>
         /// <remarks>
-        ///     dice-d6 - Available in Solid, Regular, Light, Duotone
+        /// dice-d6 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dice-d6")]
         DiceD6,
 
         /// <summary>
-        ///     Dice D 8
+        /// Dice D 8
         /// </summary>
         /// <remarks>
-        ///     dice-d8 - Available in Solid, Regular, Light, Duotone
+        /// dice-d8 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dice-d8")]
         DiceD8,
 
         /// <summary>
-        ///     Dice Five
+        /// Dice Five
         /// </summary>
         /// <remarks>
-        ///     dice-five - Available in Solid, Regular, Light, Duotone
+        /// dice-five - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dice-five")]
         DiceFive,
 
         /// <summary>
-        ///     Dice Four
+        /// Dice Four
         /// </summary>
         /// <remarks>
-        ///     dice-four - Available in Solid, Regular, Light, Duotone
+        /// dice-four - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dice-four")]
         DiceFour,
 
         /// <summary>
-        ///     Dice One
+        /// Dice One
         /// </summary>
         /// <remarks>
-        ///     dice-one - Available in Solid, Regular, Light, Duotone
+        /// dice-one - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dice-one")]
         DiceOne,
 
         /// <summary>
-        ///     Dice Six
+        /// Dice Six
         /// </summary>
         /// <remarks>
-        ///     dice-six - Available in Solid, Regular, Light, Duotone
+        /// dice-six - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dice-six")]
         DiceSix,
 
         /// <summary>
-        ///     Dice Three
+        /// Dice Three
         /// </summary>
         /// <remarks>
-        ///     dice-three - Available in Solid, Regular, Light, Duotone
+        /// dice-three - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dice-three")]
         DiceThree,
 
         /// <summary>
-        ///     Dice Two
+        /// Dice Two
         /// </summary>
         /// <remarks>
-        ///     dice-two - Available in Solid, Regular, Light, Duotone
+        /// dice-two - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dice-two")]
         DiceTwo,
 
         /// <summary>
-        ///     Digging
+        /// Digging
         /// </summary>
         /// <remarks>
-        ///     digging - Available in Solid, Regular, Light, Duotone
+        /// digging - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "digging")]
         Digging,
 
         /// <summary>
-        ///     Digital Tachograph
+        /// Digital Tachograph
         /// </summary>
         /// <remarks>
-        ///     digital-tachograph - Available in Solid, Regular, Light, Duotone
+        /// digital-tachograph - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "digital-tachograph")]
         DigitalTachograph,
 
         /// <summary>
-        ///     Diploma
+        /// Diploma
         /// </summary>
         /// <remarks>
-        ///     diploma - Available in Solid, Regular, Light, Duotone
+        /// diploma - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "diploma")]
         Diploma,
 
         /// <summary>
-        ///     Directions
+        /// Directions
         /// </summary>
         /// <remarks>
-        ///     directions - Available in Solid, Regular, Light, Duotone
+        /// directions - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "directions")]
         Directions,
 
         /// <summary>
-        ///     Disc Drive
+        /// Disc Drive
         /// </summary>
         /// <remarks>
-        ///     disc-drive - Available in Solid, Regular, Light, Duotone
+        /// disc-drive - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "disc-drive")]
         DiscDrive,
 
         /// <summary>
-        ///     Disease
+        /// Disease
         /// </summary>
         /// <remarks>
-        ///     disease - Available in Solid, Regular, Light, Duotone
+        /// disease - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "disease")]
         Disease,
 
         /// <summary>
-        ///     Divide
+        /// Divide
         /// </summary>
         /// <remarks>
-        ///     divide - Available in Solid, Regular, Light, Duotone
+        /// divide - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "divide")]
         Divide,
 
         /// <summary>
-        ///     Dizzy Face
+        /// Dizzy Face
         /// </summary>
         /// <remarks>
-        ///     dizzy - Available in Solid, Regular, Light, Duotone
+        /// dizzy - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dizzy")]
         Dizzy,
 
         /// <summary>
-        ///     DNA
+        /// DNA
         /// </summary>
         /// <remarks>
-        ///     dna - Available in Solid, Regular, Light, Duotone
+        /// dna - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "dna")] Dna,
+        [FontAwesome(IconStyle.Light, "dna")]
+        Dna,
 
         /// <summary>
-        ///     Do Not Enter
+        /// Do Not Enter
         /// </summary>
         /// <remarks>
-        ///     do-not-enter - Available in Solid, Regular, Light, Duotone
+        /// do-not-enter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "do-not-enter")]
         DoNotEnter,
 
         /// <summary>
-        ///     Dog
+        /// Dog
         /// </summary>
         /// <remarks>
-        ///     dog - Available in Solid, Regular, Light, Duotone
+        /// dog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "dog")] Dog,
+        [FontAwesome(IconStyle.Light, "dog")]
+        Dog,
 
         /// <summary>
-        ///     Leashed Dog
+        /// Leashed Dog
         /// </summary>
         /// <remarks>
-        ///     dog-leashed - Available in Solid, Regular, Light, Duotone
+        /// dog-leashed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dog-leashed")]
         DogLeashed,
 
         /// <summary>
-        ///     Dollar Sign
+        /// Dollar Sign
         /// </summary>
         /// <remarks>
-        ///     dollar-sign - Available in Solid, Regular, Light, Duotone
+        /// dollar-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dollar-sign")]
         DollarSign,
 
         /// <summary>
-        ///     Dolly
+        /// Dolly
         /// </summary>
         /// <remarks>
-        ///     dolly - Available in Solid, Regular, Light, Duotone
+        /// dolly - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dolly")]
         Dolly,
 
         /// <summary>
-        ///     Dolly Empty
+        /// Dolly Empty
         /// </summary>
         /// <remarks>
-        ///     dolly-empty - Available in Solid, Regular, Light, Duotone
+        /// dolly-empty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dolly-empty")]
         DollyEmpty,
 
         /// <summary>
-        ///     Dolly Flatbed
+        /// Dolly Flatbed
         /// </summary>
         /// <remarks>
-        ///     dolly-flatbed - Available in Solid, Regular, Light, Duotone
+        /// dolly-flatbed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dolly-flatbed")]
         DollyFlatbed,
 
         /// <summary>
-        ///     Alternate Dolly Flatbed
+        /// Alternate Dolly Flatbed
         /// </summary>
         /// <remarks>
-        ///     dolly-flatbed-alt - Available in Solid, Regular, Light, Duotone
+        /// dolly-flatbed-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dolly-flatbed-alt")]
         DollyFlatbedAlt,
 
         /// <summary>
-        ///     Dolly Flatbed Empty
+        /// Dolly Flatbed Empty
         /// </summary>
         /// <remarks>
-        ///     dolly-flatbed-empty - Available in Solid, Regular, Light, Duotone
+        /// dolly-flatbed-empty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dolly-flatbed-empty")]
         DollyFlatbedEmpty,
 
         /// <summary>
-        ///     Donate
+        /// Donate
         /// </summary>
         /// <remarks>
-        ///     donate - Available in Solid, Regular, Light, Duotone
+        /// donate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "donate")]
         Donate,
 
         /// <summary>
-        ///     Door Closed
+        /// Door Closed
         /// </summary>
         /// <remarks>
-        ///     door-closed - Available in Solid, Regular, Light, Duotone
+        /// door-closed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "door-closed")]
         DoorClosed,
 
         /// <summary>
-        ///     Door Open
+        /// Door Open
         /// </summary>
         /// <remarks>
-        ///     door-open - Available in Solid, Regular, Light, Duotone
+        /// door-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "door-open")]
         DoorOpen,
 
         /// <summary>
-        ///     Dot Circle
+        /// Dot Circle
         /// </summary>
         /// <remarks>
-        ///     dot-circle - Available in Solid, Regular, Light, Duotone
+        /// dot-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dot-circle")]
         DotCircle,
 
         /// <summary>
-        ///     Dove
+        /// Dove
         /// </summary>
         /// <remarks>
-        ///     dove - Available in Solid, Regular, Light, Duotone
+        /// dove - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "dove")] Dove,
+        [FontAwesome(IconStyle.Light, "dove")]
+        Dove,
 
         /// <summary>
-        ///     Download
+        /// Download
         /// </summary>
         /// <remarks>
-        ///     download - Available in Solid, Regular, Light, Duotone
+        /// download - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "download")]
         Download,
 
         /// <summary>
-        ///     Drafting Compass
+        /// Drafting Compass
         /// </summary>
         /// <remarks>
-        ///     drafting-compass - Available in Solid, Regular, Light, Duotone
+        /// drafting-compass - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "drafting-compass")]
         DraftingCompass,
 
         /// <summary>
-        ///     Dragon
+        /// Dragon
         /// </summary>
         /// <remarks>
-        ///     dragon - Available in Solid, Regular, Light, Duotone
+        /// dragon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dragon")]
         Dragon,
 
         /// <summary>
-        ///     Draw Circle
+        /// Draw Circle
         /// </summary>
         /// <remarks>
-        ///     draw-circle - Available in Solid, Regular, Light, Duotone
+        /// draw-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "draw-circle")]
         DrawCircle,
 
         /// <summary>
-        ///     Draw Polygon
+        /// Draw Polygon
         /// </summary>
         /// <remarks>
-        ///     draw-polygon - Available in Solid, Regular, Light, Duotone
+        /// draw-polygon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "draw-polygon")]
         DrawPolygon,
 
         /// <summary>
-        ///     Draw Square
+        /// Draw Square
         /// </summary>
         /// <remarks>
-        ///     draw-square - Available in Solid, Regular, Light, Duotone
+        /// draw-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "draw-square")]
         DrawSquare,
 
         /// <summary>
-        ///     Dreidel
+        /// Dreidel
         /// </summary>
         /// <remarks>
-        ///     dreidel - Available in Solid, Regular, Light, Duotone
+        /// dreidel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dreidel")]
         Dreidel,
 
         /// <summary>
-        ///     Drone
+        /// Drone
         /// </summary>
         /// <remarks>
-        ///     drone - Available in Solid, Regular, Light, Duotone
+        /// drone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "drone")]
         Drone,
 
         /// <summary>
-        ///     Alternate Drone
+        /// Alternate Drone
         /// </summary>
         /// <remarks>
-        ///     drone-alt - Available in Solid, Regular, Light, Duotone
+        /// drone-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "drone-alt")]
         DroneAlt,
 
         /// <summary>
-        ///     Drum
+        /// Drum
         /// </summary>
         /// <remarks>
-        ///     drum - Available in Solid, Regular, Light, Duotone
+        /// drum - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "drum")] Drum,
+        [FontAwesome(IconStyle.Light, "drum")]
+        Drum,
 
         /// <summary>
-        ///     Drum Steelpan
+        /// Drum Steelpan
         /// </summary>
         /// <remarks>
-        ///     drum-steelpan - Available in Solid, Regular, Light, Duotone
+        /// drum-steelpan - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "drum-steelpan")]
         DrumSteelpan,
 
         /// <summary>
-        ///     Drumstick
+        /// Drumstick
         /// </summary>
         /// <remarks>
-        ///     drumstick - Available in Solid, Regular, Light, Duotone
+        /// drumstick - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "drumstick")]
         Drumstick,
 
         /// <summary>
-        ///     Drumstick With Bite Taken Out
+        /// Drumstick With Bite Taken Out
         /// </summary>
         /// <remarks>
-        ///     drumstick-bite - Available in Solid, Regular, Light, Duotone
+        /// drumstick-bite - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "drumstick-bite")]
         DrumstickBite,
 
         /// <summary>
-        ///     Dryer
+        /// Dryer
         /// </summary>
         /// <remarks>
-        ///     dryer - Available in Solid, Regular, Light, Duotone
+        /// dryer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dryer")]
         Dryer,
 
         /// <summary>
-        ///     Alternate Dryer
+        /// Alternate Dryer
         /// </summary>
         /// <remarks>
-        ///     dryer-alt - Available in Solid, Regular, Light, Duotone
+        /// dryer-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dryer-alt")]
         DryerAlt,
 
         /// <summary>
-        ///     Duck
+        /// Duck
         /// </summary>
         /// <remarks>
-        ///     duck - Available in Solid, Regular, Light, Duotone
+        /// duck - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "duck")] Duck,
+        [FontAwesome(IconStyle.Light, "duck")]
+        Duck,
 
         /// <summary>
-        ///     Dumbbell
+        /// Dumbbell
         /// </summary>
         /// <remarks>
-        ///     dumbbell - Available in Solid, Regular, Light, Duotone
+        /// dumbbell - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dumbbell")]
         Dumbbell,
 
         /// <summary>
-        ///     Dumpster
+        /// Dumpster
         /// </summary>
         /// <remarks>
-        ///     dumpster - Available in Solid, Regular, Light, Duotone
+        /// dumpster - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dumpster")]
         Dumpster,
 
         /// <summary>
-        ///     Dumpster Fire
+        /// Dumpster Fire
         /// </summary>
         /// <remarks>
-        ///     dumpster-fire - Available in Solid, Regular, Light, Duotone
+        /// dumpster-fire - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dumpster-fire")]
         DumpsterFire,
 
         /// <summary>
-        ///     Dungeon
+        /// Dungeon
         /// </summary>
         /// <remarks>
-        ///     dungeon - Available in Solid, Regular, Light, Duotone
+        /// dungeon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "dungeon")]
         Dungeon,
 
         /// <summary>
-        ///     Ear
+        /// Ear
         /// </summary>
         /// <remarks>
-        ///     ear - Available in Solid, Regular, Light, Duotone
+        /// ear - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "ear")] Ear,
+        [FontAwesome(IconStyle.Light, "ear")]
+        Ear,
 
         /// <summary>
-        ///     Ear Muffs
+        /// Ear Muffs
         /// </summary>
         /// <remarks>
-        ///     ear-muffs - Available in Solid, Regular, Light, Duotone
+        /// ear-muffs - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ear-muffs")]
         EarMuffs,
 
         /// <summary>
-        ///     Eclipse
+        /// Eclipse
         /// </summary>
         /// <remarks>
-        ///     eclipse - Available in Solid, Regular, Light, Duotone
+        /// eclipse - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "eclipse")]
         Eclipse,
 
         /// <summary>
-        ///     Alternate Eclipse
+        /// Alternate Eclipse
         /// </summary>
         /// <remarks>
-        ///     eclipse-alt - Available in Solid, Regular, Light, Duotone
+        /// eclipse-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "eclipse-alt")]
         EclipseAlt,
 
         /// <summary>
-        ///     Edit
+        /// Edit
         /// </summary>
         /// <remarks>
-        ///     edit - Available in Solid, Regular, Light, Duotone
+        /// edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "edit")] Edit,
+        [FontAwesome(IconStyle.Light, "edit")]
+        Edit,
 
         /// <summary>
-        ///     Egg
+        /// Egg
         /// </summary>
         /// <remarks>
-        ///     egg - Available in Solid, Regular, Light, Duotone
+        /// egg - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "egg")] Egg,
+        [FontAwesome(IconStyle.Light, "egg")]
+        Egg,
 
         /// <summary>
-        ///     Fried Egg
+        /// Fried Egg
         /// </summary>
         /// <remarks>
-        ///     egg-fried - Available in Solid, Regular, Light, Duotone
+        /// egg-fried - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "egg-fried")]
         EggFried,
 
         /// <summary>
-        ///     Eject
+        /// Eject
         /// </summary>
         /// <remarks>
-        ///     eject - Available in Solid, Regular, Light, Duotone
+        /// eject - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "eject")]
         Eject,
 
         /// <summary>
-        ///     Elephant
+        /// Elephant
         /// </summary>
         /// <remarks>
-        ///     elephant - Available in Solid, Regular, Light, Duotone
+        /// elephant - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "elephant")]
         Elephant,
 
         /// <summary>
-        ///     Horizontal Ellipsis
+        /// Horizontal Ellipsis
         /// </summary>
         /// <remarks>
-        ///     ellipsis-h - Available in Solid, Regular, Light, Duotone
+        /// ellipsis-h - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ellipsis-h")]
         EllipsisH,
 
         /// <summary>
-        ///     Alternate Horizontal Ellipsis
+        /// Alternate Horizontal Ellipsis
         /// </summary>
         /// <remarks>
-        ///     ellipsis-h-alt - Available in Solid, Regular, Light, Duotone
+        /// ellipsis-h-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ellipsis-h-alt")]
         EllipsisHAlt,
 
         /// <summary>
-        ///     Vertical Ellipsis
+        /// Vertical Ellipsis
         /// </summary>
         /// <remarks>
-        ///     ellipsis-v - Available in Solid, Regular, Light, Duotone
+        /// ellipsis-v - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ellipsis-v")]
         EllipsisV,
 
         /// <summary>
-        ///     Alternate Vertical Ellipsis
+        /// Alternate Vertical Ellipsis
         /// </summary>
         /// <remarks>
-        ///     ellipsis-v-alt - Available in Solid, Regular, Light, Duotone
+        /// ellipsis-v-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ellipsis-v-alt")]
         EllipsisVAlt,
 
         /// <summary>
-        ///     Empty Set
+        /// Empty Set
         /// </summary>
         /// <remarks>
-        ///     empty-set - Available in Solid, Regular, Light, Duotone
+        /// empty-set - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "empty-set")]
         EmptySet,
 
         /// <summary>
-        ///     Engine Warning
+        /// Engine Warning
         /// </summary>
         /// <remarks>
-        ///     engine-warning - Available in Solid, Regular, Light, Duotone
+        /// engine-warning - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "engine-warning")]
         EngineWarning,
 
         /// <summary>
-        ///     Envelope
+        /// Envelope
         /// </summary>
         /// <remarks>
-        ///     envelope - Available in Solid, Regular, Light, Duotone
+        /// envelope - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "envelope")]
         Envelope,
 
         /// <summary>
-        ///     Envelope Open
+        /// Envelope Open
         /// </summary>
         /// <remarks>
-        ///     envelope-open - Available in Solid, Regular, Light, Duotone
+        /// envelope-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "envelope-open")]
         EnvelopeOpen,
 
         /// <summary>
-        ///     Envelope Open Dollar
+        /// Envelope Open Dollar
         /// </summary>
         /// <remarks>
-        ///     envelope-open-dollar - Available in Solid, Regular, Light, Duotone
+        /// envelope-open-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "envelope-open-dollar")]
         EnvelopeOpenDollar,
 
         /// <summary>
-        ///     Envelope Open Text
+        /// Envelope Open Text
         /// </summary>
         /// <remarks>
-        ///     envelope-open-text - Available in Solid, Regular, Light, Duotone
+        /// envelope-open-text - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "envelope-open-text")]
         EnvelopeOpenText,
 
         /// <summary>
-        ///     Envelope Square
+        /// Envelope Square
         /// </summary>
         /// <remarks>
-        ///     envelope-square - Available in Solid, Regular, Light, Duotone
+        /// envelope-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "envelope-square")]
         EnvelopeSquare,
 
         /// <summary>
-        ///     Equals
+        /// Equals
         /// </summary>
         /// <remarks>
-        ///     equals - Available in Solid, Regular, Light, Duotone
+        /// equals - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "equals")]
         Equal,
 
         /// <summary>
-        ///     Eraser
+        /// Eraser
         /// </summary>
         /// <remarks>
-        ///     eraser - Available in Solid, Regular, Light, Duotone
+        /// eraser - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "eraser")]
         Eraser,
 
         /// <summary>
-        ///     Ethernet
+        /// Ethernet
         /// </summary>
         /// <remarks>
-        ///     ethernet - Available in Solid, Regular, Light, Duotone
+        /// ethernet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ethernet")]
         Ethernet,
 
         /// <summary>
-        ///     Euro Sign
+        /// Euro Sign
         /// </summary>
         /// <remarks>
-        ///     euro-sign - Available in Solid, Regular, Light, Duotone
+        /// euro-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "euro-sign")]
         EuroSign,
 
         /// <summary>
-        ///     Exchange
+        /// Exchange
         /// </summary>
         /// <remarks>
-        ///     exchange - Available in Solid, Regular, Light, Duotone
+        /// exchange - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "exchange")]
         Exchange,
 
         /// <summary>
-        ///     Alternate Exchange
+        /// Alternate Exchange
         /// </summary>
         /// <remarks>
-        ///     exchange-alt - Available in Solid, Regular, Light, Duotone
+        /// exchange-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "exchange-alt")]
         ExchangeAlt,
 
         /// <summary>
-        ///     Exclamation
+        /// Exclamation
         /// </summary>
         /// <remarks>
-        ///     exclamation - Available in Solid, Regular, Light, Duotone
+        /// exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "exclamation")]
         Exclamation,
 
         /// <summary>
-        ///     Exclamation Circle
+        /// Exclamation Circle
         /// </summary>
         /// <remarks>
-        ///     exclamation-circle - Available in Solid, Regular, Light, Duotone
+        /// exclamation-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "exclamation-circle")]
         ExclamationCircle,
 
         /// <summary>
-        ///     Exclamation Square
+        /// Exclamation Square
         /// </summary>
         /// <remarks>
-        ///     exclamation-square - Available in Solid, Regular, Light, Duotone
+        /// exclamation-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "exclamation-square")]
         ExclamationSquare,
 
         /// <summary>
-        ///     Exclamation Triangle
+        /// Exclamation Triangle
         /// </summary>
         /// <remarks>
-        ///     exclamation-triangle - Available in Solid, Regular, Light, Duotone
+        /// exclamation-triangle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "exclamation-triangle")]
         ExclamationTriangle,
 
         /// <summary>
-        ///     Expand
+        /// Expand
         /// </summary>
         /// <remarks>
-        ///     expand - Available in Solid, Regular, Light, Duotone
+        /// expand - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "expand")]
         Expand,
 
         /// <summary>
-        ///     Alternate Expand
+        /// Alternate Expand
         /// </summary>
         /// <remarks>
-        ///     expand-alt - Available in Solid, Regular, Light, Duotone
+        /// expand-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "expand-alt")]
         ExpandAlt,
 
         /// <summary>
-        ///     Expand Arrows
+        /// Expand Arrows
         /// </summary>
         /// <remarks>
-        ///     expand-arrows - Available in Solid, Regular, Light, Duotone
+        /// expand-arrows - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "expand-arrows")]
         ExpandArrows,
 
         /// <summary>
-        ///     Alternate Expand Arrows
+        /// Alternate Expand Arrows
         /// </summary>
         /// <remarks>
-        ///     expand-arrows-alt - Available in Solid, Regular, Light, Duotone
+        /// expand-arrows-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "expand-arrows-alt")]
         ExpandArrowsAlt,
 
         /// <summary>
-        ///     Expand Wide
+        /// Expand Wide
         /// </summary>
         /// <remarks>
-        ///     expand-wide - Available in Solid, Regular, Light, Duotone
+        /// expand-wide - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "expand-wide")]
         ExpandWide,
 
         /// <summary>
-        ///     External Link
+        /// External Link
         /// </summary>
         /// <remarks>
-        ///     external-link - Available in Solid, Regular, Light, Duotone
+        /// external-link - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "external-link")]
         ExternalLink,
 
         /// <summary>
-        ///     Alternate External Link
+        /// Alternate External Link
         /// </summary>
         /// <remarks>
-        ///     external-link-alt - Available in Solid, Regular, Light, Duotone
+        /// external-link-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "external-link-alt")]
         ExternalLinkAlt,
 
         /// <summary>
-        ///     External Link Square
+        /// External Link Square
         /// </summary>
         /// <remarks>
-        ///     external-link-square - Available in Solid, Regular, Light, Duotone
+        /// external-link-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "external-link-square")]
         ExternalLinkSquare,
 
         /// <summary>
-        ///     Alternate External Link Square
+        /// Alternate External Link Square
         /// </summary>
         /// <remarks>
-        ///     external-link-square-alt - Available in Solid, Regular, Light, Duotone
+        /// external-link-square-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "external-link-square-alt")]
         ExternalLinkSquareAlt,
 
         /// <summary>
-        ///     Eye
+        /// Eye
         /// </summary>
         /// <remarks>
-        ///     eye - Available in Solid, Regular, Light, Duotone
+        /// eye - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "eye")] Eye,
+        [FontAwesome(IconStyle.Light, "eye")]
+        Eye,
 
         /// <summary>
-        ///     Eye Dropper
+        /// Eye Dropper
         /// </summary>
         /// <remarks>
-        ///     eye-dropper - Available in Solid, Regular, Light, Duotone
+        /// eye-dropper - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "eye-dropper")]
         EyeDropper,
 
         /// <summary>
-        ///     Evil Eye
+        /// Evil Eye
         /// </summary>
         /// <remarks>
-        ///     eye-evil - Available in Solid, Regular, Light, Duotone
+        /// eye-evil - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "eye-evil")]
         EyeEvil,
 
         /// <summary>
-        ///     Eye Slash
+        /// Eye Slash
         /// </summary>
         /// <remarks>
-        ///     eye-slash - Available in Solid, Regular, Light, Duotone
+        /// eye-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "eye-slash")]
         EyeSlash,
 
         /// <summary>
-        ///     Fan
+        /// Fan
         /// </summary>
         /// <remarks>
-        ///     fan - Available in Solid, Regular, Light, Duotone
+        /// fan - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "fan")] Fan,
+        [FontAwesome(IconStyle.Light, "fan")]
+        Fan,
 
         /// <summary>
-        ///     Fan Table
+        /// Fan Table
         /// </summary>
         /// <remarks>
-        ///     fan-table - Available in Solid, Regular, Light, Duotone
+        /// fan-table - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "fan-table")]
         FanTable,
 
         /// <summary>
-        ///     Farm
+        /// Farm
         /// </summary>
         /// <remarks>
-        ///     farm - Available in Solid, Regular, Light, Duotone
+        /// farm - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "farm")] Farm,
+        [FontAwesome(IconStyle.Light, "farm")]
+        Farm,
 
         /// <summary>
-        ///     Fast Backward
+        /// Fast Backward
         /// </summary>
         /// <remarks>
-        ///     fast-backward - Available in Solid, Regular, Light, Duotone
+        /// fast-backward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "fast-backward")]
         FastBackward,
 
         /// <summary>
-        ///     Fast Forward
+        /// Fast Forward
         /// </summary>
         /// <remarks>
-        ///     fast-forward - Available in Solid, Regular, Light, Duotone
+        /// fast-forward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "fast-forward")]
         FastForward,
 
         /// <summary>
-        ///     Faucet
+        /// Faucet
         /// </summary>
         /// <remarks>
-        ///     faucet - Available in Solid, Regular, Light, Duotone
+        /// faucet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "faucet")]
         Faucet,
 
         /// <summary>
-        ///     Faucet Drip
+        /// Faucet Drip
         /// </summary>
         /// <remarks>
-        ///     faucet-drip - Available in Solid, Regular, Light, Duotone
+        /// faucet-drip - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "faucet-drip")]
         FaucetDrip,
 
         /// <summary>
-        ///     Fax
+        /// Fax
         /// </summary>
         /// <remarks>
-        ///     fax - Available in Solid, Regular, Light, Duotone
+        /// fax - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "fax")] Fax,
+        [FontAwesome(IconStyle.Light, "fax")]
+        Fax,
 
         /// <summary>
-        ///     Feather
+        /// Feather
         /// </summary>
         /// <remarks>
-        ///     feather - Available in Solid, Regular, Light, Duotone
+        /// feather - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "feather")]
         Feather,
 
         /// <summary>
-        ///     Alternate Feather
+        /// Alternate Feather
         /// </summary>
         /// <remarks>
-        ///     feather-alt - Available in Solid, Regular, Light, Duotone
+        /// feather-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "feather-alt")]
         FeatherAlt,
 
         /// <summary>
-        ///     Female
+        /// Female
         /// </summary>
         /// <remarks>
-        ///     female - Available in Solid, Regular, Light, Duotone
+        /// female - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "female")]
         Female,
 
         /// <summary>
-        ///     Field Hockey
+        /// Field Hockey
         /// </summary>
         /// <remarks>
-        ///     field-hockey - Available in Solid, Regular, Light, Duotone
+        /// field-hockey - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "field-hockey")]
         FieldHockey,
 
         /// <summary>
-        ///     Fighter Jet
+        /// Fighter Jet
         /// </summary>
         /// <remarks>
-        ///     fighter-jet - Available in Solid, Regular, Light, Duotone
+        /// fighter-jet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "fighter-jet")]
         FighterJet,
 
         /// <summary>
-        ///     File
+        /// File
         /// </summary>
         /// <remarks>
-        ///     file - Available in Solid, Regular, Light, Duotone
+        /// file - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "file")] File,
+        [FontAwesome(IconStyle.Light, "file")]
+        File,
 
         /// <summary>
-        ///     Alternate File
+        /// Alternate File
         /// </summary>
         /// <remarks>
-        ///     file-alt - Available in Solid, Regular, Light, Duotone
+        /// file-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-alt")]
         FileAlt,
 
         /// <summary>
-        ///     Archive File
+        /// Archive File
         /// </summary>
         /// <remarks>
-        ///     file-archive - Available in Solid, Regular, Light, Duotone
+        /// file-archive - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-archive")]
         FileArchive,
 
         /// <summary>
-        ///     Audio File
+        /// Audio File
         /// </summary>
         /// <remarks>
-        ///     file-audio - Available in Solid, Regular, Light, Duotone
+        /// file-audio - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-audio")]
         FileAudio,
 
         /// <summary>
-        ///     File Certificate
+        /// File Certificate
         /// </summary>
         /// <remarks>
-        ///     file-certificate - Available in Solid, Regular, Light, Duotone
+        /// file-certificate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-certificate")]
         FileCertificate,
 
         /// <summary>
-        ///     Chart Line File
+        /// Chart Line File
         /// </summary>
         /// <remarks>
-        ///     file-chart-line - Available in Solid, Regular, Light, Duotone
+        /// file-chart-line - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-chart-line")]
         FileChartLine,
 
         /// <summary>
-        ///     Pie Chart File
+        /// Pie Chart File
         /// </summary>
         /// <remarks>
-        ///     file-chart-pie - Available in Solid, Regular, Light, Duotone
+        /// file-chart-pie - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-chart-pie")]
         FileChartPie,
 
         /// <summary>
-        ///     Check File
+        /// Check File
         /// </summary>
         /// <remarks>
-        ///     file-check - Available in Solid, Regular, Light, Duotone
+        /// file-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-check")]
         FileCheck,
 
         /// <summary>
-        ///     Code File
+        /// Code File
         /// </summary>
         /// <remarks>
-        ///     file-code - Available in Solid, Regular, Light, Duotone
+        /// file-code - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-code")]
         FileCode,
 
         /// <summary>
-        ///     File Contract
+        /// File Contract
         /// </summary>
         /// <remarks>
-        ///     file-contract - Available in Solid, Regular, Light, Duotone
+        /// file-contract - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-contract")]
         FileContract,
 
         /// <summary>
-        ///     File CSV
+        /// File CSV
         /// </summary>
         /// <remarks>
-        ///     file-csv - Available in Solid, Regular, Light, Duotone
+        /// file-csv - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-csv")]
         FileCsv,
 
         /// <summary>
-        ///     File Download
+        /// File Download
         /// </summary>
         /// <remarks>
-        ///     file-download - Available in Solid, Regular, Light, Duotone
+        /// file-download - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-download")]
         FileDownload,
 
         /// <summary>
-        ///     Edit File
+        /// Edit File
         /// </summary>
         /// <remarks>
-        ///     file-edit - Available in Solid, Regular, Light, Duotone
+        /// file-edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-edit")]
         FileEdit,
 
         /// <summary>
-        ///     Excel File
+        /// Excel File
         /// </summary>
         /// <remarks>
-        ///     file-excel - Available in Solid, Regular, Light, Duotone
+        /// file-excel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-excel")]
         FileExcel,
 
         /// <summary>
-        ///     Exclamation File
+        /// Exclamation File
         /// </summary>
         /// <remarks>
-        ///     file-exclamation - Available in Solid, Regular, Light, Duotone
+        /// file-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-exclamation")]
         FileExclamation,
 
         /// <summary>
-        ///     File Export
+        /// File Export
         /// </summary>
         /// <remarks>
-        ///     file-export - Available in Solid, Regular, Light, Duotone
+        /// file-export - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-export")]
         FileExport,
 
         /// <summary>
-        ///     Image File
+        /// Image File
         /// </summary>
         /// <remarks>
-        ///     file-image - Available in Solid, Regular, Light, Duotone
+        /// file-image - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-image")]
         FileImage,
 
         /// <summary>
-        ///     File Import
+        /// File Import
         /// </summary>
         /// <remarks>
-        ///     file-import - Available in Solid, Regular, Light, Duotone
+        /// file-import - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-import")]
         FileImport,
 
         /// <summary>
-        ///     File Invoice
+        /// File Invoice
         /// </summary>
         /// <remarks>
-        ///     file-invoice - Available in Solid, Regular, Light, Duotone
+        /// file-invoice - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-invoice")]
         FileInvoice,
 
         /// <summary>
-        ///     File Invoice With US Dollar
+        /// File Invoice With US Dollar
         /// </summary>
         /// <remarks>
-        ///     file-invoice-dollar - Available in Solid, Regular, Light, Duotone
+        /// file-invoice-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-invoice-dollar")]
         FileInvoiceDollar,
 
         /// <summary>
-        ///     Medical File
+        /// Medical File
         /// </summary>
         /// <remarks>
-        ///     file-medical - Available in Solid, Regular, Light, Duotone
+        /// file-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-medical")]
         FileMedical,
 
         /// <summary>
-        ///     Alternate Medical File
+        /// Alternate Medical File
         /// </summary>
         /// <remarks>
-        ///     file-medical-alt - Available in Solid, Regular, Light, Duotone
+        /// file-medical-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-medical-alt")]
         FileMedicalAlt,
 
         /// <summary>
-        ///     Minus File
+        /// Minus File
         /// </summary>
         /// <remarks>
-        ///     file-minus - Available in Solid, Regular, Light, Duotone
+        /// file-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-minus")]
         FileMinus,
 
         /// <summary>
-        ///     File Music
+        /// File Music
         /// </summary>
         /// <remarks>
-        ///     file-music - Available in Solid, Regular, Light, Duotone
+        /// file-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-music")]
         FileMusic,
 
         /// <summary>
-        ///     PDF File
+        /// PDF File
         /// </summary>
         /// <remarks>
-        ///     file-pdf - Available in Solid, Regular, Light, Duotone
+        /// file-pdf - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-pdf")]
         FilePdf,
 
         /// <summary>
-        ///     Plus File
+        /// Plus File
         /// </summary>
         /// <remarks>
-        ///     file-plus - Available in Solid, Regular, Light, Duotone
+        /// file-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-plus")]
         FilePlus,
 
         /// <summary>
-        ///     Powerpoint File
+        /// Powerpoint File
         /// </summary>
         /// <remarks>
-        ///     file-powerpoint - Available in Solid, Regular, Light, Duotone
+        /// file-powerpoint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-powerpoint")]
         FilePowerpoint,
 
         /// <summary>
-        ///     File Prescription
+        /// File Prescription
         /// </summary>
         /// <remarks>
-        ///     file-prescription - Available in Solid, Regular, Light, Duotone
+        /// file-prescription - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-prescription")]
         FilePrescription,
 
         /// <summary>
-        ///     File Search
+        /// File Search
         /// </summary>
         /// <remarks>
-        ///     file-search - Available in Solid, Regular, Light, Duotone
+        /// file-search - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-search")]
         FileSearch,
 
         /// <summary>
-        ///     File Signature
+        /// File Signature
         /// </summary>
         /// <remarks>
-        ///     file-signature - Available in Solid, Regular, Light, Duotone
+        /// file-signature - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-signature")]
         FileSignature,
 
         /// <summary>
-        ///     Spreadsheet File
+        /// Spreadsheet File
         /// </summary>
         /// <remarks>
-        ///     file-spreadsheet - Available in Solid, Regular, Light, Duotone
+        /// file-spreadsheet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-spreadsheet")]
         FileSpreadsheet,
 
         /// <summary>
-        ///     Times File
+        /// Times File
         /// </summary>
         /// <remarks>
-        ///     file-times - Available in Solid, Regular, Light, Duotone
+        /// file-times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-times")]
         FileTimes,
 
         /// <summary>
-        ///     File Upload
+        /// File Upload
         /// </summary>
         /// <remarks>
-        ///     file-upload - Available in Solid, Regular, Light, Duotone
+        /// file-upload - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-upload")]
         FileUpload,
 
         /// <summary>
-        ///     User File
+        /// User File
         /// </summary>
         /// <remarks>
-        ///     file-user - Available in Solid, Regular, Light, Duotone
+        /// file-user - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-user")]
         FileUser,
 
         /// <summary>
-        ///     Video File
+        /// Video File
         /// </summary>
         /// <remarks>
-        ///     file-video - Available in Solid, Regular, Light, Duotone
+        /// file-video - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-video")]
         FileVideo,
 
         /// <summary>
-        ///     Word File
+        /// Word File
         /// </summary>
         /// <remarks>
-        ///     file-word - Available in Solid, Regular, Light, Duotone
+        /// file-word - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "file-word")]
         FileWord,
 
         /// <summary>
-        ///     Medical Files
+        /// Medical Files
         /// </summary>
         /// <remarks>
-        ///     files-medical - Available in Solid, Regular, Light, Duotone
+        /// files-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "files-medical")]
         FilesMedical,
 
         /// <summary>
-        ///     Fill
+        /// Fill
         /// </summary>
         /// <remarks>
-        ///     fill - Available in Solid, Regular, Light, Duotone
+        /// fill - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "fill")] Fill,
+        [FontAwesome(IconStyle.Light, "fill")]
+        Fill,
 
         /// <summary>
-        ///     Fill Drip
+        /// Fill Drip
         /// </summary>
         /// <remarks>
-        ///     fill-drip - Available in Solid, Regular, Light, Duotone
+        /// fill-drip - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "fill-drip")]
         FillDrip,
 
         /// <summary>
-        ///     Film
+        /// Film
         /// </summary>
         /// <remarks>
-        ///     film - Available in Solid, Regular, Light, Duotone
+        /// film - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "film")] Film,
+        [FontAwesome(IconStyle.Light, "film")]
+        Film,
 
         /// <summary>
-        ///     Alternate Film
+        /// Alternate Film
         /// </summary>
         /// <remarks>
-        ///     film-alt - Available in Solid, Regular, Light, Duotone
+        /// film-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "film-alt")]
         FilmAlt,
 
         /// <summary>
-        ///     Film Canister
+        /// Film Canister
         /// </summary>
         /// <remarks>
-        ///     film-canister - Available in Solid, Regular, Light, Duotone
+        /// film-canister - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "film-canister")]
         FilmCanister,
 
         /// <summary>
-        ///     Filter
+        /// Filter
         /// </summary>
         /// <remarks>
-        ///     filter - Available in Solid, Regular, Light, Duotone
+        /// filter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "filter")]
         Filter,
 
         /// <summary>
-        ///     Fingerprint
+        /// Fingerprint
         /// </summary>
         /// <remarks>
-        ///     fingerprint - Available in Solid, Regular, Light, Duotone
+        /// fingerprint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "fingerprint")]
         Fingerprint,
 
         /// <summary>
-        ///     Fire
+        /// Fire
         /// </summary>
         /// <remarks>
-        ///     fire - Available in Solid, Regular, Light, Duotone
+        /// fire - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "fire")] Fire,
+        [FontAwesome(IconStyle.Light, "fire")]
+        Fire,
 
         /// <summary>
-        ///     Alternate Fire
+        /// Alternate Fire
         /// </summary>
         /// <remarks>
-        ///     fire-alt - Available in Solid, Regular, Light, Duotone
+        /// fire-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "fire-alt")]
         FireAlt,
 
         /// <summary>
-        ///     Fire Extinguisher
+        /// Fire Extinguisher
         /// </summary>
         /// <remarks>
-        ///     fire-extinguisher - Available in Solid, Regular, Light, Duotone
+        /// fire-extinguisher - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "fire-extinguisher")]
         FireExtinguisher,
 
         /// <summary>
-        ///     Fire and Smoke
+        /// Fire and Smoke
         /// </summary>
         /// <remarks>
-        ///     fire-smoke - Available in Solid, Regular, Light, Duotone
+        /// fire-smoke - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "fire-smoke")]
         FireSmoke,
 
         /// <summary>
-        ///     Fireplace
+        /// Fireplace
         /// </summary>
         /// <remarks>
-        ///     fireplace - Available in Solid, Regular, Light, Duotone
+        /// fireplace - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "fireplace")]
         Fireplace,
 
         /// <summary>
-        ///     First Aid
+        /// First Aid
         /// </summary>
         /// <remarks>
-        ///     first-aid - Available in Solid, Regular, Light, Duotone
+        /// first-aid - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "first-aid")]
         FirstAid,
 
         /// <summary>
-        ///     Fish
+        /// Fish
         /// </summary>
         /// <remarks>
-        ///     fish - Available in Solid, Regular, Light, Duotone
+        /// fish - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "fish")] Fish,
+        [FontAwesome(IconStyle.Light, "fish")]
+        Fish,
 
         /// <summary>
-        ///     Cooked Fish
+        /// Cooked Fish
         /// </summary>
         /// <remarks>
-        ///     fish-cooked - Available in Solid, Regular, Light, Duotone
+        /// fish-cooked - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "fish-cooked")]
         FishCooked,
 
         /// <summary>
-        ///     Raised Fist
+        /// Raised Fist
         /// </summary>
         /// <remarks>
-        ///     fist-raised - Available in Solid, Regular, Light, Duotone
+        /// fist-raised - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "fist-raised")]
         FistRaised,
 
         /// <summary>
-        ///     Flag
+        /// Flag
         /// </summary>
         /// <remarks>
-        ///     flag - Available in Solid, Regular, Light, Duotone
+        /// flag - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "flag")] Flag,
+        [FontAwesome(IconStyle.Light, "flag")]
+        Flag,
 
         /// <summary>
-        ///     Alternate Flag
+        /// Alternate Flag
         /// </summary>
         /// <remarks>
-        ///     flag-alt - Available in Solid, Regular, Light, Duotone
+        /// flag-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "flag-alt")]
         FlagAlt,
 
         /// <summary>
-        ///     Flag Checkered
+        /// Flag Checkered
         /// </summary>
         /// <remarks>
-        ///     flag-checkered - Available in Solid, Regular, Light, Duotone
+        /// flag-checkered - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "flag-checkered")]
         FlagCheckered,
 
         /// <summary>
-        ///     United States of America Flag
+        /// United States of America Flag
         /// </summary>
         /// <remarks>
-        ///     flag-usa - Available in Solid, Regular, Light, Duotone
+        /// flag-usa - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "flag-usa")]
         FlagUsa,
 
         /// <summary>
-        ///     Flame
+        /// Flame
         /// </summary>
         /// <remarks>
-        ///     flame - Available in Solid, Regular, Light, Duotone
+        /// flame - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "flame")]
         Flame,
 
         /// <summary>
-        ///     Flashlight
+        /// Flashlight
         /// </summary>
         /// <remarks>
-        ///     flashlight - Available in Solid, Regular, Light, Duotone
+        /// flashlight - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "flashlight")]
         Flashlight,
 
         /// <summary>
-        ///     Flask
+        /// Flask
         /// </summary>
         /// <remarks>
-        ///     flask - Available in Solid, Regular, Light, Duotone
+        /// flask - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "flask")]
         Flask,
 
         /// <summary>
-        ///     Flask Poison
+        /// Flask Poison
         /// </summary>
         /// <remarks>
-        ///     flask-poison - Available in Solid, Regular, Light, Duotone
+        /// flask-poison - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "flask-poison")]
         FlaskPoison,
 
         /// <summary>
-        ///     Flask Potion
+        /// Flask Potion
         /// </summary>
         /// <remarks>
-        ///     flask-potion - Available in Solid, Regular, Light, Duotone
+        /// flask-potion - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "flask-potion")]
         FlaskPotion,
 
         /// <summary>
-        ///     Flower
+        /// Flower
         /// </summary>
         /// <remarks>
-        ///     flower - Available in Solid, Regular, Light, Duotone
+        /// flower - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "flower")]
         Flower,
 
         /// <summary>
-        ///     Flower Daffodil
+        /// Flower Daffodil
         /// </summary>
         /// <remarks>
-        ///     flower-daffodil - Available in Solid, Regular, Light, Duotone
+        /// flower-daffodil - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "flower-daffodil")]
         FlowerDaffodil,
 
         /// <summary>
-        ///     Flower Tulip
+        /// Flower Tulip
         /// </summary>
         /// <remarks>
-        ///     flower-tulip - Available in Solid, Regular, Light, Duotone
+        /// flower-tulip - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "flower-tulip")]
         FlowerTulip,
 
         /// <summary>
-        ///     Flushed Face
+        /// Flushed Face
         /// </summary>
         /// <remarks>
-        ///     flushed - Available in Solid, Regular, Light, Duotone
+        /// flushed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "flushed")]
         Flushed,
 
         /// <summary>
-        ///     Flute
+        /// Flute
         /// </summary>
         /// <remarks>
-        ///     flute - Available in Solid, Regular, Light, Duotone
+        /// flute - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "flute")]
         Flute,
 
         /// <summary>
-        ///     Flux Capacitor
+        /// Flux Capacitor
         /// </summary>
         /// <remarks>
-        ///     flux-capacitor - Available in Solid, Regular, Light, Duotone
+        /// flux-capacitor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "flux-capacitor")]
         FluxCapacitor,
 
         /// <summary>
-        ///     Fog
+        /// Fog
         /// </summary>
         /// <remarks>
-        ///     fog - Available in Solid, Regular, Light, Duotone
+        /// fog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "fog")] Fog,
+        [FontAwesome(IconStyle.Light, "fog")]
+        Fog,
 
         /// <summary>
-        ///     Folder
+        /// Folder
         /// </summary>
         /// <remarks>
-        ///     folder - Available in Solid, Regular, Light, Duotone
+        /// folder - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "folder")]
         Folder,
 
         /// <summary>
-        ///     Folder Download
+        /// Folder Download
         /// </summary>
         /// <remarks>
-        ///     folder-download - Available in Light, Regular, Solid, Duotone
+        /// folder-download - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "folder-download")]
         FolderDownload,
 
         /// <summary>
-        ///     Folder Minus
+        /// Folder Minus
         /// </summary>
         /// <remarks>
-        ///     folder-minus - Available in Solid, Regular, Light, Duotone
+        /// folder-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "folder-minus")]
         FolderMinus,
 
         /// <summary>
-        ///     Folder Open
+        /// Folder Open
         /// </summary>
         /// <remarks>
-        ///     folder-open - Available in Solid, Regular, Light, Duotone
+        /// folder-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "folder-open")]
         FolderOpen,
 
         /// <summary>
-        ///     Folder Plus
+        /// Folder Plus
         /// </summary>
         /// <remarks>
-        ///     folder-plus - Available in Solid, Regular, Light, Duotone
+        /// folder-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "folder-plus")]
         FolderPlus,
 
         /// <summary>
-        ///     Folder Times
+        /// Folder Times
         /// </summary>
         /// <remarks>
-        ///     folder-times - Available in Solid, Regular, Light, Duotone
+        /// folder-times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "folder-times")]
         FolderTimes,
 
         /// <summary>
-        ///     Folder Tree
+        /// Folder Tree
         /// </summary>
         /// <remarks>
-        ///     folder-tree - Available in Solid, Regular, Light, Duotone
+        /// folder-tree - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "folder-tree")]
         FolderTree,
 
         /// <summary>
-        ///     Folder Upload
+        /// Folder Upload
         /// </summary>
         /// <remarks>
-        ///     folder-upload - Available in Light, Regular, Solid, Duotone
+        /// folder-upload - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "folder-upload")]
         FolderUpload,
 
         /// <summary>
-        ///     Folders
+        /// Folders
         /// </summary>
         /// <remarks>
-        ///     folders - Available in Solid, Regular, Light, Duotone
+        /// folders - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "folders")]
         Folders,
 
         /// <summary>
-        ///     Font
+        /// Font
         /// </summary>
         /// <remarks>
-        ///     font - Available in Solid, Regular, Light, Duotone
+        /// font - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "font")] Font,
+        [FontAwesome(IconStyle.Light, "font")]
+        Font,
 
         /// <summary>
-        ///     Font Awesome Full Logo
+        /// Font Awesome Full Logo
         /// </summary>
         /// <remarks>
-        ///     font-awesome-logo-full - Available in Solid, Regular, Light, Brands, Duotone
+        /// font-awesome-logo-full - Available in Solid, Regular, Light, Brands, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "font-awesome-logo-full")]
         FontAwesomeLogoFull,
 
         /// <summary>
-        ///     Font Case
+        /// Font Case
         /// </summary>
         /// <remarks>
-        ///     font-case - Available in Solid, Regular, Light, Duotone
+        /// font-case - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "font-case")]
         FontCase,
 
         /// <summary>
-        ///     Football Ball
+        /// Football Ball
         /// </summary>
         /// <remarks>
-        ///     football-ball - Available in Solid, Regular, Light, Duotone
+        /// football-ball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "football-ball")]
         FootballBall,
 
         /// <summary>
-        ///     Football Helmet
+        /// Football Helmet
         /// </summary>
         /// <remarks>
-        ///     football-helmet - Available in Solid, Regular, Light, Duotone
+        /// football-helmet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "football-helmet")]
         FootballHelmet,
 
         /// <summary>
-        ///     Forklift
+        /// Forklift
         /// </summary>
         /// <remarks>
-        ///     forklift - Available in Solid, Regular, Light, Duotone
+        /// forklift - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "forklift")]
         Forklift,
 
         /// <summary>
-        ///     Forward
+        /// Forward
         /// </summary>
         /// <remarks>
-        ///     forward - Available in Solid, Regular, Light, Duotone
+        /// forward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "forward")]
         Forward,
 
         /// <summary>
-        ///     Fragile
+        /// Fragile
         /// </summary>
         /// <remarks>
-        ///     fragile - Available in Solid, Regular, Light, Duotone
+        /// fragile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "fragile")]
         Fragile,
 
         /// <summary>
-        ///     French Fries
+        /// French Fries
         /// </summary>
         /// <remarks>
-        ///     french-fries - Available in Solid, Regular, Light, Duotone
+        /// french-fries - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "french-fries")]
         FrenchFries,
 
         /// <summary>
-        ///     Frog
+        /// Frog
         /// </summary>
         /// <remarks>
-        ///     frog - Available in Solid, Regular, Light, Duotone
+        /// frog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "frog")] Frog,
+        [FontAwesome(IconStyle.Light, "frog")]
+        Frog,
 
         /// <summary>
-        ///     Frosty Head
+        /// Frosty Head
         /// </summary>
         /// <remarks>
-        ///     frosty-head - Available in Solid, Regular, Light, Duotone
+        /// frosty-head - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "frosty-head")]
         FrostyHead,
 
         /// <summary>
-        ///     Frowning Face
+        /// Frowning Face
         /// </summary>
         /// <remarks>
-        ///     frown - Available in Solid, Regular, Light, Duotone
+        /// frown - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "frown")]
         Frown,
 
         /// <summary>
-        ///     Frowning Face With Open Mouth
+        /// Frowning Face With Open Mouth
         /// </summary>
         /// <remarks>
-        ///     frown-open - Available in Solid, Regular, Light, Duotone
+        /// frown-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "frown-open")]
         FrownOpen,
 
         /// <summary>
-        ///     Function
+        /// Function
         /// </summary>
         /// <remarks>
-        ///     function - Available in Solid, Regular, Light, Duotone
+        /// function - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "function")]
         Function,
 
         /// <summary>
-        ///     Funnel Dollar
+        /// Funnel Dollar
         /// </summary>
         /// <remarks>
-        ///     funnel-dollar - Available in Solid, Regular, Light, Duotone
+        /// funnel-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "funnel-dollar")]
         FunnelDollar,
 
         /// <summary>
-        ///     Futbol
+        /// Futbol
         /// </summary>
         /// <remarks>
-        ///     futbol - Available in Solid, Regular, Light, Duotone
+        /// futbol - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "futbol")]
         Futbol,
 
         /// <summary>
-        ///     Galaxy
+        /// Galaxy
         /// </summary>
         /// <remarks>
-        ///     galaxy - Available in Solid, Regular, Light, Duotone
+        /// galaxy - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "galaxy")]
         Galaxy,
 
         /// <summary>
-        ///     Game Board
+        /// Game Board
         /// </summary>
         /// <remarks>
-        ///     game-board - Available in Solid, Regular, Light, Duotone
+        /// game-board - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "game-board")]
         GameBoard,
 
         /// <summary>
-        ///     Alternate Game Board
+        /// Alternate Game Board
         /// </summary>
         /// <remarks>
-        ///     game-board-alt - Available in Solid, Regular, Light, Duotone
+        /// game-board-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "game-board-alt")]
         GameBoardAlt,
 
         /// <summary>
-        ///     Handheld Game Console
+        /// Handheld Game Console
         /// </summary>
         /// <remarks>
-        ///     game-console-handheld - Available in Solid, Regular, Light, Duotone
+        /// game-console-handheld - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "game-console-handheld")]
         GameConsoleHandheld,
 
         /// <summary>
-        ///     Gamepad
+        /// Gamepad
         /// </summary>
         /// <remarks>
-        ///     gamepad - Available in Solid, Regular, Light, Duotone
+        /// gamepad - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "gamepad")]
         Gamepad,
 
         /// <summary>
-        ///     Alternate Gamepad
+        /// Alternate Gamepad
         /// </summary>
         /// <remarks>
-        ///     gamepad-alt - Available in Solid, Regular, Light, Duotone
+        /// gamepad-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "gamepad-alt")]
         GamepadAlt,
 
         /// <summary>
-        ///     Garage
+        /// Garage
         /// </summary>
         /// <remarks>
-        ///     garage - Available in Solid, Regular, Light, Duotone
+        /// garage - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "garage")]
         Garage,
 
         /// <summary>
-        ///     Garage Car
+        /// Garage Car
         /// </summary>
         /// <remarks>
-        ///     garage-car - Available in Solid, Regular, Light, Duotone
+        /// garage-car - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "garage-car")]
         GarageCar,
 
         /// <summary>
-        ///     Garage Open
+        /// Garage Open
         /// </summary>
         /// <remarks>
-        ///     garage-open - Available in Solid, Regular, Light, Duotone
+        /// garage-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "garage-open")]
         GarageOpen,
 
         /// <summary>
-        ///     Gas Pump
+        /// Gas Pump
         /// </summary>
         /// <remarks>
-        ///     gas-pump - Available in Solid, Regular, Light, Duotone
+        /// gas-pump - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "gas-pump")]
         GasPump,
 
         /// <summary>
-        ///     Gas Pump Slash
+        /// Gas Pump Slash
         /// </summary>
         /// <remarks>
-        ///     gas-pump-slash - Available in Solid, Regular, Light, Duotone
+        /// gas-pump-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "gas-pump-slash")]
         GasPumpSlash,
 
         /// <summary>
-        ///     Gavel
+        /// Gavel
         /// </summary>
         /// <remarks>
-        ///     gavel - Available in Solid, Regular, Light, Duotone
+        /// gavel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "gavel")]
         Gavel,
 
         /// <summary>
-        ///     Gem
+        /// Gem
         /// </summary>
         /// <remarks>
-        ///     gem - Available in Solid, Regular, Light, Duotone
+        /// gem - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "gem")] Gem,
+        [FontAwesome(IconStyle.Light, "gem")]
+        Gem,
 
         /// <summary>
-        ///     Genderless
+        /// Genderless
         /// </summary>
         /// <remarks>
-        ///     genderless - Available in Solid, Regular, Light, Duotone
+        /// genderless - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "genderless")]
         Genderless,
 
         /// <summary>
-        ///     Ghost
+        /// Ghost
         /// </summary>
         /// <remarks>
-        ///     ghost - Available in Solid, Regular, Light, Duotone
+        /// ghost - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ghost")]
         Ghost,
 
         /// <summary>
-        ///     Gift
+        /// Gift
         /// </summary>
         /// <remarks>
-        ///     gift - Available in Solid, Regular, Light, Duotone
+        /// gift - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "gift")] Gift,
+        [FontAwesome(IconStyle.Light, "gift")]
+        Gift,
 
         /// <summary>
-        ///     Gift Card
+        /// Gift Card
         /// </summary>
         /// <remarks>
-        ///     gift-card - Available in Solid, Regular, Light, Duotone
+        /// gift-card - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "gift-card")]
         GiftCard,
 
         /// <summary>
-        ///     Gifts
+        /// Gifts
         /// </summary>
         /// <remarks>
-        ///     gifts - Available in Solid, Regular, Light, Duotone
+        /// gifts - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "gifts")]
         Gifts,
 
         /// <summary>
-        ///     Gingerbread Man
+        /// Gingerbread Man
         /// </summary>
         /// <remarks>
-        ///     gingerbread-man - Available in Solid, Regular, Light, Duotone
+        /// gingerbread-man - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "gingerbread-man")]
         GingerbreadMan,
 
         /// <summary>
-        ///     Glass
+        /// Glass
         /// </summary>
         /// <remarks>
-        ///     glass - Available in Solid, Regular, Light, Duotone
+        /// glass - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "glass")]
         Glass,
 
         /// <summary>
-        ///     Glass Champagne
+        /// Glass Champagne
         /// </summary>
         /// <remarks>
-        ///     glass-champagne - Available in Solid, Regular, Light, Duotone
+        /// glass-champagne - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "glass-champagne")]
         GlassChampagne,
 
         /// <summary>
-        ///     Glass Cheers
+        /// Glass Cheers
         /// </summary>
         /// <remarks>
-        ///     glass-cheers - Available in Solid, Regular, Light, Duotone
+        /// glass-cheers - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "glass-cheers")]
         GlassCheers,
 
         /// <summary>
-        ///     Glass Citrus
+        /// Glass Citrus
         /// </summary>
         /// <remarks>
-        ///     glass-citrus - Available in Solid, Regular, Light, Duotone
+        /// glass-citrus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "glass-citrus")]
         GlassCitrus,
 
         /// <summary>
-        ///     Martini Glass
+        /// Martini Glass
         /// </summary>
         /// <remarks>
-        ///     glass-martini - Available in Solid, Regular, Light, Duotone
+        /// glass-martini - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "glass-martini")]
         GlassMartini,
 
         /// <summary>
-        ///     Alternate Glass Martini
+        /// Alternate Glass Martini
         /// </summary>
         /// <remarks>
-        ///     glass-martini-alt - Available in Solid, Regular, Light, Duotone
+        /// glass-martini-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "glass-martini-alt")]
         GlassMartiniAlt,
 
         /// <summary>
-        ///     Glass Whiskey
+        /// Glass Whiskey
         /// </summary>
         /// <remarks>
-        ///     glass-whiskey - Available in Solid, Regular, Light, Duotone
+        /// glass-whiskey - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "glass-whiskey")]
         GlassWhiskey,
 
         /// <summary>
-        ///     Glass Whiskey Rocks
+        /// Glass Whiskey Rocks
         /// </summary>
         /// <remarks>
-        ///     glass-whiskey-rocks - Available in Solid, Regular, Light, Duotone
+        /// glass-whiskey-rocks - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "glass-whiskey-rocks")]
         GlassWhiskeyRocks,
 
         /// <summary>
-        ///     Glasses
+        /// Glasses
         /// </summary>
         /// <remarks>
-        ///     glasses - Available in Solid, Regular, Light, Duotone
+        /// glasses - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "glasses")]
         Glasses,
 
         /// <summary>
-        ///     Alternate Glasses
+        /// Alternate Glasses
         /// </summary>
         /// <remarks>
-        ///     glasses-alt - Available in Solid, Regular, Light, Duotone
+        /// glasses-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "glasses-alt")]
         GlassesAlt,
 
         /// <summary>
-        ///     Globe
+        /// Globe
         /// </summary>
         /// <remarks>
-        ///     globe - Available in Solid, Regular, Light, Duotone
+        /// globe - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "globe")]
         Globe,
 
         /// <summary>
-        ///     Globe With Africa Shown
+        /// Globe With Africa Shown
         /// </summary>
         /// <remarks>
-        ///     globe-africa - Available in Solid, Regular, Light, Duotone
+        /// globe-africa - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "globe-africa")]
         GlobeAfrica,
 
         /// <summary>
-        ///     Globe With Americas Shown
+        /// Globe With Americas Shown
         /// </summary>
         /// <remarks>
-        ///     globe-americas - Available in Solid, Regular, Light, Duotone
+        /// globe-americas - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "globe-americas")]
         GlobeAmericas,
 
         /// <summary>
-        ///     Globe With Asia Shown
+        /// Globe With Asia Shown
         /// </summary>
         /// <remarks>
-        ///     globe-asia - Available in Solid, Regular, Light, Duotone
+        /// globe-asia - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "globe-asia")]
         GlobeAsia,
 
         /// <summary>
-        ///     Globe With Europe Shown
+        /// Globe With Europe Shown
         /// </summary>
         /// <remarks>
-        ///     globe-europe - Available in Solid, Regular, Light, Duotone
+        /// globe-europe - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "globe-europe")]
         GlobeEurope,
 
         /// <summary>
-        ///     Globe Snow
+        /// Globe Snow
         /// </summary>
         /// <remarks>
-        ///     globe-snow - Available in Solid, Regular, Light, Duotone
+        /// globe-snow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "globe-snow")]
         GlobeSnow,
 
         /// <summary>
-        ///     Globe Stand
+        /// Globe Stand
         /// </summary>
         /// <remarks>
-        ///     globe-stand - Available in Solid, Regular, Light, Duotone
+        /// globe-stand - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "globe-stand")]
         GlobeStand,
 
         /// <summary>
-        ///     Golf Ball
+        /// Golf Ball
         /// </summary>
         /// <remarks>
-        ///     golf-ball - Available in Solid, Regular, Light, Duotone
+        /// golf-ball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "golf-ball")]
         GolfBall,
 
         /// <summary>
-        ///     Golf Club
+        /// Golf Club
         /// </summary>
         /// <remarks>
-        ///     golf-club - Available in Solid, Regular, Light, Duotone
+        /// golf-club - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "golf-club")]
         GolfClub,
 
         /// <summary>
-        ///     Gopuram
+        /// Gopuram
         /// </summary>
         /// <remarks>
-        ///     gopuram - Available in Solid, Regular, Light, Duotone
+        /// gopuram - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "gopuram")]
         Gopuram,
 
         /// <summary>
-        ///     Graduation Cap
+        /// Graduation Cap
         /// </summary>
         /// <remarks>
-        ///     graduation-cap - Available in Solid, Regular, Light, Duotone
+        /// graduation-cap - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "graduation-cap")]
         GraduationCap,
 
         /// <summary>
-        ///     Gramophone
+        /// Gramophone
         /// </summary>
         /// <remarks>
-        ///     gramophone - Available in Solid, Regular, Light, Duotone
+        /// gramophone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "gramophone")]
         Gramophone,
 
         /// <summary>
-        ///     Greater Than
+        /// Greater Than
         /// </summary>
         /// <remarks>
-        ///     greater-than - Available in Solid, Regular, Light, Duotone
+        /// greater-than - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "greater-than")]
         GreaterThan,
 
         /// <summary>
-        ///     Greater Than Equal to
+        /// Greater Than Equal to
         /// </summary>
         /// <remarks>
-        ///     greater-than-equal - Available in Solid, Regular, Light, Duotone
+        /// greater-than-equal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "greater-than-equal")]
         GreaterThanEqual,
 
         /// <summary>
-        ///     Grimacing Face
+        /// Grimacing Face
         /// </summary>
         /// <remarks>
-        ///     grimace - Available in Solid, Regular, Light, Duotone
+        /// grimace - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grimace")]
         Grimace,
 
         /// <summary>
-        ///     Grinning Face
+        /// Grinning Face
         /// </summary>
         /// <remarks>
-        ///     grin - Available in Solid, Regular, Light, Duotone
+        /// grin - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "grin")] Grin,
+        [FontAwesome(IconStyle.Light, "grin")]
+        Grin,
 
         /// <summary>
-        ///     Alternate Grinning Face
+        /// Alternate Grinning Face
         /// </summary>
         /// <remarks>
-        ///     grin-alt - Available in Solid, Regular, Light, Duotone
+        /// grin-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grin-alt")]
         GrinAlt,
 
         /// <summary>
-        ///     Grinning Face With Smiling Eyes
+        /// Grinning Face With Smiling Eyes
         /// </summary>
         /// <remarks>
-        ///     grin-beam - Available in Solid, Regular, Light, Duotone
+        /// grin-beam - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grin-beam")]
         GrinBeam,
 
         /// <summary>
-        ///     Grinning Face With Sweat
+        /// Grinning Face With Sweat
         /// </summary>
         /// <remarks>
-        ///     grin-beam-sweat - Available in Solid, Regular, Light, Duotone
+        /// grin-beam-sweat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grin-beam-sweat")]
         GrinBeamSweat,
 
         /// <summary>
-        ///     Smiling Face With Heart Eyes
+        /// Smiling Face With Heart Eyes
         /// </summary>
         /// <remarks>
-        ///     grin-hearts - Available in Solid, Regular, Light, Duotone
+        /// grin-hearts - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grin-hearts")]
         GrinHearts,
 
         /// <summary>
-        ///     Grinning Squinting Face
+        /// Grinning Squinting Face
         /// </summary>
         /// <remarks>
-        ///     grin-squint - Available in Solid, Regular, Light, Duotone
+        /// grin-squint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grin-squint")]
         GrinSquint,
 
         /// <summary>
-        ///     Rolling on the Floor Laughing
+        /// Rolling on the Floor Laughing
         /// </summary>
         /// <remarks>
-        ///     grin-squint-tears - Available in Solid, Regular, Light, Duotone
+        /// grin-squint-tears - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grin-squint-tears")]
         GrinSquintTears,
 
         /// <summary>
-        ///     Star Struck
+        /// Star Struck
         /// </summary>
         /// <remarks>
-        ///     grin-stars - Available in Solid, Regular, Light, Duotone
+        /// grin-stars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grin-stars")]
         GrinStars,
 
         /// <summary>
-        ///     Face With Tears of Joy
+        /// Face With Tears of Joy
         /// </summary>
         /// <remarks>
-        ///     grin-tears - Available in Solid, Regular, Light, Duotone
+        /// grin-tears - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grin-tears")]
         GrinTears,
 
         /// <summary>
-        ///     Face With Tongue
+        /// Face With Tongue
         /// </summary>
         /// <remarks>
-        ///     grin-tongue - Available in Solid, Regular, Light, Duotone
+        /// grin-tongue - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grin-tongue")]
         GrinTongue,
 
         /// <summary>
-        ///     Squinting Face With Tongue
+        /// Squinting Face With Tongue
         /// </summary>
         /// <remarks>
-        ///     grin-tongue-squint - Available in Solid, Regular, Light, Duotone
+        /// grin-tongue-squint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grin-tongue-squint")]
         GrinTongueSquint,
 
         /// <summary>
-        ///     Winking Face With Tongue
+        /// Winking Face With Tongue
         /// </summary>
         /// <remarks>
-        ///     grin-tongue-wink - Available in Solid, Regular, Light, Duotone
+        /// grin-tongue-wink - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grin-tongue-wink")]
         GrinTongueWink,
 
         /// <summary>
-        ///     Grinning Winking Face
+        /// Grinning Winking Face
         /// </summary>
         /// <remarks>
-        ///     grin-wink - Available in Solid, Regular, Light, Duotone
+        /// grin-wink - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grin-wink")]
         GrinWink,
 
         /// <summary>
-        ///     Grip Horizontal
+        /// Grip Horizontal
         /// </summary>
         /// <remarks>
-        ///     grip-horizontal - Available in Solid, Regular, Light, Duotone
+        /// grip-horizontal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grip-horizontal")]
         GripHorizontal,
 
         /// <summary>
-        ///     Grip Lines
+        /// Grip Lines
         /// </summary>
         /// <remarks>
-        ///     grip-lines - Available in Solid, Regular, Light, Duotone
+        /// grip-lines - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grip-lines")]
         GripLines,
 
         /// <summary>
-        ///     Grip Lines Vertical
+        /// Grip Lines Vertical
         /// </summary>
         /// <remarks>
-        ///     grip-lines-vertical - Available in Solid, Regular, Light, Duotone
+        /// grip-lines-vertical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grip-lines-vertical")]
         GripLinesVertical,
 
         /// <summary>
-        ///     Grip Vertical
+        /// Grip Vertical
         /// </summary>
         /// <remarks>
-        ///     grip-vertical - Available in Solid, Regular, Light, Duotone
+        /// grip-vertical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "grip-vertical")]
         GripVertical,
 
         /// <summary>
-        ///     Guitar
+        /// Guitar
         /// </summary>
         /// <remarks>
-        ///     guitar - Available in Solid, Regular, Light, Duotone
+        /// guitar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "guitar")]
         Guitar,
 
         /// <summary>
-        ///     Guitar Electric
+        /// Guitar Electric
         /// </summary>
         /// <remarks>
-        ///     guitar-electric - Available in Solid, Regular, Light, Duotone
+        /// guitar-electric - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "guitar-electric")]
         GuitarElectric,
 
         /// <summary>
-        ///     Guitars
+        /// Guitars
         /// </summary>
         /// <remarks>
-        ///     guitars - Available in Solid, Regular, Light, Duotone
+        /// guitars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "guitars")]
         Guitars,
 
         /// <summary>
-        ///     H Square
+        /// H Square
         /// </summary>
         /// <remarks>
-        ///     h-square - Available in Solid, Regular, Light, Duotone
+        /// h-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "h-square")]
         HSquare,
 
         /// <summary>
-        ///     H 1 Heading
+        /// H 1 Heading
         /// </summary>
         /// <remarks>
-        ///     h1 - Available in Solid, Regular, Light, Duotone
+        /// h1 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "h1")] H1,
+        [FontAwesome(IconStyle.Light, "h1")]
+        H1,
 
         /// <summary>
-        ///     H 2 Heading
+        /// H 2 Heading
         /// </summary>
         /// <remarks>
-        ///     h2 - Available in Solid, Regular, Light, Duotone
+        /// h2 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "h2")] H2,
+        [FontAwesome(IconStyle.Light, "h2")]
+        H2,
 
         /// <summary>
-        ///     H 3 Heading
+        /// H 3 Heading
         /// </summary>
         /// <remarks>
-        ///     h3 - Available in Solid, Regular, Light, Duotone
+        /// h3 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "h3")] H3,
+        [FontAwesome(IconStyle.Light, "h3")]
+        H3,
 
         /// <summary>
-        ///     H 4
+        /// H 4
         /// </summary>
         /// <remarks>
-        ///     h4 - Available in Solid, Regular, Light, Duotone
+        /// h4 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "h4")] H4,
+        [FontAwesome(IconStyle.Light, "h4")]
+        H4,
 
         /// <summary>
-        ///     Hamburger
+        /// Hamburger
         /// </summary>
         /// <remarks>
-        ///     hamburger - Available in Solid, Regular, Light, Duotone
+        /// hamburger - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hamburger")]
         Hamburger,
 
         /// <summary>
-        ///     Hammer
+        /// Hammer
         /// </summary>
         /// <remarks>
-        ///     hammer - Available in Solid, Regular, Light, Duotone
+        /// hammer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hammer")]
         Hammer,
 
         /// <summary>
-        ///     Hammer War
+        /// Hammer War
         /// </summary>
         /// <remarks>
-        ///     hammer-war - Available in Solid, Regular, Light, Duotone
+        /// hammer-war - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hammer-war")]
         HammerWar,
 
         /// <summary>
-        ///     Hamsa
+        /// Hamsa
         /// </summary>
         /// <remarks>
-        ///     hamsa - Available in Solid, Regular, Light, Duotone
+        /// hamsa - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hamsa")]
         Hamsa,
 
         /// <summary>
-        ///     Hand With Heart
+        /// Hand With Heart
         /// </summary>
         /// <remarks>
-        ///     hand-heart - Available in Solid, Regular, Light, Duotone
+        /// hand-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-heart")]
         HandHeart,
 
         /// <summary>
-        ///     Hand Holding
+        /// Hand Holding
         /// </summary>
         /// <remarks>
-        ///     hand-holding - Available in Solid, Regular, Light, Duotone
+        /// hand-holding - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-holding")]
         HandHolding,
 
         /// <summary>
-        ///     Hand Holding Box
+        /// Hand Holding Box
         /// </summary>
         /// <remarks>
-        ///     hand-holding-box - Available in Solid, Regular, Light, Duotone
+        /// hand-holding-box - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-holding-box")]
         HandHoldingBox,
 
         /// <summary>
-        ///     Hand Holding Heart
+        /// Hand Holding Heart
         /// </summary>
         /// <remarks>
-        ///     hand-holding-heart - Available in Solid, Regular, Light, Duotone
+        /// hand-holding-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-holding-heart")]
         HandHoldingHeart,
 
         /// <summary>
-        ///     Hand Holding Magic
+        /// Hand Holding Magic
         /// </summary>
         /// <remarks>
-        ///     hand-holding-magic - Available in Solid, Regular, Light, Duotone
+        /// hand-holding-magic - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-holding-magic")]
         HandHoldingMagic,
 
         /// <summary>
-        ///     Hand Holding Medical Cross
+        /// Hand Holding Medical Cross
         /// </summary>
         /// <remarks>
-        ///     hand-holding-medical - Available in Light, Regular, Solid, Duotone
+        /// hand-holding-medical - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-holding-medical")]
         HandHoldingMedical,
 
         /// <summary>
-        ///     Hand Holding Seedling
+        /// Hand Holding Seedling
         /// </summary>
         /// <remarks>
-        ///     hand-holding-seedling - Available in Solid, Regular, Light, Duotone
+        /// hand-holding-seedling - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-holding-seedling")]
         HandHoldingSeedling,
 
         /// <summary>
-        ///     Hand Holding US Dollar
+        /// Hand Holding US Dollar
         /// </summary>
         /// <remarks>
-        ///     hand-holding-usd - Available in Solid, Regular, Light, Duotone
+        /// hand-holding-usd - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-holding-usd")]
         HandHoldingUsd,
 
         /// <summary>
-        ///     Hand Holding Water
+        /// Hand Holding Water
         /// </summary>
         /// <remarks>
-        ///     hand-holding-water - Available in Solid, Regular, Light, Duotone
+        /// hand-holding-water - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-holding-water")]
         HandHoldingWater,
 
         /// <summary>
-        ///     Lizard Hand
+        /// Lizard Hand
         /// </summary>
         /// <remarks>
-        ///     hand-lizard - Available in Solid, Regular, Light, Duotone
+        /// hand-lizard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-lizard")]
         HandLizard,
 
         /// <summary>
-        ///     Hand With Middle Finger Raised
+        /// Hand With Middle Finger Raised
         /// </summary>
         /// <remarks>
-        ///     hand-middle-finger - Available in Solid, Regular, Light, Duotone
+        /// hand-middle-finger - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-middle-finger")]
         HandMiddleFinger,
 
         /// <summary>
-        ///     Paper Hand
+        /// Paper Hand
         /// </summary>
         /// <remarks>
-        ///     hand-paper - Available in Solid, Regular, Light, Duotone
+        /// hand-paper - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-paper")]
         HandPaper,
 
         /// <summary>
-        ///     Peace Hand
+        /// Peace Hand
         /// </summary>
         /// <remarks>
-        ///     hand-peace - Available in Solid, Regular, Light, Duotone
+        /// hand-peace - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-peace")]
         HandPeace,
 
         /// <summary>
-        ///     Hand Pointing Down
+        /// Hand Pointing Down
         /// </summary>
         /// <remarks>
-        ///     hand-point-down - Available in Solid, Regular, Light, Duotone
+        /// hand-point-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-point-down")]
         HandPointDown,
 
         /// <summary>
-        ///     Hand Pointing Left
+        /// Hand Pointing Left
         /// </summary>
         /// <remarks>
-        ///     hand-point-left - Available in Solid, Regular, Light, Duotone
+        /// hand-point-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-point-left")]
         HandPointLeft,
 
         /// <summary>
-        ///     Hand Pointing Right
+        /// Hand Pointing Right
         /// </summary>
         /// <remarks>
-        ///     hand-point-right - Available in Solid, Regular, Light, Duotone
+        /// hand-point-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-point-right")]
         HandPointRight,
 
         /// <summary>
-        ///     Hand Pointing up
+        /// Hand Pointing up
         /// </summary>
         /// <remarks>
-        ///     hand-point-up - Available in Solid, Regular, Light, Duotone
+        /// hand-point-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-point-up")]
         HandPointUp,
 
         /// <summary>
-        ///     Pointer Hand
+        /// Pointer Hand
         /// </summary>
         /// <remarks>
-        ///     hand-pointer - Available in Solid, Regular, Light, Duotone
+        /// hand-pointer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-pointer")]
         HandPointer,
 
         /// <summary>
-        ///     Hand Receiving
+        /// Hand Receiving
         /// </summary>
         /// <remarks>
-        ///     hand-receiving - Available in Solid, Regular, Light, Duotone
+        /// hand-receiving - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-receiving")]
         HandReceiving,
 
         /// <summary>
-        ///     Rock Hand
+        /// Rock Hand
         /// </summary>
         /// <remarks>
-        ///     hand-rock - Available in Solid, Regular, Light, Duotone
+        /// hand-rock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-rock")]
         HandRock,
 
         /// <summary>
-        ///     Scissors Hand
+        /// Scissors Hand
         /// </summary>
         /// <remarks>
-        ///     hand-scissors - Available in Solid, Regular, Light, Duotone
+        /// hand-scissors - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-scissors")]
         HandScissors,
 
         /// <summary>
-        ///     Hand Sparkles
+        /// Hand Sparkles
         /// </summary>
         /// <remarks>
-        ///     hand-sparkles - Available in Light, Regular, Solid, Duotone
+        /// hand-sparkles - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-sparkles")]
         HandSparkles,
 
         /// <summary>
-        ///     Spock Hand
+        /// Spock Hand
         /// </summary>
         /// <remarks>
-        ///     hand-spock - Available in Solid, Regular, Light, Duotone
+        /// hand-spock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hand-spock")]
         HandSpock,
 
         /// <summary>
-        ///     Hands
+        /// Hands
         /// </summary>
         /// <remarks>
-        ///     hands - Available in Solid, Regular, Light, Duotone
+        /// hands - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hands")]
         Hands,
 
         /// <summary>
-        ///     Hands Heart
+        /// Hands Heart
         /// </summary>
         /// <remarks>
-        ///     hands-heart - Available in Solid, Regular, Light, Duotone
+        /// hands-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hands-heart")]
         HandsHeart,
 
         /// <summary>
-        ///     Helping Hands
+        /// Helping Hands
         /// </summary>
         /// <remarks>
-        ///     hands-helping - Available in Solid, Regular, Light, Duotone
+        /// hands-helping - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hands-helping")]
         HandsHelping,
 
         /// <summary>
-        ///     Hands With US Dollar
+        /// Hands With US Dollar
         /// </summary>
         /// <remarks>
-        ///     hands-usd - Available in Solid, Regular, Light, Duotone
+        /// hands-usd - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hands-usd")]
         HandsUsd,
 
         /// <summary>
-        ///     Hands Wash
+        /// Hands Wash
         /// </summary>
         /// <remarks>
-        ///     hands-wash - Available in Light, Regular, Solid, Duotone
+        /// hands-wash - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hands-wash")]
         HandsWash,
 
         /// <summary>
-        ///     Handshake
+        /// Handshake
         /// </summary>
         /// <remarks>
-        ///     handshake - Available in Solid, Regular, Light, Duotone
+        /// handshake - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "handshake")]
         Handshake,
 
         /// <summary>
-        ///     Alternate Handshake
+        /// Alternate Handshake
         /// </summary>
         /// <remarks>
-        ///     handshake-alt - Available in Solid, Regular, Light, Duotone
+        /// handshake-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "handshake-alt")]
         HandshakeAlt,
 
         /// <summary>
-        ///     Handshake Alternate Slash
+        /// Handshake Alternate Slash
         /// </summary>
         /// <remarks>
-        ///     handshake-alt-slash - Available in Light, Regular, Solid, Duotone
+        /// handshake-alt-slash - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "handshake-alt-slash")]
         HandshakeAltSlash,
 
         /// <summary>
-        ///     Handshake Slash
+        /// Handshake Slash
         /// </summary>
         /// <remarks>
-        ///     handshake-slash - Available in Light, Regular, Solid, Duotone
+        /// handshake-slash - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "handshake-slash")]
         HandshakeSlash,
 
         /// <summary>
-        ///     Hanukiah
+        /// Hanukiah
         /// </summary>
         /// <remarks>
-        ///     hanukiah - Available in Solid, Regular, Light, Duotone
+        /// hanukiah - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hanukiah")]
         Hanukiah,
 
         /// <summary>
-        ///     Hard Hat
+        /// Hard Hat
         /// </summary>
         /// <remarks>
-        ///     hard-hat - Available in Solid, Regular, Light, Duotone
+        /// hard-hat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hard-hat")]
         HardHat,
 
         /// <summary>
-        ///     Hashtag
+        /// Hashtag
         /// </summary>
         /// <remarks>
-        ///     hashtag - Available in Solid, Regular, Light, Duotone
+        /// hashtag - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hashtag")]
         Hashtag,
 
         /// <summary>
-        ///     Chef Hat
+        /// Chef Hat
         /// </summary>
         /// <remarks>
-        ///     hat-chef - Available in Solid, Regular, Light, Duotone
+        /// hat-chef - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hat-chef")]
         HatChef,
 
         /// <summary>
-        ///     Cowboy Hat
+        /// Cowboy Hat
         /// </summary>
         /// <remarks>
-        ///     hat-cowboy - Available in Light, Regular, Solid, Duotone
+        /// hat-cowboy - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hat-cowboy")]
         HatCowboy,
 
         /// <summary>
-        ///     Cowboy Hat Side
+        /// Cowboy Hat Side
         /// </summary>
         /// <remarks>
-        ///     hat-cowboy-side - Available in Light, Regular, Solid, Duotone
+        /// hat-cowboy-side - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hat-cowboy-side")]
         HatCowboySide,
 
         /// <summary>
-        ///     Santa S Hat
+        /// Santa S Hat
         /// </summary>
         /// <remarks>
-        ///     hat-santa - Available in Solid, Regular, Light, Duotone
+        /// hat-santa - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hat-santa")]
         HatSanta,
 
         /// <summary>
-        ///     Hat Winter
+        /// Hat Winter
         /// </summary>
         /// <remarks>
-        ///     hat-winter - Available in Solid, Regular, Light, Duotone
+        /// hat-winter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hat-winter")]
         HatWinter,
 
         /// <summary>
-        ///     Witch S Hat
+        /// Witch S Hat
         /// </summary>
         /// <remarks>
-        ///     hat-witch - Available in Solid, Regular, Light, Duotone
+        /// hat-witch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hat-witch")]
         HatWitch,
 
         /// <summary>
-        ///     Wizard S Hat
+        /// Wizard S Hat
         /// </summary>
         /// <remarks>
-        ///     hat-wizard - Available in Solid, Regular, Light, Duotone
+        /// hat-wizard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hat-wizard")]
         HatWizard,
 
         /// <summary>
-        ///     HDD
+        /// HDD
         /// </summary>
         /// <remarks>
-        ///     hdd - Available in Solid, Regular, Light, Duotone
+        /// hdd - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "hdd")] Hdd,
+        [FontAwesome(IconStyle.Light, "hdd")]
+        Hdd,
 
         /// <summary>
-        ///     Head Side
+        /// Head Side
         /// </summary>
         /// <remarks>
-        ///     head-side - Available in Solid, Regular, Light, Duotone
+        /// head-side - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "head-side")]
         HeadSide,
 
         /// <summary>
-        ///     Head Side With Brain
+        /// Head Side With Brain
         /// </summary>
         /// <remarks>
-        ///     head-side-brain - Available in Solid, Regular, Light, Duotone
+        /// head-side-brain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "head-side-brain")]
         HeadSideBrain,
 
         /// <summary>
-        ///     Head Side Cough
+        /// Head Side Cough
         /// </summary>
         /// <remarks>
-        ///     head-side-cough - Available in Light, Regular, Solid, Duotone
+        /// head-side-cough - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "head-side-cough")]
         HeadSideCough,
 
         /// <summary>
-        ///     Head Side Cough Slash
+        /// Head Side Cough Slash
         /// </summary>
         /// <remarks>
-        ///     head-side-cough-slash - Available in Light, Regular, Solid, Duotone
+        /// head-side-cough-slash - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "head-side-cough-slash")]
         HeadSideCoughSlash,
 
         /// <summary>
-        ///     Head Side With Headphones
+        /// Head Side With Headphones
         /// </summary>
         /// <remarks>
-        ///     head-side-headphones - Available in Solid, Regular, Light, Duotone
+        /// head-side-headphones - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "head-side-headphones")]
         HeadSideHeadphones,
 
         /// <summary>
-        ///     Head Side Mask
+        /// Head Side Mask
         /// </summary>
         /// <remarks>
-        ///     head-side-mask - Available in Light, Regular, Solid, Duotone
+        /// head-side-mask - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "head-side-mask")]
         HeadSideMask,
 
         /// <summary>
-        ///     Head Side With Medical Symbol
+        /// Head Side With Medical Symbol
         /// </summary>
         /// <remarks>
-        ///     head-side-medical - Available in Solid, Regular, Light, Duotone
+        /// head-side-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "head-side-medical")]
         HeadSideMedical,
 
         /// <summary>
-        ///     Head Side Virus
+        /// Head Side Virus
         /// </summary>
         /// <remarks>
-        ///     head-side-virus - Available in Light, Regular, Solid, Duotone
+        /// head-side-virus - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "head-side-virus")]
         HeadSideVirus,
 
         /// <summary>
-        ///     Head VR
+        /// Head VR
         /// </summary>
         /// <remarks>
-        ///     head-vr - Available in Solid, Regular, Light, Duotone
+        /// head-vr - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "head-vr")]
         HeadVr,
 
         /// <summary>
-        ///     Heading
+        /// Heading
         /// </summary>
         /// <remarks>
-        ///     heading - Available in Solid, Regular, Light, Duotone
+        /// heading - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "heading")]
         Heading,
 
         /// <summary>
-        ///     Headphones
+        /// Headphones
         /// </summary>
         /// <remarks>
-        ///     headphones - Available in Solid, Regular, Light, Duotone
+        /// headphones - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "headphones")]
         Headphones,
 
         /// <summary>
-        ///     Alternate Headphones
+        /// Alternate Headphones
         /// </summary>
         /// <remarks>
-        ///     headphones-alt - Available in Solid, Regular, Light, Duotone
+        /// headphones-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "headphones-alt")]
         HeadphonesAlt,
 
         /// <summary>
-        ///     Headset
+        /// Headset
         /// </summary>
         /// <remarks>
-        ///     headset - Available in Solid, Regular, Light, Duotone
+        /// headset - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "headset")]
         Headset,
 
         /// <summary>
-        ///     Heart
+        /// Heart
         /// </summary>
         /// <remarks>
-        ///     heart - Available in Solid, Regular, Light, Duotone
+        /// heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "heart")]
         Heart,
 
         /// <summary>
-        ///     Heart Broken
+        /// Heart Broken
         /// </summary>
         /// <remarks>
-        ///     heart-broken - Available in Solid, Regular, Light, Duotone
+        /// heart-broken - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "heart-broken")]
         HeartBroken,
 
         /// <summary>
-        ///     Heart Circle
+        /// Heart Circle
         /// </summary>
         /// <remarks>
-        ///     heart-circle - Available in Solid, Regular, Light, Duotone
+        /// heart-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "heart-circle")]
         HeartCircle,
 
         /// <summary>
-        ///     Heart Rate
+        /// Heart Rate
         /// </summary>
         /// <remarks>
-        ///     heart-rate - Available in Solid, Regular, Light, Duotone
+        /// heart-rate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "heart-rate")]
         HeartRate,
 
         /// <summary>
-        ///     Heart Square
+        /// Heart Square
         /// </summary>
         /// <remarks>
-        ///     heart-square - Available in Solid, Regular, Light, Duotone
+        /// heart-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "heart-square")]
         HeartSquare,
 
         /// <summary>
-        ///     Heartbeat
+        /// Heartbeat
         /// </summary>
         /// <remarks>
-        ///     heartbeat - Available in Solid, Regular, Light, Duotone
+        /// heartbeat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "heartbeat")]
         Heartbeat,
 
         /// <summary>
-        ///     Heat
+        /// Heat
         /// </summary>
         /// <remarks>
-        ///     heat - Available in Solid, Regular, Light, Duotone
+        /// heat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "heat")] Heat,
+        [FontAwesome(IconStyle.Light, "heat")]
+        Heat,
 
         /// <summary>
-        ///     Helicopter
+        /// Helicopter
         /// </summary>
         /// <remarks>
-        ///     helicopter - Available in Solid, Regular, Light, Duotone
+        /// helicopter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "helicopter")]
         Helicopter,
 
         /// <summary>
-        ///     Battle Helmet
+        /// Battle Helmet
         /// </summary>
         /// <remarks>
-        ///     helmet-battle - Available in Solid, Regular, Light, Duotone
+        /// helmet-battle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "helmet-battle")]
         HelmetBattle,
 
         /// <summary>
-        ///     Hexagon
+        /// Hexagon
         /// </summary>
         /// <remarks>
-        ///     hexagon - Available in Solid, Regular, Light, Duotone
+        /// hexagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hexagon")]
         Hexagon,
 
         /// <summary>
-        ///     Highlighter
+        /// Highlighter
         /// </summary>
         /// <remarks>
-        ///     highlighter - Available in Solid, Regular, Light, Duotone
+        /// highlighter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "highlighter")]
         Highlighter,
 
         /// <summary>
-        ///     Hiking
+        /// Hiking
         /// </summary>
         /// <remarks>
-        ///     hiking - Available in Solid, Regular, Light, Duotone
+        /// hiking - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hiking")]
         Hiking,
 
         /// <summary>
-        ///     Hippo
+        /// Hippo
         /// </summary>
         /// <remarks>
-        ///     hippo - Available in Solid, Regular, Light, Duotone
+        /// hippo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hippo")]
         Hippo,
 
         /// <summary>
-        ///     History
+        /// History
         /// </summary>
         /// <remarks>
-        ///     history - Available in Solid, Regular, Light, Duotone
+        /// history - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "history")]
         History,
 
         /// <summary>
-        ///     Hockey Mask
+        /// Hockey Mask
         /// </summary>
         /// <remarks>
-        ///     hockey-mask - Available in Solid, Regular, Light, Duotone
+        /// hockey-mask - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hockey-mask")]
         HockeyMask,
 
         /// <summary>
-        ///     Hockey Puck
+        /// Hockey Puck
         /// </summary>
         /// <remarks>
-        ///     hockey-puck - Available in Solid, Regular, Light, Duotone
+        /// hockey-puck - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hockey-puck")]
         HockeyPuck,
 
         /// <summary>
-        ///     Hockey Sticks
+        /// Hockey Sticks
         /// </summary>
         /// <remarks>
-        ///     hockey-sticks - Available in Solid, Regular, Light, Duotone
+        /// hockey-sticks - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hockey-sticks")]
         HockeySticks,
 
         /// <summary>
-        ///     Holly Berry
+        /// Holly Berry
         /// </summary>
         /// <remarks>
-        ///     holly-berry - Available in Solid, Regular, Light, Duotone
+        /// holly-berry - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "holly-berry")]
         HollyBerry,
 
         /// <summary>
-        ///     Home
+        /// Home
         /// </summary>
         /// <remarks>
-        ///     home - Available in Solid, Regular, Light, Duotone
+        /// home - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "home")] Home,
+        [FontAwesome(IconStyle.Light, "home")]
+        Home,
 
         /// <summary>
-        ///     Alternate Home
+        /// Alternate Home
         /// </summary>
         /// <remarks>
-        ///     home-alt - Available in Solid, Regular, Light, Duotone
+        /// home-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "home-alt")]
         HomeAlt,
 
         /// <summary>
-        ///     Home Heart
+        /// Home Heart
         /// </summary>
         /// <remarks>
-        ///     home-heart - Available in Solid, Regular, Light, Duotone
+        /// home-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "home-heart")]
         HomeHeart,
 
         /// <summary>
-        ///     Home Large
+        /// Home Large
         /// </summary>
         /// <remarks>
-        ///     home-lg - Available in Solid, Regular, Light, Duotone
+        /// home-lg - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "home-lg")]
         HomeLg,
 
         /// <summary>
-        ///     Alternative Home Large
+        /// Alternative Home Large
         /// </summary>
         /// <remarks>
-        ///     home-lg-alt - Available in Solid, Regular, Light, Duotone
+        /// home-lg-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "home-lg-alt")]
         HomeLgAlt,
 
         /// <summary>
-        ///     Hood Cloak
+        /// Hood Cloak
         /// </summary>
         /// <remarks>
-        ///     hood-cloak - Available in Solid, Regular, Light, Duotone
+        /// hood-cloak - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hood-cloak")]
         HoodCloak,
 
         /// <summary>
-        ///     Horizontal Rule
+        /// Horizontal Rule
         /// </summary>
         /// <remarks>
-        ///     horizontal-rule - Available in Solid, Regular, Light, Duotone
+        /// horizontal-rule - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "horizontal-rule")]
         HorizontalRule,
 
         /// <summary>
-        ///     Horse
+        /// Horse
         /// </summary>
         /// <remarks>
-        ///     horse - Available in Solid, Regular, Light, Duotone
+        /// horse - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "horse")]
         Horse,
 
         /// <summary>
-        ///     Horse Head
+        /// Horse Head
         /// </summary>
         /// <remarks>
-        ///     horse-head - Available in Solid, Regular, Light, Duotone
+        /// horse-head - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "horse-head")]
         HorseHead,
 
         /// <summary>
-        ///     Horse Saddle
+        /// Horse Saddle
         /// </summary>
         /// <remarks>
-        ///     horse-saddle - Available in Light, Regular, Solid, Duotone
+        /// horse-saddle - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "horse-saddle")]
         HorseSaddle,
 
         /// <summary>
-        ///     Hospital
+        /// Hospital
         /// </summary>
         /// <remarks>
-        ///     hospital - Available in Solid, Regular, Light, Duotone
+        /// hospital - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hospital")]
         Hospital,
 
         /// <summary>
-        ///     Alternate Hospital
+        /// Alternate Hospital
         /// </summary>
         /// <remarks>
-        ///     hospital-alt - Available in Solid, Regular, Light, Duotone
+        /// hospital-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hospital-alt")]
         HospitalAlt,
 
         /// <summary>
-        ///     Hospital Symbol
+        /// Hospital Symbol
         /// </summary>
         /// <remarks>
-        ///     hospital-symbol - Available in Solid, Regular, Light, Duotone
+        /// hospital-symbol - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hospital-symbol")]
         HospitalSymbol,
 
         /// <summary>
-        ///     Hospital With User
+        /// Hospital With User
         /// </summary>
         /// <remarks>
-        ///     hospital-user - Available in Solid, Regular, Light, Duotone
+        /// hospital-user - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hospital-user")]
         HospitalUser,
 
         /// <summary>
-        ///     Hospitals
+        /// Hospitals
         /// </summary>
         /// <remarks>
-        ///     hospitals - Available in Solid, Regular, Light, Duotone
+        /// hospitals - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hospitals")]
         Hospitals,
 
         /// <summary>
-        ///     Hot Tub
+        /// Hot Tub
         /// </summary>
         /// <remarks>
-        ///     hot-tub - Available in Solid, Regular, Light, Duotone
+        /// hot-tub - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hot-tub")]
         HotTub,
 
         /// <summary>
-        ///     Hot Dog
+        /// Hot Dog
         /// </summary>
         /// <remarks>
-        ///     hotdog - Available in Solid, Regular, Light, Duotone
+        /// hotdog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hotdog")]
         Hotdog,
 
         /// <summary>
-        ///     Hotel
+        /// Hotel
         /// </summary>
         /// <remarks>
-        ///     hotel - Available in Solid, Regular, Light, Duotone
+        /// hotel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hotel")]
         Hotel,
 
         /// <summary>
-        ///     Hourglass
+        /// Hourglass
         /// </summary>
         /// <remarks>
-        ///     hourglass - Available in Solid, Regular, Light, Duotone
+        /// hourglass - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hourglass")]
         Hourglass,
 
         /// <summary>
-        ///     Hourglass End
+        /// Hourglass End
         /// </summary>
         /// <remarks>
-        ///     hourglass-end - Available in Solid, Regular, Light, Duotone
+        /// hourglass-end - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hourglass-end")]
         HourglassEnd,
 
         /// <summary>
-        ///     Hourglass Half
+        /// Hourglass Half
         /// </summary>
         /// <remarks>
-        ///     hourglass-half - Available in Solid, Regular, Light, Duotone
+        /// hourglass-half - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hourglass-half")]
         HourglassHalf,
 
         /// <summary>
-        ///     Hourglass Start
+        /// Hourglass Start
         /// </summary>
         /// <remarks>
-        ///     hourglass-start - Available in Solid, Regular, Light, Duotone
+        /// hourglass-start - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hourglass-start")]
         HourglassStart,
 
         /// <summary>
-        ///     House
+        /// House
         /// </summary>
         /// <remarks>
-        ///     house - Available in Solid, Regular, Light, Duotone
+        /// house - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "house")]
         House,
 
         /// <summary>
-        ///     Damaged House
+        /// Damaged House
         /// </summary>
         /// <remarks>
-        ///     house-damage - Available in Solid, Regular, Light, Duotone
+        /// house-damage - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "house-damage")]
         HouseDamage,
 
         /// <summary>
-        ///     House Day
+        /// House Day
         /// </summary>
         /// <remarks>
-        ///     house-day - Available in Solid, Regular, Light, Duotone
+        /// house-day - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "house-day")]
         HouseDay,
 
         /// <summary>
-        ///     Flooded House
+        /// Flooded House
         /// </summary>
         /// <remarks>
-        ///     house-flood - Available in Solid, Regular, Light, Duotone
+        /// house-flood - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "house-flood")]
         HouseFlood,
 
         /// <summary>
-        ///     House Leave
+        /// House Leave
         /// </summary>
         /// <remarks>
-        ///     house-leave - Available in Solid, Regular, Light, Duotone
+        /// house-leave - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "house-leave")]
         HouseLeave,
 
         /// <summary>
-        ///     House Night
+        /// House Night
         /// </summary>
         /// <remarks>
-        ///     house-night - Available in Solid, Regular, Light, Duotone
+        /// house-night - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "house-night")]
         HouseNight,
 
         /// <summary>
-        ///     House Return
+        /// House Return
         /// </summary>
         /// <remarks>
-        ///     house-return - Available in Solid, Regular, Light, Duotone
+        /// house-return - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "house-return")]
         HouseReturn,
 
         /// <summary>
-        ///     House Signal
+        /// House Signal
         /// </summary>
         /// <remarks>
-        ///     house-signal - Available in Solid, Regular, Light, Duotone
+        /// house-signal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "house-signal")]
         HouseSignal,
 
         /// <summary>
-        ///     House User
+        /// House User
         /// </summary>
         /// <remarks>
-        ///     house-user - Available in Light, Regular, Solid, Duotone
+        /// house-user - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "house-user")]
         HouseUser,
 
         /// <summary>
-        ///     Hryvnia
+        /// Hryvnia
         /// </summary>
         /// <remarks>
-        ///     hryvnia - Available in Solid, Regular, Light, Duotone
+        /// hryvnia - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hryvnia")]
         Hryvnia,
 
         /// <summary>
-        ///     Humidity
+        /// Humidity
         /// </summary>
         /// <remarks>
-        ///     humidity - Available in Solid, Regular, Light, Duotone
+        /// humidity - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "humidity")]
         Humidity,
 
         /// <summary>
-        ///     Hurricane
+        /// Hurricane
         /// </summary>
         /// <remarks>
-        ///     hurricane - Available in Solid, Regular, Light, Duotone
+        /// hurricane - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "hurricane")]
         Hurricane,
 
         /// <summary>
-        ///     I Beam Cursor
+        /// I Beam Cursor
         /// </summary>
         /// <remarks>
-        ///     i-cursor - Available in Solid, Regular, Light, Duotone
+        /// i-cursor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "i-cursor")]
         ICursor,
 
         /// <summary>
-        ///     Ice Cream
+        /// Ice Cream
         /// </summary>
         /// <remarks>
-        ///     ice-cream - Available in Solid, Regular, Light, Duotone
+        /// ice-cream - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ice-cream")]
         IceCream,
 
         /// <summary>
-        ///     Ice Skate
+        /// Ice Skate
         /// </summary>
         /// <remarks>
-        ///     ice-skate - Available in Solid, Regular, Light, Duotone
+        /// ice-skate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ice-skate")]
         IceSkate,
 
         /// <summary>
-        ///     Icicles
+        /// Icicles
         /// </summary>
         /// <remarks>
-        ///     icicles - Available in Solid, Regular, Light, Duotone
+        /// icicles - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "icicles")]
         Icicles,
 
         /// <summary>
-        ///     Icons
+        /// Icons
         /// </summary>
         /// <remarks>
-        ///     icons - Available in Solid, Regular, Light, Duotone
+        /// icons - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "icons")]
         Icons,
 
         /// <summary>
-        ///     Alternate Icons
+        /// Alternate Icons
         /// </summary>
         /// <remarks>
-        ///     icons-alt - Available in Solid, Regular, Light, Duotone
+        /// icons-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "icons-alt")]
         IconsAlt,
 
         /// <summary>
-        ///     Identification Badge
+        /// Identification Badge
         /// </summary>
         /// <remarks>
-        ///     id-badge - Available in Solid, Regular, Light, Duotone
+        /// id-badge - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "id-badge")]
         IdBadge,
 
         /// <summary>
-        ///     Identification Card
+        /// Identification Card
         /// </summary>
         /// <remarks>
-        ///     id-card - Available in Solid, Regular, Light, Duotone
+        /// id-card - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "id-card")]
         IdCard,
 
         /// <summary>
-        ///     Alternate Identification Card
+        /// Alternate Identification Card
         /// </summary>
         /// <remarks>
-        ///     id-card-alt - Available in Solid, Regular, Light, Duotone
+        /// id-card-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "id-card-alt")]
         IdCardAlt,
 
         /// <summary>
-        ///     Igloo
+        /// Igloo
         /// </summary>
         /// <remarks>
-        ///     igloo - Available in Solid, Regular, Light, Duotone
+        /// igloo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "igloo")]
         Igloo,
 
         /// <summary>
-        ///     Image
+        /// Image
         /// </summary>
         /// <remarks>
-        ///     image - Available in Solid, Regular, Light, Duotone
+        /// image - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "image")]
         Image,
 
         /// <summary>
-        ///     Polaroid Image
+        /// Polaroid Image
         /// </summary>
         /// <remarks>
-        ///     image-polaroid - Available in Solid, Regular, Light, Duotone
+        /// image-polaroid - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "image-polaroid")]
         ImagePolaroid,
 
         /// <summary>
-        ///     Images
+        /// Images
         /// </summary>
         /// <remarks>
-        ///     images - Available in Solid, Regular, Light, Duotone
+        /// images - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "images")]
         Images,
 
         /// <summary>
-        ///     Inbox
+        /// Inbox
         /// </summary>
         /// <remarks>
-        ///     inbox - Available in Solid, Regular, Light, Duotone
+        /// inbox - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "inbox")]
         Inbox,
 
         /// <summary>
-        ///     Inbox in
+        /// Inbox in
         /// </summary>
         /// <remarks>
-        ///     inbox-in - Available in Solid, Regular, Light, Duotone
+        /// inbox-in - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "inbox-in")]
         InboxIn,
 
         /// <summary>
-        ///     Inbox Out
+        /// Inbox Out
         /// </summary>
         /// <remarks>
-        ///     inbox-out - Available in Solid, Regular, Light, Duotone
+        /// inbox-out - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "inbox-out")]
         InboxOut,
 
         /// <summary>
-        ///     Indent
+        /// Indent
         /// </summary>
         /// <remarks>
-        ///     indent - Available in Solid, Regular, Light, Duotone
+        /// indent - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "indent")]
         Indent,
 
         /// <summary>
-        ///     Industry
+        /// Industry
         /// </summary>
         /// <remarks>
-        ///     industry - Available in Solid, Regular, Light, Duotone
+        /// industry - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "industry")]
         Industry,
 
         /// <summary>
-        ///     Alternate Industry
+        /// Alternate Industry
         /// </summary>
         /// <remarks>
-        ///     industry-alt - Available in Solid, Regular, Light, Duotone
+        /// industry-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "industry-alt")]
         IndustryAlt,
 
         /// <summary>
-        ///     Infinity
+        /// Infinity
         /// </summary>
         /// <remarks>
-        ///     infinity - Available in Solid, Regular, Light, Duotone
+        /// infinity - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "infinity")]
         Infinity,
 
         /// <summary>
-        ///     Info
+        /// Info
         /// </summary>
         /// <remarks>
-        ///     info - Available in Solid, Regular, Light, Duotone
+        /// info - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "info")] Info,
+        [FontAwesome(IconStyle.Light, "info")]
+        Info,
 
         /// <summary>
-        ///     Info Circle
+        /// Info Circle
         /// </summary>
         /// <remarks>
-        ///     info-circle - Available in Solid, Regular, Light, Duotone
+        /// info-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "info-circle")]
         InfoCircle,
 
         /// <summary>
-        ///     Info Square
+        /// Info Square
         /// </summary>
         /// <remarks>
-        ///     info-square - Available in Solid, Regular, Light, Duotone
+        /// info-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "info-square")]
         InfoSquare,
 
         /// <summary>
-        ///     Inhaler
+        /// Inhaler
         /// </summary>
         /// <remarks>
-        ///     inhaler - Available in Solid, Regular, Light, Duotone
+        /// inhaler - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "inhaler")]
         Inhaler,
 
         /// <summary>
-        ///     Integral
+        /// Integral
         /// </summary>
         /// <remarks>
-        ///     integral - Available in Solid, Regular, Light, Duotone
+        /// integral - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "integral")]
         Integral,
 
         /// <summary>
-        ///     Intersection
+        /// Intersection
         /// </summary>
         /// <remarks>
-        ///     intersection - Available in Solid, Regular, Light, Duotone
+        /// intersection - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "intersection")]
         Intersection,
 
         /// <summary>
-        ///     Inventory
+        /// Inventory
         /// </summary>
         /// <remarks>
-        ///     inventory - Available in Solid, Regular, Light, Duotone
+        /// inventory - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "inventory")]
         Inventory,
 
         /// <summary>
-        ///     Tropical Island
+        /// Tropical Island
         /// </summary>
         /// <remarks>
-        ///     island-tropical - Available in Solid, Regular, Light, Duotone
+        /// island-tropical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "island-tropical")]
         IslandTropical,
 
         /// <summary>
-        ///     Italic
+        /// Italic
         /// </summary>
         /// <remarks>
-        ///     italic - Available in Solid, Regular, Light, Duotone
+        /// italic - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "italic")]
         Italic,
 
         /// <summary>
-        ///     Jack O' Lantern
+        /// Jack O' Lantern
         /// </summary>
         /// <remarks>
-        ///     jack-o-lantern - Available in Solid, Regular, Light, Duotone
+        /// jack-o-lantern - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "jack-o-lantern")]
         JackOLantern,
 
         /// <summary>
-        ///     Jedi
+        /// Jedi
         /// </summary>
         /// <remarks>
-        ///     jedi - Available in Solid, Regular, Light, Duotone
+        /// jedi - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "jedi")] Jedi,
+        [FontAwesome(IconStyle.Light, "jedi")]
+        Jedi,
 
         /// <summary>
-        ///     Joint
+        /// Joint
         /// </summary>
         /// <remarks>
-        ///     joint - Available in Solid, Regular, Light, Duotone
+        /// joint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "joint")]
         Joint,
 
         /// <summary>
-        ///     Journal of the Whills
+        /// Journal of the Whills
         /// </summary>
         /// <remarks>
-        ///     journal-whills - Available in Solid, Regular, Light, Duotone
+        /// journal-whills - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "journal-whills")]
         JournalWhills,
 
         /// <summary>
-        ///     Joystick
+        /// Joystick
         /// </summary>
         /// <remarks>
-        ///     joystick - Available in Solid, Regular, Light, Duotone
+        /// joystick - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "joystick")]
         Joystick,
 
         /// <summary>
-        ///     Jug
+        /// Jug
         /// </summary>
         /// <remarks>
-        ///     jug - Available in Light, Regular, Solid, Duotone
+        /// jug - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "jug")] Jug,
+        [FontAwesome(IconStyle.Light, "jug")]
+        Jug,
 
         /// <summary>
-        ///     Kaaba
+        /// Kaaba
         /// </summary>
         /// <remarks>
-        ///     kaaba - Available in Solid, Regular, Light, Duotone
+        /// kaaba - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "kaaba")]
         Kaaba,
 
         /// <summary>
-        ///     Kazoo
+        /// Kazoo
         /// </summary>
         /// <remarks>
-        ///     kazoo - Available in Solid, Regular, Light, Duotone
+        /// kazoo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "kazoo")]
         Kazoo,
 
         /// <summary>
-        ///     Kerning
+        /// Kerning
         /// </summary>
         /// <remarks>
-        ///     kerning - Available in Solid, Regular, Light, Duotone
+        /// kerning - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "kerning")]
         Kerning,
 
         /// <summary>
-        ///     Key
+        /// Key
         /// </summary>
         /// <remarks>
-        ///     key - Available in Solid, Regular, Light, Duotone
+        /// key - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "key")] Key,
+        [FontAwesome(IconStyle.Light, "key")]
+        Key,
 
         /// <summary>
-        ///     Key Skeleton
+        /// Key Skeleton
         /// </summary>
         /// <remarks>
-        ///     key-skeleton - Available in Solid, Regular, Light, Duotone
+        /// key-skeleton - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "key-skeleton")]
         KeySkeleton,
 
         /// <summary>
-        ///     Keyboard
+        /// Keyboard
         /// </summary>
         /// <remarks>
-        ///     keyboard - Available in Solid, Regular, Light, Duotone
+        /// keyboard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "keyboard")]
         Keyboard,
 
         /// <summary>
-        ///     Keynote
+        /// Keynote
         /// </summary>
         /// <remarks>
-        ///     keynote - Available in Solid, Regular, Light, Duotone
+        /// keynote - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "keynote")]
         Keynote,
 
         /// <summary>
-        ///     Khanda
+        /// Khanda
         /// </summary>
         /// <remarks>
-        ///     khanda - Available in Solid, Regular, Light, Duotone
+        /// khanda - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "khanda")]
         Khanda,
 
         /// <summary>
-        ///     Kidneys
+        /// Kidneys
         /// </summary>
         /// <remarks>
-        ///     kidneys - Available in Solid, Regular, Light, Duotone
+        /// kidneys - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "kidneys")]
         Kidneys,
 
         /// <summary>
-        ///     Kissing Face
+        /// Kissing Face
         /// </summary>
         /// <remarks>
-        ///     kiss - Available in Solid, Regular, Light, Duotone
+        /// kiss - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "kiss")] Kiss,
+        [FontAwesome(IconStyle.Light, "kiss")]
+        Kiss,
 
         /// <summary>
-        ///     Kissing Face With Smiling Eyes
+        /// Kissing Face With Smiling Eyes
         /// </summary>
         /// <remarks>
-        ///     kiss-beam - Available in Solid, Regular, Light, Duotone
+        /// kiss-beam - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "kiss-beam")]
         KissBeam,
 
         /// <summary>
-        ///     Face Blowing a Kiss
+        /// Face Blowing a Kiss
         /// </summary>
         /// <remarks>
-        ///     kiss-wink-heart - Available in Solid, Regular, Light, Duotone
+        /// kiss-wink-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "kiss-wink-heart")]
         KissWinkHeart,
 
         /// <summary>
-        ///     Kite
+        /// Kite
         /// </summary>
         /// <remarks>
-        ///     kite - Available in Solid, Regular, Light, Duotone
+        /// kite - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "kite")] Kite,
+        [FontAwesome(IconStyle.Light, "kite")]
+        Kite,
 
         /// <summary>
-        ///     Kiwi Bird
+        /// Kiwi Bird
         /// </summary>
         /// <remarks>
-        ///     kiwi-bird - Available in Solid, Regular, Light, Duotone
+        /// kiwi-bird - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "kiwi-bird")]
         KiwiBird,
 
         /// <summary>
-        ///     Knife Kitchen
+        /// Knife Kitchen
         /// </summary>
         /// <remarks>
-        ///     knife-kitchen - Available in Solid, Regular, Light, Duotone
+        /// knife-kitchen - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "knife-kitchen")]
         KnifeKitchen,
 
         /// <summary>
-        ///     Lambda
+        /// Lambda
         /// </summary>
         /// <remarks>
-        ///     lambda - Available in Solid, Regular, Light, Duotone
+        /// lambda - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lambda")]
         Lambda,
 
         /// <summary>
-        ///     Lamp
+        /// Lamp
         /// </summary>
         /// <remarks>
-        ///     lamp - Available in Solid, Regular, Light, Duotone
+        /// lamp - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "lamp")] Lamp,
+        [FontAwesome(IconStyle.Light, "lamp")]
+        Lamp,
 
         /// <summary>
-        ///     Lamp Desk
+        /// Lamp Desk
         /// </summary>
         /// <remarks>
-        ///     lamp-desk - Available in Solid, Regular, Light, Duotone
+        /// lamp-desk - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lamp-desk")]
         LampDesk,
 
         /// <summary>
-        ///     Lamp Floor
+        /// Lamp Floor
         /// </summary>
         /// <remarks>
-        ///     lamp-floor - Available in Solid, Regular, Light, Duotone
+        /// lamp-floor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lamp-floor")]
         LampFloor,
 
         /// <summary>
-        ///     Landmark
+        /// Landmark
         /// </summary>
         /// <remarks>
-        ///     landmark - Available in Solid, Regular, Light, Duotone
+        /// landmark - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "landmark")]
         Landmark,
 
         /// <summary>
-        ///     Alternative Landmark
+        /// Alternative Landmark
         /// </summary>
         /// <remarks>
-        ///     landmark-alt - Available in Solid, Regular, Light, Duotone
+        /// landmark-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "landmark-alt")]
         LandmarkAlt,
 
         /// <summary>
-        ///     Language
+        /// Language
         /// </summary>
         /// <remarks>
-        ///     language - Available in Solid, Regular, Light, Duotone
+        /// language - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "language")]
         Language,
 
         /// <summary>
-        ///     Laptop
+        /// Laptop
         /// </summary>
         /// <remarks>
-        ///     laptop - Available in Solid, Regular, Light, Duotone
+        /// laptop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "laptop")]
         Laptop,
 
         /// <summary>
-        ///     Laptop Code
+        /// Laptop Code
         /// </summary>
         /// <remarks>
-        ///     laptop-code - Available in Solid, Regular, Light, Duotone
+        /// laptop-code - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "laptop-code")]
         LaptopCode,
 
         /// <summary>
-        ///     Laptop House
+        /// Laptop House
         /// </summary>
         /// <remarks>
-        ///     laptop-house - Available in Light, Regular, Solid, Duotone
+        /// laptop-house - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "laptop-house")]
         LaptopHouse,
 
         /// <summary>
-        ///     Laptop Medical
+        /// Laptop Medical
         /// </summary>
         /// <remarks>
-        ///     laptop-medical - Available in Solid, Regular, Light, Duotone
+        /// laptop-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "laptop-medical")]
         LaptopMedical,
 
         /// <summary>
-        ///     Lasso
+        /// Lasso
         /// </summary>
         /// <remarks>
-        ///     lasso - Available in Light, Regular, Solid, Duotone
+        /// lasso - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lasso")]
         Lasso,
 
         /// <summary>
-        ///     Grinning Face With Big Eyes
+        /// Grinning Face With Big Eyes
         /// </summary>
         /// <remarks>
-        ///     laugh - Available in Solid, Regular, Light, Duotone
+        /// laugh - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "laugh")]
         Laugh,
 
         /// <summary>
-        ///     Laugh Face With Beaming Eyes
+        /// Laugh Face With Beaming Eyes
         /// </summary>
         /// <remarks>
-        ///     laugh-beam - Available in Solid, Regular, Light, Duotone
+        /// laugh-beam - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "laugh-beam")]
         LaughBeam,
 
         /// <summary>
-        ///     Laughing Squinting Face
+        /// Laughing Squinting Face
         /// </summary>
         /// <remarks>
-        ///     laugh-squint - Available in Solid, Regular, Light, Duotone
+        /// laugh-squint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "laugh-squint")]
         LaughSquint,
 
         /// <summary>
-        ///     Laughing Winking Face
+        /// Laughing Winking Face
         /// </summary>
         /// <remarks>
-        ///     laugh-wink - Available in Solid, Regular, Light, Duotone
+        /// laugh-wink - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "laugh-wink")]
         LaughWink,
 
         /// <summary>
-        ///     Layer Group
+        /// Layer Group
         /// </summary>
         /// <remarks>
-        ///     layer-group - Available in Solid, Regular, Light, Duotone
+        /// layer-group - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "layer-group")]
         LayerGroup,
 
         /// <summary>
-        ///     Layer Minus
+        /// Layer Minus
         /// </summary>
         /// <remarks>
-        ///     layer-minus - Available in Solid, Regular, Light, Duotone
+        /// layer-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "layer-minus")]
         LayerMinus,
 
         /// <summary>
-        ///     Layer Plus
+        /// Layer Plus
         /// </summary>
         /// <remarks>
-        ///     layer-plus - Available in Solid, Regular, Light, Duotone
+        /// layer-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "layer-plus")]
         LayerPlus,
 
         /// <summary>
-        ///     Leaf
+        /// Leaf
         /// </summary>
         /// <remarks>
-        ///     leaf - Available in Solid, Regular, Light, Duotone
+        /// leaf - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "leaf")] Leaf,
+        [FontAwesome(IconStyle.Light, "leaf")]
+        Leaf,
 
         /// <summary>
-        ///     Leaf With a Heart
+        /// Leaf With a Heart
         /// </summary>
         /// <remarks>
-        ///     leaf-heart - Available in Solid, Regular, Light, Duotone
+        /// leaf-heart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "leaf-heart")]
         LeafHeart,
 
         /// <summary>
-        ///     Maple Leaf
+        /// Maple Leaf
         /// </summary>
         /// <remarks>
-        ///     leaf-maple - Available in Solid, Regular, Light, Duotone
+        /// leaf-maple - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "leaf-maple")]
         LeafMaple,
 
         /// <summary>
-        ///     Oak Leaf
+        /// Oak Leaf
         /// </summary>
         /// <remarks>
-        ///     leaf-oak - Available in Solid, Regular, Light, Duotone
+        /// leaf-oak - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "leaf-oak")]
         LeafOak,
 
         /// <summary>
-        ///     Lemon
+        /// Lemon
         /// </summary>
         /// <remarks>
-        ///     lemon - Available in Solid, Regular, Light, Duotone
+        /// lemon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lemon")]
         Lemon,
 
         /// <summary>
-        ///     Less Than
+        /// Less Than
         /// </summary>
         /// <remarks>
-        ///     less-than - Available in Solid, Regular, Light, Duotone
+        /// less-than - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "less-than")]
         LessThan,
 
         /// <summary>
-        ///     Less Than Equal to
+        /// Less Than Equal to
         /// </summary>
         /// <remarks>
-        ///     less-than-equal - Available in Solid, Regular, Light, Duotone
+        /// less-than-equal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "less-than-equal")]
         LessThanEqual,
 
         /// <summary>
-        ///     Level Down
+        /// Level Down
         /// </summary>
         /// <remarks>
-        ///     level-down - Available in Solid, Regular, Light, Duotone
+        /// level-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "level-down")]
         LevelDown,
 
         /// <summary>
-        ///     Alternate Level Down
+        /// Alternate Level Down
         /// </summary>
         /// <remarks>
-        ///     level-down-alt - Available in Solid, Regular, Light, Duotone
+        /// level-down-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "level-down-alt")]
         LevelDownAlt,
 
         /// <summary>
-        ///     Level up
+        /// Level up
         /// </summary>
         /// <remarks>
-        ///     level-up - Available in Solid, Regular, Light, Duotone
+        /// level-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "level-up")]
         LevelUp,
 
         /// <summary>
-        ///     Alternate Level up
+        /// Alternate Level up
         /// </summary>
         /// <remarks>
-        ///     level-up-alt - Available in Solid, Regular, Light, Duotone
+        /// level-up-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "level-up-alt")]
         LevelUpAlt,
 
         /// <summary>
-        ///     Life Ring
+        /// Life Ring
         /// </summary>
         /// <remarks>
-        ///     life-ring - Available in Solid, Regular, Light, Duotone
+        /// life-ring - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "life-ring")]
         LifeRing,
 
         /// <summary>
-        ///     Light Ceiling
+        /// Light Ceiling
         /// </summary>
         /// <remarks>
-        ///     light-ceiling - Available in Solid, Regular, Light, Duotone
+        /// light-ceiling - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "light-ceiling")]
         LightCeiling,
 
         /// <summary>
-        ///     Light Switch
+        /// Light Switch
         /// </summary>
         /// <remarks>
-        ///     light-switch - Available in Solid, Regular, Light, Duotone
+        /// light-switch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "light-switch")]
         LightSwitch,
 
         /// <summary>
-        ///     Light Switch off
+        /// Light Switch off
         /// </summary>
         /// <remarks>
-        ///     light-switch-off - Available in Solid, Regular, Light, Duotone
+        /// light-switch-off - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "light-switch-off")]
         LightSwitchOff,
 
         /// <summary>
-        ///     Light Switch on
+        /// Light Switch on
         /// </summary>
         /// <remarks>
-        ///     light-switch-on - Available in Solid, Regular, Light, Duotone
+        /// light-switch-on - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "light-switch-on")]
         LightSwitchOn,
 
         /// <summary>
-        ///     Lightbulb
+        /// Lightbulb
         /// </summary>
         /// <remarks>
-        ///     lightbulb - Available in Solid, Regular, Light, Duotone
+        /// lightbulb - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lightbulb")]
         Lightbulb,
 
         /// <summary>
-        ///     Lightbulb Dollar
+        /// Lightbulb Dollar
         /// </summary>
         /// <remarks>
-        ///     lightbulb-dollar - Available in Solid, Regular, Light, Duotone
+        /// lightbulb-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lightbulb-dollar")]
         LightbulbDollar,
 
         /// <summary>
-        ///     Lightbulb Exclamation
+        /// Lightbulb Exclamation
         /// </summary>
         /// <remarks>
-        ///     lightbulb-exclamation - Available in Solid, Regular, Light, Duotone
+        /// lightbulb-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lightbulb-exclamation")]
         LightbulbExclamation,
 
         /// <summary>
-        ///     Lightbulb on
+        /// Lightbulb on
         /// </summary>
         /// <remarks>
-        ///     lightbulb-on - Available in Solid, Regular, Light, Duotone
+        /// lightbulb-on - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lightbulb-on")]
         LightbulbOn,
 
         /// <summary>
-        ///     Lightbulb Slash
+        /// Lightbulb Slash
         /// </summary>
         /// <remarks>
-        ///     lightbulb-slash - Available in Solid, Regular, Light, Duotone
+        /// lightbulb-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lightbulb-slash")]
         LightbulbSlash,
 
         /// <summary>
-        ///     Holiday Lights
+        /// Holiday Lights
         /// </summary>
         /// <remarks>
-        ///     lights-holiday - Available in Solid, Regular, Light, Duotone
+        /// lights-holiday - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lights-holiday")]
         LightsHoliday,
 
         /// <summary>
-        ///     Line Columns
+        /// Line Columns
         /// </summary>
         /// <remarks>
-        ///     line-columns - Available in Solid, Regular, Light, Duotone
+        /// line-columns - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "line-columns")]
         LineColumns,
 
         /// <summary>
-        ///     Line Height
+        /// Line Height
         /// </summary>
         /// <remarks>
-        ///     line-height - Available in Solid, Regular, Light, Duotone
+        /// line-height - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "line-height")]
         LineHeight,
 
         /// <summary>
-        ///     Link
+        /// Link
         /// </summary>
         /// <remarks>
-        ///     link - Available in Solid, Regular, Light, Duotone
+        /// link - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "link")] Link,
+        [FontAwesome(IconStyle.Light, "link")]
+        Link,
 
         /// <summary>
-        ///     Lips
+        /// Lips
         /// </summary>
         /// <remarks>
-        ///     lips - Available in Solid, Regular, Light, Duotone
+        /// lips - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "lips")] Lips,
+        [FontAwesome(IconStyle.Light, "lips")]
+        Lips,
 
         /// <summary>
-        ///     Turkish Lira Sign
+        /// Turkish Lira Sign
         /// </summary>
         /// <remarks>
-        ///     lira-sign - Available in Solid, Regular, Light, Duotone
+        /// lira-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lira-sign")]
         LiraSign,
 
         /// <summary>
-        ///     List
+        /// List
         /// </summary>
         /// <remarks>
-        ///     list - Available in Solid, Regular, Light, Duotone
+        /// list - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "list")] List,
+        [FontAwesome(IconStyle.Light, "list")]
+        List,
 
         /// <summary>
-        ///     Alternate List
+        /// Alternate List
         /// </summary>
         /// <remarks>
-        ///     list-alt - Available in Solid, Regular, Light, Duotone
+        /// list-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "list-alt")]
         ListAlt,
 
         /// <summary>
-        ///     List Music
+        /// List Music
         /// </summary>
         /// <remarks>
-        ///     list-music - Available in Solid, Regular, Light, Duotone
+        /// list-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "list-music")]
         ListMusic,
 
         /// <summary>
-        ///     List Ol
+        /// List Ol
         /// </summary>
         /// <remarks>
-        ///     list-ol - Available in Solid, Regular, Light, Duotone
+        /// list-ol - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "list-ol")]
         ListOl,
 
         /// <summary>
-        ///     List Ul
+        /// List Ul
         /// </summary>
         /// <remarks>
-        ///     list-ul - Available in Solid, Regular, Light, Duotone
+        /// list-ul - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "list-ul")]
         ListUl,
 
         /// <summary>
-        ///     Location
+        /// Location
         /// </summary>
         /// <remarks>
-        ///     location - Available in Solid, Regular, Light, Duotone
+        /// location - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "location")]
         Location,
 
         /// <summary>
-        ///     Location Arrow
+        /// Location Arrow
         /// </summary>
         /// <remarks>
-        ///     location-arrow - Available in Solid, Regular, Light, Duotone
+        /// location-arrow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "location-arrow")]
         LocationArrow,
 
         /// <summary>
-        ///     Location Circle
+        /// Location Circle
         /// </summary>
         /// <remarks>
-        ///     location-circle - Available in Solid, Regular, Light, Duotone
+        /// location-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "location-circle")]
         LocationCircle,
 
         /// <summary>
-        ///     Location Slash
+        /// Location Slash
         /// </summary>
         /// <remarks>
-        ///     location-slash - Available in Solid, Regular, Light, Duotone
+        /// location-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "location-slash")]
         LocationSlash,
 
         /// <summary>
-        ///     Lock
+        /// Lock
         /// </summary>
         /// <remarks>
-        ///     lock - Available in Solid, Regular, Light, Duotone
+        /// lock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "lock")] Lock,
+        [FontAwesome(IconStyle.Light, "lock")]
+        Lock,
 
         /// <summary>
-        ///     Alternate Lock
+        /// Alternate Lock
         /// </summary>
         /// <remarks>
-        ///     lock-alt - Available in Solid, Regular, Light, Duotone
+        /// lock-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lock-alt")]
         LockAlt,
 
         /// <summary>
-        ///     Lock Open
+        /// Lock Open
         /// </summary>
         /// <remarks>
-        ///     lock-open - Available in Solid, Regular, Light, Duotone
+        /// lock-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lock-open")]
         LockOpen,
 
         /// <summary>
-        ///     Alternate Lock Open
+        /// Alternate Lock Open
         /// </summary>
         /// <remarks>
-        ///     lock-open-alt - Available in Solid, Regular, Light, Duotone
+        /// lock-open-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lock-open-alt")]
         LockOpenAlt,
 
         /// <summary>
-        ///     Alternate Long Arrow Down
+        /// Alternate Long Arrow Down
         /// </summary>
         /// <remarks>
-        ///     long-arrow-alt-down - Available in Solid, Regular, Light, Duotone
+        /// long-arrow-alt-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "long-arrow-alt-down")]
         LongArrowAltDown,
 
         /// <summary>
-        ///     Alternate Long Arrow Left
+        /// Alternate Long Arrow Left
         /// </summary>
         /// <remarks>
-        ///     long-arrow-alt-left - Available in Solid, Regular, Light, Duotone
+        /// long-arrow-alt-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "long-arrow-alt-left")]
         LongArrowAltLeft,
 
         /// <summary>
-        ///     Alternate Long Arrow Right
+        /// Alternate Long Arrow Right
         /// </summary>
         /// <remarks>
-        ///     long-arrow-alt-right - Available in Solid, Regular, Light, Duotone
+        /// long-arrow-alt-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "long-arrow-alt-right")]
         LongArrowAltRight,
 
         /// <summary>
-        ///     Alternate Long Arrow up
+        /// Alternate Long Arrow up
         /// </summary>
         /// <remarks>
-        ///     long-arrow-alt-up - Available in Solid, Regular, Light, Duotone
+        /// long-arrow-alt-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "long-arrow-alt-up")]
         LongArrowAltUp,
 
         /// <summary>
-        ///     Long Arrow Down
+        /// Long Arrow Down
         /// </summary>
         /// <remarks>
-        ///     long-arrow-down - Available in Solid, Regular, Light, Duotone
+        /// long-arrow-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "long-arrow-down")]
         LongArrowDown,
 
         /// <summary>
-        ///     Long Arrow Left
+        /// Long Arrow Left
         /// </summary>
         /// <remarks>
-        ///     long-arrow-left - Available in Solid, Regular, Light, Duotone
+        /// long-arrow-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "long-arrow-left")]
         LongArrowLeft,
 
         /// <summary>
-        ///     Long Arrow Right
+        /// Long Arrow Right
         /// </summary>
         /// <remarks>
-        ///     long-arrow-right - Available in Solid, Regular, Light, Duotone
+        /// long-arrow-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "long-arrow-right")]
         LongArrowRight,
 
         /// <summary>
-        ///     Long Arrow up
+        /// Long Arrow up
         /// </summary>
         /// <remarks>
-        ///     long-arrow-up - Available in Solid, Regular, Light, Duotone
+        /// long-arrow-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "long-arrow-up")]
         LongArrowUp,
 
         /// <summary>
-        ///     Loveseat
+        /// Loveseat
         /// </summary>
         /// <remarks>
-        ///     loveseat - Available in Solid, Regular, Light, Duotone
+        /// loveseat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "loveseat")]
         Loveseat,
 
         /// <summary>
-        ///     Low Vision
+        /// Low Vision
         /// </summary>
         /// <remarks>
-        ///     low-vision - Available in Solid, Regular, Light, Duotone
+        /// low-vision - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "low-vision")]
         LowVision,
 
         /// <summary>
-        ///     Luchador
+        /// Luchador
         /// </summary>
         /// <remarks>
-        ///     luchador - Available in Solid, Regular, Light, Duotone
+        /// luchador - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "luchador")]
         Luchador,
 
         /// <summary>
-        ///     Luggage Cart
+        /// Luggage Cart
         /// </summary>
         /// <remarks>
-        ///     luggage-cart - Available in Solid, Regular, Light, Duotone
+        /// luggage-cart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "luggage-cart")]
         LuggageCart,
 
         /// <summary>
-        ///     Lungs
+        /// Lungs
         /// </summary>
         /// <remarks>
-        ///     lungs - Available in Solid, Regular, Light, Duotone
+        /// lungs - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lungs")]
         Lungs,
 
         /// <summary>
-        ///     Lungs Virus
+        /// Lungs Virus
         /// </summary>
         /// <remarks>
-        ///     lungs-virus - Available in Light, Regular, Solid, Duotone
+        /// lungs-virus - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "lungs-virus")]
         LungsVirus,
 
         /// <summary>
-        ///     Mace
+        /// Mace
         /// </summary>
         /// <remarks>
-        ///     mace - Available in Solid, Regular, Light, Duotone
+        /// mace - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "mace")] Mace,
+        [FontAwesome(IconStyle.Light, "mace")]
+        Mace,
 
         /// <summary>
-        ///     Magic
+        /// Magic
         /// </summary>
         /// <remarks>
-        ///     magic - Available in Solid, Regular, Light, Duotone
+        /// magic - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "magic")]
         Magic,
 
         /// <summary>
-        ///     Magnet
+        /// Magnet
         /// </summary>
         /// <remarks>
-        ///     magnet - Available in Solid, Regular, Light, Duotone
+        /// magnet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "magnet")]
         Magnet,
 
         /// <summary>
-        ///     Mail Bulk
+        /// Mail Bulk
         /// </summary>
         /// <remarks>
-        ///     mail-bulk - Available in Solid, Regular, Light, Duotone
+        /// mail-bulk - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mail-bulk")]
         MailBulk,
 
         /// <summary>
-        ///     Mailbox
+        /// Mailbox
         /// </summary>
         /// <remarks>
-        ///     mailbox - Available in Solid, Regular, Light, Duotone
+        /// mailbox - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mailbox")]
         Mailbox,
 
         /// <summary>
-        ///     Male
+        /// Male
         /// </summary>
         /// <remarks>
-        ///     male - Available in Solid, Regular, Light, Duotone
+        /// male - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "male")] Male,
+        [FontAwesome(IconStyle.Light, "male")]
+        Male,
 
         /// <summary>
-        ///     Mandolin
+        /// Mandolin
         /// </summary>
         /// <remarks>
-        ///     mandolin - Available in Solid, Regular, Light, Duotone
+        /// mandolin - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mandolin")]
         Mandolin,
 
         /// <summary>
-        ///     Map
+        /// Map
         /// </summary>
         /// <remarks>
-        ///     map - Available in Solid, Regular, Light, Duotone
+        /// map - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "map")] Map,
+        [FontAwesome(IconStyle.Light, "map")]
+        Map,
 
         /// <summary>
-        ///     Map Marked
+        /// Map Marked
         /// </summary>
         /// <remarks>
-        ///     map-marked - Available in Solid, Regular, Light, Duotone
+        /// map-marked - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-marked")]
         MapMarked,
 
         /// <summary>
-        ///     Alternate Map Marked
+        /// Alternate Map Marked
         /// </summary>
         /// <remarks>
-        ///     map-marked-alt - Available in Solid, Regular, Light, Duotone
+        /// map-marked-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-marked-alt")]
         MapMarkedAlt,
 
         /// <summary>
-        ///     Map Marker
+        /// Map Marker
         /// </summary>
         /// <remarks>
-        ///     map-marker - Available in Solid, Regular, Light, Duotone
+        /// map-marker - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-marker")]
         MapMarker,
 
         /// <summary>
-        ///     Alternate Map Marker
+        /// Alternate Map Marker
         /// </summary>
         /// <remarks>
-        ///     map-marker-alt - Available in Solid, Regular, Light, Duotone
+        /// map-marker-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-marker-alt")]
         MapMarkerAlt,
 
         /// <summary>
-        ///     Alternate Map Marker Slash
+        /// Alternate Map Marker Slash
         /// </summary>
         /// <remarks>
-        ///     map-marker-alt-slash - Available in Solid, Regular, Light, Duotone
+        /// map-marker-alt-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-marker-alt-slash")]
         MapMarkerAltSlash,
 
         /// <summary>
-        ///     Map Marker Check
+        /// Map Marker Check
         /// </summary>
         /// <remarks>
-        ///     map-marker-check - Available in Solid, Regular, Light, Duotone
+        /// map-marker-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-marker-check")]
         MapMarkerCheck,
 
         /// <summary>
-        ///     Map Marker Edit
+        /// Map Marker Edit
         /// </summary>
         /// <remarks>
-        ///     map-marker-edit - Available in Solid, Regular, Light, Duotone
+        /// map-marker-edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-marker-edit")]
         MapMarkerEdit,
 
         /// <summary>
-        ///     Map Marker Exclamation
+        /// Map Marker Exclamation
         /// </summary>
         /// <remarks>
-        ///     map-marker-exclamation - Available in Solid, Regular, Light, Duotone
+        /// map-marker-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-marker-exclamation")]
         MapMarkerExclamation,
 
         /// <summary>
-        ///     Map Marker Minus
+        /// Map Marker Minus
         /// </summary>
         /// <remarks>
-        ///     map-marker-minus - Available in Solid, Regular, Light, Duotone
+        /// map-marker-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-marker-minus")]
         MapMarkerMinus,
 
         /// <summary>
-        ///     Map Marker Plus
+        /// Map Marker Plus
         /// </summary>
         /// <remarks>
-        ///     map-marker-plus - Available in Solid, Regular, Light, Duotone
+        /// map-marker-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-marker-plus")]
         MapMarkerPlus,
 
         /// <summary>
-        ///     Map Marker Question
+        /// Map Marker Question
         /// </summary>
         /// <remarks>
-        ///     map-marker-question - Available in Solid, Regular, Light, Duotone
+        /// map-marker-question - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-marker-question")]
         MapMarkerQuestion,
 
         /// <summary>
-        ///     Map Marker Slash
+        /// Map Marker Slash
         /// </summary>
         /// <remarks>
-        ///     map-marker-slash - Available in Solid, Regular, Light, Duotone
+        /// map-marker-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-marker-slash")]
         MapMarkerSlash,
 
         /// <summary>
-        ///     Map Marker Smile
+        /// Map Marker Smile
         /// </summary>
         /// <remarks>
-        ///     map-marker-smile - Available in Solid, Regular, Light, Duotone
+        /// map-marker-smile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-marker-smile")]
         MapMarkerSmile,
 
         /// <summary>
-        ///     Map Marker Times
+        /// Map Marker Times
         /// </summary>
         /// <remarks>
-        ///     map-marker-times - Available in Solid, Regular, Light, Duotone
+        /// map-marker-times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-marker-times")]
         MapMarkerTimes,
 
         /// <summary>
-        ///     Map Pin
+        /// Map Pin
         /// </summary>
         /// <remarks>
-        ///     map-pin - Available in Solid, Regular, Light, Duotone
+        /// map-pin - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-pin")]
         MapPin,
 
         /// <summary>
-        ///     Map Signs
+        /// Map Signs
         /// </summary>
         /// <remarks>
-        ///     map-signs - Available in Solid, Regular, Light, Duotone
+        /// map-signs - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "map-signs")]
         MapSigns,
 
         /// <summary>
-        ///     Marker
+        /// Marker
         /// </summary>
         /// <remarks>
-        ///     marker - Available in Solid, Regular, Light, Duotone
+        /// marker - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "marker")]
         Marker,
 
         /// <summary>
-        ///     Mars
+        /// Mars
         /// </summary>
         /// <remarks>
-        ///     mars - Available in Solid, Regular, Light, Duotone
+        /// mars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "mars")] Mars,
+        [FontAwesome(IconStyle.Light, "mars")]
+        Mars,
 
         /// <summary>
-        ///     Mars Double
+        /// Mars Double
         /// </summary>
         /// <remarks>
-        ///     mars-double - Available in Solid, Regular, Light, Duotone
+        /// mars-double - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mars-double")]
         MarsDouble,
 
         /// <summary>
-        ///     Mars Stroke
+        /// Mars Stroke
         /// </summary>
         /// <remarks>
-        ///     mars-stroke - Available in Solid, Regular, Light, Duotone
+        /// mars-stroke - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mars-stroke")]
         MarsStroke,
 
         /// <summary>
-        ///     Mars Stroke Horizontal
+        /// Mars Stroke Horizontal
         /// </summary>
         /// <remarks>
-        ///     mars-stroke-h - Available in Solid, Regular, Light, Duotone
+        /// mars-stroke-h - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mars-stroke-h")]
         MarsStrokeH,
 
         /// <summary>
-        ///     Mars Stroke Vertical
+        /// Mars Stroke Vertical
         /// </summary>
         /// <remarks>
-        ///     mars-stroke-v - Available in Solid, Regular, Light, Duotone
+        /// mars-stroke-v - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mars-stroke-v")]
         MarsStrokeV,
 
         /// <summary>
-        ///     Mask
+        /// Mask
         /// </summary>
         /// <remarks>
-        ///     mask - Available in Solid, Regular, Light, Duotone
+        /// mask - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "mask")] Mask,
+        [FontAwesome(IconStyle.Light, "mask")]
+        Mask,
 
         /// <summary>
-        ///     Meat
+        /// Meat
         /// </summary>
         /// <remarks>
-        ///     meat - Available in Solid, Regular, Light, Duotone
+        /// meat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "meat")] Meat,
+        [FontAwesome(IconStyle.Light, "meat")]
+        Meat,
 
         /// <summary>
-        ///     Medal
+        /// Medal
         /// </summary>
         /// <remarks>
-        ///     medal - Available in Solid, Regular, Light, Duotone
+        /// medal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "medal")]
         Medal,
 
         /// <summary>
-        ///     Medkit
+        /// Medkit
         /// </summary>
         /// <remarks>
-        ///     medkit - Available in Solid, Regular, Light, Duotone
+        /// medkit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "medkit")]
         Medkit,
 
         /// <summary>
-        ///     Megaphone
+        /// Megaphone
         /// </summary>
         /// <remarks>
-        ///     megaphone - Available in Solid, Regular, Light, Duotone
+        /// megaphone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "megaphone")]
         Megaphone,
 
         /// <summary>
-        ///     Neutral Face
+        /// Neutral Face
         /// </summary>
         /// <remarks>
-        ///     meh - Available in Solid, Regular, Light, Duotone
+        /// meh - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "meh")] Meh,
+        [FontAwesome(IconStyle.Light, "meh")]
+        Meh,
 
         /// <summary>
-        ///     Face Without Mouth
+        /// Face Without Mouth
         /// </summary>
         /// <remarks>
-        ///     meh-blank - Available in Solid, Regular, Light, Duotone
+        /// meh-blank - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "meh-blank")]
         MehBlank,
 
         /// <summary>
-        ///     Face With Rolling Eyes
+        /// Face With Rolling Eyes
         /// </summary>
         /// <remarks>
-        ///     meh-rolling-eyes - Available in Solid, Regular, Light, Duotone
+        /// meh-rolling-eyes - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "meh-rolling-eyes")]
         MehRollingEyes,
 
         /// <summary>
-        ///     Memory
+        /// Memory
         /// </summary>
         /// <remarks>
-        ///     memory - Available in Solid, Regular, Light, Duotone
+        /// memory - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "memory")]
         Memory,
 
         /// <summary>
-        ///     Menorah
+        /// Menorah
         /// </summary>
         /// <remarks>
-        ///     menorah - Available in Solid, Regular, Light, Duotone
+        /// menorah - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "menorah")]
         Menorah,
 
         /// <summary>
-        ///     Mercury
+        /// Mercury
         /// </summary>
         /// <remarks>
-        ///     mercury - Available in Solid, Regular, Light, Duotone
+        /// mercury - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mercury")]
         Mercury,
 
         /// <summary>
-        ///     Meteor
+        /// Meteor
         /// </summary>
         /// <remarks>
-        ///     meteor - Available in Solid, Regular, Light, Duotone
+        /// meteor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "meteor")]
         Meteor,
 
         /// <summary>
-        ///     Microchip
+        /// Microchip
         /// </summary>
         /// <remarks>
-        ///     microchip - Available in Solid, Regular, Light, Duotone
+        /// microchip - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "microchip")]
         Microchip,
 
         /// <summary>
-        ///     Microphone
+        /// Microphone
         /// </summary>
         /// <remarks>
-        ///     microphone - Available in Solid, Regular, Light, Duotone
+        /// microphone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "microphone")]
         Microphone,
 
         /// <summary>
-        ///     Alternate Microphone
+        /// Alternate Microphone
         /// </summary>
         /// <remarks>
-        ///     microphone-alt - Available in Solid, Regular, Light, Duotone
+        /// microphone-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "microphone-alt")]
         MicrophoneAlt,
 
         /// <summary>
-        ///     Alternate Microphone Slash
+        /// Alternate Microphone Slash
         /// </summary>
         /// <remarks>
-        ///     microphone-alt-slash - Available in Solid, Regular, Light, Duotone
+        /// microphone-alt-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "microphone-alt-slash")]
         MicrophoneAltSlash,
 
         /// <summary>
-        ///     Microphone Slash
+        /// Microphone Slash
         /// </summary>
         /// <remarks>
-        ///     microphone-slash - Available in Solid, Regular, Light, Duotone
+        /// microphone-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "microphone-slash")]
         MicrophoneSlash,
 
         /// <summary>
-        ///     Microphone Stand
+        /// Microphone Stand
         /// </summary>
         /// <remarks>
-        ///     microphone-stand - Available in Solid, Regular, Light, Duotone
+        /// microphone-stand - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "microphone-stand")]
         MicrophoneStand,
 
         /// <summary>
-        ///     Microscope
+        /// Microscope
         /// </summary>
         /// <remarks>
-        ///     microscope - Available in Solid, Regular, Light, Duotone
+        /// microscope - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "microscope")]
         Microscope,
 
         /// <summary>
-        ///     Microwave
+        /// Microwave
         /// </summary>
         /// <remarks>
-        ///     microwave - Available in Solid, Regular, Light, Duotone
+        /// microwave - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "microwave")]
         Microwave,
 
         /// <summary>
-        ///     Mind Share
+        /// Mind Share
         /// </summary>
         /// <remarks>
-        ///     mind-share - Available in Solid, Regular, Light, Duotone
+        /// mind-share - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mind-share")]
         MindShare,
 
         /// <summary>
-        ///     Minus
+        /// Minus
         /// </summary>
         /// <remarks>
-        ///     minus - Available in Solid, Regular, Light, Duotone
+        /// minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "minus")]
         Minus,
 
         /// <summary>
-        ///     Minus Circle
+        /// Minus Circle
         /// </summary>
         /// <remarks>
-        ///     minus-circle - Available in Solid, Regular, Light, Duotone
+        /// minus-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "minus-circle")]
         MinusCircle,
 
         /// <summary>
-        ///     Minus Hexagon
+        /// Minus Hexagon
         /// </summary>
         /// <remarks>
-        ///     minus-hexagon - Available in Solid, Regular, Light, Duotone
+        /// minus-hexagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "minus-hexagon")]
         MinusHexagon,
 
         /// <summary>
-        ///     Minus Octagon
+        /// Minus Octagon
         /// </summary>
         /// <remarks>
-        ///     minus-octagon - Available in Solid, Regular, Light, Duotone
+        /// minus-octagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "minus-octagon")]
         MinusOctagon,
 
         /// <summary>
-        ///     Minus Square
+        /// Minus Square
         /// </summary>
         /// <remarks>
-        ///     minus-square - Available in Solid, Regular, Light, Duotone
+        /// minus-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "minus-square")]
         MinusSquare,
 
         /// <summary>
-        ///     Mistletoe
+        /// Mistletoe
         /// </summary>
         /// <remarks>
-        ///     mistletoe - Available in Solid, Regular, Light, Duotone
+        /// mistletoe - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mistletoe")]
         Mistletoe,
 
         /// <summary>
-        ///     Mitten
+        /// Mitten
         /// </summary>
         /// <remarks>
-        ///     mitten - Available in Solid, Regular, Light, Duotone
+        /// mitten - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mitten")]
         Mitten,
 
         /// <summary>
-        ///     Mobile Phone
+        /// Mobile Phone
         /// </summary>
         /// <remarks>
-        ///     mobile - Available in Solid, Regular, Light, Duotone
+        /// mobile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mobile")]
         Mobile,
 
         /// <summary>
-        ///     Alternate Mobile
+        /// Alternate Mobile
         /// </summary>
         /// <remarks>
-        ///     mobile-alt - Available in Solid, Regular, Light, Duotone
+        /// mobile-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mobile-alt")]
         MobileAlt,
 
         /// <summary>
-        ///     Mobile Android
+        /// Mobile Android
         /// </summary>
         /// <remarks>
-        ///     mobile-android - Available in Solid, Regular, Light, Duotone
+        /// mobile-android - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mobile-android")]
         MobileAndroid,
 
         /// <summary>
-        ///     Alternate Mobile Android
+        /// Alternate Mobile Android
         /// </summary>
         /// <remarks>
-        ///     mobile-android-alt - Available in Solid, Regular, Light, Duotone
+        /// mobile-android-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mobile-android-alt")]
         MobileAndroidAlt,
 
         /// <summary>
-        ///     Money Bill
+        /// Money Bill
         /// </summary>
         /// <remarks>
-        ///     money-bill - Available in Solid, Regular, Light, Duotone
+        /// money-bill - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "money-bill")]
         MoneyBill,
 
         /// <summary>
-        ///     Alternate Money Bill
+        /// Alternate Money Bill
         /// </summary>
         /// <remarks>
-        ///     money-bill-alt - Available in Solid, Regular, Light, Duotone
+        /// money-bill-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "money-bill-alt")]
         MoneyBillAlt,
 
         /// <summary>
-        ///     Wavy Money Bill
+        /// Wavy Money Bill
         /// </summary>
         /// <remarks>
-        ///     money-bill-wave - Available in Solid, Regular, Light, Duotone
+        /// money-bill-wave - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "money-bill-wave")]
         MoneyBillWave,
 
         /// <summary>
-        ///     Alternate Wavy Money Bill
+        /// Alternate Wavy Money Bill
         /// </summary>
         /// <remarks>
-        ///     money-bill-wave-alt - Available in Solid, Regular, Light, Duotone
+        /// money-bill-wave-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "money-bill-wave-alt")]
         MoneyBillWaveAlt,
 
         /// <summary>
-        ///     Money Check
+        /// Money Check
         /// </summary>
         /// <remarks>
-        ///     money-check - Available in Solid, Regular, Light, Duotone
+        /// money-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "money-check")]
         MoneyCheck,
 
         /// <summary>
-        ///     Alternate Money Check
+        /// Alternate Money Check
         /// </summary>
         /// <remarks>
-        ///     money-check-alt - Available in Solid, Regular, Light, Duotone
+        /// money-check-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "money-check-alt")]
         MoneyCheckAlt,
 
         /// <summary>
-        ///     Money Check Edit
+        /// Money Check Edit
         /// </summary>
         /// <remarks>
-        ///     money-check-edit - Available in Solid, Regular, Light, Duotone
+        /// money-check-edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "money-check-edit")]
         MoneyCheckEdit,
 
         /// <summary>
-        ///     Alternate Money Check Edit
+        /// Alternate Money Check Edit
         /// </summary>
         /// <remarks>
-        ///     money-check-edit-alt - Available in Solid, Regular, Light, Duotone
+        /// money-check-edit-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "money-check-edit-alt")]
         MoneyCheckEditAlt,
 
         /// <summary>
-        ///     Heart Rate Monitor
+        /// Heart Rate Monitor
         /// </summary>
         /// <remarks>
-        ///     monitor-heart-rate - Available in Solid, Regular, Light, Duotone
+        /// monitor-heart-rate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "monitor-heart-rate")]
         MonitorHeartRate,
 
         /// <summary>
-        ///     Monkey
+        /// Monkey
         /// </summary>
         /// <remarks>
-        ///     monkey - Available in Solid, Regular, Light, Duotone
+        /// monkey - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "monkey")]
         Monkey,
 
         /// <summary>
-        ///     Monument
+        /// Monument
         /// </summary>
         /// <remarks>
-        ///     monument - Available in Solid, Regular, Light, Duotone
+        /// monument - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "monument")]
         Monument,
 
         /// <summary>
-        ///     Moon
+        /// Moon
         /// </summary>
         /// <remarks>
-        ///     moon - Available in Solid, Regular, Light, Duotone
+        /// moon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "moon")] Moon,
+        [FontAwesome(IconStyle.Light, "moon")]
+        Moon,
 
         /// <summary>
-        ///     Moon With Cloud
+        /// Moon With Cloud
         /// </summary>
         /// <remarks>
-        ///     moon-cloud - Available in Solid, Regular, Light, Duotone
+        /// moon-cloud - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "moon-cloud")]
         MoonCloud,
 
         /// <summary>
-        ///     Moon With Stars
+        /// Moon With Stars
         /// </summary>
         /// <remarks>
-        ///     moon-stars - Available in Solid, Regular, Light, Duotone
+        /// moon-stars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "moon-stars")]
         MoonStars,
 
         /// <summary>
-        ///     Mortar Pestle
+        /// Mortar Pestle
         /// </summary>
         /// <remarks>
-        ///     mortar-pestle - Available in Solid, Regular, Light, Duotone
+        /// mortar-pestle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mortar-pestle")]
         MortarPestle,
 
         /// <summary>
-        ///     Mosque
+        /// Mosque
         /// </summary>
         /// <remarks>
-        ///     mosque - Available in Solid, Regular, Light, Duotone
+        /// mosque - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mosque")]
         Mosque,
 
         /// <summary>
-        ///     Motorcycle
+        /// Motorcycle
         /// </summary>
         /// <remarks>
-        ///     motorcycle - Available in Solid, Regular, Light, Duotone
+        /// motorcycle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "motorcycle")]
         Motorcycle,
 
         /// <summary>
-        ///     Mountain
+        /// Mountain
         /// </summary>
         /// <remarks>
-        ///     mountain - Available in Solid, Regular, Light, Duotone
+        /// mountain - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mountain")]
         Mountain,
 
         /// <summary>
-        ///     Mountains
+        /// Mountains
         /// </summary>
         /// <remarks>
-        ///     mountains - Available in Solid, Regular, Light, Duotone
+        /// mountains - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mountains")]
         Mountains,
 
         /// <summary>
-        ///     Mouse
+        /// Mouse
         /// </summary>
         /// <remarks>
-        ///     mouse - Available in Solid, Regular, Light, Duotone
+        /// mouse - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mouse")]
         Mouse,
 
         /// <summary>
-        ///     Alternate Mouse
+        /// Alternate Mouse
         /// </summary>
         /// <remarks>
-        ///     mouse-alt - Available in Solid, Regular, Light, Duotone
+        /// mouse-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mouse-alt")]
         MouseAlt,
 
         /// <summary>
-        ///     Mouse Pointer
+        /// Mouse Pointer
         /// </summary>
         /// <remarks>
-        ///     mouse-pointer - Available in Solid, Regular, Light, Duotone
+        /// mouse-pointer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mouse-pointer")]
         MousePointer,
 
         /// <summary>
-        ///     MP 3 Player
+        /// MP 3 Player
         /// </summary>
         /// <remarks>
-        ///     mp3-player - Available in Solid, Regular, Light, Duotone
+        /// mp3-player - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mp3-player")]
         Mp3Player,
 
         /// <summary>
-        ///     Mug
+        /// Mug
         /// </summary>
         /// <remarks>
-        ///     mug - Available in Solid, Regular, Light, Duotone
+        /// mug - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "mug")] Mug,
+        [FontAwesome(IconStyle.Light, "mug")]
+        Mug,
 
         /// <summary>
-        ///     Mug Hot
+        /// Mug Hot
         /// </summary>
         /// <remarks>
-        ///     mug-hot - Available in Solid, Regular, Light, Duotone
+        /// mug-hot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mug-hot")]
         MugHot,
 
         /// <summary>
-        ///     Mug With Marshmallows
+        /// Mug With Marshmallows
         /// </summary>
         /// <remarks>
-        ///     mug-marshmallows - Available in Solid, Regular, Light, Duotone
+        /// mug-marshmallows - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mug-marshmallows")]
         MugMarshmallows,
 
         /// <summary>
-        ///     Mug Tea
+        /// Mug Tea
         /// </summary>
         /// <remarks>
-        ///     mug-tea - Available in Solid, Regular, Light, Duotone
+        /// mug-tea - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "mug-tea")]
         MugTea,
 
         /// <summary>
-        ///     Music
+        /// Music
         /// </summary>
         /// <remarks>
-        ///     music - Available in Solid, Regular, Light, Duotone
+        /// music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "music")]
         Music,
 
         /// <summary>
-        ///     Alternate Music
+        /// Alternate Music
         /// </summary>
         /// <remarks>
-        ///     music-alt - Available in Solid, Regular, Light, Duotone
+        /// music-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "music-alt")]
         MusicAlt,
 
         /// <summary>
-        ///     Alternate Music Slash
+        /// Alternate Music Slash
         /// </summary>
         /// <remarks>
-        ///     music-alt-slash - Available in Solid, Regular, Light, Duotone
+        /// music-alt-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "music-alt-slash")]
         MusicAltSlash,
 
         /// <summary>
-        ///     Music Slash
+        /// Music Slash
         /// </summary>
         /// <remarks>
-        ///     music-slash - Available in Solid, Regular, Light, Duotone
+        /// music-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "music-slash")]
         MusicSlash,
 
         /// <summary>
-        ///     Narwhal
+        /// Narwhal
         /// </summary>
         /// <remarks>
-        ///     narwhal - Available in Solid, Regular, Light, Duotone
+        /// narwhal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "narwhal")]
         Narwhal,
 
         /// <summary>
-        ///     Wired Network
+        /// Wired Network
         /// </summary>
         /// <remarks>
-        ///     network-wired - Available in Solid, Regular, Light, Duotone
+        /// network-wired - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "network-wired")]
         NetworkWired,
 
         /// <summary>
-        ///     Neuter
+        /// Neuter
         /// </summary>
         /// <remarks>
-        ///     neuter - Available in Solid, Regular, Light, Duotone
+        /// neuter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "neuter")]
         Neuter,
 
         /// <summary>
-        ///     Newspaper
+        /// Newspaper
         /// </summary>
         /// <remarks>
-        ///     newspaper - Available in Solid, Regular, Light, Duotone
+        /// newspaper - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "newspaper")]
         Newspaper,
 
         /// <summary>
-        ///     Not Equal
+        /// Not Equal
         /// </summary>
         /// <remarks>
-        ///     not-equal - Available in Solid, Regular, Light, Duotone
+        /// not-equal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "not-equal")]
         NotEqual,
 
         /// <summary>
-        ///     Medical Notes
+        /// Medical Notes
         /// </summary>
         /// <remarks>
-        ///     notes-medical - Available in Solid, Regular, Light, Duotone
+        /// notes-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "notes-medical")]
         NotesMedical,
 
         /// <summary>
-        ///     Object Group
+        /// Object Group
         /// </summary>
         /// <remarks>
-        ///     object-group - Available in Solid, Regular, Light, Duotone
+        /// object-group - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "object-group")]
         ObjectGroup,
 
         /// <summary>
-        ///     Object Ungroup
+        /// Object Ungroup
         /// </summary>
         /// <remarks>
-        ///     object-ungroup - Available in Solid, Regular, Light, Duotone
+        /// object-ungroup - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "object-ungroup")]
         ObjectUngroup,
 
         /// <summary>
-        ///     Octagon
+        /// Octagon
         /// </summary>
         /// <remarks>
-        ///     octagon - Available in Solid, Regular, Light, Duotone
+        /// octagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "octagon")]
         Octagon,
 
         /// <summary>
-        ///     Oil Can
+        /// Oil Can
         /// </summary>
         /// <remarks>
-        ///     oil-can - Available in Solid, Regular, Light, Duotone
+        /// oil-can - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "oil-can")]
         OilCan,
 
         /// <summary>
-        ///     Oil Temp
+        /// Oil Temp
         /// </summary>
         /// <remarks>
-        ///     oil-temp - Available in Solid, Regular, Light, Duotone
+        /// oil-temp - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "oil-temp")]
         OilTemp,
 
         /// <summary>
-        ///     Om
+        /// Om
         /// </summary>
         /// <remarks>
-        ///     om - Available in Solid, Regular, Light, Duotone
+        /// om - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "om")] Om,
+        [FontAwesome(IconStyle.Light, "om")]
+        Om,
 
         /// <summary>
-        ///     Omega
+        /// Omega
         /// </summary>
         /// <remarks>
-        ///     omega - Available in Solid, Regular, Light, Duotone
+        /// omega - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "omega")]
         Omega,
 
         /// <summary>
-        ///     Ornament
+        /// Ornament
         /// </summary>
         /// <remarks>
-        ///     ornament - Available in Solid, Regular, Light, Duotone
+        /// ornament - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ornament")]
         Ornament,
 
         /// <summary>
-        ///     Otter
+        /// Otter
         /// </summary>
         /// <remarks>
-        ///     otter - Available in Solid, Regular, Light, Duotone
+        /// otter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "otter")]
         Otter,
 
         /// <summary>
-        ///     Outdent
+        /// Outdent
         /// </summary>
         /// <remarks>
-        ///     outdent - Available in Solid, Regular, Light, Duotone
+        /// outdent - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "outdent")]
         Outdent,
 
         /// <summary>
-        ///     Outlet
+        /// Outlet
         /// </summary>
         /// <remarks>
-        ///     outlet - Available in Solid, Regular, Light, Duotone
+        /// outlet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "outlet")]
         Outlet,
 
         /// <summary>
-        ///     Oven
+        /// Oven
         /// </summary>
         /// <remarks>
-        ///     oven - Available in Solid, Regular, Light, Duotone
+        /// oven - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "oven")] Oven,
+        [FontAwesome(IconStyle.Light, "oven")]
+        Oven,
 
         /// <summary>
-        ///     Overline
+        /// Overline
         /// </summary>
         /// <remarks>
-        ///     overline - Available in Solid, Regular, Light, Duotone
+        /// overline - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "overline")]
         Overline,
 
         /// <summary>
-        ///     Page Break
+        /// Page Break
         /// </summary>
         /// <remarks>
-        ///     page-break - Available in Solid, Regular, Light, Duotone
+        /// page-break - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "page-break")]
         PageBreak,
 
         /// <summary>
-        ///     Pager
+        /// Pager
         /// </summary>
         /// <remarks>
-        ///     pager - Available in Solid, Regular, Light, Duotone
+        /// pager - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pager")]
         Pager,
 
         /// <summary>
-        ///     Paint Brush
+        /// Paint Brush
         /// </summary>
         /// <remarks>
-        ///     paint-brush - Available in Solid, Regular, Light, Duotone
+        /// paint-brush - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "paint-brush")]
         PaintBrush,
 
         /// <summary>
-        ///     Alternate Paint Brush
+        /// Alternate Paint Brush
         /// </summary>
         /// <remarks>
-        ///     paint-brush-alt - Available in Solid, Regular, Light, Duotone
+        /// paint-brush-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "paint-brush-alt")]
         PaintBrushAlt,
 
         /// <summary>
-        ///     Paint Roller
+        /// Paint Roller
         /// </summary>
         /// <remarks>
-        ///     paint-roller - Available in Solid, Regular, Light, Duotone
+        /// paint-roller - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "paint-roller")]
         PaintRoller,
 
         /// <summary>
-        ///     Palette
+        /// Palette
         /// </summary>
         /// <remarks>
-        ///     palette - Available in Solid, Regular, Light, Duotone
+        /// palette - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "palette")]
         Palette,
 
         /// <summary>
-        ///     Pallet
+        /// Pallet
         /// </summary>
         /// <remarks>
-        ///     pallet - Available in Solid, Regular, Light, Duotone
+        /// pallet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pallet")]
         Pallet,
 
         /// <summary>
-        ///     Alternate Pallet
+        /// Alternate Pallet
         /// </summary>
         /// <remarks>
-        ///     pallet-alt - Available in Solid, Regular, Light, Duotone
+        /// pallet-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pallet-alt")]
         PalletAlt,
 
         /// <summary>
-        ///     Paper Plane
+        /// Paper Plane
         /// </summary>
         /// <remarks>
-        ///     paper-plane - Available in Solid, Regular, Light, Duotone
+        /// paper-plane - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "paper-plane")]
         PaperPlane,
 
         /// <summary>
-        ///     Paperclip
+        /// Paperclip
         /// </summary>
         /// <remarks>
-        ///     paperclip - Available in Solid, Regular, Light, Duotone
+        /// paperclip - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "paperclip")]
         Paperclip,
 
         /// <summary>
-        ///     Parachute Box
+        /// Parachute Box
         /// </summary>
         /// <remarks>
-        ///     parachute-box - Available in Solid, Regular, Light, Duotone
+        /// parachute-box - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "parachute-box")]
         ParachuteBox,
 
         /// <summary>
-        ///     Paragraph
+        /// Paragraph
         /// </summary>
         /// <remarks>
-        ///     paragraph - Available in Solid, Regular, Light, Duotone
+        /// paragraph - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "paragraph")]
         Paragraph,
 
         /// <summary>
-        ///     Paragraph Right to Left
+        /// Paragraph Right to Left
         /// </summary>
         /// <remarks>
-        ///     paragraph-rtl - Available in Solid, Regular, Light, Duotone
+        /// paragraph-rtl - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "paragraph-rtl")]
         ParagraphRtl,
 
         /// <summary>
-        ///     Parking
+        /// Parking
         /// </summary>
         /// <remarks>
-        ///     parking - Available in Solid, Regular, Light, Duotone
+        /// parking - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "parking")]
         Parking,
 
         /// <summary>
-        ///     Parking Circle
+        /// Parking Circle
         /// </summary>
         /// <remarks>
-        ///     parking-circle - Available in Solid, Regular, Light, Duotone
+        /// parking-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "parking-circle")]
         ParkingCircle,
 
         /// <summary>
-        ///     Parking Circle Slash
+        /// Parking Circle Slash
         /// </summary>
         /// <remarks>
-        ///     parking-circle-slash - Available in Solid, Regular, Light, Duotone
+        /// parking-circle-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "parking-circle-slash")]
         ParkingCircleSlash,
 
         /// <summary>
-        ///     Parking Slash
+        /// Parking Slash
         /// </summary>
         /// <remarks>
-        ///     parking-slash - Available in Solid, Regular, Light, Duotone
+        /// parking-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "parking-slash")]
         ParkingSlash,
 
         /// <summary>
-        ///     Passport
+        /// Passport
         /// </summary>
         /// <remarks>
-        ///     passport - Available in Solid, Regular, Light, Duotone
+        /// passport - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "passport")]
         Passport,
 
         /// <summary>
-        ///     Pastafarianism
+        /// Pastafarianism
         /// </summary>
         /// <remarks>
-        ///     pastafarianism - Available in Solid, Regular, Light, Duotone
+        /// pastafarianism - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pastafarianism")]
         Pastafarianism,
 
         /// <summary>
-        ///     Paste
+        /// Paste
         /// </summary>
         /// <remarks>
-        ///     paste - Available in Solid, Regular, Light, Duotone
+        /// paste - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "paste")]
         Paste,
 
         /// <summary>
-        ///     Pause
+        /// Pause
         /// </summary>
         /// <remarks>
-        ///     pause - Available in Solid, Regular, Light, Duotone
+        /// pause - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pause")]
         Pause,
 
         /// <summary>
-        ///     Pause Circle
+        /// Pause Circle
         /// </summary>
         /// <remarks>
-        ///     pause-circle - Available in Solid, Regular, Light, Duotone
+        /// pause-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pause-circle")]
         PauseCircle,
 
         /// <summary>
-        ///     Paw
+        /// Paw
         /// </summary>
         /// <remarks>
-        ///     paw - Available in Solid, Regular, Light, Duotone
+        /// paw - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "paw")] Paw,
+        [FontAwesome(IconStyle.Light, "paw")]
+        Paw,
 
         /// <summary>
-        ///     Paw Alt
+        /// Paw Alt
         /// </summary>
         /// <remarks>
-        ///     paw-alt - Available in Solid, Regular, Light, Duotone
+        /// paw-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "paw-alt")]
         PawAlt,
 
         /// <summary>
-        ///     Paw Claws
+        /// Paw Claws
         /// </summary>
         /// <remarks>
-        ///     paw-claws - Available in Solid, Regular, Light, Duotone
+        /// paw-claws - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "paw-claws")]
         PawClaws,
 
         /// <summary>
-        ///     Peace
+        /// Peace
         /// </summary>
         /// <remarks>
-        ///     peace - Available in Solid, Regular, Light, Duotone
+        /// peace - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "peace")]
         Peace,
 
         /// <summary>
-        ///     Pegasus
+        /// Pegasus
         /// </summary>
         /// <remarks>
-        ///     pegasus - Available in Solid, Regular, Light, Duotone
+        /// pegasus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pegasus")]
         Pegasus,
 
         /// <summary>
-        ///     Pen
+        /// Pen
         /// </summary>
         /// <remarks>
-        ///     pen - Available in Solid, Regular, Light, Duotone
+        /// pen - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "pen")] Pen,
+        [FontAwesome(IconStyle.Light, "pen")]
+        Pen,
 
         /// <summary>
-        ///     Alternate Pen
+        /// Alternate Pen
         /// </summary>
         /// <remarks>
-        ///     pen-alt - Available in Solid, Regular, Light, Duotone
+        /// pen-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pen-alt")]
         PenAlt,
 
         /// <summary>
-        ///     Pen Fancy
+        /// Pen Fancy
         /// </summary>
         /// <remarks>
-        ///     pen-fancy - Available in Solid, Regular, Light, Duotone
+        /// pen-fancy - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pen-fancy")]
         PenFancy,
 
         /// <summary>
-        ///     Pen Nib
+        /// Pen Nib
         /// </summary>
         /// <remarks>
-        ///     pen-nib - Available in Solid, Regular, Light, Duotone
+        /// pen-nib - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pen-nib")]
         PenNib,
 
         /// <summary>
-        ///     Pen Square
+        /// Pen Square
         /// </summary>
         /// <remarks>
-        ///     pen-square - Available in Solid, Regular, Light, Duotone
+        /// pen-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pen-square")]
         PenSquare,
 
         /// <summary>
-        ///     Pencil
+        /// Pencil
         /// </summary>
         /// <remarks>
-        ///     pencil - Available in Solid, Regular, Light, Duotone
+        /// pencil - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pencil")]
         Pencil,
 
         /// <summary>
-        ///     Alternate Pencil
+        /// Alternate Pencil
         /// </summary>
         /// <remarks>
-        ///     pencil-alt - Available in Solid, Regular, Light, Duotone
+        /// pencil-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pencil-alt")]
         PencilAlt,
 
         /// <summary>
-        ///     Pencil Paintbrush
+        /// Pencil Paintbrush
         /// </summary>
         /// <remarks>
-        ///     pencil-paintbrush - Available in Solid, Regular, Light, Duotone
+        /// pencil-paintbrush - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pencil-paintbrush")]
         PencilPaintbrush,
 
         /// <summary>
-        ///     Pencil Ruler
+        /// Pencil Ruler
         /// </summary>
         /// <remarks>
-        ///     pencil-ruler - Available in Solid, Regular, Light, Duotone
+        /// pencil-ruler - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pencil-ruler")]
         PencilRuler,
 
         /// <summary>
-        ///     Pennant
+        /// Pennant
         /// </summary>
         /// <remarks>
-        ///     pennant - Available in Solid, Regular, Light, Duotone
+        /// pennant - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pennant")]
         Pennant,
 
         /// <summary>
-        ///     People Arrows
+        /// People Arrows
         /// </summary>
         /// <remarks>
-        ///     people-arrows - Available in Light, Regular, Solid, Duotone
+        /// people-arrows - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "people-arrows")]
         PeopleArrows,
 
         /// <summary>
-        ///     People Carry
+        /// People Carry
         /// </summary>
         /// <remarks>
-        ///     people-carry - Available in Solid, Regular, Light, Duotone
+        /// people-carry - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "people-carry")]
         PeopleCarry,
 
         /// <summary>
-        ///     Hot Pepper
+        /// Hot Pepper
         /// </summary>
         /// <remarks>
-        ///     pepper-hot - Available in Solid, Regular, Light, Duotone
+        /// pepper-hot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pepper-hot")]
         PepperHot,
 
         /// <summary>
-        ///     Percent
+        /// Percent
         /// </summary>
         /// <remarks>
-        ///     percent - Available in Solid, Regular, Light, Duotone
+        /// percent - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "percent")]
         Percent,
 
         /// <summary>
-        ///     Percentage
+        /// Percentage
         /// </summary>
         /// <remarks>
-        ///     percentage - Available in Solid, Regular, Light, Duotone
+        /// percentage - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "percentage")]
         Percentage,
 
         /// <summary>
-        ///     Person Entering Booth
+        /// Person Entering Booth
         /// </summary>
         /// <remarks>
-        ///     person-booth - Available in Solid, Regular, Light, Duotone
+        /// person-booth - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "person-booth")]
         PersonBooth,
 
         /// <summary>
-        ///     Person Carry
+        /// Person Carry
         /// </summary>
         /// <remarks>
-        ///     person-carry - Available in Solid, Regular, Light, Duotone
+        /// person-carry - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "person-carry")]
         PersonCarry,
 
         /// <summary>
-        ///     Person and Dolly
+        /// Person and Dolly
         /// </summary>
         /// <remarks>
-        ///     person-dolly - Available in Solid, Regular, Light, Duotone
+        /// person-dolly - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "person-dolly")]
         PersonDolly,
 
         /// <summary>
-        ///     Person and Empty Dolly
+        /// Person and Empty Dolly
         /// </summary>
         /// <remarks>
-        ///     person-dolly-empty - Available in Solid, Regular, Light, Duotone
+        /// person-dolly-empty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "person-dolly-empty")]
         PersonDollyEmpty,
 
         /// <summary>
-        ///     Person Holding Sign
+        /// Person Holding Sign
         /// </summary>
         /// <remarks>
-        ///     person-sign - Available in Solid, Regular, Light, Duotone
+        /// person-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "person-sign")]
         PersonSign,
 
         /// <summary>
-        ///     Phone
+        /// Phone
         /// </summary>
         /// <remarks>
-        ///     phone - Available in Solid, Regular, Light, Duotone
+        /// phone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "phone")]
         Phone,
 
         /// <summary>
-        ///     Alternate Phone
+        /// Alternate Phone
         /// </summary>
         /// <remarks>
-        ///     phone-alt - Available in Solid, Regular, Light, Duotone
+        /// phone-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "phone-alt")]
         PhoneAlt,
 
         /// <summary>
-        ///     Phone and Laptop
+        /// Phone and Laptop
         /// </summary>
         /// <remarks>
-        ///     phone-laptop - Available in Solid, Regular, Light, Duotone
+        /// phone-laptop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "phone-laptop")]
         PhoneLaptop,
 
         /// <summary>
-        ///     Office Phone
+        /// Office Phone
         /// </summary>
         /// <remarks>
-        ///     phone-office - Available in Solid, Regular, Light, Duotone
+        /// phone-office - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "phone-office")]
         PhoneOffice,
 
         /// <summary>
-        ///     Phone Plus
+        /// Phone Plus
         /// </summary>
         /// <remarks>
-        ///     phone-plus - Available in Solid, Regular, Light, Duotone
+        /// phone-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "phone-plus")]
         PhonePlus,
 
         /// <summary>
-        ///     Rotary Phone
+        /// Rotary Phone
         /// </summary>
         /// <remarks>
-        ///     phone-rotary - Available in Solid, Regular, Light, Duotone
+        /// phone-rotary - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "phone-rotary")]
         PhoneRotary,
 
         /// <summary>
-        ///     Phone Slash
+        /// Phone Slash
         /// </summary>
         /// <remarks>
-        ///     phone-slash - Available in Solid, Regular, Light, Duotone
+        /// phone-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "phone-slash")]
         PhoneSlash,
 
         /// <summary>
-        ///     Phone Square
+        /// Phone Square
         /// </summary>
         /// <remarks>
-        ///     phone-square - Available in Solid, Regular, Light, Duotone
+        /// phone-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "phone-square")]
         PhoneSquare,
 
         /// <summary>
-        ///     Alternate Phone Square
+        /// Alternate Phone Square
         /// </summary>
         /// <remarks>
-        ///     phone-square-alt - Available in Solid, Regular, Light, Duotone
+        /// phone-square-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "phone-square-alt")]
         PhoneSquareAlt,
 
         /// <summary>
-        ///     Phone Volume
+        /// Phone Volume
         /// </summary>
         /// <remarks>
-        ///     phone-volume - Available in Solid, Regular, Light, Duotone
+        /// phone-volume - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "phone-volume")]
         PhoneVolume,
 
         /// <summary>
-        ///     Photo Video
+        /// Photo Video
         /// </summary>
         /// <remarks>
-        ///     photo-video - Available in Solid, Regular, Light, Duotone
+        /// photo-video - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "photo-video")]
         PhotoVideo,
 
         /// <summary>
-        ///     Pi
+        /// Pi
         /// </summary>
         /// <remarks>
-        ///     pi - Available in Solid, Regular, Light, Duotone
+        /// pi - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "pi")] Pi,
+        [FontAwesome(IconStyle.Light, "pi")]
+        Pi,
 
         /// <summary>
-        ///     Piano
+        /// Piano
         /// </summary>
         /// <remarks>
-        ///     piano - Available in Solid, Regular, Light, Duotone
+        /// piano - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "piano")]
         Piano,
 
         /// <summary>
-        ///     Piano Keyboard
+        /// Piano Keyboard
         /// </summary>
         /// <remarks>
-        ///     piano-keyboard - Available in Solid, Regular, Light, Duotone
+        /// piano-keyboard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "piano-keyboard")]
         PianoKeyboard,
 
         /// <summary>
-        ///     Pie
+        /// Pie
         /// </summary>
         /// <remarks>
-        ///     pie - Available in Solid, Regular, Light, Duotone
+        /// pie - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "pie")] Pie,
+        [FontAwesome(IconStyle.Light, "pie")]
+        Pie,
 
         /// <summary>
-        ///     Pig
+        /// Pig
         /// </summary>
         /// <remarks>
-        ///     pig - Available in Solid, Regular, Light, Duotone
+        /// pig - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "pig")] Pig,
+        [FontAwesome(IconStyle.Light, "pig")]
+        Pig,
 
         /// <summary>
-        ///     Piggy Bank
+        /// Piggy Bank
         /// </summary>
         /// <remarks>
-        ///     piggy-bank - Available in Solid, Regular, Light, Duotone
+        /// piggy-bank - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "piggy-bank")]
         PiggyBank,
 
         /// <summary>
-        ///     Pills
+        /// Pills
         /// </summary>
         /// <remarks>
-        ///     pills - Available in Solid, Regular, Light, Duotone
+        /// pills - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pills")]
         Pills,
 
         /// <summary>
-        ///     Pizza
+        /// Pizza
         /// </summary>
         /// <remarks>
-        ///     pizza - Available in Solid, Regular, Light, Duotone
+        /// pizza - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pizza")]
         Pizza,
 
         /// <summary>
-        ///     Pizza Slice
+        /// Pizza Slice
         /// </summary>
         /// <remarks>
-        ///     pizza-slice - Available in Solid, Regular, Light, Duotone
+        /// pizza-slice - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pizza-slice")]
         PizzaSlice,
 
         /// <summary>
-        ///     Place of Worship
+        /// Place of Worship
         /// </summary>
         /// <remarks>
-        ///     place-of-worship - Available in Solid, Regular, Light, Duotone
+        /// place-of-worship - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "place-of-worship")]
         PlaceOfWorship,
 
         /// <summary>
-        ///     Plane
+        /// Plane
         /// </summary>
         /// <remarks>
-        ///     plane - Available in Solid, Regular, Light, Duotone
+        /// plane - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "plane")]
         Plane,
 
         /// <summary>
-        ///     Alternate Plane
+        /// Alternate Plane
         /// </summary>
         /// <remarks>
-        ///     plane-alt - Available in Solid, Regular, Light, Duotone
+        /// plane-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "plane-alt")]
         PlaneAlt,
 
         /// <summary>
-        ///     Plane Arrival
+        /// Plane Arrival
         /// </summary>
         /// <remarks>
-        ///     plane-arrival - Available in Solid, Regular, Light, Duotone
+        /// plane-arrival - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "plane-arrival")]
         PlaneArrival,
 
         /// <summary>
-        ///     Plane Departure
+        /// Plane Departure
         /// </summary>
         /// <remarks>
-        ///     plane-departure - Available in Solid, Regular, Light, Duotone
+        /// plane-departure - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "plane-departure")]
         PlaneDeparture,
 
         /// <summary>
-        ///     Plane Slash
+        /// Plane Slash
         /// </summary>
         /// <remarks>
-        ///     plane-slash - Available in Light, Regular, Solid, Duotone
+        /// plane-slash - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "plane-slash")]
         PlaneSlash,
 
         /// <summary>
-        ///     Planet With Moon
+        /// Planet With Moon
         /// </summary>
         /// <remarks>
-        ///     planet-moon - Available in Solid, Regular, Light, Duotone
+        /// planet-moon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "planet-moon")]
         PlanetMoon,
 
         /// <summary>
-        ///     Ringed Planet
+        /// Ringed Planet
         /// </summary>
         /// <remarks>
-        ///     planet-ringed - Available in Solid, Regular, Light, Duotone
+        /// planet-ringed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "planet-ringed")]
         PlanetRinged,
 
         /// <summary>
-        ///     Play
+        /// Play
         /// </summary>
         /// <remarks>
-        ///     play - Available in Solid, Regular, Light, Duotone
+        /// play - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "play")] Play,
+        [FontAwesome(IconStyle.Light, "play")]
+        Play,
 
         /// <summary>
-        ///     Play Circle
+        /// Play Circle
         /// </summary>
         /// <remarks>
-        ///     play-circle - Available in Solid, Regular, Light, Duotone
+        /// play-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "play-circle")]
         PlayCircle,
 
         /// <summary>
-        ///     Plug
+        /// Plug
         /// </summary>
         /// <remarks>
-        ///     plug - Available in Solid, Regular, Light, Duotone
+        /// plug - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "plug")] Plug,
+        [FontAwesome(IconStyle.Light, "plug")]
+        Plug,
 
         /// <summary>
-        ///     Plus
+        /// Plus
         /// </summary>
         /// <remarks>
-        ///     plus - Available in Solid, Regular, Light, Duotone
+        /// plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "plus")] Plus,
+        [FontAwesome(IconStyle.Light, "plus")]
+        Plus,
 
         /// <summary>
-        ///     Plus Circle
+        /// Plus Circle
         /// </summary>
         /// <remarks>
-        ///     plus-circle - Available in Solid, Regular, Light, Duotone
+        /// plus-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "plus-circle")]
         PlusCircle,
 
         /// <summary>
-        ///     Plus Hexagon
+        /// Plus Hexagon
         /// </summary>
         /// <remarks>
-        ///     plus-hexagon - Available in Solid, Regular, Light, Duotone
+        /// plus-hexagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "plus-hexagon")]
         PlusHexagon,
 
         /// <summary>
-        ///     Plus Octagon
+        /// Plus Octagon
         /// </summary>
         /// <remarks>
-        ///     plus-octagon - Available in Solid, Regular, Light, Duotone
+        /// plus-octagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "plus-octagon")]
         PlusOctagon,
 
         /// <summary>
-        ///     Plus Square
+        /// Plus Square
         /// </summary>
         /// <remarks>
-        ///     plus-square - Available in Solid, Regular, Light, Duotone
+        /// plus-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "plus-square")]
         PlusSquare,
 
         /// <summary>
-        ///     Podcast
+        /// Podcast
         /// </summary>
         /// <remarks>
-        ///     podcast - Available in Solid, Regular, Light, Duotone
+        /// podcast - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "podcast")]
         Podcast,
 
         /// <summary>
-        ///     Podium
+        /// Podium
         /// </summary>
         /// <remarks>
-        ///     podium - Available in Solid, Regular, Light, Duotone
+        /// podium - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "podium")]
         Podium,
 
         /// <summary>
-        ///     Podium With Star
+        /// Podium With Star
         /// </summary>
         /// <remarks>
-        ///     podium-star - Available in Solid, Regular, Light, Duotone
+        /// podium-star - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "podium-star")]
         PodiumStar,
 
         /// <summary>
-        ///     Police Box
+        /// Police Box
         /// </summary>
         /// <remarks>
-        ///     police-box - Available in Solid, Regular, Light, Duotone
+        /// police-box - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "police-box")]
         PoliceBox,
 
         /// <summary>
-        ///     Poll
+        /// Poll
         /// </summary>
         /// <remarks>
-        ///     poll - Available in Solid, Regular, Light, Duotone
+        /// poll - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "poll")] Poll,
+        [FontAwesome(IconStyle.Light, "poll")]
+        Poll,
 
         /// <summary>
-        ///     Poll H
+        /// Poll H
         /// </summary>
         /// <remarks>
-        ///     poll-h - Available in Solid, Regular, Light, Duotone
+        /// poll-h - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "poll-h")]
         PollH,
 
         /// <summary>
-        ///     Poll People
+        /// Poll People
         /// </summary>
         /// <remarks>
-        ///     poll-people - Available in Solid, Regular, Light, Duotone
+        /// poll-people - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "poll-people")]
         PollPeople,
 
         /// <summary>
-        ///     Poo
+        /// Poo
         /// </summary>
         /// <remarks>
-        ///     poo - Available in Solid, Regular, Light, Duotone
+        /// poo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "poo")] Poo,
+        [FontAwesome(IconStyle.Light, "poo")]
+        Poo,
 
         /// <summary>
-        ///     Poo Storm
+        /// Poo Storm
         /// </summary>
         /// <remarks>
-        ///     poo-storm - Available in Solid, Regular, Light, Duotone
+        /// poo-storm - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "poo-storm")]
         PooStorm,
 
         /// <summary>
-        ///     Poop
+        /// Poop
         /// </summary>
         /// <remarks>
-        ///     poop - Available in Solid, Regular, Light, Duotone
+        /// poop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "poop")] Poop,
+        [FontAwesome(IconStyle.Light, "poop")]
+        Poop,
 
         /// <summary>
-        ///     Popcorn
+        /// Popcorn
         /// </summary>
         /// <remarks>
-        ///     popcorn - Available in Solid, Regular, Light, Duotone
+        /// popcorn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "popcorn")]
         Popcorn,
 
         /// <summary>
-        ///     Portal Enter
+        /// Portal Enter
         /// </summary>
         /// <remarks>
-        ///     portal-enter - Available in Solid, Regular, Light, Duotone
+        /// portal-enter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "portal-enter")]
         PortalEnter,
 
         /// <summary>
-        ///     Portal Exit
+        /// Portal Exit
         /// </summary>
         /// <remarks>
-        ///     portal-exit - Available in Solid, Regular, Light, Duotone
+        /// portal-exit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "portal-exit")]
         PortalExit,
 
         /// <summary>
-        ///     Portrait
+        /// Portrait
         /// </summary>
         /// <remarks>
-        ///     portrait - Available in Solid, Regular, Light, Duotone
+        /// portrait - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "portrait")]
         Portrait,
 
         /// <summary>
-        ///     Pound Sign
+        /// Pound Sign
         /// </summary>
         /// <remarks>
-        ///     pound-sign - Available in Solid, Regular, Light, Duotone
+        /// pound-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pound-sign")]
         PoundSign,
 
         /// <summary>
-        ///     Power off
+        /// Power off
         /// </summary>
         /// <remarks>
-        ///     power-off - Available in Solid, Regular, Light, Duotone
+        /// power-off - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "power-off")]
         PowerOff,
 
         /// <summary>
-        ///     Pray
+        /// Pray
         /// </summary>
         /// <remarks>
-        ///     pray - Available in Solid, Regular, Light, Duotone
+        /// pray - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "pray")] Pray,
+        [FontAwesome(IconStyle.Light, "pray")]
+        Pray,
 
         /// <summary>
-        ///     Praying Hands
+        /// Praying Hands
         /// </summary>
         /// <remarks>
-        ///     praying-hands - Available in Solid, Regular, Light, Duotone
+        /// praying-hands - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "praying-hands")]
         PrayingHands,
 
         /// <summary>
-        ///     Prescription
+        /// Prescription
         /// </summary>
         /// <remarks>
-        ///     prescription - Available in Solid, Regular, Light, Duotone
+        /// prescription - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "prescription")]
         Prescription,
 
         /// <summary>
-        ///     Prescription Bottle
+        /// Prescription Bottle
         /// </summary>
         /// <remarks>
-        ///     prescription-bottle - Available in Solid, Regular, Light, Duotone
+        /// prescription-bottle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "prescription-bottle")]
         PrescriptionBottle,
 
         /// <summary>
-        ///     Alternate Prescription Bottle
+        /// Alternate Prescription Bottle
         /// </summary>
         /// <remarks>
-        ///     prescription-bottle-alt - Available in Solid, Regular, Light, Duotone
+        /// prescription-bottle-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "prescription-bottle-alt")]
         PrescriptionBottleAlt,
 
         /// <summary>
-        ///     Presentation
+        /// Presentation
         /// </summary>
         /// <remarks>
-        ///     presentation - Available in Solid, Regular, Light, Duotone
+        /// presentation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "presentation")]
         Presentation,
 
         /// <summary>
-        ///     Print
+        /// Print
         /// </summary>
         /// <remarks>
-        ///     print - Available in Solid, Regular, Light, Duotone
+        /// print - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "print")]
         Print,
 
         /// <summary>
-        ///     Print Search
+        /// Print Search
         /// </summary>
         /// <remarks>
-        ///     print-search - Available in Solid, Regular, Light, Duotone
+        /// print-search - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "print-search")]
         PrintSearch,
 
         /// <summary>
-        ///     Print Slash
+        /// Print Slash
         /// </summary>
         /// <remarks>
-        ///     print-slash - Available in Solid, Regular, Light, Duotone
+        /// print-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "print-slash")]
         PrintSlash,
 
         /// <summary>
-        ///     Procedures
+        /// Procedures
         /// </summary>
         /// <remarks>
-        ///     procedures - Available in Solid, Regular, Light, Duotone
+        /// procedures - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "procedures")]
         Procedures,
 
         /// <summary>
-        ///     Project Diagram
+        /// Project Diagram
         /// </summary>
         /// <remarks>
-        ///     project-diagram - Available in Solid, Regular, Light, Duotone
+        /// project-diagram - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "project-diagram")]
         ProjectDiagram,
 
         /// <summary>
-        ///     Projector
+        /// Projector
         /// </summary>
         /// <remarks>
-        ///     projector - Available in Solid, Regular, Light, Duotone
+        /// projector - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "projector")]
         Projector,
 
         /// <summary>
-        ///     Pump Medical
+        /// Pump Medical
         /// </summary>
         /// <remarks>
-        ///     pump-medical - Available in Light, Regular, Solid, Duotone
+        /// pump-medical - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pump-medical")]
         PumpMedical,
 
         /// <summary>
-        ///     Pump Soap
+        /// Pump Soap
         /// </summary>
         /// <remarks>
-        ///     pump-soap - Available in Light, Regular, Solid, Duotone
+        /// pump-soap - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pump-soap")]
         PumpSoap,
 
         /// <summary>
-        ///     Pumpkin
+        /// Pumpkin
         /// </summary>
         /// <remarks>
-        ///     pumpkin - Available in Solid, Regular, Light, Duotone
+        /// pumpkin - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "pumpkin")]
         Pumpkin,
 
         /// <summary>
-        ///     Puzzle Piece
+        /// Puzzle Piece
         /// </summary>
         /// <remarks>
-        ///     puzzle-piece - Available in Solid, Regular, Light, Duotone
+        /// puzzle-piece - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "puzzle-piece")]
         PuzzlePiece,
 
         /// <summary>
-        ///     Qrcode
+        /// Qrcode
         /// </summary>
         /// <remarks>
-        ///     qrcode - Available in Solid, Regular, Light, Duotone
+        /// qrcode - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "qrcode")]
         Qrcode,
 
         /// <summary>
-        ///     Question
+        /// Question
         /// </summary>
         /// <remarks>
-        ///     question - Available in Solid, Regular, Light, Duotone
+        /// question - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "question")]
         Question,
 
         /// <summary>
-        ///     Question Circle
+        /// Question Circle
         /// </summary>
         /// <remarks>
-        ///     question-circle - Available in Solid, Regular, Light, Duotone
+        /// question-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "question-circle")]
         QuestionCircle,
 
         /// <summary>
-        ///     Question Square
+        /// Question Square
         /// </summary>
         /// <remarks>
-        ///     question-square - Available in Solid, Regular, Light, Duotone
+        /// question-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "question-square")]
         QuestionSquare,
 
         /// <summary>
-        ///     Quidditch
+        /// Quidditch
         /// </summary>
         /// <remarks>
-        ///     quidditch - Available in Solid, Regular, Light, Duotone
+        /// quidditch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "quidditch")]
         Quidditch,
 
         /// <summary>
-        ///     Quote Left
+        /// Quote Left
         /// </summary>
         /// <remarks>
-        ///     quote-left - Available in Solid, Regular, Light, Duotone
+        /// quote-left - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "quote-left")]
         QuoteLeft,
 
         /// <summary>
-        ///     Quote Right
+        /// Quote Right
         /// </summary>
         /// <remarks>
-        ///     quote-right - Available in Solid, Regular, Light, Duotone
+        /// quote-right - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "quote-right")]
         QuoteRight,
 
         /// <summary>
-        ///     Quran
+        /// Quran
         /// </summary>
         /// <remarks>
-        ///     quran - Available in Solid, Regular, Light, Duotone
+        /// quran - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "quran")]
         Quran,
 
         /// <summary>
-        ///     Rabbit
+        /// Rabbit
         /// </summary>
         /// <remarks>
-        ///     rabbit - Available in Solid, Regular, Light, Duotone
+        /// rabbit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "rabbit")]
         Rabbit,
 
         /// <summary>
-        ///     Fast Rabbit
+        /// Fast Rabbit
         /// </summary>
         /// <remarks>
-        ///     rabbit-fast - Available in Solid, Regular, Light, Duotone
+        /// rabbit-fast - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "rabbit-fast")]
         RabbitFast,
 
         /// <summary>
-        ///     Racquet
+        /// Racquet
         /// </summary>
         /// <remarks>
-        ///     racquet - Available in Solid, Regular, Light, Duotone
+        /// racquet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "racquet")]
         Racquet,
 
         /// <summary>
-        ///     Radar
+        /// Radar
         /// </summary>
         /// <remarks>
-        ///     radar - Available in Solid, Regular, Light, Duotone
+        /// radar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "radar")]
         Radar,
 
         /// <summary>
-        ///     Radiation
+        /// Radiation
         /// </summary>
         /// <remarks>
-        ///     radiation - Available in Solid, Regular, Light, Duotone
+        /// radiation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "radiation")]
         Radiation,
 
         /// <summary>
-        ///     Alternate Radiation
+        /// Alternate Radiation
         /// </summary>
         /// <remarks>
-        ///     radiation-alt - Available in Solid, Regular, Light, Duotone
+        /// radiation-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "radiation-alt")]
         RadiationAlt,
 
         /// <summary>
-        ///     Radio
+        /// Radio
         /// </summary>
         /// <remarks>
-        ///     radio - Available in Solid, Regular, Light, Duotone
+        /// radio - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "radio")]
         Radio,
 
         /// <summary>
-        ///     Alternate Radio
+        /// Alternate Radio
         /// </summary>
         /// <remarks>
-        ///     radio-alt - Available in Solid, Regular, Light, Duotone
+        /// radio-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "radio-alt")]
         RadioAlt,
 
         /// <summary>
-        ///     Rainbow
+        /// Rainbow
         /// </summary>
         /// <remarks>
-        ///     rainbow - Available in Solid, Regular, Light, Duotone
+        /// rainbow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "rainbow")]
         Rainbow,
 
         /// <summary>
-        ///     Raindrops
+        /// Raindrops
         /// </summary>
         /// <remarks>
-        ///     raindrops - Available in Solid, Regular, Light, Duotone
+        /// raindrops - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "raindrops")]
         Raindrops,
 
         /// <summary>
-        ///     Ram
+        /// Ram
         /// </summary>
         /// <remarks>
-        ///     ram - Available in Solid, Regular, Light, Duotone
+        /// ram - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "ram")] Ram,
+        [FontAwesome(IconStyle.Light, "ram")]
+        Ram,
 
         /// <summary>
-        ///     Ramp Loading
+        /// Ramp Loading
         /// </summary>
         /// <remarks>
-        ///     ramp-loading - Available in Solid, Regular, Light, Duotone
+        /// ramp-loading - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ramp-loading")]
         RampLoading,
 
         /// <summary>
-        ///     Random
+        /// Random
         /// </summary>
         /// <remarks>
-        ///     random - Available in Solid, Regular, Light, Duotone
+        /// random - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "random")]
         Random,
 
         /// <summary>
-        ///     Raygun
+        /// Raygun
         /// </summary>
         /// <remarks>
-        ///     raygun - Available in Solid, Regular, Light, Duotone
+        /// raygun - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "raygun")]
         Raygun,
 
         /// <summary>
-        ///     Receipt
+        /// Receipt
         /// </summary>
         /// <remarks>
-        ///     receipt - Available in Solid, Regular, Light, Duotone
+        /// receipt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "receipt")]
         Receipt,
 
         /// <summary>
-        ///     Record Vinyl
+        /// Record Vinyl
         /// </summary>
         /// <remarks>
-        ///     record-vinyl - Available in Solid, Regular, Light, Duotone
+        /// record-vinyl - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "record-vinyl")]
         RecordVinyl,
 
         /// <summary>
-        ///     Landscape Rectangle
+        /// Landscape Rectangle
         /// </summary>
         /// <remarks>
-        ///     rectangle-landscape - Available in Solid, Regular, Light, Duotone
+        /// rectangle-landscape - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "rectangle-landscape")]
         RectangleLandscape,
 
         /// <summary>
-        ///     Portrait Rectangle
+        /// Portrait Rectangle
         /// </summary>
         /// <remarks>
-        ///     rectangle-portrait - Available in Solid, Regular, Light, Duotone
+        /// rectangle-portrait - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "rectangle-portrait")]
         RectanglePortrait,
 
         /// <summary>
-        ///     Wide Rectangle
+        /// Wide Rectangle
         /// </summary>
         /// <remarks>
-        ///     rectangle-wide - Available in Solid, Regular, Light, Duotone
+        /// rectangle-wide - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "rectangle-wide")]
         RectangleWide,
 
         /// <summary>
-        ///     Recycle
+        /// Recycle
         /// </summary>
         /// <remarks>
-        ///     recycle - Available in Solid, Regular, Light, Duotone
+        /// recycle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "recycle")]
         Recycle,
 
         /// <summary>
-        ///     Redo
+        /// Redo
         /// </summary>
         /// <remarks>
-        ///     redo - Available in Solid, Regular, Light, Duotone
+        /// redo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "redo")] Redo,
+        [FontAwesome(IconStyle.Light, "redo")]
+        Redo,
 
         /// <summary>
-        ///     Alternate Redo
+        /// Alternate Redo
         /// </summary>
         /// <remarks>
-        ///     redo-alt - Available in Solid, Regular, Light, Duotone
+        /// redo-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "redo-alt")]
         RedoAlt,
 
         /// <summary>
-        ///     Refrigerator
+        /// Refrigerator
         /// </summary>
         /// <remarks>
-        ///     refrigerator - Available in Solid, Regular, Light, Duotone
+        /// refrigerator - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "refrigerator")]
         Refrigerator,
 
         /// <summary>
-        ///     Registered Trademark
+        /// Registered Trademark
         /// </summary>
         /// <remarks>
-        ///     registered - Available in Solid, Regular, Light, Duotone
+        /// registered - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "registered")]
         Registered,
 
         /// <summary>
-        ///     Remove Format
+        /// Remove Format
         /// </summary>
         /// <remarks>
-        ///     remove-format - Available in Solid, Regular, Light, Duotone
+        /// remove-format - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "remove-format")]
         RemoveFormat,
 
         /// <summary>
-        ///     Repeat
+        /// Repeat
         /// </summary>
         /// <remarks>
-        ///     repeat - Available in Solid, Regular, Light, Duotone
+        /// repeat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "repeat")]
         Repeat,
 
         /// <summary>
-        ///     Repeat 1
+        /// Repeat 1
         /// </summary>
         /// <remarks>
-        ///     repeat-1 - Available in Solid, Regular, Light, Duotone
+        /// repeat-1 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "repeat-1")]
         Repeat1,
 
         /// <summary>
-        ///     Alternate Repeat 1
+        /// Alternate Repeat 1
         /// </summary>
         /// <remarks>
-        ///     repeat-1-alt - Available in Solid, Regular, Light, Duotone
+        /// repeat-1-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "repeat-1-alt")]
         Repeat1Alt,
 
         /// <summary>
-        ///     Alternate Repeat
+        /// Alternate Repeat
         /// </summary>
         /// <remarks>
-        ///     repeat-alt - Available in Solid, Regular, Light, Duotone
+        /// repeat-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "repeat-alt")]
         RepeatAlt,
 
         /// <summary>
-        ///     Reply
+        /// Reply
         /// </summary>
         /// <remarks>
-        ///     reply - Available in Solid, Regular, Light, Duotone
+        /// reply - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "reply")]
         Reply,
 
         /// <summary>
-        ///     Reply All
+        /// Reply All
         /// </summary>
         /// <remarks>
-        ///     reply-all - Available in Solid, Regular, Light, Duotone
+        /// reply-all - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "reply-all")]
         ReplyAll,
 
         /// <summary>
-        ///     Republican
+        /// Republican
         /// </summary>
         /// <remarks>
-        ///     republican - Available in Solid, Regular, Light, Duotone
+        /// republican - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "republican")]
         Republican,
 
         /// <summary>
-        ///     Restroom
+        /// Restroom
         /// </summary>
         /// <remarks>
-        ///     restroom - Available in Solid, Regular, Light, Duotone
+        /// restroom - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "restroom")]
         Restroom,
 
         /// <summary>
-        ///     Retweet
+        /// Retweet
         /// </summary>
         /// <remarks>
-        ///     retweet - Available in Solid, Regular, Light, Duotone
+        /// retweet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "retweet")]
         Retweet,
 
         /// <summary>
-        ///     Alternate Retweet
+        /// Alternate Retweet
         /// </summary>
         /// <remarks>
-        ///     retweet-alt - Available in Solid, Regular, Light, Duotone
+        /// retweet-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "retweet-alt")]
         RetweetAlt,
 
         /// <summary>
-        ///     Ribbon
+        /// Ribbon
         /// </summary>
         /// <remarks>
-        ///     ribbon - Available in Solid, Regular, Light, Duotone
+        /// ribbon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ribbon")]
         Ribbon,
 
         /// <summary>
-        ///     Ring
+        /// Ring
         /// </summary>
         /// <remarks>
-        ///     ring - Available in Solid, Regular, Light, Duotone
+        /// ring - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "ring")] Ring,
+        [FontAwesome(IconStyle.Light, "ring")]
+        Ring,
 
         /// <summary>
-        ///     Rings Wedding
+        /// Rings Wedding
         /// </summary>
         /// <remarks>
-        ///     rings-wedding - Available in Solid, Regular, Light, Duotone
+        /// rings-wedding - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "rings-wedding")]
         RingsWedding,
 
         /// <summary>
-        ///     Road
+        /// Road
         /// </summary>
         /// <remarks>
-        ///     road - Available in Solid, Regular, Light, Duotone
+        /// road - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "road")] Road,
+        [FontAwesome(IconStyle.Light, "road")]
+        Road,
 
         /// <summary>
-        ///     Robot
+        /// Robot
         /// </summary>
         /// <remarks>
-        ///     robot - Available in Solid, Regular, Light, Duotone
+        /// robot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "robot")]
         Robot,
 
         /// <summary>
-        ///     Rocket
+        /// Rocket
         /// </summary>
         /// <remarks>
-        ///     rocket - Available in Solid, Regular, Light, Duotone
+        /// rocket - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "rocket")]
         Rocket,
 
         /// <summary>
-        ///     Rocket Launch
+        /// Rocket Launch
         /// </summary>
         /// <remarks>
-        ///     rocket-launch - Available in Solid, Regular, Light, Duotone
+        /// rocket-launch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "rocket-launch")]
         RocketLaunch,
 
         /// <summary>
-        ///     Route
+        /// Route
         /// </summary>
         /// <remarks>
-        ///     route - Available in Solid, Regular, Light, Duotone
+        /// route - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "route")]
         Route,
 
         /// <summary>
-        ///     Route Highway
+        /// Route Highway
         /// </summary>
         /// <remarks>
-        ///     route-highway - Available in Solid, Regular, Light, Duotone
+        /// route-highway - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "route-highway")]
         RouteHighway,
 
         /// <summary>
-        ///     Route Interstate
+        /// Route Interstate
         /// </summary>
         /// <remarks>
-        ///     route-interstate - Available in Solid, Regular, Light, Duotone
+        /// route-interstate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "route-interstate")]
         RouteInterstate,
 
         /// <summary>
-        ///     Router
+        /// Router
         /// </summary>
         /// <remarks>
-        ///     router - Available in Solid, Regular, Light, Duotone
+        /// router - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "router")]
         Router,
 
         /// <summary>
-        ///     Rss
+        /// Rss
         /// </summary>
         /// <remarks>
-        ///     rss - Available in Solid, Regular, Light, Duotone
+        /// rss - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "rss")] Rss,
+        [FontAwesome(IconStyle.Light, "rss")]
+        Rss,
 
         /// <summary>
-        ///     RSS Square
+        /// RSS Square
         /// </summary>
         /// <remarks>
-        ///     rss-square - Available in Solid, Regular, Light, Duotone
+        /// rss-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "rss-square")]
         RssSquare,
 
         /// <summary>
-        ///     Ruble Sign
+        /// Ruble Sign
         /// </summary>
         /// <remarks>
-        ///     ruble-sign - Available in Solid, Regular, Light, Duotone
+        /// ruble-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ruble-sign")]
         RubleSign,
 
         /// <summary>
-        ///     Ruler
+        /// Ruler
         /// </summary>
         /// <remarks>
-        ///     ruler - Available in Solid, Regular, Light, Duotone
+        /// ruler - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ruler")]
         Ruler,
 
         /// <summary>
-        ///     Ruler Combined
+        /// Ruler Combined
         /// </summary>
         /// <remarks>
-        ///     ruler-combined - Available in Solid, Regular, Light, Duotone
+        /// ruler-combined - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ruler-combined")]
         RulerCombined,
 
         /// <summary>
-        ///     Ruler Horizontal
+        /// Ruler Horizontal
         /// </summary>
         /// <remarks>
-        ///     ruler-horizontal - Available in Solid, Regular, Light, Duotone
+        /// ruler-horizontal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ruler-horizontal")]
         RulerHorizontal,
 
         /// <summary>
-        ///     Ruler Triangle
+        /// Ruler Triangle
         /// </summary>
         /// <remarks>
-        ///     ruler-triangle - Available in Solid, Regular, Light, Duotone
+        /// ruler-triangle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ruler-triangle")]
         RulerTriangle,
 
         /// <summary>
-        ///     Ruler Vertical
+        /// Ruler Vertical
         /// </summary>
         /// <remarks>
-        ///     ruler-vertical - Available in Solid, Regular, Light, Duotone
+        /// ruler-vertical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ruler-vertical")]
         RulerVertical,
 
         /// <summary>
-        ///     Running
+        /// Running
         /// </summary>
         /// <remarks>
-        ///     running - Available in Solid, Regular, Light, Duotone
+        /// running - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "running")]
         Running,
 
         /// <summary>
-        ///     Indian Rupee Sign
+        /// Indian Rupee Sign
         /// </summary>
         /// <remarks>
-        ///     rupee-sign - Available in Solid, Regular, Light, Duotone
+        /// rupee-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "rupee-sign")]
         RupeeSign,
 
         /// <summary>
-        ///     R V
+        /// R V
         /// </summary>
         /// <remarks>
-        ///     rv - Available in Solid, Regular, Light, Duotone
+        /// rv - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "rv")] Rv,
+        [FontAwesome(IconStyle.Light, "rv")]
+        Rv,
 
         /// <summary>
-        ///     Sack
+        /// Sack
         /// </summary>
         /// <remarks>
-        ///     sack - Available in Solid, Regular, Light, Duotone
+        /// sack - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "sack")] Sack,
+        [FontAwesome(IconStyle.Light, "sack")]
+        Sack,
 
         /// <summary>
-        ///     Sack of Money
+        /// Sack of Money
         /// </summary>
         /// <remarks>
-        ///     sack-dollar - Available in Solid, Regular, Light, Duotone
+        /// sack-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sack-dollar")]
         SackDollar,
 
         /// <summary>
-        ///     Crying Face
+        /// Crying Face
         /// </summary>
         /// <remarks>
-        ///     sad-cry - Available in Solid, Regular, Light, Duotone
+        /// sad-cry - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sad-cry")]
         SadCry,
 
         /// <summary>
-        ///     Loudly Crying Face
+        /// Loudly Crying Face
         /// </summary>
         /// <remarks>
-        ///     sad-tear - Available in Solid, Regular, Light, Duotone
+        /// sad-tear - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sad-tear")]
         SadTear,
 
         /// <summary>
-        ///     Salad
+        /// Salad
         /// </summary>
         /// <remarks>
-        ///     salad - Available in Solid, Regular, Light, Duotone
+        /// salad - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "salad")]
         Salad,
 
         /// <summary>
-        ///     Sandwich
+        /// Sandwich
         /// </summary>
         /// <remarks>
-        ///     sandwich - Available in Solid, Regular, Light, Duotone
+        /// sandwich - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sandwich")]
         Sandwich,
 
         /// <summary>
-        ///     Satellite
+        /// Satellite
         /// </summary>
         /// <remarks>
-        ///     satellite - Available in Solid, Regular, Light, Duotone
+        /// satellite - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "satellite")]
         Satellite,
 
         /// <summary>
-        ///     Satellite Dish
+        /// Satellite Dish
         /// </summary>
         /// <remarks>
-        ///     satellite-dish - Available in Solid, Regular, Light, Duotone
+        /// satellite-dish - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "satellite-dish")]
         SatelliteDish,
 
         /// <summary>
-        ///     Sausage
+        /// Sausage
         /// </summary>
         /// <remarks>
-        ///     sausage - Available in Solid, Regular, Light, Duotone
+        /// sausage - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sausage")]
         Sausage,
 
         /// <summary>
-        ///     Save
+        /// Save
         /// </summary>
         /// <remarks>
-        ///     save - Available in Solid, Regular, Light, Duotone
+        /// save - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "save")] Save,
+        [FontAwesome(IconStyle.Light, "save")]
+        Save,
 
         /// <summary>
-        ///     Hot Saxophone
+        /// Hot Saxophone
         /// </summary>
         /// <remarks>
-        ///     sax-hot - Available in Solid, Regular, Light, Duotone
+        /// sax-hot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sax-hot")]
         SaxHot,
 
         /// <summary>
-        ///     Saxophone
+        /// Saxophone
         /// </summary>
         /// <remarks>
-        ///     saxophone - Available in Solid, Regular, Light, Duotone
+        /// saxophone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "saxophone")]
         Saxophone,
 
         /// <summary>
-        ///     Scalpel
+        /// Scalpel
         /// </summary>
         /// <remarks>
-        ///     scalpel - Available in Solid, Regular, Light, Duotone
+        /// scalpel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "scalpel")]
         Scalpel,
 
         /// <summary>
-        ///     Scalpel Path
+        /// Scalpel Path
         /// </summary>
         /// <remarks>
-        ///     scalpel-path - Available in Solid, Regular, Light, Duotone
+        /// scalpel-path - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "scalpel-path")]
         ScalpelPath,
 
         /// <summary>
-        ///     Scanner
+        /// Scanner
         /// </summary>
         /// <remarks>
-        ///     scanner - Available in Solid, Regular, Light, Duotone
+        /// scanner - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "scanner")]
         Scanner,
 
         /// <summary>
-        ///     Image Scanner
+        /// Image Scanner
         /// </summary>
         /// <remarks>
-        ///     scanner-image - Available in Solid, Regular, Light, Duotone
+        /// scanner-image - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "scanner-image")]
         ScannerImage,
 
         /// <summary>
-        ///     Scanner Keyboard
+        /// Scanner Keyboard
         /// </summary>
         /// <remarks>
-        ///     scanner-keyboard - Available in Solid, Regular, Light, Duotone
+        /// scanner-keyboard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "scanner-keyboard")]
         ScannerKeyboard,
 
         /// <summary>
-        ///     Scanner Touchscreen
+        /// Scanner Touchscreen
         /// </summary>
         /// <remarks>
-        ///     scanner-touchscreen - Available in Solid, Regular, Light, Duotone
+        /// scanner-touchscreen - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "scanner-touchscreen")]
         ScannerTouchscreen,
 
         /// <summary>
-        ///     Scarecrow
+        /// Scarecrow
         /// </summary>
         /// <remarks>
-        ///     scarecrow - Available in Solid, Regular, Light, Duotone
+        /// scarecrow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "scarecrow")]
         Scarecrow,
 
         /// <summary>
-        ///     Scarf
+        /// Scarf
         /// </summary>
         /// <remarks>
-        ///     scarf - Available in Solid, Regular, Light, Duotone
+        /// scarf - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "scarf")]
         Scarf,
 
         /// <summary>
-        ///     School
+        /// School
         /// </summary>
         /// <remarks>
-        ///     school - Available in Solid, Regular, Light, Duotone
+        /// school - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "school")]
         School,
 
         /// <summary>
-        ///     Screwdriver
+        /// Screwdriver
         /// </summary>
         /// <remarks>
-        ///     screwdriver - Available in Solid, Regular, Light, Duotone
+        /// screwdriver - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "screwdriver")]
         Screwdriver,
 
         /// <summary>
-        ///     Scroll
+        /// Scroll
         /// </summary>
         /// <remarks>
-        ///     scroll - Available in Solid, Regular, Light, Duotone
+        /// scroll - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "scroll")]
         Scroll,
 
         /// <summary>
-        ///     Scroll Old
+        /// Scroll Old
         /// </summary>
         /// <remarks>
-        ///     scroll-old - Available in Solid, Regular, Light, Duotone
+        /// scroll-old - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "scroll-old")]
         ScrollOld,
 
         /// <summary>
-        ///     Scrubber
+        /// Scrubber
         /// </summary>
         /// <remarks>
-        ///     scrubber - Available in Solid, Regular, Light, Duotone
+        /// scrubber - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "scrubber")]
         Scrubber,
 
         /// <summary>
-        ///     Scythe
+        /// Scythe
         /// </summary>
         /// <remarks>
-        ///     scythe - Available in Solid, Regular, Light, Duotone
+        /// scythe - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "scythe")]
         Scythe,
 
         /// <summary>
-        ///     Sd Card
+        /// Sd Card
         /// </summary>
         /// <remarks>
-        ///     sd-card - Available in Solid, Regular, Light, Duotone
+        /// sd-card - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sd-card")]
         SdCard,
 
         /// <summary>
-        ///     Search
+        /// Search
         /// </summary>
         /// <remarks>
-        ///     search - Available in Solid, Regular, Light, Duotone
+        /// search - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "search")]
         Search,
 
         /// <summary>
-        ///     Search Dollar
+        /// Search Dollar
         /// </summary>
         /// <remarks>
-        ///     search-dollar - Available in Solid, Regular, Light, Duotone
+        /// search-dollar - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "search-dollar")]
         SearchDollar,
 
         /// <summary>
-        ///     Search Location
+        /// Search Location
         /// </summary>
         /// <remarks>
-        ///     search-location - Available in Solid, Regular, Light, Duotone
+        /// search-location - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "search-location")]
         SearchLocation,
 
         /// <summary>
-        ///     Search Minus
+        /// Search Minus
         /// </summary>
         /// <remarks>
-        ///     search-minus - Available in Solid, Regular, Light, Duotone
+        /// search-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "search-minus")]
         SearchMinus,
 
         /// <summary>
-        ///     Search Plus
+        /// Search Plus
         /// </summary>
         /// <remarks>
-        ///     search-plus - Available in Solid, Regular, Light, Duotone
+        /// search-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "search-plus")]
         SearchPlus,
 
         /// <summary>
-        ///     Seedling
+        /// Seedling
         /// </summary>
         /// <remarks>
-        ///     seedling - Available in Solid, Regular, Light, Duotone
+        /// seedling - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "seedling")]
         Seedling,
 
         /// <summary>
-        ///     Send Back
+        /// Send Back
         /// </summary>
         /// <remarks>
-        ///     send-back - Available in Solid, Regular, Light, Duotone
+        /// send-back - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "send-back")]
         SendBack,
 
         /// <summary>
-        ///     Send Backward
+        /// Send Backward
         /// </summary>
         /// <remarks>
-        ///     send-backward - Available in Solid, Regular, Light, Duotone
+        /// send-backward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "send-backward")]
         SendBackward,
 
         /// <summary>
-        ///     Sensor
+        /// Sensor
         /// </summary>
         /// <remarks>
-        ///     sensor - Available in Solid, Regular, Light, Duotone
+        /// sensor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sensor")]
         Sensor,
 
         /// <summary>
-        ///     Sensor Alert
+        /// Sensor Alert
         /// </summary>
         /// <remarks>
-        ///     sensor-alert - Available in Solid, Regular, Light, Duotone
+        /// sensor-alert - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sensor-alert")]
         SensorAlert,
 
         /// <summary>
-        ///     Sensor Fire
+        /// Sensor Fire
         /// </summary>
         /// <remarks>
-        ///     sensor-fire - Available in Solid, Regular, Light, Duotone
+        /// sensor-fire - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sensor-fire")]
         SensorFire,
 
         /// <summary>
-        ///     Sensor on
+        /// Sensor on
         /// </summary>
         /// <remarks>
-        ///     sensor-on - Available in Solid, Regular, Light, Duotone
+        /// sensor-on - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sensor-on")]
         SensorOn,
 
         /// <summary>
-        ///     Sensor Smoke
+        /// Sensor Smoke
         /// </summary>
         /// <remarks>
-        ///     sensor-smoke - Available in Solid, Regular, Light, Duotone
+        /// sensor-smoke - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sensor-smoke")]
         SensorSmoke,
 
         /// <summary>
-        ///     Server
+        /// Server
         /// </summary>
         /// <remarks>
-        ///     server - Available in Solid, Regular, Light, Duotone
+        /// server - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "server")]
         Server,
 
         /// <summary>
-        ///     Shapes
+        /// Shapes
         /// </summary>
         /// <remarks>
-        ///     shapes - Available in Solid, Regular, Light, Duotone
+        /// shapes - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shapes")]
         Shapes,
 
         /// <summary>
-        ///     Share
+        /// Share
         /// </summary>
         /// <remarks>
-        ///     share - Available in Solid, Regular, Light, Duotone
+        /// share - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "share")]
         Share,
 
         /// <summary>
-        ///     Share All
+        /// Share All
         /// </summary>
         /// <remarks>
-        ///     share-all - Available in Solid, Regular, Light, Duotone
+        /// share-all - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "share-all")]
         ShareAll,
 
         /// <summary>
-        ///     Alternate Share
+        /// Alternate Share
         /// </summary>
         /// <remarks>
-        ///     share-alt - Available in Solid, Regular, Light, Duotone
+        /// share-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "share-alt")]
         ShareAlt,
 
         /// <summary>
-        ///     Alternate Share Square
+        /// Alternate Share Square
         /// </summary>
         /// <remarks>
-        ///     share-alt-square - Available in Solid, Regular, Light, Duotone
+        /// share-alt-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "share-alt-square")]
         ShareAltSquare,
 
         /// <summary>
-        ///     Share Square
+        /// Share Square
         /// </summary>
         /// <remarks>
-        ///     share-square - Available in Solid, Regular, Light, Duotone
+        /// share-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "share-square")]
         ShareSquare,
 
         /// <summary>
-        ///     Sheep
+        /// Sheep
         /// </summary>
         /// <remarks>
-        ///     sheep - Available in Solid, Regular, Light, Duotone
+        /// sheep - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sheep")]
         Sheep,
 
         /// <summary>
-        ///     Shekel Sign
+        /// Shekel Sign
         /// </summary>
         /// <remarks>
-        ///     shekel-sign - Available in Solid, Regular, Light, Duotone
+        /// shekel-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shekel-sign")]
         ShekelSign,
 
         /// <summary>
-        ///     Shield
+        /// Shield
         /// </summary>
         /// <remarks>
-        ///     shield - Available in Solid, Regular, Light, Duotone
+        /// shield - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shield")]
         Shield,
 
         /// <summary>
-        ///     Alternate Shield
+        /// Alternate Shield
         /// </summary>
         /// <remarks>
-        ///     shield-alt - Available in Solid, Regular, Light, Duotone
+        /// shield-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shield-alt")]
         ShieldAlt,
 
         /// <summary>
-        ///     Shield
+        /// Shield
         /// </summary>
         /// <remarks>
-        ///     shield-check - Available in Solid, Regular, Light, Duotone
+        /// shield-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shield-check")]
         ShieldCheck,
 
         /// <summary>
-        ///     Shield Cross
+        /// Shield Cross
         /// </summary>
         /// <remarks>
-        ///     shield-cross - Available in Solid, Regular, Light, Duotone
+        /// shield-cross - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shield-cross")]
         ShieldCross,
 
         /// <summary>
-        ///     Shield Virus
+        /// Shield Virus
         /// </summary>
         /// <remarks>
-        ///     shield-virus - Available in Light, Regular, Solid, Duotone
+        /// shield-virus - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shield-virus")]
         ShieldVirus,
 
         /// <summary>
-        ///     Ship
+        /// Ship
         /// </summary>
         /// <remarks>
-        ///     ship - Available in Solid, Regular, Light, Duotone
+        /// ship - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "ship")] Ship,
+        [FontAwesome(IconStyle.Light, "ship")]
+        Ship,
 
         /// <summary>
-        ///     Shipping Fast
+        /// Shipping Fast
         /// </summary>
         /// <remarks>
-        ///     shipping-fast - Available in Solid, Regular, Light, Duotone
+        /// shipping-fast - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shipping-fast")]
         ShippingFast,
 
         /// <summary>
-        ///     Shipping Timed
+        /// Shipping Timed
         /// </summary>
         /// <remarks>
-        ///     shipping-timed - Available in Solid, Regular, Light, Duotone
+        /// shipping-timed - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shipping-timed")]
         ShippingTimed,
 
         /// <summary>
-        ///     Shish Kebab
+        /// Shish Kebab
         /// </summary>
         /// <remarks>
-        ///     shish-kebab - Available in Solid, Regular, Light, Duotone
+        /// shish-kebab - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shish-kebab")]
         ShishKebab,
 
         /// <summary>
-        ///     Shoe Prints
+        /// Shoe Prints
         /// </summary>
         /// <remarks>
-        ///     shoe-prints - Available in Solid, Regular, Light, Duotone
+        /// shoe-prints - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shoe-prints")]
         ShoePrints,
 
         /// <summary>
-        ///     Shopping Bag
+        /// Shopping Bag
         /// </summary>
         /// <remarks>
-        ///     shopping-bag - Available in Solid, Regular, Light, Duotone
+        /// shopping-bag - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shopping-bag")]
         ShoppingBag,
 
         /// <summary>
-        ///     Shopping Basket
+        /// Shopping Basket
         /// </summary>
         /// <remarks>
-        ///     shopping-basket - Available in Solid, Regular, Light, Duotone
+        /// shopping-basket - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shopping-basket")]
         ShoppingBasket,
 
         /// <summary>
-        ///     Shopping Cart
+        /// Shopping Cart
         /// </summary>
         /// <remarks>
-        ///     shopping-cart - Available in Solid, Regular, Light, Duotone
+        /// shopping-cart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shopping-cart")]
         ShoppingCart,
 
         /// <summary>
-        ///     Shovel
+        /// Shovel
         /// </summary>
         /// <remarks>
-        ///     shovel - Available in Solid, Regular, Light, Duotone
+        /// shovel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shovel")]
         Shovel,
 
         /// <summary>
-        ///     Shovel Snow
+        /// Shovel Snow
         /// </summary>
         /// <remarks>
-        ///     shovel-snow - Available in Solid, Regular, Light, Duotone
+        /// shovel-snow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shovel-snow")]
         ShovelSnow,
 
         /// <summary>
-        ///     Shower
+        /// Shower
         /// </summary>
         /// <remarks>
-        ///     shower - Available in Solid, Regular, Light, Duotone
+        /// shower - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shower")]
         Shower,
 
         /// <summary>
-        ///     Shredder
+        /// Shredder
         /// </summary>
         /// <remarks>
-        ///     shredder - Available in Solid, Regular, Light, Duotone
+        /// shredder - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shredder")]
         Shredder,
 
         /// <summary>
-        ///     Shuttle Van
+        /// Shuttle Van
         /// </summary>
         /// <remarks>
-        ///     shuttle-van - Available in Solid, Regular, Light, Duotone
+        /// shuttle-van - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shuttle-van")]
         ShuttleVan,
 
         /// <summary>
-        ///     Shuttlecock
+        /// Shuttlecock
         /// </summary>
         /// <remarks>
-        ///     shuttlecock - Available in Solid, Regular, Light, Duotone
+        /// shuttlecock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "shuttlecock")]
         Shuttlecock,
 
         /// <summary>
-        ///     Sickle
+        /// Sickle
         /// </summary>
         /// <remarks>
-        ///     sickle - Available in Solid, Regular, Light, Duotone
+        /// sickle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sickle")]
         Sickle,
 
         /// <summary>
-        ///     Sigma Summation
+        /// Sigma Summation
         /// </summary>
         /// <remarks>
-        ///     sigma - Available in Solid, Regular, Light, Duotone
+        /// sigma - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sigma")]
         Sigma,
 
         /// <summary>
-        ///     Sign
+        /// Sign
         /// </summary>
         /// <remarks>
-        ///     sign - Available in Solid, Regular, Light, Duotone
+        /// sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "sign")] Sign,
+        [FontAwesome(IconStyle.Light, "sign")]
+        Sign,
 
         /// <summary>
-        ///     Sign in
+        /// Sign in
         /// </summary>
         /// <remarks>
-        ///     sign-in - Available in Solid, Regular, Light, Duotone
+        /// sign-in - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sign-in")]
         SignIn,
 
         /// <summary>
-        ///     Alternate Sign in
+        /// Alternate Sign in
         /// </summary>
         /// <remarks>
-        ///     sign-in-alt - Available in Solid, Regular, Light, Duotone
+        /// sign-in-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sign-in-alt")]
         SignInAlt,
 
         /// <summary>
-        ///     Sign Language
+        /// Sign Language
         /// </summary>
         /// <remarks>
-        ///     sign-language - Available in Solid, Regular, Light, Duotone
+        /// sign-language - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sign-language")]
         SignLanguage,
 
         /// <summary>
-        ///     Sign Out
+        /// Sign Out
         /// </summary>
         /// <remarks>
-        ///     sign-out - Available in Solid, Regular, Light, Duotone
+        /// sign-out - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sign-out")]
         SignOut,
 
         /// <summary>
-        ///     Alternate Sign Out
+        /// Alternate Sign Out
         /// </summary>
         /// <remarks>
-        ///     sign-out-alt - Available in Solid, Regular, Light, Duotone
+        /// sign-out-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sign-out-alt")]
         SignOutAlt,
 
         /// <summary>
-        ///     Signal
+        /// Signal
         /// </summary>
         /// <remarks>
-        ///     signal - Available in Solid, Regular, Light, Duotone
+        /// signal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "signal")]
         Signal,
 
         /// <summary>
-        ///     Signal 1
+        /// Signal 1
         /// </summary>
         /// <remarks>
-        ///     signal-1 - Available in Solid, Regular, Light, Duotone
+        /// signal-1 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "signal-1")]
         Signal1,
 
         /// <summary>
-        ///     Signal 2
+        /// Signal 2
         /// </summary>
         /// <remarks>
-        ///     signal-2 - Available in Solid, Regular, Light, Duotone
+        /// signal-2 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "signal-2")]
         Signal2,
 
         /// <summary>
-        ///     Signal 3
+        /// Signal 3
         /// </summary>
         /// <remarks>
-        ///     signal-3 - Available in Solid, Regular, Light, Duotone
+        /// signal-3 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "signal-3")]
         Signal3,
 
         /// <summary>
-        ///     Signal 4
+        /// Signal 4
         /// </summary>
         /// <remarks>
-        ///     signal-4 - Available in Solid, Regular, Light, Duotone
+        /// signal-4 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "signal-4")]
         Signal4,
 
         /// <summary>
-        ///     Alternate Signal
+        /// Alternate Signal
         /// </summary>
         /// <remarks>
-        ///     signal-alt - Available in Solid, Regular, Light, Duotone
+        /// signal-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "signal-alt")]
         SignalAlt,
 
         /// <summary>
-        ///     Alternate Signal 1
+        /// Alternate Signal 1
         /// </summary>
         /// <remarks>
-        ///     signal-alt-1 - Available in Solid, Regular, Light, Duotone
+        /// signal-alt-1 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "signal-alt-1")]
         SignalAlt1,
 
         /// <summary>
-        ///     Alternate Signal 2
+        /// Alternate Signal 2
         /// </summary>
         /// <remarks>
-        ///     signal-alt-2 - Available in Solid, Regular, Light, Duotone
+        /// signal-alt-2 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "signal-alt-2")]
         SignalAlt2,
 
         /// <summary>
-        ///     Alternate Signal 3
+        /// Alternate Signal 3
         /// </summary>
         /// <remarks>
-        ///     signal-alt-3 - Available in Solid, Regular, Light, Duotone
+        /// signal-alt-3 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "signal-alt-3")]
         SignalAlt3,
 
         /// <summary>
-        ///     Alternate Signal Slash
+        /// Alternate Signal Slash
         /// </summary>
         /// <remarks>
-        ///     signal-alt-slash - Available in Solid, Regular, Light, Duotone
+        /// signal-alt-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "signal-alt-slash")]
         SignalAltSlash,
 
         /// <summary>
-        ///     Signal Slash
+        /// Signal Slash
         /// </summary>
         /// <remarks>
-        ///     signal-slash - Available in Solid, Regular, Light, Duotone
+        /// signal-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "signal-slash")]
         SignalSlash,
 
         /// <summary>
-        ///     Signal Stream
+        /// Signal Stream
         /// </summary>
         /// <remarks>
-        ///     signal-stream - Available in Solid, Regular, Light, Duotone
+        /// signal-stream - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "signal-stream")]
         SignalStream,
 
         /// <summary>
-        ///     Signature
+        /// Signature
         /// </summary>
         /// <remarks>
-        ///     signature - Available in Solid, Regular, Light, Duotone
+        /// signature - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "signature")]
         Signature,
 
         /// <summary>
-        ///     SIM Card
+        /// SIM Card
         /// </summary>
         /// <remarks>
-        ///     sim-card - Available in Solid, Regular, Light, Duotone
+        /// sim-card - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sim-card")]
         SimCard,
 
         /// <summary>
-        ///     Sink
+        /// Sink
         /// </summary>
         /// <remarks>
-        ///     sink - Available in Light, Regular, Solid, Duotone
+        /// sink - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "sink")] Sink,
+        [FontAwesome(IconStyle.Light, "sink")]
+        Sink,
 
         /// <summary>
-        ///     Siren
+        /// Siren
         /// </summary>
         /// <remarks>
-        ///     siren - Available in Solid, Regular, Light, Duotone
+        /// siren - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "siren")]
         Siren,
 
         /// <summary>
-        ///     Siren on
+        /// Siren on
         /// </summary>
         /// <remarks>
-        ///     siren-on - Available in Solid, Regular, Light, Duotone
+        /// siren-on - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "siren-on")]
         SirenOn,
 
         /// <summary>
-        ///     Sitemap
+        /// Sitemap
         /// </summary>
         /// <remarks>
-        ///     sitemap - Available in Solid, Regular, Light, Duotone
+        /// sitemap - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sitemap")]
         Sitemap,
 
         /// <summary>
-        ///     Skating
+        /// Skating
         /// </summary>
         /// <remarks>
-        ///     skating - Available in Solid, Regular, Light, Duotone
+        /// skating - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "skating")]
         Skating,
 
         /// <summary>
-        ///     Skeleton
+        /// Skeleton
         /// </summary>
         /// <remarks>
-        ///     skeleton - Available in Solid, Regular, Light, Duotone
+        /// skeleton - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "skeleton")]
         Skeleton,
 
         /// <summary>
-        ///     Ski Jump
+        /// Ski Jump
         /// </summary>
         /// <remarks>
-        ///     ski-jump - Available in Solid, Regular, Light, Duotone
+        /// ski-jump - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ski-jump")]
         SkiJump,
 
         /// <summary>
-        ///     Ski Lift
+        /// Ski Lift
         /// </summary>
         /// <remarks>
-        ///     ski-lift - Available in Solid, Regular, Light, Duotone
+        /// ski-lift - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ski-lift")]
         SkiLift,
 
         /// <summary>
-        ///     Skiing
+        /// Skiing
         /// </summary>
         /// <remarks>
-        ///     skiing - Available in Solid, Regular, Light, Duotone
+        /// skiing - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "skiing")]
         Skiing,
 
         /// <summary>
-        ///     Skiing Nordic
+        /// Skiing Nordic
         /// </summary>
         /// <remarks>
-        ///     skiing-nordic - Available in Solid, Regular, Light, Duotone
+        /// skiing-nordic - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "skiing-nordic")]
         SkiingNordic,
 
         /// <summary>
-        ///     Skull
+        /// Skull
         /// </summary>
         /// <remarks>
-        ///     skull - Available in Solid, Regular, Light, Duotone
+        /// skull - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "skull")]
         Skull,
 
         /// <summary>
-        ///     Cow Skull
+        /// Cow Skull
         /// </summary>
         /// <remarks>
-        ///     skull-cow - Available in Light, Regular, Solid, Duotone
+        /// skull-cow - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "skull-cow")]
         SkullCow,
 
         /// <summary>
-        ///     Skull Crossbones
+        /// Skull Crossbones
         /// </summary>
         /// <remarks>
-        ///     skull-crossbones - Available in Solid, Regular, Light, Duotone
+        /// skull-crossbones - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "skull-crossbones")]
         SkullCrossbones,
 
         /// <summary>
-        ///     Slash
+        /// Slash
         /// </summary>
         /// <remarks>
-        ///     slash - Available in Solid, Regular, Light, Duotone
+        /// slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "slash")]
         Slash,
 
         /// <summary>
-        ///     Sledding
+        /// Sledding
         /// </summary>
         /// <remarks>
-        ///     sledding - Available in Solid, Regular, Light, Duotone
+        /// sledding - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sledding")]
         Sledding,
 
         /// <summary>
-        ///     Sleigh
+        /// Sleigh
         /// </summary>
         /// <remarks>
-        ///     sleigh - Available in Solid, Regular, Light, Duotone
+        /// sleigh - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sleigh")]
         Sleigh,
 
         /// <summary>
-        ///     Horizontal Sliders
+        /// Horizontal Sliders
         /// </summary>
         /// <remarks>
-        ///     sliders-h - Available in Solid, Regular, Light, Duotone
+        /// sliders-h - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sliders-h")]
         SlidersH,
 
         /// <summary>
-        ///     Square Horizontal Sliders
+        /// Square Horizontal Sliders
         /// </summary>
         /// <remarks>
-        ///     sliders-h-square - Available in Solid, Regular, Light, Duotone
+        /// sliders-h-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sliders-h-square")]
         SlidersHSquare,
 
         /// <summary>
-        ///     Vertical Sliders
+        /// Vertical Sliders
         /// </summary>
         /// <remarks>
-        ///     sliders-v - Available in Solid, Regular, Light, Duotone
+        /// sliders-v - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sliders-v")]
         SlidersV,
 
         /// <summary>
-        ///     Square Vertical Sliders
+        /// Square Vertical Sliders
         /// </summary>
         /// <remarks>
-        ///     sliders-v-square - Available in Solid, Regular, Light, Duotone
+        /// sliders-v-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sliders-v-square")]
         SlidersVSquare,
 
         /// <summary>
-        ///     Smiling Face
+        /// Smiling Face
         /// </summary>
         /// <remarks>
-        ///     smile - Available in Solid, Regular, Light, Duotone
+        /// smile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "smile")]
         Smile,
 
         /// <summary>
-        ///     Beaming Face With Smiling Eyes
+        /// Beaming Face With Smiling Eyes
         /// </summary>
         /// <remarks>
-        ///     smile-beam - Available in Solid, Regular, Light, Duotone
+        /// smile-beam - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "smile-beam")]
         SmileBeam,
 
         /// <summary>
-        ///     Smiling Face Plus
+        /// Smiling Face Plus
         /// </summary>
         /// <remarks>
-        ///     smile-plus - Available in Solid, Regular, Light, Duotone
+        /// smile-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "smile-plus")]
         SmilePlus,
 
         /// <summary>
-        ///     Winking Face
+        /// Winking Face
         /// </summary>
         /// <remarks>
-        ///     smile-wink - Available in Solid, Regular, Light, Duotone
+        /// smile-wink - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "smile-wink")]
         SmileWink,
 
         /// <summary>
-        ///     Smog
+        /// Smog
         /// </summary>
         /// <remarks>
-        ///     smog - Available in Solid, Regular, Light, Duotone
+        /// smog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "smog")] Smog,
+        [FontAwesome(IconStyle.Light, "smog")]
+        Smog,
 
         /// <summary>
-        ///     Smoke
+        /// Smoke
         /// </summary>
         /// <remarks>
-        ///     smoke - Available in Solid, Regular, Light, Duotone
+        /// smoke - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "smoke")]
         Smoke,
 
         /// <summary>
-        ///     Smoking
+        /// Smoking
         /// </summary>
         /// <remarks>
-        ///     smoking - Available in Solid, Regular, Light, Duotone
+        /// smoking - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "smoking")]
         Smoking,
 
         /// <summary>
-        ///     Smoking Ban
+        /// Smoking Ban
         /// </summary>
         /// <remarks>
-        ///     smoking-ban - Available in Solid, Regular, Light, Duotone
+        /// smoking-ban - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "smoking-ban")]
         SmokingBan,
 
         /// <summary>
-        ///     SMS
+        /// SMS
         /// </summary>
         /// <remarks>
-        ///     sms - Available in Solid, Regular, Light, Duotone
+        /// sms - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "sms")] Sms,
+        [FontAwesome(IconStyle.Light, "sms")]
+        Sms,
 
         /// <summary>
-        ///     Snake
+        /// Snake
         /// </summary>
         /// <remarks>
-        ///     snake - Available in Solid, Regular, Light, Duotone
+        /// snake - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "snake")]
         Snake,
 
         /// <summary>
-        ///     Snooze
+        /// Snooze
         /// </summary>
         /// <remarks>
-        ///     snooze - Available in Solid, Regular, Light, Duotone
+        /// snooze - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "snooze")]
         Snooze,
 
         /// <summary>
-        ///     Snow Blowing
+        /// Snow Blowing
         /// </summary>
         /// <remarks>
-        ///     snow-blowing - Available in Solid, Regular, Light, Duotone
+        /// snow-blowing - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "snow-blowing")]
         SnowBlowing,
 
         /// <summary>
-        ///     Snowboarding
+        /// Snowboarding
         /// </summary>
         /// <remarks>
-        ///     snowboarding - Available in Solid, Regular, Light, Duotone
+        /// snowboarding - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "snowboarding")]
         Snowboarding,
 
         /// <summary>
-        ///     Snowflake
+        /// Snowflake
         /// </summary>
         /// <remarks>
-        ///     snowflake - Available in Solid, Regular, Light, Duotone
+        /// snowflake - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "snowflake")]
         Snowflake,
 
         /// <summary>
-        ///     Snowflakes
+        /// Snowflakes
         /// </summary>
         /// <remarks>
-        ///     snowflakes - Available in Solid, Regular, Light, Duotone
+        /// snowflakes - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "snowflakes")]
         Snowflakes,
 
         /// <summary>
-        ///     Snowman
+        /// Snowman
         /// </summary>
         /// <remarks>
-        ///     snowman - Available in Solid, Regular, Light, Duotone
+        /// snowman - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "snowman")]
         Snowman,
 
         /// <summary>
-        ///     Snowmobile
+        /// Snowmobile
         /// </summary>
         /// <remarks>
-        ///     snowmobile - Available in Solid, Regular, Light, Duotone
+        /// snowmobile - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "snowmobile")]
         Snowmobile,
 
         /// <summary>
-        ///     Snowplow
+        /// Snowplow
         /// </summary>
         /// <remarks>
-        ///     snowplow - Available in Solid, Regular, Light, Duotone
+        /// snowplow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "snowplow")]
         Snowplow,
 
         /// <summary>
-        ///     Soap
+        /// Soap
         /// </summary>
         /// <remarks>
-        ///     soap - Available in Light, Regular, Solid, Duotone
+        /// soap - Available in Light, Regular, Solid, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "soap")] Soap,
+        [FontAwesome(IconStyle.Light, "soap")]
+        Soap,
 
         /// <summary>
-        ///     Socks
+        /// Socks
         /// </summary>
         /// <remarks>
-        ///     socks - Available in Solid, Regular, Light, Duotone
+        /// socks - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "socks")]
         Socks,
 
         /// <summary>
-        ///     Solar Panel
+        /// Solar Panel
         /// </summary>
         /// <remarks>
-        ///     solar-panel - Available in Solid, Regular, Light, Duotone
+        /// solar-panel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "solar-panel")]
         SolarPanel,
 
         /// <summary>
-        ///     Solar System
+        /// Solar System
         /// </summary>
         /// <remarks>
-        ///     solar-system - Available in Solid, Regular, Light, Duotone
+        /// solar-system - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "solar-system")]
         SolarSystem,
 
         /// <summary>
-        ///     Sort
+        /// Sort
         /// </summary>
         /// <remarks>
-        ///     sort - Available in Solid, Regular, Light, Duotone
+        /// sort - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "sort")] Sort,
+        [FontAwesome(IconStyle.Light, "sort")]
+        Sort,
 
         /// <summary>
-        ///     Sort Alphabetical Down
+        /// Sort Alphabetical Down
         /// </summary>
         /// <remarks>
-        ///     sort-alpha-down - Available in Solid, Regular, Light, Duotone
+        /// sort-alpha-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-alpha-down")]
         SortAlphaDown,
 
         /// <summary>
-        ///     Alternate Sort Alphabetical Down
+        /// Alternate Sort Alphabetical Down
         /// </summary>
         /// <remarks>
-        ///     sort-alpha-down-alt - Available in Solid, Regular, Light, Duotone
+        /// sort-alpha-down-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-alpha-down-alt")]
         SortAlphaDownAlt,
 
         /// <summary>
-        ///     Sort Alphabetical up
+        /// Sort Alphabetical up
         /// </summary>
         /// <remarks>
-        ///     sort-alpha-up - Available in Solid, Regular, Light, Duotone
+        /// sort-alpha-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-alpha-up")]
         SortAlphaUp,
 
         /// <summary>
-        ///     Alternate Sort Alphabetical up
+        /// Alternate Sort Alphabetical up
         /// </summary>
         /// <remarks>
-        ///     sort-alpha-up-alt - Available in Solid, Regular, Light, Duotone
+        /// sort-alpha-up-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-alpha-up-alt")]
         SortAlphaUpAlt,
 
         /// <summary>
-        ///     Alternate Sort
+        /// Alternate Sort
         /// </summary>
         /// <remarks>
-        ///     sort-alt - Available in Solid, Regular, Light, Duotone
+        /// sort-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-alt")]
         SortAlt,
 
         /// <summary>
-        ///     Sort Amount Down
+        /// Sort Amount Down
         /// </summary>
         /// <remarks>
-        ///     sort-amount-down - Available in Solid, Regular, Light, Duotone
+        /// sort-amount-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-amount-down")]
         SortAmountDown,
 
         /// <summary>
-        ///     Alternate Sort Amount Down
+        /// Alternate Sort Amount Down
         /// </summary>
         /// <remarks>
-        ///     sort-amount-down-alt - Available in Solid, Regular, Light, Duotone
+        /// sort-amount-down-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-amount-down-alt")]
         SortAmountDownAlt,
 
         /// <summary>
-        ///     Sort Amount up
+        /// Sort Amount up
         /// </summary>
         /// <remarks>
-        ///     sort-amount-up - Available in Solid, Regular, Light, Duotone
+        /// sort-amount-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-amount-up")]
         SortAmountUp,
 
         /// <summary>
-        ///     Alternate Sort Amount up
+        /// Alternate Sort Amount up
         /// </summary>
         /// <remarks>
-        ///     sort-amount-up-alt - Available in Solid, Regular, Light, Duotone
+        /// sort-amount-up-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-amount-up-alt")]
         SortAmountUpAlt,
 
         /// <summary>
-        ///     Sort Circle
+        /// Sort Circle
         /// </summary>
         /// <remarks>
-        ///     sort-circle - Available in Solid, Regular, Light, Duotone
+        /// sort-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-circle")]
         SortCircle,
 
         /// <summary>
-        ///     Sort Circle Down
+        /// Sort Circle Down
         /// </summary>
         /// <remarks>
-        ///     sort-circle-down - Available in Solid, Regular, Light, Duotone
+        /// sort-circle-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-circle-down")]
         SortCircleDown,
 
         /// <summary>
-        ///     Sort Circle up
+        /// Sort Circle up
         /// </summary>
         /// <remarks>
-        ///     sort-circle-up - Available in Solid, Regular, Light, Duotone
+        /// sort-circle-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-circle-up")]
         SortCircleUp,
 
         /// <summary>
-        ///     Sort Down Descending
+        /// Sort Down Descending
         /// </summary>
         /// <remarks>
-        ///     sort-down - Available in Solid, Regular, Light, Duotone
+        /// sort-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-down")]
         SortDown,
 
         /// <summary>
-        ///     Sort Numeric Down
+        /// Sort Numeric Down
         /// </summary>
         /// <remarks>
-        ///     sort-numeric-down - Available in Solid, Regular, Light, Duotone
+        /// sort-numeric-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-numeric-down")]
         SortNumericDown,
 
         /// <summary>
-        ///     Alternate Sort Numeric Down
+        /// Alternate Sort Numeric Down
         /// </summary>
         /// <remarks>
-        ///     sort-numeric-down-alt - Available in Solid, Regular, Light, Duotone
+        /// sort-numeric-down-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-numeric-down-alt")]
         SortNumericDownAlt,
 
         /// <summary>
-        ///     Sort Numeric up
+        /// Sort Numeric up
         /// </summary>
         /// <remarks>
-        ///     sort-numeric-up - Available in Solid, Regular, Light, Duotone
+        /// sort-numeric-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-numeric-up")]
         SortNumericUp,
 
         /// <summary>
-        ///     Alternate Sort Numeric up
+        /// Alternate Sort Numeric up
         /// </summary>
         /// <remarks>
-        ///     sort-numeric-up-alt - Available in Solid, Regular, Light, Duotone
+        /// sort-numeric-up-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-numeric-up-alt")]
         SortNumericUpAlt,
 
         /// <summary>
-        ///     Sort Shapes Down
+        /// Sort Shapes Down
         /// </summary>
         /// <remarks>
-        ///     sort-shapes-down - Available in Solid, Regular, Light, Duotone
+        /// sort-shapes-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-shapes-down")]
         SortShapesDown,
 
         /// <summary>
-        ///     Alternate Sort Shapes Down
+        /// Alternate Sort Shapes Down
         /// </summary>
         /// <remarks>
-        ///     sort-shapes-down-alt - Available in Solid, Regular, Light, Duotone
+        /// sort-shapes-down-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-shapes-down-alt")]
         SortShapesDownAlt,
 
         /// <summary>
-        ///     Sort Shapes up
+        /// Sort Shapes up
         /// </summary>
         /// <remarks>
-        ///     sort-shapes-up - Available in Solid, Regular, Light, Duotone
+        /// sort-shapes-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-shapes-up")]
         SortShapesUp,
 
         /// <summary>
-        ///     Alternate Sort Shapes up
+        /// Alternate Sort Shapes up
         /// </summary>
         /// <remarks>
-        ///     sort-shapes-up-alt - Available in Solid, Regular, Light, Duotone
+        /// sort-shapes-up-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-shapes-up-alt")]
         SortShapesUpAlt,
 
         /// <summary>
-        ///     Sort Size Down
+        /// Sort Size Down
         /// </summary>
         /// <remarks>
-        ///     sort-size-down - Available in Solid, Regular, Light, Duotone
+        /// sort-size-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-size-down")]
         SortSizeDown,
 
         /// <summary>
-        ///     Alternate Sort Size Down
+        /// Alternate Sort Size Down
         /// </summary>
         /// <remarks>
-        ///     sort-size-down-alt - Available in Solid, Regular, Light, Duotone
+        /// sort-size-down-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-size-down-alt")]
         SortSizeDownAlt,
 
         /// <summary>
-        ///     Sort Size up
+        /// Sort Size up
         /// </summary>
         /// <remarks>
-        ///     sort-size-up - Available in Solid, Regular, Light, Duotone
+        /// sort-size-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-size-up")]
         SortSizeUp,
 
         /// <summary>
-        ///     Alternate Sort Size up
+        /// Alternate Sort Size up
         /// </summary>
         /// <remarks>
-        ///     sort-size-up-alt - Available in Solid, Regular, Light, Duotone
+        /// sort-size-up-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-size-up-alt")]
         SortSizeUpAlt,
 
         /// <summary>
-        ///     Sort up Ascending
+        /// Sort up Ascending
         /// </summary>
         /// <remarks>
-        ///     sort-up - Available in Solid, Regular, Light, Duotone
+        /// sort-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sort-up")]
         SortUp,
 
         /// <summary>
-        ///     Soup
+        /// Soup
         /// </summary>
         /// <remarks>
-        ///     soup - Available in Solid, Regular, Light, Duotone
+        /// soup - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "soup")] Soup,
+        [FontAwesome(IconStyle.Light, "soup")]
+        Soup,
 
         /// <summary>
-        ///     Spa
+        /// Spa
         /// </summary>
         /// <remarks>
-        ///     spa - Available in Solid, Regular, Light, Duotone
+        /// spa - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "spa")] Spa,
+        [FontAwesome(IconStyle.Light, "spa")]
+        Spa,
 
         /// <summary>
-        ///     Space Shuttle
+        /// Space Shuttle
         /// </summary>
         /// <remarks>
-        ///     space-shuttle - Available in Solid, Regular, Light, Duotone
+        /// space-shuttle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "space-shuttle")]
         SpaceShuttle,
 
         /// <summary>
-        ///     Moon Space Station
+        /// Moon Space Station
         /// </summary>
         /// <remarks>
-        ///     space-station-moon - Available in Solid, Regular, Light, Duotone
+        /// space-station-moon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "space-station-moon")]
         SpaceStationMoon,
 
         /// <summary>
-        ///     Moon Space Station Under Construction
+        /// Moon Space Station Under Construction
         /// </summary>
         /// <remarks>
-        ///     space-station-moon-alt - Available in Solid, Regular, Light, Duotone
+        /// space-station-moon-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "space-station-moon-alt")]
         SpaceStationMoonAlt,
 
         /// <summary>
-        ///     Spade
+        /// Spade
         /// </summary>
         /// <remarks>
-        ///     spade - Available in Solid, Regular, Light, Duotone
+        /// spade - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "spade")]
         Spade,
 
         /// <summary>
-        ///     Sparkles
+        /// Sparkles
         /// </summary>
         /// <remarks>
-        ///     sparkles - Available in Solid, Regular, Light, Duotone
+        /// sparkles - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sparkles")]
         Sparkles,
 
         /// <summary>
-        ///     Speaker
+        /// Speaker
         /// </summary>
         /// <remarks>
-        ///     speaker - Available in Solid, Regular, Light, Duotone
+        /// speaker - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "speaker")]
         Speaker,
 
         /// <summary>
-        ///     Speakers
+        /// Speakers
         /// </summary>
         /// <remarks>
-        ///     speakers - Available in Solid, Regular, Light, Duotone
+        /// speakers - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "speakers")]
         Speakers,
 
         /// <summary>
-        ///     Spell Check
+        /// Spell Check
         /// </summary>
         /// <remarks>
-        ///     spell-check - Available in Solid, Regular, Light, Duotone
+        /// spell-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "spell-check")]
         SpellCheck,
 
         /// <summary>
-        ///     Spider
+        /// Spider
         /// </summary>
         /// <remarks>
-        ///     spider - Available in Solid, Regular, Light, Duotone
+        /// spider - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "spider")]
         Spider,
 
         /// <summary>
-        ///     Black Widow Spider
+        /// Black Widow Spider
         /// </summary>
         /// <remarks>
-        ///     spider-black-widow - Available in Solid, Regular, Light, Duotone
+        /// spider-black-widow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "spider-black-widow")]
         SpiderBlackWidow,
 
         /// <summary>
-        ///     Spider Web
+        /// Spider Web
         /// </summary>
         /// <remarks>
-        ///     spider-web - Available in Solid, Regular, Light, Duotone
+        /// spider-web - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "spider-web")]
         SpiderWeb,
 
         /// <summary>
-        ///     Spinner
+        /// Spinner
         /// </summary>
         /// <remarks>
-        ///     spinner - Available in Solid, Regular, Light, Duotone
+        /// spinner - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "spinner")]
         Spinner,
 
         /// <summary>
-        ///     Spinner Third
+        /// Spinner Third
         /// </summary>
         /// <remarks>
-        ///     spinner-third - Available in Solid, Regular, Light, Duotone
+        /// spinner-third - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "spinner-third")]
         SpinnerThird,
 
         /// <summary>
-        ///     Splotch
+        /// Splotch
         /// </summary>
         /// <remarks>
-        ///     splotch - Available in Solid, Regular, Light, Duotone
+        /// splotch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "splotch")]
         Splotch,
 
         /// <summary>
-        ///     Spray Can
+        /// Spray Can
         /// </summary>
         /// <remarks>
-        ///     spray-can - Available in Solid, Regular, Light, Duotone
+        /// spray-can - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "spray-can")]
         SprayCan,
 
         /// <summary>
-        ///     Sprinkler
+        /// Sprinkler
         /// </summary>
         /// <remarks>
-        ///     sprinkler - Available in Solid, Regular, Light, Duotone
+        /// sprinkler - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sprinkler")]
         Sprinkler,
 
         /// <summary>
-        ///     Square
+        /// Square
         /// </summary>
         /// <remarks>
-        ///     square - Available in Solid, Regular, Light, Duotone
+        /// square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "square")]
         Square,
 
         /// <summary>
-        ///     Square Full
+        /// Square Full
         /// </summary>
         /// <remarks>
-        ///     square-full - Available in Solid, Regular, Light, Duotone
+        /// square-full - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "square-full")]
         SquareFull,
 
         /// <summary>
-        ///     Square Root
+        /// Square Root
         /// </summary>
         /// <remarks>
-        ///     square-root - Available in Solid, Regular, Light, Duotone
+        /// square-root - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "square-root")]
         SquareRoot,
 
         /// <summary>
-        ///     Alternate Square Root
+        /// Alternate Square Root
         /// </summary>
         /// <remarks>
-        ///     square-root-alt - Available in Solid, Regular, Light, Duotone
+        /// square-root-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "square-root-alt")]
         SquareRootAlt,
 
         /// <summary>
-        ///     Squirrel
+        /// Squirrel
         /// </summary>
         /// <remarks>
-        ///     squirrel - Available in Solid, Regular, Light, Duotone
+        /// squirrel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "squirrel")]
         Squirrel,
 
         /// <summary>
-        ///     Staff
+        /// Staff
         /// </summary>
         /// <remarks>
-        ///     staff - Available in Solid, Regular, Light, Duotone
+        /// staff - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "staff")]
         Staff,
 
         /// <summary>
-        ///     Stamp
+        /// Stamp
         /// </summary>
         /// <remarks>
-        ///     stamp - Available in Solid, Regular, Light, Duotone
+        /// stamp - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "stamp")]
         Stamp,
 
         /// <summary>
-        ///     Star
+        /// Star
         /// </summary>
         /// <remarks>
-        ///     star - Available in Solid, Regular, Light, Duotone
+        /// star - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "star")] Star,
+        [FontAwesome(IconStyle.Light, "star")]
+        Star,
 
         /// <summary>
-        ///     Star and Crescent
+        /// Star and Crescent
         /// </summary>
         /// <remarks>
-        ///     star-and-crescent - Available in Solid, Regular, Light, Duotone
+        /// star-and-crescent - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "star-and-crescent")]
         StarAndCrescent,
 
         /// <summary>
-        ///     Christmas Star
+        /// Christmas Star
         /// </summary>
         /// <remarks>
-        ///     star-christmas - Available in Solid, Regular, Light, Duotone
+        /// star-christmas - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "star-christmas")]
         StarChristmas,
 
         /// <summary>
-        ///     Exclamation Star
+        /// Exclamation Star
         /// </summary>
         /// <remarks>
-        ///     star-exclamation - Available in Solid, Regular, Light, Duotone
+        /// star-exclamation - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "star-exclamation")]
         StarExclamation,
 
         /// <summary>
-        ///     Star Half
+        /// Star Half
         /// </summary>
         /// <remarks>
-        ///     star-half - Available in Solid, Regular, Light, Duotone
+        /// star-half - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "star-half")]
         StarHalf,
 
         /// <summary>
-        ///     Alternate Star Half
+        /// Alternate Star Half
         /// </summary>
         /// <remarks>
-        ///     star-half-alt - Available in Solid, Regular, Light, Duotone
+        /// star-half-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "star-half-alt")]
         StarHalfAlt,
 
         /// <summary>
-        ///     Star of David
+        /// Star of David
         /// </summary>
         /// <remarks>
-        ///     star-of-david - Available in Solid, Regular, Light, Duotone
+        /// star-of-david - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "star-of-david")]
         StarOfDavid,
 
         /// <summary>
-        ///     Star of Life
+        /// Star of Life
         /// </summary>
         /// <remarks>
-        ///     star-of-life - Available in Solid, Regular, Light, Duotone
+        /// star-of-life - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "star-of-life")]
         StarOfLife,
 
         /// <summary>
-        ///     Star Shooting
+        /// Star Shooting
         /// </summary>
         /// <remarks>
-        ///     star-shooting - Available in Solid, Regular, Light, Duotone
+        /// star-shooting - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "star-shooting")]
         StarShooting,
 
         /// <summary>
-        ///     Starfighter
+        /// Starfighter
         /// </summary>
         /// <remarks>
-        ///     starfighter - Available in Solid, Regular, Light, Duotone
+        /// starfighter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "starfighter")]
         Starfighter,
 
         /// <summary>
-        ///     Starfighter Alternate
+        /// Starfighter Alternate
         /// </summary>
         /// <remarks>
-        ///     starfighter-alt - Available in Solid, Regular, Light, Duotone
+        /// starfighter-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "starfighter-alt")]
         StarfighterAlt,
 
         /// <summary>
-        ///     Stars
+        /// Stars
         /// </summary>
         /// <remarks>
-        ///     stars - Available in Solid, Regular, Light, Duotone
+        /// stars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "stars")]
         Stars,
 
         /// <summary>
-        ///     Starship
+        /// Starship
         /// </summary>
         /// <remarks>
-        ///     starship - Available in Solid, Regular, Light, Duotone
+        /// starship - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "starship")]
         Starship,
 
         /// <summary>
-        ///     Starship Freighter
+        /// Starship Freighter
         /// </summary>
         /// <remarks>
-        ///     starship-freighter - Available in Solid, Regular, Light, Duotone
+        /// starship-freighter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "starship-freighter")]
         StarshipFreighter,
 
         /// <summary>
-        ///     Steak
+        /// Steak
         /// </summary>
         /// <remarks>
-        ///     steak - Available in Solid, Regular, Light, Duotone
+        /// steak - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "steak")]
         Steak,
 
         /// <summary>
-        ///     Wheel Steering
+        /// Wheel Steering
         /// </summary>
         /// <remarks>
-        ///     steering-wheel - Available in Solid, Regular, Light, Duotone
+        /// steering-wheel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "steering-wheel")]
         SteeringWheel,
 
         /// <summary>
-        ///     Step Backward
+        /// Step Backward
         /// </summary>
         /// <remarks>
-        ///     step-backward - Available in Solid, Regular, Light, Duotone
+        /// step-backward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "step-backward")]
         StepBackward,
 
         /// <summary>
-        ///     Step Forward
+        /// Step Forward
         /// </summary>
         /// <remarks>
-        ///     step-forward - Available in Solid, Regular, Light, Duotone
+        /// step-forward - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "step-forward")]
         StepForward,
 
         /// <summary>
-        ///     Stethoscope
+        /// Stethoscope
         /// </summary>
         /// <remarks>
-        ///     stethoscope - Available in Solid, Regular, Light, Duotone
+        /// stethoscope - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "stethoscope")]
         Stethoscope,
 
         /// <summary>
-        ///     Sticky Note
+        /// Sticky Note
         /// </summary>
         /// <remarks>
-        ///     sticky-note - Available in Solid, Regular, Light, Duotone
+        /// sticky-note - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sticky-note")]
         StickyNote,
 
         /// <summary>
-        ///     Stocking
+        /// Stocking
         /// </summary>
         /// <remarks>
-        ///     stocking - Available in Solid, Regular, Light, Duotone
+        /// stocking - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "stocking")]
         Stocking,
 
         /// <summary>
-        ///     Stomach
+        /// Stomach
         /// </summary>
         /// <remarks>
-        ///     stomach - Available in Solid, Regular, Light, Duotone
+        /// stomach - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "stomach")]
         Stomach,
 
         /// <summary>
-        ///     Stop
+        /// Stop
         /// </summary>
         /// <remarks>
-        ///     stop - Available in Solid, Regular, Light, Duotone
+        /// stop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "stop")] Stop,
+        [FontAwesome(IconStyle.Light, "stop")]
+        Stop,
 
         /// <summary>
-        ///     Stop Circle
+        /// Stop Circle
         /// </summary>
         /// <remarks>
-        ///     stop-circle - Available in Solid, Regular, Light, Duotone
+        /// stop-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "stop-circle")]
         StopCircle,
 
         /// <summary>
-        ///     Stopwatch
+        /// Stopwatch
         /// </summary>
         /// <remarks>
-        ///     stopwatch - Available in Solid, Regular, Light, Duotone
+        /// stopwatch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "stopwatch")]
         Stopwatch,
 
         /// <summary>
-        ///     Stopwatch 20
+        /// Stopwatch 20
         /// </summary>
         /// <remarks>
-        ///     stopwatch-20 - Available in Light, Regular, Solid, Duotone
+        /// stopwatch-20 - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "stopwatch-20")]
         Stopwatch20,
 
         /// <summary>
-        ///     Store
+        /// Store
         /// </summary>
         /// <remarks>
-        ///     store - Available in Solid, Regular, Light, Duotone
+        /// store - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "store")]
         Store,
 
         /// <summary>
-        ///     Alternate Store
+        /// Alternate Store
         /// </summary>
         /// <remarks>
-        ///     store-alt - Available in Solid, Regular, Light, Duotone
+        /// store-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "store-alt")]
         StoreAlt,
 
         /// <summary>
-        ///     Alternate Store Slash
+        /// Alternate Store Slash
         /// </summary>
         /// <remarks>
-        ///     store-alt-slash - Available in Light, Regular, Solid, Duotone
+        /// store-alt-slash - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "store-alt-slash")]
         StoreAltSlash,
 
         /// <summary>
-        ///     Store Slash
+        /// Store Slash
         /// </summary>
         /// <remarks>
-        ///     store-slash - Available in Light, Regular, Solid, Duotone
+        /// store-slash - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "store-slash")]
         StoreSlash,
 
         /// <summary>
-        ///     Stream
+        /// Stream
         /// </summary>
         /// <remarks>
-        ///     stream - Available in Solid, Regular, Light, Duotone
+        /// stream - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "stream")]
         Stream,
 
         /// <summary>
-        ///     Street View
+        /// Street View
         /// </summary>
         /// <remarks>
-        ///     street-view - Available in Solid, Regular, Light, Duotone
+        /// street-view - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "street-view")]
         StreetView,
 
         /// <summary>
-        ///     Stretcher
+        /// Stretcher
         /// </summary>
         /// <remarks>
-        ///     stretcher - Available in Solid, Regular, Light, Duotone
+        /// stretcher - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "stretcher")]
         Stretcher,
 
         /// <summary>
-        ///     Strikethrough
+        /// Strikethrough
         /// </summary>
         /// <remarks>
-        ///     strikethrough - Available in Solid, Regular, Light, Duotone
+        /// strikethrough - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "strikethrough")]
         Strikethrough,
 
         /// <summary>
-        ///     Stroopwafel
+        /// Stroopwafel
         /// </summary>
         /// <remarks>
-        ///     stroopwafel - Available in Solid, Regular, Light, Duotone
+        /// stroopwafel - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "stroopwafel")]
         Stroopwafel,
 
         /// <summary>
-        ///     Subscript
+        /// Subscript
         /// </summary>
         /// <remarks>
-        ///     subscript - Available in Solid, Regular, Light, Duotone
+        /// subscript - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "subscript")]
         Subscript,
 
         /// <summary>
-        ///     Subway
+        /// Subway
         /// </summary>
         /// <remarks>
-        ///     subway - Available in Solid, Regular, Light, Duotone
+        /// subway - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "subway")]
         Subway,
 
         /// <summary>
-        ///     Suitcase
+        /// Suitcase
         /// </summary>
         /// <remarks>
-        ///     suitcase - Available in Solid, Regular, Light, Duotone
+        /// suitcase - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "suitcase")]
         Suitcase,
 
         /// <summary>
-        ///     Suitcase Rolling
+        /// Suitcase Rolling
         /// </summary>
         /// <remarks>
-        ///     suitcase-rolling - Available in Solid, Regular, Light, Duotone
+        /// suitcase-rolling - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "suitcase-rolling")]
         SuitcaseRolling,
 
         /// <summary>
-        ///     Sun
+        /// Sun
         /// </summary>
         /// <remarks>
-        ///     sun - Available in Solid, Regular, Light, Duotone
+        /// sun - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "sun")] Sun,
+        [FontAwesome(IconStyle.Light, "sun")]
+        Sun,
 
         /// <summary>
-        ///     Sun With Cloud
+        /// Sun With Cloud
         /// </summary>
         /// <remarks>
-        ///     sun-cloud - Available in Solid, Regular, Light, Duotone
+        /// sun-cloud - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sun-cloud")]
         SunCloud,
 
         /// <summary>
-        ///     Sun Dust
+        /// Sun Dust
         /// </summary>
         /// <remarks>
-        ///     sun-dust - Available in Solid, Regular, Light, Duotone
+        /// sun-dust - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sun-dust")]
         SunDust,
 
         /// <summary>
-        ///     Sun Haze
+        /// Sun Haze
         /// </summary>
         /// <remarks>
-        ///     sun-haze - Available in Solid, Regular, Light, Duotone
+        /// sun-haze - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sun-haze")]
         SunHaze,
 
         /// <summary>
-        ///     Sunglasses
+        /// Sunglasses
         /// </summary>
         /// <remarks>
-        ///     sunglasses - Available in Solid, Regular, Light, Duotone
+        /// sunglasses - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sunglasses")]
         Sunglasses,
 
         /// <summary>
-        ///     Sunrise
+        /// Sunrise
         /// </summary>
         /// <remarks>
-        ///     sunrise - Available in Solid, Regular, Light, Duotone
+        /// sunrise - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sunrise")]
         Sunrise,
 
         /// <summary>
-        ///     Sunset
+        /// Sunset
         /// </summary>
         /// <remarks>
-        ///     sunset - Available in Solid, Regular, Light, Duotone
+        /// sunset - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sunset")]
         Sunset,
 
         /// <summary>
-        ///     Superscript
+        /// Superscript
         /// </summary>
         /// <remarks>
-        ///     superscript - Available in Solid, Regular, Light, Duotone
+        /// superscript - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "superscript")]
         Superscript,
 
         /// <summary>
-        ///     Hushed Face
+        /// Hushed Face
         /// </summary>
         /// <remarks>
-        ///     surprise - Available in Solid, Regular, Light, Duotone
+        /// surprise - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "surprise")]
         Surprise,
 
         /// <summary>
-        ///     Swatchbook
+        /// Swatchbook
         /// </summary>
         /// <remarks>
-        ///     swatchbook - Available in Solid, Regular, Light, Duotone
+        /// swatchbook - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "swatchbook")]
         Swatchbook,
 
         /// <summary>
-        ///     Swimmer
+        /// Swimmer
         /// </summary>
         /// <remarks>
-        ///     swimmer - Available in Solid, Regular, Light, Duotone
+        /// swimmer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "swimmer")]
         Swimmer,
 
         /// <summary>
-        ///     Swimming Pool
+        /// Swimming Pool
         /// </summary>
         /// <remarks>
-        ///     swimming-pool - Available in Solid, Regular, Light, Duotone
+        /// swimming-pool - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "swimming-pool")]
         SwimmingPool,
 
         /// <summary>
-        ///     Sword
+        /// Sword
         /// </summary>
         /// <remarks>
-        ///     sword - Available in Solid, Regular, Light, Duotone
+        /// sword - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sword")]
         Sword,
 
         /// <summary>
-        ///     Sword Laser
+        /// Sword Laser
         /// </summary>
         /// <remarks>
-        ///     sword-laser - Available in Solid, Regular, Light, Duotone
+        /// sword-laser - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sword-laser")]
         SwordLaser,
 
         /// <summary>
-        ///     Sword Laser Alternate
+        /// Sword Laser Alternate
         /// </summary>
         /// <remarks>
-        ///     sword-laser-alt - Available in Solid, Regular, Light, Duotone
+        /// sword-laser-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sword-laser-alt")]
         SwordLaserAlt,
 
         /// <summary>
-        ///     Swords
+        /// Swords
         /// </summary>
         /// <remarks>
-        ///     swords - Available in Solid, Regular, Light, Duotone
+        /// swords - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "swords")]
         Swords,
 
         /// <summary>
-        ///     Swords Laser
+        /// Swords Laser
         /// </summary>
         /// <remarks>
-        ///     swords-laser - Available in Solid, Regular, Light, Duotone
+        /// swords-laser - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "swords-laser")]
         SwordsLaser,
 
         /// <summary>
-        ///     Synagogue
+        /// Synagogue
         /// </summary>
         /// <remarks>
-        ///     synagogue - Available in Solid, Regular, Light, Duotone
+        /// synagogue - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "synagogue")]
         Synagogue,
 
         /// <summary>
-        ///     Sync
+        /// Sync
         /// </summary>
         /// <remarks>
-        ///     sync - Available in Solid, Regular, Light, Duotone
+        /// sync - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "sync")] Sync,
+        [FontAwesome(IconStyle.Light, "sync")]
+        Sync,
 
         /// <summary>
-        ///     Alternate Sync
+        /// Alternate Sync
         /// </summary>
         /// <remarks>
-        ///     sync-alt - Available in Solid, Regular, Light, Duotone
+        /// sync-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "sync-alt")]
         SyncAlt,
 
         /// <summary>
-        ///     Syringe
+        /// Syringe
         /// </summary>
         /// <remarks>
-        ///     syringe - Available in Solid, Regular, Light, Duotone
+        /// syringe - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "syringe")]
         Syringe,
 
         /// <summary>
-        ///     Table
+        /// Table
         /// </summary>
         /// <remarks>
-        ///     table - Available in Solid, Regular, Light, Duotone
+        /// table - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "table")]
         Table,
 
         /// <summary>
-        ///     Table Tennis
+        /// Table Tennis
         /// </summary>
         /// <remarks>
-        ///     table-tennis - Available in Solid, Regular, Light, Duotone
+        /// table-tennis - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "table-tennis")]
         TableTennis,
 
         /// <summary>
-        ///     Tablet
+        /// Tablet
         /// </summary>
         /// <remarks>
-        ///     tablet - Available in Solid, Regular, Light, Duotone
+        /// tablet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tablet")]
         Tablet,
 
         /// <summary>
-        ///     Alternate Tablet
+        /// Alternate Tablet
         /// </summary>
         /// <remarks>
-        ///     tablet-alt - Available in Solid, Regular, Light, Duotone
+        /// tablet-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tablet-alt")]
         TabletAlt,
 
         /// <summary>
-        ///     Tablet Android
+        /// Tablet Android
         /// </summary>
         /// <remarks>
-        ///     tablet-android - Available in Solid, Regular, Light, Duotone
+        /// tablet-android - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tablet-android")]
         TabletAndroid,
 
         /// <summary>
-        ///     Alternate Tablet Android
+        /// Alternate Tablet Android
         /// </summary>
         /// <remarks>
-        ///     tablet-android-alt - Available in Solid, Regular, Light, Duotone
+        /// tablet-android-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tablet-android-alt")]
         TabletAndroidAlt,
 
         /// <summary>
-        ///     Rugged Tablet
+        /// Rugged Tablet
         /// </summary>
         /// <remarks>
-        ///     tablet-rugged - Available in Solid, Regular, Light, Duotone
+        /// tablet-rugged - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tablet-rugged")]
         TabletRugged,
 
         /// <summary>
-        ///     Tablets
+        /// Tablets
         /// </summary>
         /// <remarks>
-        ///     tablets - Available in Solid, Regular, Light, Duotone
+        /// tablets - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tablets")]
         Tablets,
 
         /// <summary>
-        ///     Tachometer
+        /// Tachometer
         /// </summary>
         /// <remarks>
-        ///     tachometer - Available in Solid, Regular, Light, Duotone
+        /// tachometer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tachometer")]
         Tachometer,
 
         /// <summary>
-        ///     Alternate Tachometer
+        /// Alternate Tachometer
         /// </summary>
         /// <remarks>
-        ///     tachometer-alt - Available in Solid, Regular, Light, Duotone
+        /// tachometer-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tachometer-alt")]
         TachometerAlt,
 
         /// <summary>
-        ///     Alternate Tachometer Average
+        /// Alternate Tachometer Average
         /// </summary>
         /// <remarks>
-        ///     tachometer-alt-average - Available in Solid, Regular, Light, Duotone
+        /// tachometer-alt-average - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tachometer-alt-average")]
         TachometerAltAverage,
 
         /// <summary>
-        ///     Alternate Tachometer Fast
+        /// Alternate Tachometer Fast
         /// </summary>
         /// <remarks>
-        ///     tachometer-alt-fast - Available in Solid, Regular, Light, Duotone
+        /// tachometer-alt-fast - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tachometer-alt-fast")]
         TachometerAltFast,
 
         /// <summary>
-        ///     Alternate Tachometer Fastest
+        /// Alternate Tachometer Fastest
         /// </summary>
         /// <remarks>
-        ///     tachometer-alt-fastest - Available in Solid, Regular, Light, Duotone
+        /// tachometer-alt-fastest - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tachometer-alt-fastest")]
         TachometerAltFastest,
 
         /// <summary>
-        ///     Alternate Tachometer Slow
+        /// Alternate Tachometer Slow
         /// </summary>
         /// <remarks>
-        ///     tachometer-alt-slow - Available in Solid, Regular, Light, Duotone
+        /// tachometer-alt-slow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tachometer-alt-slow")]
         TachometerAltSlow,
 
         /// <summary>
-        ///     Alternate Tachometer Slowest
+        /// Alternate Tachometer Slowest
         /// </summary>
         /// <remarks>
-        ///     tachometer-alt-slowest - Available in Solid, Regular, Light, Duotone
+        /// tachometer-alt-slowest - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tachometer-alt-slowest")]
         TachometerAltSlowest,
 
         /// <summary>
-        ///     Tachometer Average
+        /// Tachometer Average
         /// </summary>
         /// <remarks>
-        ///     tachometer-average - Available in Solid, Regular, Light, Duotone
+        /// tachometer-average - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tachometer-average")]
         TachometerAverage,
 
         /// <summary>
-        ///     Tachometer Fast
+        /// Tachometer Fast
         /// </summary>
         /// <remarks>
-        ///     tachometer-fast - Available in Solid, Regular, Light, Duotone
+        /// tachometer-fast - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tachometer-fast")]
         TachometerFast,
 
         /// <summary>
-        ///     Tachometer Fastest
+        /// Tachometer Fastest
         /// </summary>
         /// <remarks>
-        ///     tachometer-fastest - Available in Solid, Regular, Light, Duotone
+        /// tachometer-fastest - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tachometer-fastest")]
         TachometerFastest,
 
         /// <summary>
-        ///     Tachometer Slow
+        /// Tachometer Slow
         /// </summary>
         /// <remarks>
-        ///     tachometer-slow - Available in Solid, Regular, Light, Duotone
+        /// tachometer-slow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tachometer-slow")]
         TachometerSlow,
 
         /// <summary>
-        ///     Tachometer Slowest
+        /// Tachometer Slowest
         /// </summary>
         /// <remarks>
-        ///     tachometer-slowest - Available in Solid, Regular, Light, Duotone
+        /// tachometer-slowest - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tachometer-slowest")]
         TachometerSlowest,
 
         /// <summary>
-        ///     Taco
+        /// Taco
         /// </summary>
         /// <remarks>
-        ///     taco - Available in Solid, Regular, Light, Duotone
+        /// taco - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "taco")] Taco,
+        [FontAwesome(IconStyle.Light, "taco")]
+        Taco,
 
         /// <summary>
-        ///     Tag
+        /// Tag
         /// </summary>
         /// <remarks>
-        ///     tag - Available in Solid, Regular, Light, Duotone
+        /// tag - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "tag")] Tag,
+        [FontAwesome(IconStyle.Light, "tag")]
+        Tag,
 
         /// <summary>
-        ///     Tags
+        /// Tags
         /// </summary>
         /// <remarks>
-        ///     tags - Available in Solid, Regular, Light, Duotone
+        /// tags - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "tags")] Tags,
+        [FontAwesome(IconStyle.Light, "tags")]
+        Tags,
 
         /// <summary>
-        ///     Tally
+        /// Tally
         /// </summary>
         /// <remarks>
-        ///     tally - Available in Solid, Regular, Light, Duotone
+        /// tally - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tally")]
         Tally,
 
         /// <summary>
-        ///     Tanakh
+        /// Tanakh
         /// </summary>
         /// <remarks>
-        ///     tanakh - Available in Solid, Regular, Light, Duotone
+        /// tanakh - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tanakh")]
         Tanakh,
 
         /// <summary>
-        ///     Tape
+        /// Tape
         /// </summary>
         /// <remarks>
-        ///     tape - Available in Solid, Regular, Light, Duotone
+        /// tape - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "tape")] Tape,
+        [FontAwesome(IconStyle.Light, "tape")]
+        Tape,
 
         /// <summary>
-        ///     Tasks
+        /// Tasks
         /// </summary>
         /// <remarks>
-        ///     tasks - Available in Solid, Regular, Light, Duotone
+        /// tasks - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tasks")]
         Tasks,
 
         /// <summary>
-        ///     Alternate Tasks
+        /// Alternate Tasks
         /// </summary>
         /// <remarks>
-        ///     tasks-alt - Available in Solid, Regular, Light, Duotone
+        /// tasks-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tasks-alt")]
         TasksAlt,
 
         /// <summary>
-        ///     Taxi
+        /// Taxi
         /// </summary>
         /// <remarks>
-        ///     taxi - Available in Solid, Regular, Light, Duotone
+        /// taxi - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "taxi")] Taxi,
+        [FontAwesome(IconStyle.Light, "taxi")]
+        Taxi,
 
         /// <summary>
-        ///     Teeth
+        /// Teeth
         /// </summary>
         /// <remarks>
-        ///     teeth - Available in Solid, Regular, Light, Duotone
+        /// teeth - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "teeth")]
         Teeth,
 
         /// <summary>
-        ///     Teeth Open
+        /// Teeth Open
         /// </summary>
         /// <remarks>
-        ///     teeth-open - Available in Solid, Regular, Light, Duotone
+        /// teeth-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "teeth-open")]
         TeethOpen,
 
         /// <summary>
-        ///     Telescope
+        /// Telescope
         /// </summary>
         /// <remarks>
-        ///     telescope - Available in Solid, Regular, Light, Duotone
+        /// telescope - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "telescope")]
         Telescope,
 
         /// <summary>
-        ///     Temperature Down
+        /// Temperature Down
         /// </summary>
         /// <remarks>
-        ///     temperature-down - Available in Solid, Regular, Light, Duotone
+        /// temperature-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "temperature-down")]
         TemperatureDown,
 
         /// <summary>
-        ///     Temperature Frigid
+        /// Temperature Frigid
         /// </summary>
         /// <remarks>
-        ///     temperature-frigid - Available in Solid, Regular, Light, Duotone
+        /// temperature-frigid - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "temperature-frigid")]
         TemperatureFrigid,
 
         /// <summary>
-        ///     High Temperature
+        /// High Temperature
         /// </summary>
         /// <remarks>
-        ///     temperature-high - Available in Solid, Regular, Light, Duotone
+        /// temperature-high - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "temperature-high")]
         TemperatureHigh,
 
         /// <summary>
-        ///     Temperature Hot
+        /// Temperature Hot
         /// </summary>
         /// <remarks>
-        ///     temperature-hot - Available in Solid, Regular, Light, Duotone
+        /// temperature-hot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "temperature-hot")]
         TemperatureHot,
 
         /// <summary>
-        ///     Low Temperature
+        /// Low Temperature
         /// </summary>
         /// <remarks>
-        ///     temperature-low - Available in Solid, Regular, Light, Duotone
+        /// temperature-low - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "temperature-low")]
         TemperatureLow,
 
         /// <summary>
-        ///     Temperature up
+        /// Temperature up
         /// </summary>
         /// <remarks>
-        ///     temperature-up - Available in Solid, Regular, Light, Duotone
+        /// temperature-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "temperature-up")]
         TemperatureUp,
 
         /// <summary>
-        ///     Tenge
+        /// Tenge
         /// </summary>
         /// <remarks>
-        ///     tenge - Available in Solid, Regular, Light, Duotone
+        /// tenge - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tenge")]
         Tenge,
 
         /// <summary>
-        ///     Tennis Ball
+        /// Tennis Ball
         /// </summary>
         /// <remarks>
-        ///     tennis-ball - Available in Solid, Regular, Light, Duotone
+        /// tennis-ball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tennis-ball")]
         TennisBall,
 
         /// <summary>
-        ///     Terminal
+        /// Terminal
         /// </summary>
         /// <remarks>
-        ///     terminal - Available in Solid, Regular, Light, Duotone
+        /// terminal - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "terminal")]
         Terminal,
 
         /// <summary>
-        ///     Text
+        /// Text
         /// </summary>
         /// <remarks>
-        ///     text - Available in Solid, Regular, Light, Duotone
+        /// text - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "text")] Text,
+        [FontAwesome(IconStyle.Light, "text")]
+        Text,
 
         /// <summary>
-        ///     Text Height
+        /// Text Height
         /// </summary>
         /// <remarks>
-        ///     text-height - Available in Solid, Regular, Light, Duotone
+        /// text-height - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "text-height")]
         TextHeight,
 
         /// <summary>
-        ///     Text Size
+        /// Text Size
         /// </summary>
         /// <remarks>
-        ///     text-size - Available in Solid, Regular, Light, Duotone
+        /// text-size - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "text-size")]
         TextSize,
 
         /// <summary>
-        ///     Text Width
+        /// Text Width
         /// </summary>
         /// <remarks>
-        ///     text-width - Available in Solid, Regular, Light, Duotone
+        /// text-width - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "text-width")]
         TextWidth,
 
         /// <summary>
-        ///     Th
+        /// Th
         /// </summary>
         /// <remarks>
-        ///     th - Available in Solid, Regular, Light, Duotone
+        /// th - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "th")] Th,
+        [FontAwesome(IconStyle.Light, "th")]
+        Th,
 
         /// <summary>
-        ///     Th Large
+        /// Th Large
         /// </summary>
         /// <remarks>
-        ///     th-large - Available in Solid, Regular, Light, Duotone
+        /// th-large - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "th-large")]
         ThLarge,
 
         /// <summary>
-        ///     Th List
+        /// Th List
         /// </summary>
         /// <remarks>
-        ///     th-list - Available in Solid, Regular, Light, Duotone
+        /// th-list - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "th-list")]
         ThList,
 
         /// <summary>
-        ///     Theater Masks
+        /// Theater Masks
         /// </summary>
         /// <remarks>
-        ///     theater-masks - Available in Solid, Regular, Light, Duotone
+        /// theater-masks - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "theater-masks")]
         TheaterMasks,
 
         /// <summary>
-        ///     Thermometer
+        /// Thermometer
         /// </summary>
         /// <remarks>
-        ///     thermometer - Available in Solid, Regular, Light, Duotone
+        /// thermometer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "thermometer")]
         Thermometer,
 
         /// <summary>
-        ///     Thermometer Empty
+        /// Thermometer Empty
         /// </summary>
         /// <remarks>
-        ///     thermometer-empty - Available in Solid, Regular, Light, Duotone
+        /// thermometer-empty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "thermometer-empty")]
         ThermometerEmpty,
 
         /// <summary>
-        ///     Thermometer Full
+        /// Thermometer Full
         /// </summary>
         /// <remarks>
-        ///     thermometer-full - Available in Solid, Regular, Light, Duotone
+        /// thermometer-full - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "thermometer-full")]
         ThermometerFull,
 
         /// <summary>
-        ///     Thermometer 1 2 Full
+        /// Thermometer 1 2 Full
         /// </summary>
         /// <remarks>
-        ///     thermometer-half - Available in Solid, Regular, Light, Duotone
+        /// thermometer-half - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "thermometer-half")]
         ThermometerHalf,
 
         /// <summary>
-        ///     Thermometer 1 4 Full
+        /// Thermometer 1 4 Full
         /// </summary>
         /// <remarks>
-        ///     thermometer-quarter - Available in Solid, Regular, Light, Duotone
+        /// thermometer-quarter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "thermometer-quarter")]
         ThermometerQuarter,
 
         /// <summary>
-        ///     Thermometer 3 4 Full
+        /// Thermometer 3 4 Full
         /// </summary>
         /// <remarks>
-        ///     thermometer-three-quarters - Available in Solid, Regular, Light, Duotone
+        /// thermometer-three-quarters - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "thermometer-three-quarters")]
         ThermometerThreeQuarters,
 
         /// <summary>
-        ///     Theta
+        /// Theta
         /// </summary>
         /// <remarks>
-        ///     theta - Available in Solid, Regular, Light, Duotone
+        /// theta - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "theta")]
         Theta,
 
         /// <summary>
-        ///     Thumbs Down
+        /// Thumbs Down
         /// </summary>
         /// <remarks>
-        ///     thumbs-down - Available in Solid, Regular, Light, Duotone
+        /// thumbs-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "thumbs-down")]
         ThumbsDown,
 
         /// <summary>
-        ///     Thumbs up
+        /// Thumbs up
         /// </summary>
         /// <remarks>
-        ///     thumbs-up - Available in Solid, Regular, Light, Duotone
+        /// thumbs-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "thumbs-up")]
         ThumbsUp,
 
         /// <summary>
-        ///     Thumbtack
+        /// Thumbtack
         /// </summary>
         /// <remarks>
-        ///     thumbtack - Available in Solid, Regular, Light, Duotone
+        /// thumbtack - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "thumbtack")]
         Thumbtack,
 
         /// <summary>
-        ///     Thunderstorm
+        /// Thunderstorm
         /// </summary>
         /// <remarks>
-        ///     thunderstorm - Available in Solid, Regular, Light, Duotone
+        /// thunderstorm - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "thunderstorm")]
         Thunderstorm,
 
         /// <summary>
-        ///     Thunderstorm With Moon
+        /// Thunderstorm With Moon
         /// </summary>
         /// <remarks>
-        ///     thunderstorm-moon - Available in Solid, Regular, Light, Duotone
+        /// thunderstorm-moon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "thunderstorm-moon")]
         ThunderstormMoon,
 
         /// <summary>
-        ///     Thunderstorm With Sun
+        /// Thunderstorm With Sun
         /// </summary>
         /// <remarks>
-        ///     thunderstorm-sun - Available in Solid, Regular, Light, Duotone
+        /// thunderstorm-sun - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "thunderstorm-sun")]
         ThunderstormSun,
 
         /// <summary>
-        ///     Ticket
+        /// Ticket
         /// </summary>
         /// <remarks>
-        ///     ticket - Available in Solid, Regular, Light, Duotone
+        /// ticket - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ticket")]
         Ticket,
 
         /// <summary>
-        ///     Alternate Ticket
+        /// Alternate Ticket
         /// </summary>
         /// <remarks>
-        ///     ticket-alt - Available in Solid, Regular, Light, Duotone
+        /// ticket-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ticket-alt")]
         TicketAlt,
 
         /// <summary>
-        ///     Tilde
+        /// Tilde
         /// </summary>
         /// <remarks>
-        ///     tilde - Available in Solid, Regular, Light, Duotone
+        /// tilde - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tilde")]
         Tilde,
 
         /// <summary>
-        ///     Times
+        /// Times
         /// </summary>
         /// <remarks>
-        ///     times - Available in Solid, Regular, Light, Duotone
+        /// times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "times")]
         Times,
 
         /// <summary>
-        ///     Times Circle
+        /// Times Circle
         /// </summary>
         /// <remarks>
-        ///     times-circle - Available in Solid, Regular, Light, Duotone
+        /// times-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "times-circle")]
         TimesCircle,
 
         /// <summary>
-        ///     Times Hexagon
+        /// Times Hexagon
         /// </summary>
         /// <remarks>
-        ///     times-hexagon - Available in Solid, Regular, Light, Duotone
+        /// times-hexagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "times-hexagon")]
         TimesHexagon,
 
         /// <summary>
-        ///     Times Octagon
+        /// Times Octagon
         /// </summary>
         /// <remarks>
-        ///     times-octagon - Available in Solid, Regular, Light, Duotone
+        /// times-octagon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "times-octagon")]
         TimesOctagon,
 
         /// <summary>
-        ///     Times Square
+        /// Times Square
         /// </summary>
         /// <remarks>
-        ///     times-square - Available in Solid, Regular, Light, Duotone
+        /// times-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "times-square")]
         TimesSquare,
 
         /// <summary>
-        ///     Tint
+        /// Tint
         /// </summary>
         /// <remarks>
-        ///     tint - Available in Solid, Regular, Light, Duotone
+        /// tint - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "tint")] Tint,
+        [FontAwesome(IconStyle.Light, "tint")]
+        Tint,
 
         /// <summary>
-        ///     Tint Slash
+        /// Tint Slash
         /// </summary>
         /// <remarks>
-        ///     tint-slash - Available in Solid, Regular, Light, Duotone
+        /// tint-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tint-slash")]
         TintSlash,
 
         /// <summary>
-        ///     Tire
+        /// Tire
         /// </summary>
         /// <remarks>
-        ///     tire - Available in Solid, Regular, Light, Duotone
+        /// tire - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "tire")] Tire,
+        [FontAwesome(IconStyle.Light, "tire")]
+        Tire,
 
         /// <summary>
-        ///     Tire Flat
+        /// Tire Flat
         /// </summary>
         /// <remarks>
-        ///     tire-flat - Available in Solid, Regular, Light, Duotone
+        /// tire-flat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tire-flat")]
         TireFlat,
 
         /// <summary>
-        ///     Tire Pressure Warning
+        /// Tire Pressure Warning
         /// </summary>
         /// <remarks>
-        ///     tire-pressure-warning - Available in Solid, Regular, Light, Duotone
+        /// tire-pressure-warning - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tire-pressure-warning")]
         TirePressureWarning,
 
         /// <summary>
-        ///     Tire Rugged
+        /// Tire Rugged
         /// </summary>
         /// <remarks>
-        ///     tire-rugged - Available in Solid, Regular, Light, Duotone
+        /// tire-rugged - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tire-rugged")]
         TireRugged,
 
         /// <summary>
-        ///     Tired Face
+        /// Tired Face
         /// </summary>
         /// <remarks>
-        ///     tired - Available in Solid, Regular, Light, Duotone
+        /// tired - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tired")]
         Tired,
 
         /// <summary>
-        ///     Toggle off
+        /// Toggle off
         /// </summary>
         /// <remarks>
-        ///     toggle-off - Available in Solid, Regular, Light, Duotone
+        /// toggle-off - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "toggle-off")]
         ToggleOff,
 
         /// <summary>
-        ///     Toggle on
+        /// Toggle on
         /// </summary>
         /// <remarks>
-        ///     toggle-on - Available in Solid, Regular, Light, Duotone
+        /// toggle-on - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "toggle-on")]
         ToggleOn,
 
         /// <summary>
-        ///     Toilet
+        /// Toilet
         /// </summary>
         /// <remarks>
-        ///     toilet - Available in Solid, Regular, Light, Duotone
+        /// toilet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "toilet")]
         Toilet,
 
         /// <summary>
-        ///     Toilet Paper
+        /// Toilet Paper
         /// </summary>
         /// <remarks>
-        ///     toilet-paper - Available in Solid, Regular, Light, Duotone
+        /// toilet-paper - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "toilet-paper")]
         ToiletPaper,
 
         /// <summary>
-        ///     Alternate Toilet Paper
+        /// Alternate Toilet Paper
         /// </summary>
         /// <remarks>
-        ///     toilet-paper-alt - Available in Solid, Regular, Light, Duotone
+        /// toilet-paper-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "toilet-paper-alt")]
         ToiletPaperAlt,
 
         /// <summary>
-        ///     Toilet Paper Slash
+        /// Toilet Paper Slash
         /// </summary>
         /// <remarks>
-        ///     toilet-paper-slash - Available in Light, Regular, Solid, Duotone
+        /// toilet-paper-slash - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "toilet-paper-slash")]
         ToiletPaperSlash,
 
         /// <summary>
-        ///     Tombstone
+        /// Tombstone
         /// </summary>
         /// <remarks>
-        ///     tombstone - Available in Solid, Regular, Light, Duotone
+        /// tombstone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tombstone")]
         Tombstone,
 
         /// <summary>
-        ///     Alternate Tombstone
+        /// Alternate Tombstone
         /// </summary>
         /// <remarks>
-        ///     tombstone-alt - Available in Solid, Regular, Light, Duotone
+        /// tombstone-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tombstone-alt")]
         TombstoneAlt,
 
         /// <summary>
-        ///     Toolbox
+        /// Toolbox
         /// </summary>
         /// <remarks>
-        ///     toolbox - Available in Solid, Regular, Light, Duotone
+        /// toolbox - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "toolbox")]
         Toolbox,
 
         /// <summary>
-        ///     Tools
+        /// Tools
         /// </summary>
         /// <remarks>
-        ///     tools - Available in Solid, Regular, Light, Duotone
+        /// tools - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tools")]
         Tools,
 
         /// <summary>
-        ///     Tooth
+        /// Tooth
         /// </summary>
         /// <remarks>
-        ///     tooth - Available in Solid, Regular, Light, Duotone
+        /// tooth - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tooth")]
         Tooth,
 
         /// <summary>
-        ///     Toothbrush
+        /// Toothbrush
         /// </summary>
         /// <remarks>
-        ///     toothbrush - Available in Solid, Regular, Light, Duotone
+        /// toothbrush - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "toothbrush")]
         Toothbrush,
 
         /// <summary>
-        ///     Torah
+        /// Torah
         /// </summary>
         /// <remarks>
-        ///     torah - Available in Solid, Regular, Light, Duotone
+        /// torah - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "torah")]
         Torah,
 
         /// <summary>
-        ///     Torii Gate
+        /// Torii Gate
         /// </summary>
         /// <remarks>
-        ///     torii-gate - Available in Solid, Regular, Light, Duotone
+        /// torii-gate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "torii-gate")]
         ToriiGate,
 
         /// <summary>
-        ///     Tornado
+        /// Tornado
         /// </summary>
         /// <remarks>
-        ///     tornado - Available in Solid, Regular, Light, Duotone
+        /// tornado - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tornado")]
         Tornado,
 
         /// <summary>
-        ///     Tractor
+        /// Tractor
         /// </summary>
         /// <remarks>
-        ///     tractor - Available in Solid, Regular, Light, Duotone
+        /// tractor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tractor")]
         Tractor,
 
         /// <summary>
-        ///     Trademark
+        /// Trademark
         /// </summary>
         /// <remarks>
-        ///     trademark - Available in Solid, Regular, Light, Duotone
+        /// trademark - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "trademark")]
         Trademark,
 
         /// <summary>
-        ///     Traffic Cone
+        /// Traffic Cone
         /// </summary>
         /// <remarks>
-        ///     traffic-cone - Available in Solid, Regular, Light, Duotone
+        /// traffic-cone - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "traffic-cone")]
         TrafficCone,
 
         /// <summary>
-        ///     Traffic Light
+        /// Traffic Light
         /// </summary>
         /// <remarks>
-        ///     traffic-light - Available in Solid, Regular, Light, Duotone
+        /// traffic-light - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "traffic-light")]
         TrafficLight,
 
         /// <summary>
-        ///     Traffic Light Go
+        /// Traffic Light Go
         /// </summary>
         /// <remarks>
-        ///     traffic-light-go - Available in Solid, Regular, Light, Duotone
+        /// traffic-light-go - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "traffic-light-go")]
         TrafficLightGo,
 
         /// <summary>
-        ///     Traffic Light Slow
+        /// Traffic Light Slow
         /// </summary>
         /// <remarks>
-        ///     traffic-light-slow - Available in Solid, Regular, Light, Duotone
+        /// traffic-light-slow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "traffic-light-slow")]
         TrafficLightSlow,
 
         /// <summary>
-        ///     Traffic Light Stop
+        /// Traffic Light Stop
         /// </summary>
         /// <remarks>
-        ///     traffic-light-stop - Available in Solid, Regular, Light, Duotone
+        /// traffic-light-stop - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "traffic-light-stop")]
         TrafficLightStop,
 
         /// <summary>
-        ///     Trailer
+        /// Trailer
         /// </summary>
         /// <remarks>
-        ///     trailer - Available in Solid, Regular, Light, Duotone
+        /// trailer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "trailer")]
         Trailer,
 
         /// <summary>
-        ///     Train
+        /// Train
         /// </summary>
         /// <remarks>
-        ///     train - Available in Solid, Regular, Light, Duotone
+        /// train - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "train")]
         Train,
 
         /// <summary>
-        ///     Tram
+        /// Tram
         /// </summary>
         /// <remarks>
-        ///     tram - Available in Solid, Regular, Light, Duotone
+        /// tram - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "tram")] Tram,
+        [FontAwesome(IconStyle.Light, "tram")]
+        Tram,
 
         /// <summary>
-        ///     Transgender
+        /// Transgender
         /// </summary>
         /// <remarks>
-        ///     transgender - Available in Solid, Regular, Light, Duotone
+        /// transgender - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "transgender")]
         Transgender,
 
         /// <summary>
-        ///     Alternate Transgender
+        /// Alternate Transgender
         /// </summary>
         /// <remarks>
-        ///     transgender-alt - Available in Solid, Regular, Light, Duotone
+        /// transgender-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "transgender-alt")]
         TransgenderAlt,
 
         /// <summary>
-        ///     Transporter
+        /// Transporter
         /// </summary>
         /// <remarks>
-        ///     transporter - Available in Solid, Regular, Light, Duotone
+        /// transporter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "transporter")]
         Transporter,
 
         /// <summary>
-        ///     Transporter 1
+        /// Transporter 1
         /// </summary>
         /// <remarks>
-        ///     transporter-1 - Available in Solid, Regular, Light, Duotone
+        /// transporter-1 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "transporter-1")]
         Transporter1,
 
         /// <summary>
-        ///     Transporter 2
+        /// Transporter 2
         /// </summary>
         /// <remarks>
-        ///     transporter-2 - Available in Solid, Regular, Light, Duotone
+        /// transporter-2 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "transporter-2")]
         Transporter2,
 
         /// <summary>
-        ///     Transporter 3
+        /// Transporter 3
         /// </summary>
         /// <remarks>
-        ///     transporter-3 - Available in Solid, Regular, Light, Duotone
+        /// transporter-3 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "transporter-3")]
         Transporter3,
 
         /// <summary>
-        ///     Transporter Empty
+        /// Transporter Empty
         /// </summary>
         /// <remarks>
-        ///     transporter-empty - Available in Solid, Regular, Light, Duotone
+        /// transporter-empty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "transporter-empty")]
         TransporterEmpty,
 
         /// <summary>
-        ///     Trash
+        /// Trash
         /// </summary>
         /// <remarks>
-        ///     trash - Available in Solid, Regular, Light, Duotone
+        /// trash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "trash")]
         Trash,
 
         /// <summary>
-        ///     Alternate Trash
+        /// Alternate Trash
         /// </summary>
         /// <remarks>
-        ///     trash-alt - Available in Solid, Regular, Light, Duotone
+        /// trash-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "trash-alt")]
         TrashAlt,
 
         /// <summary>
-        ///     Trash Restore
+        /// Trash Restore
         /// </summary>
         /// <remarks>
-        ///     trash-restore - Available in Solid, Regular, Light, Duotone
+        /// trash-restore - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "trash-restore")]
         TrashRestore,
 
         /// <summary>
-        ///     Alternative Trash Restore
+        /// Alternative Trash Restore
         /// </summary>
         /// <remarks>
-        ///     trash-restore-alt - Available in Solid, Regular, Light, Duotone
+        /// trash-restore-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "trash-restore-alt")]
         TrashRestoreAlt,
 
         /// <summary>
-        ///     Trash Undo
+        /// Trash Undo
         /// </summary>
         /// <remarks>
-        ///     trash-undo - Available in Solid, Regular, Light, Duotone
+        /// trash-undo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "trash-undo")]
         TrashUndo,
 
         /// <summary>
-        ///     Alternate Trash Undo
+        /// Alternate Trash Undo
         /// </summary>
         /// <remarks>
-        ///     trash-undo-alt - Available in Solid, Regular, Light, Duotone
+        /// trash-undo-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "trash-undo-alt")]
         TrashUndoAlt,
 
         /// <summary>
-        ///     Treasure Chest
+        /// Treasure Chest
         /// </summary>
         /// <remarks>
-        ///     treasure-chest - Available in Solid, Regular, Light, Duotone
+        /// treasure-chest - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "treasure-chest")]
         TreasureChest,
 
         /// <summary>
-        ///     Tree
+        /// Tree
         /// </summary>
         /// <remarks>
-        ///     tree - Available in Solid, Regular, Light, Duotone
+        /// tree - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "tree")] Tree,
+        [FontAwesome(IconStyle.Light, "tree")]
+        Tree,
 
         /// <summary>
-        ///     Alternate Tree
+        /// Alternate Tree
         /// </summary>
         /// <remarks>
-        ///     tree-alt - Available in Solid, Regular, Light, Duotone
+        /// tree-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tree-alt")]
         TreeAlt,
 
         /// <summary>
-        ///     Christmas Tree
+        /// Christmas Tree
         /// </summary>
         /// <remarks>
-        ///     tree-christmas - Available in Solid, Regular, Light, Duotone
+        /// tree-christmas - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tree-christmas")]
         TreeChristmas,
 
         /// <summary>
-        ///     Tree Decorated
+        /// Tree Decorated
         /// </summary>
         /// <remarks>
-        ///     tree-decorated - Available in Solid, Regular, Light, Duotone
+        /// tree-decorated - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tree-decorated")]
         TreeDecorated,
 
         /// <summary>
-        ///     Tree Large
+        /// Tree Large
         /// </summary>
         /// <remarks>
-        ///     tree-large - Available in Solid, Regular, Light, Duotone
+        /// tree-large - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tree-large")]
         TreeLarge,
 
         /// <summary>
-        ///     Palm Tree
+        /// Palm Tree
         /// </summary>
         /// <remarks>
-        ///     tree-palm - Available in Solid, Regular, Light, Duotone
+        /// tree-palm - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tree-palm")]
         TreePalm,
 
         /// <summary>
-        ///     Trees
+        /// Trees
         /// </summary>
         /// <remarks>
-        ///     trees - Available in Solid, Regular, Light, Duotone
+        /// trees - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "trees")]
         Trees,
 
         /// <summary>
-        ///     Triangle
+        /// Triangle
         /// </summary>
         /// <remarks>
-        ///     triangle - Available in Solid, Regular, Light, Duotone
+        /// triangle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "triangle")]
         Triangle,
 
         /// <summary>
-        ///     Musical Triangle
+        /// Musical Triangle
         /// </summary>
         /// <remarks>
-        ///     triangle-music - Available in Solid, Regular, Light, Duotone
+        /// triangle-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "triangle-music")]
         TriangleMusic,
 
         /// <summary>
-        ///     Trophy
+        /// Trophy
         /// </summary>
         /// <remarks>
-        ///     trophy - Available in Solid, Regular, Light, Duotone
+        /// trophy - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "trophy")]
         Trophy,
 
         /// <summary>
-        ///     Alternate Trophy
+        /// Alternate Trophy
         /// </summary>
         /// <remarks>
-        ///     trophy-alt - Available in Solid, Regular, Light, Duotone
+        /// trophy-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "trophy-alt")]
         TrophyAlt,
 
         /// <summary>
-        ///     Truck
+        /// Truck
         /// </summary>
         /// <remarks>
-        ///     truck - Available in Solid, Regular, Light, Duotone
+        /// truck - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "truck")]
         Truck,
 
         /// <summary>
-        ///     Truck Container
+        /// Truck Container
         /// </summary>
         /// <remarks>
-        ///     truck-container - Available in Solid, Regular, Light, Duotone
+        /// truck-container - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "truck-container")]
         TruckContainer,
 
         /// <summary>
-        ///     Truck Couch
+        /// Truck Couch
         /// </summary>
         /// <remarks>
-        ///     truck-couch - Available in Solid, Regular, Light, Duotone
+        /// truck-couch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "truck-couch")]
         TruckCouch,
 
         /// <summary>
-        ///     Truck Loading
+        /// Truck Loading
         /// </summary>
         /// <remarks>
-        ///     truck-loading - Available in Solid, Regular, Light, Duotone
+        /// truck-loading - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "truck-loading")]
         TruckLoading,
 
         /// <summary>
-        ///     Truck Monster
+        /// Truck Monster
         /// </summary>
         /// <remarks>
-        ///     truck-monster - Available in Solid, Regular, Light, Duotone
+        /// truck-monster - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "truck-monster")]
         TruckMonster,
 
         /// <summary>
-        ///     Truck Moving
+        /// Truck Moving
         /// </summary>
         /// <remarks>
-        ///     truck-moving - Available in Solid, Regular, Light, Duotone
+        /// truck-moving - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "truck-moving")]
         TruckMoving,
 
         /// <summary>
-        ///     Truck Side
+        /// Truck Side
         /// </summary>
         /// <remarks>
-        ///     truck-pickup - Available in Solid, Regular, Light, Duotone
+        /// truck-pickup - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "truck-pickup")]
         TruckPickup,
 
         /// <summary>
-        ///     Truck Plow
+        /// Truck Plow
         /// </summary>
         /// <remarks>
-        ///     truck-plow - Available in Solid, Regular, Light, Duotone
+        /// truck-plow - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "truck-plow")]
         TruckPlow,
 
         /// <summary>
-        ///     Truck Ramp
+        /// Truck Ramp
         /// </summary>
         /// <remarks>
-        ///     truck-ramp - Available in Solid, Regular, Light, Duotone
+        /// truck-ramp - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "truck-ramp")]
         TruckRamp,
 
         /// <summary>
-        ///     Trumpet
+        /// Trumpet
         /// </summary>
         /// <remarks>
-        ///     trumpet - Available in Solid, Regular, Light, Duotone
+        /// trumpet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "trumpet")]
         Trumpet,
 
         /// <summary>
-        ///     T Shirt
+        /// T Shirt
         /// </summary>
         /// <remarks>
-        ///     tshirt - Available in Solid, Regular, Light, Duotone
+        /// tshirt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tshirt")]
         Tshirt,
 
         /// <summary>
-        ///     TTY
+        /// TTY
         /// </summary>
         /// <remarks>
-        ///     tty - Available in Solid, Regular, Light, Duotone
+        /// tty - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "tty")] Tty,
+        [FontAwesome(IconStyle.Light, "tty")]
+        Tty,
 
         /// <summary>
-        ///     Turkey
+        /// Turkey
         /// </summary>
         /// <remarks>
-        ///     turkey - Available in Solid, Regular, Light, Duotone
+        /// turkey - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "turkey")]
         Turkey,
 
         /// <summary>
-        ///     Turntable
+        /// Turntable
         /// </summary>
         /// <remarks>
-        ///     turntable - Available in Solid, Regular, Light, Duotone
+        /// turntable - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "turntable")]
         Turntable,
 
         /// <summary>
-        ///     Turtle
+        /// Turtle
         /// </summary>
         /// <remarks>
-        ///     turtle - Available in Solid, Regular, Light, Duotone
+        /// turtle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "turtle")]
         Turtle,
 
         /// <summary>
-        ///     Television
+        /// Television
         /// </summary>
         /// <remarks>
-        ///     tv - Available in Solid, Regular, Light, Duotone
+        /// tv - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "tv")] Tv,
+        [FontAwesome(IconStyle.Light, "tv")]
+        Tv,
 
         /// <summary>
-        ///     Alternate Television
+        /// Alternate Television
         /// </summary>
         /// <remarks>
-        ///     tv-alt - Available in Solid, Regular, Light, Duotone
+        /// tv-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tv-alt")]
         TvAlt,
 
         /// <summary>
-        ///     TV Music
+        /// TV Music
         /// </summary>
         /// <remarks>
-        ///     tv-music - Available in Solid, Regular, Light, Duotone
+        /// tv-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tv-music")]
         TvMusic,
 
         /// <summary>
-        ///     Retro Televison
+        /// Retro Televison
         /// </summary>
         /// <remarks>
-        ///     tv-retro - Available in Solid, Regular, Light, Duotone
+        /// tv-retro - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "tv-retro")]
         TvRetro,
 
         /// <summary>
-        ///     Typewriter
+        /// Typewriter
         /// </summary>
         /// <remarks>
-        ///     typewriter - Available in Solid, Regular, Light, Duotone
+        /// typewriter - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "typewriter")]
         Typewriter,
 
         /// <summary>
-        ///     U F O
+        /// U F O
         /// </summary>
         /// <remarks>
-        ///     ufo - Available in Solid, Regular, Light, Duotone
+        /// ufo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "ufo")] Ufo,
+        [FontAwesome(IconStyle.Light, "ufo")]
+        Ufo,
 
         /// <summary>
-        ///     U F O With Beam
+        /// U F O With Beam
         /// </summary>
         /// <remarks>
-        ///     ufo-beam - Available in Solid, Regular, Light, Duotone
+        /// ufo-beam - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "ufo-beam")]
         UfoBeam,
 
         /// <summary>
-        ///     Umbrella
+        /// Umbrella
         /// </summary>
         /// <remarks>
-        ///     umbrella - Available in Solid, Regular, Light, Duotone
+        /// umbrella - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "umbrella")]
         Umbrella,
 
         /// <summary>
-        ///     Umbrella Beach
+        /// Umbrella Beach
         /// </summary>
         /// <remarks>
-        ///     umbrella-beach - Available in Solid, Regular, Light, Duotone
+        /// umbrella-beach - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "umbrella-beach")]
         UmbrellaBeach,
 
         /// <summary>
-        ///     Underline
+        /// Underline
         /// </summary>
         /// <remarks>
-        ///     underline - Available in Solid, Regular, Light, Duotone
+        /// underline - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "underline")]
         Underline,
 
         /// <summary>
-        ///     Undo
+        /// Undo
         /// </summary>
         /// <remarks>
-        ///     undo - Available in Solid, Regular, Light, Duotone
+        /// undo - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "undo")] Undo,
+        [FontAwesome(IconStyle.Light, "undo")]
+        Undo,
 
         /// <summary>
-        ///     Alternate Undo
+        /// Alternate Undo
         /// </summary>
         /// <remarks>
-        ///     undo-alt - Available in Solid, Regular, Light, Duotone
+        /// undo-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "undo-alt")]
         UndoAlt,
 
         /// <summary>
-        ///     Unicorn
+        /// Unicorn
         /// </summary>
         /// <remarks>
-        ///     unicorn - Available in Solid, Regular, Light, Duotone
+        /// unicorn - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "unicorn")]
         Unicorn,
 
         /// <summary>
-        ///     Union
+        /// Union
         /// </summary>
         /// <remarks>
-        ///     union - Available in Solid, Regular, Light, Duotone
+        /// union - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "union")]
         Union,
 
         /// <summary>
-        ///     Universal Access
+        /// Universal Access
         /// </summary>
         /// <remarks>
-        ///     universal-access - Available in Solid, Regular, Light, Duotone
+        /// universal-access - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "universal-access")]
         UniversalAccess,
 
         /// <summary>
-        ///     University
+        /// University
         /// </summary>
         /// <remarks>
-        ///     university - Available in Solid, Regular, Light, Duotone
+        /// university - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "university")]
         University,
 
         /// <summary>
-        ///     Unlink
+        /// Unlink
         /// </summary>
         /// <remarks>
-        ///     unlink - Available in Solid, Regular, Light, Duotone
+        /// unlink - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "unlink")]
         Unlink,
 
         /// <summary>
-        ///     Unlock
+        /// Unlock
         /// </summary>
         /// <remarks>
-        ///     unlock - Available in Solid, Regular, Light, Duotone
+        /// unlock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "unlock")]
         Unlock,
 
         /// <summary>
-        ///     Alternate Unlock
+        /// Alternate Unlock
         /// </summary>
         /// <remarks>
-        ///     unlock-alt - Available in Solid, Regular, Light, Duotone
+        /// unlock-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "unlock-alt")]
         UnlockAlt,
 
         /// <summary>
-        ///     Upload
+        /// Upload
         /// </summary>
         /// <remarks>
-        ///     upload - Available in Solid, Regular, Light, Duotone
+        /// upload - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "upload")]
         Upload,
 
         /// <summary>
-        ///     USB Drive
+        /// USB Drive
         /// </summary>
         /// <remarks>
-        ///     usb-drive - Available in Solid, Regular, Light, Duotone
+        /// usb-drive - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "usb-drive")]
         UsbDrive,
 
         /// <summary>
-        ///     US Dollar Circle
+        /// US Dollar Circle
         /// </summary>
         /// <remarks>
-        ///     usd-circle - Available in Solid, Regular, Light, Duotone
+        /// usd-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "usd-circle")]
         UsdCircle,
 
         /// <summary>
-        ///     US Dollar Square
+        /// US Dollar Square
         /// </summary>
         /// <remarks>
-        ///     usd-square - Available in Solid, Regular, Light, Duotone
+        /// usd-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "usd-square")]
         UsdSquare,
 
         /// <summary>
-        ///     User
+        /// User
         /// </summary>
         /// <remarks>
-        ///     user - Available in Solid, Regular, Light, Duotone
+        /// user - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "user")] User,
+        [FontAwesome(IconStyle.Light, "user")]
+        User,
 
         /// <summary>
-        ///     User Alien
+        /// User Alien
         /// </summary>
         /// <remarks>
-        ///     user-alien - Available in Solid, Regular, Light, Duotone
+        /// user-alien - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-alien")]
         UserAlien,
 
         /// <summary>
-        ///     Alternate User
+        /// Alternate User
         /// </summary>
         /// <remarks>
-        ///     user-alt - Available in Solid, Regular, Light, Duotone
+        /// user-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-alt")]
         UserAlt,
 
         /// <summary>
-        ///     Alternate User Slash
+        /// Alternate User Slash
         /// </summary>
         /// <remarks>
-        ///     user-alt-slash - Available in Solid, Regular, Light, Duotone
+        /// user-alt-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-alt-slash")]
         UserAltSlash,
 
         /// <summary>
-        ///     User Astronaut
+        /// User Astronaut
         /// </summary>
         /// <remarks>
-        ///     user-astronaut - Available in Solid, Regular, Light, Duotone
+        /// user-astronaut - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-astronaut")]
         UserAstronaut,
 
         /// <summary>
-        ///     User Chart
+        /// User Chart
         /// </summary>
         /// <remarks>
-        ///     user-chart - Available in Solid, Regular, Light, Duotone
+        /// user-chart - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-chart")]
         UserChart,
 
         /// <summary>
-        ///     User Check
+        /// User Check
         /// </summary>
         /// <remarks>
-        ///     user-check - Available in Solid, Regular, Light, Duotone
+        /// user-check - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-check")]
         UserCheck,
 
         /// <summary>
-        ///     User Circle
+        /// User Circle
         /// </summary>
         /// <remarks>
-        ///     user-circle - Available in Solid, Regular, Light, Duotone
+        /// user-circle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-circle")]
         UserCircle,
 
         /// <summary>
-        ///     User Clock
+        /// User Clock
         /// </summary>
         /// <remarks>
-        ///     user-clock - Available in Solid, Regular, Light, Duotone
+        /// user-clock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-clock")]
         UserClock,
 
         /// <summary>
-        ///     User Cog
+        /// User Cog
         /// </summary>
         /// <remarks>
-        ///     user-cog - Available in Solid, Regular, Light, Duotone
+        /// user-cog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-cog")]
         UserCog,
 
         /// <summary>
-        ///     User Cowboy
+        /// User Cowboy
         /// </summary>
         /// <remarks>
-        ///     user-cowboy - Available in Light, Regular, Solid, Duotone
+        /// user-cowboy - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-cowboy")]
         UserCowboy,
 
         /// <summary>
-        ///     User Crown
+        /// User Crown
         /// </summary>
         /// <remarks>
-        ///     user-crown - Available in Solid, Regular, Light, Duotone
+        /// user-crown - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-crown")]
         UserCrown,
 
         /// <summary>
-        ///     User Edit
+        /// User Edit
         /// </summary>
         /// <remarks>
-        ///     user-edit - Available in Solid, Regular, Light, Duotone
+        /// user-edit - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-edit")]
         UserEdit,
 
         /// <summary>
-        ///     User Friends
+        /// User Friends
         /// </summary>
         /// <remarks>
-        ///     user-friends - Available in Solid, Regular, Light, Duotone
+        /// user-friends - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-friends")]
         UserFriends,
 
         /// <summary>
-        ///     User Graduate
+        /// User Graduate
         /// </summary>
         /// <remarks>
-        ///     user-graduate - Available in Solid, Regular, Light, Duotone
+        /// user-graduate - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-graduate")]
         UserGraduate,
 
         /// <summary>
-        ///     Construction Worker
+        /// Construction Worker
         /// </summary>
         /// <remarks>
-        ///     user-hard-hat - Available in Solid, Regular, Light, Duotone
+        /// user-hard-hat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-hard-hat")]
         UserHardHat,
 
         /// <summary>
-        ///     User Headset
+        /// User Headset
         /// </summary>
         /// <remarks>
-        ///     user-headset - Available in Solid, Regular, Light, Duotone
+        /// user-headset - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-headset")]
         UserHeadset,
 
         /// <summary>
-        ///     User Injured
+        /// User Injured
         /// </summary>
         /// <remarks>
-        ///     user-injured - Available in Solid, Regular, Light, Duotone
+        /// user-injured - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-injured")]
         UserInjured,
 
         /// <summary>
-        ///     User Lock
+        /// User Lock
         /// </summary>
         /// <remarks>
-        ///     user-lock - Available in Solid, Regular, Light, Duotone
+        /// user-lock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-lock")]
         UserLock,
 
         /// <summary>
-        ///     Doctor
+        /// Doctor
         /// </summary>
         /// <remarks>
-        ///     user-md - Available in Solid, Regular, Light, Duotone
+        /// user-md - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-md")]
         UserMd,
 
         /// <summary>
-        ///     Chat With Doctor
+        /// Chat With Doctor
         /// </summary>
         /// <remarks>
-        ///     user-md-chat - Available in Solid, Regular, Light, Duotone
+        /// user-md-chat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-md-chat")]
         UserMdChat,
 
         /// <summary>
-        ///     User Minus
+        /// User Minus
         /// </summary>
         /// <remarks>
-        ///     user-minus - Available in Solid, Regular, Light, Duotone
+        /// user-minus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-minus")]
         UserMinus,
 
         /// <summary>
-        ///     User Music
+        /// User Music
         /// </summary>
         /// <remarks>
-        ///     user-music - Available in Solid, Regular, Light, Duotone
+        /// user-music - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-music")]
         UserMusic,
 
         /// <summary>
-        ///     User Ninja
+        /// User Ninja
         /// </summary>
         /// <remarks>
-        ///     user-ninja - Available in Solid, Regular, Light, Duotone
+        /// user-ninja - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-ninja")]
         UserNinja,
 
         /// <summary>
-        ///     Nurse
+        /// Nurse
         /// </summary>
         /// <remarks>
-        ///     user-nurse - Available in Solid, Regular, Light, Duotone
+        /// user-nurse - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-nurse")]
         UserNurse,
 
         /// <summary>
-        ///     User Plus
+        /// User Plus
         /// </summary>
         /// <remarks>
-        ///     user-plus - Available in Solid, Regular, Light, Duotone
+        /// user-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-plus")]
         UserPlus,
 
         /// <summary>
-        ///     User Robot
+        /// User Robot
         /// </summary>
         /// <remarks>
-        ///     user-robot - Available in Solid, Regular, Light, Duotone
+        /// user-robot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-robot")]
         UserRobot,
 
         /// <summary>
-        ///     User Secret
+        /// User Secret
         /// </summary>
         /// <remarks>
-        ///     user-secret - Available in Solid, Regular, Light, Duotone
+        /// user-secret - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-secret")]
         UserSecret,
 
         /// <summary>
-        ///     User Shield
+        /// User Shield
         /// </summary>
         /// <remarks>
-        ///     user-shield - Available in Solid, Regular, Light, Duotone
+        /// user-shield - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-shield")]
         UserShield,
 
         /// <summary>
-        ///     User Slash
+        /// User Slash
         /// </summary>
         /// <remarks>
-        ///     user-slash - Available in Solid, Regular, Light, Duotone
+        /// user-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-slash")]
         UserSlash,
 
         /// <summary>
-        ///     User Tag
+        /// User Tag
         /// </summary>
         /// <remarks>
-        ///     user-tag - Available in Solid, Regular, Light, Duotone
+        /// user-tag - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-tag")]
         UserTag,
 
         /// <summary>
-        ///     User Tie
+        /// User Tie
         /// </summary>
         /// <remarks>
-        ///     user-tie - Available in Solid, Regular, Light, Duotone
+        /// user-tie - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-tie")]
         UserTie,
 
         /// <summary>
-        ///     Remove User
+        /// Remove User
         /// </summary>
         /// <remarks>
-        ///     user-times - Available in Solid, Regular, Light, Duotone
+        /// user-times - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-times")]
         UserTimes,
 
         /// <summary>
-        ///     User Unlock
+        /// User Unlock
         /// </summary>
         /// <remarks>
-        ///     user-unlock - Available in Light, Regular, Solid, Duotone
+        /// user-unlock - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-unlock")]
         UserUnlock,
 
         /// <summary>
-        ///     User Visor
+        /// User Visor
         /// </summary>
         /// <remarks>
-        ///     user-visor - Available in Solid, Regular, Light, Duotone
+        /// user-visor - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "user-visor")]
         UserVisor,
 
         /// <summary>
-        ///     Users
+        /// Users
         /// </summary>
         /// <remarks>
-        ///     users - Available in Solid, Regular, Light, Duotone
+        /// users - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "users")]
         Users,
 
         /// <summary>
-        ///     Users Class
+        /// Users Class
         /// </summary>
         /// <remarks>
-        ///     users-class - Available in Solid, Regular, Light, Duotone
+        /// users-class - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "users-class")]
         UsersClass,
 
         /// <summary>
-        ///     Users Cog
+        /// Users Cog
         /// </summary>
         /// <remarks>
-        ///     users-cog - Available in Solid, Regular, Light, Duotone
+        /// users-cog - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "users-cog")]
         UsersCog,
 
         /// <summary>
-        ///     Users Crown
+        /// Users Crown
         /// </summary>
         /// <remarks>
-        ///     users-crown - Available in Solid, Regular, Light, Duotone
+        /// users-crown - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "users-crown")]
         UsersCrown,
 
         /// <summary>
-        ///     Users With Medical Symbol
+        /// Users With Medical Symbol
         /// </summary>
         /// <remarks>
-        ///     users-medical - Available in Solid, Regular, Light, Duotone
+        /// users-medical - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "users-medical")]
         UsersMedical,
 
         /// <summary>
-        ///     Users Slash
+        /// Users Slash
         /// </summary>
         /// <remarks>
-        ///     users-slash - Available in Light, Regular, Solid, Duotone
+        /// users-slash - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "users-slash")]
         UsersSlash,
 
         /// <summary>
-        ///     Utensil Fork
+        /// Utensil Fork
         /// </summary>
         /// <remarks>
-        ///     utensil-fork - Available in Solid, Regular, Light, Duotone
+        /// utensil-fork - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "utensil-fork")]
         UtensilFork,
 
         /// <summary>
-        ///     Utensil Knife
+        /// Utensil Knife
         /// </summary>
         /// <remarks>
-        ///     utensil-knife - Available in Solid, Regular, Light, Duotone
+        /// utensil-knife - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "utensil-knife")]
         UtensilKnife,
 
         /// <summary>
-        ///     Utensil Spoon
+        /// Utensil Spoon
         /// </summary>
         /// <remarks>
-        ///     utensil-spoon - Available in Solid, Regular, Light, Duotone
+        /// utensil-spoon - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "utensil-spoon")]
         UtensilSpoon,
 
         /// <summary>
-        ///     Utensils
+        /// Utensils
         /// </summary>
         /// <remarks>
-        ///     utensils - Available in Solid, Regular, Light, Duotone
+        /// utensils - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "utensils")]
         Utensils,
 
         /// <summary>
-        ///     Alternate Utensils
+        /// Alternate Utensils
         /// </summary>
         /// <remarks>
-        ///     utensils-alt - Available in Solid, Regular, Light, Duotone
+        /// utensils-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "utensils-alt")]
         UtensilsAlt,
 
         /// <summary>
-        ///     Vacuum
+        /// Vacuum
         /// </summary>
         /// <remarks>
-        ///     vacuum - Available in Solid, Regular, Light, Duotone
+        /// vacuum - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "vacuum")]
         Vacuum,
 
         /// <summary>
-        ///     Robot Vacuum
+        /// Robot Vacuum
         /// </summary>
         /// <remarks>
-        ///     vacuum-robot - Available in Solid, Regular, Light, Duotone
+        /// vacuum-robot - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "vacuum-robot")]
         VacuumRobot,
 
         /// <summary>
-        ///     Value Absolute
+        /// Value Absolute
         /// </summary>
         /// <remarks>
-        ///     value-absolute - Available in Solid, Regular, Light, Duotone
+        /// value-absolute - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "value-absolute")]
         ValueAbsolute,
 
         /// <summary>
-        ///     Vector Square
+        /// Vector Square
         /// </summary>
         /// <remarks>
-        ///     vector-square - Available in Solid, Regular, Light, Duotone
+        /// vector-square - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "vector-square")]
         VectorSquare,
 
         /// <summary>
-        ///     Venus
+        /// Venus
         /// </summary>
         /// <remarks>
-        ///     venus - Available in Solid, Regular, Light, Duotone
+        /// venus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "venus")]
         Venus,
 
         /// <summary>
-        ///     Venus Double
+        /// Venus Double
         /// </summary>
         /// <remarks>
-        ///     venus-double - Available in Solid, Regular, Light, Duotone
+        /// venus-double - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "venus-double")]
         VenusDouble,
 
         /// <summary>
-        ///     Venus Mars
+        /// Venus Mars
         /// </summary>
         /// <remarks>
-        ///     venus-mars - Available in Solid, Regular, Light, Duotone
+        /// venus-mars - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "venus-mars")]
         VenusMars,
 
         /// <summary>
-        ///     Vest
+        /// Vest
         /// </summary>
         /// <remarks>
-        ///     vest - Available in Solid, Light, Regular, Duotone
+        /// vest - Available in Solid, Light, Regular, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "vest")] Vest,
+        [FontAwesome(IconStyle.Light, "vest")]
+        Vest,
 
         /// <summary>
-        ///     Vest Patches
+        /// Vest Patches
         /// </summary>
         /// <remarks>
-        ///     vest-patches - Available in Solid, Light, Regular, Duotone
+        /// vest-patches - Available in Solid, Light, Regular, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "vest-patches")]
         VestPatches,
 
         /// <summary>
-        ///     VHS
+        /// VHS
         /// </summary>
         /// <remarks>
-        ///     vhs - Available in Solid, Regular, Light, Duotone
+        /// vhs - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "vhs")] Vhs,
+        [FontAwesome(IconStyle.Light, "vhs")]
+        Vhs,
 
         /// <summary>
-        ///     Vial
+        /// Vial
         /// </summary>
         /// <remarks>
-        ///     vial - Available in Solid, Regular, Light, Duotone
+        /// vial - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "vial")] Vial,
+        [FontAwesome(IconStyle.Light, "vial")]
+        Vial,
 
         /// <summary>
-        ///     Vials
+        /// Vials
         /// </summary>
         /// <remarks>
-        ///     vials - Available in Solid, Regular, Light, Duotone
+        /// vials - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "vials")]
         Vials,
 
         /// <summary>
-        ///     Video
+        /// Video
         /// </summary>
         /// <remarks>
-        ///     video - Available in Solid, Regular, Light, Duotone
+        /// video - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "video")]
         Video,
 
         /// <summary>
-        ///     Video Plus
+        /// Video Plus
         /// </summary>
         /// <remarks>
-        ///     video-plus - Available in Solid, Regular, Light, Duotone
+        /// video-plus - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "video-plus")]
         VideoPlus,
 
         /// <summary>
-        ///     Video Slash
+        /// Video Slash
         /// </summary>
         /// <remarks>
-        ///     video-slash - Available in Solid, Regular, Light, Duotone
+        /// video-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "video-slash")]
         VideoSlash,
 
         /// <summary>
-        ///     Vihara
+        /// Vihara
         /// </summary>
         /// <remarks>
-        ///     vihara - Available in Solid, Regular, Light, Duotone
+        /// vihara - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "vihara")]
         Vihara,
 
         /// <summary>
-        ///     Violin
+        /// Violin
         /// </summary>
         /// <remarks>
-        ///     violin - Available in Solid, Regular, Light, Duotone
+        /// violin - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "violin")]
         Violin,
 
         /// <summary>
-        ///     Virus
+        /// Virus
         /// </summary>
         /// <remarks>
-        ///     virus - Available in Light, Regular, Solid, Duotone
+        /// virus - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "virus")]
         Virus,
 
         /// <summary>
-        ///     Virus Slash
+        /// Virus Slash
         /// </summary>
         /// <remarks>
-        ///     virus-slash - Available in Light, Regular, Solid, Duotone
+        /// virus-slash - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "virus-slash")]
         VirusSlash,
 
         /// <summary>
-        ///     Viruses
+        /// Viruses
         /// </summary>
         /// <remarks>
-        ///     viruses - Available in Light, Regular, Solid, Duotone
+        /// viruses - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "viruses")]
         Viruses,
 
         /// <summary>
-        ///     Voicemail
+        /// Voicemail
         /// </summary>
         /// <remarks>
-        ///     voicemail - Available in Solid, Regular, Light, Duotone
+        /// voicemail - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "voicemail")]
         Voicemail,
 
         /// <summary>
-        ///     Volcano
+        /// Volcano
         /// </summary>
         /// <remarks>
-        ///     volcano - Available in Solid, Regular, Light, Duotone
+        /// volcano - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "volcano")]
         Volcano,
 
         /// <summary>
-        ///     Volleyball Ball
+        /// Volleyball Ball
         /// </summary>
         /// <remarks>
-        ///     volleyball-ball - Available in Solid, Regular, Light, Duotone
+        /// volleyball-ball - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "volleyball-ball")]
         VolleyballBall,
 
         /// <summary>
-        ///     Volume
+        /// Volume
         /// </summary>
         /// <remarks>
-        ///     volume - Available in Solid, Regular, Light, Duotone
+        /// volume - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "volume")]
         Volume,
 
         /// <summary>
-        ///     Volume Down
+        /// Volume Down
         /// </summary>
         /// <remarks>
-        ///     volume-down - Available in Solid, Regular, Light, Duotone
+        /// volume-down - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "volume-down")]
         VolumeDown,
 
         /// <summary>
-        ///     Volume Mute
+        /// Volume Mute
         /// </summary>
         /// <remarks>
-        ///     volume-mute - Available in Solid, Regular, Light, Duotone
+        /// volume-mute - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "volume-mute")]
         VolumeMute,
 
         /// <summary>
-        ///     Volume off
+        /// Volume off
         /// </summary>
         /// <remarks>
-        ///     volume-off - Available in Solid, Regular, Light, Duotone
+        /// volume-off - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "volume-off")]
         VolumeOff,
 
         /// <summary>
-        ///     Volume Slash
+        /// Volume Slash
         /// </summary>
         /// <remarks>
-        ///     volume-slash - Available in Solid, Regular, Light, Duotone
+        /// volume-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "volume-slash")]
         VolumeSlash,
 
         /// <summary>
-        ///     Volume up
+        /// Volume up
         /// </summary>
         /// <remarks>
-        ///     volume-up - Available in Solid, Regular, Light, Duotone
+        /// volume-up - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "volume-up")]
         VolumeUp,
 
         /// <summary>
-        ///     Vote Nay
+        /// Vote Nay
         /// </summary>
         /// <remarks>
-        ///     vote-nay - Available in Solid, Regular, Light, Duotone
+        /// vote-nay - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "vote-nay")]
         VoteNay,
 
         /// <summary>
-        ///     Vote Yea
+        /// Vote Yea
         /// </summary>
         /// <remarks>
-        ///     vote-yea - Available in Solid, Regular, Light, Duotone
+        /// vote-yea - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "vote-yea")]
         VoteYea,
 
         /// <summary>
-        ///     Cardboard VR
+        /// Cardboard VR
         /// </summary>
         /// <remarks>
-        ///     vr-cardboard - Available in Solid, Regular, Light, Duotone
+        /// vr-cardboard - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "vr-cardboard")]
         VrCardboard,
 
         /// <summary>
-        ///     Covered Wagon
+        /// Covered Wagon
         /// </summary>
         /// <remarks>
-        ///     wagon-covered - Available in Light, Regular, Solid, Duotone
+        /// wagon-covered - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wagon-covered")]
         WagonCovered,
 
         /// <summary>
-        ///     Walker
+        /// Walker
         /// </summary>
         /// <remarks>
-        ///     walker - Available in Solid, Regular, Light, Duotone
+        /// walker - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "walker")]
         Walker,
 
         /// <summary>
-        ///     Walkie Talkie
+        /// Walkie Talkie
         /// </summary>
         /// <remarks>
-        ///     walkie-talkie - Available in Solid, Regular, Light, Duotone
+        /// walkie-talkie - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "walkie-talkie")]
         WalkieTalkie,
 
         /// <summary>
-        ///     Walking
+        /// Walking
         /// </summary>
         /// <remarks>
-        ///     walking - Available in Solid, Regular, Light, Duotone
+        /// walking - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "walking")]
         Walking,
 
         /// <summary>
-        ///     Wallet
+        /// Wallet
         /// </summary>
         /// <remarks>
-        ///     wallet - Available in Solid, Regular, Light, Duotone
+        /// wallet - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wallet")]
         Wallet,
 
         /// <summary>
-        ///     Wand
+        /// Wand
         /// </summary>
         /// <remarks>
-        ///     wand - Available in Solid, Regular, Light, Duotone
+        /// wand - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "wand")] Wand,
+        [FontAwesome(IconStyle.Light, "wand")]
+        Wand,
 
         /// <summary>
-        ///     Wand Magic
+        /// Wand Magic
         /// </summary>
         /// <remarks>
-        ///     wand-magic - Available in Solid, Regular, Light, Duotone
+        /// wand-magic - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wand-magic")]
         WandMagic,
 
         /// <summary>
-        ///     Warehouse
+        /// Warehouse
         /// </summary>
         /// <remarks>
-        ///     warehouse - Available in Solid, Regular, Light, Duotone
+        /// warehouse - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "warehouse")]
         Warehouse,
 
         /// <summary>
-        ///     Alternate Warehouse
+        /// Alternate Warehouse
         /// </summary>
         /// <remarks>
-        ///     warehouse-alt - Available in Solid, Regular, Light, Duotone
+        /// warehouse-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "warehouse-alt")]
         WarehouseAlt,
 
         /// <summary>
-        ///     Washer
+        /// Washer
         /// </summary>
         /// <remarks>
-        ///     washer - Available in Solid, Regular, Light, Duotone
+        /// washer - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "washer")]
         Washer,
 
         /// <summary>
-        ///     Watch
+        /// Watch
         /// </summary>
         /// <remarks>
-        ///     watch - Available in Solid, Regular, Light, Duotone
+        /// watch - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "watch")]
         Watch,
 
         /// <summary>
-        ///     Calculator Watch
+        /// Calculator Watch
         /// </summary>
         /// <remarks>
-        ///     watch-calculator - Available in Solid, Regular, Light, Duotone
+        /// watch-calculator - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "watch-calculator")]
         WatchCalculator,
 
         /// <summary>
-        ///     Watch Fitness
+        /// Watch Fitness
         /// </summary>
         /// <remarks>
-        ///     watch-fitness - Available in Solid, Regular, Light, Duotone
+        /// watch-fitness - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "watch-fitness")]
         WatchFitness,
 
         /// <summary>
-        ///     Water
+        /// Water
         /// </summary>
         /// <remarks>
-        ///     water - Available in Solid, Regular, Light, Duotone
+        /// water - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "water")]
         Water,
 
         /// <summary>
-        ///     Lower Water Level
+        /// Lower Water Level
         /// </summary>
         /// <remarks>
-        ///     water-lower - Available in Solid, Regular, Light, Duotone
+        /// water-lower - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "water-lower")]
         WaterLower,
 
         /// <summary>
-        ///     Rising Water Level
+        /// Rising Water Level
         /// </summary>
         /// <remarks>
-        ///     water-rise - Available in Solid, Regular, Light, Duotone
+        /// water-rise - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "water-rise")]
         WaterRise,
 
         /// <summary>
-        ///     Sine Wave
+        /// Sine Wave
         /// </summary>
         /// <remarks>
-        ///     wave-sine - Available in Solid, Regular, Light, Duotone
+        /// wave-sine - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wave-sine")]
         WaveSine,
 
         /// <summary>
-        ///     Square Wave
+        /// Square Wave
         /// </summary>
         /// <remarks>
-        ///     wave-square - Available in Light, Regular, Solid, Duotone
+        /// wave-square - Available in Light, Regular, Solid, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wave-square")]
         WaveSquare,
 
         /// <summary>
-        ///     Triangle Wave
+        /// Triangle Wave
         /// </summary>
         /// <remarks>
-        ///     wave-triangle - Available in Solid, Regular, Light, Duotone
+        /// wave-triangle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wave-triangle")]
         WaveTriangle,
 
         /// <summary>
-        ///     Waveform
+        /// Waveform
         /// </summary>
         /// <remarks>
-        ///     waveform - Available in Solid, Regular, Light, Duotone
+        /// waveform - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "waveform")]
         Waveform,
 
         /// <summary>
-        ///     Waveform Path
+        /// Waveform Path
         /// </summary>
         /// <remarks>
-        ///     waveform-path - Available in Solid, Regular, Light, Duotone
+        /// waveform-path - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "waveform-path")]
         WaveformPath,
 
         /// <summary>
-        ///     Webcam
+        /// Webcam
         /// </summary>
         /// <remarks>
-        ///     webcam - Available in Solid, Regular, Light, Duotone
+        /// webcam - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "webcam")]
         Webcam,
 
         /// <summary>
-        ///     Webcam Slash
+        /// Webcam Slash
         /// </summary>
         /// <remarks>
-        ///     webcam-slash - Available in Solid, Regular, Light, Duotone
+        /// webcam-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "webcam-slash")]
         WebcamSlash,
 
         /// <summary>
-        ///     Weight
+        /// Weight
         /// </summary>
         /// <remarks>
-        ///     weight - Available in Solid, Regular, Light, Duotone
+        /// weight - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "weight")]
         Weight,
 
         /// <summary>
-        ///     Hanging Weight
+        /// Hanging Weight
         /// </summary>
         /// <remarks>
-        ///     weight-hanging - Available in Solid, Regular, Light, Duotone
+        /// weight-hanging - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "weight-hanging")]
         WeightHanging,
 
         /// <summary>
-        ///     Whale
+        /// Whale
         /// </summary>
         /// <remarks>
-        ///     whale - Available in Solid, Regular, Light, Duotone
+        /// whale - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "whale")]
         Whale,
 
         /// <summary>
-        ///     Wheat
+        /// Wheat
         /// </summary>
         /// <remarks>
-        ///     wheat - Available in Solid, Regular, Light, Duotone
+        /// wheat - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wheat")]
         Wheat,
 
         /// <summary>
-        ///     Wheelchair
+        /// Wheelchair
         /// </summary>
         /// <remarks>
-        ///     wheelchair - Available in Solid, Regular, Light, Duotone
+        /// wheelchair - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wheelchair")]
         Wheelchair,
 
         /// <summary>
-        ///     Whistle
+        /// Whistle
         /// </summary>
         /// <remarks>
-        ///     whistle - Available in Solid, Regular, Light, Duotone
+        /// whistle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "whistle")]
         Whistle,
 
         /// <summary>
-        ///     Wi Fi
+        /// Wi Fi
         /// </summary>
         /// <remarks>
-        ///     wifi - Available in Solid, Regular, Light, Duotone
+        /// wifi - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "wifi")] Wifi,
+        [FontAwesome(IconStyle.Light, "wifi")]
+        Wifi,
 
         /// <summary>
-        ///     Wifi 1
+        /// Wifi 1
         /// </summary>
         /// <remarks>
-        ///     wifi-1 - Available in Solid, Regular, Light, Duotone
+        /// wifi-1 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wifi-1")]
         Wifi1,
 
         /// <summary>
-        ///     Wifi 2
+        /// Wifi 2
         /// </summary>
         /// <remarks>
-        ///     wifi-2 - Available in Solid, Regular, Light, Duotone
+        /// wifi-2 - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wifi-2")]
         Wifi2,
 
         /// <summary>
-        ///     Wifi Slash
+        /// Wifi Slash
         /// </summary>
         /// <remarks>
-        ///     wifi-slash - Available in Solid, Regular, Light, Duotone
+        /// wifi-slash - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wifi-slash")]
         WifiSlash,
 
         /// <summary>
-        ///     Wind
+        /// Wind
         /// </summary>
         /// <remarks>
-        ///     wind - Available in Solid, Regular, Light, Duotone
+        /// wind - Available in Solid, Regular, Light, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Light, "wind")] Wind,
+        [FontAwesome(IconStyle.Light, "wind")]
+        Wind,
 
         /// <summary>
-        ///     Wind Turbine
+        /// Wind Turbine
         /// </summary>
         /// <remarks>
-        ///     wind-turbine - Available in Solid, Regular, Light, Duotone
+        /// wind-turbine - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wind-turbine")]
         WindTurbine,
 
         /// <summary>
-        ///     Wind Warning
+        /// Wind Warning
         /// </summary>
         /// <remarks>
-        ///     wind-warning - Available in Solid, Regular, Light, Duotone
+        /// wind-warning - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wind-warning")]
         WindWarning,
 
         /// <summary>
-        ///     Window
+        /// Window
         /// </summary>
         /// <remarks>
-        ///     window - Available in Solid, Regular, Light, Duotone
+        /// window - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "window")]
         Window,
 
         /// <summary>
-        ///     Alternate Window
+        /// Alternate Window
         /// </summary>
         /// <remarks>
-        ///     window-alt - Available in Solid, Regular, Light, Duotone
+        /// window-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "window-alt")]
         WindowAlt,
 
         /// <summary>
-        ///     Window Close
+        /// Window Close
         /// </summary>
         /// <remarks>
-        ///     window-close - Available in Solid, Regular, Light, Duotone
+        /// window-close - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "window-close")]
         WindowClose,
 
         /// <summary>
-        ///     House Window
+        /// House Window
         /// </summary>
         /// <remarks>
-        ///     window-frame - Available in Solid, Regular, Light, Duotone
+        /// window-frame - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "window-frame")]
         WindowFrame,
 
         /// <summary>
-        ///     House Window Open
+        /// House Window Open
         /// </summary>
         /// <remarks>
-        ///     window-frame-open - Available in Solid, Regular, Light, Duotone
+        /// window-frame-open - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "window-frame-open")]
         WindowFrameOpen,
 
         /// <summary>
-        ///     Window Maximize
+        /// Window Maximize
         /// </summary>
         /// <remarks>
-        ///     window-maximize - Available in Solid, Regular, Light, Duotone
+        /// window-maximize - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "window-maximize")]
         WindowMaximize,
 
         /// <summary>
-        ///     Window Minimize
+        /// Window Minimize
         /// </summary>
         /// <remarks>
-        ///     window-minimize - Available in Solid, Regular, Light, Duotone
+        /// window-minimize - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "window-minimize")]
         WindowMinimize,
 
         /// <summary>
-        ///     Window Restore
+        /// Window Restore
         /// </summary>
         /// <remarks>
-        ///     window-restore - Available in Solid, Regular, Light, Duotone
+        /// window-restore - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "window-restore")]
         WindowRestore,
 
         /// <summary>
-        ///     Windsock
+        /// Windsock
         /// </summary>
         /// <remarks>
-        ///     windsock - Available in Solid, Regular, Light, Duotone
+        /// windsock - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "windsock")]
         Windsock,
 
         /// <summary>
-        ///     Wine Bottle
+        /// Wine Bottle
         /// </summary>
         /// <remarks>
-        ///     wine-bottle - Available in Solid, Regular, Light, Duotone
+        /// wine-bottle - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wine-bottle")]
         WineBottle,
 
         /// <summary>
-        ///     Wine Glass
+        /// Wine Glass
         /// </summary>
         /// <remarks>
-        ///     wine-glass - Available in Solid, Regular, Light, Duotone
+        /// wine-glass - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wine-glass")]
         WineGlass,
 
         /// <summary>
-        ///     Alternate Wine Glas
+        /// Alternate Wine Glas
         /// </summary>
         /// <remarks>
-        ///     wine-glass-alt - Available in Solid, Regular, Light, Duotone
+        /// wine-glass-alt - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wine-glass-alt")]
         WineGlassAlt,
 
         /// <summary>
-        ///     Won Sign
+        /// Won Sign
         /// </summary>
         /// <remarks>
-        ///     won-sign - Available in Solid, Regular, Light, Duotone
+        /// won-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "won-sign")]
         WonSign,
 
         /// <summary>
-        ///     Wreath
+        /// Wreath
         /// </summary>
         /// <remarks>
-        ///     wreath - Available in Solid, Regular, Light, Duotone
+        /// wreath - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wreath")]
         Wreath,
 
         /// <summary>
-        ///     Wrench
+        /// Wrench
         /// </summary>
         /// <remarks>
-        ///     wrench - Available in Solid, Regular, Light, Duotone
+        /// wrench - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "wrench")]
         Wrench,
 
         /// <summary>
-        ///     X Ray
+        /// X Ray
         /// </summary>
         /// <remarks>
-        ///     x-ray - Available in Solid, Regular, Light, Duotone
+        /// x-ray - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "x-ray")]
         XRay,
 
         /// <summary>
-        ///     Yen Sign
+        /// Yen Sign
         /// </summary>
         /// <remarks>
-        ///     yen-sign - Available in Solid, Regular, Light, Duotone
+        /// yen-sign - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "yen-sign")]
         YenSign,
 
         /// <summary>
-        ///     Yin Yang
+        /// Yin Yang
         /// </summary>
         /// <remarks>
-        ///     yin-yang - Available in Solid, Regular, Light, Duotone
+        /// yin-yang - Available in Solid, Regular, Light, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Light, "yin-yang")]
         YinYang,
+
     }
 }

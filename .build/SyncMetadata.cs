@@ -31,7 +31,7 @@ public partial class Solution
 
                 foreach (var (name, module, sourcePath) in metadata)
                 {
-                    Npm($"install {module} --no-package-lock", TemporaryDirectory);
+                    Npm($"install {module}@5 --no-package-lock", TemporaryDirectory);
 
                     var iconsData = TemporaryDirectory / "node_modules" / module / "metadata" / "icons.yml";
                     var categoriesData = TemporaryDirectory / "node_modules" / module / "metadata" / "categories.yml";
@@ -39,6 +39,7 @@ public partial class Solution
 
                     var ds = new DeserializerBuilder()
                             .WithNamingConvention(CamelCaseNamingConvention.Instance)
+                             
                             .Build();
 
                     var icons = ds.Deserialize<IconDictionary>(ReadAllText(iconsData)).ToModels();
@@ -118,8 +119,12 @@ public partial class Solution
 
         return model.Name.Replace('-', ' ');
     }
+    
+    enum FontAwesomeVersion {
+        v5, v6
+    }
 
-    private string ToPrefix(FontAwesomeStyle style)
+    private string ToPrefix(FontAwesomeStyle style/*, FontAwesomeVersion version*/)
     {
         return style switch
         {
@@ -128,6 +133,7 @@ public partial class Solution
             FontAwesomeStyle.Light   => "fal",
             FontAwesomeStyle.Duotone => "fad",
             FontAwesomeStyle.Brands  => "fab",
+            FontAwesomeStyle.Thin  => "fa-thin",
             _                        => throw new NotSupportedException()
         };
     }
@@ -139,7 +145,8 @@ internal enum FontAwesomeStyle
     Regular,
     Light,
     Duotone,
-    Brands
+    Brands,
+    Thin
 }
 
 
@@ -194,6 +201,20 @@ internal class IconModelBase
     public bool Voted { get; set; }
     public IEnumerable<string> Ligatures { get; set; }
     public bool Private { get; set; }
+    public IconAliases? Aliases { get; set; }
+}
+
+class IconAliases
+{
+    public IEnumerable<string>? Names { get; set; }
+    public IconUnicodes? Unicodes { get; set; }
+}
+
+class IconUnicodes
+{
+    public IEnumerable<string>? Composite { get; set; }
+    public IEnumerable<string>? Primary { get; set; }
+    public IEnumerable<string>? Secondary { get; set; }
 }
 
 internal class SearchModel

@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
+﻿using System.Linq.Expressions;
 using System.Reflection;
-using System.Threading.Tasks;
 using Bunit;
 using Bunit.Extensions;
 using Microsoft.AspNetCore.Components;
@@ -13,169 +9,211 @@ using EC = Microsoft.AspNetCore.Components.EventCallback;
 namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
 {
     /// <summary>
-    /// Base class for test classes that contains XUnit Razor component tests.
+    ///     Base class for test classes that contains XUnit Razor component tests.
     /// </summary>
     public static class ComponentParameterHelpers
     {
         /// <summary>
-        /// Creates a <see cref="ComponentParameter"/> with an <see cref="Microsoft.AspNetCore.Components.EventCallback"/> as parameter value
-        /// for this <see cref="TestContext"/> and
-        /// <paramref name="callback"/>.
+        ///     Creates a <see cref="ComponentParameter" /> with an <see cref="Microsoft.AspNetCore.Components.EventCallback" /> as parameter value
+        ///     for this <see cref="TestContext" /> and
+        ///     <paramref name="callback" />.
         /// </summary>
         /// <param name="name">Parameter name.</param>
         /// <param name="callback">The event callback.</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
         public static ComponentParameter EventCallback(string name, Action callback)
-            => ComponentParameter.CreateParameter(name, EC.Factory.Create(null, callback));
+        {
+            return ComponentParameter.CreateParameter(name, EC.Factory.Create(null, callback));
+        }
 
         /// <summary>
-        /// Creates a <see cref="ComponentParameter"/> with an <see cref="Microsoft.AspNetCore.Components.EventCallback"/> as parameter value for this <see cref="TestContext"/> and
-        /// <paramref name="callback"/>.
+        ///     Creates a <see cref="ComponentParameter" /> with an <see cref="Microsoft.AspNetCore.Components.EventCallback" /> as parameter value for this
+        ///     <see cref="TestContext" /> and
+        ///     <paramref name="callback" />.
         /// </summary>
         /// <param name="name">Parameter name.</param>
         /// <param name="callback">The event callback.</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
         public static ComponentParameter EventCallback(string name, Action<object> callback)
-            => ComponentParameter.CreateParameter(name, EC.Factory.Create(null, callback));
+        {
+            return ComponentParameter.CreateParameter(name, EC.Factory.Create(null, callback));
+        }
 
         /// <summary>
-        /// Creates a <see cref="ComponentParameter"/> with an <see cref="Microsoft.AspNetCore.Components.EventCallback"/> as parameter value for this <see cref="TestContext"/> and
-        /// <paramref name="callback"/>.
+        ///     Creates a <see cref="ComponentParameter" /> with an <see cref="Microsoft.AspNetCore.Components.EventCallback" /> as parameter value for this
+        ///     <see cref="TestContext" /> and
+        ///     <paramref name="callback" />.
         /// </summary>
         /// <param name="name">Parameter name.</param>
         /// <param name="callback">The event callback.</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
         public static ComponentParameter EventCallback(string name, Func<Task> callback)
-            => ComponentParameter.CreateParameter(name, EC.Factory.Create(null, callback));
+        {
+            return ComponentParameter.CreateParameter(name, EC.Factory.Create(null, callback));
+        }
 
         /// <summary>
-        /// Creates a <see cref="ComponentParameter"/> with an <see cref="Microsoft.AspNetCore.Components.EventCallback"/> as parameter value for this <see cref="TestContext"/> and
-        /// <paramref name="callback"/>.
+        ///     Creates a <see cref="ComponentParameter" /> with an <see cref="Microsoft.AspNetCore.Components.EventCallback" /> as parameter value for this
+        ///     <see cref="TestContext" /> and
+        ///     <paramref name="callback" />.
         /// </summary>
         /// <param name="name">Parameter name.</param>
         /// <param name="callback">The event callback.</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
         public static ComponentParameter EventCallback(string name, Func<object, Task> callback)
-            => ComponentParameter.CreateParameter(name, EC.Factory.Create(null, callback));
+        {
+            return ComponentParameter.CreateParameter(name, EC.Factory.Create(null, callback));
+        }
 
         /// <summary>
-        /// Creates a <see cref="ComponentParameter"/> with an <see cref="Microsoft.AspNetCore.Components.EventCallback"/> as parameter value for this <see cref="TestContext"/> and
-        /// <paramref name="callback"/>.
+        ///     Creates a <see cref="ComponentParameter" /> with an <see cref="Microsoft.AspNetCore.Components.EventCallback" /> as parameter value for this
+        ///     <see cref="TestContext" /> and
+        ///     <paramref name="callback" />.
         /// </summary>
         /// <param name="name">Parameter name.</param>
         /// <param name="callback">The event callback.</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
         public static ComponentParameter EventCallback<TValue>(string name, Action callback)
-            => ComponentParameter.CreateParameter(name, EC.Factory.Create<TValue>(null, callback));
+        {
+            return ComponentParameter.CreateParameter(name, EC.Factory.Create<TValue>(null, callback));
+        }
 
         /// <summary>
-        /// Creates a <see cref="ComponentParameter"/> with an <see cref="Microsoft.AspNetCore.Components.EventCallback"/> as parameter value for this <see cref="TestContext"/> and
-        /// <paramref name="callback"/>.
+        ///     Creates a <see cref="ComponentParameter" /> with an <see cref="Microsoft.AspNetCore.Components.EventCallback" /> as parameter value for this
+        ///     <see cref="TestContext" /> and
+        ///     <paramref name="callback" />.
         /// </summary>
         /// <param name="name">Parameter name.</param>
         /// <param name="callback">The event callback.</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
         public static ComponentParameter EventCallback<TValue>(string name, Action<TValue> callback)
-            => ComponentParameter.CreateParameter(name, EC.Factory.Create<TValue>(null, callback));
+        {
+            return ComponentParameter.CreateParameter(name, EC.Factory.Create(null, callback));
+        }
 
         /// <summary>
-        /// Creates a <see cref="ComponentParameter"/> with an <see cref="Microsoft.AspNetCore.Components.EventCallback"/> as parameter value for this <see cref="TestContext"/> and
-        /// <paramref name="callback"/>.
+        ///     Creates a <see cref="ComponentParameter" /> with an <see cref="Microsoft.AspNetCore.Components.EventCallback" /> as parameter value for this
+        ///     <see cref="TestContext" /> and
+        ///     <paramref name="callback" />.
         /// </summary>
         /// <param name="name">Parameter name.</param>
         /// <param name="callback">The event callback.</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
         public static ComponentParameter EventCallback<TValue>(string name, Func<Task> callback)
-            => ComponentParameter.CreateParameter(name, EC.Factory.Create<TValue>(null, callback));
+        {
+            return ComponentParameter.CreateParameter(name, EC.Factory.Create<TValue>(null, callback));
+        }
 
         /// <summary>
-        /// Creates a <see cref="ComponentParameter"/> with an <see cref="Microsoft.AspNetCore.Components.EventCallback"/> as parameter value for this <see cref="TestContext"/> and
-        /// <paramref name="callback"/>.
+        ///     Creates a <see cref="ComponentParameter" /> with an <see cref="Microsoft.AspNetCore.Components.EventCallback" /> as parameter value for this
+        ///     <see cref="TestContext" /> and
+        ///     <paramref name="callback" />.
         /// </summary>
         /// <param name="name">Parameter name.</param>
         /// <param name="callback">The event callback.</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
         public static ComponentParameter EventCallback<TValue>(string name, Func<TValue, Task> callback)
-            => ComponentParameter.CreateParameter(name, EC.Factory.Create<TValue>(null, callback));
+        {
+            return ComponentParameter.CreateParameter(name, EC.Factory.Create(null, callback));
+        }
 
         /// <summary>
-        /// Creates a component parameter which can be passed to a test contexts render methods.
+        ///     Creates a component parameter which can be passed to a test contexts render methods.
         /// </summary>
         /// <param name="name">Parameter name</param>
         /// <param name="value">Value or null of the parameter</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
         public static ComponentParameter Parameter(string name, object? value)
-            => ComponentParameter.CreateParameter(name, value);
+        {
+            return ComponentParameter.CreateParameter(name, value);
+        }
 
         /// <summary>
-        /// Creates a cascading value which can be passed to a test contexts render methods.
+        ///     Creates a cascading value which can be passed to a test contexts render methods.
         /// </summary>
         /// <param name="name">Parameter name</param>
         /// <param name="value">Value of the parameter</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
         public static ComponentParameter CascadingValue(string name, object value)
-            => ComponentParameter.CreateCascadingValue(name, value);
+        {
+            return ComponentParameter.CreateCascadingValue(name, value);
+        }
 
         /// <summary>
-        /// Creates a cascading value which can be passed to a test contexts render methods.
+        ///     Creates a cascading value which can be passed to a test contexts render methods.
         /// </summary>
         /// <param name="value">Value of the parameter</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
         public static ComponentParameter CascadingValue(object value)
-            => ComponentParameter.CreateCascadingValue(null, value);
+        {
+            return ComponentParameter.CreateCascadingValue(null, value);
+        }
 
         /// <summary>
-        /// Creates a ChildContent <see cref="Microsoft.AspNetCore.Components.RenderFragment"/> with the provided
-        /// <paramref name="markup"/> as rendered output.
+        ///     Creates a ChildContent <see cref="Microsoft.AspNetCore.Components.RenderFragment" /> with the provided
+        ///     <paramref name="markup" /> as rendered output.
         /// </summary>
         /// <param name="markup">Markup to pass to the child content parameter</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
-        public static ComponentParameter ChildContent(string markup) => RenderFragment(nameof(ChildContent), markup);
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
+        public static ComponentParameter ChildContent(string markup)
+        {
+            return RenderFragment(nameof(ChildContent), markup);
+        }
 
         /// <summary>
-        /// Creates a ChildContent <see cref="Microsoft.AspNetCore.Components.RenderFragment"/> which will render a <typeparamref name="TComponent"/> component
-        /// with the provided <paramref name="parameters"/> as input.
+        ///     Creates a ChildContent <see cref="Microsoft.AspNetCore.Components.RenderFragment" /> which will render a <typeparamref name="TComponent" /> component
+        ///     with the provided <paramref name="parameters" /> as input.
         /// </summary>
-        /// <typeparam name="TComponent">The type of the component to render with the <see cref="Microsoft.AspNetCore.Components.RenderFragment"/></typeparam>
-        /// <param name="parameters">Parameters to pass to the <typeparamref name="TComponent"/>.</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
+        /// <typeparam name="TComponent">The type of the component to render with the <see cref="Microsoft.AspNetCore.Components.RenderFragment" /></typeparam>
+        /// <param name="parameters">Parameters to pass to the <typeparamref name="TComponent" />.</param>
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
         public static ComponentParameter ChildContent<TComponent>(params ComponentParameter[] parameters)
-            where TComponent : class, IComponent => RenderFragment<TComponent>(nameof(ChildContent), parameters);
+            where TComponent : class, IComponent
+        {
+            return RenderFragment<TComponent>(nameof(ChildContent), parameters);
+        }
 
         /// <summary>
-        /// Creates a <see cref="Microsoft.AspNetCore.Components.RenderFragment"/> with the provided
-        /// <paramref name="markup"/> as rendered output and passes it to the parameter specified in <paramref name="name"/>.
+        ///     Creates a <see cref="Microsoft.AspNetCore.Components.RenderFragment" /> with the provided
+        ///     <paramref name="markup" /> as rendered output and passes it to the parameter specified in <paramref name="name" />.
         /// </summary>
         /// <param name="name">Parameter name.</param>
         /// <param name="markup">Markup to pass to the render fragment parameter</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
         public static ComponentParameter RenderFragment(string name, string markup)
-            => ComponentParameter.CreateParameter(name, markup.ToMarkupRenderFragment());
+        {
+            return ComponentParameter.CreateParameter(name, markup.ToMarkupRenderFragment());
+        }
 
         /// <summary>
-        /// Creates a <see cref="Microsoft.AspNetCore.Components.RenderFragment"/> which will render a <typeparamref name="TComponent"/> component
-        /// with the provided <paramref name="parameters"/> as input, and passes it to the parameter specified in <paramref name="name"/>.
+        ///     Creates a <see cref="Microsoft.AspNetCore.Components.RenderFragment" /> which will render a <typeparamref name="TComponent" /> component
+        ///     with the provided <paramref name="parameters" /> as input, and passes it to the parameter specified in <paramref name="name" />.
         /// </summary>
-        /// <typeparam name="TComponent">The type of the component to render with the <see cref="Microsoft.AspNetCore.Components.RenderFragment"/></typeparam>
+        /// <typeparam name="TComponent">The type of the component to render with the <see cref="Microsoft.AspNetCore.Components.RenderFragment" /></typeparam>
         /// <param name="name">Parameter name.</param>
-        /// <param name="parameters">Parameters to pass to the <typeparamref name="TComponent"/>.</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
+        /// <param name="parameters">Parameters to pass to the <typeparamref name="TComponent" />.</param>
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
         public static ComponentParameter RenderFragment<TComponent>(string name, params ComponentParameter[] parameters)
-            where TComponent : class, IComponent => ComponentParameter.CreateParameter(
-            name,
-            new ComponentParameterCollection { parameters }.ToRenderFragment<TComponent>()
-        );
+            where TComponent : class, IComponent
+        {
+            return ComponentParameter.CreateParameter(
+                name,
+                new ComponentParameterCollection { parameters }.ToRenderFragment<TComponent>()
+            );
+        }
 
         /// <summary>
-        /// Creates a component parameter which will pass the <paramref name="template"/> <see cref="Microsoft.AspNetCore.Components.RenderFragment{TValue}" />
-        /// to the parameter with the name <paramref name="name"/>.
+        ///     Creates a component parameter which will pass the <paramref name="template" /> <see cref="Microsoft.AspNetCore.Components.RenderFragment{TValue}" />
+        ///     to the parameter with the name <paramref name="name" />.
         /// </summary>
         /// <typeparam name="TValue">The value used to build the content.</typeparam>
         /// <param name="name">Parameter name.</param>
         /// <param name="template"><see cref="Microsoft.AspNetCore.Components.RenderFragment{TValue}" /> to pass to the parameter.</param>
-        /// <returns>The <see cref="ComponentParameter"/>.</returns>
+        /// <returns>The <see cref="ComponentParameter" />.</returns>
         public static ComponentParameter Template<TValue>(string name, RenderFragment<TValue> template)
-            => ComponentParameter.CreateParameter(name, template);
+        {
+            return ComponentParameter.CreateParameter(name, template);
+        }
     }
 
     public interface IRenderFragmentBuilder
@@ -466,7 +504,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
         }
 
         public RenderFragment ToRenderFragment()
-            => new ComponentParameterCollection() { _componentParameters }.ToRenderFragment<TComponent>();
+        {
+            return new ComponentParameterCollection { _componentParameters }.ToRenderFragment<TComponent>();
+        }
 
         public IReadOnlyList<ComponentParameter> Parameters => _componentParameters.AsReadOnly();
     }

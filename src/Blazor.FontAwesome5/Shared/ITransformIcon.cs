@@ -1,6 +1,7 @@
+using System.Globalization;
 using System.Text;
-using Rocket.Surgery.Blazor.FontAwesome5.Shared;
 
+// ReSharper disable once CheckNamespace
 namespace Rocket.Surgery.Blazor.FontAwesome5;
 
 public interface IIcon : ITransformIcon
@@ -8,8 +9,8 @@ public interface IIcon : ITransformIcon
     IconStyle Style { get; }
     string Name { get; }
     IconSize Size { get; }
-    string CssStyle { get; }
-    string CssClass { get; }
+    string? CssStyle { get; }
+    string? CssClass { get; }
     bool FixedWidth { get; }
     bool Spin { get; }
     bool Pulse { get; }
@@ -31,7 +32,7 @@ public interface ITransformIcon
     IconFlip? Flip { get; }
 }
 
-static class IconExtensions
+internal static class IconExtensions
 {
     public static string ToTransform(this ITransformIcon icon)
     {
@@ -39,8 +40,8 @@ static class IconExtensions
         ApplyTransform(icon, sb);
         return sb.ToString();
     }
-        
-    public static string ToClass(this IIcon icon, bool stack, string @class = null)
+
+    public static string ToClass(this IIcon icon, bool stack, string? @class = null)
     {
         var sb = new StringBuilder();
         ApplyClass(icon, sb, stack, @class);
@@ -53,43 +54,43 @@ static class IconExtensions
         if (icon.Grow > 0.001)
         {
             AddSpaceIfChanged(ref hasChanges, sb, changing);
-            sb.Append($"grow-{icon.Grow:F2}");
+            sb.Append("grow-").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.Grow);
         }
 
         if (icon.Shrink > 0.001)
         {
             AddSpaceIfChanged(ref hasChanges, sb, changing);
-            sb.Append($"shrink-{icon.Shrink:F2}");
+            sb.Append("shrink-").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.Shrink);
         }
 
         if (Math.Abs(icon.Rotate) > 0.001)
         {
             AddSpaceIfChanged(ref hasChanges, sb, changing);
-            sb.Append($"rotate-{icon.Rotate:F2}");
+            sb.Append("rotate-").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.Rotate);
         }
 
         if (icon.Up > 0.001)
         {
             AddSpaceIfChanged(ref hasChanges, sb, changing);
-            sb.Append($"up-{icon.Up:F2}");
+            sb.Append("up-").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.Up);
         }
 
         if (icon.Down > 0.001)
         {
             AddSpaceIfChanged(ref hasChanges, sb, changing);
-            sb.Append($"down-{icon.Down:F2}");
+            sb.Append("down-").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.Down);
         }
 
         if (icon.Left > 0.001)
         {
             AddSpaceIfChanged(ref hasChanges, sb, changing);
-            sb.Append($"left-{icon.Left:F2}");
+            sb.Append("left-").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.Left);
         }
 
         if (icon.Right > 0.001)
         {
             AddSpaceIfChanged(ref hasChanges, sb, changing);
-            sb.Append($"right-{icon.Right:F2}");
+            sb.Append("right-").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.Right);
         }
 
         if (icon.Flip.HasValue && icon.Flip != IconFlip.None)
@@ -115,20 +116,20 @@ static class IconExtensions
         }
     }
 
-    public static void ApplyClass(this IIcon icon, StringBuilder sb, bool stack = false, string @class = null)
+    public static void ApplyClass(this IIcon icon, StringBuilder sb, bool stack = false, string? @class = null)
     {
         sb.Append(Icon.ToPrefix(icon.Style));
-        sb.Append(" ");
+        sb.Append(' ');
         ApplyName(sb, icon.Name);
         if (!string.IsNullOrWhiteSpace(@class))
         {
-            sb.Append(" ");
+            sb.Append(' ');
             sb.Append(@class);
         }
 
         if (!string.IsNullOrWhiteSpace(icon.CssClass))
         {
-            sb.Append(" ");
+            sb.Append(' ');
             sb.Append(icon.CssClass);
         }
 
@@ -160,7 +161,7 @@ static class IconExtensions
 
         if (icon.Pull != IconPull.None)
         {
-            sb.Append(" ");
+            sb.Append(' ');
             sb.Append(Icon.ToString(icon.Pull));
         }
     }
@@ -185,7 +186,7 @@ static class IconExtensions
     {
         if (hasChanges)
         {
-            sb.Append(" ");
+            sb.Append(' ');
         }
         else
         {

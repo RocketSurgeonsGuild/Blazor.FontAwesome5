@@ -1,9030 +1,8912 @@
-using System;
-using Rocket.Surgery.Blazor.FontAwesome5;
-using Rocket.Surgery.Blazor.FontAwesome5.Shared;
 namespace Rocket.Surgery.Blazor.FontAwesome5.Free
 {
     /// <summary>
-    /// Font Awesome Fas Icons
+    ///     Font Awesome Fas Icons
     /// </summary>
     public enum Fas
     {
         /// <summary>
-        /// Ad
+        ///     Ad
         /// </summary>
         /// <remarks>
-        /// ad - Available in Solid
+        ///     ad - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "ad")]
-        Ad,
+        [FontAwesome(IconStyle.Solid, "ad")] Ad,
 
         /// <summary>
-        /// Address Book
+        ///     Address Book
         /// </summary>
         /// <remarks>
-        /// address-book - Available in Solid, Regular
+        ///     address-book - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "address-book")]
         AddressBook,
 
         /// <summary>
-        /// Address Card
+        ///     Address Card
         /// </summary>
         /// <remarks>
-        /// address-card - Available in Solid, Regular
+        ///     address-card - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "address-card")]
         AddressCard,
 
         /// <summary>
-        /// Adjust
+        ///     Adjust
         /// </summary>
         /// <remarks>
-        /// adjust - Available in Solid
+        ///     adjust - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "adjust")]
         Adjust,
 
         /// <summary>
-        /// Air Freshener
+        ///     Air Freshener
         /// </summary>
         /// <remarks>
-        /// air-freshener - Available in Solid
+        ///     air-freshener - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "air-freshener")]
         AirFreshener,
 
         /// <summary>
-        /// Align Center
+        ///     Align Center
         /// </summary>
         /// <remarks>
-        /// align-center - Available in Solid
+        ///     align-center - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "align-center")]
         AlignCenter,
 
         /// <summary>
-        /// Align Justify
+        ///     Align Justify
         /// </summary>
         /// <remarks>
-        /// align-justify - Available in Solid
+        ///     align-justify - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "align-justify")]
         AlignJustify,
 
         /// <summary>
-        /// Align Left
+        ///     Align Left
         /// </summary>
         /// <remarks>
-        /// align-left - Available in Solid
+        ///     align-left - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "align-left")]
         AlignLeft,
 
         /// <summary>
-        /// Align Right
+        ///     Align Right
         /// </summary>
         /// <remarks>
-        /// align-right - Available in Solid
+        ///     align-right - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "align-right")]
         AlignRight,
 
         /// <summary>
-        /// Allergies
+        ///     Allergies
         /// </summary>
         /// <remarks>
-        /// allergies - Available in Solid
+        ///     allergies - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "allergies")]
         Allergies,
 
         /// <summary>
-        /// Ambulance
+        ///     Ambulance
         /// </summary>
         /// <remarks>
-        /// ambulance - Available in Solid
+        ///     ambulance - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "ambulance")]
         Ambulance,
 
         /// <summary>
-        /// American Sign Language Interpreting
+        ///     American Sign Language Interpreting
         /// </summary>
         /// <remarks>
-        /// american-sign-language-interpreting - Available in Solid
+        ///     american-sign-language-interpreting - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "american-sign-language-interpreting")]
         AmericanSignLanguageInterpreting,
 
         /// <summary>
-        /// Anchor
+        ///     Anchor
         /// </summary>
         /// <remarks>
-        /// anchor - Available in Solid
+        ///     anchor - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "anchor")]
         Anchor,
 
         /// <summary>
-        /// Angle Double Down
+        ///     Angle Double Down
         /// </summary>
         /// <remarks>
-        /// angle-double-down - Available in Solid
+        ///     angle-double-down - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "angle-double-down")]
         AngleDoubleDown,
 
         /// <summary>
-        /// Angle Double Left
+        ///     Angle Double Left
         /// </summary>
         /// <remarks>
-        /// angle-double-left - Available in Solid
+        ///     angle-double-left - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "angle-double-left")]
         AngleDoubleLeft,
 
         /// <summary>
-        /// Angle Double Right
+        ///     Angle Double Right
         /// </summary>
         /// <remarks>
-        /// angle-double-right - Available in Solid
+        ///     angle-double-right - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "angle-double-right")]
         AngleDoubleRight,
 
         /// <summary>
-        /// Angle Double up
+        ///     Angle Double up
         /// </summary>
         /// <remarks>
-        /// angle-double-up - Available in Solid
+        ///     angle-double-up - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "angle-double-up")]
         AngleDoubleUp,
 
         /// <summary>
-        /// Angle Down
+        ///     Angle Down
         /// </summary>
         /// <remarks>
-        /// angle-down - Available in Solid
+        ///     angle-down - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "angle-down")]
         AngleDown,
 
         /// <summary>
-        /// Angle Left
+        ///     Angle Left
         /// </summary>
         /// <remarks>
-        /// angle-left - Available in Solid
+        ///     angle-left - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "angle-left")]
         AngleLeft,
 
         /// <summary>
-        /// Angle Right
+        ///     Angle Right
         /// </summary>
         /// <remarks>
-        /// angle-right - Available in Solid
+        ///     angle-right - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "angle-right")]
         AngleRight,
 
         /// <summary>
-        /// Angle up
+        ///     Angle up
         /// </summary>
         /// <remarks>
-        /// angle-up - Available in Solid
+        ///     angle-up - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "angle-up")]
         AngleUp,
 
         /// <summary>
-        /// Angry Face
+        ///     Angry Face
         /// </summary>
         /// <remarks>
-        /// angry - Available in Solid, Regular
+        ///     angry - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "angry")]
         Angry,
 
         /// <summary>
-        /// Ankh
+        ///     Ankh
         /// </summary>
         /// <remarks>
-        /// ankh - Available in Solid
+        ///     ankh - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "ankh")]
-        Ankh,
+        [FontAwesome(IconStyle.Solid, "ankh")] Ankh,
 
         /// <summary>
-        /// Fruit Apple
+        ///     Fruit Apple
         /// </summary>
         /// <remarks>
-        /// apple-alt - Available in Solid
+        ///     apple-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "apple-alt")]
         AppleAlt,
 
         /// <summary>
-        /// Archive
+        ///     Archive
         /// </summary>
         /// <remarks>
-        /// archive - Available in Solid
+        ///     archive - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "archive")]
         Archive,
 
         /// <summary>
-        /// Archway
+        ///     Archway
         /// </summary>
         /// <remarks>
-        /// archway - Available in Solid
+        ///     archway - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "archway")]
         Archway,
 
         /// <summary>
-        /// Alternate Arrow Circle Down
+        ///     Alternate Arrow Circle Down
         /// </summary>
         /// <remarks>
-        /// arrow-alt-circle-down - Available in Solid, Regular
+        ///     arrow-alt-circle-down - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "arrow-alt-circle-down")]
         ArrowAltCircleDown,
 
         /// <summary>
-        /// Alternate Arrow Circle Left
+        ///     Alternate Arrow Circle Left
         /// </summary>
         /// <remarks>
-        /// arrow-alt-circle-left - Available in Solid, Regular
+        ///     arrow-alt-circle-left - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "arrow-alt-circle-left")]
         ArrowAltCircleLeft,
 
         /// <summary>
-        /// Alternate Arrow Circle Right
+        ///     Alternate Arrow Circle Right
         /// </summary>
         /// <remarks>
-        /// arrow-alt-circle-right - Available in Solid, Regular
+        ///     arrow-alt-circle-right - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "arrow-alt-circle-right")]
         ArrowAltCircleRight,
 
         /// <summary>
-        /// Alternate Arrow Circle up
+        ///     Alternate Arrow Circle up
         /// </summary>
         /// <remarks>
-        /// arrow-alt-circle-up - Available in Solid, Regular
+        ///     arrow-alt-circle-up - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "arrow-alt-circle-up")]
         ArrowAltCircleUp,
 
         /// <summary>
-        /// Arrow Circle Down
+        ///     Arrow Circle Down
         /// </summary>
         /// <remarks>
-        /// arrow-circle-down - Available in Solid
+        ///     arrow-circle-down - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "arrow-circle-down")]
         ArrowCircleDown,
 
         /// <summary>
-        /// Arrow Circle Left
+        ///     Arrow Circle Left
         /// </summary>
         /// <remarks>
-        /// arrow-circle-left - Available in Solid
+        ///     arrow-circle-left - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "arrow-circle-left")]
         ArrowCircleLeft,
 
         /// <summary>
-        /// Arrow Circle Right
+        ///     Arrow Circle Right
         /// </summary>
         /// <remarks>
-        /// arrow-circle-right - Available in Solid
+        ///     arrow-circle-right - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "arrow-circle-right")]
         ArrowCircleRight,
 
         /// <summary>
-        /// Arrow Circle up
+        ///     Arrow Circle up
         /// </summary>
         /// <remarks>
-        /// arrow-circle-up - Available in Solid
+        ///     arrow-circle-up - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "arrow-circle-up")]
         ArrowCircleUp,
 
         /// <summary>
-        /// Arrow Down
+        ///     Arrow Down
         /// </summary>
         /// <remarks>
-        /// arrow-down - Available in Solid
+        ///     arrow-down - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "arrow-down")]
         ArrowDown,
 
         /// <summary>
-        /// Arrow Left
+        ///     Arrow Left
         /// </summary>
         /// <remarks>
-        /// arrow-left - Available in Solid
+        ///     arrow-left - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "arrow-left")]
         ArrowLeft,
 
         /// <summary>
-        /// Arrow Right
+        ///     Arrow Right
         /// </summary>
         /// <remarks>
-        /// arrow-right - Available in Solid
+        ///     arrow-right - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "arrow-right")]
         ArrowRight,
 
         /// <summary>
-        /// Arrow up
+        ///     Arrow up
         /// </summary>
         /// <remarks>
-        /// arrow-up - Available in Solid
+        ///     arrow-up - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "arrow-up")]
         ArrowUp,
 
         /// <summary>
-        /// Alternate Arrows
+        ///     Alternate Arrows
         /// </summary>
         /// <remarks>
-        /// arrows-alt - Available in Solid
+        ///     arrows-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "arrows-alt")]
         ArrowsAlt,
 
         /// <summary>
-        /// Alternate Arrows Horizontal
+        ///     Alternate Arrows Horizontal
         /// </summary>
         /// <remarks>
-        /// arrows-alt-h - Available in Solid
+        ///     arrows-alt-h - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "arrows-alt-h")]
         ArrowsAltH,
 
         /// <summary>
-        /// Alternate Arrows Vertical
+        ///     Alternate Arrows Vertical
         /// </summary>
         /// <remarks>
-        /// arrows-alt-v - Available in Solid
+        ///     arrows-alt-v - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "arrows-alt-v")]
         ArrowsAltV,
 
         /// <summary>
-        /// Assistive Listening Systems
+        ///     Assistive Listening Systems
         /// </summary>
         /// <remarks>
-        /// assistive-listening-systems - Available in Solid
+        ///     assistive-listening-systems - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "assistive-listening-systems")]
         AssistiveListeningSystems,
 
         /// <summary>
-        /// Asterisk
+        ///     Asterisk
         /// </summary>
         /// <remarks>
-        /// asterisk - Available in Solid
+        ///     asterisk - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "asterisk")]
         Asterisk,
 
         /// <summary>
-        /// At
+        ///     At
         /// </summary>
         /// <remarks>
-        /// at - Available in Solid
+        ///     at - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "at")]
-        At,
+        [FontAwesome(IconStyle.Solid, "at")] At,
 
         /// <summary>
-        /// Atlas
+        ///     Atlas
         /// </summary>
         /// <remarks>
-        /// atlas - Available in Solid
+        ///     atlas - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "atlas")]
         Atlas,
 
         /// <summary>
-        /// Atom
+        ///     Atom
         /// </summary>
         /// <remarks>
-        /// atom - Available in Solid
+        ///     atom - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "atom")]
-        Atom,
+        [FontAwesome(IconStyle.Solid, "atom")] Atom,
 
         /// <summary>
-        /// Audio Description
+        ///     Audio Description
         /// </summary>
         /// <remarks>
-        /// audio-description - Available in Solid
+        ///     audio-description - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "audio-description")]
         AudioDescription,
 
         /// <summary>
-        /// Award
+        ///     Award
         /// </summary>
         /// <remarks>
-        /// award - Available in Solid
+        ///     award - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "award")]
         Award,
 
         /// <summary>
-        /// Baby
+        ///     Baby
         /// </summary>
         /// <remarks>
-        /// baby - Available in Solid
+        ///     baby - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "baby")]
-        Baby,
+        [FontAwesome(IconStyle.Solid, "baby")] Baby,
 
         /// <summary>
-        /// Baby Carriage
+        ///     Baby Carriage
         /// </summary>
         /// <remarks>
-        /// baby-carriage - Available in Solid
+        ///     baby-carriage - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "baby-carriage")]
         BabyCarriage,
 
         /// <summary>
-        /// Backspace
+        ///     Backspace
         /// </summary>
         /// <remarks>
-        /// backspace - Available in Solid
+        ///     backspace - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "backspace")]
         Backspace,
 
         /// <summary>
-        /// Backward
+        ///     Backward
         /// </summary>
         /// <remarks>
-        /// backward - Available in Solid
+        ///     backward - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "backward")]
         Backward,
 
         /// <summary>
-        /// Bacon
+        ///     Bacon
         /// </summary>
         /// <remarks>
-        /// bacon - Available in Solid
+        ///     bacon - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "bacon")]
         Bacon,
 
         /// <summary>
-        /// Bacteria
+        ///     Bacteria
         /// </summary>
         /// <remarks>
-        /// bacteria - Available in Solid
+        ///     bacteria - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "bacteria")]
         Bacteria,
 
         /// <summary>
-        /// Bacterium
+        ///     Bacterium
         /// </summary>
         /// <remarks>
-        /// bacterium - Available in Solid
+        ///     bacterium - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "bacterium")]
         Bacterium,
 
         /// <summary>
-        /// Bahá Í
+        ///     Bahá Í
         /// </summary>
         /// <remarks>
-        /// bahai - Available in Solid
+        ///     bahai - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "bahai")]
         Bahai,
 
         /// <summary>
-        /// Balance Scale
+        ///     Balance Scale
         /// </summary>
         /// <remarks>
-        /// balance-scale - Available in Solid
+        ///     balance-scale - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "balance-scale")]
         BalanceScale,
 
         /// <summary>
-        /// Balance Scale (Left Weighted)
+        ///     Balance Scale (Left Weighted)
         /// </summary>
         /// <remarks>
-        /// balance-scale-left - Available in Solid
+        ///     balance-scale-left - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "balance-scale-left")]
         BalanceScaleLeft,
 
         /// <summary>
-        /// Balance Scale (Right Weighted)
+        ///     Balance Scale (Right Weighted)
         /// </summary>
         /// <remarks>
-        /// balance-scale-right - Available in Solid
+        ///     balance-scale-right - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "balance-scale-right")]
         BalanceScaleRight,
 
         /// <summary>
-        /// Ban
+        ///     Ban
         /// </summary>
         /// <remarks>
-        /// ban - Available in Solid
+        ///     ban - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "ban")]
-        Ban,
+        [FontAwesome(IconStyle.Solid, "ban")] Ban,
 
         /// <summary>
-        /// Band Aid
+        ///     Band Aid
         /// </summary>
         /// <remarks>
-        /// band-aid - Available in Solid
+        ///     band-aid - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "band-aid")]
         BandAid,
 
         /// <summary>
-        /// Barcode
+        ///     Barcode
         /// </summary>
         /// <remarks>
-        /// barcode - Available in Solid
+        ///     barcode - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "barcode")]
         Barcode,
 
         /// <summary>
-        /// Bars
+        ///     Bars
         /// </summary>
         /// <remarks>
-        /// bars - Available in Solid
+        ///     bars - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "bars")]
-        Bars,
+        [FontAwesome(IconStyle.Solid, "bars")] Bars,
 
         /// <summary>
-        /// Baseball Ball
+        ///     Baseball Ball
         /// </summary>
         /// <remarks>
-        /// baseball-ball - Available in Solid
+        ///     baseball-ball - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "baseball-ball")]
         BaseballBall,
 
         /// <summary>
-        /// Basketball Ball
+        ///     Basketball Ball
         /// </summary>
         /// <remarks>
-        /// basketball-ball - Available in Solid
+        ///     basketball-ball - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "basketball-ball")]
         BasketballBall,
 
         /// <summary>
-        /// Bath
+        ///     Bath
         /// </summary>
         /// <remarks>
-        /// bath - Available in Solid
+        ///     bath - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "bath")]
-        Bath,
+        [FontAwesome(IconStyle.Solid, "bath")] Bath,
 
         /// <summary>
-        /// Battery Empty
+        ///     Battery Empty
         /// </summary>
         /// <remarks>
-        /// battery-empty - Available in Solid
+        ///     battery-empty - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "battery-empty")]
         BatteryEmpty,
 
         /// <summary>
-        /// Battery Full
+        ///     Battery Full
         /// </summary>
         /// <remarks>
-        /// battery-full - Available in Solid
+        ///     battery-full - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "battery-full")]
         BatteryFull,
 
         /// <summary>
-        /// Battery 1 2 Full
+        ///     Battery 1 2 Full
         /// </summary>
         /// <remarks>
-        /// battery-half - Available in Solid
+        ///     battery-half - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "battery-half")]
         BatteryHalf,
 
         /// <summary>
-        /// Battery 1 4 Full
+        ///     Battery 1 4 Full
         /// </summary>
         /// <remarks>
-        /// battery-quarter - Available in Solid
+        ///     battery-quarter - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "battery-quarter")]
         BatteryQuarter,
 
         /// <summary>
-        /// Battery 3 4 Full
+        ///     Battery 3 4 Full
         /// </summary>
         /// <remarks>
-        /// battery-three-quarters - Available in Solid
+        ///     battery-three-quarters - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "battery-three-quarters")]
         BatteryThreeQuarters,
 
         /// <summary>
-        /// Bed
+        ///     Bed
         /// </summary>
         /// <remarks>
-        /// bed - Available in Solid
+        ///     bed - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "bed")]
-        Bed,
+        [FontAwesome(IconStyle.Solid, "bed")] Bed,
 
         /// <summary>
-        /// Beer
+        ///     Beer
         /// </summary>
         /// <remarks>
-        /// beer - Available in Solid
+        ///     beer - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "beer")]
-        Beer,
+        [FontAwesome(IconStyle.Solid, "beer")] Beer,
 
         /// <summary>
-        /// Bell
+        ///     Bell
         /// </summary>
         /// <remarks>
-        /// bell - Available in Solid, Regular
+        ///     bell - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "bell")]
-        Bell,
+        [FontAwesome(IconStyle.Solid, "bell")] Bell,
 
         /// <summary>
-        /// Bell Slash
+        ///     Bell Slash
         /// </summary>
         /// <remarks>
-        /// bell-slash - Available in Solid, Regular
+        ///     bell-slash - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "bell-slash")]
         BellSlash,
 
         /// <summary>
-        /// Bezier Curve
+        ///     Bezier Curve
         /// </summary>
         /// <remarks>
-        /// bezier-curve - Available in Solid
+        ///     bezier-curve - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "bezier-curve")]
         BezierCurve,
 
         /// <summary>
-        /// Bible
+        ///     Bible
         /// </summary>
         /// <remarks>
-        /// bible - Available in Solid
+        ///     bible - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "bible")]
         Bible,
 
         /// <summary>
-        /// Bicycle
+        ///     Bicycle
         /// </summary>
         /// <remarks>
-        /// bicycle - Available in Solid
+        ///     bicycle - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "bicycle")]
         Bicycle,
 
         /// <summary>
-        /// Biking
+        ///     Biking
         /// </summary>
         /// <remarks>
-        /// biking - Available in Solid
+        ///     biking - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "biking")]
         Biking,
 
         /// <summary>
-        /// Binoculars
+        ///     Binoculars
         /// </summary>
         /// <remarks>
-        /// binoculars - Available in Solid
+        ///     binoculars - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "binoculars")]
         Binoculars,
 
         /// <summary>
-        /// Biohazard
+        ///     Biohazard
         /// </summary>
         /// <remarks>
-        /// biohazard - Available in Solid
+        ///     biohazard - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "biohazard")]
         Biohazard,
 
         /// <summary>
-        /// Birthday Cake
+        ///     Birthday Cake
         /// </summary>
         /// <remarks>
-        /// birthday-cake - Available in Solid
+        ///     birthday-cake - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "birthday-cake")]
         BirthdayCake,
 
         /// <summary>
-        /// Blender
+        ///     Blender
         /// </summary>
         /// <remarks>
-        /// blender - Available in Solid
+        ///     blender - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "blender")]
         Blender,
 
         /// <summary>
-        /// Blender Phone
+        ///     Blender Phone
         /// </summary>
         /// <remarks>
-        /// blender-phone - Available in Solid
+        ///     blender-phone - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "blender-phone")]
         BlenderPhone,
 
         /// <summary>
-        /// Blind
+        ///     Blind
         /// </summary>
         /// <remarks>
-        /// blind - Available in Solid
+        ///     blind - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "blind")]
         Blind,
 
         /// <summary>
-        /// Blog
+        ///     Blog
         /// </summary>
         /// <remarks>
-        /// blog - Available in Solid
+        ///     blog - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "blog")]
-        Blog,
+        [FontAwesome(IconStyle.Solid, "blog")] Blog,
 
         /// <summary>
-        /// Bold
+        ///     Bold
         /// </summary>
         /// <remarks>
-        /// bold - Available in Solid
+        ///     bold - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "bold")]
-        Bold,
+        [FontAwesome(IconStyle.Solid, "bold")] Bold,
 
         /// <summary>
-        /// Lightning Bolt
+        ///     Lightning Bolt
         /// </summary>
         /// <remarks>
-        /// bolt - Available in Solid
+        ///     bolt - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "bolt")]
-        Bolt,
+        [FontAwesome(IconStyle.Solid, "bolt")] Bolt,
 
         /// <summary>
-        /// Bomb
+        ///     Bomb
         /// </summary>
         /// <remarks>
-        /// bomb - Available in Solid
+        ///     bomb - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "bomb")]
-        Bomb,
+        [FontAwesome(IconStyle.Solid, "bomb")] Bomb,
 
         /// <summary>
-        /// Bone
+        ///     Bone
         /// </summary>
         /// <remarks>
-        /// bone - Available in Solid
+        ///     bone - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "bone")]
-        Bone,
+        [FontAwesome(IconStyle.Solid, "bone")] Bone,
 
         /// <summary>
-        /// Bong
+        ///     Bong
         /// </summary>
         /// <remarks>
-        /// bong - Available in Solid
+        ///     bong - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "bong")]
-        Bong,
+        [FontAwesome(IconStyle.Solid, "bong")] Bong,
 
         /// <summary>
-        /// Book
+        ///     Book
         /// </summary>
         /// <remarks>
-        /// book - Available in Solid
+        ///     book - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "book")]
-        Book,
+        [FontAwesome(IconStyle.Solid, "book")] Book,
 
         /// <summary>
-        /// Book of the Dead
+        ///     Book of the Dead
         /// </summary>
         /// <remarks>
-        /// book-dead - Available in Solid
+        ///     book-dead - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "book-dead")]
         BookDead,
 
         /// <summary>
-        /// Medical Book
+        ///     Medical Book
         /// </summary>
         /// <remarks>
-        /// book-medical - Available in Solid
+        ///     book-medical - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "book-medical")]
         BookMedical,
 
         /// <summary>
-        /// Book Open
+        ///     Book Open
         /// </summary>
         /// <remarks>
-        /// book-open - Available in Solid
+        ///     book-open - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "book-open")]
         BookOpen,
 
         /// <summary>
-        /// Book Reader
+        ///     Book Reader
         /// </summary>
         /// <remarks>
-        /// book-reader - Available in Solid
+        ///     book-reader - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "book-reader")]
         BookReader,
 
         /// <summary>
-        /// Bookmark
+        ///     Bookmark
         /// </summary>
         /// <remarks>
-        /// bookmark - Available in Solid, Regular
+        ///     bookmark - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "bookmark")]
         Bookmark,
 
         /// <summary>
-        /// Border All
+        ///     Border All
         /// </summary>
         /// <remarks>
-        /// border-all - Available in Solid
+        ///     border-all - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "border-all")]
         BorderAll,
 
         /// <summary>
-        /// Border None
+        ///     Border None
         /// </summary>
         /// <remarks>
-        /// border-none - Available in Solid
+        ///     border-none - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "border-none")]
         BorderNone,
 
         /// <summary>
-        /// Border Style
+        ///     Border Style
         /// </summary>
         /// <remarks>
-        /// border-style - Available in Solid
+        ///     border-style - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "border-style")]
         BorderStyle,
 
         /// <summary>
-        /// Bowling Ball
+        ///     Bowling Ball
         /// </summary>
         /// <remarks>
-        /// bowling-ball - Available in Solid
+        ///     bowling-ball - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "bowling-ball")]
         BowlingBall,
 
         /// <summary>
-        /// Box
+        ///     Box
         /// </summary>
         /// <remarks>
-        /// box - Available in Solid
+        ///     box - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "box")]
-        Box,
+        [FontAwesome(IconStyle.Solid, "box")] Box,
 
         /// <summary>
-        /// Box Open
+        ///     Box Open
         /// </summary>
         /// <remarks>
-        /// box-open - Available in Solid
+        ///     box-open - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "box-open")]
         BoxOpen,
 
         /// <summary>
-        /// Tissue Box
+        ///     Tissue Box
         /// </summary>
         /// <remarks>
-        /// box-tissue - Available in Solid
+        ///     box-tissue - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "box-tissue")]
         BoxTissue,
 
         /// <summary>
-        /// Boxes
+        ///     Boxes
         /// </summary>
         /// <remarks>
-        /// boxes - Available in Solid
+        ///     boxes - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "boxes")]
         Boxes,
 
         /// <summary>
-        /// Braille
+        ///     Braille
         /// </summary>
         /// <remarks>
-        /// braille - Available in Solid
+        ///     braille - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "braille")]
         Braille,
 
         /// <summary>
-        /// Brain
+        ///     Brain
         /// </summary>
         /// <remarks>
-        /// brain - Available in Solid
+        ///     brain - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "brain")]
         Brain,
 
         /// <summary>
-        /// Bread Slice
+        ///     Bread Slice
         /// </summary>
         /// <remarks>
-        /// bread-slice - Available in Solid
+        ///     bread-slice - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "bread-slice")]
         BreadSlice,
 
         /// <summary>
-        /// Briefcase
+        ///     Briefcase
         /// </summary>
         /// <remarks>
-        /// briefcase - Available in Solid
+        ///     briefcase - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "briefcase")]
         Briefcase,
 
         /// <summary>
-        /// Medical Briefcase
+        ///     Medical Briefcase
         /// </summary>
         /// <remarks>
-        /// briefcase-medical - Available in Solid
+        ///     briefcase-medical - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "briefcase-medical")]
         BriefcaseMedical,
 
         /// <summary>
-        /// Broadcast Tower
+        ///     Broadcast Tower
         /// </summary>
         /// <remarks>
-        /// broadcast-tower - Available in Solid
+        ///     broadcast-tower - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "broadcast-tower")]
         BroadcastTower,
 
         /// <summary>
-        /// Broom
+        ///     Broom
         /// </summary>
         /// <remarks>
-        /// broom - Available in Solid
+        ///     broom - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "broom")]
         Broom,
 
         /// <summary>
-        /// Brush
+        ///     Brush
         /// </summary>
         /// <remarks>
-        /// brush - Available in Solid
+        ///     brush - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "brush")]
         Brush,
 
         /// <summary>
-        /// Bug
+        ///     Bug
         /// </summary>
         /// <remarks>
-        /// bug - Available in Solid
+        ///     bug - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "bug")]
-        Bug,
+        [FontAwesome(IconStyle.Solid, "bug")] Bug,
 
         /// <summary>
-        /// Building
+        ///     Building
         /// </summary>
         /// <remarks>
-        /// building - Available in Solid, Regular
+        ///     building - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "building")]
         Building,
 
         /// <summary>
-        /// Bullhorn
+        ///     Bullhorn
         /// </summary>
         /// <remarks>
-        /// bullhorn - Available in Solid
+        ///     bullhorn - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "bullhorn")]
         Bullhorn,
 
         /// <summary>
-        /// Bullseye
+        ///     Bullseye
         /// </summary>
         /// <remarks>
-        /// bullseye - Available in Solid
+        ///     bullseye - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "bullseye")]
         Bullseye,
 
         /// <summary>
-        /// Burn
+        ///     Burn
         /// </summary>
         /// <remarks>
-        /// burn - Available in Solid
+        ///     burn - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "burn")]
-        Burn,
+        [FontAwesome(IconStyle.Solid, "burn")] Burn,
 
         /// <summary>
-        /// Bus
+        ///     Bus
         /// </summary>
         /// <remarks>
-        /// bus - Available in Solid
+        ///     bus - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "bus")]
-        Bus,
+        [FontAwesome(IconStyle.Solid, "bus")] Bus,
 
         /// <summary>
-        /// Bus Alt
+        ///     Bus Alt
         /// </summary>
         /// <remarks>
-        /// bus-alt - Available in Solid
+        ///     bus-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "bus-alt")]
         BusAlt,
 
         /// <summary>
-        /// Business Time
+        ///     Business Time
         /// </summary>
         /// <remarks>
-        /// business-time - Available in Solid
+        ///     business-time - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "business-time")]
         BusinessTime,
 
         /// <summary>
-        /// Calculator
+        ///     Calculator
         /// </summary>
         /// <remarks>
-        /// calculator - Available in Solid
+        ///     calculator - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "calculator")]
         Calculator,
 
         /// <summary>
-        /// Calendar
+        ///     Calendar
         /// </summary>
         /// <remarks>
-        /// calendar - Available in Solid, Regular
+        ///     calendar - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "calendar")]
         Calendar,
 
         /// <summary>
-        /// Alternate Calendar
+        ///     Alternate Calendar
         /// </summary>
         /// <remarks>
-        /// calendar-alt - Available in Solid, Regular
+        ///     calendar-alt - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "calendar-alt")]
         CalendarAlt,
 
         /// <summary>
-        /// Calendar Check
+        ///     Calendar Check
         /// </summary>
         /// <remarks>
-        /// calendar-check - Available in Solid, Regular
+        ///     calendar-check - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "calendar-check")]
         CalendarCheck,
 
         /// <summary>
-        /// Calendar With Day Focus
+        ///     Calendar With Day Focus
         /// </summary>
         /// <remarks>
-        /// calendar-day - Available in Solid
+        ///     calendar-day - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "calendar-day")]
         CalendarDay,
 
         /// <summary>
-        /// Calendar Minus
+        ///     Calendar Minus
         /// </summary>
         /// <remarks>
-        /// calendar-minus - Available in Solid, Regular
+        ///     calendar-minus - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "calendar-minus")]
         CalendarMinus,
 
         /// <summary>
-        /// Calendar Plus
+        ///     Calendar Plus
         /// </summary>
         /// <remarks>
-        /// calendar-plus - Available in Solid, Regular
+        ///     calendar-plus - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "calendar-plus")]
         CalendarPlus,
 
         /// <summary>
-        /// Calendar Times
+        ///     Calendar Times
         /// </summary>
         /// <remarks>
-        /// calendar-times - Available in Solid, Regular
+        ///     calendar-times - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "calendar-times")]
         CalendarTimes,
 
         /// <summary>
-        /// Calendar With Week Focus
+        ///     Calendar With Week Focus
         /// </summary>
         /// <remarks>
-        /// calendar-week - Available in Solid
+        ///     calendar-week - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "calendar-week")]
         CalendarWeek,
 
         /// <summary>
-        /// Camera
+        ///     Camera
         /// </summary>
         /// <remarks>
-        /// camera - Available in Solid
+        ///     camera - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "camera")]
         Camera,
 
         /// <summary>
-        /// Retro Camera
+        ///     Retro Camera
         /// </summary>
         /// <remarks>
-        /// camera-retro - Available in Solid
+        ///     camera-retro - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "camera-retro")]
         CameraRetro,
 
         /// <summary>
-        /// Campground
+        ///     Campground
         /// </summary>
         /// <remarks>
-        /// campground - Available in Solid
+        ///     campground - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "campground")]
         Campground,
 
         /// <summary>
-        /// Candy Cane
+        ///     Candy Cane
         /// </summary>
         /// <remarks>
-        /// candy-cane - Available in Solid
+        ///     candy-cane - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "candy-cane")]
         CandyCane,
 
         /// <summary>
-        /// Cannabis
+        ///     Cannabis
         /// </summary>
         /// <remarks>
-        /// cannabis - Available in Solid
+        ///     cannabis - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cannabis")]
         Cannabis,
 
         /// <summary>
-        /// Capsules
+        ///     Capsules
         /// </summary>
         /// <remarks>
-        /// capsules - Available in Solid
+        ///     capsules - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "capsules")]
         Capsules,
 
         /// <summary>
-        /// Car
+        ///     Car
         /// </summary>
         /// <remarks>
-        /// car - Available in Solid
+        ///     car - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "car")]
-        Car,
+        [FontAwesome(IconStyle.Solid, "car")] Car,
 
         /// <summary>
-        /// Alternate Car
+        ///     Alternate Car
         /// </summary>
         /// <remarks>
-        /// car-alt - Available in Solid
+        ///     car-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "car-alt")]
         CarAlt,
 
         /// <summary>
-        /// Car Battery
+        ///     Car Battery
         /// </summary>
         /// <remarks>
-        /// car-battery - Available in Solid
+        ///     car-battery - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "car-battery")]
         CarBattery,
 
         /// <summary>
-        /// Car Crash
+        ///     Car Crash
         /// </summary>
         /// <remarks>
-        /// car-crash - Available in Solid
+        ///     car-crash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "car-crash")]
         CarCrash,
 
         /// <summary>
-        /// Car Side
+        ///     Car Side
         /// </summary>
         /// <remarks>
-        /// car-side - Available in Solid
+        ///     car-side - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "car-side")]
         CarSide,
 
         /// <summary>
-        /// Caravan
+        ///     Caravan
         /// </summary>
         /// <remarks>
-        /// caravan - Available in Solid
+        ///     caravan - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "caravan")]
         Caravan,
 
         /// <summary>
-        /// Caret Down
+        ///     Caret Down
         /// </summary>
         /// <remarks>
-        /// caret-down - Available in Solid
+        ///     caret-down - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "caret-down")]
         CaretDown,
 
         /// <summary>
-        /// Caret Left
+        ///     Caret Left
         /// </summary>
         /// <remarks>
-        /// caret-left - Available in Solid
+        ///     caret-left - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "caret-left")]
         CaretLeft,
 
         /// <summary>
-        /// Caret Right
+        ///     Caret Right
         /// </summary>
         /// <remarks>
-        /// caret-right - Available in Solid
+        ///     caret-right - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "caret-right")]
         CaretRight,
 
         /// <summary>
-        /// Caret Square Down
+        ///     Caret Square Down
         /// </summary>
         /// <remarks>
-        /// caret-square-down - Available in Solid, Regular
+        ///     caret-square-down - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "caret-square-down")]
         CaretSquareDown,
 
         /// <summary>
-        /// Caret Square Left
+        ///     Caret Square Left
         /// </summary>
         /// <remarks>
-        /// caret-square-left - Available in Solid, Regular
+        ///     caret-square-left - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "caret-square-left")]
         CaretSquareLeft,
 
         /// <summary>
-        /// Caret Square Right
+        ///     Caret Square Right
         /// </summary>
         /// <remarks>
-        /// caret-square-right - Available in Solid, Regular
+        ///     caret-square-right - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "caret-square-right")]
         CaretSquareRight,
 
         /// <summary>
-        /// Caret Square up
+        ///     Caret Square up
         /// </summary>
         /// <remarks>
-        /// caret-square-up - Available in Solid, Regular
+        ///     caret-square-up - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "caret-square-up")]
         CaretSquareUp,
 
         /// <summary>
-        /// Caret up
+        ///     Caret up
         /// </summary>
         /// <remarks>
-        /// caret-up - Available in Solid
+        ///     caret-up - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "caret-up")]
         CaretUp,
 
         /// <summary>
-        /// Carrot
+        ///     Carrot
         /// </summary>
         /// <remarks>
-        /// carrot - Available in Solid
+        ///     carrot - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "carrot")]
         Carrot,
 
         /// <summary>
-        /// Shopping Cart Arrow Down
+        ///     Shopping Cart Arrow Down
         /// </summary>
         /// <remarks>
-        /// cart-arrow-down - Available in Solid
+        ///     cart-arrow-down - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cart-arrow-down")]
         CartArrowDown,
 
         /// <summary>
-        /// Add to Shopping Cart
+        ///     Add to Shopping Cart
         /// </summary>
         /// <remarks>
-        /// cart-plus - Available in Solid
+        ///     cart-plus - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cart-plus")]
         CartPlus,
 
         /// <summary>
-        /// Cash Register
+        ///     Cash Register
         /// </summary>
         /// <remarks>
-        /// cash-register - Available in Solid
+        ///     cash-register - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cash-register")]
         CashRegister,
 
         /// <summary>
-        /// Cat
+        ///     Cat
         /// </summary>
         /// <remarks>
-        /// cat - Available in Solid
+        ///     cat - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "cat")]
-        Cat,
+        [FontAwesome(IconStyle.Solid, "cat")] Cat,
 
         /// <summary>
-        /// Certificate
+        ///     Certificate
         /// </summary>
         /// <remarks>
-        /// certificate - Available in Solid
+        ///     certificate - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "certificate")]
         Certificate,
 
         /// <summary>
-        /// Chair
+        ///     Chair
         /// </summary>
         /// <remarks>
-        /// chair - Available in Solid
+        ///     chair - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chair")]
         Chair,
 
         /// <summary>
-        /// Chalkboard
+        ///     Chalkboard
         /// </summary>
         /// <remarks>
-        /// chalkboard - Available in Solid
+        ///     chalkboard - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chalkboard")]
         Chalkboard,
 
         /// <summary>
-        /// Chalkboard Teacher
+        ///     Chalkboard Teacher
         /// </summary>
         /// <remarks>
-        /// chalkboard-teacher - Available in Solid
+        ///     chalkboard-teacher - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chalkboard-teacher")]
         ChalkboardTeacher,
 
         /// <summary>
-        /// Charging Station
+        ///     Charging Station
         /// </summary>
         /// <remarks>
-        /// charging-station - Available in Solid
+        ///     charging-station - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "charging-station")]
         ChargingStation,
 
         /// <summary>
-        /// Area Chart
+        ///     Area Chart
         /// </summary>
         /// <remarks>
-        /// chart-area - Available in Solid
+        ///     chart-area - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chart-area")]
         ChartArea,
 
         /// <summary>
-        /// Bar Chart
+        ///     Bar Chart
         /// </summary>
         /// <remarks>
-        /// chart-bar - Available in Solid, Regular
+        ///     chart-bar - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chart-bar")]
         ChartBar,
 
         /// <summary>
-        /// Line Chart
+        ///     Line Chart
         /// </summary>
         /// <remarks>
-        /// chart-line - Available in Solid
+        ///     chart-line - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chart-line")]
         ChartLine,
 
         /// <summary>
-        /// Pie Chart
+        ///     Pie Chart
         /// </summary>
         /// <remarks>
-        /// chart-pie - Available in Solid
+        ///     chart-pie - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chart-pie")]
         ChartPie,
 
         /// <summary>
-        /// Check
+        ///     Check
         /// </summary>
         /// <remarks>
-        /// check - Available in Solid
+        ///     check - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "check")]
         Check,
 
         /// <summary>
-        /// Check Circle
+        ///     Check Circle
         /// </summary>
         /// <remarks>
-        /// check-circle - Available in Solid, Regular
+        ///     check-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "check-circle")]
         CheckCircle,
 
         /// <summary>
-        /// Double Check
+        ///     Double Check
         /// </summary>
         /// <remarks>
-        /// check-double - Available in Solid
+        ///     check-double - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "check-double")]
         CheckDouble,
 
         /// <summary>
-        /// Check Square
+        ///     Check Square
         /// </summary>
         /// <remarks>
-        /// check-square - Available in Solid, Regular
+        ///     check-square - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "check-square")]
         CheckSquare,
 
         /// <summary>
-        /// Cheese
+        ///     Cheese
         /// </summary>
         /// <remarks>
-        /// cheese - Available in Solid
+        ///     cheese - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cheese")]
         Cheese,
 
         /// <summary>
-        /// Chess
+        ///     Chess
         /// </summary>
         /// <remarks>
-        /// chess - Available in Solid
+        ///     chess - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chess")]
         Chess,
 
         /// <summary>
-        /// Chess Bishop
+        ///     Chess Bishop
         /// </summary>
         /// <remarks>
-        /// chess-bishop - Available in Solid
+        ///     chess-bishop - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chess-bishop")]
         ChessBishop,
 
         /// <summary>
-        /// Chess Board
+        ///     Chess Board
         /// </summary>
         /// <remarks>
-        /// chess-board - Available in Solid
+        ///     chess-board - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chess-board")]
         ChessBoard,
 
         /// <summary>
-        /// Chess King
+        ///     Chess King
         /// </summary>
         /// <remarks>
-        /// chess-king - Available in Solid
+        ///     chess-king - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chess-king")]
         ChessKing,
 
         /// <summary>
-        /// Chess Knight
+        ///     Chess Knight
         /// </summary>
         /// <remarks>
-        /// chess-knight - Available in Solid
+        ///     chess-knight - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chess-knight")]
         ChessKnight,
 
         /// <summary>
-        /// Chess Pawn
+        ///     Chess Pawn
         /// </summary>
         /// <remarks>
-        /// chess-pawn - Available in Solid
+        ///     chess-pawn - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chess-pawn")]
         ChessPawn,
 
         /// <summary>
-        /// Chess Queen
+        ///     Chess Queen
         /// </summary>
         /// <remarks>
-        /// chess-queen - Available in Solid
+        ///     chess-queen - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chess-queen")]
         ChessQueen,
 
         /// <summary>
-        /// Chess Rook
+        ///     Chess Rook
         /// </summary>
         /// <remarks>
-        /// chess-rook - Available in Solid
+        ///     chess-rook - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chess-rook")]
         ChessRook,
 
         /// <summary>
-        /// Chevron Circle Down
+        ///     Chevron Circle Down
         /// </summary>
         /// <remarks>
-        /// chevron-circle-down - Available in Solid
+        ///     chevron-circle-down - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chevron-circle-down")]
         ChevronCircleDown,
 
         /// <summary>
-        /// Chevron Circle Left
+        ///     Chevron Circle Left
         /// </summary>
         /// <remarks>
-        /// chevron-circle-left - Available in Solid
+        ///     chevron-circle-left - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chevron-circle-left")]
         ChevronCircleLeft,
 
         /// <summary>
-        /// Chevron Circle Right
+        ///     Chevron Circle Right
         /// </summary>
         /// <remarks>
-        /// chevron-circle-right - Available in Solid
+        ///     chevron-circle-right - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chevron-circle-right")]
         ChevronCircleRight,
 
         /// <summary>
-        /// Chevron Circle up
+        ///     Chevron Circle up
         /// </summary>
         /// <remarks>
-        /// chevron-circle-up - Available in Solid
+        ///     chevron-circle-up - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chevron-circle-up")]
         ChevronCircleUp,
 
         /// <summary>
-        /// Chevron Down
+        ///     Chevron Down
         /// </summary>
         /// <remarks>
-        /// chevron-down - Available in Solid
+        ///     chevron-down - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chevron-down")]
         ChevronDown,
 
         /// <summary>
-        /// Chevron Left
+        ///     Chevron Left
         /// </summary>
         /// <remarks>
-        /// chevron-left - Available in Solid
+        ///     chevron-left - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chevron-left")]
         ChevronLeft,
 
         /// <summary>
-        /// Chevron Right
+        ///     Chevron Right
         /// </summary>
         /// <remarks>
-        /// chevron-right - Available in Solid
+        ///     chevron-right - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chevron-right")]
         ChevronRight,
 
         /// <summary>
-        /// Chevron up
+        ///     Chevron up
         /// </summary>
         /// <remarks>
-        /// chevron-up - Available in Solid
+        ///     chevron-up - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chevron-up")]
         ChevronUp,
 
         /// <summary>
-        /// Child
+        ///     Child
         /// </summary>
         /// <remarks>
-        /// child - Available in Solid
+        ///     child - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "child")]
         Child,
 
         /// <summary>
-        /// Church
+        ///     Church
         /// </summary>
         /// <remarks>
-        /// church - Available in Solid
+        ///     church - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "church")]
         Church,
 
         /// <summary>
-        /// Circle
+        ///     Circle
         /// </summary>
         /// <remarks>
-        /// circle - Available in Solid, Regular
+        ///     circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "circle")]
         Circle,
 
         /// <summary>
-        /// Circle Notched
+        ///     Circle Notched
         /// </summary>
         /// <remarks>
-        /// circle-notch - Available in Solid
+        ///     circle-notch - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "circle-notch")]
         CircleNotch,
 
         /// <summary>
-        /// City
+        ///     City
         /// </summary>
         /// <remarks>
-        /// city - Available in Solid
+        ///     city - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "city")]
-        City,
+        [FontAwesome(IconStyle.Solid, "city")] City,
 
         /// <summary>
-        /// Medical Clinic
+        ///     Medical Clinic
         /// </summary>
         /// <remarks>
-        /// clinic-medical - Available in Solid
+        ///     clinic-medical - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "clinic-medical")]
         ClinicMedical,
 
         /// <summary>
-        /// Clipboard
+        ///     Clipboard
         /// </summary>
         /// <remarks>
-        /// clipboard - Available in Solid, Regular
+        ///     clipboard - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "clipboard")]
         Clipboard,
 
         /// <summary>
-        /// Clipboard With Check
+        ///     Clipboard With Check
         /// </summary>
         /// <remarks>
-        /// clipboard-check - Available in Solid
+        ///     clipboard-check - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "clipboard-check")]
         ClipboardCheck,
 
         /// <summary>
-        /// Clipboard List
+        ///     Clipboard List
         /// </summary>
         /// <remarks>
-        /// clipboard-list - Available in Solid
+        ///     clipboard-list - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "clipboard-list")]
         ClipboardList,
 
         /// <summary>
-        /// Clock
+        ///     Clock
         /// </summary>
         /// <remarks>
-        /// clock - Available in Solid, Regular
+        ///     clock - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "clock")]
         Clock,
 
         /// <summary>
-        /// Clone
+        ///     Clone
         /// </summary>
         /// <remarks>
-        /// clone - Available in Solid, Regular
+        ///     clone - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "clone")]
         Clone,
 
         /// <summary>
-        /// Closed Captioning
+        ///     Closed Captioning
         /// </summary>
         /// <remarks>
-        /// closed-captioning - Available in Solid, Regular
+        ///     closed-captioning - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "closed-captioning")]
         ClosedCaptioning,
 
         /// <summary>
-        /// Cloud
+        ///     Cloud
         /// </summary>
         /// <remarks>
-        /// cloud - Available in Solid
+        ///     cloud - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cloud")]
         Cloud,
 
         /// <summary>
-        /// Alternate Cloud Download
+        ///     Alternate Cloud Download
         /// </summary>
         /// <remarks>
-        /// cloud-download-alt - Available in Solid
+        ///     cloud-download-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cloud-download-alt")]
         CloudDownloadAlt,
 
         /// <summary>
-        /// Cloud With a Chance of Meatball
+        ///     Cloud With a Chance of Meatball
         /// </summary>
         /// <remarks>
-        /// cloud-meatball - Available in Solid
+        ///     cloud-meatball - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cloud-meatball")]
         CloudMeatball,
 
         /// <summary>
-        /// Cloud With Moon
+        ///     Cloud With Moon
         /// </summary>
         /// <remarks>
-        /// cloud-moon - Available in Solid
+        ///     cloud-moon - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cloud-moon")]
         CloudMoon,
 
         /// <summary>
-        /// Cloud With Moon and Rain
+        ///     Cloud With Moon and Rain
         /// </summary>
         /// <remarks>
-        /// cloud-moon-rain - Available in Solid
+        ///     cloud-moon-rain - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cloud-moon-rain")]
         CloudMoonRain,
 
         /// <summary>
-        /// Cloud With Rain
+        ///     Cloud With Rain
         /// </summary>
         /// <remarks>
-        /// cloud-rain - Available in Solid
+        ///     cloud-rain - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cloud-rain")]
         CloudRain,
 
         /// <summary>
-        /// Cloud With Heavy Showers
+        ///     Cloud With Heavy Showers
         /// </summary>
         /// <remarks>
-        /// cloud-showers-heavy - Available in Solid
+        ///     cloud-showers-heavy - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cloud-showers-heavy")]
         CloudShowersHeavy,
 
         /// <summary>
-        /// Cloud With Sun
+        ///     Cloud With Sun
         /// </summary>
         /// <remarks>
-        /// cloud-sun - Available in Solid
+        ///     cloud-sun - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cloud-sun")]
         CloudSun,
 
         /// <summary>
-        /// Cloud With Sun and Rain
+        ///     Cloud With Sun and Rain
         /// </summary>
         /// <remarks>
-        /// cloud-sun-rain - Available in Solid
+        ///     cloud-sun-rain - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cloud-sun-rain")]
         CloudSunRain,
 
         /// <summary>
-        /// Alternate Cloud Upload
+        ///     Alternate Cloud Upload
         /// </summary>
         /// <remarks>
-        /// cloud-upload-alt - Available in Solid
+        ///     cloud-upload-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cloud-upload-alt")]
         CloudUploadAlt,
 
         /// <summary>
-        /// Cocktail
+        ///     Cocktail
         /// </summary>
         /// <remarks>
-        /// cocktail - Available in Solid
+        ///     cocktail - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cocktail")]
         Cocktail,
 
         /// <summary>
-        /// Code
+        ///     Code
         /// </summary>
         /// <remarks>
-        /// code - Available in Solid
+        ///     code - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "code")]
-        Code,
+        [FontAwesome(IconStyle.Solid, "code")] Code,
 
         /// <summary>
-        /// Code Branch
+        ///     Code Branch
         /// </summary>
         /// <remarks>
-        /// code-branch - Available in Solid
+        ///     code-branch - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "code-branch")]
         CodeBranch,
 
         /// <summary>
-        /// Coffee
+        ///     Coffee
         /// </summary>
         /// <remarks>
-        /// coffee - Available in Solid
+        ///     coffee - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "coffee")]
         Coffee,
 
         /// <summary>
-        /// Cog
+        ///     Cog
         /// </summary>
         /// <remarks>
-        /// cog - Available in Solid
+        ///     cog - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "cog")]
-        Cog,
+        [FontAwesome(IconStyle.Solid, "cog")] Cog,
 
         /// <summary>
-        /// Cogs
+        ///     Cogs
         /// </summary>
         /// <remarks>
-        /// cogs - Available in Solid
+        ///     cogs - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "cogs")]
-        Cogs,
+        [FontAwesome(IconStyle.Solid, "cogs")] Cogs,
 
         /// <summary>
-        /// Coins
+        ///     Coins
         /// </summary>
         /// <remarks>
-        /// coins - Available in Solid
+        ///     coins - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "coins")]
         Coins,
 
         /// <summary>
-        /// Columns
+        ///     Columns
         /// </summary>
         /// <remarks>
-        /// columns - Available in Solid
+        ///     columns - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "columns")]
         Columns,
 
         /// <summary>
-        /// Comment
+        ///     Comment
         /// </summary>
         /// <remarks>
-        /// comment - Available in Solid, Regular
+        ///     comment - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "comment")]
         Comment,
 
         /// <summary>
-        /// Alternate Comment
+        ///     Alternate Comment
         /// </summary>
         /// <remarks>
-        /// comment-alt - Available in Solid, Regular
+        ///     comment-alt - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "comment-alt")]
         CommentAlt,
 
         /// <summary>
-        /// Comment Dollar
+        ///     Comment Dollar
         /// </summary>
         /// <remarks>
-        /// comment-dollar - Available in Solid
+        ///     comment-dollar - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "comment-dollar")]
         CommentDollar,
 
         /// <summary>
-        /// Comment Dots
+        ///     Comment Dots
         /// </summary>
         /// <remarks>
-        /// comment-dots - Available in Solid, Regular
+        ///     comment-dots - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "comment-dots")]
         CommentDots,
 
         /// <summary>
-        /// Alternate Medical Chat
+        ///     Alternate Medical Chat
         /// </summary>
         /// <remarks>
-        /// comment-medical - Available in Solid
+        ///     comment-medical - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "comment-medical")]
         CommentMedical,
 
         /// <summary>
-        /// Comment Slash
+        ///     Comment Slash
         /// </summary>
         /// <remarks>
-        /// comment-slash - Available in Solid
+        ///     comment-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "comment-slash")]
         CommentSlash,
 
         /// <summary>
-        /// Comments
+        ///     Comments
         /// </summary>
         /// <remarks>
-        /// comments - Available in Solid, Regular
+        ///     comments - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "comments")]
         Comments,
 
         /// <summary>
-        /// Comments Dollar
+        ///     Comments Dollar
         /// </summary>
         /// <remarks>
-        /// comments-dollar - Available in Solid
+        ///     comments-dollar - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "comments-dollar")]
         CommentsDollar,
 
         /// <summary>
-        /// Compact Disc
+        ///     Compact Disc
         /// </summary>
         /// <remarks>
-        /// compact-disc - Available in Solid
+        ///     compact-disc - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "compact-disc")]
         CompactDisc,
 
         /// <summary>
-        /// Compass
+        ///     Compass
         /// </summary>
         /// <remarks>
-        /// compass - Available in Solid, Regular
+        ///     compass - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "compass")]
         Compass,
 
         /// <summary>
-        /// Compress
+        ///     Compress
         /// </summary>
         /// <remarks>
-        /// compress - Available in Solid
+        ///     compress - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "compress")]
         Compress,
 
         /// <summary>
-        /// Alternate Compress
+        ///     Alternate Compress
         /// </summary>
         /// <remarks>
-        /// compress-alt - Available in Solid
+        ///     compress-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "compress-alt")]
         CompressAlt,
 
         /// <summary>
-        /// Alternate Compress Arrows
+        ///     Alternate Compress Arrows
         /// </summary>
         /// <remarks>
-        /// compress-arrows-alt - Available in Solid
+        ///     compress-arrows-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "compress-arrows-alt")]
         CompressArrowsAlt,
 
         /// <summary>
-        /// Concierge Bell
+        ///     Concierge Bell
         /// </summary>
         /// <remarks>
-        /// concierge-bell - Available in Solid
+        ///     concierge-bell - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "concierge-bell")]
         ConciergeBell,
 
         /// <summary>
-        /// Cookie
+        ///     Cookie
         /// </summary>
         /// <remarks>
-        /// cookie - Available in Solid
+        ///     cookie - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cookie")]
         Cookie,
 
         /// <summary>
-        /// Cookie Bite
+        ///     Cookie Bite
         /// </summary>
         /// <remarks>
-        /// cookie-bite - Available in Solid
+        ///     cookie-bite - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cookie-bite")]
         CookieBite,
 
         /// <summary>
-        /// Copy
+        ///     Copy
         /// </summary>
         /// <remarks>
-        /// copy - Available in Solid, Regular
+        ///     copy - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "copy")]
-        Copy,
+        [FontAwesome(IconStyle.Solid, "copy")] Copy,
 
         /// <summary>
-        /// Copyright
+        ///     Copyright
         /// </summary>
         /// <remarks>
-        /// copyright - Available in Solid, Regular
+        ///     copyright - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "copyright")]
         Copyright,
 
         /// <summary>
-        /// Couch
+        ///     Couch
         /// </summary>
         /// <remarks>
-        /// couch - Available in Solid
+        ///     couch - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "couch")]
         Couch,
 
         /// <summary>
-        /// Credit Card
+        ///     Credit Card
         /// </summary>
         /// <remarks>
-        /// credit-card - Available in Solid, Regular
+        ///     credit-card - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "credit-card")]
         CreditCard,
 
         /// <summary>
-        /// Crop
+        ///     Crop
         /// </summary>
         /// <remarks>
-        /// crop - Available in Solid
+        ///     crop - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "crop")]
-        Crop,
+        [FontAwesome(IconStyle.Solid, "crop")] Crop,
 
         /// <summary>
-        /// Alternate Crop
+        ///     Alternate Crop
         /// </summary>
         /// <remarks>
-        /// crop-alt - Available in Solid
+        ///     crop-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "crop-alt")]
         CropAlt,
 
         /// <summary>
-        /// Cross
+        ///     Cross
         /// </summary>
         /// <remarks>
-        /// cross - Available in Solid
+        ///     cross - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cross")]
         Cross,
 
         /// <summary>
-        /// Crosshairs
+        ///     Crosshairs
         /// </summary>
         /// <remarks>
-        /// crosshairs - Available in Solid
+        ///     crosshairs - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "crosshairs")]
         Crosshairs,
 
         /// <summary>
-        /// Crow
+        ///     Crow
         /// </summary>
         /// <remarks>
-        /// crow - Available in Solid
+        ///     crow - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "crow")]
-        Crow,
+        [FontAwesome(IconStyle.Solid, "crow")] Crow,
 
         /// <summary>
-        /// Crown
+        ///     Crown
         /// </summary>
         /// <remarks>
-        /// crown - Available in Solid
+        ///     crown - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "crown")]
         Crown,
 
         /// <summary>
-        /// Crutch
+        ///     Crutch
         /// </summary>
         /// <remarks>
-        /// crutch - Available in Solid
+        ///     crutch - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "crutch")]
         Crutch,
 
         /// <summary>
-        /// Cube
+        ///     Cube
         /// </summary>
         /// <remarks>
-        /// cube - Available in Solid
+        ///     cube - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "cube")]
-        Cube,
+        [FontAwesome(IconStyle.Solid, "cube")] Cube,
 
         /// <summary>
-        /// Cubes
+        ///     Cubes
         /// </summary>
         /// <remarks>
-        /// cubes - Available in Solid
+        ///     cubes - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cubes")]
         Cubes,
 
         /// <summary>
-        /// Cut
+        ///     Cut
         /// </summary>
         /// <remarks>
-        /// cut - Available in Solid
+        ///     cut - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "cut")]
-        Cut,
+        [FontAwesome(IconStyle.Solid, "cut")] Cut,
 
         /// <summary>
-        /// Database
+        ///     Database
         /// </summary>
         /// <remarks>
-        /// database - Available in Solid
+        ///     database - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "database")]
         Database,
 
         /// <summary>
-        /// Deaf
+        ///     Deaf
         /// </summary>
         /// <remarks>
-        /// deaf - Available in Solid
+        ///     deaf - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "deaf")]
-        Deaf,
+        [FontAwesome(IconStyle.Solid, "deaf")] Deaf,
 
         /// <summary>
-        /// Democrat
+        ///     Democrat
         /// </summary>
         /// <remarks>
-        /// democrat - Available in Solid
+        ///     democrat - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "democrat")]
         Democrat,
 
         /// <summary>
-        /// Desktop
+        ///     Desktop
         /// </summary>
         /// <remarks>
-        /// desktop - Available in Solid
+        ///     desktop - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "desktop")]
         Desktop,
 
         /// <summary>
-        /// Dharmachakra
+        ///     Dharmachakra
         /// </summary>
         /// <remarks>
-        /// dharmachakra - Available in Solid
+        ///     dharmachakra - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dharmachakra")]
         Dharmachakra,
 
         /// <summary>
-        /// Diagnoses
+        ///     Diagnoses
         /// </summary>
         /// <remarks>
-        /// diagnoses - Available in Solid
+        ///     diagnoses - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "diagnoses")]
         Diagnoses,
 
         /// <summary>
-        /// Dice
+        ///     Dice
         /// </summary>
         /// <remarks>
-        /// dice - Available in Solid
+        ///     dice - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "dice")]
-        Dice,
+        [FontAwesome(IconStyle.Solid, "dice")] Dice,
 
         /// <summary>
-        /// Dice D 20
+        ///     Dice D 20
         /// </summary>
         /// <remarks>
-        /// dice-d20 - Available in Solid
+        ///     dice-d20 - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dice-d20")]
         DiceD20,
 
         /// <summary>
-        /// Dice D 6
+        ///     Dice D 6
         /// </summary>
         /// <remarks>
-        /// dice-d6 - Available in Solid
+        ///     dice-d6 - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dice-d6")]
         DiceD6,
 
         /// <summary>
-        /// Dice Five
+        ///     Dice Five
         /// </summary>
         /// <remarks>
-        /// dice-five - Available in Solid
+        ///     dice-five - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dice-five")]
         DiceFive,
 
         /// <summary>
-        /// Dice Four
+        ///     Dice Four
         /// </summary>
         /// <remarks>
-        /// dice-four - Available in Solid
+        ///     dice-four - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dice-four")]
         DiceFour,
 
         /// <summary>
-        /// Dice One
+        ///     Dice One
         /// </summary>
         /// <remarks>
-        /// dice-one - Available in Solid
+        ///     dice-one - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dice-one")]
         DiceOne,
 
         /// <summary>
-        /// Dice Six
+        ///     Dice Six
         /// </summary>
         /// <remarks>
-        /// dice-six - Available in Solid
+        ///     dice-six - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dice-six")]
         DiceSix,
 
         /// <summary>
-        /// Dice Three
+        ///     Dice Three
         /// </summary>
         /// <remarks>
-        /// dice-three - Available in Solid
+        ///     dice-three - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dice-three")]
         DiceThree,
 
         /// <summary>
-        /// Dice Two
+        ///     Dice Two
         /// </summary>
         /// <remarks>
-        /// dice-two - Available in Solid
+        ///     dice-two - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dice-two")]
         DiceTwo,
 
         /// <summary>
-        /// Digital Tachograph
+        ///     Digital Tachograph
         /// </summary>
         /// <remarks>
-        /// digital-tachograph - Available in Solid
+        ///     digital-tachograph - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "digital-tachograph")]
         DigitalTachograph,
 
         /// <summary>
-        /// Directions
+        ///     Directions
         /// </summary>
         /// <remarks>
-        /// directions - Available in Solid
+        ///     directions - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "directions")]
         Directions,
 
         /// <summary>
-        /// Disease
+        ///     Disease
         /// </summary>
         /// <remarks>
-        /// disease - Available in Solid
+        ///     disease - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "disease")]
         Disease,
 
         /// <summary>
-        /// Divide
+        ///     Divide
         /// </summary>
         /// <remarks>
-        /// divide - Available in Solid
+        ///     divide - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "divide")]
         Divide,
 
         /// <summary>
-        /// Dizzy Face
+        ///     Dizzy Face
         /// </summary>
         /// <remarks>
-        /// dizzy - Available in Solid, Regular
+        ///     dizzy - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dizzy")]
         Dizzy,
 
         /// <summary>
-        /// DNA
+        ///     DNA
         /// </summary>
         /// <remarks>
-        /// dna - Available in Solid
+        ///     dna - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "dna")]
-        Dna,
+        [FontAwesome(IconStyle.Solid, "dna")] Dna,
 
         /// <summary>
-        /// Dog
+        ///     Dog
         /// </summary>
         /// <remarks>
-        /// dog - Available in Solid
+        ///     dog - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "dog")]
-        Dog,
+        [FontAwesome(IconStyle.Solid, "dog")] Dog,
 
         /// <summary>
-        /// Dollar Sign
+        ///     Dollar Sign
         /// </summary>
         /// <remarks>
-        /// dollar-sign - Available in Solid
+        ///     dollar-sign - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dollar-sign")]
         DollarSign,
 
         /// <summary>
-        /// Dolly
+        ///     Dolly
         /// </summary>
         /// <remarks>
-        /// dolly - Available in Solid
+        ///     dolly - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dolly")]
         Dolly,
 
         /// <summary>
-        /// Dolly Flatbed
+        ///     Dolly Flatbed
         /// </summary>
         /// <remarks>
-        /// dolly-flatbed - Available in Solid
+        ///     dolly-flatbed - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dolly-flatbed")]
         DollyFlatbed,
 
         /// <summary>
-        /// Donate
+        ///     Donate
         /// </summary>
         /// <remarks>
-        /// donate - Available in Solid
+        ///     donate - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "donate")]
         Donate,
 
         /// <summary>
-        /// Door Closed
+        ///     Door Closed
         /// </summary>
         /// <remarks>
-        /// door-closed - Available in Solid
+        ///     door-closed - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "door-closed")]
         DoorClosed,
 
         /// <summary>
-        /// Door Open
+        ///     Door Open
         /// </summary>
         /// <remarks>
-        /// door-open - Available in Solid
+        ///     door-open - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "door-open")]
         DoorOpen,
 
         /// <summary>
-        /// Dot Circle
+        ///     Dot Circle
         /// </summary>
         /// <remarks>
-        /// dot-circle - Available in Solid, Regular
+        ///     dot-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dot-circle")]
         DotCircle,
 
         /// <summary>
-        /// Dove
+        ///     Dove
         /// </summary>
         /// <remarks>
-        /// dove - Available in Solid
+        ///     dove - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "dove")]
-        Dove,
+        [FontAwesome(IconStyle.Solid, "dove")] Dove,
 
         /// <summary>
-        /// Download
+        ///     Download
         /// </summary>
         /// <remarks>
-        /// download - Available in Solid
+        ///     download - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "download")]
         Download,
 
         /// <summary>
-        /// Drafting Compass
+        ///     Drafting Compass
         /// </summary>
         /// <remarks>
-        /// drafting-compass - Available in Solid
+        ///     drafting-compass - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "drafting-compass")]
         DraftingCompass,
 
         /// <summary>
-        /// Dragon
+        ///     Dragon
         /// </summary>
         /// <remarks>
-        /// dragon - Available in Solid
+        ///     dragon - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dragon")]
         Dragon,
 
         /// <summary>
-        /// Draw Polygon
+        ///     Draw Polygon
         /// </summary>
         /// <remarks>
-        /// draw-polygon - Available in Solid
+        ///     draw-polygon - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "draw-polygon")]
         DrawPolygon,
 
         /// <summary>
-        /// Drum
+        ///     Drum
         /// </summary>
         /// <remarks>
-        /// drum - Available in Solid
+        ///     drum - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "drum")]
-        Drum,
+        [FontAwesome(IconStyle.Solid, "drum")] Drum,
 
         /// <summary>
-        /// Drum Steelpan
+        ///     Drum Steelpan
         /// </summary>
         /// <remarks>
-        /// drum-steelpan - Available in Solid
+        ///     drum-steelpan - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "drum-steelpan")]
         DrumSteelpan,
 
         /// <summary>
-        /// Drumstick With Bite Taken Out
+        ///     Drumstick With Bite Taken Out
         /// </summary>
         /// <remarks>
-        /// drumstick-bite - Available in Solid
+        ///     drumstick-bite - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "drumstick-bite")]
         DrumstickBite,
 
         /// <summary>
-        /// Dumbbell
+        ///     Dumbbell
         /// </summary>
         /// <remarks>
-        /// dumbbell - Available in Solid
+        ///     dumbbell - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dumbbell")]
         Dumbbell,
 
         /// <summary>
-        /// Dumpster
+        ///     Dumpster
         /// </summary>
         /// <remarks>
-        /// dumpster - Available in Solid
+        ///     dumpster - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dumpster")]
         Dumpster,
 
         /// <summary>
-        /// Dumpster Fire
+        ///     Dumpster Fire
         /// </summary>
         /// <remarks>
-        /// dumpster-fire - Available in Solid
+        ///     dumpster-fire - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dumpster-fire")]
         DumpsterFire,
 
         /// <summary>
-        /// Dungeon
+        ///     Dungeon
         /// </summary>
         /// <remarks>
-        /// dungeon - Available in Solid
+        ///     dungeon - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "dungeon")]
         Dungeon,
 
         /// <summary>
-        /// Edit
+        ///     Edit
         /// </summary>
         /// <remarks>
-        /// edit - Available in Solid, Regular
+        ///     edit - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "edit")]
-        Edit,
+        [FontAwesome(IconStyle.Solid, "edit")] Edit,
 
         /// <summary>
-        /// Egg
+        ///     Egg
         /// </summary>
         /// <remarks>
-        /// egg - Available in Solid
+        ///     egg - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "egg")]
-        Egg,
+        [FontAwesome(IconStyle.Solid, "egg")] Egg,
 
         /// <summary>
-        /// Eject
+        ///     Eject
         /// </summary>
         /// <remarks>
-        /// eject - Available in Solid
+        ///     eject - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "eject")]
         Eject,
 
         /// <summary>
-        /// Horizontal Ellipsis
+        ///     Horizontal Ellipsis
         /// </summary>
         /// <remarks>
-        /// ellipsis-h - Available in Solid
+        ///     ellipsis-h - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "ellipsis-h")]
         EllipsisH,
 
         /// <summary>
-        /// Vertical Ellipsis
+        ///     Vertical Ellipsis
         /// </summary>
         /// <remarks>
-        /// ellipsis-v - Available in Solid
+        ///     ellipsis-v - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "ellipsis-v")]
         EllipsisV,
 
         /// <summary>
-        /// Envelope
+        ///     Envelope
         /// </summary>
         /// <remarks>
-        /// envelope - Available in Solid, Regular
+        ///     envelope - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "envelope")]
         Envelope,
 
         /// <summary>
-        /// Envelope Open
+        ///     Envelope Open
         /// </summary>
         /// <remarks>
-        /// envelope-open - Available in Solid, Regular
+        ///     envelope-open - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "envelope-open")]
         EnvelopeOpen,
 
         /// <summary>
-        /// Envelope Open Text
+        ///     Envelope Open Text
         /// </summary>
         /// <remarks>
-        /// envelope-open-text - Available in Solid
+        ///     envelope-open-text - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "envelope-open-text")]
         EnvelopeOpenText,
 
         /// <summary>
-        /// Envelope Square
+        ///     Envelope Square
         /// </summary>
         /// <remarks>
-        /// envelope-square - Available in Solid
+        ///     envelope-square - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "envelope-square")]
         EnvelopeSquare,
 
         /// <summary>
-        /// Equals
+        ///     Equals
         /// </summary>
         /// <remarks>
-        /// equals - Available in Solid
+        ///     equals - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "equals")]
         Equal,
 
         /// <summary>
-        /// Eraser
+        ///     Eraser
         /// </summary>
         /// <remarks>
-        /// eraser - Available in Solid
+        ///     eraser - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "eraser")]
         Eraser,
 
         /// <summary>
-        /// Ethernet
+        ///     Ethernet
         /// </summary>
         /// <remarks>
-        /// ethernet - Available in Solid
+        ///     ethernet - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "ethernet")]
         Ethernet,
 
         /// <summary>
-        /// Euro Sign
+        ///     Euro Sign
         /// </summary>
         /// <remarks>
-        /// euro-sign - Available in Solid
+        ///     euro-sign - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "euro-sign")]
         EuroSign,
 
         /// <summary>
-        /// Alternate Exchange
+        ///     Alternate Exchange
         /// </summary>
         /// <remarks>
-        /// exchange-alt - Available in Solid
+        ///     exchange-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "exchange-alt")]
         ExchangeAlt,
 
         /// <summary>
-        /// Exclamation
+        ///     Exclamation
         /// </summary>
         /// <remarks>
-        /// exclamation - Available in Solid
+        ///     exclamation - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "exclamation")]
         Exclamation,
 
         /// <summary>
-        /// Exclamation Circle
+        ///     Exclamation Circle
         /// </summary>
         /// <remarks>
-        /// exclamation-circle - Available in Solid
+        ///     exclamation-circle - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "exclamation-circle")]
         ExclamationCircle,
 
         /// <summary>
-        /// Exclamation Triangle
+        ///     Exclamation Triangle
         /// </summary>
         /// <remarks>
-        /// exclamation-triangle - Available in Solid
+        ///     exclamation-triangle - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "exclamation-triangle")]
         ExclamationTriangle,
 
         /// <summary>
-        /// Expand
+        ///     Expand
         /// </summary>
         /// <remarks>
-        /// expand - Available in Solid
+        ///     expand - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "expand")]
         Expand,
 
         /// <summary>
-        /// Alternate Expand
+        ///     Alternate Expand
         /// </summary>
         /// <remarks>
-        /// expand-alt - Available in Solid
+        ///     expand-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "expand-alt")]
         ExpandAlt,
 
         /// <summary>
-        /// Alternate Expand Arrows
+        ///     Alternate Expand Arrows
         /// </summary>
         /// <remarks>
-        /// expand-arrows-alt - Available in Solid
+        ///     expand-arrows-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "expand-arrows-alt")]
         ExpandArrowsAlt,
 
         /// <summary>
-        /// Alternate External Link
+        ///     Alternate External Link
         /// </summary>
         /// <remarks>
-        /// external-link-alt - Available in Solid
+        ///     external-link-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "external-link-alt")]
         ExternalLinkAlt,
 
         /// <summary>
-        /// Alternate External Link Square
+        ///     Alternate External Link Square
         /// </summary>
         /// <remarks>
-        /// external-link-square-alt - Available in Solid
+        ///     external-link-square-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "external-link-square-alt")]
         ExternalLinkSquareAlt,
 
         /// <summary>
-        /// Eye
+        ///     Eye
         /// </summary>
         /// <remarks>
-        /// eye - Available in Solid, Regular
+        ///     eye - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "eye")]
-        Eye,
+        [FontAwesome(IconStyle.Solid, "eye")] Eye,
 
         /// <summary>
-        /// Eye Dropper
+        ///     Eye Dropper
         /// </summary>
         /// <remarks>
-        /// eye-dropper - Available in Solid
+        ///     eye-dropper - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "eye-dropper")]
         EyeDropper,
 
         /// <summary>
-        /// Eye Slash
+        ///     Eye Slash
         /// </summary>
         /// <remarks>
-        /// eye-slash - Available in Solid, Regular
+        ///     eye-slash - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "eye-slash")]
         EyeSlash,
 
         /// <summary>
-        /// Fan
+        ///     Fan
         /// </summary>
         /// <remarks>
-        /// fan - Available in Solid
+        ///     fan - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "fan")]
-        Fan,
+        [FontAwesome(IconStyle.Solid, "fan")] Fan,
 
         /// <summary>
-        /// Fast Backward
+        ///     Fast Backward
         /// </summary>
         /// <remarks>
-        /// fast-backward - Available in Solid
+        ///     fast-backward - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "fast-backward")]
         FastBackward,
 
         /// <summary>
-        /// Fast Forward
+        ///     Fast Forward
         /// </summary>
         /// <remarks>
-        /// fast-forward - Available in Solid
+        ///     fast-forward - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "fast-forward")]
         FastForward,
 
         /// <summary>
-        /// Faucet
+        ///     Faucet
         /// </summary>
         /// <remarks>
-        /// faucet - Available in Solid
+        ///     faucet - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "faucet")]
         Faucet,
 
         /// <summary>
-        /// Fax
+        ///     Fax
         /// </summary>
         /// <remarks>
-        /// fax - Available in Solid
+        ///     fax - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "fax")]
-        Fax,
+        [FontAwesome(IconStyle.Solid, "fax")] Fax,
 
         /// <summary>
-        /// Feather
+        ///     Feather
         /// </summary>
         /// <remarks>
-        /// feather - Available in Solid
+        ///     feather - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "feather")]
         Feather,
 
         /// <summary>
-        /// Alternate Feather
+        ///     Alternate Feather
         /// </summary>
         /// <remarks>
-        /// feather-alt - Available in Solid
+        ///     feather-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "feather-alt")]
         FeatherAlt,
 
         /// <summary>
-        /// Female
+        ///     Female
         /// </summary>
         /// <remarks>
-        /// female - Available in Solid
+        ///     female - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "female")]
         Female,
 
         /// <summary>
-        /// Fighter Jet
+        ///     Fighter Jet
         /// </summary>
         /// <remarks>
-        /// fighter-jet - Available in Solid
+        ///     fighter-jet - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "fighter-jet")]
         FighterJet,
 
         /// <summary>
-        /// File
+        ///     File
         /// </summary>
         /// <remarks>
-        /// file - Available in Solid, Regular
+        ///     file - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "file")]
-        File,
+        [FontAwesome(IconStyle.Solid, "file")] File,
 
         /// <summary>
-        /// Alternate File
+        ///     Alternate File
         /// </summary>
         /// <remarks>
-        /// file-alt - Available in Solid, Regular
+        ///     file-alt - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-alt")]
         FileAlt,
 
         /// <summary>
-        /// Archive File
+        ///     Archive File
         /// </summary>
         /// <remarks>
-        /// file-archive - Available in Solid, Regular
+        ///     file-archive - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-archive")]
         FileArchive,
 
         /// <summary>
-        /// Audio File
+        ///     Audio File
         /// </summary>
         /// <remarks>
-        /// file-audio - Available in Solid, Regular
+        ///     file-audio - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-audio")]
         FileAudio,
 
         /// <summary>
-        /// Code File
+        ///     Code File
         /// </summary>
         /// <remarks>
-        /// file-code - Available in Solid, Regular
+        ///     file-code - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-code")]
         FileCode,
 
         /// <summary>
-        /// File Contract
+        ///     File Contract
         /// </summary>
         /// <remarks>
-        /// file-contract - Available in Solid
+        ///     file-contract - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-contract")]
         FileContract,
 
         /// <summary>
-        /// File CSV
+        ///     File CSV
         /// </summary>
         /// <remarks>
-        /// file-csv - Available in Solid
+        ///     file-csv - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-csv")]
         FileCsv,
 
         /// <summary>
-        /// File Download
+        ///     File Download
         /// </summary>
         /// <remarks>
-        /// file-download - Available in Solid
+        ///     file-download - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-download")]
         FileDownload,
 
         /// <summary>
-        /// Excel File
+        ///     Excel File
         /// </summary>
         /// <remarks>
-        /// file-excel - Available in Solid, Regular
+        ///     file-excel - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-excel")]
         FileExcel,
 
         /// <summary>
-        /// File Export
+        ///     File Export
         /// </summary>
         /// <remarks>
-        /// file-export - Available in Solid
+        ///     file-export - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-export")]
         FileExport,
 
         /// <summary>
-        /// Image File
+        ///     Image File
         /// </summary>
         /// <remarks>
-        /// file-image - Available in Solid, Regular
+        ///     file-image - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-image")]
         FileImage,
 
         /// <summary>
-        /// File Import
+        ///     File Import
         /// </summary>
         /// <remarks>
-        /// file-import - Available in Solid
+        ///     file-import - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-import")]
         FileImport,
 
         /// <summary>
-        /// File Invoice
+        ///     File Invoice
         /// </summary>
         /// <remarks>
-        /// file-invoice - Available in Solid
+        ///     file-invoice - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-invoice")]
         FileInvoice,
 
         /// <summary>
-        /// File Invoice With US Dollar
+        ///     File Invoice With US Dollar
         /// </summary>
         /// <remarks>
-        /// file-invoice-dollar - Available in Solid
+        ///     file-invoice-dollar - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-invoice-dollar")]
         FileInvoiceDollar,
 
         /// <summary>
-        /// Medical File
+        ///     Medical File
         /// </summary>
         /// <remarks>
-        /// file-medical - Available in Solid
+        ///     file-medical - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-medical")]
         FileMedical,
 
         /// <summary>
-        /// Alternate Medical File
+        ///     Alternate Medical File
         /// </summary>
         /// <remarks>
-        /// file-medical-alt - Available in Solid
+        ///     file-medical-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-medical-alt")]
         FileMedicalAlt,
 
         /// <summary>
-        /// PDF File
+        ///     PDF File
         /// </summary>
         /// <remarks>
-        /// file-pdf - Available in Solid, Regular
+        ///     file-pdf - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-pdf")]
         FilePdf,
 
         /// <summary>
-        /// Powerpoint File
+        ///     Powerpoint File
         /// </summary>
         /// <remarks>
-        /// file-powerpoint - Available in Solid, Regular
+        ///     file-powerpoint - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-powerpoint")]
         FilePowerpoint,
 
         /// <summary>
-        /// File Prescription
+        ///     File Prescription
         /// </summary>
         /// <remarks>
-        /// file-prescription - Available in Solid
+        ///     file-prescription - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-prescription")]
         FilePrescription,
 
         /// <summary>
-        /// File Signature
+        ///     File Signature
         /// </summary>
         /// <remarks>
-        /// file-signature - Available in Solid
+        ///     file-signature - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-signature")]
         FileSignature,
 
         /// <summary>
-        /// File Upload
+        ///     File Upload
         /// </summary>
         /// <remarks>
-        /// file-upload - Available in Solid
+        ///     file-upload - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-upload")]
         FileUpload,
 
         /// <summary>
-        /// Video File
+        ///     Video File
         /// </summary>
         /// <remarks>
-        /// file-video - Available in Solid, Regular
+        ///     file-video - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-video")]
         FileVideo,
 
         /// <summary>
-        /// Word File
+        ///     Word File
         /// </summary>
         /// <remarks>
-        /// file-word - Available in Solid, Regular
+        ///     file-word - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-word")]
         FileWord,
 
         /// <summary>
-        /// Fill
+        ///     Fill
         /// </summary>
         /// <remarks>
-        /// fill - Available in Solid
+        ///     fill - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "fill")]
-        Fill,
+        [FontAwesome(IconStyle.Solid, "fill")] Fill,
 
         /// <summary>
-        /// Fill Drip
+        ///     Fill Drip
         /// </summary>
         /// <remarks>
-        /// fill-drip - Available in Solid
+        ///     fill-drip - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "fill-drip")]
         FillDrip,
 
         /// <summary>
-        /// Film
+        ///     Film
         /// </summary>
         /// <remarks>
-        /// film - Available in Solid
+        ///     film - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "film")]
-        Film,
+        [FontAwesome(IconStyle.Solid, "film")] Film,
 
         /// <summary>
-        /// Filter
+        ///     Filter
         /// </summary>
         /// <remarks>
-        /// filter - Available in Solid
+        ///     filter - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "filter")]
         Filter,
 
         /// <summary>
-        /// Fingerprint
+        ///     Fingerprint
         /// </summary>
         /// <remarks>
-        /// fingerprint - Available in Solid
+        ///     fingerprint - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "fingerprint")]
         Fingerprint,
 
         /// <summary>
-        /// Fire
+        ///     Fire
         /// </summary>
         /// <remarks>
-        /// fire - Available in Solid
+        ///     fire - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "fire")]
-        Fire,
+        [FontAwesome(IconStyle.Solid, "fire")] Fire,
 
         /// <summary>
-        /// Alternate Fire
+        ///     Alternate Fire
         /// </summary>
         /// <remarks>
-        /// fire-alt - Available in Solid
+        ///     fire-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "fire-alt")]
         FireAlt,
 
         /// <summary>
-        /// Fire Extinguisher
+        ///     Fire Extinguisher
         /// </summary>
         /// <remarks>
-        /// fire-extinguisher - Available in Solid
+        ///     fire-extinguisher - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "fire-extinguisher")]
         FireExtinguisher,
 
         /// <summary>
-        /// First Aid
+        ///     First Aid
         /// </summary>
         /// <remarks>
-        /// first-aid - Available in Solid
+        ///     first-aid - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "first-aid")]
         FirstAid,
 
         /// <summary>
-        /// Fish
+        ///     Fish
         /// </summary>
         /// <remarks>
-        /// fish - Available in Solid
+        ///     fish - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "fish")]
-        Fish,
+        [FontAwesome(IconStyle.Solid, "fish")] Fish,
 
         /// <summary>
-        /// Raised Fist
+        ///     Raised Fist
         /// </summary>
         /// <remarks>
-        /// fist-raised - Available in Solid
+        ///     fist-raised - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "fist-raised")]
         FistRaised,
 
         /// <summary>
-        /// Flag
+        ///     Flag
         /// </summary>
         /// <remarks>
-        /// flag - Available in Solid, Regular
+        ///     flag - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "flag")]
-        Flag,
+        [FontAwesome(IconStyle.Solid, "flag")] Flag,
 
         /// <summary>
-        /// Flag Checkered
+        ///     Flag Checkered
         /// </summary>
         /// <remarks>
-        /// flag-checkered - Available in Solid
+        ///     flag-checkered - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "flag-checkered")]
         FlagCheckered,
 
         /// <summary>
-        /// United States of America Flag
+        ///     United States of America Flag
         /// </summary>
         /// <remarks>
-        /// flag-usa - Available in Solid
+        ///     flag-usa - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "flag-usa")]
         FlagUsa,
 
         /// <summary>
-        /// Flask
+        ///     Flask
         /// </summary>
         /// <remarks>
-        /// flask - Available in Solid
+        ///     flask - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "flask")]
         Flask,
 
         /// <summary>
-        /// Flushed Face
+        ///     Flushed Face
         /// </summary>
         /// <remarks>
-        /// flushed - Available in Solid, Regular
+        ///     flushed - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "flushed")]
         Flushed,
 
         /// <summary>
-        /// Folder
+        ///     Folder
         /// </summary>
         /// <remarks>
-        /// folder - Available in Solid, Regular
+        ///     folder - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "folder")]
         Folder,
 
         /// <summary>
-        /// Folder Minus
+        ///     Folder Minus
         /// </summary>
         /// <remarks>
-        /// folder-minus - Available in Solid
+        ///     folder-minus - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "folder-minus")]
         FolderMinus,
 
         /// <summary>
-        /// Folder Open
+        ///     Folder Open
         /// </summary>
         /// <remarks>
-        /// folder-open - Available in Solid, Regular
+        ///     folder-open - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "folder-open")]
         FolderOpen,
 
         /// <summary>
-        /// Folder Plus
+        ///     Folder Plus
         /// </summary>
         /// <remarks>
-        /// folder-plus - Available in Solid
+        ///     folder-plus - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "folder-plus")]
         FolderPlus,
 
         /// <summary>
-        /// Font
+        ///     Font
         /// </summary>
         /// <remarks>
-        /// font - Available in Solid
+        ///     font - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "font")]
-        Font,
+        [FontAwesome(IconStyle.Solid, "font")] Font,
 
         /// <summary>
-        /// Font Awesome Full Logo
+        ///     Font Awesome Full Logo
         /// </summary>
         /// <remarks>
-        /// font-awesome-logo-full - Available in Regular, Solid, Brands
+        ///     font-awesome-logo-full - Available in Regular, Solid, Brands
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "font-awesome-logo-full")]
         FontAwesomeLogoFull,
 
         /// <summary>
-        /// Football Ball
+        ///     Football Ball
         /// </summary>
         /// <remarks>
-        /// football-ball - Available in Solid
+        ///     football-ball - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "football-ball")]
         FootballBall,
 
         /// <summary>
-        /// Forward
+        ///     Forward
         /// </summary>
         /// <remarks>
-        /// forward - Available in Solid
+        ///     forward - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "forward")]
         Forward,
 
         /// <summary>
-        /// Frog
+        ///     Frog
         /// </summary>
         /// <remarks>
-        /// frog - Available in Solid
+        ///     frog - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "frog")]
-        Frog,
+        [FontAwesome(IconStyle.Solid, "frog")] Frog,
 
         /// <summary>
-        /// Frowning Face
+        ///     Frowning Face
         /// </summary>
         /// <remarks>
-        /// frown - Available in Solid, Regular
+        ///     frown - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "frown")]
         Frown,
 
         /// <summary>
-        /// Frowning Face With Open Mouth
+        ///     Frowning Face With Open Mouth
         /// </summary>
         /// <remarks>
-        /// frown-open - Available in Solid, Regular
+        ///     frown-open - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "frown-open")]
         FrownOpen,
 
         /// <summary>
-        /// Funnel Dollar
+        ///     Funnel Dollar
         /// </summary>
         /// <remarks>
-        /// funnel-dollar - Available in Solid
+        ///     funnel-dollar - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "funnel-dollar")]
         FunnelDollar,
 
         /// <summary>
-        /// Futbol
+        ///     Futbol
         /// </summary>
         /// <remarks>
-        /// futbol - Available in Solid, Regular
+        ///     futbol - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "futbol")]
         Futbol,
 
         /// <summary>
-        /// Gamepad
+        ///     Gamepad
         /// </summary>
         /// <remarks>
-        /// gamepad - Available in Solid
+        ///     gamepad - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "gamepad")]
         Gamepad,
 
         /// <summary>
-        /// Gas Pump
+        ///     Gas Pump
         /// </summary>
         /// <remarks>
-        /// gas-pump - Available in Solid
+        ///     gas-pump - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "gas-pump")]
         GasPump,
 
         /// <summary>
-        /// Gavel
+        ///     Gavel
         /// </summary>
         /// <remarks>
-        /// gavel - Available in Solid
+        ///     gavel - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "gavel")]
         Gavel,
 
         /// <summary>
-        /// Gem
+        ///     Gem
         /// </summary>
         /// <remarks>
-        /// gem - Available in Solid, Regular
+        ///     gem - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "gem")]
-        Gem,
+        [FontAwesome(IconStyle.Solid, "gem")] Gem,
 
         /// <summary>
-        /// Genderless
+        ///     Genderless
         /// </summary>
         /// <remarks>
-        /// genderless - Available in Solid
+        ///     genderless - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "genderless")]
         Genderless,
 
         /// <summary>
-        /// Ghost
+        ///     Ghost
         /// </summary>
         /// <remarks>
-        /// ghost - Available in Solid
+        ///     ghost - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "ghost")]
         Ghost,
 
         /// <summary>
-        /// Gift
+        ///     Gift
         /// </summary>
         /// <remarks>
-        /// gift - Available in Solid
+        ///     gift - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "gift")]
-        Gift,
+        [FontAwesome(IconStyle.Solid, "gift")] Gift,
 
         /// <summary>
-        /// Gifts
+        ///     Gifts
         /// </summary>
         /// <remarks>
-        /// gifts - Available in Solid
+        ///     gifts - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "gifts")]
         Gifts,
 
         /// <summary>
-        /// Glass Cheers
+        ///     Glass Cheers
         /// </summary>
         /// <remarks>
-        /// glass-cheers - Available in Solid
+        ///     glass-cheers - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "glass-cheers")]
         GlassCheers,
 
         /// <summary>
-        /// Martini Glass
+        ///     Martini Glass
         /// </summary>
         /// <remarks>
-        /// glass-martini - Available in Solid
+        ///     glass-martini - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "glass-martini")]
         GlassMartini,
 
         /// <summary>
-        /// Alternate Glass Martini
+        ///     Alternate Glass Martini
         /// </summary>
         /// <remarks>
-        /// glass-martini-alt - Available in Solid
+        ///     glass-martini-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "glass-martini-alt")]
         GlassMartiniAlt,
 
         /// <summary>
-        /// Glass Whiskey
+        ///     Glass Whiskey
         /// </summary>
         /// <remarks>
-        /// glass-whiskey - Available in Solid
+        ///     glass-whiskey - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "glass-whiskey")]
         GlassWhiskey,
 
         /// <summary>
-        /// Glasses
+        ///     Glasses
         /// </summary>
         /// <remarks>
-        /// glasses - Available in Solid
+        ///     glasses - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "glasses")]
         Glasses,
 
         /// <summary>
-        /// Globe
+        ///     Globe
         /// </summary>
         /// <remarks>
-        /// globe - Available in Solid
+        ///     globe - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "globe")]
         Globe,
 
         /// <summary>
-        /// Globe With Africa Shown
+        ///     Globe With Africa Shown
         /// </summary>
         /// <remarks>
-        /// globe-africa - Available in Solid
+        ///     globe-africa - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "globe-africa")]
         GlobeAfrica,
 
         /// <summary>
-        /// Globe With Americas Shown
+        ///     Globe With Americas Shown
         /// </summary>
         /// <remarks>
-        /// globe-americas - Available in Solid
+        ///     globe-americas - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "globe-americas")]
         GlobeAmericas,
 
         /// <summary>
-        /// Globe With Asia Shown
+        ///     Globe With Asia Shown
         /// </summary>
         /// <remarks>
-        /// globe-asia - Available in Solid
+        ///     globe-asia - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "globe-asia")]
         GlobeAsia,
 
         /// <summary>
-        /// Globe With Europe Shown
+        ///     Globe With Europe Shown
         /// </summary>
         /// <remarks>
-        /// globe-europe - Available in Solid
+        ///     globe-europe - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "globe-europe")]
         GlobeEurope,
 
         /// <summary>
-        /// Golf Ball
+        ///     Golf Ball
         /// </summary>
         /// <remarks>
-        /// golf-ball - Available in Solid
+        ///     golf-ball - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "golf-ball")]
         GolfBall,
 
         /// <summary>
-        /// Gopuram
+        ///     Gopuram
         /// </summary>
         /// <remarks>
-        /// gopuram - Available in Solid
+        ///     gopuram - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "gopuram")]
         Gopuram,
 
         /// <summary>
-        /// Graduation Cap
+        ///     Graduation Cap
         /// </summary>
         /// <remarks>
-        /// graduation-cap - Available in Solid
+        ///     graduation-cap - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "graduation-cap")]
         GraduationCap,
 
         /// <summary>
-        /// Greater Than
+        ///     Greater Than
         /// </summary>
         /// <remarks>
-        /// greater-than - Available in Solid
+        ///     greater-than - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "greater-than")]
         GreaterThan,
 
         /// <summary>
-        /// Greater Than Equal to
+        ///     Greater Than Equal to
         /// </summary>
         /// <remarks>
-        /// greater-than-equal - Available in Solid
+        ///     greater-than-equal - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "greater-than-equal")]
         GreaterThanEqual,
 
         /// <summary>
-        /// Grimacing Face
+        ///     Grimacing Face
         /// </summary>
         /// <remarks>
-        /// grimace - Available in Solid, Regular
+        ///     grimace - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grimace")]
         Grimace,
 
         /// <summary>
-        /// Grinning Face
+        ///     Grinning Face
         /// </summary>
         /// <remarks>
-        /// grin - Available in Solid, Regular
+        ///     grin - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "grin")]
-        Grin,
+        [FontAwesome(IconStyle.Solid, "grin")] Grin,
 
         /// <summary>
-        /// Alternate Grinning Face
+        ///     Alternate Grinning Face
         /// </summary>
         /// <remarks>
-        /// grin-alt - Available in Solid, Regular
+        ///     grin-alt - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grin-alt")]
         GrinAlt,
 
         /// <summary>
-        /// Grinning Face With Smiling Eyes
+        ///     Grinning Face With Smiling Eyes
         /// </summary>
         /// <remarks>
-        /// grin-beam - Available in Solid, Regular
+        ///     grin-beam - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grin-beam")]
         GrinBeam,
 
         /// <summary>
-        /// Grinning Face With Sweat
+        ///     Grinning Face With Sweat
         /// </summary>
         /// <remarks>
-        /// grin-beam-sweat - Available in Solid, Regular
+        ///     grin-beam-sweat - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grin-beam-sweat")]
         GrinBeamSweat,
 
         /// <summary>
-        /// Smiling Face With Heart Eyes
+        ///     Smiling Face With Heart Eyes
         /// </summary>
         /// <remarks>
-        /// grin-hearts - Available in Solid, Regular
+        ///     grin-hearts - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grin-hearts")]
         GrinHearts,
 
         /// <summary>
-        /// Grinning Squinting Face
+        ///     Grinning Squinting Face
         /// </summary>
         /// <remarks>
-        /// grin-squint - Available in Solid, Regular
+        ///     grin-squint - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grin-squint")]
         GrinSquint,
 
         /// <summary>
-        /// Rolling on the Floor Laughing
+        ///     Rolling on the Floor Laughing
         /// </summary>
         /// <remarks>
-        /// grin-squint-tears - Available in Solid, Regular
+        ///     grin-squint-tears - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grin-squint-tears")]
         GrinSquintTears,
 
         /// <summary>
-        /// Star Struck
+        ///     Star Struck
         /// </summary>
         /// <remarks>
-        /// grin-stars - Available in Solid, Regular
+        ///     grin-stars - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grin-stars")]
         GrinStars,
 
         /// <summary>
-        /// Face With Tears of Joy
+        ///     Face With Tears of Joy
         /// </summary>
         /// <remarks>
-        /// grin-tears - Available in Solid, Regular
+        ///     grin-tears - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grin-tears")]
         GrinTears,
 
         /// <summary>
-        /// Face With Tongue
+        ///     Face With Tongue
         /// </summary>
         /// <remarks>
-        /// grin-tongue - Available in Solid, Regular
+        ///     grin-tongue - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grin-tongue")]
         GrinTongue,
 
         /// <summary>
-        /// Squinting Face With Tongue
+        ///     Squinting Face With Tongue
         /// </summary>
         /// <remarks>
-        /// grin-tongue-squint - Available in Solid, Regular
+        ///     grin-tongue-squint - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grin-tongue-squint")]
         GrinTongueSquint,
 
         /// <summary>
-        /// Winking Face With Tongue
+        ///     Winking Face With Tongue
         /// </summary>
         /// <remarks>
-        /// grin-tongue-wink - Available in Solid, Regular
+        ///     grin-tongue-wink - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grin-tongue-wink")]
         GrinTongueWink,
 
         /// <summary>
-        /// Grinning Winking Face
+        ///     Grinning Winking Face
         /// </summary>
         /// <remarks>
-        /// grin-wink - Available in Solid, Regular
+        ///     grin-wink - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grin-wink")]
         GrinWink,
 
         /// <summary>
-        /// Grip Horizontal
+        ///     Grip Horizontal
         /// </summary>
         /// <remarks>
-        /// grip-horizontal - Available in Solid
+        ///     grip-horizontal - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grip-horizontal")]
         GripHorizontal,
 
         /// <summary>
-        /// Grip Lines
+        ///     Grip Lines
         /// </summary>
         /// <remarks>
-        /// grip-lines - Available in Solid
+        ///     grip-lines - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grip-lines")]
         GripLines,
 
         /// <summary>
-        /// Grip Lines Vertical
+        ///     Grip Lines Vertical
         /// </summary>
         /// <remarks>
-        /// grip-lines-vertical - Available in Solid
+        ///     grip-lines-vertical - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grip-lines-vertical")]
         GripLinesVertical,
 
         /// <summary>
-        /// Grip Vertical
+        ///     Grip Vertical
         /// </summary>
         /// <remarks>
-        /// grip-vertical - Available in Solid
+        ///     grip-vertical - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grip-vertical")]
         GripVertical,
 
         /// <summary>
-        /// Guitar
+        ///     Guitar
         /// </summary>
         /// <remarks>
-        /// guitar - Available in Solid
+        ///     guitar - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "guitar")]
         Guitar,
 
         /// <summary>
-        /// H Square
+        ///     H Square
         /// </summary>
         /// <remarks>
-        /// h-square - Available in Solid
+        ///     h-square - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "h-square")]
         HSquare,
 
         /// <summary>
-        /// Hamburger
+        ///     Hamburger
         /// </summary>
         /// <remarks>
-        /// hamburger - Available in Solid
+        ///     hamburger - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hamburger")]
         Hamburger,
 
         /// <summary>
-        /// Hammer
+        ///     Hammer
         /// </summary>
         /// <remarks>
-        /// hammer - Available in Solid
+        ///     hammer - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hammer")]
         Hammer,
 
         /// <summary>
-        /// Hamsa
+        ///     Hamsa
         /// </summary>
         /// <remarks>
-        /// hamsa - Available in Solid
+        ///     hamsa - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hamsa")]
         Hamsa,
 
         /// <summary>
-        /// Hand Holding
+        ///     Hand Holding
         /// </summary>
         /// <remarks>
-        /// hand-holding - Available in Solid
+        ///     hand-holding - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-holding")]
         HandHolding,
 
         /// <summary>
-        /// Hand Holding Heart
+        ///     Hand Holding Heart
         /// </summary>
         /// <remarks>
-        /// hand-holding-heart - Available in Solid
+        ///     hand-holding-heart - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-holding-heart")]
         HandHoldingHeart,
 
         /// <summary>
-        /// Hand Holding Medical Cross
+        ///     Hand Holding Medical Cross
         /// </summary>
         /// <remarks>
-        /// hand-holding-medical - Available in Solid
+        ///     hand-holding-medical - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-holding-medical")]
         HandHoldingMedical,
 
         /// <summary>
-        /// Hand Holding US Dollar
+        ///     Hand Holding US Dollar
         /// </summary>
         /// <remarks>
-        /// hand-holding-usd - Available in Solid
+        ///     hand-holding-usd - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-holding-usd")]
         HandHoldingUsd,
 
         /// <summary>
-        /// Hand Holding Water
+        ///     Hand Holding Water
         /// </summary>
         /// <remarks>
-        /// hand-holding-water - Available in Solid
+        ///     hand-holding-water - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-holding-water")]
         HandHoldingWater,
 
         /// <summary>
-        /// Lizard Hand
+        ///     Lizard Hand
         /// </summary>
         /// <remarks>
-        /// hand-lizard - Available in Solid, Regular
+        ///     hand-lizard - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-lizard")]
         HandLizard,
 
         /// <summary>
-        /// Hand With Middle Finger Raised
+        ///     Hand With Middle Finger Raised
         /// </summary>
         /// <remarks>
-        /// hand-middle-finger - Available in Solid
+        ///     hand-middle-finger - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-middle-finger")]
         HandMiddleFinger,
 
         /// <summary>
-        /// Paper Hand
+        ///     Paper Hand
         /// </summary>
         /// <remarks>
-        /// hand-paper - Available in Solid, Regular
+        ///     hand-paper - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-paper")]
         HandPaper,
 
         /// <summary>
-        /// Peace Hand
+        ///     Peace Hand
         /// </summary>
         /// <remarks>
-        /// hand-peace - Available in Solid, Regular
+        ///     hand-peace - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-peace")]
         HandPeace,
 
         /// <summary>
-        /// Hand Pointing Down
+        ///     Hand Pointing Down
         /// </summary>
         /// <remarks>
-        /// hand-point-down - Available in Solid, Regular
+        ///     hand-point-down - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-point-down")]
         HandPointDown,
 
         /// <summary>
-        /// Hand Pointing Left
+        ///     Hand Pointing Left
         /// </summary>
         /// <remarks>
-        /// hand-point-left - Available in Solid, Regular
+        ///     hand-point-left - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-point-left")]
         HandPointLeft,
 
         /// <summary>
-        /// Hand Pointing Right
+        ///     Hand Pointing Right
         /// </summary>
         /// <remarks>
-        /// hand-point-right - Available in Solid, Regular
+        ///     hand-point-right - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-point-right")]
         HandPointRight,
 
         /// <summary>
-        /// Hand Pointing up
+        ///     Hand Pointing up
         /// </summary>
         /// <remarks>
-        /// hand-point-up - Available in Solid, Regular
+        ///     hand-point-up - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-point-up")]
         HandPointUp,
 
         /// <summary>
-        /// Pointer Hand
+        ///     Pointer Hand
         /// </summary>
         /// <remarks>
-        /// hand-pointer - Available in Solid, Regular
+        ///     hand-pointer - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-pointer")]
         HandPointer,
 
         /// <summary>
-        /// Rock Hand
+        ///     Rock Hand
         /// </summary>
         /// <remarks>
-        /// hand-rock - Available in Solid, Regular
+        ///     hand-rock - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-rock")]
         HandRock,
 
         /// <summary>
-        /// Scissors Hand
+        ///     Scissors Hand
         /// </summary>
         /// <remarks>
-        /// hand-scissors - Available in Solid, Regular
+        ///     hand-scissors - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-scissors")]
         HandScissors,
 
         /// <summary>
-        /// Hand Sparkles
+        ///     Hand Sparkles
         /// </summary>
         /// <remarks>
-        /// hand-sparkles - Available in Solid
+        ///     hand-sparkles - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-sparkles")]
         HandSparkles,
 
         /// <summary>
-        /// Spock Hand
+        ///     Spock Hand
         /// </summary>
         /// <remarks>
-        /// hand-spock - Available in Solid, Regular
+        ///     hand-spock - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hand-spock")]
         HandSpock,
 
         /// <summary>
-        /// Hands
+        ///     Hands
         /// </summary>
         /// <remarks>
-        /// hands - Available in Solid
+        ///     hands - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hands")]
         Hands,
 
         /// <summary>
-        /// Helping Hands
+        ///     Helping Hands
         /// </summary>
         /// <remarks>
-        /// hands-helping - Available in Solid
+        ///     hands-helping - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hands-helping")]
         HandsHelping,
 
         /// <summary>
-        /// Hands Wash
+        ///     Hands Wash
         /// </summary>
         /// <remarks>
-        /// hands-wash - Available in Solid
+        ///     hands-wash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hands-wash")]
         HandsWash,
 
         /// <summary>
-        /// Handshake
+        ///     Handshake
         /// </summary>
         /// <remarks>
-        /// handshake - Available in Solid, Regular
+        ///     handshake - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "handshake")]
         Handshake,
 
         /// <summary>
-        /// Handshake Alternate Slash
+        ///     Handshake Alternate Slash
         /// </summary>
         /// <remarks>
-        /// handshake-alt-slash - Available in Solid
+        ///     handshake-alt-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "handshake-alt-slash")]
         HandshakeAltSlash,
 
         /// <summary>
-        /// Handshake Slash
+        ///     Handshake Slash
         /// </summary>
         /// <remarks>
-        /// handshake-slash - Available in Solid
+        ///     handshake-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "handshake-slash")]
         HandshakeSlash,
 
         /// <summary>
-        /// Hanukiah
+        ///     Hanukiah
         /// </summary>
         /// <remarks>
-        /// hanukiah - Available in Solid
+        ///     hanukiah - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hanukiah")]
         Hanukiah,
 
         /// <summary>
-        /// Hard Hat
+        ///     Hard Hat
         /// </summary>
         /// <remarks>
-        /// hard-hat - Available in Solid
+        ///     hard-hat - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hard-hat")]
         HardHat,
 
         /// <summary>
-        /// Hashtag
+        ///     Hashtag
         /// </summary>
         /// <remarks>
-        /// hashtag - Available in Solid
+        ///     hashtag - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hashtag")]
         Hashtag,
 
         /// <summary>
-        /// Cowboy Hat
+        ///     Cowboy Hat
         /// </summary>
         /// <remarks>
-        /// hat-cowboy - Available in Solid
+        ///     hat-cowboy - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hat-cowboy")]
         HatCowboy,
 
         /// <summary>
-        /// Cowboy Hat Side
+        ///     Cowboy Hat Side
         /// </summary>
         /// <remarks>
-        /// hat-cowboy-side - Available in Solid
+        ///     hat-cowboy-side - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hat-cowboy-side")]
         HatCowboySide,
 
         /// <summary>
-        /// Wizard S Hat
+        ///     Wizard S Hat
         /// </summary>
         /// <remarks>
-        /// hat-wizard - Available in Solid
+        ///     hat-wizard - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hat-wizard")]
         HatWizard,
 
         /// <summary>
-        /// HDD
+        ///     HDD
         /// </summary>
         /// <remarks>
-        /// hdd - Available in Solid, Regular
+        ///     hdd - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "hdd")]
-        Hdd,
+        [FontAwesome(IconStyle.Solid, "hdd")] Hdd,
 
         /// <summary>
-        /// Head Side Cough
+        ///     Head Side Cough
         /// </summary>
         /// <remarks>
-        /// head-side-cough - Available in Solid
+        ///     head-side-cough - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "head-side-cough")]
         HeadSideCough,
 
         /// <summary>
-        /// Head Side Cough Slash
+        ///     Head Side Cough Slash
         /// </summary>
         /// <remarks>
-        /// head-side-cough-slash - Available in Solid
+        ///     head-side-cough-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "head-side-cough-slash")]
         HeadSideCoughSlash,
 
         /// <summary>
-        /// Head Side Mask
+        ///     Head Side Mask
         /// </summary>
         /// <remarks>
-        /// head-side-mask - Available in Solid
+        ///     head-side-mask - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "head-side-mask")]
         HeadSideMask,
 
         /// <summary>
-        /// Head Side Virus
+        ///     Head Side Virus
         /// </summary>
         /// <remarks>
-        /// head-side-virus - Available in Solid
+        ///     head-side-virus - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "head-side-virus")]
         HeadSideVirus,
 
         /// <summary>
-        /// Heading
+        ///     Heading
         /// </summary>
         /// <remarks>
-        /// heading - Available in Solid
+        ///     heading - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "heading")]
         Heading,
 
         /// <summary>
-        /// Headphones
+        ///     Headphones
         /// </summary>
         /// <remarks>
-        /// headphones - Available in Solid
+        ///     headphones - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "headphones")]
         Headphones,
 
         /// <summary>
-        /// Alternate Headphones
+        ///     Alternate Headphones
         /// </summary>
         /// <remarks>
-        /// headphones-alt - Available in Solid
+        ///     headphones-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "headphones-alt")]
         HeadphonesAlt,
 
         /// <summary>
-        /// Headset
+        ///     Headset
         /// </summary>
         /// <remarks>
-        /// headset - Available in Solid
+        ///     headset - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "headset")]
         Headset,
 
         /// <summary>
-        /// Heart
+        ///     Heart
         /// </summary>
         /// <remarks>
-        /// heart - Available in Solid, Regular
+        ///     heart - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "heart")]
         Heart,
 
         /// <summary>
-        /// Heart Broken
+        ///     Heart Broken
         /// </summary>
         /// <remarks>
-        /// heart-broken - Available in Solid
+        ///     heart-broken - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "heart-broken")]
         HeartBroken,
 
         /// <summary>
-        /// Heartbeat
+        ///     Heartbeat
         /// </summary>
         /// <remarks>
-        /// heartbeat - Available in Solid
+        ///     heartbeat - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "heartbeat")]
         Heartbeat,
 
         /// <summary>
-        /// Helicopter
+        ///     Helicopter
         /// </summary>
         /// <remarks>
-        /// helicopter - Available in Solid
+        ///     helicopter - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "helicopter")]
         Helicopter,
 
         /// <summary>
-        /// Highlighter
+        ///     Highlighter
         /// </summary>
         /// <remarks>
-        /// highlighter - Available in Solid
+        ///     highlighter - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "highlighter")]
         Highlighter,
 
         /// <summary>
-        /// Hiking
+        ///     Hiking
         /// </summary>
         /// <remarks>
-        /// hiking - Available in Solid
+        ///     hiking - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hiking")]
         Hiking,
 
         /// <summary>
-        /// Hippo
+        ///     Hippo
         /// </summary>
         /// <remarks>
-        /// hippo - Available in Solid
+        ///     hippo - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hippo")]
         Hippo,
 
         /// <summary>
-        /// History
+        ///     History
         /// </summary>
         /// <remarks>
-        /// history - Available in Solid
+        ///     history - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "history")]
         History,
 
         /// <summary>
-        /// Hockey Puck
+        ///     Hockey Puck
         /// </summary>
         /// <remarks>
-        /// hockey-puck - Available in Solid
+        ///     hockey-puck - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hockey-puck")]
         HockeyPuck,
 
         /// <summary>
-        /// Holly Berry
+        ///     Holly Berry
         /// </summary>
         /// <remarks>
-        /// holly-berry - Available in Solid
+        ///     holly-berry - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "holly-berry")]
         HollyBerry,
 
         /// <summary>
-        /// Home
+        ///     Home
         /// </summary>
         /// <remarks>
-        /// home - Available in Solid
+        ///     home - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "home")]
-        Home,
+        [FontAwesome(IconStyle.Solid, "home")] Home,
 
         /// <summary>
-        /// Horse
+        ///     Horse
         /// </summary>
         /// <remarks>
-        /// horse - Available in Solid
+        ///     horse - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "horse")]
         Horse,
 
         /// <summary>
-        /// Horse Head
+        ///     Horse Head
         /// </summary>
         /// <remarks>
-        /// horse-head - Available in Solid
+        ///     horse-head - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "horse-head")]
         HorseHead,
 
         /// <summary>
-        /// Hospital
+        ///     Hospital
         /// </summary>
         /// <remarks>
-        /// hospital - Available in Solid, Regular
+        ///     hospital - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hospital")]
         Hospital,
 
         /// <summary>
-        /// Alternate Hospital
+        ///     Alternate Hospital
         /// </summary>
         /// <remarks>
-        /// hospital-alt - Available in Solid
+        ///     hospital-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hospital-alt")]
         HospitalAlt,
 
         /// <summary>
-        /// Hospital Symbol
+        ///     Hospital Symbol
         /// </summary>
         /// <remarks>
-        /// hospital-symbol - Available in Solid
+        ///     hospital-symbol - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hospital-symbol")]
         HospitalSymbol,
 
         /// <summary>
-        /// Hospital With User
+        ///     Hospital With User
         /// </summary>
         /// <remarks>
-        /// hospital-user - Available in Solid
+        ///     hospital-user - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hospital-user")]
         HospitalUser,
 
         /// <summary>
-        /// Hot Tub
+        ///     Hot Tub
         /// </summary>
         /// <remarks>
-        /// hot-tub - Available in Solid
+        ///     hot-tub - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hot-tub")]
         HotTub,
 
         /// <summary>
-        /// Hot Dog
+        ///     Hot Dog
         /// </summary>
         /// <remarks>
-        /// hotdog - Available in Solid
+        ///     hotdog - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hotdog")]
         Hotdog,
 
         /// <summary>
-        /// Hotel
+        ///     Hotel
         /// </summary>
         /// <remarks>
-        /// hotel - Available in Solid
+        ///     hotel - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hotel")]
         Hotel,
 
         /// <summary>
-        /// Hourglass
+        ///     Hourglass
         /// </summary>
         /// <remarks>
-        /// hourglass - Available in Solid, Regular
+        ///     hourglass - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hourglass")]
         Hourglass,
 
         /// <summary>
-        /// Hourglass End
+        ///     Hourglass End
         /// </summary>
         /// <remarks>
-        /// hourglass-end - Available in Solid
+        ///     hourglass-end - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hourglass-end")]
         HourglassEnd,
 
         /// <summary>
-        /// Hourglass Half
+        ///     Hourglass Half
         /// </summary>
         /// <remarks>
-        /// hourglass-half - Available in Solid
+        ///     hourglass-half - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hourglass-half")]
         HourglassHalf,
 
         /// <summary>
-        /// Hourglass Start
+        ///     Hourglass Start
         /// </summary>
         /// <remarks>
-        /// hourglass-start - Available in Solid
+        ///     hourglass-start - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hourglass-start")]
         HourglassStart,
 
         /// <summary>
-        /// Damaged House
+        ///     Damaged House
         /// </summary>
         /// <remarks>
-        /// house-damage - Available in Solid
+        ///     house-damage - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "house-damage")]
         HouseDamage,
 
         /// <summary>
-        /// House User
+        ///     House User
         /// </summary>
         /// <remarks>
-        /// house-user - Available in Solid
+        ///     house-user - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "house-user")]
         HouseUser,
 
         /// <summary>
-        /// Hryvnia
+        ///     Hryvnia
         /// </summary>
         /// <remarks>
-        /// hryvnia - Available in Solid
+        ///     hryvnia - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hryvnia")]
         Hryvnia,
 
         /// <summary>
-        /// I Beam Cursor
+        ///     I Beam Cursor
         /// </summary>
         /// <remarks>
-        /// i-cursor - Available in Solid
+        ///     i-cursor - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "i-cursor")]
         ICursor,
 
         /// <summary>
-        /// Ice Cream
+        ///     Ice Cream
         /// </summary>
         /// <remarks>
-        /// ice-cream - Available in Solid
+        ///     ice-cream - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "ice-cream")]
         IceCream,
 
         /// <summary>
-        /// Icicles
+        ///     Icicles
         /// </summary>
         /// <remarks>
-        /// icicles - Available in Solid
+        ///     icicles - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "icicles")]
         Icicles,
 
         /// <summary>
-        /// Icons
+        ///     Icons
         /// </summary>
         /// <remarks>
-        /// icons - Available in Solid
+        ///     icons - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "icons")]
         Icons,
 
         /// <summary>
-        /// Identification Badge
+        ///     Identification Badge
         /// </summary>
         /// <remarks>
-        /// id-badge - Available in Solid, Regular
+        ///     id-badge - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "id-badge")]
         IdBadge,
 
         /// <summary>
-        /// Identification Card
+        ///     Identification Card
         /// </summary>
         /// <remarks>
-        /// id-card - Available in Solid, Regular
+        ///     id-card - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "id-card")]
         IdCard,
 
         /// <summary>
-        /// Alternate Identification Card
+        ///     Alternate Identification Card
         /// </summary>
         /// <remarks>
-        /// id-card-alt - Available in Solid
+        ///     id-card-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "id-card-alt")]
         IdCardAlt,
 
         /// <summary>
-        /// Igloo
+        ///     Igloo
         /// </summary>
         /// <remarks>
-        /// igloo - Available in Solid
+        ///     igloo - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "igloo")]
         Igloo,
 
         /// <summary>
-        /// Image
+        ///     Image
         /// </summary>
         /// <remarks>
-        /// image - Available in Solid, Regular
+        ///     image - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "image")]
         Image,
 
         /// <summary>
-        /// Images
+        ///     Images
         /// </summary>
         /// <remarks>
-        /// images - Available in Solid, Regular
+        ///     images - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "images")]
         Images,
 
         /// <summary>
-        /// Inbox
+        ///     Inbox
         /// </summary>
         /// <remarks>
-        /// inbox - Available in Solid
+        ///     inbox - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "inbox")]
         Inbox,
 
         /// <summary>
-        /// Indent
+        ///     Indent
         /// </summary>
         /// <remarks>
-        /// indent - Available in Solid
+        ///     indent - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "indent")]
         Indent,
 
         /// <summary>
-        /// Industry
+        ///     Industry
         /// </summary>
         /// <remarks>
-        /// industry - Available in Solid
+        ///     industry - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "industry")]
         Industry,
 
         /// <summary>
-        /// Infinity
+        ///     Infinity
         /// </summary>
         /// <remarks>
-        /// infinity - Available in Solid
+        ///     infinity - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "infinity")]
         Infinity,
 
         /// <summary>
-        /// Info
+        ///     Info
         /// </summary>
         /// <remarks>
-        /// info - Available in Solid
+        ///     info - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "info")]
-        Info,
+        [FontAwesome(IconStyle.Solid, "info")] Info,
 
         /// <summary>
-        /// Info Circle
+        ///     Info Circle
         /// </summary>
         /// <remarks>
-        /// info-circle - Available in Solid
+        ///     info-circle - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "info-circle")]
         InfoCircle,
 
         /// <summary>
-        /// Italic
+        ///     Italic
         /// </summary>
         /// <remarks>
-        /// italic - Available in Solid
+        ///     italic - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "italic")]
         Italic,
 
         /// <summary>
-        /// Jedi
+        ///     Jedi
         /// </summary>
         /// <remarks>
-        /// jedi - Available in Solid
+        ///     jedi - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "jedi")]
-        Jedi,
+        [FontAwesome(IconStyle.Solid, "jedi")] Jedi,
 
         /// <summary>
-        /// Joint
+        ///     Joint
         /// </summary>
         /// <remarks>
-        /// joint - Available in Solid
+        ///     joint - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "joint")]
         Joint,
 
         /// <summary>
-        /// Journal of the Whills
+        ///     Journal of the Whills
         /// </summary>
         /// <remarks>
-        /// journal-whills - Available in Solid
+        ///     journal-whills - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "journal-whills")]
         JournalWhills,
 
         /// <summary>
-        /// Kaaba
+        ///     Kaaba
         /// </summary>
         /// <remarks>
-        /// kaaba - Available in Solid
+        ///     kaaba - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "kaaba")]
         Kaaba,
 
         /// <summary>
-        /// Key
+        ///     Key
         /// </summary>
         /// <remarks>
-        /// key - Available in Solid
+        ///     key - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "key")]
-        Key,
+        [FontAwesome(IconStyle.Solid, "key")] Key,
 
         /// <summary>
-        /// Keyboard
+        ///     Keyboard
         /// </summary>
         /// <remarks>
-        /// keyboard - Available in Solid, Regular
+        ///     keyboard - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "keyboard")]
         Keyboard,
 
         /// <summary>
-        /// Khanda
+        ///     Khanda
         /// </summary>
         /// <remarks>
-        /// khanda - Available in Solid
+        ///     khanda - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "khanda")]
         Khanda,
 
         /// <summary>
-        /// Kissing Face
+        ///     Kissing Face
         /// </summary>
         /// <remarks>
-        /// kiss - Available in Solid, Regular
+        ///     kiss - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "kiss")]
-        Kiss,
+        [FontAwesome(IconStyle.Solid, "kiss")] Kiss,
 
         /// <summary>
-        /// Kissing Face With Smiling Eyes
+        ///     Kissing Face With Smiling Eyes
         /// </summary>
         /// <remarks>
-        /// kiss-beam - Available in Solid, Regular
+        ///     kiss-beam - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "kiss-beam")]
         KissBeam,
 
         /// <summary>
-        /// Face Blowing a Kiss
+        ///     Face Blowing a Kiss
         /// </summary>
         /// <remarks>
-        /// kiss-wink-heart - Available in Solid, Regular
+        ///     kiss-wink-heart - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "kiss-wink-heart")]
         KissWinkHeart,
 
         /// <summary>
-        /// Kiwi Bird
+        ///     Kiwi Bird
         /// </summary>
         /// <remarks>
-        /// kiwi-bird - Available in Solid
+        ///     kiwi-bird - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "kiwi-bird")]
         KiwiBird,
 
         /// <summary>
-        /// Landmark
+        ///     Landmark
         /// </summary>
         /// <remarks>
-        /// landmark - Available in Solid
+        ///     landmark - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "landmark")]
         Landmark,
 
         /// <summary>
-        /// Language
+        ///     Language
         /// </summary>
         /// <remarks>
-        /// language - Available in Solid
+        ///     language - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "language")]
         Language,
 
         /// <summary>
-        /// Laptop
+        ///     Laptop
         /// </summary>
         /// <remarks>
-        /// laptop - Available in Solid
+        ///     laptop - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "laptop")]
         Laptop,
 
         /// <summary>
-        /// Laptop Code
+        ///     Laptop Code
         /// </summary>
         /// <remarks>
-        /// laptop-code - Available in Solid
+        ///     laptop-code - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "laptop-code")]
         LaptopCode,
 
         /// <summary>
-        /// Laptop House
+        ///     Laptop House
         /// </summary>
         /// <remarks>
-        /// laptop-house - Available in Solid
+        ///     laptop-house - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "laptop-house")]
         LaptopHouse,
 
         /// <summary>
-        /// Laptop Medical
+        ///     Laptop Medical
         /// </summary>
         /// <remarks>
-        /// laptop-medical - Available in Solid
+        ///     laptop-medical - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "laptop-medical")]
         LaptopMedical,
 
         /// <summary>
-        /// Grinning Face With Big Eyes
+        ///     Grinning Face With Big Eyes
         /// </summary>
         /// <remarks>
-        /// laugh - Available in Solid, Regular
+        ///     laugh - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "laugh")]
         Laugh,
 
         /// <summary>
-        /// Laugh Face With Beaming Eyes
+        ///     Laugh Face With Beaming Eyes
         /// </summary>
         /// <remarks>
-        /// laugh-beam - Available in Solid, Regular
+        ///     laugh-beam - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "laugh-beam")]
         LaughBeam,
 
         /// <summary>
-        /// Laughing Squinting Face
+        ///     Laughing Squinting Face
         /// </summary>
         /// <remarks>
-        /// laugh-squint - Available in Solid, Regular
+        ///     laugh-squint - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "laugh-squint")]
         LaughSquint,
 
         /// <summary>
-        /// Laughing Winking Face
+        ///     Laughing Winking Face
         /// </summary>
         /// <remarks>
-        /// laugh-wink - Available in Solid, Regular
+        ///     laugh-wink - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "laugh-wink")]
         LaughWink,
 
         /// <summary>
-        /// Layer Group
+        ///     Layer Group
         /// </summary>
         /// <remarks>
-        /// layer-group - Available in Solid
+        ///     layer-group - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "layer-group")]
         LayerGroup,
 
         /// <summary>
-        /// Leaf
+        ///     Leaf
         /// </summary>
         /// <remarks>
-        /// leaf - Available in Solid
+        ///     leaf - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "leaf")]
-        Leaf,
+        [FontAwesome(IconStyle.Solid, "leaf")] Leaf,
 
         /// <summary>
-        /// Lemon
+        ///     Lemon
         /// </summary>
         /// <remarks>
-        /// lemon - Available in Solid, Regular
+        ///     lemon - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "lemon")]
         Lemon,
 
         /// <summary>
-        /// Less Than
+        ///     Less Than
         /// </summary>
         /// <remarks>
-        /// less-than - Available in Solid
+        ///     less-than - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "less-than")]
         LessThan,
 
         /// <summary>
-        /// Less Than Equal to
+        ///     Less Than Equal to
         /// </summary>
         /// <remarks>
-        /// less-than-equal - Available in Solid
+        ///     less-than-equal - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "less-than-equal")]
         LessThanEqual,
 
         /// <summary>
-        /// Alternate Level Down
+        ///     Alternate Level Down
         /// </summary>
         /// <remarks>
-        /// level-down-alt - Available in Solid
+        ///     level-down-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "level-down-alt")]
         LevelDownAlt,
 
         /// <summary>
-        /// Alternate Level up
+        ///     Alternate Level up
         /// </summary>
         /// <remarks>
-        /// level-up-alt - Available in Solid
+        ///     level-up-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "level-up-alt")]
         LevelUpAlt,
 
         /// <summary>
-        /// Life Ring
+        ///     Life Ring
         /// </summary>
         /// <remarks>
-        /// life-ring - Available in Solid, Regular
+        ///     life-ring - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "life-ring")]
         LifeRing,
 
         /// <summary>
-        /// Lightbulb
+        ///     Lightbulb
         /// </summary>
         /// <remarks>
-        /// lightbulb - Available in Solid, Regular
+        ///     lightbulb - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "lightbulb")]
         Lightbulb,
 
         /// <summary>
-        /// Link
+        ///     Link
         /// </summary>
         /// <remarks>
-        /// link - Available in Solid
+        ///     link - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "link")]
-        Link,
+        [FontAwesome(IconStyle.Solid, "link")] Link,
 
         /// <summary>
-        /// Turkish Lira Sign
+        ///     Turkish Lira Sign
         /// </summary>
         /// <remarks>
-        /// lira-sign - Available in Solid
+        ///     lira-sign - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "lira-sign")]
         LiraSign,
 
         /// <summary>
-        /// List
+        ///     List
         /// </summary>
         /// <remarks>
-        /// list - Available in Solid
+        ///     list - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "list")]
-        List,
+        [FontAwesome(IconStyle.Solid, "list")] List,
 
         /// <summary>
-        /// Alternate List
+        ///     Alternate List
         /// </summary>
         /// <remarks>
-        /// list-alt - Available in Solid, Regular
+        ///     list-alt - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "list-alt")]
         ListAlt,
 
         /// <summary>
-        /// List Ol
+        ///     List Ol
         /// </summary>
         /// <remarks>
-        /// list-ol - Available in Solid
+        ///     list-ol - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "list-ol")]
         ListOl,
 
         /// <summary>
-        /// List Ul
+        ///     List Ul
         /// </summary>
         /// <remarks>
-        /// list-ul - Available in Solid
+        ///     list-ul - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "list-ul")]
         ListUl,
 
         /// <summary>
-        /// Location Arrow
+        ///     Location Arrow
         /// </summary>
         /// <remarks>
-        /// location-arrow - Available in Solid
+        ///     location-arrow - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "location-arrow")]
         LocationArrow,
 
         /// <summary>
-        /// Lock
+        ///     Lock
         /// </summary>
         /// <remarks>
-        /// lock - Available in Solid
+        ///     lock - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "lock")]
-        Lock,
+        [FontAwesome(IconStyle.Solid, "lock")] Lock,
 
         /// <summary>
-        /// Lock Open
+        ///     Lock Open
         /// </summary>
         /// <remarks>
-        /// lock-open - Available in Solid
+        ///     lock-open - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "lock-open")]
         LockOpen,
 
         /// <summary>
-        /// Alternate Long Arrow Down
+        ///     Alternate Long Arrow Down
         /// </summary>
         /// <remarks>
-        /// long-arrow-alt-down - Available in Solid
+        ///     long-arrow-alt-down - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "long-arrow-alt-down")]
         LongArrowAltDown,
 
         /// <summary>
-        /// Alternate Long Arrow Left
+        ///     Alternate Long Arrow Left
         /// </summary>
         /// <remarks>
-        /// long-arrow-alt-left - Available in Solid
+        ///     long-arrow-alt-left - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "long-arrow-alt-left")]
         LongArrowAltLeft,
 
         /// <summary>
-        /// Alternate Long Arrow Right
+        ///     Alternate Long Arrow Right
         /// </summary>
         /// <remarks>
-        /// long-arrow-alt-right - Available in Solid
+        ///     long-arrow-alt-right - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "long-arrow-alt-right")]
         LongArrowAltRight,
 
         /// <summary>
-        /// Alternate Long Arrow up
+        ///     Alternate Long Arrow up
         /// </summary>
         /// <remarks>
-        /// long-arrow-alt-up - Available in Solid
+        ///     long-arrow-alt-up - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "long-arrow-alt-up")]
         LongArrowAltUp,
 
         /// <summary>
-        /// Low Vision
+        ///     Low Vision
         /// </summary>
         /// <remarks>
-        /// low-vision - Available in Solid
+        ///     low-vision - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "low-vision")]
         LowVision,
 
         /// <summary>
-        /// Luggage Cart
+        ///     Luggage Cart
         /// </summary>
         /// <remarks>
-        /// luggage-cart - Available in Solid
+        ///     luggage-cart - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "luggage-cart")]
         LuggageCart,
 
         /// <summary>
-        /// Lungs
+        ///     Lungs
         /// </summary>
         /// <remarks>
-        /// lungs - Available in Solid
+        ///     lungs - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "lungs")]
         Lungs,
 
         /// <summary>
-        /// Lungs Virus
+        ///     Lungs Virus
         /// </summary>
         /// <remarks>
-        /// lungs-virus - Available in Solid
+        ///     lungs-virus - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "lungs-virus")]
         LungsVirus,
 
         /// <summary>
-        /// Magic
+        ///     Magic
         /// </summary>
         /// <remarks>
-        /// magic - Available in Solid
+        ///     magic - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "magic")]
         Magic,
 
         /// <summary>
-        /// Magnet
+        ///     Magnet
         /// </summary>
         /// <remarks>
-        /// magnet - Available in Solid
+        ///     magnet - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "magnet")]
         Magnet,
 
         /// <summary>
-        /// Mail Bulk
+        ///     Mail Bulk
         /// </summary>
         /// <remarks>
-        /// mail-bulk - Available in Solid
+        ///     mail-bulk - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "mail-bulk")]
         MailBulk,
 
         /// <summary>
-        /// Male
+        ///     Male
         /// </summary>
         /// <remarks>
-        /// male - Available in Solid
+        ///     male - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "male")]
-        Male,
+        [FontAwesome(IconStyle.Solid, "male")] Male,
 
         /// <summary>
-        /// Map
+        ///     Map
         /// </summary>
         /// <remarks>
-        /// map - Available in Solid, Regular
+        ///     map - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "map")]
-        Map,
+        [FontAwesome(IconStyle.Solid, "map")] Map,
 
         /// <summary>
-        /// Map Marked
+        ///     Map Marked
         /// </summary>
         /// <remarks>
-        /// map-marked - Available in Solid
+        ///     map-marked - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "map-marked")]
         MapMarked,
 
         /// <summary>
-        /// Alternate Map Marked
+        ///     Alternate Map Marked
         /// </summary>
         /// <remarks>
-        /// map-marked-alt - Available in Solid
+        ///     map-marked-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "map-marked-alt")]
         MapMarkedAlt,
 
         /// <summary>
-        /// Map Marker
+        ///     Map Marker
         /// </summary>
         /// <remarks>
-        /// map-marker - Available in Solid
+        ///     map-marker - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "map-marker")]
         MapMarker,
 
         /// <summary>
-        /// Alternate Map Marker
+        ///     Alternate Map Marker
         /// </summary>
         /// <remarks>
-        /// map-marker-alt - Available in Solid
+        ///     map-marker-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "map-marker-alt")]
         MapMarkerAlt,
 
         /// <summary>
-        /// Map Pin
+        ///     Map Pin
         /// </summary>
         /// <remarks>
-        /// map-pin - Available in Solid
+        ///     map-pin - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "map-pin")]
         MapPin,
 
         /// <summary>
-        /// Map Signs
+        ///     Map Signs
         /// </summary>
         /// <remarks>
-        /// map-signs - Available in Solid
+        ///     map-signs - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "map-signs")]
         MapSigns,
 
         /// <summary>
-        /// Marker
+        ///     Marker
         /// </summary>
         /// <remarks>
-        /// marker - Available in Solid
+        ///     marker - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "marker")]
         Marker,
 
         /// <summary>
-        /// Mars
+        ///     Mars
         /// </summary>
         /// <remarks>
-        /// mars - Available in Solid
+        ///     mars - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "mars")]
-        Mars,
+        [FontAwesome(IconStyle.Solid, "mars")] Mars,
 
         /// <summary>
-        /// Mars Double
+        ///     Mars Double
         /// </summary>
         /// <remarks>
-        /// mars-double - Available in Solid
+        ///     mars-double - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "mars-double")]
         MarsDouble,
 
         /// <summary>
-        /// Mars Stroke
+        ///     Mars Stroke
         /// </summary>
         /// <remarks>
-        /// mars-stroke - Available in Solid
+        ///     mars-stroke - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "mars-stroke")]
         MarsStroke,
 
         /// <summary>
-        /// Mars Stroke Horizontal
+        ///     Mars Stroke Horizontal
         /// </summary>
         /// <remarks>
-        /// mars-stroke-h - Available in Solid
+        ///     mars-stroke-h - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "mars-stroke-h")]
         MarsStrokeH,
 
         /// <summary>
-        /// Mars Stroke Vertical
+        ///     Mars Stroke Vertical
         /// </summary>
         /// <remarks>
-        /// mars-stroke-v - Available in Solid
+        ///     mars-stroke-v - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "mars-stroke-v")]
         MarsStrokeV,
 
         /// <summary>
-        /// Mask
+        ///     Mask
         /// </summary>
         /// <remarks>
-        /// mask - Available in Solid
+        ///     mask - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "mask")]
-        Mask,
+        [FontAwesome(IconStyle.Solid, "mask")] Mask,
 
         /// <summary>
-        /// Medal
+        ///     Medal
         /// </summary>
         /// <remarks>
-        /// medal - Available in Solid
+        ///     medal - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "medal")]
         Medal,
 
         /// <summary>
-        /// Medkit
+        ///     Medkit
         /// </summary>
         /// <remarks>
-        /// medkit - Available in Solid
+        ///     medkit - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "medkit")]
         Medkit,
 
         /// <summary>
-        /// Neutral Face
+        ///     Neutral Face
         /// </summary>
         /// <remarks>
-        /// meh - Available in Solid, Regular
+        ///     meh - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "meh")]
-        Meh,
+        [FontAwesome(IconStyle.Solid, "meh")] Meh,
 
         /// <summary>
-        /// Face Without Mouth
+        ///     Face Without Mouth
         /// </summary>
         /// <remarks>
-        /// meh-blank - Available in Solid, Regular
+        ///     meh-blank - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "meh-blank")]
         MehBlank,
 
         /// <summary>
-        /// Face With Rolling Eyes
+        ///     Face With Rolling Eyes
         /// </summary>
         /// <remarks>
-        /// meh-rolling-eyes - Available in Solid, Regular
+        ///     meh-rolling-eyes - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "meh-rolling-eyes")]
         MehRollingEyes,
 
         /// <summary>
-        /// Memory
+        ///     Memory
         /// </summary>
         /// <remarks>
-        /// memory - Available in Solid
+        ///     memory - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "memory")]
         Memory,
 
         /// <summary>
-        /// Menorah
+        ///     Menorah
         /// </summary>
         /// <remarks>
-        /// menorah - Available in Solid
+        ///     menorah - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "menorah")]
         Menorah,
 
         /// <summary>
-        /// Mercury
+        ///     Mercury
         /// </summary>
         /// <remarks>
-        /// mercury - Available in Solid
+        ///     mercury - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "mercury")]
         Mercury,
 
         /// <summary>
-        /// Meteor
+        ///     Meteor
         /// </summary>
         /// <remarks>
-        /// meteor - Available in Solid
+        ///     meteor - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "meteor")]
         Meteor,
 
         /// <summary>
-        /// Microchip
+        ///     Microchip
         /// </summary>
         /// <remarks>
-        /// microchip - Available in Solid
+        ///     microchip - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "microchip")]
         Microchip,
 
         /// <summary>
-        /// Microphone
+        ///     Microphone
         /// </summary>
         /// <remarks>
-        /// microphone - Available in Solid
+        ///     microphone - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "microphone")]
         Microphone,
 
         /// <summary>
-        /// Alternate Microphone
+        ///     Alternate Microphone
         /// </summary>
         /// <remarks>
-        /// microphone-alt - Available in Solid
+        ///     microphone-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "microphone-alt")]
         MicrophoneAlt,
 
         /// <summary>
-        /// Alternate Microphone Slash
+        ///     Alternate Microphone Slash
         /// </summary>
         /// <remarks>
-        /// microphone-alt-slash - Available in Solid
+        ///     microphone-alt-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "microphone-alt-slash")]
         MicrophoneAltSlash,
 
         /// <summary>
-        /// Microphone Slash
+        ///     Microphone Slash
         /// </summary>
         /// <remarks>
-        /// microphone-slash - Available in Solid
+        ///     microphone-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "microphone-slash")]
         MicrophoneSlash,
 
         /// <summary>
-        /// Microscope
+        ///     Microscope
         /// </summary>
         /// <remarks>
-        /// microscope - Available in Solid
+        ///     microscope - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "microscope")]
         Microscope,
 
         /// <summary>
-        /// Minus
+        ///     Minus
         /// </summary>
         /// <remarks>
-        /// minus - Available in Solid
+        ///     minus - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "minus")]
         Minus,
 
         /// <summary>
-        /// Minus Circle
+        ///     Minus Circle
         /// </summary>
         /// <remarks>
-        /// minus-circle - Available in Solid
+        ///     minus-circle - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "minus-circle")]
         MinusCircle,
 
         /// <summary>
-        /// Minus Square
+        ///     Minus Square
         /// </summary>
         /// <remarks>
-        /// minus-square - Available in Solid, Regular
+        ///     minus-square - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "minus-square")]
         MinusSquare,
 
         /// <summary>
-        /// Mitten
+        ///     Mitten
         /// </summary>
         /// <remarks>
-        /// mitten - Available in Solid
+        ///     mitten - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "mitten")]
         Mitten,
 
         /// <summary>
-        /// Mobile Phone
+        ///     Mobile Phone
         /// </summary>
         /// <remarks>
-        /// mobile - Available in Solid
+        ///     mobile - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "mobile")]
         Mobile,
 
         /// <summary>
-        /// Alternate Mobile
+        ///     Alternate Mobile
         /// </summary>
         /// <remarks>
-        /// mobile-alt - Available in Solid
+        ///     mobile-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "mobile-alt")]
         MobileAlt,
 
         /// <summary>
-        /// Money Bill
+        ///     Money Bill
         /// </summary>
         /// <remarks>
-        /// money-bill - Available in Solid
+        ///     money-bill - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "money-bill")]
         MoneyBill,
 
         /// <summary>
-        /// Alternate Money Bill
+        ///     Alternate Money Bill
         /// </summary>
         /// <remarks>
-        /// money-bill-alt - Available in Solid, Regular
+        ///     money-bill-alt - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "money-bill-alt")]
         MoneyBillAlt,
 
         /// <summary>
-        /// Wavy Money Bill
+        ///     Wavy Money Bill
         /// </summary>
         /// <remarks>
-        /// money-bill-wave - Available in Solid
+        ///     money-bill-wave - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "money-bill-wave")]
         MoneyBillWave,
 
         /// <summary>
-        /// Alternate Wavy Money Bill
+        ///     Alternate Wavy Money Bill
         /// </summary>
         /// <remarks>
-        /// money-bill-wave-alt - Available in Solid
+        ///     money-bill-wave-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "money-bill-wave-alt")]
         MoneyBillWaveAlt,
 
         /// <summary>
-        /// Money Check
+        ///     Money Check
         /// </summary>
         /// <remarks>
-        /// money-check - Available in Solid
+        ///     money-check - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "money-check")]
         MoneyCheck,
 
         /// <summary>
-        /// Alternate Money Check
+        ///     Alternate Money Check
         /// </summary>
         /// <remarks>
-        /// money-check-alt - Available in Solid
+        ///     money-check-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "money-check-alt")]
         MoneyCheckAlt,
 
         /// <summary>
-        /// Monument
+        ///     Monument
         /// </summary>
         /// <remarks>
-        /// monument - Available in Solid
+        ///     monument - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "monument")]
         Monument,
 
         /// <summary>
-        /// Moon
+        ///     Moon
         /// </summary>
         /// <remarks>
-        /// moon - Available in Solid, Regular
+        ///     moon - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "moon")]
-        Moon,
+        [FontAwesome(IconStyle.Solid, "moon")] Moon,
 
         /// <summary>
-        /// Mortar Pestle
+        ///     Mortar Pestle
         /// </summary>
         /// <remarks>
-        /// mortar-pestle - Available in Solid
+        ///     mortar-pestle - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "mortar-pestle")]
         MortarPestle,
 
         /// <summary>
-        /// Mosque
+        ///     Mosque
         /// </summary>
         /// <remarks>
-        /// mosque - Available in Solid
+        ///     mosque - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "mosque")]
         Mosque,
 
         /// <summary>
-        /// Motorcycle
+        ///     Motorcycle
         /// </summary>
         /// <remarks>
-        /// motorcycle - Available in Solid
+        ///     motorcycle - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "motorcycle")]
         Motorcycle,
 
         /// <summary>
-        /// Mountain
+        ///     Mountain
         /// </summary>
         /// <remarks>
-        /// mountain - Available in Solid
+        ///     mountain - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "mountain")]
         Mountain,
 
         /// <summary>
-        /// Mouse
+        ///     Mouse
         /// </summary>
         /// <remarks>
-        /// mouse - Available in Solid
+        ///     mouse - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "mouse")]
         Mouse,
 
         /// <summary>
-        /// Mouse Pointer
+        ///     Mouse Pointer
         /// </summary>
         /// <remarks>
-        /// mouse-pointer - Available in Solid
+        ///     mouse-pointer - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "mouse-pointer")]
         MousePointer,
 
         /// <summary>
-        /// Mug Hot
+        ///     Mug Hot
         /// </summary>
         /// <remarks>
-        /// mug-hot - Available in Solid
+        ///     mug-hot - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "mug-hot")]
         MugHot,
 
         /// <summary>
-        /// Music
+        ///     Music
         /// </summary>
         /// <remarks>
-        /// music - Available in Solid
+        ///     music - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "music")]
         Music,
 
         /// <summary>
-        /// Wired Network
+        ///     Wired Network
         /// </summary>
         /// <remarks>
-        /// network-wired - Available in Solid
+        ///     network-wired - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "network-wired")]
         NetworkWired,
 
         /// <summary>
-        /// Neuter
+        ///     Neuter
         /// </summary>
         /// <remarks>
-        /// neuter - Available in Solid
+        ///     neuter - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "neuter")]
         Neuter,
 
         /// <summary>
-        /// Newspaper
+        ///     Newspaper
         /// </summary>
         /// <remarks>
-        /// newspaper - Available in Solid, Regular
+        ///     newspaper - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "newspaper")]
         Newspaper,
 
         /// <summary>
-        /// Not Equal
+        ///     Not Equal
         /// </summary>
         /// <remarks>
-        /// not-equal - Available in Solid
+        ///     not-equal - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "not-equal")]
         NotEqual,
 
         /// <summary>
-        /// Medical Notes
+        ///     Medical Notes
         /// </summary>
         /// <remarks>
-        /// notes-medical - Available in Solid
+        ///     notes-medical - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "notes-medical")]
         NotesMedical,
 
         /// <summary>
-        /// Object Group
+        ///     Object Group
         /// </summary>
         /// <remarks>
-        /// object-group - Available in Solid, Regular
+        ///     object-group - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "object-group")]
         ObjectGroup,
 
         /// <summary>
-        /// Object Ungroup
+        ///     Object Ungroup
         /// </summary>
         /// <remarks>
-        /// object-ungroup - Available in Solid, Regular
+        ///     object-ungroup - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "object-ungroup")]
         ObjectUngroup,
 
         /// <summary>
-        /// Oil Can
+        ///     Oil Can
         /// </summary>
         /// <remarks>
-        /// oil-can - Available in Solid
+        ///     oil-can - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "oil-can")]
         OilCan,
 
         /// <summary>
-        /// Om
+        ///     Om
         /// </summary>
         /// <remarks>
-        /// om - Available in Solid
+        ///     om - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "om")]
-        Om,
+        [FontAwesome(IconStyle.Solid, "om")] Om,
 
         /// <summary>
-        /// Otter
+        ///     Otter
         /// </summary>
         /// <remarks>
-        /// otter - Available in Solid
+        ///     otter - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "otter")]
         Otter,
 
         /// <summary>
-        /// Outdent
+        ///     Outdent
         /// </summary>
         /// <remarks>
-        /// outdent - Available in Solid
+        ///     outdent - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "outdent")]
         Outdent,
 
         /// <summary>
-        /// Pager
+        ///     Pager
         /// </summary>
         /// <remarks>
-        /// pager - Available in Solid
+        ///     pager - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pager")]
         Pager,
 
         /// <summary>
-        /// Paint Brush
+        ///     Paint Brush
         /// </summary>
         /// <remarks>
-        /// paint-brush - Available in Solid
+        ///     paint-brush - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "paint-brush")]
         PaintBrush,
 
         /// <summary>
-        /// Paint Roller
+        ///     Paint Roller
         /// </summary>
         /// <remarks>
-        /// paint-roller - Available in Solid
+        ///     paint-roller - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "paint-roller")]
         PaintRoller,
 
         /// <summary>
-        /// Palette
+        ///     Palette
         /// </summary>
         /// <remarks>
-        /// palette - Available in Solid
+        ///     palette - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "palette")]
         Palette,
 
         /// <summary>
-        /// Pallet
+        ///     Pallet
         /// </summary>
         /// <remarks>
-        /// pallet - Available in Solid
+        ///     pallet - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pallet")]
         Pallet,
 
         /// <summary>
-        /// Paper Plane
+        ///     Paper Plane
         /// </summary>
         /// <remarks>
-        /// paper-plane - Available in Solid, Regular
+        ///     paper-plane - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "paper-plane")]
         PaperPlane,
 
         /// <summary>
-        /// Paperclip
+        ///     Paperclip
         /// </summary>
         /// <remarks>
-        /// paperclip - Available in Solid
+        ///     paperclip - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "paperclip")]
         Paperclip,
 
         /// <summary>
-        /// Parachute Box
+        ///     Parachute Box
         /// </summary>
         /// <remarks>
-        /// parachute-box - Available in Solid
+        ///     parachute-box - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "parachute-box")]
         ParachuteBox,
 
         /// <summary>
-        /// Paragraph
+        ///     Paragraph
         /// </summary>
         /// <remarks>
-        /// paragraph - Available in Solid
+        ///     paragraph - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "paragraph")]
         Paragraph,
 
         /// <summary>
-        /// Parking
+        ///     Parking
         /// </summary>
         /// <remarks>
-        /// parking - Available in Solid
+        ///     parking - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "parking")]
         Parking,
 
         /// <summary>
-        /// Passport
+        ///     Passport
         /// </summary>
         /// <remarks>
-        /// passport - Available in Solid
+        ///     passport - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "passport")]
         Passport,
 
         /// <summary>
-        /// Pastafarianism
+        ///     Pastafarianism
         /// </summary>
         /// <remarks>
-        /// pastafarianism - Available in Solid
+        ///     pastafarianism - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pastafarianism")]
         Pastafarianism,
 
         /// <summary>
-        /// Paste
+        ///     Paste
         /// </summary>
         /// <remarks>
-        /// paste - Available in Solid
+        ///     paste - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "paste")]
         Paste,
 
         /// <summary>
-        /// Pause
+        ///     Pause
         /// </summary>
         /// <remarks>
-        /// pause - Available in Solid
+        ///     pause - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pause")]
         Pause,
 
         /// <summary>
-        /// Pause Circle
+        ///     Pause Circle
         /// </summary>
         /// <remarks>
-        /// pause-circle - Available in Solid, Regular
+        ///     pause-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pause-circle")]
         PauseCircle,
 
         /// <summary>
-        /// Paw
+        ///     Paw
         /// </summary>
         /// <remarks>
-        /// paw - Available in Solid
+        ///     paw - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "paw")]
-        Paw,
+        [FontAwesome(IconStyle.Solid, "paw")] Paw,
 
         /// <summary>
-        /// Peace
+        ///     Peace
         /// </summary>
         /// <remarks>
-        /// peace - Available in Solid
+        ///     peace - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "peace")]
         Peace,
 
         /// <summary>
-        /// Pen
+        ///     Pen
         /// </summary>
         /// <remarks>
-        /// pen - Available in Solid
+        ///     pen - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "pen")]
-        Pen,
+        [FontAwesome(IconStyle.Solid, "pen")] Pen,
 
         /// <summary>
-        /// Alternate Pen
+        ///     Alternate Pen
         /// </summary>
         /// <remarks>
-        /// pen-alt - Available in Solid
+        ///     pen-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pen-alt")]
         PenAlt,
 
         /// <summary>
-        /// Pen Fancy
+        ///     Pen Fancy
         /// </summary>
         /// <remarks>
-        /// pen-fancy - Available in Solid
+        ///     pen-fancy - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pen-fancy")]
         PenFancy,
 
         /// <summary>
-        /// Pen Nib
+        ///     Pen Nib
         /// </summary>
         /// <remarks>
-        /// pen-nib - Available in Solid
+        ///     pen-nib - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pen-nib")]
         PenNib,
 
         /// <summary>
-        /// Pen Square
+        ///     Pen Square
         /// </summary>
         /// <remarks>
-        /// pen-square - Available in Solid
+        ///     pen-square - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pen-square")]
         PenSquare,
 
         /// <summary>
-        /// Alternate Pencil
+        ///     Alternate Pencil
         /// </summary>
         /// <remarks>
-        /// pencil-alt - Available in Solid
+        ///     pencil-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pencil-alt")]
         PencilAlt,
 
         /// <summary>
-        /// Pencil Ruler
+        ///     Pencil Ruler
         /// </summary>
         /// <remarks>
-        /// pencil-ruler - Available in Solid
+        ///     pencil-ruler - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pencil-ruler")]
         PencilRuler,
 
         /// <summary>
-        /// People Arrows
+        ///     People Arrows
         /// </summary>
         /// <remarks>
-        /// people-arrows - Available in Solid
+        ///     people-arrows - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "people-arrows")]
         PeopleArrows,
 
         /// <summary>
-        /// People Carry
+        ///     People Carry
         /// </summary>
         /// <remarks>
-        /// people-carry - Available in Solid
+        ///     people-carry - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "people-carry")]
         PeopleCarry,
 
         /// <summary>
-        /// Hot Pepper
+        ///     Hot Pepper
         /// </summary>
         /// <remarks>
-        /// pepper-hot - Available in Solid
+        ///     pepper-hot - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pepper-hot")]
         PepperHot,
 
         /// <summary>
-        /// Percent
+        ///     Percent
         /// </summary>
         /// <remarks>
-        /// percent - Available in Solid
+        ///     percent - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "percent")]
         Percent,
 
         /// <summary>
-        /// Percentage
+        ///     Percentage
         /// </summary>
         /// <remarks>
-        /// percentage - Available in Solid
+        ///     percentage - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "percentage")]
         Percentage,
 
         /// <summary>
-        /// Person Entering Booth
+        ///     Person Entering Booth
         /// </summary>
         /// <remarks>
-        /// person-booth - Available in Solid
+        ///     person-booth - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "person-booth")]
         PersonBooth,
 
         /// <summary>
-        /// Phone
+        ///     Phone
         /// </summary>
         /// <remarks>
-        /// phone - Available in Solid
+        ///     phone - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "phone")]
         Phone,
 
         /// <summary>
-        /// Alternate Phone
+        ///     Alternate Phone
         /// </summary>
         /// <remarks>
-        /// phone-alt - Available in Solid
+        ///     phone-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "phone-alt")]
         PhoneAlt,
 
         /// <summary>
-        /// Phone Slash
+        ///     Phone Slash
         /// </summary>
         /// <remarks>
-        /// phone-slash - Available in Solid
+        ///     phone-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "phone-slash")]
         PhoneSlash,
 
         /// <summary>
-        /// Phone Square
+        ///     Phone Square
         /// </summary>
         /// <remarks>
-        /// phone-square - Available in Solid
+        ///     phone-square - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "phone-square")]
         PhoneSquare,
 
         /// <summary>
-        /// Alternate Phone Square
+        ///     Alternate Phone Square
         /// </summary>
         /// <remarks>
-        /// phone-square-alt - Available in Solid
+        ///     phone-square-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "phone-square-alt")]
         PhoneSquareAlt,
 
         /// <summary>
-        /// Phone Volume
+        ///     Phone Volume
         /// </summary>
         /// <remarks>
-        /// phone-volume - Available in Solid
+        ///     phone-volume - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "phone-volume")]
         PhoneVolume,
 
         /// <summary>
-        /// Photo Video
+        ///     Photo Video
         /// </summary>
         /// <remarks>
-        /// photo-video - Available in Solid
+        ///     photo-video - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "photo-video")]
         PhotoVideo,
 
         /// <summary>
-        /// Piggy Bank
+        ///     Piggy Bank
         /// </summary>
         /// <remarks>
-        /// piggy-bank - Available in Solid
+        ///     piggy-bank - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "piggy-bank")]
         PiggyBank,
 
         /// <summary>
-        /// Pills
+        ///     Pills
         /// </summary>
         /// <remarks>
-        /// pills - Available in Solid
+        ///     pills - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pills")]
         Pills,
 
         /// <summary>
-        /// Pizza Slice
+        ///     Pizza Slice
         /// </summary>
         /// <remarks>
-        /// pizza-slice - Available in Solid
+        ///     pizza-slice - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pizza-slice")]
         PizzaSlice,
 
         /// <summary>
-        /// Place of Worship
+        ///     Place of Worship
         /// </summary>
         /// <remarks>
-        /// place-of-worship - Available in Solid
+        ///     place-of-worship - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "place-of-worship")]
         PlaceOfWorship,
 
         /// <summary>
-        /// Plane
+        ///     Plane
         /// </summary>
         /// <remarks>
-        /// plane - Available in Solid
+        ///     plane - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "plane")]
         Plane,
 
         /// <summary>
-        /// Plane Arrival
+        ///     Plane Arrival
         /// </summary>
         /// <remarks>
-        /// plane-arrival - Available in Solid
+        ///     plane-arrival - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "plane-arrival")]
         PlaneArrival,
 
         /// <summary>
-        /// Plane Departure
+        ///     Plane Departure
         /// </summary>
         /// <remarks>
-        /// plane-departure - Available in Solid
+        ///     plane-departure - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "plane-departure")]
         PlaneDeparture,
 
         /// <summary>
-        /// Plane Slash
+        ///     Plane Slash
         /// </summary>
         /// <remarks>
-        /// plane-slash - Available in Solid
+        ///     plane-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "plane-slash")]
         PlaneSlash,
 
         /// <summary>
-        /// Play
+        ///     Play
         /// </summary>
         /// <remarks>
-        /// play - Available in Solid
+        ///     play - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "play")]
-        Play,
+        [FontAwesome(IconStyle.Solid, "play")] Play,
 
         /// <summary>
-        /// Play Circle
+        ///     Play Circle
         /// </summary>
         /// <remarks>
-        /// play-circle - Available in Solid, Regular
+        ///     play-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "play-circle")]
         PlayCircle,
 
         /// <summary>
-        /// Plug
+        ///     Plug
         /// </summary>
         /// <remarks>
-        /// plug - Available in Solid
+        ///     plug - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "plug")]
-        Plug,
+        [FontAwesome(IconStyle.Solid, "plug")] Plug,
 
         /// <summary>
-        /// Plus
+        ///     Plus
         /// </summary>
         /// <remarks>
-        /// plus - Available in Solid
+        ///     plus - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "plus")]
-        Plus,
+        [FontAwesome(IconStyle.Solid, "plus")] Plus,
 
         /// <summary>
-        /// Plus Circle
+        ///     Plus Circle
         /// </summary>
         /// <remarks>
-        /// plus-circle - Available in Solid
+        ///     plus-circle - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "plus-circle")]
         PlusCircle,
 
         /// <summary>
-        /// Plus Square
+        ///     Plus Square
         /// </summary>
         /// <remarks>
-        /// plus-square - Available in Solid, Regular
+        ///     plus-square - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "plus-square")]
         PlusSquare,
 
         /// <summary>
-        /// Podcast
+        ///     Podcast
         /// </summary>
         /// <remarks>
-        /// podcast - Available in Solid
+        ///     podcast - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "podcast")]
         Podcast,
 
         /// <summary>
-        /// Poll
+        ///     Poll
         /// </summary>
         /// <remarks>
-        /// poll - Available in Solid
+        ///     poll - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "poll")]
-        Poll,
+        [FontAwesome(IconStyle.Solid, "poll")] Poll,
 
         /// <summary>
-        /// Poll H
+        ///     Poll H
         /// </summary>
         /// <remarks>
-        /// poll-h - Available in Solid
+        ///     poll-h - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "poll-h")]
         PollH,
 
         /// <summary>
-        /// Poo
+        ///     Poo
         /// </summary>
         /// <remarks>
-        /// poo - Available in Solid
+        ///     poo - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "poo")]
-        Poo,
+        [FontAwesome(IconStyle.Solid, "poo")] Poo,
 
         /// <summary>
-        /// Poo Storm
+        ///     Poo Storm
         /// </summary>
         /// <remarks>
-        /// poo-storm - Available in Solid
+        ///     poo-storm - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "poo-storm")]
         PooStorm,
 
         /// <summary>
-        /// Poop
+        ///     Poop
         /// </summary>
         /// <remarks>
-        /// poop - Available in Solid
+        ///     poop - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "poop")]
-        Poop,
+        [FontAwesome(IconStyle.Solid, "poop")] Poop,
 
         /// <summary>
-        /// Portrait
+        ///     Portrait
         /// </summary>
         /// <remarks>
-        /// portrait - Available in Solid
+        ///     portrait - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "portrait")]
         Portrait,
 
         /// <summary>
-        /// Pound Sign
+        ///     Pound Sign
         /// </summary>
         /// <remarks>
-        /// pound-sign - Available in Solid
+        ///     pound-sign - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pound-sign")]
         PoundSign,
 
         /// <summary>
-        /// Power off
+        ///     Power off
         /// </summary>
         /// <remarks>
-        /// power-off - Available in Solid
+        ///     power-off - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "power-off")]
         PowerOff,
 
         /// <summary>
-        /// Pray
+        ///     Pray
         /// </summary>
         /// <remarks>
-        /// pray - Available in Solid
+        ///     pray - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "pray")]
-        Pray,
+        [FontAwesome(IconStyle.Solid, "pray")] Pray,
 
         /// <summary>
-        /// Praying Hands
+        ///     Praying Hands
         /// </summary>
         /// <remarks>
-        /// praying-hands - Available in Solid
+        ///     praying-hands - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "praying-hands")]
         PrayingHands,
 
         /// <summary>
-        /// Prescription
+        ///     Prescription
         /// </summary>
         /// <remarks>
-        /// prescription - Available in Solid
+        ///     prescription - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "prescription")]
         Prescription,
 
         /// <summary>
-        /// Prescription Bottle
+        ///     Prescription Bottle
         /// </summary>
         /// <remarks>
-        /// prescription-bottle - Available in Solid
+        ///     prescription-bottle - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "prescription-bottle")]
         PrescriptionBottle,
 
         /// <summary>
-        /// Alternate Prescription Bottle
+        ///     Alternate Prescription Bottle
         /// </summary>
         /// <remarks>
-        /// prescription-bottle-alt - Available in Solid
+        ///     prescription-bottle-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "prescription-bottle-alt")]
         PrescriptionBottleAlt,
 
         /// <summary>
-        /// Print
+        ///     Print
         /// </summary>
         /// <remarks>
-        /// print - Available in Solid
+        ///     print - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "print")]
         Print,
 
         /// <summary>
-        /// Procedures
+        ///     Procedures
         /// </summary>
         /// <remarks>
-        /// procedures - Available in Solid
+        ///     procedures - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "procedures")]
         Procedures,
 
         /// <summary>
-        /// Project Diagram
+        ///     Project Diagram
         /// </summary>
         /// <remarks>
-        /// project-diagram - Available in Solid
+        ///     project-diagram - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "project-diagram")]
         ProjectDiagram,
 
         /// <summary>
-        /// Pump Medical
+        ///     Pump Medical
         /// </summary>
         /// <remarks>
-        /// pump-medical - Available in Solid
+        ///     pump-medical - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pump-medical")]
         PumpMedical,
 
         /// <summary>
-        /// Pump Soap
+        ///     Pump Soap
         /// </summary>
         /// <remarks>
-        /// pump-soap - Available in Solid
+        ///     pump-soap - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "pump-soap")]
         PumpSoap,
 
         /// <summary>
-        /// Puzzle Piece
+        ///     Puzzle Piece
         /// </summary>
         /// <remarks>
-        /// puzzle-piece - Available in Solid
+        ///     puzzle-piece - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "puzzle-piece")]
         PuzzlePiece,
 
         /// <summary>
-        /// Qrcode
+        ///     Qrcode
         /// </summary>
         /// <remarks>
-        /// qrcode - Available in Solid
+        ///     qrcode - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "qrcode")]
         Qrcode,
 
         /// <summary>
-        /// Question
+        ///     Question
         /// </summary>
         /// <remarks>
-        /// question - Available in Solid
+        ///     question - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "question")]
         Question,
 
         /// <summary>
-        /// Question Circle
+        ///     Question Circle
         /// </summary>
         /// <remarks>
-        /// question-circle - Available in Solid, Regular
+        ///     question-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "question-circle")]
         QuestionCircle,
 
         /// <summary>
-        /// Quidditch
+        ///     Quidditch
         /// </summary>
         /// <remarks>
-        /// quidditch - Available in Solid
+        ///     quidditch - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "quidditch")]
         Quidditch,
 
         /// <summary>
-        /// Quote Left
+        ///     Quote Left
         /// </summary>
         /// <remarks>
-        /// quote-left - Available in Solid
+        ///     quote-left - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "quote-left")]
         QuoteLeft,
 
         /// <summary>
-        /// Quote Right
+        ///     Quote Right
         /// </summary>
         /// <remarks>
-        /// quote-right - Available in Solid
+        ///     quote-right - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "quote-right")]
         QuoteRight,
 
         /// <summary>
-        /// Quran
+        ///     Quran
         /// </summary>
         /// <remarks>
-        /// quran - Available in Solid
+        ///     quran - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "quran")]
         Quran,
 
         /// <summary>
-        /// Radiation
+        ///     Radiation
         /// </summary>
         /// <remarks>
-        /// radiation - Available in Solid
+        ///     radiation - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "radiation")]
         Radiation,
 
         /// <summary>
-        /// Alternate Radiation
+        ///     Alternate Radiation
         /// </summary>
         /// <remarks>
-        /// radiation-alt - Available in Solid
+        ///     radiation-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "radiation-alt")]
         RadiationAlt,
 
         /// <summary>
-        /// Rainbow
+        ///     Rainbow
         /// </summary>
         /// <remarks>
-        /// rainbow - Available in Solid
+        ///     rainbow - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "rainbow")]
         Rainbow,
 
         /// <summary>
-        /// Random
+        ///     Random
         /// </summary>
         /// <remarks>
-        /// random - Available in Solid
+        ///     random - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "random")]
         Random,
 
         /// <summary>
-        /// Receipt
+        ///     Receipt
         /// </summary>
         /// <remarks>
-        /// receipt - Available in Solid
+        ///     receipt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "receipt")]
         Receipt,
 
         /// <summary>
-        /// Record Vinyl
+        ///     Record Vinyl
         /// </summary>
         /// <remarks>
-        /// record-vinyl - Available in Solid
+        ///     record-vinyl - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "record-vinyl")]
         RecordVinyl,
 
         /// <summary>
-        /// Recycle
+        ///     Recycle
         /// </summary>
         /// <remarks>
-        /// recycle - Available in Solid
+        ///     recycle - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "recycle")]
         Recycle,
 
         /// <summary>
-        /// Redo
+        ///     Redo
         /// </summary>
         /// <remarks>
-        /// redo - Available in Solid
+        ///     redo - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "redo")]
-        Redo,
+        [FontAwesome(IconStyle.Solid, "redo")] Redo,
 
         /// <summary>
-        /// Alternate Redo
+        ///     Alternate Redo
         /// </summary>
         /// <remarks>
-        /// redo-alt - Available in Solid
+        ///     redo-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "redo-alt")]
         RedoAlt,
 
         /// <summary>
-        /// Registered Trademark
+        ///     Registered Trademark
         /// </summary>
         /// <remarks>
-        /// registered - Available in Solid, Regular
+        ///     registered - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "registered")]
         Registered,
 
         /// <summary>
-        /// Remove Format
+        ///     Remove Format
         /// </summary>
         /// <remarks>
-        /// remove-format - Available in Solid
+        ///     remove-format - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "remove-format")]
         RemoveFormat,
 
         /// <summary>
-        /// Reply
+        ///     Reply
         /// </summary>
         /// <remarks>
-        /// reply - Available in Solid
+        ///     reply - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "reply")]
         Reply,
 
         /// <summary>
-        /// Reply All
+        ///     Reply All
         /// </summary>
         /// <remarks>
-        /// reply-all - Available in Solid
+        ///     reply-all - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "reply-all")]
         ReplyAll,
 
         /// <summary>
-        /// Republican
+        ///     Republican
         /// </summary>
         /// <remarks>
-        /// republican - Available in Solid
+        ///     republican - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "republican")]
         Republican,
 
         /// <summary>
-        /// Restroom
+        ///     Restroom
         /// </summary>
         /// <remarks>
-        /// restroom - Available in Solid
+        ///     restroom - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "restroom")]
         Restroom,
 
         /// <summary>
-        /// Retweet
+        ///     Retweet
         /// </summary>
         /// <remarks>
-        /// retweet - Available in Solid
+        ///     retweet - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "retweet")]
         Retweet,
 
         /// <summary>
-        /// Ribbon
+        ///     Ribbon
         /// </summary>
         /// <remarks>
-        /// ribbon - Available in Solid
+        ///     ribbon - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "ribbon")]
         Ribbon,
 
         /// <summary>
-        /// Ring
+        ///     Ring
         /// </summary>
         /// <remarks>
-        /// ring - Available in Solid
+        ///     ring - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "ring")]
-        Ring,
+        [FontAwesome(IconStyle.Solid, "ring")] Ring,
 
         /// <summary>
-        /// Road
+        ///     Road
         /// </summary>
         /// <remarks>
-        /// road - Available in Solid
+        ///     road - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "road")]
-        Road,
+        [FontAwesome(IconStyle.Solid, "road")] Road,
 
         /// <summary>
-        /// Robot
+        ///     Robot
         /// </summary>
         /// <remarks>
-        /// robot - Available in Solid
+        ///     robot - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "robot")]
         Robot,
 
         /// <summary>
-        /// Rocket
+        ///     Rocket
         /// </summary>
         /// <remarks>
-        /// rocket - Available in Solid
+        ///     rocket - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "rocket")]
         Rocket,
 
         /// <summary>
-        /// Route
+        ///     Route
         /// </summary>
         /// <remarks>
-        /// route - Available in Solid
+        ///     route - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "route")]
         Route,
 
         /// <summary>
-        /// Rss
+        ///     Rss
         /// </summary>
         /// <remarks>
-        /// rss - Available in Solid
+        ///     rss - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "rss")]
-        Rss,
+        [FontAwesome(IconStyle.Solid, "rss")] Rss,
 
         /// <summary>
-        /// RSS Square
+        ///     RSS Square
         /// </summary>
         /// <remarks>
-        /// rss-square - Available in Solid
+        ///     rss-square - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "rss-square")]
         RssSquare,
 
         /// <summary>
-        /// Ruble Sign
+        ///     Ruble Sign
         /// </summary>
         /// <remarks>
-        /// ruble-sign - Available in Solid
+        ///     ruble-sign - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "ruble-sign")]
         RubleSign,
 
         /// <summary>
-        /// Ruler
+        ///     Ruler
         /// </summary>
         /// <remarks>
-        /// ruler - Available in Solid
+        ///     ruler - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "ruler")]
         Ruler,
 
         /// <summary>
-        /// Ruler Combined
+        ///     Ruler Combined
         /// </summary>
         /// <remarks>
-        /// ruler-combined - Available in Solid
+        ///     ruler-combined - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "ruler-combined")]
         RulerCombined,
 
         /// <summary>
-        /// Ruler Horizontal
+        ///     Ruler Horizontal
         /// </summary>
         /// <remarks>
-        /// ruler-horizontal - Available in Solid
+        ///     ruler-horizontal - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "ruler-horizontal")]
         RulerHorizontal,
 
         /// <summary>
-        /// Ruler Vertical
+        ///     Ruler Vertical
         /// </summary>
         /// <remarks>
-        /// ruler-vertical - Available in Solid
+        ///     ruler-vertical - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "ruler-vertical")]
         RulerVertical,
 
         /// <summary>
-        /// Running
+        ///     Running
         /// </summary>
         /// <remarks>
-        /// running - Available in Solid
+        ///     running - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "running")]
         Running,
 
         /// <summary>
-        /// Indian Rupee Sign
+        ///     Indian Rupee Sign
         /// </summary>
         /// <remarks>
-        /// rupee-sign - Available in Solid
+        ///     rupee-sign - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "rupee-sign")]
         RupeeSign,
 
         /// <summary>
-        /// Crying Face
+        ///     Crying Face
         /// </summary>
         /// <remarks>
-        /// sad-cry - Available in Solid, Regular
+        ///     sad-cry - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sad-cry")]
         SadCry,
 
         /// <summary>
-        /// Loudly Crying Face
+        ///     Loudly Crying Face
         /// </summary>
         /// <remarks>
-        /// sad-tear - Available in Solid, Regular
+        ///     sad-tear - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sad-tear")]
         SadTear,
 
         /// <summary>
-        /// Satellite
+        ///     Satellite
         /// </summary>
         /// <remarks>
-        /// satellite - Available in Solid
+        ///     satellite - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "satellite")]
         Satellite,
 
         /// <summary>
-        /// Satellite Dish
+        ///     Satellite Dish
         /// </summary>
         /// <remarks>
-        /// satellite-dish - Available in Solid
+        ///     satellite-dish - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "satellite-dish")]
         SatelliteDish,
 
         /// <summary>
-        /// Save
+        ///     Save
         /// </summary>
         /// <remarks>
-        /// save - Available in Solid, Regular
+        ///     save - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "save")]
-        Save,
+        [FontAwesome(IconStyle.Solid, "save")] Save,
 
         /// <summary>
-        /// School
+        ///     School
         /// </summary>
         /// <remarks>
-        /// school - Available in Solid
+        ///     school - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "school")]
         School,
 
         /// <summary>
-        /// Screwdriver
+        ///     Screwdriver
         /// </summary>
         /// <remarks>
-        /// screwdriver - Available in Solid
+        ///     screwdriver - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "screwdriver")]
         Screwdriver,
 
         /// <summary>
-        /// Scroll
+        ///     Scroll
         /// </summary>
         /// <remarks>
-        /// scroll - Available in Solid
+        ///     scroll - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "scroll")]
         Scroll,
 
         /// <summary>
-        /// Sd Card
+        ///     Sd Card
         /// </summary>
         /// <remarks>
-        /// sd-card - Available in Solid
+        ///     sd-card - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sd-card")]
         SdCard,
 
         /// <summary>
-        /// Search
+        ///     Search
         /// </summary>
         /// <remarks>
-        /// search - Available in Solid
+        ///     search - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "search")]
         Search,
 
         /// <summary>
-        /// Search Dollar
+        ///     Search Dollar
         /// </summary>
         /// <remarks>
-        /// search-dollar - Available in Solid
+        ///     search-dollar - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "search-dollar")]
         SearchDollar,
 
         /// <summary>
-        /// Search Location
+        ///     Search Location
         /// </summary>
         /// <remarks>
-        /// search-location - Available in Solid
+        ///     search-location - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "search-location")]
         SearchLocation,
 
         /// <summary>
-        /// Search Minus
+        ///     Search Minus
         /// </summary>
         /// <remarks>
-        /// search-minus - Available in Solid
+        ///     search-minus - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "search-minus")]
         SearchMinus,
 
         /// <summary>
-        /// Search Plus
+        ///     Search Plus
         /// </summary>
         /// <remarks>
-        /// search-plus - Available in Solid
+        ///     search-plus - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "search-plus")]
         SearchPlus,
 
         /// <summary>
-        /// Seedling
+        ///     Seedling
         /// </summary>
         /// <remarks>
-        /// seedling - Available in Solid
+        ///     seedling - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "seedling")]
         Seedling,
 
         /// <summary>
-        /// Server
+        ///     Server
         /// </summary>
         /// <remarks>
-        /// server - Available in Solid
+        ///     server - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "server")]
         Server,
 
         /// <summary>
-        /// Shapes
+        ///     Shapes
         /// </summary>
         /// <remarks>
-        /// shapes - Available in Solid
+        ///     shapes - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "shapes")]
         Shapes,
 
         /// <summary>
-        /// Share
+        ///     Share
         /// </summary>
         /// <remarks>
-        /// share - Available in Solid
+        ///     share - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "share")]
         Share,
 
         /// <summary>
-        /// Alternate Share
+        ///     Alternate Share
         /// </summary>
         /// <remarks>
-        /// share-alt - Available in Solid
+        ///     share-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "share-alt")]
         ShareAlt,
 
         /// <summary>
-        /// Alternate Share Square
+        ///     Alternate Share Square
         /// </summary>
         /// <remarks>
-        /// share-alt-square - Available in Solid
+        ///     share-alt-square - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "share-alt-square")]
         ShareAltSquare,
 
         /// <summary>
-        /// Share Square
+        ///     Share Square
         /// </summary>
         /// <remarks>
-        /// share-square - Available in Solid, Regular
+        ///     share-square - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "share-square")]
         ShareSquare,
 
         /// <summary>
-        /// Shekel Sign
+        ///     Shekel Sign
         /// </summary>
         /// <remarks>
-        /// shekel-sign - Available in Solid
+        ///     shekel-sign - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "shekel-sign")]
         ShekelSign,
 
         /// <summary>
-        /// Alternate Shield
+        ///     Alternate Shield
         /// </summary>
         /// <remarks>
-        /// shield-alt - Available in Solid
+        ///     shield-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "shield-alt")]
         ShieldAlt,
 
         /// <summary>
-        /// Shield Virus
+        ///     Shield Virus
         /// </summary>
         /// <remarks>
-        /// shield-virus - Available in Solid
+        ///     shield-virus - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "shield-virus")]
         ShieldVirus,
 
         /// <summary>
-        /// Ship
+        ///     Ship
         /// </summary>
         /// <remarks>
-        /// ship - Available in Solid
+        ///     ship - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "ship")]
-        Ship,
+        [FontAwesome(IconStyle.Solid, "ship")] Ship,
 
         /// <summary>
-        /// Shipping Fast
+        ///     Shipping Fast
         /// </summary>
         /// <remarks>
-        /// shipping-fast - Available in Solid
+        ///     shipping-fast - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "shipping-fast")]
         ShippingFast,
 
         /// <summary>
-        /// Shoe Prints
+        ///     Shoe Prints
         /// </summary>
         /// <remarks>
-        /// shoe-prints - Available in Solid
+        ///     shoe-prints - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "shoe-prints")]
         ShoePrints,
 
         /// <summary>
-        /// Shopping Bag
+        ///     Shopping Bag
         /// </summary>
         /// <remarks>
-        /// shopping-bag - Available in Solid
+        ///     shopping-bag - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "shopping-bag")]
         ShoppingBag,
 
         /// <summary>
-        /// Shopping Basket
+        ///     Shopping Basket
         /// </summary>
         /// <remarks>
-        /// shopping-basket - Available in Solid
+        ///     shopping-basket - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "shopping-basket")]
         ShoppingBasket,
 
         /// <summary>
-        /// Shopping Cart
+        ///     Shopping Cart
         /// </summary>
         /// <remarks>
-        /// shopping-cart - Available in Solid
+        ///     shopping-cart - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "shopping-cart")]
         ShoppingCart,
 
         /// <summary>
-        /// Shower
+        ///     Shower
         /// </summary>
         /// <remarks>
-        /// shower - Available in Solid
+        ///     shower - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "shower")]
         Shower,
 
         /// <summary>
-        /// Shuttle Van
+        ///     Shuttle Van
         /// </summary>
         /// <remarks>
-        /// shuttle-van - Available in Solid
+        ///     shuttle-van - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "shuttle-van")]
         ShuttleVan,
 
         /// <summary>
-        /// Sign
+        ///     Sign
         /// </summary>
         /// <remarks>
-        /// sign - Available in Solid
+        ///     sign - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "sign")]
-        Sign,
+        [FontAwesome(IconStyle.Solid, "sign")] Sign,
 
         /// <summary>
-        /// Alternate Sign in
+        ///     Alternate Sign in
         /// </summary>
         /// <remarks>
-        /// sign-in-alt - Available in Solid
+        ///     sign-in-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sign-in-alt")]
         SignInAlt,
 
         /// <summary>
-        /// Sign Language
+        ///     Sign Language
         /// </summary>
         /// <remarks>
-        /// sign-language - Available in Solid
+        ///     sign-language - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sign-language")]
         SignLanguage,
 
         /// <summary>
-        /// Alternate Sign Out
+        ///     Alternate Sign Out
         /// </summary>
         /// <remarks>
-        /// sign-out-alt - Available in Solid
+        ///     sign-out-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sign-out-alt")]
         SignOutAlt,
 
         /// <summary>
-        /// Signal
+        ///     Signal
         /// </summary>
         /// <remarks>
-        /// signal - Available in Solid
+        ///     signal - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "signal")]
         Signal,
 
         /// <summary>
-        /// Signature
+        ///     Signature
         /// </summary>
         /// <remarks>
-        /// signature - Available in Solid
+        ///     signature - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "signature")]
         Signature,
 
         /// <summary>
-        /// SIM Card
+        ///     SIM Card
         /// </summary>
         /// <remarks>
-        /// sim-card - Available in Solid
+        ///     sim-card - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sim-card")]
         SimCard,
 
         /// <summary>
-        /// Sink
+        ///     Sink
         /// </summary>
         /// <remarks>
-        /// sink - Available in Solid
+        ///     sink - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "sink")]
-        Sink,
+        [FontAwesome(IconStyle.Solid, "sink")] Sink,
 
         /// <summary>
-        /// Sitemap
+        ///     Sitemap
         /// </summary>
         /// <remarks>
-        /// sitemap - Available in Solid
+        ///     sitemap - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sitemap")]
         Sitemap,
 
         /// <summary>
-        /// Skating
+        ///     Skating
         /// </summary>
         /// <remarks>
-        /// skating - Available in Solid
+        ///     skating - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "skating")]
         Skating,
 
         /// <summary>
-        /// Skiing
+        ///     Skiing
         /// </summary>
         /// <remarks>
-        /// skiing - Available in Solid
+        ///     skiing - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "skiing")]
         Skiing,
 
         /// <summary>
-        /// Skiing Nordic
+        ///     Skiing Nordic
         /// </summary>
         /// <remarks>
-        /// skiing-nordic - Available in Solid
+        ///     skiing-nordic - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "skiing-nordic")]
         SkiingNordic,
 
         /// <summary>
-        /// Skull
+        ///     Skull
         /// </summary>
         /// <remarks>
-        /// skull - Available in Solid
+        ///     skull - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "skull")]
         Skull,
 
         /// <summary>
-        /// Skull Crossbones
+        ///     Skull Crossbones
         /// </summary>
         /// <remarks>
-        /// skull-crossbones - Available in Solid
+        ///     skull-crossbones - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "skull-crossbones")]
         SkullCrossbones,
 
         /// <summary>
-        /// Slash
+        ///     Slash
         /// </summary>
         /// <remarks>
-        /// slash - Available in Solid
+        ///     slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "slash")]
         Slash,
 
         /// <summary>
-        /// Sleigh
+        ///     Sleigh
         /// </summary>
         /// <remarks>
-        /// sleigh - Available in Solid
+        ///     sleigh - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sleigh")]
         Sleigh,
 
         /// <summary>
-        /// Horizontal Sliders
+        ///     Horizontal Sliders
         /// </summary>
         /// <remarks>
-        /// sliders-h - Available in Solid
+        ///     sliders-h - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sliders-h")]
         SlidersH,
 
         /// <summary>
-        /// Smiling Face
+        ///     Smiling Face
         /// </summary>
         /// <remarks>
-        /// smile - Available in Solid, Regular
+        ///     smile - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "smile")]
         Smile,
 
         /// <summary>
-        /// Beaming Face With Smiling Eyes
+        ///     Beaming Face With Smiling Eyes
         /// </summary>
         /// <remarks>
-        /// smile-beam - Available in Solid, Regular
+        ///     smile-beam - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "smile-beam")]
         SmileBeam,
 
         /// <summary>
-        /// Winking Face
+        ///     Winking Face
         /// </summary>
         /// <remarks>
-        /// smile-wink - Available in Solid, Regular
+        ///     smile-wink - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "smile-wink")]
         SmileWink,
 
         /// <summary>
-        /// Smog
+        ///     Smog
         /// </summary>
         /// <remarks>
-        /// smog - Available in Solid
+        ///     smog - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "smog")]
-        Smog,
+        [FontAwesome(IconStyle.Solid, "smog")] Smog,
 
         /// <summary>
-        /// Smoking
+        ///     Smoking
         /// </summary>
         /// <remarks>
-        /// smoking - Available in Solid
+        ///     smoking - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "smoking")]
         Smoking,
 
         /// <summary>
-        /// Smoking Ban
+        ///     Smoking Ban
         /// </summary>
         /// <remarks>
-        /// smoking-ban - Available in Solid
+        ///     smoking-ban - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "smoking-ban")]
         SmokingBan,
 
         /// <summary>
-        /// SMS
+        ///     SMS
         /// </summary>
         /// <remarks>
-        /// sms - Available in Solid
+        ///     sms - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "sms")]
-        Sms,
+        [FontAwesome(IconStyle.Solid, "sms")] Sms,
 
         /// <summary>
-        /// Snowboarding
+        ///     Snowboarding
         /// </summary>
         /// <remarks>
-        /// snowboarding - Available in Solid
+        ///     snowboarding - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "snowboarding")]
         Snowboarding,
 
         /// <summary>
-        /// Snowflake
+        ///     Snowflake
         /// </summary>
         /// <remarks>
-        /// snowflake - Available in Solid, Regular
+        ///     snowflake - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "snowflake")]
         Snowflake,
 
         /// <summary>
-        /// Snowman
+        ///     Snowman
         /// </summary>
         /// <remarks>
-        /// snowman - Available in Solid
+        ///     snowman - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "snowman")]
         Snowman,
 
         /// <summary>
-        /// Snowplow
+        ///     Snowplow
         /// </summary>
         /// <remarks>
-        /// snowplow - Available in Solid
+        ///     snowplow - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "snowplow")]
         Snowplow,
 
         /// <summary>
-        /// Soap
+        ///     Soap
         /// </summary>
         /// <remarks>
-        /// soap - Available in Solid
+        ///     soap - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "soap")]
-        Soap,
+        [FontAwesome(IconStyle.Solid, "soap")] Soap,
 
         /// <summary>
-        /// Socks
+        ///     Socks
         /// </summary>
         /// <remarks>
-        /// socks - Available in Solid
+        ///     socks - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "socks")]
         Socks,
 
         /// <summary>
-        /// Solar Panel
+        ///     Solar Panel
         /// </summary>
         /// <remarks>
-        /// solar-panel - Available in Solid
+        ///     solar-panel - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "solar-panel")]
         SolarPanel,
 
         /// <summary>
-        /// Sort
+        ///     Sort
         /// </summary>
         /// <remarks>
-        /// sort - Available in Solid
+        ///     sort - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "sort")]
-        Sort,
+        [FontAwesome(IconStyle.Solid, "sort")] Sort,
 
         /// <summary>
-        /// Sort Alphabetical Down
+        ///     Sort Alphabetical Down
         /// </summary>
         /// <remarks>
-        /// sort-alpha-down - Available in Solid
+        ///     sort-alpha-down - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sort-alpha-down")]
         SortAlphaDown,
 
         /// <summary>
-        /// Alternate Sort Alphabetical Down
+        ///     Alternate Sort Alphabetical Down
         /// </summary>
         /// <remarks>
-        /// sort-alpha-down-alt - Available in Solid
+        ///     sort-alpha-down-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sort-alpha-down-alt")]
         SortAlphaDownAlt,
 
         /// <summary>
-        /// Sort Alphabetical up
+        ///     Sort Alphabetical up
         /// </summary>
         /// <remarks>
-        /// sort-alpha-up - Available in Solid
+        ///     sort-alpha-up - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sort-alpha-up")]
         SortAlphaUp,
 
         /// <summary>
-        /// Alternate Sort Alphabetical up
+        ///     Alternate Sort Alphabetical up
         /// </summary>
         /// <remarks>
-        /// sort-alpha-up-alt - Available in Solid
+        ///     sort-alpha-up-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sort-alpha-up-alt")]
         SortAlphaUpAlt,
 
         /// <summary>
-        /// Sort Amount Down
+        ///     Sort Amount Down
         /// </summary>
         /// <remarks>
-        /// sort-amount-down - Available in Solid
+        ///     sort-amount-down - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sort-amount-down")]
         SortAmountDown,
 
         /// <summary>
-        /// Alternate Sort Amount Down
+        ///     Alternate Sort Amount Down
         /// </summary>
         /// <remarks>
-        /// sort-amount-down-alt - Available in Solid
+        ///     sort-amount-down-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sort-amount-down-alt")]
         SortAmountDownAlt,
 
         /// <summary>
-        /// Sort Amount up
+        ///     Sort Amount up
         /// </summary>
         /// <remarks>
-        /// sort-amount-up - Available in Solid
+        ///     sort-amount-up - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sort-amount-up")]
         SortAmountUp,
 
         /// <summary>
-        /// Alternate Sort Amount up
+        ///     Alternate Sort Amount up
         /// </summary>
         /// <remarks>
-        /// sort-amount-up-alt - Available in Solid
+        ///     sort-amount-up-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sort-amount-up-alt")]
         SortAmountUpAlt,
 
         /// <summary>
-        /// Sort Down Descending
+        ///     Sort Down Descending
         /// </summary>
         /// <remarks>
-        /// sort-down - Available in Solid
+        ///     sort-down - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sort-down")]
         SortDown,
 
         /// <summary>
-        /// Sort Numeric Down
+        ///     Sort Numeric Down
         /// </summary>
         /// <remarks>
-        /// sort-numeric-down - Available in Solid
+        ///     sort-numeric-down - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sort-numeric-down")]
         SortNumericDown,
 
         /// <summary>
-        /// Alternate Sort Numeric Down
+        ///     Alternate Sort Numeric Down
         /// </summary>
         /// <remarks>
-        /// sort-numeric-down-alt - Available in Solid
+        ///     sort-numeric-down-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sort-numeric-down-alt")]
         SortNumericDownAlt,
 
         /// <summary>
-        /// Sort Numeric up
+        ///     Sort Numeric up
         /// </summary>
         /// <remarks>
-        /// sort-numeric-up - Available in Solid
+        ///     sort-numeric-up - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sort-numeric-up")]
         SortNumericUp,
 
         /// <summary>
-        /// Alternate Sort Numeric up
+        ///     Alternate Sort Numeric up
         /// </summary>
         /// <remarks>
-        /// sort-numeric-up-alt - Available in Solid
+        ///     sort-numeric-up-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sort-numeric-up-alt")]
         SortNumericUpAlt,
 
         /// <summary>
-        /// Sort up Ascending
+        ///     Sort up Ascending
         /// </summary>
         /// <remarks>
-        /// sort-up - Available in Solid
+        ///     sort-up - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sort-up")]
         SortUp,
 
         /// <summary>
-        /// Spa
+        ///     Spa
         /// </summary>
         /// <remarks>
-        /// spa - Available in Solid
+        ///     spa - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "spa")]
-        Spa,
+        [FontAwesome(IconStyle.Solid, "spa")] Spa,
 
         /// <summary>
-        /// Space Shuttle
+        ///     Space Shuttle
         /// </summary>
         /// <remarks>
-        /// space-shuttle - Available in Solid
+        ///     space-shuttle - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "space-shuttle")]
         SpaceShuttle,
 
         /// <summary>
-        /// Spell Check
+        ///     Spell Check
         /// </summary>
         /// <remarks>
-        /// spell-check - Available in Solid
+        ///     spell-check - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "spell-check")]
         SpellCheck,
 
         /// <summary>
-        /// Spider
+        ///     Spider
         /// </summary>
         /// <remarks>
-        /// spider - Available in Solid
+        ///     spider - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "spider")]
         Spider,
 
         /// <summary>
-        /// Spinner
+        ///     Spinner
         /// </summary>
         /// <remarks>
-        /// spinner - Available in Solid
+        ///     spinner - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "spinner")]
         Spinner,
 
         /// <summary>
-        /// Splotch
+        ///     Splotch
         /// </summary>
         /// <remarks>
-        /// splotch - Available in Solid
+        ///     splotch - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "splotch")]
         Splotch,
 
         /// <summary>
-        /// Spray Can
+        ///     Spray Can
         /// </summary>
         /// <remarks>
-        /// spray-can - Available in Solid
+        ///     spray-can - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "spray-can")]
         SprayCan,
 
         /// <summary>
-        /// Square
+        ///     Square
         /// </summary>
         /// <remarks>
-        /// square - Available in Solid, Regular
+        ///     square - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "square")]
         Square,
 
         /// <summary>
-        /// Square Full
+        ///     Square Full
         /// </summary>
         /// <remarks>
-        /// square-full - Available in Solid
+        ///     square-full - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "square-full")]
         SquareFull,
 
         /// <summary>
-        /// Alternate Square Root
+        ///     Alternate Square Root
         /// </summary>
         /// <remarks>
-        /// square-root-alt - Available in Solid
+        ///     square-root-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "square-root-alt")]
         SquareRootAlt,
 
         /// <summary>
-        /// Stamp
+        ///     Stamp
         /// </summary>
         /// <remarks>
-        /// stamp - Available in Solid
+        ///     stamp - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "stamp")]
         Stamp,
 
         /// <summary>
-        /// Star
+        ///     Star
         /// </summary>
         /// <remarks>
-        /// star - Available in Solid, Regular
+        ///     star - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "star")]
-        Star,
+        [FontAwesome(IconStyle.Solid, "star")] Star,
 
         /// <summary>
-        /// Star and Crescent
+        ///     Star and Crescent
         /// </summary>
         /// <remarks>
-        /// star-and-crescent - Available in Solid
+        ///     star-and-crescent - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "star-and-crescent")]
         StarAndCrescent,
 
         /// <summary>
-        /// Star Half
+        ///     Star Half
         /// </summary>
         /// <remarks>
-        /// star-half - Available in Solid, Regular
+        ///     star-half - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "star-half")]
         StarHalf,
 
         /// <summary>
-        /// Alternate Star Half
+        ///     Alternate Star Half
         /// </summary>
         /// <remarks>
-        /// star-half-alt - Available in Solid
+        ///     star-half-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "star-half-alt")]
         StarHalfAlt,
 
         /// <summary>
-        /// Star of David
+        ///     Star of David
         /// </summary>
         /// <remarks>
-        /// star-of-david - Available in Solid
+        ///     star-of-david - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "star-of-david")]
         StarOfDavid,
 
         /// <summary>
-        /// Star of Life
+        ///     Star of Life
         /// </summary>
         /// <remarks>
-        /// star-of-life - Available in Solid
+        ///     star-of-life - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "star-of-life")]
         StarOfLife,
 
         /// <summary>
-        /// Step Backward
+        ///     Step Backward
         /// </summary>
         /// <remarks>
-        /// step-backward - Available in Solid
+        ///     step-backward - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "step-backward")]
         StepBackward,
 
         /// <summary>
-        /// Step Forward
+        ///     Step Forward
         /// </summary>
         /// <remarks>
-        /// step-forward - Available in Solid
+        ///     step-forward - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "step-forward")]
         StepForward,
 
         /// <summary>
-        /// Stethoscope
+        ///     Stethoscope
         /// </summary>
         /// <remarks>
-        /// stethoscope - Available in Solid
+        ///     stethoscope - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "stethoscope")]
         Stethoscope,
 
         /// <summary>
-        /// Sticky Note
+        ///     Sticky Note
         /// </summary>
         /// <remarks>
-        /// sticky-note - Available in Solid, Regular
+        ///     sticky-note - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sticky-note")]
         StickyNote,
 
         /// <summary>
-        /// Stop
+        ///     Stop
         /// </summary>
         /// <remarks>
-        /// stop - Available in Solid
+        ///     stop - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "stop")]
-        Stop,
+        [FontAwesome(IconStyle.Solid, "stop")] Stop,
 
         /// <summary>
-        /// Stop Circle
+        ///     Stop Circle
         /// </summary>
         /// <remarks>
-        /// stop-circle - Available in Solid, Regular
+        ///     stop-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "stop-circle")]
         StopCircle,
 
         /// <summary>
-        /// Stopwatch
+        ///     Stopwatch
         /// </summary>
         /// <remarks>
-        /// stopwatch - Available in Solid
+        ///     stopwatch - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "stopwatch")]
         Stopwatch,
 
         /// <summary>
-        /// Stopwatch 20
+        ///     Stopwatch 20
         /// </summary>
         /// <remarks>
-        /// stopwatch-20 - Available in Solid
+        ///     stopwatch-20 - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "stopwatch-20")]
         Stopwatch20,
 
         /// <summary>
-        /// Store
+        ///     Store
         /// </summary>
         /// <remarks>
-        /// store - Available in Solid
+        ///     store - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "store")]
         Store,
 
         /// <summary>
-        /// Alternate Store
+        ///     Alternate Store
         /// </summary>
         /// <remarks>
-        /// store-alt - Available in Solid
+        ///     store-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "store-alt")]
         StoreAlt,
 
         /// <summary>
-        /// Alternate Store Slash
+        ///     Alternate Store Slash
         /// </summary>
         /// <remarks>
-        /// store-alt-slash - Available in Solid
+        ///     store-alt-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "store-alt-slash")]
         StoreAltSlash,
 
         /// <summary>
-        /// Store Slash
+        ///     Store Slash
         /// </summary>
         /// <remarks>
-        /// store-slash - Available in Solid
+        ///     store-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "store-slash")]
         StoreSlash,
 
         /// <summary>
-        /// Stream
+        ///     Stream
         /// </summary>
         /// <remarks>
-        /// stream - Available in Solid
+        ///     stream - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "stream")]
         Stream,
 
         /// <summary>
-        /// Street View
+        ///     Street View
         /// </summary>
         /// <remarks>
-        /// street-view - Available in Solid
+        ///     street-view - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "street-view")]
         StreetView,
 
         /// <summary>
-        /// Strikethrough
+        ///     Strikethrough
         /// </summary>
         /// <remarks>
-        /// strikethrough - Available in Solid
+        ///     strikethrough - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "strikethrough")]
         Strikethrough,
 
         /// <summary>
-        /// Stroopwafel
+        ///     Stroopwafel
         /// </summary>
         /// <remarks>
-        /// stroopwafel - Available in Solid
+        ///     stroopwafel - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "stroopwafel")]
         Stroopwafel,
 
         /// <summary>
-        /// Subscript
+        ///     Subscript
         /// </summary>
         /// <remarks>
-        /// subscript - Available in Solid
+        ///     subscript - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "subscript")]
         Subscript,
 
         /// <summary>
-        /// Subway
+        ///     Subway
         /// </summary>
         /// <remarks>
-        /// subway - Available in Solid
+        ///     subway - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "subway")]
         Subway,
 
         /// <summary>
-        /// Suitcase
+        ///     Suitcase
         /// </summary>
         /// <remarks>
-        /// suitcase - Available in Solid
+        ///     suitcase - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "suitcase")]
         Suitcase,
 
         /// <summary>
-        /// Suitcase Rolling
+        ///     Suitcase Rolling
         /// </summary>
         /// <remarks>
-        /// suitcase-rolling - Available in Solid
+        ///     suitcase-rolling - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "suitcase-rolling")]
         SuitcaseRolling,
 
         /// <summary>
-        /// Sun
+        ///     Sun
         /// </summary>
         /// <remarks>
-        /// sun - Available in Solid, Regular
+        ///     sun - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "sun")]
-        Sun,
+        [FontAwesome(IconStyle.Solid, "sun")] Sun,
 
         /// <summary>
-        /// Superscript
+        ///     Superscript
         /// </summary>
         /// <remarks>
-        /// superscript - Available in Solid
+        ///     superscript - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "superscript")]
         Superscript,
 
         /// <summary>
-        /// Hushed Face
+        ///     Hushed Face
         /// </summary>
         /// <remarks>
-        /// surprise - Available in Solid, Regular
+        ///     surprise - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "surprise")]
         Surprise,
 
         /// <summary>
-        /// Swatchbook
+        ///     Swatchbook
         /// </summary>
         /// <remarks>
-        /// swatchbook - Available in Solid
+        ///     swatchbook - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "swatchbook")]
         Swatchbook,
 
         /// <summary>
-        /// Swimmer
+        ///     Swimmer
         /// </summary>
         /// <remarks>
-        /// swimmer - Available in Solid
+        ///     swimmer - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "swimmer")]
         Swimmer,
 
         /// <summary>
-        /// Swimming Pool
+        ///     Swimming Pool
         /// </summary>
         /// <remarks>
-        /// swimming-pool - Available in Solid
+        ///     swimming-pool - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "swimming-pool")]
         SwimmingPool,
 
         /// <summary>
-        /// Synagogue
+        ///     Synagogue
         /// </summary>
         /// <remarks>
-        /// synagogue - Available in Solid
+        ///     synagogue - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "synagogue")]
         Synagogue,
 
         /// <summary>
-        /// Sync
+        ///     Sync
         /// </summary>
         /// <remarks>
-        /// sync - Available in Solid
+        ///     sync - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "sync")]
-        Sync,
+        [FontAwesome(IconStyle.Solid, "sync")] Sync,
 
         /// <summary>
-        /// Alternate Sync
+        ///     Alternate Sync
         /// </summary>
         /// <remarks>
-        /// sync-alt - Available in Solid
+        ///     sync-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "sync-alt")]
         SyncAlt,
 
         /// <summary>
-        /// Syringe
+        ///     Syringe
         /// </summary>
         /// <remarks>
-        /// syringe - Available in Solid
+        ///     syringe - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "syringe")]
         Syringe,
 
         /// <summary>
-        /// Table
+        ///     Table
         /// </summary>
         /// <remarks>
-        /// table - Available in Solid
+        ///     table - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "table")]
         Table,
 
         /// <summary>
-        /// Table Tennis
+        ///     Table Tennis
         /// </summary>
         /// <remarks>
-        /// table-tennis - Available in Solid
+        ///     table-tennis - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "table-tennis")]
         TableTennis,
 
         /// <summary>
-        /// Tablet
+        ///     Tablet
         /// </summary>
         /// <remarks>
-        /// tablet - Available in Solid
+        ///     tablet - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "tablet")]
         Tablet,
 
         /// <summary>
-        /// Alternate Tablet
+        ///     Alternate Tablet
         /// </summary>
         /// <remarks>
-        /// tablet-alt - Available in Solid
+        ///     tablet-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "tablet-alt")]
         TabletAlt,
 
         /// <summary>
-        /// Tablets
+        ///     Tablets
         /// </summary>
         /// <remarks>
-        /// tablets - Available in Solid
+        ///     tablets - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "tablets")]
         Tablets,
 
         /// <summary>
-        /// Alternate Tachometer
+        ///     Alternate Tachometer
         /// </summary>
         /// <remarks>
-        /// tachometer-alt - Available in Solid
+        ///     tachometer-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "tachometer-alt")]
         TachometerAlt,
 
         /// <summary>
-        /// Tag
+        ///     Tag
         /// </summary>
         /// <remarks>
-        /// tag - Available in Solid
+        ///     tag - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "tag")]
-        Tag,
+        [FontAwesome(IconStyle.Solid, "tag")] Tag,
 
         /// <summary>
-        /// Tags
+        ///     Tags
         /// </summary>
         /// <remarks>
-        /// tags - Available in Solid
+        ///     tags - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "tags")]
-        Tags,
+        [FontAwesome(IconStyle.Solid, "tags")] Tags,
 
         /// <summary>
-        /// Tape
+        ///     Tape
         /// </summary>
         /// <remarks>
-        /// tape - Available in Solid
+        ///     tape - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "tape")]
-        Tape,
+        [FontAwesome(IconStyle.Solid, "tape")] Tape,
 
         /// <summary>
-        /// Tasks
+        ///     Tasks
         /// </summary>
         /// <remarks>
-        /// tasks - Available in Solid
+        ///     tasks - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "tasks")]
         Tasks,
 
         /// <summary>
-        /// Taxi
+        ///     Taxi
         /// </summary>
         /// <remarks>
-        /// taxi - Available in Solid
+        ///     taxi - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "taxi")]
-        Taxi,
+        [FontAwesome(IconStyle.Solid, "taxi")] Taxi,
 
         /// <summary>
-        /// Teeth
+        ///     Teeth
         /// </summary>
         /// <remarks>
-        /// teeth - Available in Solid
+        ///     teeth - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "teeth")]
         Teeth,
 
         /// <summary>
-        /// Teeth Open
+        ///     Teeth Open
         /// </summary>
         /// <remarks>
-        /// teeth-open - Available in Solid
+        ///     teeth-open - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "teeth-open")]
         TeethOpen,
 
         /// <summary>
-        /// High Temperature
+        ///     High Temperature
         /// </summary>
         /// <remarks>
-        /// temperature-high - Available in Solid
+        ///     temperature-high - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "temperature-high")]
         TemperatureHigh,
 
         /// <summary>
-        /// Low Temperature
+        ///     Low Temperature
         /// </summary>
         /// <remarks>
-        /// temperature-low - Available in Solid
+        ///     temperature-low - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "temperature-low")]
         TemperatureLow,
 
         /// <summary>
-        /// Tenge
+        ///     Tenge
         /// </summary>
         /// <remarks>
-        /// tenge - Available in Solid
+        ///     tenge - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "tenge")]
         Tenge,
 
         /// <summary>
-        /// Terminal
+        ///     Terminal
         /// </summary>
         /// <remarks>
-        /// terminal - Available in Solid
+        ///     terminal - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "terminal")]
         Terminal,
 
         /// <summary>
-        /// Text Height
+        ///     Text Height
         /// </summary>
         /// <remarks>
-        /// text-height - Available in Solid
+        ///     text-height - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "text-height")]
         TextHeight,
 
         /// <summary>
-        /// Text Width
+        ///     Text Width
         /// </summary>
         /// <remarks>
-        /// text-width - Available in Solid
+        ///     text-width - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "text-width")]
         TextWidth,
 
         /// <summary>
-        /// Th
+        ///     Th
         /// </summary>
         /// <remarks>
-        /// th - Available in Solid
+        ///     th - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "th")]
-        Th,
+        [FontAwesome(IconStyle.Solid, "th")] Th,
 
         /// <summary>
-        /// Th Large
+        ///     Th Large
         /// </summary>
         /// <remarks>
-        /// th-large - Available in Solid
+        ///     th-large - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "th-large")]
         ThLarge,
 
         /// <summary>
-        /// Th List
+        ///     Th List
         /// </summary>
         /// <remarks>
-        /// th-list - Available in Solid
+        ///     th-list - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "th-list")]
         ThList,
 
         /// <summary>
-        /// Theater Masks
+        ///     Theater Masks
         /// </summary>
         /// <remarks>
-        /// theater-masks - Available in Solid
+        ///     theater-masks - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "theater-masks")]
         TheaterMasks,
 
         /// <summary>
-        /// Thermometer
+        ///     Thermometer
         /// </summary>
         /// <remarks>
-        /// thermometer - Available in Solid
+        ///     thermometer - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "thermometer")]
         Thermometer,
 
         /// <summary>
-        /// Thermometer Empty
+        ///     Thermometer Empty
         /// </summary>
         /// <remarks>
-        /// thermometer-empty - Available in Solid
+        ///     thermometer-empty - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "thermometer-empty")]
         ThermometerEmpty,
 
         /// <summary>
-        /// Thermometer Full
+        ///     Thermometer Full
         /// </summary>
         /// <remarks>
-        /// thermometer-full - Available in Solid
+        ///     thermometer-full - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "thermometer-full")]
         ThermometerFull,
 
         /// <summary>
-        /// Thermometer 1 2 Full
+        ///     Thermometer 1 2 Full
         /// </summary>
         /// <remarks>
-        /// thermometer-half - Available in Solid
+        ///     thermometer-half - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "thermometer-half")]
         ThermometerHalf,
 
         /// <summary>
-        /// Thermometer 1 4 Full
+        ///     Thermometer 1 4 Full
         /// </summary>
         /// <remarks>
-        /// thermometer-quarter - Available in Solid
+        ///     thermometer-quarter - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "thermometer-quarter")]
         ThermometerQuarter,
 
         /// <summary>
-        /// Thermometer 3 4 Full
+        ///     Thermometer 3 4 Full
         /// </summary>
         /// <remarks>
-        /// thermometer-three-quarters - Available in Solid
+        ///     thermometer-three-quarters - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "thermometer-three-quarters")]
         ThermometerThreeQuarters,
 
         /// <summary>
-        /// Thumbs Down
+        ///     Thumbs Down
         /// </summary>
         /// <remarks>
-        /// thumbs-down - Available in Solid, Regular
+        ///     thumbs-down - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "thumbs-down")]
         ThumbsDown,
 
         /// <summary>
-        /// Thumbs up
+        ///     Thumbs up
         /// </summary>
         /// <remarks>
-        /// thumbs-up - Available in Solid, Regular
+        ///     thumbs-up - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "thumbs-up")]
         ThumbsUp,
 
         /// <summary>
-        /// Thumbtack
+        ///     Thumbtack
         /// </summary>
         /// <remarks>
-        /// thumbtack - Available in Solid
+        ///     thumbtack - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "thumbtack")]
         Thumbtack,
 
         /// <summary>
-        /// Alternate Ticket
+        ///     Alternate Ticket
         /// </summary>
         /// <remarks>
-        /// ticket-alt - Available in Solid
+        ///     ticket-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "ticket-alt")]
         TicketAlt,
 
         /// <summary>
-        /// Times
+        ///     Times
         /// </summary>
         /// <remarks>
-        /// times - Available in Solid
+        ///     times - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "times")]
         Times,
 
         /// <summary>
-        /// Times Circle
+        ///     Times Circle
         /// </summary>
         /// <remarks>
-        /// times-circle - Available in Solid, Regular
+        ///     times-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "times-circle")]
         TimesCircle,
 
         /// <summary>
-        /// Tint
+        ///     Tint
         /// </summary>
         /// <remarks>
-        /// tint - Available in Solid
+        ///     tint - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "tint")]
-        Tint,
+        [FontAwesome(IconStyle.Solid, "tint")] Tint,
 
         /// <summary>
-        /// Tint Slash
+        ///     Tint Slash
         /// </summary>
         /// <remarks>
-        /// tint-slash - Available in Solid
+        ///     tint-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "tint-slash")]
         TintSlash,
 
         /// <summary>
-        /// Tired Face
+        ///     Tired Face
         /// </summary>
         /// <remarks>
-        /// tired - Available in Solid, Regular
+        ///     tired - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "tired")]
         Tired,
 
         /// <summary>
-        /// Toggle off
+        ///     Toggle off
         /// </summary>
         /// <remarks>
-        /// toggle-off - Available in Solid
+        ///     toggle-off - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "toggle-off")]
         ToggleOff,
 
         /// <summary>
-        /// Toggle on
+        ///     Toggle on
         /// </summary>
         /// <remarks>
-        /// toggle-on - Available in Solid
+        ///     toggle-on - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "toggle-on")]
         ToggleOn,
 
         /// <summary>
-        /// Toilet
+        ///     Toilet
         /// </summary>
         /// <remarks>
-        /// toilet - Available in Solid
+        ///     toilet - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "toilet")]
         Toilet,
 
         /// <summary>
-        /// Toilet Paper
+        ///     Toilet Paper
         /// </summary>
         /// <remarks>
-        /// toilet-paper - Available in Solid
+        ///     toilet-paper - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "toilet-paper")]
         ToiletPaper,
 
         /// <summary>
-        /// Toilet Paper Slash
+        ///     Toilet Paper Slash
         /// </summary>
         /// <remarks>
-        /// toilet-paper-slash - Available in Solid
+        ///     toilet-paper-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "toilet-paper-slash")]
         ToiletPaperSlash,
 
         /// <summary>
-        /// Toolbox
+        ///     Toolbox
         /// </summary>
         /// <remarks>
-        /// toolbox - Available in Solid
+        ///     toolbox - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "toolbox")]
         Toolbox,
 
         /// <summary>
-        /// Tools
+        ///     Tools
         /// </summary>
         /// <remarks>
-        /// tools - Available in Solid
+        ///     tools - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "tools")]
         Tools,
 
         /// <summary>
-        /// Tooth
+        ///     Tooth
         /// </summary>
         /// <remarks>
-        /// tooth - Available in Solid
+        ///     tooth - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "tooth")]
         Tooth,
 
         /// <summary>
-        /// Torah
+        ///     Torah
         /// </summary>
         /// <remarks>
-        /// torah - Available in Solid
+        ///     torah - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "torah")]
         Torah,
 
         /// <summary>
-        /// Torii Gate
+        ///     Torii Gate
         /// </summary>
         /// <remarks>
-        /// torii-gate - Available in Solid
+        ///     torii-gate - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "torii-gate")]
         ToriiGate,
 
         /// <summary>
-        /// Tractor
+        ///     Tractor
         /// </summary>
         /// <remarks>
-        /// tractor - Available in Solid
+        ///     tractor - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "tractor")]
         Tractor,
 
         /// <summary>
-        /// Trademark
+        ///     Trademark
         /// </summary>
         /// <remarks>
-        /// trademark - Available in Solid
+        ///     trademark - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "trademark")]
         Trademark,
 
         /// <summary>
-        /// Traffic Light
+        ///     Traffic Light
         /// </summary>
         /// <remarks>
-        /// traffic-light - Available in Solid
+        ///     traffic-light - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "traffic-light")]
         TrafficLight,
 
         /// <summary>
-        /// Trailer
+        ///     Trailer
         /// </summary>
         /// <remarks>
-        /// trailer - Available in Solid
+        ///     trailer - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "trailer")]
         Trailer,
 
         /// <summary>
-        /// Train
+        ///     Train
         /// </summary>
         /// <remarks>
-        /// train - Available in Solid
+        ///     train - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "train")]
         Train,
 
         /// <summary>
-        /// Tram
+        ///     Tram
         /// </summary>
         /// <remarks>
-        /// tram - Available in Solid
+        ///     tram - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "tram")]
-        Tram,
+        [FontAwesome(IconStyle.Solid, "tram")] Tram,
 
         /// <summary>
-        /// Transgender
+        ///     Transgender
         /// </summary>
         /// <remarks>
-        /// transgender - Available in Solid
+        ///     transgender - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "transgender")]
         Transgender,
 
         /// <summary>
-        /// Alternate Transgender
+        ///     Alternate Transgender
         /// </summary>
         /// <remarks>
-        /// transgender-alt - Available in Solid
+        ///     transgender-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "transgender-alt")]
         TransgenderAlt,
 
         /// <summary>
-        /// Trash
+        ///     Trash
         /// </summary>
         /// <remarks>
-        /// trash - Available in Solid
+        ///     trash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "trash")]
         Trash,
 
         /// <summary>
-        /// Alternate Trash
+        ///     Alternate Trash
         /// </summary>
         /// <remarks>
-        /// trash-alt - Available in Solid, Regular
+        ///     trash-alt - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "trash-alt")]
         TrashAlt,
 
         /// <summary>
-        /// Trash Restore
+        ///     Trash Restore
         /// </summary>
         /// <remarks>
-        /// trash-restore - Available in Solid
+        ///     trash-restore - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "trash-restore")]
         TrashRestore,
 
         /// <summary>
-        /// Alternative Trash Restore
+        ///     Alternative Trash Restore
         /// </summary>
         /// <remarks>
-        /// trash-restore-alt - Available in Solid
+        ///     trash-restore-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "trash-restore-alt")]
         TrashRestoreAlt,
 
         /// <summary>
-        /// Tree
+        ///     Tree
         /// </summary>
         /// <remarks>
-        /// tree - Available in Solid
+        ///     tree - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "tree")]
-        Tree,
+        [FontAwesome(IconStyle.Solid, "tree")] Tree,
 
         /// <summary>
-        /// Trophy
+        ///     Trophy
         /// </summary>
         /// <remarks>
-        /// trophy - Available in Solid
+        ///     trophy - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "trophy")]
         Trophy,
 
         /// <summary>
-        /// Truck
+        ///     Truck
         /// </summary>
         /// <remarks>
-        /// truck - Available in Solid
+        ///     truck - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "truck")]
         Truck,
 
         /// <summary>
-        /// Truck Loading
+        ///     Truck Loading
         /// </summary>
         /// <remarks>
-        /// truck-loading - Available in Solid
+        ///     truck-loading - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "truck-loading")]
         TruckLoading,
 
         /// <summary>
-        /// Truck Monster
+        ///     Truck Monster
         /// </summary>
         /// <remarks>
-        /// truck-monster - Available in Solid
+        ///     truck-monster - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "truck-monster")]
         TruckMonster,
 
         /// <summary>
-        /// Truck Moving
+        ///     Truck Moving
         /// </summary>
         /// <remarks>
-        /// truck-moving - Available in Solid
+        ///     truck-moving - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "truck-moving")]
         TruckMoving,
 
         /// <summary>
-        /// Truck Side
+        ///     Truck Side
         /// </summary>
         /// <remarks>
-        /// truck-pickup - Available in Solid
+        ///     truck-pickup - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "truck-pickup")]
         TruckPickup,
 
         /// <summary>
-        /// T Shirt
+        ///     T Shirt
         /// </summary>
         /// <remarks>
-        /// tshirt - Available in Solid
+        ///     tshirt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "tshirt")]
         Tshirt,
 
         /// <summary>
-        /// TTY
+        ///     TTY
         /// </summary>
         /// <remarks>
-        /// tty - Available in Solid
+        ///     tty - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "tty")]
-        Tty,
+        [FontAwesome(IconStyle.Solid, "tty")] Tty,
 
         /// <summary>
-        /// Television
+        ///     Television
         /// </summary>
         /// <remarks>
-        /// tv - Available in Solid
+        ///     tv - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "tv")]
-        Tv,
+        [FontAwesome(IconStyle.Solid, "tv")] Tv,
 
         /// <summary>
-        /// Umbrella
+        ///     Umbrella
         /// </summary>
         /// <remarks>
-        /// umbrella - Available in Solid
+        ///     umbrella - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "umbrella")]
         Umbrella,
 
         /// <summary>
-        /// Umbrella Beach
+        ///     Umbrella Beach
         /// </summary>
         /// <remarks>
-        /// umbrella-beach - Available in Solid
+        ///     umbrella-beach - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "umbrella-beach")]
         UmbrellaBeach,
 
         /// <summary>
-        /// Underline
+        ///     Underline
         /// </summary>
         /// <remarks>
-        /// underline - Available in Solid
+        ///     underline - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "underline")]
         Underline,
 
         /// <summary>
-        /// Undo
+        ///     Undo
         /// </summary>
         /// <remarks>
-        /// undo - Available in Solid
+        ///     undo - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "undo")]
-        Undo,
+        [FontAwesome(IconStyle.Solid, "undo")] Undo,
 
         /// <summary>
-        /// Alternate Undo
+        ///     Alternate Undo
         /// </summary>
         /// <remarks>
-        /// undo-alt - Available in Solid
+        ///     undo-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "undo-alt")]
         UndoAlt,
 
         /// <summary>
-        /// Universal Access
+        ///     Universal Access
         /// </summary>
         /// <remarks>
-        /// universal-access - Available in Solid
+        ///     universal-access - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "universal-access")]
         UniversalAccess,
 
         /// <summary>
-        /// University
+        ///     University
         /// </summary>
         /// <remarks>
-        /// university - Available in Solid
+        ///     university - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "university")]
         University,
 
         /// <summary>
-        /// Unlink
+        ///     Unlink
         /// </summary>
         /// <remarks>
-        /// unlink - Available in Solid
+        ///     unlink - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "unlink")]
         Unlink,
 
         /// <summary>
-        /// Unlock
+        ///     Unlock
         /// </summary>
         /// <remarks>
-        /// unlock - Available in Solid
+        ///     unlock - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "unlock")]
         Unlock,
 
         /// <summary>
-        /// Alternate Unlock
+        ///     Alternate Unlock
         /// </summary>
         /// <remarks>
-        /// unlock-alt - Available in Solid
+        ///     unlock-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "unlock-alt")]
         UnlockAlt,
 
         /// <summary>
-        /// Upload
+        ///     Upload
         /// </summary>
         /// <remarks>
-        /// upload - Available in Solid
+        ///     upload - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "upload")]
         Upload,
 
         /// <summary>
-        /// User
+        ///     User
         /// </summary>
         /// <remarks>
-        /// user - Available in Solid, Regular
+        ///     user - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "user")]
-        User,
+        [FontAwesome(IconStyle.Solid, "user")] User,
 
         /// <summary>
-        /// Alternate User
+        ///     Alternate User
         /// </summary>
         /// <remarks>
-        /// user-alt - Available in Solid
+        ///     user-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-alt")]
         UserAlt,
 
         /// <summary>
-        /// Alternate User Slash
+        ///     Alternate User Slash
         /// </summary>
         /// <remarks>
-        /// user-alt-slash - Available in Solid
+        ///     user-alt-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-alt-slash")]
         UserAltSlash,
 
         /// <summary>
-        /// User Astronaut
+        ///     User Astronaut
         /// </summary>
         /// <remarks>
-        /// user-astronaut - Available in Solid
+        ///     user-astronaut - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-astronaut")]
         UserAstronaut,
 
         /// <summary>
-        /// User Check
+        ///     User Check
         /// </summary>
         /// <remarks>
-        /// user-check - Available in Solid
+        ///     user-check - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-check")]
         UserCheck,
 
         /// <summary>
-        /// User Circle
+        ///     User Circle
         /// </summary>
         /// <remarks>
-        /// user-circle - Available in Solid, Regular
+        ///     user-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-circle")]
         UserCircle,
 
         /// <summary>
-        /// User Clock
+        ///     User Clock
         /// </summary>
         /// <remarks>
-        /// user-clock - Available in Solid
+        ///     user-clock - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-clock")]
         UserClock,
 
         /// <summary>
-        /// User Cog
+        ///     User Cog
         /// </summary>
         /// <remarks>
-        /// user-cog - Available in Solid
+        ///     user-cog - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-cog")]
         UserCog,
 
         /// <summary>
-        /// User Edit
+        ///     User Edit
         /// </summary>
         /// <remarks>
-        /// user-edit - Available in Solid
+        ///     user-edit - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-edit")]
         UserEdit,
 
         /// <summary>
-        /// User Friends
+        ///     User Friends
         /// </summary>
         /// <remarks>
-        /// user-friends - Available in Solid
+        ///     user-friends - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-friends")]
         UserFriends,
 
         /// <summary>
-        /// User Graduate
+        ///     User Graduate
         /// </summary>
         /// <remarks>
-        /// user-graduate - Available in Solid
+        ///     user-graduate - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-graduate")]
         UserGraduate,
 
         /// <summary>
-        /// User Injured
+        ///     User Injured
         /// </summary>
         /// <remarks>
-        /// user-injured - Available in Solid
+        ///     user-injured - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-injured")]
         UserInjured,
 
         /// <summary>
-        /// User Lock
+        ///     User Lock
         /// </summary>
         /// <remarks>
-        /// user-lock - Available in Solid
+        ///     user-lock - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-lock")]
         UserLock,
 
         /// <summary>
-        /// Doctor
+        ///     Doctor
         /// </summary>
         /// <remarks>
-        /// user-md - Available in Solid
+        ///     user-md - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-md")]
         UserMd,
 
         /// <summary>
-        /// User Minus
+        ///     User Minus
         /// </summary>
         /// <remarks>
-        /// user-minus - Available in Solid
+        ///     user-minus - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-minus")]
         UserMinus,
 
         /// <summary>
-        /// User Ninja
+        ///     User Ninja
         /// </summary>
         /// <remarks>
-        /// user-ninja - Available in Solid
+        ///     user-ninja - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-ninja")]
         UserNinja,
 
         /// <summary>
-        /// Nurse
+        ///     Nurse
         /// </summary>
         /// <remarks>
-        /// user-nurse - Available in Solid
+        ///     user-nurse - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-nurse")]
         UserNurse,
 
         /// <summary>
-        /// User Plus
+        ///     User Plus
         /// </summary>
         /// <remarks>
-        /// user-plus - Available in Solid
+        ///     user-plus - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-plus")]
         UserPlus,
 
         /// <summary>
-        /// User Secret
+        ///     User Secret
         /// </summary>
         /// <remarks>
-        /// user-secret - Available in Solid
+        ///     user-secret - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-secret")]
         UserSecret,
 
         /// <summary>
-        /// User Shield
+        ///     User Shield
         /// </summary>
         /// <remarks>
-        /// user-shield - Available in Solid
+        ///     user-shield - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-shield")]
         UserShield,
 
         /// <summary>
-        /// User Slash
+        ///     User Slash
         /// </summary>
         /// <remarks>
-        /// user-slash - Available in Solid
+        ///     user-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-slash")]
         UserSlash,
 
         /// <summary>
-        /// User Tag
+        ///     User Tag
         /// </summary>
         /// <remarks>
-        /// user-tag - Available in Solid
+        ///     user-tag - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-tag")]
         UserTag,
 
         /// <summary>
-        /// User Tie
+        ///     User Tie
         /// </summary>
         /// <remarks>
-        /// user-tie - Available in Solid
+        ///     user-tie - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-tie")]
         UserTie,
 
         /// <summary>
-        /// Remove User
+        ///     Remove User
         /// </summary>
         /// <remarks>
-        /// user-times - Available in Solid
+        ///     user-times - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-times")]
         UserTimes,
 
         /// <summary>
-        /// Users
+        ///     Users
         /// </summary>
         /// <remarks>
-        /// users - Available in Solid
+        ///     users - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "users")]
         Users,
 
         /// <summary>
-        /// Users Cog
+        ///     Users Cog
         /// </summary>
         /// <remarks>
-        /// users-cog - Available in Solid
+        ///     users-cog - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "users-cog")]
         UsersCog,
 
         /// <summary>
-        /// Users Slash
+        ///     Users Slash
         /// </summary>
         /// <remarks>
-        /// users-slash - Available in Solid
+        ///     users-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "users-slash")]
         UsersSlash,
 
         /// <summary>
-        /// Utensil Spoon
+        ///     Utensil Spoon
         /// </summary>
         /// <remarks>
-        /// utensil-spoon - Available in Solid
+        ///     utensil-spoon - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "utensil-spoon")]
         UtensilSpoon,
 
         /// <summary>
-        /// Utensils
+        ///     Utensils
         /// </summary>
         /// <remarks>
-        /// utensils - Available in Solid
+        ///     utensils - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "utensils")]
         Utensils,
 
         /// <summary>
-        /// Vector Square
+        ///     Vector Square
         /// </summary>
         /// <remarks>
-        /// vector-square - Available in Solid
+        ///     vector-square - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "vector-square")]
         VectorSquare,
 
         /// <summary>
-        /// Venus
+        ///     Venus
         /// </summary>
         /// <remarks>
-        /// venus - Available in Solid
+        ///     venus - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "venus")]
         Venus,
 
         /// <summary>
-        /// Venus Double
+        ///     Venus Double
         /// </summary>
         /// <remarks>
-        /// venus-double - Available in Solid
+        ///     venus-double - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "venus-double")]
         VenusDouble,
 
         /// <summary>
-        /// Venus Mars
+        ///     Venus Mars
         /// </summary>
         /// <remarks>
-        /// venus-mars - Available in Solid
+        ///     venus-mars - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "venus-mars")]
         VenusMars,
 
         /// <summary>
-        /// Vest
+        ///     Vest
         /// </summary>
         /// <remarks>
-        /// vest - Available in Solid
+        ///     vest - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "vest")]
-        Vest,
+        [FontAwesome(IconStyle.Solid, "vest")] Vest,
 
         /// <summary>
-        /// Vest Patches
+        ///     Vest Patches
         /// </summary>
         /// <remarks>
-        /// vest-patches - Available in Solid
+        ///     vest-patches - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "vest-patches")]
         VestPatches,
 
         /// <summary>
-        /// Vial
+        ///     Vial
         /// </summary>
         /// <remarks>
-        /// vial - Available in Solid
+        ///     vial - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "vial")]
-        Vial,
+        [FontAwesome(IconStyle.Solid, "vial")] Vial,
 
         /// <summary>
-        /// Vials
+        ///     Vials
         /// </summary>
         /// <remarks>
-        /// vials - Available in Solid
+        ///     vials - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "vials")]
         Vials,
 
         /// <summary>
-        /// Video
+        ///     Video
         /// </summary>
         /// <remarks>
-        /// video - Available in Solid
+        ///     video - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "video")]
         Video,
 
         /// <summary>
-        /// Video Slash
+        ///     Video Slash
         /// </summary>
         /// <remarks>
-        /// video-slash - Available in Solid
+        ///     video-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "video-slash")]
         VideoSlash,
 
         /// <summary>
-        /// Vihara
+        ///     Vihara
         /// </summary>
         /// <remarks>
-        /// vihara - Available in Solid
+        ///     vihara - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "vihara")]
         Vihara,
 
         /// <summary>
-        /// Virus
+        ///     Virus
         /// </summary>
         /// <remarks>
-        /// virus - Available in Solid
+        ///     virus - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "virus")]
         Virus,
 
         /// <summary>
-        /// Virus Slash
+        ///     Virus Slash
         /// </summary>
         /// <remarks>
-        /// virus-slash - Available in Solid
+        ///     virus-slash - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "virus-slash")]
         VirusSlash,
 
         /// <summary>
-        /// Viruses
+        ///     Viruses
         /// </summary>
         /// <remarks>
-        /// viruses - Available in Solid
+        ///     viruses - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "viruses")]
         Viruses,
 
         /// <summary>
-        /// Voicemail
+        ///     Voicemail
         /// </summary>
         /// <remarks>
-        /// voicemail - Available in Solid
+        ///     voicemail - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "voicemail")]
         Voicemail,
 
         /// <summary>
-        /// Volleyball Ball
+        ///     Volleyball Ball
         /// </summary>
         /// <remarks>
-        /// volleyball-ball - Available in Solid
+        ///     volleyball-ball - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "volleyball-ball")]
         VolleyballBall,
 
         /// <summary>
-        /// Volume Down
+        ///     Volume Down
         /// </summary>
         /// <remarks>
-        /// volume-down - Available in Solid
+        ///     volume-down - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "volume-down")]
         VolumeDown,
 
         /// <summary>
-        /// Volume Mute
+        ///     Volume Mute
         /// </summary>
         /// <remarks>
-        /// volume-mute - Available in Solid
+        ///     volume-mute - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "volume-mute")]
         VolumeMute,
 
         /// <summary>
-        /// Volume off
+        ///     Volume off
         /// </summary>
         /// <remarks>
-        /// volume-off - Available in Solid
+        ///     volume-off - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "volume-off")]
         VolumeOff,
 
         /// <summary>
-        /// Volume up
+        ///     Volume up
         /// </summary>
         /// <remarks>
-        /// volume-up - Available in Solid
+        ///     volume-up - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "volume-up")]
         VolumeUp,
 
         /// <summary>
-        /// Vote Yea
+        ///     Vote Yea
         /// </summary>
         /// <remarks>
-        /// vote-yea - Available in Solid
+        ///     vote-yea - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "vote-yea")]
         VoteYea,
 
         /// <summary>
-        /// Cardboard VR
+        ///     Cardboard VR
         /// </summary>
         /// <remarks>
-        /// vr-cardboard - Available in Solid
+        ///     vr-cardboard - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "vr-cardboard")]
         VrCardboard,
 
         /// <summary>
-        /// Walking
+        ///     Walking
         /// </summary>
         /// <remarks>
-        /// walking - Available in Solid
+        ///     walking - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "walking")]
         Walking,
 
         /// <summary>
-        /// Wallet
+        ///     Wallet
         /// </summary>
         /// <remarks>
-        /// wallet - Available in Solid
+        ///     wallet - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "wallet")]
         Wallet,
 
         /// <summary>
-        /// Warehouse
+        ///     Warehouse
         /// </summary>
         /// <remarks>
-        /// warehouse - Available in Solid
+        ///     warehouse - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "warehouse")]
         Warehouse,
 
         /// <summary>
-        /// Water
+        ///     Water
         /// </summary>
         /// <remarks>
-        /// water - Available in Solid
+        ///     water - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "water")]
         Water,
 
         /// <summary>
-        /// Square Wave
+        ///     Square Wave
         /// </summary>
         /// <remarks>
-        /// wave-square - Available in Solid
+        ///     wave-square - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "wave-square")]
         WaveSquare,
 
         /// <summary>
-        /// Weight
+        ///     Weight
         /// </summary>
         /// <remarks>
-        /// weight - Available in Solid
+        ///     weight - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "weight")]
         Weight,
 
         /// <summary>
-        /// Hanging Weight
+        ///     Hanging Weight
         /// </summary>
         /// <remarks>
-        /// weight-hanging - Available in Solid
+        ///     weight-hanging - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "weight-hanging")]
         WeightHanging,
 
         /// <summary>
-        /// Wheelchair
+        ///     Wheelchair
         /// </summary>
         /// <remarks>
-        /// wheelchair - Available in Solid
+        ///     wheelchair - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "wheelchair")]
         Wheelchair,
 
         /// <summary>
-        /// Wi Fi
+        ///     Wi Fi
         /// </summary>
         /// <remarks>
-        /// wifi - Available in Solid
+        ///     wifi - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "wifi")]
-        Wifi,
+        [FontAwesome(IconStyle.Solid, "wifi")] Wifi,
 
         /// <summary>
-        /// Wind
+        ///     Wind
         /// </summary>
         /// <remarks>
-        /// wind - Available in Solid
+        ///     wind - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "wind")]
-        Wind,
+        [FontAwesome(IconStyle.Solid, "wind")] Wind,
 
         /// <summary>
-        /// Window Close
+        ///     Window Close
         /// </summary>
         /// <remarks>
-        /// window-close - Available in Solid, Regular
+        ///     window-close - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "window-close")]
         WindowClose,
 
         /// <summary>
-        /// Window Maximize
+        ///     Window Maximize
         /// </summary>
         /// <remarks>
-        /// window-maximize - Available in Solid, Regular
+        ///     window-maximize - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "window-maximize")]
         WindowMaximize,
 
         /// <summary>
-        /// Window Minimize
+        ///     Window Minimize
         /// </summary>
         /// <remarks>
-        /// window-minimize - Available in Solid, Regular
+        ///     window-minimize - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "window-minimize")]
         WindowMinimize,
 
         /// <summary>
-        /// Window Restore
+        ///     Window Restore
         /// </summary>
         /// <remarks>
-        /// window-restore - Available in Solid, Regular
+        ///     window-restore - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "window-restore")]
         WindowRestore,
 
         /// <summary>
-        /// Wine Bottle
+        ///     Wine Bottle
         /// </summary>
         /// <remarks>
-        /// wine-bottle - Available in Solid
+        ///     wine-bottle - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "wine-bottle")]
         WineBottle,
 
         /// <summary>
-        /// Wine Glass
+        ///     Wine Glass
         /// </summary>
         /// <remarks>
-        /// wine-glass - Available in Solid
+        ///     wine-glass - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "wine-glass")]
         WineGlass,
 
         /// <summary>
-        /// Alternate Wine Glas
+        ///     Alternate Wine Glas
         /// </summary>
         /// <remarks>
-        /// wine-glass-alt - Available in Solid
+        ///     wine-glass-alt - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "wine-glass-alt")]
         WineGlassAlt,
 
         /// <summary>
-        /// Won Sign
+        ///     Won Sign
         /// </summary>
         /// <remarks>
-        /// won-sign - Available in Solid
+        ///     won-sign - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "won-sign")]
         WonSign,
 
         /// <summary>
-        /// Wrench
+        ///     Wrench
         /// </summary>
         /// <remarks>
-        /// wrench - Available in Solid
+        ///     wrench - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "wrench")]
         Wrench,
 
         /// <summary>
-        /// X Ray
+        ///     X Ray
         /// </summary>
         /// <remarks>
-        /// x-ray - Available in Solid
+        ///     x-ray - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "x-ray")]
         XRay,
 
         /// <summary>
-        /// Yen Sign
+        ///     Yen Sign
         /// </summary>
         /// <remarks>
-        /// yen-sign - Available in Solid
+        ///     yen-sign - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "yen-sign")]
         YenSign,
 
         /// <summary>
-        /// Yin Yang
+        ///     Yin Yang
         /// </summary>
         /// <remarks>
-        /// yin-yang - Available in Solid
+        ///     yin-yang - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "yin-yang")]
         YinYang,
-
     }
 }

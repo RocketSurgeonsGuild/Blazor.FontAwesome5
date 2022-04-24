@@ -1,8 +1,6 @@
-﻿using System.Collections.Generic;
-using FluentAssertions;
+﻿using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Rocket.Surgery.Blazor.FontAwesome5.Pro;
-using Rocket.Surgery.Blazor.FontAwesome5.Shared;
 using Rocket.Surgery.Extensions.Testing;
 using Xunit;
 using Xunit.Abstractions;
@@ -11,7 +9,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
 {
     public class IconTests : LoggerTest
     {
-        public IconTests(ITestOutputHelper testOutputHelper) : base(testOutputHelper, LogLevel.Information) { }
+        public IconTests(ITestOutputHelper testOutputHelper) : base(testOutputHelper, LogLevel.Information)
+        {
+        }
 
         [Fact]
         public void Should_Support_Implicit_Conversion_From_Known_Enum()
@@ -166,14 +166,14 @@ namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
                .ToIcon().Should().Be(expected);
         }
 
-        enum InvalidEnum
+        private enum InvalidEnum
         {
             This,
             Is,
             Invalid
         }
 
-        enum Custom
+        private enum Custom
         {
             [FontAwesome(IconStyle.Regular, "adjust")]
             Name

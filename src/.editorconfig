@@ -1,2 +1,4 @@
 ﻿[*]
 dotnet_diagnostic.CA1014.severity = none
+# documentation warning
+dotnet_diagnostic.CS1591.severity = none

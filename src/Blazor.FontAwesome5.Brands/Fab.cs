@@ -1,4125 +1,4099 @@
-using System;
-using Rocket.Surgery.Blazor.FontAwesome5;
-using Rocket.Surgery.Blazor.FontAwesome5.Shared;
 namespace Rocket.Surgery.Blazor.FontAwesome5.Brands
 {
     /// <summary>
-    /// Font Awesome Fab Icons
+    ///     Font Awesome Fab Icons
     /// </summary>
     public enum Fab
     {
         /// <summary>
-        /// 500px
+        ///     500px
         /// </summary>
         /// <remarks>
-        /// 500px - Available in Brands
+        ///     500px - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "500px")]
         _500px,
 
         /// <summary>
-        /// Accessible Icon
+        ///     Accessible Icon
         /// </summary>
         /// <remarks>
-        /// accessible-icon - Available in Brands
+        ///     accessible-icon - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "accessible-icon")]
         AccessibleIcon,
 
         /// <summary>
-        /// Accusoft
+        ///     Accusoft
         /// </summary>
         /// <remarks>
-        /// accusoft - Available in Brands
+        ///     accusoft - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "accusoft")]
         Accusoft,
 
         /// <summary>
-        /// Acquisitions Incorporated
+        ///     Acquisitions Incorporated
         /// </summary>
         /// <remarks>
-        /// acquisitions-incorporated - Available in Brands
+        ///     acquisitions-incorporated - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "acquisitions-incorporated")]
         AcquisitionsIncorporated,
 
         /// <summary>
-        /// App Net
+        ///     App Net
         /// </summary>
         /// <remarks>
-        /// adn - Available in Brands
+        ///     adn - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "adn")]
-        Adn,
+        [FontAwesome(IconStyle.Brands, "adn")] Adn,
 
         /// <summary>
-        /// Adversal
+        ///     Adversal
         /// </summary>
         /// <remarks>
-        /// adversal - Available in Brands
+        ///     adversal - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "adversal")]
         Adversal,
 
         /// <summary>
-        /// Affiliatetheme
+        ///     Affiliatetheme
         /// </summary>
         /// <remarks>
-        /// affiliatetheme - Available in Brands
+        ///     affiliatetheme - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "affiliatetheme")]
         Affiliatetheme,
 
         /// <summary>
-        /// Airbnb
+        ///     Airbnb
         /// </summary>
         /// <remarks>
-        /// airbnb - Available in Brands
+        ///     airbnb - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "airbnb")]
         Airbnb,
 
         /// <summary>
-        /// Algolia
+        ///     Algolia
         /// </summary>
         /// <remarks>
-        /// algolia - Available in Brands
+        ///     algolia - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "algolia")]
         Algolia,
 
         /// <summary>
-        /// Alipay
+        ///     Alipay
         /// </summary>
         /// <remarks>
-        /// alipay - Available in Brands
+        ///     alipay - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "alipay")]
         Alipay,
 
         /// <summary>
-        /// Amazon
+        ///     Amazon
         /// </summary>
         /// <remarks>
-        /// amazon - Available in Brands
+        ///     amazon - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "amazon")]
         Amazon,
 
         /// <summary>
-        /// Amazon Pay
+        ///     Amazon Pay
         /// </summary>
         /// <remarks>
-        /// amazon-pay - Available in Brands
+        ///     amazon-pay - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "amazon-pay")]
         AmazonPay,
 
         /// <summary>
-        /// Amilia
+        ///     Amilia
         /// </summary>
         /// <remarks>
-        /// amilia - Available in Brands
+        ///     amilia - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "amilia")]
         Amilia,
 
         /// <summary>
-        /// Android
+        ///     Android
         /// </summary>
         /// <remarks>
-        /// android - Available in Brands
+        ///     android - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "android")]
         Android,
 
         /// <summary>
-        /// Angel List
+        ///     Angel List
         /// </summary>
         /// <remarks>
-        /// angellist - Available in Brands
+        ///     angellist - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "angellist")]
         Angellist,
 
         /// <summary>
-        /// Angry Creative
+        ///     Angry Creative
         /// </summary>
         /// <remarks>
-        /// angrycreative - Available in Brands
+        ///     angrycreative - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "angrycreative")]
         Angrycreative,
 
         /// <summary>
-        /// Angular
+        ///     Angular
         /// </summary>
         /// <remarks>
-        /// angular - Available in Brands
+        ///     angular - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "angular")]
         Angular,
 
         /// <summary>
-        /// App Store
+        ///     App Store
         /// </summary>
         /// <remarks>
-        /// app-store - Available in Brands
+        ///     app-store - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "app-store")]
         AppStore,
 
         /// <summary>
-        /// I OS App Store
+        ///     I OS App Store
         /// </summary>
         /// <remarks>
-        /// app-store-ios - Available in Brands
+        ///     app-store-ios - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "app-store-ios")]
         AppStoreIos,
 
         /// <summary>
-        /// Apper Systems AB
+        ///     Apper Systems AB
         /// </summary>
         /// <remarks>
-        /// apper - Available in Brands
+        ///     apper - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "apper")]
         Apper,
 
         /// <summary>
-        /// Apple
+        ///     Apple
         /// </summary>
         /// <remarks>
-        /// apple - Available in Brands
+        ///     apple - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "apple")]
         Apple,
 
         /// <summary>
-        /// Apple Pay
+        ///     Apple Pay
         /// </summary>
         /// <remarks>
-        /// apple-pay - Available in Brands
+        ///     apple-pay - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "apple-pay")]
         ApplePay,
 
         /// <summary>
-        /// Artstation
+        ///     Artstation
         /// </summary>
         /// <remarks>
-        /// artstation - Available in Brands
+        ///     artstation - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "artstation")]
         Artstation,
 
         /// <summary>
-        /// Asymmetrik Ltd
+        ///     Asymmetrik Ltd
         /// </summary>
         /// <remarks>
-        /// asymmetrik - Available in Brands
+        ///     asymmetrik - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "asymmetrik")]
         Asymmetrik,
 
         /// <summary>
-        /// Atlassian
+        ///     Atlassian
         /// </summary>
         /// <remarks>
-        /// atlassian - Available in Brands
+        ///     atlassian - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "atlassian")]
         Atlassian,
 
         /// <summary>
-        /// Audible
+        ///     Audible
         /// </summary>
         /// <remarks>
-        /// audible - Available in Brands
+        ///     audible - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "audible")]
         Audible,
 
         /// <summary>
-        /// Autoprefixer
+        ///     Autoprefixer
         /// </summary>
         /// <remarks>
-        /// autoprefixer - Available in Brands
+        ///     autoprefixer - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "autoprefixer")]
         Autoprefixer,
 
         /// <summary>
-        /// Avianex
+        ///     Avianex
         /// </summary>
         /// <remarks>
-        /// avianex - Available in Brands
+        ///     avianex - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "avianex")]
         Avianex,
 
         /// <summary>
-        /// Aviato
+        ///     Aviato
         /// </summary>
         /// <remarks>
-        /// aviato - Available in Brands
+        ///     aviato - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "aviato")]
         Aviato,
 
         /// <summary>
-        /// Amazon Web Services AWS
+        ///     Amazon Web Services AWS
         /// </summary>
         /// <remarks>
-        /// aws - Available in Brands
+        ///     aws - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "aws")]
-        Aws,
+        [FontAwesome(IconStyle.Brands, "aws")] Aws,
 
         /// <summary>
-        /// Bandcamp
+        ///     Bandcamp
         /// </summary>
         /// <remarks>
-        /// bandcamp - Available in Brands
+        ///     bandcamp - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "bandcamp")]
         Bandcamp,
 
         /// <summary>
-        /// Battle Net
+        ///     Battle Net
         /// </summary>
         /// <remarks>
-        /// battle-net - Available in Brands
+        ///     battle-net - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "battle-net")]
         BattleNet,
 
         /// <summary>
-        /// Behance
+        ///     Behance
         /// </summary>
         /// <remarks>
-        /// behance - Available in Brands
+        ///     behance - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "behance")]
         Behance,
 
         /// <summary>
-        /// Behance Square
+        ///     Behance Square
         /// </summary>
         /// <remarks>
-        /// behance-square - Available in Brands
+        ///     behance-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "behance-square")]
         BehanceSquare,
 
         /// <summary>
-        /// BI Mobject
+        ///     BI Mobject
         /// </summary>
         /// <remarks>
-        /// bimobject - Available in Brands
+        ///     bimobject - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "bimobject")]
         Bimobject,
 
         /// <summary>
-        /// Bitbucket
+        ///     Bitbucket
         /// </summary>
         /// <remarks>
-        /// bitbucket - Available in Brands
+        ///     bitbucket - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "bitbucket")]
         Bitbucket,
 
         /// <summary>
-        /// Bitcoin
+        ///     Bitcoin
         /// </summary>
         /// <remarks>
-        /// bitcoin - Available in Brands
+        ///     bitcoin - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "bitcoin")]
         Bitcoin,
 
         /// <summary>
-        /// Bity
+        ///     Bity
         /// </summary>
         /// <remarks>
-        /// bity - Available in Brands
+        ///     bity - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "bity")]
         Bity,
 
         /// <summary>
-        /// Font Awesome Black Tie
+        ///     Font Awesome Black Tie
         /// </summary>
         /// <remarks>
-        /// black-tie - Available in Brands
+        ///     black-tie - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "black-tie")]
         BlackTie,
 
         /// <summary>
-        /// Black Berry
+        ///     Black Berry
         /// </summary>
         /// <remarks>
-        /// blackberry - Available in Brands
+        ///     blackberry - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "blackberry")]
         Blackberry,
 
         /// <summary>
-        /// Blogger
+        ///     Blogger
         /// </summary>
         /// <remarks>
-        /// blogger - Available in Brands
+        ///     blogger - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "blogger")]
         Blogger,
 
         /// <summary>
-        /// Blogger B
+        ///     Blogger B
         /// </summary>
         /// <remarks>
-        /// blogger-b - Available in Brands
+        ///     blogger-b - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "blogger-b")]
         BloggerB,
 
         /// <summary>
-        /// Bluetooth
+        ///     Bluetooth
         /// </summary>
         /// <remarks>
-        /// bluetooth - Available in Brands
+        ///     bluetooth - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "bluetooth")]
         Bluetooth,
 
         /// <summary>
-        /// Bluetooth
+        ///     Bluetooth
         /// </summary>
         /// <remarks>
-        /// bluetooth-b - Available in Brands
+        ///     bluetooth-b - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "bluetooth-b")]
         BluetoothB,
 
         /// <summary>
-        /// Bootstrap
+        ///     Bootstrap
         /// </summary>
         /// <remarks>
-        /// bootstrap - Available in Brands
+        ///     bootstrap - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "bootstrap")]
         Bootstrap,
 
         /// <summary>
-        /// BTC
+        ///     BTC
         /// </summary>
         /// <remarks>
-        /// btc - Available in Brands
+        ///     btc - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "btc")]
-        Btc,
+        [FontAwesome(IconStyle.Brands, "btc")] Btc,
 
         /// <summary>
-        /// Buffer
+        ///     Buffer
         /// </summary>
         /// <remarks>
-        /// buffer - Available in Brands
+        ///     buffer - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "buffer")]
         Buffer,
 
         /// <summary>
-        /// Büromöbel Experte Gmbh & Co. KG.
+        ///     Büromöbel Experte Gmbh &amp; Co. KG.
         /// </summary>
         /// <remarks>
-        /// buromobelexperte - Available in Brands
+        ///     buromobelexperte - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "buromobelexperte")]
         Buromobelexperte,
 
         /// <summary>
-        /// Buy N Large
+        ///     Buy N Large
         /// </summary>
         /// <remarks>
-        /// buy-n-large - Available in Brands
+        ///     buy-n-large - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "buy-n-large")]
         BuyNLarge,
 
         /// <summary>
-        /// Buy Sell Ads
+        ///     Buy Sell Ads
         /// </summary>
         /// <remarks>
-        /// buysellads - Available in Brands
+        ///     buysellads - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "buysellads")]
         Buysellads,
 
         /// <summary>
-        /// Canadian Maple Leaf
+        ///     Canadian Maple Leaf
         /// </summary>
         /// <remarks>
-        /// canadian-maple-leaf - Available in Brands
+        ///     canadian-maple-leaf - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "canadian-maple-leaf")]
         CanadianMapleLeaf,
 
         /// <summary>
-        /// Amazon Pay Credit Card
+        ///     Amazon Pay Credit Card
         /// </summary>
         /// <remarks>
-        /// cc-amazon-pay - Available in Brands
+        ///     cc-amazon-pay - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cc-amazon-pay")]
         CcAmazonPay,
 
         /// <summary>
-        /// American Express Credit Card
+        ///     American Express Credit Card
         /// </summary>
         /// <remarks>
-        /// cc-amex - Available in Brands
+        ///     cc-amex - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cc-amex")]
         CcAmex,
 
         /// <summary>
-        /// Apple Pay Credit Card
+        ///     Apple Pay Credit Card
         /// </summary>
         /// <remarks>
-        /// cc-apple-pay - Available in Brands
+        ///     cc-apple-pay - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cc-apple-pay")]
         CcApplePay,
 
         /// <summary>
-        /// Diner S Club Credit Card
+        ///     Diner S Club Credit Card
         /// </summary>
         /// <remarks>
-        /// cc-diners-club - Available in Brands
+        ///     cc-diners-club - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cc-diners-club")]
         CcDinersClub,
 
         /// <summary>
-        /// Discover Credit Card
+        ///     Discover Credit Card
         /// </summary>
         /// <remarks>
-        /// cc-discover - Available in Brands
+        ///     cc-discover - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cc-discover")]
         CcDiscover,
 
         /// <summary>
-        /// JCB Credit Card
+        ///     JCB Credit Card
         /// </summary>
         /// <remarks>
-        /// cc-jcb - Available in Brands
+        ///     cc-jcb - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cc-jcb")]
         CcJcb,
 
         /// <summary>
-        /// Master Card Credit Card
+        ///     Master Card Credit Card
         /// </summary>
         /// <remarks>
-        /// cc-mastercard - Available in Brands
+        ///     cc-mastercard - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cc-mastercard")]
         CcMastercard,
 
         /// <summary>
-        /// Paypal Credit Card
+        ///     Paypal Credit Card
         /// </summary>
         /// <remarks>
-        /// cc-paypal - Available in Brands
+        ///     cc-paypal - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cc-paypal")]
         CcPaypal,
 
         /// <summary>
-        /// Stripe Credit Card
+        ///     Stripe Credit Card
         /// </summary>
         /// <remarks>
-        /// cc-stripe - Available in Brands
+        ///     cc-stripe - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cc-stripe")]
         CcStripe,
 
         /// <summary>
-        /// Visa Credit Card
+        ///     Visa Credit Card
         /// </summary>
         /// <remarks>
-        /// cc-visa - Available in Brands
+        ///     cc-visa - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cc-visa")]
         CcVisa,
 
         /// <summary>
-        /// Centercode
+        ///     Centercode
         /// </summary>
         /// <remarks>
-        /// centercode - Available in Brands
+        ///     centercode - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "centercode")]
         Centercode,
 
         /// <summary>
-        /// Centos
+        ///     Centos
         /// </summary>
         /// <remarks>
-        /// centos - Available in Brands
+        ///     centos - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "centos")]
         Centos,
 
         /// <summary>
-        /// Chrome
+        ///     Chrome
         /// </summary>
         /// <remarks>
-        /// chrome - Available in Brands
+        ///     chrome - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "chrome")]
         Chrome,
 
         /// <summary>
-        /// Chromecast
+        ///     Chromecast
         /// </summary>
         /// <remarks>
-        /// chromecast - Available in Brands
+        ///     chromecast - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "chromecast")]
         Chromecast,
 
         /// <summary>
-        /// Cloudflare
+        ///     Cloudflare
         /// </summary>
         /// <remarks>
-        /// cloudflare - Available in Brands
+        ///     cloudflare - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cloudflare")]
         Cloudflare,
 
         /// <summary>
-        /// Cloudscale Ch
+        ///     Cloudscale Ch
         /// </summary>
         /// <remarks>
-        /// cloudscale - Available in Brands
+        ///     cloudscale - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cloudscale")]
         Cloudscale,
 
         /// <summary>
-        /// Cloudsmith
+        ///     Cloudsmith
         /// </summary>
         /// <remarks>
-        /// cloudsmith - Available in Brands
+        ///     cloudsmith - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cloudsmith")]
         Cloudsmith,
 
         /// <summary>
-        /// Cloudversify
+        ///     Cloudversify
         /// </summary>
         /// <remarks>
-        /// cloudversify - Available in Brands
+        ///     cloudversify - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cloudversify")]
         Cloudversify,
 
         /// <summary>
-        /// Codepen
+        ///     Codepen
         /// </summary>
         /// <remarks>
-        /// codepen - Available in Brands
+        ///     codepen - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "codepen")]
         Codepen,
 
         /// <summary>
-        /// Codie Pie
+        ///     Codie Pie
         /// </summary>
         /// <remarks>
-        /// codiepie - Available in Brands
+        ///     codiepie - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "codiepie")]
         Codiepie,
 
         /// <summary>
-        /// Confluence
+        ///     Confluence
         /// </summary>
         /// <remarks>
-        /// confluence - Available in Brands
+        ///     confluence - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "confluence")]
         Confluence,
 
         /// <summary>
-        /// Connect Develop
+        ///     Connect Develop
         /// </summary>
         /// <remarks>
-        /// connectdevelop - Available in Brands
+        ///     connectdevelop - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "connectdevelop")]
         Connectdevelop,
 
         /// <summary>
-        /// Contao
+        ///     Contao
         /// </summary>
         /// <remarks>
-        /// contao - Available in Brands
+        ///     contao - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "contao")]
         Contao,
 
         /// <summary>
-        /// Cotton Bureau
+        ///     Cotton Bureau
         /// </summary>
         /// <remarks>
-        /// cotton-bureau - Available in Brands
+        ///     cotton-bureau - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cotton-bureau")]
         CottonBureau,
 
         /// <summary>
-        /// C Panel
+        ///     C Panel
         /// </summary>
         /// <remarks>
-        /// cpanel - Available in Brands
+        ///     cpanel - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cpanel")]
         Cpanel,
 
         /// <summary>
-        /// Creative Commons
+        ///     Creative Commons
         /// </summary>
         /// <remarks>
-        /// creative-commons - Available in Brands
+        ///     creative-commons - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "creative-commons")]
         CreativeCommons,
 
         /// <summary>
-        /// Creative Commons Attribution
+        ///     Creative Commons Attribution
         /// </summary>
         /// <remarks>
-        /// creative-commons-by - Available in Brands
+        ///     creative-commons-by - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "creative-commons-by")]
         CreativeCommonsBy,
 
         /// <summary>
-        /// Creative Commons Noncommercial
+        ///     Creative Commons Noncommercial
         /// </summary>
         /// <remarks>
-        /// creative-commons-nc - Available in Brands
+        ///     creative-commons-nc - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "creative-commons-nc")]
         CreativeCommonsNc,
 
         /// <summary>
-        /// Creative Commons Noncommercial Euro Sign
+        ///     Creative Commons Noncommercial Euro Sign
         /// </summary>
         /// <remarks>
-        /// creative-commons-nc-eu - Available in Brands
+        ///     creative-commons-nc-eu - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "creative-commons-nc-eu")]
         CreativeCommonsNcEu,
 
         /// <summary>
-        /// Creative Commons Noncommercial Yen Sign
+        ///     Creative Commons Noncommercial Yen Sign
         /// </summary>
         /// <remarks>
-        /// creative-commons-nc-jp - Available in Brands
+        ///     creative-commons-nc-jp - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "creative-commons-nc-jp")]
         CreativeCommonsNcJp,
 
         /// <summary>
-        /// Creative Commons No Derivative Works
+        ///     Creative Commons No Derivative Works
         /// </summary>
         /// <remarks>
-        /// creative-commons-nd - Available in Brands
+        ///     creative-commons-nd - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "creative-commons-nd")]
         CreativeCommonsNd,
 
         /// <summary>
-        /// Creative Commons Public Domain
+        ///     Creative Commons Public Domain
         /// </summary>
         /// <remarks>
-        /// creative-commons-pd - Available in Brands
+        ///     creative-commons-pd - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "creative-commons-pd")]
         CreativeCommonsPd,
 
         /// <summary>
-        /// Alternate Creative Commons Public Domain
+        ///     Alternate Creative Commons Public Domain
         /// </summary>
         /// <remarks>
-        /// creative-commons-pd-alt - Available in Brands
+        ///     creative-commons-pd-alt - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "creative-commons-pd-alt")]
         CreativeCommonsPdAlt,
 
         /// <summary>
-        /// Creative Commons Remix
+        ///     Creative Commons Remix
         /// </summary>
         /// <remarks>
-        /// creative-commons-remix - Available in Brands
+        ///     creative-commons-remix - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "creative-commons-remix")]
         CreativeCommonsRemix,
 
         /// <summary>
-        /// Creative Commons Share Alike
+        ///     Creative Commons Share Alike
         /// </summary>
         /// <remarks>
-        /// creative-commons-sa - Available in Brands
+        ///     creative-commons-sa - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "creative-commons-sa")]
         CreativeCommonsSa,
 
         /// <summary>
-        /// Creative Commons Sampling
+        ///     Creative Commons Sampling
         /// </summary>
         /// <remarks>
-        /// creative-commons-sampling - Available in Brands
+        ///     creative-commons-sampling - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "creative-commons-sampling")]
         CreativeCommonsSampling,
 
         /// <summary>
-        /// Creative Commons Sampling
+        ///     Creative Commons Sampling
         /// </summary>
         /// <remarks>
-        /// creative-commons-sampling-plus - Available in Brands
+        ///     creative-commons-sampling-plus - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "creative-commons-sampling-plus")]
         CreativeCommonsSamplingPlus,
 
         /// <summary>
-        /// Creative Commons Share
+        ///     Creative Commons Share
         /// </summary>
         /// <remarks>
-        /// creative-commons-share - Available in Brands
+        ///     creative-commons-share - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "creative-commons-share")]
         CreativeCommonsShare,
 
         /// <summary>
-        /// Creative Commons CC 0
+        ///     Creative Commons CC 0
         /// </summary>
         /// <remarks>
-        /// creative-commons-zero - Available in Brands
+        ///     creative-commons-zero - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "creative-commons-zero")]
         CreativeCommonsZero,
 
         /// <summary>
-        /// Critical Role
+        ///     Critical Role
         /// </summary>
         /// <remarks>
-        /// critical-role - Available in Brands
+        ///     critical-role - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "critical-role")]
         CriticalRole,
 
         /// <summary>
-        /// CSS 3 Logo
+        ///     CSS 3 Logo
         /// </summary>
         /// <remarks>
-        /// css3 - Available in Brands
+        ///     css3 - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "css3")]
         Css3,
 
         /// <summary>
-        /// Alternate CSS 3 Logo
+        ///     Alternate CSS 3 Logo
         /// </summary>
         /// <remarks>
-        /// css3-alt - Available in Brands
+        ///     css3-alt - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "css3-alt")]
         Css3Alt,
 
         /// <summary>
-        /// Cuttlefish
+        ///     Cuttlefish
         /// </summary>
         /// <remarks>
-        /// cuttlefish - Available in Brands
+        ///     cuttlefish - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "cuttlefish")]
         Cuttlefish,
 
         /// <summary>
-        /// Dungeons Dragons
+        ///     Dungeons Dragons
         /// </summary>
         /// <remarks>
-        /// d-and-d - Available in Brands
+        ///     d-and-d - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "d-and-d")]
         DAndD,
 
         /// <summary>
-        /// D D Beyond
+        ///     D D Beyond
         /// </summary>
         /// <remarks>
-        /// d-and-d-beyond - Available in Brands
+        ///     d-and-d-beyond - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "d-and-d-beyond")]
         DAndDBeyond,
 
         /// <summary>
-        /// Dailymotion
+        ///     Dailymotion
         /// </summary>
         /// <remarks>
-        /// dailymotion - Available in Brands
+        ///     dailymotion - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "dailymotion")]
         Dailymotion,
 
         /// <summary>
-        /// Dash Cube
+        ///     Dash Cube
         /// </summary>
         /// <remarks>
-        /// dashcube - Available in Brands
+        ///     dashcube - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "dashcube")]
         Dashcube,
 
         /// <summary>
-        /// Deezer
+        ///     Deezer
         /// </summary>
         /// <remarks>
-        /// deezer - Available in Brands
+        ///     deezer - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "deezer")]
         Deezer,
 
         /// <summary>
-        /// Delicious
+        ///     Delicious
         /// </summary>
         /// <remarks>
-        /// delicious - Available in Brands
+        ///     delicious - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "delicious")]
         Delicious,
 
         /// <summary>
-        /// Deploy Dog
+        ///     Deploy Dog
         /// </summary>
         /// <remarks>
-        /// deploydog - Available in Brands
+        ///     deploydog - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "deploydog")]
         Deploydog,
 
         /// <summary>
-        /// Deskpro
+        ///     Deskpro
         /// </summary>
         /// <remarks>
-        /// deskpro - Available in Brands
+        ///     deskpro - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "deskpro")]
         Deskpro,
 
         /// <summary>
-        /// DEV
+        ///     DEV
         /// </summary>
         /// <remarks>
-        /// dev - Available in Brands
+        ///     dev - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "dev")]
-        Dev,
+        [FontAwesome(IconStyle.Brands, "dev")] Dev,
 
         /// <summary>
-        /// Deviant ART
+        ///     Deviant ART
         /// </summary>
         /// <remarks>
-        /// deviantart - Available in Brands
+        ///     deviantart - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "deviantart")]
         Deviantart,
 
         /// <summary>
-        /// DHL
+        ///     DHL
         /// </summary>
         /// <remarks>
-        /// dhl - Available in Brands
+        ///     dhl - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "dhl")]
-        Dhl,
+        [FontAwesome(IconStyle.Brands, "dhl")] Dhl,
 
         /// <summary>
-        /// Diaspora
+        ///     Diaspora
         /// </summary>
         /// <remarks>
-        /// diaspora - Available in Brands
+        ///     diaspora - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "diaspora")]
         Diaspora,
 
         /// <summary>
-        /// Digg Logo
+        ///     Digg Logo
         /// </summary>
         /// <remarks>
-        /// digg - Available in Brands
+        ///     digg - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "digg")]
         Digg,
 
         /// <summary>
-        /// Digital Ocean
+        ///     Digital Ocean
         /// </summary>
         /// <remarks>
-        /// digital-ocean - Available in Brands
+        ///     digital-ocean - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "digital-ocean")]
         DigitalOcean,
 
         /// <summary>
-        /// Discord
+        ///     Discord
         /// </summary>
         /// <remarks>
-        /// discord - Available in Brands
+        ///     discord - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "discord")]
         Discord,
 
         /// <summary>
-        /// Discourse
+        ///     Discourse
         /// </summary>
         /// <remarks>
-        /// discourse - Available in Brands
+        ///     discourse - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "discourse")]
         Discourse,
 
         /// <summary>
-        /// Doc Hub
+        ///     Doc Hub
         /// </summary>
         /// <remarks>
-        /// dochub - Available in Brands
+        ///     dochub - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "dochub")]
         Dochub,
 
         /// <summary>
-        /// Docker
+        ///     Docker
         /// </summary>
         /// <remarks>
-        /// docker - Available in Brands
+        ///     docker - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "docker")]
         Docker,
 
         /// <summary>
-        /// Draft 2digital
+        ///     Draft 2digital
         /// </summary>
         /// <remarks>
-        /// draft2digital - Available in Brands
+        ///     draft2digital - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "draft2digital")]
         Draft2digital,
 
         /// <summary>
-        /// Dribbble
+        ///     Dribbble
         /// </summary>
         /// <remarks>
-        /// dribbble - Available in Brands
+        ///     dribbble - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "dribbble")]
         Dribbble,
 
         /// <summary>
-        /// Dribbble Square
+        ///     Dribbble Square
         /// </summary>
         /// <remarks>
-        /// dribbble-square - Available in Brands
+        ///     dribbble-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "dribbble-square")]
         DribbbleSquare,
 
         /// <summary>
-        /// Dropbox
+        ///     Dropbox
         /// </summary>
         /// <remarks>
-        /// dropbox - Available in Brands
+        ///     dropbox - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "dropbox")]
         Dropbox,
 
         /// <summary>
-        /// Drupal Logo
+        ///     Drupal Logo
         /// </summary>
         /// <remarks>
-        /// drupal - Available in Brands
+        ///     drupal - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "drupal")]
         Drupal,
 
         /// <summary>
-        /// Dyalog
+        ///     Dyalog
         /// </summary>
         /// <remarks>
-        /// dyalog - Available in Brands
+        ///     dyalog - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "dyalog")]
         Dyalog,
 
         /// <summary>
-        /// Earlybirds
+        ///     Earlybirds
         /// </summary>
         /// <remarks>
-        /// earlybirds - Available in Brands
+        ///     earlybirds - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "earlybirds")]
         Earlybirds,
 
         /// <summary>
-        /// E Bay
+        ///     E Bay
         /// </summary>
         /// <remarks>
-        /// ebay - Available in Brands
+        ///     ebay - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "ebay")]
         Ebay,
 
         /// <summary>
-        /// Edge Browser
+        ///     Edge Browser
         /// </summary>
         /// <remarks>
-        /// edge - Available in Brands
+        ///     edge - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "edge")]
         Edge,
 
         /// <summary>
-        /// Edge Legacy Browser
+        ///     Edge Legacy Browser
         /// </summary>
         /// <remarks>
-        /// edge-legacy - Available in Brands
+        ///     edge-legacy - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "edge-legacy")]
         EdgeLegacy,
 
         /// <summary>
-        /// Elementor
+        ///     Elementor
         /// </summary>
         /// <remarks>
-        /// elementor - Available in Brands
+        ///     elementor - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "elementor")]
         Elementor,
 
         /// <summary>
-        /// Ello
+        ///     Ello
         /// </summary>
         /// <remarks>
-        /// ello - Available in Brands
+        ///     ello - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "ello")]
         Ello,
 
         /// <summary>
-        /// Ember
+        ///     Ember
         /// </summary>
         /// <remarks>
-        /// ember - Available in Brands
+        ///     ember - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "ember")]
         Ember,
 
         /// <summary>
-        /// Galactic Empire
+        ///     Galactic Empire
         /// </summary>
         /// <remarks>
-        /// empire - Available in Brands
+        ///     empire - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "empire")]
         Empire,
 
         /// <summary>
-        /// Envira Gallery
+        ///     Envira Gallery
         /// </summary>
         /// <remarks>
-        /// envira - Available in Brands
+        ///     envira - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "envira")]
         Envira,
 
         /// <summary>
-        /// Erlang
+        ///     Erlang
         /// </summary>
         /// <remarks>
-        /// erlang - Available in Brands
+        ///     erlang - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "erlang")]
         Erlang,
 
         /// <summary>
-        /// Ethereum
+        ///     Ethereum
         /// </summary>
         /// <remarks>
-        /// ethereum - Available in Brands
+        ///     ethereum - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "ethereum")]
         Ethereum,
 
         /// <summary>
-        /// Etsy
+        ///     Etsy
         /// </summary>
         /// <remarks>
-        /// etsy - Available in Brands
+        ///     etsy - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "etsy")]
         Etsy,
 
         /// <summary>
-        /// Evernote
+        ///     Evernote
         /// </summary>
         /// <remarks>
-        /// evernote - Available in Brands
+        ///     evernote - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "evernote")]
         Evernote,
 
         /// <summary>
-        /// Expedited SSL
+        ///     Expedited SSL
         /// </summary>
         /// <remarks>
-        /// expeditedssl - Available in Brands
+        ///     expeditedssl - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "expeditedssl")]
         Expeditedssl,
 
         /// <summary>
-        /// Facebook
+        ///     Facebook
         /// </summary>
         /// <remarks>
-        /// facebook - Available in Brands
+        ///     facebook - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "facebook")]
         Facebook,
 
         /// <summary>
-        /// Facebook F
+        ///     Facebook F
         /// </summary>
         /// <remarks>
-        /// facebook-f - Available in Brands
+        ///     facebook-f - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "facebook-f")]
         FacebookF,
 
         /// <summary>
-        /// Facebook Messenger
+        ///     Facebook Messenger
         /// </summary>
         /// <remarks>
-        /// facebook-messenger - Available in Brands
+        ///     facebook-messenger - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "facebook-messenger")]
         FacebookMessenger,
 
         /// <summary>
-        /// Facebook Square
+        ///     Facebook Square
         /// </summary>
         /// <remarks>
-        /// facebook-square - Available in Brands
+        ///     facebook-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "facebook-square")]
         FacebookSquare,
 
         /// <summary>
-        /// Fantasy Flight Games
+        ///     Fantasy Flight Games
         /// </summary>
         /// <remarks>
-        /// fantasy-flight-games - Available in Brands
+        ///     fantasy-flight-games - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "fantasy-flight-games")]
         FantasyFlightGames,
 
         /// <summary>
-        /// Fed Ex
+        ///     Fed Ex
         /// </summary>
         /// <remarks>
-        /// fedex - Available in Brands
+        ///     fedex - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "fedex")]
         Fedex,
 
         /// <summary>
-        /// Fedora
+        ///     Fedora
         /// </summary>
         /// <remarks>
-        /// fedora - Available in Brands
+        ///     fedora - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "fedora")]
         Fedora,
 
         /// <summary>
-        /// Figma
+        ///     Figma
         /// </summary>
         /// <remarks>
-        /// figma - Available in Brands
+        ///     figma - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "figma")]
         Figma,
 
         /// <summary>
-        /// Firefox
+        ///     Firefox
         /// </summary>
         /// <remarks>
-        /// firefox - Available in Brands
+        ///     firefox - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "firefox")]
         Firefox,
 
         /// <summary>
-        /// Firefox Browser
+        ///     Firefox Browser
         /// </summary>
         /// <remarks>
-        /// firefox-browser - Available in Brands
+        ///     firefox-browser - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "firefox-browser")]
         FirefoxBrowser,
 
         /// <summary>
-        /// First Order
+        ///     First Order
         /// </summary>
         /// <remarks>
-        /// first-order - Available in Brands
+        ///     first-order - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "first-order")]
         FirstOrder,
 
         /// <summary>
-        /// Alternate First Order
+        ///     Alternate First Order
         /// </summary>
         /// <remarks>
-        /// first-order-alt - Available in Brands
+        ///     first-order-alt - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "first-order-alt")]
         FirstOrderAlt,
 
         /// <summary>
-        /// Firstdraft
+        ///     Firstdraft
         /// </summary>
         /// <remarks>
-        /// firstdraft - Available in Brands
+        ///     firstdraft - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "firstdraft")]
         Firstdraft,
 
         /// <summary>
-        /// Flickr
+        ///     Flickr
         /// </summary>
         /// <remarks>
-        /// flickr - Available in Brands
+        ///     flickr - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "flickr")]
         Flickr,
 
         /// <summary>
-        /// Flipboard
+        ///     Flipboard
         /// </summary>
         /// <remarks>
-        /// flipboard - Available in Brands
+        ///     flipboard - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "flipboard")]
         Flipboard,
 
         /// <summary>
-        /// Fly
+        ///     Fly
         /// </summary>
         /// <remarks>
-        /// fly - Available in Brands
+        ///     fly - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "fly")]
-        Fly,
+        [FontAwesome(IconStyle.Brands, "fly")] Fly,
 
         /// <summary>
-        /// Font Awesome
+        ///     Font Awesome
         /// </summary>
         /// <remarks>
-        /// font-awesome - Available in Brands
+        ///     font-awesome - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "font-awesome")]
         FontAwesome,
 
         /// <summary>
-        /// Alternate Font Awesome
+        ///     Alternate Font Awesome
         /// </summary>
         /// <remarks>
-        /// font-awesome-alt - Available in Brands
+        ///     font-awesome-alt - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "font-awesome-alt")]
         FontAwesomeAlt,
 
         /// <summary>
-        /// Font Awesome Flag
+        ///     Font Awesome Flag
         /// </summary>
         /// <remarks>
-        /// font-awesome-flag - Available in Brands
+        ///     font-awesome-flag - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "font-awesome-flag")]
         FontAwesomeFlag,
 
         /// <summary>
-        /// Font Awesome Full Logo
+        ///     Font Awesome Full Logo
         /// </summary>
         /// <remarks>
-        /// font-awesome-logo-full - Available in Solid, Regular, Light, Brands, Duotone
+        ///     font-awesome-logo-full - Available in Solid, Regular, Light, Brands, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "font-awesome-logo-full")]
         FontAwesomeLogoFull,
 
         /// <summary>
-        /// Fonticons
+        ///     Fonticons
         /// </summary>
         /// <remarks>
-        /// fonticons - Available in Brands
+        ///     fonticons - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "fonticons")]
         Fonticons,
 
         /// <summary>
-        /// Fonticons Fi
+        ///     Fonticons Fi
         /// </summary>
         /// <remarks>
-        /// fonticons-fi - Available in Brands
+        ///     fonticons-fi - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "fonticons-fi")]
         FonticonsFi,
 
         /// <summary>
-        /// Fort Awesome
+        ///     Fort Awesome
         /// </summary>
         /// <remarks>
-        /// fort-awesome - Available in Brands
+        ///     fort-awesome - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "fort-awesome")]
         FortAwesome,
 
         /// <summary>
-        /// Alternate Fort Awesome
+        ///     Alternate Fort Awesome
         /// </summary>
         /// <remarks>
-        /// fort-awesome-alt - Available in Brands
+        ///     fort-awesome-alt - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "fort-awesome-alt")]
         FortAwesomeAlt,
 
         /// <summary>
-        /// Forumbee
+        ///     Forumbee
         /// </summary>
         /// <remarks>
-        /// forumbee - Available in Brands
+        ///     forumbee - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "forumbee")]
         Forumbee,
 
         /// <summary>
-        /// Foursquare
+        ///     Foursquare
         /// </summary>
         /// <remarks>
-        /// foursquare - Available in Brands
+        ///     foursquare - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "foursquare")]
         Foursquare,
 
         /// <summary>
-        /// Free Code Camp
+        ///     Free Code Camp
         /// </summary>
         /// <remarks>
-        /// free-code-camp - Available in Brands
+        ///     free-code-camp - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "free-code-camp")]
         FreeCodeCamp,
 
         /// <summary>
-        /// Free BSD
+        ///     Free BSD
         /// </summary>
         /// <remarks>
-        /// freebsd - Available in Brands
+        ///     freebsd - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "freebsd")]
         Freebsd,
 
         /// <summary>
-        /// Fulcrum
+        ///     Fulcrum
         /// </summary>
         /// <remarks>
-        /// fulcrum - Available in Brands
+        ///     fulcrum - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "fulcrum")]
         Fulcrum,
 
         /// <summary>
-        /// Galactic Republic
+        ///     Galactic Republic
         /// </summary>
         /// <remarks>
-        /// galactic-republic - Available in Brands
+        ///     galactic-republic - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "galactic-republic")]
         GalacticRepublic,
 
         /// <summary>
-        /// Galactic Senate
+        ///     Galactic Senate
         /// </summary>
         /// <remarks>
-        /// galactic-senate - Available in Brands
+        ///     galactic-senate - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "galactic-senate")]
         GalacticSenate,
 
         /// <summary>
-        /// Get Pocket
+        ///     Get Pocket
         /// </summary>
         /// <remarks>
-        /// get-pocket - Available in Brands
+        ///     get-pocket - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "get-pocket")]
         GetPocket,
 
         /// <summary>
-        /// GG Currency
+        ///     GG Currency
         /// </summary>
         /// <remarks>
-        /// gg - Available in Brands
+        ///     gg - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "gg")]
-        Gg,
+        [FontAwesome(IconStyle.Brands, "gg")] Gg,
 
         /// <summary>
-        /// GG Currency Circle
+        ///     GG Currency Circle
         /// </summary>
         /// <remarks>
-        /// gg-circle - Available in Brands
+        ///     gg-circle - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "gg-circle")]
         GgCircle,
 
         /// <summary>
-        /// Git
+        ///     Git
         /// </summary>
         /// <remarks>
-        /// git - Available in Brands
+        ///     git - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "git")]
-        Git,
+        [FontAwesome(IconStyle.Brands, "git")] Git,
 
         /// <summary>
-        /// Git Alt
+        ///     Git Alt
         /// </summary>
         /// <remarks>
-        /// git-alt - Available in Brands
+        ///     git-alt - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "git-alt")]
         GitAlt,
 
         /// <summary>
-        /// Git Square
+        ///     Git Square
         /// </summary>
         /// <remarks>
-        /// git-square - Available in Brands
+        ///     git-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "git-square")]
         GitSquare,
 
         /// <summary>
-        /// Git Hub
+        ///     Git Hub
         /// </summary>
         /// <remarks>
-        /// github - Available in Brands
+        ///     github - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "github")]
         Github,
 
         /// <summary>
-        /// Alternate Git Hub
+        ///     Alternate Git Hub
         /// </summary>
         /// <remarks>
-        /// github-alt - Available in Brands
+        ///     github-alt - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "github-alt")]
         GithubAlt,
 
         /// <summary>
-        /// Git Hub Square
+        ///     Git Hub Square
         /// </summary>
         /// <remarks>
-        /// github-square - Available in Brands
+        ///     github-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "github-square")]
         GithubSquare,
 
         /// <summary>
-        /// Git Kraken
+        ///     Git Kraken
         /// </summary>
         /// <remarks>
-        /// gitkraken - Available in Brands
+        ///     gitkraken - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "gitkraken")]
         Gitkraken,
 
         /// <summary>
-        /// Git Lab
+        ///     Git Lab
         /// </summary>
         /// <remarks>
-        /// gitlab - Available in Brands
+        ///     gitlab - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "gitlab")]
         Gitlab,
 
         /// <summary>
-        /// Gitter
+        ///     Gitter
         /// </summary>
         /// <remarks>
-        /// gitter - Available in Brands
+        ///     gitter - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "gitter")]
         Gitter,
 
         /// <summary>
-        /// Glide
+        ///     Glide
         /// </summary>
         /// <remarks>
-        /// glide - Available in Brands
+        ///     glide - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "glide")]
         Glide,
 
         /// <summary>
-        /// Glide G
+        ///     Glide G
         /// </summary>
         /// <remarks>
-        /// glide-g - Available in Brands
+        ///     glide-g - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "glide-g")]
         GlideG,
 
         /// <summary>
-        /// Gofore
+        ///     Gofore
         /// </summary>
         /// <remarks>
-        /// gofore - Available in Brands
+        ///     gofore - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "gofore")]
         Gofore,
 
         /// <summary>
-        /// Goodreads
+        ///     Goodreads
         /// </summary>
         /// <remarks>
-        /// goodreads - Available in Brands
+        ///     goodreads - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "goodreads")]
         Goodreads,
 
         /// <summary>
-        /// Goodreads G
+        ///     Goodreads G
         /// </summary>
         /// <remarks>
-        /// goodreads-g - Available in Brands
+        ///     goodreads-g - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "goodreads-g")]
         GoodreadsG,
 
         /// <summary>
-        /// Google Logo
+        ///     Google Logo
         /// </summary>
         /// <remarks>
-        /// google - Available in Brands
+        ///     google - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "google")]
         Google,
 
         /// <summary>
-        /// Google Drive
+        ///     Google Drive
         /// </summary>
         /// <remarks>
-        /// google-drive - Available in Brands
+        ///     google-drive - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "google-drive")]
         GoogleDrive,
 
         /// <summary>
-        /// Google Pay
+        ///     Google Pay
         /// </summary>
         /// <remarks>
-        /// google-pay - Available in Brands
+        ///     google-pay - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "google-pay")]
         GooglePay,
 
         /// <summary>
-        /// Google Play
+        ///     Google Play
         /// </summary>
         /// <remarks>
-        /// google-play - Available in Brands
+        ///     google-play - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "google-play")]
         GooglePlay,
 
         /// <summary>
-        /// Google Plus
+        ///     Google Plus
         /// </summary>
         /// <remarks>
-        /// google-plus - Available in Brands
+        ///     google-plus - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "google-plus")]
         GooglePlus,
 
         /// <summary>
-        /// Google Plus G
+        ///     Google Plus G
         /// </summary>
         /// <remarks>
-        /// google-plus-g - Available in Brands
+        ///     google-plus-g - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "google-plus-g")]
         GooglePlusG,
 
         /// <summary>
-        /// Google Plus Square
+        ///     Google Plus Square
         /// </summary>
         /// <remarks>
-        /// google-plus-square - Available in Brands
+        ///     google-plus-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "google-plus-square")]
         GooglePlusSquare,
 
         /// <summary>
-        /// Google Wallet
+        ///     Google Wallet
         /// </summary>
         /// <remarks>
-        /// google-wallet - Available in Brands
+        ///     google-wallet - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "google-wallet")]
         GoogleWallet,
 
         /// <summary>
-        /// Gratipay Gittip
+        ///     Gratipay Gittip
         /// </summary>
         /// <remarks>
-        /// gratipay - Available in Brands
+        ///     gratipay - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "gratipay")]
         Gratipay,
 
         /// <summary>
-        /// Grav
+        ///     Grav
         /// </summary>
         /// <remarks>
-        /// grav - Available in Brands
+        ///     grav - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "grav")]
         Grav,
 
         /// <summary>
-        /// Gripfire Inc
+        ///     Gripfire Inc
         /// </summary>
         /// <remarks>
-        /// gripfire - Available in Brands
+        ///     gripfire - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "gripfire")]
         Gripfire,
 
         /// <summary>
-        /// Grunt
+        ///     Grunt
         /// </summary>
         /// <remarks>
-        /// grunt - Available in Brands
+        ///     grunt - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "grunt")]
         Grunt,
 
         /// <summary>
-        /// Guilded
+        ///     Guilded
         /// </summary>
         /// <remarks>
-        /// guilded - Available in Brands
+        ///     guilded - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "guilded")]
         Guilded,
 
         /// <summary>
-        /// Gulp
+        ///     Gulp
         /// </summary>
         /// <remarks>
-        /// gulp - Available in Brands
+        ///     gulp - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "gulp")]
         Gulp,
 
         /// <summary>
-        /// Hacker News
+        ///     Hacker News
         /// </summary>
         /// <remarks>
-        /// hacker-news - Available in Brands
+        ///     hacker-news - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "hacker-news")]
         HackerNews,
 
         /// <summary>
-        /// Hacker News Square
+        ///     Hacker News Square
         /// </summary>
         /// <remarks>
-        /// hacker-news-square - Available in Brands
+        ///     hacker-news-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "hacker-news-square")]
         HackerNewsSquare,
 
         /// <summary>
-        /// Hackerrank
+        ///     Hackerrank
         /// </summary>
         /// <remarks>
-        /// hackerrank - Available in Brands
+        ///     hackerrank - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "hackerrank")]
         Hackerrank,
 
         /// <summary>
-        /// Hips
+        ///     Hips
         /// </summary>
         /// <remarks>
-        /// hips - Available in Brands
+        ///     hips - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "hips")]
         Hips,
 
         /// <summary>
-        /// Hire a Helper
+        ///     Hire a Helper
         /// </summary>
         /// <remarks>
-        /// hire-a-helper - Available in Brands
+        ///     hire-a-helper - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "hire-a-helper")]
         HireAHelper,
 
         /// <summary>
-        /// Hive Blockchain Network
+        ///     Hive Blockchain Network
         /// </summary>
         /// <remarks>
-        /// hive - Available in Brands
+        ///     hive - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "hive")]
         Hive,
 
         /// <summary>
-        /// Hooli
+        ///     Hooli
         /// </summary>
         /// <remarks>
-        /// hooli - Available in Brands
+        ///     hooli - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "hooli")]
         Hooli,
 
         /// <summary>
-        /// Hornbill
+        ///     Hornbill
         /// </summary>
         /// <remarks>
-        /// hornbill - Available in Brands
+        ///     hornbill - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "hornbill")]
         Hornbill,
 
         /// <summary>
-        /// Hotjar
+        ///     Hotjar
         /// </summary>
         /// <remarks>
-        /// hotjar - Available in Brands
+        ///     hotjar - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "hotjar")]
         Hotjar,
 
         /// <summary>
-        /// Houzz
+        ///     Houzz
         /// </summary>
         /// <remarks>
-        /// houzz - Available in Brands
+        ///     houzz - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "houzz")]
         Houzz,
 
         /// <summary>
-        /// HTML 5 Logo
+        ///     HTML 5 Logo
         /// </summary>
         /// <remarks>
-        /// html5 - Available in Brands
+        ///     html5 - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "html5")]
         Html5,
 
         /// <summary>
-        /// Hub Spot
+        ///     Hub Spot
         /// </summary>
         /// <remarks>
-        /// hubspot - Available in Brands
+        ///     hubspot - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "hubspot")]
         Hubspot,
 
         /// <summary>
-        /// I Deal
+        ///     I Deal
         /// </summary>
         /// <remarks>
-        /// ideal - Available in Brands
+        ///     ideal - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "ideal")]
         Ideal,
 
         /// <summary>
-        /// IMDB
+        ///     IMDB
         /// </summary>
         /// <remarks>
-        /// imdb - Available in Brands
+        ///     imdb - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "imdb")]
         Imdb,
 
         /// <summary>
-        /// Innosoft
+        ///     Innosoft
         /// </summary>
         /// <remarks>
-        /// innosoft - Available in Brands
+        ///     innosoft - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "innosoft")]
         Innosoft,
 
         /// <summary>
-        /// Instagram
+        ///     Instagram
         /// </summary>
         /// <remarks>
-        /// instagram - Available in Brands
+        ///     instagram - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "instagram")]
         Instagram,
 
         /// <summary>
-        /// Instagram Square
+        ///     Instagram Square
         /// </summary>
         /// <remarks>
-        /// instagram-square - Available in Brands
+        ///     instagram-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "instagram-square")]
         InstagramSquare,
 
         /// <summary>
-        /// Insta LOD
+        ///     Insta LOD
         /// </summary>
         /// <remarks>
-        /// instalod - Available in Brands
+        ///     instalod - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "instalod")]
         Instalod,
 
         /// <summary>
-        /// Intercom
+        ///     Intercom
         /// </summary>
         /// <remarks>
-        /// intercom - Available in Brands
+        ///     intercom - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "intercom")]
         Intercom,
 
         /// <summary>
-        /// Internet Explorer
+        ///     Internet Explorer
         /// </summary>
         /// <remarks>
-        /// internet-explorer - Available in Brands
+        ///     internet-explorer - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "internet-explorer")]
         InternetExplorer,
 
         /// <summary>
-        /// In Vision
+        ///     In Vision
         /// </summary>
         /// <remarks>
-        /// invision - Available in Brands
+        ///     invision - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "invision")]
         Invision,
 
         /// <summary>
-        /// Ioxhost
+        ///     Ioxhost
         /// </summary>
         /// <remarks>
-        /// ioxhost - Available in Brands
+        ///     ioxhost - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "ioxhost")]
         Ioxhost,
 
         /// <summary>
-        /// Itch Io
+        ///     Itch Io
         /// </summary>
         /// <remarks>
-        /// itch-io - Available in Brands
+        ///     itch-io - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "itch-io")]
         ItchIo,
 
         /// <summary>
-        /// I Tunes
+        ///     I Tunes
         /// </summary>
         /// <remarks>
-        /// itunes - Available in Brands
+        ///     itunes - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "itunes")]
         Itunes,
 
         /// <summary>
-        /// Itunes Note
+        ///     Itunes Note
         /// </summary>
         /// <remarks>
-        /// itunes-note - Available in Brands
+        ///     itunes-note - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "itunes-note")]
         ItunesNote,
 
         /// <summary>
-        /// Java
+        ///     Java
         /// </summary>
         /// <remarks>
-        /// java - Available in Brands
+        ///     java - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "java")]
         Java,
 
         /// <summary>
-        /// Jedi Order
+        ///     Jedi Order
         /// </summary>
         /// <remarks>
-        /// jedi-order - Available in Brands
+        ///     jedi-order - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "jedi-order")]
         JediOrder,
 
         /// <summary>
-        /// Jenkis
+        ///     Jenkis
         /// </summary>
         /// <remarks>
-        /// jenkins - Available in Brands
+        ///     jenkins - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "jenkins")]
         Jenkins,
 
         /// <summary>
-        /// Jira
+        ///     Jira
         /// </summary>
         /// <remarks>
-        /// jira - Available in Brands
+        ///     jira - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "jira")]
         Jira,
 
         /// <summary>
-        /// Joget
+        ///     Joget
         /// </summary>
         /// <remarks>
-        /// joget - Available in Brands
+        ///     joget - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "joget")]
         Joget,
 
         /// <summary>
-        /// Joomla Logo
+        ///     Joomla Logo
         /// </summary>
         /// <remarks>
-        /// joomla - Available in Brands
+        ///     joomla - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "joomla")]
         Joomla,
 
         /// <summary>
-        /// Java Script JS
+        ///     Java Script JS
         /// </summary>
         /// <remarks>
-        /// js - Available in Brands
+        ///     js - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "js")]
-        Js,
+        [FontAwesome(IconStyle.Brands, "js")] Js,
 
         /// <summary>
-        /// Java Script JS Square
+        ///     Java Script JS Square
         /// </summary>
         /// <remarks>
-        /// js-square - Available in Brands
+        ///     js-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "js-square")]
         JsSquare,
 
         /// <summary>
-        /// Js Fiddle
+        ///     Js Fiddle
         /// </summary>
         /// <remarks>
-        /// jsfiddle - Available in Brands
+        ///     jsfiddle - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "jsfiddle")]
         Jsfiddle,
 
         /// <summary>
-        /// Kaggle
+        ///     Kaggle
         /// </summary>
         /// <remarks>
-        /// kaggle - Available in Brands
+        ///     kaggle - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "kaggle")]
         Kaggle,
 
         /// <summary>
-        /// Keybase
+        ///     Keybase
         /// </summary>
         /// <remarks>
-        /// keybase - Available in Brands
+        ///     keybase - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "keybase")]
         Keybase,
 
         /// <summary>
-        /// Key CDN
+        ///     Key CDN
         /// </summary>
         /// <remarks>
-        /// keycdn - Available in Brands
+        ///     keycdn - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "keycdn")]
         Keycdn,
 
         /// <summary>
-        /// Kickstarter
+        ///     Kickstarter
         /// </summary>
         /// <remarks>
-        /// kickstarter - Available in Brands
+        ///     kickstarter - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "kickstarter")]
         Kickstarter,
 
         /// <summary>
-        /// Kickstarter K
+        ///     Kickstarter K
         /// </summary>
         /// <remarks>
-        /// kickstarter-k - Available in Brands
+        ///     kickstarter-k - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "kickstarter-k")]
         KickstarterK,
 
         /// <summary>
-        /// KORVUE
+        ///     KORVUE
         /// </summary>
         /// <remarks>
-        /// korvue - Available in Brands
+        ///     korvue - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "korvue")]
         Korvue,
 
         /// <summary>
-        /// Laravel
+        ///     Laravel
         /// </summary>
         /// <remarks>
-        /// laravel - Available in Brands
+        ///     laravel - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "laravel")]
         Laravel,
 
         /// <summary>
-        /// Last Fm
+        ///     Last Fm
         /// </summary>
         /// <remarks>
-        /// lastfm - Available in Brands
+        ///     lastfm - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "lastfm")]
         Lastfm,
 
         /// <summary>
-        /// Last Fm Square
+        ///     Last Fm Square
         /// </summary>
         /// <remarks>
-        /// lastfm-square - Available in Brands
+        ///     lastfm-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "lastfm-square")]
         LastfmSquare,
 
         /// <summary>
-        /// Leanpub
+        ///     Leanpub
         /// </summary>
         /// <remarks>
-        /// leanpub - Available in Brands
+        ///     leanpub - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "leanpub")]
         Leanpub,
 
         /// <summary>
-        /// Less
+        ///     Less
         /// </summary>
         /// <remarks>
-        /// less - Available in Brands
+        ///     less - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "less")]
         Less,
 
         /// <summary>
-        /// Line
+        ///     Line
         /// </summary>
         /// <remarks>
-        /// line - Available in Brands
+        ///     line - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "line")]
         Line,
 
         /// <summary>
-        /// Linked in
+        ///     Linked in
         /// </summary>
         /// <remarks>
-        /// linkedin - Available in Brands
+        ///     linkedin - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "linkedin")]
         Linkedin,
 
         /// <summary>
-        /// Linked in in
+        ///     Linked in in
         /// </summary>
         /// <remarks>
-        /// linkedin-in - Available in Brands
+        ///     linkedin-in - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "linkedin-in")]
         LinkedinIn,
 
         /// <summary>
-        /// Linode
+        ///     Linode
         /// </summary>
         /// <remarks>
-        /// linode - Available in Brands
+        ///     linode - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "linode")]
         Linode,
 
         /// <summary>
-        /// Linux
+        ///     Linux
         /// </summary>
         /// <remarks>
-        /// linux - Available in Brands
+        ///     linux - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "linux")]
         Linux,
 
         /// <summary>
-        /// Lyft
+        ///     Lyft
         /// </summary>
         /// <remarks>
-        /// lyft - Available in Brands
+        ///     lyft - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "lyft")]
         Lyft,
 
         /// <summary>
-        /// Magento
+        ///     Magento
         /// </summary>
         /// <remarks>
-        /// magento - Available in Brands
+        ///     magento - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "magento")]
         Magento,
 
         /// <summary>
-        /// Mailchimp
+        ///     Mailchimp
         /// </summary>
         /// <remarks>
-        /// mailchimp - Available in Brands
+        ///     mailchimp - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "mailchimp")]
         Mailchimp,
 
         /// <summary>
-        /// Mandalorian
+        ///     Mandalorian
         /// </summary>
         /// <remarks>
-        /// mandalorian - Available in Brands
+        ///     mandalorian - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "mandalorian")]
         Mandalorian,
 
         /// <summary>
-        /// Markdown
+        ///     Markdown
         /// </summary>
         /// <remarks>
-        /// markdown - Available in Brands
+        ///     markdown - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "markdown")]
         Markdown,
 
         /// <summary>
-        /// Mastodon
+        ///     Mastodon
         /// </summary>
         /// <remarks>
-        /// mastodon - Available in Brands
+        ///     mastodon - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "mastodon")]
         Mastodon,
 
         /// <summary>
-        /// Max CDN
+        ///     Max CDN
         /// </summary>
         /// <remarks>
-        /// maxcdn - Available in Brands
+        ///     maxcdn - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "maxcdn")]
         Maxcdn,
 
         /// <summary>
-        /// Material Design for Bootstrap
+        ///     Material Design for Bootstrap
         /// </summary>
         /// <remarks>
-        /// mdb - Available in Brands
+        ///     mdb - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "mdb")]
-        Mdb,
+        [FontAwesome(IconStyle.Brands, "mdb")] Mdb,
 
         /// <summary>
-        /// Med Apps
+        ///     Med Apps
         /// </summary>
         /// <remarks>
-        /// medapps - Available in Brands
+        ///     medapps - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "medapps")]
         Medapps,
 
         /// <summary>
-        /// Medium
+        ///     Medium
         /// </summary>
         /// <remarks>
-        /// medium - Available in Brands
+        ///     medium - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "medium")]
         Medium,
 
         /// <summary>
-        /// Medium M
+        ///     Medium M
         /// </summary>
         /// <remarks>
-        /// medium-m - Available in Brands
+        ///     medium-m - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "medium-m")]
         MediumM,
 
         /// <summary>
-        /// MRT
+        ///     MRT
         /// </summary>
         /// <remarks>
-        /// medrt - Available in Brands
+        ///     medrt - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "medrt")]
         Medrt,
 
         /// <summary>
-        /// Meetup
+        ///     Meetup
         /// </summary>
         /// <remarks>
-        /// meetup - Available in Brands
+        ///     meetup - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "meetup")]
         Meetup,
 
         /// <summary>
-        /// Megaport
+        ///     Megaport
         /// </summary>
         /// <remarks>
-        /// megaport - Available in Brands
+        ///     megaport - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "megaport")]
         Megaport,
 
         /// <summary>
-        /// Mendeley
+        ///     Mendeley
         /// </summary>
         /// <remarks>
-        /// mendeley - Available in Brands
+        ///     mendeley - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "mendeley")]
         Mendeley,
 
         /// <summary>
-        /// Micro Blog
+        ///     Micro Blog
         /// </summary>
         /// <remarks>
-        /// microblog - Available in Brands
+        ///     microblog - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "microblog")]
         Microblog,
 
         /// <summary>
-        /// Microsoft
+        ///     Microsoft
         /// </summary>
         /// <remarks>
-        /// microsoft - Available in Brands
+        ///     microsoft - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "microsoft")]
         Microsoft,
 
         /// <summary>
-        /// Mix
+        ///     Mix
         /// </summary>
         /// <remarks>
-        /// mix - Available in Brands
+        ///     mix - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "mix")]
-        Mix,
+        [FontAwesome(IconStyle.Brands, "mix")] Mix,
 
         /// <summary>
-        /// Mixcloud
+        ///     Mixcloud
         /// </summary>
         /// <remarks>
-        /// mixcloud - Available in Brands
+        ///     mixcloud - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "mixcloud")]
         Mixcloud,
 
         /// <summary>
-        /// Mixer
+        ///     Mixer
         /// </summary>
         /// <remarks>
-        /// mixer - Available in Brands
+        ///     mixer - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "mixer")]
         Mixer,
 
         /// <summary>
-        /// Mizuni
+        ///     Mizuni
         /// </summary>
         /// <remarks>
-        /// mizuni - Available in Brands
+        ///     mizuni - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "mizuni")]
         Mizuni,
 
         /// <summary>
-        /// MODX
+        ///     MODX
         /// </summary>
         /// <remarks>
-        /// modx - Available in Brands
+        ///     modx - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "modx")]
         Modx,
 
         /// <summary>
-        /// Monero
+        ///     Monero
         /// </summary>
         /// <remarks>
-        /// monero - Available in Brands
+        ///     monero - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "monero")]
         Monero,
 
         /// <summary>
-        /// Napster
+        ///     Napster
         /// </summary>
         /// <remarks>
-        /// napster - Available in Brands
+        ///     napster - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "napster")]
         Napster,
 
         /// <summary>
-        /// Neos
+        ///     Neos
         /// </summary>
         /// <remarks>
-        /// neos - Available in Brands
+        ///     neos - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "neos")]
         Neos,
 
         /// <summary>
-        /// Nimblr
+        ///     Nimblr
         /// </summary>
         /// <remarks>
-        /// nimblr - Available in Brands
+        ///     nimblr - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "nimblr")]
         Nimblr,
 
         /// <summary>
-        /// Node Js
+        ///     Node Js
         /// </summary>
         /// <remarks>
-        /// node - Available in Brands
+        ///     node - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "node")]
         Node,
 
         /// <summary>
-        /// Node Js JS
+        ///     Node Js JS
         /// </summary>
         /// <remarks>
-        /// node-js - Available in Brands
+        ///     node-js - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "node-js")]
         NodeJs,
 
         /// <summary>
-        /// Npm
+        ///     Npm
         /// </summary>
         /// <remarks>
-        /// npm - Available in Brands
+        ///     npm - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "npm")]
-        Npm,
+        [FontAwesome(IconStyle.Brands, "npm")] Npm,
 
         /// <summary>
-        /// NS 8
+        ///     NS 8
         /// </summary>
         /// <remarks>
-        /// ns8 - Available in Brands
+        ///     ns8 - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "ns8")]
-        Ns8,
+        [FontAwesome(IconStyle.Brands, "ns8")] Ns8,
 
         /// <summary>
-        /// Nutritionix
+        ///     Nutritionix
         /// </summary>
         /// <remarks>
-        /// nutritionix - Available in Brands
+        ///     nutritionix - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "nutritionix")]
         Nutritionix,
 
         /// <summary>
-        /// Octopus Deploy
+        ///     Octopus Deploy
         /// </summary>
         /// <remarks>
-        /// octopus-deploy - Available in Brands
+        ///     octopus-deploy - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "octopus-deploy")]
         OctopusDeploy,
 
         /// <summary>
-        /// Odnoklassniki
+        ///     Odnoklassniki
         /// </summary>
         /// <remarks>
-        /// odnoklassniki - Available in Brands
+        ///     odnoklassniki - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "odnoklassniki")]
         Odnoklassniki,
 
         /// <summary>
-        /// Odnoklassniki Square
+        ///     Odnoklassniki Square
         /// </summary>
         /// <remarks>
-        /// odnoklassniki-square - Available in Brands
+        ///     odnoklassniki-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "odnoklassniki-square")]
         OdnoklassnikiSquare,
 
         /// <summary>
-        /// Old Republic
+        ///     Old Republic
         /// </summary>
         /// <remarks>
-        /// old-republic - Available in Brands
+        ///     old-republic - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "old-republic")]
         OldRepublic,
 
         /// <summary>
-        /// Open Cart
+        ///     Open Cart
         /// </summary>
         /// <remarks>
-        /// opencart - Available in Brands
+        ///     opencart - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "opencart")]
         Opencart,
 
         /// <summary>
-        /// Open ID
+        ///     Open ID
         /// </summary>
         /// <remarks>
-        /// openid - Available in Brands
+        ///     openid - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "openid")]
         Openid,
 
         /// <summary>
-        /// Opera
+        ///     Opera
         /// </summary>
         /// <remarks>
-        /// opera - Available in Brands
+        ///     opera - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "opera")]
         Opera,
 
         /// <summary>
-        /// Optin Monster
+        ///     Optin Monster
         /// </summary>
         /// <remarks>
-        /// optin-monster - Available in Brands
+        ///     optin-monster - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "optin-monster")]
         OptinMonster,
 
         /// <summary>
-        /// ORCID
+        ///     ORCID
         /// </summary>
         /// <remarks>
-        /// orcid - Available in Brands
+        ///     orcid - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "orcid")]
         Orcid,
 
         /// <summary>
-        /// Open Source Initiative
+        ///     Open Source Initiative
         /// </summary>
         /// <remarks>
-        /// osi - Available in Brands
+        ///     osi - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "osi")]
-        Osi,
+        [FontAwesome(IconStyle.Brands, "osi")] Osi,
 
         /// <summary>
-        /// Page 4 Corporation
+        ///     Page 4 Corporation
         /// </summary>
         /// <remarks>
-        /// page4 - Available in Brands
+        ///     page4 - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "page4")]
         Page4,
 
         /// <summary>
-        /// Pagelines
+        ///     Pagelines
         /// </summary>
         /// <remarks>
-        /// pagelines - Available in Brands
+        ///     pagelines - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "pagelines")]
         Pagelines,
 
         /// <summary>
-        /// Palfed
+        ///     Palfed
         /// </summary>
         /// <remarks>
-        /// palfed - Available in Brands
+        ///     palfed - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "palfed")]
         Palfed,
 
         /// <summary>
-        /// Patreon
+        ///     Patreon
         /// </summary>
         /// <remarks>
-        /// patreon - Available in Brands
+        ///     patreon - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "patreon")]
         Patreon,
 
         /// <summary>
-        /// Paypal
+        ///     Paypal
         /// </summary>
         /// <remarks>
-        /// paypal - Available in Brands
+        ///     paypal - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "paypal")]
         Paypal,
 
         /// <summary>
-        /// Penny Arcade
+        ///     Penny Arcade
         /// </summary>
         /// <remarks>
-        /// penny-arcade - Available in Brands
+        ///     penny-arcade - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "penny-arcade")]
         PennyArcade,
 
         /// <summary>
-        /// Per Byte
+        ///     Per Byte
         /// </summary>
         /// <remarks>
-        /// perbyte - Available in Brands
+        ///     perbyte - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "perbyte")]
         Perbyte,
 
         /// <summary>
-        /// Periscope
+        ///     Periscope
         /// </summary>
         /// <remarks>
-        /// periscope - Available in Brands
+        ///     periscope - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "periscope")]
         Periscope,
 
         /// <summary>
-        /// Phabricator
+        ///     Phabricator
         /// </summary>
         /// <remarks>
-        /// phabricator - Available in Brands
+        ///     phabricator - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "phabricator")]
         Phabricator,
 
         /// <summary>
-        /// Phoenix Framework
+        ///     Phoenix Framework
         /// </summary>
         /// <remarks>
-        /// phoenix-framework - Available in Brands
+        ///     phoenix-framework - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "phoenix-framework")]
         PhoenixFramework,
 
         /// <summary>
-        /// Phoenix Squadron
+        ///     Phoenix Squadron
         /// </summary>
         /// <remarks>
-        /// phoenix-squadron - Available in Brands
+        ///     phoenix-squadron - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "phoenix-squadron")]
         PhoenixSquadron,
 
         /// <summary>
-        /// PHP
+        ///     PHP
         /// </summary>
         /// <remarks>
-        /// php - Available in Brands
+        ///     php - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "php")]
-        Php,
+        [FontAwesome(IconStyle.Brands, "php")] Php,
 
         /// <summary>
-        /// Pied Piper Logo
+        ///     Pied Piper Logo
         /// </summary>
         /// <remarks>
-        /// pied-piper - Available in Brands
+        ///     pied-piper - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "pied-piper")]
         PiedPiper,
 
         /// <summary>
-        /// Alternate Pied Piper Logo Old
+        ///     Alternate Pied Piper Logo Old
         /// </summary>
         /// <remarks>
-        /// pied-piper-alt - Available in Brands
+        ///     pied-piper-alt - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "pied-piper-alt")]
         PiedPiperAlt,
 
         /// <summary>
-        /// Pied Piper Hat Old
+        ///     Pied Piper Hat Old
         /// </summary>
         /// <remarks>
-        /// pied-piper-hat - Available in Brands
+        ///     pied-piper-hat - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "pied-piper-hat")]
         PiedPiperHat,
 
         /// <summary>
-        /// Pied Piper PP Logo Old
+        ///     Pied Piper PP Logo Old
         /// </summary>
         /// <remarks>
-        /// pied-piper-pp - Available in Brands
+        ///     pied-piper-pp - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "pied-piper-pp")]
         PiedPiperPp,
 
         /// <summary>
-        /// Pied Piper Square Logo Old
+        ///     Pied Piper Square Logo Old
         /// </summary>
         /// <remarks>
-        /// pied-piper-square - Available in Brands
+        ///     pied-piper-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "pied-piper-square")]
         PiedPiperSquare,
 
         /// <summary>
-        /// Pinterest
+        ///     Pinterest
         /// </summary>
         /// <remarks>
-        /// pinterest - Available in Brands
+        ///     pinterest - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "pinterest")]
         Pinterest,
 
         /// <summary>
-        /// Pinterest P
+        ///     Pinterest P
         /// </summary>
         /// <remarks>
-        /// pinterest-p - Available in Brands
+        ///     pinterest-p - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "pinterest-p")]
         PinterestP,
 
         /// <summary>
-        /// Pinterest Square
+        ///     Pinterest Square
         /// </summary>
         /// <remarks>
-        /// pinterest-square - Available in Brands
+        ///     pinterest-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "pinterest-square")]
         PinterestSquare,
 
         /// <summary>
-        /// Play Station
+        ///     Play Station
         /// </summary>
         /// <remarks>
-        /// playstation - Available in Brands
+        ///     playstation - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "playstation")]
         Playstation,
 
         /// <summary>
-        /// Product Hunt
+        ///     Product Hunt
         /// </summary>
         /// <remarks>
-        /// product-hunt - Available in Brands
+        ///     product-hunt - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "product-hunt")]
         ProductHunt,
 
         /// <summary>
-        /// Pushed
+        ///     Pushed
         /// </summary>
         /// <remarks>
-        /// pushed - Available in Brands
+        ///     pushed - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "pushed")]
         Pushed,
 
         /// <summary>
-        /// Python
+        ///     Python
         /// </summary>
         /// <remarks>
-        /// python - Available in Brands
+        ///     python - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "python")]
         Python,
 
         /// <summary>
-        /// QQ
+        ///     QQ
         /// </summary>
         /// <remarks>
-        /// qq - Available in Brands
+        ///     qq - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "qq")]
-        Qq,
+        [FontAwesome(IconStyle.Brands, "qq")] Qq,
 
         /// <summary>
-        /// Quin Scape
+        ///     Quin Scape
         /// </summary>
         /// <remarks>
-        /// quinscape - Available in Brands
+        ///     quinscape - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "quinscape")]
         Quinscape,
 
         /// <summary>
-        /// Quora
+        ///     Quora
         /// </summary>
         /// <remarks>
-        /// quora - Available in Brands
+        ///     quora - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "quora")]
         Quora,
 
         /// <summary>
-        /// R Project
+        ///     R Project
         /// </summary>
         /// <remarks>
-        /// r-project - Available in Brands
+        ///     r-project - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "r-project")]
         RProject,
 
         /// <summary>
-        /// Raspberry Pi
+        ///     Raspberry Pi
         /// </summary>
         /// <remarks>
-        /// raspberry-pi - Available in Brands
+        ///     raspberry-pi - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "raspberry-pi")]
         RaspberryPi,
 
         /// <summary>
-        /// Ravelry
+        ///     Ravelry
         /// </summary>
         /// <remarks>
-        /// ravelry - Available in Brands
+        ///     ravelry - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "ravelry")]
         Ravelry,
 
         /// <summary>
-        /// React
+        ///     React
         /// </summary>
         /// <remarks>
-        /// react - Available in Brands
+        ///     react - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "react")]
         React,
 
         /// <summary>
-        /// React Europe
+        ///     React Europe
         /// </summary>
         /// <remarks>
-        /// reacteurope - Available in Brands
+        ///     reacteurope - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "reacteurope")]
         Reacteurope,
 
         /// <summary>
-        /// Read Me
+        ///     Read Me
         /// </summary>
         /// <remarks>
-        /// readme - Available in Brands
+        ///     readme - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "readme")]
         Readme,
 
         /// <summary>
-        /// Rebel Alliance
+        ///     Rebel Alliance
         /// </summary>
         /// <remarks>
-        /// rebel - Available in Brands
+        ///     rebel - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "rebel")]
         Rebel,
 
         /// <summary>
-        /// Red River
+        ///     Red River
         /// </summary>
         /// <remarks>
-        /// red-river - Available in Brands
+        ///     red-river - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "red-river")]
         RedRiver,
 
         /// <summary>
-        /// Reddit Logo
+        ///     Reddit Logo
         /// </summary>
         /// <remarks>
-        /// reddit - Available in Brands
+        ///     reddit - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "reddit")]
         Reddit,
 
         /// <summary>
-        /// Reddit Alien
+        ///     Reddit Alien
         /// </summary>
         /// <remarks>
-        /// reddit-alien - Available in Brands
+        ///     reddit-alien - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "reddit-alien")]
         RedditAlien,
 
         /// <summary>
-        /// Reddit Square
+        ///     Reddit Square
         /// </summary>
         /// <remarks>
-        /// reddit-square - Available in Brands
+        ///     reddit-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "reddit-square")]
         RedditSquare,
 
         /// <summary>
-        /// Redhat
+        ///     Redhat
         /// </summary>
         /// <remarks>
-        /// redhat - Available in Brands
+        ///     redhat - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "redhat")]
         Redhat,
 
         /// <summary>
-        /// Renren
+        ///     Renren
         /// </summary>
         /// <remarks>
-        /// renren - Available in Brands
+        ///     renren - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "renren")]
         Renren,
 
         /// <summary>
-        /// Replyd
+        ///     Replyd
         /// </summary>
         /// <remarks>
-        /// replyd - Available in Brands
+        ///     replyd - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "replyd")]
         Replyd,
 
         /// <summary>
-        /// Researchgate
+        ///     Researchgate
         /// </summary>
         /// <remarks>
-        /// researchgate - Available in Brands
+        ///     researchgate - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "researchgate")]
         Researchgate,
 
         /// <summary>
-        /// Resolving
+        ///     Resolving
         /// </summary>
         /// <remarks>
-        /// resolving - Available in Brands
+        ///     resolving - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "resolving")]
         Resolving,
 
         /// <summary>
-        /// Rev Io
+        ///     Rev Io
         /// </summary>
         /// <remarks>
-        /// rev - Available in Brands
+        ///     rev - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "rev")]
-        Rev,
+        [FontAwesome(IconStyle.Brands, "rev")] Rev,
 
         /// <summary>
-        /// Rocket Chat
+        ///     Rocket Chat
         /// </summary>
         /// <remarks>
-        /// rocketchat - Available in Brands
+        ///     rocketchat - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "rocketchat")]
         Rocketchat,
 
         /// <summary>
-        /// Rockrms
+        ///     Rockrms
         /// </summary>
         /// <remarks>
-        /// rockrms - Available in Brands
+        ///     rockrms - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "rockrms")]
         Rockrms,
 
         /// <summary>
-        /// Rust
+        ///     Rust
         /// </summary>
         /// <remarks>
-        /// rust - Available in Brands
+        ///     rust - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "rust")]
         Rust,
 
         /// <summary>
-        /// Safari
+        ///     Safari
         /// </summary>
         /// <remarks>
-        /// safari - Available in Brands
+        ///     safari - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "safari")]
         Safari,
 
         /// <summary>
-        /// Salesforce
+        ///     Salesforce
         /// </summary>
         /// <remarks>
-        /// salesforce - Available in Brands
+        ///     salesforce - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "salesforce")]
         Salesforce,
 
         /// <summary>
-        /// Sass
+        ///     Sass
         /// </summary>
         /// <remarks>
-        /// sass - Available in Brands
+        ///     sass - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "sass")]
         Sass,
 
         /// <summary>
-        /// SCHLIX
+        ///     SCHLIX
         /// </summary>
         /// <remarks>
-        /// schlix - Available in Brands
+        ///     schlix - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "schlix")]
         Schlix,
 
         /// <summary>
-        /// Scribd
+        ///     Scribd
         /// </summary>
         /// <remarks>
-        /// scribd - Available in Brands
+        ///     scribd - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "scribd")]
         Scribd,
 
         /// <summary>
-        /// Searchengin
+        ///     Searchengin
         /// </summary>
         /// <remarks>
-        /// searchengin - Available in Brands
+        ///     searchengin - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "searchengin")]
         Searchengin,
 
         /// <summary>
-        /// Sellcast
+        ///     Sellcast
         /// </summary>
         /// <remarks>
-        /// sellcast - Available in Brands
+        ///     sellcast - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "sellcast")]
         Sellcast,
 
         /// <summary>
-        /// Sellsy
+        ///     Sellsy
         /// </summary>
         /// <remarks>
-        /// sellsy - Available in Brands
+        ///     sellsy - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "sellsy")]
         Sellsy,
 
         /// <summary>
-        /// Servicestack
+        ///     Servicestack
         /// </summary>
         /// <remarks>
-        /// servicestack - Available in Brands
+        ///     servicestack - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "servicestack")]
         Servicestack,
 
         /// <summary>
-        /// Shirts in Bulk
+        ///     Shirts in Bulk
         /// </summary>
         /// <remarks>
-        /// shirtsinbulk - Available in Brands
+        ///     shirtsinbulk - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "shirtsinbulk")]
         Shirtsinbulk,
 
         /// <summary>
-        /// Shopify
+        ///     Shopify
         /// </summary>
         /// <remarks>
-        /// shopify - Available in Brands
+        ///     shopify - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "shopify")]
         Shopify,
 
         /// <summary>
-        /// Shopware
+        ///     Shopware
         /// </summary>
         /// <remarks>
-        /// shopware - Available in Brands
+        ///     shopware - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "shopware")]
         Shopware,
 
         /// <summary>
-        /// Simply Built
+        ///     Simply Built
         /// </summary>
         /// <remarks>
-        /// simplybuilt - Available in Brands
+        ///     simplybuilt - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "simplybuilt")]
         Simplybuilt,
 
         /// <summary>
-        /// SISTRIX
+        ///     SISTRIX
         /// </summary>
         /// <remarks>
-        /// sistrix - Available in Brands
+        ///     sistrix - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "sistrix")]
         Sistrix,
 
         /// <summary>
-        /// Sith
+        ///     Sith
         /// </summary>
         /// <remarks>
-        /// sith - Available in Brands
+        ///     sith - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "sith")]
         Sith,
 
         /// <summary>
-        /// Sketch
+        ///     Sketch
         /// </summary>
         /// <remarks>
-        /// sketch - Available in Brands
+        ///     sketch - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "sketch")]
         Sketch,
 
         /// <summary>
-        /// Skyatlas
+        ///     Skyatlas
         /// </summary>
         /// <remarks>
-        /// skyatlas - Available in Brands
+        ///     skyatlas - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "skyatlas")]
         Skyatlas,
 
         /// <summary>
-        /// Skype
+        ///     Skype
         /// </summary>
         /// <remarks>
-        /// skype - Available in Brands
+        ///     skype - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "skype")]
         Skype,
 
         /// <summary>
-        /// Slack Logo
+        ///     Slack Logo
         /// </summary>
         /// <remarks>
-        /// slack - Available in Brands
+        ///     slack - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "slack")]
         Slack,
 
         /// <summary>
-        /// Slack Hashtag
+        ///     Slack Hashtag
         /// </summary>
         /// <remarks>
-        /// slack-hash - Available in Brands
+        ///     slack-hash - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "slack-hash")]
         SlackHash,
 
         /// <summary>
-        /// Slideshare
+        ///     Slideshare
         /// </summary>
         /// <remarks>
-        /// slideshare - Available in Brands
+        ///     slideshare - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "slideshare")]
         Slideshare,
 
         /// <summary>
-        /// Snapchat
+        ///     Snapchat
         /// </summary>
         /// <remarks>
-        /// snapchat - Available in Brands
+        ///     snapchat - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "snapchat")]
         Snapchat,
 
         /// <summary>
-        /// Snapchat Ghost
+        ///     Snapchat Ghost
         /// </summary>
         /// <remarks>
-        /// snapchat-ghost - Available in Brands
+        ///     snapchat-ghost - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "snapchat-ghost")]
         SnapchatGhost,
 
         /// <summary>
-        /// Snapchat Square
+        ///     Snapchat Square
         /// </summary>
         /// <remarks>
-        /// snapchat-square - Available in Brands
+        ///     snapchat-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "snapchat-square")]
         SnapchatSquare,
 
         /// <summary>
-        /// Sound Cloud
+        ///     Sound Cloud
         /// </summary>
         /// <remarks>
-        /// soundcloud - Available in Brands
+        ///     soundcloud - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "soundcloud")]
         Soundcloud,
 
         /// <summary>
-        /// Sourcetree
+        ///     Sourcetree
         /// </summary>
         /// <remarks>
-        /// sourcetree - Available in Brands
+        ///     sourcetree - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "sourcetree")]
         Sourcetree,
 
         /// <summary>
-        /// Speakap
+        ///     Speakap
         /// </summary>
         /// <remarks>
-        /// speakap - Available in Brands
+        ///     speakap - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "speakap")]
         Speakap,
 
         /// <summary>
-        /// Speaker Deck
+        ///     Speaker Deck
         /// </summary>
         /// <remarks>
-        /// speaker-deck - Available in Brands
+        ///     speaker-deck - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "speaker-deck")]
         SpeakerDeck,
 
         /// <summary>
-        /// Spotify
+        ///     Spotify
         /// </summary>
         /// <remarks>
-        /// spotify - Available in Brands
+        ///     spotify - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "spotify")]
         Spotify,
 
         /// <summary>
-        /// Squarespace
+        ///     Squarespace
         /// </summary>
         /// <remarks>
-        /// squarespace - Available in Brands
+        ///     squarespace - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "squarespace")]
         Squarespace,
 
         /// <summary>
-        /// Stack Exchange
+        ///     Stack Exchange
         /// </summary>
         /// <remarks>
-        /// stack-exchange - Available in Brands
+        ///     stack-exchange - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "stack-exchange")]
         StackExchange,
 
         /// <summary>
-        /// Stack Overflow
+        ///     Stack Overflow
         /// </summary>
         /// <remarks>
-        /// stack-overflow - Available in Brands
+        ///     stack-overflow - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "stack-overflow")]
         StackOverflow,
 
         /// <summary>
-        /// Stackpath
+        ///     Stackpath
         /// </summary>
         /// <remarks>
-        /// stackpath - Available in Brands
+        ///     stackpath - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "stackpath")]
         Stackpath,
 
         /// <summary>
-        /// Stay Linked
+        ///     Stay Linked
         /// </summary>
         /// <remarks>
-        /// staylinked - Available in Brands
+        ///     staylinked - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "staylinked")]
         Staylinked,
 
         /// <summary>
-        /// Steam
+        ///     Steam
         /// </summary>
         /// <remarks>
-        /// steam - Available in Brands
+        ///     steam - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "steam")]
         Steam,
 
         /// <summary>
-        /// Steam Square
+        ///     Steam Square
         /// </summary>
         /// <remarks>
-        /// steam-square - Available in Brands
+        ///     steam-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "steam-square")]
         SteamSquare,
 
         /// <summary>
-        /// Steam Symbol
+        ///     Steam Symbol
         /// </summary>
         /// <remarks>
-        /// steam-symbol - Available in Brands
+        ///     steam-symbol - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "steam-symbol")]
         SteamSymbol,
 
         /// <summary>
-        /// Sticker Mule
+        ///     Sticker Mule
         /// </summary>
         /// <remarks>
-        /// sticker-mule - Available in Brands
+        ///     sticker-mule - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "sticker-mule")]
         StickerMule,
 
         /// <summary>
-        /// Strava
+        ///     Strava
         /// </summary>
         /// <remarks>
-        /// strava - Available in Brands
+        ///     strava - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "strava")]
         Strava,
 
         /// <summary>
-        /// Stripe
+        ///     Stripe
         /// </summary>
         /// <remarks>
-        /// stripe - Available in Brands
+        ///     stripe - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "stripe")]
         Stripe,
 
         /// <summary>
-        /// Stripe S
+        ///     Stripe S
         /// </summary>
         /// <remarks>
-        /// stripe-s - Available in Brands
+        ///     stripe-s - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "stripe-s")]
         StripeS,
 
         /// <summary>
-        /// Studio Vinari
+        ///     Studio Vinari
         /// </summary>
         /// <remarks>
-        /// studiovinari - Available in Brands
+        ///     studiovinari - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "studiovinari")]
         Studiovinari,
 
         /// <summary>
-        /// Stumble Upon Logo
+        ///     Stumble Upon Logo
         /// </summary>
         /// <remarks>
-        /// stumbleupon - Available in Brands
+        ///     stumbleupon - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "stumbleupon")]
         Stumbleupon,
 
         /// <summary>
-        /// Stumble Upon Circle
+        ///     Stumble Upon Circle
         /// </summary>
         /// <remarks>
-        /// stumbleupon-circle - Available in Brands
+        ///     stumbleupon-circle - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "stumbleupon-circle")]
         StumbleuponCircle,
 
         /// <summary>
-        /// Superpowers
+        ///     Superpowers
         /// </summary>
         /// <remarks>
-        /// superpowers - Available in Brands
+        ///     superpowers - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "superpowers")]
         Superpowers,
 
         /// <summary>
-        /// Supple
+        ///     Supple
         /// </summary>
         /// <remarks>
-        /// supple - Available in Brands
+        ///     supple - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "supple")]
         Supple,
 
         /// <summary>
-        /// Suse
+        ///     Suse
         /// </summary>
         /// <remarks>
-        /// suse - Available in Brands
+        ///     suse - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "suse")]
         Suse,
 
         /// <summary>
-        /// Swift
+        ///     Swift
         /// </summary>
         /// <remarks>
-        /// swift - Available in Brands
+        ///     swift - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "swift")]
         Swift,
 
         /// <summary>
-        /// Symfony
+        ///     Symfony
         /// </summary>
         /// <remarks>
-        /// symfony - Available in Brands
+        ///     symfony - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "symfony")]
         Symfony,
 
         /// <summary>
-        /// Team Speak
+        ///     Team Speak
         /// </summary>
         /// <remarks>
-        /// teamspeak - Available in Brands
+        ///     teamspeak - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "teamspeak")]
         Teamspeak,
 
         /// <summary>
-        /// Telegram
+        ///     Telegram
         /// </summary>
         /// <remarks>
-        /// telegram - Available in Brands
+        ///     telegram - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "telegram")]
         Telegram,
 
         /// <summary>
-        /// Telegram Plane
+        ///     Telegram Plane
         /// </summary>
         /// <remarks>
-        /// telegram-plane - Available in Brands
+        ///     telegram-plane - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "telegram-plane")]
         TelegramPlane,
 
         /// <summary>
-        /// Tencent Weibo
+        ///     Tencent Weibo
         /// </summary>
         /// <remarks>
-        /// tencent-weibo - Available in Brands
+        ///     tencent-weibo - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "tencent-weibo")]
         TencentWeibo,
 
         /// <summary>
-        /// The Red Yeti
+        ///     The Red Yeti
         /// </summary>
         /// <remarks>
-        /// the-red-yeti - Available in Brands
+        ///     the-red-yeti - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "the-red-yeti")]
         TheRedYeti,
 
         /// <summary>
-        /// Themeco
+        ///     Themeco
         /// </summary>
         /// <remarks>
-        /// themeco - Available in Brands
+        ///     themeco - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "themeco")]
         Themeco,
 
         /// <summary>
-        /// Theme Isle
+        ///     Theme Isle
         /// </summary>
         /// <remarks>
-        /// themeisle - Available in Brands
+        ///     themeisle - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "themeisle")]
         Themeisle,
 
         /// <summary>
-        /// Think Peaks
+        ///     Think Peaks
         /// </summary>
         /// <remarks>
-        /// think-peaks - Available in Brands
+        ///     think-peaks - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "think-peaks")]
         ThinkPeaks,
 
         /// <summary>
-        /// Tik Tok
+        ///     Tik Tok
         /// </summary>
         /// <remarks>
-        /// tiktok - Available in Brands
+        ///     tiktok - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "tiktok")]
         Tiktok,
 
         /// <summary>
-        /// Trade Federation
+        ///     Trade Federation
         /// </summary>
         /// <remarks>
-        /// trade-federation - Available in Brands
+        ///     trade-federation - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "trade-federation")]
         TradeFederation,
 
         /// <summary>
-        /// Trello
+        ///     Trello
         /// </summary>
         /// <remarks>
-        /// trello - Available in Brands
+        ///     trello - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "trello")]
         Trello,
 
         /// <summary>
-        /// Tumblr
+        ///     Tumblr
         /// </summary>
         /// <remarks>
-        /// tumblr - Available in Brands
+        ///     tumblr - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "tumblr")]
         Tumblr,
 
         /// <summary>
-        /// Tumblr Square
+        ///     Tumblr Square
         /// </summary>
         /// <remarks>
-        /// tumblr-square - Available in Brands
+        ///     tumblr-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "tumblr-square")]
         TumblrSquare,
 
         /// <summary>
-        /// Twitch
+        ///     Twitch
         /// </summary>
         /// <remarks>
-        /// twitch - Available in Brands
+        ///     twitch - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "twitch")]
         Twitch,
 
         /// <summary>
-        /// Twitter
+        ///     Twitter
         /// </summary>
         /// <remarks>
-        /// twitter - Available in Brands
+        ///     twitter - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "twitter")]
         Twitter,
 
         /// <summary>
-        /// Twitter Square
+        ///     Twitter Square
         /// </summary>
         /// <remarks>
-        /// twitter-square - Available in Brands
+        ///     twitter-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "twitter-square")]
         TwitterSquare,
 
         /// <summary>
-        /// Typo 3
+        ///     Typo 3
         /// </summary>
         /// <remarks>
-        /// typo3 - Available in Brands
+        ///     typo3 - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "typo3")]
         Typo3,
 
         /// <summary>
-        /// Uber
+        ///     Uber
         /// </summary>
         /// <remarks>
-        /// uber - Available in Brands
+        ///     uber - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "uber")]
         Uber,
 
         /// <summary>
-        /// Ubuntu
+        ///     Ubuntu
         /// </summary>
         /// <remarks>
-        /// ubuntu - Available in Brands
+        ///     ubuntu - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "ubuntu")]
         Ubuntu,
 
         /// <summary>
-        /// U Ikit
+        ///     U Ikit
         /// </summary>
         /// <remarks>
-        /// uikit - Available in Brands
+        ///     uikit - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "uikit")]
         Uikit,
 
         /// <summary>
-        /// Umbraco
+        ///     Umbraco
         /// </summary>
         /// <remarks>
-        /// umbraco - Available in Brands
+        ///     umbraco - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "umbraco")]
         Umbraco,
 
         /// <summary>
-        /// Uncharted Software
+        ///     Uncharted Software
         /// </summary>
         /// <remarks>
-        /// uncharted - Available in Brands
+        ///     uncharted - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "uncharted")]
         Uncharted,
 
         /// <summary>
-        /// Uniregistry
+        ///     Uniregistry
         /// </summary>
         /// <remarks>
-        /// uniregistry - Available in Brands
+        ///     uniregistry - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "uniregistry")]
         Uniregistry,
 
         /// <summary>
-        /// Unity 3 D
+        ///     Unity 3 D
         /// </summary>
         /// <remarks>
-        /// unity - Available in Brands
+        ///     unity - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "unity")]
         Unity,
 
         /// <summary>
-        /// Unsplash
+        ///     Unsplash
         /// </summary>
         /// <remarks>
-        /// unsplash - Available in Brands
+        ///     unsplash - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "unsplash")]
         Unsplash,
 
         /// <summary>
-        /// Untappd
+        ///     Untappd
         /// </summary>
         /// <remarks>
-        /// untappd - Available in Brands
+        ///     untappd - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "untappd")]
         Untappd,
 
         /// <summary>
-        /// UPS
+        ///     UPS
         /// </summary>
         /// <remarks>
-        /// ups - Available in Brands
+        ///     ups - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "ups")]
-        Ups,
+        [FontAwesome(IconStyle.Brands, "ups")] Ups,
 
         /// <summary>
-        /// USB
+        ///     USB
         /// </summary>
         /// <remarks>
-        /// usb - Available in Brands
+        ///     usb - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "usb")]
-        Usb,
+        [FontAwesome(IconStyle.Brands, "usb")] Usb,
 
         /// <summary>
-        /// United States Postal Service
+        ///     United States Postal Service
         /// </summary>
         /// <remarks>
-        /// usps - Available in Brands
+        ///     usps - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "usps")]
         Usps,
 
         /// <summary>
-        /// Us Sunnah Foundation
+        ///     Us Sunnah Foundation
         /// </summary>
         /// <remarks>
-        /// ussunnah - Available in Brands
+        ///     ussunnah - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "ussunnah")]
         Ussunnah,
 
         /// <summary>
-        /// Vaadin
+        ///     Vaadin
         /// </summary>
         /// <remarks>
-        /// vaadin - Available in Brands
+        ///     vaadin - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "vaadin")]
         Vaadin,
 
         /// <summary>
-        /// Viacoin
+        ///     Viacoin
         /// </summary>
         /// <remarks>
-        /// viacoin - Available in Brands
+        ///     viacoin - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "viacoin")]
         Viacoin,
 
         /// <summary>
-        /// Viadeo
+        ///     Viadeo
         /// </summary>
         /// <remarks>
-        /// viadeo - Available in Brands
+        ///     viadeo - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "viadeo")]
         Viadeo,
 
         /// <summary>
-        /// Viadeo Square
+        ///     Viadeo Square
         /// </summary>
         /// <remarks>
-        /// viadeo-square - Available in Brands
+        ///     viadeo-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "viadeo-square")]
         ViadeoSquare,
 
         /// <summary>
-        /// Viber
+        ///     Viber
         /// </summary>
         /// <remarks>
-        /// viber - Available in Brands
+        ///     viber - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "viber")]
         Viber,
 
         /// <summary>
-        /// Vimeo
+        ///     Vimeo
         /// </summary>
         /// <remarks>
-        /// vimeo - Available in Brands
+        ///     vimeo - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "vimeo")]
         Vimeo,
 
         /// <summary>
-        /// Vimeo Square
+        ///     Vimeo Square
         /// </summary>
         /// <remarks>
-        /// vimeo-square - Available in Brands
+        ///     vimeo-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "vimeo-square")]
         VimeoSquare,
 
         /// <summary>
-        /// Vimeo
+        ///     Vimeo
         /// </summary>
         /// <remarks>
-        /// vimeo-v - Available in Brands
+        ///     vimeo-v - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "vimeo-v")]
         VimeoV,
 
         /// <summary>
-        /// Vine
+        ///     Vine
         /// </summary>
         /// <remarks>
-        /// vine - Available in Brands
+        ///     vine - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "vine")]
         Vine,
 
         /// <summary>
-        /// VK
+        ///     VK
         /// </summary>
         /// <remarks>
-        /// vk - Available in Brands
+        ///     vk - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "vk")]
-        Vk,
+        [FontAwesome(IconStyle.Brands, "vk")] Vk,
 
         /// <summary>
-        /// VNV
+        ///     VNV
         /// </summary>
         /// <remarks>
-        /// vnv - Available in Brands
+        ///     vnv - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "vnv")]
-        Vnv,
+        [FontAwesome(IconStyle.Brands, "vnv")] Vnv,
 
         /// <summary>
-        /// Vue Js
+        ///     Vue Js
         /// </summary>
         /// <remarks>
-        /// vuejs - Available in Brands
+        ///     vuejs - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "vuejs")]
         Vuejs,
 
         /// <summary>
-        /// Watchman Monitoring
+        ///     Watchman Monitoring
         /// </summary>
         /// <remarks>
-        /// watchman-monitoring - Available in Brands
+        ///     watchman-monitoring - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "watchman-monitoring")]
         WatchmanMonitoring,
 
         /// <summary>
-        /// Waze
+        ///     Waze
         /// </summary>
         /// <remarks>
-        /// waze - Available in Brands
+        ///     waze - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "waze")]
         Waze,
 
         /// <summary>
-        /// Weebly
+        ///     Weebly
         /// </summary>
         /// <remarks>
-        /// weebly - Available in Brands
+        ///     weebly - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "weebly")]
         Weebly,
 
         /// <summary>
-        /// Weibo
+        ///     Weibo
         /// </summary>
         /// <remarks>
-        /// weibo - Available in Brands
+        ///     weibo - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "weibo")]
         Weibo,
 
         /// <summary>
-        /// Weixin We Chat
+        ///     Weixin We Chat
         /// </summary>
         /// <remarks>
-        /// weixin - Available in Brands
+        ///     weixin - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "weixin")]
         Weixin,
 
         /// <summary>
-        /// What S App
+        ///     What S App
         /// </summary>
         /// <remarks>
-        /// whatsapp - Available in Brands
+        ///     whatsapp - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "whatsapp")]
         Whatsapp,
 
         /// <summary>
-        /// What S App Square
+        ///     What S App Square
         /// </summary>
         /// <remarks>
-        /// whatsapp-square - Available in Brands
+        ///     whatsapp-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "whatsapp-square")]
         WhatsappSquare,
 
         /// <summary>
-        /// WHMCS
+        ///     WHMCS
         /// </summary>
         /// <remarks>
-        /// whmcs - Available in Brands
+        ///     whmcs - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "whmcs")]
         Whmcs,
 
         /// <summary>
-        /// Wikipedia W
+        ///     Wikipedia W
         /// </summary>
         /// <remarks>
-        /// wikipedia-w - Available in Brands
+        ///     wikipedia-w - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "wikipedia-w")]
         WikipediaW,
 
         /// <summary>
-        /// Windows
+        ///     Windows
         /// </summary>
         /// <remarks>
-        /// windows - Available in Brands
+        ///     windows - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "windows")]
         Windows,
 
         /// <summary>
-        /// Wix
+        ///     Wix
         /// </summary>
         /// <remarks>
-        /// wix - Available in Brands
+        ///     wix - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "wix")]
-        Wix,
+        [FontAwesome(IconStyle.Brands, "wix")] Wix,
 
         /// <summary>
-        /// Wizards of the Coast
+        ///     Wizards of the Coast
         /// </summary>
         /// <remarks>
-        /// wizards-of-the-coast - Available in Brands
+        ///     wizards-of-the-coast - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "wizards-of-the-coast")]
         WizardsOfTheCoast,
 
         /// <summary>
-        /// Wodu
+        ///     Wodu
         /// </summary>
         /// <remarks>
-        /// wodu - Available in Brands
+        ///     wodu - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "wodu")]
         Wodu,
 
         /// <summary>
-        /// Wolf Pack Battalion
+        ///     Wolf Pack Battalion
         /// </summary>
         /// <remarks>
-        /// wolf-pack-battalion - Available in Brands
+        ///     wolf-pack-battalion - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "wolf-pack-battalion")]
         WolfPackBattalion,
 
         /// <summary>
-        /// Word Press Logo
+        ///     Word Press Logo
         /// </summary>
         /// <remarks>
-        /// wordpress - Available in Brands
+        ///     wordpress - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "wordpress")]
         Wordpress,
 
         /// <summary>
-        /// Wordpress Simple
+        ///     Wordpress Simple
         /// </summary>
         /// <remarks>
-        /// wordpress-simple - Available in Brands
+        ///     wordpress-simple - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "wordpress-simple")]
         WordpressSimple,
 
         /// <summary>
-        /// WP Beginner
+        ///     WP Beginner
         /// </summary>
         /// <remarks>
-        /// wpbeginner - Available in Brands
+        ///     wpbeginner - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "wpbeginner")]
         Wpbeginner,
 
         /// <summary>
-        /// WP Explorer
+        ///     WP Explorer
         /// </summary>
         /// <remarks>
-        /// wpexplorer - Available in Brands
+        ///     wpexplorer - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "wpexplorer")]
         Wpexplorer,
 
         /// <summary>
-        /// WP Forms
+        ///     WP Forms
         /// </summary>
         /// <remarks>
-        /// wpforms - Available in Brands
+        ///     wpforms - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "wpforms")]
         Wpforms,
 
         /// <summary>
-        /// Wpressr
+        ///     Wpressr
         /// </summary>
         /// <remarks>
-        /// wpressr - Available in Brands
+        ///     wpressr - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "wpressr")]
         Wpressr,
 
         /// <summary>
-        /// Xbox
+        ///     Xbox
         /// </summary>
         /// <remarks>
-        /// xbox - Available in Brands
+        ///     xbox - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "xbox")]
         Xbox,
 
         /// <summary>
-        /// Xing
+        ///     Xing
         /// </summary>
         /// <remarks>
-        /// xing - Available in Brands
+        ///     xing - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "xing")]
         Xing,
 
         /// <summary>
-        /// Xing Square
+        ///     Xing Square
         /// </summary>
         /// <remarks>
-        /// xing-square - Available in Brands
+        ///     xing-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "xing-square")]
         XingSquare,
 
         /// <summary>
-        /// Y Combinator
+        ///     Y Combinator
         /// </summary>
         /// <remarks>
-        /// y-combinator - Available in Brands
+        ///     y-combinator - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "y-combinator")]
         YCombinator,
 
         /// <summary>
-        /// Yahoo Logo
+        ///     Yahoo Logo
         /// </summary>
         /// <remarks>
-        /// yahoo - Available in Brands
+        ///     yahoo - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "yahoo")]
         Yahoo,
 
         /// <summary>
-        /// Yammer
+        ///     Yammer
         /// </summary>
         /// <remarks>
-        /// yammer - Available in Brands
+        ///     yammer - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "yammer")]
         Yammer,
 
         /// <summary>
-        /// Yandex
+        ///     Yandex
         /// </summary>
         /// <remarks>
-        /// yandex - Available in Brands
+        ///     yandex - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "yandex")]
         Yandex,
 
         /// <summary>
-        /// Yandex International
+        ///     Yandex International
         /// </summary>
         /// <remarks>
-        /// yandex-international - Available in Brands
+        ///     yandex-international - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "yandex-international")]
         YandexInternational,
 
         /// <summary>
-        /// Yarn
+        ///     Yarn
         /// </summary>
         /// <remarks>
-        /// yarn - Available in Brands
+        ///     yarn - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "yarn")]
         Yarn,
 
         /// <summary>
-        /// Yelp
+        ///     Yelp
         /// </summary>
         /// <remarks>
-        /// yelp - Available in Brands
+        ///     yelp - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "yelp")]
         Yelp,
 
         /// <summary>
-        /// Yoast
+        ///     Yoast
         /// </summary>
         /// <remarks>
-        /// yoast - Available in Brands
+        ///     yoast - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "yoast")]
         Yoast,
 
         /// <summary>
-        /// You Tube
+        ///     You Tube
         /// </summary>
         /// <remarks>
-        /// youtube - Available in Brands
+        ///     youtube - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "youtube")]
         Youtube,
 
         /// <summary>
-        /// You Tube Square
+        ///     You Tube Square
         /// </summary>
         /// <remarks>
-        /// youtube-square - Available in Brands
+        ///     youtube-square - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "youtube-square")]
         YoutubeSquare,
 
         /// <summary>
-        /// Zhihu
+        ///     Zhihu
         /// </summary>
         /// <remarks>
-        /// zhihu - Available in Brands
+        ///     zhihu - Available in Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "zhihu")]
         Zhihu,
-
     }
 }

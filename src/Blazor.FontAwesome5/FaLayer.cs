@@ -5,24 +5,22 @@ namespace Rocket.Surgery.Blazor.FontAwesome5;
 
 public class FaLayer : ComponentBase
 {
-    [Parameter]
-    public RenderFragment ChildContent { get; set; }
+    [Parameter] public RenderFragment? ChildContent { get; set; }
 
-    [Parameter]
-    public bool FixedWidth { get; set; } = true;
+    [Parameter] public bool FixedWidth { get; set; } = true;
 
-    [Parameter]
-    public string? Class { get; set; }
+    [Parameter] public string? Class { get; set; }
 
-    [Parameter]
-    public string? Style { get; set; }
+    [Parameter] public string? Style { get; set; }
 
     [Parameter(CaptureUnmatchedValues = true)]
-    public Dictionary<string, object> AdditionalAttributes { get; set; }
+#pragma warning disable CA2227
+    public Dictionary<string, object> AdditionalAttributes { get; set; } = new();
+#pragma warning restore CA2227
 
     public string ToClass()
     {
-        var values = new List<string>()
+        var values = new List<string>
         {
             "fa-layers"
         };

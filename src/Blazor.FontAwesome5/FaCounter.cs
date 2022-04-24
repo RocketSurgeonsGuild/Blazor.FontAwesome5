@@ -1,3 +1,4 @@
+using System.Globalization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
 
@@ -13,84 +14,78 @@ public class FaCounter : ComponentBase, ITransformIcon
     private double _right;
     private double _rotate;
 
-    [Parameter]
-    public RenderFragment ChildContent { get; set; }
+    [Parameter] public RenderFragment? ChildContent { get; set; }
 
-    [Parameter]
-    public bool Spin { get; set; }
+    [Parameter] public bool Spin { get; set; }
 
-    [Parameter]
-    public bool Pulse { get; set; }
+    [Parameter] public bool Pulse { get; set; }
 
-    [Parameter]
-    public bool Inverse { get; set; }
+    [Parameter] public bool Inverse { get; set; }
 
 
     [Parameter]
     public string Grow
     {
-        get => _grow.ToString("F2");
-        set => _grow = double.Parse(value);
+        get => _grow.ToString("F2", CultureInfo.InvariantCulture);
+        set => _grow = double.Parse(value, CultureInfo.InvariantCulture);
     }
 
 
     [Parameter]
     public string Shrink
     {
-        get => _shrink.ToString("F2");
-        set => _shrink = double.Parse(value);
+        get => _shrink.ToString("F2", CultureInfo.InvariantCulture);
+        set => _shrink = double.Parse(value, CultureInfo.InvariantCulture);
     }
 
     [Parameter]
     public string Up
     {
-        get => _up.ToString("F2");
-        set => _up = double.Parse(value);
+        get => _up.ToString("F2", CultureInfo.InvariantCulture);
+        set => _up = double.Parse(value, CultureInfo.InvariantCulture);
     }
 
     [Parameter]
     public string Down
     {
-        get => _down.ToString("F2");
-        set => _down = double.Parse(value);
+        get => _down.ToString("F2", CultureInfo.InvariantCulture);
+        set => _down = double.Parse(value, CultureInfo.InvariantCulture);
     }
 
     [Parameter]
     public string Left
     {
-        get => _left.ToString("F2");
-        set => _left = double.Parse(value);
+        get => _left.ToString("F2", CultureInfo.InvariantCulture);
+        set => _left = double.Parse(value, CultureInfo.InvariantCulture);
     }
 
 
     [Parameter]
     public string Right
     {
-        get => _right.ToString("F2");
-        set => _right = double.Parse(value);
+        get => _right.ToString("F2", CultureInfo.InvariantCulture);
+        set => _right = double.Parse(value, CultureInfo.InvariantCulture);
     }
 
     [Parameter]
     public string Rotate
     {
-        get => _rotate.ToString("F2");
-        set => _rotate = double.Parse(value);
+        get => _rotate.ToString("F2", CultureInfo.InvariantCulture);
+        set => _rotate = double.Parse(value, CultureInfo.InvariantCulture);
     }
 
-    [Parameter]
-    public IconFlip? Flip { get; set; }
+    [Parameter] public IconFlip? Flip { get; set; }
 
-    [Parameter]
-    public IconCounterPosition? Position { get; set; }
+    [Parameter] public IconCounterPosition? Position { get; set; }
 
-    [Parameter]
-    public string? Class { get; set; }
+    [Parameter] public string? Class { get; set; }
 
-    [Parameter]
-    public string? Style { get; set; }
+    [Parameter] public string? Style { get; set; }
 
     [Parameter(CaptureUnmatchedValues = true)]
-    public Dictionary<string, object> AdditionalAttributes { get; set; }
+#pragma warning disable CA2227
+    public Dictionary<string, object> AdditionalAttributes { get; set; } = new();
+#pragma warning restore CA2227
 
     double ITransformIcon.Grow => _grow;
 
@@ -108,7 +103,7 @@ public class FaCounter : ComponentBase, ITransformIcon
 
     private string ToClass()
     {
-        var values = new List<string>()
+        var values = new List<string>
         {
             "fa-layers-counter"
         };

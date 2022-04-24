@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Globalization;
+using System.Text;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
 
@@ -6,25 +7,21 @@ namespace Rocket.Surgery.Blazor.FontAwesome5;
 
 public class FaText : ComponentBase, ITransformIcon
 {
-    [Parameter]
-    public RenderFragment ChildContent { get; set; }
+    [Parameter] public RenderFragment ChildContent { get; set; } = null!;
 
-    [Parameter]
-    public bool Spin { get; set; }
+    [Parameter] public bool Spin { get; set; }
 
-    [Parameter]
-    public bool Pulse { get; set; }
+    [Parameter] public bool Pulse { get; set; }
 
-    [Parameter]
-    public bool Inverse { get; set; }
+    [Parameter] public bool Inverse { get; set; }
 
     private double _grow;
 
     [Parameter]
     public string Grow
     {
-        get => _grow.ToString("F2");
-        set => _grow = double.Parse(value);
+        get => _grow.ToString("F2", CultureInfo.InvariantCulture);
+        set => _grow = double.Parse(value, CultureInfo.InvariantCulture);
     }
 
     private double _shrink;
@@ -32,8 +29,8 @@ public class FaText : ComponentBase, ITransformIcon
     [Parameter]
     public string Shrink
     {
-        get => _shrink.ToString("F2");
-        set => _shrink = double.Parse(value);
+        get => _shrink.ToString("F2", CultureInfo.InvariantCulture);
+        set => _shrink = double.Parse(value, CultureInfo.InvariantCulture);
     }
 
     private double _up;
@@ -41,8 +38,8 @@ public class FaText : ComponentBase, ITransformIcon
     [Parameter]
     public string Up
     {
-        get => _up.ToString("F2");
-        set => _up = double.Parse(value);
+        get => _up.ToString("F2", CultureInfo.InvariantCulture);
+        set => _up = double.Parse(value, CultureInfo.InvariantCulture);
     }
 
     private double _down;
@@ -50,8 +47,8 @@ public class FaText : ComponentBase, ITransformIcon
     [Parameter]
     public string Down
     {
-        get => _down.ToString("F2");
-        set => _down = double.Parse(value);
+        get => _down.ToString("F2", CultureInfo.InvariantCulture);
+        set => _down = double.Parse(value, CultureInfo.InvariantCulture);
     }
 
     private double _left;
@@ -59,8 +56,8 @@ public class FaText : ComponentBase, ITransformIcon
     [Parameter]
     public string Left
     {
-        get => _left.ToString("F2");
-        set => _left = double.Parse(value);
+        get => _left.ToString("F2", CultureInfo.InvariantCulture);
+        set => _left = double.Parse(value, CultureInfo.InvariantCulture);
     }
 
     private double _right;
@@ -68,8 +65,8 @@ public class FaText : ComponentBase, ITransformIcon
     [Parameter]
     public string Right
     {
-        get => _right.ToString("F2");
-        set => _right = double.Parse(value);
+        get => _right.ToString("F2", CultureInfo.InvariantCulture);
+        set => _right = double.Parse(value, CultureInfo.InvariantCulture);
     }
 
     private double _rotate;
@@ -77,21 +74,20 @@ public class FaText : ComponentBase, ITransformIcon
     [Parameter]
     public string Rotate
     {
-        get => _rotate.ToString("F2");
-        set => _rotate = double.Parse(value);
+        get => _rotate.ToString("F2", CultureInfo.InvariantCulture);
+        set => _rotate = double.Parse(value, CultureInfo.InvariantCulture);
     }
 
-    [Parameter]
-    public IconFlip? Flip { get; set; }
+    [Parameter] public IconFlip? Flip { get; set; }
 
-    [Parameter]
-    public string? Class { get; set; }
+    [Parameter] public string? Class { get; set; }
 
-    [Parameter]
-    public string? Style { get; set; }
+    [Parameter] public string? Style { get; set; }
 
     [Parameter(CaptureUnmatchedValues = true)]
-    public Dictionary<string, object> AdditionalAttributes { get; set; }
+#pragma warning disable CA2227
+    public Dictionary<string, object> AdditionalAttributes { get; set; } = new();
+#pragma warning restore CA2227
 
     double ITransformIcon.Grow => _grow;
 
@@ -114,7 +110,7 @@ public class FaText : ComponentBase, ITransformIcon
 
         if (!string.IsNullOrWhiteSpace(Class))
         {
-            sb.Append(" ");
+            sb.Append(' ');
             sb.Append(Class);
         }
 
@@ -139,7 +135,8 @@ public class FaText : ComponentBase, ITransformIcon
         if (!string.IsNullOrWhiteSpace(transform))
             builder.AddAttribute(3, "data-fa-transform", transform);
         builder.AddMultipleAttributes(4, AdditionalAttributes);
-        if (ChildContent != null)
+        // ReSharper disable once ConditionIsAlwaysTrueOrFalseAccordingToNullableAPIContract
+        if (ChildContent != default)
             builder.AddContent(5, ChildContent);
         builder.CloseElement();
     }

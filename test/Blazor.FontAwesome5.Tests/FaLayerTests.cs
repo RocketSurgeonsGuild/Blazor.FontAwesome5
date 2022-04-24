@@ -1,13 +1,10 @@
-﻿using System.Collections.Generic;
-using Bunit;
+﻿using Bunit;
 using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Rocket.Surgery.Blazor.FontAwesome5.Pro;
-using Rocket.Surgery.Blazor.FontAwesome5.Shared;
 using Rocket.Surgery.Extensions.Testing;
 using Xunit;
 using Xunit.Abstractions;
-using static Rocket.Surgery.Blazor.FontAwesome5.Tests.ComponentParameterHelpers;
 
 namespace Rocket.Surgery.Blazor.FontAwesome5.Tests
 {

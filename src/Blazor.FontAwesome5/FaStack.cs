@@ -1,23 +1,20 @@
 ﻿using System.Text;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
-using Rocket.Surgery.Blazor.FontAwesome5.Shared;
 
 namespace Rocket.Surgery.Blazor.FontAwesome5;
 
+#pragma warning disable CA1711
 public class FaStack : ComponentBase
+#pragma warning restore CA1711
 {
-    [Parameter]
-    public RenderFragment ChildContent { get; set; }
+    [Parameter] public RenderFragment? ChildContent { get; set; }
 
-    [Parameter]
-    public IconSize Size { get; set; }
+    [Parameter] public IconSize Size { get; set; }
 
-    [Parameter]
-    public string? Class { get; set; }
+    [Parameter] public string? Class { get; set; }
 
-    [Parameter]
-    public string? Style { get; set; }
+    [Parameter] public string? Style { get; set; }
 
     public string ToClass()
     {
@@ -26,7 +23,7 @@ public class FaStack : ComponentBase
 
         if (!string.IsNullOrWhiteSpace(Class))
         {
-            sb.Append(" ");
+            sb.Append(' ');
             sb.Append(Class);
         }
 

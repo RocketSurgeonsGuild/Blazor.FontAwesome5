@@ -1,1376 +1,1379 @@
+using System;
+using Rocket.Surgery.Blazor.FontAwesome5;
 namespace Rocket.Surgery.Blazor.FontAwesome5.Free
 {
     /// <summary>
-    ///     Font Awesome Far Icons
+    /// Font Awesome Far Icons
     /// </summary>
     public enum Far
     {
         /// <summary>
-        ///     Address Book
+        /// Address Book
         /// </summary>
         /// <remarks>
-        ///     address-book - Available in Solid, Regular
+        /// address-book - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "address-book")]
         AddressBook,
 
         /// <summary>
-        ///     Address Card
+        /// Address Card
         /// </summary>
         /// <remarks>
-        ///     address-card - Available in Solid, Regular
+        /// address-card - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "address-card")]
         AddressCard,
 
         /// <summary>
-        ///     Angry Face
+        /// Angry Face
         /// </summary>
         /// <remarks>
-        ///     angry - Available in Solid, Regular
+        /// angry - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "angry")]
         Angry,
 
         /// <summary>
-        ///     Alternate Arrow Circle Down
+        /// Alternate Arrow Circle Down
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-circle-down - Available in Solid, Regular
+        /// arrow-alt-circle-down - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "arrow-alt-circle-down")]
         ArrowAltCircleDown,
 
         /// <summary>
-        ///     Alternate Arrow Circle Left
+        /// Alternate Arrow Circle Left
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-circle-left - Available in Solid, Regular
+        /// arrow-alt-circle-left - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "arrow-alt-circle-left")]
         ArrowAltCircleLeft,
 
         /// <summary>
-        ///     Alternate Arrow Circle Right
+        /// Alternate Arrow Circle Right
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-circle-right - Available in Solid, Regular
+        /// arrow-alt-circle-right - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "arrow-alt-circle-right")]
         ArrowAltCircleRight,
 
         /// <summary>
-        ///     Alternate Arrow Circle up
+        /// Alternate Arrow Circle up
         /// </summary>
         /// <remarks>
-        ///     arrow-alt-circle-up - Available in Solid, Regular
+        /// arrow-alt-circle-up - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "arrow-alt-circle-up")]
         ArrowAltCircleUp,
 
         /// <summary>
-        ///     Bell
+        /// Bell
         /// </summary>
         /// <remarks>
-        ///     bell - Available in Solid, Regular
+        /// bell - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "bell")]
         Bell,
 
         /// <summary>
-        ///     Bell Slash
+        /// Bell Slash
         /// </summary>
         /// <remarks>
-        ///     bell-slash - Available in Solid, Regular
+        /// bell-slash - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "bell-slash")]
         BellSlash,
 
         /// <summary>
-        ///     Bookmark
+        /// Bookmark
         /// </summary>
         /// <remarks>
-        ///     bookmark - Available in Solid, Regular
+        /// bookmark - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "bookmark")]
         Bookmark,
 
         /// <summary>
-        ///     Building
+        /// Building
         /// </summary>
         /// <remarks>
-        ///     building - Available in Solid, Regular
+        /// building - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "building")]
         Building,
 
         /// <summary>
-        ///     Calendar
+        /// Calendar
         /// </summary>
         /// <remarks>
-        ///     calendar - Available in Solid, Regular
+        /// calendar - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "calendar")]
         Calendar,
 
         /// <summary>
-        ///     Alternate Calendar
+        /// Alternate Calendar
         /// </summary>
         /// <remarks>
-        ///     calendar-alt - Available in Solid, Regular
+        /// calendar-alt - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "calendar-alt")]
         CalendarAlt,
 
         /// <summary>
-        ///     Calendar Check
+        /// Calendar Check
         /// </summary>
         /// <remarks>
-        ///     calendar-check - Available in Solid, Regular
+        /// calendar-check - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "calendar-check")]
         CalendarCheck,
 
         /// <summary>
-        ///     Calendar Minus
+        /// Calendar Minus
         /// </summary>
         /// <remarks>
-        ///     calendar-minus - Available in Solid, Regular
+        /// calendar-minus - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "calendar-minus")]
         CalendarMinus,
 
         /// <summary>
-        ///     Calendar Plus
+        /// Calendar Plus
         /// </summary>
         /// <remarks>
-        ///     calendar-plus - Available in Solid, Regular
+        /// calendar-plus - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "calendar-plus")]
         CalendarPlus,
 
         /// <summary>
-        ///     Calendar Times
+        /// Calendar Times
         /// </summary>
         /// <remarks>
-        ///     calendar-times - Available in Solid, Regular
+        /// calendar-times - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "calendar-times")]
         CalendarTimes,
 
         /// <summary>
-        ///     Caret Square Down
+        /// Caret Square Down
         /// </summary>
         /// <remarks>
-        ///     caret-square-down - Available in Solid, Regular
+        /// caret-square-down - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "caret-square-down")]
         CaretSquareDown,
 
         /// <summary>
-        ///     Caret Square Left
+        /// Caret Square Left
         /// </summary>
         /// <remarks>
-        ///     caret-square-left - Available in Solid, Regular
+        /// caret-square-left - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "caret-square-left")]
         CaretSquareLeft,
 
         /// <summary>
-        ///     Caret Square Right
+        /// Caret Square Right
         /// </summary>
         /// <remarks>
-        ///     caret-square-right - Available in Solid, Regular
+        /// caret-square-right - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "caret-square-right")]
         CaretSquareRight,
 
         /// <summary>
-        ///     Caret Square up
+        /// Caret Square up
         /// </summary>
         /// <remarks>
-        ///     caret-square-up - Available in Solid, Regular
+        /// caret-square-up - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "caret-square-up")]
         CaretSquareUp,
 
         /// <summary>
-        ///     Bar Chart
+        /// Bar Chart
         /// </summary>
         /// <remarks>
-        ///     chart-bar - Available in Solid, Regular
+        /// chart-bar - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "chart-bar")]
         ChartBar,
 
         /// <summary>
-        ///     Check Circle
+        /// Check Circle
         /// </summary>
         /// <remarks>
-        ///     check-circle - Available in Solid, Regular
+        /// check-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "check-circle")]
         CheckCircle,
 
         /// <summary>
-        ///     Check Square
+        /// Check Square
         /// </summary>
         /// <remarks>
-        ///     check-square - Available in Solid, Regular
+        /// check-square - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "check-square")]
         CheckSquare,
 
         /// <summary>
-        ///     Circle
+        /// Circle
         /// </summary>
         /// <remarks>
-        ///     circle - Available in Solid, Regular
+        /// circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "circle")]
         Circle,
 
         /// <summary>
-        ///     Clipboard
+        /// Clipboard
         /// </summary>
         /// <remarks>
-        ///     clipboard - Available in Solid, Regular
+        /// clipboard - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "clipboard")]
         Clipboard,
 
         /// <summary>
-        ///     Clock
+        /// Clock
         /// </summary>
         /// <remarks>
-        ///     clock - Available in Solid, Regular
+        /// clock - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "clock")]
         Clock,
 
         /// <summary>
-        ///     Clone
+        /// Clone
         /// </summary>
         /// <remarks>
-        ///     clone - Available in Solid, Regular
+        /// clone - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "clone")]
         Clone,
 
         /// <summary>
-        ///     Closed Captioning
+        /// Closed Captioning
         /// </summary>
         /// <remarks>
-        ///     closed-captioning - Available in Solid, Regular
+        /// closed-captioning - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "closed-captioning")]
         ClosedCaptioning,
 
         /// <summary>
-        ///     Comment
+        /// Comment
         /// </summary>
         /// <remarks>
-        ///     comment - Available in Solid, Regular
+        /// comment - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "comment")]
         Comment,
 
         /// <summary>
-        ///     Alternate Comment
+        /// Alternate Comment
         /// </summary>
         /// <remarks>
-        ///     comment-alt - Available in Solid, Regular
+        /// comment-alt - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "comment-alt")]
         CommentAlt,
 
         /// <summary>
-        ///     Comment Dots
+        /// Comment Dots
         /// </summary>
         /// <remarks>
-        ///     comment-dots - Available in Solid, Regular
+        /// comment-dots - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "comment-dots")]
         CommentDots,
 
         /// <summary>
-        ///     Comments
+        /// Comments
         /// </summary>
         /// <remarks>
-        ///     comments - Available in Solid, Regular
+        /// comments - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "comments")]
         Comments,
 
         /// <summary>
-        ///     Compass
+        /// Compass
         /// </summary>
         /// <remarks>
-        ///     compass - Available in Solid, Regular
+        /// compass - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "compass")]
         Compass,
 
         /// <summary>
-        ///     Copy
+        /// Copy
         /// </summary>
         /// <remarks>
-        ///     copy - Available in Solid, Regular
+        /// copy - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "copy")]
         Copy,
 
         /// <summary>
-        ///     Copyright
+        /// Copyright
         /// </summary>
         /// <remarks>
-        ///     copyright - Available in Solid, Regular
+        /// copyright - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "copyright")]
         Copyright,
 
         /// <summary>
-        ///     Credit Card
+        /// Credit Card
         /// </summary>
         /// <remarks>
-        ///     credit-card - Available in Solid, Regular
+        /// credit-card - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "credit-card")]
         CreditCard,
 
         /// <summary>
-        ///     Dizzy Face
+        /// Dizzy Face
         /// </summary>
         /// <remarks>
-        ///     dizzy - Available in Solid, Regular
+        /// dizzy - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "dizzy")]
         Dizzy,
 
         /// <summary>
-        ///     Dot Circle
+        /// Dot Circle
         /// </summary>
         /// <remarks>
-        ///     dot-circle - Available in Solid, Regular
+        /// dot-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "dot-circle")]
         DotCircle,
 
         /// <summary>
-        ///     Edit
+        /// Edit
         /// </summary>
         /// <remarks>
-        ///     edit - Available in Solid, Regular
+        /// edit - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "edit")]
         Edit,
 
         /// <summary>
-        ///     Envelope
+        /// Envelope
         /// </summary>
         /// <remarks>
-        ///     envelope - Available in Solid, Regular
+        /// envelope - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "envelope")]
         Envelope,
 
         /// <summary>
-        ///     Envelope Open
+        /// Envelope Open
         /// </summary>
         /// <remarks>
-        ///     envelope-open - Available in Solid, Regular
+        /// envelope-open - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "envelope-open")]
         EnvelopeOpen,
 
         /// <summary>
-        ///     Eye
+        /// Eye
         /// </summary>
         /// <remarks>
-        ///     eye - Available in Solid, Regular
+        /// eye - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "eye")]
         Eye,
 
         /// <summary>
-        ///     Eye Slash
+        /// Eye Slash
         /// </summary>
         /// <remarks>
-        ///     eye-slash - Available in Solid, Regular
+        /// eye-slash - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "eye-slash")]
         EyeSlash,
 
         /// <summary>
-        ///     File
+        /// File
         /// </summary>
         /// <remarks>
-        ///     file - Available in Solid, Regular
+        /// file - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "file")]
         File,
 
         /// <summary>
-        ///     Alternate File
+        /// Alternate File
         /// </summary>
         /// <remarks>
-        ///     file-alt - Available in Solid, Regular
+        /// file-alt - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "file-alt")]
         FileAlt,
 
         /// <summary>
-        ///     Archive File
+        /// Archive File
         /// </summary>
         /// <remarks>
-        ///     file-archive - Available in Solid, Regular
+        /// file-archive - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "file-archive")]
         FileArchive,
 
         /// <summary>
-        ///     Audio File
+        /// Audio File
         /// </summary>
         /// <remarks>
-        ///     file-audio - Available in Solid, Regular
+        /// file-audio - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "file-audio")]
         FileAudio,
 
         /// <summary>
-        ///     Code File
+        /// Code File
         /// </summary>
         /// <remarks>
-        ///     file-code - Available in Solid, Regular
+        /// file-code - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "file-code")]
         FileCode,
 
         /// <summary>
-        ///     Excel File
+        /// Excel File
         /// </summary>
         /// <remarks>
-        ///     file-excel - Available in Solid, Regular
+        /// file-excel - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "file-excel")]
         FileExcel,
 
         /// <summary>
-        ///     Image File
+        /// Image File
         /// </summary>
         /// <remarks>
-        ///     file-image - Available in Solid, Regular
+        /// file-image - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "file-image")]
         FileImage,
 
         /// <summary>
-        ///     PDF File
+        /// PDF File
         /// </summary>
         /// <remarks>
-        ///     file-pdf - Available in Solid, Regular
+        /// file-pdf - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "file-pdf")]
         FilePdf,
 
         /// <summary>
-        ///     Powerpoint File
+        /// Powerpoint File
         /// </summary>
         /// <remarks>
-        ///     file-powerpoint - Available in Solid, Regular
+        /// file-powerpoint - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "file-powerpoint")]
         FilePowerpoint,
 
         /// <summary>
-        ///     Video File
+        /// Video File
         /// </summary>
         /// <remarks>
-        ///     file-video - Available in Solid, Regular
+        /// file-video - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "file-video")]
         FileVideo,
 
         /// <summary>
-        ///     Word File
+        /// Word File
         /// </summary>
         /// <remarks>
-        ///     file-word - Available in Solid, Regular
+        /// file-word - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "file-word")]
         FileWord,
 
         /// <summary>
-        ///     Flag
+        /// Flag
         /// </summary>
         /// <remarks>
-        ///     flag - Available in Solid, Regular
+        /// flag - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "flag")]
         Flag,
 
         /// <summary>
-        ///     Flushed Face
+        /// Flushed Face
         /// </summary>
         /// <remarks>
-        ///     flushed - Available in Solid, Regular
+        /// flushed - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "flushed")]
         Flushed,
 
         /// <summary>
-        ///     Folder
+        /// Folder
         /// </summary>
         /// <remarks>
-        ///     folder - Available in Solid, Regular
+        /// folder - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "folder")]
         Folder,
 
         /// <summary>
-        ///     Folder Open
+        /// Folder Open
         /// </summary>
         /// <remarks>
-        ///     folder-open - Available in Solid, Regular
+        /// folder-open - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "folder-open")]
         FolderOpen,
 
         /// <summary>
-        ///     Font Awesome Full Logo
+        /// Font Awesome Full Logo
         /// </summary>
         /// <remarks>
-        ///     font-awesome-logo-full - Available in Regular, Solid, Brands
+        /// font-awesome-logo-full - Available in Regular, Solid, Brands
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "font-awesome-logo-full")]
         FontAwesomeLogoFull,
 
         /// <summary>
-        ///     Frowning Face
+        /// Frowning Face
         /// </summary>
         /// <remarks>
-        ///     frown - Available in Solid, Regular
+        /// frown - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "frown")]
         Frown,
 
         /// <summary>
-        ///     Frowning Face With Open Mouth
+        /// Frowning Face With Open Mouth
         /// </summary>
         /// <remarks>
-        ///     frown-open - Available in Solid, Regular
+        /// frown-open - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "frown-open")]
         FrownOpen,
 
         /// <summary>
-        ///     Futbol
+        /// Futbol
         /// </summary>
         /// <remarks>
-        ///     futbol - Available in Solid, Regular
+        /// futbol - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "futbol")]
         Futbol,
 
         /// <summary>
-        ///     Gem
+        /// Gem
         /// </summary>
         /// <remarks>
-        ///     gem - Available in Solid, Regular
+        /// gem - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "gem")]
         Gem,
 
         /// <summary>
-        ///     Grimacing Face
+        /// Grimacing Face
         /// </summary>
         /// <remarks>
-        ///     grimace - Available in Solid, Regular
+        /// grimace - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "grimace")]
         Grimace,
 
         /// <summary>
-        ///     Grinning Face
+        /// Grinning Face
         /// </summary>
         /// <remarks>
-        ///     grin - Available in Solid, Regular
+        /// grin - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "grin")]
         Grin,
 
         /// <summary>
-        ///     Alternate Grinning Face
+        /// Alternate Grinning Face
         /// </summary>
         /// <remarks>
-        ///     grin-alt - Available in Solid, Regular
+        /// grin-alt - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "grin-alt")]
         GrinAlt,
 
         /// <summary>
-        ///     Grinning Face With Smiling Eyes
+        /// Grinning Face With Smiling Eyes
         /// </summary>
         /// <remarks>
-        ///     grin-beam - Available in Solid, Regular
+        /// grin-beam - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "grin-beam")]
         GrinBeam,
 
         /// <summary>
-        ///     Grinning Face With Sweat
+        /// Grinning Face With Sweat
         /// </summary>
         /// <remarks>
-        ///     grin-beam-sweat - Available in Solid, Regular
+        /// grin-beam-sweat - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "grin-beam-sweat")]
         GrinBeamSweat,
 
         /// <summary>
-        ///     Smiling Face With Heart Eyes
+        /// Smiling Face With Heart Eyes
         /// </summary>
         /// <remarks>
-        ///     grin-hearts - Available in Solid, Regular
+        /// grin-hearts - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "grin-hearts")]
         GrinHearts,
 
         /// <summary>
-        ///     Grinning Squinting Face
+        /// Grinning Squinting Face
         /// </summary>
         /// <remarks>
-        ///     grin-squint - Available in Solid, Regular
+        /// grin-squint - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "grin-squint")]
         GrinSquint,
 
         /// <summary>
-        ///     Rolling on the Floor Laughing
+        /// Rolling on the Floor Laughing
         /// </summary>
         /// <remarks>
-        ///     grin-squint-tears - Available in Solid, Regular
+        /// grin-squint-tears - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "grin-squint-tears")]
         GrinSquintTears,
 
         /// <summary>
-        ///     Star Struck
+        /// Star Struck
         /// </summary>
         /// <remarks>
-        ///     grin-stars - Available in Solid, Regular
+        /// grin-stars - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "grin-stars")]
         GrinStars,
 
         /// <summary>
-        ///     Face With Tears of Joy
+        /// Face With Tears of Joy
         /// </summary>
         /// <remarks>
-        ///     grin-tears - Available in Solid, Regular
+        /// grin-tears - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "grin-tears")]
         GrinTears,
 
         /// <summary>
-        ///     Face With Tongue
+        /// Face With Tongue
         /// </summary>
         /// <remarks>
-        ///     grin-tongue - Available in Solid, Regular
+        /// grin-tongue - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "grin-tongue")]
         GrinTongue,
 
         /// <summary>
-        ///     Squinting Face With Tongue
+        /// Squinting Face With Tongue
         /// </summary>
         /// <remarks>
-        ///     grin-tongue-squint - Available in Solid, Regular
+        /// grin-tongue-squint - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "grin-tongue-squint")]
         GrinTongueSquint,
 
         /// <summary>
-        ///     Winking Face With Tongue
+        /// Winking Face With Tongue
         /// </summary>
         /// <remarks>
-        ///     grin-tongue-wink - Available in Solid, Regular
+        /// grin-tongue-wink - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "grin-tongue-wink")]
         GrinTongueWink,
 
         /// <summary>
-        ///     Grinning Winking Face
+        /// Grinning Winking Face
         /// </summary>
         /// <remarks>
-        ///     grin-wink - Available in Solid, Regular
+        /// grin-wink - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "grin-wink")]
         GrinWink,
 
         /// <summary>
-        ///     Lizard Hand
+        /// Lizard Hand
         /// </summary>
         /// <remarks>
-        ///     hand-lizard - Available in Solid, Regular
+        /// hand-lizard - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "hand-lizard")]
         HandLizard,
 
         /// <summary>
-        ///     Paper Hand
+        /// Paper Hand
         /// </summary>
         /// <remarks>
-        ///     hand-paper - Available in Solid, Regular
+        /// hand-paper - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "hand-paper")]
         HandPaper,
 
         /// <summary>
-        ///     Peace Hand
+        /// Peace Hand
         /// </summary>
         /// <remarks>
-        ///     hand-peace - Available in Solid, Regular
+        /// hand-peace - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "hand-peace")]
         HandPeace,
 
         /// <summary>
-        ///     Hand Pointing Down
+        /// Hand Pointing Down
         /// </summary>
         /// <remarks>
-        ///     hand-point-down - Available in Solid, Regular
+        /// hand-point-down - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "hand-point-down")]
         HandPointDown,
 
         /// <summary>
-        ///     Hand Pointing Left
+        /// Hand Pointing Left
         /// </summary>
         /// <remarks>
-        ///     hand-point-left - Available in Solid, Regular
+        /// hand-point-left - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "hand-point-left")]
         HandPointLeft,
 
         /// <summary>
-        ///     Hand Pointing Right
+        /// Hand Pointing Right
         /// </summary>
         /// <remarks>
-        ///     hand-point-right - Available in Solid, Regular
+        /// hand-point-right - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "hand-point-right")]
         HandPointRight,
 
         /// <summary>
-        ///     Hand Pointing up
+        /// Hand Pointing up
         /// </summary>
         /// <remarks>
-        ///     hand-point-up - Available in Solid, Regular
+        /// hand-point-up - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "hand-point-up")]
         HandPointUp,
 
         /// <summary>
-        ///     Pointer Hand
+        /// Pointer Hand
         /// </summary>
         /// <remarks>
-        ///     hand-pointer - Available in Solid, Regular
+        /// hand-pointer - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "hand-pointer")]
         HandPointer,
 
         /// <summary>
-        ///     Rock Hand
+        /// Rock Hand
         /// </summary>
         /// <remarks>
-        ///     hand-rock - Available in Solid, Regular
+        /// hand-rock - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "hand-rock")]
         HandRock,
 
         /// <summary>
-        ///     Scissors Hand
+        /// Scissors Hand
         /// </summary>
         /// <remarks>
-        ///     hand-scissors - Available in Solid, Regular
+        /// hand-scissors - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "hand-scissors")]
         HandScissors,
 
         /// <summary>
-        ///     Spock Hand
+        /// Spock Hand
         /// </summary>
         /// <remarks>
-        ///     hand-spock - Available in Solid, Regular
+        /// hand-spock - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "hand-spock")]
         HandSpock,
 
         /// <summary>
-        ///     Handshake
+        /// Handshake
         /// </summary>
         /// <remarks>
-        ///     handshake - Available in Solid, Regular
+        /// handshake - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "handshake")]
         Handshake,
 
         /// <summary>
-        ///     HDD
+        /// HDD
         /// </summary>
         /// <remarks>
-        ///     hdd - Available in Solid, Regular
+        /// hdd - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "hdd")]
         Hdd,
 
         /// <summary>
-        ///     Heart
+        /// Heart
         /// </summary>
         /// <remarks>
-        ///     heart - Available in Solid, Regular
+        /// heart - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "heart")]
         Heart,
 
         /// <summary>
-        ///     Hospital
+        /// Hospital
         /// </summary>
         /// <remarks>
-        ///     hospital - Available in Solid, Regular
+        /// hospital - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "hospital")]
         Hospital,
 
         /// <summary>
-        ///     Hourglass
+        /// Hourglass
         /// </summary>
         /// <remarks>
-        ///     hourglass - Available in Solid, Regular
+        /// hourglass - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "hourglass")]
         Hourglass,
 
         /// <summary>
-        ///     Identification Badge
+        /// Identification Badge
         /// </summary>
         /// <remarks>
-        ///     id-badge - Available in Solid, Regular
+        /// id-badge - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "id-badge")]
         IdBadge,
 
         /// <summary>
-        ///     Identification Card
+        /// Identification Card
         /// </summary>
         /// <remarks>
-        ///     id-card - Available in Solid, Regular
+        /// id-card - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "id-card")]
         IdCard,
 
         /// <summary>
-        ///     Image
+        /// Image
         /// </summary>
         /// <remarks>
-        ///     image - Available in Solid, Regular
+        /// image - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "image")]
         Image,
 
         /// <summary>
-        ///     Images
+        /// Images
         /// </summary>
         /// <remarks>
-        ///     images - Available in Solid, Regular
+        /// images - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "images")]
         Images,
 
         /// <summary>
-        ///     Keyboard
+        /// Keyboard
         /// </summary>
         /// <remarks>
-        ///     keyboard - Available in Solid, Regular
+        /// keyboard - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "keyboard")]
         Keyboard,
 
         /// <summary>
-        ///     Kissing Face
+        /// Kissing Face
         /// </summary>
         /// <remarks>
-        ///     kiss - Available in Solid, Regular
+        /// kiss - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "kiss")]
         Kiss,
 
         /// <summary>
-        ///     Kissing Face With Smiling Eyes
+        /// Kissing Face With Smiling Eyes
         /// </summary>
         /// <remarks>
-        ///     kiss-beam - Available in Solid, Regular
+        /// kiss-beam - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "kiss-beam")]
         KissBeam,
 
         /// <summary>
-        ///     Face Blowing a Kiss
+        /// Face Blowing a Kiss
         /// </summary>
         /// <remarks>
-        ///     kiss-wink-heart - Available in Solid, Regular
+        /// kiss-wink-heart - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "kiss-wink-heart")]
         KissWinkHeart,
 
         /// <summary>
-        ///     Grinning Face With Big Eyes
+        /// Grinning Face With Big Eyes
         /// </summary>
         /// <remarks>
-        ///     laugh - Available in Solid, Regular
+        /// laugh - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "laugh")]
         Laugh,
 
         /// <summary>
-        ///     Laugh Face With Beaming Eyes
+        /// Laugh Face With Beaming Eyes
         /// </summary>
         /// <remarks>
-        ///     laugh-beam - Available in Solid, Regular
+        /// laugh-beam - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "laugh-beam")]
         LaughBeam,
 
         /// <summary>
-        ///     Laughing Squinting Face
+        /// Laughing Squinting Face
         /// </summary>
         /// <remarks>
-        ///     laugh-squint - Available in Solid, Regular
+        /// laugh-squint - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "laugh-squint")]
         LaughSquint,
 
         /// <summary>
-        ///     Laughing Winking Face
+        /// Laughing Winking Face
         /// </summary>
         /// <remarks>
-        ///     laugh-wink - Available in Solid, Regular
+        /// laugh-wink - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "laugh-wink")]
         LaughWink,
 
         /// <summary>
-        ///     Lemon
+        /// Lemon
         /// </summary>
         /// <remarks>
-        ///     lemon - Available in Solid, Regular
+        /// lemon - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "lemon")]
         Lemon,
 
         /// <summary>
-        ///     Life Ring
+        /// Life Ring
         /// </summary>
         /// <remarks>
-        ///     life-ring - Available in Solid, Regular
+        /// life-ring - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "life-ring")]
         LifeRing,
 
         /// <summary>
-        ///     Lightbulb
+        /// Lightbulb
         /// </summary>
         /// <remarks>
-        ///     lightbulb - Available in Solid, Regular
+        /// lightbulb - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "lightbulb")]
         Lightbulb,
 
         /// <summary>
-        ///     Alternate List
+        /// Alternate List
         /// </summary>
         /// <remarks>
-        ///     list-alt - Available in Solid, Regular
+        /// list-alt - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "list-alt")]
         ListAlt,
 
         /// <summary>
-        ///     Map
+        /// Map
         /// </summary>
         /// <remarks>
-        ///     map - Available in Solid, Regular
+        /// map - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "map")]
         Map,
 
         /// <summary>
-        ///     Neutral Face
+        /// Neutral Face
         /// </summary>
         /// <remarks>
-        ///     meh - Available in Solid, Regular
+        /// meh - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "meh")]
         Meh,
 
         /// <summary>
-        ///     Face Without Mouth
+        /// Face Without Mouth
         /// </summary>
         /// <remarks>
-        ///     meh-blank - Available in Solid, Regular
+        /// meh-blank - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "meh-blank")]
         MehBlank,
 
         /// <summary>
-        ///     Face With Rolling Eyes
+        /// Face With Rolling Eyes
         /// </summary>
         /// <remarks>
-        ///     meh-rolling-eyes - Available in Solid, Regular
+        /// meh-rolling-eyes - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "meh-rolling-eyes")]
         MehRollingEyes,
 
         /// <summary>
-        ///     Minus Square
+        /// Minus Square
         /// </summary>
         /// <remarks>
-        ///     minus-square - Available in Solid, Regular
+        /// minus-square - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "minus-square")]
         MinusSquare,
 
         /// <summary>
-        ///     Alternate Money Bill
+        /// Alternate Money Bill
         /// </summary>
         /// <remarks>
-        ///     money-bill-alt - Available in Solid, Regular
+        /// money-bill-alt - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "money-bill-alt")]
         MoneyBillAlt,
 
         /// <summary>
-        ///     Moon
+        /// Moon
         /// </summary>
         /// <remarks>
-        ///     moon - Available in Solid, Regular
+        /// moon - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "moon")]
         Moon,
 
         /// <summary>
-        ///     Newspaper
+        /// Newspaper
         /// </summary>
         /// <remarks>
-        ///     newspaper - Available in Solid, Regular
+        /// newspaper - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "newspaper")]
         Newspaper,
 
         /// <summary>
-        ///     Object Group
+        /// Object Group
         /// </summary>
         /// <remarks>
-        ///     object-group - Available in Solid, Regular
+        /// object-group - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "object-group")]
         ObjectGroup,
 
         /// <summary>
-        ///     Object Ungroup
+        /// Object Ungroup
         /// </summary>
         /// <remarks>
-        ///     object-ungroup - Available in Solid, Regular
+        /// object-ungroup - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "object-ungroup")]
         ObjectUngroup,
 
         /// <summary>
-        ///     Paper Plane
+        /// Paper Plane
         /// </summary>
         /// <remarks>
-        ///     paper-plane - Available in Solid, Regular
+        /// paper-plane - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "paper-plane")]
         PaperPlane,
 
         /// <summary>
-        ///     Pause Circle
+        /// Pause Circle
         /// </summary>
         /// <remarks>
-        ///     pause-circle - Available in Solid, Regular
+        /// pause-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "pause-circle")]
         PauseCircle,
 
         /// <summary>
-        ///     Play Circle
+        /// Play Circle
         /// </summary>
         /// <remarks>
-        ///     play-circle - Available in Solid, Regular
+        /// play-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "play-circle")]
         PlayCircle,
 
         /// <summary>
-        ///     Plus Square
+        /// Plus Square
         /// </summary>
         /// <remarks>
-        ///     plus-square - Available in Solid, Regular
+        /// plus-square - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "plus-square")]
         PlusSquare,
 
         /// <summary>
-        ///     Question Circle
+        /// Question Circle
         /// </summary>
         /// <remarks>
-        ///     question-circle - Available in Solid, Regular
+        /// question-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "question-circle")]
         QuestionCircle,
 
         /// <summary>
-        ///     Registered Trademark
+        /// Registered Trademark
         /// </summary>
         /// <remarks>
-        ///     registered - Available in Solid, Regular
+        /// registered - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "registered")]
         Registered,
 
         /// <summary>
-        ///     Crying Face
+        /// Crying Face
         /// </summary>
         /// <remarks>
-        ///     sad-cry - Available in Solid, Regular
+        /// sad-cry - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "sad-cry")]
         SadCry,
 
         /// <summary>
-        ///     Loudly Crying Face
+        /// Loudly Crying Face
         /// </summary>
         /// <remarks>
-        ///     sad-tear - Available in Solid, Regular
+        /// sad-tear - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "sad-tear")]
         SadTear,
 
         /// <summary>
-        ///     Save
+        /// Save
         /// </summary>
         /// <remarks>
-        ///     save - Available in Solid, Regular
+        /// save - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "save")]
         Save,
 
         /// <summary>
-        ///     Share Square
+        /// Share Square
         /// </summary>
         /// <remarks>
-        ///     share-square - Available in Solid, Regular
+        /// share-square - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "share-square")]
         ShareSquare,
 
         /// <summary>
-        ///     Smiling Face
+        /// Smiling Face
         /// </summary>
         /// <remarks>
-        ///     smile - Available in Solid, Regular
+        /// smile - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "smile")]
         Smile,
 
         /// <summary>
-        ///     Beaming Face With Smiling Eyes
+        /// Beaming Face With Smiling Eyes
         /// </summary>
         /// <remarks>
-        ///     smile-beam - Available in Solid, Regular
+        /// smile-beam - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "smile-beam")]
         SmileBeam,
 
         /// <summary>
-        ///     Winking Face
+        /// Winking Face
         /// </summary>
         /// <remarks>
-        ///     smile-wink - Available in Solid, Regular
+        /// smile-wink - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "smile-wink")]
         SmileWink,
 
         /// <summary>
-        ///     Snowflake
+        /// Snowflake
         /// </summary>
         /// <remarks>
-        ///     snowflake - Available in Solid, Regular
+        /// snowflake - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "snowflake")]
         Snowflake,
 
         /// <summary>
-        ///     Square
+        /// Square
         /// </summary>
         /// <remarks>
-        ///     square - Available in Solid, Regular
+        /// square - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "square")]
         Square,
 
         /// <summary>
-        ///     Star
+        /// Star
         /// </summary>
         /// <remarks>
-        ///     star - Available in Solid, Regular
+        /// star - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "star")]
         Star,
 
         /// <summary>
-        ///     Star Half
+        /// Star Half
         /// </summary>
         /// <remarks>
-        ///     star-half - Available in Solid, Regular
+        /// star-half - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "star-half")]
         StarHalf,
 
         /// <summary>
-        ///     Sticky Note
+        /// Sticky Note
         /// </summary>
         /// <remarks>
-        ///     sticky-note - Available in Solid, Regular
+        /// sticky-note - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "sticky-note")]
         StickyNote,
 
         /// <summary>
-        ///     Stop Circle
+        /// Stop Circle
         /// </summary>
         /// <remarks>
-        ///     stop-circle - Available in Solid, Regular
+        /// stop-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "stop-circle")]
         StopCircle,
 
         /// <summary>
-        ///     Sun
+        /// Sun
         /// </summary>
         /// <remarks>
-        ///     sun - Available in Solid, Regular
+        /// sun - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "sun")]
         Sun,
 
         /// <summary>
-        ///     Hushed Face
+        /// Hushed Face
         /// </summary>
         /// <remarks>
-        ///     surprise - Available in Solid, Regular
+        /// surprise - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "surprise")]
         Surprise,
 
         /// <summary>
-        ///     Thumbs Down
+        /// Thumbs Down
         /// </summary>
         /// <remarks>
-        ///     thumbs-down - Available in Solid, Regular
+        /// thumbs-down - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "thumbs-down")]
         ThumbsDown,
 
         /// <summary>
-        ///     Thumbs up
+        /// Thumbs up
         /// </summary>
         /// <remarks>
-        ///     thumbs-up - Available in Solid, Regular
+        /// thumbs-up - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "thumbs-up")]
         ThumbsUp,
 
         /// <summary>
-        ///     Times Circle
+        /// Times Circle
         /// </summary>
         /// <remarks>
-        ///     times-circle - Available in Solid, Regular
+        /// times-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "times-circle")]
         TimesCircle,
 
         /// <summary>
-        ///     Tired Face
+        /// Tired Face
         /// </summary>
         /// <remarks>
-        ///     tired - Available in Solid, Regular
+        /// tired - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "tired")]
         Tired,
 
         /// <summary>
-        ///     Alternate Trash
+        /// Alternate Trash
         /// </summary>
         /// <remarks>
-        ///     trash-alt - Available in Solid, Regular
+        /// trash-alt - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "trash-alt")]
         TrashAlt,
 
         /// <summary>
-        ///     User
+        /// User
         /// </summary>
         /// <remarks>
-        ///     user - Available in Solid, Regular
+        /// user - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "user")]
         User,
 
         /// <summary>
-        ///     User Circle
+        /// User Circle
         /// </summary>
         /// <remarks>
-        ///     user-circle - Available in Solid, Regular
+        /// user-circle - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "user-circle")]
         UserCircle,
 
         /// <summary>
-        ///     Window Close
+        /// Window Close
         /// </summary>
         /// <remarks>
-        ///     window-close - Available in Solid, Regular
+        /// window-close - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "window-close")]
         WindowClose,
 
         /// <summary>
-        ///     Window Maximize
+        /// Window Maximize
         /// </summary>
         /// <remarks>
-        ///     window-maximize - Available in Solid, Regular
+        /// window-maximize - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "window-maximize")]
         WindowMaximize,
 
         /// <summary>
-        ///     Window Minimize
+        /// Window Minimize
         /// </summary>
         /// <remarks>
-        ///     window-minimize - Available in Solid, Regular
+        /// window-minimize - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "window-minimize")]
         WindowMinimize,
 
         /// <summary>
-        ///     Window Restore
+        /// Window Restore
         /// </summary>
         /// <remarks>
-        ///     window-restore - Available in Solid, Regular
+        /// window-restore - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "window-restore")]
         WindowRestore,
+
     }
 }

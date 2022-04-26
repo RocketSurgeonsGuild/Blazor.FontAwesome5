@@ -1,8 +1,12 @@
+using System.Globalization;
 using System.Text;
+using System.Text.RegularExpressions;
 using Humanizer;
 using Nuke.Common;
+using Nuke.Common.IO;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
+using static Nuke.Common.IO.FileSystemTasks;
 using static Nuke.Common.IO.TextTasks;
 using static Nuke.Common.Tools.Npm.NpmTasks;
 
@@ -14,32 +18,47 @@ public partial class Solution
        .Executes(
             () =>
             {
-                var metadata = new List<(string name, string nodeModule, string sourcePath)>
+                foreach (var version in Enum.GetValues<FontAwesomeVersion>())
                 {
-                    ( "Free", "@fortawesome/fontawesome-free", @"src\Blazor.FontAwesome5.Free" ),
-                };
+                    var stringV = version switch
+                    {
+                        FontAwesomeVersion.V5 => "5",
+                        FontAwesomeVersion.V6 => "6"
+                    };
+                    var metadata = new List<(string name, string nodeModule, string sourcePath)>
+                    {
+                        ( "Free", "@fortawesome/fontawesome-free", $@"src\Blazor.FontAwesome{stringV}.Free" ),
+                    };
+                    var packageDirectory = TemporaryDirectory / version.ToString();
+                    EnsureCleanDirectory(packageDirectory);
+                    WriteAllText(packageDirectory / "package.json", "{}");
 
-                WriteAllText(TemporaryDirectory / "package.json", "{}");
-                if (!string.IsNullOrWhiteSpace(FontAwesomeToken))
-                {
-                    metadata.Add(( "Pro", "@fortawesome/fontawesome-pro", @"src\Blazor.FontAwesome5.Pro" ));
-                    WriteAllText(
-                        TemporaryDirectory / ".npmrc", $@"@fortawesome:registry=https://npm.fontawesome.com/
+                    if (!string.IsNullOrWhiteSpace(FontAwesomeToken))
+                    {
+                        metadata.Add(( "Pro", "@fortawesome/fontawesome-pro", $@"src\Blazor.FontAwesome{stringV}.Pro" ));
+                        WriteAllText(
+                            packageDirectory / ".npmrc", $@"@fortawesome:registry=https://npm.fontawesome.com/
 //npm.fontawesome.com/:_authToken={FontAwesomeToken}"
-                    );
+                        );
+                    }
+
+                    foreach (var (name, module, sourcePath) in metadata)
+                    {
+                        GenerateFiles(name, module, sourcePath, stringV, packageDirectory, version);
+                    }
                 }
 
-                foreach (var (name, module, sourcePath) in metadata)
+                static void GenerateFiles(
+                    string name, string module, string sourcePath, string stringV, AbsolutePath packageDirectory, FontAwesomeVersion version
+                )
                 {
-                    Npm($"install {module}@5 --no-package-lock", TemporaryDirectory);
-
-                    var iconsData = TemporaryDirectory / "node_modules" / module / "metadata" / "icons.yml";
-                    var categoriesData = TemporaryDirectory / "node_modules" / module / "metadata" / "categories.yml";
-                    var @namespace = $@"Rocket.Surgery.Blazor.FontAwesome5.{name}";
+                    Npm($"install {module}@{stringV} --no-package-lock", packageDirectory);
+                    var iconsData = packageDirectory / "node_modules" / module / "metadata" / "icons.yml";
+                    var categoriesData = packageDirectory / "node_modules" / module / "metadata" / "categories.yml";
+                    var @namespace = $@"Rocket.Surgery.Blazor.FontAwesome{stringV}.{name}";
 
                     var ds = new DeserializerBuilder()
                             .WithNamingConvention(CamelCaseNamingConvention.Instance)
-                             
                             .Build();
 
                     var icons = ds.Deserialize<IconDictionary>(ReadAllText(iconsData)).ToModels();
@@ -48,12 +67,12 @@ public partial class Solution
 
                     //icons.GroupBy(z => string.Join(":", z.Styles.Count() == 1 && z.Styles.Single() == FontAwesomeStyle.Brands ? z.Styles : z.Styles.Except(new[] { FontAwesomeStyle.Brands }).OrderBy(z => z))).Dump();
 
-                    static string UsingNamespace(string @namespace, string str)
+                    static string UsingNamespace(string @namespace, string str, string stringV)
                     {
                         var sb = new StringBuilder();
                         sb.AppendLine("using System;");
-                        sb.AppendLine("using Rocket.Surgery.Blazor.FontAwesome5;");
-                        sb.AppendLine($"namespace {@namespace}");
+                        sb.AppendLine(CultureInfo.InvariantCulture, $"using Rocket.Surgery.Blazor.FontAwesome{stringV};");
+                        sb.AppendLine(CultureInfo.InvariantCulture, $"namespace {@namespace}");
                         sb.AppendLine("{");
                         sb.Append(str);
                         sb.AppendLine("}");
@@ -61,25 +80,27 @@ public partial class Solution
                     }
 
                     var sb = new StringBuilder();
-                    foreach (var style in Enum.GetValues(typeof(FontAwesomeStyle)).OfType<FontAwesomeStyle>())
+                    foreach (var style in Enum.GetValues<FontAwesomeStyle>())
                     {
+                        var pascalStylePrefix = ToPrefix(style, version).Replace("-", "_", StringComparison.InvariantCulture).Pascalize();
                         var styleIcons = icons.Where(z => z.Styles.Any(s => s == style));
                         if (!styleIcons.Any()) continue;
                         sb.AppendLine("    /// <summary>");
-                        sb.AppendLine($"    /// Font Awesome {ToPrefix(style).Pascalize()} Icons");
+                        sb.AppendLine(CultureInfo.InvariantCulture, $"    /// Font Awesome {pascalStylePrefix} Icons");
                         sb.AppendLine("    /// </summary>");
-                        sb.AppendLine($"    public enum {ToPrefix(style).Pascalize()}");
+                        sb.AppendLine(CultureInfo.InvariantCulture, $"    public enum {pascalStylePrefix}");
                         sb.AppendLine("    {");
                         foreach (var model in styleIcons)
                         {
+                            var pascalModelName = ToModelName(model).Pascalize();
                             sb.AppendLine("        /// <summary>");
-                            sb.AppendLine($"        /// {model.Label.Titleize()}");
+                            sb.AppendLine(CultureInfo.InvariantCulture, $"        /// {model.Label.Titleize()}");
                             sb.AppendLine("        /// </summary>");
                             sb.AppendLine("        /// <remarks>");
-                            sb.AppendLine($"        /// {model.Name} - Available in {string.Join(", ", model.Styles)}");
+                            sb.AppendLine(CultureInfo.InvariantCulture, $"        /// {model.Name} - Available in {string.Join(", ", model.Styles)}");
                             sb.AppendLine("        /// </remarks>");
-                            sb.AppendLine($"        [FontAwesome(IconStyle.{style}, \"{model.Name}\")]");
-                            sb.AppendLine($"        {ToModelName(model).Pascalize()},");
+                            sb.AppendLine(CultureInfo.InvariantCulture, $"        [FontAwesome(IconStyle.{style}, \"{model.Alias}\")]");
+                            sb.AppendLine(CultureInfo.InvariantCulture, $"        {pascalModelName},");
                             sb.AppendLine("");
                         }
 
@@ -88,14 +109,19 @@ public partial class Solution
                         if (style == FontAwesomeStyle.Brands)
                         {
                             WriteAllText(
-                                RootDirectory / $"{sourcePath.Replace(".Free", "").Replace(".Pro", "")}.{style}" / $"{ToPrefix(style).Pascalize()}.cs",
-                                UsingNamespace(@namespace.Replace(".Free", "").Replace(".Pro", "") + "." + style, sb.ToString())
+                                RootDirectory
+                              / $"{sourcePath.Replace(".Free", "", StringComparison.InvariantCulture).Replace(".Pro", "", StringComparison.InvariantCulture)}.{style}"
+                              / $"{pascalStylePrefix}.cs",
+                                UsingNamespace(
+                                    @namespace.Replace(".Free", "", StringComparison.InvariantCulture).Replace(".Pro", "", StringComparison.InvariantCulture)
+                                  + "." + style, sb.ToString(), stringV
+                                )
                             );
                         }
                         else
                         {
                             WriteAllText(
-                                RootDirectory / $"{sourcePath}.{style}" / $"{ToPrefix(style).Pascalize()}.cs", UsingNamespace(@namespace, sb.ToString())
+                                RootDirectory / $"{sourcePath}.{style}" / $"{pascalStylePrefix}.cs", UsingNamespace(@namespace, sb.ToString(), stringV)
                             );
                         }
 
@@ -105,36 +131,43 @@ public partial class Solution
             }
         );
 
-    private string ToModelName(IconModel model)
+    private static readonly Regex startsWithDigit = new Regex(@"^\d", RegexOptions.Compiled);
+    private static string ToModelName(IconModel model)
     {
         if (model.Name.Equals(nameof(Equals), StringComparison.OrdinalIgnoreCase))
         {
             return "equal";
         }
 
-        if (model.Name.StartsWith("5"))
+        if (startsWithDigit.IsMatch(model.Name))
         {
             return "_" + model.Name.Replace('-', ' ');
         }
 
         return model.Name.Replace('-', ' ');
     }
-    
-    enum FontAwesomeVersion {
-        v5, v6
+
+    enum FontAwesomeVersion
+    {
+        V5, V6
     }
 
-    private string ToPrefix(FontAwesomeStyle style/*, FontAwesomeVersion version*/)
+    private static string ToPrefix(FontAwesomeStyle style, FontAwesomeVersion version)
     {
-        return style switch
+        return ( style, version ) switch
         {
-            FontAwesomeStyle.Solid   => "fas",
-            FontAwesomeStyle.Regular => "far",
-            FontAwesomeStyle.Light   => "fal",
-            FontAwesomeStyle.Duotone => "fad",
-            FontAwesomeStyle.Brands  => "fab",
-            FontAwesomeStyle.Thin  => "fa-thin",
-            _                        => throw new NotSupportedException()
+            (FontAwesomeStyle.Solid, FontAwesomeVersion.V6)   => "fa-solid",
+            (FontAwesomeStyle.Regular, FontAwesomeVersion.V6) => "fa-regular",
+            (FontAwesomeStyle.Light, FontAwesomeVersion.V6)   => "fa-light",
+            (FontAwesomeStyle.Duotone, FontAwesomeVersion.V6) => "fa-duotone",
+            (FontAwesomeStyle.Brands, FontAwesomeVersion.V6)  => "fa-brands",
+            (FontAwesomeStyle.Thin, _)                        => "fa-thin",
+            (FontAwesomeStyle.Solid, _)                       => "fas",
+            (FontAwesomeStyle.Regular, _)                     => "far",
+            (FontAwesomeStyle.Light, _)                       => "fal",
+            (FontAwesomeStyle.Duotone, _)                     => "fad",
+            (FontAwesomeStyle.Brands, _)                      => "fab",
+            _                                                 => throw new NotSupportedException()
         };
     }
 }
@@ -159,6 +192,7 @@ internal class IconDictionary : Dictionary<string, IconModelBase>
             yield return new IconModel
             {
                 Name = item.Key,
+                Alias = item.Key,
                 //Changes = item.Value.Changes,
                 Label = item.Value.Label,
                 //Search = item.Value.Search,
@@ -166,10 +200,33 @@ internal class IconDictionary : Dictionary<string, IconModelBase>
                     z => Enum.TryParse(typeof(FontAwesomeStyle), z, true, out var style) ? (FontAwesomeStyle)style : throw new KeyNotFoundException(z)
                 ).ToArray(),
                 Unicode = item.Value.Unicode,
+                
                 //Private = item.Value.Private,
                 //Voted = item.Value.Voted,
                 //Ligatures = item.Value.Ligatures,
             };
+            if (item.Value.Aliases is { } aliases)
+            {
+                foreach (var alias in aliases.Names ?? Enumerable.Empty<string>())
+                {
+                    yield return new IconModel
+                    {
+                        Name = alias,
+                        Alias = item.Key,
+                        //Changes = item.Value.Changes,
+                        Label = item.Value.Label,
+                        //Search = item.Value.Search,
+                        Styles = item.Value.Styles.Select(
+                            z => Enum.TryParse(typeof(FontAwesomeStyle), z, true, out var style) ? (FontAwesomeStyle)style : throw new KeyNotFoundException(z)
+                        ).ToArray(),
+                        Unicode = item.Value.Unicode,
+                
+                        //Private = item.Value.Private,
+                        //Voted = item.Value.Voted,
+                        //Ligatures = item.Value.Ligatures,
+                    };
+                }
+            }
         }
     }
 }
@@ -177,6 +234,7 @@ internal class IconDictionary : Dictionary<string, IconModelBase>
 internal class IconModel
 {
     public string Name { get; set; }
+    public string Alias { get; set; }
 
     //public IEnumerable<string> Changes { get; set; }
     public string Label { get; set; }

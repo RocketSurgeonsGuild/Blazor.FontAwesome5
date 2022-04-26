@@ -1,4 +1,4 @@
-# Font Awesome 5 for Blazor
+# Font Awesome 5 and 6 for Blazor
 
 # Whats next?
 
@@ -33,6 +33,17 @@
 | Rocket.Surgery.Blazor.FontAwesome5.Pro.Light | [![nuget-version-bunwapoytnsg-badge]![nuget-downloads-bunwapoytnsg-badge]][nuget-bunwapoytnsg] |
 | Rocket.Surgery.Blazor.FontAwesome5.Pro.Regular | [![nuget-version-aiqwd3w6swfg-badge]![nuget-downloads-aiqwd3w6swfg-badge]][nuget-aiqwd3w6swfg] |
 | Rocket.Surgery.Blazor.FontAwesome5.Pro.Solid | [![nuget-version-njmqma6bbt/a-badge]![nuget-downloads-njmqma6bbt/a-badge]][nuget-njmqma6bbt/a] |
+| Rocket.Surgery.Blazor.FontAwesome6 | [![nuget-version-vrdyfyvmncdw-badge]![nuget-downloads-vrdyfyvmncdw-badge]][nuget-vrdyfyvmncdw] |
+| Rocket.Surgery.Blazor.FontAwesome6.Brands | [![nuget-version-lva8famzj/bg-badge]![nuget-downloads-lva8famzj/bg-badge]][nuget-lva8famzj/bg] |
+| Rocket.Surgery.Blazor.FontAwesome6.Free | [![nuget-version-lb6ty09dj3fw-badge]![nuget-downloads-lb6ty09dj3fw-badge]][nuget-lb6ty09dj3fw] |
+| Rocket.Surgery.Blazor.FontAwesome6.Free.Regular | [![nuget-version-zp3amczfnwdw-badge]![nuget-downloads-zp3amczfnwdw-badge]][nuget-zp3amczfnwdw] |
+| Rocket.Surgery.Blazor.FontAwesome6.Free.Solid | [![nuget-version-uqes1v7sjgfa-badge]![nuget-downloads-uqes1v7sjgfa-badge]][nuget-uqes1v7sjgfa] |
+| Rocket.Surgery.Blazor.FontAwesome6.Pro | [![nuget-version-p7l6gtwrabfa-badge]![nuget-downloads-p7l6gtwrabfa-badge]][nuget-p7l6gtwrabfa] |
+| Rocket.Surgery.Blazor.FontAwesome6.Pro.Duotone | [![nuget-version-15p/7vqos/6q-badge]![nuget-downloads-15p/7vqos/6q-badge]][nuget-15p/7vqos/6q] |
+| Rocket.Surgery.Blazor.FontAwesome6.Pro.Light | [![nuget-version-9zxzg/aeaj6a-badge]![nuget-downloads-9zxzg/aeaj6a-badge]][nuget-9zxzg/aeaj6a] |
+| Rocket.Surgery.Blazor.FontAwesome6.Pro.Regular | [![nuget-version-ynq5uon/ileg-badge]![nuget-downloads-ynq5uon/ileg-badge]][nuget-ynq5uon/ileg] |
+| Rocket.Surgery.Blazor.FontAwesome6.Pro.Solid | [![nuget-version-a72zjtdstecw-badge]![nuget-downloads-a72zjtdstecw-badge]][nuget-a72zjtdstecw] |
+| Rocket.Surgery.Blazor.FontAwesome6.Pro.Thin | [![nuget-version-biuj3vbw+0ca-badge]![nuget-downloads-biuj3vbw+0ca-badge]][nuget-biuj3vbw+0ca] |
 <!-- nuget packages -->
 
 <!-- generated references -->
@@ -75,6 +86,39 @@
 [nuget-njmqma6bbt/a]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome5.Pro.Solid/
 [nuget-version-njmqma6bbt/a-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome5.Pro.Solid.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
 [nuget-downloads-njmqma6bbt/a-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome5.Pro.Solid.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"
+[nuget-vrdyfyvmncdw]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome6/
+[nuget-version-vrdyfyvmncdw-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome6.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
+[nuget-downloads-vrdyfyvmncdw-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome6.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"
+[nuget-lva8famzj/bg]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome6.Brands/
+[nuget-version-lva8famzj/bg-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome6.Brands.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
+[nuget-downloads-lva8famzj/bg-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome6.Brands.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"
+[nuget-lb6ty09dj3fw]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome6.Free/
+[nuget-version-lb6ty09dj3fw-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome6.Free.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
+[nuget-downloads-lb6ty09dj3fw-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome6.Free.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"
+[nuget-zp3amczfnwdw]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome6.Free.Regular/
+[nuget-version-zp3amczfnwdw-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome6.Free.Regular.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
+[nuget-downloads-zp3amczfnwdw-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome6.Free.Regular.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"
+[nuget-uqes1v7sjgfa]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome6.Free.Solid/
+[nuget-version-uqes1v7sjgfa-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome6.Free.Solid.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
+[nuget-downloads-uqes1v7sjgfa-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome6.Free.Solid.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"
+[nuget-p7l6gtwrabfa]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome6.Pro/
+[nuget-version-p7l6gtwrabfa-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome6.Pro.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
+[nuget-downloads-p7l6gtwrabfa-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome6.Pro.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"
+[nuget-15p/7vqos/6q]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome6.Pro.Duotone/
+[nuget-version-15p/7vqos/6q-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome6.Pro.Duotone.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
+[nuget-downloads-15p/7vqos/6q-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome6.Pro.Duotone.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"
+[nuget-9zxzg/aeaj6a]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome6.Pro.Light/
+[nuget-version-9zxzg/aeaj6a-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome6.Pro.Light.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
+[nuget-downloads-9zxzg/aeaj6a-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome6.Pro.Light.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"
+[nuget-ynq5uon/ileg]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome6.Pro.Regular/
+[nuget-version-ynq5uon/ileg-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome6.Pro.Regular.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
+[nuget-downloads-ynq5uon/ileg-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome6.Pro.Regular.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"
+[nuget-a72zjtdstecw]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome6.Pro.Solid/
+[nuget-version-a72zjtdstecw-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome6.Pro.Solid.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
+[nuget-downloads-a72zjtdstecw-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome6.Pro.Solid.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"
+[nuget-biuj3vbw+0ca]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome6.Pro.Thin/
+[nuget-version-biuj3vbw+0ca-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome6.Pro.Thin.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
+[nuget-downloads-biuj3vbw+0ca-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome6.Pro.Thin.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"
 <!-- generated references -->
 
 <!-- nuke-data

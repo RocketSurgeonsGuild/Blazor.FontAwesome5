@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.1;netcoreapp3.1;net6.0</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="../Blazor.FontAwesome6.Pro.Duotone/Rocket.Surgery.Blazor.FontAwesome6.Pro.Duotone.csproj" />
+        <ProjectReference Include="../Blazor.FontAwesome6.Pro.Light/Rocket.Surgery.Blazor.FontAwesome6.Pro.Light.csproj" />
+        <ProjectReference Include="../Blazor.FontAwesome6.Pro.Regular/Rocket.Surgery.Blazor.FontAwesome6.Pro.Regular.csproj" />
+        <ProjectReference Include="../Blazor.FontAwesome6.Pro.Solid/Rocket.Surgery.Blazor.FontAwesome6.Pro.Solid.csproj" />
+    </ItemGroup>
+
+</Project>

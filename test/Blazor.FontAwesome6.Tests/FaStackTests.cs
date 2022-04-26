@@ -37,7 +37,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests {
             icon.Markup.Should().Be(
                 "<span class=\"fa-stack fa-2x\">" +
                 "<i class=\"fa-solid fa-square fa-stack-2x\"></i>" +
-                "<i class=\"fa-brands fa-twitter fa-stack-1x fa-inverse\"></i>" +
+                "<i class=\"fa-brands fa-twitter fa-inverse fa-stack-1x\"></i>" +
                 "</span>"
             );
         }
@@ -66,7 +66,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests {
             icon.Markup.Should().Be(
                 "<span class=\"fa-stack fa-2x\">" +
                 "<i class=\"fa-solid fa-circle fa-stack-2x\"></i>" +
-                "<i class=\"fa-solid fa-flag fa-stack-1x fa-inverse\"></i>" +
+                "<i class=\"fa-solid fa-flag fa-inverse fa-stack-1x\"></i>" +
                 "</span>"
             );
         }
@@ -95,7 +95,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests {
             icon.Markup.Should().Be(
                 "<span class=\"fa-stack fa-2x\">" +
                 "<i class=\"fa-solid fa-square fa-stack-2x\"></i>" +
-                "<i class=\"fa-solid fa-terminal fa-stack-1x fa-inverse\"></i>" +
+                "<i class=\"fa-solid fa-terminal fa-inverse fa-stack-1x\"></i>" +
                 "</span>"
             );
         }

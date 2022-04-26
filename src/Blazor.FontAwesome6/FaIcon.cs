@@ -556,53 +556,38 @@ public sealed class FaIcon : ComponentBase, IIcon
 #pragma warning restore CA2227
 
     double ITransformIcon.Grow => _grow;
-
     double ITransformIcon.Shrink => _shrink;
-
     double ITransformIcon.Rotate => _rotate;
-
     double ITransformIcon.Up => _up;
-
     double ITransformIcon.Down => _down;
-
     double ITransformIcon.Left => _left;
-
     double ITransformIcon.Right => _right;
 
     IconStyle IIcon.Style => _icon.Style;
-
-    string? IIcon.CssStyle => Style;
-
-    string? IIcon.CssClass => Class;
+    string? ISharedIcon.CssStyle => Style;
+    string? ISharedIcon.CssClass => Class;
 
     string IIcon.Name => _icon.Name;
 
     double? IIcon.PrimaryOpacity => _primaryOpacity;
     double? IIcon.SecondaryOpacity => _secondaryOpacity;
-    double? IIcon.BeatScale => _beatScale;
-    double? IIcon.FadeOpacity => _fadeOpacity;
-    double? IIcon.BeatFadeOpacity => _beatFadeOpacity;
-    double? IIcon.BeatFadeScale => _beatFadeScale;
+    double? IAnimationIcon.BeatScale => _beatScale;
+    double? IAnimationIcon.FadeOpacity => _fadeOpacity;
+    double? IAnimationIcon.BeatFadeOpacity => _beatFadeOpacity;
+    double? IAnimationIcon.BeatFadeScale => _beatFadeScale;
 
-    double? IIcon.BounceRebound => _bounceRebound;
+    double? IAnimationIcon.BounceRebound => _bounceRebound;
+    double? IAnimationIcon.BounceHeight => _bounceHeight;
+    double? IAnimationIcon.BounceStartScaleX => _bounceStartScaleX;
+    double? IAnimationIcon.BounceStartScaleY => _bounceStartScaleY;
+    double? IAnimationIcon.BounceJumpScaleX => _bounceJumpScaleX;
+    double? IAnimationIcon.BounceJumpScaleY => _bounceJumpScaleY;
+    double? IAnimationIcon.BounceLandScaleX => _bounceLandScaleX;
+    double? IAnimationIcon.BounceLandScaleY => _bounceLandScaleY;
 
-    double? IIcon.BounceHeight => _bounceHeight;
-
-    double? IIcon.BounceStartScaleX => _bounceStartScaleX;
-
-    double? IIcon.BounceStartScaleY => _bounceStartScaleY;
-
-    double? IIcon.BounceJumpScaleX => _bounceJumpScaleX;
-
-    double? IIcon.BounceJumpScaleY => _bounceJumpScaleY;
-
-    double? IIcon.BounceLandScaleX => _bounceLandScaleX;
-
-    double? IIcon.BounceLandScaleY => _bounceLandScaleY;
-
-    double? IIcon.FlipX => _flipX;
-    double? IIcon.FlipY => _flipY;
-    double? IIcon.FlipZ => _flipZ;
+    double? IAnimationIcon.FlipX => _flipX;
+    double? IAnimationIcon.FlipY => _flipY;
+    double? IAnimationIcon.FlipZ => _flipZ;
 
     IconPull IIcon.Pull => Pull ?? IconPull.None;
 

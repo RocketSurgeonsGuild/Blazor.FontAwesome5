@@ -99,7 +99,7 @@ public partial class Solution
                             sb.AppendLine("        /// <remarks>");
                             sb.AppendLine(CultureInfo.InvariantCulture, $"        /// {model.Name} - Available in {string.Join(", ", model.Styles)}");
                             sb.AppendLine("        /// </remarks>");
-                            sb.AppendLine(CultureInfo.InvariantCulture, $"        [FontAwesome(IconStyle.{style}, \"{model.Name}\")]");
+                            sb.AppendLine(CultureInfo.InvariantCulture, $"        [FontAwesome(IconStyle.{style}, \"{model.Alias}\")]");
                             sb.AppendLine(CultureInfo.InvariantCulture, $"        {pascalModelName},");
                             sb.AppendLine("");
                         }
@@ -192,6 +192,7 @@ internal class IconDictionary : Dictionary<string, IconModelBase>
             yield return new IconModel
             {
                 Name = item.Key,
+                Alias = item.Key,
                 //Changes = item.Value.Changes,
                 Label = item.Value.Label,
                 //Search = item.Value.Search,
@@ -211,6 +212,7 @@ internal class IconDictionary : Dictionary<string, IconModelBase>
                     yield return new IconModel
                     {
                         Name = alias,
+                        Alias = item.Key,
                         //Changes = item.Value.Changes,
                         Label = item.Value.Label,
                         //Search = item.Value.Search,
@@ -232,6 +234,7 @@ internal class IconDictionary : Dictionary<string, IconModelBase>
 internal class IconModel
 {
     public string Name { get; set; }
+    public string Alias { get; set; }
 
     //public IEnumerable<string> Changes { get; set; }
     public string Label { get; set; }

@@ -5,17 +5,11 @@ using Rocket.Surgery.Blazor.FontAwesome6;
 // ReSharper disable once CheckNamespace
 namespace Rocket.Surgery.Blazor.FontAwesome5;
 
-public interface IIcon : ITransformIcon
+public interface IIcon : ITransformIcon, IAnimationIcon, ISharedIcon
 {
     IconStyle Style { get; }
     string Name { get; }
-    IconSize Size { get; }
-    IconAnimation Animation { get; }
-    string? CssStyle { get; }
-    string? CssClass { get; }
-    bool FixedWidth { get; }
     IconPull Pull { get; }
-    bool Border { get; }
     bool Inverse { get; }
     string? InverseColor { get; }
     Icon? Mask { get; }
@@ -25,42 +19,24 @@ public interface IIcon : ITransformIcon
     string? PrimaryColor { get; }
     string? SecondaryColor { get; }
 
+    string? PullMargin { get; }
 
-    string? AnimationDelay { get; }
-    string? AnimationDirection { get; }
-    string? AnimationDuration { get; }
-    string? AnimationIterationCount { get; }
-    string? AnimationTiming { get; }
+    string? StackZIndex { get; }
+    string? RotateBy { get; }
+}
 
-    double? BeatScale { get; }
-    double? FadeOpacity { get; }
-    double? BeatFadeOpacity { get; }
-    double? BeatFadeScale { get; }
-
-    double? BounceRebound { get; }
-    double? BounceHeight { get; }
-    double? BounceStartScaleX { get; }
-    double? BounceStartScaleY { get; }
-    double? BounceJumpScaleX { get; }
-    double? BounceJumpScaleY { get; }
-    double? BounceLandScaleX { get; }
-    double? BounceLandScaleY { get; }
-
-    double? FlipX { get; }
-    double? FlipY { get; }
-    double? FlipZ { get; }
-    string? FlipAngle { get; }
-
+public interface ISharedIcon
+{
+    string? CssStyle { get; }
+    string? CssClass { get; }
+    bool FixedWidth { get; }
+    IconSize Size { get; }
+    bool Border { get; }
     string? BorderColor { get; }
     string? BorderPadding { get; }
     string? BorderRadius { get; }
     string? BorderStyle { get; }
     string? BorderWidth { get; }
-
-    string? PullMargin { get; }
-
-    string? StackZIndex { get; }
-    string? RotateBy { get; }
 }
 
 public interface ITransformIcon
@@ -75,6 +51,36 @@ public interface ITransformIcon
     IconFlip? FlipTransform { get; }
 }
 
+public interface IAnimationIcon
+{
+     IconAnimation Animation { get;  }
+     string? AnimationDelay { get;  }
+     string? AnimationDirection { get;  }
+     string? AnimationDuration { get;  }
+     string? AnimationIterationCount { get;  }
+     string? AnimationTiming { get;  }
+
+     double? BeatScale { get; }
+     double? FadeOpacity { get; }
+     double? BeatFadeOpacity { get; }
+     double? BeatFadeScale { get; }
+
+     double? BounceRebound { get; }
+     double? BounceHeight { get; }
+     double? BounceStartScaleX { get; }
+     double? BounceStartScaleY { get; }
+     double? BounceJumpScaleX { get; }
+     double? BounceJumpScaleY { get; }
+     double? BounceLandScaleX { get; }
+     double? BounceLandScaleY { get; }
+
+     double? FlipX { get; }
+     double? FlipY { get; }
+     double? FlipZ { get; }
+     string? FlipAngle { get; }
+    
+}
+
 internal static class IconExtensions
 {
     public static string ToTransform(this ITransformIcon icon)
@@ -84,160 +90,190 @@ internal static class IconExtensions
         return sb.ToString();
     }
 
-    public static string ToClass(this IIcon icon, bool stack, string? @class = null)
+    public static string ToClass(this ISharedIcon icon, bool stack, string? @class = null)
     {
         var sb = new StringBuilder();
         ApplyClass(icon, sb, stack, @class);
         return sb.ToString();
     }
 
-    public static string ToStyle(this IIcon icon, string? style = null)
+    public static string ToStyle(this ISharedIcon icon, string? style = null)
     {
         var sb = new StringBuilder();
         ApplyStyle(icon, sb, style);
         return sb.ToString();
     }
 
-    public static void ApplyStyle(this IIcon icon, StringBuilder sb, string? style = null)
+    public static void ApplyStyle(this ISharedIcon icon, StringBuilder sb, string? style = null)
     {
         if (!string.IsNullOrWhiteSpace(style))
         {
             sb.Append(style);
         }
 
-        if (icon.PrimaryOpacity.HasValue)
+        if (icon is IIcon iicon)
         {
-            sb.Append(";--fa-primary-opacity: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.PrimaryOpacity);
-        }
-
-        if (icon.PrimaryColor != null)
-        {
-            sb.Append(";--fa-primary-color: ").Append(icon.PrimaryColor);
-        }
-
-        if (icon.SecondaryOpacity.HasValue)
-        {
-            sb.Append(";--fa-secondary-opacity: ").AppendFormat(
-                CultureInfo.InvariantCulture, "{0:F2}", icon.SecondaryOpacity
-            );
-        }
-
-        if (icon.SecondaryColor != null)
-        {
-            sb.Append(";--fa-secondary-color: ").Append(icon.SecondaryColor);
-        }
-
-        if (icon.AnimationDelay != null)
-        {
-            sb.Append(";--fa-animation-delay: ").Append(icon.AnimationDelay);
-        }
-
-        if (icon.AnimationDirection != null)
-        {
-            sb.Append(";--fa-animation-direction: ").Append(icon.AnimationDirection);
-        }
-
-        if (icon.AnimationDuration != null)
-        {
-            sb.Append(";--fa-animation-duration: ").Append(icon.AnimationDuration);
-        }
-
-        if (icon.AnimationIterationCount != null)
-        {
-            sb.Append(";--fa-animation-iteration-count: ").Append(icon.AnimationIterationCount);
-        }
-
-        if (icon.AnimationTiming != null)
-        {
-            sb.Append(";--fa-animation-timing: ").Append(icon.AnimationTiming);
-        }
-
-        if (( icon.Animation & IconAnimation.Beat ) == IconAnimation.Beat && icon.BeatScale.HasValue)
-        {
-            sb.Append(";--fa-beat-scale: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.BeatScale);
-        }
-
-        if (( icon.Animation & IconAnimation.Fade ) == IconAnimation.Fade && icon.FadeOpacity.HasValue)
-        {
-            sb.Append(";--fa-fade-opacity: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.FadeOpacity);
-        }
-
-        if (( icon.Animation & IconAnimation.BeatFade ) == IconAnimation.BeatFade)
-        {
-            if (icon.BeatFadeOpacity.HasValue)
+            if (iicon.PrimaryOpacity.HasValue)
             {
-                sb.Append(";--fa-beat-fade-opacity: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.BeatFadeOpacity);
+                sb.Append(";--fa-primary-opacity: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", iicon.PrimaryOpacity);
             }
 
-            if (icon.BeatFadeScale.HasValue)
+            if (iicon.PrimaryColor != null)
             {
-                sb.Append(";--fa-beat-fade-scale: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.BeatFadeScale);
+                sb.Append(";--fa-primary-color: ").Append(iicon.PrimaryColor);
+            }
+
+            if (iicon.SecondaryOpacity.HasValue)
+            {
+                sb.Append(";--fa-secondary-opacity: ").AppendFormat(
+                    CultureInfo.InvariantCulture, "{0:F2}", iicon.SecondaryOpacity
+                );
+            }
+
+            if (iicon.SecondaryColor != null)
+            {
+                sb.Append(";--fa-secondary-color: ").Append(iicon.SecondaryColor);
+            }
+            
+
+            if (iicon.Pull != IconPull.None)
+            {
+                if (iicon.PullMargin != null)
+                {
+                    sb.Append(";--fa-pull-margin: ").Append(iicon.PullMargin);
+                }
+            }
+
+            if (!string.IsNullOrWhiteSpace(iicon.StackZIndex))
+            {
+                sb.Append(";--fa-stack-z-index: ").Append(iicon.StackZIndex);
+            }
+
+            if (!string.IsNullOrWhiteSpace(iicon.InverseColor ))
+            {
+                sb.Append(";--fa-inverse: ").Append(iicon.InverseColor);
+            }
+
+            if (iicon.RotateBy != null)
+            {
+                sb.Append(";--fa-rotate-angle: ").Append(iicon.RotateBy);
             }
         }
 
-        if (( icon.Animation & IconAnimation.Flip ) == IconAnimation.Flip)
+        if (icon is IAnimationIcon animationIcon)
         {
-            if (icon.FlipX.HasValue)
+            if (animationIcon.AnimationDelay != null)
             {
-                sb.Append(";--fa-flip-x: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.FlipX);
+                sb.Append(";--fa-animation-delay: ").Append(animationIcon.AnimationDelay);
             }
 
-            if (( icon.Animation & IconAnimation.Flip ) == IconAnimation.Flip && icon.FlipY.HasValue)
+            if (animationIcon.AnimationDirection != null)
             {
-                sb.Append(";--fa-flip-y: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.FlipY);
+                sb.Append(";--fa-animation-direction: ").Append(animationIcon.AnimationDirection);
             }
 
-            if (( icon.Animation & IconAnimation.Flip ) == IconAnimation.Flip && icon.FlipZ.HasValue)
+            if (animationIcon.AnimationDuration != null)
             {
-                sb.Append(";--fa-flip-z: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.FlipZ);
+                sb.Append(";--fa-animation-duration: ").Append(animationIcon.AnimationDuration);
             }
 
-            if (( icon.Animation & IconAnimation.Flip ) == IconAnimation.Flip && icon.FlipAngle != null)
+            if (animationIcon.AnimationIterationCount != null)
             {
-                sb.Append(";--fa-flip-angle: ").Append(icon.FlipAngle);
-            }
-        }
-
-        if (( icon.Animation & IconAnimation.Bounce ) == IconAnimation.Bounce)
-        {
-            if (icon.BounceRebound.HasValue)
-            {
-                sb.Append(";--fa-bounce-rebound: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.BounceRebound);
+                sb.Append(";--fa-animation-iteration-count: ").Append(animationIcon.AnimationIterationCount);
             }
 
-            if (icon.BounceHeight.HasValue)
+            if (animationIcon.AnimationTiming != null)
             {
-                sb.Append(";--fa-bounce-height: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.BounceHeight);
+                sb.Append(";--fa-animation-timing: ").Append(animationIcon.AnimationTiming);
             }
 
-            if (icon.BounceStartScaleX.HasValue)
+            if (( animationIcon.Animation & IconAnimation.Beat ) == IconAnimation.Beat && animationIcon.BeatScale.HasValue)
             {
-                sb.Append(";--fa-bounce-start-scale-x").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.BounceStartScaleX);
+                sb.Append(";--fa-beat-scale: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", animationIcon.BeatScale);
             }
 
-            if (icon.BounceStartScaleY.HasValue)
+            if (( animationIcon.Animation & IconAnimation.Fade ) == IconAnimation.Fade && animationIcon.FadeOpacity.HasValue)
             {
-                sb.Append(";--fa-bounce-start-scale-y").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.BounceStartScaleY);
+                sb.Append(";--fa-fade-opacity: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", animationIcon.FadeOpacity);
             }
 
-            if (icon.BounceJumpScaleX.HasValue)
+            if (( animationIcon.Animation & IconAnimation.BeatFade ) == IconAnimation.BeatFade)
             {
-                sb.Append(";--fa-bounce-jump-scale-x").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.BounceJumpScaleX);
+                if (animationIcon.BeatFadeOpacity.HasValue)
+                {
+                    sb.Append(";--fa-beat-fade-opacity: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", animationIcon.BeatFadeOpacity);
+                }
+
+                if (animationIcon.BeatFadeScale.HasValue)
+                {
+                    sb.Append(";--fa-beat-fade-scale: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", animationIcon.BeatFadeScale);
+                }
             }
 
-            if (icon.BounceJumpScaleY.HasValue)
+            if (( animationIcon.Animation & IconAnimation.Flip ) == IconAnimation.Flip)
             {
-                sb.Append(";--fa-bounce-jump-scale-y").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.BounceJumpScaleY);
+                if (animationIcon.FlipX.HasValue)
+                {
+                    sb.Append(";--fa-flip-x: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", animationIcon.FlipX);
+                }
+
+                if (( animationIcon.Animation & IconAnimation.Flip ) == IconAnimation.Flip && animationIcon.FlipY.HasValue)
+                {
+                    sb.Append(";--fa-flip-y: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", animationIcon.FlipY);
+                }
+
+                if (( animationIcon.Animation & IconAnimation.Flip ) == IconAnimation.Flip && animationIcon.FlipZ.HasValue)
+                {
+                    sb.Append(";--fa-flip-z: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", animationIcon.FlipZ);
+                }
+
+                if (( animationIcon.Animation & IconAnimation.Flip ) == IconAnimation.Flip && animationIcon.FlipAngle != null)
+                {
+                    sb.Append(";--fa-flip-angle: ").Append(animationIcon.FlipAngle);
+                }
             }
 
-            if (icon.BounceLandScaleX.HasValue)
+            if (( animationIcon.Animation & IconAnimation.Bounce ) == IconAnimation.Bounce)
             {
-                sb.Append(";--fa-bounce-land-scale-x").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.BounceLandScaleX);
-            }
+                if (animationIcon.BounceRebound.HasValue)
+                {
+                    sb.Append(";--fa-bounce-rebound: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", animationIcon.BounceRebound);
+                }
 
-            if (icon.BounceLandScaleY.HasValue)
-            {
-                sb.Append(";--fa-bounce-land-scale-y").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", icon.BounceLandScaleY);
+                if (animationIcon.BounceHeight.HasValue)
+                {
+                    sb.Append(";--fa-bounce-height: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", animationIcon.BounceHeight);
+                }
+
+                if (animationIcon.BounceStartScaleX.HasValue)
+                {
+                    sb.Append(";--fa-bounce-start-scale-x").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", animationIcon.BounceStartScaleX);
+                }
+
+                if (animationIcon.BounceStartScaleY.HasValue)
+                {
+                    sb.Append(";--fa-bounce-start-scale-y").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", animationIcon.BounceStartScaleY);
+                }
+
+                if (animationIcon.BounceJumpScaleX.HasValue)
+                {
+                    sb.Append(";--fa-bounce-jump-scale-x").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", animationIcon.BounceJumpScaleX);
+                }
+
+                if (animationIcon.BounceJumpScaleY.HasValue)
+                {
+                    sb.Append(";--fa-bounce-jump-scale-y").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", animationIcon.BounceJumpScaleY);
+                }
+
+                if (animationIcon.BounceLandScaleX.HasValue)
+                {
+                    sb.Append(";--fa-bounce-land-scale-x").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", animationIcon.BounceLandScaleX);
+                }
+
+                if (animationIcon.BounceLandScaleY.HasValue)
+                {
+                    sb.Append(";--fa-bounce-land-scale-y").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", animationIcon.BounceLandScaleY);
+                }
             }
         }
 
@@ -267,29 +303,6 @@ internal static class IconExtensions
             {
                 sb.Append(";--fa-border-width: ").Append(icon.BorderWidth);
             }
-        }
-
-        if (icon.Pull != IconPull.None)
-        {
-            if (icon.PullMargin != null)
-            {
-                sb.Append(";--fa-pull-margin: ").Append(icon.PullMargin);
-            }
-        }
-
-        if (!string.IsNullOrWhiteSpace(icon.StackZIndex))
-        {
-            sb.Append(";--fa-stack-z-index: ").Append(icon.StackZIndex);
-        }
-
-        if (!string.IsNullOrWhiteSpace(icon.InverseColor ))
-        {
-            sb.Append(";--fa-inverse: ").Append(icon.InverseColor);
-        }
-
-        if (icon.RotateBy != null)
-        {
-            sb.Append(";--fa-rotate-angle: ").Append(icon.RotateBy);
         }
     }
 
@@ -361,11 +374,36 @@ internal static class IconExtensions
         }
     }
 
-    public static void ApplyClass(this IIcon icon, StringBuilder sb, bool stack = false, string? @class = null)
+    public static void ApplyClass(this ISharedIcon icon, StringBuilder sb, bool stack = false, string? @class = null)
     {
-        sb.Append(Icon.ToPrefix(icon.Style));
-        sb.Append(' ');
-        ApplyName(sb, icon.Name);
+        if (icon is IIcon iicon)
+        {
+            sb.Append(Icon.ToPrefix(iicon.Style));
+            sb.Append(' ');
+            ApplyName(sb, iicon.Name);
+
+            if (iicon.Inverse)
+            {
+                sb.Append(" fa-inverse");
+            }
+
+            if (iicon.Pull != IconPull.None)
+            {
+                sb.Append(' ');
+                sb.Append(Icon.ToString(iicon.Pull));
+            }
+
+            if (iicon.SwapOpacity)
+            {
+                sb.Append(" fa-swap-opacity");
+            }
+
+            if (iicon.RotateBy != null)
+            {
+                sb.Append(" fa-rotate-by");
+            }
+        }
+
         if (!string.IsNullOrWhiteSpace(@class))
         {
             sb.Append(' ');
@@ -390,30 +428,12 @@ internal static class IconExtensions
             sb.Append(" fa-border");
         }
 
-        if (icon.Inverse)
+        if (icon is IAnimationIcon animationIcon)
         {
-            sb.Append(" fa-inverse");
-        }
-
-        if (icon.Animation != IconAnimation.None)
-        {
-            sb.Append(Icon.ToString(icon.Animation));
-        }
-
-        if (icon.Pull != IconPull.None)
-        {
-            sb.Append(' ');
-            sb.Append(Icon.ToString(icon.Pull));
-        }
-
-        if (icon.SwapOpacity)
-        {
-            sb.Append(" fa-swap-opacity");
-        }
-
-        if (icon.RotateBy != null)
-        {
-            sb.Append(" fa-rotate-by");
+            if (animationIcon.Animation != IconAnimation.None)
+            {
+                sb.Append(Icon.ToString(animationIcon.Animation));
+            }
         }
     }
 

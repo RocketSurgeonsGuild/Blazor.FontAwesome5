@@ -22,7 +22,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// <remarks>
         /// innosoft - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "innosoft")]
+        [FontAwesome(IconStyle.Brands, "42-group")]
         Innosoft,
 
         /// <summary>
@@ -1390,7 +1390,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// <remarks>
         /// font-awesome-flag - Available in Solid, Regular, Light, Thin, Duotone, Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "font-awesome-flag")]
+        [FontAwesome(IconStyle.Brands, "font-awesome")]
         FontAwesomeFlag,
 
         /// <summary>
@@ -1399,7 +1399,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// <remarks>
         /// font-awesome-logo-full - Available in Solid, Regular, Light, Thin, Duotone, Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "font-awesome-logo-full")]
+        [FontAwesome(IconStyle.Brands, "font-awesome")]
         FontAwesomeLogoFull,
 
         /// <summary>
@@ -2335,7 +2335,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// <remarks>
         /// medium-m - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "medium-m")]
+        [FontAwesome(IconStyle.Brands, "medium")]
         MediumM,
 
         /// <summary>
@@ -3262,7 +3262,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// <remarks>
         /// slack-hash - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "slack-hash")]
+        [FontAwesome(IconStyle.Brands, "slack")]
         SlackHash,
 
         /// <summary>
@@ -3289,7 +3289,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// <remarks>
         /// snapchat-ghost - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "snapchat-ghost")]
+        [FontAwesome(IconStyle.Brands, "snapchat")]
         SnapchatGhost,
 
         /// <summary>
@@ -3370,7 +3370,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// <remarks>
         /// font-awesome-alt - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "font-awesome-alt")]
+        [FontAwesome(IconStyle.Brands, "square-font-awesome-stroke")]
         FontAwesomeAlt,
 
         /// <summary>
@@ -3577,7 +3577,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// <remarks>
         /// telegram-plane - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "telegram-plane")]
+        [FontAwesome(IconStyle.Brands, "telegram")]
         TelegramPlane,
 
         /// <summary>
@@ -4036,7 +4036,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// <remarks>
         /// wsh - Available in Brands
         /// </remarks>
-        [FontAwesome(IconStyle.Brands, "wsh")]
+        [FontAwesome(IconStyle.Brands, "wirsindhandwerk")]
         Wsh,
 
         /// <summary>

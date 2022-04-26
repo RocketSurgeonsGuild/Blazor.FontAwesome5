@@ -19,7 +19,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
         {
             Icon icon = FaRegular.Adjust;
             icon.Style.Should().Be(IconStyle.Regular);
-            icon.Name.Should().Be("adjust");
+            icon.Name.Should().Be("circle-half-stroke");
         }
 
         [Fact]
@@ -34,7 +34,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
         public void Should_Render_An_Icon()
         {
             Icon icon = FaRegular.Adjust;
-            icon.ToIcon().Should().Be("<i class=\"fa-regular fa-adjust\"></i>");
+            icon.ToIcon().Should().Be("<i class=\"fa-regular fa-circle-half-stroke\"></i>");
         }
 
         [Fact]
@@ -68,15 +68,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
                .Shrink(2)
                .Grow(3)
                .ToIcon().Should().Be(
-                    "<i class=\"fa-regular fa-adjust\" data-fa-transform=\"grow-3.00 shrink-2.00 rotate-200.00 up-12.00 down-4.00 left-2.00 right-1.00\"></i>"
+                    "<i class=\"fa-regular fa-circle-half-stroke\" data-fa-transform=\"grow-3.00 shrink-2.00 rotate-200.00 up-12.00 down-4.00 left-2.00 right-1.00\"></i>"
                 );
         }
 
         [Theory]
-        [InlineData(IconFlip.None, "<i class=\"fa-regular fa-adjust\"></i>")]
-        [InlineData(IconFlip.Horizontal, "<i class=\"fa-regular fa-adjust\" data-fa-transform=\"flip-h\"></i>")]
-        [InlineData(IconFlip.Vertical, "<i class=\"fa-regular fa-adjust\" data-fa-transform=\"flip-v\"></i>")]
-        [InlineData(IconFlip.Both, "<i class=\"fa-regular fa-adjust\" data-fa-transform=\"flip-h flip-v\"></i>")]
+        [InlineData(IconFlip.None, "<i class=\"fa-regular fa-circle-half-stroke\"></i>")]
+        [InlineData(IconFlip.Horizontal, "<i class=\"fa-regular fa-circle-half-stroke\" data-fa-transform=\"flip-h\"></i>")]
+        [InlineData(IconFlip.Vertical, "<i class=\"fa-regular fa-circle-half-stroke\" data-fa-transform=\"flip-v\"></i>")]
+        [InlineData(IconFlip.Both, "<i class=\"fa-regular fa-circle-half-stroke\" data-fa-transform=\"flip-h flip-v\"></i>")]
         public void Should_Render_A_Flip_Icon(IconFlip iconFlip, string expected)
         {
             Icon icon = FaRegular.Adjust;
@@ -86,13 +86,13 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
         }
 
         [Theory]
-        [InlineData(IconSize.ExtraSmall, "<i class=\"fa-regular fa-adjust fa-xs\"></i>")]
-        [InlineData(IconSize.Small, "<i class=\"fa-regular fa-adjust fa-sm\"></i>")]
-        [InlineData(IconSize.Normal, "<i class=\"fa-regular fa-adjust\"></i>")]
-        [InlineData(IconSize.Large, "<i class=\"fa-regular fa-adjust fa-lg\"></i>")]
-        [InlineData(IconSize._2X, "<i class=\"fa-regular fa-adjust fa-2x\"></i>")]
-        [InlineData(IconSize._5X, "<i class=\"fa-regular fa-adjust fa-5x\"></i>")]
-        [InlineData(IconSize._10X, "<i class=\"fa-regular fa-adjust fa-10x\"></i>")]
+        [InlineData(IconSize.ExtraSmall, "<i class=\"fa-regular fa-circle-half-stroke fa-xs\"></i>")]
+        [InlineData(IconSize.Small, "<i class=\"fa-regular fa-circle-half-stroke fa-sm\"></i>")]
+        [InlineData(IconSize.Normal, "<i class=\"fa-regular fa-circle-half-stroke\"></i>")]
+        [InlineData(IconSize.Large, "<i class=\"fa-regular fa-circle-half-stroke fa-lg\"></i>")]
+        [InlineData(IconSize._2X, "<i class=\"fa-regular fa-circle-half-stroke fa-2x\"></i>")]
+        [InlineData(IconSize._5X, "<i class=\"fa-regular fa-circle-half-stroke fa-5x\"></i>")]
+        [InlineData(IconSize._10X, "<i class=\"fa-regular fa-circle-half-stroke fa-10x\"></i>")]
         public void Should_Render_A_Size_Icon(IconSize iconSize, string expected)
         {
             Icon icon = FaRegular.Adjust;
@@ -107,7 +107,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
             Icon icon = FaRegular.Adjust;
             icon
                .FixedWidth()
-               .ToIcon().Should().Be("<i class=\"fa-regular fa-adjust fa-fw\"></i>");
+               .ToIcon().Should().Be("<i class=\"fa-regular fa-circle-half-stroke fa-fw\"></i>");
         }
 
         [Fact]
@@ -116,7 +116,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
             Icon icon = FaRegular.Adjust;
             icon
                .Spin()
-               .ToIcon().Should().Be("<i class=\"fa-regular fa-adjust fa-spin\"></i>");
+               .ToIcon().Should().Be("<i class=\"fa-regular fa-circle-half-stroke fa-spin\"></i>");
         }
 
         [Fact]
@@ -125,7 +125,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
             Icon icon = FaRegular.Adjust;
             icon
                .SpinPulse()
-               .ToIcon().Should().Be("<i class=\"fa-regular fa-adjust fa-spin-pulse\"></i>");
+               .ToIcon().Should().Be("<i class=\"fa-regular fa-circle-half-stroke fa-spin-pulse\"></i>");
         }
 
         [Fact]
@@ -134,7 +134,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
             Icon icon = FaRegular.Adjust;
             icon
                .Border()
-               .ToIcon().Should().Be("<i class=\"fa-regular fa-adjust fa-border\"></i>");
+               .ToIcon().Should().Be("<i class=\"fa-regular fa-circle-half-stroke fa-border\"></i>");
         }
 
         [Fact]
@@ -143,7 +143,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
             Icon icon = FaRegular.Adjust;
             icon
                .Inverse()
-               .ToIcon().Should().Be("<i class=\"fa-regular fa-adjust fa-inverse\"></i>");
+               .ToIcon().Should().Be("<i class=\"fa-regular fa-circle-half-stroke fa-inverse\"></i>");
         }
 
         [Fact]
@@ -152,13 +152,13 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
             Icon icon = FaRegular.Adjust;
             icon
                .Mask(FaDuotone.Analytics)
-               .ToIcon().Should().Be("<i class=\"fa-regular fa-adjust\" data-fa-mask=\"fa-duotone fa-analytics\"></i>");
+               .ToIcon().Should().Be("<i class=\"fa-regular fa-circle-half-stroke\" data-fa-mask=\"fa-duotone fa-chart-mixed\"></i>");
         }
 
         [Theory]
-        [InlineData(IconPull.None, "<i class=\"fa-regular fa-adjust\"></i>")]
-        [InlineData(IconPull.Left, "<i class=\"fa-regular fa-adjust fa-pull-left\"></i>")]
-        [InlineData(IconPull.Right, "<i class=\"fa-regular fa-adjust fa-pull-right\"></i>")]
+        [InlineData(IconPull.None, "<i class=\"fa-regular fa-circle-half-stroke\"></i>")]
+        [InlineData(IconPull.Left, "<i class=\"fa-regular fa-circle-half-stroke fa-pull-left\"></i>")]
+        [InlineData(IconPull.Right, "<i class=\"fa-regular fa-circle-half-stroke fa-pull-right\"></i>")]
         public void Should_Render_A_Pull_Icon(IconPull iconPull, string expected)
         {
             Icon icon = FaRegular.Adjust;

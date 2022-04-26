@@ -42,7 +42,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
             icon.Markup.Should().Be(
                 "<span class=\"fa-layers fa-fw\" style=\"background:MistyRose\">" +
                 "<i class=\"fa-solid fa-circle\" style=\"color:Tomato\"></i>" +
-                "<i class=\"fa-solid fa-times fa-inverse\" data-fa-transform=\"shrink-6.00\"></i>" +
+                "<i class=\"fa-solid fa-xmark fa-inverse\" data-fa-transform=\"shrink-6.00\"></i>" +
                 "</span>"
             );
         }

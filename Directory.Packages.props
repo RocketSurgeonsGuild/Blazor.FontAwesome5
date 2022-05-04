@@ -40,7 +40,7 @@
     <PackageVersion Include="Rocket.Surgery.Extensions.Testing.XUnit" Version="7.0.1" />
     <PackageVersion Include="xunit" Version="2.4.1" />
     <PackageVersion Include="xunit.analyzers" Version="0.10.0" />
-    <PackageVersion Include="xunit.runner.visualstudio" Version="2.4.3" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="2.4.4" />
   </ItemGroup>
   <Import
         Project="$(MSBuildThisFileDirectory)/Directory.Packages.support.props"

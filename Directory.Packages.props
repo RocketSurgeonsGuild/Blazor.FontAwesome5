@@ -3,12 +3,12 @@
   <ItemGroup>
     <PackageVersion Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" />
     <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="1.1.1" />
-    <PackageVersion Include="Rocket.Surgery.MSBuild.CI" Version="1.1.0" />
-    <PackageVersion Include="Rocket.Surgery.MSBuild.GitVersion" Version="1.1.0" />
-    <PackageVersion Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="1.1.0" Condition="'$(MSBuildProjectName)'!='.build'" />
+    <PackageVersion Include="Rocket.Surgery.MSBuild.CI" Version="1.1.1" />
+    <PackageVersion Include="Rocket.Surgery.MSBuild.GitVersion" Version="1.1.1" />
+    <PackageVersion Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="1.1.1" Condition="'$(MSBuildProjectName)'!='.build'" />
     <!-- <PackageVersion Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="2.9.8" /> -->
     <PackageVersion Include="Rocket.Surgery.MSBuild.Metadata" Version="1.1.0" />
-    <PackageVersion Include="Rocket.Surgery.MSBuild.SourceLink" Version="1.1.0" />
+    <PackageVersion Include="Rocket.Surgery.MSBuild.SourceLink" Version="1.1.1" />
     <PackageVersion Include="Roslynator.Analyzers" Version="4.1.0" />
   </ItemGroup>
   <ItemGroup>

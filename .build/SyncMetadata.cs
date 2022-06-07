@@ -10,7 +10,7 @@ using static Nuke.Common.IO.FileSystemTasks;
 using static Nuke.Common.IO.TextTasks;
 using static Nuke.Common.Tools.Npm.NpmTasks;
 
-public partial class Solution
+public partial class Pipeline
 {
     [Parameter] private string FontAwesomeToken { get; set; }
 
@@ -35,7 +35,7 @@ public partial class Solution
 
                     if (!string.IsNullOrWhiteSpace(FontAwesomeToken))
                     {
-                        metadata.Add(( "Pro", "@fortawesome/fontawesome-pro", $@"src\Blazor.FontAwesome{stringV}.Pro" ));
+                        metadata.Add(("Pro", "@fortawesome/fontawesome-pro", $@"src\Blazor.FontAwesome{stringV}.Pro"));
                         WriteAllText(
                             packageDirectory / ".npmrc", $@"@fortawesome:registry=https://npm.fontawesome.com/
 //npm.fontawesome.com/:_authToken={FontAwesomeToken}"
@@ -63,7 +63,7 @@ public partial class Solution
 
                     var icons = ds.Deserialize<IconDictionary>(ReadAllText(iconsData)).ToModels();
                     var categories = ds.Deserialize<CategoryDictionary>(ReadAllText(categoriesData)).ToModels();
-                    var categoryLookup = categories.SelectMany(model => model.Icons.Select(icon => ( icon, model ))).ToLookup(z => z.icon, z => z.model);
+                    var categoryLookup = categories.SelectMany(model => model.Icons.Select(icon => (icon, model))).ToLookup(z => z.icon, z => z.model);
 
                     //icons.GroupBy(z => string.Join(":", z.Styles.Count() == 1 && z.Styles.Single() == FontAwesomeStyle.Brands ? z.Styles : z.Styles.Except(new[] { FontAwesomeStyle.Brands }).OrderBy(z => z))).Dump();
 
@@ -154,20 +154,20 @@ public partial class Solution
 
     private static string ToPrefix(FontAwesomeStyle style, FontAwesomeVersion version)
     {
-        return ( style, version ) switch
+        return (style, version) switch
         {
-            (FontAwesomeStyle.Solid, FontAwesomeVersion.V6)   => "fa-solid",
+            (FontAwesomeStyle.Solid, FontAwesomeVersion.V6) => "fa-solid",
             (FontAwesomeStyle.Regular, FontAwesomeVersion.V6) => "fa-regular",
-            (FontAwesomeStyle.Light, FontAwesomeVersion.V6)   => "fa-light",
+            (FontAwesomeStyle.Light, FontAwesomeVersion.V6) => "fa-light",
             (FontAwesomeStyle.Duotone, FontAwesomeVersion.V6) => "fa-duotone",
-            (FontAwesomeStyle.Brands, FontAwesomeVersion.V6)  => "fa-brands",
-            (FontAwesomeStyle.Thin, _)                        => "fa-thin",
-            (FontAwesomeStyle.Solid, _)                       => "fas",
-            (FontAwesomeStyle.Regular, _)                     => "far",
-            (FontAwesomeStyle.Light, _)                       => "fal",
-            (FontAwesomeStyle.Duotone, _)                     => "fad",
-            (FontAwesomeStyle.Brands, _)                      => "fab",
-            _                                                 => throw new NotSupportedException()
+            (FontAwesomeStyle.Brands, FontAwesomeVersion.V6) => "fa-brands",
+            (FontAwesomeStyle.Thin, _) => "fa-thin",
+            (FontAwesomeStyle.Solid, _) => "fas",
+            (FontAwesomeStyle.Regular, _) => "far",
+            (FontAwesomeStyle.Light, _) => "fal",
+            (FontAwesomeStyle.Duotone, _) => "fad",
+            (FontAwesomeStyle.Brands, _) => "fab",
+            _ => throw new NotSupportedException()
         };
     }
 }
@@ -200,7 +200,7 @@ internal class IconDictionary : Dictionary<string, IconModelBase>
                     z => Enum.TryParse(typeof(FontAwesomeStyle), z, true, out var style) ? (FontAwesomeStyle)style : throw new KeyNotFoundException(z)
                 ).ToArray(),
                 Unicode = item.Value.Unicode,
-                
+
                 //Private = item.Value.Private,
                 //Voted = item.Value.Voted,
                 //Ligatures = item.Value.Ligatures,
@@ -220,7 +220,7 @@ internal class IconDictionary : Dictionary<string, IconModelBase>
                             z => Enum.TryParse(typeof(FontAwesomeStyle), z, true, out var style) ? (FontAwesomeStyle)style : throw new KeyNotFoundException(z)
                         ).ToArray(),
                         Unicode = item.Value.Unicode,
-                
+
                         //Private = item.Value.Private,
                         //Voted = item.Value.Voted,
                         //Ligatures = item.Value.Ligatures,

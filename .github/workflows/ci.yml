@@ -83,9 +83,6 @@ jobs:
         with:
           clean: 'false'
           fetch-depth: '0'
-      - name: Fetch all history for all tags and branches
-        run: |
-          git fetch --prune
       - name: NuGet Cache
         uses: actions/cache@v3
         with:
@@ -116,7 +113,14 @@ jobs:
       - name: 📦 Pack
         run: |
           dotnet nuke Pack --skip
+      - name: 🏺 Publish coverage data
+        if: always()
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: 'coverage'
+          path: 'coverage/'
       - name: 🐿 Publish Coverage
+        if: (github.event_name != 'pull_request' && github.event_name != 'pull_request_target') || ((github.event_name == 'pull_request' || github.event_name == 'pull_request_target') && github.event.pull_request.user.login != 'renovate[bot]' && github.event.pull_request.user.login != 'dependabot[bot]')
         uses: codecov/codecov-action@v3.1.0
         with:
           name: 'actions-${{ matrix.os }}'
@@ -126,12 +130,6 @@ jobs:
         with:
           name: 'logs'
           path: 'artifacts/logs/'
-      - name: 🏺 Publish coverage data
-        if: always()
-        uses: actions/upload-artifact@v3.1.0
-        with:
-          name: 'coverage'
-          path: 'coverage/'
       - name: 🏺 Publish test data
         if: always()
         uses: actions/upload-artifact@v3.1.0

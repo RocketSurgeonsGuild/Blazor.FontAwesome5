@@ -314,15 +314,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Behance,
 
         /// <summary>
-        /// Behance Square
-        /// </summary>
-        /// <remarks>
-        /// behance-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "behance-square")]
-        BehanceSquare,
-
-        /// <summary>
         /// Bilibili
         /// </summary>
         /// <remarks>
@@ -1070,15 +1061,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Dribbble,
 
         /// <summary>
-        /// Dribbble Square
-        /// </summary>
-        /// <remarks>
-        /// dribbble-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "dribbble-square")]
-        DribbbleSquare,
-
-        /// <summary>
         /// Dropbox
         /// </summary>
         /// <remarks>
@@ -1257,15 +1239,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "facebook-messenger")]
         FacebookMessenger,
-
-        /// <summary>
-        /// Facebook Square
-        /// </summary>
-        /// <remarks>
-        /// facebook-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "facebook-square")]
-        FacebookSquare,
 
         /// <summary>
         /// Fantasy Flight Games
@@ -1547,15 +1520,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         GitAlt,
 
         /// <summary>
-        /// Git Square
-        /// </summary>
-        /// <remarks>
-        /// git-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "git-square")]
-        GitSquare,
-
-        /// <summary>
         /// Git Hub
         /// </summary>
         /// <remarks>
@@ -1572,15 +1536,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "github-alt")]
         GithubAlt,
-
-        /// <summary>
-        /// Git Hub Square
-        /// </summary>
-        /// <remarks>
-        /// github-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "github-square")]
-        GithubSquare,
 
         /// <summary>
         /// Git Kraken
@@ -1718,15 +1673,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         GooglePlusG,
 
         /// <summary>
-        /// Google Plus Square
-        /// </summary>
-        /// <remarks>
-        /// google-plus-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "google-plus-square")]
-        GooglePlusSquare,
-
-        /// <summary>
         /// Google Wallet
         /// </summary>
         /// <remarks>
@@ -1797,15 +1743,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "hacker-news")]
         HackerNews,
-
-        /// <summary>
-        /// Hacker News Square
-        /// </summary>
-        /// <remarks>
-        /// hacker-news-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "hacker-news-square")]
-        HackerNewsSquare,
 
         /// <summary>
         /// Hackerrank
@@ -1932,15 +1869,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "instagram")]
         Instagram,
-
-        /// <summary>
-        /// Instagram Square
-        /// </summary>
-        /// <remarks>
-        /// instagram-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "instagram-square")]
-        InstagramSquare,
 
         /// <summary>
         /// Insta LOD
@@ -2078,15 +2006,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Js,
 
         /// <summary>
-        /// Java Script JS Square
-        /// </summary>
-        /// <remarks>
-        /// js-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "js-square")]
-        JsSquare,
-
-        /// <summary>
         /// Js Fiddle
         /// </summary>
         /// <remarks>
@@ -2166,15 +2085,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "lastfm")]
         Lastfm,
-
-        /// <summary>
-        /// Last Fm Square
-        /// </summary>
-        /// <remarks>
-        /// lastfm-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "lastfm-square")]
-        LastfmSquare,
 
         /// <summary>
         /// Leanpub
@@ -2564,15 +2474,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Odnoklassniki,
 
         /// <summary>
-        /// Odnoklassniki Square
-        /// </summary>
-        /// <remarks>
-        /// odnoklassniki-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "odnoklassniki-square")]
-        OdnoklassnikiSquare,
-
-        /// <summary>
         /// Old Republic
         /// </summary>
         /// <remarks>
@@ -2780,15 +2681,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         PiedPiperPp,
 
         /// <summary>
-        /// Pied Piper Square Logo Old
-        /// </summary>
-        /// <remarks>
-        /// pied-piper-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "pied-piper-square")]
-        PiedPiperSquare,
-
-        /// <summary>
         /// Pinterest
         /// </summary>
         /// <remarks>
@@ -2805,15 +2697,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "pinterest-p")]
         PinterestP,
-
-        /// <summary>
-        /// Pinterest Square
-        /// </summary>
-        /// <remarks>
-        /// pinterest-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "pinterest-square")]
-        PinterestSquare,
 
         /// <summary>
         /// Pix
@@ -2976,15 +2859,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "reddit-alien")]
         RedditAlien,
-
-        /// <summary>
-        /// Reddit Square
-        /// </summary>
-        /// <remarks>
-        /// reddit-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "reddit-square")]
-        RedditSquare,
 
         /// <summary>
         /// Redhat
@@ -3293,15 +3167,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SnapchatGhost,
 
         /// <summary>
-        /// Snapchat Square
-        /// </summary>
-        /// <remarks>
-        /// snapchat-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "snapchat-square")]
-        SnapchatSquare,
-
-        /// <summary>
         /// Sound Cloud
         /// </summary>
         /// <remarks>
@@ -3318,6 +3183,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "sourcetree")]
         Sourcetree,
+
+        /// <summary>
+        /// Space Awesome
+        /// </summary>
+        /// <remarks>
+        /// space-awesome - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "space-awesome")]
+        SpaceAwesome,
 
         /// <summary>
         /// Speakap
@@ -3347,6 +3221,60 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Spotify,
 
         /// <summary>
+        /// Behance Square
+        /// </summary>
+        /// <remarks>
+        /// square-behance - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-behance")]
+        SquareBehance,
+
+        /// <summary>
+        /// Behance Square
+        /// </summary>
+        /// <remarks>
+        /// behance-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-behance")]
+        BehanceSquare,
+
+        /// <summary>
+        /// Dribbble Square
+        /// </summary>
+        /// <remarks>
+        /// square-dribbble - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-dribbble")]
+        SquareDribbble,
+
+        /// <summary>
+        /// Dribbble Square
+        /// </summary>
+        /// <remarks>
+        /// dribbble-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-dribbble")]
+        DribbbleSquare,
+
+        /// <summary>
+        /// Facebook Square
+        /// </summary>
+        /// <remarks>
+        /// square-facebook - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-facebook")]
+        SquareFacebook,
+
+        /// <summary>
+        /// Facebook Square
+        /// </summary>
+        /// <remarks>
+        /// facebook-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-facebook")]
+        FacebookSquare,
+
+        /// <summary>
         /// Font Awesome in Square
         /// </summary>
         /// <remarks>
@@ -3372,6 +3300,384 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "square-font-awesome-stroke")]
         FontAwesomeAlt,
+
+        /// <summary>
+        /// Git Square
+        /// </summary>
+        /// <remarks>
+        /// square-git - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-git")]
+        SquareGit,
+
+        /// <summary>
+        /// Git Square
+        /// </summary>
+        /// <remarks>
+        /// git-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-git")]
+        GitSquare,
+
+        /// <summary>
+        /// Git Hub Square
+        /// </summary>
+        /// <remarks>
+        /// square-github - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-github")]
+        SquareGithub,
+
+        /// <summary>
+        /// Git Hub Square
+        /// </summary>
+        /// <remarks>
+        /// github-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-github")]
+        GithubSquare,
+
+        /// <summary>
+        /// Square Gitlab
+        /// </summary>
+        /// <remarks>
+        /// square-gitlab - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-gitlab")]
+        SquareGitlab,
+
+        /// <summary>
+        /// Square Gitlab
+        /// </summary>
+        /// <remarks>
+        /// gitlab-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-gitlab")]
+        GitlabSquare,
+
+        /// <summary>
+        /// Google Plus Square
+        /// </summary>
+        /// <remarks>
+        /// square-google-plus - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-google-plus")]
+        SquareGooglePlus,
+
+        /// <summary>
+        /// Google Plus Square
+        /// </summary>
+        /// <remarks>
+        /// google-plus-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-google-plus")]
+        GooglePlusSquare,
+
+        /// <summary>
+        /// Hacker News Square
+        /// </summary>
+        /// <remarks>
+        /// square-hacker-news - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-hacker-news")]
+        SquareHackerNews,
+
+        /// <summary>
+        /// Hacker News Square
+        /// </summary>
+        /// <remarks>
+        /// hacker-news-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-hacker-news")]
+        HackerNewsSquare,
+
+        /// <summary>
+        /// Instagram Square
+        /// </summary>
+        /// <remarks>
+        /// square-instagram - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-instagram")]
+        SquareInstagram,
+
+        /// <summary>
+        /// Instagram Square
+        /// </summary>
+        /// <remarks>
+        /// instagram-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-instagram")]
+        InstagramSquare,
+
+        /// <summary>
+        /// Java Script JS Square
+        /// </summary>
+        /// <remarks>
+        /// square-js - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-js")]
+        SquareJs,
+
+        /// <summary>
+        /// Java Script JS Square
+        /// </summary>
+        /// <remarks>
+        /// js-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-js")]
+        JsSquare,
+
+        /// <summary>
+        /// Last Fm Square
+        /// </summary>
+        /// <remarks>
+        /// square-lastfm - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-lastfm")]
+        SquareLastfm,
+
+        /// <summary>
+        /// Last Fm Square
+        /// </summary>
+        /// <remarks>
+        /// lastfm-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-lastfm")]
+        LastfmSquare,
+
+        /// <summary>
+        /// Odnoklassniki Square
+        /// </summary>
+        /// <remarks>
+        /// square-odnoklassniki - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-odnoklassniki")]
+        SquareOdnoklassniki,
+
+        /// <summary>
+        /// Odnoklassniki Square
+        /// </summary>
+        /// <remarks>
+        /// odnoklassniki-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-odnoklassniki")]
+        OdnoklassnikiSquare,
+
+        /// <summary>
+        /// Pied Piper Square Logo Old
+        /// </summary>
+        /// <remarks>
+        /// square-pied-piper - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-pied-piper")]
+        SquarePiedPiper,
+
+        /// <summary>
+        /// Pied Piper Square Logo Old
+        /// </summary>
+        /// <remarks>
+        /// pied-piper-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-pied-piper")]
+        PiedPiperSquare,
+
+        /// <summary>
+        /// Pinterest Square
+        /// </summary>
+        /// <remarks>
+        /// square-pinterest - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-pinterest")]
+        SquarePinterest,
+
+        /// <summary>
+        /// Pinterest Square
+        /// </summary>
+        /// <remarks>
+        /// pinterest-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-pinterest")]
+        PinterestSquare,
+
+        /// <summary>
+        /// Reddit Square
+        /// </summary>
+        /// <remarks>
+        /// square-reddit - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-reddit")]
+        SquareReddit,
+
+        /// <summary>
+        /// Reddit Square
+        /// </summary>
+        /// <remarks>
+        /// reddit-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-reddit")]
+        RedditSquare,
+
+        /// <summary>
+        /// Snapchat Square
+        /// </summary>
+        /// <remarks>
+        /// square-snapchat - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-snapchat")]
+        SquareSnapchat,
+
+        /// <summary>
+        /// Snapchat Square
+        /// </summary>
+        /// <remarks>
+        /// snapchat-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-snapchat")]
+        SnapchatSquare,
+
+        /// <summary>
+        /// Steam Square
+        /// </summary>
+        /// <remarks>
+        /// square-steam - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-steam")]
+        SquareSteam,
+
+        /// <summary>
+        /// Steam Square
+        /// </summary>
+        /// <remarks>
+        /// steam-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-steam")]
+        SteamSquare,
+
+        /// <summary>
+        /// Tumblr Square
+        /// </summary>
+        /// <remarks>
+        /// square-tumblr - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-tumblr")]
+        SquareTumblr,
+
+        /// <summary>
+        /// Tumblr Square
+        /// </summary>
+        /// <remarks>
+        /// tumblr-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-tumblr")]
+        TumblrSquare,
+
+        /// <summary>
+        /// Twitter Square
+        /// </summary>
+        /// <remarks>
+        /// square-twitter - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-twitter")]
+        SquareTwitter,
+
+        /// <summary>
+        /// Twitter Square
+        /// </summary>
+        /// <remarks>
+        /// twitter-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-twitter")]
+        TwitterSquare,
+
+        /// <summary>
+        /// Viadeo Square
+        /// </summary>
+        /// <remarks>
+        /// square-viadeo - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-viadeo")]
+        SquareViadeo,
+
+        /// <summary>
+        /// Viadeo Square
+        /// </summary>
+        /// <remarks>
+        /// viadeo-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-viadeo")]
+        ViadeoSquare,
+
+        /// <summary>
+        /// Vimeo Square
+        /// </summary>
+        /// <remarks>
+        /// square-vimeo - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-vimeo")]
+        SquareVimeo,
+
+        /// <summary>
+        /// Vimeo Square
+        /// </summary>
+        /// <remarks>
+        /// vimeo-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-vimeo")]
+        VimeoSquare,
+
+        /// <summary>
+        /// What S App Square
+        /// </summary>
+        /// <remarks>
+        /// square-whatsapp - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-whatsapp")]
+        SquareWhatsapp,
+
+        /// <summary>
+        /// What S App Square
+        /// </summary>
+        /// <remarks>
+        /// whatsapp-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-whatsapp")]
+        WhatsappSquare,
+
+        /// <summary>
+        /// Xing Square
+        /// </summary>
+        /// <remarks>
+        /// square-xing - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-xing")]
+        SquareXing,
+
+        /// <summary>
+        /// Xing Square
+        /// </summary>
+        /// <remarks>
+        /// xing-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-xing")]
+        XingSquare,
+
+        /// <summary>
+        /// You Tube Square
+        /// </summary>
+        /// <remarks>
+        /// square-youtube - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-youtube")]
+        SquareYoutube,
+
+        /// <summary>
+        /// You Tube Square
+        /// </summary>
+        /// <remarks>
+        /// youtube-square - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-youtube")]
+        YoutubeSquare,
 
         /// <summary>
         /// Squarespace
@@ -3426,15 +3732,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "steam")]
         Steam,
-
-        /// <summary>
-        /// Steam Square
-        /// </summary>
-        /// <remarks>
-        /// steam-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "steam-square")]
-        SteamSquare,
 
         /// <summary>
         /// Steam Symbol
@@ -3662,15 +3959,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Tumblr,
 
         /// <summary>
-        /// Tumblr Square
-        /// </summary>
-        /// <remarks>
-        /// tumblr-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "tumblr-square")]
-        TumblrSquare,
-
-        /// <summary>
         /// Twitch
         /// </summary>
         /// <remarks>
@@ -3687,15 +3975,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "twitter")]
         Twitter,
-
-        /// <summary>
-        /// Twitter Square
-        /// </summary>
-        /// <remarks>
-        /// twitter-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "twitter-square")]
-        TwitterSquare,
 
         /// <summary>
         /// Typo 3
@@ -3851,15 +4130,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Viadeo,
 
         /// <summary>
-        /// Viadeo Square
-        /// </summary>
-        /// <remarks>
-        /// viadeo-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "viadeo-square")]
-        ViadeoSquare,
-
-        /// <summary>
         /// Viber
         /// </summary>
         /// <remarks>
@@ -3876,15 +4146,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "vimeo")]
         Vimeo,
-
-        /// <summary>
-        /// Vimeo Square
-        /// </summary>
-        /// <remarks>
-        /// vimeo-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "vimeo-square")]
-        VimeoSquare,
 
         /// <summary>
         /// Vimeo
@@ -3984,15 +4245,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "whatsapp")]
         Whatsapp,
-
-        /// <summary>
-        /// What S App Square
-        /// </summary>
-        /// <remarks>
-        /// whatsapp-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "whatsapp-square")]
-        WhatsappSquare,
 
         /// <summary>
         /// WHMCS
@@ -4130,6 +4382,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Wpressr,
 
         /// <summary>
+        /// Wpressr
+        /// </summary>
+        /// <remarks>
+        /// rendact - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "wpressr")]
+        Rendact,
+
+        /// <summary>
         /// Xbox
         /// </summary>
         /// <remarks>
@@ -4146,15 +4407,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "xing")]
         Xing,
-
-        /// <summary>
-        /// Xing Square
-        /// </summary>
-        /// <remarks>
-        /// xing-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "xing-square")]
-        XingSquare,
 
         /// <summary>
         /// Y Combinator
@@ -4236,15 +4488,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "youtube")]
         Youtube,
-
-        /// <summary>
-        /// You Tube Square
-        /// </summary>
-        /// <remarks>
-        /// youtube-square - Available in Brands
-        /// </remarks>
-        [FontAwesome(IconStyle.Brands, "youtube-square")]
-        YoutubeSquare,
 
         /// <summary>
         /// Zhihu

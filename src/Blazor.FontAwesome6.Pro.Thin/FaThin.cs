@@ -2519,6 +2519,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         Bahai,
 
         /// <summary>
+        /// Bahá Í
+        /// </summary>
+        /// <remarks>
+        /// haykal - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "bahai")]
+        Haykal,
+
+        /// <summary>
         /// Baht Sign
         /// </summary>
         /// <remarks>
@@ -5307,6 +5316,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Thin, "cable-car")]
         CableCar,
+
+        /// <summary>
+        /// Cable Car
+        /// </summary>
+        /// <remarks>
+        /// tram - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "cable-car")]
+        Tram,
 
         /// <summary>
         /// Cactus
@@ -10700,6 +10718,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         Crosshairs,
 
         /// <summary>
+        /// Crosshairs Simple
+        /// </summary>
+        /// <remarks>
+        /// crosshairs-simple - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "crosshairs-simple")]
+        CrosshairsSimple,
+
+        /// <summary>
         /// Crow
         /// </summary>
         /// <remarks>
@@ -14849,6 +14876,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         FilmCanister,
 
         /// <summary>
+        /// Film Canister
+        /// </summary>
+        /// <remarks>
+        /// film-cannister - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "film-canister")]
+        FilmCannister,
+
+        /// <summary>
         /// Film Simple
         /// </summary>
         /// <remarks>
@@ -16730,6 +16766,33 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         GridHorizontal,
 
         /// <summary>
+        /// Grill
+        /// </summary>
+        /// <remarks>
+        /// grill - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "grill")]
+        Grill,
+
+        /// <summary>
+        /// Grill Fire
+        /// </summary>
+        /// <remarks>
+        /// grill-fire - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "grill-fire")]
+        GrillFire,
+
+        /// <summary>
+        /// Grill Hot
+        /// </summary>
+        /// <remarks>
+        /// grill-hot - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "grill-hot")]
+        GrillHot,
+
+        /// <summary>
         /// Grip
         /// </summary>
         /// <remarks>
@@ -18479,19 +18542,10 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// Hourglass
         /// </summary>
         /// <remarks>
-        /// hourglass-2 - Available in Solid, Regular, Light, Thin, Duotone
+        /// hourglass-empty - Available in Solid, Regular, Light, Thin, Duotone
         /// </remarks>
         [FontAwesome(IconStyle.Thin, "hourglass")]
-        Hourglass2,
-
-        /// <summary>
-        /// Hourglass
-        /// </summary>
-        /// <remarks>
-        /// hourglass-half - Available in Solid, Regular, Light, Thin, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Thin, "hourglass")]
-        HourglassHalf,
+        HourglassEmpty,
 
         /// <summary>
         /// Hourglass Clock
@@ -18501,15 +18555,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Thin, "hourglass-clock")]
         HourglassClock,
-
-        /// <summary>
-        /// Hourglass Empty
-        /// </summary>
-        /// <remarks>
-        /// hourglass-empty - Available in Solid, Regular, Light, Thin, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Thin, "hourglass-empty")]
-        HourglassEmpty,
 
         /// <summary>
         /// Hourglass End
@@ -18528,6 +18573,24 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Thin, "hourglass-end")]
         Hourglass3,
+
+        /// <summary>
+        /// Hourglass Half
+        /// </summary>
+        /// <remarks>
+        /// hourglass-half - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "hourglass-half")]
+        HourglassHalf,
+
+        /// <summary>
+        /// Hourglass Half
+        /// </summary>
+        /// <remarks>
+        /// hourglass-2 - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "hourglass-half")]
+        Hourglass2,
 
         /// <summary>
         /// Hourglass Start
@@ -20355,6 +20418,24 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Thin, "lightbulb")]
         Lightbulb,
+
+        /// <summary>
+        /// Lightbulb CFL
+        /// </summary>
+        /// <remarks>
+        /// lightbulb-cfl - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "lightbulb-cfl")]
+        LightbulbCfl,
+
+        /// <summary>
+        /// Lightbulb CFL on
+        /// </summary>
+        /// <remarks>
+        /// lightbulb-cfl-on - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "lightbulb-cfl-on")]
+        LightbulbCflOn,
 
         /// <summary>
         /// Lightbulb Dollar
@@ -22958,6 +23039,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         Mountains,
 
         /// <summary>
+        /// Mouse
+        /// </summary>
+        /// <remarks>
+        /// mouse-field - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "mouse-field")]
+        MouseField,
+
+        /// <summary>
         /// MP 3 Player
         /// </summary>
         /// <remarks>
@@ -24410,19 +24500,19 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// People Arrows Left Right
         /// </summary>
         /// <remarks>
-        /// people-arrows-left-right - Available in Solid, Regular, Light, Thin, Duotone
+        /// people-arrows - Available in Solid, Regular, Light, Thin, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Thin, "people-arrows-left-right")]
-        PeopleArrowsLeftRight,
+        [FontAwesome(IconStyle.Thin, "people-arrows")]
+        PeopleArrows,
 
         /// <summary>
         /// People Arrows Left Right
         /// </summary>
         /// <remarks>
-        /// people-arrows - Available in Solid, Regular, Light, Thin, Duotone
+        /// people-arrows-left-right - Available in Solid, Regular, Light, Thin, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Thin, "people-arrows-left-right")]
-        PeopleArrows,
+        [FontAwesome(IconStyle.Thin, "people-arrows")]
+        PeopleArrowsLeftRight,
 
         /// <summary>
         /// People Carry Box
@@ -27116,6 +27206,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         Ring,
 
         /// <summary>
+        /// Ring Diamond
+        /// </summary>
+        /// <remarks>
+        /// ring-diamond - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "ring-diamond")]
+        RingDiamond,
+
+        /// <summary>
         /// Rings Wedding
         /// </summary>
         /// <remarks>
@@ -27737,24 +27836,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         ScalpelPath,
 
         /// <summary>
-        /// Scanner
-        /// </summary>
-        /// <remarks>
-        /// scanner - Available in Solid, Regular, Light, Thin, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Thin, "scanner")]
-        Scanner,
-
-        /// <summary>
-        /// Scanner
-        /// </summary>
-        /// <remarks>
-        /// scanner-image - Available in Solid, Regular, Light, Thin, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Thin, "scanner")]
-        ScannerImage,
-
-        /// <summary>
         /// Scanner Gun
         /// </summary>
         /// <remarks>
@@ -27762,6 +27843,24 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Thin, "scanner-gun")]
         ScannerGun,
+
+        /// <summary>
+        /// Scanner Gun
+        /// </summary>
+        /// <remarks>
+        /// scanner - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "scanner-gun")]
+        Scanner,
+
+        /// <summary>
+        /// Image Scanner
+        /// </summary>
+        /// <remarks>
+        /// scanner-image - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "scanner-image")]
+        ScannerImage,
 
         /// <summary>
         /// Scanner Keyboard
@@ -31187,10 +31286,10 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// Staff Aesculapius
         /// </summary>
         /// <remarks>
-        /// staff-aesculapius - Available in Solid, Regular, Light, Thin, Duotone
+        /// staff-snake - Available in Solid, Regular, Light, Thin, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Thin, "staff-aesculapius")]
-        StaffAesculapius,
+        [FontAwesome(IconStyle.Thin, "staff-snake")]
+        StaffSnake,
 
         /// <summary>
         /// Staff Aesculapius
@@ -31198,7 +31297,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// <remarks>
         /// rod-asclepius - Available in Solid, Regular, Light, Thin, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Thin, "staff-aesculapius")]
+        [FontAwesome(IconStyle.Thin, "staff-snake")]
         RodAsclepius,
 
         /// <summary>
@@ -31207,17 +31306,17 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// <remarks>
         /// rod-snake - Available in Solid, Regular, Light, Thin, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Thin, "staff-aesculapius")]
+        [FontAwesome(IconStyle.Thin, "staff-snake")]
         RodSnake,
 
         /// <summary>
         /// Staff Aesculapius
         /// </summary>
         /// <remarks>
-        /// staff-snake - Available in Solid, Regular, Light, Thin, Duotone
+        /// staff-aesculapius - Available in Solid, Regular, Light, Thin, Duotone
         /// </remarks>
-        [FontAwesome(IconStyle.Thin, "staff-aesculapius")]
-        StaffSnake,
+        [FontAwesome(IconStyle.Thin, "staff-snake")]
+        StaffAesculapius,
 
         /// <summary>
         /// Stairs
@@ -31254,6 +31353,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Thin, "standard-definition")]
         RectangleSd,
+
+        /// <summary>
+        /// Stapler
+        /// </summary>
+        /// <remarks>
+        /// stapler - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "stapler")]
+        Stapler,
 
         /// <summary>
         /// Star
@@ -32975,6 +33083,24 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         TireRugged,
 
         /// <summary>
+        /// Toggle Large off
+        /// </summary>
+        /// <remarks>
+        /// toggle-large-off - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "toggle-large-off")]
+        ToggleLargeOff,
+
+        /// <summary>
+        /// Toggle Large on
+        /// </summary>
+        /// <remarks>
+        /// toggle-large-on - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "toggle-large-on")]
+        ToggleLargeOn,
+
+        /// <summary>
         /// Toggle off
         /// </summary>
         /// <remarks>
@@ -33047,6 +33173,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         ToiletPaperReverseAlt,
 
         /// <summary>
+        /// Toilet Paper Check
+        /// </summary>
+        /// <remarks>
+        /// toilet-paper-check - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "toilet-paper-check")]
+        ToiletPaperCheck,
+
+        /// <summary>
         /// Toilet Paper Slash
         /// </summary>
         /// <remarks>
@@ -33090,6 +33225,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Thin, "toilet-paper-under-slash")]
         ToiletPaperReverseSlash,
+
+        /// <summary>
+        /// Toilet Paper Xmark
+        /// </summary>
+        /// <remarks>
+        /// toilet-paper-xmark - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Thin, "toilet-paper-xmark")]
+        ToiletPaperXmark,
 
         /// <summary>
         /// Toilet Portable
@@ -33369,15 +33513,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Thin, "train-tram")]
         TrainTram,
-
-        /// <summary>
-        /// Train Tram
-        /// </summary>
-        /// <remarks>
-        /// tram - Available in Solid, Regular, Light, Thin, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Thin, "train-tram")]
-        Tram,
 
         /// <summary>
         /// Train Tunnel

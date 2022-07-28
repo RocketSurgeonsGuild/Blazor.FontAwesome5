@@ -1412,6 +1412,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Bahai,
 
         /// <summary>
+        /// Bahá Í
+        /// </summary>
+        /// <remarks>
+        /// haykal - Available in Solid
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "bahai")]
+        Haykal,
+
+        /// <summary>
         /// Baht Sign
         /// </summary>
         /// <remarks>
@@ -2087,6 +2096,24 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         BookDead,
 
         /// <summary>
+        /// Book Tanakh
+        /// </summary>
+        /// <remarks>
+        /// book-tanakh - Available in Solid
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "book-tanakh")]
+        BookTanakh,
+
+        /// <summary>
+        /// Book Tanakh
+        /// </summary>
+        /// <remarks>
+        /// tanakh - Available in Solid
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "book-tanakh")]
+        Tanakh,
+
+        /// <summary>
         /// Bookmark
         /// </summary>
         /// <remarks>
@@ -2706,6 +2733,24 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "c")]
         C,
+
+        /// <summary>
+        /// Cable Car
+        /// </summary>
+        /// <remarks>
+        /// cable-car - Available in Solid
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "cable-car")]
+        CableCar,
+
+        /// <summary>
+        /// Cable Car
+        /// </summary>
+        /// <remarks>
+        /// tram - Available in Solid
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "cable-car")]
+        Tram,
 
         /// <summary>
         /// Cake Candles
@@ -8642,27 +8687,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         /// Hourglass
         /// </summary>
         /// <remarks>
-        /// hourglass-2 - Available in Solid, Regular
+        /// hourglass-empty - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hourglass")]
-        Hourglass2,
-
-        /// <summary>
-        /// Hourglass
-        /// </summary>
-        /// <remarks>
-        /// hourglass-half - Available in Solid, Regular
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "hourglass")]
-        HourglassHalf,
-
-        /// <summary>
-        /// Hourglass Empty
-        /// </summary>
-        /// <remarks>
-        /// hourglass-empty - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "hourglass-empty")]
         HourglassEmpty,
 
         /// <summary>
@@ -8682,6 +8709,24 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hourglass-end")]
         Hourglass3,
+
+        /// <summary>
+        /// Hourglass Half
+        /// </summary>
+        /// <remarks>
+        /// hourglass-half - Available in Solid, Regular
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "hourglass-half")]
+        HourglassHalf,
+
+        /// <summary>
+        /// Hourglass Half
+        /// </summary>
+        /// <remarks>
+        /// hourglass-2 - Available in Solid, Regular
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "hourglass-half")]
+        Hourglass2,
 
         /// <summary>
         /// Hourglass Start
@@ -10880,6 +10925,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         NotEqual,
 
         /// <summary>
+        /// Notdef
+        /// </summary>
+        /// <remarks>
+        /// notdef - Available in Solid, Regular
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "notdef")]
+        Notdef,
+
+        /// <summary>
         /// Note Sticky
         /// </summary>
         /// <remarks>
@@ -11252,19 +11306,19 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         /// People Arrows Left Right
         /// </summary>
         /// <remarks>
-        /// people-arrows-left-right - Available in Solid
+        /// people-arrows - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "people-arrows-left-right")]
-        PeopleArrowsLeftRight,
+        [FontAwesome(IconStyle.Solid, "people-arrows")]
+        PeopleArrows,
 
         /// <summary>
         /// People Arrows Left Right
         /// </summary>
         /// <remarks>
-        /// people-arrows - Available in Solid
+        /// people-arrows-left-right - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "people-arrows-left-right")]
-        PeopleArrows,
+        [FontAwesome(IconStyle.Solid, "people-arrows")]
+        PeopleArrowsLeftRight,
 
         /// <summary>
         /// People Carry Box
@@ -14501,10 +14555,10 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         /// Staff Aesculapius
         /// </summary>
         /// <remarks>
-        /// staff-aesculapius - Available in Solid
+        /// staff-snake - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "staff-aesculapius")]
-        StaffAesculapius,
+        [FontAwesome(IconStyle.Solid, "staff-snake")]
+        StaffSnake,
 
         /// <summary>
         /// Staff Aesculapius
@@ -14512,7 +14566,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         /// <remarks>
         /// rod-asclepius - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "staff-aesculapius")]
+        [FontAwesome(IconStyle.Solid, "staff-snake")]
         RodAsclepius,
 
         /// <summary>
@@ -14521,17 +14575,17 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         /// <remarks>
         /// rod-snake - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "staff-aesculapius")]
+        [FontAwesome(IconStyle.Solid, "staff-snake")]
         RodSnake,
 
         /// <summary>
         /// Staff Aesculapius
         /// </summary>
         /// <remarks>
-        /// staff-snake - Available in Solid
+        /// staff-aesculapius - Available in Solid
         /// </remarks>
-        [FontAwesome(IconStyle.Solid, "staff-aesculapius")]
-        StaffSnake,
+        [FontAwesome(IconStyle.Solid, "staff-snake")]
+        StaffAesculapius,
 
         /// <summary>
         /// Stairs
@@ -14550,6 +14604,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "stamp")]
         Stamp,
+
+        /// <summary>
+        /// Stapler
+        /// </summary>
+        /// <remarks>
+        /// stapler - Available in Solid
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "stapler")]
+        Stapler,
 
         /// <summary>
         /// Star
@@ -15729,15 +15792,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "train-tram")]
         TrainTram,
-
-        /// <summary>
-        /// Train Tram
-        /// </summary>
-        /// <remarks>
-        /// tram - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "train-tram")]
-        Tram,
 
         /// <summary>
         /// Transgender

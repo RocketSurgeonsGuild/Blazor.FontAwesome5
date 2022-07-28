@@ -1721,19 +1721,28 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         /// Hourglass
         /// </summary>
         /// <remarks>
-        /// hourglass-2 - Available in Solid, Regular
+        /// hourglass-empty - Available in Solid, Regular
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "hourglass")]
-        Hourglass2,
+        HourglassEmpty,
 
         /// <summary>
-        /// Hourglass
+        /// Hourglass Half
         /// </summary>
         /// <remarks>
         /// hourglass-half - Available in Solid, Regular
         /// </remarks>
-        [FontAwesome(IconStyle.Regular, "hourglass")]
+        [FontAwesome(IconStyle.Regular, "hourglass-half")]
         HourglassHalf,
+
+        /// <summary>
+        /// Hourglass Half
+        /// </summary>
+        /// <remarks>
+        /// hourglass-2 - Available in Solid, Regular
+        /// </remarks>
+        [FontAwesome(IconStyle.Regular, "hourglass-half")]
+        Hourglass2,
 
         /// <summary>
         /// Identification Badge
@@ -1878,6 +1887,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "newspaper")]
         Newspaper,
+
+        /// <summary>
+        /// Notdef
+        /// </summary>
+        /// <remarks>
+        /// notdef - Available in Solid, Regular
+        /// </remarks>
+        [FontAwesome(IconStyle.Regular, "notdef")]
+        Notdef,
 
         /// <summary>
         /// Note Sticky

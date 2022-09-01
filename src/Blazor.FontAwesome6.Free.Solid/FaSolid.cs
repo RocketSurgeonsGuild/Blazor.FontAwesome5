@@ -10925,15 +10925,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         NotEqual,
 
         /// <summary>
-        /// Notdef
-        /// </summary>
-        /// <remarks>
-        /// notdef - Available in Solid, Regular
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "notdef")]
-        Notdef,
-
-        /// <summary>
         /// Note Sticky
         /// </summary>
         /// <remarks>

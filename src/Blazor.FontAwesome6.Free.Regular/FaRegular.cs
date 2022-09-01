@@ -1889,15 +1889,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Newspaper,
 
         /// <summary>
-        /// Notdef
-        /// </summary>
-        /// <remarks>
-        /// notdef - Available in Solid, Regular
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "notdef")]
-        Notdef,
-
-        /// <summary>
         /// Note Sticky
         /// </summary>
         /// <remarks>

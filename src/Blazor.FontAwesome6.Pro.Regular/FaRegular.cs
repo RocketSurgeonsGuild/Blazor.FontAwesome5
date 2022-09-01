@@ -17,15 +17,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         _0,
 
         /// <summary>
-        /// 00
-        /// </summary>
-        /// <remarks>
-        /// 00 - Available in Solid, Regular, Light, Thin, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "00")]
-        _00,
-
-        /// <summary>
         /// 1
         /// </summary>
         /// <remarks>
@@ -51,15 +42,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "3")]
         _3,
-
-        /// <summary>
-        /// 360 Degrees
-        /// </summary>
-        /// <remarks>
-        /// 360-degrees - Available in Solid, Regular, Light, Thin, Duotone
-        /// </remarks>
-        [FontAwesome(IconStyle.Regular, "360-degrees")]
-        _360Degrees,
 
         /// <summary>
         /// 4
@@ -114,6 +96,24 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Regular, "9")]
         _9,
+
+        /// <summary>
+        /// 00
+        /// </summary>
+        /// <remarks>
+        /// 00 - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Regular, "00")]
+        _00,
+
+        /// <summary>
+        /// 360 Degrees
+        /// </summary>
+        /// <remarks>
+        /// 360-degrees - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Regular, "360-degrees")]
+        _360Degrees,
 
         /// <summary>
         /// A

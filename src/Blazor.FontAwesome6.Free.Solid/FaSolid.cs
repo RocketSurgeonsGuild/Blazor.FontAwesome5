@@ -1484,6 +1484,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         BandAid,
 
         /// <summary>
+        /// Bangladeshi Taka Sign
+        /// </summary>
+        /// <remarks>
+        /// bangladeshi-taka-sign - Available in Solid
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "bangladeshi-taka-sign")]
+        BangladeshiTakaSign,
+
+        /// <summary>
         /// Barcode
         /// </summary>
         /// <remarks>
@@ -3104,7 +3113,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Carrot,
 
         /// <summary>
-        /// Shopping Cart Arrow Down
+        /// Cart Arrow Down
         /// </summary>
         /// <remarks>
         /// cart-arrow-down - Available in Solid
@@ -3149,7 +3158,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         LuggageCart,
 
         /// <summary>
-        /// Add to Shopping Cart
+        /// Cart Plus
         /// </summary>
         /// <remarks>
         /// cart-plus - Available in Solid
@@ -3554,6 +3563,24 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Child,
 
         /// <summary>
+        /// Child Combatant
+        /// </summary>
+        /// <remarks>
+        /// child-combatant - Available in Solid
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "child-combatant")]
+        ChildCombatant,
+
+        /// <summary>
+        /// Child Combatant
+        /// </summary>
+        /// <remarks>
+        /// child-rifle - Available in Solid
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "child-combatant")]
+        ChildRifle,
+
+        /// <summary>
         /// Child Dress
         /// </summary>
         /// <remarks>
@@ -3570,15 +3597,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "child-reaching")]
         ChildReaching,
-
-        /// <summary>
-        /// Child Rifle
-        /// </summary>
-        /// <remarks>
-        /// child-rifle - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "child-rifle")]
-        ChildRifle,
 
         /// <summary>
         /// Children
@@ -4166,7 +4184,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Clipboard,
 
         /// <summary>
-        /// Clipboard With Check
+        /// Clipboard Check
         /// </summary>
         /// <remarks>
         /// clipboard-check - Available in Solid
@@ -4193,7 +4211,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ClipboardQuestion,
 
         /// <summary>
-        /// Clipboard With User
+        /// Clipboard User
         /// </summary>
         /// <remarks>
         /// clipboard-user - Available in Solid
@@ -7046,7 +7064,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FlagCheckered,
 
         /// <summary>
-        /// United States of America Flag
+        /// Flag Usa
         /// </summary>
         /// <remarks>
         /// flag-usa - Available in Solid
@@ -9728,7 +9746,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Unlink,
 
         /// <summary>
-        /// Turkish Lira Sign
+        /// Lira Sign
         /// </summary>
         /// <remarks>
         /// lira-sign - Available in Solid
@@ -10925,6 +10943,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         NotEqual,
 
         /// <summary>
+        /// Notdef
+        /// </summary>
+        /// <remarks>
+        /// notdef - Available in Solid
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "notdef")]
+        Notdef,
+
+        /// <summary>
         /// Note Sticky
         /// </summary>
         /// <remarks>
@@ -10943,7 +10970,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         StickyNote,
 
         /// <summary>
-        /// Medical Notes
+        /// Notes Medical
         /// </summary>
         /// <remarks>
         /// notes-medical - Available in Solid

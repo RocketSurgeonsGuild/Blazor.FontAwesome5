@@ -2474,6 +2474,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Odnoklassniki,
 
         /// <summary>
+        /// Odysee
+        /// </summary>
+        /// <remarks>
+        /// odysee - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "odysee")]
+        Odysee,
+
+        /// <summary>
         /// Old Republic
         /// </summary>
         /// <remarks>
@@ -3777,6 +3786,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "stripe-s")]
         StripeS,
+
+        /// <summary>
+        /// Stubber
+        /// </summary>
+        /// <remarks>
+        /// stubber - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "stubber")]
+        Stubber,
 
         /// <summary>
         /// Studio Vinari

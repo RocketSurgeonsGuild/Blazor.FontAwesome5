@@ -440,7 +440,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         SortNumericDownAlt,
 
         /// <summary>
-        /// Arrow Down a Z
+        /// Arrow Down A Z
         /// </summary>
         /// <remarks>
         /// arrow-down-a-z - Available in Solid
@@ -449,7 +449,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ArrowDownAZ,
 
         /// <summary>
-        /// Arrow Down a Z
+        /// Arrow Down A Z
         /// </summary>
         /// <remarks>
         /// sort-alpha-asc - Available in Solid
@@ -458,7 +458,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         SortAlphaAsc,
 
         /// <summary>
-        /// Arrow Down a Z
+        /// Arrow Down A Z
         /// </summary>
         /// <remarks>
         /// sort-alpha-down - Available in Solid
@@ -557,7 +557,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         SortAmountDown,
 
         /// <summary>
-        /// Arrow Down Z a
+        /// Arrow Down Z A
         /// </summary>
         /// <remarks>
         /// arrow-down-z-a - Available in Solid
@@ -566,7 +566,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ArrowDownZA,
 
         /// <summary>
-        /// Arrow Down Z a
+        /// Arrow Down Z A
         /// </summary>
         /// <remarks>
         /// sort-alpha-desc - Available in Solid
@@ -575,7 +575,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         SortAlphaDesc,
 
         /// <summary>
-        /// Arrow Down Z a
+        /// Arrow Down Z A
         /// </summary>
         /// <remarks>
         /// sort-alpha-down-alt - Available in Solid
@@ -899,7 +899,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         SortNumericUpAlt,
 
         /// <summary>
-        /// Arrow up a Z
+        /// Arrow up A Z
         /// </summary>
         /// <remarks>
         /// arrow-up-a-z - Available in Solid
@@ -908,7 +908,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ArrowUpAZ,
 
         /// <summary>
-        /// Arrow up a Z
+        /// Arrow up A Z
         /// </summary>
         /// <remarks>
         /// sort-alpha-up - Available in Solid
@@ -926,7 +926,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ArrowUpFromBracket,
 
         /// <summary>
-        /// Arrow Up From Ground Water
+        /// Arrow up From Ground Water
         /// </summary>
         /// <remarks>
         /// arrow-up-from-ground-water - Available in Solid
@@ -935,7 +935,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ArrowUpFromGroundWater,
 
         /// <summary>
-        /// Arrow Up From Water Pump
+        /// Arrow up From Water Pump
         /// </summary>
         /// <remarks>
         /// arrow-up-from-water-pump - Available in Solid
@@ -962,7 +962,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         LongArrowUp,
 
         /// <summary>
-        /// Arrow Up Right Dots
+        /// Arrow up Right Dots
         /// </summary>
         /// <remarks>
         /// arrow-up-right-dots - Available in Solid
@@ -1025,7 +1025,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         SortAmountUp,
 
         /// <summary>
-        /// Arrow up Z a
+        /// Arrow up Z A
         /// </summary>
         /// <remarks>
         /// arrow-up-z-a - Available in Solid
@@ -1034,7 +1034,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ArrowUpZA,
 
         /// <summary>
-        /// Arrow up Z a
+        /// Arrow up Z A
         /// </summary>
         /// <remarks>
         /// sort-alpha-up-alt - Available in Solid
@@ -1133,7 +1133,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ArrowsSplitUpAndLeft,
 
         /// <summary>
-        /// Arrows To Circle
+        /// Arrows to Circle
         /// </summary>
         /// <remarks>
         /// arrows-to-circle - Available in Solid
@@ -1142,7 +1142,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ArrowsToCircle,
 
         /// <summary>
-        /// Arrows To Dot
+        /// Arrows to Dot
         /// </summary>
         /// <remarks>
         /// arrows-to-dot - Available in Solid
@@ -1151,7 +1151,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ArrowsToDot,
 
         /// <summary>
-        /// Arrows To Eye
+        /// Arrows to Eye
         /// </summary>
         /// <remarks>
         /// arrows-to-eye - Available in Solid
@@ -1214,7 +1214,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Arrows,
 
         /// <summary>
-        /// Arrows Up to Line
+        /// Arrows up to Line
         /// </summary>
         /// <remarks>
         /// arrows-up-to-line - Available in Solid
@@ -1250,7 +1250,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Atom,
 
         /// <summary>
-        /// Rectangle Audio Description
+        /// Audio Description
         /// </summary>
         /// <remarks>
         /// audio-description - Available in Solid
@@ -1403,7 +1403,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ShoppingBag,
 
         /// <summary>
-        /// Bahá Í
+        /// Bahai
         /// </summary>
         /// <remarks>
         /// bahai - Available in Solid
@@ -1412,7 +1412,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Bahai,
 
         /// <summary>
-        /// Bahá Í
+        /// Bahai
         /// </summary>
         /// <remarks>
         /// haykal - Available in Solid
@@ -1565,7 +1565,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Stream,
 
         /// <summary>
-        /// Baseball Ball
+        /// Baseball
         /// </summary>
         /// <remarks>
         /// baseball - Available in Solid
@@ -1574,7 +1574,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Baseball,
 
         /// <summary>
-        /// Baseball Ball
+        /// Baseball
         /// </summary>
         /// <remarks>
         /// baseball-ball - Available in Solid
@@ -1610,7 +1610,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ShoppingBasket,
 
         /// <summary>
-        /// Basketball Ball
+        /// Basketball
         /// </summary>
         /// <remarks>
         /// basketball - Available in Solid
@@ -1619,7 +1619,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Basketball,
 
         /// <summary>
-        /// Basketball Ball
+        /// Basketball
         /// </summary>
         /// <remarks>
         /// basketball-ball - Available in Solid
@@ -1691,7 +1691,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Battery5,
 
         /// <summary>
-        /// Battery 1 2 Full
+        /// Battery Half
         /// </summary>
         /// <remarks>
         /// battery-half - Available in Solid
@@ -1700,7 +1700,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         BatteryHalf,
 
         /// <summary>
-        /// Battery 1 2 Full
+        /// Battery Half
         /// </summary>
         /// <remarks>
         /// battery-3 - Available in Solid
@@ -1709,7 +1709,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Battery3,
 
         /// <summary>
-        /// Battery 1 4 Full
+        /// Battery Quarter
         /// </summary>
         /// <remarks>
         /// battery-quarter - Available in Solid
@@ -1718,7 +1718,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         BatteryQuarter,
 
         /// <summary>
-        /// Battery 1 4 Full
+        /// Battery Quarter
         /// </summary>
         /// <remarks>
         /// battery-2 - Available in Solid
@@ -1727,7 +1727,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Battery2,
 
         /// <summary>
-        /// Battery 3 4 Full
+        /// Battery Three Quarters
         /// </summary>
         /// <remarks>
         /// battery-three-quarters - Available in Solid
@@ -1736,7 +1736,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         BatteryThreeQuarters,
 
         /// <summary>
-        /// Battery 3 4 Full
+        /// Battery Three Quarters
         /// </summary>
         /// <remarks>
         /// battery-4 - Available in Solid
@@ -1925,7 +1925,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Zap,
 
         /// <summary>
-        /// Lightning Bolt
+        /// Bolt Lightning
         /// </summary>
         /// <remarks>
         /// bolt-lightning - Available in Solid
@@ -2033,7 +2033,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         JournalWhills,
 
         /// <summary>
-        /// Medical Book
+        /// Book Medical
         /// </summary>
         /// <remarks>
         /// book-medical - Available in Solid
@@ -2258,7 +2258,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         BoxOpen,
 
         /// <summary>
-        /// Tissue Box
+        /// Box Tissue
         /// </summary>
         /// <remarks>
         /// box-tissue - Available in Solid
@@ -2402,7 +2402,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Briefcase,
 
         /// <summary>
-        /// Medical Briefcase
+        /// Briefcase Medical
         /// </summary>
         /// <remarks>
         /// briefcase-medical - Available in Solid
@@ -2420,7 +2420,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Broom,
 
         /// <summary>
-        /// Broom and Ball
+        /// Broom Ball
         /// </summary>
         /// <remarks>
         /// broom-ball - Available in Solid
@@ -2429,7 +2429,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         BroomBall,
 
         /// <summary>
-        /// Broom and Ball
+        /// Broom Ball
         /// </summary>
         /// <remarks>
         /// quidditch - Available in Solid
@@ -2438,7 +2438,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Quidditch,
 
         /// <summary>
-        /// Broom and Ball
+        /// Broom Ball
         /// </summary>
         /// <remarks>
         /// quidditch-broom-ball - Available in Solid
@@ -2537,7 +2537,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         BuildingCircleXmark,
 
         /// <summary>
-        /// Building With Columns
+        /// Building Columns
         /// </summary>
         /// <remarks>
         /// building-columns - Available in Solid
@@ -2546,7 +2546,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         BuildingColumns,
 
         /// <summary>
-        /// Building With Columns
+        /// Building Columns
         /// </summary>
         /// <remarks>
         /// bank - Available in Solid
@@ -2555,7 +2555,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Bank,
 
         /// <summary>
-        /// Building With Columns
+        /// Building Columns
         /// </summary>
         /// <remarks>
         /// institution - Available in Solid
@@ -2564,7 +2564,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Institution,
 
         /// <summary>
-        /// Building With Columns
+        /// Building Columns
         /// </summary>
         /// <remarks>
         /// museum - Available in Solid
@@ -2573,7 +2573,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Museum,
 
         /// <summary>
-        /// Building With Columns
+        /// Building Columns
         /// </summary>
         /// <remarks>
         /// university - Available in Solid
@@ -2717,7 +2717,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         BusAlt,
 
         /// <summary>
-        /// Briefcase Clock
+        /// Business Time
         /// </summary>
         /// <remarks>
         /// business-time - Available in Solid
@@ -2726,7 +2726,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         BusinessTime,
 
         /// <summary>
-        /// Briefcase Clock
+        /// Business Time
         /// </summary>
         /// <remarks>
         /// briefcase-clock - Available in Solid
@@ -2816,7 +2816,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CalendarCheck,
 
         /// <summary>
-        /// Calendar With Day Focus
+        /// Calendar Day
         /// </summary>
         /// <remarks>
         /// calendar-day - Available in Solid
@@ -2861,7 +2861,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CalendarPlus,
 
         /// <summary>
-        /// Calendar With Week Focus
+        /// Calendar Week
         /// </summary>
         /// <remarks>
         /// calendar-week - Available in Solid
@@ -2870,7 +2870,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CalendarWeek,
 
         /// <summary>
-        /// Calendar X Mark
+        /// Calendar Xmark
         /// </summary>
         /// <remarks>
         /// calendar-xmark - Available in Solid, Regular
@@ -2879,7 +2879,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CalendarXmark,
 
         /// <summary>
-        /// Calendar X Mark
+        /// Calendar Xmark
         /// </summary>
         /// <remarks>
         /// calendar-times - Available in Solid, Regular
@@ -2906,7 +2906,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CameraAlt,
 
         /// <summary>
-        /// Retro Camera
+        /// Camera Retro
         /// </summary>
         /// <remarks>
         /// camera-retro - Available in Solid
@@ -2996,7 +2996,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         BatteryCar,
 
         /// <summary>
-        /// Car Crash
+        /// Car Burst
         /// </summary>
         /// <remarks>
         /// car-burst - Available in Solid
@@ -3005,7 +3005,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CarBurst,
 
         /// <summary>
-        /// Car Crash
+        /// Car Burst
         /// </summary>
         /// <remarks>
         /// car-crash - Available in Solid
@@ -3302,7 +3302,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ChargingStation,
 
         /// <summary>
-        /// Area Chart
+        /// Chart Area
         /// </summary>
         /// <remarks>
         /// chart-area - Available in Solid
@@ -3311,7 +3311,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ChartArea,
 
         /// <summary>
-        /// Area Chart
+        /// Chart Area
         /// </summary>
         /// <remarks>
         /// area-chart - Available in Solid
@@ -3320,7 +3320,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         AreaChart,
 
         /// <summary>
-        /// Bar Chart
+        /// Chart Bar
         /// </summary>
         /// <remarks>
         /// chart-bar - Available in Solid, Regular
@@ -3329,7 +3329,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ChartBar,
 
         /// <summary>
-        /// Bar Chart
+        /// Chart Bar
         /// </summary>
         /// <remarks>
         /// bar-chart - Available in Solid, Regular
@@ -3356,7 +3356,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ChartGantt,
 
         /// <summary>
-        /// Line Chart
+        /// Chart Line
         /// </summary>
         /// <remarks>
         /// chart-line - Available in Solid
@@ -3365,7 +3365,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ChartLine,
 
         /// <summary>
-        /// Line Chart
+        /// Chart Line
         /// </summary>
         /// <remarks>
         /// line-chart - Available in Solid
@@ -3374,7 +3374,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         LineChart,
 
         /// <summary>
-        /// Pie Chart
+        /// Chart Pie
         /// </summary>
         /// <remarks>
         /// chart-pie - Available in Solid
@@ -3383,7 +3383,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ChartPie,
 
         /// <summary>
-        /// Pie Chart
+        /// Chart Pie
         /// </summary>
         /// <remarks>
         /// pie-chart - Available in Solid
@@ -3410,7 +3410,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Check,
 
         /// <summary>
-        /// Double Check
+        /// Check Double
         /// </summary>
         /// <remarks>
         /// check-double - Available in Solid
@@ -3959,7 +3959,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CircleNodes,
 
         /// <summary>
-        /// Circle Notched
+        /// Circle Notch
         /// </summary>
         /// <remarks>
         /// circle-notch - Available in Solid
@@ -4130,7 +4130,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         UserCircle,
 
         /// <summary>
-        /// Circle X Mark
+        /// Circle Xmark
         /// </summary>
         /// <remarks>
         /// circle-xmark - Available in Solid, Regular
@@ -4139,7 +4139,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CircleXmark,
 
         /// <summary>
-        /// Circle X Mark
+        /// Circle Xmark
         /// </summary>
         /// <remarks>
         /// times-circle - Available in Solid, Regular
@@ -4148,7 +4148,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         TimesCircle,
 
         /// <summary>
-        /// Circle X Mark
+        /// Circle Xmark
         /// </summary>
         /// <remarks>
         /// xmark-circle - Available in Solid, Regular
@@ -4355,7 +4355,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Thunderstorm,
 
         /// <summary>
-        /// Cloud With a Chance of Meatball
+        /// Cloud Meatball
         /// </summary>
         /// <remarks>
         /// cloud-meatball - Available in Solid
@@ -4364,7 +4364,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CloudMeatball,
 
         /// <summary>
-        /// Cloud With Moon
+        /// Cloud Moon
         /// </summary>
         /// <remarks>
         /// cloud-moon - Available in Solid
@@ -4373,7 +4373,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CloudMoon,
 
         /// <summary>
-        /// Cloud With Moon and Rain
+        /// Cloud Moon Rain
         /// </summary>
         /// <remarks>
         /// cloud-moon-rain - Available in Solid
@@ -4382,7 +4382,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CloudMoonRain,
 
         /// <summary>
-        /// Cloud With Rain
+        /// Cloud Rain
         /// </summary>
         /// <remarks>
         /// cloud-rain - Available in Solid
@@ -4391,7 +4391,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CloudRain,
 
         /// <summary>
-        /// Cloud With Heavy Showers
+        /// Cloud Showers Heavy
         /// </summary>
         /// <remarks>
         /// cloud-showers-heavy - Available in Solid
@@ -4409,7 +4409,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CloudShowersWater,
 
         /// <summary>
-        /// Cloud With Sun
+        /// Cloud Sun
         /// </summary>
         /// <remarks>
         /// cloud-sun - Available in Solid
@@ -4418,7 +4418,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CloudSun,
 
         /// <summary>
-        /// Cloud With Sun and Rain
+        /// Cloud Sun Rain
         /// </summary>
         /// <remarks>
         /// cloud-sun-rain - Available in Solid
@@ -4553,7 +4553,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Commenting,
 
         /// <summary>
-        /// Alternate Medical Chat
+        /// Comment Medical
         /// </summary>
         /// <remarks>
         /// comment-medical - Available in Solid
@@ -4949,7 +4949,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         DiagramPredecessor,
 
         /// <summary>
-        /// Project Diagram
+        /// Diagram Project
         /// </summary>
         /// <remarks>
         /// diagram-project - Available in Solid
@@ -4958,7 +4958,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         DiagramProject,
 
         /// <summary>
-        /// Project Diagram
+        /// Diagram Project
         /// </summary>
         /// <remarks>
         /// project-diagram - Available in Solid
@@ -5111,7 +5111,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Divide,
 
         /// <summary>
-        /// DNA
+        /// Dna
         /// </summary>
         /// <remarks>
         /// dna - Available in Solid
@@ -5327,7 +5327,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         DrumSteelpan,
 
         /// <summary>
-        /// Drumstick With Bite Taken Out
+        /// Drumstick Bite
         /// </summary>
         /// <remarks>
         /// drumstick-bite - Available in Solid
@@ -6578,7 +6578,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FileUpload,
 
         /// <summary>
-        /// Audio File
+        /// File Audio
         /// </summary>
         /// <remarks>
         /// file-audio - Available in Solid, Regular
@@ -6641,7 +6641,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FileCircleXmark,
 
         /// <summary>
-        /// Code File
+        /// File Code
         /// </summary>
         /// <remarks>
         /// file-code - Available in Solid, Regular
@@ -6659,7 +6659,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FileContract,
 
         /// <summary>
-        /// File CSV
+        /// File Csv
         /// </summary>
         /// <remarks>
         /// file-csv - Available in Solid
@@ -6668,7 +6668,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FileCsv,
 
         /// <summary>
-        /// Excel File
+        /// File Excel
         /// </summary>
         /// <remarks>
         /// file-excel - Available in Solid, Regular
@@ -6695,7 +6695,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ArrowRightFromFile,
 
         /// <summary>
-        /// Image File
+        /// File Image
         /// </summary>
         /// <remarks>
         /// file-image - Available in Solid, Regular
@@ -6731,7 +6731,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FileInvoice,
 
         /// <summary>
-        /// File Invoice With US Dollar
+        /// File Invoice Dollar
         /// </summary>
         /// <remarks>
         /// file-invoice-dollar - Available in Solid
@@ -6767,7 +6767,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FileText,
 
         /// <summary>
-        /// Medical File
+        /// File Medical
         /// </summary>
         /// <remarks>
         /// file-medical - Available in Solid
@@ -6776,7 +6776,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FileMedical,
 
         /// <summary>
-        /// PDF File
+        /// File Pdf
         /// </summary>
         /// <remarks>
         /// file-pdf - Available in Solid, Regular
@@ -6803,7 +6803,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FileEdit,
 
         /// <summary>
-        /// Powerpoint File
+        /// File Powerpoint
         /// </summary>
         /// <remarks>
         /// file-powerpoint - Available in Solid, Regular
@@ -6839,7 +6839,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FileSignature,
 
         /// <summary>
-        /// Video File
+        /// File Video
         /// </summary>
         /// <remarks>
         /// file-video - Available in Solid, Regular
@@ -6866,7 +6866,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FileMedicalAlt,
 
         /// <summary>
-        /// Word File
+        /// File Word
         /// </summary>
         /// <remarks>
         /// file-word - Available in Solid, Regular
@@ -6947,7 +6947,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FunnelDollar,
 
         /// <summary>
-        /// Filter Circle X Mark
+        /// Filter Circle Xmark
         /// </summary>
         /// <remarks>
         /// filter-circle-xmark - Available in Solid
@@ -7082,7 +7082,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Flask,
 
         /// <summary>
-        /// Flask and Vial
+        /// Flask Vial
         /// </summary>
         /// <remarks>
         /// flask-vial - Available in Solid
@@ -7217,7 +7217,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FontAwesomeLogoFull,
 
         /// <summary>
-        /// Football Ball
+        /// Football
         /// </summary>
         /// <remarks>
         /// football - Available in Solid
@@ -7226,7 +7226,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Football,
 
         /// <summary>
-        /// Football Ball
+        /// Football
         /// </summary>
         /// <remarks>
         /// football-ball - Available in Solid
@@ -7298,7 +7298,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Frog,
 
         /// <summary>
-        /// Futbol Ball
+        /// Futbol
         /// </summary>
         /// <remarks>
         /// futbol - Available in Solid, Regular
@@ -7307,7 +7307,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Futbol,
 
         /// <summary>
-        /// Futbol Ball
+        /// Futbol
         /// </summary>
         /// <remarks>
         /// futbol-ball - Available in Solid, Regular
@@ -7316,7 +7316,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FutbolBall,
 
         /// <summary>
-        /// Futbol Ball
+        /// Futbol
         /// </summary>
         /// <remarks>
         /// soccer-ball - Available in Solid, Regular
@@ -7352,7 +7352,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         GasPump,
 
         /// <summary>
-        /// Gauge Med
+        /// Gauge
         /// </summary>
         /// <remarks>
         /// gauge - Available in Solid
@@ -7361,7 +7361,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Gauge,
 
         /// <summary>
-        /// Gauge Med
+        /// Gauge
         /// </summary>
         /// <remarks>
         /// dashboard - Available in Solid
@@ -7370,7 +7370,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Dashboard,
 
         /// <summary>
-        /// Gauge Med
+        /// Gauge
         /// </summary>
         /// <remarks>
         /// gauge-med - Available in Solid
@@ -7379,7 +7379,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         GaugeMed,
 
         /// <summary>
-        /// Gauge Med
+        /// Gauge
         /// </summary>
         /// <remarks>
         /// tachometer-alt-average - Available in Solid
@@ -7388,7 +7388,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         TachometerAltAverage,
 
         /// <summary>
-        /// Gauge
+        /// Gauge High
         /// </summary>
         /// <remarks>
         /// gauge-high - Available in Solid
@@ -7397,7 +7397,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         GaugeHigh,
 
         /// <summary>
-        /// Gauge
+        /// Gauge High
         /// </summary>
         /// <remarks>
         /// tachometer-alt - Available in Solid
@@ -7406,7 +7406,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         TachometerAlt,
 
         /// <summary>
-        /// Gauge
+        /// Gauge High
         /// </summary>
         /// <remarks>
         /// tachometer-alt-fast - Available in Solid
@@ -7415,7 +7415,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         TachometerAltFast,
 
         /// <summary>
-        /// Gauge Simple Med
+        /// Gauge Simple
         /// </summary>
         /// <remarks>
         /// gauge-simple - Available in Solid
@@ -7424,7 +7424,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         GaugeSimple,
 
         /// <summary>
-        /// Gauge Simple Med
+        /// Gauge Simple
         /// </summary>
         /// <remarks>
         /// gauge-simple-med - Available in Solid
@@ -7433,7 +7433,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         GaugeSimpleMed,
 
         /// <summary>
-        /// Gauge Simple Med
+        /// Gauge Simple
         /// </summary>
         /// <remarks>
         /// tachometer-average - Available in Solid
@@ -7442,7 +7442,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         TachometerAverage,
 
         /// <summary>
-        /// Gauge Simple
+        /// Gauge Simple High
         /// </summary>
         /// <remarks>
         /// gauge-simple-high - Available in Solid
@@ -7451,7 +7451,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         GaugeSimpleHigh,
 
         /// <summary>
-        /// Gauge Simple
+        /// Gauge Simple High
         /// </summary>
         /// <remarks>
         /// tachometer - Available in Solid
@@ -7460,7 +7460,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Tachometer,
 
         /// <summary>
-        /// Gauge Simple
+        /// Gauge Simple High
         /// </summary>
         /// <remarks>
         /// tachometer-fast - Available in Solid
@@ -7658,7 +7658,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         GreaterThan,
 
         /// <summary>
-        /// Greater Than Equal to
+        /// Greater Than Equal
         /// </summary>
         /// <remarks>
         /// greater-than-equal - Available in Solid
@@ -7775,7 +7775,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Hamsa,
 
         /// <summary>
-        /// Paper Hand
+        /// Hand
         /// </summary>
         /// <remarks>
         /// hand - Available in Solid, Regular
@@ -7784,7 +7784,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Hand,
 
         /// <summary>
-        /// Paper Hand
+        /// Hand
         /// </summary>
         /// <remarks>
         /// hand-paper - Available in Solid, Regular
@@ -7793,7 +7793,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandPaper,
 
         /// <summary>
-        /// Rock Hand
+        /// Hand Back Fist
         /// </summary>
         /// <remarks>
         /// hand-back-fist - Available in Solid, Regular
@@ -7802,7 +7802,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandBackFist,
 
         /// <summary>
-        /// Rock Hand
+        /// Hand Back Fist
         /// </summary>
         /// <remarks>
         /// hand-rock - Available in Solid, Regular
@@ -7829,7 +7829,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Allergies,
 
         /// <summary>
-        /// Raised Fist
+        /// Hand Fist
         /// </summary>
         /// <remarks>
         /// hand-fist - Available in Solid
@@ -7838,7 +7838,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandFist,
 
         /// <summary>
-        /// Raised Fist
+        /// Hand Fist
         /// </summary>
         /// <remarks>
         /// fist-raised - Available in Solid
@@ -7910,7 +7910,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandHoldingHeart,
 
         /// <summary>
-        /// Hand Holding Medical Cross
+        /// Hand Holding Medical
         /// </summary>
         /// <remarks>
         /// hand-holding-medical - Available in Solid
@@ -7919,7 +7919,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandHoldingMedical,
 
         /// <summary>
-        /// Lizard Hand
+        /// Hand Lizard
         /// </summary>
         /// <remarks>
         /// hand-lizard - Available in Solid, Regular
@@ -7928,7 +7928,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandLizard,
 
         /// <summary>
-        /// Hand With Middle Finger Raised
+        /// Hand Middle Finger
         /// </summary>
         /// <remarks>
         /// hand-middle-finger - Available in Solid
@@ -7937,7 +7937,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandMiddleFinger,
 
         /// <summary>
-        /// Peace Hand
+        /// Hand Peace
         /// </summary>
         /// <remarks>
         /// hand-peace - Available in Solid, Regular
@@ -7946,7 +7946,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandPeace,
 
         /// <summary>
-        /// Hand Pointing Down
+        /// Hand Point Down
         /// </summary>
         /// <remarks>
         /// hand-point-down - Available in Solid, Regular
@@ -7955,7 +7955,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandPointDown,
 
         /// <summary>
-        /// Hand Pointing Left
+        /// Hand Point Left
         /// </summary>
         /// <remarks>
         /// hand-point-left - Available in Solid, Regular
@@ -7964,7 +7964,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandPointLeft,
 
         /// <summary>
-        /// Hand Pointing Right
+        /// Hand Point Right
         /// </summary>
         /// <remarks>
         /// hand-point-right - Available in Solid, Regular
@@ -7973,7 +7973,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandPointRight,
 
         /// <summary>
-        /// Hand Pointing up
+        /// Hand Point up
         /// </summary>
         /// <remarks>
         /// hand-point-up - Available in Solid, Regular
@@ -7982,7 +7982,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandPointUp,
 
         /// <summary>
-        /// Pointer Hand
+        /// Hand Pointer
         /// </summary>
         /// <remarks>
         /// hand-pointer - Available in Solid, Regular
@@ -7991,7 +7991,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandPointer,
 
         /// <summary>
-        /// Scissors Hand
+        /// Hand Scissors
         /// </summary>
         /// <remarks>
         /// hand-scissors - Available in Solid, Regular
@@ -8009,7 +8009,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandSparkles,
 
         /// <summary>
-        /// Spock Hand
+        /// Hand Spock
         /// </summary>
         /// <remarks>
         /// hand-spock - Available in Solid, Regular
@@ -8054,7 +8054,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Signing,
 
         /// <summary>
-        /// Hands American Sign Language Interpreting
+        /// Hands Asl Interpreting
         /// </summary>
         /// <remarks>
         /// hands-asl-interpreting - Available in Solid
@@ -8063,7 +8063,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandsAslInterpreting,
 
         /// <summary>
-        /// Hands American Sign Language Interpreting
+        /// Hands Asl Interpreting
         /// </summary>
         /// <remarks>
         /// american-sign-language-interpreting - Available in Solid
@@ -8072,7 +8072,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         AmericanSignLanguageInterpreting,
 
         /// <summary>
-        /// Hands American Sign Language Interpreting
+        /// Hands Asl Interpreting
         /// </summary>
         /// <remarks>
         /// asl-interpreting - Available in Solid
@@ -8081,7 +8081,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         AslInterpreting,
 
         /// <summary>
-        /// Hands American Sign Language Interpreting
+        /// Hands Asl Interpreting
         /// </summary>
         /// <remarks>
         /// hands-american-sign-language-interpreting - Available in Solid
@@ -8279,7 +8279,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Hashtag,
 
         /// <summary>
-        /// Cowboy Hat
+        /// Hat Cowboy
         /// </summary>
         /// <remarks>
         /// hat-cowboy - Available in Solid
@@ -8288,7 +8288,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HatCowboy,
 
         /// <summary>
-        /// Cowboy Hat Side
+        /// Hat Cowboy Side
         /// </summary>
         /// <remarks>
         /// hat-cowboy-side - Available in Solid
@@ -8297,7 +8297,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HatCowboySide,
 
         /// <summary>
-        /// Wizard S Hat
+        /// Hat Wizard
         /// </summary>
         /// <remarks>
         /// hat-wizard - Available in Solid
@@ -8648,7 +8648,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HospitalWide,
 
         /// <summary>
-        /// Hospital With User
+        /// Hospital User
         /// </summary>
         /// <remarks>
         /// hospital-user - Available in Solid
@@ -8675,7 +8675,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HotTub,
 
         /// <summary>
-        /// Hot Dog
+        /// Hotdog
         /// </summary>
         /// <remarks>
         /// hotdog - Available in Solid
@@ -8819,7 +8819,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HomeLg,
 
         /// <summary>
-        /// House Crack
+        /// House Chimney Crack
         /// </summary>
         /// <remarks>
         /// house-chimney-crack - Available in Solid
@@ -8828,7 +8828,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HouseChimneyCrack,
 
         /// <summary>
-        /// House Crack
+        /// House Chimney Crack
         /// </summary>
         /// <remarks>
         /// house-damage - Available in Solid
@@ -8837,7 +8837,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HouseDamage,
 
         /// <summary>
-        /// House Medical
+        /// House Chimney Medical
         /// </summary>
         /// <remarks>
         /// house-chimney-medical - Available in Solid
@@ -8846,7 +8846,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HouseChimneyMedical,
 
         /// <summary>
-        /// House Medical
+        /// House Chimney Medical
         /// </summary>
         /// <remarks>
         /// clinic-medical - Available in Solid
@@ -8855,7 +8855,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ClinicMedical,
 
         /// <summary>
-        /// House User
+        /// House Chimney User
         /// </summary>
         /// <remarks>
         /// house-chimney-user - Available in Solid
@@ -8864,7 +8864,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HouseChimneyUser,
 
         /// <summary>
-        /// House With Window Chimney
+        /// House Chimney Window
         /// </summary>
         /// <remarks>
         /// house-chimney-window - Available in Solid
@@ -8900,7 +8900,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HouseCircleXmark,
 
         /// <summary>
-        /// House Simple Crack
+        /// House Crack
         /// </summary>
         /// <remarks>
         /// house-crack - Available in Solid
@@ -8927,7 +8927,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HouseFlag,
 
         /// <summary>
-        /// House Flood
+        /// House Flood Water
         /// </summary>
         /// <remarks>
         /// house-flood-water - Available in Solid
@@ -8936,7 +8936,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HouseFloodWater,
 
         /// <summary>
-        /// House Flood Circle Arrow Right
+        /// House Flood Water Circle Arrow Right
         /// </summary>
         /// <remarks>
         /// house-flood-water-circle-arrow-right - Available in Solid
@@ -8972,7 +8972,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HouseLock,
 
         /// <summary>
-        /// House Simple Medical
+        /// House Medical
         /// </summary>
         /// <remarks>
         /// house-medical - Available in Solid
@@ -9035,7 +9035,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HouseTsunami,
 
         /// <summary>
-        /// Home User
+        /// House User
         /// </summary>
         /// <remarks>
         /// house-user - Available in Solid
@@ -9044,7 +9044,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HouseUser,
 
         /// <summary>
-        /// Home User
+        /// House User
         /// </summary>
         /// <remarks>
         /// home-user - Available in Solid
@@ -9089,7 +9089,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         I,
 
         /// <summary>
-        /// I Beam Cursor
+        /// I Cursor
         /// </summary>
         /// <remarks>
         /// i-cursor - Available in Solid
@@ -9134,7 +9134,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HeartMusicCameraBolt,
 
         /// <summary>
-        /// Identification Badge
+        /// Id Badge
         /// </summary>
         /// <remarks>
         /// id-badge - Available in Solid, Regular
@@ -9143,7 +9143,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         IdBadge,
 
         /// <summary>
-        /// Identification Card
+        /// Id Card
         /// </summary>
         /// <remarks>
         /// id-card - Available in Solid, Regular
@@ -9152,7 +9152,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         IdCard,
 
         /// <summary>
-        /// Identification Card
+        /// Id Card
         /// </summary>
         /// <remarks>
         /// drivers-license - Available in Solid, Regular
@@ -9656,7 +9656,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         LessThan,
 
         /// <summary>
-        /// Less Than Equal to
+        /// Less Than Equal
         /// </summary>
         /// <remarks>
         /// less-than-equal - Available in Solid
@@ -9890,7 +9890,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         MapMarkerAlt,
 
         /// <summary>
-        /// Location
+        /// Location Pin
         /// </summary>
         /// <remarks>
         /// location-pin - Available in Solid
@@ -9899,7 +9899,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         LocationPin,
 
         /// <summary>
-        /// Location
+        /// Location Pin
         /// </summary>
         /// <remarks>
         /// map-marker - Available in Solid
@@ -10304,7 +10304,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Mask,
 
         /// <summary>
-        /// Face Mask
+        /// Mask Face
         /// </summary>
         /// <remarks>
         /// mask-face - Available in Solid
@@ -10700,7 +10700,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         MoneyBillTrendUp,
 
         /// <summary>
-        /// Wavy Money Bill
+        /// Money Bill Wave
         /// </summary>
         /// <remarks>
         /// money-bill-wave - Available in Solid
@@ -10907,7 +10907,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         NairaSign,
 
         /// <summary>
-        /// Wired Network
+        /// Network Wired
         /// </summary>
         /// <remarks>
         /// network-wired - Available in Solid
@@ -11087,7 +11087,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         PaintRoller,
 
         /// <summary>
-        /// Paint Brush
+        /// Paintbrush
         /// </summary>
         /// <remarks>
         /// paintbrush - Available in Solid
@@ -11096,7 +11096,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Paintbrush,
 
         /// <summary>
-        /// Paint Brush
+        /// Paintbrush
         /// </summary>
         /// <remarks>
         /// paint-brush - Available in Solid
@@ -11321,7 +11321,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         PencilAlt,
 
         /// <summary>
-        /// People Arrows Left Right
+        /// People Arrows
         /// </summary>
         /// <remarks>
         /// people-arrows - Available in Solid
@@ -11330,7 +11330,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         PeopleArrows,
 
         /// <summary>
-        /// People Arrows Left Right
+        /// People Arrows
         /// </summary>
         /// <remarks>
         /// people-arrows-left-right - Available in Solid
@@ -11402,7 +11402,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         PeopleRoof,
 
         /// <summary>
-        /// Hot Pepper
+        /// Pepper Hot
         /// </summary>
         /// <remarks>
         /// pepper-hot - Available in Solid
@@ -11483,7 +11483,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Biking,
 
         /// <summary>
-        /// Person Entering Booth
+        /// Person Booth
         /// </summary>
         /// <remarks>
         /// person-booth - Available in Solid
@@ -11636,7 +11636,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Female,
 
         /// <summary>
-        /// Person Dress B Urst
+        /// Person Dress Burst
         /// </summary>
         /// <remarks>
         /// person-dress-burst - Available in Solid
@@ -12320,7 +12320,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Poo,
 
         /// <summary>
-        /// Poo Bolt
+        /// Poo Storm
         /// </summary>
         /// <remarks>
         /// poo-storm - Available in Solid
@@ -12329,7 +12329,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         PooStorm,
 
         /// <summary>
-        /// Poo Bolt
+        /// Poo Storm
         /// </summary>
         /// <remarks>
         /// poo-bolt - Available in Solid
@@ -12590,7 +12590,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ListAlt,
 
         /// <summary>
-        /// Rectangle X Mark
+        /// Rectangle Xmark
         /// </summary>
         /// <remarks>
         /// rectangle-xmark - Available in Solid, Regular
@@ -12599,7 +12599,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         RectangleXmark,
 
         /// <summary>
-        /// Rectangle X Mark
+        /// Rectangle Xmark
         /// </summary>
         /// <remarks>
         /// rectangle-times - Available in Solid, Regular
@@ -12608,7 +12608,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         RectangleTimes,
 
         /// <summary>
-        /// Rectangle X Mark
+        /// Rectangle Xmark
         /// </summary>
         /// <remarks>
         /// times-rectangle - Available in Solid, Regular
@@ -12617,7 +12617,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         TimesRectangle,
 
         /// <summary>
-        /// Rectangle X Mark
+        /// Rectangle Xmark
         /// </summary>
         /// <remarks>
         /// window-close - Available in Solid, Regular
@@ -12635,7 +12635,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Recycle,
 
         /// <summary>
-        /// Registered Trademark
+        /// Registered
         /// </summary>
         /// <remarks>
         /// registered - Available in Solid, Regular
@@ -13085,7 +13085,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         RulerVertical,
 
         /// <summary>
-        /// Indian Rupee Sign
+        /// Rupee Sign
         /// </summary>
         /// <remarks>
         /// rupee-sign - Available in Solid
@@ -13094,7 +13094,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         RupeeSign,
 
         /// <summary>
-        /// Indian Rupee Sign
+        /// Rupee Sign
         /// </summary>
         /// <remarks>
         /// rupee - Available in Solid
@@ -13121,7 +13121,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         S,
 
         /// <summary>
-        /// Sack of Money
+        /// Sack Dollar
         /// </summary>
         /// <remarks>
         /// sack-dollar - Available in Solid
@@ -13607,7 +13607,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Ship,
 
         /// <summary>
-        /// T Shirt
+        /// Shirt
         /// </summary>
         /// <remarks>
         /// shirt - Available in Solid
@@ -13616,7 +13616,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Shirt,
 
         /// <summary>
-        /// T Shirt
+        /// Shirt
         /// </summary>
         /// <remarks>
         /// t-shirt - Available in Solid
@@ -13625,7 +13625,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         TShirt,
 
         /// <summary>
-        /// T Shirt
+        /// Shirt
         /// </summary>
         /// <remarks>
         /// tshirt - Available in Solid
@@ -13814,7 +13814,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         MapSigns,
 
         /// <summary>
-        /// SIM Card
+        /// Sim Card
         /// </summary>
         /// <remarks>
         /// sim-card - Available in Solid
@@ -13985,7 +13985,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Unsorted,
 
         /// <summary>
-        /// Sort Down Descending
+        /// Sort Down
         /// </summary>
         /// <remarks>
         /// sort-down - Available in Solid
@@ -13994,7 +13994,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         SortDown,
 
         /// <summary>
-        /// Sort Down Descending
+        /// Sort Down
         /// </summary>
         /// <remarks>
         /// sort-desc - Available in Solid
@@ -14003,7 +14003,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         SortDesc,
 
         /// <summary>
-        /// Sort up Ascending
+        /// Sort up
         /// </summary>
         /// <remarks>
         /// sort-up - Available in Solid
@@ -14012,7 +14012,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         SortUp,
 
         /// <summary>
-        /// Sort up Ascending
+        /// Sort up
         /// </summary>
         /// <remarks>
         /// sort-asc - Available in Solid
@@ -14543,7 +14543,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         SquareVirus,
 
         /// <summary>
-        /// Square X Mark
+        /// Square Xmark
         /// </summary>
         /// <remarks>
         /// square-xmark - Available in Solid
@@ -14552,7 +14552,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         SquareXmark,
 
         /// <summary>
-        /// Square X Mark
+        /// Square Xmark
         /// </summary>
         /// <remarks>
         /// times-square - Available in Solid
@@ -14561,7 +14561,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         TimesSquare,
 
         /// <summary>
-        /// Square X Mark
+        /// Square Xmark
         /// </summary>
         /// <remarks>
         /// xmark-square - Available in Solid
@@ -14570,7 +14570,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         XmarkSquare,
 
         /// <summary>
-        /// Staff Aesculapius
+        /// Staff Snake
         /// </summary>
         /// <remarks>
         /// staff-snake - Available in Solid
@@ -14579,7 +14579,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         StaffSnake,
 
         /// <summary>
-        /// Staff Aesculapius
+        /// Staff Snake
         /// </summary>
         /// <remarks>
         /// rod-asclepius - Available in Solid
@@ -14588,7 +14588,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         RodAsclepius,
 
         /// <summary>
-        /// Staff Aesculapius
+        /// Staff Snake
         /// </summary>
         /// <remarks>
         /// rod-snake - Available in Solid
@@ -14597,7 +14597,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         RodSnake,
 
         /// <summary>
-        /// Staff Aesculapius
+        /// Staff Snake
         /// </summary>
         /// <remarks>
         /// staff-aesculapius - Available in Solid
@@ -15317,7 +15317,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ThermometerHalf,
 
         /// <summary>
-        /// High Temperature
+        /// Temperature High
         /// </summary>
         /// <remarks>
         /// temperature-high - Available in Solid
@@ -15326,7 +15326,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         TemperatureHigh,
 
         /// <summary>
-        /// Low Temperature
+        /// Temperature Low
         /// </summary>
         /// <remarks>
         /// temperature-low - Available in Solid
@@ -16073,7 +16073,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         TruckMoving,
 
         /// <summary>
-        /// Truck Side
+        /// Truck Pickup
         /// </summary>
         /// <remarks>
         /// truck-pickup - Available in Solid
@@ -16109,7 +16109,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         TruckLoading,
 
         /// <summary>
-        /// TTY
+        /// Tty
         /// </summary>
         /// <remarks>
         /// tty - Available in Solid
@@ -16118,7 +16118,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Tty,
 
         /// <summary>
-        /// TTY
+        /// Tty
         /// </summary>
         /// <remarks>
         /// teletype - Available in Solid
@@ -16190,7 +16190,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         LevelUpAlt,
 
         /// <summary>
-        /// Television
+        /// Tv
         /// </summary>
         /// <remarks>
         /// tv - Available in Solid
@@ -16199,7 +16199,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Tv,
 
         /// <summary>
-        /// Television
+        /// Tv
         /// </summary>
         /// <remarks>
         /// television - Available in Solid
@@ -16208,7 +16208,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Television,
 
         /// <summary>
-        /// Television
+        /// Tv
         /// </summary>
         /// <remarks>
         /// tv-alt - Available in Solid
@@ -16559,7 +16559,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         UserNinja,
 
         /// <summary>
-        /// Nurse
+        /// User Nurse
         /// </summary>
         /// <remarks>
         /// user-nurse - Available in Solid
@@ -16640,7 +16640,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         UserTie,
 
         /// <summary>
-        /// User X Mark
+        /// User Xmark
         /// </summary>
         /// <remarks>
         /// user-xmark - Available in Solid
@@ -16649,7 +16649,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         UserXmark,
 
         /// <summary>
-        /// User X Mark
+        /// User Xmark
         /// </summary>
         /// <remarks>
         /// user-times - Available in Solid
@@ -16982,7 +16982,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Volcano,
 
         /// <summary>
-        /// Volleyball Ball
+        /// Volleyball
         /// </summary>
         /// <remarks>
         /// volleyball - Available in Solid
@@ -16991,7 +16991,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Volleyball,
 
         /// <summary>
-        /// Volleyball Ball
+        /// Volleyball
         /// </summary>
         /// <remarks>
         /// volleyball-ball - Available in Solid
@@ -17045,7 +17045,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         VolumeOff,
 
         /// <summary>
-        /// Volume X Mark
+        /// Volume Xmark
         /// </summary>
         /// <remarks>
         /// volume-xmark - Available in Solid
@@ -17054,7 +17054,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         VolumeXmark,
 
         /// <summary>
-        /// Volume X Mark
+        /// Volume Xmark
         /// </summary>
         /// <remarks>
         /// volume-mute - Available in Solid
@@ -17063,7 +17063,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         VolumeMute,
 
         /// <summary>
-        /// Volume X Mark
+        /// Volume Xmark
         /// </summary>
         /// <remarks>
         /// volume-times - Available in Solid
@@ -17072,7 +17072,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         VolumeTimes,
 
         /// <summary>
-        /// Cardboard VR
+        /// Vr Cardboard
         /// </summary>
         /// <remarks>
         /// vr-cardboard - Available in Solid
@@ -17198,7 +17198,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         SwimmingPool,
 
         /// <summary>
-        /// Square Wave
+        /// Wave Square
         /// </summary>
         /// <remarks>
         /// wave-square - Available in Solid
@@ -17207,7 +17207,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         WaveSquare,
 
         /// <summary>
-        /// Hanging Weight
+        /// Weight Hanging
         /// </summary>
         /// <remarks>
         /// weight-hanging - Available in Solid
@@ -17306,7 +17306,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         GlassWhiskey,
 
         /// <summary>
-        /// Wi Fi
+        /// Wifi
         /// </summary>
         /// <remarks>
         /// wifi - Available in Solid
@@ -17315,7 +17315,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Wifi,
 
         /// <summary>
-        /// Wi Fi
+        /// Wifi
         /// </summary>
         /// <remarks>
         /// wifi-3 - Available in Solid
@@ -17324,7 +17324,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Wifi3,
 
         /// <summary>
-        /// Wi Fi
+        /// Wifi
         /// </summary>
         /// <remarks>
         /// wifi-strong - Available in Solid
@@ -17468,7 +17468,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         XRay,
 
         /// <summary>
-        /// X Mark
+        /// Xmark
         /// </summary>
         /// <remarks>
         /// xmark - Available in Solid
@@ -17477,7 +17477,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Xmark,
 
         /// <summary>
-        /// X Mark
+        /// Xmark
         /// </summary>
         /// <remarks>
         /// close - Available in Solid
@@ -17486,7 +17486,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Close,
 
         /// <summary>
-        /// X Mark
+        /// Xmark
         /// </summary>
         /// <remarks>
         /// multiply - Available in Solid
@@ -17495,7 +17495,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Multiply,
 
         /// <summary>
-        /// X Mark
+        /// Xmark
         /// </summary>
         /// <remarks>
         /// remove - Available in Solid
@@ -17504,7 +17504,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Remove,
 
         /// <summary>
-        /// X Mark
+        /// Xmark
         /// </summary>
         /// <remarks>
         /// times - Available in Solid

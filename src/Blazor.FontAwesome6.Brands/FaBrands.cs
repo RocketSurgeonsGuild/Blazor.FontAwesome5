@@ -2393,7 +2393,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         NfcDirectional,
 
         /// <summary>
-        /// NFC Simplified
+        /// Nfc Symbol
         /// </summary>
         /// <remarks>
         /// nfc-symbol - Available in Solid, Regular, Light, Thin, Duotone, Brands

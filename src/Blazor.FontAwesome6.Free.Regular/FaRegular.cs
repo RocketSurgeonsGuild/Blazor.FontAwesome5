@@ -143,7 +143,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CalendarPlus,
 
         /// <summary>
-        /// Calendar X Mark
+        /// Calendar Xmark
         /// </summary>
         /// <remarks>
         /// calendar-xmark - Available in Solid, Regular
@@ -152,7 +152,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CalendarXmark,
 
         /// <summary>
-        /// Calendar X Mark
+        /// Calendar Xmark
         /// </summary>
         /// <remarks>
         /// calendar-times - Available in Solid, Regular
@@ -161,7 +161,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CalendarTimes,
 
         /// <summary>
-        /// Bar Chart
+        /// Chart Bar
         /// </summary>
         /// <remarks>
         /// chart-bar - Available in Solid, Regular
@@ -170,7 +170,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ChartBar,
 
         /// <summary>
-        /// Bar Chart
+        /// Chart Bar
         /// </summary>
         /// <remarks>
         /// bar-chart - Available in Solid, Regular
@@ -440,7 +440,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         UserCircle,
 
         /// <summary>
-        /// Circle X Mark
+        /// Circle Xmark
         /// </summary>
         /// <remarks>
         /// circle-xmark - Available in Solid, Regular
@@ -449,7 +449,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         CircleXmark,
 
         /// <summary>
-        /// Circle X Mark
+        /// Circle Xmark
         /// </summary>
         /// <remarks>
         /// times-circle - Available in Solid, Regular
@@ -458,7 +458,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         TimesCircle,
 
         /// <summary>
-        /// Circle X Mark
+        /// Circle Xmark
         /// </summary>
         /// <remarks>
         /// xmark-circle - Available in Solid, Regular
@@ -1286,7 +1286,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         File,
 
         /// <summary>
-        /// Audio File
+        /// File Audio
         /// </summary>
         /// <remarks>
         /// file-audio - Available in Solid, Regular
@@ -1295,7 +1295,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FileAudio,
 
         /// <summary>
-        /// Code File
+        /// File Code
         /// </summary>
         /// <remarks>
         /// file-code - Available in Solid, Regular
@@ -1304,7 +1304,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FileCode,
 
         /// <summary>
-        /// Excel File
+        /// File Excel
         /// </summary>
         /// <remarks>
         /// file-excel - Available in Solid, Regular
@@ -1313,7 +1313,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FileExcel,
 
         /// <summary>
-        /// Image File
+        /// File Image
         /// </summary>
         /// <remarks>
         /// file-image - Available in Solid, Regular
@@ -1349,7 +1349,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FileText,
 
         /// <summary>
-        /// PDF File
+        /// File Pdf
         /// </summary>
         /// <remarks>
         /// file-pdf - Available in Solid, Regular
@@ -1358,7 +1358,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FilePdf,
 
         /// <summary>
-        /// Powerpoint File
+        /// File Powerpoint
         /// </summary>
         /// <remarks>
         /// file-powerpoint - Available in Solid, Regular
@@ -1367,7 +1367,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FilePowerpoint,
 
         /// <summary>
-        /// Video File
+        /// File Video
         /// </summary>
         /// <remarks>
         /// file-video - Available in Solid, Regular
@@ -1376,7 +1376,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FileVideo,
 
         /// <summary>
-        /// Word File
+        /// File Word
         /// </summary>
         /// <remarks>
         /// file-word - Available in Solid, Regular
@@ -1493,7 +1493,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FontAwesomeLogoFull,
 
         /// <summary>
-        /// Futbol Ball
+        /// Futbol
         /// </summary>
         /// <remarks>
         /// futbol - Available in Solid, Regular
@@ -1502,7 +1502,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Futbol,
 
         /// <summary>
-        /// Futbol Ball
+        /// Futbol
         /// </summary>
         /// <remarks>
         /// futbol-ball - Available in Solid, Regular
@@ -1511,7 +1511,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         FutbolBall,
 
         /// <summary>
-        /// Futbol Ball
+        /// Futbol
         /// </summary>
         /// <remarks>
         /// soccer-ball - Available in Solid, Regular
@@ -1529,7 +1529,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Gem,
 
         /// <summary>
-        /// Paper Hand
+        /// Hand
         /// </summary>
         /// <remarks>
         /// hand - Available in Solid, Regular
@@ -1538,7 +1538,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Hand,
 
         /// <summary>
-        /// Paper Hand
+        /// Hand
         /// </summary>
         /// <remarks>
         /// hand-paper - Available in Solid, Regular
@@ -1547,7 +1547,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandPaper,
 
         /// <summary>
-        /// Rock Hand
+        /// Hand Back Fist
         /// </summary>
         /// <remarks>
         /// hand-back-fist - Available in Solid, Regular
@@ -1556,7 +1556,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandBackFist,
 
         /// <summary>
-        /// Rock Hand
+        /// Hand Back Fist
         /// </summary>
         /// <remarks>
         /// hand-rock - Available in Solid, Regular
@@ -1565,7 +1565,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandRock,
 
         /// <summary>
-        /// Lizard Hand
+        /// Hand Lizard
         /// </summary>
         /// <remarks>
         /// hand-lizard - Available in Solid, Regular
@@ -1574,7 +1574,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandLizard,
 
         /// <summary>
-        /// Peace Hand
+        /// Hand Peace
         /// </summary>
         /// <remarks>
         /// hand-peace - Available in Solid, Regular
@@ -1583,7 +1583,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandPeace,
 
         /// <summary>
-        /// Hand Pointing Down
+        /// Hand Point Down
         /// </summary>
         /// <remarks>
         /// hand-point-down - Available in Solid, Regular
@@ -1592,7 +1592,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandPointDown,
 
         /// <summary>
-        /// Hand Pointing Left
+        /// Hand Point Left
         /// </summary>
         /// <remarks>
         /// hand-point-left - Available in Solid, Regular
@@ -1601,7 +1601,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandPointLeft,
 
         /// <summary>
-        /// Hand Pointing Right
+        /// Hand Point Right
         /// </summary>
         /// <remarks>
         /// hand-point-right - Available in Solid, Regular
@@ -1610,7 +1610,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandPointRight,
 
         /// <summary>
-        /// Hand Pointing up
+        /// Hand Point up
         /// </summary>
         /// <remarks>
         /// hand-point-up - Available in Solid, Regular
@@ -1619,7 +1619,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandPointUp,
 
         /// <summary>
-        /// Pointer Hand
+        /// Hand Pointer
         /// </summary>
         /// <remarks>
         /// hand-pointer - Available in Solid, Regular
@@ -1628,7 +1628,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandPointer,
 
         /// <summary>
-        /// Scissors Hand
+        /// Hand Scissors
         /// </summary>
         /// <remarks>
         /// hand-scissors - Available in Solid, Regular
@@ -1637,7 +1637,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         HandScissors,
 
         /// <summary>
-        /// Spock Hand
+        /// Hand Spock
         /// </summary>
         /// <remarks>
         /// hand-spock - Available in Solid, Regular
@@ -1745,7 +1745,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         Hourglass2,
 
         /// <summary>
-        /// Identification Badge
+        /// Id Badge
         /// </summary>
         /// <remarks>
         /// id-badge - Available in Solid, Regular
@@ -1754,7 +1754,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         IdBadge,
 
         /// <summary>
-        /// Identification Card
+        /// Id Card
         /// </summary>
         /// <remarks>
         /// id-card - Available in Solid, Regular
@@ -1763,7 +1763,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         IdCard,
 
         /// <summary>
-        /// Identification Card
+        /// Id Card
         /// </summary>
         /// <remarks>
         /// drivers-license - Available in Solid, Regular
@@ -1988,7 +1988,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         ListAlt,
 
         /// <summary>
-        /// Rectangle X Mark
+        /// Rectangle Xmark
         /// </summary>
         /// <remarks>
         /// rectangle-xmark - Available in Solid, Regular
@@ -1997,7 +1997,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         RectangleXmark,
 
         /// <summary>
-        /// Rectangle X Mark
+        /// Rectangle Xmark
         /// </summary>
         /// <remarks>
         /// rectangle-times - Available in Solid, Regular
@@ -2006,7 +2006,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         RectangleTimes,
 
         /// <summary>
-        /// Rectangle X Mark
+        /// Rectangle Xmark
         /// </summary>
         /// <remarks>
         /// times-rectangle - Available in Solid, Regular
@@ -2015,7 +2015,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         TimesRectangle,
 
         /// <summary>
-        /// Rectangle X Mark
+        /// Rectangle Xmark
         /// </summary>
         /// <remarks>
         /// window-close - Available in Solid, Regular
@@ -2024,7 +2024,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         WindowClose,
 
         /// <summary>
-        /// Registered Trademark
+        /// Registered
         /// </summary>
         /// <remarks>
         /// registered - Available in Solid, Regular

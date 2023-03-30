@@ -3869,7 +3869,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Symfony,
 
         /// <summary>
-        /// Team Speak
+        /// Teamspeak
         /// </summary>
         /// <remarks>
         /// teamspeak - Available in Brands

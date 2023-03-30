@@ -1160,6 +1160,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         MousePointer,
 
         /// <summary>
+        /// Arrow Progress
+        /// </summary>
+        /// <remarks>
+        /// arrow-progress - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "arrow-progress")]
+        ArrowProgress,
+
+        /// <summary>
         /// Arrow Right
         /// </summary>
         /// <remarks>
@@ -2465,6 +2474,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         Badminton,
 
         /// <summary>
+        /// Bag Seedling
+        /// </summary>
+        /// <remarks>
+        /// bag-seedling - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "bag-seedling")]
+        BagSeedling,
+
+        /// <summary>
         /// Bag Shopping
         /// </summary>
         /// <remarks>
@@ -3300,6 +3318,33 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "billboard")]
         Billboard,
+
+        /// <summary>
+        /// Bin Bottles
+        /// </summary>
+        /// <remarks>
+        /// bin-bottles - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "bin-bottles")]
+        BinBottles,
+
+        /// <summary>
+        /// Bin Bottles Recycle
+        /// </summary>
+        /// <remarks>
+        /// bin-bottles-recycle - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "bin-bottles-recycle")]
+        BinBottlesRecycle,
+
+        /// <summary>
+        /// Bin Recycle
+        /// </summary>
+        /// <remarks>
+        /// bin-recycle - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "bin-recycle")]
+        BinRecycle,
 
         /// <summary>
         /// Binary
@@ -5687,6 +5732,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         CalendarStar,
 
         /// <summary>
+        /// Calendar Users
+        /// </summary>
+        /// <remarks>
+        /// calendar-users - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "calendar-users")]
+        CalendarUsers,
+
+        /// <summary>
         /// Calendar Week
         /// </summary>
         /// <remarks>
@@ -6857,6 +6911,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         ChartLineUp,
 
         /// <summary>
+        /// Chart Line up Down
+        /// </summary>
+        /// <remarks>
+        /// chart-line-up-down - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "chart-line-up-down")]
+        ChartLineUpDown,
+
+        /// <summary>
         /// Chart Mixed
         /// </summary>
         /// <remarks>
@@ -6873,6 +6936,24 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chart-mixed")]
         Analytics,
+
+        /// <summary>
+        /// Chart Mixed up Circle Currency
+        /// </summary>
+        /// <remarks>
+        /// chart-mixed-up-circle-currency - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "chart-mixed-up-circle-currency")]
+        ChartMixedUpCircleCurrency,
+
+        /// <summary>
+        /// Chart Mixed up Circle Dollar
+        /// </summary>
+        /// <remarks>
+        /// chart-mixed-up-circle-dollar - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "chart-mixed-up-circle-dollar")]
+        ChartMixedUpCircleDollar,
 
         /// <summary>
         /// Chart Network
@@ -6918,6 +6999,24 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chart-pie-simple")]
         ChartPieAlt,
+
+        /// <summary>
+        /// Chart Pie Simple Circle Currency
+        /// </summary>
+        /// <remarks>
+        /// chart-pie-simple-circle-currency - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "chart-pie-simple-circle-currency")]
+        ChartPieSimpleCircleCurrency,
+
+        /// <summary>
+        /// Chart Pie Simple Circle Dollar
+        /// </summary>
+        /// <remarks>
+        /// chart-pie-simple-circle-dollar - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "chart-pie-simple-circle-dollar")]
+        ChartPieSimpleCircleDollar,
 
         /// <summary>
         /// Chart Pyramid
@@ -7404,6 +7503,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "chevrons-up")]
         ChevronDoubleUp,
+
+        /// <summary>
+        /// Chf Sign
+        /// </summary>
+        /// <remarks>
+        /// chf-sign - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "chf-sign")]
+        ChfSign,
 
         /// <summary>
         /// Child
@@ -9026,6 +9134,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         CircleZ,
 
         /// <summary>
+        /// Circles Overlap
+        /// </summary>
+        /// <remarks>
+        /// circles-overlap - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "circles-overlap")]
+        CirclesOverlap,
+
+        /// <summary>
         /// Citrus
         /// </summary>
         /// <remarks>
@@ -9510,6 +9627,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "cloud-arrow-up")]
         CloudUploadAlt,
+
+        /// <summary>
+        /// Cloud Binary
+        /// </summary>
+        /// <remarks>
+        /// cloud-binary - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "cloud-binary")]
+        CloudBinary,
 
         /// <summary>
         /// Cloud Bolt
@@ -10547,6 +10673,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         ConveyorBelt,
 
         /// <summary>
+        /// Conveyor Belt Arm
+        /// </summary>
+        /// <remarks>
+        /// conveyor-belt-arm - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "conveyor-belt-arm")]
+        ConveyorBeltArm,
+
+        /// <summary>
         /// Conveyor Belt Boxes
         /// </summary>
         /// <remarks>
@@ -11483,6 +11618,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         DiceTwo,
 
         /// <summary>
+        /// Dinosaur
+        /// </summary>
+        /// <remarks>
+        /// dinosaur - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "dinosaur")]
+        Dinosaur,
+
+        /// <summary>
         /// Diploma
         /// </summary>
         /// <remarks>
@@ -11535,6 +11679,33 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "display-arrow-down")]
         DisplayArrowDown,
+
+        /// <summary>
+        /// Display Chart up
+        /// </summary>
+        /// <remarks>
+        /// display-chart-up - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "display-chart-up")]
+        DisplayChartUp,
+
+        /// <summary>
+        /// Display Chart up Circle Currency
+        /// </summary>
+        /// <remarks>
+        /// display-chart-up-circle-currency - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "display-chart-up-circle-currency")]
+        DisplayChartUpCircleCurrency,
+
+        /// <summary>
+        /// Display Chart up Circle Dollar
+        /// </summary>
+        /// <remarks>
+        /// display-chart-up-circle-dollar - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "display-chart-up-circle-dollar")]
+        DisplayChartUpCircleDollar,
 
         /// <summary>
         /// Display Code
@@ -14588,6 +14759,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         PageBreak,
 
         /// <summary>
+        /// File Doc
+        /// </summary>
+        /// <remarks>
+        /// file-doc - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "file-doc")]
+        FileDoc,
+
+        /// <summary>
         /// File Excel
         /// </summary>
         /// <remarks>
@@ -14919,6 +15099,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "file-xmark")]
         FileTimes,
+
+        /// <summary>
+        /// File Zip
+        /// </summary>
+        /// <remarks>
+        /// file-zip - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "file-zip")]
+        FileZip,
 
         /// <summary>
         /// File Zipper
@@ -15342,6 +15531,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "flask")]
         Flask,
+
+        /// <summary>
+        /// Flask Gear
+        /// </summary>
+        /// <remarks>
+        /// flask-gear - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "flask-gear")]
+        FlaskGear,
 
         /// <summary>
         /// Flask Round Poison
@@ -16478,6 +16676,33 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         Cog,
 
         /// <summary>
+        /// Gear Code
+        /// </summary>
+        /// <remarks>
+        /// gear-code - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "gear-code")]
+        GearCode,
+
+        /// <summary>
+        /// Gear Complex
+        /// </summary>
+        /// <remarks>
+        /// gear-complex - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "gear-complex")]
+        GearComplex,
+
+        /// <summary>
+        /// Gear Complex Code
+        /// </summary>
+        /// <remarks>
+        /// gear-complex-code - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "gear-complex-code")]
+        GearComplexCode,
+
+        /// <summary>
         /// Gears
         /// </summary>
         /// <remarks>
@@ -16890,6 +17115,51 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "grid-horizontal")]
         GridHorizontal,
+
+        /// <summary>
+        /// Grid Round
+        /// </summary>
+        /// <remarks>
+        /// grid-round - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "grid-round")]
+        GridRound,
+
+        /// <summary>
+        /// Grid Round 2
+        /// </summary>
+        /// <remarks>
+        /// grid-round-2 - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "grid-round-2")]
+        GridRound2,
+
+        /// <summary>
+        /// Grid Round 2 Plus
+        /// </summary>
+        /// <remarks>
+        /// grid-round-2-plus - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "grid-round-2-plus")]
+        GridRound2Plus,
+
+        /// <summary>
+        /// Grid Round 4
+        /// </summary>
+        /// <remarks>
+        /// grid-round-4 - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "grid-round-4")]
+        GridRound4,
+
+        /// <summary>
+        /// Grid Round 5
+        /// </summary>
+        /// <remarks>
+        /// grid-round-5 - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "grid-round-5")]
+        GridRound5,
 
         /// <summary>
         /// Grill
@@ -17853,6 +18123,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "hashtag-lock")]
         HashtagLock,
+
+        /// <summary>
+        /// Hat Beach
+        /// </summary>
+        /// <remarks>
+        /// hat-beach - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "hat-beach")]
+        HatBeach,
 
         /// <summary>
         /// Hat Chef
@@ -19808,6 +20087,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         Jug,
 
         /// <summary>
+        /// Jug Bottle
+        /// </summary>
+        /// <remarks>
+        /// jug-bottle - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "jug-bottle")]
+        JugBottle,
+
+        /// <summary>
         /// Jug Detergent
         /// </summary>
         /// <remarks>
@@ -20184,6 +20472,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "laptop-arrow-down")]
         LaptopArrowDown,
+
+        /// <summary>
+        /// Laptop Binary
+        /// </summary>
+        /// <remarks>
+        /// laptop-binary - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "laptop-binary")]
+        LaptopBinary,
 
         /// <summary>
         /// Laptop Code
@@ -20598,6 +20895,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "lightbulb-exclamation-on")]
         LightbulbExclamationOn,
+
+        /// <summary>
+        /// Lightbulb Gear
+        /// </summary>
+        /// <remarks>
+        /// lightbulb-gear - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "lightbulb-gear")]
+        LightbulbGear,
 
         /// <summary>
         /// Lightbulb on
@@ -23426,7 +23732,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         NfcLock,
 
         /// <summary>
-        /// NFC Magnifying Glass
+        /// Nfc Magnifying Glass
         /// </summary>
         /// <remarks>
         /// nfc-magnifying-glass - Available in Solid, Regular, Light, Thin, Duotone
@@ -25305,6 +25611,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "person-running")]
         Running,
+
+        /// <summary>
+        /// Person Running Fast
+        /// </summary>
+        /// <remarks>
+        /// person-running-fast - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "person-running-fast")]
+        PersonRunningFast,
 
         /// <summary>
         /// Person Seat
@@ -27339,6 +27654,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "right-left")]
         ExchangeAlt,
+
+        /// <summary>
+        /// Right Left Large
+        /// </summary>
+        /// <remarks>
+        /// right-left-large - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "right-left-large")]
+        RightLeftLarge,
 
         /// <summary>
         /// Right Long
@@ -35331,6 +35655,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "user-group-crown")]
         UsersCrown,
+
+        /// <summary>
+        /// User Group Simple
+        /// </summary>
+        /// <remarks>
+        /// user-group-simple - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Solid, "user-group-simple")]
+        UserGroupSimple,
 
         /// <summary>
         /// User Hair

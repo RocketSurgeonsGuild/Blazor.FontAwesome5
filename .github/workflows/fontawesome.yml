@@ -16,11 +16,11 @@ jobs:
         run: |
           git fetch --prune
       - name: 🔨 Use .NET Core 2.1 SDK
-        uses: actions/setup-dotnet@v2
+        uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '2.1.x'
       - name: 🔨 Use .NET Core 3.1 SDK
-        uses: actions/setup-dotnet@v2
+        uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '3.1.x'
       - name: 🔨 Use .NET Core 5.0 SDK
@@ -38,7 +38,7 @@ jobs:
         run: |
           dotnet nuke RegenerateFromMetadata --font-awesome-token "${{ secrets.FONTAWESOME_TOKEN }}" --skip
       - name: ⬅ Pull Request
-        uses: peter-evans/create-pull-request@v4.2.4
+        uses: peter-evans/create-pull-request@v5.0.0
         with:
           token: ${{ secrets.RSG_BOT_TOKEN }}
           branch: 'update/icons'

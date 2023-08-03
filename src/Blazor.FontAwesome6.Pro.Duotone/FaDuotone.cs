@@ -593,6 +593,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         AngleDoubleUp,
 
         /// <summary>
+        /// Angles up Down
+        /// </summary>
+        /// <remarks>
+        /// angles-up-down - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Duotone, "angles-up-down")]
+        AnglesUpDown,
+
+        /// <summary>
         /// Ankh
         /// </summary>
         /// <remarks>
@@ -789,6 +798,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Duotone, "arrow-down-big-small")]
         SortSizeDown,
+
+        /// <summary>
+        /// Arrow Down From Arc
+        /// </summary>
+        /// <remarks>
+        /// arrow-down-from-arc - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Duotone, "arrow-down-from-arc")]
+        ArrowDownFromArc,
 
         /// <summary>
         /// Arrow Down From Dotted Line
@@ -1079,6 +1097,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         ArrowLeft,
 
         /// <summary>
+        /// Arrow Left From Arc
+        /// </summary>
+        /// <remarks>
+        /// arrow-left-from-arc - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Duotone, "arrow-left-from-arc")]
+        ArrowLeftFromArc,
+
+        /// <summary>
         /// Arrow Left From Line
         /// </summary>
         /// <remarks>
@@ -1122,6 +1149,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Duotone, "arrow-left-long-to-line")]
         ArrowLeftLongToLine,
+
+        /// <summary>
+        /// Arrow Left to Arc
+        /// </summary>
+        /// <remarks>
+        /// arrow-left-to-arc - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Duotone, "arrow-left-to-arc")]
+        ArrowLeftToArc,
 
         /// <summary>
         /// Arrow Left to Line
@@ -1779,6 +1815,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Duotone, "arrow-up-square-triangle")]
         SortShapesUpAlt,
+
+        /// <summary>
+        /// Arrow up to Arc
+        /// </summary>
+        /// <remarks>
+        /// arrow-up-to-arc - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Duotone, "arrow-up-to-arc")]
+        ArrowUpToArc,
 
         /// <summary>
         /// Arrow up to Dotted Line
@@ -16901,6 +16946,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         Globe,
 
         /// <summary>
+        /// Globe Pointer
+        /// </summary>
+        /// <remarks>
+        /// globe-pointer - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Duotone, "globe-pointer")]
+        GlobePointer,
+
+        /// <summary>
         /// Globe Snow
         /// </summary>
         /// <remarks>
@@ -18231,6 +18285,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Duotone, "head-side-cough-slash")]
         HeadSideCoughSlash,
+
+        /// <summary>
+        /// Head Side Gear
+        /// </summary>
+        /// <remarks>
+        /// head-side-gear - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Duotone, "head-side-gear")]
+        HeadSideGear,
 
         /// <summary>
         /// Head Side Goggles
@@ -20922,6 +20985,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Duotone, "lightbulb-slash")]
         LightbulbSlash,
+
+        /// <summary>
+        /// Lighthouse
+        /// </summary>
+        /// <remarks>
+        /// lighthouse - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Duotone, "lighthouse")]
+        Lighthouse,
 
         /// <summary>
         /// Lights Holiday
@@ -25424,6 +25496,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         PersonDressBurst,
 
         /// <summary>
+        /// Person Dress Fairy
+        /// </summary>
+        /// <remarks>
+        /// person-dress-fairy - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Duotone, "person-dress-fairy")]
+        PersonDressFairy,
+
+        /// <summary>
         /// Person Dress Simple
         /// </summary>
         /// <remarks>
@@ -25440,6 +25521,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Duotone, "person-drowning")]
         PersonDrowning,
+
+        /// <summary>
+        /// Person Fairy
+        /// </summary>
+        /// <remarks>
+        /// person-fairy - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Duotone, "person-fairy")]
+        PersonFairy,
 
         /// <summary>
         /// Person Falling
@@ -27078,6 +27168,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Duotone, "rabbit-running")]
         RabbitFast,
+
+        /// <summary>
+        /// Raccoon
+        /// </summary>
+        /// <remarks>
+        /// raccoon - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Duotone, "raccoon")]
+        Raccoon,
 
         /// <summary>
         /// Racquet
@@ -32309,6 +32408,24 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         Subscript,
 
         /// <summary>
+        /// Subtitles
+        /// </summary>
+        /// <remarks>
+        /// subtitles - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Duotone, "subtitles")]
+        Subtitles,
+
+        /// <summary>
+        /// Subtitles Slash
+        /// </summary>
+        /// <remarks>
+        /// subtitles-slash - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Duotone, "subtitles-slash")]
+        SubtitlesSlash,
+
+        /// <summary>
         /// Suitcase
         /// </summary>
         /// <remarks>
@@ -32487,6 +32604,24 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         /// </remarks>
         [FontAwesome(IconStyle.Duotone, "sushi-roll")]
         Makizushi,
+
+        /// <summary>
+        /// Swap
+        /// </summary>
+        /// <remarks>
+        /// swap - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Duotone, "swap")]
+        Swap,
+
+        /// <summary>
+        /// Swap Arrows
+        /// </summary>
+        /// <remarks>
+        /// swap-arrows - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Duotone, "swap-arrows")]
+        SwapArrows,
 
         /// <summary>
         /// Swatchbook

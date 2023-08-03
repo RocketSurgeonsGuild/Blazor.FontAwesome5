@@ -917,6 +917,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Dashcube,
 
         /// <summary>
+        /// Debian
+        /// </summary>
+        /// <remarks>
+        /// debian - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "debian")]
+        Debian,
+
+        /// <summary>
         /// Deezer
         /// </summary>
         /// <remarks>
@@ -3050,6 +3059,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Shirtsinbulk,
 
         /// <summary>
+        /// Shoelace
+        /// </summary>
+        /// <remarks>
+        /// shoelace - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "shoelace")]
+        Shoelace,
+
+        /// <summary>
         /// Shopify
         /// </summary>
         /// <remarks>
@@ -3563,6 +3581,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SteamSquare,
 
         /// <summary>
+        /// Square Threads
+        /// </summary>
+        /// <remarks>
+        /// square-threads - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-threads")]
+        SquareThreads,
+
+        /// <summary>
         /// Tumblr Square
         /// </summary>
         /// <remarks>
@@ -3581,7 +3608,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         TumblrSquare,
 
         /// <summary>
-        /// Twitter Square
+        /// Square Twitter
         /// </summary>
         /// <remarks>
         /// square-twitter - Available in Brands
@@ -3590,7 +3617,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareTwitter,
 
         /// <summary>
-        /// Twitter Square
+        /// Square Twitter
         /// </summary>
         /// <remarks>
         /// twitter-square - Available in Brands
@@ -3651,6 +3678,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "square-whatsapp")]
         WhatsappSquare,
+
+        /// <summary>
+        /// Square X Twitter
+        /// </summary>
+        /// <remarks>
+        /// square-x-twitter - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-x-twitter")]
+        SquareXTwitter,
 
         /// <summary>
         /// Xing Square
@@ -3939,6 +3975,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "think-peaks")]
         ThinkPeaks,
+
+        /// <summary>
+        /// Threads
+        /// </summary>
+        /// <remarks>
+        /// threads - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "threads")]
+        Threads,
 
         /// <summary>
         /// Tik Tok
@@ -4407,6 +4452,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "wpressr")]
         Rendact,
+
+        /// <summary>
+        /// X Twitter
+        /// </summary>
+        /// <remarks>
+        /// x-twitter - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "x-twitter")]
+        XTwitter,
 
         /// <summary>
         /// Xbox

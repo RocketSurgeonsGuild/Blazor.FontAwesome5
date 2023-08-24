@@ -23,7 +23,7 @@
             "commands": ["codecov"]
         },
         "jetbrains.resharper.globaltools": {
-            "version": "2023.2.0",
+            "version": "2023.2.1",
             "commands": ["jb"]
         },
         "dotnet-format": {

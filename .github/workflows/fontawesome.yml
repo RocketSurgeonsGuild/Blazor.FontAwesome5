@@ -9,26 +9,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3.0.2
+        uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac # v4.0.0
         with:
           fetch-depth: 0
       - name: Fetch all history for all tags and branches
         run: |
           git fetch --prune
       - name: 🔨 Use .NET Core 2.1 SDK
-        uses: actions/setup-dotnet@v2
+        uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '2.1.x'
       - name: 🔨 Use .NET Core 3.1 SDK
-        uses: actions/setup-dotnet@v2
+        uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '3.1.x'
       - name: 🔨 Use .NET Core 5.0 SDK
-        uses: actions/setup-dotnet@v2.1.0
+        uses: actions/setup-dotnet@v3.2.0
         with:
           dotnet-version: '5.0.x'
       - name: 🔨 Use .NET Core 6.0 SDK
-        uses: actions/setup-dotnet@v2.1.0
+        uses: actions/setup-dotnet@v3.2.0
         with:
           dotnet-version: '6.0.x'
       - name: 🎁 dotnet tool restore
@@ -38,7 +38,7 @@ jobs:
         run: |
           dotnet nuke RegenerateFromMetadata --font-awesome-token "${{ secrets.FONTAWESOME_TOKEN }}" --skip
       - name: ⬅ Pull Request
-        uses: peter-evans/create-pull-request@v4.0.4
+        uses: peter-evans/create-pull-request@v5.0.2
         with:
           token: ${{ secrets.RSG_BOT_TOKEN }}
           branch: 'update/icons'

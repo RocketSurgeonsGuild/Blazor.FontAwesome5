@@ -9,7 +9,6 @@ using Nuke.Common.Tools.MSBuild;
 using Rocket.Surgery.Nuke.DotNetCore;
 
 [PublicAPI]
-[CheckBuildProjectConfigurations]
 [UnsetVisualStudioEnvironmentVariables]
 [PackageIcon("https://raw.githubusercontent.com/RocketSurgeonsGuild/graphics/master/png/social-square-thrust-rounded.png")]
 [EnsureGitHooks(GitHook.PreCommit)]

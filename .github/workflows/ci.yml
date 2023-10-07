@@ -69,7 +69,7 @@ on:
       - '.github/renovate.json'
 
 jobs:
-  Build:
+  build:
     env:
       NUGET_PACKAGES: '${{ github.workspace }}/.nuget/packages'
     strategy:
@@ -102,15 +102,19 @@ jobs:
         run: |
           dotnet tool restore
       - name: 🎁 Restore
+        id: restore
         run: |
           dotnet nuke Restore --skip
       - name: ⚙ Build
+        id: build
         run: |
           dotnet nuke Build --skip
       - name: 🚦 Test
+        id: test
         run: |
           dotnet nuke Test TriggerCodeCoverageReports GenerateCodeCoverageReportCobertura GenerateCodeCoverageBadges GenerateCodeCoverageSummary GenerateCodeCoverageReport --skip
       - name: 📦 Pack
+        id: pack
         run: |
           dotnet nuke Pack --skip
       - name: 🏺 Publish coverage data

@@ -74,9 +74,7 @@ jobs:
       NUGET_PACKAGES: '${{ github.workspace }}/.nuget/packages'
     strategy:
       fail-fast: false
-      matrix:
-        os: [macos-latest, windows-latest, ubuntu-latest]
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
@@ -90,14 +88,14 @@ jobs:
           key: "${{ runner.os }}-nuget-${{ hashFiles('**/Directory.Packages.props') }}-${{ hashFiles('**/Directory.Packages.support.props') }}"
           restore-keys: |
             ${{ runner.os }}-nuget-
-      - name: 🔨 Use .NET Core 3.1 SDK
-        uses: actions/setup-dotnet@v3.2.0
-        with:
-          dotnet-version: '3.1.x'
       - name: 🔨 Use .NET Core 6.0 SDK
         uses: actions/setup-dotnet@v3.2.0
         with:
           dotnet-version: '6.0.x'
+      - name: 🔨 Use .NET Core 8.0 SDK
+        uses: actions/setup-dotnet@v3.2.0
+        with:
+          dotnet-version: '8.0.x'
       - name: 🎁 dotnet tool restore
         run: |
           dotnet tool restore

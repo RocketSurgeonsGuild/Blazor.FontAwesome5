@@ -38,6 +38,13 @@ using Rocket.Surgery.Nuke.GithubActions;
     ExcludedTargets = new[] { nameof(ICanClean.Clean), nameof(ICanRestoreWithDotNetCore.DotnetToolRestore) },
     Enhancements = new[] { nameof(CiMiddleware) }
 )]
+[GitHubActionsLint(
+    "lint",
+    GitHubActionsImage.UbuntuLatest,
+    AutoGenerate = false,
+    OnPullRequestTargetBranches = new[] { "master", "main", "next" },
+    Enhancements = new[] { nameof(LintStagedMiddleware) }
+)]
 [PrintBuildVersion]
 [PrintCIEnvironment]
 [UploadLogs]
@@ -69,8 +76,17 @@ public partial class Pipeline
            .AddNuGetCache()
            // .ConfigureForGitVersion()
            .ConfigureStep<CheckoutStep>(step => step.FetchDepth = 0)
-           .PublishLogs<Pipeline>()
-           .FailFast = false;
+           .PublishLogs<Pipeline>();
+
+        return configuration;
+    }
+
+    public static RocketSurgeonGitHubActionsConfiguration LintStagedMiddleware(RocketSurgeonGitHubActionsConfiguration configuration)
+    {
+        configuration
+           .Jobs.OfType<RocketSurgeonsGithubActionsJob>()
+           .First(z => z.Name.Equals("Build", StringComparison.OrdinalIgnoreCase))
+           .UseDotNetSdks("6.0", "8.0");
 
         return configuration;
     }

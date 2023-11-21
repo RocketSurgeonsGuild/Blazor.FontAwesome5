@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using System.Reflection;
 using System.Text;
 using Microsoft.AspNetCore.Components;
@@ -528,11 +528,11 @@ public sealed class Icon : IIcon
     {
         return rotate switch
         {
-            IconRotate._0Deg   => Rotate(),
-            IconRotate._90Deg  => Rotate(90),
+            IconRotate._0Deg => Rotate(),
+            IconRotate._90Deg => Rotate(90),
             IconRotate._180Deg => Rotate(180),
             IconRotate._270Deg => Rotate(270),
-            _                  => throw new NotSupportedException(),
+            _ => throw new NotSupportedException(),
         };
     }
 
@@ -746,34 +746,34 @@ public sealed class Icon : IIcon
 
     public static string ToString(IconSize size, bool stack)
     {
-        return ( size, stack ) switch
+        return (size, stack) switch
         {
-            (IconSize.ExtraSmall, true)  => " fa-stack-xs",
+            (IconSize.ExtraSmall, true) => " fa-stack-xs",
             (IconSize.ExtraSmall, false) => " fa-xs",
-            (IconSize.Small, true)       => " fa-stack-sm",
-            (IconSize.Small, false)      => " fa-sm",
-            (IconSize.Large, true)       => " fa-stack-lg",
-            (IconSize.Large, false)      => " fa-lg",
-            (IconSize._2X, true)         => " fa-stack-2x",
-            (IconSize._2X, false)        => " fa-2x",
-            (IconSize._3X, true)         => " fa-stack-3x",
-            (IconSize._3X, false)        => " fa-3x",
-            (IconSize._4X, true)         => " fa-stack-4x",
-            (IconSize._4X, false)        => " fa-4x",
-            (IconSize._5X, true)         => " fa-stack-5x",
-            (IconSize._5X, false)        => " fa-5x",
-            (IconSize._6X, true)         => " fa-stack-6x",
-            (IconSize._6X, false)        => " fa-6x",
-            (IconSize._7X, true)         => " fa-stack-7x",
-            (IconSize._7X, false)        => " fa-7x",
-            (IconSize._8X, true)         => " fa-stack-8x",
-            (IconSize._8X, false)        => " fa-8x",
-            (IconSize._9X, true)         => " fa-stack-9x",
-            (IconSize._9X, false)        => " fa-9x",
-            (IconSize._10X, true)        => " fa-stack-10x",
-            (IconSize._10X, false)       => " fa-10x",
-            (_, true)                    => " fa-stack-1x",
-            (_, false)                   => "",
+            (IconSize.Small, true) => " fa-stack-sm",
+            (IconSize.Small, false) => " fa-sm",
+            (IconSize.Large, true) => " fa-stack-lg",
+            (IconSize.Large, false) => " fa-lg",
+            (IconSize._2X, true) => " fa-stack-2x",
+            (IconSize._2X, false) => " fa-2x",
+            (IconSize._3X, true) => " fa-stack-3x",
+            (IconSize._3X, false) => " fa-3x",
+            (IconSize._4X, true) => " fa-stack-4x",
+            (IconSize._4X, false) => " fa-4x",
+            (IconSize._5X, true) => " fa-stack-5x",
+            (IconSize._5X, false) => " fa-5x",
+            (IconSize._6X, true) => " fa-stack-6x",
+            (IconSize._6X, false) => " fa-6x",
+            (IconSize._7X, true) => " fa-stack-7x",
+            (IconSize._7X, false) => " fa-7x",
+            (IconSize._8X, true) => " fa-stack-8x",
+            (IconSize._8X, false) => " fa-8x",
+            (IconSize._9X, true) => " fa-stack-9x",
+            (IconSize._9X, false) => " fa-9x",
+            (IconSize._10X, true) => " fa-stack-10x",
+            (IconSize._10X, false) => " fa-10x",
+            (_, true) => " fa-stack-1x",
+            (_, false) => "",
         };
     }
 
@@ -781,9 +781,9 @@ public sealed class Icon : IIcon
     {
         return pull switch
         {
-            IconPull.Left  => "fa-pull-left",
+            IconPull.Left => "fa-pull-left",
             IconPull.Right => "fa-pull-right",
-            _              => throw new NotImplementedException()
+            _ => throw new NotImplementedException()
         };
     }
 
@@ -811,12 +811,12 @@ public sealed class Icon : IIcon
     {
         return style switch
         {
-            IconStyle.Solid   => "fas",
+            IconStyle.Solid => "fas",
             IconStyle.Regular => "far",
-            IconStyle.Light   => "fal",
+            IconStyle.Light => "fal",
             IconStyle.Duotone => "fad",
-            IconStyle.Brands  => "fab",
-            _                 => "fas" // Default in the case no icon was provided
+            IconStyle.Brands => "fab",
+            _ => "fas" // Default in the case no icon was provided
         };
     }
 

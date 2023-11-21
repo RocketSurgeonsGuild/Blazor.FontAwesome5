@@ -42,7 +42,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        if: github.event.pull_request.user.login != 'renovate[bot]' && github.event.pull_request.user.login != 'dependabot[bot]'
         uses: actions/checkout@v2
         with:
           repository: '${{ github.event.pull_request.head.repo.full_name }}'
@@ -50,32 +49,26 @@ jobs:
           token: '${{ secrets.RSG_BOT_TOKEN }}'
           clean: 'false'
           fetch-depth: '0'
-      - name: npm install
-        if: github.event.pull_request.user.login != 'renovate[bot]' && github.event.pull_request.user.login != 'dependabot[bot]'
+      - name: npm ci
         run: |
-          npm install
+          npm ci
       - name: 🔨 Use .NET Core 6.0 SDK
-        if: github.event.pull_request.user.login != 'renovate[bot]' && github.event.pull_request.user.login != 'dependabot[bot]'
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: '6.0.x'
       - name: 🔨 Use .NET Core 8.0 SDK
-        if: github.event.pull_request.user.login != 'renovate[bot]' && github.event.pull_request.user.login != 'dependabot[bot]'
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: '8.0.x'
       - name: 🎁 dotnet tool restore
-        if: github.event.pull_request.user.login != 'renovate[bot]' && github.event.pull_request.user.login != 'dependabot[bot]'
         run: |
           dotnet tool restore
       - name: Regenerate Build Configurations
         id: regenerateBuildConfigurations
-        if: github.event.pull_request.user.login != 'renovate[bot]' && github.event.pull_request.user.login != 'dependabot[bot]'
         run: |
           dotnet nuke RegenerateBuildConfigurations --skip
       - name: Lint Staged
         id: lintStaged
-        if: github.event.pull_request.user.login != 'renovate[bot]' && github.event.pull_request.user.login != 'dependabot[bot]'
         run: |
           dotnet nuke LintStaged --skip
       - name: Add & Commit

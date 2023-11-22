@@ -67,13 +67,25 @@ on:
       - '.github/labels.yml'
       - '.github/release.yml'
       - '.github/renovate.json'
+permissions:
+  actions: read
+  checks: read
+  contents: read
+  deployments: read
+  id-token: none
+  issues: write
+  discussions: none
+  packages: none
+  pages: none
+  pull-requests: write
+  repository-projects: none
+  security-events: none
+  statuses: write
 
 jobs:
   build:
     env:
       NUGET_PACKAGES: '${{ github.workspace }}/.nuget/packages'
-    strategy:
-      fail-fast: false
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

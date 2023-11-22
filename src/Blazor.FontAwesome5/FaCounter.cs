@@ -118,11 +118,11 @@ public class FaCounter : ComponentBase, ITransformIcon
             values.Add(
                 Position.Value switch
                 {
-                    IconCounterPosition.TopRight    => "fa-layers-top-right",
-                    IconCounterPosition.TopLeft     => "fa-layers-top-left",
+                    IconCounterPosition.TopRight => "fa-layers-top-right",
+                    IconCounterPosition.TopLeft => "fa-layers-top-left",
                     IconCounterPosition.BottomRight => "fa-layers-bottom-right",
-                    IconCounterPosition.BottomLeft  => "fa-layers-bottom-left",
-                    _                               => throw new NotSupportedException()
+                    IconCounterPosition.BottomLeft => "fa-layers-bottom-left",
+                    _ => throw new NotSupportedException()
                 }
             );
         }

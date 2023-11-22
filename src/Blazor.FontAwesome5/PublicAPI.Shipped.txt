@@ -1,0 +1,266 @@
+#nullable enable
+override Rocket.Surgery.Blazor.FontAwesome5.FaCounter.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder! builder) -> void
+override Rocket.Surgery.Blazor.FontAwesome5.FaLayer.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder! builder) -> void
+override Rocket.Surgery.Blazor.FontAwesome5.FaStack.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder! builder) -> void
+override Rocket.Surgery.Blazor.FontAwesome5.FaText.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder! builder) -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.AdditionalAttributes.get -> System.Collections.Generic.Dictionary<string!, object!>!
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.AdditionalAttributes.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.ChildContent.get -> Microsoft.AspNetCore.Components.RenderFragment?
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.ChildContent.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Class.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Class.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Down.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Down.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.FaCounter() -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Flip.get -> Rocket.Surgery.Blazor.FontAwesome5.IconFlip?
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Flip.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Grow.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Grow.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Inverse.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Inverse.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Left.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Left.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Position.get -> Rocket.Surgery.Blazor.FontAwesome5.IconCounterPosition?
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Position.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Pulse.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Pulse.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Right.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Right.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Rotate.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Rotate.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Shrink.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Shrink.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Spin.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Spin.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Style.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Style.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Up.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaCounter.Up.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.AdditionalAttributes.get -> System.Collections.Generic.Dictionary<string!, object!>!
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.AdditionalAttributes.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Border.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Border.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Class.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Class.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Down.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Down.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.FaIcon() -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.FixedWidth.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.FixedWidth.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Flip.get -> Rocket.Surgery.Blazor.FontAwesome5.IconFlip?
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Flip.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Grow.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Grow.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Icon.get -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Icon.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Inverse.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Inverse.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Left.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Left.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Mask.get -> Rocket.Surgery.Blazor.FontAwesome5.Icon?
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Mask.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.PrimaryColor.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.PrimaryColor.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.PrimaryOpacity.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.PrimaryOpacity.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Pull.get -> Rocket.Surgery.Blazor.FontAwesome5.IconPull?
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Pull.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Pulse.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Pulse.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Right.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Right.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Rotate.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Rotate.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.SecondaryColor.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.SecondaryColor.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.SecondaryOpacity.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.SecondaryOpacity.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Shrink.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Shrink.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Size.get -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Size.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Spin.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Spin.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Style.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Style.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.SwapOpacity.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.SwapOpacity.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.ToStyle() -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Up.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaIcon.Up.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaLayer
+Rocket.Surgery.Blazor.FontAwesome5.FaLayer.AdditionalAttributes.get -> System.Collections.Generic.Dictionary<string!, object!>!
+Rocket.Surgery.Blazor.FontAwesome5.FaLayer.AdditionalAttributes.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaLayer.ChildContent.get -> Microsoft.AspNetCore.Components.RenderFragment?
+Rocket.Surgery.Blazor.FontAwesome5.FaLayer.ChildContent.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaLayer.Class.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.FaLayer.Class.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaLayer.FaLayer() -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaLayer.FixedWidth.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.FaLayer.FixedWidth.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaLayer.Style.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.FaLayer.Style.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaLayer.ToClass() -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaStack
+Rocket.Surgery.Blazor.FontAwesome5.FaStack.ChildContent.get -> Microsoft.AspNetCore.Components.RenderFragment?
+Rocket.Surgery.Blazor.FontAwesome5.FaStack.ChildContent.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaStack.Class.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.FaStack.Class.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaStack.FaStack() -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaStack.Size.get -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.FaStack.Size.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaStack.Style.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.FaStack.Style.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaStack.ToClass() -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaText
+Rocket.Surgery.Blazor.FontAwesome5.FaText.AdditionalAttributes.get -> System.Collections.Generic.Dictionary<string!, object!>!
+Rocket.Surgery.Blazor.FontAwesome5.FaText.AdditionalAttributes.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaText.ChildContent.get -> Microsoft.AspNetCore.Components.RenderFragment!
+Rocket.Surgery.Blazor.FontAwesome5.FaText.ChildContent.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Class.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Class.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Down.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Down.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaText.FaText() -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Flip.get -> Rocket.Surgery.Blazor.FontAwesome5.IconFlip?
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Flip.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Grow.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Grow.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Inverse.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Inverse.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Left.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Left.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Pulse.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Pulse.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Right.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Right.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Rotate.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Rotate.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Shrink.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Shrink.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Spin.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Spin.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Style.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Style.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FaText.ToClass() -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Up.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.FaText.Up.set -> void
+Rocket.Surgery.Blazor.FontAwesome5.FontAwesomeAttribute
+Rocket.Surgery.Blazor.FontAwesome5.FontAwesomeAttribute.FontAwesomeAttribute(Rocket.Surgery.Blazor.FontAwesome5.IconStyle iconStyle, string! name) -> void
+Rocket.Surgery.Blazor.FontAwesome5.FontAwesomeAttribute.IconStyle.get -> Rocket.Surgery.Blazor.FontAwesome5.IconStyle
+Rocket.Surgery.Blazor.FontAwesome5.FontAwesomeAttribute.Name.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.Icon
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Border(bool border = true) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.CssClass(string? cssClass) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.CssStyle(string? cssStyle) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Down(double down = 0) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.FixedWidth(bool fixedWith = true) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Flip(Rocket.Surgery.Blazor.FontAwesome5.IconFlip flip = Rocket.Surgery.Blazor.FontAwesome5.IconFlip.None) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Grow(double scale = 0) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Horizontal(double horizontal = 0) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Icon(Rocket.Surgery.Blazor.FontAwesome5.IconStyle style, string! name) -> void
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Inverse(bool inverse = true) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Left(double left = 0) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Mask(Rocket.Surgery.Blazor.FontAwesome5.Icon? mask) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Name.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Pull(Rocket.Surgery.Blazor.FontAwesome5.IconPull pull = Rocket.Surgery.Blazor.FontAwesome5.IconPull.Left) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Pulse(bool pulse = true) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.RemoveMask() -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Right(double right = 0) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Rotate(double rotate = 0) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Rotate(Rocket.Surgery.Blazor.FontAwesome5.IconRotate rotate) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.RotateLeft(double rotate = 0) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.RotateRight(double rotate = 0) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Scale(double scale = 0) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Shrink(double scale = 0) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Size(Rocket.Surgery.Blazor.FontAwesome5.IconSize size) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Spin(bool spin = true) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Style.get -> Rocket.Surgery.Blazor.FontAwesome5.IconStyle
+Rocket.Surgery.Blazor.FontAwesome5.Icon.ToIcon() -> string!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.ToMarkup() -> Microsoft.AspNetCore.Components.MarkupString
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Up(double up = 0) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.Icon.Vertical(double vertical = 0) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+Rocket.Surgery.Blazor.FontAwesome5.IconCounterPosition
+Rocket.Surgery.Blazor.FontAwesome5.IconCounterPosition.BottomLeft = 3 -> Rocket.Surgery.Blazor.FontAwesome5.IconCounterPosition
+Rocket.Surgery.Blazor.FontAwesome5.IconCounterPosition.BottomRight = 2 -> Rocket.Surgery.Blazor.FontAwesome5.IconCounterPosition
+Rocket.Surgery.Blazor.FontAwesome5.IconCounterPosition.TopLeft = 1 -> Rocket.Surgery.Blazor.FontAwesome5.IconCounterPosition
+Rocket.Surgery.Blazor.FontAwesome5.IconCounterPosition.TopRight = 0 -> Rocket.Surgery.Blazor.FontAwesome5.IconCounterPosition
+Rocket.Surgery.Blazor.FontAwesome5.IconFlip
+Rocket.Surgery.Blazor.FontAwesome5.IconFlip.Both = Rocket.Surgery.Blazor.FontAwesome5.IconFlip.Horizontal | Rocket.Surgery.Blazor.FontAwesome5.IconFlip.Vertical -> Rocket.Surgery.Blazor.FontAwesome5.IconFlip
+Rocket.Surgery.Blazor.FontAwesome5.IconFlip.Horizontal = 1 -> Rocket.Surgery.Blazor.FontAwesome5.IconFlip
+Rocket.Surgery.Blazor.FontAwesome5.IconFlip.None = 0 -> Rocket.Surgery.Blazor.FontAwesome5.IconFlip
+Rocket.Surgery.Blazor.FontAwesome5.IconFlip.Vertical = 2 -> Rocket.Surgery.Blazor.FontAwesome5.IconFlip
+Rocket.Surgery.Blazor.FontAwesome5.IconPull
+Rocket.Surgery.Blazor.FontAwesome5.IconPull.Left = 1 -> Rocket.Surgery.Blazor.FontAwesome5.IconPull
+Rocket.Surgery.Blazor.FontAwesome5.IconPull.None = 0 -> Rocket.Surgery.Blazor.FontAwesome5.IconPull
+Rocket.Surgery.Blazor.FontAwesome5.IconPull.Right = 2 -> Rocket.Surgery.Blazor.FontAwesome5.IconPull
+Rocket.Surgery.Blazor.FontAwesome5.IconRotate
+Rocket.Surgery.Blazor.FontAwesome5.IconRotate._0Deg = 0 -> Rocket.Surgery.Blazor.FontAwesome5.IconRotate
+Rocket.Surgery.Blazor.FontAwesome5.IconRotate._180Deg = 2 -> Rocket.Surgery.Blazor.FontAwesome5.IconRotate
+Rocket.Surgery.Blazor.FontAwesome5.IconRotate._270Deg = 3 -> Rocket.Surgery.Blazor.FontAwesome5.IconRotate
+Rocket.Surgery.Blazor.FontAwesome5.IconRotate._90Deg = 1 -> Rocket.Surgery.Blazor.FontAwesome5.IconRotate
+Rocket.Surgery.Blazor.FontAwesome5.IconRotate.Ninety = 1 -> Rocket.Surgery.Blazor.FontAwesome5.IconRotate
+Rocket.Surgery.Blazor.FontAwesome5.IconRotate.OneEighty = 2 -> Rocket.Surgery.Blazor.FontAwesome5.IconRotate
+Rocket.Surgery.Blazor.FontAwesome5.IconRotate.TwoSeventy = 3 -> Rocket.Surgery.Blazor.FontAwesome5.IconRotate
+Rocket.Surgery.Blazor.FontAwesome5.IconRotate.Zero = 0 -> Rocket.Surgery.Blazor.FontAwesome5.IconRotate
+Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize._10X = 12 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize._2X = 4 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize._3X = 5 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize._4X = 6 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize._5X = 7 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize._6X = 8 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize._7X = 9 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize._8X = 10 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize._9X = 11 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize.EightX = 10 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize.ExtraSmall = 1 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize.FiveX = 7 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize.FourX = 6 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize.Large = 3 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize.NineX = 11 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize.Normal = 0 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize.SevenX = 9 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize.SixX = 8 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize.Small = 2 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize.TenX = 12 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize.ThreeX = 5 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconSize.TwoX = 4 -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IconStyle
+Rocket.Surgery.Blazor.FontAwesome5.IconStyle.Brands = 5 -> Rocket.Surgery.Blazor.FontAwesome5.IconStyle
+Rocket.Surgery.Blazor.FontAwesome5.IconStyle.Duotone = 4 -> Rocket.Surgery.Blazor.FontAwesome5.IconStyle
+Rocket.Surgery.Blazor.FontAwesome5.IconStyle.Light = 3 -> Rocket.Surgery.Blazor.FontAwesome5.IconStyle
+Rocket.Surgery.Blazor.FontAwesome5.IconStyle.Regular = 2 -> Rocket.Surgery.Blazor.FontAwesome5.IconStyle
+Rocket.Surgery.Blazor.FontAwesome5.IconStyle.Solid = 1 -> Rocket.Surgery.Blazor.FontAwesome5.IconStyle
+Rocket.Surgery.Blazor.FontAwesome5.IconStyle.Unknown = 0 -> Rocket.Surgery.Blazor.FontAwesome5.IconStyle
+Rocket.Surgery.Blazor.FontAwesome5.IIcon
+Rocket.Surgery.Blazor.FontAwesome5.IIcon.Border.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.IIcon.CssClass.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.IIcon.CssStyle.get -> string?
+Rocket.Surgery.Blazor.FontAwesome5.IIcon.FixedWidth.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.IIcon.Inverse.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.IIcon.Mask.get -> Rocket.Surgery.Blazor.FontAwesome5.Icon?
+Rocket.Surgery.Blazor.FontAwesome5.IIcon.Name.get -> string!
+Rocket.Surgery.Blazor.FontAwesome5.IIcon.Pull.get -> Rocket.Surgery.Blazor.FontAwesome5.IconPull
+Rocket.Surgery.Blazor.FontAwesome5.IIcon.Pulse.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.IIcon.Size.get -> Rocket.Surgery.Blazor.FontAwesome5.IconSize
+Rocket.Surgery.Blazor.FontAwesome5.IIcon.Spin.get -> bool
+Rocket.Surgery.Blazor.FontAwesome5.IIcon.Style.get -> Rocket.Surgery.Blazor.FontAwesome5.IconStyle
+Rocket.Surgery.Blazor.FontAwesome5.ITransformIcon
+Rocket.Surgery.Blazor.FontAwesome5.ITransformIcon.Down.get -> double
+Rocket.Surgery.Blazor.FontAwesome5.ITransformIcon.Flip.get -> Rocket.Surgery.Blazor.FontAwesome5.IconFlip?
+Rocket.Surgery.Blazor.FontAwesome5.ITransformIcon.Grow.get -> double
+Rocket.Surgery.Blazor.FontAwesome5.ITransformIcon.Left.get -> double
+Rocket.Surgery.Blazor.FontAwesome5.ITransformIcon.Right.get -> double
+Rocket.Surgery.Blazor.FontAwesome5.ITransformIcon.Rotate.get -> double
+Rocket.Surgery.Blazor.FontAwesome5.ITransformIcon.Shrink.get -> double
+Rocket.Surgery.Blazor.FontAwesome5.ITransformIcon.Up.get -> double
+static Rocket.Surgery.Blazor.FontAwesome5.Icon.implicit operator Rocket.Surgery.Blazor.FontAwesome5.Icon!(System.Enum! enumValue) -> Rocket.Surgery.Blazor.FontAwesome5.Icon!
+static Rocket.Surgery.Blazor.FontAwesome5.Icon.ToName(Rocket.Surgery.Blazor.FontAwesome5.Icon! icon) -> string!
+static Rocket.Surgery.Blazor.FontAwesome5.Icon.ToPrefix(Rocket.Surgery.Blazor.FontAwesome5.Icon! icon) -> string!
+static Rocket.Surgery.Blazor.FontAwesome5.Icon.ToPrefix(Rocket.Surgery.Blazor.FontAwesome5.IconStyle style) -> string!
+static Rocket.Surgery.Blazor.FontAwesome5.Icon.ToString(Rocket.Surgery.Blazor.FontAwesome5.IconFlip flip) -> string!
+static Rocket.Surgery.Blazor.FontAwesome5.Icon.ToString(Rocket.Surgery.Blazor.FontAwesome5.IconPull pull) -> string!
+static Rocket.Surgery.Blazor.FontAwesome5.Icon.ToString(Rocket.Surgery.Blazor.FontAwesome5.IconSize size, bool stack) -> string!

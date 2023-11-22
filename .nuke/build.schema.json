@@ -54,6 +54,13 @@
             "VSCode"
           ]
         },
+        "lint-files": {
+          "type": "array",
+          "description": "The files to lint, if not given lints all files",
+          "items": {
+            "type": "string"
+          }
+        },
         "NoLogo": {
           "type": "boolean",
           "description": "Disables displaying the NUKE logo"
@@ -84,28 +91,32 @@
             "type": "string",
             "enum": [
               "Build",
-              "BuildVersion",
               "Clean",
               "CoreBuild",
               "CorePack",
               "CoreRestore",
               "CoreTest",
               "Default",
+              "DotNetFormat",
               "DotnetToolRestore",
-              "Generate_Code_Coverage_Badges",
-              "Generate_Code_Coverage_Report",
-              "Generate_Code_Coverage_Report_Cobertura",
-              "Generate_Code_Coverage_Summary",
               "GenerateCodeCoverageBadges",
               "GenerateCodeCoverageReport",
               "GenerateCodeCoverageReportCobertura",
               "GenerateCodeCoverageSummary",
               "GenerateReadme",
+              "JetBrainsCleanupCode",
+              "Lint",
+              "LintPublicApiAnalyzers",
+              "LintStaged",
+              "MoveUnshippedToShipped",
               "Pack",
+              "PostLint",
+              "Prettier",
+              "RegenerateBuildConfigurations",
               "RegenerateFromMetadata",
               "Restore",
+              "ShipPublicApis",
               "Test",
-              "Trigger_Code_Coverage_Reports",
               "TriggerCodeCoverageReports"
             ]
           }
@@ -121,28 +132,32 @@
             "type": "string",
             "enum": [
               "Build",
-              "BuildVersion",
               "Clean",
               "CoreBuild",
               "CorePack",
               "CoreRestore",
               "CoreTest",
               "Default",
+              "DotNetFormat",
               "DotnetToolRestore",
-              "Generate_Code_Coverage_Badges",
-              "Generate_Code_Coverage_Report",
-              "Generate_Code_Coverage_Report_Cobertura",
-              "Generate_Code_Coverage_Summary",
               "GenerateCodeCoverageBadges",
               "GenerateCodeCoverageReport",
               "GenerateCodeCoverageReportCobertura",
               "GenerateCodeCoverageSummary",
               "GenerateReadme",
+              "JetBrainsCleanupCode",
+              "Lint",
+              "LintPublicApiAnalyzers",
+              "LintStaged",
+              "MoveUnshippedToShipped",
               "Pack",
+              "PostLint",
+              "Prettier",
+              "RegenerateBuildConfigurations",
               "RegenerateFromMetadata",
               "Restore",
+              "ShipPublicApis",
               "Test",
-              "Trigger_Code_Coverage_Reports",
               "TriggerCodeCoverageReports"
             ]
           }

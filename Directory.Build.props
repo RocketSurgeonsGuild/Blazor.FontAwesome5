@@ -22,6 +22,10 @@
         <NukeTelemetryVersion>1</NukeTelemetryVersion>
         <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
         <ImplicitUsings>enable</ImplicitUsings>
+        <AnalysisLevel>latest</AnalysisLevel>
+        <!--        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>-->
+                <WarningsAsErrors>RS0017</WarningsAsErrors>
+        <!--        <WarningsNotAsErrors></WarningsNotAsErrors>-->
     </PropertyGroup>
     <ItemGroup>
         <None

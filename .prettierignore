@@ -2,3 +2,5 @@ azure-pipelines.nuke.yml
 .github/workflows/ci.yml
 .github/workflows/ci-ignore.yml
 .nuke/build.schema.json
+package-lock.json
+

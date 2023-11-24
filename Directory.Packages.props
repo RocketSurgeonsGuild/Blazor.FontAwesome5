@@ -9,9 +9,9 @@
       <PackageVersion Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="1.1.5" Condition="'$(MSBuildProjectName)'!='.build'" />
       <PackageVersion Include="Rocket.Surgery.MSBuild.SourceLink" Version="1.1.5" />
       <PackageVersion Include="Polyfill" Version="1.32.1" />
-      <PackageVersion Include="Roslynator.Analyzers" Version="4.6.3" />
-      <PackageVersion Include="Roslynator.Formatting.Analyzers" Version="4.6.3" />
-      <PackageVersion Include="Roslynator.CodeAnalysis.Analyzers" Version="4.6.3" />
+      <PackageVersion Include="Roslynator.Analyzers" Version="4.6.4" />
+      <PackageVersion Include="Roslynator.Formatting.Analyzers" Version="4.6.4" />
+      <PackageVersion Include="Roslynator.CodeAnalysis.Analyzers" Version="4.6.4" />
   </ItemGroup>
   <ItemGroup>
     <PackageVersion Include="GitVersion.Tool" Version="5.12.0" />

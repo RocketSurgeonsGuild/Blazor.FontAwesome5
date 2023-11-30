@@ -13421,15 +13421,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free
         /// Share
         /// </summary>
         /// <remarks>
-        /// arrow-turn-right - Available in Solid
-        /// </remarks>
-        [FontAwesome(IconStyle.Solid, "share")]
-        ArrowTurnRight,
-
-        /// <summary>
-        /// Share
-        /// </summary>
-        /// <remarks>
         /// mail-forward - Available in Solid
         /// </remarks>
         [FontAwesome(IconStyle.Solid, "share")]

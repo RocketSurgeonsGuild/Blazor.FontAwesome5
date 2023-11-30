@@ -431,6 +431,24 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Bots,
 
         /// <summary>
+        /// Brave
+        /// </summary>
+        /// <remarks>
+        /// brave - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "brave")]
+        Brave,
+
+        /// <summary>
+        /// Brave Reverse
+        /// </summary>
+        /// <remarks>
+        /// brave-reverse - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "brave-reverse")]
+        BraveReverse,
+
+        /// <summary>
         /// BTC
         /// </summary>
         /// <remarks>
@@ -494,7 +512,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         CcAmazonPay,
 
         /// <summary>
-        /// American Express Credit Card
+        /// Cc Amex
         /// </summary>
         /// <remarks>
         /// cc-amex - Available in Brands
@@ -1682,6 +1700,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         GooglePlusG,
 
         /// <summary>
+        /// Google Scholar
+        /// </summary>
+        /// <remarks>
+        /// google-scholar - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "google-scholar")]
+        GoogleScholar,
+
+        /// <summary>
         /// Google Wallet
         /// </summary>
         /// <remarks>
@@ -2114,6 +2141,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Less,
 
         /// <summary>
+        /// Letterboxd
+        /// </summary>
+        /// <remarks>
+        /// letterboxd - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "letterboxd")]
+        Letterboxd,
+
+        /// <summary>
         /// Line
         /// </summary>
         /// <remarks>
@@ -2321,6 +2357,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Microsoft,
 
         /// <summary>
+        /// Mintbit
+        /// </summary>
+        /// <remarks>
+        /// mintbit - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "mintbit")]
+        Mintbit,
+
+        /// <summary>
         /// Mix
         /// </summary>
         /// <remarks>
@@ -2517,6 +2562,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "openid")]
         Openid,
+
+        /// <summary>
+        /// Opensuse
+        /// </summary>
+        /// <remarks>
+        /// opensuse - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "opensuse")]
+        Opensuse,
 
         /// <summary>
         /// Opera
@@ -2724,6 +2778,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "pix")]
         Pix,
+
+        /// <summary>
+        /// Pixiv
+        /// </summary>
+        /// <remarks>
+        /// pixiv - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "pixiv")]
+        Pixiv,
 
         /// <summary>
         /// Play Station
@@ -3086,6 +3149,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Shopware,
 
         /// <summary>
+        /// Signal Messenger
+        /// </summary>
+        /// <remarks>
+        /// signal-messenger - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "signal-messenger")]
+        SignalMessenger,
+
+        /// <summary>
         /// Simply Built
         /// </summary>
         /// <remarks>
@@ -3248,7 +3320,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Spotify,
 
         /// <summary>
-        /// Behance Square
+        /// Square Behance
         /// </summary>
         /// <remarks>
         /// square-behance - Available in Brands
@@ -3257,7 +3329,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareBehance,
 
         /// <summary>
-        /// Behance Square
+        /// Square Behance
         /// </summary>
         /// <remarks>
         /// behance-square - Available in Brands
@@ -3266,7 +3338,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         BehanceSquare,
 
         /// <summary>
-        /// Dribbble Square
+        /// Square Dribbble
         /// </summary>
         /// <remarks>
         /// square-dribbble - Available in Brands
@@ -3275,7 +3347,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareDribbble,
 
         /// <summary>
-        /// Dribbble Square
+        /// Square Dribbble
         /// </summary>
         /// <remarks>
         /// dribbble-square - Available in Brands
@@ -3284,7 +3356,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         DribbbleSquare,
 
         /// <summary>
-        /// Facebook Square
+        /// Square Facebook
         /// </summary>
         /// <remarks>
         /// square-facebook - Available in Brands
@@ -3293,7 +3365,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareFacebook,
 
         /// <summary>
-        /// Facebook Square
+        /// Square Facebook
         /// </summary>
         /// <remarks>
         /// facebook-square - Available in Brands
@@ -3329,7 +3401,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         FontAwesomeAlt,
 
         /// <summary>
-        /// Git Square
+        /// Square Git
         /// </summary>
         /// <remarks>
         /// square-git - Available in Brands
@@ -3338,7 +3410,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareGit,
 
         /// <summary>
-        /// Git Square
+        /// Square Git
         /// </summary>
         /// <remarks>
         /// git-square - Available in Brands
@@ -3347,7 +3419,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         GitSquare,
 
         /// <summary>
-        /// Git Hub Square
+        /// Square Github
         /// </summary>
         /// <remarks>
         /// square-github - Available in Brands
@@ -3356,7 +3428,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareGithub,
 
         /// <summary>
-        /// Git Hub Square
+        /// Square Github
         /// </summary>
         /// <remarks>
         /// github-square - Available in Brands
@@ -3383,7 +3455,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         GitlabSquare,
 
         /// <summary>
-        /// Google Plus Square
+        /// Square Google Plus
         /// </summary>
         /// <remarks>
         /// square-google-plus - Available in Brands
@@ -3392,7 +3464,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareGooglePlus,
 
         /// <summary>
-        /// Google Plus Square
+        /// Square Google Plus
         /// </summary>
         /// <remarks>
         /// google-plus-square - Available in Brands
@@ -3401,7 +3473,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         GooglePlusSquare,
 
         /// <summary>
-        /// Hacker News Square
+        /// Square Hacker News
         /// </summary>
         /// <remarks>
         /// square-hacker-news - Available in Brands
@@ -3410,7 +3482,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareHackerNews,
 
         /// <summary>
-        /// Hacker News Square
+        /// Square Hacker News
         /// </summary>
         /// <remarks>
         /// hacker-news-square - Available in Brands
@@ -3419,7 +3491,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         HackerNewsSquare,
 
         /// <summary>
-        /// Instagram Square
+        /// Square Instagram
         /// </summary>
         /// <remarks>
         /// square-instagram - Available in Brands
@@ -3428,7 +3500,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareInstagram,
 
         /// <summary>
-        /// Instagram Square
+        /// Square Instagram
         /// </summary>
         /// <remarks>
         /// instagram-square - Available in Brands
@@ -3437,7 +3509,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         InstagramSquare,
 
         /// <summary>
-        /// Java Script JS Square
+        /// Square Js
         /// </summary>
         /// <remarks>
         /// square-js - Available in Brands
@@ -3446,7 +3518,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareJs,
 
         /// <summary>
-        /// Java Script JS Square
+        /// Square Js
         /// </summary>
         /// <remarks>
         /// js-square - Available in Brands
@@ -3455,7 +3527,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         JsSquare,
 
         /// <summary>
-        /// Last Fm Square
+        /// Square Lastfm
         /// </summary>
         /// <remarks>
         /// square-lastfm - Available in Brands
@@ -3464,7 +3536,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareLastfm,
 
         /// <summary>
-        /// Last Fm Square
+        /// Square Lastfm
         /// </summary>
         /// <remarks>
         /// lastfm-square - Available in Brands
@@ -3473,7 +3545,16 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         LastfmSquare,
 
         /// <summary>
-        /// Odnoklassniki Square
+        /// Square Letterboxd
+        /// </summary>
+        /// <remarks>
+        /// square-letterboxd - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "square-letterboxd")]
+        SquareLetterboxd,
+
+        /// <summary>
+        /// Square Odnoklassniki
         /// </summary>
         /// <remarks>
         /// square-odnoklassniki - Available in Brands
@@ -3482,7 +3563,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareOdnoklassniki,
 
         /// <summary>
-        /// Odnoklassniki Square
+        /// Square Odnoklassniki
         /// </summary>
         /// <remarks>
         /// odnoklassniki-square - Available in Brands
@@ -3509,7 +3590,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         PiedPiperSquare,
 
         /// <summary>
-        /// Pinterest Square
+        /// Square Pinterest
         /// </summary>
         /// <remarks>
         /// square-pinterest - Available in Brands
@@ -3518,7 +3599,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquarePinterest,
 
         /// <summary>
-        /// Pinterest Square
+        /// Square Pinterest
         /// </summary>
         /// <remarks>
         /// pinterest-square - Available in Brands
@@ -3527,7 +3608,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         PinterestSquare,
 
         /// <summary>
-        /// Reddit Square
+        /// Square Reddit
         /// </summary>
         /// <remarks>
         /// square-reddit - Available in Brands
@@ -3536,7 +3617,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareReddit,
 
         /// <summary>
-        /// Reddit Square
+        /// Square Reddit
         /// </summary>
         /// <remarks>
         /// reddit-square - Available in Brands
@@ -3563,7 +3644,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SnapchatSquare,
 
         /// <summary>
-        /// Steam Square
+        /// Square Steam
         /// </summary>
         /// <remarks>
         /// square-steam - Available in Brands
@@ -3572,7 +3653,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareSteam,
 
         /// <summary>
-        /// Steam Square
+        /// Square Steam
         /// </summary>
         /// <remarks>
         /// steam-square - Available in Brands
@@ -3590,7 +3671,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareThreads,
 
         /// <summary>
-        /// Tumblr Square
+        /// Square Tumblr
         /// </summary>
         /// <remarks>
         /// square-tumblr - Available in Brands
@@ -3599,7 +3680,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareTumblr,
 
         /// <summary>
-        /// Tumblr Square
+        /// Square Tumblr
         /// </summary>
         /// <remarks>
         /// tumblr-square - Available in Brands
@@ -3626,7 +3707,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         TwitterSquare,
 
         /// <summary>
-        /// Viadeo Square
+        /// Square Viadeo
         /// </summary>
         /// <remarks>
         /// square-viadeo - Available in Brands
@@ -3635,7 +3716,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareViadeo,
 
         /// <summary>
-        /// Viadeo Square
+        /// Square Viadeo
         /// </summary>
         /// <remarks>
         /// viadeo-square - Available in Brands
@@ -3644,7 +3725,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         ViadeoSquare,
 
         /// <summary>
-        /// Vimeo Square
+        /// Square Vimeo
         /// </summary>
         /// <remarks>
         /// square-vimeo - Available in Brands
@@ -3653,7 +3734,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareVimeo,
 
         /// <summary>
-        /// Vimeo Square
+        /// Square Vimeo
         /// </summary>
         /// <remarks>
         /// vimeo-square - Available in Brands
@@ -3662,7 +3743,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         VimeoSquare,
 
         /// <summary>
-        /// What S App Square
+        /// Square Whatsapp
         /// </summary>
         /// <remarks>
         /// square-whatsapp - Available in Brands
@@ -3671,7 +3752,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareWhatsapp,
 
         /// <summary>
-        /// What S App Square
+        /// Square Whatsapp
         /// </summary>
         /// <remarks>
         /// whatsapp-square - Available in Brands
@@ -3689,7 +3770,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareXTwitter,
 
         /// <summary>
-        /// Xing Square
+        /// Square Xing
         /// </summary>
         /// <remarks>
         /// square-xing - Available in Brands
@@ -3698,7 +3779,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareXing,
 
         /// <summary>
-        /// Xing Square
+        /// Square Xing
         /// </summary>
         /// <remarks>
         /// xing-square - Available in Brands
@@ -3707,7 +3788,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         XingSquare,
 
         /// <summary>
-        /// You Tube Square
+        /// Square Youtube
         /// </summary>
         /// <remarks>
         /// square-youtube - Available in Brands
@@ -3716,7 +3797,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         SquareYoutube,
 
         /// <summary>
-        /// You Tube Square
+        /// Square Youtube
         /// </summary>
         /// <remarks>
         /// youtube-square - Available in Brands
@@ -4139,6 +4220,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         Ups,
 
         /// <summary>
+        /// Upwork
+        /// </summary>
+        /// <remarks>
+        /// upwork - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "upwork")]
+        Upwork,
+
+        /// <summary>
         /// USB
         /// </summary>
         /// <remarks>
@@ -4272,6 +4362,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         /// </remarks>
         [FontAwesome(IconStyle.Brands, "waze")]
         Waze,
+
+        /// <summary>
+        /// Webflow
+        /// </summary>
+        /// <remarks>
+        /// webflow - Available in Brands
+        /// </remarks>
+        [FontAwesome(IconStyle.Brands, "webflow")]
+        Webflow,
 
         /// <summary>
         /// Weebly

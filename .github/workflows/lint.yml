@@ -49,6 +49,10 @@ jobs:
           token: '${{ secrets.RSG_BOT_TOKEN }}'
           clean: 'false'
           fetch-depth: '0'
+      - name: Get Head Commit Message
+        id: commit-message
+        run: |
+          echo "message=$(git show -s --format=%s)" >> "$GITHUB_OUTPUT"
       - name: npm ci
         run: |
           npm ci
@@ -72,7 +76,7 @@ jobs:
         run: |
           dotnet nuke LintStaged --skip
       - name: Add & Commit
-        if: github.event.pull_request.user.login != 'renovate[bot]' && github.event.pull_request.user.login != 'dependabot[bot]'
+        if: "'${{ steps.commit-message.outputs.message }}' == 'Automatically linting code'"
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'Automatically linting code'

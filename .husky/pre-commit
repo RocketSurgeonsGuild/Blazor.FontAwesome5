@@ -1,6 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-if git diff --cached --exit-code --quiet; then
-    dotnet nuke lint-staged
+output=$(git diff --cached --name-only | wc -l)
+if [ $output -gt 0 ]; then
+  dotnet nuke lint-staged
 fi
+

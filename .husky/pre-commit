@@ -1,4 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-dotnet nuke lint-staged
+if git diff --cached --exit-code --quiet; then
+    dotnet nuke lint-staged
+fi

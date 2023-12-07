@@ -2924,7 +2924,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Brands
         RedRiver,
 
         /// <summary>
-        /// Reddit Logo
+        /// Reddit
         /// </summary>
         /// <remarks>
         /// reddit - Available in Brands

@@ -57,11 +57,11 @@ jobs:
         run: |
           npm ci
       - name: 🔨 Use .NET Core 6.0 SDK
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '6.0.x'
       - name: 🔨 Use .NET Core 8.0 SDK
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
       - name: 🎁 dotnet tool restore

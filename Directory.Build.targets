@@ -20,5 +20,7 @@
     <PackageReference Include="Roslynator.Analyzers" IncludeAssets="analyzers;build;buildMultitargeting;buildTransitive" PrivateAssets="All" />
     <PackageReference Include="Roslynator.Formatting.Analyzers" IncludeAssets="analyzers;build;buildMultitargeting;buildTransitive" PrivateAssets="All" />
     <PackageReference Include="Roslynator.CodeAnalysis.Analyzers" IncludeAssets="analyzers;build;buildMultitargeting;buildTransitive" PrivateAssets="All" />
+    <PackageReference Include="Roslynator.CodeFixes" IncludeAssets="analyzers;build;buildMultitargeting;buildTransitive" PrivateAssets="All" />
+    <PackageReference Include="Roslynator.Refactorings" IncludeAssets="analyzers;build;buildMultitargeting;buildTransitive" PrivateAssets="All" />
   </ItemGroup>
 </Project>

@@ -15236,6 +15236,15 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro
         FilePlusMinus,
 
         /// <summary>
+        /// File Png
+        /// </summary>
+        /// <remarks>
+        /// file-png - Available in Solid, Regular, Light, Thin, Duotone
+        /// </remarks>
+        [FontAwesome(IconStyle.Regular, "file-png")]
+        FilePng,
+
+        /// <summary>
         /// File Powerpoint
         /// </summary>
         /// <remarks>

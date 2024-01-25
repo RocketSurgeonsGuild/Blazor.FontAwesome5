@@ -11,7 +11,7 @@
             "commands": ["reportgenerator"]
         },
         "nuke.globaltool": {
-            "version": "7.0.6",
+            "version": "8.0.0",
             "commands": ["nuke"]
         },
         "codecov.tool": {
@@ -19,7 +19,7 @@
             "commands": ["codecov"]
         },
         "jetbrains.resharper.globaltools": {
-            "version": "2023.2.3",
+            "version": "2023.3.3",
             "commands": ["jb"]
         },
         "nukeeper": {
@@ -27,7 +27,7 @@
             "commands": ["nukeeper"]
         },
         "strawberryshake.tools": {
-            "version": "13.7.0",
+            "version": "13.8.1",
             "commands": ["dotnet-graphql"]
         },
         "dotnet-outdated-tool": {

@@ -502,6 +502,11 @@ dotnet_naming_style.camel_case.required_suffix =
 dotnet_naming_style.camel_case.word_separator =
 dotnet_naming_style.camel_case.capitalization = camel_case
 
+dotnet_naming_style.underscore_camel_case.required_prefix = _
+dotnet_naming_style.underscore_camel_case.required_suffix =
+dotnet_naming_style.underscore_camel_case.word_separator =
+dotnet_naming_style.underscore_camel_case.capitalization = camel_case
+
 dotnet_naming_style.begins_with_i.required_prefix = I
 dotnet_naming_style.begins_with_i.required_suffix =
 dotnet_naming_style.begins_with_i.word_separator =
@@ -657,7 +662,7 @@ dotnet_naming_rule.private_field_members_should_be_underscore_camel_case.resharp
 dotnet_naming_rule.private_field_members_should_be_underscore_camel_case.resharper_guid = cd60d07f-46cf-4df5-b2fe-8979b0be86a6
 dotnet_naming_rule.private_field_members_should_be_underscore_camel_case.severity = suggestion
 dotnet_naming_rule.private_field_members_should_be_underscore_camel_case.symbols = private_field
-dotnet_naming_rule.private_field_members_should_be_underscore_camel_case.style = camel_case
+dotnet_naming_rule.private_field_members_should_be_underscore_camel_case.style = underscore_camel_case
 
 dotnet_naming_symbols.private_instance_fields_symbols.applicable_accessibilities = local,private
 dotnet_naming_symbols.private_instance_fields_symbols.applicable_kinds = field
@@ -668,7 +673,7 @@ dotnet_naming_rule.private_instance_fields_rule.import_to_resharper = true
 dotnet_naming_rule.private_instance_fields_rule.resharper_description = PrivateInstanceFields
 dotnet_naming_rule.private_instance_fields_rule.resharper_guid = 55b310ff-8182-4b42-80a2-71190f858154
 dotnet_naming_rule.private_instance_fields_rule.severity = suggestion
-dotnet_naming_rule.private_instance_fields_rule.style = camel_case
+dotnet_naming_rule.private_instance_fields_rule.style = underscore_camel_case
 dotnet_naming_rule.private_instance_fields_rule.symbols = private_instance_fields_symbols
 
 dotnet_naming_symbols.private_static_fields_override_symbols.applicable_accessibilities = local,private
@@ -717,7 +722,7 @@ dotnet_naming_symbols.private_static_readonly_symbols.required_modifiers = stati
 
 dotnet_naming_rule.private_static_readonly_rule.import_to_resharper = as_predefined
 dotnet_naming_rule.private_static_readonly_rule.severity = suggestion
-dotnet_naming_rule.private_static_readonly_rule.style = _camel_case
+dotnet_naming_rule.private_static_readonly_rule.style = underscore_camel_case
 dotnet_naming_rule.private_static_readonly_rule.symbols = private_static_readonly_symbols
 
 dotnet_naming_symbols.property_symbols.applicable_accessibilities = *
@@ -4168,7 +4173,7 @@ resharper_accessor_owner_body = expression_body
 resharper_alignment_tab_fill_style = use_spaces
 resharper_align_first_arg_by_paren = false
 resharper_align_linq_query = true
-resharper_align_multiline_array_and_object_initializer = true
+resharper_align_multiline_array_and_object_initializer = false
 resharper_align_multiline_array_initializer = true
 resharper_align_multiline_binary_expressions_chain = false
 resharper_align_multiline_binary_patterns = true

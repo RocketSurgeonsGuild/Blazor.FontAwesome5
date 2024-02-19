@@ -27,7 +27,7 @@
             "commands": ["nukeeper"]
         },
         "strawberryshake.tools": {
-            "version": "13.8.1",
+            "version": "13.9.0",
             "commands": ["dotnet-graphql"]
         },
         "dotnet-outdated-tool": {

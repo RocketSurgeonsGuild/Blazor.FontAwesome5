@@ -146,8 +146,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
                                    .RenderComponent<FaText>(
                                         c => c
                                             .Parameter(x => x.Inverse, true)
-                                            .Parameter(x => x.Shrink, "8")
-                                            .Parameter(x => x.Down, "3")
+                                            .Parameter(x => x.Shrink, 8)
+                                            .Parameter(x => x.Down, 3)
                                             .Parameter(x => x.Style, "font-weight:900")
                                             .ChildContent("27")
                                     )
@@ -178,8 +178,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
                                    .RenderComponent<FaText>(
                                         c => c
                                             .Parameter(x => x.Inverse, true)
-                                            .Parameter(x => x.Shrink, "11.5")
-                                            .Parameter(x => x.Rotate, "-30")
+                                            .Parameter(x => x.Shrink, 11.5)
+                                            .Parameter(x => x.Rotate, -30)
                                             .Parameter(x => x.Style, "font-weight:900")
                                             .ChildContent("NEW")
                                     )

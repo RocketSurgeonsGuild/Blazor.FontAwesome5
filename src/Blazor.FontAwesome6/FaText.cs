@@ -15,68 +15,26 @@ public class FaText : ComponentBase, ITransformIcon
 
     [Parameter] public bool Inverse { get; set; }
 
-    private double _grow;
+    [Parameter]
+    public double Grow { get; set; }
 
     [Parameter]
-    public string Grow
-    {
-        get => _grow.ToString("F2", CultureInfo.InvariantCulture);
-        set => _grow = double.Parse(value, CultureInfo.InvariantCulture);
-    }
-
-    private double _shrink;
+    public double Shrink { get; set; }
 
     [Parameter]
-    public string Shrink
-    {
-        get => _shrink.ToString("F2", CultureInfo.InvariantCulture);
-        set => _shrink = double.Parse(value, CultureInfo.InvariantCulture);
-    }
-
-    private double _up;
+    public double Up { get; set; }
 
     [Parameter]
-    public string Up
-    {
-        get => _up.ToString("F2", CultureInfo.InvariantCulture);
-        set => _up = double.Parse(value, CultureInfo.InvariantCulture);
-    }
-
-    private double _down;
+    public double Down { get; set; }
 
     [Parameter]
-    public string Down
-    {
-        get => _down.ToString("F2", CultureInfo.InvariantCulture);
-        set => _down = double.Parse(value, CultureInfo.InvariantCulture);
-    }
-
-    private double _left;
+    public double Left { get; set; }
 
     [Parameter]
-    public string Left
-    {
-        get => _left.ToString("F2", CultureInfo.InvariantCulture);
-        set => _left = double.Parse(value, CultureInfo.InvariantCulture);
-    }
-
-    private double _right;
+    public double Right { get; set; }
 
     [Parameter]
-    public string Right
-    {
-        get => _right.ToString("F2", CultureInfo.InvariantCulture);
-        set => _right = double.Parse(value, CultureInfo.InvariantCulture);
-    }
-
-    private double _rotate;
-
-    [Parameter]
-    public string Rotate
-    {
-        get => _rotate.ToString("F2", CultureInfo.InvariantCulture);
-        set => _rotate = double.Parse(value, CultureInfo.InvariantCulture);
-    }
+    public double Rotate { get; set; }
 
     [Parameter] public IconFlip? FlipTransform { get; set; }
 
@@ -88,20 +46,6 @@ public class FaText : ComponentBase, ITransformIcon
 #pragma warning disable CA2227
     public Dictionary<string, object> AdditionalAttributes { get; set; } = new();
 #pragma warning restore CA2227
-
-    double ITransformIcon.Grow => _grow;
-
-    double ITransformIcon.Shrink => _shrink;
-
-    double ITransformIcon.Rotate => _rotate;
-
-    double ITransformIcon.Up => _up;
-
-    double ITransformIcon.Down => _down;
-
-    double ITransformIcon.Left => _left;
-
-    double ITransformIcon.Right => _right;
 
     public string ToClass()
     {
@@ -131,7 +75,7 @@ public class FaText : ComponentBase, ITransformIcon
         builder.AddAttribute(1, "class", ToClass());
         if (!string.IsNullOrWhiteSpace(Style))
             builder.AddAttribute(2, "style", Style);
-        var transform = this.ToTransform();
+        var transform = this.ToTransform(null);
         if (!string.IsNullOrWhiteSpace(transform))
             builder.AddAttribute(3, "data-fa-transform", transform);
         builder.AddMultipleAttributes(4, AdditionalAttributes);

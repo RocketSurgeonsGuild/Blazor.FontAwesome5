@@ -22,12 +22,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests {
         }
 
         [Fact]
-        public void Should_Have_A_Default_Icon_If_Not_Defined()
-        {
-            _host.RenderComponent<FaIcon>().Markup.Should().Be("<i class=\"fa-solid fa-bomb\"></i>");
-        }
-
-        [Fact]
         public void Should_Render_A_Transformed_Icon()
         {
             var icon = _host.RenderComponent<FaIcon>(

@@ -8,222 +8,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome6;
 [PublicAPI]
 public sealed class FaIcon : ComponentBase, IIcon
 {
-    private Icon _icon = new Icon(IconFamily.Classic, IconStyle.Solid, "bomb");
-
     [CascadingParameter] private FaStack? Stack { get; set; }
 
-    [Parameter]
-    public Icon Icon
-    {
-        get => _icon;
-        set
-        {
-            _icon = value;
-            var iIcon = (IIcon)_icon;
-            if (iIcon.Size != IconSize.Normal)
-            {
-                Size = iIcon.Size;
-            }
-
-            if (iIcon.FixedWidth)
-            {
-                FixedWidth = iIcon.FixedWidth;
-            }
-
-            if (iIcon.Animation != IconAnimation.None)
-            {
-                Animation = iIcon.Animation;
-                AnimationDelay = iIcon.AnimationDelay;
-                AnimationDirection = iIcon.AnimationDirection;
-                AnimationDuration = iIcon.AnimationDuration;
-                AnimationIterationCount = iIcon.AnimationIterationCount;
-                AnimationTiming = iIcon.AnimationTiming;
-
-                if (Beat)
-                {
-                    if (iIcon.BeatScale.HasValue)
-                    {
-                        BeatScale = iIcon.BeatScale.Value;
-                    }
-                }
-
-                if (BeatFade)
-                {
-                    if (iIcon.BeatFadeScale.HasValue)
-                    {
-                        BeatFadeScale = iIcon.BeatFadeScale.Value;
-                    }
-
-                    if (iIcon.FadeOpacity.HasValue)
-                    {
-                        BeatFadeOpacity = iIcon.FadeOpacity.Value;
-                    }
-                }
-
-                if (Bounce)
-                {
-                    if (iIcon.BounceHeight.HasValue)
-                    {
-                        BounceHeight = iIcon.BounceHeight.Value;
-                    }
-
-                    if (iIcon.BounceRebound.HasValue)
-                    {
-                        BounceRebound = iIcon.BounceRebound.Value;
-                    }
-
-                    if (iIcon.BounceStartScaleX.HasValue)
-                    {
-                        BounceStartScaleX = iIcon.BounceStartScaleX.Value;
-                    }
-
-                    if (iIcon.BounceStartScaleY.HasValue)
-                    {
-                        BounceStartScaleY = iIcon.BounceStartScaleY.Value;
-                    }
-
-                    if (iIcon.BounceJumpScaleX.HasValue)
-                    {
-                        BounceJumpScaleX = iIcon.BounceJumpScaleX.Value;
-                    }
-
-                    if (iIcon.BounceJumpScaleY.HasValue)
-                    {
-                        BounceJumpScaleY = iIcon.BounceJumpScaleY.Value;
-                    }
-
-                    if (iIcon.BounceLandScaleX.HasValue)
-                    {
-                        BounceLandScaleX = iIcon.BounceLandScaleX.Value;
-                    }
-
-                    if (iIcon.BounceLandScaleY.HasValue)
-                    {
-                        BounceLandScaleY = iIcon.BounceLandScaleY.Value;
-                    }
-                }
-
-                if (Fade)
-                {
-                    if (iIcon.FadeOpacity.HasValue)
-                    {
-                        FadeOpacity = iIcon.FadeOpacity.Value;
-                    }
-                }
-
-                if (Flip)
-                {
-                    if (iIcon.FlipX.HasValue)
-                    {
-                        FlipX = iIcon.FlipX.Value;
-                    }
-
-                    if (iIcon.FlipY.HasValue)
-                    {
-                        FlipY = iIcon.FlipY.Value;
-                    }
-
-                    if (iIcon.FlipZ.HasValue)
-                    {
-                        FlipZ = iIcon.FlipZ.Value;
-                    }
-
-                    if (!string.IsNullOrWhiteSpace(iIcon.FlipAngle))
-                    {
-                        FlipAngle = iIcon.FlipAngle;
-                    }
-                }
-            }
-
-            if (iIcon.Pull != IconPull.None)
-            {
-                Pull = iIcon.Pull;
-                if (!string.IsNullOrWhiteSpace(iIcon.PullMargin))
-                {
-                    PullMargin = iIcon.PullMargin;
-                }
-            }
-
-            if (iIcon.Border)
-            {
-                Border = iIcon.Border;
-                if (!string.IsNullOrWhiteSpace(iIcon.BorderColor))
-                {
-                    BorderColor = iIcon.BorderColor;
-                }
-
-                if (!string.IsNullOrWhiteSpace(iIcon.BorderPadding))
-                {
-                    BorderPadding = iIcon.BorderPadding;
-                }
-
-                if (!string.IsNullOrWhiteSpace(iIcon.BorderRadius))
-                {
-                    BorderRadius = iIcon.BorderRadius;
-                }
-
-                if (!string.IsNullOrWhiteSpace(iIcon.BorderStyle))
-                {
-                    BorderStyle = iIcon.BorderStyle;
-                }
-
-                if (!string.IsNullOrWhiteSpace(iIcon.BorderWidth))
-                {
-                    BorderWidth = iIcon.BorderWidth;
-                }
-            }
-
-            if (iIcon.Inverse)
-            {
-                Inverse = iIcon.Inverse;
-            }
-
-            if (!string.IsNullOrWhiteSpace(iIcon.StackZIndex))
-            {
-                StackZIndex = iIcon.StackZIndex;
-            }
-
-            if (!string.IsNullOrWhiteSpace(iIcon.RotateBy))
-            {
-                RotateBy = iIcon.RotateBy;
-            }
-
-            // ReSharper disable once CompareOfFloatsByEqualityOperator
-            if (iIcon.Rotate is > 0.001 or < -0.001)
-            {
-                Rotate = iIcon.Rotate;
-            }
-
-            if (iIcon.FlipTransform == IconFlip.None)
-            {
-                FlipTransform = iIcon.FlipTransform;
-            }
-
-            double assignIfGreaterThan0(double lhs, double value) => value > 0.001 ? value : lhs;
-
-            Shrink = assignIfGreaterThan0(Shrink, iIcon.Shrink);
-            Grow = assignIfGreaterThan0(Grow, iIcon.Grow);
-            Up = assignIfGreaterThan0(Up, iIcon.Up);
-            Down = assignIfGreaterThan0(Down, iIcon.Down);
-            Left = assignIfGreaterThan0(Left, iIcon.Left);
-            Right = assignIfGreaterThan0(Right, iIcon.Right);
-
-            if (iIcon.Mask != null)
-            {
-                Mask = iIcon.Mask;
-            }
-
-            if (!string.IsNullOrWhiteSpace(iIcon.CssClass))
-            {
-                Class = iIcon.CssClass;
-            }
-
-            if (!string.IsNullOrWhiteSpace(iIcon.CssStyle))
-            {
-                Style = iIcon.CssStyle;
-            }
-        }
-    }
+    [Parameter, EditorRequired] public required Icon Icon { get; set; }
 
     [Parameter] public string? StackZIndex { get; set; }
     [Parameter] public string? RotateBy { get; set; }
@@ -234,29 +21,21 @@ public sealed class FaIcon : ComponentBase, IIcon
     [Parameter] public string? BorderPadding { get; set; }
     [Parameter] public string? BorderColor { get; set; }
 
-    [Parameter]
-    public double BounceLandScaleY{ get; set; }
+    [Parameter] public double BounceLandScaleY{ get; set; }
 
-    [Parameter]
-    public double BounceLandScaleX{ get; set; }
+    [Parameter] public double BounceLandScaleX{ get; set; }
 
-    [Parameter]
-    public double BounceJumpScaleY{ get; set; }
+    [Parameter] public double BounceJumpScaleY{ get; set; }
 
-    [Parameter]
-    public double BounceJumpScaleX{ get; set; }
+    [Parameter] public double BounceJumpScaleX{ get; set; }
 
-    [Parameter]
-    public double BounceStartScaleY{ get; set; }
+    [Parameter] public double BounceStartScaleY{ get; set; }
 
-    [Parameter]
-    public double BounceStartScaleX{ get; set; }
+    [Parameter] public double BounceStartScaleX{ get; set; }
 
-    [Parameter]
-    public double BounceRebound{ get; set; }
+    [Parameter] public double BounceRebound{ get; set; }
 
-    [Parameter]
-    public double BounceHeight{ get; set; }
+    [Parameter] public double BounceHeight{ get; set; }
 
     [Parameter] public IconAnimation Animation { get; set; }
     [Parameter] public string? AnimationDelay { get; set; }
@@ -405,12 +184,12 @@ public sealed class FaIcon : ComponentBase, IIcon
     public Dictionary<string, object> AdditionalAttributes { get; set; } = new();
 #pragma warning restore CA2227
 
-    IconFamily IIcon.Family => _icon.Family;
-    IconStyle IIcon.Style => _icon.Style;
+    IconFamily IIcon.Family => Icon.Family;
+    IconStyle IIcon.Style => Icon.Style;
     string? ISharedIcon.CssStyle => Style;
     string? ISharedIcon.CssClass => Class;
 
-    string IIcon.Name => _icon.Name;
+    string IIcon.Name => Icon.Name;
 
     double? IIcon.PrimaryOpacity => PrimaryOpacity;
     double? IIcon.SecondaryOpacity => SecondaryOpacity;
@@ -433,17 +212,16 @@ public sealed class FaIcon : ComponentBase, IIcon
     double? IAnimationIcon.FlipZ => FlipZ;
 
     IconPull IIcon.Pull => Pull ?? IconPull.None;
-
     protected override void BuildRenderTree(RenderTreeBuilder builder)
     {
         //<i class="@ToClass()" @attributes="GetAttributes()" style="@AllStyle"></i>
         builder.OpenElement(0, "i");
 
-        builder.AddAttribute(1, "class", this.ToClass(Stack != null, Class));
-        var style = this.ToStyle(Style);
+        builder.AddAttribute(1, "class", Icon.ToClass(this, Stack != null, Class));
+        var style = Icon.ToStyle(this, Style);
         if (!string.IsNullOrWhiteSpace(style))
             builder.AddAttribute(2, "style", style);
-        var transform = this.ToTransform();
+        var transform = Icon.ToTransform(this);
         if (!string.IsNullOrWhiteSpace(transform))
             builder.AddAttribute(3, "data-fa-transform", transform);
         if (Mask != null)

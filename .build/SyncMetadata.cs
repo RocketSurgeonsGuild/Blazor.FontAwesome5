@@ -22,7 +22,7 @@ public partial class Pipeline
 
     private Target RegenerateFromMetadata =>
         _ => _
-            .Requires(() => FontAwesomeToken)
+//            .Requires(() => FontAwesomeToken)
             .Executes(
                  () =>
                  {
@@ -42,30 +42,26 @@ public partial class Pipeline
                          var categoriesData = packageDirectory / "node_modules" / "@fortawesome/fontawesome-pro" / "metadata" / "categories.yml";
 
                          var icons = JsonConvert.DeserializeObject<IconDictionary>(iconsData.ReadAllText()!).ToModels().ToImmutableArray();
-                         var iconsLookup = icons.ToImmutableDictionary(z => z.Name, StringComparer.OrdinalIgnoreCase);
                          var categories = new DeserializerBuilder()
                                          .WithNamingConvention(CamelCaseNamingConvention.Instance)
                                          .Build()
                                          .Deserialize<CategoryDictionary>(categoriesData.ReadAllText())
                                          .ToModels()
                                          .ToImmutableArray();
-                         var categoryLookup = categories.SelectMany(model => model.Icons.Select(icon => ( icon, model ))).ToLookup(z => z.icon, z => z.model);
 
                          ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Icons" ).CreateOrCleanDirectory();
                          ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Categories" ).CreateOrCleanDirectory();
                          ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Icons" ).CreateOrCleanDirectory();
                          ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Categories" ).CreateOrCleanDirectory();
 
-                         GenerateFiles(stringV, version, icons, categories, categoryLookup, iconsLookup);
+                         GenerateFiles(stringV, version, icons, categories);
                      }
 
                      static void GenerateFiles(
                          string stringV,
                          FontAwesomeVersion version,
                          ImmutableArray<IconModel> icons,
-                         ImmutableArray<CategoryModel> categories,
-                         ILookup<string, CategoryModel> categoryLookup,
-                         ImmutableDictionary<string, IconModel> iconsLookup
+                         ImmutableArray<CategoryModel> categories
                      )
                      {
                          var freeFileBuilders = new Dictionary<string, StringBuilder>();

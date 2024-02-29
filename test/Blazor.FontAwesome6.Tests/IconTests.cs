@@ -43,7 +43,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
                .Shrink(2)
                .Grow(3)
                .ToIcon().Should().Be(
-                    "<i class=\"fa-regular fa-circle-half-stroke\" data-fa-transform=\"grow-3.00 shrink-2.00 rotate-200.00 up-12.00 down-4.00 left-2.00 right-1.00\"></i>"
+                    "<i class=\"fa-regular fa-circle-half-stroke\" data-fa-transform=\"grow-3.00 shrink-2.00 rotate--40.00 up-12.00 down-4.00 left-2.00 right-1.00\"></i>"
                 );
         }
 

@@ -7,14 +7,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6;
 
 public class FaCounter : ComponentBase, ITransformIcon, IAnimationIcon, ISharedIcon
 {
-    private double _grow;
-    private double _shrink;
-    private double _up;
-    private double _down;
-    private double _left;
-    private double _right;
-    private double _rotate;
-
     [Parameter] public RenderFragment? ChildContent { get; set; }
 
     [Parameter] public IconSize Size { get; set; }
@@ -28,128 +20,60 @@ public class FaCounter : ComponentBase, ITransformIcon, IAnimationIcon, ISharedI
 
 
     [Parameter]
-    public string Grow
-    {
-        get => _grow.ToString("F2", CultureInfo.InvariantCulture);
-        set => _grow = double.Parse(value, CultureInfo.InvariantCulture);
-    }
+    public double Grow { get; set; }
 
 
     [Parameter]
-    public string Shrink
-    {
-        get => _shrink.ToString("F2", CultureInfo.InvariantCulture);
-        set => _shrink = double.Parse(value, CultureInfo.InvariantCulture);
-    }
+    public double Shrink { get; set; }
 
     [Parameter]
-    public string Up
-    {
-        get => _up.ToString("F2", CultureInfo.InvariantCulture);
-        set => _up = double.Parse(value, CultureInfo.InvariantCulture);
-    }
+    public double Up { get; set; }
 
     [Parameter]
-    public string Down
-    {
-        get => _down.ToString("F2", CultureInfo.InvariantCulture);
-        set => _down = double.Parse(value, CultureInfo.InvariantCulture);
-    }
+    public double Down { get; set; }
 
     [Parameter]
-    public string Left
-    {
-        get => _left.ToString("F2", CultureInfo.InvariantCulture);
-        set => _left = double.Parse(value, CultureInfo.InvariantCulture);
-    }
+    public double Left { get; set; }
 
 
     [Parameter]
-    public string Right
-    {
-        get => _right.ToString("F2", CultureInfo.InvariantCulture);
-        set => _right = double.Parse(value, CultureInfo.InvariantCulture);
-    }
+    public double Right { get; set; }
 
     [Parameter]
-    public string Rotate
-    {
-        get => _rotate.ToString("F2", CultureInfo.InvariantCulture);
-        set => _rotate = double.Parse(value, CultureInfo.InvariantCulture);
-    }
+    public double Rotate { get; set; }
 
 
-    private double _bounceLandScaleY;
 
     [Parameter]
-    public string BounceLandScaleY
-    {
-        get => _bounceLandScaleY.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceLandScaleY = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double BounceLandScaleY { get; set; }
 
-    private double _bounceLandScaleX;
 
     [Parameter]
-    public string BounceLandScaleX
-    {
-        get => _bounceLandScaleX.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceLandScaleX = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double BounceLandScaleX { get; set; }
 
-    private double _bounceJumpScaleY;
 
     [Parameter]
-    public string BounceJumpScaleY
-    {
-        get => _bounceJumpScaleY.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceJumpScaleY = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double BounceJumpScaleY { get; set; }
 
-    private double _bounceJumpScaleX;
 
     [Parameter]
-    public string BounceJumpScaleX
-    {
-        get => _bounceJumpScaleX.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceJumpScaleX = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double BounceJumpScaleX { get; set; }
 
-    private double _bounceStartScaleY;
 
     [Parameter]
-    public string BounceStartScaleY
-    {
-        get => _bounceStartScaleY.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceStartScaleY = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double BounceStartScaleY { get; set; }
 
-    private double _bounceStartScaleX;
 
     [Parameter]
-    public string BounceStartScaleX
-    {
-        get => _bounceStartScaleX.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceStartScaleX = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double BounceStartScaleX { get; set; }
 
-    private double _bounceRebound;
 
     [Parameter]
-    public string BounceRebound
-    {
-        get => _bounceRebound.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceRebound = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double BounceRebound { get; set; }
 
-    private double _bounceHeight;
 
     [Parameter]
-    public string BounceHeight
-    {
-        get => _bounceHeight.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceHeight = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double BounceHeight { get; set; }
 
     [Parameter] public IconAnimation Animation { get; set; }
     [Parameter] public string? AnimationDelay { get; set; }
@@ -240,68 +164,32 @@ public class FaCounter : ComponentBase, ITransformIcon, IAnimationIcon, ISharedI
 
     [Parameter] public string? FlipAngle { get; set; }
 
-    private double _flipX;
 
     [Parameter]
-    public string FlipX
-    {
-        get => _flipX.ToString("F2", CultureInfo.InvariantCulture);
-        set => _flipX = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double FlipX { get; set; }
 
-    private double _flipY;
 
     [Parameter]
-    public string FlipY
-    {
-        get => _flipY.ToString("F2", CultureInfo.InvariantCulture);
-        set => _flipY = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double FlipY { get; set; }
 
-    private double _flipZ;
 
     [Parameter]
-    public string FlipZ
-    {
-        get => _flipZ.ToString("F2", CultureInfo.InvariantCulture);
-        set => _flipZ = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double FlipZ { get; set; }
 
-    private double _beatFadeOpacity;
 
     [Parameter]
-    public string BeatFadeOpacity
-    {
-        get => _beatFadeOpacity.ToString("F2", CultureInfo.InvariantCulture);
-        set => _beatFadeOpacity = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double BeatFadeOpacity { get; set; }
 
-    private double _beatFadeScale;
 
     [Parameter]
-    public string BeatFadeScale
-    {
-        get => _beatFadeScale.ToString("F2", CultureInfo.InvariantCulture);
-        set => _beatFadeScale = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double BeatFadeScale { get; set; }
 
-    private double _fadeOpacity;
 
     [Parameter]
-    public string FadeOpacity
-    {
-        get => _fadeOpacity.ToString("F2", CultureInfo.InvariantCulture);
-        set => _fadeOpacity = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _beatScale;
+    public double FadeOpacity { get; set; }
 
     [Parameter]
-    public string BeatScale
-    {
-        get => _beatScale.ToString("F2", CultureInfo.InvariantCulture);
-        set => _beatScale = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double BeatScale { get; set; }
     [Parameter] public string? Class { get; set; }
     [Parameter] public string? Style { get; set; }
 
@@ -310,46 +198,32 @@ public class FaCounter : ComponentBase, ITransformIcon, IAnimationIcon, ISharedI
     public Dictionary<string, object> AdditionalAttributes { get; set; } = new();
 #pragma warning restore CA2227
 
-    double ITransformIcon.Grow => _grow;
-
-    double ITransformIcon.Shrink => _shrink;
-
-    double ITransformIcon.Rotate => _rotate;
-
-    double ITransformIcon.Up => _up;
-
-    double ITransformIcon.Down => _down;
-
-    double ITransformIcon.Left => _left;
-
-    double ITransformIcon.Right => _right;
-
     string? ISharedIcon.CssStyle => Style;
     string? ISharedIcon.CssClass => Class;
 
-    double? IAnimationIcon.BeatScale => _beatScale;
-    double? IAnimationIcon.FadeOpacity => _fadeOpacity;
-    double? IAnimationIcon.BeatFadeOpacity => _beatFadeOpacity;
-    double? IAnimationIcon.BeatFadeScale => _beatFadeScale;
+    double? IAnimationIcon.BeatScale => BeatScale;
+    double? IAnimationIcon.FadeOpacity => FadeOpacity;
+    double? IAnimationIcon.BeatFadeOpacity => BeatFadeOpacity;
+    double? IAnimationIcon.BeatFadeScale => BeatFadeScale;
 
-    double? IAnimationIcon.BounceRebound => _bounceRebound;
-    double? IAnimationIcon.BounceHeight => _bounceHeight;
-    double? IAnimationIcon.BounceStartScaleX => _bounceStartScaleX;
-    double? IAnimationIcon.BounceStartScaleY => _bounceStartScaleY;
-    double? IAnimationIcon.BounceJumpScaleX => _bounceJumpScaleX;
-    double? IAnimationIcon.BounceJumpScaleY => _bounceJumpScaleY;
-    double? IAnimationIcon.BounceLandScaleX => _bounceLandScaleX;
-    double? IAnimationIcon.BounceLandScaleY => _bounceLandScaleY;
+    double? IAnimationIcon.BounceRebound => BounceRebound;
+    double? IAnimationIcon.BounceHeight => BounceHeight;
+    double? IAnimationIcon.BounceStartScaleX => BounceStartScaleX;
+    double? IAnimationIcon.BounceStartScaleY => BounceStartScaleY;
+    double? IAnimationIcon.BounceJumpScaleX => BounceJumpScaleX;
+    double? IAnimationIcon.BounceJumpScaleY => BounceJumpScaleY;
+    double? IAnimationIcon.BounceLandScaleX => BounceLandScaleX;
+    double? IAnimationIcon.BounceLandScaleY => BounceLandScaleY;
 
-    double? IAnimationIcon.FlipX => _flipX;
-    double? IAnimationIcon.FlipY => _flipY;
-    double? IAnimationIcon.FlipZ => _flipZ;
+    double? IAnimationIcon.FlipX => FlipX;
+    double? IAnimationIcon.FlipY => FlipY;
+    double? IAnimationIcon.FlipZ => FlipZ;
 
     private string ToClass()
     {
         var sb = new StringBuilder();
         sb.Append("fa-layers-counter");
-        this.ApplyClass(sb, false, Class);
+        this.ApplyClass(sb, null, false, Class);
 
         if (Position.HasValue)
         {
@@ -376,7 +250,7 @@ public class FaCounter : ComponentBase, ITransformIcon, IAnimationIcon, ISharedI
     private string ToStyle()
     {
         var values = new StringBuilder();
-        this.ApplyStyle(values, Style);
+        this.ApplyStyle(values, null, Style);
 
         if (!string.IsNullOrWhiteSpace(BackgroundColor))
         {
@@ -447,7 +321,7 @@ public class FaCounter : ComponentBase, ITransformIcon, IAnimationIcon, ISharedI
         builder.OpenElement(0, "span");
         builder.AddAttribute(1, "class", ToClass());
         builder.AddAttribute(2, "style", ToStyle());
-        var transform = this.ToTransform();
+        var transform = this.ToTransform(null);
         if (!string.IsNullOrWhiteSpace(transform))
             builder.AddAttribute(3, "data-fa-transform", transform);
         builder.AddMultipleAttributes(4, AdditionalAttributes);

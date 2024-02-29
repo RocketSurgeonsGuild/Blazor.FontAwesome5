@@ -81,14 +81,31 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
     }
 
     public Icon Animate(
-        IconAnimation animation, string? delay = null, string? direction = null, string? duration = null, string? iterationCount = null, string? timing = null
+        IconAnimation animation,
+        string? delay = null,
+        string? direction = null,
+        string? duration = null,
+        string? iterationCount = null,
+        string? timing = null
     )
     {
-        return AnimationSettings(animation, delay, direction, duration, iterationCount, timing);
+        return this with
+        {
+            _animation = animation,
+            _animationDelay = delay,
+            _animationDirection = direction,
+            _animationDuration = duration,
+            _animationIterationCount = iterationCount,
+            _animationTiming = timing,
+        };
     }
 
-    public Icon AnimationSettings(
-        IconAnimation? animation = null, string? delay = null, string? direction = null, string? duration = null, string? iterationCount = null,
+    private Icon AnimationSettings(
+        IconAnimation? animation = null,
+        string? delay = null,
+        string? direction = null,
+        string? duration = null,
+        string? iterationCount = null,
         string? timing = null
     )
     {
@@ -104,31 +121,62 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
     }
 
     public Icon Beat(
-        double? scale = null, string? delay = null, string? direction = null, string? duration = null, string? iterationCount = null, string? timing = null
-    ) =>
-        AnimationSettings(
-            IconAnimation.Beat,
-            delay, direction, duration, iterationCount, timing
-        ).BeatScale(scale);
-
-
-    public Icon Fade(
-        double? opacity = null, string? delay = null, string? direction = null, string? duration = null, string? iterationCount = null, string? timing = null
-    ) =>
-        AnimationSettings(
-            IconAnimation.Fade,
-            delay, direction, duration, iterationCount, timing
-        ).FadeOpacity(opacity);
-
-
-    public Icon BeatFade(
-        double? opacity = null, double? scale = null, string? delay = null, string? direction = null, string? duration = null, string? iterationCount = null,
+        double? scale = null,
+        string? delay = null,
+        string? direction = null,
+        string? duration = null,
+        string? iterationCount = null,
         string? timing = null
     ) =>
         AnimationSettings(
-            IconAnimation.BeatFade,
-            delay, direction, duration, iterationCount, timing
-        ).BeatFadeOpacity(opacity).BeatFadeScale(scale);
+                IconAnimation.Beat,
+                delay,
+                direction,
+                duration,
+                iterationCount,
+                timing
+            )
+           .BeatScale(scale);
+
+
+    public Icon Fade(
+        double? opacity = null,
+        string? delay = null,
+        string? direction = null,
+        string? duration = null,
+        string? iterationCount = null,
+        string? timing = null
+    ) =>
+        AnimationSettings(
+                IconAnimation.Fade,
+                delay,
+                direction,
+                duration,
+                iterationCount,
+                timing
+            )
+           .FadeOpacity(opacity);
+
+
+    public Icon BeatFade(
+        double? opacity = null,
+        double? scale = null,
+        string? delay = null,
+        string? direction = null,
+        string? duration = null,
+        string? iterationCount = null,
+        string? timing = null
+    ) =>
+        AnimationSettings(
+                IconAnimation.BeatFade,
+                delay,
+                direction,
+                duration,
+                iterationCount,
+                timing
+            )
+           .BeatFadeOpacity(opacity)
+           .BeatFadeScale(scale);
 
 
     public Icon Bounce(
@@ -140,21 +188,29 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         double? jumpScaleY = null,
         double? landScaleX = null,
         double? landScaleY = null,
-        string? delay = null, string? direction = null, string? duration = null, string? iterationCount = null, string? timing = null
+        string? delay = null,
+        string? direction = null,
+        string? duration = null,
+        string? iterationCount = null,
+        string? timing = null
     ) =>
         AnimationSettings(
                 IconAnimation.Bounce,
-                delay, direction, duration, iterationCount, timing
+                delay,
+                direction,
+                duration,
+                iterationCount,
+                timing
             ) with
             {
-                _bounceRebound = rebound ?? _bounceRebound,
-                _bounceHeight = height ?? _bounceHeight,
-                _bounceStartScaleX = startScaleX ?? _bounceStartScaleX,
-                _bounceStartScaleY = startScaleY ?? _bounceStartScaleY,
-                _bounceJumpScaleX = jumpScaleX ?? _bounceJumpScaleX,
-                _bounceJumpScaleY = jumpScaleY ?? _bounceJumpScaleY,
-                _bounceLandScaleX = landScaleX ?? _bounceLandScaleX,
-                _bounceLandScaleY = landScaleY ?? _bounceLandScaleY
+                _bounceRebound = rebound,
+                _bounceHeight = height,
+                _bounceStartScaleX = startScaleX,
+                _bounceStartScaleY = startScaleY,
+                _bounceJumpScaleX = jumpScaleX,
+                _bounceJumpScaleY = jumpScaleY,
+                _bounceLandScaleX = landScaleX,
+                _bounceLandScaleY = landScaleY
             };
 
 
@@ -163,11 +219,19 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         double? flipY = null,
         double? flipZ = null,
         string? flipAngle = null,
-        string? delay = null, string? direction = null, string? duration = null, string? iterationCount = null, string? timing = null
+        string? delay = null,
+        string? direction = null,
+        string? duration = null,
+        string? iterationCount = null,
+        string? timing = null
     ) =>
         AnimationSettings(
                 IconAnimation.Flip,
-                delay, direction, duration, iterationCount, timing
+                delay,
+                direction,
+                duration,
+                iterationCount,
+                timing
             ) with
             {
                 _flipX = flipX,
@@ -178,27 +242,53 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
 
 
     public Icon Shake(
-        string? delay = null, string? direction = null, string? duration = null, string? iterationCount = null, string? timing = null
+        string? delay = null,
+        string? direction = null,
+        string? duration = null,
+        string? iterationCount = null,
+        string? timing = null
     ) =>
         AnimationSettings(
             IconAnimation.Shake,
-            delay, direction, duration, iterationCount, timing
+            delay,
+            direction,
+            duration,
+            iterationCount,
+            timing
         );
 
     public Icon Spin(
-        bool reverse = false, string? delay = null, string? direction = null, string? duration = null, string? iterationCount = null, string? timing = null
+        bool reverse = false,
+        string? delay = null,
+        string? direction = null,
+        string? duration = null,
+        string? iterationCount = null,
+        string? timing = null
     ) =>
         AnimationSettings(
             reverse ? IconAnimation.Spin & IconAnimation.Reverse : IconAnimation.Spin,
-            delay, direction, duration, iterationCount, timing
+            delay,
+            direction,
+            duration,
+            iterationCount,
+            timing
         );
 
     public Icon SpinPulse(
-        bool reverse = false, string? delay = null, string? direction = null, string? duration = null, string? iterationCount = null, string? timing = null
+        bool reverse = false,
+        string? delay = null,
+        string? direction = null,
+        string? duration = null,
+        string? iterationCount = null,
+        string? timing = null
     ) =>
         AnimationSettings(
             reverse ? IconAnimation.SpinPulse & IconAnimation.Reverse : IconAnimation.SpinPulse,
-            delay, direction, duration, iterationCount, timing
+            delay,
+            direction,
+            duration,
+            iterationCount,
+            timing
         );
 
     public Icon Pull(IconPull pull = IconPull.Left, string? margin = null)
@@ -299,13 +389,13 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
     public Icon Rotate(IconRotate rotate)
     {
         return rotate switch
-        {
-            IconRotate._0Deg   => Rotate(),
-            IconRotate._90Deg  => Rotate(90),
-            IconRotate._180Deg => Rotate(180),
-            IconRotate._270Deg => Rotate(270),
-            _                  => throw new NotSupportedException(),
-        };
+               {
+                   IconRotate._0Deg   => Rotate(),
+                   IconRotate._90Deg  => Rotate(90),
+                   IconRotate._180Deg => Rotate(180),
+                   IconRotate._270Deg => Rotate(270),
+                   _                  => throw new NotSupportedException(),
+               };
     }
 
     public Icon Rotate(double rotate = 0)
@@ -328,7 +418,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
     {
         return this with
         {
-            _rotate = _rotate + rotate
+            _rotate = _rotate - rotate
         };
     }
 
@@ -588,26 +678,26 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
     public static string ToString(IconSize size, bool stack)
     {
         return ( size, stack ) switch
-        {
-            (IconSize.ExtraExtraSmall, false) => " fa-2xs",
-            (IconSize.ExtraSmall, false)      => " fa-xs",
-            (IconSize.Small, false)           => " fa-sm",
-            (IconSize.Large, false)           => " fa-lg",
-            (IconSize.ExtraLarge, false)      => " fa-xl",
-            (IconSize.ExtraExtraLarge, false) => " fa-2xl",
-            (IconSize._2X, true)              => " fa-stack-2x",
-            (IconSize._2X, false)             => " fa-2x",
-            (IconSize._3X, false)             => " fa-3x",
-            (IconSize._4X, false)             => " fa-4x",
-            (IconSize._5X, false)             => " fa-5x",
-            (IconSize._6X, false)             => " fa-6x",
-            (IconSize._7X, false)             => " fa-7x",
-            (IconSize._8X, false)             => " fa-8x",
-            (IconSize._9X, false)             => " fa-9x",
-            (IconSize._10X, false)            => " fa-10x",
-            (_, true)                         => " fa-stack-1x",
-            (_, _)                            => "",
-        };
+               {
+                   (IconSize.ExtraExtraSmall, false) => " fa-2xs",
+                   (IconSize.ExtraSmall, false)      => " fa-xs",
+                   (IconSize.Small, false)           => " fa-sm",
+                   (IconSize.Large, false)           => " fa-lg",
+                   (IconSize.ExtraLarge, false)      => " fa-xl",
+                   (IconSize.ExtraExtraLarge, false) => " fa-2xl",
+                   (IconSize._2X, true)              => " fa-stack-2x",
+                   (IconSize._2X, false)             => " fa-2x",
+                   (IconSize._3X, false)             => " fa-3x",
+                   (IconSize._4X, false)             => " fa-4x",
+                   (IconSize._5X, false)             => " fa-5x",
+                   (IconSize._6X, false)             => " fa-6x",
+                   (IconSize._7X, false)             => " fa-7x",
+                   (IconSize._8X, false)             => " fa-8x",
+                   (IconSize._9X, false)             => " fa-9x",
+                   (IconSize._10X, false)            => " fa-10x",
+                   (_, true)                         => " fa-stack-1x",
+                   (_, _)                            => "",
+               };
     }
 
 
@@ -632,11 +722,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         if (( animation & IconAnimation.Reverse ) == IconAnimation.Reverse)
         {
             sb.Append(
-                ( animation ^ IconAnimation.Reverse ) switch
-                {
-                    IconAnimation.Spin or IconAnimation.SpinPulse => " fa-spin-reverse",
-                    _                                             => ""
-                }
+                ( animation ^ IconAnimation.Reverse ) switch { IconAnimation.Spin or IconAnimation.SpinPulse => " fa-spin-reverse", _ => "" }
             );
         }
 
@@ -645,12 +731,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
 
     public static string ToString(IconPull pull)
     {
-        return pull switch
-        {
-            IconPull.Left  => "fa-pull-left",
-            IconPull.Right => "fa-pull-right",
-            _              => throw new NotImplementedException()
-        };
+        return pull switch { IconPull.Left => "fa-pull-left", IconPull.Right => "fa-pull-right", _ => throw new NotImplementedException() };
     }
 
     public static string ToString(IconFlip flip)
@@ -675,20 +756,20 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
 
     public static string ToPrefix(IconFamily family, IconStyle style)
     {
-        return (family, style) switch
-        {
-            (_, IconStyle.Brands)                   => "fa-brands",
-            (IconFamily.Duotone, _)                 => "fa-duotone",
-            (IconFamily.Classic, IconStyle.Thin)    => "fa-thin",
-            (IconFamily.Classic, IconStyle.Light)   => "fa-light",
-            (IconFamily.Classic, IconStyle.Regular) => "fa-regular",
-            (IconFamily.Classic, IconStyle.Solid)   => "fa-solid",
-            (IconFamily.Sharp, IconStyle.Thin)      => "fa-sharp fa-thin",
-            (IconFamily.Sharp, IconStyle.Light)     => "fa-sharp fa-light",
-            (IconFamily.Sharp, IconStyle.Regular)   => "fa-sharp fa-regular",
-            (IconFamily.Sharp, IconStyle.Solid)     => "fa-sharp fa-solid",
-            _                                       => "fa-solid" // Default in the case no icon was provided
-        };
+        return ( family, style ) switch
+               {
+                   (_, IconStyle.Brands)                   => "fa-brands",
+                   (IconFamily.Duotone, _)                 => "fa-duotone",
+                   (IconFamily.Classic, IconStyle.Thin)    => "fa-thin",
+                   (IconFamily.Classic, IconStyle.Light)   => "fa-light",
+                   (IconFamily.Classic, IconStyle.Regular) => "fa-regular",
+                   (IconFamily.Classic, IconStyle.Solid)   => "fa-solid",
+                   (IconFamily.Sharp, IconStyle.Thin)      => "fa-sharp fa-thin",
+                   (IconFamily.Sharp, IconStyle.Light)     => "fa-sharp fa-light",
+                   (IconFamily.Sharp, IconStyle.Regular)   => "fa-sharp fa-regular",
+                   (IconFamily.Sharp, IconStyle.Solid)     => "fa-sharp fa-solid",
+                   _                                       => "fa-solid" // Default in the case no icon was provided
+               };
     }
 
     public static string ToPrefix(Icon icon)
@@ -712,7 +793,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
     {
         var sb = new StringBuilder();
         sb.Append("<i class=\"");
-        this.ApplyClass(sb);
+        this.ApplyClass(sb, null);
         sb.Append('"');
         ApplyAttributes(sb);
         sb.Append("></i>");
@@ -735,10 +816,200 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
             sb.Append('"');
         }
 
-        if (this.ApplyTransform(sb, () => sb.Append(" data-fa-transform=\"")))
+        if (this.ApplyTransform(sb, null, () => sb.Append(" data-fa-transform=\"")))
         {
             sb.Append('"');
         }
+    }
+
+    public Icon ApplyChanges(IIcon other)
+    {
+        var @this = this;
+        if (other.Size != IconSize.Normal)
+        {
+            @this = @this.Size(other.Size);
+        }
+
+        if (other.FixedWidth)
+        {
+            @this = @this.FixedWidth(other.FixedWidth);
+        }
+
+        if (other.Animation != IconAnimation.None)
+        {
+            @this = @this.Animate(
+                other.Animation,
+                other.AnimationDelay,
+                other.AnimationDirection,
+                other.AnimationDuration,
+                other.AnimationIterationCount,
+                other.AnimationTiming
+            );
+
+            if (_animation.HasFlag(IconAnimation.Beat))
+            {
+                if (other.BeatScale.HasValue)
+                {
+                    @this = @this.BeatScale(other.BeatScale);
+                }
+            }
+
+            if (_animation.HasFlag(IconAnimation.BeatFade))
+            {
+                if (other.BeatFadeScale.HasValue)
+                {
+                    @this = @this.BeatFadeScale(other.BeatFadeScale);
+                }
+
+                if (other.BeatFadeOpacity.HasValue)
+                {
+                    @this = @this.BeatFadeOpacity(other.BeatFadeOpacity);
+                }
+            }
+
+            if (_animation.HasFlag(IconAnimation.Bounce))
+            {
+                @this = @this.Bounce(
+                    other.BounceRebound,
+                    other.BounceHeight,
+                    other.BounceStartScaleX,
+                    other.BounceStartScaleY,
+                    other.BounceJumpScaleX,
+                    other.BounceJumpScaleY,
+                    other.BounceLandScaleX,
+                    other.BounceLandScaleY
+                );
+            }
+
+            if (_animation.HasFlag(IconAnimation.Fade))
+            {
+                if (other.FadeOpacity.HasValue)
+                {
+                    @this = @this.FadeOpacity(other.FadeOpacity);
+                }
+            }
+
+            if (_animation.HasFlag(IconAnimation.Flip))
+            {
+                @this = @this.Flip(
+                    other.FlipX,
+                    other.FlipY,
+                    other.FlipZ,
+                    other.FlipAngle
+                );
+            }
+        }
+
+        if (other.Pull != IconPull.None)
+        {
+            @this = @this.Pull(other.Pull);
+            if (!string.IsNullOrWhiteSpace(other.PullMargin))
+            {
+                @this = @this.PullMargin(other.PullMargin);
+            }
+        }
+
+        if (other.Border)
+        {
+            @this = @this.Border(other.Border);
+            if (!string.IsNullOrWhiteSpace(other.BorderColor))
+            {
+                @this = @this.BorderColor(other.BorderColor);
+            }
+
+            if (!string.IsNullOrWhiteSpace(other.BorderPadding))
+            {
+                @this = @this.BorderPadding(other.BorderPadding);
+            }
+
+            if (!string.IsNullOrWhiteSpace(other.BorderRadius))
+            {
+                @this = @this.BorderRadius(other.BorderRadius);
+            }
+
+            if (!string.IsNullOrWhiteSpace(other.BorderStyle))
+            {
+                @this = @this.BorderStyle(other.BorderStyle);
+            }
+
+            if (!string.IsNullOrWhiteSpace(other.BorderWidth))
+            {
+                @this = @this.BorderWidth(other.BorderWidth);
+            }
+        }
+
+        if (other.Inverse)
+        {
+            @this = @this.Inverse(other.Inverse);
+        }
+
+        if (!string.IsNullOrWhiteSpace(other.StackZIndex))
+        {
+            @this = @this.StackZIndex(other.StackZIndex);
+        }
+
+        if (!string.IsNullOrWhiteSpace(other.RotateBy))
+        {
+            @this = @this.RotateBy(other.RotateBy);
+        }
+
+        // ReSharper disable once CompareOfFloatsByEqualityOperator
+        if (other.Rotate is > 0.001 or < -0.001)
+        {
+            @this = @this.Rotate(other.Rotate);
+        }
+
+        if (other.FlipTransform.HasValue)
+        {
+            @this = @this.FlipIcon(other.FlipTransform.Value);
+        }
+
+        if (other.Shrink is > 0.001 or < -0.001)
+        {
+            @this = @this.Shrink(other.Shrink);
+        }
+
+        if (other.Grow is > 0.001 or < -0.001)
+        {
+            @this = @this.Grow(other.Grow);
+        }
+
+        if (other.Up is > 0.001 or < -0.001)
+        {
+            @this = @this.Up(other.Up);
+        }
+
+        if (other.Down is > 0.001 or < -0.001)
+        {
+            @this = @this.Down(other.Down);
+        }
+
+        if (other.Left is > 0.001 or < -0.001)
+        {
+            @this = @this.Left(other.Left);
+        }
+
+        if (other.Right is > 0.001 or < -0.001)
+        {
+            @this = @this.Right(other.Right);
+        }
+
+        if (other.Mask != null)
+        {
+            @this = @this.Mask(other.Mask);
+        }
+
+        if (!string.IsNullOrWhiteSpace(other.CssClass))
+        {
+            @this = @this.CssClass(other.CssClass);
+        }
+
+        if (!string.IsNullOrWhiteSpace(other.CssStyle))
+        {
+            @this = @this.CssStyle(other.CssStyle);
+        }
+
+        return @this;
     }
 
     double ITransformIcon.Grow => _grow;

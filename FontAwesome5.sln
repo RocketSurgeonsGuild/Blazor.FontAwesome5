@@ -83,6 +83,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".vscode", ".vscode", "{3227
 		.vscode/settings.json = .vscode/settings.json
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{E7D9A960-1C6F-47A6-B367-1BE82D36F3E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample", "sample\BlazorWasm\sample.csproj", "{C366A5FB-2371-4382-B2A1-C39186786661}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,18 @@ Global
 		{10C173DF-A082-4602-B0E3-3F57259E5495}.Release|x64.Build.0 = Release|Any CPU
 		{10C173DF-A082-4602-B0E3-3F57259E5495}.Release|x86.ActiveCfg = Release|Any CPU
 		{10C173DF-A082-4602-B0E3-3F57259E5495}.Release|x86.Build.0 = Release|Any CPU
+		{C366A5FB-2371-4382-B2A1-C39186786661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C366A5FB-2371-4382-B2A1-C39186786661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C366A5FB-2371-4382-B2A1-C39186786661}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C366A5FB-2371-4382-B2A1-C39186786661}.Debug|x64.Build.0 = Debug|Any CPU
+		{C366A5FB-2371-4382-B2A1-C39186786661}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C366A5FB-2371-4382-B2A1-C39186786661}.Debug|x86.Build.0 = Debug|Any CPU
+		{C366A5FB-2371-4382-B2A1-C39186786661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C366A5FB-2371-4382-B2A1-C39186786661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C366A5FB-2371-4382-B2A1-C39186786661}.Release|x64.ActiveCfg = Release|Any CPU
+		{C366A5FB-2371-4382-B2A1-C39186786661}.Release|x64.Build.0 = Release|Any CPU
+		{C366A5FB-2371-4382-B2A1-C39186786661}.Release|x86.ActiveCfg = Release|Any CPU
+		{C366A5FB-2371-4382-B2A1-C39186786661}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -161,6 +177,7 @@ Global
 		{1FB1D14D-7FF7-49F4-A528-2915C797731A} = {374E2062-D12B-4937-A9E1-717AB4D9E416}
 		{A19952A1-EF7C-466A-8C7C-F635B87F1753} = {F876220B-2224-4AB5-A20F-48EB8BC87F6E}
 		{3227AD5A-9517-4E30-B1BD-D75E69A5D8E8} = {F876220B-2224-4AB5-A20F-48EB8BC87F6E}
+		{C366A5FB-2371-4382-B2A1-C39186786661} = {E7D9A960-1C6F-47A6-B367-1BE82D36F3E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {439897C2-CCBD-44FE-B2DC-A3E4670ADA59}

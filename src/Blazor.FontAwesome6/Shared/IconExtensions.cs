@@ -37,7 +37,7 @@ internal static class IconExtensions
         {
             sb.Append(";--fa-primary-opacity: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", op2);
         }
-        else if (icon is IIcon { PrimaryOpacity: { } op and ( > 0.001) })
+        else if (icon is IIcon { PrimaryOpacity: { } op and (> 0.001) })
         {
             sb.Append(";--fa-primary-opacity: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", op);
         }
@@ -51,11 +51,11 @@ internal static class IconExtensions
             sb.Append(";--fa-primary-color: ").Append(pc);
         }
 
-        if (overrides is IIcon { SecondaryOpacity: { } so2 and ( > 0.001) })
+        if (overrides is IIcon { SecondaryOpacity: { } so2 and (> 0.001) })
         {
             sb.Append(";--fa-secondary-opacity: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", so2);
         }
-        else if (icon is IIcon { SecondaryOpacity: { } so and ( > 0.001) })
+        else if (icon is IIcon { SecondaryOpacity: { } so and (> 0.001) })
         {
             sb.Append(";--fa-secondary-opacity: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", so);
         }
@@ -69,11 +69,11 @@ internal static class IconExtensions
             sb.Append(";--fa-secondary-color: ").Append(sc);
         }
 
-        if (overrides is IIcon { PullMargin: { } pm2, Pull: not IconPull.None})
+        if (overrides is IIcon { PullMargin: { } pm2, Pull: not IconPull.None })
         {
             sb.Append(";--fa-pull-margin: ").Append(pm2);
         }
-        else if (icon is IIcon { PullMargin: { } pm, Pull: not IconPull.None})
+        else if (icon is IIcon { PullMargin: { } pm, Pull: not IconPull.None })
         {
             sb.Append(";--fa-pull-margin: ").Append(pm);
         }
@@ -159,20 +159,20 @@ internal static class IconExtensions
             sb.Append(";--fa-beat-scale: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", beatScale);
         }
 
-        if (overrides is IAnimationIcon { FadeOpacity: {  } fadeOpacity2 and (> 0.001) })
+        if (overrides is IAnimationIcon { FadeOpacity: { } fadeOpacity2 and (> 0.001) })
         {
             sb.Append(";--fa-fade-opacity: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", fadeOpacity2);
         }
-        else if (icon is IAnimationIcon { FadeOpacity: { } fadeOpacity and ( > 0.001) })
+        else if (icon is IAnimationIcon { FadeOpacity: { } fadeOpacity and (> 0.001) })
         {
             sb.Append(";--fa-fade-opacity: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", fadeOpacity);
         }
 
-        if (overrides is IAnimationIcon { BeatFadeOpacity: { } beatFadeOpacity2  and ( > 0.001)})
+        if (overrides is IAnimationIcon { BeatFadeOpacity: { } beatFadeOpacity2 and (> 0.001) })
         {
             sb.Append(";--fa-beat-fade-opacity: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", beatFadeOpacity2);
         }
-        else if (icon is IAnimationIcon { BeatFadeOpacity: { } beatFadeOpacity and ( > 0.001) })
+        else if (icon is IAnimationIcon { BeatFadeOpacity: { } beatFadeOpacity and (> 0.001) })
         {
             sb.Append(";--fa-beat-fade-opacity: ").AppendFormat(CultureInfo.InvariantCulture, "{0:F2}", beatFadeOpacity);
         }
@@ -451,12 +451,12 @@ internal static class IconExtensions
 
     public static void ApplyClass(this ISharedIcon icon, StringBuilder sb, ISharedIcon? overrides, bool stack = false, string? @class = null)
     {
-        if (icon is IIcon {  } i)
+        if (icon is IIcon { } i)
         {
             sb.Append(Icon.ToPrefix(i.Family, i.Style));
             sb.Append(' ');
             ApplyName(sb, i.Name);
-        if (overrides is IIcon { Inverse: true } || i is { Inverse: true })
+            if (overrides is IIcon { Inverse: true } || i is { Inverse: true })
             {
                 sb.Append(" fa-inverse");
             }
@@ -477,7 +477,7 @@ internal static class IconExtensions
                 sb.Append(" fa-swap-opacity");
             }
 
-            if (overrides is IIcon { RotateBy: {} } || i is { RotateBy: {} })
+            if (overrides is IIcon { RotateBy: { } } || i is { RotateBy: { } })
             {
                 sb.Append(" fa-rotate-by");
             }
@@ -518,9 +518,56 @@ internal static class IconExtensions
         {
             sb.Append(Icon.ToString(animationIcon2.Animation));
         }
-        if (icon is IAnimationIcon { Animation: not IconAnimation.None } animationIcon && animationIcon.Animation != IconAnimation.None)
+        else if (icon is IAnimationIcon { Animation: not IconAnimation.None } animationIcon && animationIcon.Animation != IconAnimation.None)
         {
             sb.Append(Icon.ToString(animationIcon.Animation));
+        }
+        else
+        {
+            var animation = IconAnimation.None;
+            if (overrides is IAnimationComponent animationOverrides)
+            {
+                animation = animationOverrides switch
+                            {
+                                { Beat: true }      => IconAnimation.Beat,
+                                { BeatFade: true }  => IconAnimation.BeatFade,
+                                { Bounce: true }    => IconAnimation.Bounce,
+                                { Spin: true }      => IconAnimation.Spin,
+                                { Flip: true }      => IconAnimation.Flip,
+                                { Shake: true }     => IconAnimation.Shake,
+                                { SpinPulse: true } => IconAnimation.SpinPulse,
+                                { Fade: true }      => IconAnimation.Fade,
+                                _                   => animation
+                            };
+                if (animationOverrides.Reverse)
+                {
+                    animation |= IconAnimation.Reverse;
+                }
+            }
+            if (animation is (IconAnimation.Reverse or IconAnimation.None) && icon is IAnimationComponent iconOverrides)
+            {
+                animation = iconOverrides switch
+                            {
+                                { Beat: true }      => IconAnimation.Beat,
+                                { BeatFade: true }  => IconAnimation.BeatFade,
+                                { Bounce: true }    => IconAnimation.Bounce,
+                                { Spin: true }      => IconAnimation.Spin,
+                                { Flip: true }      => IconAnimation.Flip,
+                                { Shake: true }     => IconAnimation.Shake,
+                                { SpinPulse: true } => IconAnimation.SpinPulse,
+                                { Fade: true }      => IconAnimation.Fade,
+                                _                   => animation
+                            };
+                if (iconOverrides.Reverse)
+                {
+                    animation |=IconAnimation.Reverse;
+                }
+            }
+
+            if (animation != IconAnimation.None)
+            {
+                sb.Append(Icon.ToString(animation));
+            }
         }
     }
 

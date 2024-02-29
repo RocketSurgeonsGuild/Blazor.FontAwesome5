@@ -102,7 +102,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests {
                 builder => builder
                           .Add(x => x.Icon, FaRegular.Adjust)
                           .Add(x => x.Spin, true)
-                          .Add(z => z.SpinReverse, true)
+                          .Add(z => z.Reverse, true)
             );
             icon.Markup.Should().Be("<i class=\"fa-regular fa-circle-half-stroke fa-spin fa-spin-reverse\"></i>");
         }
@@ -125,7 +125,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests {
                 builder => builder
                           .Add(x => x.Icon, FaRegular.Adjust)
                           .Add(x => x.SpinPulse, true)
-                          .Add(z => z.SpinReverse, true)
+                          .Add(z => z.Reverse, true)
             );
             icon.Markup.Should().Be("<i class=\"fa-regular fa-circle-half-stroke fa-spin-pulse fa-spin-reverse\"></i>");
         }

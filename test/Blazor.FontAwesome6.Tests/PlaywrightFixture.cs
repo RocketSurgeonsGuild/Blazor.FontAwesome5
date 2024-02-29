@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Playwright;
 using Rocket.Surgery.Blazor.FontAwesome6.Tests.DevServer;
-using sample;
+using BlazorWasm;
 
 namespace Rocket.Surgery.Blazor.FontAwesome6.Tests;
 

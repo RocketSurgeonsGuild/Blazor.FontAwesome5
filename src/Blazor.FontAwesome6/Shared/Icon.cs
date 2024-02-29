@@ -266,7 +266,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         string? timing = null
     ) =>
         AnimationSettings(
-            reverse ? IconAnimation.Spin & IconAnimation.Reverse : IconAnimation.Spin,
+            reverse ? IconAnimation.Spin | IconAnimation.Reverse : IconAnimation.Spin,
             delay,
             direction,
             duration,
@@ -283,7 +283,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         string? timing = null
     ) =>
         AnimationSettings(
-            reverse ? IconAnimation.SpinPulse & IconAnimation.Reverse : IconAnimation.SpinPulse,
+            reverse ? IconAnimation.SpinPulse | IconAnimation.Reverse : IconAnimation.SpinPulse,
             delay,
             direction,
             duration,

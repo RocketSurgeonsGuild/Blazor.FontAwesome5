@@ -5,18 +5,34 @@ using Microsoft.AspNetCore.Components.Rendering;
 
 namespace Rocket.Surgery.Blazor.FontAwesome6;
 
-public class FaCounter : ComponentBase, ITransformIcon, IAnimationIcon, ISharedIcon
+public class FaCounter : ComponentBase, ITransformIcon, IAnimationIcon, ISharedIcon, IAnimationComponent
 {
-    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
 
-    [Parameter] public IconSize Size { get; set; }
-    [Parameter] public bool FixedWidth { get; set; }
-    [Parameter] public bool Border { get; set; }
-    [Parameter] public string? BorderWidth { get; set; }
-    [Parameter] public string? BorderStyle { get; set; }
-    [Parameter] public string? BorderPadding { get; set; }
-    [Parameter] public string? BorderColor { get; set; }
-    [Parameter] public bool Inverse { get; set; }
+    [Parameter]
+    public IconSize Size { get; set; }
+
+    [Parameter]
+    public bool FixedWidth { get; set; }
+
+    [Parameter]
+    public bool Border { get; set; }
+
+    [Parameter]
+    public string? BorderWidth { get; set; }
+
+    [Parameter]
+    public string? BorderStyle { get; set; }
+
+    [Parameter]
+    public string? BorderPadding { get; set; }
+
+    [Parameter]
+    public string? BorderColor { get; set; }
+
+    [Parameter]
+    public bool Inverse { get; set; }
 
 
     [Parameter]
@@ -41,7 +57,6 @@ public class FaCounter : ComponentBase, ITransformIcon, IAnimationIcon, ISharedI
 
     [Parameter]
     public double Rotate { get; set; }
-
 
 
     [Parameter]
@@ -75,94 +90,95 @@ public class FaCounter : ComponentBase, ITransformIcon, IAnimationIcon, ISharedI
     [Parameter]
     public double BounceHeight { get; set; }
 
-    [Parameter] public IconAnimation Animation { get; set; }
-    [Parameter] public string? AnimationDelay { get; set; }
-    [Parameter] public string? AnimationDirection { get; set; }
-    [Parameter] public string? AnimationDuration { get; set; }
-    [Parameter] public string? AnimationIterationCount { get; set; }
-    [Parameter] public string? AnimationTiming { get; set; }
+    [Parameter]
+    public IconAnimation Animation { get; set; }
 
     [Parameter]
-    public bool Beat
-    {
-        get => ( Animation & IconAnimation.Beat ) == IconAnimation.Beat;
-        set => Animation = value ? IconAnimation.Beat | ( Animation & IconAnimation.Reverse ) : Animation & ~ IconAnimation.Beat;
-    }
+    public string? AnimationDelay { get; set; }
 
     [Parameter]
-    public bool BeatFade
-    {
-        get => ( Animation & IconAnimation.BeatFade ) == IconAnimation.BeatFade;
-        set => Animation = value ? IconAnimation.BeatFade | ( Animation & IconAnimation.Reverse ) : Animation & ~ IconAnimation.BeatFade;
-    }
+    public string? AnimationDirection { get; set; }
 
     [Parameter]
-    public bool Bounce
-    {
-        get => ( Animation & IconAnimation.Bounce ) == IconAnimation.Bounce;
-        set => Animation = value ? IconAnimation.Bounce | ( Animation & IconAnimation.Reverse ) : Animation & ~ IconAnimation.Bounce;
-    }
+    public string? AnimationDuration { get; set; }
 
     [Parameter]
-    public bool Spin
-    {
-        get => ( Animation & IconAnimation.Spin ) == IconAnimation.Spin;
-        set => Animation = value ? IconAnimation.Spin | ( Animation & IconAnimation.Reverse ) : Animation & ~ IconAnimation.Spin;
-    }
+    public string? AnimationIterationCount { get; set; }
 
     [Parameter]
-    public bool Flip
-    {
-        get => ( Animation & IconAnimation.Flip ) == IconAnimation.Flip;
-        set => Animation = value ? IconAnimation.Flip | ( Animation & IconAnimation.Reverse ) : Animation & ~ IconAnimation.Flip;
-    }
+    public string? AnimationTiming { get; set; }
 
     [Parameter]
-    public bool Shake
-    {
-        get => ( Animation & IconAnimation.Shake ) == IconAnimation.Shake;
-        set => Animation = value ? IconAnimation.Shake | ( Animation & IconAnimation.Reverse ) : Animation & ~ IconAnimation.Shake;
-    }
+    public bool Beat { get; set; }
 
     [Parameter]
-    public bool SpinPulse
-    {
-        get => ( Animation & IconAnimation.SpinPulse ) == IconAnimation.SpinPulse;
-        set => Animation = value ? IconAnimation.SpinPulse | ( Animation & IconAnimation.Reverse ) : Animation & ~IconAnimation.SpinPulse;
-    }
+    public bool BeatFade { get; set; }
 
     [Parameter]
-    public bool Fade
-    {
-        get => ( Animation & IconAnimation.Fade ) == IconAnimation.Fade;
-        set => Animation = value ? IconAnimation.Fade | ( Animation & IconAnimation.Reverse ) : Animation & ~IconAnimation.Fade;
-    }
+    public bool Bounce { get; set; }
 
     [Parameter]
-    public bool SpinReverse
-    {
-        get => ( Animation & IconAnimation.Reverse ) == IconAnimation.Reverse;
-        set => Animation = value ? Animation | IconAnimation.Reverse : Animation & ~IconAnimation.Reverse;
-    }
+    public bool Spin { get; set; }
 
-    [Parameter] public IconFlip? FlipTransform { get; set; }
+    [Parameter]
+    public bool Flip { get; set; }
 
-    [Parameter] public IconCounterPosition? Position { get; set; }
+    [Parameter]
+    public bool Shake { get; set; }
 
-    [Parameter] public string? BackgroundColor { get; set; }
-    [Parameter] public string? BorderRadius { get; set; }
-    [Parameter] public string? LineHeight { get; set; }
-    [Parameter] public string? MaxWidth { get; set; }
-    [Parameter] public string? MinWidth { get; set; }
-    [Parameter] public string? Padding { get; set; }
-    [Parameter] public double? Scale { get; set; }
-    [Parameter] public string? TopOffset { get; set; }
-    [Parameter] public string? RightOffset { get; set; }
-    [Parameter] public string? BottomOffset { get; set; }
-    [Parameter] public string? LeftOffset { get; set; }
-    [Parameter] public string? InverseColor { get; set; }
+    [Parameter]
+    public bool SpinPulse { get; set; }
 
-    [Parameter] public string? FlipAngle { get; set; }
+    [Parameter]
+    public bool Fade { get; set; }
+
+    [Parameter]
+    public bool Reverse { get; set; }
+
+    [Parameter]
+    public IconFlip? FlipTransform { get; set; }
+
+    [Parameter]
+    public IconCounterPosition? Position { get; set; }
+
+    [Parameter]
+    public string? BackgroundColor { get; set; }
+
+    [Parameter]
+    public string? BorderRadius { get; set; }
+
+    [Parameter]
+    public string? LineHeight { get; set; }
+
+    [Parameter]
+    public string? MaxWidth { get; set; }
+
+    [Parameter]
+    public string? MinWidth { get; set; }
+
+    [Parameter]
+    public string? Padding { get; set; }
+
+    [Parameter]
+    public double? Scale { get; set; }
+
+    [Parameter]
+    public string? TopOffset { get; set; }
+
+    [Parameter]
+    public string? RightOffset { get; set; }
+
+    [Parameter]
+    public string? BottomOffset { get; set; }
+
+    [Parameter]
+    public string? LeftOffset { get; set; }
+
+    [Parameter]
+    public string? InverseColor { get; set; }
+
+    [Parameter]
+    public string? FlipAngle { get; set; }
 
 
     [Parameter]
@@ -190,13 +206,17 @@ public class FaCounter : ComponentBase, ITransformIcon, IAnimationIcon, ISharedI
 
     [Parameter]
     public double BeatScale { get; set; }
-    [Parameter] public string? Class { get; set; }
-    [Parameter] public string? Style { get; set; }
+
+    [Parameter]
+    public string? Class { get; set; }
+
+    [Parameter]
+    public string? Style { get; set; }
 
     [Parameter(CaptureUnmatchedValues = true)]
-#pragma warning disable CA2227
+    #pragma warning disable CA2227
     public Dictionary<string, object> AdditionalAttributes { get; set; } = new();
-#pragma warning restore CA2227
+    #pragma warning restore CA2227
 
     string? ISharedIcon.CssStyle => Style;
     string? ISharedIcon.CssClass => Class;

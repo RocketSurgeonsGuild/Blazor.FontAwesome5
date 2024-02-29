@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Components.Rendering;
 namespace Rocket.Surgery.Blazor.FontAwesome6;
 
 [PublicAPI]
-public sealed class FaIcon : ComponentBase, IIcon
+public sealed class FaIcon : ComponentBase, IIcon, IAnimationComponent
 {
     [CascadingParameter] private FaStack? Stack { get; set; }
 
@@ -72,67 +72,31 @@ public sealed class FaIcon : ComponentBase, IIcon
     [Parameter] public IconPull? Pull { get; set; }
 
     [Parameter]
-    public bool Beat
-    {
-        get => ( Animation & IconAnimation.Beat ) == IconAnimation.Beat;
-        set => Animation = value ? IconAnimation.Beat | ( Animation & IconAnimation.Reverse ) : Animation & ~ IconAnimation.Beat;
-    }
+    public bool Beat { get; set; }
 
     [Parameter]
-    public bool BeatFade
-    {
-        get => ( Animation & IconAnimation.BeatFade ) == IconAnimation.BeatFade;
-        set => Animation = value ? IconAnimation.BeatFade | ( Animation & IconAnimation.Reverse ) : Animation & ~ IconAnimation.BeatFade;
-    }
+    public bool BeatFade { get; set; }
 
     [Parameter]
-    public bool Bounce
-    {
-        get => ( Animation & IconAnimation.Bounce ) == IconAnimation.Bounce;
-        set => Animation = value ? IconAnimation.Bounce | ( Animation & IconAnimation.Reverse ) : Animation & ~ IconAnimation.Bounce;
-    }
+    public bool Bounce { get; set; }
 
     [Parameter]
-    public bool Spin
-    {
-        get => ( Animation & IconAnimation.Spin ) == IconAnimation.Spin;
-        set => Animation = value ? IconAnimation.Spin | ( Animation & IconAnimation.Reverse ) : Animation & ~ IconAnimation.Spin;
-    }
+    public bool Spin { get; set; }
 
     [Parameter]
-    public bool Flip
-    {
-        get => ( Animation & IconAnimation.Flip ) == IconAnimation.Flip;
-        set => Animation = value ? IconAnimation.Flip | ( Animation & IconAnimation.Reverse ) : Animation & ~ IconAnimation.Flip;
-    }
+    public bool Flip { get; set; }
 
     [Parameter]
-    public bool Shake
-    {
-        get => ( Animation & IconAnimation.Shake ) == IconAnimation.Shake;
-        set => Animation = value ? IconAnimation.Shake | ( Animation & IconAnimation.Reverse ) : Animation & ~ IconAnimation.Shake;
-    }
+    public bool Shake { get; set; }
 
     [Parameter]
-    public bool SpinPulse
-    {
-        get => ( Animation & IconAnimation.SpinPulse ) == IconAnimation.SpinPulse;
-        set => Animation = value ? IconAnimation.SpinPulse | ( Animation & IconAnimation.Reverse ) : Animation & ~IconAnimation.SpinPulse;
-    }
+    public bool SpinPulse { get; set; }
 
     [Parameter]
-    public bool Fade
-    {
-        get => ( Animation & IconAnimation.Fade ) == IconAnimation.Fade;
-        set => Animation = value ? IconAnimation.Fade | ( Animation & IconAnimation.Reverse ) : Animation & ~IconAnimation.Fade;
-    }
+    public bool Fade { get; set; }
 
     [Parameter]
-    public bool SpinReverse
-    {
-        get => ( Animation & IconAnimation.Reverse ) == IconAnimation.Reverse;
-        set => Animation = value ? Animation | IconAnimation.Reverse : Animation & ~IconAnimation.Reverse;
-    }
+    public bool Reverse { get; set; }
 
     [Parameter] public bool Border { get; set; }
     [Parameter] public bool Inverse { get; set; }

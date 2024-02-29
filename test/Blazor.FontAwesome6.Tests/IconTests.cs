@@ -1,6 +1,5 @@
 ﻿using FluentAssertions;
 using Microsoft.Extensions.Logging;
-using Rocket.Surgery.Blazor.FontAwesome5;
 using Rocket.Surgery.Blazor.FontAwesome6.Pro;
 using Rocket.Surgery.Extensions.Testing;
 using Xunit;
@@ -23,34 +22,10 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
         }
 
         [Fact]
-        public void Should_Support_Implicit_Conversion_From_Custom_Enum()
-        {
-            Icon icon = Custom.Name;
-            icon.Style.Should().Be(IconStyle.Regular);
-            icon.Name.Should().Be("adjust");
-        }
-
-        [Fact]
         public void Should_Render_An_Icon()
         {
             Icon icon = FaRegular.Adjust;
             icon.ToIcon().Should().Be("<i class=\"fa-regular fa-circle-half-stroke\"></i>");
-        }
-
-        [Fact]
-        public void Should_Not_Support_Implicit_Conversion_From_Unknown_Enum()
-        {
-            Icon icon = InvalidEnum.This;
-            icon.Style.Should().Be(IconStyle.Unknown);
-            // ReSharper disable once CA1308
-            icon.Name.Should().BeEmpty();
-        }
-
-        [Fact]
-        public void Should_Render_A_Default_Icon()
-        {
-            Icon icon = InvalidEnum.This;
-            icon.ToIcon().Should().Be("<i class=\"fa-solid fa-bomb\"></i>");
         }
 
         [Fact]
@@ -165,19 +140,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
             icon
                .Pull(iconPull)
                .ToIcon().Should().Be(expected);
-        }
-
-        private enum InvalidEnum
-        {
-            This,
-            Is,
-            Invalid
-        }
-
-        private enum Custom
-        {
-            [FontAwesome(IconStyle.Regular, "adjust")]
-            Name
         }
     }
 }

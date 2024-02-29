@@ -2,7 +2,6 @@
 using System.Text;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
-using Rocket.Surgery.Blazor.FontAwesome5;
 
 namespace Rocket.Surgery.Blazor.FontAwesome6;
 

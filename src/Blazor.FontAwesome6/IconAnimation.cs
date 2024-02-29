@@ -1,7 +1,7 @@
 namespace Rocket.Surgery.Blazor.FontAwesome6;
 
 /*
- 
+
     bool Spin { get; }
     bool SpinPulse { get; }
     bool Beat { get; }

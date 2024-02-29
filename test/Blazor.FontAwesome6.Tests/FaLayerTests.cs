@@ -33,7 +33,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
                                    .RenderComponent<FaIcon>(
                                         c => c
                                             .Parameter(x => x.Icon, FaSolid.Times)
-                                            .Parameter(x => x.Shrink, "6")
+                                            .Parameter(x => x.Shrink, 6)
                                             .Parameter(x => x.Inverse, true)
                                     )
                            )
@@ -64,8 +64,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
                                         c => c
                                             .Parameter(x => x.Icon, FaSolid.Heart)
                                             .Parameter(x => x.Inverse, true)
-                                            .Parameter(x => x.Shrink, "10")
-                                            .Parameter(x => x.Up, "2")
+                                            .Parameter(x => x.Shrink, 10)
+                                            .Parameter(x => x.Up, 2)
                                             .Parameter(x => x.Style, "color:Tomato")
                                     )
                            )
@@ -91,31 +91,31 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
                                    .RenderComponent<FaIcon>(
                                         c => c
                                             .Parameter(x => x.Icon, FaSolid.Play)
-                                            .Parameter(x => x.Rotate, "-90")
-                                            .Parameter(x => x.Grow, "2")
+                                            .Parameter(x => x.Rotate, -90)
+                                            .Parameter(x => x.Grow, 2)
                                     )
                                    .RenderComponent<FaIcon>(
                                         c => c
                                             .Parameter(x => x.Icon, FaSolid.Sun)
                                             .Parameter(x => x.Inverse, true)
-                                            .Parameter(x => x.Shrink, "10")
-                                            .Parameter(x => x.Up, "2")
+                                            .Parameter(x => x.Shrink, 10)
+                                            .Parameter(x => x.Up, 2)
                                     )
                                    .RenderComponent<FaIcon>(
                                         c => c
                                             .Parameter(x => x.Icon, FaSolid.Moon)
                                             .Parameter(x => x.Inverse, true)
-                                            .Parameter(x => x.Shrink, "11")
-                                            .Parameter(x => x.Down, "4.2")
-                                            .Parameter(x => x.Left, "4")
+                                            .Parameter(x => x.Shrink, 11)
+                                            .Parameter(x => x.Down, 4.2)
+                                            .Parameter(x => x.Left, 4)
                                     )
                                    .RenderComponent<FaIcon>(
                                         c => c
                                             .Parameter(x => x.Icon, FaSolid.Star)
                                             .Parameter(x => x.Inverse, true)
-                                            .Parameter(x => x.Shrink, "11")
-                                            .Parameter(x => x.Down, "4.2")
-                                            .Parameter(x => x.Right, "4")
+                                            .Parameter(x => x.Shrink, 11)
+                                            .Parameter(x => x.Down, 4.2)
+                                            .Parameter(x => x.Right, 4)
                                     )
                            )
             );

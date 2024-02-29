@@ -2,7 +2,6 @@ using System.Globalization;
 using System.Text;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
-using Rocket.Surgery.Blazor.FontAwesome5;
 
 namespace Rocket.Surgery.Blazor.FontAwesome6;
 
@@ -78,7 +77,7 @@ public class FaCounter : ComponentBase, ITransformIcon, IAnimationIcon, ISharedI
         get => _rotate.ToString("F2", CultureInfo.InvariantCulture);
         set => _rotate = double.Parse(value, CultureInfo.InvariantCulture);
     }
-    
+
 
     private double _bounceLandScaleY;
 
@@ -324,10 +323,10 @@ public class FaCounter : ComponentBase, ITransformIcon, IAnimationIcon, ISharedI
     double ITransformIcon.Left => _left;
 
     double ITransformIcon.Right => _right;
-    
+
     string? ISharedIcon.CssStyle => Style;
     string? ISharedIcon.CssClass => Class;
-    
+
     double? IAnimationIcon.BeatScale => _beatScale;
     double? IAnimationIcon.FadeOpacity => _fadeOpacity;
     double? IAnimationIcon.BeatFadeOpacity => _beatFadeOpacity;

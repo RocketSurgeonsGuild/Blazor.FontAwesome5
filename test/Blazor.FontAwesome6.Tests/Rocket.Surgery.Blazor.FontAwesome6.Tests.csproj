@@ -4,9 +4,10 @@
         <RazorLangVersion>3.0</RazorLangVersion>
     </PropertyGroup>
     <ItemGroup>
+        <PackageReference Include="Verify.Blazor" />
+        <PackageReference Include="Verify.Xunit" />
         <ProjectReference Include="..\..\src\Blazor.FontAwesome6.Free\Rocket.Surgery.Blazor.FontAwesome6.Free.csproj" />
         <ProjectReference Include="..\..\src\Blazor.FontAwesome6.Pro\Rocket.Surgery.Blazor.FontAwesome6.Pro.csproj" />
-        <ProjectReference Include="..\..\src\Blazor.FontAwesome6.Brands\Rocket.Surgery.Blazor.FontAwesome6.Brands.csproj" />
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp" />
         <PackageReference Include="Microsoft.AspNetCore.Components" />
         <PackageReference Include="Microsoft.AspNetCore.Components.Web" />

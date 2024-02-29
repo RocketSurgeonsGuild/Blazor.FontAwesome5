@@ -22,27 +22,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests {
         }
 
         [Fact]
-        public void Should_Support_Implicit_Conversion_From_Custom_Enum()
-        {
-            var icon = _host.RenderComponent<FaIcon>(
-                builder => builder.Add(x => x.Icon, Custom.Name)
-            );
-            icon.Markup.Should().Be("<i class=\"fa-regular fa-adjust\"></i>");
-        }
-
-        [Fact]
         public void Should_Have_A_Default_Icon_If_Not_Defined()
         {
             _host.RenderComponent<FaIcon>().Markup.Should().Be("<i class=\"fa-solid fa-bomb\"></i>");
-        }
-
-        [Fact]
-        public void Should_Render_An_Icon()
-        {
-            var icon = _host.RenderComponent<FaIcon>(
-                builder => builder.Add(x => x.Icon, Custom.Name)
-            );
-            icon.Markup.Should().Be("<i class=\"fa-regular fa-adjust\"></i>");
         }
 
         [Fact]
@@ -51,13 +33,13 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests {
             var icon = _host.RenderComponent<FaIcon>(
                 builder => builder
                    .Add(x => x.Icon, FaRegular.Adjust)
-                   .Add(x => x.Rotate, "-40")
-                   .Add(x => x.Left, "2")
-                   .Add(x => x.Down, "4")
-                   .Add(x => x.Right, "1")
-                   .Add(x => x.Up, "12")
-                   .Add(x => x.Grow, "6")
-                   .Add(x => x.Shrink, "4")
+                   .Add(x => x.Rotate, -40)
+                   .Add(x => x.Left, 2)
+                   .Add(x => x.Down, 4)
+                   .Add(x => x.Right, 1)
+                   .Add(x => x.Up, 12)
+                   .Add(x => x.Grow, 6)
+                   .Add(x => x.Shrink, 4)
             );
             icon.Markup.Should().Be(
                 "<i class=\"fa-regular fa-circle-half-stroke\" data-fa-transform=\"grow-6.00 shrink-4.00 rotate--40.00 up-12.00 down-4.00 left-2.00 right-1.00\"></i>"
@@ -199,12 +181,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests {
                    .Add(x => x.Pull, iconPull)
             );
             icon.Markup.Should().Be(expected);
-        }
-
-        enum Custom
-        {
-            [FontAwesome(IconStyle.Regular, "adjust")]
-            Name
         }
     }
 }

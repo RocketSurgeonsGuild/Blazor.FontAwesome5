@@ -2,14 +2,13 @@
 using System.Text;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
-using Rocket.Surgery.Blazor.FontAwesome5;
 
 namespace Rocket.Surgery.Blazor.FontAwesome6;
 
 [PublicAPI]
 public sealed class FaIcon : ComponentBase, IIcon
 {
-    private Icon _icon = new Icon(IconStyle.Unknown, "");
+    private Icon _icon = new Icon(IconFamily.Classic, IconStyle.Solid, "bomb");
 
     [CascadingParameter] private FaStack? Stack { get; set; }
 
@@ -20,213 +19,208 @@ public sealed class FaIcon : ComponentBase, IIcon
         set
         {
             _icon = value;
-            if (_icon._size != IconSize.Normal)
+            var iIcon = (IIcon)_icon;
+            if (iIcon.Size != IconSize.Normal)
             {
-                Size = _icon._size;
+                Size = iIcon.Size;
             }
 
-            if (_icon._fixedWidth)
+            if (iIcon.FixedWidth)
             {
-                FixedWidth = _icon._fixedWidth;
+                FixedWidth = iIcon.FixedWidth;
             }
 
-            if (_icon._animation != IconAnimation.None)
+            if (iIcon.Animation != IconAnimation.None)
             {
-                Animation = _icon._animation;
-                AnimationDelay = _icon._animationDelay;
-                AnimationDirection = _icon._animationDirection;
-                AnimationDuration = _icon._animationDuration;
-                AnimationIterationCount = _icon._animationIterationCount;
-                AnimationTiming = _icon._animationTiming;
+                Animation = iIcon.Animation;
+                AnimationDelay = iIcon.AnimationDelay;
+                AnimationDirection = iIcon.AnimationDirection;
+                AnimationDuration = iIcon.AnimationDuration;
+                AnimationIterationCount = iIcon.AnimationIterationCount;
+                AnimationTiming = iIcon.AnimationTiming;
 
                 if (Beat)
                 {
-                    if (_icon._beatScale.HasValue)
+                    if (iIcon.BeatScale.HasValue)
                     {
-                        BeatScale = _icon._beatScale.Value.ToString("F2", CultureInfo.InvariantCulture);
+                        BeatScale = iIcon.BeatScale.Value;
                     }
                 }
 
                 if (BeatFade)
                 {
-                    if (_icon._beatFadeScale.HasValue)
+                    if (iIcon.BeatFadeScale.HasValue)
                     {
-                        BeatFadeScale = _icon._beatFadeScale.Value.ToString("F2", CultureInfo.InvariantCulture);
+                        BeatFadeScale = iIcon.BeatFadeScale.Value;
                     }
 
-                    if (_icon._beatFadeOpacity.HasValue)
+                    if (iIcon.FadeOpacity.HasValue)
                     {
-                        BeatFadeOpacity = _icon._beatFadeOpacity.Value.ToString("F2", CultureInfo.InvariantCulture);
+                        BeatFadeOpacity = iIcon.FadeOpacity.Value;
                     }
                 }
 
                 if (Bounce)
                 {
-                    if (_icon._bounceHeight.HasValue)
+                    if (iIcon.BounceHeight.HasValue)
                     {
-                        BounceHeight = _icon._bounceHeight.Value.ToString("F2", CultureInfo.InvariantCulture);
+                        BounceHeight = iIcon.BounceHeight.Value;
                     }
 
-                    if (_icon._bounceRebound.HasValue)
+                    if (iIcon.BounceRebound.HasValue)
                     {
-                        BounceRebound = _icon._bounceRebound.Value.ToString("F2", CultureInfo.InvariantCulture);
+                        BounceRebound = iIcon.BounceRebound.Value;
                     }
 
-                    if (_icon._bounceStartScaleX.HasValue)
+                    if (iIcon.BounceStartScaleX.HasValue)
                     {
-                        BounceStartScaleX = _icon._bounceStartScaleX.Value.ToString("F2", CultureInfo.InvariantCulture);
+                        BounceStartScaleX = iIcon.BounceStartScaleX.Value;
                     }
 
-                    if (_icon._bounceStartScaleY.HasValue)
+                    if (iIcon.BounceStartScaleY.HasValue)
                     {
-                        BounceStartScaleY = _icon._bounceStartScaleY.Value.ToString("F2", CultureInfo.InvariantCulture);
+                        BounceStartScaleY = iIcon.BounceStartScaleY.Value;
                     }
 
-                    if (_icon._bounceJumpScaleX.HasValue)
+                    if (iIcon.BounceJumpScaleX.HasValue)
                     {
-                        BounceJumpScaleX = _icon._bounceJumpScaleX.Value.ToString("F2", CultureInfo.InvariantCulture);
+                        BounceJumpScaleX = iIcon.BounceJumpScaleX.Value;
                     }
 
-                    if (_icon._bounceJumpScaleY.HasValue)
+                    if (iIcon.BounceJumpScaleY.HasValue)
                     {
-                        BounceJumpScaleY = _icon._bounceJumpScaleY.Value.ToString("F2", CultureInfo.InvariantCulture);
+                        BounceJumpScaleY = iIcon.BounceJumpScaleY.Value;
                     }
 
-                    if (_icon._bounceLandScaleX.HasValue)
+                    if (iIcon.BounceLandScaleX.HasValue)
                     {
-                        BounceLandScaleX = _icon._bounceLandScaleX.Value.ToString("F2", CultureInfo.InvariantCulture);
+                        BounceLandScaleX = iIcon.BounceLandScaleX.Value;
                     }
 
-                    if (_icon._bounceLandScaleY.HasValue)
+                    if (iIcon.BounceLandScaleY.HasValue)
                     {
-                        BounceLandScaleY = _icon._bounceLandScaleY.Value.ToString("F2", CultureInfo.InvariantCulture);
+                        BounceLandScaleY = iIcon.BounceLandScaleY.Value;
                     }
                 }
 
                 if (Fade)
                 {
-                    if (_icon._fadeOpacity.HasValue)
+                    if (iIcon.FadeOpacity.HasValue)
                     {
-                        FadeOpacity = _icon._fadeOpacity.Value.ToString("F2", CultureInfo.InvariantCulture);
+                        FadeOpacity = iIcon.FadeOpacity.Value;
                     }
                 }
 
                 if (Flip)
                 {
-                    if (_icon._flipX.HasValue)
+                    if (iIcon.FlipX.HasValue)
                     {
-                        FlipX = _icon._flipX.Value.ToString("F2", CultureInfo.InvariantCulture);
+                        FlipX = iIcon.FlipX.Value;
                     }
 
-                    if (_icon._flipY.HasValue)
+                    if (iIcon.FlipY.HasValue)
                     {
-                        FlipY = _icon._flipY.Value.ToString("F2", CultureInfo.InvariantCulture);
+                        FlipY = iIcon.FlipY.Value;
                     }
 
-                    if (_icon._flipZ.HasValue)
+                    if (iIcon.FlipZ.HasValue)
                     {
-                        FlipZ = _icon._flipZ.Value.ToString("F2", CultureInfo.InvariantCulture);
+                        FlipZ = iIcon.FlipZ.Value;
                     }
 
-                    if (!string.IsNullOrWhiteSpace(_icon._flipAngle))
+                    if (!string.IsNullOrWhiteSpace(iIcon.FlipAngle))
                     {
-                        FlipAngle = _icon._flipAngle;
+                        FlipAngle = iIcon.FlipAngle;
                     }
                 }
             }
 
-            if (_icon._pull != IconPull.None)
+            if (iIcon.Pull != IconPull.None)
             {
-                Pull = _icon._pull;
-                if (!string.IsNullOrWhiteSpace(_icon._pullMargin))
+                Pull = iIcon.Pull;
+                if (!string.IsNullOrWhiteSpace(iIcon.PullMargin))
                 {
-                    PullMargin = _icon._pullMargin;
+                    PullMargin = iIcon.PullMargin;
                 }
             }
 
-            if (_icon._border)
+            if (iIcon.Border)
             {
-                Border = _icon._border;
-                if (!string.IsNullOrWhiteSpace(_icon._borderColor))
+                Border = iIcon.Border;
+                if (!string.IsNullOrWhiteSpace(iIcon.BorderColor))
                 {
-                    BorderColor = _icon._borderColor;
+                    BorderColor = iIcon.BorderColor;
                 }
 
-                if (!string.IsNullOrWhiteSpace(_icon._borderPadding))
+                if (!string.IsNullOrWhiteSpace(iIcon.BorderPadding))
                 {
-                    BorderPadding = _icon._borderPadding;
+                    BorderPadding = iIcon.BorderPadding;
                 }
 
-                if (!string.IsNullOrWhiteSpace(_icon._borderRadius))
+                if (!string.IsNullOrWhiteSpace(iIcon.BorderRadius))
                 {
-                    BorderRadius = _icon._borderRadius;
+                    BorderRadius = iIcon.BorderRadius;
                 }
 
-                if (!string.IsNullOrWhiteSpace(_icon._borderStyle))
+                if (!string.IsNullOrWhiteSpace(iIcon.BorderStyle))
                 {
-                    BorderStyle = _icon._borderStyle;
+                    BorderStyle = iIcon.BorderStyle;
                 }
 
-                if (!string.IsNullOrWhiteSpace(_icon._borderWidth))
+                if (!string.IsNullOrWhiteSpace(iIcon.BorderWidth))
                 {
-                    BorderWidth = _icon._borderWidth;
+                    BorderWidth = iIcon.BorderWidth;
                 }
             }
 
-            if (_icon._inverse)
+            if (iIcon.Inverse)
             {
-                Inverse = _icon._inverse;
+                Inverse = iIcon.Inverse;
             }
 
-            if (!string.IsNullOrWhiteSpace(_icon._stackZIndex))
+            if (!string.IsNullOrWhiteSpace(iIcon.StackZIndex))
             {
-                StackZIndex = _icon._stackZIndex;
+                StackZIndex = iIcon.StackZIndex;
             }
 
-            if (!string.IsNullOrWhiteSpace(_icon._rotateBy))
+            if (!string.IsNullOrWhiteSpace(iIcon.RotateBy))
             {
-                RotateBy = _icon._rotateBy;
+                RotateBy = iIcon.RotateBy;
             }
 
             // ReSharper disable once CompareOfFloatsByEqualityOperator
-            if (_icon._rotate is > 0.001 or < -0.001)
+            if (iIcon.Rotate is > 0.001 or < -0.001)
             {
-                _rotate = _icon._rotate;
+                Rotate = iIcon.Rotate;
             }
 
-            if (_icon._flipIcon == IconFlip.None)
+            if (iIcon.FlipTransform == IconFlip.None)
             {
-                FlipTransform = _icon._flipIcon;
+                FlipTransform = iIcon.FlipTransform;
             }
 
-            void assignIfGreaterThan0(ref double lhs, double value)
+            double assignIfGreaterThan0(double lhs, double value) => value > 0.001 ? value : lhs;
+
+            Shrink = assignIfGreaterThan0(Shrink, iIcon.Shrink);
+            Grow = assignIfGreaterThan0(Grow, iIcon.Grow);
+            Up = assignIfGreaterThan0(Up, iIcon.Up);
+            Down = assignIfGreaterThan0(Down, iIcon.Down);
+            Left = assignIfGreaterThan0(Left, iIcon.Left);
+            Right = assignIfGreaterThan0(Right, iIcon.Right);
+
+            if (iIcon.Mask != null)
             {
-                if (value > 0.001)
-                {
-                    lhs = value;
-                }
+                Mask = iIcon.Mask;
             }
 
-            assignIfGreaterThan0(ref _shrink, _icon._shrink);
-            assignIfGreaterThan0(ref _grow, _icon._grow);
-            assignIfGreaterThan0(ref _up, _icon._up);
-            assignIfGreaterThan0(ref _down, _icon._down);
-            assignIfGreaterThan0(ref _left, _icon._left);
-            assignIfGreaterThan0(ref _right, _icon._right);
-
-            if (_icon._mask != null)
+            if (!string.IsNullOrWhiteSpace(iIcon.CssClass))
             {
-                Mask = _icon._mask;
+                Class = iIcon.CssClass;
             }
 
-            if (!string.IsNullOrWhiteSpace(_icon._cssClass))
+            if (!string.IsNullOrWhiteSpace(iIcon.CssStyle))
             {
-                Class = _icon._cssClass;
-            }
-
-            if (!string.IsNullOrWhiteSpace(_icon._cssStyle))
-            {
-                Style = _icon._cssStyle;
+                Style = iIcon.CssStyle;
             }
         }
     }
@@ -240,77 +234,29 @@ public sealed class FaIcon : ComponentBase, IIcon
     [Parameter] public string? BorderPadding { get; set; }
     [Parameter] public string? BorderColor { get; set; }
 
-    private double _bounceLandScaleY;
+    [Parameter]
+    public double BounceLandScaleY{ get; set; }
 
     [Parameter]
-    public string BounceLandScaleY
-    {
-        get => _bounceLandScaleY.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceLandScaleY = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _bounceLandScaleX;
+    public double BounceLandScaleX{ get; set; }
 
     [Parameter]
-    public string BounceLandScaleX
-    {
-        get => _bounceLandScaleX.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceLandScaleX = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _bounceJumpScaleY;
+    public double BounceJumpScaleY{ get; set; }
 
     [Parameter]
-    public string BounceJumpScaleY
-    {
-        get => _bounceJumpScaleY.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceJumpScaleY = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _bounceJumpScaleX;
+    public double BounceJumpScaleX{ get; set; }
 
     [Parameter]
-    public string BounceJumpScaleX
-    {
-        get => _bounceJumpScaleX.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceJumpScaleX = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _bounceStartScaleY;
+    public double BounceStartScaleY{ get; set; }
 
     [Parameter]
-    public string BounceStartScaleY
-    {
-        get => _bounceStartScaleY.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceStartScaleY = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _bounceStartScaleX;
+    public double BounceStartScaleX{ get; set; }
 
     [Parameter]
-    public string BounceStartScaleX
-    {
-        get => _bounceStartScaleX.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceStartScaleX = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _bounceRebound;
+    public double BounceRebound{ get; set; }
 
     [Parameter]
-    public string BounceRebound
-    {
-        get => _bounceRebound.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceRebound = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _bounceHeight;
-
-    [Parameter]
-    public string BounceHeight
-    {
-        get => _bounceHeight.ToString("F2", CultureInfo.InvariantCulture);
-        set => _bounceHeight = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double BounceHeight{ get; set; }
 
     [Parameter] public IconAnimation Animation { get; set; }
     [Parameter] public string? AnimationDelay { get; set; }
@@ -321,68 +267,26 @@ public sealed class FaIcon : ComponentBase, IIcon
 
     [Parameter] public string? FlipAngle { get; set; }
 
-    private double _flipX;
+    [Parameter]
+    public double FlipX { get; set; }
 
     [Parameter]
-    public string FlipX
-    {
-        get => _flipX.ToString("F2", CultureInfo.InvariantCulture);
-        set => _flipX = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _flipY;
+    public double FlipY { get; set; }
 
     [Parameter]
-    public string FlipY
-    {
-        get => _flipY.ToString("F2", CultureInfo.InvariantCulture);
-        set => _flipY = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _flipZ;
+    public double FlipZ { get; set; }
 
     [Parameter]
-    public string FlipZ
-    {
-        get => _flipZ.ToString("F2", CultureInfo.InvariantCulture);
-        set => _flipZ = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _beatFadeOpacity;
+    public double BeatFadeOpacity { get; set; }
 
     [Parameter]
-    public string BeatFadeOpacity
-    {
-        get => _beatFadeOpacity.ToString("F2", CultureInfo.InvariantCulture);
-        set => _beatFadeOpacity = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _beatFadeScale;
+    public double BeatFadeScale { get; set; }
 
     [Parameter]
-    public string BeatFadeScale
-    {
-        get => _beatFadeScale.ToString("F2", CultureInfo.InvariantCulture);
-        set => _beatFadeScale = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _fadeOpacity;
+    public double FadeOpacity { get; set; }
 
     [Parameter]
-    public string FadeOpacity
-    {
-        get => _fadeOpacity.ToString("F2", CultureInfo.InvariantCulture);
-        set => _fadeOpacity = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _beatScale;
-
-    [Parameter]
-    public string BeatScale
-    {
-        get => _beatScale.ToString("F2", CultureInfo.InvariantCulture);
-        set => _beatScale = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double BeatScale { get; set; }
 
     [Parameter] public IconSize Size { get; set; }
     [Parameter] public bool FixedWidth { get; set; }
@@ -455,68 +359,26 @@ public sealed class FaIcon : ComponentBase, IIcon
     [Parameter] public bool Inverse { get; set; }
     [Parameter] public string? InverseColor { get; set; }
 
-    private double _grow;
+    [Parameter]
+    public double Grow { get; set; }
 
     [Parameter]
-    public string Grow
-    {
-        get => _grow.ToString("F2", CultureInfo.InvariantCulture);
-        set => _grow = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _shrink;
+    public double Shrink { get; set; }
 
     [Parameter]
-    public string Shrink
-    {
-        get => _shrink.ToString("F2", CultureInfo.InvariantCulture);
-        set => _shrink = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _up;
+    public double Up { get; set; }
 
     [Parameter]
-    public string Up
-    {
-        get => _up.ToString("F2", CultureInfo.InvariantCulture);
-        set => _up = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _down;
+    public double Down { get; set; }
 
     [Parameter]
-    public string Down
-    {
-        get => _down.ToString("F2", CultureInfo.InvariantCulture);
-        set => _down = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _left;
+    public double Left { get; set; }
 
     [Parameter]
-    public string Left
-    {
-        get => _left.ToString("F2", CultureInfo.InvariantCulture);
-        set => _left = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _right;
+    public double Right { get; set; }
 
     [Parameter]
-    public string Right
-    {
-        get => _right.ToString("F2", CultureInfo.InvariantCulture);
-        set => _right = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
-
-    private double _rotate;
-
-    [Parameter]
-    public string Rotate
-    {
-        get => _rotate.ToString("F2", CultureInfo.InvariantCulture);
-        set => _rotate = double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var d) ? d : 0;
-    }
+    public double Rotate { get; set; }
 
     [Parameter] public IconFlip? FlipTransform { get; set; }
 
@@ -528,23 +390,11 @@ public sealed class FaIcon : ComponentBase, IIcon
 
     [Parameter] public bool SwapOpacity { get; set; }
 
-    private double? _primaryOpacity;
+    [Parameter]
+    public double? PrimaryOpacity { get; set; }
 
     [Parameter]
-    public string? PrimaryOpacity
-    {
-        get => _primaryOpacity?.ToString("F2", CultureInfo.InvariantCulture);
-        set => _primaryOpacity = value is null ? null : double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var v) ? v : null;
-    }
-
-    private double? _secondaryOpacity;
-
-    [Parameter]
-    public string? SecondaryOpacity
-    {
-        get => _secondaryOpacity?.ToString("F2", CultureInfo.InvariantCulture);
-        set => _secondaryOpacity = value is null ? null : double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var v) ? v : null;
-    }
+    public double? SecondaryOpacity { get; set; }
 
     [Parameter] public string? PrimaryColor { get; set; }
 
@@ -555,39 +405,32 @@ public sealed class FaIcon : ComponentBase, IIcon
     public Dictionary<string, object> AdditionalAttributes { get; set; } = new();
 #pragma warning restore CA2227
 
-    double ITransformIcon.Grow => _grow;
-    double ITransformIcon.Shrink => _shrink;
-    double ITransformIcon.Rotate => _rotate;
-    double ITransformIcon.Up => _up;
-    double ITransformIcon.Down => _down;
-    double ITransformIcon.Left => _left;
-    double ITransformIcon.Right => _right;
-
+    IconFamily IIcon.Family => _icon.Family;
     IconStyle IIcon.Style => _icon.Style;
     string? ISharedIcon.CssStyle => Style;
     string? ISharedIcon.CssClass => Class;
 
     string IIcon.Name => _icon.Name;
 
-    double? IIcon.PrimaryOpacity => _primaryOpacity;
-    double? IIcon.SecondaryOpacity => _secondaryOpacity;
-    double? IAnimationIcon.BeatScale => _beatScale;
-    double? IAnimationIcon.FadeOpacity => _fadeOpacity;
-    double? IAnimationIcon.BeatFadeOpacity => _beatFadeOpacity;
-    double? IAnimationIcon.BeatFadeScale => _beatFadeScale;
+    double? IIcon.PrimaryOpacity => PrimaryOpacity;
+    double? IIcon.SecondaryOpacity => SecondaryOpacity;
+    double? IAnimationIcon.BeatScale => BeatScale;
+    double? IAnimationIcon.FadeOpacity => FadeOpacity;
+    double? IAnimationIcon.BeatFadeOpacity => BeatFadeOpacity;
+    double? IAnimationIcon.BeatFadeScale => BeatFadeScale;
 
-    double? IAnimationIcon.BounceRebound => _bounceRebound;
-    double? IAnimationIcon.BounceHeight => _bounceHeight;
-    double? IAnimationIcon.BounceStartScaleX => _bounceStartScaleX;
-    double? IAnimationIcon.BounceStartScaleY => _bounceStartScaleY;
-    double? IAnimationIcon.BounceJumpScaleX => _bounceJumpScaleX;
-    double? IAnimationIcon.BounceJumpScaleY => _bounceJumpScaleY;
-    double? IAnimationIcon.BounceLandScaleX => _bounceLandScaleX;
-    double? IAnimationIcon.BounceLandScaleY => _bounceLandScaleY;
+    double? IAnimationIcon.BounceRebound => BounceRebound;
+    double? IAnimationIcon.BounceHeight => BounceHeight;
+    double? IAnimationIcon.BounceStartScaleX => BounceStartScaleX;
+    double? IAnimationIcon.BounceStartScaleY => BounceStartScaleY;
+    double? IAnimationIcon.BounceJumpScaleX => BounceJumpScaleX;
+    double? IAnimationIcon.BounceJumpScaleY => BounceJumpScaleY;
+    double? IAnimationIcon.BounceLandScaleX => BounceLandScaleX;
+    double? IAnimationIcon.BounceLandScaleY => BounceLandScaleY;
 
-    double? IAnimationIcon.FlipX => _flipX;
-    double? IAnimationIcon.FlipY => _flipY;
-    double? IAnimationIcon.FlipZ => _flipZ;
+    double? IAnimationIcon.FlipX => FlipX;
+    double? IAnimationIcon.FlipY => FlipY;
+    double? IAnimationIcon.FlipZ => FlipZ;
 
     IconPull IIcon.Pull => Pull ?? IconPull.None;
 

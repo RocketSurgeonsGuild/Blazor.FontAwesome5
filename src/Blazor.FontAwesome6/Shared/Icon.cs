@@ -7,73 +7,65 @@ using Rocket.Surgery.Blazor.FontAwesome6;
 // ReSharper disable InconsistentNaming
 // ReSharper disable once CheckNamespace
 
-namespace Rocket.Surgery.Blazor.FontAwesome5;
+namespace Rocket.Surgery.Blazor.FontAwesome6;
 
 [DebuggerDisplay("{Style} {Name}")]
-public sealed record Icon(IconStyle Style, string Name) : IIcon
+public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIcon
 {
-    public static implicit operator Icon(Enum enumValue)
-    {
-        var enumType = enumValue.GetType();
-        var member = enumType.GetMember(Enum.GetName(enumType, enumValue)!)[0];
-        var faa = member.GetCustomAttribute<FontAwesomeAttribute>(true);
-        return new Icon(faa?.IconStyle ?? IconStyle.Unknown, faa?.Name ?? string.Empty);
-    }
+    private IconSize _size { get; init; }
+    private IconAnimation _animation { get; init; }
+    private string? _cssStyle { get; init; }
+    private string? _cssClass { get; init; }
+    private bool _fixedWidth { get; init; }
+    private IconPull _pull { get; init; }
+    private bool _border { get; init; }
 
-    internal IconSize _size { get; private init; }
-    internal IconAnimation _animation { get; private init; }
-    internal string? _cssStyle { get; private init; }
-    internal string? _cssClass { get; private init; }
-    internal bool _fixedWidth { get; private init; }
-    internal IconPull _pull { get; private init; }
-    internal bool _border { get; private init; }
+    private bool _inverse { get; init; }
+    private string? _inverseColor { get; init; }
+    private Icon? _mask { get; init; }
 
-    internal bool _inverse { get; private init; }
-    internal string? _inverseColor { get; private init; }
-    internal Icon? _mask { get; private init; }
-
-    internal double _shrink { get; private init; }
-    internal double _grow { get; private init; }
-    internal double _right { get; private init; }
-    internal double _left { get; private init; }
-    internal double _up { get; private init; }
-    internal double _down { get; private init; }
-    internal double _rotate { get; private init; }
-    internal IconFlip _flipIcon { get; private init; }
-    internal bool _swapOpacity { get; private init; }
-    internal double? _primaryOpacity { get; private init; }
-    internal double? _secondaryOpacity { get; private init; }
-    internal string? _primaryColor { get; private init; }
-    internal string? _secondaryColor { get; private init; }
-    internal string? _animationDelay { get; private init; }
-    internal string? _animationDirection { get; private init; }
-    internal string? _animationDuration { get; private init; }
-    internal string? _animationIterationCount { get; private init; }
-    internal string? _animationTiming { get; private init; }
-    internal double? _beatScale { get; private init; }
-    internal double? _fadeOpacity { get; private init; }
-    internal double? _beatFadeOpacity { get; private init; }
-    internal double? _beatFadeScale { get; private init; }
-    internal double? _flipX { get; private init; }
-    internal double? _flipY { get; private init; }
-    internal double? _flipZ { get; private init; }
-    internal string? _flipAngle { get; private init; }
-    internal string? _borderColor { get; private init; }
-    internal string? _borderPadding { get; private init; }
-    internal string? _borderRadius { get; private init; }
-    internal string? _borderStyle { get; private init; }
-    internal string? _borderWidth { get; private init; }
-    internal string? _pullMargin { get; private init; }
-    internal string? _stackZIndex { get; private init; }
-    internal string? _rotateBy { get; private init; }
-    internal double? _bounceRebound { get; private init; }
-    internal double? _bounceHeight { get; private init; }
-    internal double? _bounceStartScaleX { get; private init; }
-    internal double? _bounceStartScaleY { get; private init; }
-    internal double? _bounceJumpScaleX { get; private init; }
-    internal double? _bounceJumpScaleY { get; private init; }
-    internal double? _bounceLandScaleX { get; private init; }
-    internal double? _bounceLandScaleY { get; private init; }
+    private double _shrink { get; init; }
+    private double _grow { get; init; }
+    private double _right { get; init; }
+    private double _left { get; init; }
+    private double _up { get; init; }
+    private double _down { get; init; }
+    private double _rotate { get; init; }
+    private IconFlip _flipIcon { get; init; }
+    private bool _swapOpacity { get; init; }
+    private double? _primaryOpacity { get; init; }
+    private double? _secondaryOpacity { get; init; }
+    private string? _primaryColor { get; init; }
+    private string? _secondaryColor { get; init; }
+    private string? _animationDelay { get; init; }
+    private string? _animationDirection { get; init; }
+    private string? _animationDuration { get; init; }
+    private string? _animationIterationCount { get; init; }
+    private string? _animationTiming { get; init; }
+    private double? _beatScale { get; init; }
+    private double? _fadeOpacity { get; init; }
+    private double? _beatFadeOpacity { get; init; }
+    private double? _beatFadeScale { get; init; }
+    private double? _flipX { get; init; }
+    private double? _flipY { get; init; }
+    private double? _flipZ { get; init; }
+    private string? _flipAngle { get; init; }
+    private string? _borderColor { get; init; }
+    private string? _borderPadding { get; init; }
+    private string? _borderRadius { get; init; }
+    private string? _borderStyle { get; init; }
+    private string? _borderWidth { get; init; }
+    private string? _pullMargin { get; init; }
+    private string? _stackZIndex { get; init; }
+    private string? _rotateBy { get; init; }
+    private double? _bounceRebound { get; init; }
+    private double? _bounceHeight { get; init; }
+    private double? _bounceStartScaleX { get; init; }
+    private double? _bounceStartScaleY { get; init; }
+    private double? _bounceJumpScaleX { get; init; }
+    private double? _bounceJumpScaleY { get; init; }
+    private double? _bounceLandScaleX { get; init; }
+    private double? _bounceLandScaleY { get; init; }
 
     public Icon Size(IconSize size)
     {
@@ -681,22 +673,27 @@ public sealed record Icon(IconStyle Style, string Name) : IIcon
         return "";
     }
 
-    public static string ToPrefix(IconStyle style)
+    public static string ToPrefix(IconFamily family, IconStyle style)
     {
-        return style switch
+        return (family, style) switch
         {
-            IconStyle.Solid   => "fa-solid",
-            IconStyle.Regular => "fa-regular",
-            IconStyle.Light   => "fa-light",
-            IconStyle.Duotone => "fa-duotone",
-            IconStyle.Brands  => "fa-brands",
-            _                 => "fa-solid" // Default in the case no icon was provided
+            (_, IconStyle.Brands)                   => "fa-brands",
+            (IconFamily.Duotone, _)                 => "fa-duotone",
+            (IconFamily.Classic, IconStyle.Thin)    => "fa-thin",
+            (IconFamily.Classic, IconStyle.Light)   => "fa-light",
+            (IconFamily.Classic, IconStyle.Regular) => "fa-regular",
+            (IconFamily.Classic, IconStyle.Solid)   => "fa-solid",
+            (IconFamily.Sharp, IconStyle.Thin)      => "fa-sharp fa-thin",
+            (IconFamily.Sharp, IconStyle.Light)     => "fa-sharp fa-light",
+            (IconFamily.Sharp, IconStyle.Regular)   => "fa-sharp fa-regular",
+            (IconFamily.Sharp, IconStyle.Solid)     => "fa-sharp fa-solid",
+            _                                       => "fa-solid" // Default in the case no icon was provided
         };
     }
 
     public static string ToPrefix(Icon icon)
     {
-        return ToPrefix(icon.Style);
+        return ToPrefix(icon.Family, icon.Style);
     }
 
     public static string ToName(Icon icon)

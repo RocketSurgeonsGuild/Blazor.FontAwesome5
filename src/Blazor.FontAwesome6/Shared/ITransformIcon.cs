@@ -3,10 +3,11 @@ using System.Text;
 using Rocket.Surgery.Blazor.FontAwesome6;
 
 // ReSharper disable once CheckNamespace
-namespace Rocket.Surgery.Blazor.FontAwesome5;
+namespace Rocket.Surgery.Blazor.FontAwesome6;
 
 public interface IIcon : ITransformIcon, IAnimationIcon, ISharedIcon
 {
+    IconFamily Family { get; }
     IconStyle Style { get; }
     string Name { get; }
     IconPull Pull { get; }
@@ -78,7 +79,7 @@ public interface IAnimationIcon
      double? FlipY { get; }
      double? FlipZ { get; }
      string? FlipAngle { get; }
-    
+
 }
 
 internal static class IconExtensions
@@ -134,7 +135,7 @@ internal static class IconExtensions
             {
                 sb.Append(";--fa-secondary-color: ").Append(iicon.SecondaryColor);
             }
-            
+
 
             if (iicon.Pull != IconPull.None)
             {
@@ -378,7 +379,7 @@ internal static class IconExtensions
     {
         if (icon is IIcon iicon)
         {
-            sb.Append(Icon.ToPrefix(iicon.Style));
+            sb.Append(Icon.ToPrefix(iicon.Family, iicon.Style));
             sb.Append(' ');
             ApplyName(sb, iicon.Name);
 
@@ -448,7 +449,7 @@ internal static class IconExtensions
     {
         if (icon.Mask == null)
             return;
-        sb.Append(Icon.ToPrefix(icon.Mask.Style));
+        sb.Append(Icon.ToPrefix(icon.Mask.Family, icon.Mask.Style));
         sb.Append(" fa-");
         sb.Append(icon.Mask.Name);
     }

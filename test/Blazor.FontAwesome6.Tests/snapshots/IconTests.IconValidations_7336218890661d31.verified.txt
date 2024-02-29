@@ -1,0 +1,1 @@
+﻿<i class="fa-solid fa-building-columns fa-spin" style=";--fa-animation-delay: 39s ;--fa-animation-direction: alternate ;--fa-animation-duration: 32s ;--fa-animation-iteration-count: 49s ;--fa-animation-timing: ease-out"></i>

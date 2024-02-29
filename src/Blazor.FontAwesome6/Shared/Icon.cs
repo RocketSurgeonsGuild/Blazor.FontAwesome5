@@ -100,7 +100,25 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         };
     }
 
-    private Icon AnimationSettings(
+    public Icon AnimationSettings(
+        string? delay = null,
+        string? direction = null,
+        string? duration = null,
+        string? iterationCount = null,
+        string? timing = null
+    )
+    {
+        return this with
+        {
+            _animationDelay = delay ?? _animationDelay,
+            _animationDirection = direction ?? _animationDirection,
+            _animationDuration = duration ?? _animationDuration,
+            _animationIterationCount = iterationCount ?? _animationIterationCount,
+            _animationTiming = timing ?? _animationTiming,
+        };
+    }
+
+    private Icon InternalAnimationSettings(
         IconAnimation? animation = null,
         string? delay = null,
         string? direction = null,
@@ -128,7 +146,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         string? iterationCount = null,
         string? timing = null
     ) =>
-        AnimationSettings(
+        InternalAnimationSettings(
                 IconAnimation.Beat,
                 delay,
                 direction,
@@ -147,7 +165,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         string? iterationCount = null,
         string? timing = null
     ) =>
-        AnimationSettings(
+        InternalAnimationSettings(
                 IconAnimation.Fade,
                 delay,
                 direction,
@@ -167,7 +185,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         string? iterationCount = null,
         string? timing = null
     ) =>
-        AnimationSettings(
+        InternalAnimationSettings(
                 IconAnimation.BeatFade,
                 delay,
                 direction,
@@ -194,7 +212,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         string? iterationCount = null,
         string? timing = null
     ) =>
-        AnimationSettings(
+        InternalAnimationSettings(
                 IconAnimation.Bounce,
                 delay,
                 direction,
@@ -225,7 +243,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         string? iterationCount = null,
         string? timing = null
     ) =>
-        AnimationSettings(
+        InternalAnimationSettings(
                 IconAnimation.Flip,
                 delay,
                 direction,
@@ -248,7 +266,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         string? iterationCount = null,
         string? timing = null
     ) =>
-        AnimationSettings(
+        InternalAnimationSettings(
             IconAnimation.Shake,
             delay,
             direction,
@@ -265,7 +283,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         string? iterationCount = null,
         string? timing = null
     ) =>
-        AnimationSettings(
+        InternalAnimationSettings(
             reverse ? IconAnimation.Spin | IconAnimation.Reverse : IconAnimation.Spin,
             delay,
             direction,
@@ -282,7 +300,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         string? iterationCount = null,
         string? timing = null
     ) =>
-        AnimationSettings(
+        InternalAnimationSettings(
             reverse ? IconAnimation.SpinPulse | IconAnimation.Reverse : IconAnimation.SpinPulse,
             delay,
             direction,
@@ -793,8 +811,12 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
     {
         var sb = new StringBuilder();
         sb.Append("<i class=\"");
-        this.ApplyClass(sb, null);
-        sb.Append('"');
+        this.ApplyClass(sb, null, false, _cssClass);
+        sb.Append("\"");
+        if (this.ApplyStyle(sb, null, _cssStyle, () => sb.Append(" style=\"")))
+        {
+            sb.Append('"');
+        }
         ApplyAttributes(sb);
         sb.Append("></i>");
         return sb.ToString();
@@ -802,13 +824,6 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
 
     private void ApplyAttributes(StringBuilder sb)
     {
-        if (!string.IsNullOrWhiteSpace(_cssStyle))
-        {
-            sb.Append(" style=\"");
-            sb.Append(_cssStyle);
-            sb.Append('"');
-        }
-
         if (_mask != null)
         {
             sb.Append(" data-fa-mask=\"");

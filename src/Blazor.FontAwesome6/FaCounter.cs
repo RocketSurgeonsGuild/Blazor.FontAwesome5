@@ -261,7 +261,7 @@ public class FaCounter : ComponentBase, ITransformIcon, IAnimationIcon, ISharedI
 
         if (Inverse)
         {
-            sb.Append("fa-inverse");
+            sb.Append(" fa-inverse");
         }
 
         return sb.ToString();
@@ -340,7 +340,9 @@ public class FaCounter : ComponentBase, ITransformIcon, IAnimationIcon, ISharedI
         // <span class="@ToClass()" @attributes="GetAttributes()" style="@Style">@ChildContent</span>
         builder.OpenElement(0, "span");
         builder.AddAttribute(1, "class", ToClass());
-        builder.AddAttribute(2, "style", ToStyle());
+        var style = ToStyle();
+        if (!string.IsNullOrWhiteSpace(style))
+            builder.AddAttribute(2, "style", ToStyle());
         var transform = this.ToTransform(null);
         if (!string.IsNullOrWhiteSpace(transform))
             builder.AddAttribute(3, "data-fa-transform", transform);

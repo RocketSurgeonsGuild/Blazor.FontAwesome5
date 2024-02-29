@@ -1,0 +1,1 @@
+﻿<i class="fa-solid fa-building-columns fa-beat" style=";--fa-animation-delay: 16s ;--fa-animation-direction: alternate-reverse ;--fa-animation-duration: 52s ;--fa-animation-iteration-count: 78s ;--fa-animation-timing: ease-out ;--fa-beat-scale: 18.38"></i>

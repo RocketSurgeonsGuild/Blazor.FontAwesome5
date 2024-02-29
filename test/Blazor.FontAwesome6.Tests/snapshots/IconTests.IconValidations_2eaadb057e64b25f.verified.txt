@@ -1,0 +1,1 @@
+﻿<i class="fa-solid fa-building-columns fa-fade" style=";--fa-animation-delay: 16s ;--fa-animation-direction: alternate ;--fa-animation-duration: 5s ;--fa-animation-iteration-count: 0s ;--fa-animation-timing: ease ;--fa-fade-opacity: 52.27"></i>

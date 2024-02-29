@@ -10,7 +10,8 @@ public class ModuleInitializer
     [ModuleInitializer]
     public static void Init()
     {
-        VerifyPlaywright.Initialize(installPlaywright: true);
+        VerifyBunit.Initialize();
+        VerifyPlaywright.Initialize(true);
         VerifyAngleSharpDiffing.Initialize();
         HtmlPrettyPrint.All(
             list =>
@@ -20,7 +21,8 @@ public class ModuleInitializer
                 {
                     comment.Remove();
                 }
-            });
+            }
+        );
         VerifyImageMagick.Initialize();
         VerifyImageMagick.RegisterComparers(.05);
         DiffRunner.Disabled = true;

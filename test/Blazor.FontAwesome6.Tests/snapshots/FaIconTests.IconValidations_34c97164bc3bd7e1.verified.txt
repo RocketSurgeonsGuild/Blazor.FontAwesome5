@@ -1,0 +1,22 @@
+﻿{
+  Instance: {
+    Icon: {
+      Name: link
+    },
+    Size: ExtraLarge,
+    FixedWidth: false,
+    Beat: false,
+    BeatFade: false,
+    Bounce: false,
+    Spin: false,
+    Flip: false,
+    Shake: false,
+    SpinPulse: false,
+    Fade: false,
+    Reverse: false,
+    Border: false,
+    Inverse: false,
+    SwapOpacity: false
+  },
+  NodeCount: 1
+}

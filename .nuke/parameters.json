@@ -1,5 +1,4 @@
 {
-  "$schema": "./build.schema.json",
-  "Solution": "FontAwesome5.sln",
-  "FontAwesomeToken": "v1:1kYAMfX8GjrIOibkHtmBK53WlvE1jV2RfdBwUlYNits3NjzDTmOCTnvrsBhWWwY0"
+    "$schema": "./build.schema.json",
+    "Solution": "FontAwesome5.sln"
 }

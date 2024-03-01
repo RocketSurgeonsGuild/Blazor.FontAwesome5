@@ -1,0 +1,1 @@
+﻿<i class="fa-solid fa-barcode" data-fa-transform="flip-h"></i>

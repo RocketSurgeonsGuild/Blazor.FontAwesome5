@@ -1,4 +1,4 @@
 {
-  "$schema": "./build.schema.json",
-  "Solution": "FontAwesome5.sln"
+    "$schema": "./build.schema.json",
+    "Solution": "FontAwesome5.sln"
 }

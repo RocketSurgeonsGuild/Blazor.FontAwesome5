@@ -1,7 +1,6 @@
 ﻿using Bunit;
 using FluentAssertions;
 using Microsoft.Extensions.Logging;
-using Rocket.Surgery.Blazor.FontAwesome6.Brands;
 using Rocket.Surgery.Blazor.FontAwesome6.Pro;
 using Rocket.Surgery.Extensions.Testing;
 using Xunit;

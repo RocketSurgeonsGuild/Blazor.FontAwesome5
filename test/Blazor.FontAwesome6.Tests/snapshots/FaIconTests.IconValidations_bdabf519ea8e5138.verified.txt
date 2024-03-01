@@ -1,0 +1,10 @@
+﻿{
+  Instance: {
+    Icon: {
+      Style: Regular,
+      Name: link
+    },
+    FixedWidth: false
+  },
+  NodeCount: 1
+}

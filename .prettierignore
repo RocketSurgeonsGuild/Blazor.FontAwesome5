@@ -3,4 +3,5 @@ azure-pipelines.nuke.yml
 .github/workflows/ci-ignore.yml
 .nuke/build.schema.json
 package-lock.json
-
+*.verified.*
+*.received.*

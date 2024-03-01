@@ -10,6 +10,7 @@
   <ItemGroup>
     <PackageReference Include="Nuke.Common" />
     <PackageReference Include="GitVersion.Tool" ExcludeAssets="All" />
+    <PackageReference Include="PrettyCode.StringBuilder" />
     <PackageReference Include="ReportGenerator" ExcludeAssets="All" />
     <PackageReference Include="Rocket.Surgery.Nuke" />
   </ItemGroup>

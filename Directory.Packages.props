@@ -1,19 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Project>
   <ItemGroup>
-      <PackageVersion Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" />
-      <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="8.0.0" />
-      <PackageVersion Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="3.3.4" />
-      <PackageVersion Include="Rocket.Surgery.MSBuild.CI" Version="1.1.5" />
-      <PackageVersion Include="Rocket.Surgery.MSBuild.GitVersion" Version="1.1.5" />
-      <PackageVersion Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="1.1.5" Condition="'$(MSBuildProjectName)'!='.build'" />
-      <PackageVersion Include="Rocket.Surgery.MSBuild.SourceLink" Version="1.1.5" />
-      <PackageVersion Include="Polyfill" Version="3.0.0" />
-      <PackageVersion Include="Roslynator.Analyzers" Version="4.11.0" />
-      <PackageVersion Include="Roslynator.Formatting.Analyzers" Version="4.11.0" />
-      <PackageVersion Include="Roslynator.CodeAnalysis.Analyzers" Version="4.11.0" />
-      <PackageVersion Include="Roslynator.CodeFixes" Version="4.11.0" />
-      <PackageVersion Include="Roslynator.Refactorings" Version="4.11.0" />
+    <PackageVersion Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" />
+    <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="3.3.4" />
+    <PackageVersion Include="PrettyCode.StringBuilder" Version="1.0.0" />
+    <PackageVersion Include="Rocket.Surgery.MSBuild.CI" Version="1.1.5" />
+    <PackageVersion Include="Rocket.Surgery.MSBuild.GitVersion" Version="1.1.5" />
+    <PackageVersion Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="1.1.5" Condition="'$(MSBuildProjectName)'!='.build'" />
+    <PackageVersion Include="Rocket.Surgery.MSBuild.SourceLink" Version="1.1.5" />
+    <PackageVersion Include="Polyfill" Version="3.0.0" />
+    <PackageVersion Include="Roslynator.Analyzers" Version="4.11.0" />
+    <PackageVersion Include="Roslynator.Formatting.Analyzers" Version="4.11.0" />
+    <PackageVersion Include="Roslynator.CodeAnalysis.Analyzers" Version="4.11.0" />
+    <PackageVersion Include="Roslynator.CodeFixes" Version="4.11.0" />
+    <PackageVersion Include="Roslynator.Refactorings" Version="4.11.0" />
+    <PackageVersion Include="Verify.BUnit" Version="11.0.0" />
   </ItemGroup>
   <ItemGroup>
     <PackageVersion Include="GitVersion.Tool" Version="5.12.0" />
@@ -25,6 +27,9 @@
   <ItemGroup>
     <PackageVersion Include="Microsoft.AspNetCore.Components" Version="8.0.0" />
     <PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0" />
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageVersion Include="bunit" Version="1.26.64" />
   </ItemGroup>
@@ -35,6 +40,12 @@
     <PackageVersion Include="Bogus" Version="35.4.0" />
     <PackageVersion Include="coverlet.collector" Version="6.0.1" />
     <PackageVersion Include="coverlet.msbuild" Version="6.0.1" />
+    <PackageVersion Include="Microsoft.Playwright" Version="1.41.2" />
+    <PackageVersion Include="Verify.AngleSharp" Version="4.3.1" />
+    <PackageVersion Include="Verify.ImageMagick" Version="3.3.0" />
+    <PackageVersion Include="Verify.Blazor" Version="11.0.0" />
+    <PackageVersion Include="Verify.Xunit" Version="23.2.2" />
+    <PackageVersion Include="Verify.Playwright" Version="2.3.0" />
     <PackageVersion Include="FakeItEasy" Version="8.1.0" />
     <PackageVersion Include="FakeItEasy.Analyzer.CSharp" Version="6.1.1" />
     <PackageVersion Include="FluentAssertions" Version="6.12.0" />

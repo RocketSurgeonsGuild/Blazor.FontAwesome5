@@ -1,0 +1,10 @@
+﻿{
+  Instance: {
+    Icon: {
+      Name: battery-full
+    },
+    Animation: Beat,
+    AnimationTiming: ease-in-out
+  },
+  NodeCount: 1
+}

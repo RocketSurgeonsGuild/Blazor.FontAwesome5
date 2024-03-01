@@ -1,16 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
     <PropertyGroup>
-        <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+        <TargetFramework>net8.0</TargetFramework>
         <RazorLangVersion>3.0</RazorLangVersion>
     </PropertyGroup>
     <ItemGroup>
+        <PackageReference Include="Verify.Blazor" />
+        <PackageReference Include="Verify.BUnit" />
+        <PackageReference Include="Verify.Xunit" />
+        <ProjectReference Include="..\..\sample\BlazorWasm\BlazorWasm.csproj" />
         <ProjectReference Include="..\..\src\Blazor.FontAwesome6.Free\Rocket.Surgery.Blazor.FontAwesome6.Free.csproj" />
         <ProjectReference Include="..\..\src\Blazor.FontAwesome6.Pro\Rocket.Surgery.Blazor.FontAwesome6.Pro.csproj" />
-        <ProjectReference Include="..\..\src\Blazor.FontAwesome6.Brands\Rocket.Surgery.Blazor.FontAwesome6.Brands.csproj" />
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp" />
         <PackageReference Include="Microsoft.AspNetCore.Components" />
         <PackageReference Include="Microsoft.AspNetCore.Components.Web" />
         <PackageReference Include="bunit" />
+        <PackageReference Include="Microsoft.Playwright" />
+        <PackageReference Include="Verify.AngleSharp" />
+        <PackageReference Include="Verify.ImageMagick" />
+        <PackageReference Include="Verify.Playwright" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
         <ProjectReference Include="..\..\src\Blazor.FontAwesome6\Rocket.Surgery.Blazor.FontAwesome6.csproj" />
     </ItemGroup>
 </Project>

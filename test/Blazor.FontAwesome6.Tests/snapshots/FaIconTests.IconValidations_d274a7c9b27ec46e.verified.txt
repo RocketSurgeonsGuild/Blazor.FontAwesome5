@@ -1,0 +1,8 @@
+﻿{
+  Instance: {
+    Icon: {
+      Name: barcode
+    }
+  },
+  NodeCount: 1
+}

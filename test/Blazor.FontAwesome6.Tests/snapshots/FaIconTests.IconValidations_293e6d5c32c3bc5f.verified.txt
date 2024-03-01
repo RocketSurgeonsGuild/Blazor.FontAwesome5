@@ -1,0 +1,10 @@
+﻿{
+  Instance: {
+    Icon: {
+      Name: battery-full
+    },
+    Animation: Beat,
+    AnimationDirection: alternate-reverse
+  },
+  NodeCount: 1
+}

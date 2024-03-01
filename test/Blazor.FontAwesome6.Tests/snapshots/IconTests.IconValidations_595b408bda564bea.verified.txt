@@ -1,1 +1,0 @@
-﻿<i class="fa-solid fa-building-columns fa-flip" style=";--fa-animation-delay: 2s ;--fa-animation-direction: normal ;--fa-animation-duration: 67s ;--fa-animation-iteration-count: 57s ;--fa-animation-timing: ease-in ;--fa-flip-x: 50.36 ;--fa-flip-y: 82.07 ;--fa-flip-z: 60.43 ;--fa-flip-angle: 34"></i>

@@ -1,1 +1,0 @@
-﻿<i class="fa-solid fa-battery-full fa-beat" style=";--fa-animation-duration: 16s"></i>

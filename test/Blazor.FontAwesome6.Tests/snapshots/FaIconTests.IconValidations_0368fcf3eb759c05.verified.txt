@@ -3,20 +3,7 @@
     Icon: {
       Name: barcode
     },
-    FixedWidth: false,
-    Beat: false,
-    BeatFade: false,
-    Bounce: false,
-    Spin: false,
-    Flip: false,
-    Shake: false,
-    SpinPulse: false,
-    Fade: false,
-    Reverse: false,
-    Border: false,
-    Inverse: false,
-    FlipTransform: Horizontal,
-    SwapOpacity: false
+    FlipTransform: Horizontal
   },
   NodeCount: 1
 }

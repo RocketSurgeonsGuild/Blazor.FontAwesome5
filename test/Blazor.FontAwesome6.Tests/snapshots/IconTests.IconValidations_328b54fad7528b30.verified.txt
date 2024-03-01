@@ -1,1 +1,0 @@
-﻿<i class="fa-solid fa-barcode" data-fa-transform="grow-0.29 shrink-0.70 rotate-0.25 up-0.86 down-0.56 left-0.20 right-0.18"></i>

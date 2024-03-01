@@ -1,1 +1,0 @@
-﻿<i class="fa-solid fa-building-columns fa-beat-fade" style=";--fa-animation-delay: 88s ;--fa-animation-direction: alternate ;--fa-animation-duration: 71s ;--fa-animation-iteration-count: 61s ;--fa-animation-timing: step-end ;--fa-beat-fade-opacity: 62.51 ;--fa-beat-fade-scale: 44.21"></i>

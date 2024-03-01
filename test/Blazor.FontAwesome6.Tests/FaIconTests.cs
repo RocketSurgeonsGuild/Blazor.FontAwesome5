@@ -182,8 +182,8 @@ public class FaIconTests : LoggerTest
     }
 
     [Theory]
-//        [ClassData(typeof(IconAnimationData))]
-//        [ClassData(typeof(IconBorderAndPullData))]
+    [ClassData(typeof(IconAnimationData))]
+    [ClassData(typeof(IconBorderAndPullData))]
     [ClassData(typeof(IconTransformData))]
     public Task IconValidations(string id, Action<ComponentParameterCollectionBuilder<FaIcon>> icon)
     {
@@ -194,7 +194,6 @@ public class FaIconTests : LoggerTest
     {
         public IconTransformData()
         {
-            var bogus = new Faker { Random = new(3), };
             foreach (var size in Enum.GetValues<IconSize>().Distinct())
             {
                 AddIcon(
@@ -209,8 +208,9 @@ public class FaIconTests : LoggerTest
                 );
                 AddIcon(
                     z => z
-                        .Add(x => x.Icon, FaSolid.Chain.Size(bogus.PickRandom(Enum.GetValues<IconSize>().Except([size,]))))
-                        .Add(x => x.Size, size)
+                        .Add(x => x.Icon, FaSolid.Chain.Size(size == IconSize._5X ? IconSize._6X : IconSize._5X))
+                        .Add(x => x.Size, size),
+                    size
                 );
             }
 
@@ -240,25 +240,25 @@ public class FaIconTests : LoggerTest
                     x => x.Icon,
                     FaSolid
                        .Barcode
-                       .Grow(bogus.Random.Double())
-                       .Shrink(bogus.Random.Double())
-                       .Up(bogus.Random.Double())
-                       .Left(bogus.Random.Double())
-                       .Down(bogus.Random.Double())
-                       .Right(bogus.Random.Double())
-                       .Rotate(bogus.Random.Double())
+                       .Grow(1)
+                       .Shrink(2)
+                       .Up(3)
+                       .Left(4)
+                       .Down(5)
+                       .Right(6)
+                       .Rotate(7)
                 )
             );
             AddIcon(
                 z => z
                     .Add(x => x.Icon, FaSolid.Barcode)
-                    .Add(x => x.Grow, bogus.Random.Double())
-                    .Add(x => x.Shrink, bogus.Random.Double())
-                    .Add(x => x.Up, bogus.Random.Double())
-                    .Add(x => x.Left, bogus.Random.Double())
-                    .Add(x => x.Down, bogus.Random.Double())
-                    .Add(x => x.Right, bogus.Random.Double())
-                    .Add(x => x.Rotate, bogus.Random.Double())
+                    .Add(x => x.Grow, 1)
+                    .Add(x => x.Shrink, 2)
+                    .Add(x => x.Up, 3)
+                    .Add(x => x.Left, 4)
+                    .Add(x => x.Down, 5)
+                    .Add(x => x.Right, 6)
+                    .Add(x => x.Rotate, 7)
             );
             AddIcon(
                 z => z
@@ -274,13 +274,13 @@ public class FaIconTests : LoggerTest
                             .Right(10)
                             .Rotate(10)
                      )
-                    .Add(x => x.Grow, bogus.Random.Double())
-                    .Add(x => x.Shrink, bogus.Random.Double())
-                    .Add(x => x.Up, bogus.Random.Double())
-                    .Add(x => x.Left, bogus.Random.Double())
-                    .Add(x => x.Down, bogus.Random.Double())
-                    .Add(x => x.Right, bogus.Random.Double())
-                    .Add(x => x.Rotate, bogus.Random.Double())
+                    .Add(x => x.Grow, 1)
+                    .Add(x => x.Shrink, 2)
+                    .Add(x => x.Up, 3)
+                    .Add(x => x.Left, 4)
+                    .Add(x => x.Down, 5)
+                    .Add(x => x.Right, 6)
+                    .Add(x => x.Rotate, 7)
             );
             AddIcon(
                 z => z.Add(x => x.Icon, FaSolid.Barcode.RotateLeft(100))
@@ -329,42 +329,805 @@ public class FaIconTests : LoggerTest
     {
         public IconBorderAndPullData()
         {
-            var bogus = new Faker { Random = new(5), };
             AddIcon(
                 z => z.Add(
                     x => x.Icon,
                     FaSolid.Bank
                            .Border(
                                 true,
-                                bogus.Internet.Color(),
-                                bogus.Random.Number(100) + "px",
-                                bogus.Random.Number(100) + "px",
-                                bogus.PickRandom(
-                                    "solid",
-                                    "dotted",
-                                    "dashed",
-                                    "double",
-                                    "groove",
-                                    "ridge",
-                                    "inset",
-                                    "outset"
-                                ),
-                                bogus.Random.Number(100) + "px"
+                                "#FF0000",
+                                "6px",
+                                "8px",
+                                "dotted",
+                                "12px"
                             )
                 )
             );
             foreach (var item in Enum.GetValues<IconPull>())
             {
-                AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank.Pull(item, bogus.Random.Number(100) + "px")), item);
-                AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank).Add(z => z.Pull, IconPull.Left).Add(z => z.PullMargin, bogus.Random.Number(100) + "px"), item);
+                AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank.Pull(item, "12px")), item);
+                AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank).Add(z => z.Pull, IconPull.Left).Add(z => z.PullMargin, "8px"), item);
             }
 
-            AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank.Pull(IconPull.Right).PullMargin(bogus.Random.Number(100) + "px")));
-            AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank).Add(x => x.Pull, IconPull.Right).Add(x => x.PullMargin, bogus.Random.Number(100) + "px"));
+            AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank.Pull(IconPull.Right).PullMargin("5px")));
+            AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank).Add(x => x.Pull, IconPull.Right).Add(x => x.PullMargin, "10px"));
             AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank.PullRight()));
             AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank).Add(x => x.Pull, IconPull.Right));
             AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank.PullLeft()));
             AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank).Add(x => x.Pull, IconPull.Left));
+        }
+    }
+
+
+    private class IconAnimationData : IconTheory
+    {
+        public IconAnimationData()
+        {
+            foreach (var item in Enum.GetValues<IconAnimation>().Concat(Enum.GetValues<IconAnimation>().Select(i => i | IconAnimation.Reverse)).Distinct())
+            {
+                AddIcon(
+                    z => z.Add(
+                        x => x.Icon,
+                        FaSolid.Battery
+                               .Animate(
+                                    item,
+                                    "3s",
+                                    "alternate-reverse",
+                                    "4s",
+                                    "5s",
+                                    "ease-in-out"
+                                )
+                    ),
+                    item
+                );
+                AddIcon(
+                    z => z
+                        .Add(x => x.Icon, FaSolid.Battery)
+                        .Add(x => x.Animation, item)
+                        .Add(z => z.AnimationDelay, "3s")
+                        .Add(z => z.AnimationDirection, "alternate-reverse")
+                        .Add(z => z.AnimationDuration, "4s")
+                        .Add(z => z.AnimationIterationCount, "5s")
+                        .Add(z => z.AnimationTiming, "ease-in-out"),
+                    item
+                );
+                AddIcon(
+                    z => z
+                        .Add(
+                             x => x.Icon,
+                             FaSolid.Battery
+                                    .Animate(
+                                         item,
+                                         "10s",
+                                         "11alternate-reverse",
+                                         "10s",
+                                         "10s",
+                                         "11ease-in-out"
+                                     )
+                         )
+                        .Add(z => z.AnimationDelay, "3s")
+                        .Add(z => z.AnimationDirection, "alternate-reverse")
+                        .Add(z => z.AnimationDuration, "4s")
+                        .Add(z => z.AnimationIterationCount, "5s")
+                        .Add(z => z.AnimationTiming, "ease-in-out"),
+                    item
+                );
+            }
+
+            AddIcon(
+                z => z
+                   .Add(
+                        x => x.Icon,
+                        FaSolid
+                           .Battery
+                           .Animate(IconAnimation.Beat)
+                           .AnimationDirection("alternate-reverse")
+                    )
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid
+                            .Battery
+                     )
+                    .Add(z => z.Animation, IconAnimation.Beat)
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid
+                            .Battery
+                            .Animate(IconAnimation.Bounce)
+                            .AnimationDirection("reverse")
+                     )
+                    .Add(z => z.Animation, IconAnimation.Beat)
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+            );
+
+            AddIcon(
+                z => z
+                   .Add(
+                        x => x.Icon,
+                        FaSolid
+                           .Battery
+                           .Animate(IconAnimation.Beat)
+                           .AnimationDuration("2s")
+                    )
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid
+                            .Battery
+                     )
+                    .Add(z => z.Animation, IconAnimation.Beat)
+                    .Add(z => z.AnimationDuration, "2s")
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid
+                            .Battery
+                            .Animate(IconAnimation.Bounce)
+                            .AnimationDuration("10s")
+                     )
+                    .Add(z => z.Animation, IconAnimation.Beat)
+                    .Add(z => z.AnimationDuration, "2s")
+            );
+
+            AddIcon(
+                z => z
+                   .Add(
+                        x => x.Icon,
+                        FaSolid
+                           .Battery
+                           .Animate(IconAnimation.Beat)
+                           .AnimationTiming("ease-in-out")
+                    )
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid
+                            .Battery
+                     )
+                    .Add(z => z.Animation, IconAnimation.Beat)
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid
+                            .Battery
+                            .Animate(IconAnimation.Bounce)
+                            .AnimationTiming("ease-out")
+                     )
+                    .Add(z => z.Animation, IconAnimation.Beat)
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+
+            AddIcon(
+                z => z
+                   .Add(
+                        x => x.Icon,
+                        FaSolid
+                           .Battery
+                           .Animate(IconAnimation.Beat)
+                           .AnimationDelay("3s")
+                    )
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid
+                            .Battery
+                     )
+                    .Add(z => z.Animation, IconAnimation.Beat)
+                    .Add(z => z.AnimationDelay, "3s")
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid
+                            .Battery
+                            .Animate(IconAnimation.Bounce)
+                            .AnimationDelay("10s")
+                     )
+                    .Add(z => z.Animation, IconAnimation.Beat)
+                    .Add(z => z.AnimationDelay, "3s")
+            );
+
+            AddIcon(
+                z => z
+                   .Add(
+                        x => x.Icon,
+                        FaSolid
+                           .Battery
+                           .Animate(IconAnimation.Beat)
+                           .AnimationIterationCount("4s")
+                    )
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid
+                            .Battery
+                     )
+                    .Add(z => z.Animation, IconAnimation.Beat)
+                    .Add(z => z.AnimationIterationCount, "4s")
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid
+                            .Battery
+                            .Animate(IconAnimation.Bounce)
+                            .AnimationIterationCount("10s")
+                     )
+                    .Add(z => z.Animation, IconAnimation.Beat)
+                    .Add(z => z.AnimationIterationCount, "4s")
+            );
+
+            AddIcon(
+                z => z
+                   .Add(
+                        x => x.Icon,
+                        FaSolid.Bank
+                               .Bounce(
+                                    1,
+                                    2,
+                                    3,
+                                    4,
+                                    5,
+                                    6,
+                                    7,
+                                    8,
+                                    "9s",
+                                    "alternate-reverse",
+                                    "10s",
+                                    "11",
+                                    "ease-in-out"
+                                )
+                    )
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                     )
+                    .Add(z => z.Bounce, true)
+                    .Add(z => z.BounceRebound, 1)
+                    .Add(z => z.BounceHeight, 2)
+                    .Add(z => z.BounceStartScaleX, 3)
+                    .Add(z => z.BounceStartScaleY, 4)
+                    .Add(z => z.BounceJumpScaleX, 5)
+                    .Add(z => z.BounceJumpScaleY, 6)
+                    .Add(z => z.BounceLandScaleX, 7)
+                    .Add(z => z.BounceLandScaleY, 8)
+                    .Add(z => z.AnimationDelay, "3s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "4s")
+                    .Add(z => z.AnimationIterationCount, "5s")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                                .Bounce(
+                                     10,
+                                     10,
+                                     10,
+                                     10,
+                                     10,
+                                     10,
+                                     10,
+                                     10,
+                                     "11s",
+                                     "reverse",
+                                     "11s",
+                                     "10",
+                                     "ease-in"
+                                 )
+                     )
+                    .Add(z => z.Bounce, true)
+                    .Add(z => z.BounceRebound, 1)
+                    .Add(z => z.BounceHeight, 2)
+                    .Add(z => z.BounceStartScaleX, 3)
+                    .Add(z => z.BounceStartScaleY, 4)
+                    .Add(z => z.BounceJumpScaleX, 5)
+                    .Add(z => z.BounceJumpScaleY, 6)
+                    .Add(z => z.BounceLandScaleX, 7)
+                    .Add(z => z.BounceLandScaleY, 8)
+                    .Add(z => z.AnimationDelay, "3s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "4s")
+                    .Add(z => z.AnimationIterationCount, "5s")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+
+            AddIcon(
+                z => z
+                   .Add(
+                        x => x.Icon,
+                        FaSolid.Bank
+                               .Beat(
+                                    4,
+                                    "9s",
+                                    "alternate-reverse",
+                                    "10s",
+                                    "11",
+                                    "ease-in-out"
+                                )
+                    )
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                     )
+                    .Add(z => z.Beat, true)
+                    .Add(z => z.BeatScale, 4)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                                .Beat(
+                                     10,
+                                     "10s",
+                                     "reverse",
+                                     "11s",
+                                     "10",
+                                     "ease-in"
+                                 )
+                     )
+                    .Add(z => z.Beat, true)
+                    .Add(z => z.BeatScale, 4)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+
+            AddIcon(
+                z => z
+                   .Add(
+                        x => x.Icon,
+                        FaSolid.Bank
+                               .Fade(
+                                    4,
+                                    "9s",
+                                    "alternate-reverse",
+                                    "10s",
+                                    "11",
+                                    "ease-in-out"
+                                )
+                    )
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                     )
+                    .Add(z => z.Fade, true)
+                    .Add(z => z.FadeOpacity, 4)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                                .Fade(
+                                     10,
+                                     "10s",
+                                     "reverse",
+                                     "11s",
+                                     "10",
+                                     "ease-in"
+                                 )
+                     )
+                    .Add(z => z.Fade, true)
+                    .Add(z => z.FadeOpacity, 4)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+
+            AddIcon(
+                z => z
+                   .Add(
+                        x => x.Icon,
+                        FaSolid.Bank
+                               .BeatFade(
+                                    4,
+                                    5,
+                                    "9s",
+                                    "alternate-reverse",
+                                    "10s",
+                                    "11",
+                                    "ease-in-out"
+                                )
+                    )
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                     )
+                    .Add(z => z.BeatFade, true)
+                    .Add(z => z.BeatFadeOpacity, 4)
+                    .Add(z => z.BeatFadeScale, 5)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                                .BeatFade(
+                                     10,
+                                     10,
+                                     "10s",
+                                     "reverse",
+                                     "11s",
+                                     "10",
+                                     "ease-in"
+                                 )
+                     )
+                    .Add(z => z.BeatFade, true)
+                    .Add(z => z.BeatFadeOpacity, 4)
+                    .Add(z => z.BeatFadeScale, 5)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+
+            AddIcon(
+                z => z
+                   .Add(
+                        x => x.Icon,
+                        FaSolid.Bank
+                               .Flip(
+                                    1,
+                                    2,
+                                    3,
+                                    "10deg",
+                                    "9s",
+                                    "alternate-reverse",
+                                    "10s",
+                                    "11",
+                                    "ease-in-out"
+                                )
+                    )
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                     )
+                    .Add(z => z.FlipX, 1)
+                    .Add(z => z.FlipY, 2)
+                    .Add(z => z.FlipZ, 3)
+                    .Add(z => z.FlipAngle, "10deg")
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                                .Flip(
+                                     10,
+                                     10,
+                                     10,
+                                     "11deg",
+                                     "10s",
+                                     "reverse",
+                                     "11s",
+                                     "10",
+                                     "ease-in"
+                                 )
+                     )
+                    .Add(z => z.FlipX, 1)
+                    .Add(z => z.FlipY, 2)
+                    .Add(z => z.FlipZ, 3)
+                    .Add(z => z.FlipAngle, "10deg")
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+
+            AddIcon(
+                z => z
+                   .Add(
+                        x => x.Icon,
+                        FaSolid.Bank
+                               .Shake(
+                                    "9s",
+                                    "alternate-reverse",
+                                    "10s",
+                                    "11",
+                                    "ease-in-out"
+                                )
+                    )
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                     )
+                    .Add(z => z.Shake, true)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                                .Shake(
+                                     "10s",
+                                     "reverse",
+                                     "11s",
+                                     "10",
+                                     "ease-in"
+                                 )
+                     )
+                    .Add(z => z.Shake, true)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+
+            AddIcon(
+                z => z
+                   .Add(
+                        x => x.Icon,
+                        FaSolid.Bank
+                               .Spin(
+                                    true,
+                                    "9s",
+                                    "alternate-reverse",
+                                    "10s",
+                                    "11",
+                                    "ease-in-out"
+                                )
+                    )
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                     )
+                    .Add(z => z.Spin, true)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                                .Spin(
+                                     true,
+                                     "10s",
+                                     "reverse",
+                                     "11s",
+                                     "10",
+                                     "ease-in"
+                                 )
+                     )
+                    .Add(z => z.Spin, true)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+
+            AddIcon(
+                z => z
+                   .Add(
+                        x => x.Icon,
+                        FaSolid.Bank
+                               .Spin(
+                                    false,
+                                    "9s",
+                                    "alternate-reverse",
+                                    "10s",
+                                    "11",
+                                    "ease-in-out"
+                                )
+                    )
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                     )
+                    .Add(z => z.Spin, false)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                                .Spin(
+                                     false,
+                                     "10s",
+                                     "reverse",
+                                     "11s",
+                                     "10",
+                                     "ease-in"
+                                 )
+                     )
+                    .Add(z => z.Spin, false)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+
+            AddIcon(
+                z => z
+                   .Add(
+                        x => x.Icon,
+                        FaSolid.Bank
+                               .SpinPulse(
+                                    true,
+                                    "9s",
+                                    "alternate-reverse",
+                                    "10s",
+                                    "11",
+                                    "ease-in-out"
+                                )
+                    )
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                     )
+                    .Add(z => z.SpinPulse, true)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                                .SpinPulse(
+                                     true,
+                                     "10s",
+                                     "reverse",
+                                     "11s",
+                                     "10",
+                                     "ease-in"
+                                 )
+                     )
+                    .Add(z => z.SpinPulse, true)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+
+            AddIcon(
+                z => z
+                   .Add(
+                        x => x.Icon,
+                        FaSolid.Bank
+                               .SpinPulse(
+                                    false,
+                                    "9s",
+                                    "alternate-reverse",
+                                    "10s",
+                                    "11",
+                                    "ease-in-out"
+                                )
+                    )
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                     )
+                    .Add(z => z.SpinPulse, false)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid.Bank
+                                .SpinPulse(
+                                     false,
+                                     "10s",
+                                     "reverse",
+                                     "11s",
+                                     "10",
+                                     "ease-in"
+                                 )
+                     )
+                    .Add(z => z.SpinPulse, false)
+                    .Add(z => z.AnimationDelay, "9s")
+                    .Add(z => z.AnimationDirection, "alternate-reverse")
+                    .Add(z => z.AnimationDuration, "10s")
+                    .Add(z => z.AnimationIterationCount, "11")
+                    .Add(z => z.AnimationTiming, "ease-in-out")
+            );
         }
     }
 

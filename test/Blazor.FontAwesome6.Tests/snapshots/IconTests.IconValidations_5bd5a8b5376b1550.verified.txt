@@ -1,1 +1,0 @@
-﻿<i class="fa-solid fa-building-columns fa-pull-right" style=";--fa-pull-margin: 98px"></i>

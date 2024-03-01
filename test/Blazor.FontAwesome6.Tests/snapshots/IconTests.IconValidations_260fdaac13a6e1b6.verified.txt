@@ -1,1 +1,0 @@
-﻿<i class="fa-solid fa-battery-full fa-fade" style=";--fa-animation-delay: 71s ;--fa-animation-direction: normal ;--fa-animation-duration: 76s ;--fa-animation-iteration-count: 59s ;--fa-animation-timing: ease-in"></i>

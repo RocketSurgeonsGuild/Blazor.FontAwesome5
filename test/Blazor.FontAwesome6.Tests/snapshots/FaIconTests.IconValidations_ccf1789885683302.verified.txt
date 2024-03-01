@@ -2,16 +2,7 @@
   Instance: {
     Icon: {
       Name: link
-    },
-    Beat: false,
-    BeatFade: false,
-    Bounce: false,
-    Spin: false,
-    Flip: false,
-    Shake: false,
-    SpinPulse: false,
-    Fade: false,
-    Reverse: false
+    }
   },
   NodeCount: 1
 }

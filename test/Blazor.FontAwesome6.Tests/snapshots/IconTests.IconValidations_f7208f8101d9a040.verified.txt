@@ -1,1 +1,0 @@
-﻿<i class="fa-solid fa-building-columns fa-border" style=";--fa-border-color: #2b2421 ;--fa-border-padding: 63px ;--fa-border-radius: 46px ;--fa-border-style: outset ;--fa-border-width: 14px"></i>

@@ -175,7 +175,6 @@ public class IconTests : LoggerTest
     {
         public IconTransformData()
         {
-            var bogus = new Faker { Random = new(3), };
             foreach (var size in Enum.GetValues<IconSize>().Distinct())
             {
                 AddIcon(FaSolid.Chain.Size(size), size);
@@ -186,13 +185,13 @@ public class IconTests : LoggerTest
             AddIcon(
                 FaSolid
                    .Barcode
-                   .Grow(bogus.Random.Double())
-                   .Shrink(bogus.Random.Double())
-                   .Up(bogus.Random.Double())
-                   .Left(bogus.Random.Double())
-                   .Down(bogus.Random.Double())
-                   .Right(bogus.Random.Double())
-                   .Rotate(bogus.Random.Double())
+                   .Grow(2)
+                   .Shrink(3)
+                   .Up(4)
+                   .Left(5)
+                   .Down(6)
+                   .Right(7)
+                   .Rotate(8)
             );
             AddIcon(FaSolid.Barcode.RotateLeft(100));
             AddIcon(FaSolid.Barcode.RotateRight(100));
@@ -208,33 +207,23 @@ public class IconTests : LoggerTest
     {
         public IconBorderAndPullData()
         {
-            var bogus = new Faker { Random = new(5), };
             AddIcon(
                 FaSolid.Bank
                        .Border(
                             true,
-                            bogus.Internet.Color(),
-                            bogus.Random.Number(100) + "px",
-                            bogus.Random.Number(100) + "px",
-                            bogus.PickRandom(
-                                "solid",
-                                "dotted",
-                                "dashed",
-                                "double",
-                                "groove",
-                                "ridge",
-                                "inset",
-                                "outset"
-                            ),
-                            bogus.Random.Number(100) + "px"
+                            "#FF0000",
+                            "6px",
+                            "8px",
+                            "solid",
+                            "100px"
                         )
             );
             foreach (var item in Enum.GetValues<IconPull>())
             {
-                AddIcon(FaSolid.Bank.Pull(item, bogus.Random.Number(100) + "px"), item);
+                AddIcon(FaSolid.Bank.Pull(item, "20px"), item);
             }
 
-            AddIcon(FaSolid.Bank.Pull(IconPull.Right).PullMargin(bogus.Random.Number(100) + "px"));
+            AddIcon(FaSolid.Bank.Pull(IconPull.Right).PullMargin("10px"));
             AddIcon(FaSolid.Bank.PullRight());
             AddIcon(FaSolid.Bank.PullLeft());
         }
@@ -255,24 +244,19 @@ public class IconTests : LoggerTest
 
     private class IconAnimationData : IconTheory
     {
-        private static readonly string[] AnimationDirections = ["normal", "reverse", "alternate", "alternate-reverse",];
-        private static readonly string[] AnimationTimingFunctions = ["ease", "ease-in", "ease-out", "ease-in-out", "linear", "step-start", "step-end",];
-
         public IconAnimationData()
         {
-            var bogus = new Faker { Random = new(6), };
-
             foreach (var item in Enum.GetValues<IconAnimation>().Concat(Enum.GetValues<IconAnimation>().Select(i => i | IconAnimation.Reverse)).Distinct())
             {
                 AddIcon(
                     FaSolid.Battery
                            .Animate(
                                 item,
-                                bogus.Random.Number(100) + "s",
-                                bogus.PickRandom(AnimationDirections),
-                                bogus.Random.Number(100) + "s",
-                                bogus.Random.Number(100) + "s",
-                                bogus.PickRandom(AnimationTimingFunctions)
+                                "3s",
+                                "alternate-reverse",
+                                "4s",
+                                "5s",
+                                "ease-in-out"
                             ),
                     item
                 );
@@ -282,112 +266,112 @@ public class IconTests : LoggerTest
                 FaSolid
                    .Battery
                    .Animate(IconAnimation.Beat)
-                   .AnimationDirection(bogus.PickRandom(AnimationDirections))
+                   .AnimationDirection("alternate-reverse")
             );
             AddIcon(
                 FaSolid
                    .Battery
                    .Animate(IconAnimation.Beat)
-                   .AnimationDuration(bogus.Random.Number(100) + "s")
+                   .AnimationDuration("2s")
             );
             AddIcon(
                 FaSolid
                    .Battery
                    .Animate(IconAnimation.Beat)
-                   .AnimationTiming(bogus.PickRandom(AnimationTimingFunctions))
+                   .AnimationTiming("ease-in-out")
             );
             AddIcon(
                 FaSolid
                    .Battery
                    .Animate(IconAnimation.Beat)
-                   .AnimationDelay(bogus.Random.Number(100) + "s")
+                   .AnimationDelay( "3s")
             );
             AddIcon(
                 FaSolid
                    .Battery
                    .Animate(IconAnimation.Beat)
-                   .AnimationIterationCount(bogus.Random.Number(100) + "s")
+                   .AnimationIterationCount("4s")
             );
 
             AddIcon(
                 FaSolid.Bank
                        .Bounce(
-                            bogus.Random.Double(0D, 100D),
-                            bogus.Random.Double(0D, 100D),
-                            bogus.Random.Double(0D, 100D),
-                            bogus.Random.Double(0D, 100D),
-                            bogus.Random.Double(0D, 100D),
-                            bogus.Random.Double(0D, 100D),
-                            bogus.Random.Double(0D, 100D),
-                            bogus.Random.Double(0D, 100D),
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationDirections),
-                            bogus.Random.Number(100) + "s",
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationTimingFunctions)
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            "9s",
+                            "alternate-reverse",
+                            "10s",
+                            "11",
+                            "ease-in-out"
                         )
             );
 
             AddIcon(
                 FaSolid.Bank
                        .Beat(
-                            bogus.Random.Double(0D, 100D),
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationDirections),
-                            bogus.Random.Number(100) + "s",
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationTimingFunctions)
+                            4,
+                            "9s",
+                            "alternate-reverse",
+                            "10s",
+                            "11",
+                            "ease-in-out"
                         )
             );
 
             AddIcon(
                 FaSolid.Bank
                        .Fade(
-                            bogus.Random.Double(0D, 100D),
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationDirections),
-                            bogus.Random.Number(100) + "s",
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationTimingFunctions)
+                            4,
+                            "9s",
+                            "alternate-reverse",
+                            "10s",
+                            "11",
+                            "ease-in-out"
                         )
             );
 
             AddIcon(
                 FaSolid.Bank
                        .BeatFade(
-                            bogus.Random.Double(0D, 100D),
-                            bogus.Random.Double(0D, 100D),
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationDirections),
-                            bogus.Random.Number(100) + "s",
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationTimingFunctions)
+                            4,
+                            5,
+                            "9s",
+                            "alternate-reverse",
+                            "10s",
+                            "11",
+                            "ease-in-out"
                         )
             );
 
             AddIcon(
                 FaSolid.Bank
                        .Flip(
-                            bogus.Random.Double(0D, 100D),
-                            bogus.Random.Double(0D, 100D),
-                            bogus.Random.Double(0D, 100D),
-                            bogus.Random.Number(360).ToString(),
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationDirections),
-                            bogus.Random.Number(100) + "s",
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationTimingFunctions)
+                            1,
+                            2,
+                            3,
+                            "10deg",
+                            "9s",
+                            "alternate-reverse",
+                            "10s",
+                            "11",
+                            "ease-in-out"
                         )
             );
 
             AddIcon(
                 FaSolid.Bank
                        .Shake(
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationDirections),
-                            bogus.Random.Number(100) + "s",
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationTimingFunctions)
+                            "9s",
+                            "alternate-reverse",
+                            "10s",
+                            "11",
+                            "ease-in-out"
                         )
             );
 
@@ -395,11 +379,11 @@ public class IconTests : LoggerTest
                 FaSolid.Bank
                        .Spin(
                             true,
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationDirections),
-                            bogus.Random.Number(100) + "s",
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationTimingFunctions)
+                            "9s",
+                            "alternate-reverse",
+                            "10s",
+                            "11",
+                            "ease-in-out"
                         )
             );
 
@@ -407,11 +391,11 @@ public class IconTests : LoggerTest
                 FaSolid.Bank
                        .Spin(
                             false,
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationDirections),
-                            bogus.Random.Number(100) + "s",
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationTimingFunctions)
+                            "9s",
+                            "alternate-reverse",
+                            "10s",
+                            "11",
+                            "ease-in-out"
                         )
             );
 
@@ -419,11 +403,11 @@ public class IconTests : LoggerTest
                 FaSolid.Bank
                        .SpinPulse(
                             true,
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationDirections),
-                            bogus.Random.Number(100) + "s",
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationTimingFunctions)
+                            "9s",
+                            "alternate-reverse",
+                            "10s",
+                            "11",
+                            "ease-in-out"
                         )
             );
 
@@ -431,11 +415,11 @@ public class IconTests : LoggerTest
                 FaSolid.Bank
                        .SpinPulse(
                             false,
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationDirections),
-                            bogus.Random.Number(100) + "s",
-                            bogus.Random.Number(100) + "s",
-                            bogus.PickRandom(AnimationTimingFunctions)
+                            "9s",
+                            "alternate-reverse",
+                            "10s",
+                            "11",
+                            "ease-in-out"
                         )
             );
         }

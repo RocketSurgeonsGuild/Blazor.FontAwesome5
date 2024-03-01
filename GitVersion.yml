@@ -1,17 +1,39 @@
-assembly-versioning-scheme: MajorMinorPatch
 mode: ContinuousDeployment
-continuous-delivery-fallback-tag: ci
-next-version: 0.1.0
 branches:
+  main:
+    label: beta
+    increment: Inherit
+    track-merge-target: false
+    regex: ^master$|^main$
+    source-branches:
+      - release
+    is-source-branch-for: []
+    tracks-release-branches: false
+    is-release-branch: false
+    pre-release-weight: 55000
+  pull-request:
+    mode: ContinuousDelivery
+    label: pr
+    increment: Inherit
+    label-number-pattern: '[/-](?<number>\d+)'
+    regex: ^(pull|pull\-requests|pr)[/-]
+    source-branches:
+      - main
+      - release
+      - feature
+    is-source-branch-for: []
+    pre-release-weight: 30000
   next:
     regex: ^next$
-    mode: ContinuousDeployment
-    tag: next
     increment: Major
-    prevent-increment-of-merged-branch-version: false
+    label: next
+    prevent-increment-of-merged-branch-version: true
     track-merge-target: false
     tracks-release-branches: false
     is-release-branch: false
-    source-branches: ['master']
+    source-branches: ['main']
+increment: Patch
+source-branches: []
+is-source-branch-for: []
 ignore:
   sha: []

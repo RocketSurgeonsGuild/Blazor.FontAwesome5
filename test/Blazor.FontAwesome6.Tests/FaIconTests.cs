@@ -207,6 +207,11 @@ public class FaIconTests : LoggerTest
                         .Add(x => x.Size, size),
                     size
                 );
+                AddIcon(
+                    z => z
+                        .Add(x => x.Icon, FaSolid.Chain.Size(bogus.PickRandom(Enum.GetValues<IconSize>().Except([size,]))))
+                        .Add(x => x.Size, size)
+                );
             }
 
             AddIcon(
@@ -217,11 +222,18 @@ public class FaIconTests : LoggerTest
                 z => z.Add(x => x.Icon, FaRegular.Chain).Add(x => x.FixedWidth, true)
             );
             AddIcon(
+                z => z.Add(x => x.Icon, FaRegular.Chain.FixedWidth()).Add(x => x.FixedWidth, false)
+            );
+
+            AddIcon(
                 z => z.Add(x => x.Icon, FaRegular.Chain.FixedWidth(false))
             );
 
             AddIcon(
                 z => z.Add(x => x.Icon, FaRegular.Chain).Add(x => x.FixedWidth, false)
+            );
+            AddIcon(
+                z => z.Add(x => x.Icon, FaRegular.Chain.FixedWidth(false)).Add(x => x.FixedWidth, true)
             );
             AddIcon(
                 z => z.Add(
@@ -240,6 +252,28 @@ public class FaIconTests : LoggerTest
             AddIcon(
                 z => z
                     .Add(x => x.Icon, FaSolid.Barcode)
+                    .Add(x => x.Grow, bogus.Random.Double())
+                    .Add(x => x.Shrink, bogus.Random.Double())
+                    .Add(x => x.Up, bogus.Random.Double())
+                    .Add(x => x.Left, bogus.Random.Double())
+                    .Add(x => x.Down, bogus.Random.Double())
+                    .Add(x => x.Right, bogus.Random.Double())
+                    .Add(x => x.Rotate, bogus.Random.Double())
+            );
+            AddIcon(
+                z => z
+                    .Add(
+                         x => x.Icon,
+                         FaSolid
+                            .Barcode
+                            .Grow(10)
+                            .Shrink(10)
+                            .Up(10)
+                            .Left(10)
+                            .Down(10)
+                            .Right(10)
+                            .Rotate(10)
+                     )
                     .Add(x => x.Grow, bogus.Random.Double())
                     .Add(x => x.Shrink, bogus.Random.Double())
                     .Add(x => x.Up, bogus.Random.Double())
@@ -287,6 +321,50 @@ public class FaIconTests : LoggerTest
             AddIcon(
                 z => z.Add(x => x.Icon, FaSolid.Barcode).Add(x => x.FlipTransform, IconFlip.Both)
             );
+        }
+    }
+
+
+    private class IconBorderAndPullData : IconTheory
+    {
+        public IconBorderAndPullData()
+        {
+            var bogus = new Faker { Random = new(5), };
+            AddIcon(
+                z => z.Add(
+                    x => x.Icon,
+                    FaSolid.Bank
+                           .Border(
+                                true,
+                                bogus.Internet.Color(),
+                                bogus.Random.Number(100) + "px",
+                                bogus.Random.Number(100) + "px",
+                                bogus.PickRandom(
+                                    "solid",
+                                    "dotted",
+                                    "dashed",
+                                    "double",
+                                    "groove",
+                                    "ridge",
+                                    "inset",
+                                    "outset"
+                                ),
+                                bogus.Random.Number(100) + "px"
+                            )
+                )
+            );
+            foreach (var item in Enum.GetValues<IconPull>())
+            {
+                AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank.Pull(item, bogus.Random.Number(100) + "px")), item);
+                AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank).Add(z => z.Pull, IconPull.Left).Add(z => z.PullMargin, bogus.Random.Number(100) + "px"), item);
+            }
+
+            AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank.Pull(IconPull.Right).PullMargin(bogus.Random.Number(100) + "px")));
+            AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank).Add(x => x.Pull, IconPull.Right).Add(x => x.PullMargin, bogus.Random.Number(100) + "px"));
+            AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank.PullRight()));
+            AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank).Add(x => x.Pull, IconPull.Right));
+            AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank.PullLeft()));
+            AddIcon(z => z.Add(x => x.Icon, FaSolid.Bank).Add(x => x.Pull, IconPull.Left));
         }
     }
 

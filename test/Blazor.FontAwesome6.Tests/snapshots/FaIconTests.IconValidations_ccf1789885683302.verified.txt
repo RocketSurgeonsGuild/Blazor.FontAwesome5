@@ -3,7 +3,6 @@
     Icon: {
       Name: link
     },
-    FixedWidth: false,
     Beat: false,
     BeatFade: false,
     Bounce: false,
@@ -12,10 +11,7 @@
     Shake: false,
     SpinPulse: false,
     Fade: false,
-    Reverse: false,
-    Border: false,
-    Inverse: false,
-    SwapOpacity: false
+    Reverse: false
   },
   NodeCount: 1
 }

@@ -8,887 +8,812 @@ public static partial class FaMoney
 {
    /// <summary>
    /// Austral Sign
-   /// <see url="https://fontawesome.com/icons/austral-sign" />
+   /// <a href="https://fontawesome.com/icons/austral-sign">Austral Sign</a>
    /// </summary>
    public static partial class AustralSignIcon
    {
        /// <summary>
-       /// Austral Sign
-       /// <see url="https://fontawesome.com/icons/austral-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/austral-sign?f=classic&amp;s=solid">Austral Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.AustralSign;
    }
    /// <summary>
    /// Baht Sign
-   /// <see url="https://fontawesome.com/icons/baht-sign" />
+   /// <a href="https://fontawesome.com/icons/baht-sign">Baht Sign</a>
    /// </summary>
    public static partial class BahtSignIcon
    {
        /// <summary>
-       /// Baht Sign
-       /// <see url="https://fontawesome.com/icons/baht-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/baht-sign?f=classic&amp;s=solid">Baht Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BahtSign;
    }
    /// <summary>
    /// Bangladeshi Taka Sign
-   /// <see url="https://fontawesome.com/icons/bangladeshi-taka-sign" />
+   /// <a href="https://fontawesome.com/icons/bangladeshi-taka-sign">Bangladeshi Taka Sign</a>
    /// </summary>
    public static partial class BangladeshiTakaSignIcon
    {
        /// <summary>
-       /// Bangladeshi Taka Sign
-       /// <see url="https://fontawesome.com/icons/bangladeshi-taka-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/bangladeshi-taka-sign?f=classic&amp;s=solid">Bangladeshi Taka Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BangladeshiTakaSign;
    }
    /// <summary>
    /// Bitcoin
-   /// <see url="https://fontawesome.com/icons/bitcoin" />
+   /// <a href="https://fontawesome.com/icons/bitcoin">Bitcoin</a>
    /// </summary>
    public static partial class BitcoinIcon
    {
        /// <summary>
-       /// Bitcoin
-       /// <see url="https://fontawesome.com/icons/bitcoin?f=classic&s=brands" />
+       /// <a href="https://fontawesome.com/icons/bitcoin?f=classic&amp;s=brands">Bitcoin</a>
        /// </summary>
        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.Bitcoin;
    }
    /// <summary>
    /// Bitcoin Sign
-   /// <see url="https://fontawesome.com/icons/bitcoin-sign" />
+   /// <a href="https://fontawesome.com/icons/bitcoin-sign">Bitcoin Sign</a>
    /// </summary>
    public static partial class BitcoinSignIcon
    {
        /// <summary>
-       /// Bitcoin Sign
-       /// <see url="https://fontawesome.com/icons/bitcoin-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/bitcoin-sign?f=classic&amp;s=solid">Bitcoin Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BitcoinSign;
    }
    /// <summary>
    /// Brazilian Real Sign
-   /// <see url="https://fontawesome.com/icons/brazilian-real-sign" />
+   /// <a href="https://fontawesome.com/icons/brazilian-real-sign">Brazilian Real Sign</a>
    /// </summary>
    public static partial class BrazilianRealSignIcon
    {
        /// <summary>
-       /// Brazilian Real Sign
-       /// <see url="https://fontawesome.com/icons/brazilian-real-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/brazilian-real-sign?f=classic&amp;s=solid">Brazilian Real Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BrazilianRealSign;
    }
    /// <summary>
    /// BTC
-   /// <see url="https://fontawesome.com/icons/btc" />
+   /// <a href="https://fontawesome.com/icons/btc">BTC</a>
    /// </summary>
    public static partial class BtcIcon
    {
        /// <summary>
-       /// BTC
-       /// <see url="https://fontawesome.com/icons/btc?f=classic&s=brands" />
+       /// <a href="https://fontawesome.com/icons/btc?f=classic&amp;s=brands">BTC</a>
        /// </summary>
        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.Btc;
    }
    /// <summary>
    /// Cash Register
-   /// <see url="https://fontawesome.com/icons/cash-register" />
+   /// <a href="https://fontawesome.com/icons/cash-register">Cash Register</a>
    /// </summary>
    public static partial class CashRegisterIcon
    {
        /// <summary>
-       /// Cash Register
-       /// <see url="https://fontawesome.com/icons/cash-register?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cash-register?f=classic&amp;s=solid">Cash Register</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CashRegister;
    }
    /// <summary>
    /// Cedi Sign
-   /// <see url="https://fontawesome.com/icons/cedi-sign" />
+   /// <a href="https://fontawesome.com/icons/cedi-sign">Cedi Sign</a>
    /// </summary>
    public static partial class CediSignIcon
    {
        /// <summary>
-       /// Cedi Sign
-       /// <see url="https://fontawesome.com/icons/cedi-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cedi-sign?f=classic&amp;s=solid">Cedi Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CediSign;
    }
    /// <summary>
    /// Cent Sign
-   /// <see url="https://fontawesome.com/icons/cent-sign" />
+   /// <a href="https://fontawesome.com/icons/cent-sign">Cent Sign</a>
    /// </summary>
    public static partial class CentSignIcon
    {
        /// <summary>
-       /// Cent Sign
-       /// <see url="https://fontawesome.com/icons/cent-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cent-sign?f=classic&amp;s=solid">Cent Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CentSign;
    }
    /// <summary>
    /// Chart Line
-   /// <see url="https://fontawesome.com/icons/chart-line" />
+   /// <a href="https://fontawesome.com/icons/chart-line">Chart Line</a>
    /// </summary>
    public static partial class ChartLineIcon
    {
        /// <summary>
-       /// Chart Line
-       /// <see url="https://fontawesome.com/icons/chart-line?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/chart-line?f=classic&amp;s=solid">Chart Line</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ChartLine;
    }
    /// <summary>
    /// Chart Pie
-   /// <see url="https://fontawesome.com/icons/chart-pie" />
+   /// <a href="https://fontawesome.com/icons/chart-pie">Chart Pie</a>
    /// </summary>
    public static partial class ChartPieIcon
    {
        /// <summary>
-       /// Chart Pie
-       /// <see url="https://fontawesome.com/icons/chart-pie?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/chart-pie?f=classic&amp;s=solid">Chart Pie</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ChartPie;
    }
    /// <summary>
    /// Circle Dollar To Slot
-   /// <see url="https://fontawesome.com/icons/circle-dollar-to-slot" />
+   /// <a href="https://fontawesome.com/icons/circle-dollar-to-slot">Circle Dollar To Slot</a>
    /// </summary>
    public static partial class CircleDollarToSlotIcon
    {
        /// <summary>
-       /// Circle Dollar To Slot
-       /// <see url="https://fontawesome.com/icons/circle-dollar-to-slot?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/circle-dollar-to-slot?f=classic&amp;s=solid">Circle Dollar To Slot</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleDollarToSlot;
    }
    /// <summary>
    /// Coins
-   /// <see url="https://fontawesome.com/icons/coins" />
+   /// <a href="https://fontawesome.com/icons/coins">Coins</a>
    /// </summary>
    public static partial class CoinsIcon
    {
        /// <summary>
-       /// Coins
-       /// <see url="https://fontawesome.com/icons/coins?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/coins?f=classic&amp;s=solid">Coins</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Coins;
    }
    /// <summary>
    /// Colon Sign
-   /// <see url="https://fontawesome.com/icons/colon-sign" />
+   /// <a href="https://fontawesome.com/icons/colon-sign">Colon Sign</a>
    /// </summary>
    public static partial class ColonSignIcon
    {
        /// <summary>
-       /// Colon Sign
-       /// <see url="https://fontawesome.com/icons/colon-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/colon-sign?f=classic&amp;s=solid">Colon Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ColonSign;
    }
    /// <summary>
    /// Comment Dollar
-   /// <see url="https://fontawesome.com/icons/comment-dollar" />
+   /// <a href="https://fontawesome.com/icons/comment-dollar">Comment Dollar</a>
    /// </summary>
    public static partial class CommentDollarIcon
    {
        /// <summary>
-       /// Comment Dollar
-       /// <see url="https://fontawesome.com/icons/comment-dollar?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/comment-dollar?f=classic&amp;s=solid">Comment Dollar</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CommentDollar;
    }
    /// <summary>
    /// Comments Dollar
-   /// <see url="https://fontawesome.com/icons/comments-dollar" />
+   /// <a href="https://fontawesome.com/icons/comments-dollar">Comments Dollar</a>
    /// </summary>
    public static partial class CommentsDollarIcon
    {
        /// <summary>
-       /// Comments Dollar
-       /// <see url="https://fontawesome.com/icons/comments-dollar?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/comments-dollar?f=classic&amp;s=solid">Comments Dollar</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CommentsDollar;
    }
    /// <summary>
    /// Credit Card
-   /// <see url="https://fontawesome.com/icons/credit-card" />
+   /// <a href="https://fontawesome.com/icons/credit-card">Credit Card</a>
    /// </summary>
    public static partial class CreditCardIcon
    {
        /// <summary>
-       /// Credit Card
-       /// <see url="https://fontawesome.com/icons/credit-card?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/credit-card?f=classic&amp;s=regular">Credit Card</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CreditCard;
        /// <summary>
-       /// Credit Card
-       /// <see url="https://fontawesome.com/icons/credit-card?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/credit-card?f=classic&amp;s=solid">Credit Card</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CreditCard;
    }
    /// <summary>
    /// Cruzeiro Sign
-   /// <see url="https://fontawesome.com/icons/cruzeiro-sign" />
+   /// <a href="https://fontawesome.com/icons/cruzeiro-sign">Cruzeiro Sign</a>
    /// </summary>
    public static partial class CruzeiroSignIcon
    {
        /// <summary>
-       /// Cruzeiro Sign
-       /// <see url="https://fontawesome.com/icons/cruzeiro-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cruzeiro-sign?f=classic&amp;s=solid">Cruzeiro Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CruzeiroSign;
    }
    /// <summary>
    /// Dollar Sign
-   /// <see url="https://fontawesome.com/icons/dollar-sign" />
+   /// <a href="https://fontawesome.com/icons/dollar-sign">Dollar Sign</a>
    /// </summary>
    public static partial class DollarSignIcon
    {
        /// <summary>
-       /// Dollar Sign
-       /// <see url="https://fontawesome.com/icons/dollar-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/dollar-sign?f=classic&amp;s=solid">Dollar Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.DollarSign;
    }
    /// <summary>
    /// Dong Sign
-   /// <see url="https://fontawesome.com/icons/dong-sign" />
+   /// <a href="https://fontawesome.com/icons/dong-sign">Dong Sign</a>
    /// </summary>
    public static partial class DongSignIcon
    {
        /// <summary>
-       /// Dong Sign
-       /// <see url="https://fontawesome.com/icons/dong-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/dong-sign?f=classic&amp;s=solid">Dong Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.DongSign;
    }
    /// <summary>
    /// Ethereum
-   /// <see url="https://fontawesome.com/icons/ethereum" />
+   /// <a href="https://fontawesome.com/icons/ethereum">Ethereum</a>
    /// </summary>
    public static partial class EthereumIcon
    {
        /// <summary>
-       /// Ethereum
-       /// <see url="https://fontawesome.com/icons/ethereum?f=classic&s=brands" />
+       /// <a href="https://fontawesome.com/icons/ethereum?f=classic&amp;s=brands">Ethereum</a>
        /// </summary>
        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.Ethereum;
    }
    /// <summary>
    /// Euro Sign
-   /// <see url="https://fontawesome.com/icons/euro-sign" />
+   /// <a href="https://fontawesome.com/icons/euro-sign">Euro Sign</a>
    /// </summary>
    public static partial class EuroSignIcon
    {
        /// <summary>
-       /// Euro Sign
-       /// <see url="https://fontawesome.com/icons/euro-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/euro-sign?f=classic&amp;s=solid">Euro Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.EuroSign;
    }
    /// <summary>
    /// File Invoice
-   /// <see url="https://fontawesome.com/icons/file-invoice" />
+   /// <a href="https://fontawesome.com/icons/file-invoice">File Invoice</a>
    /// </summary>
    public static partial class FileInvoiceIcon
    {
        /// <summary>
-       /// File Invoice
-       /// <see url="https://fontawesome.com/icons/file-invoice?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/file-invoice?f=classic&amp;s=solid">File Invoice</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileInvoice;
    }
    /// <summary>
    /// File Invoice Dollar
-   /// <see url="https://fontawesome.com/icons/file-invoice-dollar" />
+   /// <a href="https://fontawesome.com/icons/file-invoice-dollar">File Invoice Dollar</a>
    /// </summary>
    public static partial class FileInvoiceDollarIcon
    {
        /// <summary>
-       /// File Invoice Dollar
-       /// <see url="https://fontawesome.com/icons/file-invoice-dollar?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/file-invoice-dollar?f=classic&amp;s=solid">File Invoice Dollar</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileInvoiceDollar;
    }
    /// <summary>
    /// Florin Sign
-   /// <see url="https://fontawesome.com/icons/florin-sign" />
+   /// <a href="https://fontawesome.com/icons/florin-sign">Florin Sign</a>
    /// </summary>
    public static partial class FlorinSignIcon
    {
        /// <summary>
-       /// Florin Sign
-       /// <see url="https://fontawesome.com/icons/florin-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/florin-sign?f=classic&amp;s=solid">Florin Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FlorinSign;
    }
    /// <summary>
    /// Franc Sign
-   /// <see url="https://fontawesome.com/icons/franc-sign" />
+   /// <a href="https://fontawesome.com/icons/franc-sign">Franc Sign</a>
    /// </summary>
    public static partial class FrancSignIcon
    {
        /// <summary>
-       /// Franc Sign
-       /// <see url="https://fontawesome.com/icons/franc-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/franc-sign?f=classic&amp;s=solid">Franc Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FrancSign;
    }
    /// <summary>
    /// GG Currency
-   /// <see url="https://fontawesome.com/icons/gg" />
+   /// <a href="https://fontawesome.com/icons/gg">GG Currency</a>
    /// </summary>
    public static partial class GgIcon
    {
        /// <summary>
-       /// GG Currency
-       /// <see url="https://fontawesome.com/icons/gg?f=classic&s=brands" />
+       /// <a href="https://fontawesome.com/icons/gg?f=classic&amp;s=brands">GG Currency</a>
        /// </summary>
        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.Gg;
    }
    /// <summary>
    /// GG Currency Circle
-   /// <see url="https://fontawesome.com/icons/gg-circle" />
+   /// <a href="https://fontawesome.com/icons/gg-circle">GG Currency Circle</a>
    /// </summary>
    public static partial class GgCircleIcon
    {
        /// <summary>
-       /// GG Currency Circle
-       /// <see url="https://fontawesome.com/icons/gg-circle?f=classic&s=brands" />
+       /// <a href="https://fontawesome.com/icons/gg-circle?f=classic&amp;s=brands">GG Currency Circle</a>
        /// </summary>
        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.GgCircle;
    }
    /// <summary>
    /// Guarani Sign
-   /// <see url="https://fontawesome.com/icons/guarani-sign" />
+   /// <a href="https://fontawesome.com/icons/guarani-sign">Guarani Sign</a>
    /// </summary>
    public static partial class GuaraniSignIcon
    {
        /// <summary>
-       /// Guarani Sign
-       /// <see url="https://fontawesome.com/icons/guarani-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/guarani-sign?f=classic&amp;s=solid">Guarani Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.GuaraniSign;
    }
    /// <summary>
    /// Hand Holding Dollar
-   /// <see url="https://fontawesome.com/icons/hand-holding-dollar" />
+   /// <a href="https://fontawesome.com/icons/hand-holding-dollar">Hand Holding Dollar</a>
    /// </summary>
    public static partial class HandHoldingDollarIcon
    {
        /// <summary>
-       /// Hand Holding Dollar
-       /// <see url="https://fontawesome.com/icons/hand-holding-dollar?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/hand-holding-dollar?f=classic&amp;s=solid">Hand Holding Dollar</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HandHoldingDollar;
    }
    /// <summary>
    /// Hryvnia Sign
-   /// <see url="https://fontawesome.com/icons/hryvnia-sign" />
+   /// <a href="https://fontawesome.com/icons/hryvnia-sign">Hryvnia Sign</a>
    /// </summary>
    public static partial class HryvniaSignIcon
    {
        /// <summary>
-       /// Hryvnia Sign
-       /// <see url="https://fontawesome.com/icons/hryvnia-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/hryvnia-sign?f=classic&amp;s=solid">Hryvnia Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HryvniaSign;
    }
    /// <summary>
    /// Indian Rupee Sign
-   /// <see url="https://fontawesome.com/icons/indian-rupee-sign" />
+   /// <a href="https://fontawesome.com/icons/indian-rupee-sign">Indian Rupee Sign</a>
    /// </summary>
    public static partial class IndianRupeeSignIcon
    {
        /// <summary>
-       /// Indian Rupee Sign
-       /// <see url="https://fontawesome.com/icons/indian-rupee-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/indian-rupee-sign?f=classic&amp;s=solid">Indian Rupee Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.IndianRupeeSign;
    }
    /// <summary>
    /// Kip Sign
-   /// <see url="https://fontawesome.com/icons/kip-sign" />
+   /// <a href="https://fontawesome.com/icons/kip-sign">Kip Sign</a>
    /// </summary>
    public static partial class KipSignIcon
    {
        /// <summary>
-       /// Kip Sign
-       /// <see url="https://fontawesome.com/icons/kip-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/kip-sign?f=classic&amp;s=solid">Kip Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.KipSign;
    }
    /// <summary>
    /// Landmark
-   /// <see url="https://fontawesome.com/icons/landmark" />
+   /// <a href="https://fontawesome.com/icons/landmark">Landmark</a>
    /// </summary>
    public static partial class LandmarkIcon
    {
        /// <summary>
-       /// Landmark
-       /// <see url="https://fontawesome.com/icons/landmark?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/landmark?f=classic&amp;s=solid">Landmark</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Landmark;
    }
    /// <summary>
    /// Lari Sign
-   /// <see url="https://fontawesome.com/icons/lari-sign" />
+   /// <a href="https://fontawesome.com/icons/lari-sign">Lari Sign</a>
    /// </summary>
    public static partial class LariSignIcon
    {
        /// <summary>
-       /// Lari Sign
-       /// <see url="https://fontawesome.com/icons/lari-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/lari-sign?f=classic&amp;s=solid">Lari Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.LariSign;
    }
    /// <summary>
    /// Lira Sign
-   /// <see url="https://fontawesome.com/icons/lira-sign" />
+   /// <a href="https://fontawesome.com/icons/lira-sign">Lira Sign</a>
    /// </summary>
    public static partial class LiraSignIcon
    {
        /// <summary>
-       /// Lira Sign
-       /// <see url="https://fontawesome.com/icons/lira-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/lira-sign?f=classic&amp;s=solid">Lira Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.LiraSign;
    }
    /// <summary>
    /// Litecoin Sign
-   /// <see url="https://fontawesome.com/icons/litecoin-sign" />
+   /// <a href="https://fontawesome.com/icons/litecoin-sign">Litecoin Sign</a>
    /// </summary>
    public static partial class LitecoinSignIcon
    {
        /// <summary>
-       /// Litecoin Sign
-       /// <see url="https://fontawesome.com/icons/litecoin-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/litecoin-sign?f=classic&amp;s=solid">Litecoin Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.LitecoinSign;
    }
    /// <summary>
    /// Manat Sign
-   /// <see url="https://fontawesome.com/icons/manat-sign" />
+   /// <a href="https://fontawesome.com/icons/manat-sign">Manat Sign</a>
    /// </summary>
    public static partial class ManatSignIcon
    {
        /// <summary>
-       /// Manat Sign
-       /// <see url="https://fontawesome.com/icons/manat-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/manat-sign?f=classic&amp;s=solid">Manat Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ManatSign;
    }
    /// <summary>
    /// Mill Sign
-   /// <see url="https://fontawesome.com/icons/mill-sign" />
+   /// <a href="https://fontawesome.com/icons/mill-sign">Mill Sign</a>
    /// </summary>
    public static partial class MillSignIcon
    {
        /// <summary>
-       /// Mill Sign
-       /// <see url="https://fontawesome.com/icons/mill-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/mill-sign?f=classic&amp;s=solid">Mill Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MillSign;
    }
    /// <summary>
    /// Money Bill
-   /// <see url="https://fontawesome.com/icons/money-bill" />
+   /// <a href="https://fontawesome.com/icons/money-bill">Money Bill</a>
    /// </summary>
    public static partial class MoneyBillIcon
    {
        /// <summary>
-       /// Money Bill
-       /// <see url="https://fontawesome.com/icons/money-bill?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/money-bill?f=classic&amp;s=solid">Money Bill</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MoneyBill;
    }
    /// <summary>
    /// Money Bill 1
-   /// <see url="https://fontawesome.com/icons/money-bill-1" />
+   /// <a href="https://fontawesome.com/icons/money-bill-1">Money Bill 1</a>
    /// </summary>
    public static partial class MoneyBill1Icon
    {
        /// <summary>
-       /// Money Bill 1
-       /// <see url="https://fontawesome.com/icons/money-bill-1?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=regular">Money Bill 1</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.MoneyBill1;
        /// <summary>
-       /// Money Bill 1
-       /// <see url="https://fontawesome.com/icons/money-bill-1?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=solid">Money Bill 1</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MoneyBill1;
    }
    /// <summary>
    /// Money Bill 1 Wave
-   /// <see url="https://fontawesome.com/icons/money-bill-1-wave" />
+   /// <a href="https://fontawesome.com/icons/money-bill-1-wave">Money Bill 1 Wave</a>
    /// </summary>
    public static partial class MoneyBill1WaveIcon
    {
        /// <summary>
-       /// Money Bill 1 Wave
-       /// <see url="https://fontawesome.com/icons/money-bill-1-wave?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/money-bill-1-wave?f=classic&amp;s=solid">Money Bill 1 Wave</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MoneyBill1Wave;
    }
    /// <summary>
    /// Money Bill Transfer
-   /// <see url="https://fontawesome.com/icons/money-bill-transfer" />
+   /// <a href="https://fontawesome.com/icons/money-bill-transfer">Money Bill Transfer</a>
    /// </summary>
    public static partial class MoneyBillTransferIcon
    {
        /// <summary>
-       /// Money Bill Transfer
-       /// <see url="https://fontawesome.com/icons/money-bill-transfer?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/money-bill-transfer?f=classic&amp;s=solid">Money Bill Transfer</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MoneyBillTransfer;
    }
    /// <summary>
    /// Money Bill Trend Up
-   /// <see url="https://fontawesome.com/icons/money-bill-trend-up" />
+   /// <a href="https://fontawesome.com/icons/money-bill-trend-up">Money Bill Trend Up</a>
    /// </summary>
    public static partial class MoneyBillTrendUpIcon
    {
        /// <summary>
-       /// Money Bill Trend Up
-       /// <see url="https://fontawesome.com/icons/money-bill-trend-up?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/money-bill-trend-up?f=classic&amp;s=solid">Money Bill Trend Up</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MoneyBillTrendUp;
    }
    /// <summary>
    /// Money Bill Wave
-   /// <see url="https://fontawesome.com/icons/money-bill-wave" />
+   /// <a href="https://fontawesome.com/icons/money-bill-wave">Money Bill Wave</a>
    /// </summary>
    public static partial class MoneyBillWaveIcon
    {
        /// <summary>
-       /// Money Bill Wave
-       /// <see url="https://fontawesome.com/icons/money-bill-wave?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/money-bill-wave?f=classic&amp;s=solid">Money Bill Wave</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MoneyBillWave;
    }
    /// <summary>
    /// Money Bill Wheat
-   /// <see url="https://fontawesome.com/icons/money-bill-wheat" />
+   /// <a href="https://fontawesome.com/icons/money-bill-wheat">Money Bill Wheat</a>
    /// </summary>
    public static partial class MoneyBillWheatIcon
    {
        /// <summary>
-       /// Money Bill Wheat
-       /// <see url="https://fontawesome.com/icons/money-bill-wheat?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/money-bill-wheat?f=classic&amp;s=solid">Money Bill Wheat</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MoneyBillWheat;
    }
    /// <summary>
    /// Money Bills
-   /// <see url="https://fontawesome.com/icons/money-bills" />
+   /// <a href="https://fontawesome.com/icons/money-bills">Money Bills</a>
    /// </summary>
    public static partial class MoneyBillsIcon
    {
        /// <summary>
-       /// Money Bills
-       /// <see url="https://fontawesome.com/icons/money-bills?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/money-bills?f=classic&amp;s=solid">Money Bills</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MoneyBills;
    }
    /// <summary>
    /// Money Check
-   /// <see url="https://fontawesome.com/icons/money-check" />
+   /// <a href="https://fontawesome.com/icons/money-check">Money Check</a>
    /// </summary>
    public static partial class MoneyCheckIcon
    {
        /// <summary>
-       /// Money Check
-       /// <see url="https://fontawesome.com/icons/money-check?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/money-check?f=classic&amp;s=solid">Money Check</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MoneyCheck;
    }
    /// <summary>
    /// Money Check Dollar
-   /// <see url="https://fontawesome.com/icons/money-check-dollar" />
+   /// <a href="https://fontawesome.com/icons/money-check-dollar">Money Check Dollar</a>
    /// </summary>
    public static partial class MoneyCheckDollarIcon
    {
        /// <summary>
-       /// Money Check Dollar
-       /// <see url="https://fontawesome.com/icons/money-check-dollar?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/money-check-dollar?f=classic&amp;s=solid">Money Check Dollar</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MoneyCheckDollar;
    }
    /// <summary>
    /// Naira Sign
-   /// <see url="https://fontawesome.com/icons/naira-sign" />
+   /// <a href="https://fontawesome.com/icons/naira-sign">Naira Sign</a>
    /// </summary>
    public static partial class NairaSignIcon
    {
        /// <summary>
-       /// Naira Sign
-       /// <see url="https://fontawesome.com/icons/naira-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/naira-sign?f=classic&amp;s=solid">Naira Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.NairaSign;
    }
    /// <summary>
    /// Percent
-   /// <see url="https://fontawesome.com/icons/percent" />
+   /// <a href="https://fontawesome.com/icons/percent">Percent</a>
    /// </summary>
    public static partial class PercentIcon
    {
        /// <summary>
-       /// Percent
-       /// <see url="https://fontawesome.com/icons/percent?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/percent?f=classic&amp;s=solid">Percent</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Percent;
    }
    /// <summary>
    /// Peseta Sign
-   /// <see url="https://fontawesome.com/icons/peseta-sign" />
+   /// <a href="https://fontawesome.com/icons/peseta-sign">Peseta Sign</a>
    /// </summary>
    public static partial class PesetaSignIcon
    {
        /// <summary>
-       /// Peseta Sign
-       /// <see url="https://fontawesome.com/icons/peseta-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/peseta-sign?f=classic&amp;s=solid">Peseta Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PesetaSign;
    }
    /// <summary>
    /// Peso Sign
-   /// <see url="https://fontawesome.com/icons/peso-sign" />
+   /// <a href="https://fontawesome.com/icons/peso-sign">Peso Sign</a>
    /// </summary>
    public static partial class PesoSignIcon
    {
        /// <summary>
-       /// Peso Sign
-       /// <see url="https://fontawesome.com/icons/peso-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/peso-sign?f=classic&amp;s=solid">Peso Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PesoSign;
    }
    /// <summary>
    /// Piggy Bank
-   /// <see url="https://fontawesome.com/icons/piggy-bank" />
+   /// <a href="https://fontawesome.com/icons/piggy-bank">Piggy Bank</a>
    /// </summary>
    public static partial class PiggyBankIcon
    {
        /// <summary>
-       /// Piggy Bank
-       /// <see url="https://fontawesome.com/icons/piggy-bank?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/piggy-bank?f=classic&amp;s=solid">Piggy Bank</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PiggyBank;
    }
    /// <summary>
    /// Receipt
-   /// <see url="https://fontawesome.com/icons/receipt" />
+   /// <a href="https://fontawesome.com/icons/receipt">Receipt</a>
    /// </summary>
    public static partial class ReceiptIcon
    {
        /// <summary>
-       /// Receipt
-       /// <see url="https://fontawesome.com/icons/receipt?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/receipt?f=classic&amp;s=solid">Receipt</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Receipt;
    }
    /// <summary>
    /// Ruble Sign
-   /// <see url="https://fontawesome.com/icons/ruble-sign" />
+   /// <a href="https://fontawesome.com/icons/ruble-sign">Ruble Sign</a>
    /// </summary>
    public static partial class RubleSignIcon
    {
        /// <summary>
-       /// Ruble Sign
-       /// <see url="https://fontawesome.com/icons/ruble-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/ruble-sign?f=classic&amp;s=solid">Ruble Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.RubleSign;
    }
    /// <summary>
    /// Rupee Sign
-   /// <see url="https://fontawesome.com/icons/rupee-sign" />
+   /// <a href="https://fontawesome.com/icons/rupee-sign">Rupee Sign</a>
    /// </summary>
    public static partial class RupeeSignIcon
    {
        /// <summary>
-       /// Rupee Sign
-       /// <see url="https://fontawesome.com/icons/rupee-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/rupee-sign?f=classic&amp;s=solid">Rupee Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.RupeeSign;
    }
    /// <summary>
    /// Rupiah Sign
-   /// <see url="https://fontawesome.com/icons/rupiah-sign" />
+   /// <a href="https://fontawesome.com/icons/rupiah-sign">Rupiah Sign</a>
    /// </summary>
    public static partial class RupiahSignIcon
    {
        /// <summary>
-       /// Rupiah Sign
-       /// <see url="https://fontawesome.com/icons/rupiah-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/rupiah-sign?f=classic&amp;s=solid">Rupiah Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.RupiahSign;
    }
    /// <summary>
    /// Sack Dollar
-   /// <see url="https://fontawesome.com/icons/sack-dollar" />
+   /// <a href="https://fontawesome.com/icons/sack-dollar">Sack Dollar</a>
    /// </summary>
    public static partial class SackDollarIcon
    {
        /// <summary>
-       /// Sack Dollar
-       /// <see url="https://fontawesome.com/icons/sack-dollar?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/sack-dollar?f=classic&amp;s=solid">Sack Dollar</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SackDollar;
    }
    /// <summary>
    /// Sack Xmark
-   /// <see url="https://fontawesome.com/icons/sack-xmark" />
+   /// <a href="https://fontawesome.com/icons/sack-xmark">Sack Xmark</a>
    /// </summary>
    public static partial class SackXmarkIcon
    {
        /// <summary>
-       /// Sack Xmark
-       /// <see url="https://fontawesome.com/icons/sack-xmark?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/sack-xmark?f=classic&amp;s=solid">Sack Xmark</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SackXmark;
    }
    /// <summary>
    /// Scale Balanced
-   /// <see url="https://fontawesome.com/icons/scale-balanced" />
+   /// <a href="https://fontawesome.com/icons/scale-balanced">Scale Balanced</a>
    /// </summary>
    public static partial class ScaleBalancedIcon
    {
        /// <summary>
-       /// Scale Balanced
-       /// <see url="https://fontawesome.com/icons/scale-balanced?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/scale-balanced?f=classic&amp;s=solid">Scale Balanced</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ScaleBalanced;
    }
    /// <summary>
    /// Scale Unbalanced
-   /// <see url="https://fontawesome.com/icons/scale-unbalanced" />
+   /// <a href="https://fontawesome.com/icons/scale-unbalanced">Scale Unbalanced</a>
    /// </summary>
    public static partial class ScaleUnbalancedIcon
    {
        /// <summary>
-       /// Scale Unbalanced
-       /// <see url="https://fontawesome.com/icons/scale-unbalanced?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/scale-unbalanced?f=classic&amp;s=solid">Scale Unbalanced</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ScaleUnbalanced;
    }
    /// <summary>
    /// Scale Unbalanced Flip
-   /// <see url="https://fontawesome.com/icons/scale-unbalanced-flip" />
+   /// <a href="https://fontawesome.com/icons/scale-unbalanced-flip">Scale Unbalanced Flip</a>
    /// </summary>
    public static partial class ScaleUnbalancedFlipIcon
    {
        /// <summary>
-       /// Scale Unbalanced Flip
-       /// <see url="https://fontawesome.com/icons/scale-unbalanced-flip?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/scale-unbalanced-flip?f=classic&amp;s=solid">Scale Unbalanced Flip</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ScaleUnbalancedFlip;
    }
    /// <summary>
    /// Shekel Sign
-   /// <see url="https://fontawesome.com/icons/shekel-sign" />
+   /// <a href="https://fontawesome.com/icons/shekel-sign">Shekel Sign</a>
    /// </summary>
    public static partial class ShekelSignIcon
    {
        /// <summary>
-       /// Shekel Sign
-       /// <see url="https://fontawesome.com/icons/shekel-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/shekel-sign?f=classic&amp;s=solid">Shekel Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ShekelSign;
    }
    /// <summary>
    /// Stamp
-   /// <see url="https://fontawesome.com/icons/stamp" />
+   /// <a href="https://fontawesome.com/icons/stamp">Stamp</a>
    /// </summary>
    public static partial class StampIcon
    {
        /// <summary>
-       /// Stamp
-       /// <see url="https://fontawesome.com/icons/stamp?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/stamp?f=classic&amp;s=solid">Stamp</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Stamp;
    }
    /// <summary>
    /// Sterling Sign
-   /// <see url="https://fontawesome.com/icons/sterling-sign" />
+   /// <a href="https://fontawesome.com/icons/sterling-sign">Sterling Sign</a>
    /// </summary>
    public static partial class SterlingSignIcon
    {
        /// <summary>
-       /// Sterling Sign
-       /// <see url="https://fontawesome.com/icons/sterling-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/sterling-sign?f=classic&amp;s=solid">Sterling Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SterlingSign;
    }
    /// <summary>
    /// Tenge Sign
-   /// <see url="https://fontawesome.com/icons/tenge-sign" />
+   /// <a href="https://fontawesome.com/icons/tenge-sign">Tenge Sign</a>
    /// </summary>
    public static partial class TengeSignIcon
    {
        /// <summary>
-       /// Tenge Sign
-       /// <see url="https://fontawesome.com/icons/tenge-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/tenge-sign?f=classic&amp;s=solid">Tenge Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TengeSign;
    }
    /// <summary>
    /// Turkish Lira Sign
-   /// <see url="https://fontawesome.com/icons/turkish-lira-sign" />
+   /// <a href="https://fontawesome.com/icons/turkish-lira-sign">Turkish Lira Sign</a>
    /// </summary>
    public static partial class TurkishLiraSignIcon
    {
        /// <summary>
-       /// Turkish Lira Sign
-       /// <see url="https://fontawesome.com/icons/turkish-lira-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/turkish-lira-sign?f=classic&amp;s=solid">Turkish Lira Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TurkishLiraSign;
    }
    /// <summary>
    /// Vault
-   /// <see url="https://fontawesome.com/icons/vault" />
+   /// <a href="https://fontawesome.com/icons/vault">Vault</a>
    /// </summary>
    public static partial class VaultIcon
    {
        /// <summary>
-       /// Vault
-       /// <see url="https://fontawesome.com/icons/vault?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/vault?f=classic&amp;s=solid">Vault</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Vault;
    }
    /// <summary>
    /// Wallet
-   /// <see url="https://fontawesome.com/icons/wallet" />
+   /// <a href="https://fontawesome.com/icons/wallet">Wallet</a>
    /// </summary>
    public static partial class WalletIcon
    {
        /// <summary>
-       /// Wallet
-       /// <see url="https://fontawesome.com/icons/wallet?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/wallet?f=classic&amp;s=solid">Wallet</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Wallet;
    }
    /// <summary>
    /// Won Sign
-   /// <see url="https://fontawesome.com/icons/won-sign" />
+   /// <a href="https://fontawesome.com/icons/won-sign">Won Sign</a>
    /// </summary>
    public static partial class WonSignIcon
    {
        /// <summary>
-       /// Won Sign
-       /// <see url="https://fontawesome.com/icons/won-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/won-sign?f=classic&amp;s=solid">Won Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.WonSign;
    }
    /// <summary>
    /// Yen Sign
-   /// <see url="https://fontawesome.com/icons/yen-sign" />
+   /// <a href="https://fontawesome.com/icons/yen-sign">Yen Sign</a>
    /// </summary>
    public static partial class YenSignIcon
    {
        /// <summary>
-       /// Yen Sign
-       /// <see url="https://fontawesome.com/icons/yen-sign?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/yen-sign?f=classic&amp;s=solid">Yen Sign</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.YenSign;
    }

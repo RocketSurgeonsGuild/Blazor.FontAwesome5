@@ -8,2190 +8,1811 @@ public static partial class FaConnectivity
 {
    /// <summary>
    /// Bluetooth
-   /// <see url="https://fontawesome.com/icons/bluetooth" />
+   /// <a href="https://fontawesome.com/icons/bluetooth">Bluetooth</a>
    /// </summary>
    public static partial class BluetoothIcon
    {
        /// <summary>
-       /// Bluetooth
-       /// <see url="https://fontawesome.com/icons/bluetooth?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/bluetooth?f=classic&amp;s=solid">Bluetooth</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Bluetooth;
        /// <summary>
-       /// Bluetooth
-       /// <see url="https://fontawesome.com/icons/bluetooth?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/bluetooth?f=classic&amp;s=regular">Bluetooth</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Bluetooth;
        /// <summary>
-       /// Bluetooth
-       /// <see url="https://fontawesome.com/icons/bluetooth?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/bluetooth?f=classic&amp;s=light">Bluetooth</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Bluetooth;
        /// <summary>
-       /// Bluetooth
-       /// <see url="https://fontawesome.com/icons/bluetooth?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/bluetooth?f=classic&amp;s=thin">Bluetooth</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Bluetooth;
        /// <summary>
-       /// Bluetooth
-       /// <see url="https://fontawesome.com/icons/bluetooth?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/bluetooth?f=classic&amp;s=duotone">Bluetooth</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.Bluetooth;
        /// <summary>
-       /// Bluetooth
-       /// <see url="https://fontawesome.com/icons/bluetooth?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/bluetooth?f=sharp&amp;s=solid">Bluetooth</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Bluetooth;
        /// <summary>
-       /// Bluetooth
-       /// <see url="https://fontawesome.com/icons/bluetooth?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/bluetooth?f=sharp&amp;s=regular">Bluetooth</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Bluetooth;
        /// <summary>
-       /// Bluetooth
-       /// <see url="https://fontawesome.com/icons/bluetooth?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/bluetooth?f=sharp&amp;s=light">Bluetooth</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Bluetooth;
        /// <summary>
-       /// Bluetooth
-       /// <see url="https://fontawesome.com/icons/bluetooth?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/bluetooth?f=sharp&amp;s=thin">Bluetooth</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Bluetooth;
        /// <summary>
-       /// Bluetooth
-       /// <see url="https://fontawesome.com/icons/bluetooth?f=classic&s=brands" />
+       /// <a href="https://fontawesome.com/icons/bluetooth?f=classic&amp;s=brands">Bluetooth</a>
        /// </summary>
        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaBrands.Bluetooth;
    }
    /// <summary>
    /// Circle Nodes
-   /// <see url="https://fontawesome.com/icons/circle-nodes" />
+   /// <a href="https://fontawesome.com/icons/circle-nodes">Circle Nodes</a>
    /// </summary>
    public static partial class CircleNodesIcon
    {
        /// <summary>
-       /// Circle Nodes
-       /// <see url="https://fontawesome.com/icons/circle-nodes?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/circle-nodes?f=classic&amp;s=solid">Circle Nodes</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.CircleNodes;
        /// <summary>
-       /// Circle Nodes
-       /// <see url="https://fontawesome.com/icons/circle-nodes?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/circle-nodes?f=classic&amp;s=regular">Circle Nodes</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CircleNodes;
        /// <summary>
-       /// Circle Nodes
-       /// <see url="https://fontawesome.com/icons/circle-nodes?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/circle-nodes?f=classic&amp;s=light">Circle Nodes</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CircleNodes;
        /// <summary>
-       /// Circle Nodes
-       /// <see url="https://fontawesome.com/icons/circle-nodes?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/circle-nodes?f=classic&amp;s=thin">Circle Nodes</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CircleNodes;
        /// <summary>
-       /// Circle Nodes
-       /// <see url="https://fontawesome.com/icons/circle-nodes?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/circle-nodes?f=classic&amp;s=duotone">Circle Nodes</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.CircleNodes;
        /// <summary>
-       /// Circle Nodes
-       /// <see url="https://fontawesome.com/icons/circle-nodes?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/circle-nodes?f=sharp&amp;s=solid">Circle Nodes</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.CircleNodes;
        /// <summary>
-       /// Circle Nodes
-       /// <see url="https://fontawesome.com/icons/circle-nodes?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/circle-nodes?f=sharp&amp;s=regular">Circle Nodes</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.CircleNodes;
        /// <summary>
-       /// Circle Nodes
-       /// <see url="https://fontawesome.com/icons/circle-nodes?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/circle-nodes?f=sharp&amp;s=light">Circle Nodes</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.CircleNodes;
        /// <summary>
-       /// Circle Nodes
-       /// <see url="https://fontawesome.com/icons/circle-nodes?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/circle-nodes?f=sharp&amp;s=thin">Circle Nodes</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CircleNodes;
    }
    /// <summary>
    /// Cloud
-   /// <see url="https://fontawesome.com/icons/cloud" />
+   /// <a href="https://fontawesome.com/icons/cloud">Cloud</a>
    /// </summary>
    public static partial class CloudIcon
    {
        /// <summary>
-       /// Cloud
-       /// <see url="https://fontawesome.com/icons/cloud?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cloud?f=classic&amp;s=solid">Cloud</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Cloud;
        /// <summary>
-       /// Cloud
-       /// <see url="https://fontawesome.com/icons/cloud?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/cloud?f=classic&amp;s=regular">Cloud</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Cloud;
        /// <summary>
-       /// Cloud
-       /// <see url="https://fontawesome.com/icons/cloud?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/cloud?f=classic&amp;s=light">Cloud</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Cloud;
        /// <summary>
-       /// Cloud
-       /// <see url="https://fontawesome.com/icons/cloud?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/cloud?f=classic&amp;s=thin">Cloud</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Cloud;
        /// <summary>
-       /// Cloud
-       /// <see url="https://fontawesome.com/icons/cloud?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/cloud?f=classic&amp;s=duotone">Cloud</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.Cloud;
        /// <summary>
-       /// Cloud
-       /// <see url="https://fontawesome.com/icons/cloud?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/cloud?f=sharp&amp;s=solid">Cloud</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Cloud;
        /// <summary>
-       /// Cloud
-       /// <see url="https://fontawesome.com/icons/cloud?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/cloud?f=sharp&amp;s=regular">Cloud</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Cloud;
        /// <summary>
-       /// Cloud
-       /// <see url="https://fontawesome.com/icons/cloud?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/cloud?f=sharp&amp;s=light">Cloud</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Cloud;
        /// <summary>
-       /// Cloud
-       /// <see url="https://fontawesome.com/icons/cloud?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/cloud?f=sharp&amp;s=thin">Cloud</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Cloud;
    }
    /// <summary>
    /// Cloud Arrow Down
-   /// <see url="https://fontawesome.com/icons/cloud-arrow-down" />
+   /// <a href="https://fontawesome.com/icons/cloud-arrow-down">Cloud Arrow Down</a>
    /// </summary>
    public static partial class CloudArrowDownIcon
    {
        /// <summary>
-       /// Cloud Arrow Down
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-down?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-down?f=classic&amp;s=solid">Cloud Arrow Down</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.CloudArrowDown;
        /// <summary>
-       /// Cloud Arrow Down
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-down?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-down?f=classic&amp;s=regular">Cloud Arrow Down</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CloudArrowDown;
        /// <summary>
-       /// Cloud Arrow Down
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-down?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-down?f=classic&amp;s=light">Cloud Arrow Down</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CloudArrowDown;
        /// <summary>
-       /// Cloud Arrow Down
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-down?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-down?f=classic&amp;s=thin">Cloud Arrow Down</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CloudArrowDown;
        /// <summary>
-       /// Cloud Arrow Down
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-down?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-down?f=classic&amp;s=duotone">Cloud Arrow Down</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.CloudArrowDown;
        /// <summary>
-       /// Cloud Arrow Down
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-down?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-down?f=sharp&amp;s=solid">Cloud Arrow Down</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.CloudArrowDown;
        /// <summary>
-       /// Cloud Arrow Down
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-down?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-down?f=sharp&amp;s=regular">Cloud Arrow Down</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.CloudArrowDown;
        /// <summary>
-       /// Cloud Arrow Down
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-down?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-down?f=sharp&amp;s=light">Cloud Arrow Down</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.CloudArrowDown;
        /// <summary>
-       /// Cloud Arrow Down
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-down?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-down?f=sharp&amp;s=thin">Cloud Arrow Down</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CloudArrowDown;
    }
    /// <summary>
    /// Cloud Arrow Up
-   /// <see url="https://fontawesome.com/icons/cloud-arrow-up" />
+   /// <a href="https://fontawesome.com/icons/cloud-arrow-up">Cloud Arrow Up</a>
    /// </summary>
    public static partial class CloudArrowUpIcon
    {
        /// <summary>
-       /// Cloud Arrow Up
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-up?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-up?f=classic&amp;s=solid">Cloud Arrow Up</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.CloudArrowUp;
        /// <summary>
-       /// Cloud Arrow Up
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-up?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-up?f=classic&amp;s=regular">Cloud Arrow Up</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CloudArrowUp;
        /// <summary>
-       /// Cloud Arrow Up
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-up?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-up?f=classic&amp;s=light">Cloud Arrow Up</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CloudArrowUp;
        /// <summary>
-       /// Cloud Arrow Up
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-up?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-up?f=classic&amp;s=thin">Cloud Arrow Up</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CloudArrowUp;
        /// <summary>
-       /// Cloud Arrow Up
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-up?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-up?f=classic&amp;s=duotone">Cloud Arrow Up</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.CloudArrowUp;
        /// <summary>
-       /// Cloud Arrow Up
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-up?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-up?f=sharp&amp;s=solid">Cloud Arrow Up</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.CloudArrowUp;
        /// <summary>
-       /// Cloud Arrow Up
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-up?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-up?f=sharp&amp;s=regular">Cloud Arrow Up</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.CloudArrowUp;
        /// <summary>
-       /// Cloud Arrow Up
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-up?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-up?f=sharp&amp;s=light">Cloud Arrow Up</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.CloudArrowUp;
        /// <summary>
-       /// Cloud Arrow Up
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-up?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-up?f=sharp&amp;s=thin">Cloud Arrow Up</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CloudArrowUp;
    }
    /// <summary>
    /// Cloud Check
-   /// <see url="https://fontawesome.com/icons/cloud-check" />
+   /// <a href="https://fontawesome.com/icons/cloud-check">Cloud Check</a>
    /// </summary>
    public static partial class CloudCheckIcon
    {
        /// <summary>
-       /// Cloud Check
-       /// <see url="https://fontawesome.com/icons/cloud-check?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cloud-check?f=classic&amp;s=solid">Cloud Check</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.CloudCheck;
        /// <summary>
-       /// Cloud Check
-       /// <see url="https://fontawesome.com/icons/cloud-check?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/cloud-check?f=classic&amp;s=regular">Cloud Check</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CloudCheck;
        /// <summary>
-       /// Cloud Check
-       /// <see url="https://fontawesome.com/icons/cloud-check?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/cloud-check?f=classic&amp;s=light">Cloud Check</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CloudCheck;
        /// <summary>
-       /// Cloud Check
-       /// <see url="https://fontawesome.com/icons/cloud-check?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/cloud-check?f=classic&amp;s=thin">Cloud Check</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CloudCheck;
        /// <summary>
-       /// Cloud Check
-       /// <see url="https://fontawesome.com/icons/cloud-check?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/cloud-check?f=classic&amp;s=duotone">Cloud Check</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.CloudCheck;
        /// <summary>
-       /// Cloud Check
-       /// <see url="https://fontawesome.com/icons/cloud-check?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/cloud-check?f=sharp&amp;s=solid">Cloud Check</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.CloudCheck;
        /// <summary>
-       /// Cloud Check
-       /// <see url="https://fontawesome.com/icons/cloud-check?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/cloud-check?f=sharp&amp;s=regular">Cloud Check</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.CloudCheck;
        /// <summary>
-       /// Cloud Check
-       /// <see url="https://fontawesome.com/icons/cloud-check?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/cloud-check?f=sharp&amp;s=light">Cloud Check</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.CloudCheck;
        /// <summary>
-       /// Cloud Check
-       /// <see url="https://fontawesome.com/icons/cloud-check?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/cloud-check?f=sharp&amp;s=thin">Cloud Check</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CloudCheck;
    }
    /// <summary>
    /// Cloud Exclamation
-   /// <see url="https://fontawesome.com/icons/cloud-exclamation" />
+   /// <a href="https://fontawesome.com/icons/cloud-exclamation">Cloud Exclamation</a>
    /// </summary>
    public static partial class CloudExclamationIcon
    {
        /// <summary>
-       /// Cloud Exclamation
-       /// <see url="https://fontawesome.com/icons/cloud-exclamation?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cloud-exclamation?f=classic&amp;s=solid">Cloud Exclamation</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.CloudExclamation;
        /// <summary>
-       /// Cloud Exclamation
-       /// <see url="https://fontawesome.com/icons/cloud-exclamation?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/cloud-exclamation?f=classic&amp;s=regular">Cloud Exclamation</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CloudExclamation;
        /// <summary>
-       /// Cloud Exclamation
-       /// <see url="https://fontawesome.com/icons/cloud-exclamation?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/cloud-exclamation?f=classic&amp;s=light">Cloud Exclamation</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CloudExclamation;
        /// <summary>
-       /// Cloud Exclamation
-       /// <see url="https://fontawesome.com/icons/cloud-exclamation?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/cloud-exclamation?f=classic&amp;s=thin">Cloud Exclamation</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CloudExclamation;
        /// <summary>
-       /// Cloud Exclamation
-       /// <see url="https://fontawesome.com/icons/cloud-exclamation?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/cloud-exclamation?f=classic&amp;s=duotone">Cloud Exclamation</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.CloudExclamation;
        /// <summary>
-       /// Cloud Exclamation
-       /// <see url="https://fontawesome.com/icons/cloud-exclamation?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/cloud-exclamation?f=sharp&amp;s=solid">Cloud Exclamation</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.CloudExclamation;
        /// <summary>
-       /// Cloud Exclamation
-       /// <see url="https://fontawesome.com/icons/cloud-exclamation?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/cloud-exclamation?f=sharp&amp;s=regular">Cloud Exclamation</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.CloudExclamation;
        /// <summary>
-       /// Cloud Exclamation
-       /// <see url="https://fontawesome.com/icons/cloud-exclamation?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/cloud-exclamation?f=sharp&amp;s=light">Cloud Exclamation</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.CloudExclamation;
        /// <summary>
-       /// Cloud Exclamation
-       /// <see url="https://fontawesome.com/icons/cloud-exclamation?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/cloud-exclamation?f=sharp&amp;s=thin">Cloud Exclamation</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CloudExclamation;
    }
    /// <summary>
    /// Cloud Minus
-   /// <see url="https://fontawesome.com/icons/cloud-minus" />
+   /// <a href="https://fontawesome.com/icons/cloud-minus">Cloud Minus</a>
    /// </summary>
    public static partial class CloudMinusIcon
    {
        /// <summary>
-       /// Cloud Minus
-       /// <see url="https://fontawesome.com/icons/cloud-minus?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cloud-minus?f=classic&amp;s=solid">Cloud Minus</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.CloudMinus;
        /// <summary>
-       /// Cloud Minus
-       /// <see url="https://fontawesome.com/icons/cloud-minus?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/cloud-minus?f=classic&amp;s=regular">Cloud Minus</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CloudMinus;
        /// <summary>
-       /// Cloud Minus
-       /// <see url="https://fontawesome.com/icons/cloud-minus?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/cloud-minus?f=classic&amp;s=light">Cloud Minus</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CloudMinus;
        /// <summary>
-       /// Cloud Minus
-       /// <see url="https://fontawesome.com/icons/cloud-minus?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/cloud-minus?f=classic&amp;s=thin">Cloud Minus</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CloudMinus;
        /// <summary>
-       /// Cloud Minus
-       /// <see url="https://fontawesome.com/icons/cloud-minus?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/cloud-minus?f=classic&amp;s=duotone">Cloud Minus</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.CloudMinus;
        /// <summary>
-       /// Cloud Minus
-       /// <see url="https://fontawesome.com/icons/cloud-minus?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/cloud-minus?f=sharp&amp;s=solid">Cloud Minus</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.CloudMinus;
        /// <summary>
-       /// Cloud Minus
-       /// <see url="https://fontawesome.com/icons/cloud-minus?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/cloud-minus?f=sharp&amp;s=regular">Cloud Minus</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.CloudMinus;
        /// <summary>
-       /// Cloud Minus
-       /// <see url="https://fontawesome.com/icons/cloud-minus?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/cloud-minus?f=sharp&amp;s=light">Cloud Minus</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.CloudMinus;
        /// <summary>
-       /// Cloud Minus
-       /// <see url="https://fontawesome.com/icons/cloud-minus?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/cloud-minus?f=sharp&amp;s=thin">Cloud Minus</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CloudMinus;
    }
    /// <summary>
    /// Cloud Plus
-   /// <see url="https://fontawesome.com/icons/cloud-plus" />
+   /// <a href="https://fontawesome.com/icons/cloud-plus">Cloud Plus</a>
    /// </summary>
    public static partial class CloudPlusIcon
    {
        /// <summary>
-       /// Cloud Plus
-       /// <see url="https://fontawesome.com/icons/cloud-plus?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cloud-plus?f=classic&amp;s=solid">Cloud Plus</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.CloudPlus;
        /// <summary>
-       /// Cloud Plus
-       /// <see url="https://fontawesome.com/icons/cloud-plus?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/cloud-plus?f=classic&amp;s=regular">Cloud Plus</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CloudPlus;
        /// <summary>
-       /// Cloud Plus
-       /// <see url="https://fontawesome.com/icons/cloud-plus?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/cloud-plus?f=classic&amp;s=light">Cloud Plus</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CloudPlus;
        /// <summary>
-       /// Cloud Plus
-       /// <see url="https://fontawesome.com/icons/cloud-plus?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/cloud-plus?f=classic&amp;s=thin">Cloud Plus</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CloudPlus;
        /// <summary>
-       /// Cloud Plus
-       /// <see url="https://fontawesome.com/icons/cloud-plus?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/cloud-plus?f=classic&amp;s=duotone">Cloud Plus</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.CloudPlus;
        /// <summary>
-       /// Cloud Plus
-       /// <see url="https://fontawesome.com/icons/cloud-plus?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/cloud-plus?f=sharp&amp;s=solid">Cloud Plus</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.CloudPlus;
        /// <summary>
-       /// Cloud Plus
-       /// <see url="https://fontawesome.com/icons/cloud-plus?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/cloud-plus?f=sharp&amp;s=regular">Cloud Plus</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.CloudPlus;
        /// <summary>
-       /// Cloud Plus
-       /// <see url="https://fontawesome.com/icons/cloud-plus?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/cloud-plus?f=sharp&amp;s=light">Cloud Plus</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.CloudPlus;
        /// <summary>
-       /// Cloud Plus
-       /// <see url="https://fontawesome.com/icons/cloud-plus?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/cloud-plus?f=sharp&amp;s=thin">Cloud Plus</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CloudPlus;
    }
    /// <summary>
    /// Cloud Question
-   /// <see url="https://fontawesome.com/icons/cloud-question" />
+   /// <a href="https://fontawesome.com/icons/cloud-question">Cloud Question</a>
    /// </summary>
    public static partial class CloudQuestionIcon
    {
        /// <summary>
-       /// Cloud Question
-       /// <see url="https://fontawesome.com/icons/cloud-question?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cloud-question?f=classic&amp;s=solid">Cloud Question</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.CloudQuestion;
        /// <summary>
-       /// Cloud Question
-       /// <see url="https://fontawesome.com/icons/cloud-question?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/cloud-question?f=classic&amp;s=regular">Cloud Question</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CloudQuestion;
        /// <summary>
-       /// Cloud Question
-       /// <see url="https://fontawesome.com/icons/cloud-question?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/cloud-question?f=classic&amp;s=light">Cloud Question</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CloudQuestion;
        /// <summary>
-       /// Cloud Question
-       /// <see url="https://fontawesome.com/icons/cloud-question?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/cloud-question?f=classic&amp;s=thin">Cloud Question</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CloudQuestion;
        /// <summary>
-       /// Cloud Question
-       /// <see url="https://fontawesome.com/icons/cloud-question?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/cloud-question?f=classic&amp;s=duotone">Cloud Question</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.CloudQuestion;
        /// <summary>
-       /// Cloud Question
-       /// <see url="https://fontawesome.com/icons/cloud-question?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/cloud-question?f=sharp&amp;s=solid">Cloud Question</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.CloudQuestion;
        /// <summary>
-       /// Cloud Question
-       /// <see url="https://fontawesome.com/icons/cloud-question?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/cloud-question?f=sharp&amp;s=regular">Cloud Question</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.CloudQuestion;
        /// <summary>
-       /// Cloud Question
-       /// <see url="https://fontawesome.com/icons/cloud-question?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/cloud-question?f=sharp&amp;s=light">Cloud Question</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.CloudQuestion;
        /// <summary>
-       /// Cloud Question
-       /// <see url="https://fontawesome.com/icons/cloud-question?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/cloud-question?f=sharp&amp;s=thin">Cloud Question</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CloudQuestion;
    }
    /// <summary>
    /// Cloud Slash
-   /// <see url="https://fontawesome.com/icons/cloud-slash" />
+   /// <a href="https://fontawesome.com/icons/cloud-slash">Cloud Slash</a>
    /// </summary>
    public static partial class CloudSlashIcon
    {
        /// <summary>
-       /// Cloud Slash
-       /// <see url="https://fontawesome.com/icons/cloud-slash?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cloud-slash?f=classic&amp;s=solid">Cloud Slash</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.CloudSlash;
        /// <summary>
-       /// Cloud Slash
-       /// <see url="https://fontawesome.com/icons/cloud-slash?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/cloud-slash?f=classic&amp;s=regular">Cloud Slash</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CloudSlash;
        /// <summary>
-       /// Cloud Slash
-       /// <see url="https://fontawesome.com/icons/cloud-slash?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/cloud-slash?f=classic&amp;s=light">Cloud Slash</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CloudSlash;
        /// <summary>
-       /// Cloud Slash
-       /// <see url="https://fontawesome.com/icons/cloud-slash?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/cloud-slash?f=classic&amp;s=thin">Cloud Slash</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CloudSlash;
        /// <summary>
-       /// Cloud Slash
-       /// <see url="https://fontawesome.com/icons/cloud-slash?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/cloud-slash?f=classic&amp;s=duotone">Cloud Slash</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.CloudSlash;
        /// <summary>
-       /// Cloud Slash
-       /// <see url="https://fontawesome.com/icons/cloud-slash?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/cloud-slash?f=sharp&amp;s=solid">Cloud Slash</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.CloudSlash;
        /// <summary>
-       /// Cloud Slash
-       /// <see url="https://fontawesome.com/icons/cloud-slash?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/cloud-slash?f=sharp&amp;s=regular">Cloud Slash</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.CloudSlash;
        /// <summary>
-       /// Cloud Slash
-       /// <see url="https://fontawesome.com/icons/cloud-slash?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/cloud-slash?f=sharp&amp;s=light">Cloud Slash</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.CloudSlash;
        /// <summary>
-       /// Cloud Slash
-       /// <see url="https://fontawesome.com/icons/cloud-slash?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/cloud-slash?f=sharp&amp;s=thin">Cloud Slash</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CloudSlash;
    }
    /// <summary>
    /// Cloud Xmark
-   /// <see url="https://fontawesome.com/icons/cloud-xmark" />
+   /// <a href="https://fontawesome.com/icons/cloud-xmark">Cloud Xmark</a>
    /// </summary>
    public static partial class CloudXmarkIcon
    {
        /// <summary>
-       /// Cloud Xmark
-       /// <see url="https://fontawesome.com/icons/cloud-xmark?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cloud-xmark?f=classic&amp;s=solid">Cloud Xmark</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.CloudXmark;
        /// <summary>
-       /// Cloud Xmark
-       /// <see url="https://fontawesome.com/icons/cloud-xmark?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/cloud-xmark?f=classic&amp;s=regular">Cloud Xmark</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CloudXmark;
        /// <summary>
-       /// Cloud Xmark
-       /// <see url="https://fontawesome.com/icons/cloud-xmark?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/cloud-xmark?f=classic&amp;s=light">Cloud Xmark</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CloudXmark;
        /// <summary>
-       /// Cloud Xmark
-       /// <see url="https://fontawesome.com/icons/cloud-xmark?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/cloud-xmark?f=classic&amp;s=thin">Cloud Xmark</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CloudXmark;
        /// <summary>
-       /// Cloud Xmark
-       /// <see url="https://fontawesome.com/icons/cloud-xmark?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/cloud-xmark?f=classic&amp;s=duotone">Cloud Xmark</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.CloudXmark;
        /// <summary>
-       /// Cloud Xmark
-       /// <see url="https://fontawesome.com/icons/cloud-xmark?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/cloud-xmark?f=sharp&amp;s=solid">Cloud Xmark</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.CloudXmark;
        /// <summary>
-       /// Cloud Xmark
-       /// <see url="https://fontawesome.com/icons/cloud-xmark?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/cloud-xmark?f=sharp&amp;s=regular">Cloud Xmark</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.CloudXmark;
        /// <summary>
-       /// Cloud Xmark
-       /// <see url="https://fontawesome.com/icons/cloud-xmark?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/cloud-xmark?f=sharp&amp;s=light">Cloud Xmark</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.CloudXmark;
        /// <summary>
-       /// Cloud Xmark
-       /// <see url="https://fontawesome.com/icons/cloud-xmark?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/cloud-xmark?f=sharp&amp;s=thin">Cloud Xmark</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CloudXmark;
    }
    /// <summary>
    /// Ethernet
-   /// <see url="https://fontawesome.com/icons/ethernet" />
+   /// <a href="https://fontawesome.com/icons/ethernet">Ethernet</a>
    /// </summary>
    public static partial class EthernetIcon
    {
        /// <summary>
-       /// Ethernet
-       /// <see url="https://fontawesome.com/icons/ethernet?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/ethernet?f=classic&amp;s=solid">Ethernet</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Ethernet;
        /// <summary>
-       /// Ethernet
-       /// <see url="https://fontawesome.com/icons/ethernet?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/ethernet?f=classic&amp;s=regular">Ethernet</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Ethernet;
        /// <summary>
-       /// Ethernet
-       /// <see url="https://fontawesome.com/icons/ethernet?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/ethernet?f=classic&amp;s=light">Ethernet</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Ethernet;
        /// <summary>
-       /// Ethernet
-       /// <see url="https://fontawesome.com/icons/ethernet?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/ethernet?f=classic&amp;s=thin">Ethernet</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Ethernet;
        /// <summary>
-       /// Ethernet
-       /// <see url="https://fontawesome.com/icons/ethernet?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/ethernet?f=classic&amp;s=duotone">Ethernet</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.Ethernet;
        /// <summary>
-       /// Ethernet
-       /// <see url="https://fontawesome.com/icons/ethernet?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/ethernet?f=sharp&amp;s=solid">Ethernet</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Ethernet;
        /// <summary>
-       /// Ethernet
-       /// <see url="https://fontawesome.com/icons/ethernet?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/ethernet?f=sharp&amp;s=regular">Ethernet</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Ethernet;
        /// <summary>
-       /// Ethernet
-       /// <see url="https://fontawesome.com/icons/ethernet?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/ethernet?f=sharp&amp;s=light">Ethernet</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Ethernet;
        /// <summary>
-       /// Ethernet
-       /// <see url="https://fontawesome.com/icons/ethernet?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/ethernet?f=sharp&amp;s=thin">Ethernet</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Ethernet;
    }
    /// <summary>
    /// Globe
-   /// <see url="https://fontawesome.com/icons/globe" />
+   /// <a href="https://fontawesome.com/icons/globe">Globe</a>
    /// </summary>
    public static partial class GlobeIcon
    {
        /// <summary>
-       /// Globe
-       /// <see url="https://fontawesome.com/icons/globe?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/globe?f=classic&amp;s=solid">Globe</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Globe;
        /// <summary>
-       /// Globe
-       /// <see url="https://fontawesome.com/icons/globe?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/globe?f=classic&amp;s=regular">Globe</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Globe;
        /// <summary>
-       /// Globe
-       /// <see url="https://fontawesome.com/icons/globe?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/globe?f=classic&amp;s=light">Globe</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Globe;
        /// <summary>
-       /// Globe
-       /// <see url="https://fontawesome.com/icons/globe?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/globe?f=classic&amp;s=thin">Globe</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Globe;
        /// <summary>
-       /// Globe
-       /// <see url="https://fontawesome.com/icons/globe?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/globe?f=classic&amp;s=duotone">Globe</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.Globe;
        /// <summary>
-       /// Globe
-       /// <see url="https://fontawesome.com/icons/globe?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/globe?f=sharp&amp;s=solid">Globe</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Globe;
        /// <summary>
-       /// Globe
-       /// <see url="https://fontawesome.com/icons/globe?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/globe?f=sharp&amp;s=regular">Globe</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Globe;
        /// <summary>
-       /// Globe
-       /// <see url="https://fontawesome.com/icons/globe?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/globe?f=sharp&amp;s=light">Globe</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Globe;
        /// <summary>
-       /// Globe
-       /// <see url="https://fontawesome.com/icons/globe?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/globe?f=sharp&amp;s=thin">Globe</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Globe;
    }
    /// <summary>
    /// Globe Pointer
-   /// <see url="https://fontawesome.com/icons/globe-pointer" />
+   /// <a href="https://fontawesome.com/icons/globe-pointer">Globe Pointer</a>
    /// </summary>
    public static partial class GlobePointerIcon
    {
        /// <summary>
-       /// Globe Pointer
-       /// <see url="https://fontawesome.com/icons/globe-pointer?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/globe-pointer?f=classic&amp;s=solid">Globe Pointer</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.GlobePointer;
        /// <summary>
-       /// Globe Pointer
-       /// <see url="https://fontawesome.com/icons/globe-pointer?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/globe-pointer?f=classic&amp;s=regular">Globe Pointer</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.GlobePointer;
        /// <summary>
-       /// Globe Pointer
-       /// <see url="https://fontawesome.com/icons/globe-pointer?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/globe-pointer?f=classic&amp;s=light">Globe Pointer</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.GlobePointer;
        /// <summary>
-       /// Globe Pointer
-       /// <see url="https://fontawesome.com/icons/globe-pointer?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/globe-pointer?f=classic&amp;s=thin">Globe Pointer</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.GlobePointer;
        /// <summary>
-       /// Globe Pointer
-       /// <see url="https://fontawesome.com/icons/globe-pointer?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/globe-pointer?f=classic&amp;s=duotone">Globe Pointer</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.GlobePointer;
        /// <summary>
-       /// Globe Pointer
-       /// <see url="https://fontawesome.com/icons/globe-pointer?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/globe-pointer?f=sharp&amp;s=solid">Globe Pointer</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.GlobePointer;
        /// <summary>
-       /// Globe Pointer
-       /// <see url="https://fontawesome.com/icons/globe-pointer?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/globe-pointer?f=sharp&amp;s=regular">Globe Pointer</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.GlobePointer;
        /// <summary>
-       /// Globe Pointer
-       /// <see url="https://fontawesome.com/icons/globe-pointer?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/globe-pointer?f=sharp&amp;s=light">Globe Pointer</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.GlobePointer;
        /// <summary>
-       /// Globe Pointer
-       /// <see url="https://fontawesome.com/icons/globe-pointer?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/globe-pointer?f=sharp&amp;s=thin">Globe Pointer</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.GlobePointer;
    }
    /// <summary>
    /// House Signal
-   /// <see url="https://fontawesome.com/icons/house-signal" />
+   /// <a href="https://fontawesome.com/icons/house-signal">House Signal</a>
    /// </summary>
    public static partial class HouseSignalIcon
    {
        /// <summary>
-       /// House Signal
-       /// <see url="https://fontawesome.com/icons/house-signal?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-signal?f=classic&amp;s=solid">House Signal</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.HouseSignal;
        /// <summary>
-       /// House Signal
-       /// <see url="https://fontawesome.com/icons/house-signal?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/house-signal?f=classic&amp;s=regular">House Signal</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.HouseSignal;
        /// <summary>
-       /// House Signal
-       /// <see url="https://fontawesome.com/icons/house-signal?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/house-signal?f=classic&amp;s=light">House Signal</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.HouseSignal;
        /// <summary>
-       /// House Signal
-       /// <see url="https://fontawesome.com/icons/house-signal?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/house-signal?f=classic&amp;s=thin">House Signal</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.HouseSignal;
        /// <summary>
-       /// House Signal
-       /// <see url="https://fontawesome.com/icons/house-signal?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/house-signal?f=classic&amp;s=duotone">House Signal</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.HouseSignal;
        /// <summary>
-       /// House Signal
-       /// <see url="https://fontawesome.com/icons/house-signal?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/house-signal?f=sharp&amp;s=solid">House Signal</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.HouseSignal;
        /// <summary>
-       /// House Signal
-       /// <see url="https://fontawesome.com/icons/house-signal?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/house-signal?f=sharp&amp;s=regular">House Signal</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.HouseSignal;
        /// <summary>
-       /// House Signal
-       /// <see url="https://fontawesome.com/icons/house-signal?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/house-signal?f=sharp&amp;s=light">House Signal</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.HouseSignal;
        /// <summary>
-       /// House Signal
-       /// <see url="https://fontawesome.com/icons/house-signal?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/house-signal?f=sharp&amp;s=thin">House Signal</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.HouseSignal;
    }
    /// <summary>
    /// Link Horizontal
-   /// <see url="https://fontawesome.com/icons/link-horizontal" />
+   /// <a href="https://fontawesome.com/icons/link-horizontal">Link Horizontal</a>
    /// </summary>
    public static partial class LinkHorizontalIcon
    {
        /// <summary>
-       /// Link Horizontal
-       /// <see url="https://fontawesome.com/icons/link-horizontal?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal?f=classic&amp;s=solid">Link Horizontal</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.LinkHorizontal;
        /// <summary>
-       /// Link Horizontal
-       /// <see url="https://fontawesome.com/icons/link-horizontal?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal?f=classic&amp;s=regular">Link Horizontal</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.LinkHorizontal;
        /// <summary>
-       /// Link Horizontal
-       /// <see url="https://fontawesome.com/icons/link-horizontal?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal?f=classic&amp;s=light">Link Horizontal</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.LinkHorizontal;
        /// <summary>
-       /// Link Horizontal
-       /// <see url="https://fontawesome.com/icons/link-horizontal?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal?f=classic&amp;s=thin">Link Horizontal</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.LinkHorizontal;
        /// <summary>
-       /// Link Horizontal
-       /// <see url="https://fontawesome.com/icons/link-horizontal?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal?f=classic&amp;s=duotone">Link Horizontal</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.LinkHorizontal;
        /// <summary>
-       /// Link Horizontal
-       /// <see url="https://fontawesome.com/icons/link-horizontal?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal?f=sharp&amp;s=solid">Link Horizontal</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.LinkHorizontal;
        /// <summary>
-       /// Link Horizontal
-       /// <see url="https://fontawesome.com/icons/link-horizontal?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal?f=sharp&amp;s=regular">Link Horizontal</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.LinkHorizontal;
        /// <summary>
-       /// Link Horizontal
-       /// <see url="https://fontawesome.com/icons/link-horizontal?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal?f=sharp&amp;s=light">Link Horizontal</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.LinkHorizontal;
        /// <summary>
-       /// Link Horizontal
-       /// <see url="https://fontawesome.com/icons/link-horizontal?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal?f=sharp&amp;s=thin">Link Horizontal</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.LinkHorizontal;
    }
    /// <summary>
    /// Link Horizontal Slash
-   /// <see url="https://fontawesome.com/icons/link-horizontal-slash" />
+   /// <a href="https://fontawesome.com/icons/link-horizontal-slash">Link Horizontal Slash</a>
    /// </summary>
    public static partial class LinkHorizontalSlashIcon
    {
        /// <summary>
-       /// Link Horizontal Slash
-       /// <see url="https://fontawesome.com/icons/link-horizontal-slash?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal-slash?f=classic&amp;s=solid">Link Horizontal Slash</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.LinkHorizontalSlash;
        /// <summary>
-       /// Link Horizontal Slash
-       /// <see url="https://fontawesome.com/icons/link-horizontal-slash?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal-slash?f=classic&amp;s=regular">Link Horizontal Slash</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.LinkHorizontalSlash;
        /// <summary>
-       /// Link Horizontal Slash
-       /// <see url="https://fontawesome.com/icons/link-horizontal-slash?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal-slash?f=classic&amp;s=light">Link Horizontal Slash</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.LinkHorizontalSlash;
        /// <summary>
-       /// Link Horizontal Slash
-       /// <see url="https://fontawesome.com/icons/link-horizontal-slash?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal-slash?f=classic&amp;s=thin">Link Horizontal Slash</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.LinkHorizontalSlash;
        /// <summary>
-       /// Link Horizontal Slash
-       /// <see url="https://fontawesome.com/icons/link-horizontal-slash?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal-slash?f=classic&amp;s=duotone">Link Horizontal Slash</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.LinkHorizontalSlash;
        /// <summary>
-       /// Link Horizontal Slash
-       /// <see url="https://fontawesome.com/icons/link-horizontal-slash?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal-slash?f=sharp&amp;s=solid">Link Horizontal Slash</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.LinkHorizontalSlash;
        /// <summary>
-       /// Link Horizontal Slash
-       /// <see url="https://fontawesome.com/icons/link-horizontal-slash?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal-slash?f=sharp&amp;s=regular">Link Horizontal Slash</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.LinkHorizontalSlash;
        /// <summary>
-       /// Link Horizontal Slash
-       /// <see url="https://fontawesome.com/icons/link-horizontal-slash?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal-slash?f=sharp&amp;s=light">Link Horizontal Slash</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.LinkHorizontalSlash;
        /// <summary>
-       /// Link Horizontal Slash
-       /// <see url="https://fontawesome.com/icons/link-horizontal-slash?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/link-horizontal-slash?f=sharp&amp;s=thin">Link Horizontal Slash</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.LinkHorizontalSlash;
    }
    /// <summary>
    /// Mobile Signal
-   /// <see url="https://fontawesome.com/icons/mobile-signal" />
+   /// <a href="https://fontawesome.com/icons/mobile-signal">Mobile Signal</a>
    /// </summary>
    public static partial class MobileSignalIcon
    {
        /// <summary>
-       /// Mobile Signal
-       /// <see url="https://fontawesome.com/icons/mobile-signal?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal?f=classic&amp;s=solid">Mobile Signal</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.MobileSignal;
        /// <summary>
-       /// Mobile Signal
-       /// <see url="https://fontawesome.com/icons/mobile-signal?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal?f=classic&amp;s=regular">Mobile Signal</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.MobileSignal;
        /// <summary>
-       /// Mobile Signal
-       /// <see url="https://fontawesome.com/icons/mobile-signal?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal?f=classic&amp;s=light">Mobile Signal</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.MobileSignal;
        /// <summary>
-       /// Mobile Signal
-       /// <see url="https://fontawesome.com/icons/mobile-signal?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal?f=classic&amp;s=thin">Mobile Signal</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.MobileSignal;
        /// <summary>
-       /// Mobile Signal
-       /// <see url="https://fontawesome.com/icons/mobile-signal?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal?f=classic&amp;s=duotone">Mobile Signal</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.MobileSignal;
        /// <summary>
-       /// Mobile Signal
-       /// <see url="https://fontawesome.com/icons/mobile-signal?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal?f=sharp&amp;s=solid">Mobile Signal</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.MobileSignal;
        /// <summary>
-       /// Mobile Signal
-       /// <see url="https://fontawesome.com/icons/mobile-signal?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal?f=sharp&amp;s=regular">Mobile Signal</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.MobileSignal;
        /// <summary>
-       /// Mobile Signal
-       /// <see url="https://fontawesome.com/icons/mobile-signal?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal?f=sharp&amp;s=light">Mobile Signal</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.MobileSignal;
        /// <summary>
-       /// Mobile Signal
-       /// <see url="https://fontawesome.com/icons/mobile-signal?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal?f=sharp&amp;s=thin">Mobile Signal</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.MobileSignal;
    }
    /// <summary>
    /// Mobile Signal Out
-   /// <see url="https://fontawesome.com/icons/mobile-signal-out" />
+   /// <a href="https://fontawesome.com/icons/mobile-signal-out">Mobile Signal Out</a>
    /// </summary>
    public static partial class MobileSignalOutIcon
    {
        /// <summary>
-       /// Mobile Signal Out
-       /// <see url="https://fontawesome.com/icons/mobile-signal-out?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=classic&amp;s=solid">Mobile Signal Out</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.MobileSignalOut;
        /// <summary>
-       /// Mobile Signal Out
-       /// <see url="https://fontawesome.com/icons/mobile-signal-out?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=classic&amp;s=regular">Mobile Signal Out</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.MobileSignalOut;
        /// <summary>
-       /// Mobile Signal Out
-       /// <see url="https://fontawesome.com/icons/mobile-signal-out?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=classic&amp;s=light">Mobile Signal Out</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.MobileSignalOut;
        /// <summary>
-       /// Mobile Signal Out
-       /// <see url="https://fontawesome.com/icons/mobile-signal-out?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=classic&amp;s=thin">Mobile Signal Out</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.MobileSignalOut;
        /// <summary>
-       /// Mobile Signal Out
-       /// <see url="https://fontawesome.com/icons/mobile-signal-out?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=classic&amp;s=duotone">Mobile Signal Out</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.MobileSignalOut;
        /// <summary>
-       /// Mobile Signal Out
-       /// <see url="https://fontawesome.com/icons/mobile-signal-out?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=sharp&amp;s=solid">Mobile Signal Out</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.MobileSignalOut;
        /// <summary>
-       /// Mobile Signal Out
-       /// <see url="https://fontawesome.com/icons/mobile-signal-out?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=sharp&amp;s=regular">Mobile Signal Out</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.MobileSignalOut;
        /// <summary>
-       /// Mobile Signal Out
-       /// <see url="https://fontawesome.com/icons/mobile-signal-out?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=sharp&amp;s=light">Mobile Signal Out</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.MobileSignalOut;
        /// <summary>
-       /// Mobile Signal Out
-       /// <see url="https://fontawesome.com/icons/mobile-signal-out?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=sharp&amp;s=thin">Mobile Signal Out</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.MobileSignalOut;
    }
    /// <summary>
    /// Nfc Signal
-   /// <see url="https://fontawesome.com/icons/nfc-signal" />
+   /// <a href="https://fontawesome.com/icons/nfc-signal">Nfc Signal</a>
    /// </summary>
    public static partial class NfcSignalIcon
    {
        /// <summary>
-       /// Nfc Signal
-       /// <see url="https://fontawesome.com/icons/nfc-signal?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/nfc-signal?f=classic&amp;s=solid">Nfc Signal</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.NfcSignal;
        /// <summary>
-       /// Nfc Signal
-       /// <see url="https://fontawesome.com/icons/nfc-signal?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/nfc-signal?f=classic&amp;s=regular">Nfc Signal</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.NfcSignal;
        /// <summary>
-       /// Nfc Signal
-       /// <see url="https://fontawesome.com/icons/nfc-signal?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/nfc-signal?f=classic&amp;s=light">Nfc Signal</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.NfcSignal;
        /// <summary>
-       /// Nfc Signal
-       /// <see url="https://fontawesome.com/icons/nfc-signal?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/nfc-signal?f=classic&amp;s=thin">Nfc Signal</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.NfcSignal;
        /// <summary>
-       /// Nfc Signal
-       /// <see url="https://fontawesome.com/icons/nfc-signal?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/nfc-signal?f=classic&amp;s=duotone">Nfc Signal</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.NfcSignal;
        /// <summary>
-       /// Nfc Signal
-       /// <see url="https://fontawesome.com/icons/nfc-signal?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/nfc-signal?f=sharp&amp;s=solid">Nfc Signal</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.NfcSignal;
        /// <summary>
-       /// Nfc Signal
-       /// <see url="https://fontawesome.com/icons/nfc-signal?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/nfc-signal?f=sharp&amp;s=regular">Nfc Signal</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.NfcSignal;
        /// <summary>
-       /// Nfc Signal
-       /// <see url="https://fontawesome.com/icons/nfc-signal?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/nfc-signal?f=sharp&amp;s=light">Nfc Signal</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.NfcSignal;
        /// <summary>
-       /// Nfc Signal
-       /// <see url="https://fontawesome.com/icons/nfc-signal?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/nfc-signal?f=sharp&amp;s=thin">Nfc Signal</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.NfcSignal;
    }
    /// <summary>
    /// Rss
-   /// <see url="https://fontawesome.com/icons/rss" />
+   /// <a href="https://fontawesome.com/icons/rss">Rss</a>
    /// </summary>
    public static partial class RssIcon
    {
        /// <summary>
-       /// Rss
-       /// <see url="https://fontawesome.com/icons/rss?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/rss?f=classic&amp;s=solid">Rss</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Rss;
        /// <summary>
-       /// Rss
-       /// <see url="https://fontawesome.com/icons/rss?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/rss?f=classic&amp;s=regular">Rss</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Rss;
        /// <summary>
-       /// Rss
-       /// <see url="https://fontawesome.com/icons/rss?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/rss?f=classic&amp;s=light">Rss</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Rss;
        /// <summary>
-       /// Rss
-       /// <see url="https://fontawesome.com/icons/rss?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/rss?f=classic&amp;s=thin">Rss</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Rss;
        /// <summary>
-       /// Rss
-       /// <see url="https://fontawesome.com/icons/rss?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/rss?f=classic&amp;s=duotone">Rss</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.Rss;
        /// <summary>
-       /// Rss
-       /// <see url="https://fontawesome.com/icons/rss?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/rss?f=sharp&amp;s=solid">Rss</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Rss;
        /// <summary>
-       /// Rss
-       /// <see url="https://fontawesome.com/icons/rss?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/rss?f=sharp&amp;s=regular">Rss</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Rss;
        /// <summary>
-       /// Rss
-       /// <see url="https://fontawesome.com/icons/rss?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/rss?f=sharp&amp;s=light">Rss</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Rss;
        /// <summary>
-       /// Rss
-       /// <see url="https://fontawesome.com/icons/rss?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/rss?f=sharp&amp;s=thin">Rss</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Rss;
    }
    /// <summary>
    /// Satellite Dish
-   /// <see url="https://fontawesome.com/icons/satellite-dish" />
+   /// <a href="https://fontawesome.com/icons/satellite-dish">Satellite Dish</a>
    /// </summary>
    public static partial class SatelliteDishIcon
    {
        /// <summary>
-       /// Satellite Dish
-       /// <see url="https://fontawesome.com/icons/satellite-dish?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/satellite-dish?f=classic&amp;s=solid">Satellite Dish</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.SatelliteDish;
        /// <summary>
-       /// Satellite Dish
-       /// <see url="https://fontawesome.com/icons/satellite-dish?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/satellite-dish?f=classic&amp;s=regular">Satellite Dish</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SatelliteDish;
        /// <summary>
-       /// Satellite Dish
-       /// <see url="https://fontawesome.com/icons/satellite-dish?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/satellite-dish?f=classic&amp;s=light">Satellite Dish</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.SatelliteDish;
        /// <summary>
-       /// Satellite Dish
-       /// <see url="https://fontawesome.com/icons/satellite-dish?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/satellite-dish?f=classic&amp;s=thin">Satellite Dish</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SatelliteDish;
        /// <summary>
-       /// Satellite Dish
-       /// <see url="https://fontawesome.com/icons/satellite-dish?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/satellite-dish?f=classic&amp;s=duotone">Satellite Dish</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.SatelliteDish;
        /// <summary>
-       /// Satellite Dish
-       /// <see url="https://fontawesome.com/icons/satellite-dish?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/satellite-dish?f=sharp&amp;s=solid">Satellite Dish</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.SatelliteDish;
        /// <summary>
-       /// Satellite Dish
-       /// <see url="https://fontawesome.com/icons/satellite-dish?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/satellite-dish?f=sharp&amp;s=regular">Satellite Dish</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.SatelliteDish;
        /// <summary>
-       /// Satellite Dish
-       /// <see url="https://fontawesome.com/icons/satellite-dish?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/satellite-dish?f=sharp&amp;s=light">Satellite Dish</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.SatelliteDish;
        /// <summary>
-       /// Satellite Dish
-       /// <see url="https://fontawesome.com/icons/satellite-dish?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/satellite-dish?f=sharp&amp;s=thin">Satellite Dish</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SatelliteDish;
    }
    /// <summary>
    /// Signal
-   /// <see url="https://fontawesome.com/icons/signal" />
+   /// <a href="https://fontawesome.com/icons/signal">Signal</a>
    /// </summary>
    public static partial class SignalIcon
    {
        /// <summary>
-       /// Signal
-       /// <see url="https://fontawesome.com/icons/signal?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/signal?f=classic&amp;s=solid">Signal</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Signal;
        /// <summary>
-       /// Signal
-       /// <see url="https://fontawesome.com/icons/signal?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/signal?f=classic&amp;s=regular">Signal</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Signal;
        /// <summary>
-       /// Signal
-       /// <see url="https://fontawesome.com/icons/signal?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/signal?f=classic&amp;s=light">Signal</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Signal;
        /// <summary>
-       /// Signal
-       /// <see url="https://fontawesome.com/icons/signal?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/signal?f=classic&amp;s=thin">Signal</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Signal;
        /// <summary>
-       /// Signal
-       /// <see url="https://fontawesome.com/icons/signal?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/signal?f=classic&amp;s=duotone">Signal</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.Signal;
        /// <summary>
-       /// Signal
-       /// <see url="https://fontawesome.com/icons/signal?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/signal?f=sharp&amp;s=solid">Signal</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Signal;
        /// <summary>
-       /// Signal
-       /// <see url="https://fontawesome.com/icons/signal?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/signal?f=sharp&amp;s=regular">Signal</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Signal;
        /// <summary>
-       /// Signal
-       /// <see url="https://fontawesome.com/icons/signal?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/signal?f=sharp&amp;s=light">Signal</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Signal;
        /// <summary>
-       /// Signal
-       /// <see url="https://fontawesome.com/icons/signal?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/signal?f=sharp&amp;s=thin">Signal</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Signal;
    }
    /// <summary>
    /// Signal Bars
-   /// <see url="https://fontawesome.com/icons/signal-bars" />
+   /// <a href="https://fontawesome.com/icons/signal-bars">Signal Bars</a>
    /// </summary>
    public static partial class SignalBarsIcon
    {
        /// <summary>
-       /// Signal Bars
-       /// <see url="https://fontawesome.com/icons/signal-bars?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/signal-bars?f=classic&amp;s=solid">Signal Bars</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.SignalBars;
        /// <summary>
-       /// Signal Bars
-       /// <see url="https://fontawesome.com/icons/signal-bars?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/signal-bars?f=classic&amp;s=regular">Signal Bars</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalBars;
        /// <summary>
-       /// Signal Bars
-       /// <see url="https://fontawesome.com/icons/signal-bars?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/signal-bars?f=classic&amp;s=light">Signal Bars</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.SignalBars;
        /// <summary>
-       /// Signal Bars
-       /// <see url="https://fontawesome.com/icons/signal-bars?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/signal-bars?f=classic&amp;s=thin">Signal Bars</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SignalBars;
        /// <summary>
-       /// Signal Bars
-       /// <see url="https://fontawesome.com/icons/signal-bars?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/signal-bars?f=classic&amp;s=duotone">Signal Bars</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.SignalBars;
        /// <summary>
-       /// Signal Bars
-       /// <see url="https://fontawesome.com/icons/signal-bars?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/signal-bars?f=sharp&amp;s=solid">Signal Bars</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.SignalBars;
        /// <summary>
-       /// Signal Bars
-       /// <see url="https://fontawesome.com/icons/signal-bars?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/signal-bars?f=sharp&amp;s=regular">Signal Bars</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.SignalBars;
        /// <summary>
-       /// Signal Bars
-       /// <see url="https://fontawesome.com/icons/signal-bars?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/signal-bars?f=sharp&amp;s=light">Signal Bars</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.SignalBars;
        /// <summary>
-       /// Signal Bars
-       /// <see url="https://fontawesome.com/icons/signal-bars?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/signal-bars?f=sharp&amp;s=thin">Signal Bars</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SignalBars;
    }
    /// <summary>
    /// Signal Bars Fair
-   /// <see url="https://fontawesome.com/icons/signal-bars-fair" />
+   /// <a href="https://fontawesome.com/icons/signal-bars-fair">Signal Bars Fair</a>
    /// </summary>
    public static partial class SignalBarsFairIcon
    {
        /// <summary>
-       /// Signal Bars Fair
-       /// <see url="https://fontawesome.com/icons/signal-bars-fair?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-fair?f=classic&amp;s=solid">Signal Bars Fair</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.SignalBarsFair;
        /// <summary>
-       /// Signal Bars Fair
-       /// <see url="https://fontawesome.com/icons/signal-bars-fair?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-fair?f=classic&amp;s=regular">Signal Bars Fair</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalBarsFair;
        /// <summary>
-       /// Signal Bars Fair
-       /// <see url="https://fontawesome.com/icons/signal-bars-fair?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-fair?f=classic&amp;s=light">Signal Bars Fair</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.SignalBarsFair;
        /// <summary>
-       /// Signal Bars Fair
-       /// <see url="https://fontawesome.com/icons/signal-bars-fair?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-fair?f=classic&amp;s=thin">Signal Bars Fair</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SignalBarsFair;
        /// <summary>
-       /// Signal Bars Fair
-       /// <see url="https://fontawesome.com/icons/signal-bars-fair?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-fair?f=classic&amp;s=duotone">Signal Bars Fair</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.SignalBarsFair;
        /// <summary>
-       /// Signal Bars Fair
-       /// <see url="https://fontawesome.com/icons/signal-bars-fair?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-fair?f=sharp&amp;s=solid">Signal Bars Fair</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.SignalBarsFair;
        /// <summary>
-       /// Signal Bars Fair
-       /// <see url="https://fontawesome.com/icons/signal-bars-fair?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-fair?f=sharp&amp;s=regular">Signal Bars Fair</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.SignalBarsFair;
        /// <summary>
-       /// Signal Bars Fair
-       /// <see url="https://fontawesome.com/icons/signal-bars-fair?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-fair?f=sharp&amp;s=light">Signal Bars Fair</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.SignalBarsFair;
        /// <summary>
-       /// Signal Bars Fair
-       /// <see url="https://fontawesome.com/icons/signal-bars-fair?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-fair?f=sharp&amp;s=thin">Signal Bars Fair</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SignalBarsFair;
    }
    /// <summary>
    /// Signal Bars Good
-   /// <see url="https://fontawesome.com/icons/signal-bars-good" />
+   /// <a href="https://fontawesome.com/icons/signal-bars-good">Signal Bars Good</a>
    /// </summary>
    public static partial class SignalBarsGoodIcon
    {
        /// <summary>
-       /// Signal Bars Good
-       /// <see url="https://fontawesome.com/icons/signal-bars-good?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-good?f=classic&amp;s=solid">Signal Bars Good</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.SignalBarsGood;
        /// <summary>
-       /// Signal Bars Good
-       /// <see url="https://fontawesome.com/icons/signal-bars-good?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-good?f=classic&amp;s=regular">Signal Bars Good</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalBarsGood;
        /// <summary>
-       /// Signal Bars Good
-       /// <see url="https://fontawesome.com/icons/signal-bars-good?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-good?f=classic&amp;s=light">Signal Bars Good</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.SignalBarsGood;
        /// <summary>
-       /// Signal Bars Good
-       /// <see url="https://fontawesome.com/icons/signal-bars-good?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-good?f=classic&amp;s=thin">Signal Bars Good</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SignalBarsGood;
        /// <summary>
-       /// Signal Bars Good
-       /// <see url="https://fontawesome.com/icons/signal-bars-good?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-good?f=classic&amp;s=duotone">Signal Bars Good</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.SignalBarsGood;
        /// <summary>
-       /// Signal Bars Good
-       /// <see url="https://fontawesome.com/icons/signal-bars-good?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-good?f=sharp&amp;s=solid">Signal Bars Good</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.SignalBarsGood;
        /// <summary>
-       /// Signal Bars Good
-       /// <see url="https://fontawesome.com/icons/signal-bars-good?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-good?f=sharp&amp;s=regular">Signal Bars Good</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.SignalBarsGood;
        /// <summary>
-       /// Signal Bars Good
-       /// <see url="https://fontawesome.com/icons/signal-bars-good?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-good?f=sharp&amp;s=light">Signal Bars Good</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.SignalBarsGood;
        /// <summary>
-       /// Signal Bars Good
-       /// <see url="https://fontawesome.com/icons/signal-bars-good?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-good?f=sharp&amp;s=thin">Signal Bars Good</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SignalBarsGood;
    }
    /// <summary>
    /// Signal Bars Slash
-   /// <see url="https://fontawesome.com/icons/signal-bars-slash" />
+   /// <a href="https://fontawesome.com/icons/signal-bars-slash">Signal Bars Slash</a>
    /// </summary>
    public static partial class SignalBarsSlashIcon
    {
        /// <summary>
-       /// Signal Bars Slash
-       /// <see url="https://fontawesome.com/icons/signal-bars-slash?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-slash?f=classic&amp;s=solid">Signal Bars Slash</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.SignalBarsSlash;
        /// <summary>
-       /// Signal Bars Slash
-       /// <see url="https://fontawesome.com/icons/signal-bars-slash?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-slash?f=classic&amp;s=regular">Signal Bars Slash</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalBarsSlash;
        /// <summary>
-       /// Signal Bars Slash
-       /// <see url="https://fontawesome.com/icons/signal-bars-slash?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-slash?f=classic&amp;s=light">Signal Bars Slash</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.SignalBarsSlash;
        /// <summary>
-       /// Signal Bars Slash
-       /// <see url="https://fontawesome.com/icons/signal-bars-slash?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-slash?f=classic&amp;s=thin">Signal Bars Slash</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SignalBarsSlash;
        /// <summary>
-       /// Signal Bars Slash
-       /// <see url="https://fontawesome.com/icons/signal-bars-slash?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-slash?f=classic&amp;s=duotone">Signal Bars Slash</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.SignalBarsSlash;
        /// <summary>
-       /// Signal Bars Slash
-       /// <see url="https://fontawesome.com/icons/signal-bars-slash?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-slash?f=sharp&amp;s=solid">Signal Bars Slash</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.SignalBarsSlash;
        /// <summary>
-       /// Signal Bars Slash
-       /// <see url="https://fontawesome.com/icons/signal-bars-slash?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-slash?f=sharp&amp;s=regular">Signal Bars Slash</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.SignalBarsSlash;
        /// <summary>
-       /// Signal Bars Slash
-       /// <see url="https://fontawesome.com/icons/signal-bars-slash?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-slash?f=sharp&amp;s=light">Signal Bars Slash</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.SignalBarsSlash;
        /// <summary>
-       /// Signal Bars Slash
-       /// <see url="https://fontawesome.com/icons/signal-bars-slash?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-slash?f=sharp&amp;s=thin">Signal Bars Slash</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SignalBarsSlash;
    }
    /// <summary>
    /// Signal Bars Weak
-   /// <see url="https://fontawesome.com/icons/signal-bars-weak" />
+   /// <a href="https://fontawesome.com/icons/signal-bars-weak">Signal Bars Weak</a>
    /// </summary>
    public static partial class SignalBarsWeakIcon
    {
        /// <summary>
-       /// Signal Bars Weak
-       /// <see url="https://fontawesome.com/icons/signal-bars-weak?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-weak?f=classic&amp;s=solid">Signal Bars Weak</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.SignalBarsWeak;
        /// <summary>
-       /// Signal Bars Weak
-       /// <see url="https://fontawesome.com/icons/signal-bars-weak?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-weak?f=classic&amp;s=regular">Signal Bars Weak</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalBarsWeak;
        /// <summary>
-       /// Signal Bars Weak
-       /// <see url="https://fontawesome.com/icons/signal-bars-weak?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-weak?f=classic&amp;s=light">Signal Bars Weak</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.SignalBarsWeak;
        /// <summary>
-       /// Signal Bars Weak
-       /// <see url="https://fontawesome.com/icons/signal-bars-weak?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-weak?f=classic&amp;s=thin">Signal Bars Weak</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SignalBarsWeak;
        /// <summary>
-       /// Signal Bars Weak
-       /// <see url="https://fontawesome.com/icons/signal-bars-weak?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-weak?f=classic&amp;s=duotone">Signal Bars Weak</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.SignalBarsWeak;
        /// <summary>
-       /// Signal Bars Weak
-       /// <see url="https://fontawesome.com/icons/signal-bars-weak?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-weak?f=sharp&amp;s=solid">Signal Bars Weak</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.SignalBarsWeak;
        /// <summary>
-       /// Signal Bars Weak
-       /// <see url="https://fontawesome.com/icons/signal-bars-weak?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-weak?f=sharp&amp;s=regular">Signal Bars Weak</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.SignalBarsWeak;
        /// <summary>
-       /// Signal Bars Weak
-       /// <see url="https://fontawesome.com/icons/signal-bars-weak?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-weak?f=sharp&amp;s=light">Signal Bars Weak</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.SignalBarsWeak;
        /// <summary>
-       /// Signal Bars Weak
-       /// <see url="https://fontawesome.com/icons/signal-bars-weak?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/signal-bars-weak?f=sharp&amp;s=thin">Signal Bars Weak</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SignalBarsWeak;
    }
    /// <summary>
    /// Signal Fair
-   /// <see url="https://fontawesome.com/icons/signal-fair" />
+   /// <a href="https://fontawesome.com/icons/signal-fair">Signal Fair</a>
    /// </summary>
    public static partial class SignalFairIcon
    {
        /// <summary>
-       /// Signal Fair
-       /// <see url="https://fontawesome.com/icons/signal-fair?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/signal-fair?f=classic&amp;s=solid">Signal Fair</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.SignalFair;
        /// <summary>
-       /// Signal Fair
-       /// <see url="https://fontawesome.com/icons/signal-fair?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/signal-fair?f=classic&amp;s=regular">Signal Fair</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalFair;
        /// <summary>
-       /// Signal Fair
-       /// <see url="https://fontawesome.com/icons/signal-fair?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/signal-fair?f=classic&amp;s=light">Signal Fair</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.SignalFair;
        /// <summary>
-       /// Signal Fair
-       /// <see url="https://fontawesome.com/icons/signal-fair?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/signal-fair?f=classic&amp;s=thin">Signal Fair</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SignalFair;
        /// <summary>
-       /// Signal Fair
-       /// <see url="https://fontawesome.com/icons/signal-fair?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/signal-fair?f=classic&amp;s=duotone">Signal Fair</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.SignalFair;
        /// <summary>
-       /// Signal Fair
-       /// <see url="https://fontawesome.com/icons/signal-fair?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/signal-fair?f=sharp&amp;s=solid">Signal Fair</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.SignalFair;
        /// <summary>
-       /// Signal Fair
-       /// <see url="https://fontawesome.com/icons/signal-fair?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/signal-fair?f=sharp&amp;s=regular">Signal Fair</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.SignalFair;
        /// <summary>
-       /// Signal Fair
-       /// <see url="https://fontawesome.com/icons/signal-fair?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/signal-fair?f=sharp&amp;s=light">Signal Fair</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.SignalFair;
        /// <summary>
-       /// Signal Fair
-       /// <see url="https://fontawesome.com/icons/signal-fair?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/signal-fair?f=sharp&amp;s=thin">Signal Fair</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SignalFair;
    }
    /// <summary>
    /// Signal Good
-   /// <see url="https://fontawesome.com/icons/signal-good" />
+   /// <a href="https://fontawesome.com/icons/signal-good">Signal Good</a>
    /// </summary>
    public static partial class SignalGoodIcon
    {
        /// <summary>
-       /// Signal Good
-       /// <see url="https://fontawesome.com/icons/signal-good?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/signal-good?f=classic&amp;s=solid">Signal Good</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.SignalGood;
        /// <summary>
-       /// Signal Good
-       /// <see url="https://fontawesome.com/icons/signal-good?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/signal-good?f=classic&amp;s=regular">Signal Good</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalGood;
        /// <summary>
-       /// Signal Good
-       /// <see url="https://fontawesome.com/icons/signal-good?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/signal-good?f=classic&amp;s=light">Signal Good</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.SignalGood;
        /// <summary>
-       /// Signal Good
-       /// <see url="https://fontawesome.com/icons/signal-good?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/signal-good?f=classic&amp;s=thin">Signal Good</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SignalGood;
        /// <summary>
-       /// Signal Good
-       /// <see url="https://fontawesome.com/icons/signal-good?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/signal-good?f=classic&amp;s=duotone">Signal Good</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.SignalGood;
        /// <summary>
-       /// Signal Good
-       /// <see url="https://fontawesome.com/icons/signal-good?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/signal-good?f=sharp&amp;s=solid">Signal Good</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.SignalGood;
        /// <summary>
-       /// Signal Good
-       /// <see url="https://fontawesome.com/icons/signal-good?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/signal-good?f=sharp&amp;s=regular">Signal Good</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.SignalGood;
        /// <summary>
-       /// Signal Good
-       /// <see url="https://fontawesome.com/icons/signal-good?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/signal-good?f=sharp&amp;s=light">Signal Good</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.SignalGood;
        /// <summary>
-       /// Signal Good
-       /// <see url="https://fontawesome.com/icons/signal-good?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/signal-good?f=sharp&amp;s=thin">Signal Good</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SignalGood;
    }
    /// <summary>
    /// Signal Slash
-   /// <see url="https://fontawesome.com/icons/signal-slash" />
+   /// <a href="https://fontawesome.com/icons/signal-slash">Signal Slash</a>
    /// </summary>
    public static partial class SignalSlashIcon
    {
        /// <summary>
-       /// Signal Slash
-       /// <see url="https://fontawesome.com/icons/signal-slash?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/signal-slash?f=classic&amp;s=solid">Signal Slash</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.SignalSlash;
        /// <summary>
-       /// Signal Slash
-       /// <see url="https://fontawesome.com/icons/signal-slash?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/signal-slash?f=classic&amp;s=regular">Signal Slash</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalSlash;
        /// <summary>
-       /// Signal Slash
-       /// <see url="https://fontawesome.com/icons/signal-slash?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/signal-slash?f=classic&amp;s=light">Signal Slash</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.SignalSlash;
        /// <summary>
-       /// Signal Slash
-       /// <see url="https://fontawesome.com/icons/signal-slash?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/signal-slash?f=classic&amp;s=thin">Signal Slash</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SignalSlash;
        /// <summary>
-       /// Signal Slash
-       /// <see url="https://fontawesome.com/icons/signal-slash?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/signal-slash?f=classic&amp;s=duotone">Signal Slash</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.SignalSlash;
        /// <summary>
-       /// Signal Slash
-       /// <see url="https://fontawesome.com/icons/signal-slash?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/signal-slash?f=sharp&amp;s=solid">Signal Slash</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.SignalSlash;
        /// <summary>
-       /// Signal Slash
-       /// <see url="https://fontawesome.com/icons/signal-slash?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/signal-slash?f=sharp&amp;s=regular">Signal Slash</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.SignalSlash;
        /// <summary>
-       /// Signal Slash
-       /// <see url="https://fontawesome.com/icons/signal-slash?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/signal-slash?f=sharp&amp;s=light">Signal Slash</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.SignalSlash;
        /// <summary>
-       /// Signal Slash
-       /// <see url="https://fontawesome.com/icons/signal-slash?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/signal-slash?f=sharp&amp;s=thin">Signal Slash</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SignalSlash;
    }
    /// <summary>
    /// Signal Stream
-   /// <see url="https://fontawesome.com/icons/signal-stream" />
+   /// <a href="https://fontawesome.com/icons/signal-stream">Signal Stream</a>
    /// </summary>
    public static partial class SignalStreamIcon
    {
        /// <summary>
-       /// Signal Stream
-       /// <see url="https://fontawesome.com/icons/signal-stream?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/signal-stream?f=classic&amp;s=solid">Signal Stream</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.SignalStream;
        /// <summary>
-       /// Signal Stream
-       /// <see url="https://fontawesome.com/icons/signal-stream?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/signal-stream?f=classic&amp;s=regular">Signal Stream</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalStream;
        /// <summary>
-       /// Signal Stream
-       /// <see url="https://fontawesome.com/icons/signal-stream?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/signal-stream?f=classic&amp;s=light">Signal Stream</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.SignalStream;
        /// <summary>
-       /// Signal Stream
-       /// <see url="https://fontawesome.com/icons/signal-stream?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/signal-stream?f=classic&amp;s=thin">Signal Stream</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SignalStream;
        /// <summary>
-       /// Signal Stream
-       /// <see url="https://fontawesome.com/icons/signal-stream?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/signal-stream?f=classic&amp;s=duotone">Signal Stream</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.SignalStream;
        /// <summary>
-       /// Signal Stream
-       /// <see url="https://fontawesome.com/icons/signal-stream?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/signal-stream?f=sharp&amp;s=solid">Signal Stream</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.SignalStream;
        /// <summary>
-       /// Signal Stream
-       /// <see url="https://fontawesome.com/icons/signal-stream?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/signal-stream?f=sharp&amp;s=regular">Signal Stream</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.SignalStream;
        /// <summary>
-       /// Signal Stream
-       /// <see url="https://fontawesome.com/icons/signal-stream?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/signal-stream?f=sharp&amp;s=light">Signal Stream</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.SignalStream;
        /// <summary>
-       /// Signal Stream
-       /// <see url="https://fontawesome.com/icons/signal-stream?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/signal-stream?f=sharp&amp;s=thin">Signal Stream</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SignalStream;
    }
    /// <summary>
    /// Signal Stream Slash
-   /// <see url="https://fontawesome.com/icons/signal-stream-slash" />
+   /// <a href="https://fontawesome.com/icons/signal-stream-slash">Signal Stream Slash</a>
    /// </summary>
    public static partial class SignalStreamSlashIcon
    {
        /// <summary>
-       /// Signal Stream Slash
-       /// <see url="https://fontawesome.com/icons/signal-stream-slash?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/signal-stream-slash?f=classic&amp;s=solid">Signal Stream Slash</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.SignalStreamSlash;
        /// <summary>
-       /// Signal Stream Slash
-       /// <see url="https://fontawesome.com/icons/signal-stream-slash?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/signal-stream-slash?f=classic&amp;s=regular">Signal Stream Slash</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalStreamSlash;
        /// <summary>
-       /// Signal Stream Slash
-       /// <see url="https://fontawesome.com/icons/signal-stream-slash?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/signal-stream-slash?f=classic&amp;s=light">Signal Stream Slash</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.SignalStreamSlash;
        /// <summary>
-       /// Signal Stream Slash
-       /// <see url="https://fontawesome.com/icons/signal-stream-slash?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/signal-stream-slash?f=classic&amp;s=thin">Signal Stream Slash</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SignalStreamSlash;
        /// <summary>
-       /// Signal Stream Slash
-       /// <see url="https://fontawesome.com/icons/signal-stream-slash?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/signal-stream-slash?f=classic&amp;s=duotone">Signal Stream Slash</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.SignalStreamSlash;
        /// <summary>
-       /// Signal Stream Slash
-       /// <see url="https://fontawesome.com/icons/signal-stream-slash?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/signal-stream-slash?f=sharp&amp;s=solid">Signal Stream Slash</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.SignalStreamSlash;
        /// <summary>
-       /// Signal Stream Slash
-       /// <see url="https://fontawesome.com/icons/signal-stream-slash?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/signal-stream-slash?f=sharp&amp;s=regular">Signal Stream Slash</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.SignalStreamSlash;
        /// <summary>
-       /// Signal Stream Slash
-       /// <see url="https://fontawesome.com/icons/signal-stream-slash?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/signal-stream-slash?f=sharp&amp;s=light">Signal Stream Slash</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.SignalStreamSlash;
        /// <summary>
-       /// Signal Stream Slash
-       /// <see url="https://fontawesome.com/icons/signal-stream-slash?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/signal-stream-slash?f=sharp&amp;s=thin">Signal Stream Slash</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SignalStreamSlash;
    }
    /// <summary>
    /// Signal Strong
-   /// <see url="https://fontawesome.com/icons/signal-strong" />
+   /// <a href="https://fontawesome.com/icons/signal-strong">Signal Strong</a>
    /// </summary>
    public static partial class SignalStrongIcon
    {
        /// <summary>
-       /// Signal Strong
-       /// <see url="https://fontawesome.com/icons/signal-strong?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/signal-strong?f=classic&amp;s=solid">Signal Strong</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.SignalStrong;
        /// <summary>
-       /// Signal Strong
-       /// <see url="https://fontawesome.com/icons/signal-strong?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/signal-strong?f=classic&amp;s=regular">Signal Strong</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalStrong;
        /// <summary>
-       /// Signal Strong
-       /// <see url="https://fontawesome.com/icons/signal-strong?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/signal-strong?f=classic&amp;s=light">Signal Strong</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.SignalStrong;
        /// <summary>
-       /// Signal Strong
-       /// <see url="https://fontawesome.com/icons/signal-strong?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/signal-strong?f=classic&amp;s=thin">Signal Strong</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SignalStrong;
        /// <summary>
-       /// Signal Strong
-       /// <see url="https://fontawesome.com/icons/signal-strong?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/signal-strong?f=classic&amp;s=duotone">Signal Strong</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.SignalStrong;
        /// <summary>
-       /// Signal Strong
-       /// <see url="https://fontawesome.com/icons/signal-strong?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/signal-strong?f=sharp&amp;s=solid">Signal Strong</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.SignalStrong;
        /// <summary>
-       /// Signal Strong
-       /// <see url="https://fontawesome.com/icons/signal-strong?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/signal-strong?f=sharp&amp;s=regular">Signal Strong</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.SignalStrong;
        /// <summary>
-       /// Signal Strong
-       /// <see url="https://fontawesome.com/icons/signal-strong?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/signal-strong?f=sharp&amp;s=light">Signal Strong</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.SignalStrong;
        /// <summary>
-       /// Signal Strong
-       /// <see url="https://fontawesome.com/icons/signal-strong?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/signal-strong?f=sharp&amp;s=thin">Signal Strong</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SignalStrong;
    }
    /// <summary>
    /// Signal Weak
-   /// <see url="https://fontawesome.com/icons/signal-weak" />
+   /// <a href="https://fontawesome.com/icons/signal-weak">Signal Weak</a>
    /// </summary>
    public static partial class SignalWeakIcon
    {
        /// <summary>
-       /// Signal Weak
-       /// <see url="https://fontawesome.com/icons/signal-weak?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/signal-weak?f=classic&amp;s=solid">Signal Weak</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.SignalWeak;
        /// <summary>
-       /// Signal Weak
-       /// <see url="https://fontawesome.com/icons/signal-weak?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/signal-weak?f=classic&amp;s=regular">Signal Weak</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalWeak;
        /// <summary>
-       /// Signal Weak
-       /// <see url="https://fontawesome.com/icons/signal-weak?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/signal-weak?f=classic&amp;s=light">Signal Weak</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.SignalWeak;
        /// <summary>
-       /// Signal Weak
-       /// <see url="https://fontawesome.com/icons/signal-weak?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/signal-weak?f=classic&amp;s=thin">Signal Weak</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SignalWeak;
        /// <summary>
-       /// Signal Weak
-       /// <see url="https://fontawesome.com/icons/signal-weak?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/signal-weak?f=classic&amp;s=duotone">Signal Weak</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.SignalWeak;
        /// <summary>
-       /// Signal Weak
-       /// <see url="https://fontawesome.com/icons/signal-weak?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/signal-weak?f=sharp&amp;s=solid">Signal Weak</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.SignalWeak;
        /// <summary>
-       /// Signal Weak
-       /// <see url="https://fontawesome.com/icons/signal-weak?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/signal-weak?f=sharp&amp;s=regular">Signal Weak</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.SignalWeak;
        /// <summary>
-       /// Signal Weak
-       /// <see url="https://fontawesome.com/icons/signal-weak?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/signal-weak?f=sharp&amp;s=light">Signal Weak</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.SignalWeak;
        /// <summary>
-       /// Signal Weak
-       /// <see url="https://fontawesome.com/icons/signal-weak?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/signal-weak?f=sharp&amp;s=thin">Signal Weak</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SignalWeak;
    }
    /// <summary>
    /// Tower Broadcast
-   /// <see url="https://fontawesome.com/icons/tower-broadcast" />
+   /// <a href="https://fontawesome.com/icons/tower-broadcast">Tower Broadcast</a>
    /// </summary>
    public static partial class TowerBroadcastIcon
    {
        /// <summary>
-       /// Tower Broadcast
-       /// <see url="https://fontawesome.com/icons/tower-broadcast?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/tower-broadcast?f=classic&amp;s=solid">Tower Broadcast</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.TowerBroadcast;
        /// <summary>
-       /// Tower Broadcast
-       /// <see url="https://fontawesome.com/icons/tower-broadcast?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/tower-broadcast?f=classic&amp;s=regular">Tower Broadcast</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TowerBroadcast;
        /// <summary>
-       /// Tower Broadcast
-       /// <see url="https://fontawesome.com/icons/tower-broadcast?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/tower-broadcast?f=classic&amp;s=light">Tower Broadcast</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.TowerBroadcast;
        /// <summary>
-       /// Tower Broadcast
-       /// <see url="https://fontawesome.com/icons/tower-broadcast?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/tower-broadcast?f=classic&amp;s=thin">Tower Broadcast</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.TowerBroadcast;
        /// <summary>
-       /// Tower Broadcast
-       /// <see url="https://fontawesome.com/icons/tower-broadcast?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/tower-broadcast?f=classic&amp;s=duotone">Tower Broadcast</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.TowerBroadcast;
        /// <summary>
-       /// Tower Broadcast
-       /// <see url="https://fontawesome.com/icons/tower-broadcast?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/tower-broadcast?f=sharp&amp;s=solid">Tower Broadcast</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.TowerBroadcast;
        /// <summary>
-       /// Tower Broadcast
-       /// <see url="https://fontawesome.com/icons/tower-broadcast?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/tower-broadcast?f=sharp&amp;s=regular">Tower Broadcast</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.TowerBroadcast;
        /// <summary>
-       /// Tower Broadcast
-       /// <see url="https://fontawesome.com/icons/tower-broadcast?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/tower-broadcast?f=sharp&amp;s=light">Tower Broadcast</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.TowerBroadcast;
        /// <summary>
-       /// Tower Broadcast
-       /// <see url="https://fontawesome.com/icons/tower-broadcast?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/tower-broadcast?f=sharp&amp;s=thin">Tower Broadcast</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.TowerBroadcast;
    }
    /// <summary>
    /// Tower Cell
-   /// <see url="https://fontawesome.com/icons/tower-cell" />
+   /// <a href="https://fontawesome.com/icons/tower-cell">Tower Cell</a>
    /// </summary>
    public static partial class TowerCellIcon
    {
        /// <summary>
-       /// Tower Cell
-       /// <see url="https://fontawesome.com/icons/tower-cell?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/tower-cell?f=classic&amp;s=solid">Tower Cell</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.TowerCell;
        /// <summary>
-       /// Tower Cell
-       /// <see url="https://fontawesome.com/icons/tower-cell?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/tower-cell?f=classic&amp;s=regular">Tower Cell</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TowerCell;
        /// <summary>
-       /// Tower Cell
-       /// <see url="https://fontawesome.com/icons/tower-cell?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/tower-cell?f=classic&amp;s=light">Tower Cell</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.TowerCell;
        /// <summary>
-       /// Tower Cell
-       /// <see url="https://fontawesome.com/icons/tower-cell?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/tower-cell?f=classic&amp;s=thin">Tower Cell</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.TowerCell;
        /// <summary>
-       /// Tower Cell
-       /// <see url="https://fontawesome.com/icons/tower-cell?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/tower-cell?f=classic&amp;s=duotone">Tower Cell</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.TowerCell;
        /// <summary>
-       /// Tower Cell
-       /// <see url="https://fontawesome.com/icons/tower-cell?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/tower-cell?f=sharp&amp;s=solid">Tower Cell</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.TowerCell;
        /// <summary>
-       /// Tower Cell
-       /// <see url="https://fontawesome.com/icons/tower-cell?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/tower-cell?f=sharp&amp;s=regular">Tower Cell</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.TowerCell;
        /// <summary>
-       /// Tower Cell
-       /// <see url="https://fontawesome.com/icons/tower-cell?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/tower-cell?f=sharp&amp;s=light">Tower Cell</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.TowerCell;
        /// <summary>
-       /// Tower Cell
-       /// <see url="https://fontawesome.com/icons/tower-cell?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/tower-cell?f=sharp&amp;s=thin">Tower Cell</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.TowerCell;
    }
    /// <summary>
    /// Wifi
-   /// <see url="https://fontawesome.com/icons/wifi" />
+   /// <a href="https://fontawesome.com/icons/wifi">Wifi</a>
    /// </summary>
    public static partial class WifiIcon
    {
        /// <summary>
-       /// Wifi
-       /// <see url="https://fontawesome.com/icons/wifi?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/wifi?f=classic&amp;s=solid">Wifi</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Wifi;
        /// <summary>
-       /// Wifi
-       /// <see url="https://fontawesome.com/icons/wifi?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/wifi?f=classic&amp;s=regular">Wifi</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Wifi;
        /// <summary>
-       /// Wifi
-       /// <see url="https://fontawesome.com/icons/wifi?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/wifi?f=classic&amp;s=light">Wifi</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Wifi;
        /// <summary>
-       /// Wifi
-       /// <see url="https://fontawesome.com/icons/wifi?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/wifi?f=classic&amp;s=thin">Wifi</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Wifi;
        /// <summary>
-       /// Wifi
-       /// <see url="https://fontawesome.com/icons/wifi?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/wifi?f=classic&amp;s=duotone">Wifi</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.Wifi;
        /// <summary>
-       /// Wifi
-       /// <see url="https://fontawesome.com/icons/wifi?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/wifi?f=sharp&amp;s=solid">Wifi</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Wifi;
        /// <summary>
-       /// Wifi
-       /// <see url="https://fontawesome.com/icons/wifi?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/wifi?f=sharp&amp;s=regular">Wifi</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Wifi;
        /// <summary>
-       /// Wifi
-       /// <see url="https://fontawesome.com/icons/wifi?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/wifi?f=sharp&amp;s=light">Wifi</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Wifi;
        /// <summary>
-       /// Wifi
-       /// <see url="https://fontawesome.com/icons/wifi?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/wifi?f=sharp&amp;s=thin">Wifi</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Wifi;
    }
    /// <summary>
    /// Wifi Exclamation
-   /// <see url="https://fontawesome.com/icons/wifi-exclamation" />
+   /// <a href="https://fontawesome.com/icons/wifi-exclamation">Wifi Exclamation</a>
    /// </summary>
    public static partial class WifiExclamationIcon
    {
        /// <summary>
-       /// Wifi Exclamation
-       /// <see url="https://fontawesome.com/icons/wifi-exclamation?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/wifi-exclamation?f=classic&amp;s=solid">Wifi Exclamation</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.WifiExclamation;
        /// <summary>
-       /// Wifi Exclamation
-       /// <see url="https://fontawesome.com/icons/wifi-exclamation?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/wifi-exclamation?f=classic&amp;s=regular">Wifi Exclamation</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.WifiExclamation;
        /// <summary>
-       /// Wifi Exclamation
-       /// <see url="https://fontawesome.com/icons/wifi-exclamation?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/wifi-exclamation?f=classic&amp;s=light">Wifi Exclamation</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.WifiExclamation;
        /// <summary>
-       /// Wifi Exclamation
-       /// <see url="https://fontawesome.com/icons/wifi-exclamation?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/wifi-exclamation?f=classic&amp;s=thin">Wifi Exclamation</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.WifiExclamation;
        /// <summary>
-       /// Wifi Exclamation
-       /// <see url="https://fontawesome.com/icons/wifi-exclamation?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/wifi-exclamation?f=classic&amp;s=duotone">Wifi Exclamation</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.WifiExclamation;
        /// <summary>
-       /// Wifi Exclamation
-       /// <see url="https://fontawesome.com/icons/wifi-exclamation?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/wifi-exclamation?f=sharp&amp;s=solid">Wifi Exclamation</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.WifiExclamation;
        /// <summary>
-       /// Wifi Exclamation
-       /// <see url="https://fontawesome.com/icons/wifi-exclamation?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/wifi-exclamation?f=sharp&amp;s=regular">Wifi Exclamation</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.WifiExclamation;
        /// <summary>
-       /// Wifi Exclamation
-       /// <see url="https://fontawesome.com/icons/wifi-exclamation?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/wifi-exclamation?f=sharp&amp;s=light">Wifi Exclamation</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.WifiExclamation;
        /// <summary>
-       /// Wifi Exclamation
-       /// <see url="https://fontawesome.com/icons/wifi-exclamation?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/wifi-exclamation?f=sharp&amp;s=thin">Wifi Exclamation</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.WifiExclamation;
    }
    /// <summary>
    /// Wifi Fair
-   /// <see url="https://fontawesome.com/icons/wifi-fair" />
+   /// <a href="https://fontawesome.com/icons/wifi-fair">Wifi Fair</a>
    /// </summary>
    public static partial class WifiFairIcon
    {
        /// <summary>
-       /// Wifi Fair
-       /// <see url="https://fontawesome.com/icons/wifi-fair?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/wifi-fair?f=classic&amp;s=solid">Wifi Fair</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.WifiFair;
        /// <summary>
-       /// Wifi Fair
-       /// <see url="https://fontawesome.com/icons/wifi-fair?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/wifi-fair?f=classic&amp;s=regular">Wifi Fair</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.WifiFair;
        /// <summary>
-       /// Wifi Fair
-       /// <see url="https://fontawesome.com/icons/wifi-fair?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/wifi-fair?f=classic&amp;s=light">Wifi Fair</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.WifiFair;
        /// <summary>
-       /// Wifi Fair
-       /// <see url="https://fontawesome.com/icons/wifi-fair?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/wifi-fair?f=classic&amp;s=thin">Wifi Fair</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.WifiFair;
        /// <summary>
-       /// Wifi Fair
-       /// <see url="https://fontawesome.com/icons/wifi-fair?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/wifi-fair?f=classic&amp;s=duotone">Wifi Fair</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.WifiFair;
        /// <summary>
-       /// Wifi Fair
-       /// <see url="https://fontawesome.com/icons/wifi-fair?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/wifi-fair?f=sharp&amp;s=solid">Wifi Fair</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.WifiFair;
        /// <summary>
-       /// Wifi Fair
-       /// <see url="https://fontawesome.com/icons/wifi-fair?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/wifi-fair?f=sharp&amp;s=regular">Wifi Fair</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.WifiFair;
        /// <summary>
-       /// Wifi Fair
-       /// <see url="https://fontawesome.com/icons/wifi-fair?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/wifi-fair?f=sharp&amp;s=light">Wifi Fair</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.WifiFair;
        /// <summary>
-       /// Wifi Fair
-       /// <see url="https://fontawesome.com/icons/wifi-fair?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/wifi-fair?f=sharp&amp;s=thin">Wifi Fair</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.WifiFair;
    }
    /// <summary>
    /// Wifi Weak
-   /// <see url="https://fontawesome.com/icons/wifi-weak" />
+   /// <a href="https://fontawesome.com/icons/wifi-weak">Wifi Weak</a>
    /// </summary>
    public static partial class WifiWeakIcon
    {
        /// <summary>
-       /// Wifi Weak
-       /// <see url="https://fontawesome.com/icons/wifi-weak?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/wifi-weak?f=classic&amp;s=solid">Wifi Weak</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.WifiWeak;
        /// <summary>
-       /// Wifi Weak
-       /// <see url="https://fontawesome.com/icons/wifi-weak?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/wifi-weak?f=classic&amp;s=regular">Wifi Weak</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.WifiWeak;
        /// <summary>
-       /// Wifi Weak
-       /// <see url="https://fontawesome.com/icons/wifi-weak?f=classic&s=light" />
+       /// <a href="https://fontawesome.com/icons/wifi-weak?f=classic&amp;s=light">Wifi Weak</a>
        /// </summary>
        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.WifiWeak;
        /// <summary>
-       /// Wifi Weak
-       /// <see url="https://fontawesome.com/icons/wifi-weak?f=classic&s=thin" />
+       /// <a href="https://fontawesome.com/icons/wifi-weak?f=classic&amp;s=thin">Wifi Weak</a>
        /// </summary>
        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.WifiWeak;
        /// <summary>
-       /// Wifi Weak
-       /// <see url="https://fontawesome.com/icons/wifi-weak?f=classic&s=duotone" />
+       /// <a href="https://fontawesome.com/icons/wifi-weak?f=classic&amp;s=duotone">Wifi Weak</a>
        /// </summary>
        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.WifiWeak;
        /// <summary>
-       /// Wifi Weak
-       /// <see url="https://fontawesome.com/icons/wifi-weak?f=sharp&s=sharpsolid" />
+       /// <a href="https://fontawesome.com/icons/wifi-weak?f=sharp&amp;s=solid">Wifi Weak</a>
        /// </summary>
        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.WifiWeak;
        /// <summary>
-       /// Wifi Weak
-       /// <see url="https://fontawesome.com/icons/wifi-weak?f=sharp&s=sharpregular" />
+       /// <a href="https://fontawesome.com/icons/wifi-weak?f=sharp&amp;s=regular">Wifi Weak</a>
        /// </summary>
        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.WifiWeak;
        /// <summary>
-       /// Wifi Weak
-       /// <see url="https://fontawesome.com/icons/wifi-weak?f=sharp&s=sharplight" />
+       /// <a href="https://fontawesome.com/icons/wifi-weak?f=sharp&amp;s=light">Wifi Weak</a>
        /// </summary>
        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.WifiWeak;
        /// <summary>
-       /// Wifi Weak
-       /// <see url="https://fontawesome.com/icons/wifi-weak?f=sharp&s=sharpthin" />
+       /// <a href="https://fontawesome.com/icons/wifi-weak?f=sharp&amp;s=thin">Wifi Weak</a>
        /// </summary>
        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.WifiWeak;
    }

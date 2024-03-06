@@ -8,299 +8,273 @@ public static partial class FaEducation
 {
    /// <summary>
    /// Apple Whole
-   /// <see url="https://fontawesome.com/icons/apple-whole" />
+   /// <a href="https://fontawesome.com/icons/apple-whole">Apple Whole</a>
    /// </summary>
    public static partial class AppleWholeIcon
    {
        /// <summary>
-       /// Apple Whole
-       /// <see url="https://fontawesome.com/icons/apple-whole?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/apple-whole?f=classic&amp;s=solid">Apple Whole</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.AppleWhole;
    }
    /// <summary>
    /// Atom
-   /// <see url="https://fontawesome.com/icons/atom" />
+   /// <a href="https://fontawesome.com/icons/atom">Atom</a>
    /// </summary>
    public static partial class AtomIcon
    {
        /// <summary>
-       /// Atom
-       /// <see url="https://fontawesome.com/icons/atom?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/atom?f=classic&amp;s=solid">Atom</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Atom;
    }
    /// <summary>
    /// Award
-   /// <see url="https://fontawesome.com/icons/award" />
+   /// <a href="https://fontawesome.com/icons/award">Award</a>
    /// </summary>
    public static partial class AwardIcon
    {
        /// <summary>
-       /// Award
-       /// <see url="https://fontawesome.com/icons/award?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/award?f=classic&amp;s=solid">Award</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Award;
    }
    /// <summary>
    /// Bell
-   /// <see url="https://fontawesome.com/icons/bell" />
+   /// <a href="https://fontawesome.com/icons/bell">Bell</a>
    /// </summary>
    public static partial class BellIcon
    {
        /// <summary>
-       /// Bell
-       /// <see url="https://fontawesome.com/icons/bell?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=regular">Bell</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Bell;
        /// <summary>
-       /// Bell
-       /// <see url="https://fontawesome.com/icons/bell?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=solid">Bell</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Bell;
    }
    /// <summary>
    /// Bell Slash
-   /// <see url="https://fontawesome.com/icons/bell-slash" />
+   /// <a href="https://fontawesome.com/icons/bell-slash">Bell Slash</a>
    /// </summary>
    public static partial class BellSlashIcon
    {
        /// <summary>
-       /// Bell Slash
-       /// <see url="https://fontawesome.com/icons/bell-slash?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/bell-slash?f=classic&amp;s=regular">Bell Slash</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.BellSlash;
        /// <summary>
-       /// Bell Slash
-       /// <see url="https://fontawesome.com/icons/bell-slash?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/bell-slash?f=classic&amp;s=solid">Bell Slash</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BellSlash;
    }
    /// <summary>
    /// Book Open
-   /// <see url="https://fontawesome.com/icons/book-open" />
+   /// <a href="https://fontawesome.com/icons/book-open">Book Open</a>
    /// </summary>
    public static partial class BookOpenIcon
    {
        /// <summary>
-       /// Book Open
-       /// <see url="https://fontawesome.com/icons/book-open?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/book-open?f=classic&amp;s=solid">Book Open</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BookOpen;
    }
    /// <summary>
    /// Book Open Reader
-   /// <see url="https://fontawesome.com/icons/book-open-reader" />
+   /// <a href="https://fontawesome.com/icons/book-open-reader">Book Open Reader</a>
    /// </summary>
    public static partial class BookOpenReaderIcon
    {
        /// <summary>
-       /// Book Open Reader
-       /// <see url="https://fontawesome.com/icons/book-open-reader?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/book-open-reader?f=classic&amp;s=solid">Book Open Reader</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BookOpenReader;
    }
    /// <summary>
    /// Chalkboard
-   /// <see url="https://fontawesome.com/icons/chalkboard" />
+   /// <a href="https://fontawesome.com/icons/chalkboard">Chalkboard</a>
    /// </summary>
    public static partial class ChalkboardIcon
    {
        /// <summary>
-       /// Chalkboard
-       /// <see url="https://fontawesome.com/icons/chalkboard?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/chalkboard?f=classic&amp;s=solid">Chalkboard</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Chalkboard;
    }
    /// <summary>
    /// Chalkboard User
-   /// <see url="https://fontawesome.com/icons/chalkboard-user" />
+   /// <a href="https://fontawesome.com/icons/chalkboard-user">Chalkboard User</a>
    /// </summary>
    public static partial class ChalkboardUserIcon
    {
        /// <summary>
-       /// Chalkboard User
-       /// <see url="https://fontawesome.com/icons/chalkboard-user?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/chalkboard-user?f=classic&amp;s=solid">Chalkboard User</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ChalkboardUser;
    }
    /// <summary>
    /// Graduation Cap
-   /// <see url="https://fontawesome.com/icons/graduation-cap" />
+   /// <a href="https://fontawesome.com/icons/graduation-cap">Graduation Cap</a>
    /// </summary>
    public static partial class GraduationCapIcon
    {
        /// <summary>
-       /// Graduation Cap
-       /// <see url="https://fontawesome.com/icons/graduation-cap?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/graduation-cap?f=classic&amp;s=solid">Graduation Cap</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.GraduationCap;
    }
    /// <summary>
    /// Laptop Code
-   /// <see url="https://fontawesome.com/icons/laptop-code" />
+   /// <a href="https://fontawesome.com/icons/laptop-code">Laptop Code</a>
    /// </summary>
    public static partial class LaptopCodeIcon
    {
        /// <summary>
-       /// Laptop Code
-       /// <see url="https://fontawesome.com/icons/laptop-code?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/laptop-code?f=classic&amp;s=solid">Laptop Code</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.LaptopCode;
    }
    /// <summary>
    /// Laptop File
-   /// <see url="https://fontawesome.com/icons/laptop-file" />
+   /// <a href="https://fontawesome.com/icons/laptop-file">Laptop File</a>
    /// </summary>
    public static partial class LaptopFileIcon
    {
        /// <summary>
-       /// Laptop File
-       /// <see url="https://fontawesome.com/icons/laptop-file?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/laptop-file?f=classic&amp;s=solid">Laptop File</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.LaptopFile;
    }
    /// <summary>
    /// Masks Theater
-   /// <see url="https://fontawesome.com/icons/masks-theater" />
+   /// <a href="https://fontawesome.com/icons/masks-theater">Masks Theater</a>
    /// </summary>
    public static partial class MasksTheaterIcon
    {
        /// <summary>
-       /// Masks Theater
-       /// <see url="https://fontawesome.com/icons/masks-theater?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/masks-theater?f=classic&amp;s=solid">Masks Theater</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MasksTheater;
    }
    /// <summary>
    /// Microscope
-   /// <see url="https://fontawesome.com/icons/microscope" />
+   /// <a href="https://fontawesome.com/icons/microscope">Microscope</a>
    /// </summary>
    public static partial class MicroscopeIcon
    {
        /// <summary>
-       /// Microscope
-       /// <see url="https://fontawesome.com/icons/microscope?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/microscope?f=classic&amp;s=solid">Microscope</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Microscope;
    }
    /// <summary>
    /// Music
-   /// <see url="https://fontawesome.com/icons/music" />
+   /// <a href="https://fontawesome.com/icons/music">Music</a>
    /// </summary>
    public static partial class MusicIcon
    {
        /// <summary>
-       /// Music
-       /// <see url="https://fontawesome.com/icons/music?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/music?f=classic&amp;s=solid">Music</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Music;
    }
    /// <summary>
    /// Person Chalkboard
-   /// <see url="https://fontawesome.com/icons/person-chalkboard" />
+   /// <a href="https://fontawesome.com/icons/person-chalkboard">Person Chalkboard</a>
    /// </summary>
    public static partial class PersonChalkboardIcon
    {
        /// <summary>
-       /// Person Chalkboard
-       /// <see url="https://fontawesome.com/icons/person-chalkboard?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/person-chalkboard?f=classic&amp;s=solid">Person Chalkboard</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PersonChalkboard;
    }
    /// <summary>
    /// School
-   /// <see url="https://fontawesome.com/icons/school" />
+   /// <a href="https://fontawesome.com/icons/school">School</a>
    /// </summary>
    public static partial class SchoolIcon
    {
        /// <summary>
-       /// School
-       /// <see url="https://fontawesome.com/icons/school?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/school?f=classic&amp;s=solid">School</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.School;
    }
    /// <summary>
    /// School Circle Check
-   /// <see url="https://fontawesome.com/icons/school-circle-check" />
+   /// <a href="https://fontawesome.com/icons/school-circle-check">School Circle Check</a>
    /// </summary>
    public static partial class SchoolCircleCheckIcon
    {
        /// <summary>
-       /// School Circle Check
-       /// <see url="https://fontawesome.com/icons/school-circle-check?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/school-circle-check?f=classic&amp;s=solid">School Circle Check</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SchoolCircleCheck;
    }
    /// <summary>
    /// School Circle Exclamation
-   /// <see url="https://fontawesome.com/icons/school-circle-exclamation" />
+   /// <a href="https://fontawesome.com/icons/school-circle-exclamation">School Circle Exclamation</a>
    /// </summary>
    public static partial class SchoolCircleExclamationIcon
    {
        /// <summary>
-       /// School Circle Exclamation
-       /// <see url="https://fontawesome.com/icons/school-circle-exclamation?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/school-circle-exclamation?f=classic&amp;s=solid">School Circle Exclamation</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SchoolCircleExclamation;
    }
    /// <summary>
    /// School Circle Xmark
-   /// <see url="https://fontawesome.com/icons/school-circle-xmark" />
+   /// <a href="https://fontawesome.com/icons/school-circle-xmark">School Circle Xmark</a>
    /// </summary>
    public static partial class SchoolCircleXmarkIcon
    {
        /// <summary>
-       /// School Circle Xmark
-       /// <see url="https://fontawesome.com/icons/school-circle-xmark?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/school-circle-xmark?f=classic&amp;s=solid">School Circle Xmark</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SchoolCircleXmark;
    }
    /// <summary>
    /// School Flag
-   /// <see url="https://fontawesome.com/icons/school-flag" />
+   /// <a href="https://fontawesome.com/icons/school-flag">School Flag</a>
    /// </summary>
    public static partial class SchoolFlagIcon
    {
        /// <summary>
-       /// School Flag
-       /// <see url="https://fontawesome.com/icons/school-flag?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/school-flag?f=classic&amp;s=solid">School Flag</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SchoolFlag;
    }
    /// <summary>
    /// School Lock
-   /// <see url="https://fontawesome.com/icons/school-lock" />
+   /// <a href="https://fontawesome.com/icons/school-lock">School Lock</a>
    /// </summary>
    public static partial class SchoolLockIcon
    {
        /// <summary>
-       /// School Lock
-       /// <see url="https://fontawesome.com/icons/school-lock?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/school-lock?f=classic&amp;s=solid">School Lock</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SchoolLock;
    }
    /// <summary>
    /// Shapes
-   /// <see url="https://fontawesome.com/icons/shapes" />
+   /// <a href="https://fontawesome.com/icons/shapes">Shapes</a>
    /// </summary>
    public static partial class ShapesIcon
    {
        /// <summary>
-       /// Shapes
-       /// <see url="https://fontawesome.com/icons/shapes?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/shapes?f=classic&amp;s=solid">Shapes</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Shapes;
    }
    /// <summary>
    /// User Graduate
-   /// <see url="https://fontawesome.com/icons/user-graduate" />
+   /// <a href="https://fontawesome.com/icons/user-graduate">User Graduate</a>
    /// </summary>
    public static partial class UserGraduateIcon
    {
        /// <summary>
-       /// User Graduate
-       /// <see url="https://fontawesome.com/icons/user-graduate?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/user-graduate?f=classic&amp;s=solid">User Graduate</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.UserGraduate;
    }

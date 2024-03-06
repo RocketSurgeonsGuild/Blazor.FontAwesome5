@@ -8,162 +8,148 @@ public static partial class FaScienceFiction
 {
    /// <summary>
    /// Atom
-   /// <see url="https://fontawesome.com/icons/atom" />
+   /// <a href="https://fontawesome.com/icons/atom">Atom</a>
    /// </summary>
    public static partial class AtomIcon
    {
        /// <summary>
-       /// Atom
-       /// <see url="https://fontawesome.com/icons/atom?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/atom?f=classic&amp;s=solid">Atom</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Atom;
    }
    /// <summary>
    /// Book Journal Whills
-   /// <see url="https://fontawesome.com/icons/book-journal-whills" />
+   /// <a href="https://fontawesome.com/icons/book-journal-whills">Book Journal Whills</a>
    /// </summary>
    public static partial class BookJournalWhillsIcon
    {
        /// <summary>
-       /// Book Journal Whills
-       /// <see url="https://fontawesome.com/icons/book-journal-whills?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/book-journal-whills?f=classic&amp;s=solid">Book Journal Whills</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BookJournalWhills;
    }
    /// <summary>
    /// Explosion
-   /// <see url="https://fontawesome.com/icons/explosion" />
+   /// <a href="https://fontawesome.com/icons/explosion">Explosion</a>
    /// </summary>
    public static partial class ExplosionIcon
    {
        /// <summary>
-       /// Explosion
-       /// <see url="https://fontawesome.com/icons/explosion?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/explosion?f=classic&amp;s=solid">Explosion</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Explosion;
    }
    /// <summary>
    /// Galactic Republic
-   /// <see url="https://fontawesome.com/icons/galactic-republic" />
+   /// <a href="https://fontawesome.com/icons/galactic-republic">Galactic Republic</a>
    /// </summary>
    public static partial class GalacticRepublicIcon
    {
        /// <summary>
-       /// Galactic Republic
-       /// <see url="https://fontawesome.com/icons/galactic-republic?f=classic&s=brands" />
+       /// <a href="https://fontawesome.com/icons/galactic-republic?f=classic&amp;s=brands">Galactic Republic</a>
        /// </summary>
        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.GalacticRepublic;
    }
    /// <summary>
    /// Galactic Senate
-   /// <see url="https://fontawesome.com/icons/galactic-senate" />
+   /// <a href="https://fontawesome.com/icons/galactic-senate">Galactic Senate</a>
    /// </summary>
    public static partial class GalacticSenateIcon
    {
        /// <summary>
-       /// Galactic Senate
-       /// <see url="https://fontawesome.com/icons/galactic-senate?f=classic&s=brands" />
+       /// <a href="https://fontawesome.com/icons/galactic-senate?f=classic&amp;s=brands">Galactic Senate</a>
        /// </summary>
        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.GalacticSenate;
    }
    /// <summary>
    /// Hand Spock
-   /// <see url="https://fontawesome.com/icons/hand-spock" />
+   /// <a href="https://fontawesome.com/icons/hand-spock">Hand Spock</a>
    /// </summary>
    public static partial class HandSpockIcon
    {
        /// <summary>
-       /// Hand Spock
-       /// <see url="https://fontawesome.com/icons/hand-spock?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/hand-spock?f=classic&amp;s=regular">Hand Spock</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.HandSpock;
        /// <summary>
-       /// Hand Spock
-       /// <see url="https://fontawesome.com/icons/hand-spock?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/hand-spock?f=classic&amp;s=solid">Hand Spock</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HandSpock;
    }
    /// <summary>
    /// Jedi
-   /// <see url="https://fontawesome.com/icons/jedi" />
+   /// <a href="https://fontawesome.com/icons/jedi">Jedi</a>
    /// </summary>
    public static partial class JediIcon
    {
        /// <summary>
-       /// Jedi
-       /// <see url="https://fontawesome.com/icons/jedi?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/jedi?f=classic&amp;s=solid">Jedi</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Jedi;
    }
    /// <summary>
    /// Jedi Order
-   /// <see url="https://fontawesome.com/icons/jedi-order" />
+   /// <a href="https://fontawesome.com/icons/jedi-order">Jedi Order</a>
    /// </summary>
    public static partial class JediOrderIcon
    {
        /// <summary>
-       /// Jedi Order
-       /// <see url="https://fontawesome.com/icons/jedi-order?f=classic&s=brands" />
+       /// <a href="https://fontawesome.com/icons/jedi-order?f=classic&amp;s=brands">Jedi Order</a>
        /// </summary>
        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.JediOrder;
    }
    /// <summary>
    /// Old Republic
-   /// <see url="https://fontawesome.com/icons/old-republic" />
+   /// <a href="https://fontawesome.com/icons/old-republic">Old Republic</a>
    /// </summary>
    public static partial class OldRepublicIcon
    {
        /// <summary>
-       /// Old Republic
-       /// <see url="https://fontawesome.com/icons/old-republic?f=classic&s=brands" />
+       /// <a href="https://fontawesome.com/icons/old-republic?f=classic&amp;s=brands">Old Republic</a>
        /// </summary>
        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.OldRepublic;
    }
    /// <summary>
    /// Robot
-   /// <see url="https://fontawesome.com/icons/robot" />
+   /// <a href="https://fontawesome.com/icons/robot">Robot</a>
    /// </summary>
    public static partial class RobotIcon
    {
        /// <summary>
-       /// Robot
-       /// <see url="https://fontawesome.com/icons/robot?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/robot?f=classic&amp;s=solid">Robot</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Robot;
    }
    /// <summary>
    /// Rocket
-   /// <see url="https://fontawesome.com/icons/rocket" />
+   /// <a href="https://fontawesome.com/icons/rocket">Rocket</a>
    /// </summary>
    public static partial class RocketIcon
    {
        /// <summary>
-       /// Rocket
-       /// <see url="https://fontawesome.com/icons/rocket?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/rocket?f=classic&amp;s=solid">Rocket</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Rocket;
    }
    /// <summary>
    /// Space Awesome
-   /// <see url="https://fontawesome.com/icons/space-awesome" />
+   /// <a href="https://fontawesome.com/icons/space-awesome">Space Awesome</a>
    /// </summary>
    public static partial class SpaceAwesomeIcon
    {
        /// <summary>
-       /// Space Awesome
-       /// <see url="https://fontawesome.com/icons/space-awesome?f=classic&s=brands" />
+       /// <a href="https://fontawesome.com/icons/space-awesome?f=classic&amp;s=brands">Space Awesome</a>
        /// </summary>
        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.SpaceAwesome;
    }
    /// <summary>
    /// User Astronaut
-   /// <see url="https://fontawesome.com/icons/user-astronaut" />
+   /// <a href="https://fontawesome.com/icons/user-astronaut">User Astronaut</a>
    /// </summary>
    public static partial class UserAstronautIcon
    {
        /// <summary>
-       /// User Astronaut
-       /// <see url="https://fontawesome.com/icons/user-astronaut?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/user-astronaut?f=classic&amp;s=solid">User Astronaut</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.UserAstronaut;
    }

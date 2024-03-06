@@ -8,354 +8,324 @@ public static partial class FaAlphabet
 {
    /// <summary>
    /// A
-   /// <see url="https://fontawesome.com/icons/a" />
+   /// <a href="https://fontawesome.com/icons/a">A</a>
    /// </summary>
    public static partial class AIcon
    {
        /// <summary>
-       /// A
-       /// <see url="https://fontawesome.com/icons/a?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/a?f=classic&amp;s=solid">A</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.A;
    }
    /// <summary>
    /// Address Card
-   /// <see url="https://fontawesome.com/icons/address-card" />
+   /// <a href="https://fontawesome.com/icons/address-card">Address Card</a>
    /// </summary>
    public static partial class AddressCardIcon
    {
        /// <summary>
-       /// Address Card
-       /// <see url="https://fontawesome.com/icons/address-card?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/address-card?f=classic&amp;s=regular">Address Card</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.AddressCard;
        /// <summary>
-       /// Address Card
-       /// <see url="https://fontawesome.com/icons/address-card?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/address-card?f=classic&amp;s=solid">Address Card</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.AddressCard;
    }
    /// <summary>
    /// B
-   /// <see url="https://fontawesome.com/icons/b" />
+   /// <a href="https://fontawesome.com/icons/b">B</a>
    /// </summary>
    public static partial class BIcon
    {
        /// <summary>
-       /// B
-       /// <see url="https://fontawesome.com/icons/b?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/b?f=classic&amp;s=solid">B</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.B;
    }
    /// <summary>
    /// C
-   /// <see url="https://fontawesome.com/icons/c" />
+   /// <a href="https://fontawesome.com/icons/c">C</a>
    /// </summary>
    public static partial class CIcon
    {
        /// <summary>
-       /// C
-       /// <see url="https://fontawesome.com/icons/c?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/c?f=classic&amp;s=solid">C</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.C;
    }
    /// <summary>
    /// Circle H
-   /// <see url="https://fontawesome.com/icons/circle-h" />
+   /// <a href="https://fontawesome.com/icons/circle-h">Circle H</a>
    /// </summary>
    public static partial class CircleHIcon
    {
        /// <summary>
-       /// Circle H
-       /// <see url="https://fontawesome.com/icons/circle-h?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/circle-h?f=classic&amp;s=solid">Circle H</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleH;
    }
    /// <summary>
    /// D
-   /// <see url="https://fontawesome.com/icons/d" />
+   /// <a href="https://fontawesome.com/icons/d">D</a>
    /// </summary>
    public static partial class DIcon
    {
        /// <summary>
-       /// D
-       /// <see url="https://fontawesome.com/icons/d?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/d?f=classic&amp;s=solid">D</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.D;
    }
    /// <summary>
    /// E
-   /// <see url="https://fontawesome.com/icons/e" />
+   /// <a href="https://fontawesome.com/icons/e">E</a>
    /// </summary>
    public static partial class EIcon
    {
        /// <summary>
-       /// E
-       /// <see url="https://fontawesome.com/icons/e?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/e?f=classic&amp;s=solid">E</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.E;
    }
    /// <summary>
    /// F
-   /// <see url="https://fontawesome.com/icons/f" />
+   /// <a href="https://fontawesome.com/icons/f">F</a>
    /// </summary>
    public static partial class FIcon
    {
        /// <summary>
-       /// F
-       /// <see url="https://fontawesome.com/icons/f?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/f?f=classic&amp;s=solid">F</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.F;
    }
    /// <summary>
    /// G
-   /// <see url="https://fontawesome.com/icons/g" />
+   /// <a href="https://fontawesome.com/icons/g">G</a>
    /// </summary>
    public static partial class GIcon
    {
        /// <summary>
-       /// G
-       /// <see url="https://fontawesome.com/icons/g?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/g?f=classic&amp;s=solid">G</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.G;
    }
    /// <summary>
    /// H
-   /// <see url="https://fontawesome.com/icons/h" />
+   /// <a href="https://fontawesome.com/icons/h">H</a>
    /// </summary>
    public static partial class HIcon
    {
        /// <summary>
-       /// H
-       /// <see url="https://fontawesome.com/icons/h?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/h?f=classic&amp;s=solid">H</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.H;
    }
    /// <summary>
    /// I
-   /// <see url="https://fontawesome.com/icons/i" />
+   /// <a href="https://fontawesome.com/icons/i">I</a>
    /// </summary>
    public static partial class IIcon
    {
        /// <summary>
-       /// I
-       /// <see url="https://fontawesome.com/icons/i?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/i?f=classic&amp;s=solid">I</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.I;
    }
    /// <summary>
    /// J
-   /// <see url="https://fontawesome.com/icons/j" />
+   /// <a href="https://fontawesome.com/icons/j">J</a>
    /// </summary>
    public static partial class JIcon
    {
        /// <summary>
-       /// J
-       /// <see url="https://fontawesome.com/icons/j?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/j?f=classic&amp;s=solid">J</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.J;
    }
    /// <summary>
    /// K
-   /// <see url="https://fontawesome.com/icons/k" />
+   /// <a href="https://fontawesome.com/icons/k">K</a>
    /// </summary>
    public static partial class KIcon
    {
        /// <summary>
-       /// K
-       /// <see url="https://fontawesome.com/icons/k?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/k?f=classic&amp;s=solid">K</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.K;
    }
    /// <summary>
    /// L
-   /// <see url="https://fontawesome.com/icons/l" />
+   /// <a href="https://fontawesome.com/icons/l">L</a>
    /// </summary>
    public static partial class LIcon
    {
        /// <summary>
-       /// L
-       /// <see url="https://fontawesome.com/icons/l?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/l?f=classic&amp;s=solid">L</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.L;
    }
    /// <summary>
    /// M
-   /// <see url="https://fontawesome.com/icons/m" />
+   /// <a href="https://fontawesome.com/icons/m">M</a>
    /// </summary>
    public static partial class MIcon
    {
        /// <summary>
-       /// M
-       /// <see url="https://fontawesome.com/icons/m?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/m?f=classic&amp;s=solid">M</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.M;
    }
    /// <summary>
    /// N
-   /// <see url="https://fontawesome.com/icons/n" />
+   /// <a href="https://fontawesome.com/icons/n">N</a>
    /// </summary>
    public static partial class NIcon
    {
        /// <summary>
-       /// N
-       /// <see url="https://fontawesome.com/icons/n?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/n?f=classic&amp;s=solid">N</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.N;
    }
    /// <summary>
    /// O
-   /// <see url="https://fontawesome.com/icons/o" />
+   /// <a href="https://fontawesome.com/icons/o">O</a>
    /// </summary>
    public static partial class OIcon
    {
        /// <summary>
-       /// O
-       /// <see url="https://fontawesome.com/icons/o?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/o?f=classic&amp;s=solid">O</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.O;
    }
    /// <summary>
    /// P
-   /// <see url="https://fontawesome.com/icons/p" />
+   /// <a href="https://fontawesome.com/icons/p">P</a>
    /// </summary>
    public static partial class PIcon
    {
        /// <summary>
-       /// P
-       /// <see url="https://fontawesome.com/icons/p?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/p?f=classic&amp;s=solid">P</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.P;
    }
    /// <summary>
    /// Q
-   /// <see url="https://fontawesome.com/icons/q" />
+   /// <a href="https://fontawesome.com/icons/q">Q</a>
    /// </summary>
    public static partial class QIcon
    {
        /// <summary>
-       /// Q
-       /// <see url="https://fontawesome.com/icons/q?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/q?f=classic&amp;s=solid">Q</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Q;
    }
    /// <summary>
    /// R
-   /// <see url="https://fontawesome.com/icons/r" />
+   /// <a href="https://fontawesome.com/icons/r">R</a>
    /// </summary>
    public static partial class RIcon
    {
        /// <summary>
-       /// R
-       /// <see url="https://fontawesome.com/icons/r?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/r?f=classic&amp;s=solid">R</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.R;
    }
    /// <summary>
    /// S
-   /// <see url="https://fontawesome.com/icons/s" />
+   /// <a href="https://fontawesome.com/icons/s">S</a>
    /// </summary>
    public static partial class SIcon
    {
        /// <summary>
-       /// S
-       /// <see url="https://fontawesome.com/icons/s?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/s?f=classic&amp;s=solid">S</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.S;
    }
    /// <summary>
    /// Square H
-   /// <see url="https://fontawesome.com/icons/square-h" />
+   /// <a href="https://fontawesome.com/icons/square-h">Square H</a>
    /// </summary>
    public static partial class SquareHIcon
    {
        /// <summary>
-       /// Square H
-       /// <see url="https://fontawesome.com/icons/square-h?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/square-h?f=classic&amp;s=solid">Square H</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SquareH;
    }
    /// <summary>
    /// T
-   /// <see url="https://fontawesome.com/icons/t" />
+   /// <a href="https://fontawesome.com/icons/t">T</a>
    /// </summary>
    public static partial class TIcon
    {
        /// <summary>
-       /// T
-       /// <see url="https://fontawesome.com/icons/t?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/t?f=classic&amp;s=solid">T</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.T;
    }
    /// <summary>
    /// U
-   /// <see url="https://fontawesome.com/icons/u" />
+   /// <a href="https://fontawesome.com/icons/u">U</a>
    /// </summary>
    public static partial class UIcon
    {
        /// <summary>
-       /// U
-       /// <see url="https://fontawesome.com/icons/u?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/u?f=classic&amp;s=solid">U</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.U;
    }
    /// <summary>
    /// V
-   /// <see url="https://fontawesome.com/icons/v" />
+   /// <a href="https://fontawesome.com/icons/v">V</a>
    /// </summary>
    public static partial class VIcon
    {
        /// <summary>
-       /// V
-       /// <see url="https://fontawesome.com/icons/v?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/v?f=classic&amp;s=solid">V</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.V;
    }
    /// <summary>
    /// W
-   /// <see url="https://fontawesome.com/icons/w" />
+   /// <a href="https://fontawesome.com/icons/w">W</a>
    /// </summary>
    public static partial class WIcon
    {
        /// <summary>
-       /// W
-       /// <see url="https://fontawesome.com/icons/w?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/w?f=classic&amp;s=solid">W</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.W;
    }
    /// <summary>
    /// X
-   /// <see url="https://fontawesome.com/icons/x" />
+   /// <a href="https://fontawesome.com/icons/x">X</a>
    /// </summary>
    public static partial class XIcon
    {
        /// <summary>
-       /// X
-       /// <see url="https://fontawesome.com/icons/x?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/x?f=classic&amp;s=solid">X</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.X;
    }
    /// <summary>
    /// Y
-   /// <see url="https://fontawesome.com/icons/y" />
+   /// <a href="https://fontawesome.com/icons/y">Y</a>
    /// </summary>
    public static partial class YIcon
    {
        /// <summary>
-       /// Y
-       /// <see url="https://fontawesome.com/icons/y?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/y?f=classic&amp;s=solid">Y</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Y;
    }
    /// <summary>
    /// Z
-   /// <see url="https://fontawesome.com/icons/z" />
+   /// <a href="https://fontawesome.com/icons/z">Z</a>
    /// </summary>
    public static partial class ZIcon
    {
        /// <summary>
-       /// Z
-       /// <see url="https://fontawesome.com/icons/z?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/z?f=classic&amp;s=solid">Z</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Z;
    }

@@ -205,7 +205,7 @@ public partial class Pipeline
                             var modelName = ToModelName(icon);
                             sb.AppendLine("/// <summary>");
                             sb.AppendLine($"/// {icon.Label}");
-                            sb.AppendLine($"/// <see url=\"https://fontawesome.com/icons/{icon.Alias}\" />");
+                            sb.AppendLine($"/// <a href=\"{GetHref(icon)}\">{icon.Label}</a>");
                             sb.AppendLine("/// </summary>");
                             sb.AppendLine($"public static partial class {modelName}Icon");
                             sb.AppendLine("{");
@@ -215,10 +215,7 @@ public partial class Pipeline
                                 {
                                     var styleName = GetStyleName(style);
                                     sb.AppendLine("/// <summary>");
-                                    sb.AppendLine($"/// {icon.Label}");
-                                    sb.AppendLine(
-                                        $"/// <see url=\"https://fontawesome.com/icons/{icon.Alias}?f={( style.Family == FontAwesomeFamily.Duotone ? "classic" : style.Family.ToString().ToLower() )}&s={styleName.ToLower()}\" />"
-                                    );
+                                    sb.AppendLine($"/// <a href=\"{GetHref(icon, style)}\">{icon.Label}</a>");
                                     sb.AppendLine("/// </summary>");
                                     sb.AppendLine($"public static Icon {styleName} => global::{fqnamespace}.Fa{styleName}.{modelName};");
                                 }
@@ -235,10 +232,7 @@ public partial class Pipeline
                             {
                                 sb.AppendLine($"private static Icon? {modelName}f;");
                                 sb.AppendLine("/// <summary>");
-                                sb.AppendLine($"/// {icon.Label}");
-                                sb.AppendLine(
-                                    $"/// <see url=\"https://fontawesome.com/icons/{icon.Alias}?f={( style.Family == FontAwesomeFamily.Duotone ? "classic" : style.Family.ToString().ToLower() )}&s={styleName.ToLower()}\" />"
-                                );
+                                sb.AppendLine($"/// <a href=\"{GetHref(icon, style)}\">{icon.Label}</a>");
                                 sb.AppendLine("/// </summary>");
                                 sb.AppendLine(
                                     $"public static Icon {modelName} => {modelName}f ??= new Icon(IconFamily.{style.Family}, IconStyle.{style.Style}, \"{icon.Name}\");"
@@ -247,10 +241,7 @@ public partial class Pipeline
                             else
                             {
                                 sb.AppendLine("/// <summary>");
-                                sb.AppendLine($"/// {icon.Label}");
-                                sb.AppendLine(
-                                    $"/// <see url=\"https://fontawesome.com/icons/{icon.Alias}?f={( style.Family == FontAwesomeFamily.Duotone ? "classic" : style.Family.ToString().ToLower() )}&s={styleName.ToLower()}\" />"
-                                );
+                                sb.AppendLine($"/// <a href=\"{GetHref(icon, style)}\">{icon.Label}</a>");
                                 sb.AppendLine("/// </summary>");
                                 sb.AppendLine(
                                     $"public static Icon {modelName} => global::{fqnamespace}.Fa{styleName}.{ToAliasName(icon)};"
@@ -264,6 +255,17 @@ public partial class Pipeline
                         var styleName = style.Family == FontAwesomeFamily.Duotone ? "Duotone" : style.Style.ToString();
                         if (style.Family == FontAwesomeFamily.Sharp) styleName = "Sharp" + styleName;
                         return styleName;
+                    }
+
+                    static string GetHref(IconModel icon, FontAwesomeFamilyStyle? style = null)
+                    {
+                        if (style is null)
+                        {
+                            return $"https://fontawesome.com/icons/{icon.Alias}";
+                        }
+                        var styleName = style.Family == FontAwesomeFamily.Duotone ? "Duotone" : style.Style.ToString();
+                        return
+                            $"https://fontawesome.com/icons/{icon.Alias}?f={( style.Family == FontAwesomeFamily.Duotone ? "classic" : style.Family.ToString().ToLower() )}&amp;s={styleName.ToLower()}";
                     }
                 }
             );

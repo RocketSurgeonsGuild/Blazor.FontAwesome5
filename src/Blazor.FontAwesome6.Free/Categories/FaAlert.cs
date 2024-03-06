@@ -8,119 +8,108 @@ public static partial class FaAlert
 {
    /// <summary>
    /// Bell
-   /// <see url="https://fontawesome.com/icons/bell" />
+   /// <a href="https://fontawesome.com/icons/bell">Bell</a>
    /// </summary>
    public static partial class BellIcon
    {
        /// <summary>
-       /// Bell
-       /// <see url="https://fontawesome.com/icons/bell?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=regular">Bell</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Bell;
        /// <summary>
-       /// Bell
-       /// <see url="https://fontawesome.com/icons/bell?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=solid">Bell</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Bell;
    }
    /// <summary>
    /// Bell Slash
-   /// <see url="https://fontawesome.com/icons/bell-slash" />
+   /// <a href="https://fontawesome.com/icons/bell-slash">Bell Slash</a>
    /// </summary>
    public static partial class BellSlashIcon
    {
        /// <summary>
-       /// Bell Slash
-       /// <see url="https://fontawesome.com/icons/bell-slash?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/bell-slash?f=classic&amp;s=regular">Bell Slash</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.BellSlash;
        /// <summary>
-       /// Bell Slash
-       /// <see url="https://fontawesome.com/icons/bell-slash?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/bell-slash?f=classic&amp;s=solid">Bell Slash</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BellSlash;
    }
    /// <summary>
    /// Circle Exclamation
-   /// <see url="https://fontawesome.com/icons/circle-exclamation" />
+   /// <a href="https://fontawesome.com/icons/circle-exclamation">Circle Exclamation</a>
    /// </summary>
    public static partial class CircleExclamationIcon
    {
        /// <summary>
-       /// Circle Exclamation
-       /// <see url="https://fontawesome.com/icons/circle-exclamation?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/circle-exclamation?f=classic&amp;s=solid">Circle Exclamation</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleExclamation;
    }
    /// <summary>
    /// Circle Radiation
-   /// <see url="https://fontawesome.com/icons/circle-radiation" />
+   /// <a href="https://fontawesome.com/icons/circle-radiation">Circle Radiation</a>
    /// </summary>
    public static partial class CircleRadiationIcon
    {
        /// <summary>
-       /// Circle Radiation
-       /// <see url="https://fontawesome.com/icons/circle-radiation?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/circle-radiation?f=classic&amp;s=solid">Circle Radiation</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleRadiation;
    }
    /// <summary>
    /// Exclamation
-   /// <see url="https://fontawesome.com/icons/exclamation" />
+   /// <a href="https://fontawesome.com/icons/exclamation">Exclamation</a>
    /// </summary>
    public static partial class ExclamationIcon
    {
        /// <summary>
-       /// Exclamation
-       /// <see url="https://fontawesome.com/icons/exclamation?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/exclamation?f=classic&amp;s=solid">Exclamation</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Exclamation;
    }
    /// <summary>
    /// Question
-   /// <see url="https://fontawesome.com/icons/question" />
+   /// <a href="https://fontawesome.com/icons/question">Question</a>
    /// </summary>
    public static partial class QuestionIcon
    {
        /// <summary>
-       /// Question
-       /// <see url="https://fontawesome.com/icons/question?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/question?f=classic&amp;s=solid">Question</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Question;
    }
    /// <summary>
    /// Radiation
-   /// <see url="https://fontawesome.com/icons/radiation" />
+   /// <a href="https://fontawesome.com/icons/radiation">Radiation</a>
    /// </summary>
    public static partial class RadiationIcon
    {
        /// <summary>
-       /// Radiation
-       /// <see url="https://fontawesome.com/icons/radiation?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/radiation?f=classic&amp;s=solid">Radiation</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Radiation;
    }
    /// <summary>
    /// Skull Crossbones
-   /// <see url="https://fontawesome.com/icons/skull-crossbones" />
+   /// <a href="https://fontawesome.com/icons/skull-crossbones">Skull Crossbones</a>
    /// </summary>
    public static partial class SkullCrossbonesIcon
    {
        /// <summary>
-       /// Skull Crossbones
-       /// <see url="https://fontawesome.com/icons/skull-crossbones?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/skull-crossbones?f=classic&amp;s=solid">Skull Crossbones</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SkullCrossbones;
    }
    /// <summary>
    /// Triangle Exclamation
-   /// <see url="https://fontawesome.com/icons/triangle-exclamation" />
+   /// <a href="https://fontawesome.com/icons/triangle-exclamation">Triangle Exclamation</a>
    /// </summary>
    public static partial class TriangleExclamationIcon
    {
        /// <summary>
-       /// Triangle Exclamation
-       /// <see url="https://fontawesome.com/icons/triangle-exclamation?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/triangle-exclamation?f=classic&amp;s=solid">Triangle Exclamation</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TriangleExclamation;
    }

@@ -8,260 +8,232 @@ public static partial class FaTime
 {
    /// <summary>
    /// Bell
-   /// <see url="https://fontawesome.com/icons/bell" />
+   /// <a href="https://fontawesome.com/icons/bell">Bell</a>
    /// </summary>
    public static partial class BellIcon
    {
        /// <summary>
-       /// Bell
-       /// <see url="https://fontawesome.com/icons/bell?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=regular">Bell</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Bell;
        /// <summary>
-       /// Bell
-       /// <see url="https://fontawesome.com/icons/bell?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=solid">Bell</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Bell;
    }
    /// <summary>
    /// Bell Slash
-   /// <see url="https://fontawesome.com/icons/bell-slash" />
+   /// <a href="https://fontawesome.com/icons/bell-slash">Bell Slash</a>
    /// </summary>
    public static partial class BellSlashIcon
    {
        /// <summary>
-       /// Bell Slash
-       /// <see url="https://fontawesome.com/icons/bell-slash?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/bell-slash?f=classic&amp;s=regular">Bell Slash</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.BellSlash;
        /// <summary>
-       /// Bell Slash
-       /// <see url="https://fontawesome.com/icons/bell-slash?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/bell-slash?f=classic&amp;s=solid">Bell Slash</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BellSlash;
    }
    /// <summary>
    /// Calendar
-   /// <see url="https://fontawesome.com/icons/calendar" />
+   /// <a href="https://fontawesome.com/icons/calendar">Calendar</a>
    /// </summary>
    public static partial class CalendarIcon
    {
        /// <summary>
-       /// Calendar
-       /// <see url="https://fontawesome.com/icons/calendar?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/calendar?f=classic&amp;s=regular">Calendar</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Calendar;
        /// <summary>
-       /// Calendar
-       /// <see url="https://fontawesome.com/icons/calendar?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/calendar?f=classic&amp;s=solid">Calendar</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Calendar;
    }
    /// <summary>
    /// Calendar Check
-   /// <see url="https://fontawesome.com/icons/calendar-check" />
+   /// <a href="https://fontawesome.com/icons/calendar-check">Calendar Check</a>
    /// </summary>
    public static partial class CalendarCheckIcon
    {
        /// <summary>
-       /// Calendar Check
-       /// <see url="https://fontawesome.com/icons/calendar-check?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/calendar-check?f=classic&amp;s=regular">Calendar Check</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CalendarCheck;
        /// <summary>
-       /// Calendar Check
-       /// <see url="https://fontawesome.com/icons/calendar-check?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/calendar-check?f=classic&amp;s=solid">Calendar Check</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CalendarCheck;
    }
    /// <summary>
    /// Calendar Day
-   /// <see url="https://fontawesome.com/icons/calendar-day" />
+   /// <a href="https://fontawesome.com/icons/calendar-day">Calendar Day</a>
    /// </summary>
    public static partial class CalendarDayIcon
    {
        /// <summary>
-       /// Calendar Day
-       /// <see url="https://fontawesome.com/icons/calendar-day?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/calendar-day?f=classic&amp;s=solid">Calendar Day</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CalendarDay;
    }
    /// <summary>
    /// Calendar Days
-   /// <see url="https://fontawesome.com/icons/calendar-days" />
+   /// <a href="https://fontawesome.com/icons/calendar-days">Calendar Days</a>
    /// </summary>
    public static partial class CalendarDaysIcon
    {
        /// <summary>
-       /// Calendar Days
-       /// <see url="https://fontawesome.com/icons/calendar-days?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/calendar-days?f=classic&amp;s=regular">Calendar Days</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CalendarDays;
        /// <summary>
-       /// Calendar Days
-       /// <see url="https://fontawesome.com/icons/calendar-days?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/calendar-days?f=classic&amp;s=solid">Calendar Days</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CalendarDays;
    }
    /// <summary>
    /// Calendar Minus
-   /// <see url="https://fontawesome.com/icons/calendar-minus" />
+   /// <a href="https://fontawesome.com/icons/calendar-minus">Calendar Minus</a>
    /// </summary>
    public static partial class CalendarMinusIcon
    {
        /// <summary>
-       /// Calendar Minus
-       /// <see url="https://fontawesome.com/icons/calendar-minus?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/calendar-minus?f=classic&amp;s=regular">Calendar Minus</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CalendarMinus;
        /// <summary>
-       /// Calendar Minus
-       /// <see url="https://fontawesome.com/icons/calendar-minus?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/calendar-minus?f=classic&amp;s=solid">Calendar Minus</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CalendarMinus;
    }
    /// <summary>
    /// Calendar Plus
-   /// <see url="https://fontawesome.com/icons/calendar-plus" />
+   /// <a href="https://fontawesome.com/icons/calendar-plus">Calendar Plus</a>
    /// </summary>
    public static partial class CalendarPlusIcon
    {
        /// <summary>
-       /// Calendar Plus
-       /// <see url="https://fontawesome.com/icons/calendar-plus?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/calendar-plus?f=classic&amp;s=regular">Calendar Plus</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CalendarPlus;
        /// <summary>
-       /// Calendar Plus
-       /// <see url="https://fontawesome.com/icons/calendar-plus?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/calendar-plus?f=classic&amp;s=solid">Calendar Plus</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CalendarPlus;
    }
    /// <summary>
    /// Calendar Week
-   /// <see url="https://fontawesome.com/icons/calendar-week" />
+   /// <a href="https://fontawesome.com/icons/calendar-week">Calendar Week</a>
    /// </summary>
    public static partial class CalendarWeekIcon
    {
        /// <summary>
-       /// Calendar Week
-       /// <see url="https://fontawesome.com/icons/calendar-week?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/calendar-week?f=classic&amp;s=solid">Calendar Week</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CalendarWeek;
    }
    /// <summary>
    /// Calendar Xmark
-   /// <see url="https://fontawesome.com/icons/calendar-xmark" />
+   /// <a href="https://fontawesome.com/icons/calendar-xmark">Calendar Xmark</a>
    /// </summary>
    public static partial class CalendarXmarkIcon
    {
        /// <summary>
-       /// Calendar Xmark
-       /// <see url="https://fontawesome.com/icons/calendar-xmark?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/calendar-xmark?f=classic&amp;s=regular">Calendar Xmark</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CalendarXmark;
        /// <summary>
-       /// Calendar Xmark
-       /// <see url="https://fontawesome.com/icons/calendar-xmark?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/calendar-xmark?f=classic&amp;s=solid">Calendar Xmark</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CalendarXmark;
    }
    /// <summary>
    /// Clock
-   /// <see url="https://fontawesome.com/icons/clock" />
+   /// <a href="https://fontawesome.com/icons/clock">Clock</a>
    /// </summary>
    public static partial class ClockIcon
    {
        /// <summary>
-       /// Clock
-       /// <see url="https://fontawesome.com/icons/clock?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/clock?f=classic&amp;s=regular">Clock</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Clock;
        /// <summary>
-       /// Clock
-       /// <see url="https://fontawesome.com/icons/clock?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/clock?f=classic&amp;s=solid">Clock</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Clock;
    }
    /// <summary>
    /// Hourglass
-   /// <see url="https://fontawesome.com/icons/hourglass" />
+   /// <a href="https://fontawesome.com/icons/hourglass">Hourglass</a>
    /// </summary>
    public static partial class HourglassIcon
    {
        /// <summary>
-       /// Hourglass
-       /// <see url="https://fontawesome.com/icons/hourglass?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/hourglass?f=classic&amp;s=regular">Hourglass</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Hourglass;
        /// <summary>
-       /// Hourglass
-       /// <see url="https://fontawesome.com/icons/hourglass?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/hourglass?f=classic&amp;s=solid">Hourglass</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Hourglass;
    }
    /// <summary>
    /// Hourglass End
-   /// <see url="https://fontawesome.com/icons/hourglass-end" />
+   /// <a href="https://fontawesome.com/icons/hourglass-end">Hourglass End</a>
    /// </summary>
    public static partial class HourglassEndIcon
    {
        /// <summary>
-       /// Hourglass End
-       /// <see url="https://fontawesome.com/icons/hourglass-end?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/hourglass-end?f=classic&amp;s=solid">Hourglass End</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HourglassEnd;
    }
    /// <summary>
    /// Hourglass Half
-   /// <see url="https://fontawesome.com/icons/hourglass-half" />
+   /// <a href="https://fontawesome.com/icons/hourglass-half">Hourglass Half</a>
    /// </summary>
    public static partial class HourglassHalfIcon
    {
        /// <summary>
-       /// Hourglass Half
-       /// <see url="https://fontawesome.com/icons/hourglass-half?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/hourglass-half?f=classic&amp;s=regular">Hourglass Half</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.HourglassHalf;
        /// <summary>
-       /// Hourglass Half
-       /// <see url="https://fontawesome.com/icons/hourglass-half?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/hourglass-half?f=classic&amp;s=solid">Hourglass Half</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HourglassHalf;
    }
    /// <summary>
    /// Hourglass Start
-   /// <see url="https://fontawesome.com/icons/hourglass-start" />
+   /// <a href="https://fontawesome.com/icons/hourglass-start">Hourglass Start</a>
    /// </summary>
    public static partial class HourglassStartIcon
    {
        /// <summary>
-       /// Hourglass Start
-       /// <see url="https://fontawesome.com/icons/hourglass-start?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/hourglass-start?f=classic&amp;s=solid">Hourglass Start</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HourglassStart;
    }
    /// <summary>
    /// Stopwatch
-   /// <see url="https://fontawesome.com/icons/stopwatch" />
+   /// <a href="https://fontawesome.com/icons/stopwatch">Stopwatch</a>
    /// </summary>
    public static partial class StopwatchIcon
    {
        /// <summary>
-       /// Stopwatch
-       /// <see url="https://fontawesome.com/icons/stopwatch?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/stopwatch?f=classic&amp;s=solid">Stopwatch</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Stopwatch;
    }
    /// <summary>
    /// Stopwatch 20
-   /// <see url="https://fontawesome.com/icons/stopwatch-20" />
+   /// <a href="https://fontawesome.com/icons/stopwatch-20">Stopwatch 20</a>
    /// </summary>
    public static partial class Stopwatch20Icon
    {
        /// <summary>
-       /// Stopwatch 20
-       /// <see url="https://fontawesome.com/icons/stopwatch-20?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/stopwatch-20?f=classic&amp;s=solid">Stopwatch 20</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Stopwatch20;
    }

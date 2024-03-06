@@ -8,78 +8,71 @@ public static partial class FaFruitsVegetables
 {
    /// <summary>
    /// Apple Whole
-   /// <see url="https://fontawesome.com/icons/apple-whole" />
+   /// <a href="https://fontawesome.com/icons/apple-whole">Apple Whole</a>
    /// </summary>
    public static partial class AppleWholeIcon
    {
        /// <summary>
-       /// Apple Whole
-       /// <see url="https://fontawesome.com/icons/apple-whole?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/apple-whole?f=classic&amp;s=solid">Apple Whole</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.AppleWhole;
    }
    /// <summary>
    /// Carrot
-   /// <see url="https://fontawesome.com/icons/carrot" />
+   /// <a href="https://fontawesome.com/icons/carrot">Carrot</a>
    /// </summary>
    public static partial class CarrotIcon
    {
        /// <summary>
-       /// Carrot
-       /// <see url="https://fontawesome.com/icons/carrot?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/carrot?f=classic&amp;s=solid">Carrot</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Carrot;
    }
    /// <summary>
    /// Leaf
-   /// <see url="https://fontawesome.com/icons/leaf" />
+   /// <a href="https://fontawesome.com/icons/leaf">Leaf</a>
    /// </summary>
    public static partial class LeafIcon
    {
        /// <summary>
-       /// Leaf
-       /// <see url="https://fontawesome.com/icons/leaf?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/leaf?f=classic&amp;s=solid">Leaf</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Leaf;
    }
    /// <summary>
    /// Lemon
-   /// <see url="https://fontawesome.com/icons/lemon" />
+   /// <a href="https://fontawesome.com/icons/lemon">Lemon</a>
    /// </summary>
    public static partial class LemonIcon
    {
        /// <summary>
-       /// Lemon
-       /// <see url="https://fontawesome.com/icons/lemon?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/lemon?f=classic&amp;s=regular">Lemon</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Lemon;
        /// <summary>
-       /// Lemon
-       /// <see url="https://fontawesome.com/icons/lemon?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/lemon?f=classic&amp;s=solid">Lemon</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Lemon;
    }
    /// <summary>
    /// Pepper Hot
-   /// <see url="https://fontawesome.com/icons/pepper-hot" />
+   /// <a href="https://fontawesome.com/icons/pepper-hot">Pepper Hot</a>
    /// </summary>
    public static partial class PepperHotIcon
    {
        /// <summary>
-       /// Pepper Hot
-       /// <see url="https://fontawesome.com/icons/pepper-hot?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/pepper-hot?f=classic&amp;s=solid">Pepper Hot</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PepperHot;
    }
    /// <summary>
    /// Seedling
-   /// <see url="https://fontawesome.com/icons/seedling" />
+   /// <a href="https://fontawesome.com/icons/seedling">Seedling</a>
    /// </summary>
    public static partial class SeedlingIcon
    {
        /// <summary>
-       /// Seedling
-       /// <see url="https://fontawesome.com/icons/seedling?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/seedling?f=classic&amp;s=solid">Seedling</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Seedling;
    }

@@ -8,169 +8,155 @@ public static partial class FaConnectivity
 {
    /// <summary>
    /// Bluetooth
-   /// <see url="https://fontawesome.com/icons/bluetooth" />
+   /// <a href="https://fontawesome.com/icons/bluetooth">Bluetooth</a>
    /// </summary>
    public static partial class BluetoothIcon
    {
        /// <summary>
-       /// Bluetooth
-       /// <see url="https://fontawesome.com/icons/bluetooth?f=classic&s=brands" />
+       /// <a href="https://fontawesome.com/icons/bluetooth?f=classic&amp;s=brands">Bluetooth</a>
        /// </summary>
        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.Bluetooth;
    }
    /// <summary>
    /// Circle Nodes
-   /// <see url="https://fontawesome.com/icons/circle-nodes" />
+   /// <a href="https://fontawesome.com/icons/circle-nodes">Circle Nodes</a>
    /// </summary>
    public static partial class CircleNodesIcon
    {
        /// <summary>
-       /// Circle Nodes
-       /// <see url="https://fontawesome.com/icons/circle-nodes?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/circle-nodes?f=classic&amp;s=solid">Circle Nodes</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleNodes;
    }
    /// <summary>
    /// Cloud
-   /// <see url="https://fontawesome.com/icons/cloud" />
+   /// <a href="https://fontawesome.com/icons/cloud">Cloud</a>
    /// </summary>
    public static partial class CloudIcon
    {
        /// <summary>
-       /// Cloud
-       /// <see url="https://fontawesome.com/icons/cloud?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cloud?f=classic&amp;s=solid">Cloud</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Cloud;
    }
    /// <summary>
    /// Cloud Arrow Down
-   /// <see url="https://fontawesome.com/icons/cloud-arrow-down" />
+   /// <a href="https://fontawesome.com/icons/cloud-arrow-down">Cloud Arrow Down</a>
    /// </summary>
    public static partial class CloudArrowDownIcon
    {
        /// <summary>
-       /// Cloud Arrow Down
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-down?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-down?f=classic&amp;s=solid">Cloud Arrow Down</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CloudArrowDown;
    }
    /// <summary>
    /// Cloud Arrow Up
-   /// <see url="https://fontawesome.com/icons/cloud-arrow-up" />
+   /// <a href="https://fontawesome.com/icons/cloud-arrow-up">Cloud Arrow Up</a>
    /// </summary>
    public static partial class CloudArrowUpIcon
    {
        /// <summary>
-       /// Cloud Arrow Up
-       /// <see url="https://fontawesome.com/icons/cloud-arrow-up?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/cloud-arrow-up?f=classic&amp;s=solid">Cloud Arrow Up</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CloudArrowUp;
    }
    /// <summary>
    /// Ethernet
-   /// <see url="https://fontawesome.com/icons/ethernet" />
+   /// <a href="https://fontawesome.com/icons/ethernet">Ethernet</a>
    /// </summary>
    public static partial class EthernetIcon
    {
        /// <summary>
-       /// Ethernet
-       /// <see url="https://fontawesome.com/icons/ethernet?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/ethernet?f=classic&amp;s=solid">Ethernet</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Ethernet;
    }
    /// <summary>
    /// Globe
-   /// <see url="https://fontawesome.com/icons/globe" />
+   /// <a href="https://fontawesome.com/icons/globe">Globe</a>
    /// </summary>
    public static partial class GlobeIcon
    {
        /// <summary>
-       /// Globe
-       /// <see url="https://fontawesome.com/icons/globe?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/globe?f=classic&amp;s=solid">Globe</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Globe;
    }
    /// <summary>
    /// House Signal
-   /// <see url="https://fontawesome.com/icons/house-signal" />
+   /// <a href="https://fontawesome.com/icons/house-signal">House Signal</a>
    /// </summary>
    public static partial class HouseSignalIcon
    {
        /// <summary>
-       /// House Signal
-       /// <see url="https://fontawesome.com/icons/house-signal?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-signal?f=classic&amp;s=solid">House Signal</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseSignal;
    }
    /// <summary>
    /// Rss
-   /// <see url="https://fontawesome.com/icons/rss" />
+   /// <a href="https://fontawesome.com/icons/rss">Rss</a>
    /// </summary>
    public static partial class RssIcon
    {
        /// <summary>
-       /// Rss
-       /// <see url="https://fontawesome.com/icons/rss?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/rss?f=classic&amp;s=solid">Rss</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Rss;
    }
    /// <summary>
    /// Satellite Dish
-   /// <see url="https://fontawesome.com/icons/satellite-dish" />
+   /// <a href="https://fontawesome.com/icons/satellite-dish">Satellite Dish</a>
    /// </summary>
    public static partial class SatelliteDishIcon
    {
        /// <summary>
-       /// Satellite Dish
-       /// <see url="https://fontawesome.com/icons/satellite-dish?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/satellite-dish?f=classic&amp;s=solid">Satellite Dish</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SatelliteDish;
    }
    /// <summary>
    /// Signal
-   /// <see url="https://fontawesome.com/icons/signal" />
+   /// <a href="https://fontawesome.com/icons/signal">Signal</a>
    /// </summary>
    public static partial class SignalIcon
    {
        /// <summary>
-       /// Signal
-       /// <see url="https://fontawesome.com/icons/signal?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/signal?f=classic&amp;s=solid">Signal</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Signal;
    }
    /// <summary>
    /// Tower Broadcast
-   /// <see url="https://fontawesome.com/icons/tower-broadcast" />
+   /// <a href="https://fontawesome.com/icons/tower-broadcast">Tower Broadcast</a>
    /// </summary>
    public static partial class TowerBroadcastIcon
    {
        /// <summary>
-       /// Tower Broadcast
-       /// <see url="https://fontawesome.com/icons/tower-broadcast?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/tower-broadcast?f=classic&amp;s=solid">Tower Broadcast</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TowerBroadcast;
    }
    /// <summary>
    /// Tower Cell
-   /// <see url="https://fontawesome.com/icons/tower-cell" />
+   /// <a href="https://fontawesome.com/icons/tower-cell">Tower Cell</a>
    /// </summary>
    public static partial class TowerCellIcon
    {
        /// <summary>
-       /// Tower Cell
-       /// <see url="https://fontawesome.com/icons/tower-cell?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/tower-cell?f=classic&amp;s=solid">Tower Cell</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TowerCell;
    }
    /// <summary>
    /// Wifi
-   /// <see url="https://fontawesome.com/icons/wifi" />
+   /// <a href="https://fontawesome.com/icons/wifi">Wifi</a>
    /// </summary>
    public static partial class WifiIcon
    {
        /// <summary>
-       /// Wifi
-       /// <see url="https://fontawesome.com/icons/wifi?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/wifi?f=classic&amp;s=solid">Wifi</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Wifi;
    }

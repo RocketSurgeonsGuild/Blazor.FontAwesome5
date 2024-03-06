@@ -8,169 +8,155 @@ public static partial class FaGenders
 {
    /// <summary>
    /// Genderless
-   /// <see url="https://fontawesome.com/icons/genderless" />
+   /// <a href="https://fontawesome.com/icons/genderless">Genderless</a>
    /// </summary>
    public static partial class GenderlessIcon
    {
        /// <summary>
-       /// Genderless
-       /// <see url="https://fontawesome.com/icons/genderless?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/genderless?f=classic&amp;s=solid">Genderless</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Genderless;
    }
    /// <summary>
    /// Mars
-   /// <see url="https://fontawesome.com/icons/mars" />
+   /// <a href="https://fontawesome.com/icons/mars">Mars</a>
    /// </summary>
    public static partial class MarsIcon
    {
        /// <summary>
-       /// Mars
-       /// <see url="https://fontawesome.com/icons/mars?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/mars?f=classic&amp;s=solid">Mars</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Mars;
    }
    /// <summary>
    /// Mars And Venus
-   /// <see url="https://fontawesome.com/icons/mars-and-venus" />
+   /// <a href="https://fontawesome.com/icons/mars-and-venus">Mars And Venus</a>
    /// </summary>
    public static partial class MarsAndVenusIcon
    {
        /// <summary>
-       /// Mars And Venus
-       /// <see url="https://fontawesome.com/icons/mars-and-venus?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/mars-and-venus?f=classic&amp;s=solid">Mars And Venus</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MarsAndVenus;
    }
    /// <summary>
    /// Mars Double
-   /// <see url="https://fontawesome.com/icons/mars-double" />
+   /// <a href="https://fontawesome.com/icons/mars-double">Mars Double</a>
    /// </summary>
    public static partial class MarsDoubleIcon
    {
        /// <summary>
-       /// Mars Double
-       /// <see url="https://fontawesome.com/icons/mars-double?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/mars-double?f=classic&amp;s=solid">Mars Double</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MarsDouble;
    }
    /// <summary>
    /// Mars Stroke
-   /// <see url="https://fontawesome.com/icons/mars-stroke" />
+   /// <a href="https://fontawesome.com/icons/mars-stroke">Mars Stroke</a>
    /// </summary>
    public static partial class MarsStrokeIcon
    {
        /// <summary>
-       /// Mars Stroke
-       /// <see url="https://fontawesome.com/icons/mars-stroke?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/mars-stroke?f=classic&amp;s=solid">Mars Stroke</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MarsStroke;
    }
    /// <summary>
    /// Mars Stroke Right
-   /// <see url="https://fontawesome.com/icons/mars-stroke-right" />
+   /// <a href="https://fontawesome.com/icons/mars-stroke-right">Mars Stroke Right</a>
    /// </summary>
    public static partial class MarsStrokeRightIcon
    {
        /// <summary>
-       /// Mars Stroke Right
-       /// <see url="https://fontawesome.com/icons/mars-stroke-right?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/mars-stroke-right?f=classic&amp;s=solid">Mars Stroke Right</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MarsStrokeRight;
    }
    /// <summary>
    /// Mars Stroke Up
-   /// <see url="https://fontawesome.com/icons/mars-stroke-up" />
+   /// <a href="https://fontawesome.com/icons/mars-stroke-up">Mars Stroke Up</a>
    /// </summary>
    public static partial class MarsStrokeUpIcon
    {
        /// <summary>
-       /// Mars Stroke Up
-       /// <see url="https://fontawesome.com/icons/mars-stroke-up?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/mars-stroke-up?f=classic&amp;s=solid">Mars Stroke Up</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MarsStrokeUp;
    }
    /// <summary>
    /// Mercury
-   /// <see url="https://fontawesome.com/icons/mercury" />
+   /// <a href="https://fontawesome.com/icons/mercury">Mercury</a>
    /// </summary>
    public static partial class MercuryIcon
    {
        /// <summary>
-       /// Mercury
-       /// <see url="https://fontawesome.com/icons/mercury?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/mercury?f=classic&amp;s=solid">Mercury</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Mercury;
    }
    /// <summary>
    /// Neuter
-   /// <see url="https://fontawesome.com/icons/neuter" />
+   /// <a href="https://fontawesome.com/icons/neuter">Neuter</a>
    /// </summary>
    public static partial class NeuterIcon
    {
        /// <summary>
-       /// Neuter
-       /// <see url="https://fontawesome.com/icons/neuter?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/neuter?f=classic&amp;s=solid">Neuter</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Neuter;
    }
    /// <summary>
    /// Person Half Dress
-   /// <see url="https://fontawesome.com/icons/person-half-dress" />
+   /// <a href="https://fontawesome.com/icons/person-half-dress">Person Half Dress</a>
    /// </summary>
    public static partial class PersonHalfDressIcon
    {
        /// <summary>
-       /// Person Half Dress
-       /// <see url="https://fontawesome.com/icons/person-half-dress?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/person-half-dress?f=classic&amp;s=solid">Person Half Dress</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PersonHalfDress;
    }
    /// <summary>
    /// Transgender
-   /// <see url="https://fontawesome.com/icons/transgender" />
+   /// <a href="https://fontawesome.com/icons/transgender">Transgender</a>
    /// </summary>
    public static partial class TransgenderIcon
    {
        /// <summary>
-       /// Transgender
-       /// <see url="https://fontawesome.com/icons/transgender?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/transgender?f=classic&amp;s=solid">Transgender</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Transgender;
    }
    /// <summary>
    /// Venus
-   /// <see url="https://fontawesome.com/icons/venus" />
+   /// <a href="https://fontawesome.com/icons/venus">Venus</a>
    /// </summary>
    public static partial class VenusIcon
    {
        /// <summary>
-       /// Venus
-       /// <see url="https://fontawesome.com/icons/venus?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/venus?f=classic&amp;s=solid">Venus</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Venus;
    }
    /// <summary>
    /// Venus Double
-   /// <see url="https://fontawesome.com/icons/venus-double" />
+   /// <a href="https://fontawesome.com/icons/venus-double">Venus Double</a>
    /// </summary>
    public static partial class VenusDoubleIcon
    {
        /// <summary>
-       /// Venus Double
-       /// <see url="https://fontawesome.com/icons/venus-double?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/venus-double?f=classic&amp;s=solid">Venus Double</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.VenusDouble;
    }
    /// <summary>
    /// Venus Mars
-   /// <see url="https://fontawesome.com/icons/venus-mars" />
+   /// <a href="https://fontawesome.com/icons/venus-mars">Venus Mars</a>
    /// </summary>
    public static partial class VenusMarsIcon
    {
        /// <summary>
-       /// Venus Mars
-       /// <see url="https://fontawesome.com/icons/venus-mars?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/venus-mars?f=classic&amp;s=solid">Venus Mars</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.VenusMars;
    }

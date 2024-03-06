@@ -8,899 +8,823 @@ public static partial class FaBuildings
 {
    /// <summary>
    /// Archway
-   /// <see url="https://fontawesome.com/icons/archway" />
+   /// <a href="https://fontawesome.com/icons/archway">Archway</a>
    /// </summary>
    public static partial class ArchwayIcon
    {
        /// <summary>
-       /// Archway
-       /// <see url="https://fontawesome.com/icons/archway?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/archway?f=classic&amp;s=solid">Archway</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Archway;
    }
    /// <summary>
    /// Arrow Right To City
-   /// <see url="https://fontawesome.com/icons/arrow-right-to-city" />
+   /// <a href="https://fontawesome.com/icons/arrow-right-to-city">Arrow Right To City</a>
    /// </summary>
    public static partial class ArrowRightToCityIcon
    {
        /// <summary>
-       /// Arrow Right To City
-       /// <see url="https://fontawesome.com/icons/arrow-right-to-city?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/arrow-right-to-city?f=classic&amp;s=solid">Arrow Right To City</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ArrowRightToCity;
    }
    /// <summary>
    /// Building
-   /// <see url="https://fontawesome.com/icons/building" />
+   /// <a href="https://fontawesome.com/icons/building">Building</a>
    /// </summary>
    public static partial class BuildingIcon
    {
        /// <summary>
-       /// Building
-       /// <see url="https://fontawesome.com/icons/building?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/building?f=classic&amp;s=regular">Building</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Building;
        /// <summary>
-       /// Building
-       /// <see url="https://fontawesome.com/icons/building?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/building?f=classic&amp;s=solid">Building</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Building;
    }
    /// <summary>
    /// Building Circle Arrow Right
-   /// <see url="https://fontawesome.com/icons/building-circle-arrow-right" />
+   /// <a href="https://fontawesome.com/icons/building-circle-arrow-right">Building Circle Arrow Right</a>
    /// </summary>
    public static partial class BuildingCircleArrowRightIcon
    {
        /// <summary>
-       /// Building Circle Arrow Right
-       /// <see url="https://fontawesome.com/icons/building-circle-arrow-right?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/building-circle-arrow-right?f=classic&amp;s=solid">Building Circle Arrow Right</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BuildingCircleArrowRight;
    }
    /// <summary>
    /// Building Circle Check
-   /// <see url="https://fontawesome.com/icons/building-circle-check" />
+   /// <a href="https://fontawesome.com/icons/building-circle-check">Building Circle Check</a>
    /// </summary>
    public static partial class BuildingCircleCheckIcon
    {
        /// <summary>
-       /// Building Circle Check
-       /// <see url="https://fontawesome.com/icons/building-circle-check?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/building-circle-check?f=classic&amp;s=solid">Building Circle Check</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BuildingCircleCheck;
    }
    /// <summary>
    /// Building Circle Exclamation
-   /// <see url="https://fontawesome.com/icons/building-circle-exclamation" />
+   /// <a href="https://fontawesome.com/icons/building-circle-exclamation">Building Circle Exclamation</a>
    /// </summary>
    public static partial class BuildingCircleExclamationIcon
    {
        /// <summary>
-       /// Building Circle Exclamation
-       /// <see url="https://fontawesome.com/icons/building-circle-exclamation?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/building-circle-exclamation?f=classic&amp;s=solid">Building Circle Exclamation</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BuildingCircleExclamation;
    }
    /// <summary>
    /// Building Circle Xmark
-   /// <see url="https://fontawesome.com/icons/building-circle-xmark" />
+   /// <a href="https://fontawesome.com/icons/building-circle-xmark">Building Circle Xmark</a>
    /// </summary>
    public static partial class BuildingCircleXmarkIcon
    {
        /// <summary>
-       /// Building Circle Xmark
-       /// <see url="https://fontawesome.com/icons/building-circle-xmark?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/building-circle-xmark?f=classic&amp;s=solid">Building Circle Xmark</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BuildingCircleXmark;
    }
    /// <summary>
    /// Building Columns
-   /// <see url="https://fontawesome.com/icons/building-columns" />
+   /// <a href="https://fontawesome.com/icons/building-columns">Building Columns</a>
    /// </summary>
    public static partial class BuildingColumnsIcon
    {
        /// <summary>
-       /// Building Columns
-       /// <see url="https://fontawesome.com/icons/building-columns?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/building-columns?f=classic&amp;s=solid">Building Columns</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BuildingColumns;
    }
    /// <summary>
    /// Building Flag
-   /// <see url="https://fontawesome.com/icons/building-flag" />
+   /// <a href="https://fontawesome.com/icons/building-flag">Building Flag</a>
    /// </summary>
    public static partial class BuildingFlagIcon
    {
        /// <summary>
-       /// Building Flag
-       /// <see url="https://fontawesome.com/icons/building-flag?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/building-flag?f=classic&amp;s=solid">Building Flag</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BuildingFlag;
    }
    /// <summary>
    /// Building Lock
-   /// <see url="https://fontawesome.com/icons/building-lock" />
+   /// <a href="https://fontawesome.com/icons/building-lock">Building Lock</a>
    /// </summary>
    public static partial class BuildingLockIcon
    {
        /// <summary>
-       /// Building Lock
-       /// <see url="https://fontawesome.com/icons/building-lock?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/building-lock?f=classic&amp;s=solid">Building Lock</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BuildingLock;
    }
    /// <summary>
    /// Building Ngo
-   /// <see url="https://fontawesome.com/icons/building-ngo" />
+   /// <a href="https://fontawesome.com/icons/building-ngo">Building Ngo</a>
    /// </summary>
    public static partial class BuildingNgoIcon
    {
        /// <summary>
-       /// Building Ngo
-       /// <see url="https://fontawesome.com/icons/building-ngo?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/building-ngo?f=classic&amp;s=solid">Building Ngo</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BuildingNgo;
    }
    /// <summary>
    /// Building Shield
-   /// <see url="https://fontawesome.com/icons/building-shield" />
+   /// <a href="https://fontawesome.com/icons/building-shield">Building Shield</a>
    /// </summary>
    public static partial class BuildingShieldIcon
    {
        /// <summary>
-       /// Building Shield
-       /// <see url="https://fontawesome.com/icons/building-shield?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/building-shield?f=classic&amp;s=solid">Building Shield</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BuildingShield;
    }
    /// <summary>
    /// Building Un
-   /// <see url="https://fontawesome.com/icons/building-un" />
+   /// <a href="https://fontawesome.com/icons/building-un">Building Un</a>
    /// </summary>
    public static partial class BuildingUnIcon
    {
        /// <summary>
-       /// Building Un
-       /// <see url="https://fontawesome.com/icons/building-un?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/building-un?f=classic&amp;s=solid">Building Un</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BuildingUn;
    }
    /// <summary>
    /// Building User
-   /// <see url="https://fontawesome.com/icons/building-user" />
+   /// <a href="https://fontawesome.com/icons/building-user">Building User</a>
    /// </summary>
    public static partial class BuildingUserIcon
    {
        /// <summary>
-       /// Building User
-       /// <see url="https://fontawesome.com/icons/building-user?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/building-user?f=classic&amp;s=solid">Building User</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BuildingUser;
    }
    /// <summary>
    /// Building Wheat
-   /// <see url="https://fontawesome.com/icons/building-wheat" />
+   /// <a href="https://fontawesome.com/icons/building-wheat">Building Wheat</a>
    /// </summary>
    public static partial class BuildingWheatIcon
    {
        /// <summary>
-       /// Building Wheat
-       /// <see url="https://fontawesome.com/icons/building-wheat?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/building-wheat?f=classic&amp;s=solid">Building Wheat</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BuildingWheat;
    }
    /// <summary>
    /// Campground
-   /// <see url="https://fontawesome.com/icons/campground" />
+   /// <a href="https://fontawesome.com/icons/campground">Campground</a>
    /// </summary>
    public static partial class CampgroundIcon
    {
        /// <summary>
-       /// Campground
-       /// <see url="https://fontawesome.com/icons/campground?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/campground?f=classic&amp;s=solid">Campground</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Campground;
    }
    /// <summary>
    /// Church
-   /// <see url="https://fontawesome.com/icons/church" />
+   /// <a href="https://fontawesome.com/icons/church">Church</a>
    /// </summary>
    public static partial class ChurchIcon
    {
        /// <summary>
-       /// Church
-       /// <see url="https://fontawesome.com/icons/church?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/church?f=classic&amp;s=solid">Church</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Church;
    }
    /// <summary>
    /// City
-   /// <see url="https://fontawesome.com/icons/city" />
+   /// <a href="https://fontawesome.com/icons/city">City</a>
    /// </summary>
    public static partial class CityIcon
    {
        /// <summary>
-       /// City
-       /// <see url="https://fontawesome.com/icons/city?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/city?f=classic&amp;s=solid">City</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.City;
    }
    /// <summary>
    /// Dungeon
-   /// <see url="https://fontawesome.com/icons/dungeon" />
+   /// <a href="https://fontawesome.com/icons/dungeon">Dungeon</a>
    /// </summary>
    public static partial class DungeonIcon
    {
        /// <summary>
-       /// Dungeon
-       /// <see url="https://fontawesome.com/icons/dungeon?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/dungeon?f=classic&amp;s=solid">Dungeon</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Dungeon;
    }
    /// <summary>
    /// Gopuram
-   /// <see url="https://fontawesome.com/icons/gopuram" />
+   /// <a href="https://fontawesome.com/icons/gopuram">Gopuram</a>
    /// </summary>
    public static partial class GopuramIcon
    {
        /// <summary>
-       /// Gopuram
-       /// <see url="https://fontawesome.com/icons/gopuram?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/gopuram?f=classic&amp;s=solid">Gopuram</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Gopuram;
    }
    /// <summary>
    /// Hospital
-   /// <see url="https://fontawesome.com/icons/hospital" />
+   /// <a href="https://fontawesome.com/icons/hospital">Hospital</a>
    /// </summary>
    public static partial class HospitalIcon
    {
        /// <summary>
-       /// Hospital
-       /// <see url="https://fontawesome.com/icons/hospital?f=classic&s=regular" />
+       /// <a href="https://fontawesome.com/icons/hospital?f=classic&amp;s=regular">Hospital</a>
        /// </summary>
        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Hospital;
        /// <summary>
-       /// Hospital
-       /// <see url="https://fontawesome.com/icons/hospital?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/hospital?f=classic&amp;s=solid">Hospital</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Hospital;
    }
    /// <summary>
    /// Hospital User
-   /// <see url="https://fontawesome.com/icons/hospital-user" />
+   /// <a href="https://fontawesome.com/icons/hospital-user">Hospital User</a>
    /// </summary>
    public static partial class HospitalUserIcon
    {
        /// <summary>
-       /// Hospital User
-       /// <see url="https://fontawesome.com/icons/hospital-user?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/hospital-user?f=classic&amp;s=solid">Hospital User</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HospitalUser;
    }
    /// <summary>
    /// Hotel
-   /// <see url="https://fontawesome.com/icons/hotel" />
+   /// <a href="https://fontawesome.com/icons/hotel">Hotel</a>
    /// </summary>
    public static partial class HotelIcon
    {
        /// <summary>
-       /// Hotel
-       /// <see url="https://fontawesome.com/icons/hotel?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/hotel?f=classic&amp;s=solid">Hotel</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Hotel;
    }
    /// <summary>
    /// House
-   /// <see url="https://fontawesome.com/icons/house" />
+   /// <a href="https://fontawesome.com/icons/house">House</a>
    /// </summary>
    public static partial class HouseIcon
    {
        /// <summary>
-       /// House
-       /// <see url="https://fontawesome.com/icons/house?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house?f=classic&amp;s=solid">House</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.House;
    }
    /// <summary>
    /// House Chimney
-   /// <see url="https://fontawesome.com/icons/house-chimney" />
+   /// <a href="https://fontawesome.com/icons/house-chimney">House Chimney</a>
    /// </summary>
    public static partial class HouseChimneyIcon
    {
        /// <summary>
-       /// House Chimney
-       /// <see url="https://fontawesome.com/icons/house-chimney?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-chimney?f=classic&amp;s=solid">House Chimney</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseChimney;
    }
    /// <summary>
    /// House Chimney Crack
-   /// <see url="https://fontawesome.com/icons/house-chimney-crack" />
+   /// <a href="https://fontawesome.com/icons/house-chimney-crack">House Chimney Crack</a>
    /// </summary>
    public static partial class HouseChimneyCrackIcon
    {
        /// <summary>
-       /// House Chimney Crack
-       /// <see url="https://fontawesome.com/icons/house-chimney-crack?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-chimney-crack?f=classic&amp;s=solid">House Chimney Crack</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseChimneyCrack;
    }
    /// <summary>
    /// House Chimney Medical
-   /// <see url="https://fontawesome.com/icons/house-chimney-medical" />
+   /// <a href="https://fontawesome.com/icons/house-chimney-medical">House Chimney Medical</a>
    /// </summary>
    public static partial class HouseChimneyMedicalIcon
    {
        /// <summary>
-       /// House Chimney Medical
-       /// <see url="https://fontawesome.com/icons/house-chimney-medical?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-chimney-medical?f=classic&amp;s=solid">House Chimney Medical</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseChimneyMedical;
    }
    /// <summary>
    /// House Chimney Window
-   /// <see url="https://fontawesome.com/icons/house-chimney-window" />
+   /// <a href="https://fontawesome.com/icons/house-chimney-window">House Chimney Window</a>
    /// </summary>
    public static partial class HouseChimneyWindowIcon
    {
        /// <summary>
-       /// House Chimney Window
-       /// <see url="https://fontawesome.com/icons/house-chimney-window?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-chimney-window?f=classic&amp;s=solid">House Chimney Window</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseChimneyWindow;
    }
    /// <summary>
    /// House Circle Check
-   /// <see url="https://fontawesome.com/icons/house-circle-check" />
+   /// <a href="https://fontawesome.com/icons/house-circle-check">House Circle Check</a>
    /// </summary>
    public static partial class HouseCircleCheckIcon
    {
        /// <summary>
-       /// House Circle Check
-       /// <see url="https://fontawesome.com/icons/house-circle-check?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-circle-check?f=classic&amp;s=solid">House Circle Check</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseCircleCheck;
    }
    /// <summary>
    /// House Circle Exclamation
-   /// <see url="https://fontawesome.com/icons/house-circle-exclamation" />
+   /// <a href="https://fontawesome.com/icons/house-circle-exclamation">House Circle Exclamation</a>
    /// </summary>
    public static partial class HouseCircleExclamationIcon
    {
        /// <summary>
-       /// House Circle Exclamation
-       /// <see url="https://fontawesome.com/icons/house-circle-exclamation?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-circle-exclamation?f=classic&amp;s=solid">House Circle Exclamation</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseCircleExclamation;
    }
    /// <summary>
    /// House Circle Xmark
-   /// <see url="https://fontawesome.com/icons/house-circle-xmark" />
+   /// <a href="https://fontawesome.com/icons/house-circle-xmark">House Circle Xmark</a>
    /// </summary>
    public static partial class HouseCircleXmarkIcon
    {
        /// <summary>
-       /// House Circle Xmark
-       /// <see url="https://fontawesome.com/icons/house-circle-xmark?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-circle-xmark?f=classic&amp;s=solid">House Circle Xmark</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseCircleXmark;
    }
    /// <summary>
    /// House Crack
-   /// <see url="https://fontawesome.com/icons/house-crack" />
+   /// <a href="https://fontawesome.com/icons/house-crack">House Crack</a>
    /// </summary>
    public static partial class HouseCrackIcon
    {
        /// <summary>
-       /// House Crack
-       /// <see url="https://fontawesome.com/icons/house-crack?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-crack?f=classic&amp;s=solid">House Crack</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseCrack;
    }
    /// <summary>
    /// House Fire
-   /// <see url="https://fontawesome.com/icons/house-fire" />
+   /// <a href="https://fontawesome.com/icons/house-fire">House Fire</a>
    /// </summary>
    public static partial class HouseFireIcon
    {
        /// <summary>
-       /// House Fire
-       /// <see url="https://fontawesome.com/icons/house-fire?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-fire?f=classic&amp;s=solid">House Fire</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseFire;
    }
    /// <summary>
    /// House Flag
-   /// <see url="https://fontawesome.com/icons/house-flag" />
+   /// <a href="https://fontawesome.com/icons/house-flag">House Flag</a>
    /// </summary>
    public static partial class HouseFlagIcon
    {
        /// <summary>
-       /// House Flag
-       /// <see url="https://fontawesome.com/icons/house-flag?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-flag?f=classic&amp;s=solid">House Flag</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseFlag;
    }
    /// <summary>
    /// House Lock
-   /// <see url="https://fontawesome.com/icons/house-lock" />
+   /// <a href="https://fontawesome.com/icons/house-lock">House Lock</a>
    /// </summary>
    public static partial class HouseLockIcon
    {
        /// <summary>
-       /// House Lock
-       /// <see url="https://fontawesome.com/icons/house-lock?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-lock?f=classic&amp;s=solid">House Lock</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseLock;
    }
    /// <summary>
    /// House Medical
-   /// <see url="https://fontawesome.com/icons/house-medical" />
+   /// <a href="https://fontawesome.com/icons/house-medical">House Medical</a>
    /// </summary>
    public static partial class HouseMedicalIcon
    {
        /// <summary>
-       /// House Medical
-       /// <see url="https://fontawesome.com/icons/house-medical?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-medical?f=classic&amp;s=solid">House Medical</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseMedical;
    }
    /// <summary>
    /// House Medical Circle Check
-   /// <see url="https://fontawesome.com/icons/house-medical-circle-check" />
+   /// <a href="https://fontawesome.com/icons/house-medical-circle-check">House Medical Circle Check</a>
    /// </summary>
    public static partial class HouseMedicalCircleCheckIcon
    {
        /// <summary>
-       /// House Medical Circle Check
-       /// <see url="https://fontawesome.com/icons/house-medical-circle-check?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-medical-circle-check?f=classic&amp;s=solid">House Medical Circle Check</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseMedicalCircleCheck;
    }
    /// <summary>
    /// House Medical Circle Exclamation
-   /// <see url="https://fontawesome.com/icons/house-medical-circle-exclamation" />
+   /// <a href="https://fontawesome.com/icons/house-medical-circle-exclamation">House Medical Circle Exclamation</a>
    /// </summary>
    public static partial class HouseMedicalCircleExclamationIcon
    {
        /// <summary>
-       /// House Medical Circle Exclamation
-       /// <see url="https://fontawesome.com/icons/house-medical-circle-exclamation?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-medical-circle-exclamation?f=classic&amp;s=solid">House Medical Circle Exclamation</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseMedicalCircleExclamation;
    }
    /// <summary>
    /// House Medical Circle Xmark
-   /// <see url="https://fontawesome.com/icons/house-medical-circle-xmark" />
+   /// <a href="https://fontawesome.com/icons/house-medical-circle-xmark">House Medical Circle Xmark</a>
    /// </summary>
    public static partial class HouseMedicalCircleXmarkIcon
    {
        /// <summary>
-       /// House Medical Circle Xmark
-       /// <see url="https://fontawesome.com/icons/house-medical-circle-xmark?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-medical-circle-xmark?f=classic&amp;s=solid">House Medical Circle Xmark</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseMedicalCircleXmark;
    }
    /// <summary>
    /// House Medical Flag
-   /// <see url="https://fontawesome.com/icons/house-medical-flag" />
+   /// <a href="https://fontawesome.com/icons/house-medical-flag">House Medical Flag</a>
    /// </summary>
    public static partial class HouseMedicalFlagIcon
    {
        /// <summary>
-       /// House Medical Flag
-       /// <see url="https://fontawesome.com/icons/house-medical-flag?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/house-medical-flag?f=classic&amp;s=solid">House Medical Flag</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseMedicalFlag;
    }
    /// <summary>
    /// Igloo
-   /// <see url="https://fontawesome.com/icons/igloo" />
+   /// <a href="https://fontawesome.com/icons/igloo">Igloo</a>
    /// </summary>
    public static partial class IglooIcon
    {
        /// <summary>
-       /// Igloo
-       /// <see url="https://fontawesome.com/icons/igloo?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/igloo?f=classic&amp;s=solid">Igloo</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Igloo;
    }
    /// <summary>
    /// Industry
-   /// <see url="https://fontawesome.com/icons/industry" />
+   /// <a href="https://fontawesome.com/icons/industry">Industry</a>
    /// </summary>
    public static partial class IndustryIcon
    {
        /// <summary>
-       /// Industry
-       /// <see url="https://fontawesome.com/icons/industry?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/industry?f=classic&amp;s=solid">Industry</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Industry;
    }
    /// <summary>
    /// Kaaba
-   /// <see url="https://fontawesome.com/icons/kaaba" />
+   /// <a href="https://fontawesome.com/icons/kaaba">Kaaba</a>
    /// </summary>
    public static partial class KaabaIcon
    {
        /// <summary>
-       /// Kaaba
-       /// <see url="https://fontawesome.com/icons/kaaba?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/kaaba?f=classic&amp;s=solid">Kaaba</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Kaaba;
    }
    /// <summary>
    /// Landmark
-   /// <see url="https://fontawesome.com/icons/landmark" />
+   /// <a href="https://fontawesome.com/icons/landmark">Landmark</a>
    /// </summary>
    public static partial class LandmarkIcon
    {
        /// <summary>
-       /// Landmark
-       /// <see url="https://fontawesome.com/icons/landmark?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/landmark?f=classic&amp;s=solid">Landmark</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Landmark;
    }
    /// <summary>
    /// Landmark Dome
-   /// <see url="https://fontawesome.com/icons/landmark-dome" />
+   /// <a href="https://fontawesome.com/icons/landmark-dome">Landmark Dome</a>
    /// </summary>
    public static partial class LandmarkDomeIcon
    {
        /// <summary>
-       /// Landmark Dome
-       /// <see url="https://fontawesome.com/icons/landmark-dome?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/landmark-dome?f=classic&amp;s=solid">Landmark Dome</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.LandmarkDome;
    }
    /// <summary>
    /// Landmark Flag
-   /// <see url="https://fontawesome.com/icons/landmark-flag" />
+   /// <a href="https://fontawesome.com/icons/landmark-flag">Landmark Flag</a>
    /// </summary>
    public static partial class LandmarkFlagIcon
    {
        /// <summary>
-       /// Landmark Flag
-       /// <see url="https://fontawesome.com/icons/landmark-flag?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/landmark-flag?f=classic&amp;s=solid">Landmark Flag</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.LandmarkFlag;
    }
    /// <summary>
    /// Monument
-   /// <see url="https://fontawesome.com/icons/monument" />
+   /// <a href="https://fontawesome.com/icons/monument">Monument</a>
    /// </summary>
    public static partial class MonumentIcon
    {
        /// <summary>
-       /// Monument
-       /// <see url="https://fontawesome.com/icons/monument?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/monument?f=classic&amp;s=solid">Monument</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Monument;
    }
    /// <summary>
    /// Mosque
-   /// <see url="https://fontawesome.com/icons/mosque" />
+   /// <a href="https://fontawesome.com/icons/mosque">Mosque</a>
    /// </summary>
    public static partial class MosqueIcon
    {
        /// <summary>
-       /// Mosque
-       /// <see url="https://fontawesome.com/icons/mosque?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/mosque?f=classic&amp;s=solid">Mosque</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Mosque;
    }
    /// <summary>
    /// Mountain City
-   /// <see url="https://fontawesome.com/icons/mountain-city" />
+   /// <a href="https://fontawesome.com/icons/mountain-city">Mountain City</a>
    /// </summary>
    public static partial class MountainCityIcon
    {
        /// <summary>
-       /// Mountain City
-       /// <see url="https://fontawesome.com/icons/mountain-city?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/mountain-city?f=classic&amp;s=solid">Mountain City</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MountainCity;
    }
    /// <summary>
    /// Oil Well
-   /// <see url="https://fontawesome.com/icons/oil-well" />
+   /// <a href="https://fontawesome.com/icons/oil-well">Oil Well</a>
    /// </summary>
    public static partial class OilWellIcon
    {
        /// <summary>
-       /// Oil Well
-       /// <see url="https://fontawesome.com/icons/oil-well?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/oil-well?f=classic&amp;s=solid">Oil Well</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.OilWell;
    }
    /// <summary>
    /// Place Of Worship
-   /// <see url="https://fontawesome.com/icons/place-of-worship" />
+   /// <a href="https://fontawesome.com/icons/place-of-worship">Place Of Worship</a>
    /// </summary>
    public static partial class PlaceOfWorshipIcon
    {
        /// <summary>
-       /// Place Of Worship
-       /// <see url="https://fontawesome.com/icons/place-of-worship?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/place-of-worship?f=classic&amp;s=solid">Place Of Worship</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PlaceOfWorship;
    }
    /// <summary>
    /// School
-   /// <see url="https://fontawesome.com/icons/school" />
+   /// <a href="https://fontawesome.com/icons/school">School</a>
    /// </summary>
    public static partial class SchoolIcon
    {
        /// <summary>
-       /// School
-       /// <see url="https://fontawesome.com/icons/school?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/school?f=classic&amp;s=solid">School</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.School;
    }
    /// <summary>
    /// School Circle Check
-   /// <see url="https://fontawesome.com/icons/school-circle-check" />
+   /// <a href="https://fontawesome.com/icons/school-circle-check">School Circle Check</a>
    /// </summary>
    public static partial class SchoolCircleCheckIcon
    {
        /// <summary>
-       /// School Circle Check
-       /// <see url="https://fontawesome.com/icons/school-circle-check?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/school-circle-check?f=classic&amp;s=solid">School Circle Check</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SchoolCircleCheck;
    }
    /// <summary>
    /// School Circle Exclamation
-   /// <see url="https://fontawesome.com/icons/school-circle-exclamation" />
+   /// <a href="https://fontawesome.com/icons/school-circle-exclamation">School Circle Exclamation</a>
    /// </summary>
    public static partial class SchoolCircleExclamationIcon
    {
        /// <summary>
-       /// School Circle Exclamation
-       /// <see url="https://fontawesome.com/icons/school-circle-exclamation?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/school-circle-exclamation?f=classic&amp;s=solid">School Circle Exclamation</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SchoolCircleExclamation;
    }
    /// <summary>
    /// School Circle Xmark
-   /// <see url="https://fontawesome.com/icons/school-circle-xmark" />
+   /// <a href="https://fontawesome.com/icons/school-circle-xmark">School Circle Xmark</a>
    /// </summary>
    public static partial class SchoolCircleXmarkIcon
    {
        /// <summary>
-       /// School Circle Xmark
-       /// <see url="https://fontawesome.com/icons/school-circle-xmark?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/school-circle-xmark?f=classic&amp;s=solid">School Circle Xmark</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SchoolCircleXmark;
    }
    /// <summary>
    /// School Flag
-   /// <see url="https://fontawesome.com/icons/school-flag" />
+   /// <a href="https://fontawesome.com/icons/school-flag">School Flag</a>
    /// </summary>
    public static partial class SchoolFlagIcon
    {
        /// <summary>
-       /// School Flag
-       /// <see url="https://fontawesome.com/icons/school-flag?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/school-flag?f=classic&amp;s=solid">School Flag</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SchoolFlag;
    }
    /// <summary>
    /// School Lock
-   /// <see url="https://fontawesome.com/icons/school-lock" />
+   /// <a href="https://fontawesome.com/icons/school-lock">School Lock</a>
    /// </summary>
    public static partial class SchoolLockIcon
    {
        /// <summary>
-       /// School Lock
-       /// <see url="https://fontawesome.com/icons/school-lock?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/school-lock?f=classic&amp;s=solid">School Lock</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SchoolLock;
    }
    /// <summary>
    /// Shop
-   /// <see url="https://fontawesome.com/icons/shop" />
+   /// <a href="https://fontawesome.com/icons/shop">Shop</a>
    /// </summary>
    public static partial class ShopIcon
    {
        /// <summary>
-       /// Shop
-       /// <see url="https://fontawesome.com/icons/shop?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/shop?f=classic&amp;s=solid">Shop</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Shop;
    }
    /// <summary>
    /// Shop Lock
-   /// <see url="https://fontawesome.com/icons/shop-lock" />
+   /// <a href="https://fontawesome.com/icons/shop-lock">Shop Lock</a>
    /// </summary>
    public static partial class ShopLockIcon
    {
        /// <summary>
-       /// Shop Lock
-       /// <see url="https://fontawesome.com/icons/shop-lock?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/shop-lock?f=classic&amp;s=solid">Shop Lock</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ShopLock;
    }
    /// <summary>
    /// Store
-   /// <see url="https://fontawesome.com/icons/store" />
+   /// <a href="https://fontawesome.com/icons/store">Store</a>
    /// </summary>
    public static partial class StoreIcon
    {
        /// <summary>
-       /// Store
-       /// <see url="https://fontawesome.com/icons/store?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/store?f=classic&amp;s=solid">Store</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Store;
    }
    /// <summary>
    /// Synagogue
-   /// <see url="https://fontawesome.com/icons/synagogue" />
+   /// <a href="https://fontawesome.com/icons/synagogue">Synagogue</a>
    /// </summary>
    public static partial class SynagogueIcon
    {
        /// <summary>
-       /// Synagogue
-       /// <see url="https://fontawesome.com/icons/synagogue?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/synagogue?f=classic&amp;s=solid">Synagogue</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Synagogue;
    }
    /// <summary>
    /// Tent
-   /// <see url="https://fontawesome.com/icons/tent" />
+   /// <a href="https://fontawesome.com/icons/tent">Tent</a>
    /// </summary>
    public static partial class TentIcon
    {
        /// <summary>
-       /// Tent
-       /// <see url="https://fontawesome.com/icons/tent?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/tent?f=classic&amp;s=solid">Tent</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Tent;
    }
    /// <summary>
    /// Tent Arrow Down To Line
-   /// <see url="https://fontawesome.com/icons/tent-arrow-down-to-line" />
+   /// <a href="https://fontawesome.com/icons/tent-arrow-down-to-line">Tent Arrow Down To Line</a>
    /// </summary>
    public static partial class TentArrowDownToLineIcon
    {
        /// <summary>
-       /// Tent Arrow Down To Line
-       /// <see url="https://fontawesome.com/icons/tent-arrow-down-to-line?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/tent-arrow-down-to-line?f=classic&amp;s=solid">Tent Arrow Down To Line</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TentArrowDownToLine;
    }
    /// <summary>
    /// Tent Arrow Left Right
-   /// <see url="https://fontawesome.com/icons/tent-arrow-left-right" />
+   /// <a href="https://fontawesome.com/icons/tent-arrow-left-right">Tent Arrow Left Right</a>
    /// </summary>
    public static partial class TentArrowLeftRightIcon
    {
        /// <summary>
-       /// Tent Arrow Left Right
-       /// <see url="https://fontawesome.com/icons/tent-arrow-left-right?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/tent-arrow-left-right?f=classic&amp;s=solid">Tent Arrow Left Right</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TentArrowLeftRight;
    }
    /// <summary>
    /// Tent Arrow Turn Left
-   /// <see url="https://fontawesome.com/icons/tent-arrow-turn-left" />
+   /// <a href="https://fontawesome.com/icons/tent-arrow-turn-left">Tent Arrow Turn Left</a>
    /// </summary>
    public static partial class TentArrowTurnLeftIcon
    {
        /// <summary>
-       /// Tent Arrow Turn Left
-       /// <see url="https://fontawesome.com/icons/tent-arrow-turn-left?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/tent-arrow-turn-left?f=classic&amp;s=solid">Tent Arrow Turn Left</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TentArrowTurnLeft;
    }
    /// <summary>
    /// Tent Arrows Down
-   /// <see url="https://fontawesome.com/icons/tent-arrows-down" />
+   /// <a href="https://fontawesome.com/icons/tent-arrows-down">Tent Arrows Down</a>
    /// </summary>
    public static partial class TentArrowsDownIcon
    {
        /// <summary>
-       /// Tent Arrows Down
-       /// <see url="https://fontawesome.com/icons/tent-arrows-down?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/tent-arrows-down?f=classic&amp;s=solid">Tent Arrows Down</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TentArrowsDown;
    }
    /// <summary>
    /// Tents
-   /// <see url="https://fontawesome.com/icons/tents" />
+   /// <a href="https://fontawesome.com/icons/tents">Tents</a>
    /// </summary>
    public static partial class TentsIcon
    {
        /// <summary>
-       /// Tents
-       /// <see url="https://fontawesome.com/icons/tents?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/tents?f=classic&amp;s=solid">Tents</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Tents;
    }
    /// <summary>
    /// Toilet Portable
-   /// <see url="https://fontawesome.com/icons/toilet-portable" />
+   /// <a href="https://fontawesome.com/icons/toilet-portable">Toilet Portable</a>
    /// </summary>
    public static partial class ToiletPortableIcon
    {
        /// <summary>
-       /// Toilet Portable
-       /// <see url="https://fontawesome.com/icons/toilet-portable?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/toilet-portable?f=classic&amp;s=solid">Toilet Portable</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ToiletPortable;
    }
    /// <summary>
    /// Toilets Portable
-   /// <see url="https://fontawesome.com/icons/toilets-portable" />
+   /// <a href="https://fontawesome.com/icons/toilets-portable">Toilets Portable</a>
    /// </summary>
    public static partial class ToiletsPortableIcon
    {
        /// <summary>
-       /// Toilets Portable
-       /// <see url="https://fontawesome.com/icons/toilets-portable?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/toilets-portable?f=classic&amp;s=solid">Toilets Portable</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ToiletsPortable;
    }
    /// <summary>
    /// Torii Gate
-   /// <see url="https://fontawesome.com/icons/torii-gate" />
+   /// <a href="https://fontawesome.com/icons/torii-gate">Torii Gate</a>
    /// </summary>
    public static partial class ToriiGateIcon
    {
        /// <summary>
-       /// Torii Gate
-       /// <see url="https://fontawesome.com/icons/torii-gate?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/torii-gate?f=classic&amp;s=solid">Torii Gate</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ToriiGate;
    }
    /// <summary>
    /// Tower Observation
-   /// <see url="https://fontawesome.com/icons/tower-observation" />
+   /// <a href="https://fontawesome.com/icons/tower-observation">Tower Observation</a>
    /// </summary>
    public static partial class TowerObservationIcon
    {
        /// <summary>
-       /// Tower Observation
-       /// <see url="https://fontawesome.com/icons/tower-observation?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/tower-observation?f=classic&amp;s=solid">Tower Observation</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TowerObservation;
    }
    /// <summary>
    /// Tree City
-   /// <see url="https://fontawesome.com/icons/tree-city" />
+   /// <a href="https://fontawesome.com/icons/tree-city">Tree City</a>
    /// </summary>
    public static partial class TreeCityIcon
    {
        /// <summary>
-       /// Tree City
-       /// <see url="https://fontawesome.com/icons/tree-city?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/tree-city?f=classic&amp;s=solid">Tree City</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TreeCity;
    }
    /// <summary>
    /// Vihara
-   /// <see url="https://fontawesome.com/icons/vihara" />
+   /// <a href="https://fontawesome.com/icons/vihara">Vihara</a>
    /// </summary>
    public static partial class ViharaIcon
    {
        /// <summary>
-       /// Vihara
-       /// <see url="https://fontawesome.com/icons/vihara?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/vihara?f=classic&amp;s=solid">Vihara</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Vihara;
    }
    /// <summary>
    /// Warehouse
-   /// <see url="https://fontawesome.com/icons/warehouse" />
+   /// <a href="https://fontawesome.com/icons/warehouse">Warehouse</a>
    /// </summary>
    public static partial class WarehouseIcon
    {
        /// <summary>
-       /// Warehouse
-       /// <see url="https://fontawesome.com/icons/warehouse?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/warehouse?f=classic&amp;s=solid">Warehouse</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Warehouse;
    }

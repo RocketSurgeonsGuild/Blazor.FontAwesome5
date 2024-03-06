@@ -8,145 +8,133 @@ public static partial class FaClothingFashion
 {
    /// <summary>
    /// Glasses
-   /// <see url="https://fontawesome.com/icons/glasses" />
+   /// <a href="https://fontawesome.com/icons/glasses">Glasses</a>
    /// </summary>
    public static partial class GlassesIcon
    {
        /// <summary>
-       /// Glasses
-       /// <see url="https://fontawesome.com/icons/glasses?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/glasses?f=classic&amp;s=solid">Glasses</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Glasses;
    }
    /// <summary>
    /// Graduation Cap
-   /// <see url="https://fontawesome.com/icons/graduation-cap" />
+   /// <a href="https://fontawesome.com/icons/graduation-cap">Graduation Cap</a>
    /// </summary>
    public static partial class GraduationCapIcon
    {
        /// <summary>
-       /// Graduation Cap
-       /// <see url="https://fontawesome.com/icons/graduation-cap?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/graduation-cap?f=classic&amp;s=solid">Graduation Cap</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.GraduationCap;
    }
    /// <summary>
    /// Hat Cowboy
-   /// <see url="https://fontawesome.com/icons/hat-cowboy" />
+   /// <a href="https://fontawesome.com/icons/hat-cowboy">Hat Cowboy</a>
    /// </summary>
    public static partial class HatCowboyIcon
    {
        /// <summary>
-       /// Hat Cowboy
-       /// <see url="https://fontawesome.com/icons/hat-cowboy?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/hat-cowboy?f=classic&amp;s=solid">Hat Cowboy</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HatCowboy;
    }
    /// <summary>
    /// Hat Cowboy Side
-   /// <see url="https://fontawesome.com/icons/hat-cowboy-side" />
+   /// <a href="https://fontawesome.com/icons/hat-cowboy-side">Hat Cowboy Side</a>
    /// </summary>
    public static partial class HatCowboySideIcon
    {
        /// <summary>
-       /// Hat Cowboy Side
-       /// <see url="https://fontawesome.com/icons/hat-cowboy-side?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/hat-cowboy-side?f=classic&amp;s=solid">Hat Cowboy Side</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HatCowboySide;
    }
    /// <summary>
    /// Hat Wizard
-   /// <see url="https://fontawesome.com/icons/hat-wizard" />
+   /// <a href="https://fontawesome.com/icons/hat-wizard">Hat Wizard</a>
    /// </summary>
    public static partial class HatWizardIcon
    {
        /// <summary>
-       /// Hat Wizard
-       /// <see url="https://fontawesome.com/icons/hat-wizard?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/hat-wizard?f=classic&amp;s=solid">Hat Wizard</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HatWizard;
    }
    /// <summary>
    /// Mitten
-   /// <see url="https://fontawesome.com/icons/mitten" />
+   /// <a href="https://fontawesome.com/icons/mitten">Mitten</a>
    /// </summary>
    public static partial class MittenIcon
    {
        /// <summary>
-       /// Mitten
-       /// <see url="https://fontawesome.com/icons/mitten?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/mitten?f=classic&amp;s=solid">Mitten</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Mitten;
    }
    /// <summary>
    /// Shirt
-   /// <see url="https://fontawesome.com/icons/shirt" />
+   /// <a href="https://fontawesome.com/icons/shirt">Shirt</a>
    /// </summary>
    public static partial class ShirtIcon
    {
        /// <summary>
-       /// Shirt
-       /// <see url="https://fontawesome.com/icons/shirt?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/shirt?f=classic&amp;s=solid">Shirt</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Shirt;
    }
    /// <summary>
    /// Shoe Prints
-   /// <see url="https://fontawesome.com/icons/shoe-prints" />
+   /// <a href="https://fontawesome.com/icons/shoe-prints">Shoe Prints</a>
    /// </summary>
    public static partial class ShoePrintsIcon
    {
        /// <summary>
-       /// Shoe Prints
-       /// <see url="https://fontawesome.com/icons/shoe-prints?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/shoe-prints?f=classic&amp;s=solid">Shoe Prints</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ShoePrints;
    }
    /// <summary>
    /// Socks
-   /// <see url="https://fontawesome.com/icons/socks" />
+   /// <a href="https://fontawesome.com/icons/socks">Socks</a>
    /// </summary>
    public static partial class SocksIcon
    {
        /// <summary>
-       /// Socks
-       /// <see url="https://fontawesome.com/icons/socks?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/socks?f=classic&amp;s=solid">Socks</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Socks;
    }
    /// <summary>
    /// User Tie
-   /// <see url="https://fontawesome.com/icons/user-tie" />
+   /// <a href="https://fontawesome.com/icons/user-tie">User Tie</a>
    /// </summary>
    public static partial class UserTieIcon
    {
        /// <summary>
-       /// User Tie
-       /// <see url="https://fontawesome.com/icons/user-tie?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/user-tie?f=classic&amp;s=solid">User Tie</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.UserTie;
    }
    /// <summary>
    /// Vest
-   /// <see url="https://fontawesome.com/icons/vest" />
+   /// <a href="https://fontawesome.com/icons/vest">Vest</a>
    /// </summary>
    public static partial class VestIcon
    {
        /// <summary>
-       /// Vest
-       /// <see url="https://fontawesome.com/icons/vest?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/vest?f=classic&amp;s=solid">Vest</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Vest;
    }
    /// <summary>
    /// Vest Patches
-   /// <see url="https://fontawesome.com/icons/vest-patches" />
+   /// <a href="https://fontawesome.com/icons/vest-patches">Vest Patches</a>
    /// </summary>
    public static partial class VestPatchesIcon
    {
        /// <summary>
-       /// Vest Patches
-       /// <see url="https://fontawesome.com/icons/vest-patches?f=classic&s=solid" />
+       /// <a href="https://fontawesome.com/icons/vest-patches?f=classic&amp;s=solid">Vest Patches</a>
        /// </summary>
        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.VestPatches;
    }

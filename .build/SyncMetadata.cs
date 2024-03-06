@@ -23,214 +23,250 @@ public partial class Pipeline
     private Target RegenerateFromMetadata =>
         _ => _
 //            .Requires(() => FontAwesomeToken)
-            .Executes(
-                 () =>
-                 {
-                     foreach (var version in Enum.GetValues<FontAwesomeVersion>())
-                     {
-                         var stringV = version switch { FontAwesomeVersion.V6 => "6", };
-                         var packageDirectory = TemporaryDirectory / version.ToString();
-                         packageDirectory.CreateDirectory();
-                         ( packageDirectory / "package.json" ).WriteAllText("{}");
-                         ( packageDirectory / ".npmrc" ).WriteAllText(
-                             $@"@fortawesome:registry=https://npm.fontawesome.com/
+           .Executes(
+                () =>
+                {
+                    foreach (var version in Enum.GetValues<FontAwesomeVersion>())
+                    {
+                        var stringV = version switch { FontAwesomeVersion.V6 => "6", };
+                        var packageDirectory = TemporaryDirectory / version.ToString();
+                        packageDirectory.CreateDirectory();
+                        ( packageDirectory / "package.json" ).WriteAllText("{}");
+                        ( packageDirectory / ".npmrc" ).WriteAllText(
+                            $@"@fortawesome:registry=https://npm.fontawesome.com/
 //npm.fontawesome.com/:_authToken={FontAwesomeToken}"
-                         );
+                        );
 
-                         Npm($"install @fortawesome/fontawesome-pro@{stringV} --no-package-lock", packageDirectory);
-                         var iconsData = packageDirectory / "node_modules" / "@fortawesome/fontawesome-pro" / "metadata" / "icon-families.json";
-                         var categoriesData = packageDirectory / "node_modules" / "@fortawesome/fontawesome-pro" / "metadata" / "categories.yml";
+                        Npm($"install @fortawesome/fontawesome-pro@{stringV} --no-package-lock", packageDirectory);
+                        var iconsData = packageDirectory / "node_modules" / "@fortawesome/fontawesome-pro" / "metadata" / "icon-families.json";
+                        var categoriesData = packageDirectory / "node_modules" / "@fortawesome/fontawesome-pro" / "metadata" / "categories.yml";
 
-                         var icons = JsonConvert.DeserializeObject<IconDictionary>(iconsData.ReadAllText()!).ToModels().ToImmutableArray();
-                         var categories = new DeserializerBuilder()
-                                         .WithNamingConvention(CamelCaseNamingConvention.Instance)
-                                         .Build()
-                                         .Deserialize<CategoryDictionary>(categoriesData.ReadAllText())
-                                         .ToModels()
-                                         .ToImmutableArray();
+                        var icons = JsonConvert.DeserializeObject<IconDictionary>(iconsData.ReadAllText()!).ToModels().ToImmutableArray();
+                        var categories = new DeserializerBuilder()
+                                        .WithNamingConvention(CamelCaseNamingConvention.Instance)
+                                        .Build()
+                                        .Deserialize<CategoryDictionary>(categoriesData.ReadAllText())
+                                        .ToModels()
+                                        .ToImmutableArray();
 
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Icons" ).CreateOrCleanDirectory();
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Categories" ).CreateOrCleanDirectory();
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Icons" ).CreateOrCleanDirectory();
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Categories" ).CreateOrCleanDirectory();
+                        ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Icons" ).CreateOrCleanDirectory();
+                        ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Categories" ).CreateOrCleanDirectory();
+                        ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Icons" ).CreateOrCleanDirectory();
+                        ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Categories" ).CreateOrCleanDirectory();
 
-                         GenerateFiles(stringV, version, icons, categories);
-                     }
+                        GenerateFiles(stringV, version, icons, categories);
+                    }
 
-                     static void GenerateFiles(
-                         string stringV,
-                         FontAwesomeVersion version,
-                         ImmutableArray<IconModel> icons,
-                         ImmutableArray<CategoryModel> categories
-                     )
-                     {
-                         var freeFileBuilders = new Dictionary<string, StringBuilder>();
-                         var proFileBuilders = new Dictionary<string, StringBuilder>();
+                    static void GenerateFiles(
+                        string stringV,
+                        FontAwesomeVersion version,
+                        ImmutableArray<IconModel> icons,
+                        ImmutableArray<CategoryModel> categories
+                    )
+                    {
+                        var freeFileBuilders = new Dictionary<string, StringBuilder>();
+                        var proFileBuilders = new Dictionary<string, StringBuilder>();
 
-                         StringBuilder GetFileBuilder(FontAwesomeKind kind, string name)
-                         {
-                             var d = kind switch
-                                     {
-                                         FontAwesomeKind.Free => freeFileBuilders,
-                                         FontAwesomeKind.Pro  => proFileBuilders,
-                                         _                    => throw new NotSupportedException()
-                                     };
-                             if (d.TryGetValue(name, out var builder))
-                             {
-                                 return builder;
-                             }
+                        StringBuilder GetFileBuilder(FontAwesomeKind kind, string name)
+                        {
+                            var d = kind switch
+                                    {
+                                        FontAwesomeKind.Free => freeFileBuilders, FontAwesomeKind.Pro => proFileBuilders, _ => throw new NotSupportedException()
+                                    };
+                            if (d.TryGetValue(name, out var builder))
+                            {
+                                return builder;
+                            }
 
-                             return d[name] = new StringBuilder(new(), 4, ' ', "\n", 0);
-                         }
+                            return d[name] = new StringBuilder(new(), 4, ' ', "\n", 0);
+                        }
 
-                         static string UsingNamespaceWithClass(string @namespace, string str, string stringV, string name)
-                         {
-                             var sb = new StringBuilder();
-                             sb.AppendLine("using System;");
-                             sb.AppendLine($"using Rocket.Surgery.Blazor.FontAwesome{stringV};");
-                             sb.AppendLine($"namespace {@namespace};");
-                             sb.AppendLine($"public static partial class Fa{name}");
-                             sb.AppendLine("{");
-                             using (sb.Indent())
-                             {
-                                 sb.AppendLine(str);
-                             }
+                        static string UsingNamespaceWithClass(string @namespace, string str, string stringV, string name, string label)
+                        {
+                            var sb = new StringBuilder();
+                            sb.AppendLine("using System;");
+                            sb.AppendLine($"using Rocket.Surgery.Blazor.FontAwesome{stringV};");
+                            sb.AppendLine($"namespace {@namespace};");
+                            sb.AppendLine("/// <summary>");
+                            sb.AppendLine($"/// Font Awesome {label} Icons");
+                            sb.AppendLine("/// </summary>");
+                            sb.AppendLine($"public static partial class Fa{name}");
+                            sb.AppendLine("{");
+                            using (sb.Indent())
+                            {
+                                sb.AppendLine(str);
+                            }
 
-                             sb.AppendLine("}");
-                             return sb.ToString();
-                         }
+                            sb.AppendLine("}");
+                            return sb.ToString();
+                        }
 
-                         foreach (var icon in icons)
-                         {
-                             ProcessIcon(icon);
-                         }
+                        foreach (var icon in icons)
+                        {
+                            ProcessIcon(icon);
+                        }
 
-                         foreach (var (name, sb) in freeFileBuilders)
-                         {
-                             ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Icons" / $"Fa{name}.cs" ).WriteAllText(
-                                 UsingNamespaceWithClass($"Rocket.Surgery.Blazor.FontAwesome{stringV}.Free", sb.ToString(), stringV, name)
-                             );
-                         }
+                        foreach (var (name, sb) in freeFileBuilders)
+                        {
+                            ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Icons" / $"Fa{name}.cs" ).WriteAllText(
+                                UsingNamespaceWithClass($"Rocket.Surgery.Blazor.FontAwesome{stringV}.Free", sb.ToString(), stringV, name, name)
+                            );
+                        }
 
-                         foreach (var (name, sb) in proFileBuilders)
-                         {
-                             ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Icons" / $"Fa{name}.cs" ).WriteAllText(
-                                 UsingNamespaceWithClass($"Rocket.Surgery.Blazor.FontAwesome{stringV}.Pro", sb.ToString(), stringV, name)
-                             );
-                         }
+                        foreach (var (name, sb) in proFileBuilders)
+                        {
+                            ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Icons" / $"Fa{name}.cs" ).WriteAllText(
+                                UsingNamespaceWithClass($"Rocket.Surgery.Blazor.FontAwesome{stringV}.Pro", sb.ToString(), stringV, name, name)
+                            );
+                        }
 
-                         foreach (var category in categories)
-                         {
-                             var freeIcons = category.Icons.Join(icons, z => z, z => z.Name, ( a, b ) =>  b).Where(z => z.FamilyStylesByLicense.Free.Any()).ToArray();
-                             var proIcons = category.Icons.Join(icons, z => z, z => z.Name, ( a, b ) =>  b ).Where(z => z.FamilyStylesByLicense.Pro.Any()).ToArray();
-                             if (freeIcons.Any())
-                             {
-                                 var sb = new StringBuilder(new(), 4, ' ', "\n", 0);
-                                 foreach (var icon in freeIcons)
-                                 {
-                                     ProcessCategory(sb, icon, icon.FamilyStylesByLicense.Free, category, $"Rocket.Surgery.Blazor.FontAwesome{stringV}.Free");
-                                 }
+                        foreach (var category in categories)
+                        {
+                            var freeIcons = category
+                                           .Icons.Join(icons, z => z, z => z.Name, (a, b) => b)
+                                           .Where(z => z.FamilyStylesByLicense.Free.Any())
+                                           .ToArray();
+                            var proIcons = category.Icons.Join(icons, z => z, z => z.Name, (a, b) => b).Where(z => z.FamilyStylesByLicense.Pro.Any()).ToArray();
+                            if (freeIcons.Any())
+                            {
+                                var sb = new StringBuilder(new(), 4, ' ', "\n", 0);
+                                foreach (var icon in freeIcons)
+                                {
+                                    ProcessCategory(sb, icon, icon.FamilyStylesByLicense.Free, category, $"Rocket.Surgery.Blazor.FontAwesome{stringV}.Free");
+                                }
 
-                                 ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Categories" / $"Fa{category.Label.Dehumanize()}.cs" ).WriteAllText(
-                                     UsingNamespaceWithClass(
-                                         $"Rocket.Surgery.Blazor.FontAwesome{stringV}.Free.Categories",
-                                         sb.ToString(),
-                                         stringV,
-                                         category.Label.Dehumanize()
-                                     )
-                                 );
-                             }
-                             if (proIcons.Any())
-                             {
-                                 var sb = new StringBuilder(new(), 4, ' ', "\n", 0);
-                                 foreach (var icon in proIcons)
-                                 {
-                                     ProcessCategory(sb, icon, icon.FamilyStylesByLicense.Pro, category, $"Rocket.Surgery.Blazor.FontAwesome{stringV}.Pro");
-                                 }
+                                ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Categories" / $"Fa{category.Label.Dehumanize()}.cs" ).WriteAllText(
+                                    UsingNamespaceWithClass(
+                                        $"Rocket.Surgery.Blazor.FontAwesome{stringV}.Free.Categories",
+                                        sb.ToString(),
+                                        stringV,
+                                        category.Label.Dehumanize(),
+                                        category.Label
+                                    )
+                                );
+                            }
 
-                                 ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Categories" / $"Fa{category.Label.Dehumanize()}.cs" ).WriteAllText(
-                                     UsingNamespaceWithClass(
-                                         $"Rocket.Surgery.Blazor.FontAwesome{stringV}.Pro.Categories",
-                                         sb.ToString(),
-                                         stringV,
-                                         category.Label.Dehumanize()
-                                     )
-                                 );
-                             }
-                         }
+                            if (proIcons.Any())
+                            {
+                                var sb = new StringBuilder(new(), 4, ' ', "\n", 0);
+                                foreach (var icon in proIcons)
+                                {
+                                    ProcessCategory(sb, icon, icon.FamilyStylesByLicense.Pro, category, $"Rocket.Surgery.Blazor.FontAwesome{stringV}.Pro");
+                                }
 
-                         void ProcessIcon(IconModel icon)
-                         {
-                             if (icon.FamilyStylesByLicense.Free.Any())
-                             {
-                                 var fqnamespace = $"Rocket.Surgery.Blazor.FontAwesome{stringV}.Free";
-                                 foreach (var family in icon.FamilyStylesByLicense.Free)
-                                 {
-                                     ProcessIconFamily(FontAwesomeKind.Free, icon, family, fqnamespace);
-                                 }
-                             }
+                                ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Categories" / $"Fa{category.Label.Dehumanize()}.cs" ).WriteAllText(
+                                    UsingNamespaceWithClass(
+                                        $"Rocket.Surgery.Blazor.FontAwesome{stringV}.Pro.Categories",
+                                        sb.ToString(),
+                                        stringV,
+                                        category.Label.Dehumanize(),
+                                        category.Label
+                                    )
+                                );
+                            }
+                        }
 
-                             if (icon.FamilyStylesByLicense.Pro.Any())
-                             {
-                                 var fqnamespace = $"Rocket.Surgery.Blazor.FontAwesome{stringV}.Pro";
-                                 foreach (var family in icon.FamilyStylesByLicense.Pro)
-                                 {
-                                     ProcessIconFamily(FontAwesomeKind.Pro, icon, family, fqnamespace);
-                                 }
-                             }
-                         }
+                        void ProcessIcon(IconModel icon)
+                        {
+                            if (icon.FamilyStylesByLicense.Free.Any())
+                            {
+                                var fqnamespace = $"Rocket.Surgery.Blazor.FontAwesome{stringV}.Free";
+                                foreach (var family in icon.FamilyStylesByLicense.Free)
+                                {
+                                    ProcessIconFamily(FontAwesomeKind.Free, icon, family, fqnamespace);
+                                }
+                            }
 
-                         void ProcessIconFamily(FontAwesomeKind kind, IconModel icon, FontAwesomeFamilyStyle family, string fqnamespace)
-                         {
-                             var builder = GetFileBuilder(kind, GetStyleName(family));
-                             WriteIcon(builder, icon, family, fqnamespace);
-                         }
+                            if (icon.FamilyStylesByLicense.Pro.Any())
+                            {
+                                var fqnamespace = $"Rocket.Surgery.Blazor.FontAwesome{stringV}.Pro";
+                                foreach (var family in icon.FamilyStylesByLicense.Pro)
+                                {
+                                    ProcessIconFamily(FontAwesomeKind.Pro, icon, family, fqnamespace);
+                                }
+                            }
+                        }
 
-                         void ProcessCategory(StringBuilder sb, IconModel icon, IEnumerable<FontAwesomeFamilyStyle> styles, CategoryModel category, string fqnamespace)
-                         {
-                             var modelName = ToModelName(icon);
-                                     sb.AppendLine($"public static partial class {modelName}Icon");
-                                     sb.AppendLine("{");
-                                     using (sb.Indent())
-                                     {
-                                         foreach (var style in styles)
-                                         {
-                                             var styleName = GetStyleName(style);
-                                             sb.AppendLine($"public static Icon {styleName} => global::{fqnamespace}.Fa{styleName}.{modelName};");
-                                         }
-                                     }
+                        void ProcessIconFamily(FontAwesomeKind kind, IconModel icon, FontAwesomeFamilyStyle family, string fqnamespace)
+                        {
+                            var builder = GetFileBuilder(kind, GetStyleName(family));
+                            WriteIcon(builder, icon, family, fqnamespace);
+                        }
 
-                                     sb.AppendLine("}");
-                         }
+                        void ProcessCategory(
+                            StringBuilder sb,
+                            IconModel icon,
+                            IEnumerable<FontAwesomeFamilyStyle> styles,
+                            CategoryModel category,
+                            string fqnamespace
+                        )
+                        {
+                            // https://fontawesome.com/icons/sparkles?f=classic&s=duotone
+                            var modelName = ToModelName(icon);
+                            sb.AppendLine("/// <summary>");
+                            sb.AppendLine($"/// {icon.Label}");
+                            sb.AppendLine($"/// <see url=\"https://fontawesome.com/icons/{icon.Alias}\" />");
+                            sb.AppendLine("/// </summary>");
+                            sb.AppendLine($"public static partial class {modelName}Icon");
+                            sb.AppendLine("{");
+                            using (sb.Indent())
+                            {
+                                foreach (var style in styles)
+                                {
+                                    var styleName = GetStyleName(style);
+                                    sb.AppendLine("/// <summary>");
+                                    sb.AppendLine($"/// {icon.Label}");
+                                    sb.AppendLine(
+                                        $"/// <see url=\"https://fontawesome.com/icons/{icon.Alias}?f={( style.Family == FontAwesomeFamily.Duotone ? "classic" : style.Family.ToString().ToLower() )}&s={styleName.ToLower()}\" />"
+                                    );
+                                    sb.AppendLine("/// </summary>");
+                                    sb.AppendLine($"public static Icon {styleName} => global::{fqnamespace}.Fa{styleName}.{modelName};");
+                                }
+                            }
 
-                         static void WriteIcon(StringBuilder sb, IconModel icon, FontAwesomeFamilyStyle style, string fqnamespace)
-                         {
-                             var modelName = ToModelName(icon);
-                             var styleName = GetStyleName(style);
-                             if (icon.Alias == icon.Name)
-                             {
-                                 sb.AppendLine($"private static Icon? {modelName}f;");
-                                 sb.AppendLine(
-                                     $"public static Icon {modelName} => {modelName}f ??= new Icon(IconFamily.{style.Family}, IconStyle.{style.Style}, \"{icon.Name}\");"
-                                 );
-                             }
-                             else
-                             {
-                                 sb.AppendLine(
-                                     $"public static Icon {modelName} => global::{fqnamespace}.Fa{styleName}.{ToAliasName(icon)};"
-                                 );
-                             }
-                         }
-                     }
+                            sb.AppendLine("}");
+                        }
 
-                     static string GetStyleName(FontAwesomeFamilyStyle style) {
+                        static void WriteIcon(StringBuilder sb, IconModel icon, FontAwesomeFamilyStyle style, string fqnamespace)
+                        {
+                            var modelName = ToModelName(icon);
+                            var styleName = GetStyleName(style);
+                            if (icon.Alias == icon.Name)
+                            {
+                                sb.AppendLine($"private static Icon? {modelName}f;");
+                                sb.AppendLine("/// <summary>");
+                                sb.AppendLine($"/// {icon.Label}");
+                                sb.AppendLine(
+                                    $"/// <see url=\"https://fontawesome.com/icons/{icon.Alias}?f={( style.Family == FontAwesomeFamily.Duotone ? "classic" : style.Family.ToString().ToLower() )}&s={styleName.ToLower()}\" />"
+                                );
+                                sb.AppendLine("/// </summary>");
+                                sb.AppendLine(
+                                    $"public static Icon {modelName} => {modelName}f ??= new Icon(IconFamily.{style.Family}, IconStyle.{style.Style}, \"{icon.Name}\");"
+                                );
+                            }
+                            else
+                            {
+                                sb.AppendLine("/// <summary>");
+                                sb.AppendLine($"/// {icon.Label}");
+                                sb.AppendLine(
+                                    $"/// <see url=\"https://fontawesome.com/icons/{icon.Alias}?f={( style.Family == FontAwesomeFamily.Duotone ? "classic" : style.Family.ToString().ToLower() )}&s={styleName.ToLower()}\" />"
+                                );
+                                sb.AppendLine("/// </summary>");
+                                sb.AppendLine(
+                                    $"public static Icon {modelName} => global::{fqnamespace}.Fa{styleName}.{ToAliasName(icon)};"
+                                );
+                            }
+                        }
+                    }
 
-                         var styleName = style.Family == FontAwesomeFamily.Duotone ? "Duotone" : style.Style.ToString();
-                         if (style.Family == FontAwesomeFamily.Sharp) styleName = "Sharp" + styleName;
-                         return styleName;
-                     }
-                 }
-             );
+                    static string GetStyleName(FontAwesomeFamilyStyle style)
+                    {
+                        var styleName = style.Family == FontAwesomeFamily.Duotone ? "Duotone" : style.Style.ToString();
+                        if (style.Family == FontAwesomeFamily.Sharp) styleName = "Sharp" + styleName;
+                        return styleName;
+                    }
+                }
+            );
 
 
     private static readonly Regex startsWithDigit = new Regex(@"^\d", RegexOptions.Compiled);

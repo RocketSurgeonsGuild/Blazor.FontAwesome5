@@ -644,14 +644,14 @@ internal static class IconExtensions
         }
     }
 
-    public static string ToMask(this IIcon icon)
+    public static string ToMask(this IMaskIcon icon)
     {
         var sb = new StringBuilder();
         ApplyMask(icon, sb);
         return sb.ToString();
     }
 
-    public static void ApplyMask(this IIcon icon, StringBuilder sb)
+    public static void ApplyMask(this IMaskIcon icon, StringBuilder sb)
     {
         if (icon.Mask == null)
             return;

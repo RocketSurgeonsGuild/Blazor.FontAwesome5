@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Components;
 namespace Rocket.Surgery.Blazor.FontAwesome6;
 
 [DebuggerDisplay("{Style} {Name}")]
-public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIcon
+public record Icon(IconFamily Family, IconStyle Style, string Name) : IIcon, IMaskIcon
 {
     public static string ToString(IconSize size, bool stack)
     {
@@ -112,11 +112,21 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         return ToPrefix(icon.Family, icon.Style);
     }
 
+    public string ToPrefix()
+    {
+        return ToPrefix(Family, Style);
+    }
+
     public static string ToName(Icon icon)
     {
         var sb = new StringBuilder();
         IconExtensions.ApplyName(sb, icon.Name);
         return sb.ToString();
+    }
+
+    public string ToName()
+    {
+        return ToName(this);
     }
 
     private IconSize _size { get; init; }
@@ -129,6 +139,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
 
     private bool _inverse { get; init; }
     private string? _inverseColor { get; init; }
+    private string? _title { get; init; }
     private Icon? _mask { get; init; }
 
     private double _shrink { get; init; }
@@ -827,6 +838,11 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         return this with { _inverseColor = color, };
     }
 
+    public Icon Title(string? color)
+    {
+        return this with { _title = color, };
+    }
+
     public MarkupString ToMarkup()
     {
         return (MarkupString)( ToString() ?? "" );
@@ -861,6 +877,13 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         {
             sb.Append('"');
         }
+
+        if (_title != null)
+        {
+            sb.Append(" title=\"");
+            sb.Append(_title);
+            sb.Append('"');
+        }
     }
 
     double ITransformIcon.Grow => _grow;
@@ -881,7 +904,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
     IconAnimation IAnimationIcon.Animation => _animation;
     bool? ISharedIcon.Border => _border;
     bool? IIcon.Inverse => _inverse;
-    Icon? IIcon.Mask => _mask;
+    Icon? IMaskIcon.Mask => _mask;
 
     bool? IIcon.SwapOpacity => _swapOpacity;
     double? IIcon.PrimaryOpacity => _primaryOpacity;
@@ -918,4 +941,5 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
     string? IIcon.StackZIndex => _stackZIndex;
     string? IIcon.InverseColor => _inverseColor;
     string? IIcon.RotateBy => _rotateBy;
+    string IIcon.Prefix => ToPrefix(Family, Style);
 }

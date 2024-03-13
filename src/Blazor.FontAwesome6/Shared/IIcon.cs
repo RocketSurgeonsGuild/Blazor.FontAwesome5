@@ -2,13 +2,13 @@
 
 public interface IIcon : ITransformIcon, IAnimationIcon, ISharedIcon
 {
+    string Prefix { get; }
     IconFamily Family { get; }
     IconStyle Style { get; }
     string Name { get; }
     IconPull Pull { get; }
     bool? Inverse { get; }
     string? InverseColor { get; }
-    Icon? Mask { get; }
     bool? SwapOpacity { get; }
     double? PrimaryOpacity { get; }
     double? SecondaryOpacity { get; }

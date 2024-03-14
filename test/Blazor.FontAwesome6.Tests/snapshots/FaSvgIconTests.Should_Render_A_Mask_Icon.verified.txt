@@ -1,0 +1,11 @@
+﻿{
+  Instance: {
+    Icon: {
+      Name: circle-half-stroke
+    },
+    Mask: {
+      Name: link
+    }
+  },
+  NodeCount: 2
+}

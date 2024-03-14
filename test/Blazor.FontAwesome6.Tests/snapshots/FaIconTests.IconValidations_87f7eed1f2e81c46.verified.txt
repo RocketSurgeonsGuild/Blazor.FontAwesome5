@@ -1,0 +1,9 @@
+﻿{
+  Instance: {
+    Icon: {
+      Family: Duotone,
+      Name: battery-full
+    }
+  },
+  NodeCount: 1
+}

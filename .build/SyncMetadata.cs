@@ -190,6 +190,13 @@ public partial class Pipeline
                         void ProcessIconFamily(FontAwesomeKind kind, IconModel icon, FontAwesomeFamilyStyle family, string fqnamespace)
                         {
                             var builder = GetFileBuilder(kind, GetStyleName(family));
+                            if (kind == FontAwesomeKind.Free)
+                            {
+                                WriteSvgIcon(builder, icon, family, fqnamespace);
+                                return;
+                            }
+                            // we won't write the svg for the pro icons because that would break the license
+                            // a source generator will be built to allow you to get the svg icons in your project
                             WriteIcon(builder, icon, family, fqnamespace);
                         }
 
@@ -248,6 +255,39 @@ public partial class Pipeline
                                 );
                             }
                         }
+
+                        static void WriteSvgIcon(StringBuilder sb, IconModel icon, FontAwesomeFamilyStyle style, string fqnamespace)
+                        {
+                            var modelName = ToModelName(icon);
+                            var styleName = GetStyleName(style);
+                            if (icon.Alias == icon.Name)
+                            {
+                            var svg = GetSvgData(icon, style);
+                            string[] paths = svg.Path as string[] ?? [(string)svg.Path,];
+                            var vectorData = paths is { Length: 1 } ? $"new string[] {{\"{paths[0]}\"}}" : $"new string[] {{\"{string.Join("\", \"", paths)}\"}}";
+                                sb.AppendLine($"private static SvgIcon? {modelName}f;");
+                                sb.AppendLine("/// <summary>");
+                                sb.AppendLine($"/// <a href=\"{GetHref(icon, style)}\">{icon.Label}</a>");
+                                sb.AppendLine("/// </summary>");
+                                sb.AppendLine(
+                                    $"public static SvgIcon {modelName} => {modelName}f ??= new SvgIcon(IconFamily.{style.Family}, IconStyle.{style.Style}, \"{icon.Name}\", {svg.Width}, {svg.Height}, {vectorData});"
+                                );
+                            }
+                            else
+                            {
+                                sb.AppendLine("/// <summary>");
+                                sb.AppendLine($"/// <a href=\"{GetHref(icon, style)}\">{icon.Label}</a>");
+                                sb.AppendLine("/// </summary>");
+                                sb.AppendLine(
+                                    $"public static SvgIcon {modelName} => global::{fqnamespace}.Fa{styleName}.{ToAliasName(icon)};"
+                                );
+                            }
+                        }
+                    }
+
+                    static SvgData GetSvgData(IconModel icon, FontAwesomeFamilyStyle style)
+                    {
+                        return icon.Svgs[style.Family][style.Style];
                     }
 
                     static string GetStyleName(FontAwesomeFamilyStyle style)
@@ -376,6 +416,7 @@ internal class IconDictionary : Dictionary<string, IconModelBase>
                 Label = item.Value.Label,
                 FamilyStylesByLicense = item.Value.FamilyStylesByLicense,
                 Unicode = item.Value.Unicode,
+                Svgs = item.Value.Svgs,
             };
             if (item.Value.Aliases is { } aliases)
             {
@@ -388,6 +429,7 @@ internal class IconDictionary : Dictionary<string, IconModelBase>
                         Label = item.Value.Label,
                         FamilyStylesByLicense = item.Value.FamilyStylesByLicense,
                         Unicode = item.Value.Unicode,
+                        Svgs = item.Value.Svgs,
                     };
                 }
             }
@@ -402,6 +444,8 @@ internal class IconModel
     public string Label { get; set; }
     public FamilyStylesByLicense FamilyStylesByLicense { get; set; } = new FamilyStylesByLicense();
     public string Unicode { get; set; }
+
+    public Dictionary<FontAwesomeFamily, IDictionary<FontAwesomeStyle, SvgData>> Svgs { get; set; } = new ();
 }
 
 internal class IconModelBase
@@ -413,7 +457,19 @@ internal class IconModelBase
     public IEnumerable<string> Ligatures { get; set; } = Enumerable.Empty<string>();
     public bool Private { get; set; }
     public IconAliases Aliases { get; set; } = new IconAliases();
+
+    public Dictionary<FontAwesomeFamily, IDictionary<FontAwesomeStyle, SvgData>> Svgs { get; set; } = new ();
 }
+internal class SvgData
+{
+    public int LastModified { get; set; }
+    public string Raw { get; set; }
+    public int[] ViewBox { get; set; }
+    public int Width { get; set; }
+    public int Height { get; set; }
+    public object Path { get; set; }
+}
+
 
 public class FamilyStylesByLicense
 {

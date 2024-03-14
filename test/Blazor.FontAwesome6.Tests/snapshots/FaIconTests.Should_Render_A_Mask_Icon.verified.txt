@@ -1,0 +1,13 @@
+﻿{
+  Instance: {
+    Icon: {
+      Family: Duotone,
+      Name: circle-half-stroke
+    },
+    Mask: {
+      Family: Duotone,
+      Name: chart-mixed
+    }
+  },
+  NodeCount: 1
+}

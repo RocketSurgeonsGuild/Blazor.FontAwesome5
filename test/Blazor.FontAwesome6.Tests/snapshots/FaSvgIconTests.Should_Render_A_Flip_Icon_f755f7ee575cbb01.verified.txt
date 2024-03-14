@@ -1,0 +1,9 @@
+﻿{
+  Instance: {
+    Icon: {
+      Name: circle-half-stroke
+    },
+    FlipTransform: None
+  },
+  NodeCount: 2
+}

@@ -1,0 +1,10 @@
+﻿{
+  Instance: {
+    Icon: {
+      Family: Duotone,
+      Name: link
+    },
+    Size: _5X
+  },
+  NodeCount: 1
+}

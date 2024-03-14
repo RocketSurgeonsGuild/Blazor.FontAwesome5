@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Components;
+﻿using System.Collections.Immutable;
+using System.Text;
+using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
+using Rocket.Surgery.Blazor.FontAwesome6.Vector;
 
 namespace Rocket.Surgery.Blazor.FontAwesome6;
 
@@ -62,6 +65,9 @@ public sealed class FaIcon : ComponentBase, IIcon, IAnimationComponent
     public string? Class { get; set; }
 
     [Parameter]
+    public string? Title { get; set; }
+
+    [Parameter]
     public string? Style { get; set; }
 
     [Parameter]
@@ -80,6 +86,48 @@ public sealed class FaIcon : ComponentBase, IIcon, IAnimationComponent
     protected override void BuildRenderTree(RenderTreeBuilder builder)
     {
         //<i class="@ToClass()" @attributes="GetAttributes()" style="@AllStyle"></i>
+        if (Icon is ISvgIcon svgIcon)
+        {
+            var seq = 0;
+            var overrideIcon = (IIcon)this;
+            var element = Renderer.Instance.Render(svgIcon, new SvgParameters()
+            {
+                Transform = new SvgTransform()
+                {
+                    Rotate = overrideIcon.Rotate is < -0.001 or > 0.001 ? overrideIcon.Rotate : svgIcon.Rotate,
+                    Size = 16 + (overrideIcon.Scale is < -0.001 or > 0.001 ? overrideIcon.Scale :  svgIcon.Scale),
+                    X = overrideIcon.X is < -0.001 or > 0.001 ? overrideIcon.X : svgIcon.X,
+                    Y = overrideIcon.Y is < -0.001 or > 0.001 ? overrideIcon.Y : svgIcon.Y,
+                    FlipX = (overrideIcon.FlipTransform ?? svgIcon.FlipTransform) is IconFlip.Horizontal or IconFlip.Both,
+                    FlipY = (overrideIcon.FlipTransform ?? svgIcon.FlipTransform) is IconFlip.Vertical or IconFlip.Both,
+                },
+//                Symbol = icon.Symbol,
+                Title = Title ?? svgIcon.Title,
+            });
+            foreach (var item in element)
+            {
+                RenderSvgContent(item, ref seq, builder);
+            }
+
+            return;
+
+            static void RenderSvgContent(SvgContent content, ref int seq, RenderTreeBuilder builder)
+            {
+                builder.OpenElement(seq++, content.Tag ?? "svg");
+                builder.AddMultipleAttributes(seq++, content.Attributes.OrderBy(z => z.Key).Select(z => new KeyValuePair<string, object>(z.Key, z.Value)));
+                if (content.Classes.Length > 0)
+                    builder.AddAttribute(seq++, "class", string.Join(" ", content.Classes.OrderBy(z => z)));
+                if (content.Styles.Count > 0)
+                    builder.AddAttribute(seq++, "style", string.Join(";", content.Styles.OrderBy(z => z.Key).Select(x => $"{x.Key}:{x.Value}")));
+                builder.AddContent(seq++, content.Text);
+                foreach (var item in content.Children)
+                {
+                    RenderSvgContent(item, ref seq, builder);
+                }
+                builder.CloseElement();
+            }
+        }
+
         builder.OpenElement(0, "i");
 
         builder.AddAttribute(1, "class", Icon.ToClass(this, Stack != null, Class));
@@ -91,7 +139,19 @@ public sealed class FaIcon : ComponentBase, IIcon, IAnimationComponent
             builder.AddAttribute(3, "data-fa-transform", transform);
         if (Mask != null)
         {
-            builder.AddAttribute(4, "data-fa-mask", this.ToMask());
+            var sb = new StringBuilder();
+            sb.Append(Icon.ToPrefix(Mask.Family, Mask.Style));
+            sb.Append(" fa-");
+            sb.Append(Mask.Name);
+            builder.AddAttribute(4, "data-fa-mask", sb.ToString());
+        }
+        else if (Icon is IMaskIcon { Mask: {} mask })
+        {
+            var sb = new StringBuilder();
+            sb.Append(Icon.ToPrefix(mask.Family, mask.Style));
+            sb.Append(" fa-");
+            sb.Append(mask.Name);
+            builder.AddAttribute(4, "data-fa-mask", sb.ToString());
         }
 
         builder.AddMultipleAttributes(5, AdditionalAttributes);
@@ -227,6 +287,7 @@ public sealed class FaIcon : ComponentBase, IIcon, IAnimationComponent
     string? ISharedIcon.CssClass => Class;
 
     string IIcon.Name => Icon.Name;
+    string IIcon.Prefix => Icon.ToPrefix();
 
     double? IIcon.PrimaryOpacity => PrimaryOpacity;
     double? IIcon.SecondaryOpacity => SecondaryOpacity;

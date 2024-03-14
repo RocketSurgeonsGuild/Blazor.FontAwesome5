@@ -18,5 +18,5 @@
     AnimationIterationCount: 5s,
     AnimationTiming: ease-in-out
   },
-  NodeCount: 1
+  NodeCount: 2
 }

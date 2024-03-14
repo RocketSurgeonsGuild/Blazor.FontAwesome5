@@ -3,6 +3,7 @@
 public interface IIcon : ITransformIcon, IAnimationIcon, ISharedIcon
 {
     string Prefix { get; }
+    string? Title { get; }
     IconFamily Family { get; }
     IconStyle Style { get; }
     string Name { get; }

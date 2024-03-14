@@ -1,0 +1,10 @@
+﻿{
+  Instance: {
+    Icon: {
+      Family: Duotone,
+      Name: circle-half-stroke
+    },
+    FlipTransform: Vertical
+  },
+  NodeCount: 1
+}

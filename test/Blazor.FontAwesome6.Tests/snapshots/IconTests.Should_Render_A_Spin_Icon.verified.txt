@@ -1,0 +1,4 @@
+﻿{
+  Family: Duotone,
+  Name: circle-half-stroke
+}

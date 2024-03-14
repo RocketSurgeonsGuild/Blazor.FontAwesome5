@@ -1,0 +1,3 @@
+﻿{
+  Name: circle-half-stroke
+}

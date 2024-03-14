@@ -1,4 +1,5 @@
 using System.Runtime.CompilerServices;
+using System.Text.RegularExpressions;
 using AngleSharp.Dom;
 using DiffEngine;
 using VerifyTests.AngleSharp;
@@ -23,6 +24,20 @@ public class ModuleInitializer
                 }
             }
         );
+        var regex = new Regex(@"id=""(.*?)""", RegexOptions.Compiled);
+        VerifierSettings.ScrubLinesWithReplace(s =>
+                                               {
+                                                   if (regex.Matches(s) is { Count: > 0 } matches)
+
+                                                   {
+                                                       foreach (var match in matches.OfType<Match>())
+                                                       {
+                                                       s =  s.Replace(match.Groups[1].Value, "[id]");
+                                                       }
+                                                   }
+
+                                                   return s;
+                                               });
         VerifyImageMagick.Initialize();
         VerifyImageMagick.RegisterComparers(.05);
         DiffRunner.Disabled = true;

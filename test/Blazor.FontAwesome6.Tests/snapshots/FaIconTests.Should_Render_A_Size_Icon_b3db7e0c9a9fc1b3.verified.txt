@@ -1,0 +1,10 @@
+﻿{
+  Instance: {
+    Icon: {
+      Family: Duotone,
+      Name: circle-half-stroke
+    },
+    Size: Xs
+  },
+  NodeCount: 1
+}

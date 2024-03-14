@@ -644,22 +644,6 @@ internal static class IconExtensions
         }
     }
 
-    public static string ToMask(this IMaskIcon icon)
-    {
-        var sb = new StringBuilder();
-        ApplyMask(icon, sb);
-        return sb.ToString();
-    }
-
-    public static void ApplyMask(this IMaskIcon icon, StringBuilder sb)
-    {
-        if (icon.Mask == null)
-            return;
-        sb.Append(Icon.ToPrefix(icon.Mask.Family, icon.Mask.Style));
-        sb.Append(" fa-");
-        sb.Append(icon.Mask.Name);
-    }
-
     private static void AddSpaceIfChanged(ref bool hasChanges, StringBuilder sb, Action? changing)
     {
         if (hasChanges)

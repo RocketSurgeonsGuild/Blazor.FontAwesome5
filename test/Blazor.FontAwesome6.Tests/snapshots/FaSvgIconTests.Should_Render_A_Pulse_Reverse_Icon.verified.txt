@@ -1,0 +1,10 @@
+﻿{
+  Instance: {
+    Icon: {
+      Name: circle-half-stroke
+    },
+    SpinPulse: true,
+    Reverse: true
+  },
+  NodeCount: 2
+}

@@ -6,8 +6,6 @@ public record SvgParameters
 {
     public SvgTransform Transform { get; init; } = SvgTransform.None;
     public string? Symbol { get; init; }
-    public string? Mask { get; init; }
-    public string? MaskId { get; init; }
     public string? Title { get; init; }
     public string? TitleId { get; init; }
     public ImmutableArray<string> Classes { get; init; } = ImmutableArray<string>.Empty;

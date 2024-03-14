@@ -493,9 +493,9 @@ public record Icon(IconFamily Family, IconStyle Style, string Name) : IIcon, IMa
         return this with
         {
             _grow =
-            scale > 0 ? scale : 0,
+            scale > 0 ? Math.Abs(scale) : 0,
             _shrink =
-            scale < 0 ? scale : 0,
+            scale < 0 ? Math.Abs(scale) : 0,
         };
     }
 
@@ -513,8 +513,8 @@ public record Icon(IconFamily Family, IconStyle Style, string Name) : IIcon, IMa
     {
         return this with
         {
-            _left = horizontal < 0 ? horizontal : 0,
-            _right = horizontal > 0 ? horizontal : 0,
+            _left = horizontal < 0 ? Math.Abs(horizontal) : 0,
+            _right = horizontal > 0 ? Math.Abs(horizontal) : 0,
         };
     }
 
@@ -845,10 +845,10 @@ public record Icon(IconFamily Family, IconStyle Style, string Name) : IIcon, IMa
 
     public MarkupString ToMarkup()
     {
-        return (MarkupString)( ToString() ?? "" );
+        return (MarkupString)( ToIcon() ?? "" );
     }
 
-    public string ToIcon()
+    public virtual string ToIcon()
     {
         var sb = new StringBuilder();
         sb.Append("<i class=\"");
@@ -869,7 +869,9 @@ public record Icon(IconFamily Family, IconStyle Style, string Name) : IIcon, IMa
         if (_mask != null)
         {
             sb.Append(" data-fa-mask=\"");
-            this.ApplyMask(sb);
+            sb.Append(ToPrefix(_mask.Family, _mask.Style));
+            sb.Append(" fa-");
+            sb.Append(_mask.Name);
             sb.Append('"');
         }
 
@@ -942,4 +944,5 @@ public record Icon(IconFamily Family, IconStyle Style, string Name) : IIcon, IMa
     string? IIcon.InverseColor => _inverseColor;
     string? IIcon.RotateBy => _rotateBy;
     string IIcon.Prefix => ToPrefix(Family, Style);
+    string? IIcon.Title => _title;
 }

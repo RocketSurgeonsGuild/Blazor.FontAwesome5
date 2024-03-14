@@ -1,0 +1,15 @@
+﻿{
+  Instance: {
+    Icon: {
+      Family: Duotone,
+      Name: building-columns
+    },
+    Spin: true,
+    AnimationDelay: 9s,
+    AnimationDirection: alternate-reverse,
+    AnimationDuration: 10s,
+    AnimationIterationCount: 11,
+    AnimationTiming: ease-in-out
+  },
+  NodeCount: 1
+}

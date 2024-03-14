@@ -1,0 +1,11 @@
+﻿{
+  Instance: {
+    Icon: {
+      Family: Duotone,
+      Name: battery-full
+    },
+    Animation: Beat,
+    AnimationDirection: alternate-reverse
+  },
+  NodeCount: 1
+}

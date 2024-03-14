@@ -1,0 +1,15 @@
+﻿{
+  Instance: {
+    Icon: {
+      Family: Duotone,
+      Name: battery-full
+    },
+    Animation: SpinPulse,
+    AnimationDelay: 3s,
+    AnimationDirection: alternate-reverse,
+    AnimationDuration: 4s,
+    AnimationIterationCount: 5s,
+    AnimationTiming: ease-in-out
+  },
+  NodeCount: 1
+}

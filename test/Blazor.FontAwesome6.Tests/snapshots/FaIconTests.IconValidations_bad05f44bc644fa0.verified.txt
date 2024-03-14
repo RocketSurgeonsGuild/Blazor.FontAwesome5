@@ -1,0 +1,10 @@
+﻿{
+  Instance: {
+    Icon: {
+      Family: Duotone,
+      Name: barcode
+    },
+    FlipTransform: None
+  },
+  NodeCount: 1
+}

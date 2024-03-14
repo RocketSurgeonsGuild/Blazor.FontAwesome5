@@ -10,4 +10,17 @@ public record SvgContent
     public ImmutableArray<string> Classes { get; set; } = ImmutableArray<string>.Empty;
     public ImmutableDictionary<string, string> Styles { get; set; } = ImmutableDictionary<string, string>.Empty;
     public string? Text { get; init; }
+
+    public string ToHtml()
+    {
+        var styles = string.Join(";", Styles.OrderBy(z => z.Key).Select(x => $"{x.Key}:{x.Value}"));
+        var classes = string.Join(" ", Classes.OrderBy(z => z));
+        var attributes = string.Join(" ", Attributes
+                                         .SetItem("style", Attributes.TryGetValue("style", out var s) ? $"{s};{styles}" : styles)
+                                         .SetItem("class", Attributes.TryGetValue("class", out var c) ? $"{c} {classes}".Trim() : classes)
+                                         .OrderBy(z => z.Key)
+                                         .Select(x => $"{x.Key}=\"{x.Value}\""));
+        var content = string.Join("", Children.Select(x => x.ToHtml()));
+        return $"<{Tag} {attributes}>{Text}{content}</{Tag}>";
+    }
 }

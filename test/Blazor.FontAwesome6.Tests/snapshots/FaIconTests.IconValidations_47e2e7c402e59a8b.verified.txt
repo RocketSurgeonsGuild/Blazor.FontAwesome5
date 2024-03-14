@@ -1,0 +1,10 @@
+﻿{
+  Instance: {
+    Icon: {
+      Family: Duotone,
+      Name: building-columns
+    },
+    Pull: Right
+  },
+  NodeCount: 1
+}

@@ -23,6 +23,7 @@
 <!-- nuget packages -->
 | Package | NuGet |
 | ------- | ----- |
+| Rocket.Surgery.Blazor.FontAwesome.Tool | [![nuget-version-sxspkxtbf3gw-badge]![nuget-downloads-sxspkxtbf3gw-badge]][nuget-sxspkxtbf3gw] |
 | Rocket.Surgery.Blazor.FontAwesome6 | [![nuget-version-vrdyfyvmncdw-badge]![nuget-downloads-vrdyfyvmncdw-badge]][nuget-vrdyfyvmncdw] |
 | Rocket.Surgery.Blazor.FontAwesome6.Free | [![nuget-version-lb6ty09dj3fw-badge]![nuget-downloads-lb6ty09dj3fw-badge]][nuget-lb6ty09dj3fw] |
 | Rocket.Surgery.Blazor.FontAwesome6.Pro | [![nuget-version-p7l6gtwrabfa-badge]![nuget-downloads-p7l6gtwrabfa-badge]][nuget-p7l6gtwrabfa] |
@@ -38,6 +39,9 @@
 [github]: https://github.com/RocketSurgeonsGuild/Blazor.FontAwesome5/actions?query=workflow%3Aci
 [github-badge]: https://img.shields.io/github/workflow/status/RocketSurgeonsGuild/Blazor.FontAwesome5/ci.svg?label=github&logo=github&color=b845fc&logoColor=b845fc&style=flat "GitHub Actions Status"
 [github-history-badge]: https://buildstats.info/github/chart/RocketSurgeonsGuild/Blazor.FontAwesome5?includeBuildsFromPullRequest=false "GitHub Actions History"
+[nuget-sxspkxtbf3gw]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome.Tool/
+[nuget-version-sxspkxtbf3gw-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome.Tool.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
+[nuget-downloads-sxspkxtbf3gw-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome.Tool.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"
 [nuget-vrdyfyvmncdw]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome6/
 [nuget-version-vrdyfyvmncdw-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome6.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
 [nuget-downloads-vrdyfyvmncdw-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome6.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"

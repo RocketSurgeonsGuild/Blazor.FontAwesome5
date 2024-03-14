@@ -1,0 +1,46 @@
+﻿query GetKitIcons($token: String!, $family: Family!, $style: Style!) {
+    me {
+        kit(token: $token) {
+            name
+            technologySelected
+            version
+            iconUploads {
+                name
+                unicode
+                height
+                width
+                pathData
+            }
+            release {
+                icons {
+                    id
+                    unicode
+                    svgs(filter:{
+                        familyStyles:[{family: $family, style: $style}]
+                    }) {
+                        familyStyle {
+                            prefix
+                        }
+                        height
+                        width
+                        pathData
+                    }
+                }
+            }
+        }
+    }
+}
+
+query GetKitStyles($token: String!) {
+    me {
+        kit(token: $token) {
+            release {
+                familyStyles {
+                    family
+                    prefix
+                    style
+                }
+            }
+        }
+    }
+}

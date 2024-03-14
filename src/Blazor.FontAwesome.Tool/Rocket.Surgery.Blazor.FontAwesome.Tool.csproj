@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+      <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Rocket.Surgery.Conventions.CommandLine" />
+    <PackageReference Include="Rocket.Surgery.LaunchPad.Foundation" />
+    <PackageReference Include="Spectre.Console.Analyzer" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" PrivateAssets="all" />
+    <PackageReference Include="Spectre.Console.Cli" />
+    <PackageReference Include="StrawberryShake.Server" />
+  </ItemGroup>
+</Project>

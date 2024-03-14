@@ -66,12 +66,16 @@ public partial class Pipeline
                     {
                         var freeFileBuilders = new Dictionary<string, StringBuilder>();
                         var proFileBuilders = new Dictionary<string, StringBuilder>();
+                        var svgFileBuilders = new Dictionary<string, StringBuilder>();
 
                         StringBuilder GetFileBuilder(FontAwesomeKind kind, string name)
                         {
                             var d = kind switch
                                     {
-                                        FontAwesomeKind.Free => freeFileBuilders, FontAwesomeKind.Pro => proFileBuilders, _ => throw new NotSupportedException()
+                                        FontAwesomeKind.Free => freeFileBuilders,
+                                        FontAwesomeKind.Pro => proFileBuilders,
+                                        FontAwesomeKind.Svg => svgFileBuilders,
+                                        _ => throw new NotSupportedException()
                                     };
                             if (d.TryGetValue(name, out var builder))
                             {
@@ -109,6 +113,13 @@ public partial class Pipeline
                         foreach (var (name, sb) in freeFileBuilders)
                         {
                             ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Icons" / $"Fa{name}.cs" ).WriteAllText(
+                                UsingNamespaceWithClass($"Rocket.Surgery.Blazor.FontAwesome{stringV}.Free", sb.ToString(), stringV, name, name)
+                            );
+                        }
+
+                        foreach (var (name, sb) in svgFileBuilders)
+                        {
+                            ( RootDirectory / "src" / "Blazor.FontAwesome6.Free.Svg" / "Icons" / $"Fa{name}.cs" ).WriteAllText(
                                 UsingNamespaceWithClass($"Rocket.Surgery.Blazor.FontAwesome{stringV}.Free", sb.ToString(), stringV, name, name)
                             );
                         }
@@ -192,11 +203,12 @@ public partial class Pipeline
                             var builder = GetFileBuilder(kind, GetStyleName(family));
                             if (kind == FontAwesomeKind.Free)
                             {
-                                WriteSvgIcon(builder, icon, family, fqnamespace);
+                                WriteIcon(builder, icon, family, fqnamespace);
+                                WriteSvgIcon(GetFileBuilder(FontAwesomeKind.Svg, GetStyleName(family)), icon, family, fqnamespace);
                                 return;
                             }
                             // we won't write the svg for the pro icons because that would break the license
-                            // a source generator will be built to allow you to get the svg icons in your project
+                            // a source generator will be built to allow you to get the svg icons in your project or a custom library
                             WriteIcon(builder, icon, family, fqnamespace);
                         }
 
@@ -383,7 +395,7 @@ public partial class Pipeline
 
 public enum FontAwesomeKind
 {
-    Free, Pro
+    Free, Pro, Svg
 }
 
 public enum FontAwesomeFamily

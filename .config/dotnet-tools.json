@@ -7,7 +7,7 @@
             "commands": ["dotnet-gitversion"]
         },
         "dotnet-reportgenerator-globaltool": {
-            "version": "5.2.2",
+            "version": "5.2.3",
             "commands": ["reportgenerator"]
         },
         "nuke.globaltool": {

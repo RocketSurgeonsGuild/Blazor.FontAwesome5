@@ -1,4 +1,6 @@
 ﻿using System.Collections.Immutable;
+using System.Text;
+using System.Text.Unicode;
 
 namespace Rocket.Surgery.Blazor.FontAwesome6.Vector;
 
@@ -55,7 +57,7 @@ public class Renderer
                                                     [
                                                         new("class", $"{RendererConfig.CssPrefix}-{DUOTONE_CLASSES.SECONDARY}"),
                                                         new("fill", "currentColor"),
-                                                        new("d", secondary)
+                                                        new("d", Encoding.UTF8.GetString(secondary.AsSpan()))
                                                     ]
                                                 )
                                },
@@ -68,7 +70,7 @@ public class Renderer
                                                     [
                                                         new("class", $"{RendererConfig.CssPrefix}-{DUOTONE_CLASSES.PRIMARY}"),
                                                         new("fill", "currentColor"),
-                                                        new("d", primary)
+                                                        new("d", Encoding.UTF8.GetString(primary.AsSpan()))
                                                     ]
                                                 )
                                }
@@ -86,7 +88,7 @@ public class Renderer
                             .AddRange(
                                  [
                                      new("fill", "currentColor"),
-                                     new("d", vector),
+                                     new("d", Encoding.UTF8.GetString(vector.AsSpan())),
                                  ]
                              )
             };

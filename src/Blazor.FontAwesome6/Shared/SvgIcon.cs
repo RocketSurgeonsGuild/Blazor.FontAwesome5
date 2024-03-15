@@ -8,9 +8,9 @@ public sealed record SvgIcon : Icon, ISvgIcon
     private readonly int _width;
     private readonly int _height;
     private SvgIcon? _mask;
-    private readonly ImmutableArray<string> _vectorData;
+    private readonly ImmutableArray<ImmutableArray<byte>> _vectorData;
 
-    public SvgIcon(IconFamily family, IconStyle style, string name, string unicode, int width, int height, string[] vectorData) : base(
+    public SvgIcon(IconFamily family, IconStyle style, string name, string unicode, int width, int height, ImmutableArray<ImmutableArray<byte>> vectorData) : base(
         family,
         style,
         name,
@@ -19,7 +19,7 @@ public sealed record SvgIcon : Icon, ISvgIcon
     {
         _width = width;
         _height = height;
-        _vectorData = vectorData.ToImmutableArray();
+        _vectorData = vectorData;
     }
 
     public SvgIcon Mask(SvgIcon mask)
@@ -58,5 +58,5 @@ public sealed record SvgIcon : Icon, ISvgIcon
     int ISvgIcon.Width => _width;
     int ISvgIcon.Height => _height;
     SvgIcon? ISvgMaskIcon.Mask => _mask;
-    ImmutableArray<string> ISvgIcon.VectorData => _vectorData;
+    ImmutableArray<ImmutableArray<byte>> ISvgIcon.VectorData => _vectorData;
 }

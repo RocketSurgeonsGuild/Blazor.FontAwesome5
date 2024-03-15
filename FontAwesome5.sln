@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasm", "sample\Blazor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rocket.Surgery.Blazor.FontAwesome.Tool", "src\Blazor.FontAwesome.Tool\Rocket.Surgery.Blazor.FontAwesome.Tool.csproj", "{71D05A15-210E-4062-9973-932501F50E17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rocket.Surgery.Blazor.FontAwesome6.Free.Svg", "src\Blazor.FontAwesome6.Free.Svg\Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.csproj", "{123A8882-8827-4910-A859-2F0DD12106AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +181,18 @@ Global
 		{71D05A15-210E-4062-9973-932501F50E17}.Release|x64.Build.0 = Release|Any CPU
 		{71D05A15-210E-4062-9973-932501F50E17}.Release|x86.ActiveCfg = Release|Any CPU
 		{71D05A15-210E-4062-9973-932501F50E17}.Release|x86.Build.0 = Release|Any CPU
+		{123A8882-8827-4910-A859-2F0DD12106AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123A8882-8827-4910-A859-2F0DD12106AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123A8882-8827-4910-A859-2F0DD12106AE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{123A8882-8827-4910-A859-2F0DD12106AE}.Debug|x64.Build.0 = Debug|Any CPU
+		{123A8882-8827-4910-A859-2F0DD12106AE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{123A8882-8827-4910-A859-2F0DD12106AE}.Debug|x86.Build.0 = Debug|Any CPU
+		{123A8882-8827-4910-A859-2F0DD12106AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123A8882-8827-4910-A859-2F0DD12106AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123A8882-8827-4910-A859-2F0DD12106AE}.Release|x64.ActiveCfg = Release|Any CPU
+		{123A8882-8827-4910-A859-2F0DD12106AE}.Release|x64.Build.0 = Release|Any CPU
+		{123A8882-8827-4910-A859-2F0DD12106AE}.Release|x86.ActiveCfg = Release|Any CPU
+		{123A8882-8827-4910-A859-2F0DD12106AE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -195,6 +209,7 @@ Global
 		{3227AD5A-9517-4E30-B1BD-D75E69A5D8E8} = {F876220B-2224-4AB5-A20F-48EB8BC87F6E}
 		{D1387447-759A-4EBE-AE68-61E43230AD3A} = {9376F1D9-81D2-4E90-A14A-CCA763273E64}
 		{71D05A15-210E-4062-9973-932501F50E17} = {8FFDF555-DB50-45F9-9A2D-6410F39151C3}
+		{123A8882-8827-4910-A859-2F0DD12106AE} = {8FFDF555-DB50-45F9-9A2D-6410F39151C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {439897C2-CCBD-44FE-B2DC-A3E4670ADA59}

@@ -30,6 +30,18 @@ class EmitCommand : AsyncCommand<EmitCommand.Settings>
 
         ImmutableArray<IconModel> icons;
 
+        CategoryProvider categoryProvider;
+        if (settings is { Categories: { Length: > 0 } categoriesFile })
+        {
+            using var stream = File.OpenRead(categoriesFile);
+            categoryProvider = CategoryProvider.Create(stream);
+        }
+        else
+        {
+            categoryProvider = CategoryProvider.CreateDefault();
+        }
+
+
         if (settings is { FilePath.Length: > 0 })
         {
             throw new NotImplementedException();
@@ -37,14 +49,14 @@ class EmitCommand : AsyncCommand<EmitCommand.Settings>
 
         else if (settings is { KitName.Length: > 0 })
         {
-            var request = new GetIconsFromKit.Request(settings.KitName);
+            var request = new GetIconsFromKit.Request(settings.KitName, categoryProvider);
             var response = await _mediator.Send(request);
             icons = response;
         }
 
         else if (settings is { Release.Length: > 0 })
         {
-            var request = new GetIconsFromRelease.Request(settings.Release);
+            var request = new GetIconsFromRelease.Request(settings.Release, categoryProvider);
             var response = await _mediator.Send(request);
             icons = response;
         }
@@ -53,21 +65,11 @@ class EmitCommand : AsyncCommand<EmitCommand.Settings>
             throw new Exception("not sure how this happened... validation!");
         }
 
-        var files = icons
-           .GroupBy(z => ( z.RawStyle, z.RawStyle ))
-           .Select(group =>
-                   {
-                       var (family, style) = group.Key;
-
-                       var set =  group.ToArray();
-                       var fileContent = settings.SvgMode
-                           ? set.GetSvgIconFileContent(family, style, settings.Namespace)
-                           : set.GetIconFileContent(family, style, settings.Namespace);
-                       return fileContent;
-                   });
-        foreach (var item in files)
+        var fileContents = _mediator.CreateStream(new GetFileContentForIcons.Request(icons, settings.Namespace, settings.SvgMode, categoryProvider));
+        await foreach (var item in fileContents)
         {
             AnsiConsole.MarkupLine($"[bold]Writing[/] {item.FileName}");
+            Directory.CreateDirectory(Path.GetDirectoryName(Path.Combine(settings.Output, item.FileName))!);
             await File.WriteAllTextAsync(Path.Combine(settings.Output, item.FileName), item.Content);
         }
 
@@ -84,12 +86,16 @@ class EmitCommand : AsyncCommand<EmitCommand.Settings>
         public SettingsValidator()
         {
             When(
+                z => z.Categories is { Length: > 0 },
+                () => RuleFor(x => x.Categories)
+                     .Must(File.Exists)
+            );
+            When(
                 z => z.FilePath is { Length: > 0 },
                 () =>
                 {
                     RuleFor(x => x.FilePath)
-                       .Must(File.Exists)
-                       .WithMessage("The file path must exist");
+                       .Must(File.Exists);
                     RuleFor(z => z.KitName).Null();
                     RuleFor(z => z.Release).Null();
                 }
@@ -145,6 +151,10 @@ class EmitCommand : AsyncCommand<EmitCommand.Settings>
         [Description("the folder to emit the files to, defaults to the current directory")]
         [CommandOption("--output")]
         public string Output { get; init; } = Directory.GetCurrentDirectory();
+
+        [Description("The path to the categories.yml file for providing category aliases")]
+        [CommandOption("--categories")]
+        public string? Categories { get; init; }
 
         public bool SvgMode => !NoSvg;
     }

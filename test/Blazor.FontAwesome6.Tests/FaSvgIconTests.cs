@@ -5,7 +5,7 @@ using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Rocket.Surgery.Extensions.Testing;
 using Xunit.Abstractions;
-using Rocket.Surgery.Blazor.FontAwesome6.Free;
+using Rocket.Surgery.Blazor.FontAwesome6.Free.Svg;
 
 namespace Rocket.Surgery.Blazor.FontAwesome6.Tests;
 

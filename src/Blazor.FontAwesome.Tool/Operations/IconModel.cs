@@ -111,20 +111,19 @@ public record IconModel
     public required ImmutableHashSet<CategoryModel> Categories { get; init; }
 }
 
-public static class IconModelExtensions
+internal static class IconModelExtensions
 {
-    public static (string FileName, string Content) GetIconFileContent(this IEnumerable<IconModel> models, string family, string style, string @namespace) =>
-        GetIconFileContentInternal(models, family, style, false, @namespace);
-
-    public static (string FileName, string Content) GetSvgIconFileContent(this IEnumerable<IconModel> models, string family, string style, string @namespace) =>
-        GetIconFileContentInternal(models, family, style, true, @namespace);
-
-    private static (string FileName, string Content) GetIconFileContentInternal(this IEnumerable<IconModel> models, string family, string style, bool svgMode, string @namespace)
+    internal static (string FileName, string Content) GetIconFileContent(
+        this IGrouping<(string family, string style), IconModel> models,
+        bool svgMode,
+        string @namespace
+    )
     {
-        var label = GetStyleName(family, style);
+        var label = GetStyleName(models.Key.family, models.Key.style);
         var sb = new StringBuilder(new(), 4, ' ', "\n", 0);
 
         sb.AppendLine("using System;");
+        sb.AppendLine("using System.Collections.Immutable;");
         sb.AppendLine($"using Rocket.Surgery.Blazor.FontAwesome6;");
         sb.AppendLine($"namespace {@namespace};");
         sb.AppendLine("/// <summary>");
@@ -134,75 +133,140 @@ public static class IconModelExtensions
         sb.AppendLine("{");
         using (sb.Indent())
         {
-            foreach (var s in models)
+            foreach (var s in models.OrderBy(z => z.Id))
             {
-                if (svgMode)
-                    s.AppendSvgIconProperties(sb, @namespace);
-                else
-                    s.AppendIconProperties(sb, @namespace);
+                s.AppendIconProperties(sb, svgMode, @namespace);
             }
         }
 
         sb.AppendLine("}");
 
-        return ($"Fa{label.Pascalize()}.cs", sb.ToString());
+        return ( $"Fa{label.Pascalize()}.cs", sb.ToString() );
     }
 
-    public static void AppendIconProperties(this IconModel icon, StringBuilder sb, string @namespace)
+    internal static (string FileName, string Content) GetCategoryFileContent(
+        this IEnumerable<IconModel> models,
+        CategoryModel categoryModel,
+        bool svgMode,
+        string @namespace
+    )
     {
+        var sb = new StringBuilder(new(), 4, ' ', "\n", 0);
+
+        sb.AppendLine("using System;");
+        sb.AppendLine("using System.Collections.Immutable;");
+        sb.AppendLine($"using Rocket.Surgery.Blazor.FontAwesome6;");
+        sb.AppendLine($"namespace {@namespace}.Categories;");
+        sb.AppendLine("/// <summary>");
+        sb.AppendLine($"/// Font Awesome {categoryModel.Label} Category Icons");
+        sb.AppendLine("/// </summary>");
+        sb.AppendLine($"public static partial class Fa{categoryModel.Name.Humanize().Pascalize()}");
+        sb.AppendLine("{");
+        using (sb.Indent())
+        {
+            foreach (var s in models.GroupBy(z => z.Id).OrderBy(z => z.Key))
+            {
+                AppendIconCategoryProperties(s, categoryModel, sb, svgMode, @namespace);
+            }
+        }
+
+        sb.AppendLine("}");
+
+        return ( $"Fa{categoryModel.Name.Humanize().Pascalize()}.cs", sb.ToString() );
+    }
+
+    private static void AppendIconProperties(this IconModel icon, StringBuilder sb, bool svgMode, string @namespace)
+    {
+        sb.AppendLine($"private static {GetIconClass(svgMode)}? {ToModelName(icon)}f;");
         EmitSummaryComment(icon, sb);
-        sb.AppendLine(
-            $"public static Icon {ToModelName(icon)} => {ToModelName(icon)}f ??= new Icon(IconFamily.{icon.Family}, IconStyle.{icon.Style}, \"{icon.Id}\", \"{icon.Unicode}\");"
-        );
+        if (svgMode)
+        {
+            string pathData = "ImmutableArray<string>.Empty";
+            if (icon is { PathData.Length: 1 })
+            {
+                pathData = $"ImmutableArray.Create(\"{icon.PathData[0]}\"u8.ToArray().ToImmutableArray())";
+            }
+            else if (icon is { PathData.Length: 2 })
+            {
+                pathData = $"ImmutableArray.Create(\"{icon.PathData[0]}\"u8.ToArray().ToImmutableArray(), \"{icon.PathData[1]}\"u8.ToArray().ToImmutableArray())";
+            }
+            sb.AppendLine(
+                $"public static SvgIcon {ToModelName(icon)} => {ToModelName(icon)}f ??= new SvgIcon(IconFamily.{icon.Family}, IconStyle.{icon.Style}, \"{icon.Id}\", \"{icon.Unicode}\", {icon.Width}, {icon.Height}, {pathData});"
+            );
+        }
+        else
+        {
+            sb.AppendLine(
+                $"public static Icon {ToModelName(icon)} => {ToModelName(icon)}f ??= new Icon(IconFamily.{icon.Family}, IconStyle.{icon.Style}, \"{icon.Id}\", \"{icon.Unicode}\");"
+            );
+        }
+
         foreach (var alias in icon.Aliases)
         {
             EmitSummaryComment(icon, sb);
-            EmitAlias(icon, alias, "Icon", sb, @namespace);
+            sb.AppendLine($"public static {GetIconClass(svgMode)} {ToModelName(alias)} => global::{@namespace}.Fa{GetStyleName(icon)}.{ToModelName(icon)};");
         }
     }
 
-    public static void AppendSvgIconProperties(this IconModel icon, StringBuilder sb, string @namespace)
+    private static void AppendIconCategoryProperties(
+        this IEnumerable<IconModel> icons,
+        CategoryModel categoryModel,
+        StringBuilder sb,
+        bool svgMode,
+        string @namespace
+    )
     {
-        EmitSummaryComment(icon, sb);
+        var icon = icons.First();
+        sb.AppendLine("/// <summary>");
+        sb.AppendLine($"/// {icon.Label}");
+        sb.AppendLine($"/// <a href=\"{GetRootHref(icon)}\">{icon.Label}</a>");
+        sb.AppendLine("/// </summary>");
         sb.AppendLine(
-            $"public static SvgIcon {ToModelName(icon)} => {ToModelName(icon)}f ??= new SvgIcon(IconFamily.{icon.Family}, IconStyle.{icon.Style}, \"{icon.Id}\", \"{icon.Unicode}\", {icon.Width}, {icon.Height}, [\"{string.Join("\", \"", icon.PathData)}\"]);"
+            $"public static partial class {ToModelName(icon)}{( categoryModel.Name.Equals(icon.Id, StringComparison.OrdinalIgnoreCase) ? "Icon" : "" )}"
         );
-        foreach (var alias in icon.Aliases)
+        sb.AppendLine("{");
+        using (sb.Indent())
         {
-            EmitSummaryComment(icon, sb);
-            EmitAlias(icon, alias, "SvgIcon", sb, @namespace);
+            foreach (var style in icons
+                                 .OrderBy(z => z.RawFamily)
+                                 .ThenBy(z => z.Style))
+            {
+                var styleName = GetStyleName(style);
+                sb.AppendLine("/// <summary>");
+                sb.AppendLine($"/// <a href=\"{GetHref(icon)}\">{icon.Label}</a>");
+                sb.AppendLine("/// </summary>");
+                sb.AppendLine($"public static {GetIconClass(svgMode)} {styleName} => global::{@namespace}.Fa{styleName}.{ToModelName(icon)};");
+            }
         }
+
+        sb.AppendLine("}");
     }
 
-    static void EmitSummaryComment(IconModel icon, StringBuilder sb)
+    private static void EmitSummaryComment(IconModel icon, StringBuilder sb)
     {
         sb.AppendLine("/// <summary>");
         sb.AppendLine($"/// <a href=\"{GetHref(icon)}\">{icon.Label}</a>");
         sb.AppendLine("/// </summary>");
     }
 
-    static void EmitAlias(IconModel icon, string alias, string type, StringBuilder sb, string @namespace)
-    {
-        sb.AppendLine($"public static {type} {alias.Pascalize()} => global::{@namespace}.Fa{GetStyleName(icon)}.{ToModelName(icon)};");
-    }
-
     static string GetStyleName(IconModel iconModel)
     {
-        var styleName = iconModel.Family == Family.Duotone ? "Duotone" : iconModel.RawStyle;
-        if (iconModel.Family != Family.Classic) styleName = iconModel.Family + styleName;
-        return styleName;
+        return GetStyleName(iconModel.RawFamily, iconModel.RawStyle);
     }
+
+    static string GetIconClass(bool svgMode) => svgMode ? "SvgIcon" : "Icon";
 
     public static string GetStyleName(string rawFamily, string rawStyle)
     {
-        var styleName = Enum.TryParse<Family>(rawFamily, out var f) && f == Family.Duotone ? "Duotone" : rawStyle;
-        if (Enum.TryParse<Family>(rawFamily, out var f_) && f_ != Family.Classic) styleName = rawFamily + styleName;
+        if (rawFamily.Equals(Family.Duotone.ToString(), StringComparison.OrdinalIgnoreCase)) return Family.Duotone.ToString();
+        var styleName = rawStyle.Pascalize();
+        if (!rawFamily.Equals(Family.Classic.ToString(), StringComparison.OrdinalIgnoreCase)) styleName = rawFamily.Pascalize() + styleName;
         return styleName;
     }
 
     static string GetHref(IconModel icon)
     {
-        var styleName = icon.Family == Family.Duotone ? "Duotone" : icon.RawStyle;
+        var styleName = icon.RawFamily.Equals(Family.Duotone.ToString(), StringComparison.OrdinalIgnoreCase) ? Family.Duotone.ToString() : icon.RawStyle;
         return
             $"https://fontawesome.com/icons/{icon.Id}?f={( icon.Family == Family.Duotone ? "classic" : icon.RawFamily.ToLower() )}&amp;s={styleName.ToLower()}";
     }
@@ -211,18 +275,20 @@ public static class IconModelExtensions
 
     private static readonly Regex startsWithDigit = new Regex(@"^\d", RegexOptions.Compiled);
 
-    private static string ToModelName(IconModel model)
+    private static string ToModelName(IconModel model) => ToModelName(model.Id);
+
+    private static string ToModelName(string id)
     {
-        if (model.Id.Equals(nameof(Equals), StringComparison.OrdinalIgnoreCase))
+        if (id.Equals(nameof(Equals), StringComparison.OrdinalIgnoreCase))
         {
             return "equal".Dehumanize();
         }
 
-        if (startsWithDigit.IsMatch(model.Id))
+        if (startsWithDigit.IsMatch(id))
         {
-            return "_" + model.Id.Replace('-', ' ').Dehumanize();
+            return "_" + id.Replace('-', ' ').Dehumanize();
         }
 
-        return model.Id.Replace('-', ' ').Dehumanize();
+        return id.Replace('-', ' ').Dehumanize();
     }
 }

@@ -17,4 +17,4 @@ var host = Host
            )
           .Build();
 
-await host.StartAsync();
+await host.RunAsync();

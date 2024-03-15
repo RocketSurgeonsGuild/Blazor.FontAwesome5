@@ -7,20 +7,13 @@ namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 
 public static class GetIconsFromKit
 {
-    public record Request(string Name) : IRequest<ImmutableArray<IconModel>>;
+    public record Request(string Name, CategoryProvider CategoryProvider) : IRequest<ImmutableArray<IconModel>>;
 
-    class Handler : IRequestHandler<Request, ImmutableArray<IconModel>>
+    class Handler(IFontAwesome fontAwesome) : IRequestHandler<Request, ImmutableArray<IconModel>>
     {
-        private readonly IFontAwesome _fontAwesome;
-
-        public Handler(IFontAwesome fontAwesome)
-        {
-            _fontAwesome = fontAwesome;
-        }
-
         public async Task<ImmutableArray<IconModel>> Handle(Request request, CancellationToken cancellationToken)
         {
-            var styles = await _fontAwesome.GetKitStyles.ExecuteAsync(request.Name, cancellationToken);
+            var styles = await fontAwesome.GetKitStyles.ExecuteAsync(request.Name, cancellationToken);
             styles.EnsureNoErrors();
             var icons = styles
                        .Data.Me.Kit.Release.FamilyStyles
@@ -30,7 +23,7 @@ public static class GetIconsFromKit
                             {
                                 var iconFamily = Enum.TryParse<Family>(style.Family, true, out var _f) ? _f : default;
                                 var iconStyle = Enum.TryParse<Style>(style.Style, true, out var _s) ? _s : default;
-                                var icons = await _fontAwesome.GetKitIcons.ExecuteAsync(
+                                var icons = await fontAwesome.GetKitIcons.ExecuteAsync(
                                     request.Name,
                                     iconFamily,
                                     iconStyle,
@@ -46,7 +39,7 @@ public static class GetIconsFromKit
                                                var svg = icon.Svgs.Single();
                                                return new IconModel()
                                                {
-                                                   Categories = Constants.Categories[icon.Id].ToImmutableHashSet(),
+                                                   Categories = request.CategoryProvider.CategoryLookup[icon.Id].ToImmutableHashSet(),
                                                    RawFamily = style.Family,
                                                    RawStyle = style.Style,
                                                    Height = svg.Height,
@@ -78,7 +71,7 @@ public static class GetIconsFromKit
                        .SelectManyAwait(
                             async style =>
                             {
-                                var icons = await _fontAwesome.GetKitCustomIcons.ExecuteAsync(
+                                var icons = await fontAwesome.GetKitCustomIcons.ExecuteAsync(
                                     request.Name,
                                     cancellationToken
                                 );

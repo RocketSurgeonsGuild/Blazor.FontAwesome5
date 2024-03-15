@@ -6,5 +6,5 @@ public interface ISvgIcon : IIcon, ISvgMaskIcon
 {
     int Width { get; }
     int Height { get; }
-    ImmutableArray<string> VectorData { get; }
+    ImmutableArray<ImmutableArray<byte>> VectorData { get; }
 }

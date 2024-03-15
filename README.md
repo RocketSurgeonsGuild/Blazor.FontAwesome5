@@ -26,6 +26,7 @@
 | Rocket.Surgery.Blazor.FontAwesome.Tool | [![nuget-version-sxspkxtbf3gw-badge]![nuget-downloads-sxspkxtbf3gw-badge]][nuget-sxspkxtbf3gw] |
 | Rocket.Surgery.Blazor.FontAwesome6 | [![nuget-version-vrdyfyvmncdw-badge]![nuget-downloads-vrdyfyvmncdw-badge]][nuget-vrdyfyvmncdw] |
 | Rocket.Surgery.Blazor.FontAwesome6.Free | [![nuget-version-lb6ty09dj3fw-badge]![nuget-downloads-lb6ty09dj3fw-badge]][nuget-lb6ty09dj3fw] |
+| Rocket.Surgery.Blazor.FontAwesome6.Free.Svg | [![nuget-version-ymntcm8aa4ba-badge]![nuget-downloads-ymntcm8aa4ba-badge]][nuget-ymntcm8aa4ba] |
 | Rocket.Surgery.Blazor.FontAwesome6.Pro | [![nuget-version-p7l6gtwrabfa-badge]![nuget-downloads-p7l6gtwrabfa-badge]][nuget-p7l6gtwrabfa] |
 <!-- nuget packages -->
 
@@ -48,6 +49,9 @@
 [nuget-lb6ty09dj3fw]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome6.Free/
 [nuget-version-lb6ty09dj3fw-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome6.Free.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
 [nuget-downloads-lb6ty09dj3fw-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome6.Free.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"
+[nuget-ymntcm8aa4ba]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome6.Free.Svg/
+[nuget-version-ymntcm8aa4ba-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
+[nuget-downloads-ymntcm8aa4ba-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"
 [nuget-p7l6gtwrabfa]: https://www.nuget.org/packages/Rocket.Surgery.Blazor.FontAwesome6.Pro/
 [nuget-version-p7l6gtwrabfa-badge]: https://img.shields.io/nuget/v/Rocket.Surgery.Blazor.FontAwesome6.Pro.svg?color=004880&logo=nuget&style=flat-square "NuGet Version"
 [nuget-downloads-p7l6gtwrabfa-badge]: https://img.shields.io/nuget/dt/Rocket.Surgery.Blazor.FontAwesome6.Pro.svg?color=004880&logo=nuget&style=flat-square "NuGet Downloads"

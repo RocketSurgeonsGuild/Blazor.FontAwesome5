@@ -5,23 +5,40 @@ using YamlDotNet.Serialization.NamingConventions;
 
 namespace Rocket.Surgery.Blazor.FontAwesome.Tool;
 
-internal static class Constants
+public class CategoryModel
 {
-    static Constants()
+    public HashSet<string> Icons { get; set; } = new();
+    public string Label { get; set; }
+    public string Name { get; set; }
+}
+
+public class CategoryProvider
+{
+    public static CategoryProvider Create(Stream stream)
     {
-        using var stream = typeof(Constants).Assembly.GetManifestResourceStream(typeof(Constants).Assembly.GetManifestResourceNames().First(x => x.EndsWith("categories.yml")));
         using var reader = new StreamReader(stream);
 
-        Categories = new DeserializerBuilder()
-                        .WithNamingConvention(CamelCaseNamingConvention.Instance)
-                        .Build()
-                        .Deserialize<CategoryDictionary>(reader.ReadToEnd())
-                        .ToModels()
-                    .SelectMany(z => z.Icons, (z, y) => (category: z, iconName: y))
-                        .ToLookup(z => z.iconName, z => z.category, StringComparer.OrdinalIgnoreCase);
+        return new(
+            new DeserializerBuilder()
+               .WithNamingConvention(CamelCaseNamingConvention.Instance)
+               .Build()
+               .Deserialize<CategoryDictionary>(reader.ReadToEnd())
+               .ToModels()
+        );
     }
 
-    public static ILookup<string, CategoryModel> Categories { get; }
+    public static CategoryProvider CreateDefault()
+    {
+
+        var fileResourceName = typeof(CategoryProvider).Assembly.GetManifestResourceNames().FirstOrDefault(x => x.EndsWith("categories.yml"));
+        if (fileResourceName is null)
+        {
+            return new(new CategoryModel[0]);
+        }
+
+        using var stream = typeof(CategoryProvider).Assembly.GetManifestResourceStream(fileResourceName)!;
+        return Create(stream);
+    }
 
     private class CategoryDictionary : Dictionary<string, CategoryModelBase>
     {
@@ -38,16 +55,22 @@ internal static class Constants
             }
         }
     }
-    private  class CategoryModelBase
+
+    private class CategoryModelBase
     {
         public IEnumerable<string> Icons { get; set; }
         public string Label { get; set; }
     }
-}
 
-public  class CategoryModel
-{
-    public HashSet<string> Icons { get; set; } = new();
-    public string Label { get; set; }
-    public string Name { get; set; }
+    private CategoryProvider(IEnumerable<CategoryModel> dictionary)
+    {
+        var categoryModels = dictionary as CategoryModel[] ?? dictionary.ToArray();
+        Categories = categoryModels.ToFrozenDictionary(z => z.Name, z => z, StringComparer.OrdinalIgnoreCase);
+        CategoryLookup = categoryModels
+           .SelectMany(z => z.Icons, (z, y) => ( category: z, iconName: y ))
+           .ToLookup(z => z.iconName, z => z.category, StringComparer.OrdinalIgnoreCase);
+    }
+
+    public FrozenDictionary<string, CategoryModel> Categories { get; }
+    public ILookup<string, CategoryModel> CategoryLookup { get; }
 }

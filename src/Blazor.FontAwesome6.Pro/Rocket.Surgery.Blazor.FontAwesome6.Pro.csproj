@@ -7,5 +7,4 @@
     <ItemGroup>
       <ProjectReference Include="..\Blazor.FontAwesome6\Rocket.Surgery.Blazor.FontAwesome6.csproj" />
     </ItemGroup>
-
 </Project>

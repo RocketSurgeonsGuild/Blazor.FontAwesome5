@@ -2,7 +2,7 @@
 using Bogus;
 using FluentAssertions;
 using Microsoft.Extensions.Logging;
-using Rocket.Surgery.Blazor.FontAwesome6.Free;
+using Rocket.Surgery.Blazor.FontAwesome6.Free.Svg;
 using Rocket.Surgery.Extensions.Testing;
 using Xunit.Abstractions;
 

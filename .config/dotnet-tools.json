@@ -9,7 +9,7 @@
       ]
     },
     "dotnet-reportgenerator-globaltool": {
-      "version": "5.2.2",
+      "version": "5.2.3",
       "commands": [
         "reportgenerator"
       ]
@@ -30,12 +30,6 @@
       "version": "2023.3.4",
       "commands": [
         "jb"
-      ]
-    },
-    "nukeeper": {
-      "version": "0.35.0",
-      "commands": [
-        "nukeeper"
       ]
     },
     "dotnet-outdated-tool": {

@@ -3,6 +3,9 @@
         icons {
             id
             unicode
+            shim {
+                id
+            }
             svgs(filter:{
                 familyStyles:[{family: $family, style: $style}]
             }) {

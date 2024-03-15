@@ -1,5 +1,8 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Immutable;
+using System.ComponentModel;
 using FluentValidation;
+using MediatR;
+using Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 using Rocket.Surgery.Conventions.CommandLine;
 using Spectre.Console;
 using Spectre.Console.Cli;
@@ -8,15 +11,45 @@ namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Commands;
 class EmitCommand : AsyncCommand<EmitCommand.Settings>
 {
     private readonly FontAwesomeApiKeyProvider _apiKeyProvider;
+    private readonly IMediator _mediator;
 
-    public EmitCommand(FontAwesomeApiKeyProvider apiKeyProvider)
+    public EmitCommand(FontAwesomeApiKeyProvider apiKeyProvider, IMediator mediator)
     {
         _apiKeyProvider = apiKeyProvider;
+        _mediator = mediator;
     }
 
     public async override Task<int> ExecuteAsync(CommandContext context, Settings settings)
     {
         _apiKeyProvider.ApiKey = settings.ApiKey!;
+
+        IAsyncEnumerable<IconModel> icons;
+
+        if (settings is { FilePath.Length: > 0 })
+        {
+            throw new NotImplementedException();
+        }
+
+        else if (settings is { KitName.Length: > 0 })
+        {
+            var request = new GetIconsFromKit.Request(settings.KitName);
+            var response = _mediator.CreateStream(request);
+            icons = response;
+        }
+
+        else if (settings is { Release.Length: > 0 })
+        {
+            var request = new GetIconsFromKit.Request(settings.Release);
+            var response = _mediator.CreateStream(request);
+            icons = response;
+        }
+        else
+        {
+            throw new Exception("not sure how this happened... validation!");
+        }
+
+
+
 
         return 0;
     }

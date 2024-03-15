@@ -11,7 +11,7 @@ var host = Host
                z => z
                    .AddSingleton<FontAwesomeApiKeyProvider>()
                    .AddFontAwesome(ExecutionStrategy.NetworkOnly)
-                   .ConfigureHttpClient(client => { client.BaseAddress = new("https://api.fontawesome.com/"); })
+                   .ConfigureHttpClient(client => client.BaseAddress = new("https://api.fontawesome.com/"))
            )
           .Build();
 

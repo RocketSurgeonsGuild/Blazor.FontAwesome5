@@ -1,7 +1,8 @@
 ﻿{
   Instance: {
     Icon: {
-      Name: building-columns
+      Name: building-columns,
+      Unicode: f19c
     },
     FadeOpacity: 4.0,
     Fade: true,

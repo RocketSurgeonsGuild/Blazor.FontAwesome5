@@ -1,7 +1,8 @@
 ﻿{
   Instance: {
     Icon: {
-      Name: building-columns
+      Name: building-columns,
+      Unicode: f19c
     },
     BounceLandScaleY: 8.0,
     BounceLandScaleX: 7.0,

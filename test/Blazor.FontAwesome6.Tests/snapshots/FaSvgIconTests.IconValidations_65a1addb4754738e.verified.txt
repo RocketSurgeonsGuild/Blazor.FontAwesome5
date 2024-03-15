@@ -1,7 +1,8 @@
 ﻿{
   Instance: {
     Icon: {
-      Name: barcode
+      Name: barcode,
+      Unicode: f02a
     },
     RotateBy: 100deg
   },

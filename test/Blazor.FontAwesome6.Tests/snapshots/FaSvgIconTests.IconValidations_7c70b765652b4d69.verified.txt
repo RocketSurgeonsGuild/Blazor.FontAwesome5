@@ -1,7 +1,8 @@
 ﻿{
   Instance: {
     Icon: {
-      Name: building-columns
+      Name: building-columns,
+      Unicode: f19c
     },
     FlipX: 1.0,
     FlipY: 2.0,

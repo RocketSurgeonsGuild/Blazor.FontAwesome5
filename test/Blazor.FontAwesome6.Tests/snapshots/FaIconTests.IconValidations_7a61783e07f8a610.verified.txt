@@ -2,7 +2,8 @@
   Instance: {
     Icon: {
       Family: Duotone,
-      Name: building-columns
+      Name: building-columns,
+      Unicode: f19c
     },
     Pull: Right,
     PullMargin: 10px

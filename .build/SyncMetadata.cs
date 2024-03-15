@@ -48,8 +48,8 @@ public partial class Pipeline
                          Npm($"install @fortawesome/fontawesome-pro@{stringV} --no-package-lock", packageDirectory);
                      }
 
-                     var iconsData = packageDirectory / "node_modules" / "@fortawesome/fontawesome-pro" / "metadata" / "icon-families.json";
-                     var categoriesData = packageDirectory / "node_modules" / "@fortawesome/fontawesome-pro" / "metadata" / "categories.yml";
+                     var iconsData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "icon-families.json";
+                     var categoriesData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "categories.yml";
 
                      var host = global::Microsoft.Extensions.Hosting.Host.CreateDefaultBuilder()
                                        .ConfigureRocketSurgery(Imports.GetConventions)
@@ -71,11 +71,6 @@ public partial class Pipeline
                      // free
                      // free svg
                      // pro
-                     var baseRequest = new GetIconsFromIconFamilies.Request(
-                         iconsData,
-                         false,
-                         categoryProvider
-                     );
 
                      var freeIcons = await mediator.Send(new GetIconsFromIconFamilies.Request(
                          iconsData,

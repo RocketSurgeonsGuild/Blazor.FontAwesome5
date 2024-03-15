@@ -2,7 +2,8 @@
   Instance: {
     Icon: {
       Family: Duotone,
-      Name: barcode
+      Name: barcode,
+      Unicode: f02a
     },
     Rotate: 100.0
   },

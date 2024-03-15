@@ -1,7 +1,8 @@
 ﻿{
   Instance: {
     Icon: {
-      Name: barcode
+      Name: barcode,
+      Unicode: f02a
     },
     Grow: 1.0,
     Shrink: 2.0,

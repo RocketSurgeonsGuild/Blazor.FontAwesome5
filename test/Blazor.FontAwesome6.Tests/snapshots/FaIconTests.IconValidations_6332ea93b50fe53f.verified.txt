@@ -2,7 +2,8 @@
   Instance: {
     Icon: {
       Family: Duotone,
-      Name: battery-full
+      Name: battery-full,
+      Unicode: f240
     },
     Animation: Beat,
     AnimationDelay: 3s,

@@ -2,7 +2,8 @@
   Instance: {
     Icon: {
       Family: Duotone,
-      Name: link
+      Name: link,
+      Unicode: f0c1
     }
   },
   NodeCount: 1

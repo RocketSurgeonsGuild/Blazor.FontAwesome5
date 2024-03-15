@@ -2,11 +2,13 @@
   Instance: {
     Icon: {
       Family: Duotone,
-      Name: circle-half-stroke
+      Name: circle-half-stroke,
+      Unicode: f042
     },
     Mask: {
       Family: Duotone,
-      Name: chart-mixed
+      Name: chart-mixed,
+      Unicode: f643
     }
   },
   NodeCount: 1

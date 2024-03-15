@@ -2,7 +2,8 @@
   Instance: {
     Icon: {
       Family: Duotone,
-      Name: circle-half-stroke
+      Name: circle-half-stroke,
+      Unicode: f042
     },
     Grow: 6.0,
     Shrink: 4.0,

@@ -1,7 +1,8 @@
 ﻿{
   Instance: {
     Icon: {
-      Name: link
+      Name: link,
+      Unicode: f0c1
     },
     Size: Xxl
   },

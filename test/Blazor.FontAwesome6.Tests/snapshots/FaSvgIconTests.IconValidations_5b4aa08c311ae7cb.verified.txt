@@ -1,7 +1,8 @@
 ﻿{
   Instance: {
     Icon: {
-      Name: building-columns
+      Name: building-columns,
+      Unicode: f19c
     },
     BeatScale: 4.0,
     Beat: true,

@@ -1,7 +1,8 @@
 ﻿{
   Instance: {
     Icon: {
-      Name: battery-full
+      Name: battery-full,
+      Unicode: f240
     },
     Animation: SpinPulse, Reverse,
     AnimationDelay: 3s,

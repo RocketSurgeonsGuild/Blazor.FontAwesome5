@@ -84,6 +84,8 @@ public partial class Pipeline
                      ));
                      {
                          // Free
+                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Icons" ).CreateOrCleanDirectory();
+                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Categories" ).CreateOrCleanDirectory();
                          await writeFileContents(
                              mediator,
                              freeIcons,
@@ -95,6 +97,8 @@ public partial class Pipeline
                      }
 
                      {
+                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Free.Svg" / "Icons" ).CreateOrCleanDirectory();
+                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Free.Svg" / "Categories" ).CreateOrCleanDirectory();
                          // Free SVG
                          await writeFileContents(
                              mediator,
@@ -107,6 +111,8 @@ public partial class Pipeline
                      }
 
                      {
+                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Icons" ).CreateOrCleanDirectory();
+                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Categories" ).CreateOrCleanDirectory();
                          // Pro
                          await writeFileContents(
                              mediator,

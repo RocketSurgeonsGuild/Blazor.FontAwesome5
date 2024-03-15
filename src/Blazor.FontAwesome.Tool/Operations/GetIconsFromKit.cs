@@ -1,5 +1,6 @@
 using System.Collections.Immutable;
 using MediatR;
+using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 using Rocket.Surgery.LaunchPad.Foundation;
 using StrawberryShake;
 

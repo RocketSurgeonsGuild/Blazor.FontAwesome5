@@ -2,6 +2,7 @@ using System.Collections.Immutable;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using MediatR;
+using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 
 namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 

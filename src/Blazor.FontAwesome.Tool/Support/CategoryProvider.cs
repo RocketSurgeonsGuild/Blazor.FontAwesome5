@@ -1,16 +1,8 @@
 ﻿using System.Collections.Frozen;
-using System.Collections.Immutable;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
-namespace Rocket.Surgery.Blazor.FontAwesome.Tool;
-
-public class CategoryModel
-{
-    public HashSet<string> Icons { get; set; } = new();
-    public string Label { get; set; }
-    public string Name { get; set; }
-}
+namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 
 public class CategoryProvider
 {
@@ -67,8 +59,8 @@ public class CategoryProvider
         var categoryModels = dictionary as CategoryModel[] ?? dictionary.ToArray();
         Categories = categoryModels.ToFrozenDictionary(z => z.Name, z => z, StringComparer.OrdinalIgnoreCase);
         CategoryLookup = categoryModels
-           .SelectMany(z => z.Icons, (z, y) => ( category: z, iconName: y ))
-           .ToLookup(z => z.iconName, z => z.category, StringComparer.OrdinalIgnoreCase);
+                        .SelectMany(z => z.Icons, (z, y) => ( category: z, iconName: y ))
+                        .ToLookup(z => z.iconName, z => z.category, StringComparer.OrdinalIgnoreCase);
     }
 
     public FrozenDictionary<string, CategoryModel> Categories { get; }

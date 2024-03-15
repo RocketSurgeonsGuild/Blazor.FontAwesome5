@@ -52,6 +52,17 @@ public static partial class FaNature
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Cannabis;
     }
     /// <summary>
+    /// Cloud Sun
+    /// <a href="https://fontawesome.com/icons/cloud-sun">Cloud Sun</a>
+    /// </summary>
+    public static partial class CloudSun
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cloud-sun?f=classic&amp;s=solid">Cloud Sun</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CloudSun;
+    }
+    /// <summary>
     /// Clover
     /// <a href="https://fontawesome.com/icons/clover">Clover</a>
     /// </summary>
@@ -72,6 +83,17 @@ public static partial class FaNature
         /// <a href="https://fontawesome.com/icons/feather?f=classic&amp;s=solid">Feather</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Feather;
+    }
+    /// <summary>
+    /// Feather Pointed
+    /// <a href="https://fontawesome.com/icons/feather-pointed">Feather Pointed</a>
+    /// </summary>
+    public static partial class FeatherPointed
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/feather-pointed?f=classic&amp;s=solid">Feather Pointed</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FeatherPointed;
     }
     /// <summary>
     /// Fire
@@ -162,6 +184,50 @@ public static partial class FaNature
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Mountain;
     }
     /// <summary>
+    /// Mountain City
+    /// <a href="https://fontawesome.com/icons/mountain-city">Mountain City</a>
+    /// </summary>
+    public static partial class MountainCity
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mountain-city?f=classic&amp;s=solid">Mountain City</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MountainCity;
+    }
+    /// <summary>
+    /// Mountain Sun
+    /// <a href="https://fontawesome.com/icons/mountain-sun">Mountain Sun</a>
+    /// </summary>
+    public static partial class MountainSun
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mountain-sun?f=classic&amp;s=solid">Mountain Sun</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MountainSun;
+    }
+    /// <summary>
+    /// Person Hiking
+    /// <a href="https://fontawesome.com/icons/person-hiking">Person Hiking</a>
+    /// </summary>
+    public static partial class PersonHiking
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/person-hiking?f=classic&amp;s=solid">Person Hiking</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PersonHiking;
+    }
+    /// <summary>
+    /// Plant Wilt
+    /// <a href="https://fontawesome.com/icons/plant-wilt">Plant Wilt</a>
+    /// </summary>
+    public static partial class PlantWilt
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/plant-wilt?f=classic&amp;s=solid">Plant Wilt</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PlantWilt;
+    }
+    /// <summary>
     /// Seedling
     /// <a href="https://fontawesome.com/icons/seedling">Seedling</a>
     /// </summary>
@@ -171,6 +237,17 @@ public static partial class FaNature
         /// <a href="https://fontawesome.com/icons/seedling?f=classic&amp;s=solid">Seedling</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Seedling;
+    }
+    /// <summary>
+    /// Signs Post
+    /// <a href="https://fontawesome.com/icons/signs-post">Signs Post</a>
+    /// </summary>
+    public static partial class SignsPost
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/signs-post?f=classic&amp;s=solid">Signs Post</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SignsPost;
     }
     /// <summary>
     /// Spider

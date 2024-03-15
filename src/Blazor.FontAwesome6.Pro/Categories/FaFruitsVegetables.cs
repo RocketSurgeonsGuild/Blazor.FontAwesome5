@@ -8,6 +8,92 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro.Categories;
 public static partial class FaFruitsVegetables
 {
     /// <summary>
+    /// Apple Core
+    /// <a href="https://fontawesome.com/icons/apple-core">Apple Core</a>
+    /// </summary>
+    public static partial class AppleCore
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-core?f=classic&amp;s=solid">Apple Core</a>
+        /// </summary>
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.AppleCore;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-core?f=classic&amp;s=solid">Apple Core</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.AppleCore;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-core?f=classic&amp;s=solid">Apple Core</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.AppleCore;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-core?f=classic&amp;s=solid">Apple Core</a>
+        /// </summary>
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.AppleCore;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-core?f=classic&amp;s=solid">Apple Core</a>
+        /// </summary>
+        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.AppleCore;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-core?f=classic&amp;s=solid">Apple Core</a>
+        /// </summary>
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.AppleCore;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-core?f=classic&amp;s=solid">Apple Core</a>
+        /// </summary>
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.AppleCore;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-core?f=classic&amp;s=solid">Apple Core</a>
+        /// </summary>
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.AppleCore;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-core?f=classic&amp;s=solid">Apple Core</a>
+        /// </summary>
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.AppleCore;
+    }
+    /// <summary>
+    /// Apple Whole
+    /// <a href="https://fontawesome.com/icons/apple-whole">Apple Whole</a>
+    /// </summary>
+    public static partial class AppleWhole
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=classic&amp;s=solid">Apple Whole</a>
+        /// </summary>
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.AppleWhole;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=classic&amp;s=solid">Apple Whole</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.AppleWhole;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=classic&amp;s=solid">Apple Whole</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.AppleWhole;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=classic&amp;s=solid">Apple Whole</a>
+        /// </summary>
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.AppleWhole;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=classic&amp;s=solid">Apple Whole</a>
+        /// </summary>
+        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.AppleWhole;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=classic&amp;s=solid">Apple Whole</a>
+        /// </summary>
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.AppleWhole;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=classic&amp;s=solid">Apple Whole</a>
+        /// </summary>
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.AppleWhole;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=classic&amp;s=solid">Apple Whole</a>
+        /// </summary>
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.AppleWhole;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=classic&amp;s=solid">Apple Whole</a>
+        /// </summary>
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.AppleWhole;
+    }
+    /// <summary>
     /// Avocado
     /// <a href="https://fontawesome.com/icons/avocado">Avocado</a>
     /// </summary>
@@ -352,6 +438,49 @@ public static partial class FaFruitsVegetables
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Citrus;
     }
     /// <summary>
+    /// Citrus Slice
+    /// <a href="https://fontawesome.com/icons/citrus-slice">Citrus Slice</a>
+    /// </summary>
+    public static partial class CitrusSlice
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus-slice?f=classic&amp;s=solid">Citrus Slice</a>
+        /// </summary>
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CitrusSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus-slice?f=classic&amp;s=solid">Citrus Slice</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CitrusSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus-slice?f=classic&amp;s=solid">Citrus Slice</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.CitrusSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus-slice?f=classic&amp;s=solid">Citrus Slice</a>
+        /// </summary>
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CitrusSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus-slice?f=classic&amp;s=solid">Citrus Slice</a>
+        /// </summary>
+        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.CitrusSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus-slice?f=classic&amp;s=solid">Citrus Slice</a>
+        /// </summary>
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.CitrusSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus-slice?f=classic&amp;s=solid">Citrus Slice</a>
+        /// </summary>
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.CitrusSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus-slice?f=classic&amp;s=solid">Citrus Slice</a>
+        /// </summary>
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.CitrusSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus-slice?f=classic&amp;s=solid">Citrus Slice</a>
+        /// </summary>
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CitrusSlice;
+    }
+    /// <summary>
     /// Coconut
     /// <a href="https://fontawesome.com/icons/coconut">Coconut</a>
     /// </summary>
@@ -393,6 +522,92 @@ public static partial class FaFruitsVegetables
         /// <a href="https://fontawesome.com/icons/coconut?f=classic&amp;s=solid">Coconut</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Coconut;
+    }
+    /// <summary>
+    /// Crate Apple
+    /// <a href="https://fontawesome.com/icons/crate-apple">Crate Apple</a>
+    /// </summary>
+    public static partial class CrateApple
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-apple?f=classic&amp;s=solid">Crate Apple</a>
+        /// </summary>
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CrateApple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-apple?f=classic&amp;s=solid">Crate Apple</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CrateApple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-apple?f=classic&amp;s=solid">Crate Apple</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.CrateApple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-apple?f=classic&amp;s=solid">Crate Apple</a>
+        /// </summary>
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CrateApple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-apple?f=classic&amp;s=solid">Crate Apple</a>
+        /// </summary>
+        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.CrateApple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-apple?f=classic&amp;s=solid">Crate Apple</a>
+        /// </summary>
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.CrateApple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-apple?f=classic&amp;s=solid">Crate Apple</a>
+        /// </summary>
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.CrateApple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-apple?f=classic&amp;s=solid">Crate Apple</a>
+        /// </summary>
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.CrateApple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-apple?f=classic&amp;s=solid">Crate Apple</a>
+        /// </summary>
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CrateApple;
+    }
+    /// <summary>
+    /// Crate Empty
+    /// <a href="https://fontawesome.com/icons/crate-empty">Crate Empty</a>
+    /// </summary>
+    public static partial class CrateEmpty
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-empty?f=classic&amp;s=solid">Crate Empty</a>
+        /// </summary>
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CrateEmpty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-empty?f=classic&amp;s=solid">Crate Empty</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CrateEmpty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-empty?f=classic&amp;s=solid">Crate Empty</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.CrateEmpty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-empty?f=classic&amp;s=solid">Crate Empty</a>
+        /// </summary>
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CrateEmpty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-empty?f=classic&amp;s=solid">Crate Empty</a>
+        /// </summary>
+        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.CrateEmpty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-empty?f=classic&amp;s=solid">Crate Empty</a>
+        /// </summary>
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.CrateEmpty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-empty?f=classic&amp;s=solid">Crate Empty</a>
+        /// </summary>
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.CrateEmpty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-empty?f=classic&amp;s=solid">Crate Empty</a>
+        /// </summary>
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.CrateEmpty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-empty?f=classic&amp;s=solid">Crate Empty</a>
+        /// </summary>
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CrateEmpty;
     }
     /// <summary>
     /// Cucumber
@@ -567,6 +782,49 @@ public static partial class FaFruitsVegetables
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Grapes;
     }
     /// <summary>
+    /// Kiwi Fruit
+    /// <a href="https://fontawesome.com/icons/kiwi-fruit">Kiwi Fruit</a>
+    /// </summary>
+    public static partial class KiwiFruit
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=classic&amp;s=solid">Kiwi Fruit</a>
+        /// </summary>
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.KiwiFruit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=classic&amp;s=solid">Kiwi Fruit</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.KiwiFruit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=classic&amp;s=solid">Kiwi Fruit</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.KiwiFruit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=classic&amp;s=solid">Kiwi Fruit</a>
+        /// </summary>
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.KiwiFruit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=classic&amp;s=solid">Kiwi Fruit</a>
+        /// </summary>
+        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.KiwiFruit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=classic&amp;s=solid">Kiwi Fruit</a>
+        /// </summary>
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.KiwiFruit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=classic&amp;s=solid">Kiwi Fruit</a>
+        /// </summary>
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.KiwiFruit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=classic&amp;s=solid">Kiwi Fruit</a>
+        /// </summary>
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.KiwiFruit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=classic&amp;s=solid">Kiwi Fruit</a>
+        /// </summary>
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.KiwiFruit;
+    }
+    /// <summary>
     /// Leaf
     /// <a href="https://fontawesome.com/icons/leaf">Leaf</a>
     /// </summary>
@@ -608,6 +866,49 @@ public static partial class FaFruitsVegetables
         /// <a href="https://fontawesome.com/icons/leaf?f=classic&amp;s=solid">Leaf</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Leaf;
+    }
+    /// <summary>
+    /// Leafy Green
+    /// <a href="https://fontawesome.com/icons/leafy-green">Leafy Green</a>
+    /// </summary>
+    public static partial class LeafyGreen
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leafy-green?f=classic&amp;s=solid">Leafy Green</a>
+        /// </summary>
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.LeafyGreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leafy-green?f=classic&amp;s=solid">Leafy Green</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.LeafyGreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leafy-green?f=classic&amp;s=solid">Leafy Green</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.LeafyGreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leafy-green?f=classic&amp;s=solid">Leafy Green</a>
+        /// </summary>
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.LeafyGreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leafy-green?f=classic&amp;s=solid">Leafy Green</a>
+        /// </summary>
+        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.LeafyGreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leafy-green?f=classic&amp;s=solid">Leafy Green</a>
+        /// </summary>
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.LeafyGreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leafy-green?f=classic&amp;s=solid">Leafy Green</a>
+        /// </summary>
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.LeafyGreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leafy-green?f=classic&amp;s=solid">Leafy Green</a>
+        /// </summary>
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.LeafyGreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leafy-green?f=classic&amp;s=solid">Leafy Green</a>
+        /// </summary>
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.LeafyGreen;
     }
     /// <summary>
     /// Lemon
@@ -739,6 +1040,49 @@ public static partial class FaFruitsVegetables
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Melon;
     }
     /// <summary>
+    /// Melon Slice
+    /// <a href="https://fontawesome.com/icons/melon-slice">Melon Slice</a>
+    /// </summary>
+    public static partial class MelonSlice
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon-slice?f=classic&amp;s=solid">Melon Slice</a>
+        /// </summary>
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.MelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon-slice?f=classic&amp;s=solid">Melon Slice</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.MelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon-slice?f=classic&amp;s=solid">Melon Slice</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.MelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon-slice?f=classic&amp;s=solid">Melon Slice</a>
+        /// </summary>
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.MelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon-slice?f=classic&amp;s=solid">Melon Slice</a>
+        /// </summary>
+        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.MelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon-slice?f=classic&amp;s=solid">Melon Slice</a>
+        /// </summary>
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.MelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon-slice?f=classic&amp;s=solid">Melon Slice</a>
+        /// </summary>
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.MelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon-slice?f=classic&amp;s=solid">Melon Slice</a>
+        /// </summary>
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.MelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon-slice?f=classic&amp;s=solid">Melon Slice</a>
+        /// </summary>
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.MelonSlice;
+    }
+    /// <summary>
     /// Mushroom
     /// <a href="https://fontawesome.com/icons/mushroom">Mushroom</a>
     /// </summary>
@@ -823,6 +1167,49 @@ public static partial class FaFruitsVegetables
         /// <a href="https://fontawesome.com/icons/olive?f=classic&amp;s=solid">Olive</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Olive;
+    }
+    /// <summary>
+    /// Olive Branch
+    /// <a href="https://fontawesome.com/icons/olive-branch">Olive Branch</a>
+    /// </summary>
+    public static partial class OliveBranch
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive-branch?f=classic&amp;s=solid">Olive Branch</a>
+        /// </summary>
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.OliveBranch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive-branch?f=classic&amp;s=solid">Olive Branch</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.OliveBranch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive-branch?f=classic&amp;s=solid">Olive Branch</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.OliveBranch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive-branch?f=classic&amp;s=solid">Olive Branch</a>
+        /// </summary>
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.OliveBranch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive-branch?f=classic&amp;s=solid">Olive Branch</a>
+        /// </summary>
+        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.OliveBranch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive-branch?f=classic&amp;s=solid">Olive Branch</a>
+        /// </summary>
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.OliveBranch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive-branch?f=classic&amp;s=solid">Olive Branch</a>
+        /// </summary>
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.OliveBranch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive-branch?f=classic&amp;s=solid">Olive Branch</a>
+        /// </summary>
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.OliveBranch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive-branch?f=classic&amp;s=solid">Olive Branch</a>
+        /// </summary>
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.OliveBranch;
     }
     /// <summary>
     /// Onion
@@ -1126,6 +1513,49 @@ public static partial class FaFruitsVegetables
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Pepper;
     }
     /// <summary>
+    /// Pepper Hot
+    /// <a href="https://fontawesome.com/icons/pepper-hot">Pepper Hot</a>
+    /// </summary>
+    public static partial class PepperHot
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=classic&amp;s=solid">Pepper Hot</a>
+        /// </summary>
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.PepperHot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=classic&amp;s=solid">Pepper Hot</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.PepperHot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=classic&amp;s=solid">Pepper Hot</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.PepperHot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=classic&amp;s=solid">Pepper Hot</a>
+        /// </summary>
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.PepperHot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=classic&amp;s=solid">Pepper Hot</a>
+        /// </summary>
+        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.PepperHot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=classic&amp;s=solid">Pepper Hot</a>
+        /// </summary>
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.PepperHot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=classic&amp;s=solid">Pepper Hot</a>
+        /// </summary>
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.PepperHot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=classic&amp;s=solid">Pepper Hot</a>
+        /// </summary>
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.PepperHot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=classic&amp;s=solid">Pepper Hot</a>
+        /// </summary>
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.PepperHot;
+    }
+    /// <summary>
     /// Pineapple
     /// <a href="https://fontawesome.com/icons/pineapple">Pineapple</a>
     /// </summary>
@@ -1425,6 +1855,49 @@ public static partial class FaFruitsVegetables
         /// <a href="https://fontawesome.com/icons/tomato?f=classic&amp;s=solid">Tomato</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Tomato;
+    }
+    /// <summary>
+    /// Watermelon Slice
+    /// <a href="https://fontawesome.com/icons/watermelon-slice">Watermelon Slice</a>
+    /// </summary>
+    public static partial class WatermelonSlice
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watermelon-slice?f=classic&amp;s=solid">Watermelon Slice</a>
+        /// </summary>
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.WatermelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watermelon-slice?f=classic&amp;s=solid">Watermelon Slice</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.WatermelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watermelon-slice?f=classic&amp;s=solid">Watermelon Slice</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.WatermelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watermelon-slice?f=classic&amp;s=solid">Watermelon Slice</a>
+        /// </summary>
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.WatermelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watermelon-slice?f=classic&amp;s=solid">Watermelon Slice</a>
+        /// </summary>
+        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.WatermelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watermelon-slice?f=classic&amp;s=solid">Watermelon Slice</a>
+        /// </summary>
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.WatermelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watermelon-slice?f=classic&amp;s=solid">Watermelon Slice</a>
+        /// </summary>
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.WatermelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watermelon-slice?f=classic&amp;s=solid">Watermelon Slice</a>
+        /// </summary>
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.WatermelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watermelon-slice?f=classic&amp;s=solid">Watermelon Slice</a>
+        /// </summary>
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.WatermelonSlice;
     }
     /// <summary>
     /// Wheat

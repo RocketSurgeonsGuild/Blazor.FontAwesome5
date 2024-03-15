@@ -8,6 +8,17 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.Categories;
 public static partial class FaHolidays
 {
     /// <summary>
+    /// Candy Cane
+    /// <a href="https://fontawesome.com/icons/candy-cane">Candy Cane</a>
+    /// </summary>
+    public static partial class CandyCane
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/candy-cane?f=classic&amp;s=solid">Candy Cane</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CandyCane;
+    }
+    /// <summary>
     /// Carrot
     /// <a href="https://fontawesome.com/icons/carrot">Carrot</a>
     /// </summary>
@@ -17,6 +28,58 @@ public static partial class FaHolidays
         /// <a href="https://fontawesome.com/icons/carrot?f=classic&amp;s=solid">Carrot</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Carrot;
+    }
+    /// <summary>
+    /// Champagne Glasses
+    /// <a href="https://fontawesome.com/icons/champagne-glasses">Champagne Glasses</a>
+    /// </summary>
+    public static partial class ChampagneGlasses
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/champagne-glasses?f=classic&amp;s=solid">Champagne Glasses</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ChampagneGlasses;
+    }
+    /// <summary>
+    /// Cookie Bite
+    /// <a href="https://fontawesome.com/icons/cookie-bite">Cookie Bite</a>
+    /// </summary>
+    public static partial class CookieBite
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cookie-bite?f=classic&amp;s=solid">Cookie Bite</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CookieBite;
+    }
+    /// <summary>
+    /// Face Grin Hearts
+    /// <a href="https://fontawesome.com/icons/face-grin-hearts">Face Grin Hearts</a>
+    /// </summary>
+    public static partial class FaceGrinHearts
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=regular">Face Grin Hearts</a>
+        /// </summary>
+        public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.FaceGrinHearts;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=regular">Face Grin Hearts</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FaceGrinHearts;
+    }
+    /// <summary>
+    /// Face Kiss Wink Heart
+    /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart">Face Kiss Wink Heart</a>
+    /// </summary>
+    public static partial class FaceKissWinkHeart
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=regular">Face Kiss Wink Heart</a>
+        /// </summary>
+        public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.FaceKissWinkHeart;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=regular">Face Kiss Wink Heart</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FaceKissWinkHeart;
     }
     /// <summary>
     /// Gift
@@ -56,6 +119,17 @@ public static partial class FaHolidays
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Heart;
     }
     /// <summary>
+    /// Holly Berry
+    /// <a href="https://fontawesome.com/icons/holly-berry">Holly Berry</a>
+    /// </summary>
+    public static partial class HollyBerry
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/holly-berry?f=classic&amp;s=solid">Holly Berry</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HollyBerry;
+    }
+    /// <summary>
     /// Menorah
     /// <a href="https://fontawesome.com/icons/menorah">Menorah</a>
     /// </summary>
@@ -65,6 +139,17 @@ public static partial class FaHolidays
         /// <a href="https://fontawesome.com/icons/menorah?f=classic&amp;s=solid">Menorah</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Menorah;
+    }
+    /// <summary>
+    /// Mug Hot
+    /// <a href="https://fontawesome.com/icons/mug-hot">Mug Hot</a>
+    /// </summary>
+    public static partial class MugHot
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mug-hot?f=classic&amp;s=solid">Mug Hot</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.MugHot;
     }
     /// <summary>
     /// Sleigh

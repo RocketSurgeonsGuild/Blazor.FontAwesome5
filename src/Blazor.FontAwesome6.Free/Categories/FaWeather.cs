@@ -19,6 +19,17 @@ public static partial class FaWeather
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Bolt;
     }
     /// <summary>
+    /// Bolt Lightning
+    /// <a href="https://fontawesome.com/icons/bolt-lightning">Bolt Lightning</a>
+    /// </summary>
+    public static partial class BoltLightning
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/bolt-lightning?f=classic&amp;s=solid">Bolt Lightning</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BoltLightning;
+    }
+    /// <summary>
     /// Cloud
     /// <a href="https://fontawesome.com/icons/cloud">Cloud</a>
     /// </summary>
@@ -28,6 +39,116 @@ public static partial class FaWeather
         /// <a href="https://fontawesome.com/icons/cloud?f=classic&amp;s=solid">Cloud</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Cloud;
+    }
+    /// <summary>
+    /// Cloud Bolt
+    /// <a href="https://fontawesome.com/icons/cloud-bolt">Cloud Bolt</a>
+    /// </summary>
+    public static partial class CloudBolt
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cloud-bolt?f=classic&amp;s=solid">Cloud Bolt</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CloudBolt;
+    }
+    /// <summary>
+    /// Cloud Meatball
+    /// <a href="https://fontawesome.com/icons/cloud-meatball">Cloud Meatball</a>
+    /// </summary>
+    public static partial class CloudMeatball
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cloud-meatball?f=classic&amp;s=solid">Cloud Meatball</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CloudMeatball;
+    }
+    /// <summary>
+    /// Cloud Moon
+    /// <a href="https://fontawesome.com/icons/cloud-moon">Cloud Moon</a>
+    /// </summary>
+    public static partial class CloudMoon
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cloud-moon?f=classic&amp;s=solid">Cloud Moon</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CloudMoon;
+    }
+    /// <summary>
+    /// Cloud Moon Rain
+    /// <a href="https://fontawesome.com/icons/cloud-moon-rain">Cloud Moon Rain</a>
+    /// </summary>
+    public static partial class CloudMoonRain
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cloud-moon-rain?f=classic&amp;s=solid">Cloud Moon Rain</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CloudMoonRain;
+    }
+    /// <summary>
+    /// Cloud Rain
+    /// <a href="https://fontawesome.com/icons/cloud-rain">Cloud Rain</a>
+    /// </summary>
+    public static partial class CloudRain
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cloud-rain?f=classic&amp;s=solid">Cloud Rain</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CloudRain;
+    }
+    /// <summary>
+    /// Cloud Showers Heavy
+    /// <a href="https://fontawesome.com/icons/cloud-showers-heavy">Cloud Showers Heavy</a>
+    /// </summary>
+    public static partial class CloudShowersHeavy
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cloud-showers-heavy?f=classic&amp;s=solid">Cloud Showers Heavy</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CloudShowersHeavy;
+    }
+    /// <summary>
+    /// Cloud Showers Water
+    /// <a href="https://fontawesome.com/icons/cloud-showers-water">Cloud Showers Water</a>
+    /// </summary>
+    public static partial class CloudShowersWater
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cloud-showers-water?f=classic&amp;s=solid">Cloud Showers Water</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CloudShowersWater;
+    }
+    /// <summary>
+    /// Cloud Sun
+    /// <a href="https://fontawesome.com/icons/cloud-sun">Cloud Sun</a>
+    /// </summary>
+    public static partial class CloudSun
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cloud-sun?f=classic&amp;s=solid">Cloud Sun</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CloudSun;
+    }
+    /// <summary>
+    /// Cloud Sun Rain
+    /// <a href="https://fontawesome.com/icons/cloud-sun-rain">Cloud Sun Rain</a>
+    /// </summary>
+    public static partial class CloudSunRain
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cloud-sun-rain?f=classic&amp;s=solid">Cloud Sun Rain</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CloudSunRain;
+    }
+    /// <summary>
+    /// House Tsunami
+    /// <a href="https://fontawesome.com/icons/house-tsunami">House Tsunami</a>
+    /// </summary>
+    public static partial class HouseTsunami
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/house-tsunami?f=classic&amp;s=solid">House Tsunami</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HouseTsunami;
     }
     /// <summary>
     /// Hurricane
@@ -76,6 +197,17 @@ public static partial class FaWeather
         /// <a href="https://fontawesome.com/icons/moon?f=classic&amp;s=regular">Moon</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Moon;
+    }
+    /// <summary>
+    /// Poo Storm
+    /// <a href="https://fontawesome.com/icons/poo-storm">Poo Storm</a>
+    /// </summary>
+    public static partial class PooStorm
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/poo-storm?f=classic&amp;s=solid">Poo Storm</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PooStorm;
     }
     /// <summary>
     /// Rainbow
@@ -128,6 +260,116 @@ public static partial class FaWeather
         /// <a href="https://fontawesome.com/icons/sun?f=classic&amp;s=regular">Sun</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Sun;
+    }
+    /// <summary>
+    /// Sun Plant Wilt
+    /// <a href="https://fontawesome.com/icons/sun-plant-wilt">Sun Plant Wilt</a>
+    /// </summary>
+    public static partial class SunPlantWilt
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sun-plant-wilt?f=classic&amp;s=solid">Sun Plant Wilt</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SunPlantWilt;
+    }
+    /// <summary>
+    /// Temperature Arrow Down
+    /// <a href="https://fontawesome.com/icons/temperature-arrow-down">Temperature Arrow Down</a>
+    /// </summary>
+    public static partial class TemperatureArrowDown
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/temperature-arrow-down?f=classic&amp;s=solid">Temperature Arrow Down</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TemperatureArrowDown;
+    }
+    /// <summary>
+    /// Temperature Arrow Up
+    /// <a href="https://fontawesome.com/icons/temperature-arrow-up">Temperature Arrow Up</a>
+    /// </summary>
+    public static partial class TemperatureArrowUp
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/temperature-arrow-up?f=classic&amp;s=solid">Temperature Arrow Up</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TemperatureArrowUp;
+    }
+    /// <summary>
+    /// Temperature Empty
+    /// <a href="https://fontawesome.com/icons/temperature-empty">Temperature Empty</a>
+    /// </summary>
+    public static partial class TemperatureEmpty
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/temperature-empty?f=classic&amp;s=solid">Temperature Empty</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TemperatureEmpty;
+    }
+    /// <summary>
+    /// Temperature Full
+    /// <a href="https://fontawesome.com/icons/temperature-full">Temperature Full</a>
+    /// </summary>
+    public static partial class TemperatureFull
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/temperature-full?f=classic&amp;s=solid">Temperature Full</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TemperatureFull;
+    }
+    /// <summary>
+    /// Temperature Half
+    /// <a href="https://fontawesome.com/icons/temperature-half">Temperature Half</a>
+    /// </summary>
+    public static partial class TemperatureHalf
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/temperature-half?f=classic&amp;s=solid">Temperature Half</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TemperatureHalf;
+    }
+    /// <summary>
+    /// Temperature High
+    /// <a href="https://fontawesome.com/icons/temperature-high">Temperature High</a>
+    /// </summary>
+    public static partial class TemperatureHigh
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/temperature-high?f=classic&amp;s=solid">Temperature High</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TemperatureHigh;
+    }
+    /// <summary>
+    /// Temperature Low
+    /// <a href="https://fontawesome.com/icons/temperature-low">Temperature Low</a>
+    /// </summary>
+    public static partial class TemperatureLow
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/temperature-low?f=classic&amp;s=solid">Temperature Low</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TemperatureLow;
+    }
+    /// <summary>
+    /// Temperature Quarter
+    /// <a href="https://fontawesome.com/icons/temperature-quarter">Temperature Quarter</a>
+    /// </summary>
+    public static partial class TemperatureQuarter
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/temperature-quarter?f=classic&amp;s=solid">Temperature Quarter</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TemperatureQuarter;
+    }
+    /// <summary>
+    /// Temperature Three Quarters
+    /// <a href="https://fontawesome.com/icons/temperature-three-quarters">Temperature Three Quarters</a>
+    /// </summary>
+    public static partial class TemperatureThreeQuarters
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/temperature-three-quarters?f=classic&amp;s=solid">Temperature Three Quarters</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TemperatureThreeQuarters;
     }
     /// <summary>
     /// Tornado

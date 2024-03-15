@@ -8,6 +8,17 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.Categories;
 public static partial class FaFruitsVegetables
 {
     /// <summary>
+    /// Apple Whole
+    /// <a href="https://fontawesome.com/icons/apple-whole">Apple Whole</a>
+    /// </summary>
+    public static partial class AppleWhole
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=classic&amp;s=solid">Apple Whole</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.AppleWhole;
+    }
+    /// <summary>
     /// Carrot
     /// <a href="https://fontawesome.com/icons/carrot">Carrot</a>
     /// </summary>
@@ -43,6 +54,17 @@ public static partial class FaFruitsVegetables
         /// <a href="https://fontawesome.com/icons/lemon?f=classic&amp;s=regular">Lemon</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Lemon;
+    }
+    /// <summary>
+    /// Pepper Hot
+    /// <a href="https://fontawesome.com/icons/pepper-hot">Pepper Hot</a>
+    /// </summary>
+    public static partial class PepperHot
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=classic&amp;s=solid">Pepper Hot</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.PepperHot;
     }
     /// <summary>
     /// Seedling

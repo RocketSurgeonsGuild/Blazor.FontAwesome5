@@ -8,6 +8,17 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.Categories;
 public static partial class FaHousehold
 {
     /// <summary>
+    /// Arrow Up From Water Pump
+    /// <a href="https://fontawesome.com/icons/arrow-up-from-water-pump">Arrow Up From Water Pump</a>
+    /// </summary>
+    public static partial class ArrowUpFromWaterPump
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/arrow-up-from-water-pump?f=classic&amp;s=solid">Arrow Up From Water Pump</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowUpFromWaterPump;
+    }
+    /// <summary>
     /// Bath
     /// <a href="https://fontawesome.com/icons/bath">Bath</a>
     /// </summary>
@@ -56,6 +67,17 @@ public static partial class FaHousehold
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Blender;
     }
     /// <summary>
+    /// Box Tissue
+    /// <a href="https://fontawesome.com/icons/box-tissue">Box Tissue</a>
+    /// </summary>
+    public static partial class BoxTissue
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/box-tissue?f=classic&amp;s=solid">Box Tissue</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BoxTissue;
+    }
+    /// <summary>
     /// Chair
     /// <a href="https://fontawesome.com/icons/chair">Chair</a>
     /// </summary>
@@ -87,6 +109,28 @@ public static partial class FaHousehold
         /// <a href="https://fontawesome.com/icons/couch?f=classic&amp;s=solid">Couch</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Couch;
+    }
+    /// <summary>
+    /// Door Closed
+    /// <a href="https://fontawesome.com/icons/door-closed">Door Closed</a>
+    /// </summary>
+    public static partial class DoorClosed
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/door-closed?f=classic&amp;s=solid">Door Closed</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.DoorClosed;
+    }
+    /// <summary>
+    /// Door Open
+    /// <a href="https://fontawesome.com/icons/door-open">Door Open</a>
+    /// </summary>
+    public static partial class DoorOpen
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/door-open?f=classic&amp;s=solid">Door Open</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.DoorOpen;
     }
     /// <summary>
     /// Dungeon
@@ -122,6 +166,105 @@ public static partial class FaHousehold
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Faucet;
     }
     /// <summary>
+    /// Faucet Drip
+    /// <a href="https://fontawesome.com/icons/faucet-drip">Faucet Drip</a>
+    /// </summary>
+    public static partial class FaucetDrip
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/faucet-drip?f=classic&amp;s=solid">Faucet Drip</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FaucetDrip;
+    }
+    /// <summary>
+    /// Fire Burner
+    /// <a href="https://fontawesome.com/icons/fire-burner">Fire Burner</a>
+    /// </summary>
+    public static partial class FireBurner
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/fire-burner?f=classic&amp;s=solid">Fire Burner</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FireBurner;
+    }
+    /// <summary>
+    /// House Chimney User
+    /// <a href="https://fontawesome.com/icons/house-chimney-user">House Chimney User</a>
+    /// </summary>
+    public static partial class HouseChimneyUser
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/house-chimney-user?f=classic&amp;s=solid">House Chimney User</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HouseChimneyUser;
+    }
+    /// <summary>
+    /// House Chimney Window
+    /// <a href="https://fontawesome.com/icons/house-chimney-window">House Chimney Window</a>
+    /// </summary>
+    public static partial class HouseChimneyWindow
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/house-chimney-window?f=classic&amp;s=solid">House Chimney Window</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HouseChimneyWindow;
+    }
+    /// <summary>
+    /// House Fire
+    /// <a href="https://fontawesome.com/icons/house-fire">House Fire</a>
+    /// </summary>
+    public static partial class HouseFire
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/house-fire?f=classic&amp;s=solid">House Fire</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HouseFire;
+    }
+    /// <summary>
+    /// House Laptop
+    /// <a href="https://fontawesome.com/icons/house-laptop">House Laptop</a>
+    /// </summary>
+    public static partial class HouseLaptop
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/house-laptop?f=classic&amp;s=solid">House Laptop</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HouseLaptop;
+    }
+    /// <summary>
+    /// House Lock
+    /// <a href="https://fontawesome.com/icons/house-lock">House Lock</a>
+    /// </summary>
+    public static partial class HouseLock
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/house-lock?f=classic&amp;s=solid">House Lock</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HouseLock;
+    }
+    /// <summary>
+    /// House Signal
+    /// <a href="https://fontawesome.com/icons/house-signal">House Signal</a>
+    /// </summary>
+    public static partial class HouseSignal
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/house-signal?f=classic&amp;s=solid">House Signal</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HouseSignal;
+    }
+    /// <summary>
+    /// House User
+    /// <a href="https://fontawesome.com/icons/house-user">House User</a>
+    /// </summary>
+    public static partial class HouseUser
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/house-user?f=classic&amp;s=solid">House User</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HouseUser;
+    }
+    /// <summary>
     /// Jar
     /// <a href="https://fontawesome.com/icons/jar">Jar</a>
     /// </summary>
@@ -131,6 +274,39 @@ public static partial class FaHousehold
         /// <a href="https://fontawesome.com/icons/jar?f=classic&amp;s=solid">Jar</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Jar;
+    }
+    /// <summary>
+    /// Jar Wheat
+    /// <a href="https://fontawesome.com/icons/jar-wheat">Jar Wheat</a>
+    /// </summary>
+    public static partial class JarWheat
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/jar-wheat?f=classic&amp;s=solid">Jar Wheat</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.JarWheat;
+    }
+    /// <summary>
+    /// Jug Detergent
+    /// <a href="https://fontawesome.com/icons/jug-detergent">Jug Detergent</a>
+    /// </summary>
+    public static partial class JugDetergent
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/jug-detergent?f=classic&amp;s=solid">Jug Detergent</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.JugDetergent;
+    }
+    /// <summary>
+    /// Kitchen Set
+    /// <a href="https://fontawesome.com/icons/kitchen-set">Kitchen Set</a>
+    /// </summary>
+    public static partial class KitchenSet
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/kitchen-set?f=classic&amp;s=solid">Kitchen Set</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.KitchenSet;
     }
     /// <summary>
     /// Lightbulb
@@ -148,6 +324,39 @@ public static partial class FaHousehold
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Lightbulb;
     }
     /// <summary>
+    /// Mattress Pillow
+    /// <a href="https://fontawesome.com/icons/mattress-pillow">Mattress Pillow</a>
+    /// </summary>
+    public static partial class MattressPillow
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mattress-pillow?f=classic&amp;s=solid">Mattress Pillow</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.MattressPillow;
+    }
+    /// <summary>
+    /// Mug Saucer
+    /// <a href="https://fontawesome.com/icons/mug-saucer">Mug Saucer</a>
+    /// </summary>
+    public static partial class MugSaucer
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mug-saucer?f=classic&amp;s=solid">Mug Saucer</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.MugSaucer;
+    }
+    /// <summary>
+    /// People Roof
+    /// <a href="https://fontawesome.com/icons/people-roof">People Roof</a>
+    /// </summary>
+    public static partial class PeopleRoof
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/people-roof?f=classic&amp;s=solid">People Roof</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.PeopleRoof;
+    }
+    /// <summary>
     /// Plug
     /// <a href="https://fontawesome.com/icons/plug">Plug</a>
     /// </summary>
@@ -159,6 +368,17 @@ public static partial class FaHousehold
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Plug;
     }
     /// <summary>
+    /// Pump Soap
+    /// <a href="https://fontawesome.com/icons/pump-soap">Pump Soap</a>
+    /// </summary>
+    public static partial class PumpSoap
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pump-soap?f=classic&amp;s=solid">Pump Soap</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.PumpSoap;
+    }
+    /// <summary>
     /// Rug
     /// <a href="https://fontawesome.com/icons/rug">Rug</a>
     /// </summary>
@@ -168,6 +388,17 @@ public static partial class FaHousehold
         /// <a href="https://fontawesome.com/icons/rug?f=classic&amp;s=solid">Rug</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Rug;
+    }
+    /// <summary>
+    /// Sheet Plastic
+    /// <a href="https://fontawesome.com/icons/sheet-plastic">Sheet Plastic</a>
+    /// </summary>
+    public static partial class SheetPlastic
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sheet-plastic?f=classic&amp;s=solid">Sheet Plastic</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.SheetPlastic;
     }
     /// <summary>
     /// Shower
@@ -240,6 +471,28 @@ public static partial class FaHousehold
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Stairs;
     }
     /// <summary>
+    /// Temperature Arrow Down
+    /// <a href="https://fontawesome.com/icons/temperature-arrow-down">Temperature Arrow Down</a>
+    /// </summary>
+    public static partial class TemperatureArrowDown
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/temperature-arrow-down?f=classic&amp;s=solid">Temperature Arrow Down</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureArrowDown;
+    }
+    /// <summary>
+    /// Temperature Arrow Up
+    /// <a href="https://fontawesome.com/icons/temperature-arrow-up">Temperature Arrow Up</a>
+    /// </summary>
+    public static partial class TemperatureArrowUp
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/temperature-arrow-up?f=classic&amp;s=solid">Temperature Arrow Up</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureArrowUp;
+    }
+    /// <summary>
     /// Toilet
     /// <a href="https://fontawesome.com/icons/toilet">Toilet</a>
     /// </summary>
@@ -249,6 +502,28 @@ public static partial class FaHousehold
         /// <a href="https://fontawesome.com/icons/toilet?f=classic&amp;s=solid">Toilet</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Toilet;
+    }
+    /// <summary>
+    /// Toilet Paper
+    /// <a href="https://fontawesome.com/icons/toilet-paper">Toilet Paper</a>
+    /// </summary>
+    public static partial class ToiletPaper
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/toilet-paper?f=classic&amp;s=solid">Toilet Paper</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ToiletPaper;
+    }
+    /// <summary>
+    /// Toilet Paper Slash
+    /// <a href="https://fontawesome.com/icons/toilet-paper-slash">Toilet Paper Slash</a>
+    /// </summary>
+    public static partial class ToiletPaperSlash
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/toilet-paper-slash?f=classic&amp;s=solid">Toilet Paper Slash</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ToiletPaperSlash;
     }
     /// <summary>
     /// Tv

@@ -75,6 +75,17 @@ public static partial class FaShapes
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Circle;
     }
     /// <summary>
+    /// Circle Half Stroke
+    /// <a href="https://fontawesome.com/icons/circle-half-stroke">Circle Half Stroke</a>
+    /// </summary>
+    public static partial class CircleHalfStroke
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/circle-half-stroke?f=classic&amp;s=solid">Circle Half Stroke</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleHalfStroke;
+    }
+    /// <summary>
     /// Cloud
     /// <a href="https://fontawesome.com/icons/cloud">Cloud</a>
     /// </summary>
@@ -121,6 +132,17 @@ public static partial class FaShapes
         /// <a href="https://fontawesome.com/icons/crown?f=classic&amp;s=solid">Crown</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Crown;
+    }
+    /// <summary>
+    /// Cubes Stacked
+    /// <a href="https://fontawesome.com/icons/cubes-stacked">Cubes Stacked</a>
+    /// </summary>
+    public static partial class CubesStacked
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cubes-stacked?f=classic&amp;s=solid">Cubes Stacked</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CubesStacked;
     }
     /// <summary>
     /// Diamond
@@ -177,6 +199,39 @@ public static partial class FaShapes
         /// <a href="https://fontawesome.com/icons/heart?f=classic&amp;s=regular">Heart</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Heart;
+    }
+    /// <summary>
+    /// Heart Crack
+    /// <a href="https://fontawesome.com/icons/heart-crack">Heart Crack</a>
+    /// </summary>
+    public static partial class HeartCrack
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/heart-crack?f=classic&amp;s=solid">Heart Crack</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HeartCrack;
+    }
+    /// <summary>
+    /// Lines Leaning
+    /// <a href="https://fontawesome.com/icons/lines-leaning">Lines Leaning</a>
+    /// </summary>
+    public static partial class LinesLeaning
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/lines-leaning?f=classic&amp;s=solid">Lines Leaning</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.LinesLeaning;
+    }
+    /// <summary>
+    /// Location Pin
+    /// <a href="https://fontawesome.com/icons/location-pin">Location Pin</a>
+    /// </summary>
+    public static partial class LocationPin
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/location-pin?f=classic&amp;s=solid">Location Pin</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.LocationPin;
     }
     /// <summary>
     /// Play
@@ -240,5 +295,16 @@ public static partial class FaShapes
         /// <a href="https://fontawesome.com/icons/star?f=classic&amp;s=regular">Star</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Star;
+    }
+    /// <summary>
+    /// Ticket Simple
+    /// <a href="https://fontawesome.com/icons/ticket-simple">Ticket Simple</a>
+    /// </summary>
+    public static partial class TicketSimple
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/ticket-simple?f=classic&amp;s=solid">Ticket Simple</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TicketSimple;
     }
 }

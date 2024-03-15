@@ -19,6 +19,21 @@ public static partial class FaAlphabet
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.A;
     }
     /// <summary>
+    /// Address Card
+    /// <a href="https://fontawesome.com/icons/address-card">Address Card</a>
+    /// </summary>
+    public static partial class AddressCard
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/address-card?f=classic&amp;s=regular">Address Card</a>
+        /// </summary>
+        public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.AddressCard;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/address-card?f=classic&amp;s=regular">Address Card</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.AddressCard;
+    }
+    /// <summary>
     /// B
     /// <a href="https://fontawesome.com/icons/b">B</a>
     /// </summary>
@@ -39,6 +54,17 @@ public static partial class FaAlphabet
         /// <a href="https://fontawesome.com/icons/c?f=classic&amp;s=solid">C</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.C;
+    }
+    /// <summary>
+    /// Circle H
+    /// <a href="https://fontawesome.com/icons/circle-h">Circle H</a>
+    /// </summary>
+    public static partial class CircleH
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/circle-h?f=classic&amp;s=solid">Circle H</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CircleH;
     }
     /// <summary>
     /// D
@@ -215,6 +241,17 @@ public static partial class FaAlphabet
         /// <a href="https://fontawesome.com/icons/s?f=classic&amp;s=solid">S</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.S;
+    }
+    /// <summary>
+    /// Square H
+    /// <a href="https://fontawesome.com/icons/square-h">Square H</a>
+    /// </summary>
+    public static partial class SquareH
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/square-h?f=classic&amp;s=solid">Square H</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.SquareH;
     }
     /// <summary>
     /// T

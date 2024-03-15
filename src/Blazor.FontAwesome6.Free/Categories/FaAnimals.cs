@@ -96,6 +96,17 @@ public static partial class FaAnimals
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Feather;
     }
     /// <summary>
+    /// Feather Pointed
+    /// <a href="https://fontawesome.com/icons/feather-pointed">Feather Pointed</a>
+    /// </summary>
+    public static partial class FeatherPointed
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/feather-pointed?f=classic&amp;s=solid">Feather Pointed</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FeatherPointed;
+    }
+    /// <summary>
     /// Fish
     /// <a href="https://fontawesome.com/icons/fish">Fish</a>
     /// </summary>
@@ -105,6 +116,17 @@ public static partial class FaAnimals
         /// <a href="https://fontawesome.com/icons/fish?f=classic&amp;s=solid">Fish</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Fish;
+    }
+    /// <summary>
+    /// Fish Fins
+    /// <a href="https://fontawesome.com/icons/fish-fins">Fish Fins</a>
+    /// </summary>
+    public static partial class FishFins
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/fish-fins?f=classic&amp;s=solid">Fish Fins</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FishFins;
     }
     /// <summary>
     /// Frog
@@ -138,6 +160,28 @@ public static partial class FaAnimals
         /// <a href="https://fontawesome.com/icons/horse?f=classic&amp;s=solid">Horse</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Horse;
+    }
+    /// <summary>
+    /// Horse Head
+    /// <a href="https://fontawesome.com/icons/horse-head">Horse Head</a>
+    /// </summary>
+    public static partial class HorseHead
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/horse-head?f=classic&amp;s=solid">Horse Head</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HorseHead;
+    }
+    /// <summary>
+    /// Kiwi Bird
+    /// <a href="https://fontawesome.com/icons/kiwi-bird">Kiwi Bird</a>
+    /// </summary>
+    public static partial class KiwiBird
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-bird?f=classic&amp;s=solid">Kiwi Bird</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.KiwiBird;
     }
     /// <summary>
     /// Locust
@@ -182,6 +226,28 @@ public static partial class FaAnimals
         /// <a href="https://fontawesome.com/icons/paw?f=classic&amp;s=solid">Paw</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Paw;
+    }
+    /// <summary>
+    /// Shield Cat
+    /// <a href="https://fontawesome.com/icons/shield-cat">Shield Cat</a>
+    /// </summary>
+    public static partial class ShieldCat
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/shield-cat?f=classic&amp;s=solid">Shield Cat</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ShieldCat;
+    }
+    /// <summary>
+    /// Shield Dog
+    /// <a href="https://fontawesome.com/icons/shield-dog">Shield Dog</a>
+    /// </summary>
+    public static partial class ShieldDog
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/shield-dog?f=classic&amp;s=solid">Shield Dog</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ShieldDog;
     }
     /// <summary>
     /// Shrimp

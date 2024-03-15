@@ -19,6 +19,17 @@ public static partial class FaPhotosImages
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Bolt;
     }
     /// <summary>
+    /// Bolt Lightning
+    /// <a href="https://fontawesome.com/icons/bolt-lightning">Bolt Lightning</a>
+    /// </summary>
+    public static partial class BoltLightning
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/bolt-lightning?f=classic&amp;s=solid">Bolt Lightning</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BoltLightning;
+    }
+    /// <summary>
     /// Camera
     /// <a href="https://fontawesome.com/icons/camera">Camera</a>
     /// </summary>
@@ -30,6 +41,28 @@ public static partial class FaPhotosImages
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Camera;
     }
     /// <summary>
+    /// Camera Retro
+    /// <a href="https://fontawesome.com/icons/camera-retro">Camera Retro</a>
+    /// </summary>
+    public static partial class CameraRetro
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-retro?f=classic&amp;s=solid">Camera Retro</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CameraRetro;
+    }
+    /// <summary>
+    /// Camera Rotate
+    /// <a href="https://fontawesome.com/icons/camera-rotate">Camera Rotate</a>
+    /// </summary>
+    public static partial class CameraRotate
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-rotate?f=classic&amp;s=solid">Camera Rotate</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CameraRotate;
+    }
+    /// <summary>
     /// Chalkboard
     /// <a href="https://fontawesome.com/icons/chalkboard">Chalkboard</a>
     /// </summary>
@@ -39,6 +72,17 @@ public static partial class FaPhotosImages
         /// <a href="https://fontawesome.com/icons/chalkboard?f=classic&amp;s=solid">Chalkboard</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Chalkboard;
+    }
+    /// <summary>
+    /// Circle Half Stroke
+    /// <a href="https://fontawesome.com/icons/circle-half-stroke">Circle Half Stroke</a>
+    /// </summary>
+    public static partial class CircleHalfStroke
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/circle-half-stroke?f=classic&amp;s=solid">Circle Half Stroke</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleHalfStroke;
     }
     /// <summary>
     /// Clone
@@ -82,6 +126,47 @@ public static partial class FaPhotosImages
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Eye;
     }
     /// <summary>
+    /// Eye Dropper
+    /// <a href="https://fontawesome.com/icons/eye-dropper">Eye Dropper</a>
+    /// </summary>
+    public static partial class EyeDropper
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/eye-dropper?f=classic&amp;s=solid">Eye Dropper</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.EyeDropper;
+    }
+    /// <summary>
+    /// Eye Slash
+    /// <a href="https://fontawesome.com/icons/eye-slash">Eye Slash</a>
+    /// </summary>
+    public static partial class EyeSlash
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/eye-slash?f=classic&amp;s=regular">Eye Slash</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.EyeSlash;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/eye-slash?f=classic&amp;s=regular">Eye Slash</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.EyeSlash;
+    }
+    /// <summary>
+    /// File Image
+    /// <a href="https://fontawesome.com/icons/file-image">File Image</a>
+    /// </summary>
+    public static partial class FileImage
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/file-image?f=classic&amp;s=regular">File Image</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FileImage;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/file-image?f=classic&amp;s=regular">File Image</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileImage;
+    }
+    /// <summary>
     /// Film
     /// <a href="https://fontawesome.com/icons/film">Film</a>
     /// </summary>
@@ -91,6 +176,36 @@ public static partial class FaPhotosImages
         /// <a href="https://fontawesome.com/icons/film?f=classic&amp;s=solid">Film</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Film;
+    }
+    /// <summary>
+    /// Id Badge
+    /// <a href="https://fontawesome.com/icons/id-badge">Id Badge</a>
+    /// </summary>
+    public static partial class IdBadge
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/id-badge?f=classic&amp;s=regular">Id Badge</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.IdBadge;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/id-badge?f=classic&amp;s=regular">Id Badge</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.IdBadge;
+    }
+    /// <summary>
+    /// Id Card
+    /// <a href="https://fontawesome.com/icons/id-card">Id Card</a>
+    /// </summary>
+    public static partial class IdCard
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/id-card?f=classic&amp;s=regular">Id Card</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.IdCard;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/id-card?f=classic&amp;s=regular">Id Card</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.IdCard;
     }
     /// <summary>
     /// Image
@@ -106,6 +221,17 @@ public static partial class FaPhotosImages
         /// <a href="https://fontawesome.com/icons/image?f=classic&amp;s=regular">Image</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Image;
+    }
+    /// <summary>
+    /// Image Portrait
+    /// <a href="https://fontawesome.com/icons/image-portrait">Image Portrait</a>
+    /// </summary>
+    public static partial class ImagePortrait
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/image-portrait?f=classic&amp;s=solid">Image Portrait</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ImagePortrait;
     }
     /// <summary>
     /// Images
@@ -143,6 +269,17 @@ public static partial class FaPhotosImages
         /// <a href="https://fontawesome.com/icons/panorama?f=classic&amp;s=solid">Panorama</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Panorama;
+    }
+    /// <summary>
+    /// Photo Film
+    /// <a href="https://fontawesome.com/icons/photo-film">Photo Film</a>
+    /// </summary>
+    public static partial class PhotoFilm
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/photo-film?f=classic&amp;s=solid">Photo Film</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PhotoFilm;
     }
     /// <summary>
     /// Sliders

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Frozen;
+using System.Collections.Immutable;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
@@ -25,7 +26,7 @@ public class CategoryProvider
         var fileResourceName = typeof(CategoryProvider).Assembly.GetManifestResourceNames().FirstOrDefault(x => x.EndsWith("categories.yml"));
         if (fileResourceName is null)
         {
-            return new(new CategoryModel[0]);
+            return new(Array.Empty<CategoryModel>());
         }
 
         using var stream = typeof(CategoryProvider).Assembly.GetManifestResourceStream(fileResourceName)!;
@@ -41,7 +42,7 @@ public class CategoryProvider
                 yield return new()
                 {
                     Name = item.Key,
-                    Icons = new(item.Value.Icons, StringComparer.OrdinalIgnoreCase),
+                    Icons = ImmutableHashSet.CreateRange(StringComparer.OrdinalIgnoreCase, item.Value.Icons),
                     Label = item.Value.Label,
                 };
             }

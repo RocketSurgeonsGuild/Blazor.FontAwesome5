@@ -41,6 +41,50 @@ public static partial class FaReligion
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Bahai;
     }
     /// <summary>
+    /// Book Bible
+    /// <a href="https://fontawesome.com/icons/book-bible">Book Bible</a>
+    /// </summary>
+    public static partial class BookBible
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/book-bible?f=classic&amp;s=solid">Book Bible</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BookBible;
+    }
+    /// <summary>
+    /// Book Journal Whills
+    /// <a href="https://fontawesome.com/icons/book-journal-whills">Book Journal Whills</a>
+    /// </summary>
+    public static partial class BookJournalWhills
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/book-journal-whills?f=classic&amp;s=solid">Book Journal Whills</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BookJournalWhills;
+    }
+    /// <summary>
+    /// Book Quran
+    /// <a href="https://fontawesome.com/icons/book-quran">Book Quran</a>
+    /// </summary>
+    public static partial class BookQuran
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/book-quran?f=classic&amp;s=solid">Book Quran</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BookQuran;
+    }
+    /// <summary>
+    /// Book Tanakh
+    /// <a href="https://fontawesome.com/icons/book-tanakh">Book Tanakh</a>
+    /// </summary>
+    public static partial class BookTanakh
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/book-tanakh?f=classic&amp;s=solid">Book Tanakh</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BookTanakh;
+    }
+    /// <summary>
     /// Church
     /// <a href="https://fontawesome.com/icons/church">Church</a>
     /// </summary>
@@ -105,6 +149,17 @@ public static partial class FaReligion
         /// <a href="https://fontawesome.com/icons/hamsa?f=classic&amp;s=solid">Hamsa</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Hamsa;
+    }
+    /// <summary>
+    /// Hands Praying
+    /// <a href="https://fontawesome.com/icons/hands-praying">Hands Praying</a>
+    /// </summary>
+    public static partial class HandsPraying
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/hands-praying?f=classic&amp;s=solid">Hands Praying</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HandsPraying;
     }
     /// <summary>
     /// Hanukiah
@@ -195,6 +250,72 @@ public static partial class FaReligion
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Peace;
     }
     /// <summary>
+    /// Person Praying
+    /// <a href="https://fontawesome.com/icons/person-praying">Person Praying</a>
+    /// </summary>
+    public static partial class PersonPraying
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/person-praying?f=classic&amp;s=solid">Person Praying</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.PersonPraying;
+    }
+    /// <summary>
+    /// Place Of Worship
+    /// <a href="https://fontawesome.com/icons/place-of-worship">Place Of Worship</a>
+    /// </summary>
+    public static partial class PlaceOfWorship
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/place-of-worship?f=classic&amp;s=solid">Place Of Worship</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.PlaceOfWorship;
+    }
+    /// <summary>
+    /// Scroll Torah
+    /// <a href="https://fontawesome.com/icons/scroll-torah">Scroll Torah</a>
+    /// </summary>
+    public static partial class ScrollTorah
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/scroll-torah?f=classic&amp;s=solid">Scroll Torah</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ScrollTorah;
+    }
+    /// <summary>
+    /// Spaghetti Monster Flying
+    /// <a href="https://fontawesome.com/icons/spaghetti-monster-flying">Spaghetti Monster Flying</a>
+    /// </summary>
+    public static partial class SpaghettiMonsterFlying
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/spaghetti-monster-flying?f=classic&amp;s=solid">Spaghetti Monster Flying</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.SpaghettiMonsterFlying;
+    }
+    /// <summary>
+    /// Star And Crescent
+    /// <a href="https://fontawesome.com/icons/star-and-crescent">Star And Crescent</a>
+    /// </summary>
+    public static partial class StarAndCrescent
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/star-and-crescent?f=classic&amp;s=solid">Star And Crescent</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.StarAndCrescent;
+    }
+    /// <summary>
+    /// Star Of David
+    /// <a href="https://fontawesome.com/icons/star-of-david">Star Of David</a>
+    /// </summary>
+    public static partial class StarOfDavid
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/star-of-david?f=classic&amp;s=solid">Star Of David</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.StarOfDavid;
+    }
+    /// <summary>
     /// Synagogue
     /// <a href="https://fontawesome.com/icons/synagogue">Synagogue</a>
     /// </summary>
@@ -206,6 +327,17 @@ public static partial class FaReligion
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Synagogue;
     }
     /// <summary>
+    /// Torii Gate
+    /// <a href="https://fontawesome.com/icons/torii-gate">Torii Gate</a>
+    /// </summary>
+    public static partial class ToriiGate
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/torii-gate?f=classic&amp;s=solid">Torii Gate</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ToriiGate;
+    }
+    /// <summary>
     /// Vihara
     /// <a href="https://fontawesome.com/icons/vihara">Vihara</a>
     /// </summary>
@@ -215,5 +347,16 @@ public static partial class FaReligion
         /// <a href="https://fontawesome.com/icons/vihara?f=classic&amp;s=solid">Vihara</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Vihara;
+    }
+    /// <summary>
+    /// Yin Yang
+    /// <a href="https://fontawesome.com/icons/yin-yang">Yin Yang</a>
+    /// </summary>
+    public static partial class YinYang
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/yin-yang?f=classic&amp;s=solid">Yin Yang</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.YinYang;
     }
 }

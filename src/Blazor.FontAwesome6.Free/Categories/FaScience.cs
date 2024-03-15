@@ -52,6 +52,28 @@ public static partial class FaScience
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Capsules;
     }
     /// <summary>
+    /// Circle Radiation
+    /// <a href="https://fontawesome.com/icons/circle-radiation">Circle Radiation</a>
+    /// </summary>
+    public static partial class CircleRadiation
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/circle-radiation?f=classic&amp;s=solid">Circle Radiation</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleRadiation;
+    }
+    /// <summary>
+    /// Clipboard Check
+    /// <a href="https://fontawesome.com/icons/clipboard-check">Clipboard Check</a>
+    /// </summary>
+    public static partial class ClipboardCheck
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/clipboard-check?f=classic&amp;s=solid">Clipboard Check</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ClipboardCheck;
+    }
+    /// <summary>
     /// Disease
     /// <a href="https://fontawesome.com/icons/disease">Disease</a>
     /// </summary>
@@ -72,6 +94,17 @@ public static partial class FaScience
         /// <a href="https://fontawesome.com/icons/dna?f=classic&amp;s=solid">Dna</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Dna;
+    }
+    /// <summary>
+    /// Eye Dropper
+    /// <a href="https://fontawesome.com/icons/eye-dropper">Eye Dropper</a>
+    /// </summary>
+    public static partial class EyeDropper
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/eye-dropper?f=classic&amp;s=solid">Eye Dropper</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.EyeDropper;
     }
     /// <summary>
     /// Filter
@@ -96,6 +129,28 @@ public static partial class FaScience
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Fire;
     }
     /// <summary>
+    /// Fire Flame Curved
+    /// <a href="https://fontawesome.com/icons/fire-flame-curved">Fire Flame Curved</a>
+    /// </summary>
+    public static partial class FireFlameCurved
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/fire-flame-curved?f=classic&amp;s=solid">Fire Flame Curved</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FireFlameCurved;
+    }
+    /// <summary>
+    /// Fire Flame Simple
+    /// <a href="https://fontawesome.com/icons/fire-flame-simple">Fire Flame Simple</a>
+    /// </summary>
+    public static partial class FireFlameSimple
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/fire-flame-simple?f=classic&amp;s=solid">Fire Flame Simple</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FireFlameSimple;
+    }
+    /// <summary>
     /// Flask
     /// <a href="https://fontawesome.com/icons/flask">Flask</a>
     /// </summary>
@@ -105,6 +160,17 @@ public static partial class FaScience
         /// <a href="https://fontawesome.com/icons/flask?f=classic&amp;s=solid">Flask</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Flask;
+    }
+    /// <summary>
+    /// Flask Vial
+    /// <a href="https://fontawesome.com/icons/flask-vial">Flask Vial</a>
+    /// </summary>
+    public static partial class FlaskVial
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/flask-vial?f=classic&amp;s=solid">Flask Vial</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FlaskVial;
     }
     /// <summary>
     /// Frog
@@ -140,6 +206,17 @@ public static partial class FaScience
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Microscope;
     }
     /// <summary>
+    /// Mortar Pestle
+    /// <a href="https://fontawesome.com/icons/mortar-pestle">Mortar Pestle</a>
+    /// </summary>
+    public static partial class MortarPestle
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mortar-pestle?f=classic&amp;s=solid">Mortar Pestle</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MortarPestle;
+    }
+    /// <summary>
     /// Pills
     /// <a href="https://fontawesome.com/icons/pills">Pills</a>
     /// </summary>
@@ -149,6 +226,17 @@ public static partial class FaScience
         /// <a href="https://fontawesome.com/icons/pills?f=classic&amp;s=solid">Pills</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Pills;
+    }
+    /// <summary>
+    /// Prescription Bottle
+    /// <a href="https://fontawesome.com/icons/prescription-bottle">Prescription Bottle</a>
+    /// </summary>
+    public static partial class PrescriptionBottle
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/prescription-bottle?f=classic&amp;s=solid">Prescription Bottle</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PrescriptionBottle;
     }
     /// <summary>
     /// Radiation
@@ -173,6 +261,28 @@ public static partial class FaScience
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Seedling;
     }
     /// <summary>
+    /// Skull Crossbones
+    /// <a href="https://fontawesome.com/icons/skull-crossbones">Skull Crossbones</a>
+    /// </summary>
+    public static partial class SkullCrossbones
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/skull-crossbones?f=classic&amp;s=solid">Skull Crossbones</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SkullCrossbones;
+    }
+    /// <summary>
+    /// Square Virus
+    /// <a href="https://fontawesome.com/icons/square-virus">Square Virus</a>
+    /// </summary>
+    public static partial class SquareVirus
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/square-virus?f=classic&amp;s=solid">Square Virus</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SquareVirus;
+    }
+    /// <summary>
     /// Syringe
     /// <a href="https://fontawesome.com/icons/syringe">Syringe</a>
     /// </summary>
@@ -195,6 +305,28 @@ public static partial class FaScience
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Tablets;
     }
     /// <summary>
+    /// Temperature High
+    /// <a href="https://fontawesome.com/icons/temperature-high">Temperature High</a>
+    /// </summary>
+    public static partial class TemperatureHigh
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/temperature-high?f=classic&amp;s=solid">Temperature High</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TemperatureHigh;
+    }
+    /// <summary>
+    /// Temperature Low
+    /// <a href="https://fontawesome.com/icons/temperature-low">Temperature Low</a>
+    /// </summary>
+    public static partial class TemperatureLow
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/temperature-low?f=classic&amp;s=solid">Temperature Low</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TemperatureLow;
+    }
+    /// <summary>
     /// Vial
     /// <a href="https://fontawesome.com/icons/vial">Vial</a>
     /// </summary>
@@ -204,6 +336,28 @@ public static partial class FaScience
         /// <a href="https://fontawesome.com/icons/vial?f=classic&amp;s=solid">Vial</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Vial;
+    }
+    /// <summary>
+    /// Vial Circle Check
+    /// <a href="https://fontawesome.com/icons/vial-circle-check">Vial Circle Check</a>
+    /// </summary>
+    public static partial class VialCircleCheck
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/vial-circle-check?f=classic&amp;s=solid">Vial Circle Check</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.VialCircleCheck;
+    }
+    /// <summary>
+    /// Vial Virus
+    /// <a href="https://fontawesome.com/icons/vial-virus">Vial Virus</a>
+    /// </summary>
+    public static partial class VialVirus
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/vial-virus?f=classic&amp;s=solid">Vial Virus</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.VialVirus;
     }
     /// <summary>
     /// Vials

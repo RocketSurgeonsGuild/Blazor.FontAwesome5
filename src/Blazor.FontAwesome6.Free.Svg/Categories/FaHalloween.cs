@@ -8,6 +8,17 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.Categories;
 public static partial class FaHalloween
 {
     /// <summary>
+    /// Book Skull
+    /// <a href="https://fontawesome.com/icons/book-skull">Book Skull</a>
+    /// </summary>
+    public static partial class BookSkull
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/book-skull?f=classic&amp;s=solid">Book Skull</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BookSkull;
+    }
+    /// <summary>
     /// Broom
     /// <a href="https://fontawesome.com/icons/broom">Broom</a>
     /// </summary>
@@ -28,6 +39,17 @@ public static partial class FaHalloween
         /// <a href="https://fontawesome.com/icons/cat?f=classic&amp;s=solid">Cat</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Cat;
+    }
+    /// <summary>
+    /// Cloud Moon
+    /// <a href="https://fontawesome.com/icons/cloud-moon">Cloud Moon</a>
+    /// </summary>
+    public static partial class CloudMoon
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cloud-moon?f=classic&amp;s=solid">Cloud Moon</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CloudMoon;
     }
     /// <summary>
     /// Crow
@@ -52,6 +74,17 @@ public static partial class FaHalloween
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Ghost;
     }
     /// <summary>
+    /// Hat Wizard
+    /// <a href="https://fontawesome.com/icons/hat-wizard">Hat Wizard</a>
+    /// </summary>
+    public static partial class HatWizard
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/hat-wizard?f=classic&amp;s=solid">Hat Wizard</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HatWizard;
+    }
+    /// <summary>
     /// Mask
     /// <a href="https://fontawesome.com/icons/mask">Mask</a>
     /// </summary>
@@ -74,6 +107,17 @@ public static partial class FaHalloween
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Skull;
     }
     /// <summary>
+    /// Skull Crossbones
+    /// <a href="https://fontawesome.com/icons/skull-crossbones">Skull Crossbones</a>
+    /// </summary>
+    public static partial class SkullCrossbones
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/skull-crossbones?f=classic&amp;s=solid">Skull Crossbones</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.SkullCrossbones;
+    }
+    /// <summary>
     /// Spider
     /// <a href="https://fontawesome.com/icons/spider">Spider</a>
     /// </summary>
@@ -83,5 +127,27 @@ public static partial class FaHalloween
         /// <a href="https://fontawesome.com/icons/spider?f=classic&amp;s=solid">Spider</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Spider;
+    }
+    /// <summary>
+    /// Toilet Paper
+    /// <a href="https://fontawesome.com/icons/toilet-paper">Toilet Paper</a>
+    /// </summary>
+    public static partial class ToiletPaper
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/toilet-paper?f=classic&amp;s=solid">Toilet Paper</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ToiletPaper;
+    }
+    /// <summary>
+    /// Wand Sparkles
+    /// <a href="https://fontawesome.com/icons/wand-sparkles">Wand Sparkles</a>
+    /// </summary>
+    public static partial class WandSparkles
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/wand-sparkles?f=classic&amp;s=solid">Wand Sparkles</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.WandSparkles;
     }
 }

@@ -19,6 +19,50 @@ public static partial class FaClothingFashion
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Glasses;
     }
     /// <summary>
+    /// Graduation Cap
+    /// <a href="https://fontawesome.com/icons/graduation-cap">Graduation Cap</a>
+    /// </summary>
+    public static partial class GraduationCap
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/graduation-cap?f=classic&amp;s=solid">Graduation Cap</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.GraduationCap;
+    }
+    /// <summary>
+    /// Hat Cowboy
+    /// <a href="https://fontawesome.com/icons/hat-cowboy">Hat Cowboy</a>
+    /// </summary>
+    public static partial class HatCowboy
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/hat-cowboy?f=classic&amp;s=solid">Hat Cowboy</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HatCowboy;
+    }
+    /// <summary>
+    /// Hat Cowboy Side
+    /// <a href="https://fontawesome.com/icons/hat-cowboy-side">Hat Cowboy Side</a>
+    /// </summary>
+    public static partial class HatCowboySide
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/hat-cowboy-side?f=classic&amp;s=solid">Hat Cowboy Side</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HatCowboySide;
+    }
+    /// <summary>
+    /// Hat Wizard
+    /// <a href="https://fontawesome.com/icons/hat-wizard">Hat Wizard</a>
+    /// </summary>
+    public static partial class HatWizard
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/hat-wizard?f=classic&amp;s=solid">Hat Wizard</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HatWizard;
+    }
+    /// <summary>
     /// Mitten
     /// <a href="https://fontawesome.com/icons/mitten">Mitten</a>
     /// </summary>
@@ -41,6 +85,17 @@ public static partial class FaClothingFashion
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Shirt;
     }
     /// <summary>
+    /// Shoe Prints
+    /// <a href="https://fontawesome.com/icons/shoe-prints">Shoe Prints</a>
+    /// </summary>
+    public static partial class ShoePrints
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/shoe-prints?f=classic&amp;s=solid">Shoe Prints</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ShoePrints;
+    }
+    /// <summary>
     /// Socks
     /// <a href="https://fontawesome.com/icons/socks">Socks</a>
     /// </summary>
@@ -52,6 +107,17 @@ public static partial class FaClothingFashion
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Socks;
     }
     /// <summary>
+    /// User Tie
+    /// <a href="https://fontawesome.com/icons/user-tie">User Tie</a>
+    /// </summary>
+    public static partial class UserTie
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/user-tie?f=classic&amp;s=solid">User Tie</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.UserTie;
+    }
+    /// <summary>
     /// Vest
     /// <a href="https://fontawesome.com/icons/vest">Vest</a>
     /// </summary>
@@ -61,5 +127,16 @@ public static partial class FaClothingFashion
         /// <a href="https://fontawesome.com/icons/vest?f=classic&amp;s=solid">Vest</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Vest;
+    }
+    /// <summary>
+    /// Vest Patches
+    /// <a href="https://fontawesome.com/icons/vest-patches">Vest Patches</a>
+    /// </summary>
+    public static partial class VestPatches
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/vest-patches?f=classic&amp;s=solid">Vest Patches</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.VestPatches;
     }
 }

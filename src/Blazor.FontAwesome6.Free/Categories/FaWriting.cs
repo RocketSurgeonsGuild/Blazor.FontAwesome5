@@ -30,6 +30,17 @@ public static partial class FaWriting
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Book;
     }
     /// <summary>
+    /// Book Bookmark
+    /// <a href="https://fontawesome.com/icons/book-bookmark">Book Bookmark</a>
+    /// </summary>
+    public static partial class BookBookmark
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/book-bookmark?f=classic&amp;s=solid">Book Bookmark</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BookBookmark;
+    }
+    /// <summary>
     /// Bookmark
     /// <a href="https://fontawesome.com/icons/bookmark">Bookmark</a>
     /// </summary>
@@ -45,6 +56,17 @@ public static partial class FaWriting
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Bookmark;
     }
     /// <summary>
+    /// Box Archive
+    /// <a href="https://fontawesome.com/icons/box-archive">Box Archive</a>
+    /// </summary>
+    public static partial class BoxArchive
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/box-archive?f=classic&amp;s=solid">Box Archive</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BoxArchive;
+    }
+    /// <summary>
     /// Envelope
     /// <a href="https://fontawesome.com/icons/envelope">Envelope</a>
     /// </summary>
@@ -58,6 +80,21 @@ public static partial class FaWriting
         /// <a href="https://fontawesome.com/icons/envelope?f=classic&amp;s=regular">Envelope</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Envelope;
+    }
+    /// <summary>
+    /// Envelope Open
+    /// <a href="https://fontawesome.com/icons/envelope-open">Envelope Open</a>
+    /// </summary>
+    public static partial class EnvelopeOpen
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/envelope-open?f=classic&amp;s=regular">Envelope Open</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.EnvelopeOpen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/envelope-open?f=classic&amp;s=regular">Envelope Open</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.EnvelopeOpen;
     }
     /// <summary>
     /// Eraser
@@ -86,6 +123,21 @@ public static partial class FaWriting
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.File;
     }
     /// <summary>
+    /// File Lines
+    /// <a href="https://fontawesome.com/icons/file-lines">File Lines</a>
+    /// </summary>
+    public static partial class FileLines
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/file-lines?f=classic&amp;s=regular">File Lines</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FileLines;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/file-lines?f=classic&amp;s=regular">File Lines</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileLines;
+    }
+    /// <summary>
     /// Folder
     /// <a href="https://fontawesome.com/icons/folder">Folder</a>
     /// </summary>
@@ -99,6 +151,21 @@ public static partial class FaWriting
         /// <a href="https://fontawesome.com/icons/folder?f=classic&amp;s=regular">Folder</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Folder;
+    }
+    /// <summary>
+    /// Folder Open
+    /// <a href="https://fontawesome.com/icons/folder-open">Folder Open</a>
+    /// </summary>
+    public static partial class FolderOpen
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/folder-open?f=classic&amp;s=regular">Folder Open</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FolderOpen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/folder-open?f=classic&amp;s=regular">Folder Open</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FolderOpen;
     }
     /// <summary>
     /// Keyboard
@@ -142,6 +209,36 @@ public static partial class FaWriting
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Notdef;
     }
     /// <summary>
+    /// Note Sticky
+    /// <a href="https://fontawesome.com/icons/note-sticky">Note Sticky</a>
+    /// </summary>
+    public static partial class NoteSticky
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/note-sticky?f=classic&amp;s=regular">Note Sticky</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.NoteSticky;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/note-sticky?f=classic&amp;s=regular">Note Sticky</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.NoteSticky;
+    }
+    /// <summary>
+    /// Paper Plane
+    /// <a href="https://fontawesome.com/icons/paper-plane">Paper Plane</a>
+    /// </summary>
+    public static partial class PaperPlane
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/paper-plane?f=classic&amp;s=regular">Paper Plane</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.PaperPlane;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/paper-plane?f=classic&amp;s=regular">Paper Plane</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PaperPlane;
+    }
+    /// <summary>
     /// Paperclip
     /// <a href="https://fontawesome.com/icons/paperclip">Paperclip</a>
     /// </summary>
@@ -175,6 +272,32 @@ public static partial class FaWriting
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Pen;
     }
     /// <summary>
+    /// Pen Clip
+    /// <a href="https://fontawesome.com/icons/pen-clip">Pen Clip</a>
+    /// </summary>
+    public static partial class PenClip
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pen-clip?f=classic&amp;s=solid">Pen Clip</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PenClip;
+    }
+    /// <summary>
+    /// Pen To Square
+    /// <a href="https://fontawesome.com/icons/pen-to-square">Pen To Square</a>
+    /// </summary>
+    public static partial class PenToSquare
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pen-to-square?f=classic&amp;s=regular">Pen To Square</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.PenToSquare;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pen-to-square?f=classic&amp;s=regular">Pen To Square</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PenToSquare;
+    }
+    /// <summary>
     /// Pencil
     /// <a href="https://fontawesome.com/icons/pencil">Pencil</a>
     /// </summary>
@@ -186,6 +309,28 @@ public static partial class FaWriting
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Pencil;
     }
     /// <summary>
+    /// Quote Left
+    /// <a href="https://fontawesome.com/icons/quote-left">Quote Left</a>
+    /// </summary>
+    public static partial class QuoteLeft
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/quote-left?f=classic&amp;s=solid">Quote Left</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.QuoteLeft;
+    }
+    /// <summary>
+    /// Quote Right
+    /// <a href="https://fontawesome.com/icons/quote-right">Quote Right</a>
+    /// </summary>
+    public static partial class QuoteRight
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/quote-right?f=classic&amp;s=solid">Quote Right</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.QuoteRight;
+    }
+    /// <summary>
     /// Signature
     /// <a href="https://fontawesome.com/icons/signature">Signature</a>
     /// </summary>
@@ -195,6 +340,17 @@ public static partial class FaWriting
         /// <a href="https://fontawesome.com/icons/signature?f=classic&amp;s=solid">Signature</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Signature;
+    }
+    /// <summary>
+    /// Square Pen
+    /// <a href="https://fontawesome.com/icons/square-pen">Square Pen</a>
+    /// </summary>
+    public static partial class SquarePen
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/square-pen?f=classic&amp;s=solid">Square Pen</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SquarePen;
     }
     /// <summary>
     /// Thumbtack

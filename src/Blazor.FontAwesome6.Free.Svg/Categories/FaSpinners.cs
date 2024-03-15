@@ -8,6 +8,50 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.Categories;
 public static partial class FaSpinners
 {
     /// <summary>
+    /// Arrow Rotate Left
+    /// <a href="https://fontawesome.com/icons/arrow-rotate-left">Arrow Rotate Left</a>
+    /// </summary>
+    public static partial class ArrowRotateLeft
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/arrow-rotate-left?f=classic&amp;s=solid">Arrow Rotate Left</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowRotateLeft;
+    }
+    /// <summary>
+    /// Arrow Rotate Right
+    /// <a href="https://fontawesome.com/icons/arrow-rotate-right">Arrow Rotate Right</a>
+    /// </summary>
+    public static partial class ArrowRotateRight
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/arrow-rotate-right?f=classic&amp;s=solid">Arrow Rotate Right</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowRotateRight;
+    }
+    /// <summary>
+    /// Arrows Rotate
+    /// <a href="https://fontawesome.com/icons/arrows-rotate">Arrows Rotate</a>
+    /// </summary>
+    public static partial class ArrowsRotate
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/arrows-rotate?f=classic&amp;s=solid">Arrows Rotate</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowsRotate;
+    }
+    /// <summary>
+    /// Arrows Spin
+    /// <a href="https://fontawesome.com/icons/arrows-spin">Arrows Spin</a>
+    /// </summary>
+    public static partial class ArrowsSpin
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/arrows-spin?f=classic&amp;s=solid">Arrows Spin</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowsSpin;
+    }
+    /// <summary>
     /// Asterisk
     /// <a href="https://fontawesome.com/icons/asterisk">Asterisk</a>
     /// </summary>
@@ -50,6 +94,28 @@ public static partial class FaSpinners
         /// <a href="https://fontawesome.com/icons/certificate?f=classic&amp;s=solid">Certificate</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Certificate;
+    }
+    /// <summary>
+    /// Circle Notch
+    /// <a href="https://fontawesome.com/icons/circle-notch">Circle Notch</a>
+    /// </summary>
+    public static partial class CircleNotch
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/circle-notch?f=classic&amp;s=solid">Circle Notch</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CircleNotch;
+    }
+    /// <summary>
+    /// Compact Disc
+    /// <a href="https://fontawesome.com/icons/compact-disc">Compact Disc</a>
+    /// </summary>
+    public static partial class CompactDisc
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/compact-disc?f=classic&amp;s=solid">Compact Disc</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CompactDisc;
     }
     /// <summary>
     /// Compass
@@ -122,6 +188,21 @@ public static partial class FaSpinners
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Hurricane;
     }
     /// <summary>
+    /// Life Ring
+    /// <a href="https://fontawesome.com/icons/life-ring">Life Ring</a>
+    /// </summary>
+    public static partial class LifeRing
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/life-ring?f=classic&amp;s=regular">Life Ring</a>
+        /// </summary>
+        public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.LifeRing;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/life-ring?f=classic&amp;s=regular">Life Ring</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.LifeRing;
+    }
+    /// <summary>
     /// Palette
     /// <a href="https://fontawesome.com/icons/palette">Palette</a>
     /// </summary>
@@ -153,6 +234,28 @@ public static partial class FaSpinners
         /// <a href="https://fontawesome.com/icons/rotate?f=classic&amp;s=solid">Rotate</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Rotate;
+    }
+    /// <summary>
+    /// Rotate Left
+    /// <a href="https://fontawesome.com/icons/rotate-left">Rotate Left</a>
+    /// </summary>
+    public static partial class RotateLeft
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/rotate-left?f=classic&amp;s=solid">Rotate Left</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.RotateLeft;
+    }
+    /// <summary>
+    /// Rotate Right
+    /// <a href="https://fontawesome.com/icons/rotate-right">Rotate Right</a>
+    /// </summary>
+    public static partial class RotateRight
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/rotate-right?f=classic&amp;s=solid">Rotate Right</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.RotateRight;
     }
     /// <summary>
     /// Slash
@@ -216,5 +319,16 @@ public static partial class FaSpinners
         /// <a href="https://fontawesome.com/icons/sun?f=classic&amp;s=regular">Sun</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Sun;
+    }
+    /// <summary>
+    /// Yin Yang
+    /// <a href="https://fontawesome.com/icons/yin-yang">Yin Yang</a>
+    /// </summary>
+    public static partial class YinYang
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/yin-yang?f=classic&amp;s=solid">Yin Yang</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.YinYang;
     }
 }

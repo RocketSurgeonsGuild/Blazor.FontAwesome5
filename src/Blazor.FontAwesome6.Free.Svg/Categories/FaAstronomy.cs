@@ -66,4 +66,37 @@ public static partial class FaAstronomy
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Satellite;
     }
+    /// <summary>
+    /// Satellite Dish
+    /// <a href="https://fontawesome.com/icons/satellite-dish">Satellite Dish</a>
+    /// </summary>
+    public static partial class SatelliteDish
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/satellite-dish?f=classic&amp;s=solid">Satellite Dish</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.SatelliteDish;
+    }
+    /// <summary>
+    /// Shuttle Space
+    /// <a href="https://fontawesome.com/icons/shuttle-space">Shuttle Space</a>
+    /// </summary>
+    public static partial class ShuttleSpace
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/shuttle-space?f=classic&amp;s=solid">Shuttle Space</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ShuttleSpace;
+    }
+    /// <summary>
+    /// User Astronaut
+    /// <a href="https://fontawesome.com/icons/user-astronaut">User Astronaut</a>
+    /// </summary>
+    public static partial class UserAstronaut
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/user-astronaut?f=classic&amp;s=solid">User Astronaut</a>
+        /// </summary>
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.UserAstronaut;
+    }
 }

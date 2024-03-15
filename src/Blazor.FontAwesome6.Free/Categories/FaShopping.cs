@@ -19,6 +19,39 @@ public static partial class FaShopping
         public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.Alipay;
     }
     /// <summary>
+    /// Amazon Pay
+    /// <a href="https://fontawesome.com/icons/amazon-pay">Amazon Pay</a>
+    /// </summary>
+    public static partial class AmazonPay
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/amazon-pay?f=classic&amp;s=brands">Amazon Pay</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.AmazonPay;
+    }
+    /// <summary>
+    /// Apple Pay
+    /// <a href="https://fontawesome.com/icons/apple-pay">Apple Pay</a>
+    /// </summary>
+    public static partial class ApplePay
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-pay?f=classic&amp;s=brands">Apple Pay</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.ApplePay;
+    }
+    /// <summary>
+    /// Bag Shopping
+    /// <a href="https://fontawesome.com/icons/bag-shopping">Bag Shopping</a>
+    /// </summary>
+    public static partial class BagShopping
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/bag-shopping?f=classic&amp;s=solid">Bag Shopping</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BagShopping;
+    }
+    /// <summary>
     /// Barcode
     /// <a href="https://fontawesome.com/icons/barcode">Barcode</a>
     /// </summary>
@@ -28,6 +61,17 @@ public static partial class FaShopping
         /// <a href="https://fontawesome.com/icons/barcode?f=classic&amp;s=solid">Barcode</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Barcode;
+    }
+    /// <summary>
+    /// Basket Shopping
+    /// <a href="https://fontawesome.com/icons/basket-shopping">Basket Shopping</a>
+    /// </summary>
+    public static partial class BasketShopping
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/basket-shopping?f=classic&amp;s=solid">Basket Shopping</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BasketShopping;
     }
     /// <summary>
     /// Bell
@@ -104,6 +148,171 @@ public static partial class FaShopping
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Camera;
     }
     /// <summary>
+    /// Camera Retro
+    /// <a href="https://fontawesome.com/icons/camera-retro">Camera Retro</a>
+    /// </summary>
+    public static partial class CameraRetro
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-retro?f=classic&amp;s=solid">Camera Retro</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CameraRetro;
+    }
+    /// <summary>
+    /// Cart Arrow Down
+    /// <a href="https://fontawesome.com/icons/cart-arrow-down">Cart Arrow Down</a>
+    /// </summary>
+    public static partial class CartArrowDown
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cart-arrow-down?f=classic&amp;s=solid">Cart Arrow Down</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CartArrowDown;
+    }
+    /// <summary>
+    /// Cart Plus
+    /// <a href="https://fontawesome.com/icons/cart-plus">Cart Plus</a>
+    /// </summary>
+    public static partial class CartPlus
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cart-plus?f=classic&amp;s=solid">Cart Plus</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CartPlus;
+    }
+    /// <summary>
+    /// Cart Shopping
+    /// <a href="https://fontawesome.com/icons/cart-shopping">Cart Shopping</a>
+    /// </summary>
+    public static partial class CartShopping
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cart-shopping?f=classic&amp;s=solid">Cart Shopping</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CartShopping;
+    }
+    /// <summary>
+    /// Cash Register
+    /// <a href="https://fontawesome.com/icons/cash-register">Cash Register</a>
+    /// </summary>
+    public static partial class CashRegister
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cash-register?f=classic&amp;s=solid">Cash Register</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CashRegister;
+    }
+    /// <summary>
+    /// Amazon Pay Credit Card
+    /// <a href="https://fontawesome.com/icons/cc-amazon-pay">Amazon Pay Credit Card</a>
+    /// </summary>
+    public static partial class CcAmazonPay
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cc-amazon-pay?f=classic&amp;s=brands">Amazon Pay Credit Card</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.CcAmazonPay;
+    }
+    /// <summary>
+    /// Cc Amex
+    /// <a href="https://fontawesome.com/icons/cc-amex">Cc Amex</a>
+    /// </summary>
+    public static partial class CcAmex
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cc-amex?f=classic&amp;s=brands">Cc Amex</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.CcAmex;
+    }
+    /// <summary>
+    /// Apple Pay Credit Card
+    /// <a href="https://fontawesome.com/icons/cc-apple-pay">Apple Pay Credit Card</a>
+    /// </summary>
+    public static partial class CcApplePay
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cc-apple-pay?f=classic&amp;s=brands">Apple Pay Credit Card</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.CcApplePay;
+    }
+    /// <summary>
+    /// Diner's Club Credit Card
+    /// <a href="https://fontawesome.com/icons/cc-diners-club">Diner's Club Credit Card</a>
+    /// </summary>
+    public static partial class CcDinersClub
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cc-diners-club?f=classic&amp;s=brands">Diner's Club Credit Card</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.CcDinersClub;
+    }
+    /// <summary>
+    /// Discover Credit Card
+    /// <a href="https://fontawesome.com/icons/cc-discover">Discover Credit Card</a>
+    /// </summary>
+    public static partial class CcDiscover
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cc-discover?f=classic&amp;s=brands">Discover Credit Card</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.CcDiscover;
+    }
+    /// <summary>
+    /// JCB Credit Card
+    /// <a href="https://fontawesome.com/icons/cc-jcb">JCB Credit Card</a>
+    /// </summary>
+    public static partial class CcJcb
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cc-jcb?f=classic&amp;s=brands">JCB Credit Card</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.CcJcb;
+    }
+    /// <summary>
+    /// MasterCard Credit Card
+    /// <a href="https://fontawesome.com/icons/cc-mastercard">MasterCard Credit Card</a>
+    /// </summary>
+    public static partial class CcMastercard
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cc-mastercard?f=classic&amp;s=brands">MasterCard Credit Card</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.CcMastercard;
+    }
+    /// <summary>
+    /// Paypal Credit Card
+    /// <a href="https://fontawesome.com/icons/cc-paypal">Paypal Credit Card</a>
+    /// </summary>
+    public static partial class CcPaypal
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cc-paypal?f=classic&amp;s=brands">Paypal Credit Card</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.CcPaypal;
+    }
+    /// <summary>
+    /// Stripe Credit Card
+    /// <a href="https://fontawesome.com/icons/cc-stripe">Stripe Credit Card</a>
+    /// </summary>
+    public static partial class CcStripe
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cc-stripe?f=classic&amp;s=brands">Stripe Credit Card</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.CcStripe;
+    }
+    /// <summary>
+    /// Visa Credit Card
+    /// <a href="https://fontawesome.com/icons/cc-visa">Visa Credit Card</a>
+    /// </summary>
+    public static partial class CcVisa
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cc-visa?f=classic&amp;s=brands">Visa Credit Card</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.CcVisa;
+    }
+    /// <summary>
     /// Certificate
     /// <a href="https://fontawesome.com/icons/certificate">Certificate</a>
     /// </summary>
@@ -113,6 +322,21 @@ public static partial class FaShopping
         /// <a href="https://fontawesome.com/icons/certificate?f=classic&amp;s=solid">Certificate</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Certificate;
+    }
+    /// <summary>
+    /// Credit Card
+    /// <a href="https://fontawesome.com/icons/credit-card">Credit Card</a>
+    /// </summary>
+    public static partial class CreditCard
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/credit-card?f=classic&amp;s=regular">Credit Card</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CreditCard;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/credit-card?f=classic&amp;s=regular">Credit Card</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CreditCard;
     }
     /// <summary>
     /// Ethereum
@@ -163,6 +387,28 @@ public static partial class FaShopping
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Gifts;
     }
     /// <summary>
+    /// Google Pay
+    /// <a href="https://fontawesome.com/icons/google-pay">Google Pay</a>
+    /// </summary>
+    public static partial class GooglePay
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/google-pay?f=classic&amp;s=brands">Google Pay</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.GooglePay;
+    }
+    /// <summary>
+    /// Google Wallet
+    /// <a href="https://fontawesome.com/icons/google-wallet">Google Wallet</a>
+    /// </summary>
+    public static partial class GoogleWallet
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/google-wallet?f=classic&amp;s=brands">Google Wallet</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.GoogleWallet;
+    }
+    /// <summary>
     /// Handshake
     /// <a href="https://fontawesome.com/icons/handshake">Handshake</a>
     /// </summary>
@@ -204,6 +450,50 @@ public static partial class FaShopping
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Key;
     }
     /// <summary>
+    /// Money Check
+    /// <a href="https://fontawesome.com/icons/money-check">Money Check</a>
+    /// </summary>
+    public static partial class MoneyCheck
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/money-check?f=classic&amp;s=solid">Money Check</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MoneyCheck;
+    }
+    /// <summary>
+    /// Money Check Dollar
+    /// <a href="https://fontawesome.com/icons/money-check-dollar">Money Check Dollar</a>
+    /// </summary>
+    public static partial class MoneyCheckDollar
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/money-check-dollar?f=classic&amp;s=solid">Money Check Dollar</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MoneyCheckDollar;
+    }
+    /// <summary>
+    /// NFC Directional
+    /// <a href="https://fontawesome.com/icons/nfc-directional">NFC Directional</a>
+    /// </summary>
+    public static partial class NfcDirectional
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/nfc-directional?f=classic&amp;s=brands">NFC Directional</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.NfcDirectional;
+    }
+    /// <summary>
+    /// Nfc Symbol
+    /// <a href="https://fontawesome.com/icons/nfc-symbol">Nfc Symbol</a>
+    /// </summary>
+    public static partial class NfcSymbol
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/nfc-symbol?f=classic&amp;s=brands">Nfc Symbol</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.NfcSymbol;
+    }
+    /// <summary>
     /// Paypal
     /// <a href="https://fontawesome.com/icons/paypal">Paypal</a>
     /// </summary>
@@ -213,6 +503,17 @@ public static partial class FaShopping
         /// <a href="https://fontawesome.com/icons/paypal?f=classic&amp;s=brands">Paypal</a>
         /// </summary>
         public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.Paypal;
+    }
+    /// <summary>
+    /// Person Booth
+    /// <a href="https://fontawesome.com/icons/person-booth">Person Booth</a>
+    /// </summary>
+    public static partial class PersonBooth
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/person-booth?f=classic&amp;s=solid">Person Booth</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PersonBooth;
     }
     /// <summary>
     /// Receipt
@@ -248,6 +549,28 @@ public static partial class FaShopping
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Shop;
     }
     /// <summary>
+    /// Shop Lock
+    /// <a href="https://fontawesome.com/icons/shop-lock">Shop Lock</a>
+    /// </summary>
+    public static partial class ShopLock
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/shop-lock?f=classic&amp;s=solid">Shop Lock</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ShopLock;
+    }
+    /// <summary>
+    /// Shop Slash
+    /// <a href="https://fontawesome.com/icons/shop-slash">Shop Slash</a>
+    /// </summary>
+    public static partial class ShopSlash
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/shop-slash?f=classic&amp;s=solid">Shop Slash</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ShopSlash;
+    }
+    /// <summary>
     /// Star
     /// <a href="https://fontawesome.com/icons/star">Star</a>
     /// </summary>
@@ -274,6 +597,17 @@ public static partial class FaShopping
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Store;
     }
     /// <summary>
+    /// Store Slash
+    /// <a href="https://fontawesome.com/icons/store-slash">Store Slash</a>
+    /// </summary>
+    public static partial class StoreSlash
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/store-slash?f=classic&amp;s=solid">Store Slash</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.StoreSlash;
+    }
+    /// <summary>
     /// Stripe
     /// <a href="https://fontawesome.com/icons/stripe">Stripe</a>
     /// </summary>
@@ -283,6 +617,17 @@ public static partial class FaShopping
         /// <a href="https://fontawesome.com/icons/stripe?f=classic&amp;s=brands">Stripe</a>
         /// </summary>
         public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.Stripe;
+    }
+    /// <summary>
+    /// Stripe S
+    /// <a href="https://fontawesome.com/icons/stripe-s">Stripe S</a>
+    /// </summary>
+    public static partial class StripeS
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/stripe-s?f=classic&amp;s=brands">Stripe S</a>
+        /// </summary>
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.StripeS;
     }
     /// <summary>
     /// Tag
@@ -307,6 +652,36 @@ public static partial class FaShopping
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Tags;
     }
     /// <summary>
+    /// Thumbs Down
+    /// <a href="https://fontawesome.com/icons/thumbs-down">Thumbs Down</a>
+    /// </summary>
+    public static partial class ThumbsDown
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/thumbs-down?f=classic&amp;s=regular">Thumbs Down</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.ThumbsDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/thumbs-down?f=classic&amp;s=regular">Thumbs Down</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ThumbsDown;
+    }
+    /// <summary>
+    /// Thumbs Up
+    /// <a href="https://fontawesome.com/icons/thumbs-up">Thumbs Up</a>
+    /// </summary>
+    public static partial class ThumbsUp
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/thumbs-up?f=classic&amp;s=regular">Thumbs Up</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.ThumbsUp;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/thumbs-up?f=classic&amp;s=regular">Thumbs Up</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ThumbsUp;
+    }
+    /// <summary>
     /// Trophy
     /// <a href="https://fontawesome.com/icons/trophy">Trophy</a>
     /// </summary>
@@ -327,5 +702,16 @@ public static partial class FaShopping
         /// <a href="https://fontawesome.com/icons/truck?f=classic&amp;s=solid">Truck</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Truck;
+    }
+    /// <summary>
+    /// Truck Fast
+    /// <a href="https://fontawesome.com/icons/truck-fast">Truck Fast</a>
+    /// </summary>
+    public static partial class TruckFast
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/truck-fast?f=classic&amp;s=solid">Truck Fast</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TruckFast;
     }
 }

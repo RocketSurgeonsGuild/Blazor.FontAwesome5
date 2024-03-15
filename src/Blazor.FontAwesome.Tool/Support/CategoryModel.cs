@@ -1,8 +1,26 @@
-﻿namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
+﻿using System.Collections.Immutable;
 
-public class CategoryModel
+namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
+
+public record CategoryModel
 {
-    public HashSet<string> Icons { get; set; } = new();
-    public string Label { get; set; }
-    public string Name { get; set; }
+    public required ImmutableHashSet<string> Icons { get; init; } = ImmutableHashSet<string>.Empty;
+    public required string Label { get; init; }
+    public required string Name { get; init; }
+
+    public virtual bool Equals(CategoryModel? other)
+    {
+        if (ReferenceEquals(null, other)) return false;
+        if (ReferenceEquals(this, other)) return true;
+        return string.Equals(Label, other.Label, StringComparison.OrdinalIgnoreCase)
+         && string.Equals(Name, other.Name, StringComparison.OrdinalIgnoreCase);
+    }
+
+    public override int GetHashCode()
+    {
+        var hashCode = new HashCode();
+        hashCode.Add(Label, StringComparer.OrdinalIgnoreCase);
+        hashCode.Add(Name, StringComparer.OrdinalIgnoreCase);
+        return hashCode.ToHashCode();
+    }
 }

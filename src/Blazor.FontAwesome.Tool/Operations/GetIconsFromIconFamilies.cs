@@ -49,7 +49,7 @@ public static class GetIconsFromIconFamilies
                            Label = a.IconBase.Label,
                            Unicode = a.IconBase.Unicode!,
                            Aliases = a.IconBase.Aliases.Names.ToImmutableArray(),
-                           Categories = request.CategoryProvider.CategoryLookup[a.IconBase.Label].ToImmutableHashSet(),
+                           Categories = request.CategoryProvider.CategoryLookup[a.Name].ToImmutableHashSet(),
                            Height = a.SvgData.Height,
                            Width = a.SvgData.Width,
                            Id = a.Name,

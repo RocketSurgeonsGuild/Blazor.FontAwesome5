@@ -41,6 +41,43 @@ public static partial class FaPunctuationSymbols
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Check;
     }
     /// <summary>
+    /// Check Double
+    /// <a href="https://fontawesome.com/icons/check-double">Check Double</a>
+    /// </summary>
+    public static partial class CheckDouble
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/check-double?f=classic&amp;s=solid">Check Double</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CheckDouble;
+    }
+    /// <summary>
+    /// Circle Exclamation
+    /// <a href="https://fontawesome.com/icons/circle-exclamation">Circle Exclamation</a>
+    /// </summary>
+    public static partial class CircleExclamation
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/circle-exclamation?f=classic&amp;s=solid">Circle Exclamation</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleExclamation;
+    }
+    /// <summary>
+    /// Circle Question
+    /// <a href="https://fontawesome.com/icons/circle-question">Circle Question</a>
+    /// </summary>
+    public static partial class CircleQuestion
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/circle-question?f=classic&amp;s=regular">Circle Question</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CircleQuestion;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/circle-question?f=classic&amp;s=regular">Circle Question</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleQuestion;
+    }
+    /// <summary>
     /// Equals
     /// <a href="https://fontawesome.com/icons/equals">Equals</a>
     /// </summary>
@@ -63,6 +100,17 @@ public static partial class FaPunctuationSymbols
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Exclamation;
     }
     /// <summary>
+    /// Greater Than
+    /// <a href="https://fontawesome.com/icons/greater-than">Greater Than</a>
+    /// </summary>
+    public static partial class GreaterThan
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/greater-than?f=classic&amp;s=solid">Greater Than</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.GreaterThan;
+    }
+    /// <summary>
     /// Hashtag
     /// <a href="https://fontawesome.com/icons/hashtag">Hashtag</a>
     /// </summary>
@@ -72,6 +120,17 @@ public static partial class FaPunctuationSymbols
         /// <a href="https://fontawesome.com/icons/hashtag?f=classic&amp;s=solid">Hashtag</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Hashtag;
+    }
+    /// <summary>
+    /// Less Than
+    /// <a href="https://fontawesome.com/icons/less-than">Less Than</a>
+    /// </summary>
+    public static partial class LessThan
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/less-than?f=classic&amp;s=solid">Less Than</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.LessThan;
     }
     /// <summary>
     /// Minus
@@ -116,6 +175,28 @@ public static partial class FaPunctuationSymbols
         /// <a href="https://fontawesome.com/icons/question?f=classic&amp;s=solid">Question</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Question;
+    }
+    /// <summary>
+    /// Quote Left
+    /// <a href="https://fontawesome.com/icons/quote-left">Quote Left</a>
+    /// </summary>
+    public static partial class QuoteLeft
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/quote-left?f=classic&amp;s=solid">Quote Left</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.QuoteLeft;
+    }
+    /// <summary>
+    /// Quote Right
+    /// <a href="https://fontawesome.com/icons/quote-right">Quote Right</a>
+    /// </summary>
+    public static partial class QuoteRight
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/quote-right?f=classic&amp;s=solid">Quote Right</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.QuoteRight;
     }
     /// <summary>
     /// Section

@@ -37,7 +37,7 @@ public partial class Pipeline
 //npm.fontawesome.com/:_authToken={FontAwesomeToken}"
                         );
 
-                        Npm($"install @fortawesome/fontawesome-pro@{stringV} --no-package-lock", packageDirectory);
+//                        Npm($"install @fortawesome/fontawesome-pro@{stringV} --no-package-lock", packageDirectory);
                         var iconsData = packageDirectory / "node_modules" / "@fortawesome/fontawesome-pro" / "metadata" / "icon-families.json";
                         var categoriesData = packageDirectory / "node_modules" / "@fortawesome/fontawesome-pro" / "metadata" / "categories.yml";
 
@@ -254,7 +254,7 @@ public partial class Pipeline
                                 sb.AppendLine($"/// <a href=\"{GetHref(icon, style)}\">{icon.Label}</a>");
                                 sb.AppendLine("/// </summary>");
                                 sb.AppendLine(
-                                    $"public static Icon {modelName} => {modelName}f ??= new Icon(IconFamily.{style.Family}, IconStyle.{style.Style}, \"{icon.Name}\");"
+                                    $"public static Icon {modelName} => {modelName}f ??= new Icon(IconFamily.{style.Family}, IconStyle.{style.Style}, \"{icon.Name}\", \"\");"
                                 );
                             }
                             else
@@ -282,7 +282,7 @@ public partial class Pipeline
                                 sb.AppendLine($"/// <a href=\"{GetHref(icon, style)}\">{icon.Label}</a>");
                                 sb.AppendLine("/// </summary>");
                                 sb.AppendLine(
-                                    $"public static SvgIcon {modelName} => {modelName}f ??= new SvgIcon(IconFamily.{style.Family}, IconStyle.{style.Style}, \"{icon.Name}\", {svg.Width}, {svg.Height}, {vectorData});"
+                                    $"public static SvgIcon {modelName} => {modelName}f ??= new SvgIcon(IconFamily.{style.Family}, IconStyle.{style.Style}, \"{icon.Name}\", \"\", {svg.Width}, {svg.Height}, {vectorData});"
                                 );
                             }
                             else

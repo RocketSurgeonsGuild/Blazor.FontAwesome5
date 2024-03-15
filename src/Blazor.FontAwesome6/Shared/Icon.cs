@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Components;
 namespace Rocket.Surgery.Blazor.FontAwesome6;
 
 [DebuggerDisplay("{Style} {Name}")]
-public record Icon(IconFamily Family, IconStyle Style, string Name) : IIcon, IMaskIcon
+public record Icon(IconFamily Family, IconStyle Style, string Name, string Unicode) : IIcon, IMaskIcon
 {
     public static string ToString(IconSize size, bool stack)
     {

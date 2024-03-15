@@ -5,15 +5,16 @@ namespace Rocket.Surgery.Blazor.FontAwesome6;
 
 public sealed record SvgIcon : Icon, ISvgIcon
 {
-    private int _width;
-    private int _height;
+    private readonly int _width;
+    private readonly int _height;
     private SvgIcon? _mask;
-    private ImmutableArray<string> _vectorData;
+    private readonly ImmutableArray<string> _vectorData;
 
-    public SvgIcon(IconFamily family, IconStyle style, string name, int width, int height, string[] vectorData) : base(
+    public SvgIcon(IconFamily family, IconStyle style, string name, string unicode, int width, int height, string[] vectorData) : base(
         family,
         style,
-        name
+        name,
+        unicode
     )
     {
         _width = width;
@@ -21,24 +22,9 @@ public sealed record SvgIcon : Icon, ISvgIcon
         _vectorData = vectorData.ToImmutableArray();
     }
 
-    public SvgIcon Width(int width)
-    {
-        return this with { _width = width };
-    }
-
-    public SvgIcon Height(int width)
-    {
-        return this with { _height = width };
-    }
-
     public SvgIcon Mask(SvgIcon mask)
     {
         return this with { _mask = mask };
-    }
-
-    public SvgIcon VectorData(ImmutableArray<string> vectorData)
-    {
-        return this with { _vectorData = vectorData };
     }
 
     public override string ToIcon()

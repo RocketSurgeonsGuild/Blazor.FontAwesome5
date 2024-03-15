@@ -6,9 +6,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 
 public static class GetIconsFromRelease
 {
-    public record Request(string Version) : IStreamRequest<IconModel>;
+    public record Request(string Version) : IRequest<ImmutableArray<IconModel>>;
 
-    class Handler : IStreamRequestHandler<Request, IconModel>
+    class Handler : IRequestHandler<Request, ImmutableArray<IconModel>>
     {
         private readonly IFontAwesome _fontAwesome;
 
@@ -16,7 +16,7 @@ public static class GetIconsFromRelease
         {
             _fontAwesome = fontAwesome;
         }
-        public async IAsyncEnumerable<IconModel> Handle(Request request, CancellationToken cancellationToken)
+        public async Task<ImmutableArray<IconModel>> Handle(Request request, CancellationToken cancellationToken)
         {
             var styles = await _fontAwesome.GetReleaseStyles.ExecuteAsync(request.Version, cancellationToken);
             styles.EnsureNoErrors();
@@ -26,8 +26,8 @@ public static class GetIconsFromRelease
                        .SelectManyAwait(
                             async style =>
                             {
-                                var iconFamily = Enum.Parse<Family>(style.Family, true);
-                                var iconStyle = Enum.Parse<Style>(style.Style);
+                                var iconFamily = Enum.TryParse<Family>(style.Family, true, out var _f) ? _f : default;
+                                var iconStyle = Enum.TryParse<Style>(style.Style, true, out var _s) ? _s : default;
                                 var icons = await _fontAwesome.GetReleaseIcons.ExecuteAsync(
                                     request.Version,
                                     iconFamily,
@@ -45,25 +45,33 @@ public static class GetIconsFromRelease
                                               var svg = icon.Svgs.Single();
                                               return new IconModel()
                                               {
-                                                  Family = iconFamily,
-                                                  Style = iconStyle,
+                                                  Categories = Constants.Categories[icon.Id].ToImmutableHashSet(),
+                                                  RawFamily = style.Family,
+                                                  RawStyle = style.Style,
                                                   Height = svg.Height,
                                                   Width = svg.Width,
                                                   Id = icon.Id,
+                                                  Label = icon.Label,
                                                   Unicode = icon.Unicode,
                                                   PathData = svg.PathData.Where(z => !string.IsNullOrWhiteSpace(z)).ToImmutableArray(),
                                                   Prefix = svg.FamilyStyle.Prefix,
-                                                  Aliases = ImmutableArray.Create(icon.Shim)
+                                                  LongPrefix = ( iconFamily, iconStyle ) switch
+                                                               {
+                                                                   (_, Style.Brands) => "fa-brands",
+                                                                   (Family.Duotone, _) => "fa-duotone",
+                                                                   (Family.Classic, _) => $"fa-{style.Style.ToLowerInvariant()}",
+                                                                   (_, _) => $"fa-{style.Family.ToLowerInvariant()} fa-{style.Style.ToLowerInvariant()}",
+                                                               },
+                                                  Aliases = icon is { Shim.Id.Length: > 0 }
+                                                      ? ImmutableArray.Create(icon.Shim.Id)
+                                                      : ImmutableArray<string>.Empty,
                                               };
                                           }
                                       ).ToAsyncEnumerable();
                             }
                         );
-            await foreach (var icon in icons)
-            {
-                yield return icon;
 
-            }
+            return ( await icons.ToArrayAsync(cancellationToken) ).ToImmutableArray();
         }
     }
 }

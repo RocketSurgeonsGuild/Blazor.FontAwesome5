@@ -4,16 +4,10 @@
             name
             technologySelected
             version
-            iconUploads {
-                name
-                unicode
-                height
-                width
-                pathData
-            }
             release {
                 icons {
                     id
+                    label
                     unicode
                     shim {
                         id
@@ -29,6 +23,23 @@
                         pathData
                     }
                 }
+            }
+        }
+    }
+}
+
+query GetKitCustomIcons($token: String!) {
+    me {
+        kit(token: $token) {
+            name
+            technologySelected
+            version
+            iconUploads {
+                name
+                unicode
+                height
+                width
+                pathData
             }
         }
     }

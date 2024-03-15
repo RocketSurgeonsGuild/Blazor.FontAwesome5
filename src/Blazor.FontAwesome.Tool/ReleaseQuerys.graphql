@@ -2,6 +2,7 @@
     release(version: $version) {
         icons {
             id
+            label
             unicode
             shim {
                 id

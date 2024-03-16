@@ -1,6 +1,5 @@
 ﻿using System.Runtime.CompilerServices;
 using Bogus;
-using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Rocket.Surgery.Blazor.FontAwesome6.Pro;
 using Rocket.Surgery.Extensions.Testing;

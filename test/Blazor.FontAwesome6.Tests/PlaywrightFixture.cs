@@ -43,8 +43,8 @@ public sealed class PlaywrightFixture : IAsyncLifetime
 
     protected IHost CreateWebHost()
     {
-        ContentRoot = typeof(App).Assembly.GetCustomAttributes<AssemblyMetadataAttribute>()
-                                 .FindFirst(x => x.Key == "ContentRootPath")?.Value
+        ContentRoot = typeof(BlazorWasm.App).Assembly.GetCustomAttributes<AssemblyMetadataAttribute>()
+                                            .FindFirst(x => x.Key == "ContentRootPath")?.Value
          ?? throw new InvalidOperationException("ContentRootPath not found");
 
         var host = "127.0.0.1";
@@ -57,7 +57,7 @@ public sealed class PlaywrightFixture : IAsyncLifetime
         {
             "--urls", $"http://{host}:0",
             "--contentroot", ContentRoot,
-            "--applicationpath", typeof(App).Assembly.Location,
+            "--applicationpath", typeof(BlazorWasm.App).Assembly.Location,
         };
 
         return DevHostServerProgram.BuildWebHost(args.ToArray());

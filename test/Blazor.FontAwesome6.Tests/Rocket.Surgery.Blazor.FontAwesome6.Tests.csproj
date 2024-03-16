@@ -8,6 +8,7 @@
         <PackageReference Include="Verify.BUnit" />
         <PackageReference Include="Verify.Xunit" />
         <ProjectReference Include="..\..\sample\BlazorWasm\BlazorWasm.csproj" />
+        <ProjectReference Include="..\..\src\Blazor.FontAwesome.Tool\Rocket.Surgery.Blazor.FontAwesome.Tool.csproj" />
         <ProjectReference Include="..\..\src\Blazor.FontAwesome6.Free\Rocket.Surgery.Blazor.FontAwesome6.Free.csproj" />
         <ProjectReference Include="..\..\src\Blazor.FontAwesome6.Free.Svg\Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.csproj" />
         <ProjectReference Include="..\..\src\Blazor.FontAwesome6.Pro\Rocket.Surgery.Blazor.FontAwesome6.Pro.csproj" />

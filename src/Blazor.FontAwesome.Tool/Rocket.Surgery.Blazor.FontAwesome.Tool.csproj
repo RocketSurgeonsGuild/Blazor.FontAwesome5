@@ -12,10 +12,7 @@
     <PackageReference Include="Spectre.Console.Analyzer" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" PrivateAssets="all"/>
     <PackageReference Include="Spectre.Console.Cli"/>
     <PackageReference Include="StrawberryShake.Server"/>
-    <EmbeddedResource
-        Include="../../.nuke/temp/V6/node_modules/@fortawesome/fontawesome-pro/metadata/categories.yml"
-        Condition="Exists('../../.nuke/temp/V6/node_modules/@fortawesome/fontawesome-pro/metadata/categories.yml')"
-    />
+    <EmbeddedResource Include="categories.txt" Condition="Exists('categories.txt')" LogicalName="categories.yml"/>
     <PackageReference Include="YamlDotNet"/>
     <PackageReference Include="PrettyCode.StringBuilder"/>
     <PackageReference Include="Humanizer.Core"/>

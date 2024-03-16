@@ -50,6 +50,7 @@ public partial class Pipeline
 
                      var iconsData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "icon-families.json";
                      var categoriesData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "categories.yml";
+                     CopyFile(categoriesData, RootDirectory / "src" / "Blazor.FontAwesome.Tool" / "categories.txt");
 
                      var host = global::Microsoft.Extensions.Hosting.Host.CreateDefaultBuilder()
                                        .ConfigureRocketSurgery(Imports.GetConventions)
@@ -72,16 +73,20 @@ public partial class Pipeline
                      // free svg
                      // pro
 
-                     var freeIcons = await mediator.Send(new GetIconsFromIconFamilies.Request(
-                         iconsData,
-                         false,
-                         categoryProvider
-                     ));
-                     var proIcons = await mediator.Send(new GetIconsFromIconFamilies.Request(
-                         iconsData,
-                         true,
-                         categoryProvider
-                     ));
+                     var freeIcons = await mediator.Send(
+                         new GetIconsFromIconFamilies.Request(
+                             iconsData,
+                             false,
+                             categoryProvider
+                         )
+                     );
+                     var proIcons = await mediator.Send(
+                         new GetIconsFromIconFamilies.Request(
+                             iconsData,
+                             true,
+                             categoryProvider
+                         )
+                     );
                      {
                          // Free
                          ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Icons" ).CreateOrCleanDirectory();
@@ -130,7 +135,7 @@ public partial class Pipeline
 
                      static async Task writeFileContents(
                          IMediator mediator,
-                        ImmutableArray<IconModel> icons,
+                         ImmutableArray<IconModel> icons,
                          bool svgMode,
                          string @namespace,
                          string output,
@@ -147,6 +152,4 @@ public partial class Pipeline
                      }
                  }
              );
-
 }
-

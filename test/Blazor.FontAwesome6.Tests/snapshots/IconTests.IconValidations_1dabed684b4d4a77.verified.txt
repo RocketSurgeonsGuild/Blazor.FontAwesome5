@@ -1,0 +1,1 @@
+﻿<i class="fa-duotone fa-battery-full fa-beat" style=";--fa-animation-timing: ease-in-out"></i>

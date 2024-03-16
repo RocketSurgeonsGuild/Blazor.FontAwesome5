@@ -11,5 +11,5 @@
     Right: 6.0,
     Rotate: 7.0
   },
-  NodeCount: 1
+  NodeCount: 4
 }

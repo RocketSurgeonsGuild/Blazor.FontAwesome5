@@ -6,5 +6,5 @@
     Animation: Beat,
     AnimationDuration: 2s
   },
-  NodeCount: 1
+  NodeCount: 2
 }

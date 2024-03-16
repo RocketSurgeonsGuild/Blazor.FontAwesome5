@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Components;
 namespace Rocket.Surgery.Blazor.FontAwesome6;
 
 [DebuggerDisplay("{Style} {Name}")]
-public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIcon
+public record Icon(IconFamily Family, IconStyle Style, string Name, string Unicode) : IIcon, IMaskIcon
 {
     public static string ToString(IconSize size, bool stack)
     {
@@ -112,11 +112,21 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         return ToPrefix(icon.Family, icon.Style);
     }
 
+    public string ToPrefix()
+    {
+        return ToPrefix(Family, Style);
+    }
+
     public static string ToName(Icon icon)
     {
         var sb = new StringBuilder();
         IconExtensions.ApplyName(sb, icon.Name);
         return sb.ToString();
+    }
+
+    public string ToName()
+    {
+        return ToName(this);
     }
 
     private IconSize _size { get; init; }
@@ -129,6 +139,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
 
     private bool _inverse { get; init; }
     private string? _inverseColor { get; init; }
+    private string? _title { get; init; }
     private Icon? _mask { get; init; }
 
     private double _shrink { get; init; }
@@ -482,9 +493,9 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         return this with
         {
             _grow =
-            scale > 0 ? scale : 0,
+            scale > 0 ? Math.Abs(scale) : 0,
             _shrink =
-            scale < 0 ? scale : 0,
+            scale < 0 ? Math.Abs(scale) : 0,
         };
     }
 
@@ -502,8 +513,8 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
     {
         return this with
         {
-            _left = horizontal < 0 ? horizontal : 0,
-            _right = horizontal > 0 ? horizontal : 0,
+            _left = horizontal < 0 ? Math.Abs(horizontal) : 0,
+            _right = horizontal > 0 ? Math.Abs(horizontal) : 0,
         };
     }
 
@@ -827,12 +838,17 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         return this with { _inverseColor = color, };
     }
 
-    public MarkupString ToMarkup()
+    public Icon Title(string? color)
     {
-        return (MarkupString)( ToString() ?? "" );
+        return this with { _title = color, };
     }
 
-    public string ToIcon()
+    public MarkupString ToMarkup()
+    {
+        return (MarkupString)( ToIcon() ?? "" );
+    }
+
+    public virtual string ToIcon()
     {
         var sb = new StringBuilder();
         sb.Append("<i class=\"");
@@ -853,12 +869,21 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
         if (_mask != null)
         {
             sb.Append(" data-fa-mask=\"");
-            this.ApplyMask(sb);
+            sb.Append(ToPrefix(_mask.Family, _mask.Style));
+            sb.Append(" fa-");
+            sb.Append(_mask.Name);
             sb.Append('"');
         }
 
         if (this.ApplyTransform(sb, null, () => sb.Append(" data-fa-transform=\"")))
         {
+            sb.Append('"');
+        }
+
+        if (_title != null)
+        {
+            sb.Append(" title=\"");
+            sb.Append(_title);
             sb.Append('"');
         }
     }
@@ -881,7 +906,7 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
     IconAnimation IAnimationIcon.Animation => _animation;
     bool? ISharedIcon.Border => _border;
     bool? IIcon.Inverse => _inverse;
-    Icon? IIcon.Mask => _mask;
+    Icon? IMaskIcon.Mask => _mask;
 
     bool? IIcon.SwapOpacity => _swapOpacity;
     double? IIcon.PrimaryOpacity => _primaryOpacity;
@@ -918,4 +943,6 @@ public sealed record Icon(IconFamily Family, IconStyle Style, string Name) : IIc
     string? IIcon.StackZIndex => _stackZIndex;
     string? IIcon.InverseColor => _inverseColor;
     string? IIcon.RotateBy => _rotateBy;
+    string IIcon.Prefix => ToPrefix(Family, Style);
+    string? IIcon.Title => _title;
 }

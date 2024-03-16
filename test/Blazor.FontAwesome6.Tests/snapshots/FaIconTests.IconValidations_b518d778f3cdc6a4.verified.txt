@@ -5,5 +5,5 @@
     },
     Size: Xxl
   },
-  NodeCount: 1
+  NodeCount: 2
 }

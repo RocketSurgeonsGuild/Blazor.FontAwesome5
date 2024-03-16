@@ -4,5 +4,5 @@
       Name: barcode
     }
   },
-  NodeCount: 1
+  NodeCount: 4
 }

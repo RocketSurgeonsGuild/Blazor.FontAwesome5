@@ -1,0 +1,30 @@
+﻿query GetReleaseIcons($version: String!, $family: Family!, $style: Style!) {
+    release(version: $version) {
+        icons {
+            id
+            label
+            unicode
+            shim {
+                id
+            }
+            svgs(filter:{
+                familyStyles:[{family: $family, style: $style}]
+            }) {
+                familyStyle { prefix }
+                height
+                width
+                pathData
+            }
+        }
+    }
+}
+
+query GetReleaseStyles($version: String!) {
+    release(version: $version) {
+        familyStyles {
+            family
+            prefix
+            style
+        }
+    }
+}

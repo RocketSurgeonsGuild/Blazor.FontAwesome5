@@ -5,5 +5,5 @@
     },
     Pull: Right
   },
-  NodeCount: 1
+  NodeCount: 2
 }

@@ -1,0 +1,17 @@
+﻿{
+  Instance: {
+    Icon: {
+      Family: Duotone,
+      Name: barcode,
+      Unicode: f02a
+    },
+    Grow: 1.0,
+    Shrink: 2.0,
+    Up: 3.0,
+    Down: 5.0,
+    Left: 4.0,
+    Right: 6.0,
+    Rotate: 7.0
+  },
+  NodeCount: 1
+}

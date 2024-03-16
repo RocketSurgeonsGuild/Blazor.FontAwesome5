@@ -1,0 +1,1 @@
+﻿<i class="fa-duotone fa-barcode" data-fa-transform="rotate--100.00"></i>

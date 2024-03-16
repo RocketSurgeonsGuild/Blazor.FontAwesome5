@@ -6,5 +6,5 @@
     Pull: Right,
     PullMargin: 10px
   },
-  NodeCount: 1
+  NodeCount: 2
 }

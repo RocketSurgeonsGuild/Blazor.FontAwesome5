@@ -5,5 +5,5 @@
     },
     Size: FourX
   },
-  NodeCount: 1
+  NodeCount: 2
 }

@@ -5,5 +5,5 @@
     },
     Size: ThreeX
   },
-  NodeCount: 1
+  NodeCount: 2
 }

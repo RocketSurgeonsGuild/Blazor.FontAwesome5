@@ -5,5 +5,5 @@
     },
     Size: ExtraLarge
   },
-  NodeCount: 1
+  NodeCount: 2
 }

@@ -1,0 +1,13 @@
+﻿{
+  Instance: {
+    Icon: {
+      Name: circle-half-stroke,
+      Unicode: f042
+    },
+    Mask: {
+      Name: link,
+      Unicode: f0c1
+    }
+  },
+  NodeCount: 2
+}

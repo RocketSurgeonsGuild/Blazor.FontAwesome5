@@ -27,7 +27,6 @@ branches:
     regex: ^next$
     increment: Major
     label: next
-    prevent-increment-of-merged-branch-version: true
     track-merge-target: false
     tracks-release-branches: false
     is-release-branch: false

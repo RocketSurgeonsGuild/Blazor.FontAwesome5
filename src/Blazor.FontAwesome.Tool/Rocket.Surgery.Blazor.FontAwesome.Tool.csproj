@@ -7,14 +7,14 @@
 <ToolCommandName>font-awesome</ToolCommandName>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Rocket.Surgery.Conventions.CommandLine"/>
-    <PackageReference Include="Rocket.Surgery.LaunchPad.Foundation"/>
-    <PackageReference Include="Spectre.Console.Analyzer" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" PrivateAssets="all"/>
-    <PackageReference Include="Spectre.Console.Cli"/>
-    <PackageReference Include="StrawberryShake.Server"/>
-    <EmbeddedResource Include="categories.txt" Condition="Exists('categories.txt')" LogicalName="categories.yml"/>
-    <PackageReference Include="YamlDotNet"/>
-    <PackageReference Include="PrettyCode.StringBuilder"/>
-    <PackageReference Include="Humanizer.Core"/>
+    <PackageReference Include="Rocket.Surgery.Conventions.CommandLine" />
+    <PackageReference Include="Rocket.Surgery.LaunchPad.Foundation" />
+    <PackageReference Include="Spectre.Console.Analyzer" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" PrivateAssets="all" />
+    <PackageReference Include="Spectre.Console.Cli" />
+    <PackageReference Include="StrawberryShake.Server" />
+    <EmbeddedResource Include="categories.txt" Condition="Exists('categories.txt')" LogicalName="categories.yml" />
+    <PackageReference Include="YamlDotNet" />
+    <PackageReference Include="PrettyCode.StringBuilder" />
+    <PackageReference Include="Humanizer.Core" />
   </ItemGroup>
 </Project>

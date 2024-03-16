@@ -1,0 +1,10 @@
+﻿{
+  Instance: {
+    Icon: {
+      Name: building-columns,
+      Unicode: f19c
+    },
+    Pull: Left
+  },
+  NodeCount: 2
+}

@@ -5,5 +5,5 @@
     },
     Size: SixX
   },
-  NodeCount: 1
+  NodeCount: 2
 }

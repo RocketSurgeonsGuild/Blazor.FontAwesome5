@@ -13,4 +13,8 @@ public interface ITransformIcon
     double Left { get; }
     double Right { get; }
     IconFlip? FlipTransform { get; }
+
+    public double X => Left - Right;
+    public double Y => Up - Down;
+    public double Scale => Grow - Shrink;
 }

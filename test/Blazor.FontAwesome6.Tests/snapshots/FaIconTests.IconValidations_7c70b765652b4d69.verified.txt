@@ -13,5 +13,5 @@
     AnimationTiming: ease-in-out,
     FlipAngle: 10deg
   },
-  NodeCount: 1
+  NodeCount: 2
 }

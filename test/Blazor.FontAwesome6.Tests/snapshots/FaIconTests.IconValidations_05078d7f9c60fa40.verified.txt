@@ -4,5 +4,5 @@
       Name: battery-full
     }
   },
-  NodeCount: 1
+  NodeCount: 2
 }

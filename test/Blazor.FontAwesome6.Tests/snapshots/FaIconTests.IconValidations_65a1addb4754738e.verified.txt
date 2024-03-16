@@ -5,5 +5,5 @@
     },
     RotateBy: 100deg
   },
-  NodeCount: 1
+  NodeCount: 2
 }

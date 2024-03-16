@@ -4,5 +4,5 @@
       Name: building-columns
     }
   },
-  NodeCount: 1
+  NodeCount: 2
 }

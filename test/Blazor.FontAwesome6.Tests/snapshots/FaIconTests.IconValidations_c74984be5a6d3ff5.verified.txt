@@ -5,5 +5,5 @@
     },
     FlipTransform: Vertical
   },
-  NodeCount: 1
+  NodeCount: 4
 }

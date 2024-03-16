@@ -6,5 +6,5 @@
     Animation: Beat,
     AnimationDirection: alternate-reverse
   },
-  NodeCount: 1
+  NodeCount: 2
 }

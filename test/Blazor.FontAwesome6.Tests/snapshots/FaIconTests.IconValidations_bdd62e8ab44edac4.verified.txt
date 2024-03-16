@@ -5,5 +5,5 @@
     },
     Rotate: -100.0
   },
-  NodeCount: 1
+  NodeCount: 4
 }

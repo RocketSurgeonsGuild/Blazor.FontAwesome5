@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+    <PropertyGroup>
+        <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Blazor.FontAwesome6\Rocket.Surgery.Blazor.FontAwesome6.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,34 +1,48 @@
 {
-    "version": 1,
-    "isRoot": true,
-    "tools": {
-        "gitversion.tool": {
-            "version": "6.0.0-beta.7",
-            "commands": ["dotnet-gitversion"]
-        },
-        "dotnet-reportgenerator-globaltool": {
-            "version": "5.2.3",
-            "commands": ["reportgenerator"]
-        },
-        "nuke.globaltool": {
-            "version": "8.0.0",
-            "commands": ["nuke"]
-        },
-        "codecov.tool": {
-            "version": "1.13.0",
-            "commands": ["codecov"]
-        },
-        "jetbrains.resharper.globaltools": {
-            "version": "2023.3.4",
-            "commands": ["jb"]
-        },
-        "nukeeper": {
-            "version": "0.35.0",
-            "commands": ["nukeeper"]
-        },
-        "dotnet-outdated-tool": {
-            "version": "4.6.0",
-            "commands": ["dotnet-outdated"]
-        }
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "gitversion.tool": {
+      "version": "6.0.0-beta.7",
+      "commands": [
+        "dotnet-gitversion"
+      ]
+    },
+    "dotnet-reportgenerator-globaltool": {
+      "version": "5.2.3",
+      "commands": [
+        "reportgenerator"
+      ]
+    },
+    "nuke.globaltool": {
+      "version": "8.0.0",
+      "commands": [
+        "nuke"
+      ]
+    },
+    "codecov.tool": {
+      "version": "1.13.0",
+      "commands": [
+        "codecov"
+      ]
+    },
+    "jetbrains.resharper.globaltools": {
+      "version": "2023.3.4",
+      "commands": [
+        "jb"
+      ]
+    },
+    "dotnet-outdated-tool": {
+      "version": "4.6.0",
+      "commands": [
+        "dotnet-outdated"
+      ]
+    },
+    "strawberryshake.tools": {
+      "version": "13.9.0",
+      "commands": [
+        "dotnet-graphql"
+      ]
     }
+  }
 }

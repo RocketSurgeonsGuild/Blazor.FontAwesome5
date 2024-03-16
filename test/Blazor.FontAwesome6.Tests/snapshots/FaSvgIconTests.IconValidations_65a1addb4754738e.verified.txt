@@ -1,0 +1,10 @@
+﻿{
+  Instance: {
+    Icon: {
+      Name: barcode,
+      Unicode: f02a
+    },
+    RotateBy: 100deg
+  },
+  NodeCount: 2
+}

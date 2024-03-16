@@ -1,0 +1,5 @@
+﻿{
+  Family: Duotone,
+  Name: circle-half-stroke,
+  Unicode: f042
+}

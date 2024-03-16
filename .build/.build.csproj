@@ -20,4 +20,8 @@
     <NukeExternalFiles Include="**\*.*.ext" Exclude="bin\**;obj\**" />
     <None Remove="*.csproj.DotSettings;*.ref.*.txt" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\Blazor.FontAwesome.Tool\Rocket.Surgery.Blazor.FontAwesome.Tool.csproj" />
+  </ItemGroup>
 </Project>

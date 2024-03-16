@@ -1,0 +1,10 @@
+﻿{
+  Instance: {
+    Icon: {
+      Name: link,
+      Unicode: f0c1
+    },
+    Size: SevenX
+  },
+  NodeCount: 2
+}

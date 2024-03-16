@@ -1,27 +1,14 @@
 using System.Collections.Immutable;
-using System.Data;
-using System.Globalization;
-using System.Text;
-using System.Text.Json;
-using System.Text.RegularExpressions;
-using Humanizer;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using Newtonsoft.Json;
 using Nuke.Common;
 using Nuke.Common.IO;
-using Rocket.Surgery.Blazor.FontAwesome.Tool;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 using Rocket.Surgery.Hosting;
 using Serilog;
-using Spectre.Console;
-using YamlDotNet.Serialization;
-using YamlDotNet.Serialization.NamingConventions;
 using static Nuke.Common.IO.FileSystemTasks;
-using static Nuke.Common.IO.TextTasks;
 using static Nuke.Common.Tools.Npm.NpmTasks;
-using StringBuilder = PrettyCode.StringBuilder;
 
 public partial class Pipeline
 {
@@ -50,10 +37,12 @@ public partial class Pipeline
 
                      var iconsData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "icon-families.json";
                      var categoriesData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "categories.yml";
+                     CopyFile(categoriesData, RootDirectory / "src" / "Blazor.FontAwesome.Tool" / "categories.txt");
 
-                     var host = global::Microsoft.Extensions.Hosting.Host.CreateDefaultBuilder()
-                                       .ConfigureRocketSurgery(Imports.GetConventions)
-                                       .Build();
+                     var host = Microsoft
+                               .Extensions.Hosting.Host.CreateDefaultBuilder()
+                               .ConfigureRocketSurgery(Imports.GetConventions)
+                               .Build();
                      await host.StartAsync();
                      CategoryProvider categoryProvider;
                      if (categoriesData.FileExists())
@@ -72,16 +61,20 @@ public partial class Pipeline
                      // free svg
                      // pro
 
-                     var freeIcons = await mediator.Send(new GetIconsFromIconFamilies.Request(
-                         iconsData,
-                         false,
-                         categoryProvider
-                     ));
-                     var proIcons = await mediator.Send(new GetIconsFromIconFamilies.Request(
-                         iconsData,
-                         true,
-                         categoryProvider
-                     ));
+                     var freeIcons = await mediator.Send(
+                         new GetIconsFromIconFamilies.Request(
+                             iconsData,
+                             false,
+                             categoryProvider
+                         )
+                     );
+                     var proIcons = await mediator.Send(
+                         new GetIconsFromIconFamilies.Request(
+                             iconsData,
+                             true,
+                             categoryProvider
+                         )
+                     );
                      {
                          // Free
                          ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Icons" ).CreateOrCleanDirectory();
@@ -130,7 +123,7 @@ public partial class Pipeline
 
                      static async Task writeFileContents(
                          IMediator mediator,
-                        ImmutableArray<IconModel> icons,
+                         ImmutableArray<IconModel> icons,
                          bool svgMode,
                          string @namespace,
                          string output,
@@ -147,6 +140,4 @@ public partial class Pipeline
                      }
                  }
              );
-
 }
-

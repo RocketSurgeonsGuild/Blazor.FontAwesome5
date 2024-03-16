@@ -7,10 +7,10 @@
     <PackageVersion Include="PrettyCode.StringBuilder" Version="1.0.0" />
     <PackageVersion Include="Rocket.Surgery.Conventions.CommandLine" Version="12.9.5" />
     <PackageVersion Include="Rocket.Surgery.LaunchPad.Foundation" Version="1.7.6" />
-    <PackageVersion Include="Rocket.Surgery.MSBuild.CI" Version="1.1.5" />
-    <PackageVersion Include="Rocket.Surgery.MSBuild.GitVersion" Version="1.1.5" />
-    <PackageVersion Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="1.1.5" Condition="'$(MSBuildProjectName)'!='.build'" />
-    <PackageVersion Include="Rocket.Surgery.MSBuild.SourceLink" Version="1.1.5" />
+    <PackageVersion Include="Rocket.Surgery.MSBuild.CI" Version="1.2.0" />
+    <PackageVersion Include="Rocket.Surgery.MSBuild.GitVersion" Version="1.2.0" />
+    <PackageVersion Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="1.2.0" Condition="'$(MSBuildProjectName)'!='.build'" />
+    <PackageVersion Include="Rocket.Surgery.MSBuild.SourceLink" Version="1.2.0" />
     <PackageVersion Include="Polyfill" Version="4.0.0" />
     <PackageVersion Include="Roslynator.Analyzers" Version="4.11.0" />
     <PackageVersion Include="Roslynator.Formatting.Analyzers" Version="4.11.0" />

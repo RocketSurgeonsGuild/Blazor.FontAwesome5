@@ -34,12 +34,8 @@ public sealed record SvgIcon : Icon, ISvgIcon
             icon,
             new SvgParameters()
             {
-                Styles = icon
-                        .ToStyle(null)
-                        .Split(';', StringSplitOptions.RemoveEmptyEntries)
-                        .Select(x => x.Split(':'))
-                        .ToImmutableDictionary(x => x[0], x => x[1]),
-                Classes = icon.ToClass(null)?.Split(' ', StringSplitOptions.RemoveEmptyEntries).ToImmutableArray() ?? ImmutableArray<string>.Empty,
+                Styles = icon.ApplyStyle(null),
+                Classes = icon.ApplyClass(null),
                 Transform = new SvgTransform()
                 {
                     Rotate = icon.Rotate,

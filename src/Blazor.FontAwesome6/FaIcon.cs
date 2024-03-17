@@ -92,6 +92,9 @@ public sealed class FaIcon : ComponentBase, IIcon, IAnimationComponent
             var overrideIcon = (IIcon)this;
             var element = Renderer.Instance.Render(svgIcon, new SvgParameters()
             {
+                Classes = svgIcon.ApplyClass(this),
+                Styles = svgIcon.ApplyStyle(this),
+                Attributes = AdditionalAttributes.ToImmutableDictionary(z => z.Key, z => z.Value.ToString()!),
                 Transform = new SvgTransform()
                 {
                     Rotate = overrideIcon.Rotate is < -0.001 or > 0.001 ? overrideIcon.Rotate : svgIcon.Rotate,

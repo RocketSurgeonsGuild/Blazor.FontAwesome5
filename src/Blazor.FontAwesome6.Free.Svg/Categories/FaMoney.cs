@@ -205,7 +205,7 @@ public static partial class FaMoney
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.CreditCard;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/credit-card?f=classic&amp;s=regular">Credit Card</a>
+        /// <a href="https://fontawesome.com/icons/credit-card?f=classic&amp;s=solid">Credit Card</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CreditCard;
     }
@@ -473,7 +473,7 @@ public static partial class FaMoney
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.MoneyBill1;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=regular">Money Bill 1</a>
+        /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=solid">Money Bill 1</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.MoneyBill1;
     }

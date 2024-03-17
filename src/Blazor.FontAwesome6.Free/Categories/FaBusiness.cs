@@ -18,7 +18,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.AddressBook;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/address-book?f=classic&amp;s=regular">Address Book</a>
+        /// <a href="https://fontawesome.com/icons/address-book?f=classic&amp;s=solid">Address Book</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.AddressBook;
     }
@@ -33,7 +33,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.AddressCard;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/address-card?f=classic&amp;s=regular">Address Card</a>
+        /// <a href="https://fontawesome.com/icons/address-card?f=classic&amp;s=solid">Address Card</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.AddressCard;
     }
@@ -147,7 +147,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Building;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/building?f=classic&amp;s=regular">Building</a>
+        /// <a href="https://fontawesome.com/icons/building?f=classic&amp;s=solid">Building</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Building;
     }
@@ -217,7 +217,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Calendar;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/calendar?f=classic&amp;s=regular">Calendar</a>
+        /// <a href="https://fontawesome.com/icons/calendar?f=classic&amp;s=solid">Calendar</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Calendar;
     }
@@ -232,7 +232,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CalendarDays;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/calendar-days?f=classic&amp;s=regular">Calendar Days</a>
+        /// <a href="https://fontawesome.com/icons/calendar-days?f=classic&amp;s=solid">Calendar Days</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CalendarDays;
     }
@@ -302,7 +302,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Clipboard;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/clipboard?f=classic&amp;s=regular">Clipboard</a>
+        /// <a href="https://fontawesome.com/icons/clipboard?f=classic&amp;s=solid">Clipboard</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Clipboard;
     }
@@ -328,7 +328,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Compass;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/compass?f=classic&amp;s=regular">Compass</a>
+        /// <a href="https://fontawesome.com/icons/compass?f=classic&amp;s=solid">Compass</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Compass;
     }
@@ -343,7 +343,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Copy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/copy?f=classic&amp;s=regular">Copy</a>
+        /// <a href="https://fontawesome.com/icons/copy?f=classic&amp;s=solid">Copy</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Copy;
     }
@@ -358,7 +358,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Copyright;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/copyright?f=classic&amp;s=regular">Copyright</a>
+        /// <a href="https://fontawesome.com/icons/copyright?f=classic&amp;s=solid">Copyright</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Copyright;
     }
@@ -373,7 +373,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Envelope;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/envelope?f=classic&amp;s=regular">Envelope</a>
+        /// <a href="https://fontawesome.com/icons/envelope?f=classic&amp;s=solid">Envelope</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Envelope;
     }
@@ -399,7 +399,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.EnvelopeOpen;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/envelope-open?f=classic&amp;s=regular">Envelope Open</a>
+        /// <a href="https://fontawesome.com/icons/envelope-open?f=classic&amp;s=solid">Envelope Open</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.EnvelopeOpen;
     }
@@ -436,7 +436,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.File;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file?f=classic&amp;s=regular">File</a>
+        /// <a href="https://fontawesome.com/icons/file?f=classic&amp;s=solid">File</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.File;
     }
@@ -462,7 +462,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FileLines;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-lines?f=classic&amp;s=regular">File Lines</a>
+        /// <a href="https://fontawesome.com/icons/file-lines?f=classic&amp;s=solid">File Lines</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileLines;
     }
@@ -477,7 +477,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FloppyDisk;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/floppy-disk?f=classic&amp;s=regular">Floppy Disk</a>
+        /// <a href="https://fontawesome.com/icons/floppy-disk?f=classic&amp;s=solid">Floppy Disk</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FloppyDisk;
     }
@@ -492,7 +492,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Folder;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/folder?f=classic&amp;s=regular">Folder</a>
+        /// <a href="https://fontawesome.com/icons/folder?f=classic&amp;s=solid">Folder</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Folder;
     }
@@ -518,7 +518,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FolderOpen;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/folder-open?f=classic&amp;s=regular">Folder Open</a>
+        /// <a href="https://fontawesome.com/icons/folder-open?f=classic&amp;s=solid">Folder Open</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FolderOpen;
     }
@@ -698,7 +698,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.NoteSticky;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/note-sticky?f=classic&amp;s=regular">Note Sticky</a>
+        /// <a href="https://fontawesome.com/icons/note-sticky?f=classic&amp;s=solid">Note Sticky</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.NoteSticky;
     }
@@ -724,7 +724,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Paste;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/paste?f=classic&amp;s=regular">Paste</a>
+        /// <a href="https://fontawesome.com/icons/paste?f=classic&amp;s=solid">Paste</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Paste;
     }
@@ -783,7 +783,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.PenToSquare;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/pen-to-square?f=classic&amp;s=regular">Pen To Square</a>
+        /// <a href="https://fontawesome.com/icons/pen-to-square?f=classic&amp;s=solid">Pen To Square</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PenToSquare;
     }
@@ -886,7 +886,7 @@ public static partial class FaBusiness
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Registered;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/registered?f=classic&amp;s=regular">Registered</a>
+        /// <a href="https://fontawesome.com/icons/registered?f=classic&amp;s=solid">Registered</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Registered;
     }

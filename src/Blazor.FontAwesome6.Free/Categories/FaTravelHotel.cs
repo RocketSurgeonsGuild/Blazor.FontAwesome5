@@ -348,7 +348,7 @@ public static partial class FaTravelHotel
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Map;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/map?f=classic&amp;s=regular">Map</a>
+        /// <a href="https://fontawesome.com/icons/map?f=classic&amp;s=solid">Map</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Map;
     }
@@ -605,7 +605,7 @@ public static partial class FaTravelHotel
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Snowflake;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/snowflake?f=classic&amp;s=regular">Snowflake</a>
+        /// <a href="https://fontawesome.com/icons/snowflake?f=classic&amp;s=solid">Snowflake</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Snowflake;
     }

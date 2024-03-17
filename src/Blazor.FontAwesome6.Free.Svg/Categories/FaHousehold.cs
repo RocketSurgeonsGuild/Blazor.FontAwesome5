@@ -51,7 +51,7 @@ public static partial class FaHousehold
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Bell;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=regular">Bell</a>
+        /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=solid">Bell</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Bell;
     }
@@ -319,7 +319,7 @@ public static partial class FaHousehold
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Lightbulb;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/lightbulb?f=classic&amp;s=regular">Lightbulb</a>
+        /// <a href="https://fontawesome.com/icons/lightbulb?f=classic&amp;s=solid">Lightbulb</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Lightbulb;
     }
@@ -433,7 +433,7 @@ public static partial class FaHousehold
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Snowflake;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/snowflake?f=classic&amp;s=regular">Snowflake</a>
+        /// <a href="https://fontawesome.com/icons/snowflake?f=classic&amp;s=solid">Snowflake</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Snowflake;
     }

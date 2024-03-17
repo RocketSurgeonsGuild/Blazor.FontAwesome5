@@ -95,7 +95,7 @@ public static partial class FaEditing
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.CircleCheck;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-check?f=classic&amp;s=regular">Circle Check</a>
+        /// <a href="https://fontawesome.com/icons/circle-check?f=classic&amp;s=solid">Circle Check</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CircleCheck;
     }
@@ -198,7 +198,7 @@ public static partial class FaEditing
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.EyeSlash;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/eye-slash?f=classic&amp;s=regular">Eye Slash</a>
+        /// <a href="https://fontawesome.com/icons/eye-slash?f=classic&amp;s=solid">Eye Slash</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.EyeSlash;
     }
@@ -367,7 +367,7 @@ public static partial class FaEditing
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.PenToSquare;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/pen-to-square?f=classic&amp;s=regular">Pen To Square</a>
+        /// <a href="https://fontawesome.com/icons/pen-to-square?f=classic&amp;s=solid">Pen To Square</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.PenToSquare;
     }
@@ -448,7 +448,7 @@ public static partial class FaEditing
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.SquareCheck;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/square-check?f=classic&amp;s=regular">Square Check</a>
+        /// <a href="https://fontawesome.com/icons/square-check?f=classic&amp;s=solid">Square Check</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.SquareCheck;
     }
@@ -496,7 +496,7 @@ public static partial class FaEditing
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.TrashCan;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/trash-can?f=classic&amp;s=regular">Trash Can</a>
+        /// <a href="https://fontawesome.com/icons/trash-can?f=classic&amp;s=solid">Trash Can</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TrashCan;
     }

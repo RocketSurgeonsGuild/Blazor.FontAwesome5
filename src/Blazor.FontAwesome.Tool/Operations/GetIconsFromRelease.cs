@@ -1,4 +1,5 @@
 using System.Collections.Immutable;
+using Humanizer;
 using MediatR;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 using StrawberryShake;
@@ -57,9 +58,11 @@ public static class GetIconsFromRelease
                                                                    (Family.Classic, _) => $"fa-{style.Style.ToLowerInvariant()}",
                                                                    (_, _) => $"fa-{style.Family.ToLowerInvariant()} fa-{style.Style.ToLowerInvariant()}",
                                                                },
-                                                  Aliases = icon is { Shim.Id.Length: > 0 }
-                                                      ? ImmutableArray.Create(icon.Shim.Id)
-                                                      : ImmutableArray<string>.Empty,
+                                                  Aliases = ImmutableArray<string>.Empty,
+                                                  // shims are not working quiet like I expect
+//                                                  Aliases = icon is { Shim.Id.Length: > 0 }
+//                                                      ? ImmutableArray.Create(icon.Shim.Id)
+//                                                      : ImmutableArray<string>.Empty,
                                               };
                                           }
                                       ).ToAsyncEnumerable();

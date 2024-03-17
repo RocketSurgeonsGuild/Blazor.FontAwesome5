@@ -29,7 +29,7 @@ public static partial class FaFilmVideo
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Circle;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle?f=classic&amp;s=regular">Circle</a>
+        /// <a href="https://fontawesome.com/icons/circle?f=classic&amp;s=solid">Circle</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Circle;
     }
@@ -55,7 +55,7 @@ public static partial class FaFilmVideo
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.ClosedCaptioning;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/closed-captioning?f=classic&amp;s=regular">Closed Captioning</a>
+        /// <a href="https://fontawesome.com/icons/closed-captioning?f=classic&amp;s=solid">Closed Captioning</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ClosedCaptioning;
     }
@@ -81,7 +81,7 @@ public static partial class FaFilmVideo
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.FileAudio;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-audio?f=classic&amp;s=regular">File Audio</a>
+        /// <a href="https://fontawesome.com/icons/file-audio?f=classic&amp;s=solid">File Audio</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FileAudio;
     }
@@ -96,7 +96,7 @@ public static partial class FaFilmVideo
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.FileVideo;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-video?f=classic&amp;s=regular">File Video</a>
+        /// <a href="https://fontawesome.com/icons/file-video?f=classic&amp;s=solid">File Video</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FileVideo;
     }

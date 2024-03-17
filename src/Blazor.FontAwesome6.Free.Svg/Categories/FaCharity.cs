@@ -139,7 +139,7 @@ public static partial class FaCharity
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Handshake;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/handshake?f=classic&amp;s=regular">Handshake</a>
+        /// <a href="https://fontawesome.com/icons/handshake?f=classic&amp;s=solid">Handshake</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Handshake;
     }
@@ -176,7 +176,7 @@ public static partial class FaCharity
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Heart;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/heart?f=classic&amp;s=regular">Heart</a>
+        /// <a href="https://fontawesome.com/icons/heart?f=classic&amp;s=solid">Heart</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Heart;
     }

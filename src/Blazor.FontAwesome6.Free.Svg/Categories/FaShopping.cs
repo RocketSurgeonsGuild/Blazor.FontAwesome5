@@ -84,7 +84,7 @@ public static partial class FaShopping
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Bell;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=regular">Bell</a>
+        /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=solid">Bell</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Bell;
     }
@@ -110,7 +110,7 @@ public static partial class FaShopping
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Bookmark;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/bookmark?f=classic&amp;s=regular">Bookmark</a>
+        /// <a href="https://fontawesome.com/icons/bookmark?f=classic&amp;s=solid">Bookmark</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Bookmark;
     }
@@ -334,7 +334,7 @@ public static partial class FaShopping
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.CreditCard;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/credit-card?f=classic&amp;s=regular">Credit Card</a>
+        /// <a href="https://fontawesome.com/icons/credit-card?f=classic&amp;s=solid">Credit Card</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CreditCard;
     }
@@ -360,7 +360,7 @@ public static partial class FaShopping
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Gem;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/gem?f=classic&amp;s=regular">Gem</a>
+        /// <a href="https://fontawesome.com/icons/gem?f=classic&amp;s=solid">Gem</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Gem;
     }
@@ -419,7 +419,7 @@ public static partial class FaShopping
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Handshake;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/handshake?f=classic&amp;s=regular">Handshake</a>
+        /// <a href="https://fontawesome.com/icons/handshake?f=classic&amp;s=solid">Handshake</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Handshake;
     }
@@ -434,7 +434,7 @@ public static partial class FaShopping
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Heart;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/heart?f=classic&amp;s=regular">Heart</a>
+        /// <a href="https://fontawesome.com/icons/heart?f=classic&amp;s=solid">Heart</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Heart;
     }
@@ -581,7 +581,7 @@ public static partial class FaShopping
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Star;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/star?f=classic&amp;s=regular">Star</a>
+        /// <a href="https://fontawesome.com/icons/star?f=classic&amp;s=solid">Star</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Star;
     }
@@ -662,7 +662,7 @@ public static partial class FaShopping
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.ThumbsDown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/thumbs-down?f=classic&amp;s=regular">Thumbs Down</a>
+        /// <a href="https://fontawesome.com/icons/thumbs-down?f=classic&amp;s=solid">Thumbs Down</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ThumbsDown;
     }
@@ -677,7 +677,7 @@ public static partial class FaShopping
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.ThumbsUp;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/thumbs-up?f=classic&amp;s=regular">Thumbs Up</a>
+        /// <a href="https://fontawesome.com/icons/thumbs-up?f=classic&amp;s=solid">Thumbs Up</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ThumbsUp;
     }

@@ -491,7 +491,7 @@ public static partial class FaHumanitarian
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Building;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/building?f=classic&amp;s=regular">Building</a>
+        /// <a href="https://fontawesome.com/icons/building?f=classic&amp;s=solid">Building</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Building;
     }
@@ -858,7 +858,7 @@ public static partial class FaHumanitarian
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Envelope;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/envelope?f=classic&amp;s=regular">Envelope</a>
+        /// <a href="https://fontawesome.com/icons/envelope?f=classic&amp;s=solid">Envelope</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Envelope;
     }
@@ -928,7 +928,7 @@ public static partial class FaHumanitarian
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.File;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file?f=classic&amp;s=regular">File</a>
+        /// <a href="https://fontawesome.com/icons/file?f=classic&amp;s=solid">File</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.File;
     }
@@ -1020,7 +1020,7 @@ public static partial class FaHumanitarian
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FilePdf;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-pdf?f=classic&amp;s=regular">File Pdf</a>
+        /// <a href="https://fontawesome.com/icons/file-pdf?f=classic&amp;s=solid">File Pdf</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FilePdf;
     }
@@ -1090,7 +1090,7 @@ public static partial class FaHumanitarian
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Flag;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/flag?f=classic&amp;s=regular">Flag</a>
+        /// <a href="https://fontawesome.com/icons/flag?f=classic&amp;s=solid">Flag</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Flag;
     }
@@ -1391,7 +1391,7 @@ public static partial class FaHumanitarian
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Hospital;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hospital?f=classic&amp;s=regular">Hospital</a>
+        /// <a href="https://fontawesome.com/icons/hospital?f=classic&amp;s=solid">Hospital</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Hospital;
     }
@@ -1615,7 +1615,7 @@ public static partial class FaHumanitarian
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.IdCard;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/id-card?f=classic&amp;s=regular">Id Card</a>
+        /// <a href="https://fontawesome.com/icons/id-card?f=classic&amp;s=solid">Id Card</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.IdCard;
     }
@@ -1751,7 +1751,7 @@ public static partial class FaHumanitarian
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.LifeRing;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/life-ring?f=classic&amp;s=regular">Life Ring</a>
+        /// <a href="https://fontawesome.com/icons/life-ring?f=classic&amp;s=solid">Life Ring</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.LifeRing;
     }
@@ -3042,7 +3042,7 @@ public static partial class FaHumanitarian
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Snowflake;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/snowflake?f=classic&amp;s=regular">Snowflake</a>
+        /// <a href="https://fontawesome.com/icons/snowflake?f=classic&amp;s=solid">Snowflake</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Snowflake;
     }
@@ -3354,7 +3354,7 @@ public static partial class FaHumanitarian
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.TrashCan;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/trash-can?f=classic&amp;s=regular">Trash Can</a>
+        /// <a href="https://fontawesome.com/icons/trash-can?f=classic&amp;s=solid">Trash Can</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TrashCan;
     }

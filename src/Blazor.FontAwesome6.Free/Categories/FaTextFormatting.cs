@@ -128,7 +128,7 @@ public static partial class FaTextFormatting
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CircleCheck;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-check?f=classic&amp;s=regular">Circle Check</a>
+        /// <a href="https://fontawesome.com/icons/circle-check?f=classic&amp;s=solid">Circle Check</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleCheck;
     }
@@ -297,7 +297,7 @@ public static partial class FaTextFormatting
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.RectangleList;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/rectangle-list?f=classic&amp;s=regular">Rectangle List</a>
+        /// <a href="https://fontawesome.com/icons/rectangle-list?f=classic&amp;s=solid">Rectangle List</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.RectangleList;
     }
@@ -323,7 +323,7 @@ public static partial class FaTextFormatting
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.SquareCheck;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/square-check?f=classic&amp;s=regular">Square Check</a>
+        /// <a href="https://fontawesome.com/icons/square-check?f=classic&amp;s=solid">Square Check</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SquareCheck;
     }

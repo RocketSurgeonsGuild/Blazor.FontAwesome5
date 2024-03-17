@@ -227,7 +227,7 @@ public static partial class FaTransportation
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.PaperPlane;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/paper-plane?f=classic&amp;s=regular">Paper Plane</a>
+        /// <a href="https://fontawesome.com/icons/paper-plane?f=classic&amp;s=solid">Paper Plane</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.PaperPlane;
     }

@@ -29,7 +29,7 @@ public static partial class FaToggle
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Circle;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle?f=classic&amp;s=regular">Circle</a>
+        /// <a href="https://fontawesome.com/icons/circle?f=classic&amp;s=solid">Circle</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Circle;
     }
@@ -44,7 +44,7 @@ public static partial class FaToggle
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.CircleCheck;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-check?f=classic&amp;s=regular">Circle Check</a>
+        /// <a href="https://fontawesome.com/icons/circle-check?f=classic&amp;s=solid">Circle Check</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CircleCheck;
     }
@@ -59,7 +59,7 @@ public static partial class FaToggle
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.CircleDot;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-dot?f=classic&amp;s=regular">Circle Dot</a>
+        /// <a href="https://fontawesome.com/icons/circle-dot?f=classic&amp;s=solid">Circle Dot</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CircleDot;
     }
@@ -129,7 +129,7 @@ public static partial class FaToggle
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Star;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/star?f=classic&amp;s=regular">Star</a>
+        /// <a href="https://fontawesome.com/icons/star?f=classic&amp;s=solid">Star</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Star;
     }
@@ -144,7 +144,7 @@ public static partial class FaToggle
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.StarHalf;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/star-half?f=classic&amp;s=regular">Star Half</a>
+        /// <a href="https://fontawesome.com/icons/star-half?f=classic&amp;s=solid">Star Half</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.StarHalf;
     }
@@ -159,7 +159,7 @@ public static partial class FaToggle
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.StarHalfStroke;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/star-half-stroke?f=classic&amp;s=regular">Star Half Stroke</a>
+        /// <a href="https://fontawesome.com/icons/star-half-stroke?f=classic&amp;s=solid">Star Half Stroke</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.StarHalfStroke;
     }

@@ -282,7 +282,7 @@ public static partial class FaMedicalHealth
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Eye;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/eye?f=classic&amp;s=regular">Eye</a>
+        /// <a href="https://fontawesome.com/icons/eye?f=classic&amp;s=solid">Eye</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Eye;
     }
@@ -451,7 +451,7 @@ public static partial class FaMedicalHealth
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Heart;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/heart?f=classic&amp;s=regular">Heart</a>
+        /// <a href="https://fontawesome.com/icons/heart?f=classic&amp;s=solid">Heart</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Heart;
     }
@@ -543,7 +543,7 @@ public static partial class FaMedicalHealth
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Hospital;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hospital?f=classic&amp;s=regular">Hospital</a>
+        /// <a href="https://fontawesome.com/icons/hospital?f=classic&amp;s=solid">Hospital</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Hospital;
     }
@@ -965,7 +965,7 @@ public static partial class FaMedicalHealth
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.SquarePlus;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/square-plus?f=classic&amp;s=regular">Square Plus</a>
+        /// <a href="https://fontawesome.com/icons/square-plus?f=classic&amp;s=solid">Square Plus</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SquarePlus;
     }

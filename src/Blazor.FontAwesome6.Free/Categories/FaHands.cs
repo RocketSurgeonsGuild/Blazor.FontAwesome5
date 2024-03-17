@@ -18,7 +18,7 @@ public static partial class FaHands
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Hand;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hand?f=classic&amp;s=regular">Hand</a>
+        /// <a href="https://fontawesome.com/icons/hand?f=classic&amp;s=solid">Hand</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Hand;
     }
@@ -33,7 +33,7 @@ public static partial class FaHands
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.HandBackFist;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hand-back-fist?f=classic&amp;s=regular">Hand Back Fist</a>
+        /// <a href="https://fontawesome.com/icons/hand-back-fist?f=classic&amp;s=solid">Hand Back Fist</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HandBackFist;
     }
@@ -136,7 +136,7 @@ public static partial class FaHands
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.HandLizard;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hand-lizard?f=classic&amp;s=regular">Hand Lizard</a>
+        /// <a href="https://fontawesome.com/icons/hand-lizard?f=classic&amp;s=solid">Hand Lizard</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HandLizard;
     }
@@ -162,7 +162,7 @@ public static partial class FaHands
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.HandPeace;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hand-peace?f=classic&amp;s=regular">Hand Peace</a>
+        /// <a href="https://fontawesome.com/icons/hand-peace?f=classic&amp;s=solid">Hand Peace</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HandPeace;
     }
@@ -177,7 +177,7 @@ public static partial class FaHands
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.HandPointDown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hand-point-down?f=classic&amp;s=regular">Hand Point Down</a>
+        /// <a href="https://fontawesome.com/icons/hand-point-down?f=classic&amp;s=solid">Hand Point Down</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HandPointDown;
     }
@@ -192,7 +192,7 @@ public static partial class FaHands
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.HandPointLeft;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hand-point-left?f=classic&amp;s=regular">Hand Point Left</a>
+        /// <a href="https://fontawesome.com/icons/hand-point-left?f=classic&amp;s=solid">Hand Point Left</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HandPointLeft;
     }
@@ -207,7 +207,7 @@ public static partial class FaHands
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.HandPointRight;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hand-point-right?f=classic&amp;s=regular">Hand Point Right</a>
+        /// <a href="https://fontawesome.com/icons/hand-point-right?f=classic&amp;s=solid">Hand Point Right</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HandPointRight;
     }
@@ -222,7 +222,7 @@ public static partial class FaHands
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.HandPointUp;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hand-point-up?f=classic&amp;s=regular">Hand Point Up</a>
+        /// <a href="https://fontawesome.com/icons/hand-point-up?f=classic&amp;s=solid">Hand Point Up</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HandPointUp;
     }
@@ -237,7 +237,7 @@ public static partial class FaHands
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.HandPointer;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hand-pointer?f=classic&amp;s=regular">Hand Pointer</a>
+        /// <a href="https://fontawesome.com/icons/hand-pointer?f=classic&amp;s=solid">Hand Pointer</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HandPointer;
     }
@@ -252,7 +252,7 @@ public static partial class FaHands
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.HandScissors;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hand-scissors?f=classic&amp;s=regular">Hand Scissors</a>
+        /// <a href="https://fontawesome.com/icons/hand-scissors?f=classic&amp;s=solid">Hand Scissors</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HandScissors;
     }
@@ -278,7 +278,7 @@ public static partial class FaHands
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.HandSpock;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hand-spock?f=classic&amp;s=regular">Hand Spock</a>
+        /// <a href="https://fontawesome.com/icons/hand-spock?f=classic&amp;s=solid">Hand Spock</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HandSpock;
     }
@@ -370,7 +370,7 @@ public static partial class FaHands
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Handshake;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/handshake?f=classic&amp;s=regular">Handshake</a>
+        /// <a href="https://fontawesome.com/icons/handshake?f=classic&amp;s=solid">Handshake</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Handshake;
     }
@@ -429,7 +429,7 @@ public static partial class FaHands
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.ThumbsDown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/thumbs-down?f=classic&amp;s=regular">Thumbs Down</a>
+        /// <a href="https://fontawesome.com/icons/thumbs-down?f=classic&amp;s=solid">Thumbs Down</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ThumbsDown;
     }
@@ -444,7 +444,7 @@ public static partial class FaHands
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.ThumbsUp;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/thumbs-up?f=classic&amp;s=regular">Thumbs Up</a>
+        /// <a href="https://fontawesome.com/icons/thumbs-up?f=classic&amp;s=solid">Thumbs Up</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ThumbsUp;
     }

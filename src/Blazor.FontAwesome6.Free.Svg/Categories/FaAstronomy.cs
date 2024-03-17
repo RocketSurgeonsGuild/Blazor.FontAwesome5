@@ -51,7 +51,7 @@ public static partial class FaAstronomy
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Moon;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/moon?f=classic&amp;s=regular">Moon</a>
+        /// <a href="https://fontawesome.com/icons/moon?f=classic&amp;s=solid">Moon</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Moon;
     }

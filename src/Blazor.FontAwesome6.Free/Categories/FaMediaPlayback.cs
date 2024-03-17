@@ -84,7 +84,7 @@ public static partial class FaMediaPlayback
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CirclePause;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-pause?f=classic&amp;s=regular">Circle Pause</a>
+        /// <a href="https://fontawesome.com/icons/circle-pause?f=classic&amp;s=solid">Circle Pause</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CirclePause;
     }
@@ -99,7 +99,7 @@ public static partial class FaMediaPlayback
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CirclePlay;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-play?f=classic&amp;s=regular">Circle Play</a>
+        /// <a href="https://fontawesome.com/icons/circle-play?f=classic&amp;s=solid">Circle Play</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CirclePlay;
     }
@@ -114,7 +114,7 @@ public static partial class FaMediaPlayback
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CircleStop;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-stop?f=classic&amp;s=regular">Circle Stop</a>
+        /// <a href="https://fontawesome.com/icons/circle-stop?f=classic&amp;s=solid">Circle Stop</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleStop;
     }
@@ -206,7 +206,7 @@ public static partial class FaMediaPlayback
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Hand;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hand?f=classic&amp;s=regular">Hand</a>
+        /// <a href="https://fontawesome.com/icons/hand?f=classic&amp;s=solid">Hand</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Hand;
     }

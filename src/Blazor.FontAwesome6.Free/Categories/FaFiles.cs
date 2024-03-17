@@ -29,7 +29,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Clone;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/clone?f=classic&amp;s=regular">Clone</a>
+        /// <a href="https://fontawesome.com/icons/clone?f=classic&amp;s=solid">Clone</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Clone;
     }
@@ -44,7 +44,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Copy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/copy?f=classic&amp;s=regular">Copy</a>
+        /// <a href="https://fontawesome.com/icons/copy?f=classic&amp;s=solid">Copy</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Copy;
     }
@@ -59,7 +59,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.File;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file?f=classic&amp;s=regular">File</a>
+        /// <a href="https://fontawesome.com/icons/file?f=classic&amp;s=solid">File</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.File;
     }
@@ -96,7 +96,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FileAudio;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-audio?f=classic&amp;s=regular">File Audio</a>
+        /// <a href="https://fontawesome.com/icons/file-audio?f=classic&amp;s=solid">File Audio</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileAudio;
     }
@@ -177,7 +177,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FileCode;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-code?f=classic&amp;s=regular">File Code</a>
+        /// <a href="https://fontawesome.com/icons/file-code?f=classic&amp;s=solid">File Code</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileCode;
     }
@@ -203,7 +203,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FileExcel;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-excel?f=classic&amp;s=regular">File Excel</a>
+        /// <a href="https://fontawesome.com/icons/file-excel?f=classic&amp;s=solid">File Excel</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileExcel;
     }
@@ -229,7 +229,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FileImage;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-image?f=classic&amp;s=regular">File Image</a>
+        /// <a href="https://fontawesome.com/icons/file-image?f=classic&amp;s=solid">File Image</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileImage;
     }
@@ -255,7 +255,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FileLines;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-lines?f=classic&amp;s=regular">File Lines</a>
+        /// <a href="https://fontawesome.com/icons/file-lines?f=classic&amp;s=solid">File Lines</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileLines;
     }
@@ -270,7 +270,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FilePdf;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-pdf?f=classic&amp;s=regular">File Pdf</a>
+        /// <a href="https://fontawesome.com/icons/file-pdf?f=classic&amp;s=solid">File Pdf</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FilePdf;
     }
@@ -296,7 +296,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FilePowerpoint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-powerpoint?f=classic&amp;s=regular">File Powerpoint</a>
+        /// <a href="https://fontawesome.com/icons/file-powerpoint?f=classic&amp;s=solid">File Powerpoint</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FilePowerpoint;
     }
@@ -322,7 +322,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FileVideo;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-video?f=classic&amp;s=regular">File Video</a>
+        /// <a href="https://fontawesome.com/icons/file-video?f=classic&amp;s=solid">File Video</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileVideo;
     }
@@ -337,7 +337,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FileWord;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-word?f=classic&amp;s=regular">File Word</a>
+        /// <a href="https://fontawesome.com/icons/file-word?f=classic&amp;s=solid">File Word</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileWord;
     }
@@ -352,7 +352,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FileZipper;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-zipper?f=classic&amp;s=regular">File Zipper</a>
+        /// <a href="https://fontawesome.com/icons/file-zipper?f=classic&amp;s=solid">File Zipper</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileZipper;
     }
@@ -367,7 +367,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FloppyDisk;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/floppy-disk?f=classic&amp;s=regular">Floppy Disk</a>
+        /// <a href="https://fontawesome.com/icons/floppy-disk?f=classic&amp;s=solid">Floppy Disk</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FloppyDisk;
     }
@@ -382,7 +382,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Folder;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/folder?f=classic&amp;s=regular">Folder</a>
+        /// <a href="https://fontawesome.com/icons/folder?f=classic&amp;s=solid">Folder</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Folder;
     }
@@ -397,7 +397,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FolderClosed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/folder-closed?f=classic&amp;s=regular">Folder Closed</a>
+        /// <a href="https://fontawesome.com/icons/folder-closed?f=classic&amp;s=solid">Folder Closed</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FolderClosed;
     }
@@ -412,7 +412,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FolderOpen;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/folder-open?f=classic&amp;s=regular">Folder Open</a>
+        /// <a href="https://fontawesome.com/icons/folder-open?f=classic&amp;s=solid">Folder Open</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FolderOpen;
     }
@@ -427,7 +427,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.NoteSticky;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/note-sticky?f=classic&amp;s=regular">Note Sticky</a>
+        /// <a href="https://fontawesome.com/icons/note-sticky?f=classic&amp;s=solid">Note Sticky</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.NoteSticky;
     }
@@ -442,7 +442,7 @@ public static partial class FaFiles
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Paste;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/paste?f=classic&amp;s=regular">Paste</a>
+        /// <a href="https://fontawesome.com/icons/paste?f=classic&amp;s=solid">Paste</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Paste;
     }

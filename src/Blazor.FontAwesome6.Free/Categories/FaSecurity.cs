@@ -139,7 +139,7 @@ public static partial class FaSecurity
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Eye;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/eye?f=classic&amp;s=regular">Eye</a>
+        /// <a href="https://fontawesome.com/icons/eye?f=classic&amp;s=solid">Eye</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Eye;
     }
@@ -154,7 +154,7 @@ public static partial class FaSecurity
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.EyeSlash;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/eye-slash?f=classic&amp;s=regular">Eye Slash</a>
+        /// <a href="https://fontawesome.com/icons/eye-slash?f=classic&amp;s=solid">Eye Slash</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.EyeSlash;
     }
@@ -290,7 +290,7 @@ public static partial class FaSecurity
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.IdBadge;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/id-badge?f=classic&amp;s=regular">Id Badge</a>
+        /// <a href="https://fontawesome.com/icons/id-badge?f=classic&amp;s=solid">Id Badge</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.IdBadge;
     }
@@ -305,7 +305,7 @@ public static partial class FaSecurity
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.IdCard;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/id-card?f=classic&amp;s=regular">Id Card</a>
+        /// <a href="https://fontawesome.com/icons/id-card?f=classic&amp;s=solid">Id Card</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.IdCard;
     }

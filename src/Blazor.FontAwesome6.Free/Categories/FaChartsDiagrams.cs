@@ -40,7 +40,7 @@ public static partial class FaChartsDiagrams
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.ChartBar;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/chart-bar?f=classic&amp;s=regular">Chart Bar</a>
+        /// <a href="https://fontawesome.com/icons/chart-bar?f=classic&amp;s=solid">Chart Bar</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ChartBar;
     }

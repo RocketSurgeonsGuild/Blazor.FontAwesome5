@@ -51,7 +51,7 @@ public static partial class FaWriting
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Bookmark;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/bookmark?f=classic&amp;s=regular">Bookmark</a>
+        /// <a href="https://fontawesome.com/icons/bookmark?f=classic&amp;s=solid">Bookmark</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Bookmark;
     }
@@ -77,7 +77,7 @@ public static partial class FaWriting
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Envelope;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/envelope?f=classic&amp;s=regular">Envelope</a>
+        /// <a href="https://fontawesome.com/icons/envelope?f=classic&amp;s=solid">Envelope</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Envelope;
     }
@@ -92,7 +92,7 @@ public static partial class FaWriting
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.EnvelopeOpen;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/envelope-open?f=classic&amp;s=regular">Envelope Open</a>
+        /// <a href="https://fontawesome.com/icons/envelope-open?f=classic&amp;s=solid">Envelope Open</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.EnvelopeOpen;
     }
@@ -118,7 +118,7 @@ public static partial class FaWriting
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.File;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file?f=classic&amp;s=regular">File</a>
+        /// <a href="https://fontawesome.com/icons/file?f=classic&amp;s=solid">File</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.File;
     }
@@ -133,7 +133,7 @@ public static partial class FaWriting
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.FileLines;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-lines?f=classic&amp;s=regular">File Lines</a>
+        /// <a href="https://fontawesome.com/icons/file-lines?f=classic&amp;s=solid">File Lines</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FileLines;
     }
@@ -148,7 +148,7 @@ public static partial class FaWriting
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Folder;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/folder?f=classic&amp;s=regular">Folder</a>
+        /// <a href="https://fontawesome.com/icons/folder?f=classic&amp;s=solid">Folder</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Folder;
     }
@@ -163,7 +163,7 @@ public static partial class FaWriting
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.FolderOpen;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/folder-open?f=classic&amp;s=regular">Folder Open</a>
+        /// <a href="https://fontawesome.com/icons/folder-open?f=classic&amp;s=solid">Folder Open</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FolderOpen;
     }
@@ -178,7 +178,7 @@ public static partial class FaWriting
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Keyboard;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/keyboard?f=classic&amp;s=regular">Keyboard</a>
+        /// <a href="https://fontawesome.com/icons/keyboard?f=classic&amp;s=solid">Keyboard</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Keyboard;
     }
@@ -193,7 +193,7 @@ public static partial class FaWriting
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Newspaper;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/newspaper?f=classic&amp;s=regular">Newspaper</a>
+        /// <a href="https://fontawesome.com/icons/newspaper?f=classic&amp;s=solid">Newspaper</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Newspaper;
     }
@@ -219,7 +219,7 @@ public static partial class FaWriting
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.NoteSticky;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/note-sticky?f=classic&amp;s=regular">Note Sticky</a>
+        /// <a href="https://fontawesome.com/icons/note-sticky?f=classic&amp;s=solid">Note Sticky</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.NoteSticky;
     }
@@ -234,7 +234,7 @@ public static partial class FaWriting
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.PaperPlane;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/paper-plane?f=classic&amp;s=regular">Paper Plane</a>
+        /// <a href="https://fontawesome.com/icons/paper-plane?f=classic&amp;s=solid">Paper Plane</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.PaperPlane;
     }
@@ -293,7 +293,7 @@ public static partial class FaWriting
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.PenToSquare;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/pen-to-square?f=classic&amp;s=regular">Pen To Square</a>
+        /// <a href="https://fontawesome.com/icons/pen-to-square?f=classic&amp;s=solid">Pen To Square</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.PenToSquare;
     }

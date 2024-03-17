@@ -128,7 +128,7 @@ public static partial class FaSpinners
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Compass;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/compass?f=classic&amp;s=regular">Compass</a>
+        /// <a href="https://fontawesome.com/icons/compass?f=classic&amp;s=solid">Compass</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Compass;
     }
@@ -198,7 +198,7 @@ public static partial class FaSpinners
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.LifeRing;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/life-ring?f=classic&amp;s=regular">Life Ring</a>
+        /// <a href="https://fontawesome.com/icons/life-ring?f=classic&amp;s=solid">Life Ring</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.LifeRing;
     }
@@ -279,7 +279,7 @@ public static partial class FaSpinners
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Snowflake;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/snowflake?f=classic&amp;s=regular">Snowflake</a>
+        /// <a href="https://fontawesome.com/icons/snowflake?f=classic&amp;s=solid">Snowflake</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Snowflake;
     }
@@ -316,7 +316,7 @@ public static partial class FaSpinners
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Sun;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/sun?f=classic&amp;s=regular">Sun</a>
+        /// <a href="https://fontawesome.com/icons/sun?f=classic&amp;s=solid">Sun</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Sun;
     }

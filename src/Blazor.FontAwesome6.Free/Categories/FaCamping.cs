@@ -73,7 +73,7 @@ public static partial class FaCamping
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Compass;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/compass?f=classic&amp;s=regular">Compass</a>
+        /// <a href="https://fontawesome.com/icons/compass?f=classic&amp;s=solid">Compass</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Compass;
     }
@@ -165,7 +165,7 @@ public static partial class FaCamping
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Map;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/map?f=classic&amp;s=regular">Map</a>
+        /// <a href="https://fontawesome.com/icons/map?f=classic&amp;s=solid">Map</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Map;
     }

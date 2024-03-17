@@ -29,7 +29,7 @@ public static partial class FaAlphabet
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.AddressCard;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/address-card?f=classic&amp;s=regular">Address Card</a>
+        /// <a href="https://fontawesome.com/icons/address-card?f=classic&amp;s=solid">Address Card</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.AddressCard;
     }

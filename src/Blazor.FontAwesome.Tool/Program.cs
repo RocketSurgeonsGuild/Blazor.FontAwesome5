@@ -8,13 +8,6 @@ using StrawberryShake;
 var host = Host
           .CreateDefaultBuilder(args)
           .ConfigureRocketSurgery(Imports.GetConventions)
-          .ConfigureServices(
-               z => z
-                   .AddSingleton<FontAwesomeApiKeyProvider>()
-                   .AddSingleton<FontAwesomeApiKeyHandler>()
-                   .AddFontAwesome(ExecutionStrategy.NetworkOnly)
-                   .ConfigureHttpClient(client => client.BaseAddress = new("https://api.fontawesome.com/"), builder => builder.AddHttpMessageHandler<FontAwesomeApiKeyHandler>())
-           )
           .Build();
 
 await host.RunAsync();

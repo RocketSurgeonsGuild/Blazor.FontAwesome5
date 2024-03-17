@@ -51,7 +51,7 @@ public static partial class FaMathematics
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.CircleXmark;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-xmark?f=classic&amp;s=regular">Circle Xmark</a>
+        /// <a href="https://fontawesome.com/icons/circle-xmark?f=classic&amp;s=solid">Circle Xmark</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CircleXmark;
     }
@@ -198,7 +198,7 @@ public static partial class FaMathematics
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.SquareMinus;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/square-minus?f=classic&amp;s=regular">Square Minus</a>
+        /// <a href="https://fontawesome.com/icons/square-minus?f=classic&amp;s=solid">Square Minus</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.SquareMinus;
     }

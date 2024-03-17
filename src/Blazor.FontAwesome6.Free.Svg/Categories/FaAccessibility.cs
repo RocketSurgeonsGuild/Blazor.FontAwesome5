@@ -29,7 +29,7 @@ public static partial class FaAccessibility
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.AddressCard;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/address-card?f=classic&amp;s=regular">Address Card</a>
+        /// <a href="https://fontawesome.com/icons/address-card?f=classic&amp;s=solid">Address Card</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.AddressCard;
     }
@@ -77,7 +77,7 @@ public static partial class FaAccessibility
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.CircleQuestion;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-question?f=classic&amp;s=regular">Circle Question</a>
+        /// <a href="https://fontawesome.com/icons/circle-question?f=classic&amp;s=solid">Circle Question</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CircleQuestion;
     }
@@ -92,7 +92,7 @@ public static partial class FaAccessibility
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.ClosedCaptioning;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/closed-captioning?f=classic&amp;s=regular">Closed Captioning</a>
+        /// <a href="https://fontawesome.com/icons/closed-captioning?f=classic&amp;s=solid">Closed Captioning</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ClosedCaptioning;
     }
@@ -129,7 +129,7 @@ public static partial class FaAccessibility
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Eye;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/eye?f=classic&amp;s=regular">Eye</a>
+        /// <a href="https://fontawesome.com/icons/eye?f=classic&amp;s=solid">Eye</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Eye;
     }

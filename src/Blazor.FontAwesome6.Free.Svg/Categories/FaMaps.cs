@@ -84,7 +84,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Bell;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=regular">Bell</a>
+        /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=solid">Bell</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Bell;
     }
@@ -99,7 +99,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.BellSlash;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/bell-slash?f=classic&amp;s=regular">Bell Slash</a>
+        /// <a href="https://fontawesome.com/icons/bell-slash?f=classic&amp;s=solid">Bell Slash</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BellSlash;
     }
@@ -169,7 +169,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Bookmark;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/bookmark?f=classic&amp;s=regular">Bookmark</a>
+        /// <a href="https://fontawesome.com/icons/bookmark?f=classic&amp;s=solid">Bookmark</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Bookmark;
     }
@@ -217,7 +217,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Building;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/building?f=classic&amp;s=regular">Building</a>
+        /// <a href="https://fontawesome.com/icons/building?f=classic&amp;s=solid">Building</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Building;
     }
@@ -342,7 +342,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Eye;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/eye?f=classic&amp;s=regular">Eye</a>
+        /// <a href="https://fontawesome.com/icons/eye?f=classic&amp;s=solid">Eye</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Eye;
     }
@@ -368,7 +368,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.EyeSlash;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/eye-slash?f=classic&amp;s=regular">Eye Slash</a>
+        /// <a href="https://fontawesome.com/icons/eye-slash?f=classic&amp;s=solid">Eye Slash</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.EyeSlash;
     }
@@ -416,7 +416,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Flag;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/flag?f=classic&amp;s=regular">Flag</a>
+        /// <a href="https://fontawesome.com/icons/flag?f=classic&amp;s=solid">Flag</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Flag;
     }
@@ -508,7 +508,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Heart;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/heart?f=classic&amp;s=regular">Heart</a>
+        /// <a href="https://fontawesome.com/icons/heart?f=classic&amp;s=solid">Heart</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Heart;
     }
@@ -556,7 +556,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Hospital;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hospital?f=classic&amp;s=regular">Hospital</a>
+        /// <a href="https://fontawesome.com/icons/hospital?f=classic&amp;s=solid">Hospital</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Hospital;
     }
@@ -582,7 +582,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Image;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/image?f=classic&amp;s=regular">Image</a>
+        /// <a href="https://fontawesome.com/icons/image?f=classic&amp;s=solid">Image</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Image;
     }
@@ -597,7 +597,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Images;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/images?f=classic&amp;s=regular">Images</a>
+        /// <a href="https://fontawesome.com/icons/images?f=classic&amp;s=solid">Images</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Images;
     }
@@ -700,7 +700,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Lemon;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/lemon?f=classic&amp;s=regular">Lemon</a>
+        /// <a href="https://fontawesome.com/icons/lemon?f=classic&amp;s=solid">Lemon</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Lemon;
     }
@@ -715,7 +715,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.LifeRing;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/life-ring?f=classic&amp;s=regular">Life Ring</a>
+        /// <a href="https://fontawesome.com/icons/life-ring?f=classic&amp;s=solid">Life Ring</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.LifeRing;
     }
@@ -730,7 +730,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Lightbulb;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/lightbulb?f=classic&amp;s=regular">Lightbulb</a>
+        /// <a href="https://fontawesome.com/icons/lightbulb?f=classic&amp;s=solid">Lightbulb</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Lightbulb;
     }
@@ -855,7 +855,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Map;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/map?f=classic&amp;s=regular">Map</a>
+        /// <a href="https://fontawesome.com/icons/map?f=classic&amp;s=solid">Map</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Map;
     }
@@ -903,7 +903,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.MoneyBill1;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=regular">Money Bill 1</a>
+        /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=solid">Money Bill 1</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.MoneyBill1;
     }
@@ -973,7 +973,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Newspaper;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/newspaper?f=classic&amp;s=regular">Newspaper</a>
+        /// <a href="https://fontawesome.com/icons/newspaper?f=classic&amp;s=solid">Newspaper</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Newspaper;
     }
@@ -1296,7 +1296,7 @@ public static partial class FaMaps
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.SquarePlus;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/square-plus?f=classic&amp;s=regular">Square Plus</a>
+        /// <a href="https://fontawesome.com/icons/square-plus?f=classic&amp;s=solid">Square Plus</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.SquarePlus;
     }

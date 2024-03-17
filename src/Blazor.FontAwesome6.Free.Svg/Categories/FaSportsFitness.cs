@@ -128,7 +128,7 @@ public static partial class FaSportsFitness
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Futbol;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/futbol?f=classic&amp;s=regular">Futbol</a>
+        /// <a href="https://fontawesome.com/icons/futbol?f=classic&amp;s=solid">Futbol</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Futbol;
     }
@@ -154,7 +154,7 @@ public static partial class FaSportsFitness
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Heart;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/heart?f=classic&amp;s=regular">Heart</a>
+        /// <a href="https://fontawesome.com/icons/heart?f=classic&amp;s=solid">Heart</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Heart;
     }

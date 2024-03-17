@@ -348,7 +348,7 @@ public static partial class FaFoodBeverage
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Lemon;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/lemon?f=classic&amp;s=regular">Lemon</a>
+        /// <a href="https://fontawesome.com/icons/lemon?f=classic&amp;s=solid">Lemon</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Lemon;
     }

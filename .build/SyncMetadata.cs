@@ -13,7 +13,7 @@ using static Nuke.Common.Tools.Npm.NpmTasks;
 public partial class Pipeline
 {
     [Parameter]
-    private string FontAwesomeToken { get; set; }
+    public string FontAwesomeToken { get; set; }
 
     private Target RegenerateFromMetadata =>
         _ => _
@@ -37,7 +37,7 @@ public partial class Pipeline
 
                      var iconsData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "icon-families.json";
                      var categoriesData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "categories.yml";
-                     CopyFile(categoriesData, RootDirectory / "src" / "Blazor.FontAwesome.Tool" / "categories.txt");
+                     CopyFile(categoriesData, RootDirectory / "src" / "Blazor.FontAwesome.Tool" / "categories.txt", FileExistsPolicy.Overwrite);
 
                      var host = Microsoft
                                .Extensions.Hosting.Host.CreateDefaultBuilder()

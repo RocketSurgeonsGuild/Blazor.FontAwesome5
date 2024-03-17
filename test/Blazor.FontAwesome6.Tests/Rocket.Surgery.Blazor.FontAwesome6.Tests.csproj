@@ -7,6 +7,7 @@
         <PackageReference Include="Verify.Blazor" />
         <PackageReference Include="Verify.BUnit" />
         <PackageReference Include="Verify.Xunit" />
+        <PackageReference Include="Xunit.SkippableFact" />
         <ProjectReference Include="..\..\sample\BlazorWasm\BlazorWasm.csproj" />
         <ProjectReference Include="..\..\src\Blazor.FontAwesome.Tool\Rocket.Surgery.Blazor.FontAwesome.Tool.csproj" />
         <ProjectReference Include="..\..\src\Blazor.FontAwesome6.Free\Rocket.Surgery.Blazor.FontAwesome6.Free.csproj" />
@@ -22,5 +23,12 @@
         <PackageReference Include="Verify.Playwright" />
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
         <ProjectReference Include="..\..\src\Blazor.FontAwesome6\Rocket.Surgery.Blazor.FontAwesome6.csproj" />
+        <Compile Remove="snapshots\**\*.cs" />
+        <None Include="snapshots\**\*.cs" />
+        <AssemblyMetadata
+            Include="FontAwesomeFamilysJson"
+            Value="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)\..\..\.nuke/temp/V6/node_modules/@fortawesome/fontawesome-pro/metadata/icon-families.json'))"
+            Condition="Exists('$(MSBuildThisFileDirectory)\..\..\.nuke/temp/V6/node_modules/@fortawesome/fontawesome-pro/metadata/icon-families.json')"
+        />
     </ItemGroup>
 </Project>

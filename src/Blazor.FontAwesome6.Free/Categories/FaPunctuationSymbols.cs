@@ -73,7 +73,7 @@ public static partial class FaPunctuationSymbols
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CircleQuestion;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-question?f=classic&amp;s=regular">Circle Question</a>
+        /// <a href="https://fontawesome.com/icons/circle-question?f=classic&amp;s=solid">Circle Question</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleQuestion;
     }

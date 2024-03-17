@@ -46,16 +46,16 @@ public class Renderer
             return new()
             {
                 Tag = "g",
-                Attributes = ImmutableDictionary<string, string>.Empty.SetItem("class", $"{RendererConfig.CssPrefix}-{DUOTONE_CLASSES.GROUP}"),
+                Classes = ImmutableArray.Create($"{RendererConfig.CssPrefix}-{DUOTONE_CLASSES.GROUP}"),
                 Children = ImmutableArray.Create(
                                new SvgContent
                                {
                                    Tag = "path",
+                                   Classes = ImmutableArray.Create($"{RendererConfig.CssPrefix}-{DUOTONE_CLASSES.SECONDARY}"),
                                    Attributes = ImmutableDictionary<string, string>
                                                .Empty
                                                .AddRange(
                                                     [
-                                                        new("class", $"{RendererConfig.CssPrefix}-{DUOTONE_CLASSES.SECONDARY}"),
                                                         new("fill", "currentColor"),
                                                         new("d", Encoding.UTF8.GetString(secondary.AsSpan()))
                                                     ]
@@ -64,11 +64,11 @@ public class Renderer
                                new SvgContent
                                {
                                    Tag = "path",
+                                   Classes = ImmutableArray.Create($"{RendererConfig.CssPrefix}-{DUOTONE_CLASSES.PRIMARY}"),
                                    Attributes = ImmutableDictionary<string, string>
                                                .Empty
                                                .AddRange(
                                                     [
-                                                        new("class", $"{RendererConfig.CssPrefix}-{DUOTONE_CLASSES.PRIMARY}"),
                                                         new("fill", "currentColor"),
                                                         new("d", Encoding.UTF8.GetString(primary.AsSpan()))
                                                     ]

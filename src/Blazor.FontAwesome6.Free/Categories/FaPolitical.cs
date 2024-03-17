@@ -139,7 +139,7 @@ public static partial class FaPolitical
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Handshake;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/handshake?f=classic&amp;s=regular">Handshake</a>
+        /// <a href="https://fontawesome.com/icons/handshake?f=classic&amp;s=solid">Handshake</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Handshake;
     }

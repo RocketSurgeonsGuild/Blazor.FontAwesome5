@@ -315,7 +315,7 @@ public static partial class FaDisaster
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Snowflake;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/snowflake?f=classic&amp;s=regular">Snowflake</a>
+        /// <a href="https://fontawesome.com/icons/snowflake?f=classic&amp;s=solid">Snowflake</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Snowflake;
     }

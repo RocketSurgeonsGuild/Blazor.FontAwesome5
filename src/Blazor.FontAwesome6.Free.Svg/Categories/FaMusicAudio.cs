@@ -51,7 +51,7 @@ public static partial class FaMusicAudio
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.FileAudio;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-audio?f=classic&amp;s=regular">File Audio</a>
+        /// <a href="https://fontawesome.com/icons/file-audio?f=classic&amp;s=solid">File Audio</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FileAudio;
     }

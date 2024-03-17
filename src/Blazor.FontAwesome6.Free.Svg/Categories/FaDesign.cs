@@ -62,7 +62,7 @@ public static partial class FaDesign
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Clone;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/clone?f=classic&amp;s=regular">Clone</a>
+        /// <a href="https://fontawesome.com/icons/clone?f=classic&amp;s=solid">Clone</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Clone;
     }
@@ -88,7 +88,7 @@ public static partial class FaDesign
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Copy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/copy?f=classic&amp;s=regular">Copy</a>
+        /// <a href="https://fontawesome.com/icons/copy?f=classic&amp;s=solid">Copy</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Copy;
     }
@@ -202,7 +202,7 @@ public static partial class FaDesign
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Eye;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/eye?f=classic&amp;s=regular">Eye</a>
+        /// <a href="https://fontawesome.com/icons/eye?f=classic&amp;s=solid">Eye</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Eye;
     }
@@ -228,7 +228,7 @@ public static partial class FaDesign
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.EyeSlash;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/eye-slash?f=classic&amp;s=regular">Eye Slash</a>
+        /// <a href="https://fontawesome.com/icons/eye-slash?f=classic&amp;s=solid">Eye Slash</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.EyeSlash;
     }
@@ -265,7 +265,7 @@ public static partial class FaDesign
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.FloppyDisk;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/floppy-disk?f=classic&amp;s=regular">Floppy Disk</a>
+        /// <a href="https://fontawesome.com/icons/floppy-disk?f=classic&amp;s=solid">Floppy Disk</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FloppyDisk;
     }
@@ -280,11 +280,11 @@ public static partial class FaDesign
         /// </summary>
         public static SvgIcon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaBrands.FontAwesome;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/font-awesome?f=classic&amp;s=brands">Font Awesome</a>
+        /// <a href="https://fontawesome.com/icons/font-awesome?f=classic&amp;s=regular">Font Awesome</a>
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.FontAwesome;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/font-awesome?f=classic&amp;s=brands">Font Awesome</a>
+        /// <a href="https://fontawesome.com/icons/font-awesome?f=classic&amp;s=solid">Font Awesome</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FontAwesome;
     }
@@ -354,7 +354,7 @@ public static partial class FaDesign
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.ObjectGroup;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/object-group?f=classic&amp;s=regular">Object Group</a>
+        /// <a href="https://fontawesome.com/icons/object-group?f=classic&amp;s=solid">Object Group</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ObjectGroup;
     }
@@ -369,7 +369,7 @@ public static partial class FaDesign
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.ObjectUngroup;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/object-ungroup?f=classic&amp;s=regular">Object Ungroup</a>
+        /// <a href="https://fontawesome.com/icons/object-ungroup?f=classic&amp;s=solid">Object Ungroup</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ObjectUngroup;
     }
@@ -417,7 +417,7 @@ public static partial class FaDesign
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Paste;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/paste?f=classic&amp;s=regular">Paste</a>
+        /// <a href="https://fontawesome.com/icons/paste?f=classic&amp;s=solid">Paste</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Paste;
     }
@@ -487,7 +487,7 @@ public static partial class FaDesign
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.PenToSquare;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/pen-to-square?f=classic&amp;s=regular">Pen To Square</a>
+        /// <a href="https://fontawesome.com/icons/pen-to-square?f=classic&amp;s=solid">Pen To Square</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.PenToSquare;
     }

@@ -194,7 +194,7 @@ public static partial class FaWeather
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Moon;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/moon?f=classic&amp;s=regular">Moon</a>
+        /// <a href="https://fontawesome.com/icons/moon?f=classic&amp;s=solid">Moon</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Moon;
     }
@@ -242,7 +242,7 @@ public static partial class FaWeather
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Snowflake;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/snowflake?f=classic&amp;s=regular">Snowflake</a>
+        /// <a href="https://fontawesome.com/icons/snowflake?f=classic&amp;s=solid">Snowflake</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Snowflake;
     }
@@ -257,7 +257,7 @@ public static partial class FaWeather
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Sun;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/sun?f=classic&amp;s=regular">Sun</a>
+        /// <a href="https://fontawesome.com/icons/sun?f=classic&amp;s=solid">Sun</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Sun;
     }

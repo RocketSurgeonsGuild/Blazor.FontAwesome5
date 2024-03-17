@@ -84,7 +84,7 @@ public static partial class FaMediaPlayback
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.CirclePause;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-pause?f=classic&amp;s=regular">Circle Pause</a>
+        /// <a href="https://fontawesome.com/icons/circle-pause?f=classic&amp;s=solid">Circle Pause</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CirclePause;
     }
@@ -99,7 +99,7 @@ public static partial class FaMediaPlayback
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.CirclePlay;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-play?f=classic&amp;s=regular">Circle Play</a>
+        /// <a href="https://fontawesome.com/icons/circle-play?f=classic&amp;s=solid">Circle Play</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CirclePlay;
     }
@@ -114,7 +114,7 @@ public static partial class FaMediaPlayback
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.CircleStop;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-stop?f=classic&amp;s=regular">Circle Stop</a>
+        /// <a href="https://fontawesome.com/icons/circle-stop?f=classic&amp;s=solid">Circle Stop</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CircleStop;
     }
@@ -206,7 +206,7 @@ public static partial class FaMediaPlayback
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Hand;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hand?f=classic&amp;s=regular">Hand</a>
+        /// <a href="https://fontawesome.com/icons/hand?f=classic&amp;s=solid">Hand</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Hand;
     }

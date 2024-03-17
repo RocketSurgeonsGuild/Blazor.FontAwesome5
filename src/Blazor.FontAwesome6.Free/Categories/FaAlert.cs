@@ -18,7 +18,7 @@ public static partial class FaAlert
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Bell;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=regular">Bell</a>
+        /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=solid">Bell</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Bell;
     }
@@ -33,7 +33,7 @@ public static partial class FaAlert
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.BellSlash;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/bell-slash?f=classic&amp;s=regular">Bell Slash</a>
+        /// <a href="https://fontawesome.com/icons/bell-slash?f=classic&amp;s=solid">Bell Slash</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BellSlash;
     }

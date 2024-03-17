@@ -216,7 +216,7 @@ public static partial class FaCoding
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.File;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file?f=classic&amp;s=regular">File</a>
+        /// <a href="https://fontawesome.com/icons/file?f=classic&amp;s=solid">File</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.File;
     }
@@ -231,7 +231,7 @@ public static partial class FaCoding
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.FileCode;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-code?f=classic&amp;s=regular">File Code</a>
+        /// <a href="https://fontawesome.com/icons/file-code?f=classic&amp;s=solid">File Code</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FileCode;
     }
@@ -246,7 +246,7 @@ public static partial class FaCoding
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.FileLines;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-lines?f=classic&amp;s=regular">File Lines</a>
+        /// <a href="https://fontawesome.com/icons/file-lines?f=classic&amp;s=solid">File Lines</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FileLines;
     }
@@ -283,7 +283,7 @@ public static partial class FaCoding
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Folder;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/folder?f=classic&amp;s=regular">Folder</a>
+        /// <a href="https://fontawesome.com/icons/folder?f=classic&amp;s=solid">Folder</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Folder;
     }
@@ -298,7 +298,7 @@ public static partial class FaCoding
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.FolderOpen;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/folder-open?f=classic&amp;s=regular">Folder Open</a>
+        /// <a href="https://fontawesome.com/icons/folder-open?f=classic&amp;s=solid">Folder Open</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FolderOpen;
     }
@@ -313,11 +313,11 @@ public static partial class FaCoding
         /// </summary>
         public static SvgIcon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaBrands.FontAwesome;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/font-awesome?f=classic&amp;s=brands">Font Awesome</a>
+        /// <a href="https://fontawesome.com/icons/font-awesome?f=classic&amp;s=regular">Font Awesome</a>
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.FontAwesome;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/font-awesome?f=classic&amp;s=brands">Font Awesome</a>
+        /// <a href="https://fontawesome.com/icons/font-awesome?f=classic&amp;s=solid">Font Awesome</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FontAwesome;
     }
@@ -354,7 +354,7 @@ public static partial class FaCoding
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Keyboard;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/keyboard?f=classic&amp;s=regular">Keyboard</a>
+        /// <a href="https://fontawesome.com/icons/keyboard?f=classic&amp;s=solid">Keyboard</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Keyboard;
     }
@@ -435,7 +435,7 @@ public static partial class FaCoding
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.RectangleXmark;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/rectangle-xmark?f=classic&amp;s=regular">Rectangle Xmark</a>
+        /// <a href="https://fontawesome.com/icons/rectangle-xmark?f=classic&amp;s=solid">Rectangle Xmark</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.RectangleXmark;
     }
@@ -505,7 +505,7 @@ public static partial class FaCoding
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.WindowMaximize;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/window-maximize?f=classic&amp;s=regular">Window Maximize</a>
+        /// <a href="https://fontawesome.com/icons/window-maximize?f=classic&amp;s=solid">Window Maximize</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.WindowMaximize;
     }
@@ -520,7 +520,7 @@ public static partial class FaCoding
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.WindowMinimize;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/window-minimize?f=classic&amp;s=regular">Window Minimize</a>
+        /// <a href="https://fontawesome.com/icons/window-minimize?f=classic&amp;s=solid">Window Minimize</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.WindowMinimize;
     }
@@ -535,7 +535,7 @@ public static partial class FaCoding
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.WindowRestore;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/window-restore?f=classic&amp;s=regular">Window Restore</a>
+        /// <a href="https://fontawesome.com/icons/window-restore?f=classic&amp;s=solid">Window Restore</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.WindowRestore;
     }

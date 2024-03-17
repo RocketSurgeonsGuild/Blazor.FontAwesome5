@@ -161,7 +161,7 @@ public static partial class FaDevicesHardware
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.FloppyDisk;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/floppy-disk?f=classic&amp;s=regular">Floppy Disk</a>
+        /// <a href="https://fontawesome.com/icons/floppy-disk?f=classic&amp;s=solid">Floppy Disk</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FloppyDisk;
     }
@@ -187,7 +187,7 @@ public static partial class FaDevicesHardware
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.HardDrive;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hard-drive?f=classic&amp;s=regular">Hard Drive</a>
+        /// <a href="https://fontawesome.com/icons/hard-drive?f=classic&amp;s=solid">Hard Drive</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HardDrive;
     }
@@ -224,7 +224,7 @@ public static partial class FaDevicesHardware
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Keyboard;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/keyboard?f=classic&amp;s=regular">Keyboard</a>
+        /// <a href="https://fontawesome.com/icons/keyboard?f=classic&amp;s=solid">Keyboard</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Keyboard;
     }

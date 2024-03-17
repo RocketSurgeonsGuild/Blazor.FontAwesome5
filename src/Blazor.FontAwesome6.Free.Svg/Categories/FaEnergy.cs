@@ -227,7 +227,7 @@ public static partial class FaEnergy
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Lightbulb;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/lightbulb?f=classic&amp;s=regular">Lightbulb</a>
+        /// <a href="https://fontawesome.com/icons/lightbulb?f=classic&amp;s=solid">Lightbulb</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Lightbulb;
     }
@@ -385,7 +385,7 @@ public static partial class FaEnergy
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Sun;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/sun?f=classic&amp;s=regular">Sun</a>
+        /// <a href="https://fontawesome.com/icons/sun?f=classic&amp;s=solid">Sun</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Sun;
     }

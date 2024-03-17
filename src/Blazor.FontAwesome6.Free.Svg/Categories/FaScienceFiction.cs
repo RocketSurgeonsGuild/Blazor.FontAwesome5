@@ -73,7 +73,7 @@ public static partial class FaScienceFiction
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.HandSpock;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hand-spock?f=classic&amp;s=regular">Hand Spock</a>
+        /// <a href="https://fontawesome.com/icons/hand-spock?f=classic&amp;s=solid">Hand Spock</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HandSpock;
     }

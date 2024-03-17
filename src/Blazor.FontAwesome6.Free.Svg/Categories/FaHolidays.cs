@@ -62,7 +62,7 @@ public static partial class FaHolidays
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.FaceGrinHearts;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=regular">Face Grin Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=solid">Face Grin Hearts</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FaceGrinHearts;
     }
@@ -77,7 +77,7 @@ public static partial class FaHolidays
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.FaceKissWinkHeart;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=regular">Face Kiss Wink Heart</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=solid">Face Kiss Wink Heart</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FaceKissWinkHeart;
     }
@@ -114,7 +114,7 @@ public static partial class FaHolidays
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Heart;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/heart?f=classic&amp;s=regular">Heart</a>
+        /// <a href="https://fontawesome.com/icons/heart?f=classic&amp;s=solid">Heart</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Heart;
     }

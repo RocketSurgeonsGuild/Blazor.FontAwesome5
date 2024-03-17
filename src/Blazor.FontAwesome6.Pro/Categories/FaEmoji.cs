@@ -14,11 +14,11 @@ public static partial class FaEmoji
     public static partial class FaceAngry
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry?f=classic&amp;s=solid">Face Angry</a>
+        /// <a href="https://fontawesome.com/icons/face-angry?f=classic&amp;s=light">Face Angry</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceAngry;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry?f=classic&amp;s=solid">Face Angry</a>
+        /// <a href="https://fontawesome.com/icons/face-angry?f=classic&amp;s=regular">Face Angry</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceAngry;
         /// <summary>
@@ -26,27 +26,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceAngry;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry?f=classic&amp;s=solid">Face Angry</a>
+        /// <a href="https://fontawesome.com/icons/face-angry?f=classic&amp;s=thin">Face Angry</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceAngry;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry?f=classic&amp;s=solid">Face Angry</a>
+        /// <a href="https://fontawesome.com/icons/face-angry?f=classic&amp;s=duotone">Face Angry</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceAngry;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry?f=classic&amp;s=solid">Face Angry</a>
+        /// <a href="https://fontawesome.com/icons/face-angry?f=sharp&amp;s=light">Face Angry</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceAngry;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry?f=classic&amp;s=solid">Face Angry</a>
+        /// <a href="https://fontawesome.com/icons/face-angry?f=sharp&amp;s=regular">Face Angry</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceAngry;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry?f=classic&amp;s=solid">Face Angry</a>
+        /// <a href="https://fontawesome.com/icons/face-angry?f=sharp&amp;s=solid">Face Angry</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceAngry;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry?f=classic&amp;s=solid">Face Angry</a>
+        /// <a href="https://fontawesome.com/icons/face-angry?f=sharp&amp;s=thin">Face Angry</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceAngry;
     }
@@ -57,11 +57,11 @@ public static partial class FaEmoji
     public static partial class FaceAngryHorns
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=classic&amp;s=solid">Face Angry Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=classic&amp;s=light">Face Angry Horns</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceAngryHorns;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=classic&amp;s=solid">Face Angry Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=classic&amp;s=regular">Face Angry Horns</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceAngryHorns;
         /// <summary>
@@ -69,27 +69,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceAngryHorns;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=classic&amp;s=solid">Face Angry Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=classic&amp;s=thin">Face Angry Horns</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceAngryHorns;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=classic&amp;s=solid">Face Angry Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=classic&amp;s=duotone">Face Angry Horns</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceAngryHorns;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=classic&amp;s=solid">Face Angry Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=sharp&amp;s=light">Face Angry Horns</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceAngryHorns;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=classic&amp;s=solid">Face Angry Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=sharp&amp;s=regular">Face Angry Horns</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceAngryHorns;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=classic&amp;s=solid">Face Angry Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=sharp&amp;s=solid">Face Angry Horns</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceAngryHorns;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=classic&amp;s=solid">Face Angry Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=sharp&amp;s=thin">Face Angry Horns</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceAngryHorns;
     }
@@ -100,11 +100,11 @@ public static partial class FaEmoji
     public static partial class FaceAnguished
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anguished?f=classic&amp;s=solid">Face Anguished</a>
+        /// <a href="https://fontawesome.com/icons/face-anguished?f=classic&amp;s=light">Face Anguished</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceAnguished;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anguished?f=classic&amp;s=solid">Face Anguished</a>
+        /// <a href="https://fontawesome.com/icons/face-anguished?f=classic&amp;s=regular">Face Anguished</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceAnguished;
         /// <summary>
@@ -112,27 +112,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceAnguished;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anguished?f=classic&amp;s=solid">Face Anguished</a>
+        /// <a href="https://fontawesome.com/icons/face-anguished?f=classic&amp;s=thin">Face Anguished</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceAnguished;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anguished?f=classic&amp;s=solid">Face Anguished</a>
+        /// <a href="https://fontawesome.com/icons/face-anguished?f=classic&amp;s=duotone">Face Anguished</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceAnguished;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anguished?f=classic&amp;s=solid">Face Anguished</a>
+        /// <a href="https://fontawesome.com/icons/face-anguished?f=sharp&amp;s=light">Face Anguished</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceAnguished;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anguished?f=classic&amp;s=solid">Face Anguished</a>
+        /// <a href="https://fontawesome.com/icons/face-anguished?f=sharp&amp;s=regular">Face Anguished</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceAnguished;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anguished?f=classic&amp;s=solid">Face Anguished</a>
+        /// <a href="https://fontawesome.com/icons/face-anguished?f=sharp&amp;s=solid">Face Anguished</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceAnguished;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anguished?f=classic&amp;s=solid">Face Anguished</a>
+        /// <a href="https://fontawesome.com/icons/face-anguished?f=sharp&amp;s=thin">Face Anguished</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceAnguished;
     }
@@ -143,11 +143,11 @@ public static partial class FaEmoji
     public static partial class FaceAnxiousSweat
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=classic&amp;s=solid">Face Anxious Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=classic&amp;s=light">Face Anxious Sweat</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceAnxiousSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=classic&amp;s=solid">Face Anxious Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=classic&amp;s=regular">Face Anxious Sweat</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceAnxiousSweat;
         /// <summary>
@@ -155,27 +155,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceAnxiousSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=classic&amp;s=solid">Face Anxious Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=classic&amp;s=thin">Face Anxious Sweat</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceAnxiousSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=classic&amp;s=solid">Face Anxious Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=classic&amp;s=duotone">Face Anxious Sweat</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceAnxiousSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=classic&amp;s=solid">Face Anxious Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=sharp&amp;s=light">Face Anxious Sweat</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceAnxiousSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=classic&amp;s=solid">Face Anxious Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=sharp&amp;s=regular">Face Anxious Sweat</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceAnxiousSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=classic&amp;s=solid">Face Anxious Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=sharp&amp;s=solid">Face Anxious Sweat</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceAnxiousSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=classic&amp;s=solid">Face Anxious Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=sharp&amp;s=thin">Face Anxious Sweat</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceAnxiousSweat;
     }
@@ -186,11 +186,11 @@ public static partial class FaEmoji
     public static partial class FaceAstonished
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-astonished?f=classic&amp;s=solid">Face Astonished</a>
+        /// <a href="https://fontawesome.com/icons/face-astonished?f=classic&amp;s=light">Face Astonished</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceAstonished;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-astonished?f=classic&amp;s=solid">Face Astonished</a>
+        /// <a href="https://fontawesome.com/icons/face-astonished?f=classic&amp;s=regular">Face Astonished</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceAstonished;
         /// <summary>
@@ -198,27 +198,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceAstonished;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-astonished?f=classic&amp;s=solid">Face Astonished</a>
+        /// <a href="https://fontawesome.com/icons/face-astonished?f=classic&amp;s=thin">Face Astonished</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceAstonished;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-astonished?f=classic&amp;s=solid">Face Astonished</a>
+        /// <a href="https://fontawesome.com/icons/face-astonished?f=classic&amp;s=duotone">Face Astonished</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceAstonished;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-astonished?f=classic&amp;s=solid">Face Astonished</a>
+        /// <a href="https://fontawesome.com/icons/face-astonished?f=sharp&amp;s=light">Face Astonished</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceAstonished;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-astonished?f=classic&amp;s=solid">Face Astonished</a>
+        /// <a href="https://fontawesome.com/icons/face-astonished?f=sharp&amp;s=regular">Face Astonished</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceAstonished;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-astonished?f=classic&amp;s=solid">Face Astonished</a>
+        /// <a href="https://fontawesome.com/icons/face-astonished?f=sharp&amp;s=solid">Face Astonished</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceAstonished;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-astonished?f=classic&amp;s=solid">Face Astonished</a>
+        /// <a href="https://fontawesome.com/icons/face-astonished?f=sharp&amp;s=thin">Face Astonished</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceAstonished;
     }
@@ -229,11 +229,11 @@ public static partial class FaEmoji
     public static partial class FaceAwesome
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-awesome?f=classic&amp;s=solid">Face Awesome</a>
+        /// <a href="https://fontawesome.com/icons/face-awesome?f=classic&amp;s=light">Face Awesome</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceAwesome;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-awesome?f=classic&amp;s=solid">Face Awesome</a>
+        /// <a href="https://fontawesome.com/icons/face-awesome?f=classic&amp;s=regular">Face Awesome</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceAwesome;
         /// <summary>
@@ -241,27 +241,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceAwesome;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-awesome?f=classic&amp;s=solid">Face Awesome</a>
+        /// <a href="https://fontawesome.com/icons/face-awesome?f=classic&amp;s=thin">Face Awesome</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceAwesome;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-awesome?f=classic&amp;s=solid">Face Awesome</a>
+        /// <a href="https://fontawesome.com/icons/face-awesome?f=classic&amp;s=duotone">Face Awesome</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceAwesome;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-awesome?f=classic&amp;s=solid">Face Awesome</a>
+        /// <a href="https://fontawesome.com/icons/face-awesome?f=sharp&amp;s=light">Face Awesome</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceAwesome;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-awesome?f=classic&amp;s=solid">Face Awesome</a>
+        /// <a href="https://fontawesome.com/icons/face-awesome?f=sharp&amp;s=regular">Face Awesome</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceAwesome;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-awesome?f=classic&amp;s=solid">Face Awesome</a>
+        /// <a href="https://fontawesome.com/icons/face-awesome?f=sharp&amp;s=solid">Face Awesome</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceAwesome;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-awesome?f=classic&amp;s=solid">Face Awesome</a>
+        /// <a href="https://fontawesome.com/icons/face-awesome?f=sharp&amp;s=thin">Face Awesome</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceAwesome;
     }
@@ -272,11 +272,11 @@ public static partial class FaEmoji
     public static partial class FaceBeamHandOverMouth
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=classic&amp;s=solid">Face Beam Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=classic&amp;s=light">Face Beam Hand Over Mouth</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceBeamHandOverMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=classic&amp;s=solid">Face Beam Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=classic&amp;s=regular">Face Beam Hand Over Mouth</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceBeamHandOverMouth;
         /// <summary>
@@ -284,27 +284,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceBeamHandOverMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=classic&amp;s=solid">Face Beam Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=classic&amp;s=thin">Face Beam Hand Over Mouth</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceBeamHandOverMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=classic&amp;s=solid">Face Beam Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=classic&amp;s=duotone">Face Beam Hand Over Mouth</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceBeamHandOverMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=classic&amp;s=solid">Face Beam Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=sharp&amp;s=light">Face Beam Hand Over Mouth</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceBeamHandOverMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=classic&amp;s=solid">Face Beam Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=sharp&amp;s=regular">Face Beam Hand Over Mouth</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceBeamHandOverMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=classic&amp;s=solid">Face Beam Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=sharp&amp;s=solid">Face Beam Hand Over Mouth</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceBeamHandOverMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=classic&amp;s=solid">Face Beam Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=sharp&amp;s=thin">Face Beam Hand Over Mouth</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceBeamHandOverMouth;
     }
@@ -315,11 +315,11 @@ public static partial class FaEmoji
     public static partial class FaceClouds
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-clouds?f=classic&amp;s=solid">Face Clouds</a>
+        /// <a href="https://fontawesome.com/icons/face-clouds?f=classic&amp;s=light">Face Clouds</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceClouds;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-clouds?f=classic&amp;s=solid">Face Clouds</a>
+        /// <a href="https://fontawesome.com/icons/face-clouds?f=classic&amp;s=regular">Face Clouds</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceClouds;
         /// <summary>
@@ -327,27 +327,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceClouds;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-clouds?f=classic&amp;s=solid">Face Clouds</a>
+        /// <a href="https://fontawesome.com/icons/face-clouds?f=classic&amp;s=thin">Face Clouds</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceClouds;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-clouds?f=classic&amp;s=solid">Face Clouds</a>
+        /// <a href="https://fontawesome.com/icons/face-clouds?f=classic&amp;s=duotone">Face Clouds</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceClouds;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-clouds?f=classic&amp;s=solid">Face Clouds</a>
+        /// <a href="https://fontawesome.com/icons/face-clouds?f=sharp&amp;s=light">Face Clouds</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceClouds;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-clouds?f=classic&amp;s=solid">Face Clouds</a>
+        /// <a href="https://fontawesome.com/icons/face-clouds?f=sharp&amp;s=regular">Face Clouds</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceClouds;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-clouds?f=classic&amp;s=solid">Face Clouds</a>
+        /// <a href="https://fontawesome.com/icons/face-clouds?f=sharp&amp;s=solid">Face Clouds</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceClouds;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-clouds?f=classic&amp;s=solid">Face Clouds</a>
+        /// <a href="https://fontawesome.com/icons/face-clouds?f=sharp&amp;s=thin">Face Clouds</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceClouds;
     }
@@ -358,11 +358,11 @@ public static partial class FaEmoji
     public static partial class FaceConfounded
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confounded?f=classic&amp;s=solid">Face Confounded</a>
+        /// <a href="https://fontawesome.com/icons/face-confounded?f=classic&amp;s=light">Face Confounded</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceConfounded;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confounded?f=classic&amp;s=solid">Face Confounded</a>
+        /// <a href="https://fontawesome.com/icons/face-confounded?f=classic&amp;s=regular">Face Confounded</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceConfounded;
         /// <summary>
@@ -370,27 +370,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceConfounded;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confounded?f=classic&amp;s=solid">Face Confounded</a>
+        /// <a href="https://fontawesome.com/icons/face-confounded?f=classic&amp;s=thin">Face Confounded</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceConfounded;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confounded?f=classic&amp;s=solid">Face Confounded</a>
+        /// <a href="https://fontawesome.com/icons/face-confounded?f=classic&amp;s=duotone">Face Confounded</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceConfounded;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confounded?f=classic&amp;s=solid">Face Confounded</a>
+        /// <a href="https://fontawesome.com/icons/face-confounded?f=sharp&amp;s=light">Face Confounded</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceConfounded;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confounded?f=classic&amp;s=solid">Face Confounded</a>
+        /// <a href="https://fontawesome.com/icons/face-confounded?f=sharp&amp;s=regular">Face Confounded</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceConfounded;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confounded?f=classic&amp;s=solid">Face Confounded</a>
+        /// <a href="https://fontawesome.com/icons/face-confounded?f=sharp&amp;s=solid">Face Confounded</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceConfounded;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confounded?f=classic&amp;s=solid">Face Confounded</a>
+        /// <a href="https://fontawesome.com/icons/face-confounded?f=sharp&amp;s=thin">Face Confounded</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceConfounded;
     }
@@ -401,11 +401,11 @@ public static partial class FaEmoji
     public static partial class FaceConfused
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confused?f=classic&amp;s=solid">Face Confused</a>
+        /// <a href="https://fontawesome.com/icons/face-confused?f=classic&amp;s=light">Face Confused</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceConfused;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confused?f=classic&amp;s=solid">Face Confused</a>
+        /// <a href="https://fontawesome.com/icons/face-confused?f=classic&amp;s=regular">Face Confused</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceConfused;
         /// <summary>
@@ -413,27 +413,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceConfused;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confused?f=classic&amp;s=solid">Face Confused</a>
+        /// <a href="https://fontawesome.com/icons/face-confused?f=classic&amp;s=thin">Face Confused</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceConfused;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confused?f=classic&amp;s=solid">Face Confused</a>
+        /// <a href="https://fontawesome.com/icons/face-confused?f=classic&amp;s=duotone">Face Confused</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceConfused;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confused?f=classic&amp;s=solid">Face Confused</a>
+        /// <a href="https://fontawesome.com/icons/face-confused?f=sharp&amp;s=light">Face Confused</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceConfused;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confused?f=classic&amp;s=solid">Face Confused</a>
+        /// <a href="https://fontawesome.com/icons/face-confused?f=sharp&amp;s=regular">Face Confused</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceConfused;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confused?f=classic&amp;s=solid">Face Confused</a>
+        /// <a href="https://fontawesome.com/icons/face-confused?f=sharp&amp;s=solid">Face Confused</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceConfused;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-confused?f=classic&amp;s=solid">Face Confused</a>
+        /// <a href="https://fontawesome.com/icons/face-confused?f=sharp&amp;s=thin">Face Confused</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceConfused;
     }
@@ -444,11 +444,11 @@ public static partial class FaEmoji
     public static partial class FaceCowboyHat
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=classic&amp;s=solid">Face Cowboy Hat</a>
+        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=classic&amp;s=light">Face Cowboy Hat</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceCowboyHat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=classic&amp;s=solid">Face Cowboy Hat</a>
+        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=classic&amp;s=regular">Face Cowboy Hat</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceCowboyHat;
         /// <summary>
@@ -456,27 +456,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceCowboyHat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=classic&amp;s=solid">Face Cowboy Hat</a>
+        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=classic&amp;s=thin">Face Cowboy Hat</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceCowboyHat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=classic&amp;s=solid">Face Cowboy Hat</a>
+        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=classic&amp;s=duotone">Face Cowboy Hat</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceCowboyHat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=classic&amp;s=solid">Face Cowboy Hat</a>
+        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=sharp&amp;s=light">Face Cowboy Hat</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceCowboyHat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=classic&amp;s=solid">Face Cowboy Hat</a>
+        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=sharp&amp;s=regular">Face Cowboy Hat</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceCowboyHat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=classic&amp;s=solid">Face Cowboy Hat</a>
+        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=sharp&amp;s=solid">Face Cowboy Hat</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceCowboyHat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=classic&amp;s=solid">Face Cowboy Hat</a>
+        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=sharp&amp;s=thin">Face Cowboy Hat</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceCowboyHat;
     }
@@ -487,11 +487,11 @@ public static partial class FaEmoji
     public static partial class FaceDiagonalMouth
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=classic&amp;s=solid">Face Diagonal Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=classic&amp;s=light">Face Diagonal Mouth</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceDiagonalMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=classic&amp;s=solid">Face Diagonal Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=classic&amp;s=regular">Face Diagonal Mouth</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceDiagonalMouth;
         /// <summary>
@@ -499,27 +499,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceDiagonalMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=classic&amp;s=solid">Face Diagonal Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=classic&amp;s=thin">Face Diagonal Mouth</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceDiagonalMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=classic&amp;s=solid">Face Diagonal Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=classic&amp;s=duotone">Face Diagonal Mouth</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceDiagonalMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=classic&amp;s=solid">Face Diagonal Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=sharp&amp;s=light">Face Diagonal Mouth</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceDiagonalMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=classic&amp;s=solid">Face Diagonal Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=sharp&amp;s=regular">Face Diagonal Mouth</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceDiagonalMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=classic&amp;s=solid">Face Diagonal Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=sharp&amp;s=solid">Face Diagonal Mouth</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceDiagonalMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=classic&amp;s=solid">Face Diagonal Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=sharp&amp;s=thin">Face Diagonal Mouth</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceDiagonalMouth;
     }
@@ -530,11 +530,11 @@ public static partial class FaEmoji
     public static partial class FaceDisappointed
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disappointed?f=classic&amp;s=solid">Face Disappointed</a>
+        /// <a href="https://fontawesome.com/icons/face-disappointed?f=classic&amp;s=light">Face Disappointed</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceDisappointed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disappointed?f=classic&amp;s=solid">Face Disappointed</a>
+        /// <a href="https://fontawesome.com/icons/face-disappointed?f=classic&amp;s=regular">Face Disappointed</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceDisappointed;
         /// <summary>
@@ -542,27 +542,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceDisappointed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disappointed?f=classic&amp;s=solid">Face Disappointed</a>
+        /// <a href="https://fontawesome.com/icons/face-disappointed?f=classic&amp;s=thin">Face Disappointed</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceDisappointed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disappointed?f=classic&amp;s=solid">Face Disappointed</a>
+        /// <a href="https://fontawesome.com/icons/face-disappointed?f=classic&amp;s=duotone">Face Disappointed</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceDisappointed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disappointed?f=classic&amp;s=solid">Face Disappointed</a>
+        /// <a href="https://fontawesome.com/icons/face-disappointed?f=sharp&amp;s=light">Face Disappointed</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceDisappointed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disappointed?f=classic&amp;s=solid">Face Disappointed</a>
+        /// <a href="https://fontawesome.com/icons/face-disappointed?f=sharp&amp;s=regular">Face Disappointed</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceDisappointed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disappointed?f=classic&amp;s=solid">Face Disappointed</a>
+        /// <a href="https://fontawesome.com/icons/face-disappointed?f=sharp&amp;s=solid">Face Disappointed</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceDisappointed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disappointed?f=classic&amp;s=solid">Face Disappointed</a>
+        /// <a href="https://fontawesome.com/icons/face-disappointed?f=sharp&amp;s=thin">Face Disappointed</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceDisappointed;
     }
@@ -573,11 +573,11 @@ public static partial class FaEmoji
     public static partial class FaceDisguise
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disguise?f=classic&amp;s=solid">Face Disguise</a>
+        /// <a href="https://fontawesome.com/icons/face-disguise?f=classic&amp;s=light">Face Disguise</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceDisguise;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disguise?f=classic&amp;s=solid">Face Disguise</a>
+        /// <a href="https://fontawesome.com/icons/face-disguise?f=classic&amp;s=regular">Face Disguise</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceDisguise;
         /// <summary>
@@ -585,27 +585,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceDisguise;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disguise?f=classic&amp;s=solid">Face Disguise</a>
+        /// <a href="https://fontawesome.com/icons/face-disguise?f=classic&amp;s=thin">Face Disguise</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceDisguise;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disguise?f=classic&amp;s=solid">Face Disguise</a>
+        /// <a href="https://fontawesome.com/icons/face-disguise?f=classic&amp;s=duotone">Face Disguise</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceDisguise;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disguise?f=classic&amp;s=solid">Face Disguise</a>
+        /// <a href="https://fontawesome.com/icons/face-disguise?f=sharp&amp;s=light">Face Disguise</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceDisguise;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disguise?f=classic&amp;s=solid">Face Disguise</a>
+        /// <a href="https://fontawesome.com/icons/face-disguise?f=sharp&amp;s=regular">Face Disguise</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceDisguise;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disguise?f=classic&amp;s=solid">Face Disguise</a>
+        /// <a href="https://fontawesome.com/icons/face-disguise?f=sharp&amp;s=solid">Face Disguise</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceDisguise;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-disguise?f=classic&amp;s=solid">Face Disguise</a>
+        /// <a href="https://fontawesome.com/icons/face-disguise?f=sharp&amp;s=thin">Face Disguise</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceDisguise;
     }
@@ -616,11 +616,11 @@ public static partial class FaEmoji
     public static partial class FaceDizzy
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dizzy?f=classic&amp;s=solid">Face Dizzy</a>
+        /// <a href="https://fontawesome.com/icons/face-dizzy?f=classic&amp;s=light">Face Dizzy</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceDizzy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dizzy?f=classic&amp;s=solid">Face Dizzy</a>
+        /// <a href="https://fontawesome.com/icons/face-dizzy?f=classic&amp;s=regular">Face Dizzy</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceDizzy;
         /// <summary>
@@ -628,27 +628,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceDizzy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dizzy?f=classic&amp;s=solid">Face Dizzy</a>
+        /// <a href="https://fontawesome.com/icons/face-dizzy?f=classic&amp;s=thin">Face Dizzy</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceDizzy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dizzy?f=classic&amp;s=solid">Face Dizzy</a>
+        /// <a href="https://fontawesome.com/icons/face-dizzy?f=classic&amp;s=duotone">Face Dizzy</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceDizzy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dizzy?f=classic&amp;s=solid">Face Dizzy</a>
+        /// <a href="https://fontawesome.com/icons/face-dizzy?f=sharp&amp;s=light">Face Dizzy</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceDizzy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dizzy?f=classic&amp;s=solid">Face Dizzy</a>
+        /// <a href="https://fontawesome.com/icons/face-dizzy?f=sharp&amp;s=regular">Face Dizzy</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceDizzy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dizzy?f=classic&amp;s=solid">Face Dizzy</a>
+        /// <a href="https://fontawesome.com/icons/face-dizzy?f=sharp&amp;s=solid">Face Dizzy</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceDizzy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dizzy?f=classic&amp;s=solid">Face Dizzy</a>
+        /// <a href="https://fontawesome.com/icons/face-dizzy?f=sharp&amp;s=thin">Face Dizzy</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceDizzy;
     }
@@ -659,11 +659,11 @@ public static partial class FaEmoji
     public static partial class FaceDotted
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dotted?f=classic&amp;s=solid">Face Dotted</a>
+        /// <a href="https://fontawesome.com/icons/face-dotted?f=classic&amp;s=light">Face Dotted</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceDotted;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dotted?f=classic&amp;s=solid">Face Dotted</a>
+        /// <a href="https://fontawesome.com/icons/face-dotted?f=classic&amp;s=regular">Face Dotted</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceDotted;
         /// <summary>
@@ -671,27 +671,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceDotted;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dotted?f=classic&amp;s=solid">Face Dotted</a>
+        /// <a href="https://fontawesome.com/icons/face-dotted?f=classic&amp;s=thin">Face Dotted</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceDotted;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dotted?f=classic&amp;s=solid">Face Dotted</a>
+        /// <a href="https://fontawesome.com/icons/face-dotted?f=classic&amp;s=duotone">Face Dotted</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceDotted;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dotted?f=classic&amp;s=solid">Face Dotted</a>
+        /// <a href="https://fontawesome.com/icons/face-dotted?f=sharp&amp;s=light">Face Dotted</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceDotted;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dotted?f=classic&amp;s=solid">Face Dotted</a>
+        /// <a href="https://fontawesome.com/icons/face-dotted?f=sharp&amp;s=regular">Face Dotted</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceDotted;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dotted?f=classic&amp;s=solid">Face Dotted</a>
+        /// <a href="https://fontawesome.com/icons/face-dotted?f=sharp&amp;s=solid">Face Dotted</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceDotted;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-dotted?f=classic&amp;s=solid">Face Dotted</a>
+        /// <a href="https://fontawesome.com/icons/face-dotted?f=sharp&amp;s=thin">Face Dotted</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceDotted;
     }
@@ -702,11 +702,11 @@ public static partial class FaEmoji
     public static partial class FaceDowncastSweat
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=classic&amp;s=solid">Face Downcast Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=classic&amp;s=light">Face Downcast Sweat</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceDowncastSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=classic&amp;s=solid">Face Downcast Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=classic&amp;s=regular">Face Downcast Sweat</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceDowncastSweat;
         /// <summary>
@@ -714,27 +714,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceDowncastSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=classic&amp;s=solid">Face Downcast Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=classic&amp;s=thin">Face Downcast Sweat</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceDowncastSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=classic&amp;s=solid">Face Downcast Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=classic&amp;s=duotone">Face Downcast Sweat</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceDowncastSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=classic&amp;s=solid">Face Downcast Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=sharp&amp;s=light">Face Downcast Sweat</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceDowncastSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=classic&amp;s=solid">Face Downcast Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=sharp&amp;s=regular">Face Downcast Sweat</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceDowncastSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=classic&amp;s=solid">Face Downcast Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=sharp&amp;s=solid">Face Downcast Sweat</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceDowncastSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=classic&amp;s=solid">Face Downcast Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=sharp&amp;s=thin">Face Downcast Sweat</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceDowncastSweat;
     }
@@ -745,11 +745,11 @@ public static partial class FaEmoji
     public static partial class FaceDrooling
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-drooling?f=classic&amp;s=solid">Face Drooling</a>
+        /// <a href="https://fontawesome.com/icons/face-drooling?f=classic&amp;s=light">Face Drooling</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceDrooling;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-drooling?f=classic&amp;s=solid">Face Drooling</a>
+        /// <a href="https://fontawesome.com/icons/face-drooling?f=classic&amp;s=regular">Face Drooling</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceDrooling;
         /// <summary>
@@ -757,27 +757,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceDrooling;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-drooling?f=classic&amp;s=solid">Face Drooling</a>
+        /// <a href="https://fontawesome.com/icons/face-drooling?f=classic&amp;s=thin">Face Drooling</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceDrooling;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-drooling?f=classic&amp;s=solid">Face Drooling</a>
+        /// <a href="https://fontawesome.com/icons/face-drooling?f=classic&amp;s=duotone">Face Drooling</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceDrooling;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-drooling?f=classic&amp;s=solid">Face Drooling</a>
+        /// <a href="https://fontawesome.com/icons/face-drooling?f=sharp&amp;s=light">Face Drooling</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceDrooling;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-drooling?f=classic&amp;s=solid">Face Drooling</a>
+        /// <a href="https://fontawesome.com/icons/face-drooling?f=sharp&amp;s=regular">Face Drooling</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceDrooling;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-drooling?f=classic&amp;s=solid">Face Drooling</a>
+        /// <a href="https://fontawesome.com/icons/face-drooling?f=sharp&amp;s=solid">Face Drooling</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceDrooling;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-drooling?f=classic&amp;s=solid">Face Drooling</a>
+        /// <a href="https://fontawesome.com/icons/face-drooling?f=sharp&amp;s=thin">Face Drooling</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceDrooling;
     }
@@ -788,11 +788,11 @@ public static partial class FaEmoji
     public static partial class FaceExhaling
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-exhaling?f=classic&amp;s=solid">Face Exhaling</a>
+        /// <a href="https://fontawesome.com/icons/face-exhaling?f=classic&amp;s=light">Face Exhaling</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceExhaling;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-exhaling?f=classic&amp;s=solid">Face Exhaling</a>
+        /// <a href="https://fontawesome.com/icons/face-exhaling?f=classic&amp;s=regular">Face Exhaling</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceExhaling;
         /// <summary>
@@ -800,27 +800,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceExhaling;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-exhaling?f=classic&amp;s=solid">Face Exhaling</a>
+        /// <a href="https://fontawesome.com/icons/face-exhaling?f=classic&amp;s=thin">Face Exhaling</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceExhaling;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-exhaling?f=classic&amp;s=solid">Face Exhaling</a>
+        /// <a href="https://fontawesome.com/icons/face-exhaling?f=classic&amp;s=duotone">Face Exhaling</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceExhaling;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-exhaling?f=classic&amp;s=solid">Face Exhaling</a>
+        /// <a href="https://fontawesome.com/icons/face-exhaling?f=sharp&amp;s=light">Face Exhaling</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceExhaling;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-exhaling?f=classic&amp;s=solid">Face Exhaling</a>
+        /// <a href="https://fontawesome.com/icons/face-exhaling?f=sharp&amp;s=regular">Face Exhaling</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceExhaling;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-exhaling?f=classic&amp;s=solid">Face Exhaling</a>
+        /// <a href="https://fontawesome.com/icons/face-exhaling?f=sharp&amp;s=solid">Face Exhaling</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceExhaling;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-exhaling?f=classic&amp;s=solid">Face Exhaling</a>
+        /// <a href="https://fontawesome.com/icons/face-exhaling?f=sharp&amp;s=thin">Face Exhaling</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceExhaling;
     }
@@ -831,11 +831,11 @@ public static partial class FaEmoji
     public static partial class FaceExplode
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-explode?f=classic&amp;s=solid">Face Explode</a>
+        /// <a href="https://fontawesome.com/icons/face-explode?f=classic&amp;s=light">Face Explode</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceExplode;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-explode?f=classic&amp;s=solid">Face Explode</a>
+        /// <a href="https://fontawesome.com/icons/face-explode?f=classic&amp;s=regular">Face Explode</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceExplode;
         /// <summary>
@@ -843,27 +843,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceExplode;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-explode?f=classic&amp;s=solid">Face Explode</a>
+        /// <a href="https://fontawesome.com/icons/face-explode?f=classic&amp;s=thin">Face Explode</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceExplode;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-explode?f=classic&amp;s=solid">Face Explode</a>
+        /// <a href="https://fontawesome.com/icons/face-explode?f=classic&amp;s=duotone">Face Explode</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceExplode;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-explode?f=classic&amp;s=solid">Face Explode</a>
+        /// <a href="https://fontawesome.com/icons/face-explode?f=sharp&amp;s=light">Face Explode</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceExplode;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-explode?f=classic&amp;s=solid">Face Explode</a>
+        /// <a href="https://fontawesome.com/icons/face-explode?f=sharp&amp;s=regular">Face Explode</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceExplode;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-explode?f=classic&amp;s=solid">Face Explode</a>
+        /// <a href="https://fontawesome.com/icons/face-explode?f=sharp&amp;s=solid">Face Explode</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceExplode;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-explode?f=classic&amp;s=solid">Face Explode</a>
+        /// <a href="https://fontawesome.com/icons/face-explode?f=sharp&amp;s=thin">Face Explode</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceExplode;
     }
@@ -874,11 +874,11 @@ public static partial class FaEmoji
     public static partial class FaceExpressionless
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-expressionless?f=classic&amp;s=solid">Face Expressionless</a>
+        /// <a href="https://fontawesome.com/icons/face-expressionless?f=classic&amp;s=light">Face Expressionless</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceExpressionless;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-expressionless?f=classic&amp;s=solid">Face Expressionless</a>
+        /// <a href="https://fontawesome.com/icons/face-expressionless?f=classic&amp;s=regular">Face Expressionless</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceExpressionless;
         /// <summary>
@@ -886,27 +886,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceExpressionless;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-expressionless?f=classic&amp;s=solid">Face Expressionless</a>
+        /// <a href="https://fontawesome.com/icons/face-expressionless?f=classic&amp;s=thin">Face Expressionless</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceExpressionless;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-expressionless?f=classic&amp;s=solid">Face Expressionless</a>
+        /// <a href="https://fontawesome.com/icons/face-expressionless?f=classic&amp;s=duotone">Face Expressionless</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceExpressionless;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-expressionless?f=classic&amp;s=solid">Face Expressionless</a>
+        /// <a href="https://fontawesome.com/icons/face-expressionless?f=sharp&amp;s=light">Face Expressionless</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceExpressionless;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-expressionless?f=classic&amp;s=solid">Face Expressionless</a>
+        /// <a href="https://fontawesome.com/icons/face-expressionless?f=sharp&amp;s=regular">Face Expressionless</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceExpressionless;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-expressionless?f=classic&amp;s=solid">Face Expressionless</a>
+        /// <a href="https://fontawesome.com/icons/face-expressionless?f=sharp&amp;s=solid">Face Expressionless</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceExpressionless;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-expressionless?f=classic&amp;s=solid">Face Expressionless</a>
+        /// <a href="https://fontawesome.com/icons/face-expressionless?f=sharp&amp;s=thin">Face Expressionless</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceExpressionless;
     }
@@ -917,11 +917,11 @@ public static partial class FaEmoji
     public static partial class FaceEyesXmarks
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=classic&amp;s=solid">Face Eyes Xmarks</a>
+        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=classic&amp;s=light">Face Eyes Xmarks</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceEyesXmarks;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=classic&amp;s=solid">Face Eyes Xmarks</a>
+        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=classic&amp;s=regular">Face Eyes Xmarks</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceEyesXmarks;
         /// <summary>
@@ -929,27 +929,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceEyesXmarks;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=classic&amp;s=solid">Face Eyes Xmarks</a>
+        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=classic&amp;s=thin">Face Eyes Xmarks</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceEyesXmarks;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=classic&amp;s=solid">Face Eyes Xmarks</a>
+        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=classic&amp;s=duotone">Face Eyes Xmarks</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceEyesXmarks;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=classic&amp;s=solid">Face Eyes Xmarks</a>
+        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=sharp&amp;s=light">Face Eyes Xmarks</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceEyesXmarks;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=classic&amp;s=solid">Face Eyes Xmarks</a>
+        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=sharp&amp;s=regular">Face Eyes Xmarks</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceEyesXmarks;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=classic&amp;s=solid">Face Eyes Xmarks</a>
+        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=sharp&amp;s=solid">Face Eyes Xmarks</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceEyesXmarks;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=classic&amp;s=solid">Face Eyes Xmarks</a>
+        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=sharp&amp;s=thin">Face Eyes Xmarks</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceEyesXmarks;
     }
@@ -960,11 +960,11 @@ public static partial class FaEmoji
     public static partial class FaceFearful
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-fearful?f=classic&amp;s=solid">Face Fearful</a>
+        /// <a href="https://fontawesome.com/icons/face-fearful?f=classic&amp;s=light">Face Fearful</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceFearful;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-fearful?f=classic&amp;s=solid">Face Fearful</a>
+        /// <a href="https://fontawesome.com/icons/face-fearful?f=classic&amp;s=regular">Face Fearful</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceFearful;
         /// <summary>
@@ -972,27 +972,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceFearful;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-fearful?f=classic&amp;s=solid">Face Fearful</a>
+        /// <a href="https://fontawesome.com/icons/face-fearful?f=classic&amp;s=thin">Face Fearful</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceFearful;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-fearful?f=classic&amp;s=solid">Face Fearful</a>
+        /// <a href="https://fontawesome.com/icons/face-fearful?f=classic&amp;s=duotone">Face Fearful</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceFearful;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-fearful?f=classic&amp;s=solid">Face Fearful</a>
+        /// <a href="https://fontawesome.com/icons/face-fearful?f=sharp&amp;s=light">Face Fearful</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceFearful;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-fearful?f=classic&amp;s=solid">Face Fearful</a>
+        /// <a href="https://fontawesome.com/icons/face-fearful?f=sharp&amp;s=regular">Face Fearful</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceFearful;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-fearful?f=classic&amp;s=solid">Face Fearful</a>
+        /// <a href="https://fontawesome.com/icons/face-fearful?f=sharp&amp;s=solid">Face Fearful</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceFearful;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-fearful?f=classic&amp;s=solid">Face Fearful</a>
+        /// <a href="https://fontawesome.com/icons/face-fearful?f=sharp&amp;s=thin">Face Fearful</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceFearful;
     }
@@ -1003,11 +1003,11 @@ public static partial class FaEmoji
     public static partial class FaceFlushed
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-flushed?f=classic&amp;s=solid">Face Flushed</a>
+        /// <a href="https://fontawesome.com/icons/face-flushed?f=classic&amp;s=light">Face Flushed</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceFlushed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-flushed?f=classic&amp;s=solid">Face Flushed</a>
+        /// <a href="https://fontawesome.com/icons/face-flushed?f=classic&amp;s=regular">Face Flushed</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceFlushed;
         /// <summary>
@@ -1015,27 +1015,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceFlushed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-flushed?f=classic&amp;s=solid">Face Flushed</a>
+        /// <a href="https://fontawesome.com/icons/face-flushed?f=classic&amp;s=thin">Face Flushed</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceFlushed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-flushed?f=classic&amp;s=solid">Face Flushed</a>
+        /// <a href="https://fontawesome.com/icons/face-flushed?f=classic&amp;s=duotone">Face Flushed</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceFlushed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-flushed?f=classic&amp;s=solid">Face Flushed</a>
+        /// <a href="https://fontawesome.com/icons/face-flushed?f=sharp&amp;s=light">Face Flushed</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceFlushed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-flushed?f=classic&amp;s=solid">Face Flushed</a>
+        /// <a href="https://fontawesome.com/icons/face-flushed?f=sharp&amp;s=regular">Face Flushed</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceFlushed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-flushed?f=classic&amp;s=solid">Face Flushed</a>
+        /// <a href="https://fontawesome.com/icons/face-flushed?f=sharp&amp;s=solid">Face Flushed</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceFlushed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-flushed?f=classic&amp;s=solid">Face Flushed</a>
+        /// <a href="https://fontawesome.com/icons/face-flushed?f=sharp&amp;s=thin">Face Flushed</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceFlushed;
     }
@@ -1046,11 +1046,11 @@ public static partial class FaEmoji
     public static partial class FaceFrown
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown?f=classic&amp;s=solid">Face Frown</a>
+        /// <a href="https://fontawesome.com/icons/face-frown?f=classic&amp;s=light">Face Frown</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceFrown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown?f=classic&amp;s=solid">Face Frown</a>
+        /// <a href="https://fontawesome.com/icons/face-frown?f=classic&amp;s=regular">Face Frown</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceFrown;
         /// <summary>
@@ -1058,27 +1058,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceFrown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown?f=classic&amp;s=solid">Face Frown</a>
+        /// <a href="https://fontawesome.com/icons/face-frown?f=classic&amp;s=thin">Face Frown</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceFrown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown?f=classic&amp;s=solid">Face Frown</a>
+        /// <a href="https://fontawesome.com/icons/face-frown?f=classic&amp;s=duotone">Face Frown</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceFrown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown?f=classic&amp;s=solid">Face Frown</a>
+        /// <a href="https://fontawesome.com/icons/face-frown?f=sharp&amp;s=light">Face Frown</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceFrown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown?f=classic&amp;s=solid">Face Frown</a>
+        /// <a href="https://fontawesome.com/icons/face-frown?f=sharp&amp;s=regular">Face Frown</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceFrown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown?f=classic&amp;s=solid">Face Frown</a>
+        /// <a href="https://fontawesome.com/icons/face-frown?f=sharp&amp;s=solid">Face Frown</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceFrown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown?f=classic&amp;s=solid">Face Frown</a>
+        /// <a href="https://fontawesome.com/icons/face-frown?f=sharp&amp;s=thin">Face Frown</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceFrown;
     }
@@ -1089,11 +1089,11 @@ public static partial class FaEmoji
     public static partial class FaceFrownOpen
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-open?f=classic&amp;s=solid">Face Frown Open</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-open?f=classic&amp;s=light">Face Frown Open</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceFrownOpen;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-open?f=classic&amp;s=solid">Face Frown Open</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-open?f=classic&amp;s=regular">Face Frown Open</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceFrownOpen;
         /// <summary>
@@ -1101,27 +1101,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceFrownOpen;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-open?f=classic&amp;s=solid">Face Frown Open</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-open?f=classic&amp;s=thin">Face Frown Open</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceFrownOpen;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-open?f=classic&amp;s=solid">Face Frown Open</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-open?f=classic&amp;s=duotone">Face Frown Open</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceFrownOpen;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-open?f=classic&amp;s=solid">Face Frown Open</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-open?f=sharp&amp;s=light">Face Frown Open</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceFrownOpen;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-open?f=classic&amp;s=solid">Face Frown Open</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-open?f=sharp&amp;s=regular">Face Frown Open</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceFrownOpen;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-open?f=classic&amp;s=solid">Face Frown Open</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-open?f=sharp&amp;s=solid">Face Frown Open</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceFrownOpen;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-open?f=classic&amp;s=solid">Face Frown Open</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-open?f=sharp&amp;s=thin">Face Frown Open</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceFrownOpen;
     }
@@ -1132,11 +1132,11 @@ public static partial class FaEmoji
     public static partial class FaceFrownSlight
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=classic&amp;s=solid">Face Frown Slight</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=classic&amp;s=light">Face Frown Slight</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceFrownSlight;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=classic&amp;s=solid">Face Frown Slight</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=classic&amp;s=regular">Face Frown Slight</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceFrownSlight;
         /// <summary>
@@ -1144,27 +1144,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceFrownSlight;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=classic&amp;s=solid">Face Frown Slight</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=classic&amp;s=thin">Face Frown Slight</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceFrownSlight;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=classic&amp;s=solid">Face Frown Slight</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=classic&amp;s=duotone">Face Frown Slight</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceFrownSlight;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=classic&amp;s=solid">Face Frown Slight</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=sharp&amp;s=light">Face Frown Slight</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceFrownSlight;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=classic&amp;s=solid">Face Frown Slight</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=sharp&amp;s=regular">Face Frown Slight</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceFrownSlight;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=classic&amp;s=solid">Face Frown Slight</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=sharp&amp;s=solid">Face Frown Slight</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceFrownSlight;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=classic&amp;s=solid">Face Frown Slight</a>
+        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=sharp&amp;s=thin">Face Frown Slight</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceFrownSlight;
     }
@@ -1175,11 +1175,11 @@ public static partial class FaEmoji
     public static partial class FaceGlasses
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-glasses?f=classic&amp;s=solid">Face Glasses</a>
+        /// <a href="https://fontawesome.com/icons/face-glasses?f=classic&amp;s=light">Face Glasses</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceGlasses;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-glasses?f=classic&amp;s=solid">Face Glasses</a>
+        /// <a href="https://fontawesome.com/icons/face-glasses?f=classic&amp;s=regular">Face Glasses</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceGlasses;
         /// <summary>
@@ -1187,27 +1187,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceGlasses;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-glasses?f=classic&amp;s=solid">Face Glasses</a>
+        /// <a href="https://fontawesome.com/icons/face-glasses?f=classic&amp;s=thin">Face Glasses</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGlasses;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-glasses?f=classic&amp;s=solid">Face Glasses</a>
+        /// <a href="https://fontawesome.com/icons/face-glasses?f=classic&amp;s=duotone">Face Glasses</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceGlasses;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-glasses?f=classic&amp;s=solid">Face Glasses</a>
+        /// <a href="https://fontawesome.com/icons/face-glasses?f=sharp&amp;s=light">Face Glasses</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceGlasses;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-glasses?f=classic&amp;s=solid">Face Glasses</a>
+        /// <a href="https://fontawesome.com/icons/face-glasses?f=sharp&amp;s=regular">Face Glasses</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceGlasses;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-glasses?f=classic&amp;s=solid">Face Glasses</a>
+        /// <a href="https://fontawesome.com/icons/face-glasses?f=sharp&amp;s=solid">Face Glasses</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceGlasses;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-glasses?f=classic&amp;s=solid">Face Glasses</a>
+        /// <a href="https://fontawesome.com/icons/face-glasses?f=sharp&amp;s=thin">Face Glasses</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGlasses;
     }
@@ -1218,11 +1218,11 @@ public static partial class FaEmoji
     public static partial class FaceGrimace
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grimace?f=classic&amp;s=solid">Face Grimace</a>
+        /// <a href="https://fontawesome.com/icons/face-grimace?f=classic&amp;s=light">Face Grimace</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceGrimace;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grimace?f=classic&amp;s=solid">Face Grimace</a>
+        /// <a href="https://fontawesome.com/icons/face-grimace?f=classic&amp;s=regular">Face Grimace</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceGrimace;
         /// <summary>
@@ -1230,27 +1230,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceGrimace;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grimace?f=classic&amp;s=solid">Face Grimace</a>
+        /// <a href="https://fontawesome.com/icons/face-grimace?f=classic&amp;s=thin">Face Grimace</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrimace;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grimace?f=classic&amp;s=solid">Face Grimace</a>
+        /// <a href="https://fontawesome.com/icons/face-grimace?f=classic&amp;s=duotone">Face Grimace</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceGrimace;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grimace?f=classic&amp;s=solid">Face Grimace</a>
+        /// <a href="https://fontawesome.com/icons/face-grimace?f=sharp&amp;s=light">Face Grimace</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceGrimace;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grimace?f=classic&amp;s=solid">Face Grimace</a>
+        /// <a href="https://fontawesome.com/icons/face-grimace?f=sharp&amp;s=regular">Face Grimace</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceGrimace;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grimace?f=classic&amp;s=solid">Face Grimace</a>
+        /// <a href="https://fontawesome.com/icons/face-grimace?f=sharp&amp;s=solid">Face Grimace</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceGrimace;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grimace?f=classic&amp;s=solid">Face Grimace</a>
+        /// <a href="https://fontawesome.com/icons/face-grimace?f=sharp&amp;s=thin">Face Grimace</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrimace;
     }
@@ -1261,11 +1261,11 @@ public static partial class FaEmoji
     public static partial class FaceGrin
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin?f=classic&amp;s=solid">Face Grin</a>
+        /// <a href="https://fontawesome.com/icons/face-grin?f=classic&amp;s=light">Face Grin</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceGrin;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin?f=classic&amp;s=solid">Face Grin</a>
+        /// <a href="https://fontawesome.com/icons/face-grin?f=classic&amp;s=regular">Face Grin</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceGrin;
         /// <summary>
@@ -1273,27 +1273,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceGrin;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin?f=classic&amp;s=solid">Face Grin</a>
+        /// <a href="https://fontawesome.com/icons/face-grin?f=classic&amp;s=thin">Face Grin</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrin;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin?f=classic&amp;s=solid">Face Grin</a>
+        /// <a href="https://fontawesome.com/icons/face-grin?f=classic&amp;s=duotone">Face Grin</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceGrin;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin?f=classic&amp;s=solid">Face Grin</a>
+        /// <a href="https://fontawesome.com/icons/face-grin?f=sharp&amp;s=light">Face Grin</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceGrin;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin?f=classic&amp;s=solid">Face Grin</a>
+        /// <a href="https://fontawesome.com/icons/face-grin?f=sharp&amp;s=regular">Face Grin</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceGrin;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin?f=classic&amp;s=solid">Face Grin</a>
+        /// <a href="https://fontawesome.com/icons/face-grin?f=sharp&amp;s=solid">Face Grin</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceGrin;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin?f=classic&amp;s=solid">Face Grin</a>
+        /// <a href="https://fontawesome.com/icons/face-grin?f=sharp&amp;s=thin">Face Grin</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrin;
     }
@@ -1304,11 +1304,11 @@ public static partial class FaEmoji
     public static partial class FaceGrinBeam
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=classic&amp;s=solid">Face Grin Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=classic&amp;s=light">Face Grin Beam</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceGrinBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=classic&amp;s=solid">Face Grin Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=classic&amp;s=regular">Face Grin Beam</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceGrinBeam;
         /// <summary>
@@ -1316,27 +1316,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceGrinBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=classic&amp;s=solid">Face Grin Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=classic&amp;s=thin">Face Grin Beam</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=classic&amp;s=solid">Face Grin Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=classic&amp;s=duotone">Face Grin Beam</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceGrinBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=classic&amp;s=solid">Face Grin Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=sharp&amp;s=light">Face Grin Beam</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceGrinBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=classic&amp;s=solid">Face Grin Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=sharp&amp;s=regular">Face Grin Beam</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceGrinBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=classic&amp;s=solid">Face Grin Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=sharp&amp;s=solid">Face Grin Beam</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceGrinBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=classic&amp;s=solid">Face Grin Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=sharp&amp;s=thin">Face Grin Beam</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinBeam;
     }
@@ -1347,11 +1347,11 @@ public static partial class FaEmoji
     public static partial class FaceGrinBeamSweat
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=classic&amp;s=solid">Face Grin Beam Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=classic&amp;s=light">Face Grin Beam Sweat</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceGrinBeamSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=classic&amp;s=solid">Face Grin Beam Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=classic&amp;s=regular">Face Grin Beam Sweat</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceGrinBeamSweat;
         /// <summary>
@@ -1359,27 +1359,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceGrinBeamSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=classic&amp;s=solid">Face Grin Beam Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=classic&amp;s=thin">Face Grin Beam Sweat</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinBeamSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=classic&amp;s=solid">Face Grin Beam Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=classic&amp;s=duotone">Face Grin Beam Sweat</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceGrinBeamSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=classic&amp;s=solid">Face Grin Beam Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=sharp&amp;s=light">Face Grin Beam Sweat</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceGrinBeamSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=classic&amp;s=solid">Face Grin Beam Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=sharp&amp;s=regular">Face Grin Beam Sweat</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceGrinBeamSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=classic&amp;s=solid">Face Grin Beam Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=sharp&amp;s=solid">Face Grin Beam Sweat</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceGrinBeamSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=classic&amp;s=solid">Face Grin Beam Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=sharp&amp;s=thin">Face Grin Beam Sweat</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinBeamSweat;
     }
@@ -1390,11 +1390,11 @@ public static partial class FaEmoji
     public static partial class FaceGrinHearts
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=solid">Face Grin Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=light">Face Grin Hearts</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceGrinHearts;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=solid">Face Grin Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=regular">Face Grin Hearts</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceGrinHearts;
         /// <summary>
@@ -1402,27 +1402,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceGrinHearts;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=solid">Face Grin Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=thin">Face Grin Hearts</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinHearts;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=solid">Face Grin Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=duotone">Face Grin Hearts</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceGrinHearts;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=solid">Face Grin Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=sharp&amp;s=light">Face Grin Hearts</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceGrinHearts;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=solid">Face Grin Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=sharp&amp;s=regular">Face Grin Hearts</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceGrinHearts;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=solid">Face Grin Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=sharp&amp;s=solid">Face Grin Hearts</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceGrinHearts;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=classic&amp;s=solid">Face Grin Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=sharp&amp;s=thin">Face Grin Hearts</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinHearts;
     }
@@ -1433,11 +1433,11 @@ public static partial class FaEmoji
     public static partial class FaceGrinSquint
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=classic&amp;s=solid">Face Grin Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=classic&amp;s=light">Face Grin Squint</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceGrinSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=classic&amp;s=solid">Face Grin Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=classic&amp;s=regular">Face Grin Squint</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceGrinSquint;
         /// <summary>
@@ -1445,27 +1445,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceGrinSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=classic&amp;s=solid">Face Grin Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=classic&amp;s=thin">Face Grin Squint</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=classic&amp;s=solid">Face Grin Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=classic&amp;s=duotone">Face Grin Squint</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceGrinSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=classic&amp;s=solid">Face Grin Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=sharp&amp;s=light">Face Grin Squint</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceGrinSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=classic&amp;s=solid">Face Grin Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=sharp&amp;s=regular">Face Grin Squint</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceGrinSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=classic&amp;s=solid">Face Grin Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=sharp&amp;s=solid">Face Grin Squint</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceGrinSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=classic&amp;s=solid">Face Grin Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=sharp&amp;s=thin">Face Grin Squint</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinSquint;
     }
@@ -1476,11 +1476,11 @@ public static partial class FaEmoji
     public static partial class FaceGrinSquintTears
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=classic&amp;s=solid">Face Grin Squint Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=classic&amp;s=light">Face Grin Squint Tears</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceGrinSquintTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=classic&amp;s=solid">Face Grin Squint Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=classic&amp;s=regular">Face Grin Squint Tears</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceGrinSquintTears;
         /// <summary>
@@ -1488,27 +1488,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceGrinSquintTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=classic&amp;s=solid">Face Grin Squint Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=classic&amp;s=thin">Face Grin Squint Tears</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinSquintTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=classic&amp;s=solid">Face Grin Squint Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=classic&amp;s=duotone">Face Grin Squint Tears</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceGrinSquintTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=classic&amp;s=solid">Face Grin Squint Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=sharp&amp;s=light">Face Grin Squint Tears</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceGrinSquintTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=classic&amp;s=solid">Face Grin Squint Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=sharp&amp;s=regular">Face Grin Squint Tears</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceGrinSquintTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=classic&amp;s=solid">Face Grin Squint Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=sharp&amp;s=solid">Face Grin Squint Tears</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceGrinSquintTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=classic&amp;s=solid">Face Grin Squint Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=sharp&amp;s=thin">Face Grin Squint Tears</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinSquintTears;
     }
@@ -1519,11 +1519,11 @@ public static partial class FaEmoji
     public static partial class FaceGrinStars
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=classic&amp;s=solid">Face Grin Stars</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=classic&amp;s=light">Face Grin Stars</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceGrinStars;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=classic&amp;s=solid">Face Grin Stars</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=classic&amp;s=regular">Face Grin Stars</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceGrinStars;
         /// <summary>
@@ -1531,27 +1531,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceGrinStars;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=classic&amp;s=solid">Face Grin Stars</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=classic&amp;s=thin">Face Grin Stars</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinStars;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=classic&amp;s=solid">Face Grin Stars</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=classic&amp;s=duotone">Face Grin Stars</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceGrinStars;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=classic&amp;s=solid">Face Grin Stars</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=sharp&amp;s=light">Face Grin Stars</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceGrinStars;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=classic&amp;s=solid">Face Grin Stars</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=sharp&amp;s=regular">Face Grin Stars</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceGrinStars;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=classic&amp;s=solid">Face Grin Stars</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=sharp&amp;s=solid">Face Grin Stars</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceGrinStars;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=classic&amp;s=solid">Face Grin Stars</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=sharp&amp;s=thin">Face Grin Stars</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinStars;
     }
@@ -1562,11 +1562,11 @@ public static partial class FaEmoji
     public static partial class FaceGrinTears
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=classic&amp;s=solid">Face Grin Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=classic&amp;s=light">Face Grin Tears</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceGrinTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=classic&amp;s=solid">Face Grin Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=classic&amp;s=regular">Face Grin Tears</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceGrinTears;
         /// <summary>
@@ -1574,27 +1574,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceGrinTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=classic&amp;s=solid">Face Grin Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=classic&amp;s=thin">Face Grin Tears</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=classic&amp;s=solid">Face Grin Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=classic&amp;s=duotone">Face Grin Tears</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceGrinTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=classic&amp;s=solid">Face Grin Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=sharp&amp;s=light">Face Grin Tears</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceGrinTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=classic&amp;s=solid">Face Grin Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=sharp&amp;s=regular">Face Grin Tears</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceGrinTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=classic&amp;s=solid">Face Grin Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=sharp&amp;s=solid">Face Grin Tears</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceGrinTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=classic&amp;s=solid">Face Grin Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=sharp&amp;s=thin">Face Grin Tears</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinTears;
     }
@@ -1605,11 +1605,11 @@ public static partial class FaEmoji
     public static partial class FaceGrinTongue
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=classic&amp;s=solid">Face Grin Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=classic&amp;s=light">Face Grin Tongue</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceGrinTongue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=classic&amp;s=solid">Face Grin Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=classic&amp;s=regular">Face Grin Tongue</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceGrinTongue;
         /// <summary>
@@ -1617,27 +1617,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceGrinTongue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=classic&amp;s=solid">Face Grin Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=classic&amp;s=thin">Face Grin Tongue</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinTongue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=classic&amp;s=solid">Face Grin Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=classic&amp;s=duotone">Face Grin Tongue</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceGrinTongue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=classic&amp;s=solid">Face Grin Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=sharp&amp;s=light">Face Grin Tongue</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceGrinTongue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=classic&amp;s=solid">Face Grin Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=sharp&amp;s=regular">Face Grin Tongue</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceGrinTongue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=classic&amp;s=solid">Face Grin Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=sharp&amp;s=solid">Face Grin Tongue</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceGrinTongue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=classic&amp;s=solid">Face Grin Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=sharp&amp;s=thin">Face Grin Tongue</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinTongue;
     }
@@ -1648,11 +1648,11 @@ public static partial class FaEmoji
     public static partial class FaceGrinTongueSquint
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=classic&amp;s=solid">Face Grin Tongue Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=classic&amp;s=light">Face Grin Tongue Squint</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceGrinTongueSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=classic&amp;s=solid">Face Grin Tongue Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=classic&amp;s=regular">Face Grin Tongue Squint</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceGrinTongueSquint;
         /// <summary>
@@ -1660,27 +1660,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceGrinTongueSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=classic&amp;s=solid">Face Grin Tongue Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=classic&amp;s=thin">Face Grin Tongue Squint</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinTongueSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=classic&amp;s=solid">Face Grin Tongue Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=classic&amp;s=duotone">Face Grin Tongue Squint</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceGrinTongueSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=classic&amp;s=solid">Face Grin Tongue Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=sharp&amp;s=light">Face Grin Tongue Squint</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceGrinTongueSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=classic&amp;s=solid">Face Grin Tongue Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=sharp&amp;s=regular">Face Grin Tongue Squint</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceGrinTongueSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=classic&amp;s=solid">Face Grin Tongue Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=sharp&amp;s=solid">Face Grin Tongue Squint</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceGrinTongueSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=classic&amp;s=solid">Face Grin Tongue Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=sharp&amp;s=thin">Face Grin Tongue Squint</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinTongueSquint;
     }
@@ -1691,11 +1691,11 @@ public static partial class FaEmoji
     public static partial class FaceGrinTongueWink
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=classic&amp;s=solid">Face Grin Tongue Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=classic&amp;s=light">Face Grin Tongue Wink</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceGrinTongueWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=classic&amp;s=solid">Face Grin Tongue Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=classic&amp;s=regular">Face Grin Tongue Wink</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceGrinTongueWink;
         /// <summary>
@@ -1703,27 +1703,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceGrinTongueWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=classic&amp;s=solid">Face Grin Tongue Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=classic&amp;s=thin">Face Grin Tongue Wink</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinTongueWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=classic&amp;s=solid">Face Grin Tongue Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=classic&amp;s=duotone">Face Grin Tongue Wink</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceGrinTongueWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=classic&amp;s=solid">Face Grin Tongue Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=sharp&amp;s=light">Face Grin Tongue Wink</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceGrinTongueWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=classic&amp;s=solid">Face Grin Tongue Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=sharp&amp;s=regular">Face Grin Tongue Wink</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceGrinTongueWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=classic&amp;s=solid">Face Grin Tongue Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=sharp&amp;s=solid">Face Grin Tongue Wink</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceGrinTongueWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=classic&amp;s=solid">Face Grin Tongue Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=sharp&amp;s=thin">Face Grin Tongue Wink</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinTongueWink;
     }
@@ -1734,11 +1734,11 @@ public static partial class FaEmoji
     public static partial class FaceGrinWide
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=classic&amp;s=solid">Face Grin Wide</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=classic&amp;s=light">Face Grin Wide</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceGrinWide;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=classic&amp;s=solid">Face Grin Wide</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=classic&amp;s=regular">Face Grin Wide</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceGrinWide;
         /// <summary>
@@ -1746,27 +1746,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceGrinWide;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=classic&amp;s=solid">Face Grin Wide</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=classic&amp;s=thin">Face Grin Wide</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinWide;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=classic&amp;s=solid">Face Grin Wide</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=classic&amp;s=duotone">Face Grin Wide</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceGrinWide;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=classic&amp;s=solid">Face Grin Wide</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=sharp&amp;s=light">Face Grin Wide</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceGrinWide;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=classic&amp;s=solid">Face Grin Wide</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=sharp&amp;s=regular">Face Grin Wide</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceGrinWide;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=classic&amp;s=solid">Face Grin Wide</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=sharp&amp;s=solid">Face Grin Wide</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceGrinWide;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=classic&amp;s=solid">Face Grin Wide</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=sharp&amp;s=thin">Face Grin Wide</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinWide;
     }
@@ -1777,11 +1777,11 @@ public static partial class FaEmoji
     public static partial class FaceGrinWink
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=classic&amp;s=solid">Face Grin Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=classic&amp;s=light">Face Grin Wink</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceGrinWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=classic&amp;s=solid">Face Grin Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=classic&amp;s=regular">Face Grin Wink</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceGrinWink;
         /// <summary>
@@ -1789,27 +1789,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceGrinWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=classic&amp;s=solid">Face Grin Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=classic&amp;s=thin">Face Grin Wink</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=classic&amp;s=solid">Face Grin Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=classic&amp;s=duotone">Face Grin Wink</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceGrinWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=classic&amp;s=solid">Face Grin Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=sharp&amp;s=light">Face Grin Wink</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceGrinWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=classic&amp;s=solid">Face Grin Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=sharp&amp;s=regular">Face Grin Wink</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceGrinWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=classic&amp;s=solid">Face Grin Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=sharp&amp;s=solid">Face Grin Wink</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceGrinWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=classic&amp;s=solid">Face Grin Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=sharp&amp;s=thin">Face Grin Wink</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinWink;
     }
@@ -1820,11 +1820,11 @@ public static partial class FaEmoji
     public static partial class FaceHandOverMouth
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=classic&amp;s=solid">Face Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=classic&amp;s=light">Face Hand Over Mouth</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceHandOverMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=classic&amp;s=solid">Face Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=classic&amp;s=regular">Face Hand Over Mouth</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceHandOverMouth;
         /// <summary>
@@ -1832,27 +1832,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceHandOverMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=classic&amp;s=solid">Face Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=classic&amp;s=thin">Face Hand Over Mouth</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceHandOverMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=classic&amp;s=solid">Face Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=classic&amp;s=duotone">Face Hand Over Mouth</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceHandOverMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=classic&amp;s=solid">Face Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=sharp&amp;s=light">Face Hand Over Mouth</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceHandOverMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=classic&amp;s=solid">Face Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=sharp&amp;s=regular">Face Hand Over Mouth</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceHandOverMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=classic&amp;s=solid">Face Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=sharp&amp;s=solid">Face Hand Over Mouth</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceHandOverMouth;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=classic&amp;s=solid">Face Hand Over Mouth</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=sharp&amp;s=thin">Face Hand Over Mouth</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceHandOverMouth;
     }
@@ -1863,11 +1863,11 @@ public static partial class FaEmoji
     public static partial class FaceHandPeeking
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=classic&amp;s=solid">Face Hand Peeking</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=classic&amp;s=light">Face Hand Peeking</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceHandPeeking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=classic&amp;s=solid">Face Hand Peeking</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=classic&amp;s=regular">Face Hand Peeking</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceHandPeeking;
         /// <summary>
@@ -1875,27 +1875,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceHandPeeking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=classic&amp;s=solid">Face Hand Peeking</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=classic&amp;s=thin">Face Hand Peeking</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceHandPeeking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=classic&amp;s=solid">Face Hand Peeking</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=classic&amp;s=duotone">Face Hand Peeking</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceHandPeeking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=classic&amp;s=solid">Face Hand Peeking</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=sharp&amp;s=light">Face Hand Peeking</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceHandPeeking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=classic&amp;s=solid">Face Hand Peeking</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=sharp&amp;s=regular">Face Hand Peeking</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceHandPeeking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=classic&amp;s=solid">Face Hand Peeking</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=sharp&amp;s=solid">Face Hand Peeking</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceHandPeeking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=classic&amp;s=solid">Face Hand Peeking</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=sharp&amp;s=thin">Face Hand Peeking</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceHandPeeking;
     }
@@ -1906,11 +1906,11 @@ public static partial class FaEmoji
     public static partial class FaceHandYawn
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=classic&amp;s=solid">Face Hand Yawn</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=classic&amp;s=light">Face Hand Yawn</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceHandYawn;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=classic&amp;s=solid">Face Hand Yawn</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=classic&amp;s=regular">Face Hand Yawn</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceHandYawn;
         /// <summary>
@@ -1918,27 +1918,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceHandYawn;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=classic&amp;s=solid">Face Hand Yawn</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=classic&amp;s=thin">Face Hand Yawn</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceHandYawn;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=classic&amp;s=solid">Face Hand Yawn</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=classic&amp;s=duotone">Face Hand Yawn</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceHandYawn;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=classic&amp;s=solid">Face Hand Yawn</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=sharp&amp;s=light">Face Hand Yawn</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceHandYawn;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=classic&amp;s=solid">Face Hand Yawn</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=sharp&amp;s=regular">Face Hand Yawn</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceHandYawn;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=classic&amp;s=solid">Face Hand Yawn</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=sharp&amp;s=solid">Face Hand Yawn</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceHandYawn;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=classic&amp;s=solid">Face Hand Yawn</a>
+        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=sharp&amp;s=thin">Face Hand Yawn</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceHandYawn;
     }
@@ -1949,11 +1949,11 @@ public static partial class FaEmoji
     public static partial class FaceHeadBandage
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=classic&amp;s=solid">Face Head Bandage</a>
+        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=classic&amp;s=light">Face Head Bandage</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceHeadBandage;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=classic&amp;s=solid">Face Head Bandage</a>
+        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=classic&amp;s=regular">Face Head Bandage</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceHeadBandage;
         /// <summary>
@@ -1961,27 +1961,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceHeadBandage;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=classic&amp;s=solid">Face Head Bandage</a>
+        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=classic&amp;s=thin">Face Head Bandage</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceHeadBandage;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=classic&amp;s=solid">Face Head Bandage</a>
+        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=classic&amp;s=duotone">Face Head Bandage</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceHeadBandage;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=classic&amp;s=solid">Face Head Bandage</a>
+        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=sharp&amp;s=light">Face Head Bandage</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceHeadBandage;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=classic&amp;s=solid">Face Head Bandage</a>
+        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=sharp&amp;s=regular">Face Head Bandage</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceHeadBandage;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=classic&amp;s=solid">Face Head Bandage</a>
+        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=sharp&amp;s=solid">Face Head Bandage</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceHeadBandage;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=classic&amp;s=solid">Face Head Bandage</a>
+        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=sharp&amp;s=thin">Face Head Bandage</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceHeadBandage;
     }
@@ -1992,11 +1992,11 @@ public static partial class FaEmoji
     public static partial class FaceHoldingBackTears
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=classic&amp;s=solid">Face Holding Back Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=classic&amp;s=light">Face Holding Back Tears</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceHoldingBackTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=classic&amp;s=solid">Face Holding Back Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=classic&amp;s=regular">Face Holding Back Tears</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceHoldingBackTears;
         /// <summary>
@@ -2004,27 +2004,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceHoldingBackTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=classic&amp;s=solid">Face Holding Back Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=classic&amp;s=thin">Face Holding Back Tears</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceHoldingBackTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=classic&amp;s=solid">Face Holding Back Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=classic&amp;s=duotone">Face Holding Back Tears</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceHoldingBackTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=classic&amp;s=solid">Face Holding Back Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=sharp&amp;s=light">Face Holding Back Tears</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceHoldingBackTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=classic&amp;s=solid">Face Holding Back Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=sharp&amp;s=regular">Face Holding Back Tears</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceHoldingBackTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=classic&amp;s=solid">Face Holding Back Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=sharp&amp;s=solid">Face Holding Back Tears</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceHoldingBackTears;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=classic&amp;s=solid">Face Holding Back Tears</a>
+        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=sharp&amp;s=thin">Face Holding Back Tears</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceHoldingBackTears;
     }
@@ -2035,11 +2035,11 @@ public static partial class FaEmoji
     public static partial class FaceHushed
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hushed?f=classic&amp;s=solid">Face Hushed</a>
+        /// <a href="https://fontawesome.com/icons/face-hushed?f=classic&amp;s=light">Face Hushed</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceHushed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hushed?f=classic&amp;s=solid">Face Hushed</a>
+        /// <a href="https://fontawesome.com/icons/face-hushed?f=classic&amp;s=regular">Face Hushed</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceHushed;
         /// <summary>
@@ -2047,27 +2047,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceHushed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hushed?f=classic&amp;s=solid">Face Hushed</a>
+        /// <a href="https://fontawesome.com/icons/face-hushed?f=classic&amp;s=thin">Face Hushed</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceHushed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hushed?f=classic&amp;s=solid">Face Hushed</a>
+        /// <a href="https://fontawesome.com/icons/face-hushed?f=classic&amp;s=duotone">Face Hushed</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceHushed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hushed?f=classic&amp;s=solid">Face Hushed</a>
+        /// <a href="https://fontawesome.com/icons/face-hushed?f=sharp&amp;s=light">Face Hushed</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceHushed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hushed?f=classic&amp;s=solid">Face Hushed</a>
+        /// <a href="https://fontawesome.com/icons/face-hushed?f=sharp&amp;s=regular">Face Hushed</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceHushed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hushed?f=classic&amp;s=solid">Face Hushed</a>
+        /// <a href="https://fontawesome.com/icons/face-hushed?f=sharp&amp;s=solid">Face Hushed</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceHushed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-hushed?f=classic&amp;s=solid">Face Hushed</a>
+        /// <a href="https://fontawesome.com/icons/face-hushed?f=sharp&amp;s=thin">Face Hushed</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceHushed;
     }
@@ -2078,11 +2078,11 @@ public static partial class FaEmoji
     public static partial class FaceIcicles
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-icicles?f=classic&amp;s=solid">Face Icicles</a>
+        /// <a href="https://fontawesome.com/icons/face-icicles?f=classic&amp;s=light">Face Icicles</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceIcicles;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-icicles?f=classic&amp;s=solid">Face Icicles</a>
+        /// <a href="https://fontawesome.com/icons/face-icicles?f=classic&amp;s=regular">Face Icicles</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceIcicles;
         /// <summary>
@@ -2090,27 +2090,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceIcicles;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-icicles?f=classic&amp;s=solid">Face Icicles</a>
+        /// <a href="https://fontawesome.com/icons/face-icicles?f=classic&amp;s=thin">Face Icicles</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceIcicles;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-icicles?f=classic&amp;s=solid">Face Icicles</a>
+        /// <a href="https://fontawesome.com/icons/face-icicles?f=classic&amp;s=duotone">Face Icicles</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceIcicles;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-icicles?f=classic&amp;s=solid">Face Icicles</a>
+        /// <a href="https://fontawesome.com/icons/face-icicles?f=sharp&amp;s=light">Face Icicles</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceIcicles;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-icicles?f=classic&amp;s=solid">Face Icicles</a>
+        /// <a href="https://fontawesome.com/icons/face-icicles?f=sharp&amp;s=regular">Face Icicles</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceIcicles;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-icicles?f=classic&amp;s=solid">Face Icicles</a>
+        /// <a href="https://fontawesome.com/icons/face-icicles?f=sharp&amp;s=solid">Face Icicles</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceIcicles;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-icicles?f=classic&amp;s=solid">Face Icicles</a>
+        /// <a href="https://fontawesome.com/icons/face-icicles?f=sharp&amp;s=thin">Face Icicles</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceIcicles;
     }
@@ -2121,11 +2121,11 @@ public static partial class FaEmoji
     public static partial class FaceKiss
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss?f=classic&amp;s=solid">Face Kiss</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss?f=classic&amp;s=light">Face Kiss</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceKiss;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss?f=classic&amp;s=solid">Face Kiss</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss?f=classic&amp;s=regular">Face Kiss</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceKiss;
         /// <summary>
@@ -2133,27 +2133,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceKiss;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss?f=classic&amp;s=solid">Face Kiss</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss?f=classic&amp;s=thin">Face Kiss</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceKiss;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss?f=classic&amp;s=solid">Face Kiss</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss?f=classic&amp;s=duotone">Face Kiss</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceKiss;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss?f=classic&amp;s=solid">Face Kiss</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss?f=sharp&amp;s=light">Face Kiss</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceKiss;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss?f=classic&amp;s=solid">Face Kiss</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss?f=sharp&amp;s=regular">Face Kiss</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceKiss;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss?f=classic&amp;s=solid">Face Kiss</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss?f=sharp&amp;s=solid">Face Kiss</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceKiss;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss?f=classic&amp;s=solid">Face Kiss</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss?f=sharp&amp;s=thin">Face Kiss</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceKiss;
     }
@@ -2164,11 +2164,11 @@ public static partial class FaEmoji
     public static partial class FaceKissBeam
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=classic&amp;s=solid">Face Kiss Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=classic&amp;s=light">Face Kiss Beam</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceKissBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=classic&amp;s=solid">Face Kiss Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=classic&amp;s=regular">Face Kiss Beam</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceKissBeam;
         /// <summary>
@@ -2176,27 +2176,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceKissBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=classic&amp;s=solid">Face Kiss Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=classic&amp;s=thin">Face Kiss Beam</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceKissBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=classic&amp;s=solid">Face Kiss Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=classic&amp;s=duotone">Face Kiss Beam</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceKissBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=classic&amp;s=solid">Face Kiss Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=sharp&amp;s=light">Face Kiss Beam</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceKissBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=classic&amp;s=solid">Face Kiss Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=sharp&amp;s=regular">Face Kiss Beam</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceKissBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=classic&amp;s=solid">Face Kiss Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=sharp&amp;s=solid">Face Kiss Beam</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceKissBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=classic&amp;s=solid">Face Kiss Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=sharp&amp;s=thin">Face Kiss Beam</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceKissBeam;
     }
@@ -2207,11 +2207,11 @@ public static partial class FaEmoji
     public static partial class FaceKissClosedEyes
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=classic&amp;s=solid">Face Kiss Closed Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=classic&amp;s=light">Face Kiss Closed Eyes</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceKissClosedEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=classic&amp;s=solid">Face Kiss Closed Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=classic&amp;s=regular">Face Kiss Closed Eyes</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceKissClosedEyes;
         /// <summary>
@@ -2219,27 +2219,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceKissClosedEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=classic&amp;s=solid">Face Kiss Closed Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=classic&amp;s=thin">Face Kiss Closed Eyes</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceKissClosedEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=classic&amp;s=solid">Face Kiss Closed Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=classic&amp;s=duotone">Face Kiss Closed Eyes</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceKissClosedEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=classic&amp;s=solid">Face Kiss Closed Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=sharp&amp;s=light">Face Kiss Closed Eyes</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceKissClosedEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=classic&amp;s=solid">Face Kiss Closed Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=sharp&amp;s=regular">Face Kiss Closed Eyes</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceKissClosedEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=classic&amp;s=solid">Face Kiss Closed Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=sharp&amp;s=solid">Face Kiss Closed Eyes</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceKissClosedEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=classic&amp;s=solid">Face Kiss Closed Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=sharp&amp;s=thin">Face Kiss Closed Eyes</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceKissClosedEyes;
     }
@@ -2250,11 +2250,11 @@ public static partial class FaEmoji
     public static partial class FaceKissWinkHeart
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=solid">Face Kiss Wink Heart</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=light">Face Kiss Wink Heart</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceKissWinkHeart;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=solid">Face Kiss Wink Heart</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=regular">Face Kiss Wink Heart</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceKissWinkHeart;
         /// <summary>
@@ -2262,27 +2262,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceKissWinkHeart;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=solid">Face Kiss Wink Heart</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=thin">Face Kiss Wink Heart</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceKissWinkHeart;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=solid">Face Kiss Wink Heart</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=duotone">Face Kiss Wink Heart</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceKissWinkHeart;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=solid">Face Kiss Wink Heart</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=sharp&amp;s=light">Face Kiss Wink Heart</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceKissWinkHeart;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=solid">Face Kiss Wink Heart</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=sharp&amp;s=regular">Face Kiss Wink Heart</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceKissWinkHeart;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=solid">Face Kiss Wink Heart</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=sharp&amp;s=solid">Face Kiss Wink Heart</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceKissWinkHeart;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=classic&amp;s=solid">Face Kiss Wink Heart</a>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=sharp&amp;s=thin">Face Kiss Wink Heart</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceKissWinkHeart;
     }
@@ -2293,11 +2293,11 @@ public static partial class FaEmoji
     public static partial class FaceLaugh
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh?f=classic&amp;s=solid">Face Laugh</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh?f=classic&amp;s=light">Face Laugh</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceLaugh;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh?f=classic&amp;s=solid">Face Laugh</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh?f=classic&amp;s=regular">Face Laugh</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceLaugh;
         /// <summary>
@@ -2305,27 +2305,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceLaugh;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh?f=classic&amp;s=solid">Face Laugh</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh?f=classic&amp;s=thin">Face Laugh</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceLaugh;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh?f=classic&amp;s=solid">Face Laugh</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh?f=classic&amp;s=duotone">Face Laugh</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceLaugh;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh?f=classic&amp;s=solid">Face Laugh</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh?f=sharp&amp;s=light">Face Laugh</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceLaugh;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh?f=classic&amp;s=solid">Face Laugh</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh?f=sharp&amp;s=regular">Face Laugh</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceLaugh;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh?f=classic&amp;s=solid">Face Laugh</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh?f=sharp&amp;s=solid">Face Laugh</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceLaugh;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh?f=classic&amp;s=solid">Face Laugh</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh?f=sharp&amp;s=thin">Face Laugh</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceLaugh;
     }
@@ -2336,11 +2336,11 @@ public static partial class FaEmoji
     public static partial class FaceLaughBeam
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=classic&amp;s=solid">Face Laugh Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=classic&amp;s=light">Face Laugh Beam</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceLaughBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=classic&amp;s=solid">Face Laugh Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=classic&amp;s=regular">Face Laugh Beam</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceLaughBeam;
         /// <summary>
@@ -2348,27 +2348,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceLaughBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=classic&amp;s=solid">Face Laugh Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=classic&amp;s=thin">Face Laugh Beam</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceLaughBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=classic&amp;s=solid">Face Laugh Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=classic&amp;s=duotone">Face Laugh Beam</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceLaughBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=classic&amp;s=solid">Face Laugh Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=sharp&amp;s=light">Face Laugh Beam</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceLaughBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=classic&amp;s=solid">Face Laugh Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=sharp&amp;s=regular">Face Laugh Beam</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceLaughBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=classic&amp;s=solid">Face Laugh Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=sharp&amp;s=solid">Face Laugh Beam</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceLaughBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=classic&amp;s=solid">Face Laugh Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=sharp&amp;s=thin">Face Laugh Beam</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceLaughBeam;
     }
@@ -2379,11 +2379,11 @@ public static partial class FaEmoji
     public static partial class FaceLaughSquint
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=classic&amp;s=solid">Face Laugh Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=classic&amp;s=light">Face Laugh Squint</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceLaughSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=classic&amp;s=solid">Face Laugh Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=classic&amp;s=regular">Face Laugh Squint</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceLaughSquint;
         /// <summary>
@@ -2391,27 +2391,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceLaughSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=classic&amp;s=solid">Face Laugh Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=classic&amp;s=thin">Face Laugh Squint</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceLaughSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=classic&amp;s=solid">Face Laugh Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=classic&amp;s=duotone">Face Laugh Squint</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceLaughSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=classic&amp;s=solid">Face Laugh Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=sharp&amp;s=light">Face Laugh Squint</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceLaughSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=classic&amp;s=solid">Face Laugh Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=sharp&amp;s=regular">Face Laugh Squint</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceLaughSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=classic&amp;s=solid">Face Laugh Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=sharp&amp;s=solid">Face Laugh Squint</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceLaughSquint;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=classic&amp;s=solid">Face Laugh Squint</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=sharp&amp;s=thin">Face Laugh Squint</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceLaughSquint;
     }
@@ -2422,11 +2422,11 @@ public static partial class FaEmoji
     public static partial class FaceLaughWink
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=classic&amp;s=solid">Face Laugh Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=classic&amp;s=light">Face Laugh Wink</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceLaughWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=classic&amp;s=solid">Face Laugh Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=classic&amp;s=regular">Face Laugh Wink</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceLaughWink;
         /// <summary>
@@ -2434,27 +2434,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceLaughWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=classic&amp;s=solid">Face Laugh Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=classic&amp;s=thin">Face Laugh Wink</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceLaughWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=classic&amp;s=solid">Face Laugh Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=classic&amp;s=duotone">Face Laugh Wink</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceLaughWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=classic&amp;s=solid">Face Laugh Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=sharp&amp;s=light">Face Laugh Wink</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceLaughWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=classic&amp;s=solid">Face Laugh Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=sharp&amp;s=regular">Face Laugh Wink</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceLaughWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=classic&amp;s=solid">Face Laugh Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=sharp&amp;s=solid">Face Laugh Wink</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceLaughWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=classic&amp;s=solid">Face Laugh Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=sharp&amp;s=thin">Face Laugh Wink</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceLaughWink;
     }
@@ -2465,11 +2465,11 @@ public static partial class FaEmoji
     public static partial class FaceLying
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-lying?f=classic&amp;s=solid">Face Lying</a>
+        /// <a href="https://fontawesome.com/icons/face-lying?f=classic&amp;s=light">Face Lying</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceLying;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-lying?f=classic&amp;s=solid">Face Lying</a>
+        /// <a href="https://fontawesome.com/icons/face-lying?f=classic&amp;s=regular">Face Lying</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceLying;
         /// <summary>
@@ -2477,27 +2477,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceLying;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-lying?f=classic&amp;s=solid">Face Lying</a>
+        /// <a href="https://fontawesome.com/icons/face-lying?f=classic&amp;s=thin">Face Lying</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceLying;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-lying?f=classic&amp;s=solid">Face Lying</a>
+        /// <a href="https://fontawesome.com/icons/face-lying?f=classic&amp;s=duotone">Face Lying</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceLying;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-lying?f=classic&amp;s=solid">Face Lying</a>
+        /// <a href="https://fontawesome.com/icons/face-lying?f=sharp&amp;s=light">Face Lying</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceLying;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-lying?f=classic&amp;s=solid">Face Lying</a>
+        /// <a href="https://fontawesome.com/icons/face-lying?f=sharp&amp;s=regular">Face Lying</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceLying;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-lying?f=classic&amp;s=solid">Face Lying</a>
+        /// <a href="https://fontawesome.com/icons/face-lying?f=sharp&amp;s=solid">Face Lying</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceLying;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-lying?f=classic&amp;s=solid">Face Lying</a>
+        /// <a href="https://fontawesome.com/icons/face-lying?f=sharp&amp;s=thin">Face Lying</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceLying;
     }
@@ -2508,11 +2508,11 @@ public static partial class FaEmoji
     public static partial class FaceMask
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-mask?f=classic&amp;s=solid">Face Mask</a>
+        /// <a href="https://fontawesome.com/icons/face-mask?f=classic&amp;s=light">Face Mask</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceMask;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-mask?f=classic&amp;s=solid">Face Mask</a>
+        /// <a href="https://fontawesome.com/icons/face-mask?f=classic&amp;s=regular">Face Mask</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceMask;
         /// <summary>
@@ -2520,27 +2520,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceMask;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-mask?f=classic&amp;s=solid">Face Mask</a>
+        /// <a href="https://fontawesome.com/icons/face-mask?f=classic&amp;s=thin">Face Mask</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceMask;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-mask?f=classic&amp;s=solid">Face Mask</a>
+        /// <a href="https://fontawesome.com/icons/face-mask?f=classic&amp;s=duotone">Face Mask</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceMask;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-mask?f=classic&amp;s=solid">Face Mask</a>
+        /// <a href="https://fontawesome.com/icons/face-mask?f=sharp&amp;s=light">Face Mask</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceMask;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-mask?f=classic&amp;s=solid">Face Mask</a>
+        /// <a href="https://fontawesome.com/icons/face-mask?f=sharp&amp;s=regular">Face Mask</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceMask;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-mask?f=classic&amp;s=solid">Face Mask</a>
+        /// <a href="https://fontawesome.com/icons/face-mask?f=sharp&amp;s=solid">Face Mask</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceMask;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-mask?f=classic&amp;s=solid">Face Mask</a>
+        /// <a href="https://fontawesome.com/icons/face-mask?f=sharp&amp;s=thin">Face Mask</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceMask;
     }
@@ -2551,11 +2551,11 @@ public static partial class FaEmoji
     public static partial class FaceMeh
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh?f=classic&amp;s=solid">Face Meh</a>
+        /// <a href="https://fontawesome.com/icons/face-meh?f=classic&amp;s=light">Face Meh</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceMeh;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh?f=classic&amp;s=solid">Face Meh</a>
+        /// <a href="https://fontawesome.com/icons/face-meh?f=classic&amp;s=regular">Face Meh</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceMeh;
         /// <summary>
@@ -2563,27 +2563,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceMeh;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh?f=classic&amp;s=solid">Face Meh</a>
+        /// <a href="https://fontawesome.com/icons/face-meh?f=classic&amp;s=thin">Face Meh</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceMeh;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh?f=classic&amp;s=solid">Face Meh</a>
+        /// <a href="https://fontawesome.com/icons/face-meh?f=classic&amp;s=duotone">Face Meh</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceMeh;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh?f=classic&amp;s=solid">Face Meh</a>
+        /// <a href="https://fontawesome.com/icons/face-meh?f=sharp&amp;s=light">Face Meh</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceMeh;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh?f=classic&amp;s=solid">Face Meh</a>
+        /// <a href="https://fontawesome.com/icons/face-meh?f=sharp&amp;s=regular">Face Meh</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceMeh;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh?f=classic&amp;s=solid">Face Meh</a>
+        /// <a href="https://fontawesome.com/icons/face-meh?f=sharp&amp;s=solid">Face Meh</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceMeh;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh?f=classic&amp;s=solid">Face Meh</a>
+        /// <a href="https://fontawesome.com/icons/face-meh?f=sharp&amp;s=thin">Face Meh</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceMeh;
     }
@@ -2594,11 +2594,11 @@ public static partial class FaEmoji
     public static partial class FaceMehBlank
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=classic&amp;s=solid">Face Meh Blank</a>
+        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=classic&amp;s=light">Face Meh Blank</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceMehBlank;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=classic&amp;s=solid">Face Meh Blank</a>
+        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=classic&amp;s=regular">Face Meh Blank</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceMehBlank;
         /// <summary>
@@ -2606,27 +2606,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceMehBlank;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=classic&amp;s=solid">Face Meh Blank</a>
+        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=classic&amp;s=thin">Face Meh Blank</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceMehBlank;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=classic&amp;s=solid">Face Meh Blank</a>
+        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=classic&amp;s=duotone">Face Meh Blank</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceMehBlank;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=classic&amp;s=solid">Face Meh Blank</a>
+        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=sharp&amp;s=light">Face Meh Blank</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceMehBlank;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=classic&amp;s=solid">Face Meh Blank</a>
+        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=sharp&amp;s=regular">Face Meh Blank</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceMehBlank;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=classic&amp;s=solid">Face Meh Blank</a>
+        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=sharp&amp;s=solid">Face Meh Blank</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceMehBlank;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=classic&amp;s=solid">Face Meh Blank</a>
+        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=sharp&amp;s=thin">Face Meh Blank</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceMehBlank;
     }
@@ -2637,11 +2637,11 @@ public static partial class FaEmoji
     public static partial class FaceMelting
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-melting?f=classic&amp;s=solid">Face Melting</a>
+        /// <a href="https://fontawesome.com/icons/face-melting?f=classic&amp;s=light">Face Melting</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceMelting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-melting?f=classic&amp;s=solid">Face Melting</a>
+        /// <a href="https://fontawesome.com/icons/face-melting?f=classic&amp;s=regular">Face Melting</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceMelting;
         /// <summary>
@@ -2649,27 +2649,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceMelting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-melting?f=classic&amp;s=solid">Face Melting</a>
+        /// <a href="https://fontawesome.com/icons/face-melting?f=classic&amp;s=thin">Face Melting</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceMelting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-melting?f=classic&amp;s=solid">Face Melting</a>
+        /// <a href="https://fontawesome.com/icons/face-melting?f=classic&amp;s=duotone">Face Melting</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceMelting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-melting?f=classic&amp;s=solid">Face Melting</a>
+        /// <a href="https://fontawesome.com/icons/face-melting?f=sharp&amp;s=light">Face Melting</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceMelting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-melting?f=classic&amp;s=solid">Face Melting</a>
+        /// <a href="https://fontawesome.com/icons/face-melting?f=sharp&amp;s=regular">Face Melting</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceMelting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-melting?f=classic&amp;s=solid">Face Melting</a>
+        /// <a href="https://fontawesome.com/icons/face-melting?f=sharp&amp;s=solid">Face Melting</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceMelting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-melting?f=classic&amp;s=solid">Face Melting</a>
+        /// <a href="https://fontawesome.com/icons/face-melting?f=sharp&amp;s=thin">Face Melting</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceMelting;
     }
@@ -2680,11 +2680,11 @@ public static partial class FaEmoji
     public static partial class FaceMonocle
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-monocle?f=classic&amp;s=solid">Face Monocle</a>
+        /// <a href="https://fontawesome.com/icons/face-monocle?f=classic&amp;s=light">Face Monocle</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceMonocle;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-monocle?f=classic&amp;s=solid">Face Monocle</a>
+        /// <a href="https://fontawesome.com/icons/face-monocle?f=classic&amp;s=regular">Face Monocle</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceMonocle;
         /// <summary>
@@ -2692,27 +2692,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceMonocle;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-monocle?f=classic&amp;s=solid">Face Monocle</a>
+        /// <a href="https://fontawesome.com/icons/face-monocle?f=classic&amp;s=thin">Face Monocle</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceMonocle;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-monocle?f=classic&amp;s=solid">Face Monocle</a>
+        /// <a href="https://fontawesome.com/icons/face-monocle?f=classic&amp;s=duotone">Face Monocle</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceMonocle;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-monocle?f=classic&amp;s=solid">Face Monocle</a>
+        /// <a href="https://fontawesome.com/icons/face-monocle?f=sharp&amp;s=light">Face Monocle</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceMonocle;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-monocle?f=classic&amp;s=solid">Face Monocle</a>
+        /// <a href="https://fontawesome.com/icons/face-monocle?f=sharp&amp;s=regular">Face Monocle</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceMonocle;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-monocle?f=classic&amp;s=solid">Face Monocle</a>
+        /// <a href="https://fontawesome.com/icons/face-monocle?f=sharp&amp;s=solid">Face Monocle</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceMonocle;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-monocle?f=classic&amp;s=solid">Face Monocle</a>
+        /// <a href="https://fontawesome.com/icons/face-monocle?f=sharp&amp;s=thin">Face Monocle</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceMonocle;
     }
@@ -2723,11 +2723,11 @@ public static partial class FaEmoji
     public static partial class FaceNauseated
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nauseated?f=classic&amp;s=solid">Face Nauseated</a>
+        /// <a href="https://fontawesome.com/icons/face-nauseated?f=classic&amp;s=light">Face Nauseated</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceNauseated;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nauseated?f=classic&amp;s=solid">Face Nauseated</a>
+        /// <a href="https://fontawesome.com/icons/face-nauseated?f=classic&amp;s=regular">Face Nauseated</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceNauseated;
         /// <summary>
@@ -2735,27 +2735,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceNauseated;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nauseated?f=classic&amp;s=solid">Face Nauseated</a>
+        /// <a href="https://fontawesome.com/icons/face-nauseated?f=classic&amp;s=thin">Face Nauseated</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceNauseated;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nauseated?f=classic&amp;s=solid">Face Nauseated</a>
+        /// <a href="https://fontawesome.com/icons/face-nauseated?f=classic&amp;s=duotone">Face Nauseated</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceNauseated;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nauseated?f=classic&amp;s=solid">Face Nauseated</a>
+        /// <a href="https://fontawesome.com/icons/face-nauseated?f=sharp&amp;s=light">Face Nauseated</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceNauseated;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nauseated?f=classic&amp;s=solid">Face Nauseated</a>
+        /// <a href="https://fontawesome.com/icons/face-nauseated?f=sharp&amp;s=regular">Face Nauseated</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceNauseated;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nauseated?f=classic&amp;s=solid">Face Nauseated</a>
+        /// <a href="https://fontawesome.com/icons/face-nauseated?f=sharp&amp;s=solid">Face Nauseated</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceNauseated;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nauseated?f=classic&amp;s=solid">Face Nauseated</a>
+        /// <a href="https://fontawesome.com/icons/face-nauseated?f=sharp&amp;s=thin">Face Nauseated</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceNauseated;
     }
@@ -2766,11 +2766,11 @@ public static partial class FaEmoji
     public static partial class FaceNoseSteam
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=classic&amp;s=solid">Face Nose Steam</a>
+        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=classic&amp;s=light">Face Nose Steam</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceNoseSteam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=classic&amp;s=solid">Face Nose Steam</a>
+        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=classic&amp;s=regular">Face Nose Steam</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceNoseSteam;
         /// <summary>
@@ -2778,27 +2778,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceNoseSteam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=classic&amp;s=solid">Face Nose Steam</a>
+        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=classic&amp;s=thin">Face Nose Steam</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceNoseSteam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=classic&amp;s=solid">Face Nose Steam</a>
+        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=classic&amp;s=duotone">Face Nose Steam</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceNoseSteam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=classic&amp;s=solid">Face Nose Steam</a>
+        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=sharp&amp;s=light">Face Nose Steam</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceNoseSteam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=classic&amp;s=solid">Face Nose Steam</a>
+        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=sharp&amp;s=regular">Face Nose Steam</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceNoseSteam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=classic&amp;s=solid">Face Nose Steam</a>
+        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=sharp&amp;s=solid">Face Nose Steam</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceNoseSteam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=classic&amp;s=solid">Face Nose Steam</a>
+        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=sharp&amp;s=thin">Face Nose Steam</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceNoseSteam;
     }
@@ -2809,11 +2809,11 @@ public static partial class FaEmoji
     public static partial class FaceParty
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-party?f=classic&amp;s=solid">Face Party</a>
+        /// <a href="https://fontawesome.com/icons/face-party?f=classic&amp;s=light">Face Party</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceParty;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-party?f=classic&amp;s=solid">Face Party</a>
+        /// <a href="https://fontawesome.com/icons/face-party?f=classic&amp;s=regular">Face Party</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceParty;
         /// <summary>
@@ -2821,27 +2821,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceParty;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-party?f=classic&amp;s=solid">Face Party</a>
+        /// <a href="https://fontawesome.com/icons/face-party?f=classic&amp;s=thin">Face Party</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceParty;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-party?f=classic&amp;s=solid">Face Party</a>
+        /// <a href="https://fontawesome.com/icons/face-party?f=classic&amp;s=duotone">Face Party</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceParty;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-party?f=classic&amp;s=solid">Face Party</a>
+        /// <a href="https://fontawesome.com/icons/face-party?f=sharp&amp;s=light">Face Party</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceParty;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-party?f=classic&amp;s=solid">Face Party</a>
+        /// <a href="https://fontawesome.com/icons/face-party?f=sharp&amp;s=regular">Face Party</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceParty;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-party?f=classic&amp;s=solid">Face Party</a>
+        /// <a href="https://fontawesome.com/icons/face-party?f=sharp&amp;s=solid">Face Party</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceParty;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-party?f=classic&amp;s=solid">Face Party</a>
+        /// <a href="https://fontawesome.com/icons/face-party?f=sharp&amp;s=thin">Face Party</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceParty;
     }
@@ -2852,11 +2852,11 @@ public static partial class FaEmoji
     public static partial class FacePensive
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pensive?f=classic&amp;s=solid">Face Pensive</a>
+        /// <a href="https://fontawesome.com/icons/face-pensive?f=classic&amp;s=light">Face Pensive</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FacePensive;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pensive?f=classic&amp;s=solid">Face Pensive</a>
+        /// <a href="https://fontawesome.com/icons/face-pensive?f=classic&amp;s=regular">Face Pensive</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FacePensive;
         /// <summary>
@@ -2864,27 +2864,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FacePensive;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pensive?f=classic&amp;s=solid">Face Pensive</a>
+        /// <a href="https://fontawesome.com/icons/face-pensive?f=classic&amp;s=thin">Face Pensive</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FacePensive;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pensive?f=classic&amp;s=solid">Face Pensive</a>
+        /// <a href="https://fontawesome.com/icons/face-pensive?f=classic&amp;s=duotone">Face Pensive</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FacePensive;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pensive?f=classic&amp;s=solid">Face Pensive</a>
+        /// <a href="https://fontawesome.com/icons/face-pensive?f=sharp&amp;s=light">Face Pensive</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FacePensive;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pensive?f=classic&amp;s=solid">Face Pensive</a>
+        /// <a href="https://fontawesome.com/icons/face-pensive?f=sharp&amp;s=regular">Face Pensive</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FacePensive;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pensive?f=classic&amp;s=solid">Face Pensive</a>
+        /// <a href="https://fontawesome.com/icons/face-pensive?f=sharp&amp;s=solid">Face Pensive</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FacePensive;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pensive?f=classic&amp;s=solid">Face Pensive</a>
+        /// <a href="https://fontawesome.com/icons/face-pensive?f=sharp&amp;s=thin">Face Pensive</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FacePensive;
     }
@@ -2895,11 +2895,11 @@ public static partial class FaEmoji
     public static partial class FacePersevering
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-persevering?f=classic&amp;s=solid">Face Persevering</a>
+        /// <a href="https://fontawesome.com/icons/face-persevering?f=classic&amp;s=light">Face Persevering</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FacePersevering;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-persevering?f=classic&amp;s=solid">Face Persevering</a>
+        /// <a href="https://fontawesome.com/icons/face-persevering?f=classic&amp;s=regular">Face Persevering</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FacePersevering;
         /// <summary>
@@ -2907,27 +2907,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FacePersevering;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-persevering?f=classic&amp;s=solid">Face Persevering</a>
+        /// <a href="https://fontawesome.com/icons/face-persevering?f=classic&amp;s=thin">Face Persevering</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FacePersevering;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-persevering?f=classic&amp;s=solid">Face Persevering</a>
+        /// <a href="https://fontawesome.com/icons/face-persevering?f=classic&amp;s=duotone">Face Persevering</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FacePersevering;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-persevering?f=classic&amp;s=solid">Face Persevering</a>
+        /// <a href="https://fontawesome.com/icons/face-persevering?f=sharp&amp;s=light">Face Persevering</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FacePersevering;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-persevering?f=classic&amp;s=solid">Face Persevering</a>
+        /// <a href="https://fontawesome.com/icons/face-persevering?f=sharp&amp;s=regular">Face Persevering</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FacePersevering;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-persevering?f=classic&amp;s=solid">Face Persevering</a>
+        /// <a href="https://fontawesome.com/icons/face-persevering?f=sharp&amp;s=solid">Face Persevering</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FacePersevering;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-persevering?f=classic&amp;s=solid">Face Persevering</a>
+        /// <a href="https://fontawesome.com/icons/face-persevering?f=sharp&amp;s=thin">Face Persevering</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FacePersevering;
     }
@@ -2938,11 +2938,11 @@ public static partial class FaEmoji
     public static partial class FacePleading
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pleading?f=classic&amp;s=solid">Face Pleading</a>
+        /// <a href="https://fontawesome.com/icons/face-pleading?f=classic&amp;s=light">Face Pleading</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FacePleading;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pleading?f=classic&amp;s=solid">Face Pleading</a>
+        /// <a href="https://fontawesome.com/icons/face-pleading?f=classic&amp;s=regular">Face Pleading</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FacePleading;
         /// <summary>
@@ -2950,27 +2950,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FacePleading;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pleading?f=classic&amp;s=solid">Face Pleading</a>
+        /// <a href="https://fontawesome.com/icons/face-pleading?f=classic&amp;s=thin">Face Pleading</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FacePleading;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pleading?f=classic&amp;s=solid">Face Pleading</a>
+        /// <a href="https://fontawesome.com/icons/face-pleading?f=classic&amp;s=duotone">Face Pleading</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FacePleading;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pleading?f=classic&amp;s=solid">Face Pleading</a>
+        /// <a href="https://fontawesome.com/icons/face-pleading?f=sharp&amp;s=light">Face Pleading</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FacePleading;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pleading?f=classic&amp;s=solid">Face Pleading</a>
+        /// <a href="https://fontawesome.com/icons/face-pleading?f=sharp&amp;s=regular">Face Pleading</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FacePleading;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pleading?f=classic&amp;s=solid">Face Pleading</a>
+        /// <a href="https://fontawesome.com/icons/face-pleading?f=sharp&amp;s=solid">Face Pleading</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FacePleading;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pleading?f=classic&amp;s=solid">Face Pleading</a>
+        /// <a href="https://fontawesome.com/icons/face-pleading?f=sharp&amp;s=thin">Face Pleading</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FacePleading;
     }
@@ -2981,11 +2981,11 @@ public static partial class FaEmoji
     public static partial class FacePouting
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pouting?f=classic&amp;s=solid">Face Pouting</a>
+        /// <a href="https://fontawesome.com/icons/face-pouting?f=classic&amp;s=light">Face Pouting</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FacePouting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pouting?f=classic&amp;s=solid">Face Pouting</a>
+        /// <a href="https://fontawesome.com/icons/face-pouting?f=classic&amp;s=regular">Face Pouting</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FacePouting;
         /// <summary>
@@ -2993,27 +2993,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FacePouting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pouting?f=classic&amp;s=solid">Face Pouting</a>
+        /// <a href="https://fontawesome.com/icons/face-pouting?f=classic&amp;s=thin">Face Pouting</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FacePouting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pouting?f=classic&amp;s=solid">Face Pouting</a>
+        /// <a href="https://fontawesome.com/icons/face-pouting?f=classic&amp;s=duotone">Face Pouting</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FacePouting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pouting?f=classic&amp;s=solid">Face Pouting</a>
+        /// <a href="https://fontawesome.com/icons/face-pouting?f=sharp&amp;s=light">Face Pouting</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FacePouting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pouting?f=classic&amp;s=solid">Face Pouting</a>
+        /// <a href="https://fontawesome.com/icons/face-pouting?f=sharp&amp;s=regular">Face Pouting</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FacePouting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pouting?f=classic&amp;s=solid">Face Pouting</a>
+        /// <a href="https://fontawesome.com/icons/face-pouting?f=sharp&amp;s=solid">Face Pouting</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FacePouting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-pouting?f=classic&amp;s=solid">Face Pouting</a>
+        /// <a href="https://fontawesome.com/icons/face-pouting?f=sharp&amp;s=thin">Face Pouting</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FacePouting;
     }
@@ -3024,11 +3024,11 @@ public static partial class FaEmoji
     public static partial class FaceRaisedEyebrow
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=classic&amp;s=solid">Face Raised Eyebrow</a>
+        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=classic&amp;s=light">Face Raised Eyebrow</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceRaisedEyebrow;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=classic&amp;s=solid">Face Raised Eyebrow</a>
+        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=classic&amp;s=regular">Face Raised Eyebrow</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceRaisedEyebrow;
         /// <summary>
@@ -3036,27 +3036,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceRaisedEyebrow;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=classic&amp;s=solid">Face Raised Eyebrow</a>
+        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=classic&amp;s=thin">Face Raised Eyebrow</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceRaisedEyebrow;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=classic&amp;s=solid">Face Raised Eyebrow</a>
+        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=classic&amp;s=duotone">Face Raised Eyebrow</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceRaisedEyebrow;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=classic&amp;s=solid">Face Raised Eyebrow</a>
+        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=sharp&amp;s=light">Face Raised Eyebrow</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceRaisedEyebrow;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=classic&amp;s=solid">Face Raised Eyebrow</a>
+        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=sharp&amp;s=regular">Face Raised Eyebrow</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceRaisedEyebrow;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=classic&amp;s=solid">Face Raised Eyebrow</a>
+        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=sharp&amp;s=solid">Face Raised Eyebrow</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceRaisedEyebrow;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=classic&amp;s=solid">Face Raised Eyebrow</a>
+        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=sharp&amp;s=thin">Face Raised Eyebrow</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceRaisedEyebrow;
     }
@@ -3067,11 +3067,11 @@ public static partial class FaEmoji
     public static partial class FaceRelieved
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-relieved?f=classic&amp;s=solid">Face Relieved</a>
+        /// <a href="https://fontawesome.com/icons/face-relieved?f=classic&amp;s=light">Face Relieved</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceRelieved;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-relieved?f=classic&amp;s=solid">Face Relieved</a>
+        /// <a href="https://fontawesome.com/icons/face-relieved?f=classic&amp;s=regular">Face Relieved</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceRelieved;
         /// <summary>
@@ -3079,27 +3079,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceRelieved;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-relieved?f=classic&amp;s=solid">Face Relieved</a>
+        /// <a href="https://fontawesome.com/icons/face-relieved?f=classic&amp;s=thin">Face Relieved</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceRelieved;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-relieved?f=classic&amp;s=solid">Face Relieved</a>
+        /// <a href="https://fontawesome.com/icons/face-relieved?f=classic&amp;s=duotone">Face Relieved</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceRelieved;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-relieved?f=classic&amp;s=solid">Face Relieved</a>
+        /// <a href="https://fontawesome.com/icons/face-relieved?f=sharp&amp;s=light">Face Relieved</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceRelieved;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-relieved?f=classic&amp;s=solid">Face Relieved</a>
+        /// <a href="https://fontawesome.com/icons/face-relieved?f=sharp&amp;s=regular">Face Relieved</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceRelieved;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-relieved?f=classic&amp;s=solid">Face Relieved</a>
+        /// <a href="https://fontawesome.com/icons/face-relieved?f=sharp&amp;s=solid">Face Relieved</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceRelieved;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-relieved?f=classic&amp;s=solid">Face Relieved</a>
+        /// <a href="https://fontawesome.com/icons/face-relieved?f=sharp&amp;s=thin">Face Relieved</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceRelieved;
     }
@@ -3110,11 +3110,11 @@ public static partial class FaEmoji
     public static partial class FaceRollingEyes
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=classic&amp;s=solid">Face Rolling Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=classic&amp;s=light">Face Rolling Eyes</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceRollingEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=classic&amp;s=solid">Face Rolling Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=classic&amp;s=regular">Face Rolling Eyes</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceRollingEyes;
         /// <summary>
@@ -3122,27 +3122,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceRollingEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=classic&amp;s=solid">Face Rolling Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=classic&amp;s=thin">Face Rolling Eyes</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceRollingEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=classic&amp;s=solid">Face Rolling Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=classic&amp;s=duotone">Face Rolling Eyes</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceRollingEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=classic&amp;s=solid">Face Rolling Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=sharp&amp;s=light">Face Rolling Eyes</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceRollingEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=classic&amp;s=solid">Face Rolling Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=sharp&amp;s=regular">Face Rolling Eyes</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceRollingEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=classic&amp;s=solid">Face Rolling Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=sharp&amp;s=solid">Face Rolling Eyes</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceRollingEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=classic&amp;s=solid">Face Rolling Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=sharp&amp;s=thin">Face Rolling Eyes</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceRollingEyes;
     }
@@ -3153,11 +3153,11 @@ public static partial class FaEmoji
     public static partial class FaceSadCry
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=classic&amp;s=solid">Face Sad Cry</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=classic&amp;s=light">Face Sad Cry</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSadCry;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=classic&amp;s=solid">Face Sad Cry</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=classic&amp;s=regular">Face Sad Cry</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSadCry;
         /// <summary>
@@ -3165,27 +3165,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSadCry;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=classic&amp;s=solid">Face Sad Cry</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=classic&amp;s=thin">Face Sad Cry</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSadCry;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=classic&amp;s=solid">Face Sad Cry</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=classic&amp;s=duotone">Face Sad Cry</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSadCry;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=classic&amp;s=solid">Face Sad Cry</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=sharp&amp;s=light">Face Sad Cry</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSadCry;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=classic&amp;s=solid">Face Sad Cry</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=sharp&amp;s=regular">Face Sad Cry</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSadCry;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=classic&amp;s=solid">Face Sad Cry</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=sharp&amp;s=solid">Face Sad Cry</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSadCry;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=classic&amp;s=solid">Face Sad Cry</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=sharp&amp;s=thin">Face Sad Cry</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSadCry;
     }
@@ -3196,11 +3196,11 @@ public static partial class FaEmoji
     public static partial class FaceSadSweat
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=classic&amp;s=solid">Face Sad Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=classic&amp;s=light">Face Sad Sweat</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSadSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=classic&amp;s=solid">Face Sad Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=classic&amp;s=regular">Face Sad Sweat</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSadSweat;
         /// <summary>
@@ -3208,27 +3208,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSadSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=classic&amp;s=solid">Face Sad Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=classic&amp;s=thin">Face Sad Sweat</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSadSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=classic&amp;s=solid">Face Sad Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=classic&amp;s=duotone">Face Sad Sweat</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSadSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=classic&amp;s=solid">Face Sad Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=sharp&amp;s=light">Face Sad Sweat</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSadSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=classic&amp;s=solid">Face Sad Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=sharp&amp;s=regular">Face Sad Sweat</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSadSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=classic&amp;s=solid">Face Sad Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=sharp&amp;s=solid">Face Sad Sweat</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSadSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=classic&amp;s=solid">Face Sad Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=sharp&amp;s=thin">Face Sad Sweat</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSadSweat;
     }
@@ -3239,11 +3239,11 @@ public static partial class FaEmoji
     public static partial class FaceSadTear
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=classic&amp;s=solid">Face Sad Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=classic&amp;s=light">Face Sad Tear</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSadTear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=classic&amp;s=solid">Face Sad Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=classic&amp;s=regular">Face Sad Tear</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSadTear;
         /// <summary>
@@ -3251,27 +3251,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSadTear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=classic&amp;s=solid">Face Sad Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=classic&amp;s=thin">Face Sad Tear</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSadTear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=classic&amp;s=solid">Face Sad Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=classic&amp;s=duotone">Face Sad Tear</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSadTear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=classic&amp;s=solid">Face Sad Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=sharp&amp;s=light">Face Sad Tear</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSadTear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=classic&amp;s=solid">Face Sad Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=sharp&amp;s=regular">Face Sad Tear</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSadTear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=classic&amp;s=solid">Face Sad Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=sharp&amp;s=solid">Face Sad Tear</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSadTear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=classic&amp;s=solid">Face Sad Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=sharp&amp;s=thin">Face Sad Tear</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSadTear;
     }
@@ -3282,11 +3282,11 @@ public static partial class FaEmoji
     public static partial class FaceSaluting
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-saluting?f=classic&amp;s=solid">Face Saluting</a>
+        /// <a href="https://fontawesome.com/icons/face-saluting?f=classic&amp;s=light">Face Saluting</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSaluting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-saluting?f=classic&amp;s=solid">Face Saluting</a>
+        /// <a href="https://fontawesome.com/icons/face-saluting?f=classic&amp;s=regular">Face Saluting</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSaluting;
         /// <summary>
@@ -3294,27 +3294,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSaluting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-saluting?f=classic&amp;s=solid">Face Saluting</a>
+        /// <a href="https://fontawesome.com/icons/face-saluting?f=classic&amp;s=thin">Face Saluting</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSaluting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-saluting?f=classic&amp;s=solid">Face Saluting</a>
+        /// <a href="https://fontawesome.com/icons/face-saluting?f=classic&amp;s=duotone">Face Saluting</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSaluting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-saluting?f=classic&amp;s=solid">Face Saluting</a>
+        /// <a href="https://fontawesome.com/icons/face-saluting?f=sharp&amp;s=light">Face Saluting</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSaluting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-saluting?f=classic&amp;s=solid">Face Saluting</a>
+        /// <a href="https://fontawesome.com/icons/face-saluting?f=sharp&amp;s=regular">Face Saluting</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSaluting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-saluting?f=classic&amp;s=solid">Face Saluting</a>
+        /// <a href="https://fontawesome.com/icons/face-saluting?f=sharp&amp;s=solid">Face Saluting</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSaluting;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-saluting?f=classic&amp;s=solid">Face Saluting</a>
+        /// <a href="https://fontawesome.com/icons/face-saluting?f=sharp&amp;s=thin">Face Saluting</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSaluting;
     }
@@ -3325,11 +3325,11 @@ public static partial class FaEmoji
     public static partial class FaceScream
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-scream?f=classic&amp;s=solid">Face Scream</a>
+        /// <a href="https://fontawesome.com/icons/face-scream?f=classic&amp;s=light">Face Scream</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceScream;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-scream?f=classic&amp;s=solid">Face Scream</a>
+        /// <a href="https://fontawesome.com/icons/face-scream?f=classic&amp;s=regular">Face Scream</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceScream;
         /// <summary>
@@ -3337,27 +3337,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceScream;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-scream?f=classic&amp;s=solid">Face Scream</a>
+        /// <a href="https://fontawesome.com/icons/face-scream?f=classic&amp;s=thin">Face Scream</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceScream;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-scream?f=classic&amp;s=solid">Face Scream</a>
+        /// <a href="https://fontawesome.com/icons/face-scream?f=classic&amp;s=duotone">Face Scream</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceScream;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-scream?f=classic&amp;s=solid">Face Scream</a>
+        /// <a href="https://fontawesome.com/icons/face-scream?f=sharp&amp;s=light">Face Scream</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceScream;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-scream?f=classic&amp;s=solid">Face Scream</a>
+        /// <a href="https://fontawesome.com/icons/face-scream?f=sharp&amp;s=regular">Face Scream</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceScream;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-scream?f=classic&amp;s=solid">Face Scream</a>
+        /// <a href="https://fontawesome.com/icons/face-scream?f=sharp&amp;s=solid">Face Scream</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceScream;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-scream?f=classic&amp;s=solid">Face Scream</a>
+        /// <a href="https://fontawesome.com/icons/face-scream?f=sharp&amp;s=thin">Face Scream</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceScream;
     }
@@ -3368,11 +3368,11 @@ public static partial class FaEmoji
     public static partial class FaceShush
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-shush?f=classic&amp;s=solid">Face Shush</a>
+        /// <a href="https://fontawesome.com/icons/face-shush?f=classic&amp;s=light">Face Shush</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceShush;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-shush?f=classic&amp;s=solid">Face Shush</a>
+        /// <a href="https://fontawesome.com/icons/face-shush?f=classic&amp;s=regular">Face Shush</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceShush;
         /// <summary>
@@ -3380,27 +3380,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceShush;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-shush?f=classic&amp;s=solid">Face Shush</a>
+        /// <a href="https://fontawesome.com/icons/face-shush?f=classic&amp;s=thin">Face Shush</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceShush;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-shush?f=classic&amp;s=solid">Face Shush</a>
+        /// <a href="https://fontawesome.com/icons/face-shush?f=classic&amp;s=duotone">Face Shush</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceShush;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-shush?f=classic&amp;s=solid">Face Shush</a>
+        /// <a href="https://fontawesome.com/icons/face-shush?f=sharp&amp;s=light">Face Shush</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceShush;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-shush?f=classic&amp;s=solid">Face Shush</a>
+        /// <a href="https://fontawesome.com/icons/face-shush?f=sharp&amp;s=regular">Face Shush</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceShush;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-shush?f=classic&amp;s=solid">Face Shush</a>
+        /// <a href="https://fontawesome.com/icons/face-shush?f=sharp&amp;s=solid">Face Shush</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceShush;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-shush?f=classic&amp;s=solid">Face Shush</a>
+        /// <a href="https://fontawesome.com/icons/face-shush?f=sharp&amp;s=thin">Face Shush</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceShush;
     }
@@ -3411,11 +3411,11 @@ public static partial class FaEmoji
     public static partial class FaceSleeping
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleeping?f=classic&amp;s=solid">Face Sleeping</a>
+        /// <a href="https://fontawesome.com/icons/face-sleeping?f=classic&amp;s=light">Face Sleeping</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSleeping;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleeping?f=classic&amp;s=solid">Face Sleeping</a>
+        /// <a href="https://fontawesome.com/icons/face-sleeping?f=classic&amp;s=regular">Face Sleeping</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSleeping;
         /// <summary>
@@ -3423,27 +3423,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSleeping;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleeping?f=classic&amp;s=solid">Face Sleeping</a>
+        /// <a href="https://fontawesome.com/icons/face-sleeping?f=classic&amp;s=thin">Face Sleeping</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSleeping;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleeping?f=classic&amp;s=solid">Face Sleeping</a>
+        /// <a href="https://fontawesome.com/icons/face-sleeping?f=classic&amp;s=duotone">Face Sleeping</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSleeping;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleeping?f=classic&amp;s=solid">Face Sleeping</a>
+        /// <a href="https://fontawesome.com/icons/face-sleeping?f=sharp&amp;s=light">Face Sleeping</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSleeping;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleeping?f=classic&amp;s=solid">Face Sleeping</a>
+        /// <a href="https://fontawesome.com/icons/face-sleeping?f=sharp&amp;s=regular">Face Sleeping</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSleeping;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleeping?f=classic&amp;s=solid">Face Sleeping</a>
+        /// <a href="https://fontawesome.com/icons/face-sleeping?f=sharp&amp;s=solid">Face Sleeping</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSleeping;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleeping?f=classic&amp;s=solid">Face Sleeping</a>
+        /// <a href="https://fontawesome.com/icons/face-sleeping?f=sharp&amp;s=thin">Face Sleeping</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSleeping;
     }
@@ -3454,11 +3454,11 @@ public static partial class FaEmoji
     public static partial class FaceSleepy
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleepy?f=classic&amp;s=solid">Face Sleepy</a>
+        /// <a href="https://fontawesome.com/icons/face-sleepy?f=classic&amp;s=light">Face Sleepy</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSleepy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleepy?f=classic&amp;s=solid">Face Sleepy</a>
+        /// <a href="https://fontawesome.com/icons/face-sleepy?f=classic&amp;s=regular">Face Sleepy</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSleepy;
         /// <summary>
@@ -3466,27 +3466,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSleepy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleepy?f=classic&amp;s=solid">Face Sleepy</a>
+        /// <a href="https://fontawesome.com/icons/face-sleepy?f=classic&amp;s=thin">Face Sleepy</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSleepy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleepy?f=classic&amp;s=solid">Face Sleepy</a>
+        /// <a href="https://fontawesome.com/icons/face-sleepy?f=classic&amp;s=duotone">Face Sleepy</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSleepy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleepy?f=classic&amp;s=solid">Face Sleepy</a>
+        /// <a href="https://fontawesome.com/icons/face-sleepy?f=sharp&amp;s=light">Face Sleepy</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSleepy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleepy?f=classic&amp;s=solid">Face Sleepy</a>
+        /// <a href="https://fontawesome.com/icons/face-sleepy?f=sharp&amp;s=regular">Face Sleepy</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSleepy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleepy?f=classic&amp;s=solid">Face Sleepy</a>
+        /// <a href="https://fontawesome.com/icons/face-sleepy?f=sharp&amp;s=solid">Face Sleepy</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSleepy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sleepy?f=classic&amp;s=solid">Face Sleepy</a>
+        /// <a href="https://fontawesome.com/icons/face-sleepy?f=sharp&amp;s=thin">Face Sleepy</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSleepy;
     }
@@ -3497,11 +3497,11 @@ public static partial class FaEmoji
     public static partial class FaceSmile
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile?f=classic&amp;s=solid">Face Smile</a>
+        /// <a href="https://fontawesome.com/icons/face-smile?f=classic&amp;s=light">Face Smile</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSmile;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile?f=classic&amp;s=solid">Face Smile</a>
+        /// <a href="https://fontawesome.com/icons/face-smile?f=classic&amp;s=regular">Face Smile</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSmile;
         /// <summary>
@@ -3509,27 +3509,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSmile;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile?f=classic&amp;s=solid">Face Smile</a>
+        /// <a href="https://fontawesome.com/icons/face-smile?f=classic&amp;s=thin">Face Smile</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmile;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile?f=classic&amp;s=solid">Face Smile</a>
+        /// <a href="https://fontawesome.com/icons/face-smile?f=classic&amp;s=duotone">Face Smile</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSmile;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile?f=classic&amp;s=solid">Face Smile</a>
+        /// <a href="https://fontawesome.com/icons/face-smile?f=sharp&amp;s=light">Face Smile</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSmile;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile?f=classic&amp;s=solid">Face Smile</a>
+        /// <a href="https://fontawesome.com/icons/face-smile?f=sharp&amp;s=regular">Face Smile</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSmile;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile?f=classic&amp;s=solid">Face Smile</a>
+        /// <a href="https://fontawesome.com/icons/face-smile?f=sharp&amp;s=solid">Face Smile</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSmile;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile?f=classic&amp;s=solid">Face Smile</a>
+        /// <a href="https://fontawesome.com/icons/face-smile?f=sharp&amp;s=thin">Face Smile</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmile;
     }
@@ -3540,11 +3540,11 @@ public static partial class FaEmoji
     public static partial class FaceSmileBeam
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=classic&amp;s=solid">Face Smile Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=classic&amp;s=light">Face Smile Beam</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSmileBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=classic&amp;s=solid">Face Smile Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=classic&amp;s=regular">Face Smile Beam</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSmileBeam;
         /// <summary>
@@ -3552,27 +3552,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSmileBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=classic&amp;s=solid">Face Smile Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=classic&amp;s=thin">Face Smile Beam</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=classic&amp;s=solid">Face Smile Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=classic&amp;s=duotone">Face Smile Beam</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSmileBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=classic&amp;s=solid">Face Smile Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=sharp&amp;s=light">Face Smile Beam</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSmileBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=classic&amp;s=solid">Face Smile Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=sharp&amp;s=regular">Face Smile Beam</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSmileBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=classic&amp;s=solid">Face Smile Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=sharp&amp;s=solid">Face Smile Beam</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSmileBeam;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=classic&amp;s=solid">Face Smile Beam</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=sharp&amp;s=thin">Face Smile Beam</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileBeam;
     }
@@ -3583,11 +3583,11 @@ public static partial class FaEmoji
     public static partial class FaceSmileHalo
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=classic&amp;s=solid">Face Smile Halo</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=classic&amp;s=light">Face Smile Halo</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSmileHalo;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=classic&amp;s=solid">Face Smile Halo</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=classic&amp;s=regular">Face Smile Halo</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSmileHalo;
         /// <summary>
@@ -3595,27 +3595,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSmileHalo;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=classic&amp;s=solid">Face Smile Halo</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=classic&amp;s=thin">Face Smile Halo</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileHalo;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=classic&amp;s=solid">Face Smile Halo</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=classic&amp;s=duotone">Face Smile Halo</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSmileHalo;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=classic&amp;s=solid">Face Smile Halo</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=sharp&amp;s=light">Face Smile Halo</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSmileHalo;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=classic&amp;s=solid">Face Smile Halo</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=sharp&amp;s=regular">Face Smile Halo</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSmileHalo;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=classic&amp;s=solid">Face Smile Halo</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=sharp&amp;s=solid">Face Smile Halo</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSmileHalo;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=classic&amp;s=solid">Face Smile Halo</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=sharp&amp;s=thin">Face Smile Halo</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileHalo;
     }
@@ -3626,11 +3626,11 @@ public static partial class FaEmoji
     public static partial class FaceSmileHearts
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=classic&amp;s=solid">Face Smile Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=classic&amp;s=light">Face Smile Hearts</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSmileHearts;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=classic&amp;s=solid">Face Smile Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=classic&amp;s=regular">Face Smile Hearts</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSmileHearts;
         /// <summary>
@@ -3638,27 +3638,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSmileHearts;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=classic&amp;s=solid">Face Smile Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=classic&amp;s=thin">Face Smile Hearts</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileHearts;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=classic&amp;s=solid">Face Smile Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=classic&amp;s=duotone">Face Smile Hearts</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSmileHearts;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=classic&amp;s=solid">Face Smile Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=sharp&amp;s=light">Face Smile Hearts</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSmileHearts;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=classic&amp;s=solid">Face Smile Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=sharp&amp;s=regular">Face Smile Hearts</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSmileHearts;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=classic&amp;s=solid">Face Smile Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=sharp&amp;s=solid">Face Smile Hearts</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSmileHearts;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=classic&amp;s=solid">Face Smile Hearts</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=sharp&amp;s=thin">Face Smile Hearts</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileHearts;
     }
@@ -3669,11 +3669,11 @@ public static partial class FaEmoji
     public static partial class FaceSmileHorns
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=classic&amp;s=solid">Face Smile Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=classic&amp;s=light">Face Smile Horns</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSmileHorns;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=classic&amp;s=solid">Face Smile Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=classic&amp;s=regular">Face Smile Horns</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSmileHorns;
         /// <summary>
@@ -3681,27 +3681,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSmileHorns;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=classic&amp;s=solid">Face Smile Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=classic&amp;s=thin">Face Smile Horns</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileHorns;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=classic&amp;s=solid">Face Smile Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=classic&amp;s=duotone">Face Smile Horns</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSmileHorns;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=classic&amp;s=solid">Face Smile Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=sharp&amp;s=light">Face Smile Horns</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSmileHorns;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=classic&amp;s=solid">Face Smile Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=sharp&amp;s=regular">Face Smile Horns</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSmileHorns;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=classic&amp;s=solid">Face Smile Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=sharp&amp;s=solid">Face Smile Horns</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSmileHorns;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=classic&amp;s=solid">Face Smile Horns</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=sharp&amp;s=thin">Face Smile Horns</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileHorns;
     }
@@ -3712,11 +3712,11 @@ public static partial class FaEmoji
     public static partial class FaceSmileRelaxed
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=classic&amp;s=solid">Face Smile Relaxed</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=classic&amp;s=light">Face Smile Relaxed</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSmileRelaxed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=classic&amp;s=solid">Face Smile Relaxed</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=classic&amp;s=regular">Face Smile Relaxed</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSmileRelaxed;
         /// <summary>
@@ -3724,27 +3724,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSmileRelaxed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=classic&amp;s=solid">Face Smile Relaxed</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=classic&amp;s=thin">Face Smile Relaxed</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileRelaxed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=classic&amp;s=solid">Face Smile Relaxed</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=classic&amp;s=duotone">Face Smile Relaxed</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSmileRelaxed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=classic&amp;s=solid">Face Smile Relaxed</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=sharp&amp;s=light">Face Smile Relaxed</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSmileRelaxed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=classic&amp;s=solid">Face Smile Relaxed</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=sharp&amp;s=regular">Face Smile Relaxed</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSmileRelaxed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=classic&amp;s=solid">Face Smile Relaxed</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=sharp&amp;s=solid">Face Smile Relaxed</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSmileRelaxed;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=classic&amp;s=solid">Face Smile Relaxed</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=sharp&amp;s=thin">Face Smile Relaxed</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileRelaxed;
     }
@@ -3755,11 +3755,11 @@ public static partial class FaEmoji
     public static partial class FaceSmileTear
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=classic&amp;s=solid">Face Smile Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=classic&amp;s=light">Face Smile Tear</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSmileTear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=classic&amp;s=solid">Face Smile Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=classic&amp;s=regular">Face Smile Tear</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSmileTear;
         /// <summary>
@@ -3767,27 +3767,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSmileTear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=classic&amp;s=solid">Face Smile Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=classic&amp;s=thin">Face Smile Tear</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileTear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=classic&amp;s=solid">Face Smile Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=classic&amp;s=duotone">Face Smile Tear</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSmileTear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=classic&amp;s=solid">Face Smile Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=sharp&amp;s=light">Face Smile Tear</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSmileTear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=classic&amp;s=solid">Face Smile Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=sharp&amp;s=regular">Face Smile Tear</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSmileTear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=classic&amp;s=solid">Face Smile Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=sharp&amp;s=solid">Face Smile Tear</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSmileTear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=classic&amp;s=solid">Face Smile Tear</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=sharp&amp;s=thin">Face Smile Tear</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileTear;
     }
@@ -3798,11 +3798,11 @@ public static partial class FaEmoji
     public static partial class FaceSmileTongue
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=classic&amp;s=solid">Face Smile Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=classic&amp;s=light">Face Smile Tongue</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSmileTongue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=classic&amp;s=solid">Face Smile Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=classic&amp;s=regular">Face Smile Tongue</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSmileTongue;
         /// <summary>
@@ -3810,27 +3810,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSmileTongue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=classic&amp;s=solid">Face Smile Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=classic&amp;s=thin">Face Smile Tongue</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileTongue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=classic&amp;s=solid">Face Smile Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=classic&amp;s=duotone">Face Smile Tongue</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSmileTongue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=classic&amp;s=solid">Face Smile Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=sharp&amp;s=light">Face Smile Tongue</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSmileTongue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=classic&amp;s=solid">Face Smile Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=sharp&amp;s=regular">Face Smile Tongue</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSmileTongue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=classic&amp;s=solid">Face Smile Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=sharp&amp;s=solid">Face Smile Tongue</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSmileTongue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=classic&amp;s=solid">Face Smile Tongue</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=sharp&amp;s=thin">Face Smile Tongue</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileTongue;
     }
@@ -3841,11 +3841,11 @@ public static partial class FaEmoji
     public static partial class FaceSmileUpsideDown
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=classic&amp;s=solid">Face Smile Upside Down</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=classic&amp;s=light">Face Smile Upside Down</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSmileUpsideDown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=classic&amp;s=solid">Face Smile Upside Down</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=classic&amp;s=regular">Face Smile Upside Down</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSmileUpsideDown;
         /// <summary>
@@ -3853,27 +3853,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSmileUpsideDown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=classic&amp;s=solid">Face Smile Upside Down</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=classic&amp;s=thin">Face Smile Upside Down</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileUpsideDown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=classic&amp;s=solid">Face Smile Upside Down</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=classic&amp;s=duotone">Face Smile Upside Down</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSmileUpsideDown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=classic&amp;s=solid">Face Smile Upside Down</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=sharp&amp;s=light">Face Smile Upside Down</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSmileUpsideDown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=classic&amp;s=solid">Face Smile Upside Down</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=sharp&amp;s=regular">Face Smile Upside Down</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSmileUpsideDown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=classic&amp;s=solid">Face Smile Upside Down</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=sharp&amp;s=solid">Face Smile Upside Down</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSmileUpsideDown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=classic&amp;s=solid">Face Smile Upside Down</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=sharp&amp;s=thin">Face Smile Upside Down</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileUpsideDown;
     }
@@ -3884,11 +3884,11 @@ public static partial class FaEmoji
     public static partial class FaceSmileWink
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=classic&amp;s=solid">Face Smile Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=classic&amp;s=light">Face Smile Wink</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSmileWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=classic&amp;s=solid">Face Smile Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=classic&amp;s=regular">Face Smile Wink</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSmileWink;
         /// <summary>
@@ -3896,27 +3896,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSmileWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=classic&amp;s=solid">Face Smile Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=classic&amp;s=thin">Face Smile Wink</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=classic&amp;s=solid">Face Smile Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=classic&amp;s=duotone">Face Smile Wink</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSmileWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=classic&amp;s=solid">Face Smile Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=sharp&amp;s=light">Face Smile Wink</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSmileWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=classic&amp;s=solid">Face Smile Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=sharp&amp;s=regular">Face Smile Wink</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSmileWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=classic&amp;s=solid">Face Smile Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=sharp&amp;s=solid">Face Smile Wink</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSmileWink;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=classic&amp;s=solid">Face Smile Wink</a>
+        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=sharp&amp;s=thin">Face Smile Wink</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileWink;
     }
@@ -3927,11 +3927,11 @@ public static partial class FaEmoji
     public static partial class FaceSmilingHands
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=classic&amp;s=solid">Face Smiling Hands</a>
+        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=classic&amp;s=light">Face Smiling Hands</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSmilingHands;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=classic&amp;s=solid">Face Smiling Hands</a>
+        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=classic&amp;s=regular">Face Smiling Hands</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSmilingHands;
         /// <summary>
@@ -3939,27 +3939,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSmilingHands;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=classic&amp;s=solid">Face Smiling Hands</a>
+        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=classic&amp;s=thin">Face Smiling Hands</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmilingHands;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=classic&amp;s=solid">Face Smiling Hands</a>
+        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=classic&amp;s=duotone">Face Smiling Hands</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSmilingHands;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=classic&amp;s=solid">Face Smiling Hands</a>
+        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=sharp&amp;s=light">Face Smiling Hands</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSmilingHands;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=classic&amp;s=solid">Face Smiling Hands</a>
+        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=sharp&amp;s=regular">Face Smiling Hands</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSmilingHands;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=classic&amp;s=solid">Face Smiling Hands</a>
+        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=sharp&amp;s=solid">Face Smiling Hands</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSmilingHands;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=classic&amp;s=solid">Face Smiling Hands</a>
+        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=sharp&amp;s=thin">Face Smiling Hands</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmilingHands;
     }
@@ -3970,11 +3970,11 @@ public static partial class FaEmoji
     public static partial class FaceSmirking
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smirking?f=classic&amp;s=solid">Face Smirking</a>
+        /// <a href="https://fontawesome.com/icons/face-smirking?f=classic&amp;s=light">Face Smirking</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSmirking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smirking?f=classic&amp;s=solid">Face Smirking</a>
+        /// <a href="https://fontawesome.com/icons/face-smirking?f=classic&amp;s=regular">Face Smirking</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSmirking;
         /// <summary>
@@ -3982,27 +3982,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSmirking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smirking?f=classic&amp;s=solid">Face Smirking</a>
+        /// <a href="https://fontawesome.com/icons/face-smirking?f=classic&amp;s=thin">Face Smirking</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmirking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smirking?f=classic&amp;s=solid">Face Smirking</a>
+        /// <a href="https://fontawesome.com/icons/face-smirking?f=classic&amp;s=duotone">Face Smirking</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSmirking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smirking?f=classic&amp;s=solid">Face Smirking</a>
+        /// <a href="https://fontawesome.com/icons/face-smirking?f=sharp&amp;s=light">Face Smirking</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSmirking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smirking?f=classic&amp;s=solid">Face Smirking</a>
+        /// <a href="https://fontawesome.com/icons/face-smirking?f=sharp&amp;s=regular">Face Smirking</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSmirking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smirking?f=classic&amp;s=solid">Face Smirking</a>
+        /// <a href="https://fontawesome.com/icons/face-smirking?f=sharp&amp;s=solid">Face Smirking</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSmirking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-smirking?f=classic&amp;s=solid">Face Smirking</a>
+        /// <a href="https://fontawesome.com/icons/face-smirking?f=sharp&amp;s=thin">Face Smirking</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmirking;
     }
@@ -4013,11 +4013,11 @@ public static partial class FaEmoji
     public static partial class FaceSpiralEyes
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=classic&amp;s=solid">Face Spiral Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=classic&amp;s=light">Face Spiral Eyes</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSpiralEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=classic&amp;s=solid">Face Spiral Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=classic&amp;s=regular">Face Spiral Eyes</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSpiralEyes;
         /// <summary>
@@ -4025,27 +4025,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSpiralEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=classic&amp;s=solid">Face Spiral Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=classic&amp;s=thin">Face Spiral Eyes</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSpiralEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=classic&amp;s=solid">Face Spiral Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=classic&amp;s=duotone">Face Spiral Eyes</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSpiralEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=classic&amp;s=solid">Face Spiral Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=sharp&amp;s=light">Face Spiral Eyes</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSpiralEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=classic&amp;s=solid">Face Spiral Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=sharp&amp;s=regular">Face Spiral Eyes</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSpiralEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=classic&amp;s=solid">Face Spiral Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=sharp&amp;s=solid">Face Spiral Eyes</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSpiralEyes;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=classic&amp;s=solid">Face Spiral Eyes</a>
+        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=sharp&amp;s=thin">Face Spiral Eyes</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSpiralEyes;
     }
@@ -4056,11 +4056,11 @@ public static partial class FaEmoji
     public static partial class FaceSunglasses
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=classic&amp;s=solid">Face Sunglasses</a>
+        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=classic&amp;s=light">Face Sunglasses</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSunglasses;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=classic&amp;s=solid">Face Sunglasses</a>
+        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=classic&amp;s=regular">Face Sunglasses</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSunglasses;
         /// <summary>
@@ -4068,27 +4068,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSunglasses;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=classic&amp;s=solid">Face Sunglasses</a>
+        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=classic&amp;s=thin">Face Sunglasses</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSunglasses;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=classic&amp;s=solid">Face Sunglasses</a>
+        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=classic&amp;s=duotone">Face Sunglasses</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSunglasses;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=classic&amp;s=solid">Face Sunglasses</a>
+        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=sharp&amp;s=light">Face Sunglasses</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSunglasses;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=classic&amp;s=solid">Face Sunglasses</a>
+        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=sharp&amp;s=regular">Face Sunglasses</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSunglasses;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=classic&amp;s=solid">Face Sunglasses</a>
+        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=sharp&amp;s=solid">Face Sunglasses</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSunglasses;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=classic&amp;s=solid">Face Sunglasses</a>
+        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=sharp&amp;s=thin">Face Sunglasses</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSunglasses;
     }
@@ -4099,11 +4099,11 @@ public static partial class FaEmoji
     public static partial class FaceSurprise
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-surprise?f=classic&amp;s=solid">Face Surprise</a>
+        /// <a href="https://fontawesome.com/icons/face-surprise?f=classic&amp;s=light">Face Surprise</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSurprise;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-surprise?f=classic&amp;s=solid">Face Surprise</a>
+        /// <a href="https://fontawesome.com/icons/face-surprise?f=classic&amp;s=regular">Face Surprise</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSurprise;
         /// <summary>
@@ -4111,27 +4111,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSurprise;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-surprise?f=classic&amp;s=solid">Face Surprise</a>
+        /// <a href="https://fontawesome.com/icons/face-surprise?f=classic&amp;s=thin">Face Surprise</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSurprise;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-surprise?f=classic&amp;s=solid">Face Surprise</a>
+        /// <a href="https://fontawesome.com/icons/face-surprise?f=classic&amp;s=duotone">Face Surprise</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSurprise;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-surprise?f=classic&amp;s=solid">Face Surprise</a>
+        /// <a href="https://fontawesome.com/icons/face-surprise?f=sharp&amp;s=light">Face Surprise</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSurprise;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-surprise?f=classic&amp;s=solid">Face Surprise</a>
+        /// <a href="https://fontawesome.com/icons/face-surprise?f=sharp&amp;s=regular">Face Surprise</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSurprise;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-surprise?f=classic&amp;s=solid">Face Surprise</a>
+        /// <a href="https://fontawesome.com/icons/face-surprise?f=sharp&amp;s=solid">Face Surprise</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSurprise;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-surprise?f=classic&amp;s=solid">Face Surprise</a>
+        /// <a href="https://fontawesome.com/icons/face-surprise?f=sharp&amp;s=thin">Face Surprise</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSurprise;
     }
@@ -4142,11 +4142,11 @@ public static partial class FaEmoji
     public static partial class FaceSwear
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-swear?f=classic&amp;s=solid">Face Swear</a>
+        /// <a href="https://fontawesome.com/icons/face-swear?f=classic&amp;s=light">Face Swear</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceSwear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-swear?f=classic&amp;s=solid">Face Swear</a>
+        /// <a href="https://fontawesome.com/icons/face-swear?f=classic&amp;s=regular">Face Swear</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceSwear;
         /// <summary>
@@ -4154,27 +4154,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceSwear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-swear?f=classic&amp;s=solid">Face Swear</a>
+        /// <a href="https://fontawesome.com/icons/face-swear?f=classic&amp;s=thin">Face Swear</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSwear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-swear?f=classic&amp;s=solid">Face Swear</a>
+        /// <a href="https://fontawesome.com/icons/face-swear?f=classic&amp;s=duotone">Face Swear</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceSwear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-swear?f=classic&amp;s=solid">Face Swear</a>
+        /// <a href="https://fontawesome.com/icons/face-swear?f=sharp&amp;s=light">Face Swear</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceSwear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-swear?f=classic&amp;s=solid">Face Swear</a>
+        /// <a href="https://fontawesome.com/icons/face-swear?f=sharp&amp;s=regular">Face Swear</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceSwear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-swear?f=classic&amp;s=solid">Face Swear</a>
+        /// <a href="https://fontawesome.com/icons/face-swear?f=sharp&amp;s=solid">Face Swear</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceSwear;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-swear?f=classic&amp;s=solid">Face Swear</a>
+        /// <a href="https://fontawesome.com/icons/face-swear?f=sharp&amp;s=thin">Face Swear</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSwear;
     }
@@ -4185,11 +4185,11 @@ public static partial class FaEmoji
     public static partial class FaceThermometer
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thermometer?f=classic&amp;s=solid">Face Thermometer</a>
+        /// <a href="https://fontawesome.com/icons/face-thermometer?f=classic&amp;s=light">Face Thermometer</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceThermometer;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thermometer?f=classic&amp;s=solid">Face Thermometer</a>
+        /// <a href="https://fontawesome.com/icons/face-thermometer?f=classic&amp;s=regular">Face Thermometer</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceThermometer;
         /// <summary>
@@ -4197,27 +4197,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceThermometer;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thermometer?f=classic&amp;s=solid">Face Thermometer</a>
+        /// <a href="https://fontawesome.com/icons/face-thermometer?f=classic&amp;s=thin">Face Thermometer</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceThermometer;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thermometer?f=classic&amp;s=solid">Face Thermometer</a>
+        /// <a href="https://fontawesome.com/icons/face-thermometer?f=classic&amp;s=duotone">Face Thermometer</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceThermometer;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thermometer?f=classic&amp;s=solid">Face Thermometer</a>
+        /// <a href="https://fontawesome.com/icons/face-thermometer?f=sharp&amp;s=light">Face Thermometer</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceThermometer;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thermometer?f=classic&amp;s=solid">Face Thermometer</a>
+        /// <a href="https://fontawesome.com/icons/face-thermometer?f=sharp&amp;s=regular">Face Thermometer</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceThermometer;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thermometer?f=classic&amp;s=solid">Face Thermometer</a>
+        /// <a href="https://fontawesome.com/icons/face-thermometer?f=sharp&amp;s=solid">Face Thermometer</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceThermometer;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thermometer?f=classic&amp;s=solid">Face Thermometer</a>
+        /// <a href="https://fontawesome.com/icons/face-thermometer?f=sharp&amp;s=thin">Face Thermometer</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceThermometer;
     }
@@ -4228,11 +4228,11 @@ public static partial class FaEmoji
     public static partial class FaceThinking
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thinking?f=classic&amp;s=solid">Face Thinking</a>
+        /// <a href="https://fontawesome.com/icons/face-thinking?f=classic&amp;s=light">Face Thinking</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceThinking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thinking?f=classic&amp;s=solid">Face Thinking</a>
+        /// <a href="https://fontawesome.com/icons/face-thinking?f=classic&amp;s=regular">Face Thinking</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceThinking;
         /// <summary>
@@ -4240,27 +4240,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceThinking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thinking?f=classic&amp;s=solid">Face Thinking</a>
+        /// <a href="https://fontawesome.com/icons/face-thinking?f=classic&amp;s=thin">Face Thinking</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceThinking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thinking?f=classic&amp;s=solid">Face Thinking</a>
+        /// <a href="https://fontawesome.com/icons/face-thinking?f=classic&amp;s=duotone">Face Thinking</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceThinking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thinking?f=classic&amp;s=solid">Face Thinking</a>
+        /// <a href="https://fontawesome.com/icons/face-thinking?f=sharp&amp;s=light">Face Thinking</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceThinking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thinking?f=classic&amp;s=solid">Face Thinking</a>
+        /// <a href="https://fontawesome.com/icons/face-thinking?f=sharp&amp;s=regular">Face Thinking</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceThinking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thinking?f=classic&amp;s=solid">Face Thinking</a>
+        /// <a href="https://fontawesome.com/icons/face-thinking?f=sharp&amp;s=solid">Face Thinking</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceThinking;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-thinking?f=classic&amp;s=solid">Face Thinking</a>
+        /// <a href="https://fontawesome.com/icons/face-thinking?f=sharp&amp;s=thin">Face Thinking</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceThinking;
     }
@@ -4271,11 +4271,11 @@ public static partial class FaEmoji
     public static partial class FaceTired
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tired?f=classic&amp;s=solid">Face Tired</a>
+        /// <a href="https://fontawesome.com/icons/face-tired?f=classic&amp;s=light">Face Tired</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceTired;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tired?f=classic&amp;s=solid">Face Tired</a>
+        /// <a href="https://fontawesome.com/icons/face-tired?f=classic&amp;s=regular">Face Tired</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceTired;
         /// <summary>
@@ -4283,27 +4283,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceTired;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tired?f=classic&amp;s=solid">Face Tired</a>
+        /// <a href="https://fontawesome.com/icons/face-tired?f=classic&amp;s=thin">Face Tired</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceTired;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tired?f=classic&amp;s=solid">Face Tired</a>
+        /// <a href="https://fontawesome.com/icons/face-tired?f=classic&amp;s=duotone">Face Tired</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceTired;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tired?f=classic&amp;s=solid">Face Tired</a>
+        /// <a href="https://fontawesome.com/icons/face-tired?f=sharp&amp;s=light">Face Tired</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceTired;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tired?f=classic&amp;s=solid">Face Tired</a>
+        /// <a href="https://fontawesome.com/icons/face-tired?f=sharp&amp;s=regular">Face Tired</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceTired;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tired?f=classic&amp;s=solid">Face Tired</a>
+        /// <a href="https://fontawesome.com/icons/face-tired?f=sharp&amp;s=solid">Face Tired</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceTired;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tired?f=classic&amp;s=solid">Face Tired</a>
+        /// <a href="https://fontawesome.com/icons/face-tired?f=sharp&amp;s=thin">Face Tired</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceTired;
     }
@@ -4314,11 +4314,11 @@ public static partial class FaEmoji
     public static partial class FaceTissue
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tissue?f=classic&amp;s=solid">Face Tissue</a>
+        /// <a href="https://fontawesome.com/icons/face-tissue?f=classic&amp;s=light">Face Tissue</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceTissue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tissue?f=classic&amp;s=solid">Face Tissue</a>
+        /// <a href="https://fontawesome.com/icons/face-tissue?f=classic&amp;s=regular">Face Tissue</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceTissue;
         /// <summary>
@@ -4326,27 +4326,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceTissue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tissue?f=classic&amp;s=solid">Face Tissue</a>
+        /// <a href="https://fontawesome.com/icons/face-tissue?f=classic&amp;s=thin">Face Tissue</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceTissue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tissue?f=classic&amp;s=solid">Face Tissue</a>
+        /// <a href="https://fontawesome.com/icons/face-tissue?f=classic&amp;s=duotone">Face Tissue</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceTissue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tissue?f=classic&amp;s=solid">Face Tissue</a>
+        /// <a href="https://fontawesome.com/icons/face-tissue?f=sharp&amp;s=light">Face Tissue</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceTissue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tissue?f=classic&amp;s=solid">Face Tissue</a>
+        /// <a href="https://fontawesome.com/icons/face-tissue?f=sharp&amp;s=regular">Face Tissue</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceTissue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tissue?f=classic&amp;s=solid">Face Tissue</a>
+        /// <a href="https://fontawesome.com/icons/face-tissue?f=sharp&amp;s=solid">Face Tissue</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceTissue;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tissue?f=classic&amp;s=solid">Face Tissue</a>
+        /// <a href="https://fontawesome.com/icons/face-tissue?f=sharp&amp;s=thin">Face Tissue</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceTissue;
     }
@@ -4357,11 +4357,11 @@ public static partial class FaEmoji
     public static partial class FaceTongueMoney
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=classic&amp;s=solid">Face Tongue Money</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=classic&amp;s=light">Face Tongue Money</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceTongueMoney;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=classic&amp;s=solid">Face Tongue Money</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=classic&amp;s=regular">Face Tongue Money</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceTongueMoney;
         /// <summary>
@@ -4369,27 +4369,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceTongueMoney;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=classic&amp;s=solid">Face Tongue Money</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=classic&amp;s=thin">Face Tongue Money</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceTongueMoney;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=classic&amp;s=solid">Face Tongue Money</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=classic&amp;s=duotone">Face Tongue Money</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceTongueMoney;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=classic&amp;s=solid">Face Tongue Money</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=sharp&amp;s=light">Face Tongue Money</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceTongueMoney;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=classic&amp;s=solid">Face Tongue Money</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=sharp&amp;s=regular">Face Tongue Money</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceTongueMoney;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=classic&amp;s=solid">Face Tongue Money</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=sharp&amp;s=solid">Face Tongue Money</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceTongueMoney;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=classic&amp;s=solid">Face Tongue Money</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=sharp&amp;s=thin">Face Tongue Money</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceTongueMoney;
     }
@@ -4400,11 +4400,11 @@ public static partial class FaEmoji
     public static partial class FaceTongueSweat
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=classic&amp;s=solid">Face Tongue Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=classic&amp;s=light">Face Tongue Sweat</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceTongueSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=classic&amp;s=solid">Face Tongue Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=classic&amp;s=regular">Face Tongue Sweat</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceTongueSweat;
         /// <summary>
@@ -4412,27 +4412,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceTongueSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=classic&amp;s=solid">Face Tongue Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=classic&amp;s=thin">Face Tongue Sweat</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceTongueSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=classic&amp;s=solid">Face Tongue Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=classic&amp;s=duotone">Face Tongue Sweat</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceTongueSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=classic&amp;s=solid">Face Tongue Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=sharp&amp;s=light">Face Tongue Sweat</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceTongueSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=classic&amp;s=solid">Face Tongue Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=sharp&amp;s=regular">Face Tongue Sweat</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceTongueSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=classic&amp;s=solid">Face Tongue Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=sharp&amp;s=solid">Face Tongue Sweat</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceTongueSweat;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=classic&amp;s=solid">Face Tongue Sweat</a>
+        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=sharp&amp;s=thin">Face Tongue Sweat</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceTongueSweat;
     }
@@ -4443,11 +4443,11 @@ public static partial class FaEmoji
     public static partial class FaceUnamused
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-unamused?f=classic&amp;s=solid">Face Unamused</a>
+        /// <a href="https://fontawesome.com/icons/face-unamused?f=classic&amp;s=light">Face Unamused</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceUnamused;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-unamused?f=classic&amp;s=solid">Face Unamused</a>
+        /// <a href="https://fontawesome.com/icons/face-unamused?f=classic&amp;s=regular">Face Unamused</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceUnamused;
         /// <summary>
@@ -4455,27 +4455,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceUnamused;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-unamused?f=classic&amp;s=solid">Face Unamused</a>
+        /// <a href="https://fontawesome.com/icons/face-unamused?f=classic&amp;s=thin">Face Unamused</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceUnamused;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-unamused?f=classic&amp;s=solid">Face Unamused</a>
+        /// <a href="https://fontawesome.com/icons/face-unamused?f=classic&amp;s=duotone">Face Unamused</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceUnamused;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-unamused?f=classic&amp;s=solid">Face Unamused</a>
+        /// <a href="https://fontawesome.com/icons/face-unamused?f=sharp&amp;s=light">Face Unamused</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceUnamused;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-unamused?f=classic&amp;s=solid">Face Unamused</a>
+        /// <a href="https://fontawesome.com/icons/face-unamused?f=sharp&amp;s=regular">Face Unamused</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceUnamused;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-unamused?f=classic&amp;s=solid">Face Unamused</a>
+        /// <a href="https://fontawesome.com/icons/face-unamused?f=sharp&amp;s=solid">Face Unamused</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceUnamused;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-unamused?f=classic&amp;s=solid">Face Unamused</a>
+        /// <a href="https://fontawesome.com/icons/face-unamused?f=sharp&amp;s=thin">Face Unamused</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceUnamused;
     }
@@ -4486,11 +4486,11 @@ public static partial class FaEmoji
     public static partial class FaceVomit
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-vomit?f=classic&amp;s=solid">Face Vomit</a>
+        /// <a href="https://fontawesome.com/icons/face-vomit?f=classic&amp;s=light">Face Vomit</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceVomit;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-vomit?f=classic&amp;s=solid">Face Vomit</a>
+        /// <a href="https://fontawesome.com/icons/face-vomit?f=classic&amp;s=regular">Face Vomit</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceVomit;
         /// <summary>
@@ -4498,27 +4498,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceVomit;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-vomit?f=classic&amp;s=solid">Face Vomit</a>
+        /// <a href="https://fontawesome.com/icons/face-vomit?f=classic&amp;s=thin">Face Vomit</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceVomit;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-vomit?f=classic&amp;s=solid">Face Vomit</a>
+        /// <a href="https://fontawesome.com/icons/face-vomit?f=classic&amp;s=duotone">Face Vomit</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceVomit;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-vomit?f=classic&amp;s=solid">Face Vomit</a>
+        /// <a href="https://fontawesome.com/icons/face-vomit?f=sharp&amp;s=light">Face Vomit</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceVomit;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-vomit?f=classic&amp;s=solid">Face Vomit</a>
+        /// <a href="https://fontawesome.com/icons/face-vomit?f=sharp&amp;s=regular">Face Vomit</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceVomit;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-vomit?f=classic&amp;s=solid">Face Vomit</a>
+        /// <a href="https://fontawesome.com/icons/face-vomit?f=sharp&amp;s=solid">Face Vomit</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceVomit;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-vomit?f=classic&amp;s=solid">Face Vomit</a>
+        /// <a href="https://fontawesome.com/icons/face-vomit?f=sharp&amp;s=thin">Face Vomit</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceVomit;
     }
@@ -4529,11 +4529,11 @@ public static partial class FaEmoji
     public static partial class FaceWeary
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-weary?f=classic&amp;s=solid">Face Weary</a>
+        /// <a href="https://fontawesome.com/icons/face-weary?f=classic&amp;s=light">Face Weary</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceWeary;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-weary?f=classic&amp;s=solid">Face Weary</a>
+        /// <a href="https://fontawesome.com/icons/face-weary?f=classic&amp;s=regular">Face Weary</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceWeary;
         /// <summary>
@@ -4541,27 +4541,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceWeary;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-weary?f=classic&amp;s=solid">Face Weary</a>
+        /// <a href="https://fontawesome.com/icons/face-weary?f=classic&amp;s=thin">Face Weary</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceWeary;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-weary?f=classic&amp;s=solid">Face Weary</a>
+        /// <a href="https://fontawesome.com/icons/face-weary?f=classic&amp;s=duotone">Face Weary</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceWeary;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-weary?f=classic&amp;s=solid">Face Weary</a>
+        /// <a href="https://fontawesome.com/icons/face-weary?f=sharp&amp;s=light">Face Weary</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceWeary;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-weary?f=classic&amp;s=solid">Face Weary</a>
+        /// <a href="https://fontawesome.com/icons/face-weary?f=sharp&amp;s=regular">Face Weary</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceWeary;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-weary?f=classic&amp;s=solid">Face Weary</a>
+        /// <a href="https://fontawesome.com/icons/face-weary?f=sharp&amp;s=solid">Face Weary</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceWeary;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-weary?f=classic&amp;s=solid">Face Weary</a>
+        /// <a href="https://fontawesome.com/icons/face-weary?f=sharp&amp;s=thin">Face Weary</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceWeary;
     }
@@ -4572,11 +4572,11 @@ public static partial class FaEmoji
     public static partial class FaceWoozy
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-woozy?f=classic&amp;s=solid">Face Woozy</a>
+        /// <a href="https://fontawesome.com/icons/face-woozy?f=classic&amp;s=light">Face Woozy</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceWoozy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-woozy?f=classic&amp;s=solid">Face Woozy</a>
+        /// <a href="https://fontawesome.com/icons/face-woozy?f=classic&amp;s=regular">Face Woozy</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceWoozy;
         /// <summary>
@@ -4584,27 +4584,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceWoozy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-woozy?f=classic&amp;s=solid">Face Woozy</a>
+        /// <a href="https://fontawesome.com/icons/face-woozy?f=classic&amp;s=thin">Face Woozy</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceWoozy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-woozy?f=classic&amp;s=solid">Face Woozy</a>
+        /// <a href="https://fontawesome.com/icons/face-woozy?f=classic&amp;s=duotone">Face Woozy</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceWoozy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-woozy?f=classic&amp;s=solid">Face Woozy</a>
+        /// <a href="https://fontawesome.com/icons/face-woozy?f=sharp&amp;s=light">Face Woozy</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceWoozy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-woozy?f=classic&amp;s=solid">Face Woozy</a>
+        /// <a href="https://fontawesome.com/icons/face-woozy?f=sharp&amp;s=regular">Face Woozy</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceWoozy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-woozy?f=classic&amp;s=solid">Face Woozy</a>
+        /// <a href="https://fontawesome.com/icons/face-woozy?f=sharp&amp;s=solid">Face Woozy</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceWoozy;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-woozy?f=classic&amp;s=solid">Face Woozy</a>
+        /// <a href="https://fontawesome.com/icons/face-woozy?f=sharp&amp;s=thin">Face Woozy</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceWoozy;
     }
@@ -4615,11 +4615,11 @@ public static partial class FaEmoji
     public static partial class FaceWorried
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-worried?f=classic&amp;s=solid">Face Worried</a>
+        /// <a href="https://fontawesome.com/icons/face-worried?f=classic&amp;s=light">Face Worried</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceWorried;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-worried?f=classic&amp;s=solid">Face Worried</a>
+        /// <a href="https://fontawesome.com/icons/face-worried?f=classic&amp;s=regular">Face Worried</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceWorried;
         /// <summary>
@@ -4627,27 +4627,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceWorried;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-worried?f=classic&amp;s=solid">Face Worried</a>
+        /// <a href="https://fontawesome.com/icons/face-worried?f=classic&amp;s=thin">Face Worried</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceWorried;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-worried?f=classic&amp;s=solid">Face Worried</a>
+        /// <a href="https://fontawesome.com/icons/face-worried?f=classic&amp;s=duotone">Face Worried</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceWorried;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-worried?f=classic&amp;s=solid">Face Worried</a>
+        /// <a href="https://fontawesome.com/icons/face-worried?f=sharp&amp;s=light">Face Worried</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceWorried;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-worried?f=classic&amp;s=solid">Face Worried</a>
+        /// <a href="https://fontawesome.com/icons/face-worried?f=sharp&amp;s=regular">Face Worried</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceWorried;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-worried?f=classic&amp;s=solid">Face Worried</a>
+        /// <a href="https://fontawesome.com/icons/face-worried?f=sharp&amp;s=solid">Face Worried</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceWorried;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-worried?f=classic&amp;s=solid">Face Worried</a>
+        /// <a href="https://fontawesome.com/icons/face-worried?f=sharp&amp;s=thin">Face Worried</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceWorried;
     }
@@ -4658,11 +4658,11 @@ public static partial class FaEmoji
     public static partial class FaceZany
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zany?f=classic&amp;s=solid">Face Zany</a>
+        /// <a href="https://fontawesome.com/icons/face-zany?f=classic&amp;s=light">Face Zany</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceZany;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zany?f=classic&amp;s=solid">Face Zany</a>
+        /// <a href="https://fontawesome.com/icons/face-zany?f=classic&amp;s=regular">Face Zany</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceZany;
         /// <summary>
@@ -4670,27 +4670,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceZany;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zany?f=classic&amp;s=solid">Face Zany</a>
+        /// <a href="https://fontawesome.com/icons/face-zany?f=classic&amp;s=thin">Face Zany</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceZany;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zany?f=classic&amp;s=solid">Face Zany</a>
+        /// <a href="https://fontawesome.com/icons/face-zany?f=classic&amp;s=duotone">Face Zany</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceZany;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zany?f=classic&amp;s=solid">Face Zany</a>
+        /// <a href="https://fontawesome.com/icons/face-zany?f=sharp&amp;s=light">Face Zany</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceZany;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zany?f=classic&amp;s=solid">Face Zany</a>
+        /// <a href="https://fontawesome.com/icons/face-zany?f=sharp&amp;s=regular">Face Zany</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceZany;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zany?f=classic&amp;s=solid">Face Zany</a>
+        /// <a href="https://fontawesome.com/icons/face-zany?f=sharp&amp;s=solid">Face Zany</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceZany;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zany?f=classic&amp;s=solid">Face Zany</a>
+        /// <a href="https://fontawesome.com/icons/face-zany?f=sharp&amp;s=thin">Face Zany</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceZany;
     }
@@ -4701,11 +4701,11 @@ public static partial class FaEmoji
     public static partial class FaceZipper
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zipper?f=classic&amp;s=solid">Face Zipper</a>
+        /// <a href="https://fontawesome.com/icons/face-zipper?f=classic&amp;s=light">Face Zipper</a>
         /// </summary>
         public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FaceZipper;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zipper?f=classic&amp;s=solid">Face Zipper</a>
+        /// <a href="https://fontawesome.com/icons/face-zipper?f=classic&amp;s=regular">Face Zipper</a>
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FaceZipper;
         /// <summary>
@@ -4713,27 +4713,27 @@ public static partial class FaEmoji
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FaceZipper;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zipper?f=classic&amp;s=solid">Face Zipper</a>
+        /// <a href="https://fontawesome.com/icons/face-zipper?f=classic&amp;s=thin">Face Zipper</a>
         /// </summary>
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceZipper;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zipper?f=classic&amp;s=solid">Face Zipper</a>
+        /// <a href="https://fontawesome.com/icons/face-zipper?f=classic&amp;s=duotone">Face Zipper</a>
         /// </summary>
         public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FaceZipper;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zipper?f=classic&amp;s=solid">Face Zipper</a>
+        /// <a href="https://fontawesome.com/icons/face-zipper?f=sharp&amp;s=light">Face Zipper</a>
         /// </summary>
         public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FaceZipper;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zipper?f=classic&amp;s=solid">Face Zipper</a>
+        /// <a href="https://fontawesome.com/icons/face-zipper?f=sharp&amp;s=regular">Face Zipper</a>
         /// </summary>
         public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FaceZipper;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zipper?f=classic&amp;s=solid">Face Zipper</a>
+        /// <a href="https://fontawesome.com/icons/face-zipper?f=sharp&amp;s=solid">Face Zipper</a>
         /// </summary>
         public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FaceZipper;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/face-zipper?f=classic&amp;s=solid">Face Zipper</a>
+        /// <a href="https://fontawesome.com/icons/face-zipper?f=sharp&amp;s=thin">Face Zipper</a>
         /// </summary>
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceZipper;
     }

@@ -32,7 +32,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
                                     )
                                    .RenderComponent<FaIcon>(
                                         c => c
-                                            .Parameter(x => x.Icon, FaSolid.Times)
+                                            .Parameter(x => x.Icon, FaSolid.Xmark)
                                             .Parameter(x => x.Shrink, 6)
                                             .Parameter(x => x.Inverse, true)
                                     )

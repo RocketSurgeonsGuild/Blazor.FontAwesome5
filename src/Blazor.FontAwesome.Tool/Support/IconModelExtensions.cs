@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Collections.Immutable;
+using System.Text.RegularExpressions;
 using Humanizer;
 using PrettyCode;
 
@@ -70,7 +71,7 @@ internal static class IconModelExtensions
 
     private static void AppendIconProperties(this IconModel icon, StringBuilder sb, bool svgMode, string @namespace)
     {
-        sb.AppendLine($"private static {GetIconClass(svgMode)}? {ToModelName(icon)}f;");
+        sb.AppendLine($"private static {GetIconClass(svgMode)}? f_{ToModelName(icon)};");
         EmitSummaryComment(icon, sb);
         if (svgMode)
         {
@@ -81,19 +82,20 @@ internal static class IconModelExtensions
             }
             else if (icon is { PathData.Length: 2 })
             {
-                pathData = $"ImmutableArray.Create(\"{icon.PathData[0]}\"u8.ToArray().ToImmutableArray(), \"{icon.PathData[1]}\"u8.ToArray().ToImmutableArray())";
+                pathData =
+                    $"ImmutableArray.Create(\"{icon.PathData[0]}\"u8.ToArray().ToImmutableArray(), \"{icon.PathData[1]}\"u8.ToArray().ToImmutableArray())";
             }
+
             sb.AppendLine(
-                $"public static SvgIcon {ToModelName(icon)} => {ToModelName(icon)}f ??= new SvgIcon(IconFamily.{icon.Family}, IconStyle.{icon.Style}, \"{icon.Id}\", \"{icon.Unicode}\", {icon.Width}, {icon.Height}, {pathData});"
+                $"public static SvgIcon {ToModelName(icon)} => f_{ToModelName(icon)} ??= new SvgIcon(IconFamily.{icon.Family}, IconStyle.{icon.Style}, \"{icon.Id}\", \"{icon.Unicode}\", {icon.Width}, {icon.Height}, {pathData});"
             );
         }
         else
         {
             sb.AppendLine(
-                $"public static Icon {ToModelName(icon)} => {ToModelName(icon)}f ??= new Icon(IconFamily.{icon.Family}, IconStyle.{icon.Style}, \"{icon.Id}\", \"{icon.Unicode}\");"
+                $"public static Icon {ToModelName(icon)} => f_{ToModelName(icon)} ??= new Icon(IconFamily.{icon.Family}, IconStyle.{icon.Style}, \"{icon.Id}\", \"{icon.Unicode}\");"
             );
         }
-
         foreach (var alias in icon.Aliases)
         {
             EmitSummaryComment(icon, sb);
@@ -109,14 +111,17 @@ internal static class IconModelExtensions
         string @namespace
     )
     {
-        var icon = icons.First();
-        sb.AppendLine("/// <summary>");
-        sb.AppendLine($"/// {icon.Label}");
-        sb.AppendLine($"/// <a href=\"{GetRootHref(icon)}\">{icon.Label}</a>");
-        sb.AppendLine("/// </summary>");
-        sb.AppendLine(
-            $"public static partial class {ToModelName(icon)}{( categoryModel.Name.Equals(icon.Id, StringComparison.OrdinalIgnoreCase) ? "Icon" : "" )}"
-        );
+        IconModel rootIcon;
+        {
+            var icon = rootIcon = icons.First();
+            sb.AppendLine("/// <summary>");
+            sb.AppendLine($"/// {icon.Label}");
+            sb.AppendLine($"/// <a href=\"{GetRootHref(icon)}\">{icon.Label}</a>");
+            sb.AppendLine("/// </summary>");
+            sb.AppendLine(
+                $"public static partial class {ToModelName(icon)}{( categoryModel.Name.Equals(icon.Id, StringComparison.OrdinalIgnoreCase) ? "Icon" : "" )}"
+            );
+        }
         sb.AppendLine("{");
         using (sb.Indent())
         {
@@ -126,9 +131,9 @@ internal static class IconModelExtensions
             {
                 var styleName = GetStyleName(style);
                 sb.AppendLine("/// <summary>");
-                sb.AppendLine($"/// <a href=\"{GetHref(icon)}\">{icon.Label}</a>");
+                sb.AppendLine($"/// <a href=\"{GetHref(style)}\">{style.Label}</a>");
                 sb.AppendLine("/// </summary>");
-                sb.AppendLine($"public static {GetIconClass(svgMode)} {styleName} => global::{@namespace}.Fa{styleName}.{ToModelName(icon)};");
+                sb.AppendLine($"public static {GetIconClass(svgMode)} {styleName} => global::{@namespace}.Fa{styleName}.{ToModelName(rootIcon)};");
             }
         }
 
@@ -174,14 +179,14 @@ internal static class IconModelExtensions
     {
         if (id.Equals(nameof(Equals), StringComparison.OrdinalIgnoreCase))
         {
-            return "equal".Dehumanize();
+            return "equal".Pascalize();
         }
 
         if (startsWithDigit.IsMatch(id))
         {
-            return "_" + id.Replace('-', ' ').Dehumanize();
+            return "_" + id.Replace('-', ' ').Humanize().Pascalize();
         }
 
-        return id.Replace('-', ' ').Dehumanize();
+        return id.Replace('-', ' ').Humanize().Pascalize();
     }
 }

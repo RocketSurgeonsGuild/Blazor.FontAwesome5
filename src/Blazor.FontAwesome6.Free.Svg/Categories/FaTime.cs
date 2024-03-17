@@ -18,7 +18,7 @@ public static partial class FaTime
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Bell;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=regular">Bell</a>
+        /// <a href="https://fontawesome.com/icons/bell?f=classic&amp;s=solid">Bell</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Bell;
     }
@@ -33,7 +33,7 @@ public static partial class FaTime
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.BellSlash;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/bell-slash?f=classic&amp;s=regular">Bell Slash</a>
+        /// <a href="https://fontawesome.com/icons/bell-slash?f=classic&amp;s=solid">Bell Slash</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BellSlash;
     }
@@ -48,7 +48,7 @@ public static partial class FaTime
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Calendar;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/calendar?f=classic&amp;s=regular">Calendar</a>
+        /// <a href="https://fontawesome.com/icons/calendar?f=classic&amp;s=solid">Calendar</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Calendar;
     }
@@ -63,7 +63,7 @@ public static partial class FaTime
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.CalendarCheck;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/calendar-check?f=classic&amp;s=regular">Calendar Check</a>
+        /// <a href="https://fontawesome.com/icons/calendar-check?f=classic&amp;s=solid">Calendar Check</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CalendarCheck;
     }
@@ -89,7 +89,7 @@ public static partial class FaTime
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.CalendarDays;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/calendar-days?f=classic&amp;s=regular">Calendar Days</a>
+        /// <a href="https://fontawesome.com/icons/calendar-days?f=classic&amp;s=solid">Calendar Days</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CalendarDays;
     }
@@ -104,7 +104,7 @@ public static partial class FaTime
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.CalendarMinus;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/calendar-minus?f=classic&amp;s=regular">Calendar Minus</a>
+        /// <a href="https://fontawesome.com/icons/calendar-minus?f=classic&amp;s=solid">Calendar Minus</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CalendarMinus;
     }
@@ -119,7 +119,7 @@ public static partial class FaTime
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.CalendarPlus;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/calendar-plus?f=classic&amp;s=regular">Calendar Plus</a>
+        /// <a href="https://fontawesome.com/icons/calendar-plus?f=classic&amp;s=solid">Calendar Plus</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CalendarPlus;
     }
@@ -145,7 +145,7 @@ public static partial class FaTime
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.CalendarXmark;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/calendar-xmark?f=classic&amp;s=regular">Calendar Xmark</a>
+        /// <a href="https://fontawesome.com/icons/calendar-xmark?f=classic&amp;s=solid">Calendar Xmark</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CalendarXmark;
     }
@@ -160,7 +160,7 @@ public static partial class FaTime
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Clock;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/clock?f=classic&amp;s=regular">Clock</a>
+        /// <a href="https://fontawesome.com/icons/clock?f=classic&amp;s=solid">Clock</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Clock;
     }
@@ -175,7 +175,7 @@ public static partial class FaTime
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Hourglass;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hourglass?f=classic&amp;s=regular">Hourglass</a>
+        /// <a href="https://fontawesome.com/icons/hourglass?f=classic&amp;s=solid">Hourglass</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Hourglass;
     }
@@ -201,7 +201,7 @@ public static partial class FaTime
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.HourglassHalf;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hourglass-half?f=classic&amp;s=regular">Hourglass Half</a>
+        /// <a href="https://fontawesome.com/icons/hourglass-half?f=classic&amp;s=solid">Hourglass Half</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HourglassHalf;
     }

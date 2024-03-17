@@ -40,7 +40,7 @@ public static partial class FaBuildings
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Building;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/building?f=classic&amp;s=regular">Building</a>
+        /// <a href="https://fontawesome.com/icons/building?f=classic&amp;s=solid">Building</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Building;
     }
@@ -242,7 +242,7 @@ public static partial class FaBuildings
         /// </summary>
         public static SvgIcon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Hospital;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/hospital?f=classic&amp;s=regular">Hospital</a>
+        /// <a href="https://fontawesome.com/icons/hospital?f=classic&amp;s=solid">Hospital</a>
         /// </summary>
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Hospital;
     }

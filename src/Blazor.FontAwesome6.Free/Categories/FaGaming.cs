@@ -40,7 +40,7 @@ public static partial class FaGaming
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.ChessBishop;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/chess-bishop?f=classic&amp;s=regular">Chess Bishop</a>
+        /// <a href="https://fontawesome.com/icons/chess-bishop?f=classic&amp;s=solid">Chess Bishop</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ChessBishop;
     }
@@ -66,7 +66,7 @@ public static partial class FaGaming
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.ChessKing;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/chess-king?f=classic&amp;s=regular">Chess King</a>
+        /// <a href="https://fontawesome.com/icons/chess-king?f=classic&amp;s=solid">Chess King</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ChessKing;
     }
@@ -81,7 +81,7 @@ public static partial class FaGaming
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.ChessKnight;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/chess-knight?f=classic&amp;s=regular">Chess Knight</a>
+        /// <a href="https://fontawesome.com/icons/chess-knight?f=classic&amp;s=solid">Chess Knight</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ChessKnight;
     }
@@ -96,7 +96,7 @@ public static partial class FaGaming
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.ChessPawn;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/chess-pawn?f=classic&amp;s=regular">Chess Pawn</a>
+        /// <a href="https://fontawesome.com/icons/chess-pawn?f=classic&amp;s=solid">Chess Pawn</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ChessPawn;
     }
@@ -111,7 +111,7 @@ public static partial class FaGaming
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.ChessQueen;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/chess-queen?f=classic&amp;s=regular">Chess Queen</a>
+        /// <a href="https://fontawesome.com/icons/chess-queen?f=classic&amp;s=solid">Chess Queen</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ChessQueen;
     }
@@ -126,7 +126,7 @@ public static partial class FaGaming
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.ChessRook;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/chess-rook?f=classic&amp;s=regular">Chess Rook</a>
+        /// <a href="https://fontawesome.com/icons/chess-rook?f=classic&amp;s=solid">Chess Rook</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ChessRook;
     }
@@ -372,7 +372,7 @@ public static partial class FaGaming
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Heart;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/heart?f=classic&amp;s=regular">Heart</a>
+        /// <a href="https://fontawesome.com/icons/heart?f=classic&amp;s=solid">Heart</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Heart;
     }
@@ -453,7 +453,7 @@ public static partial class FaGaming
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.SquareFull;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/square-full?f=classic&amp;s=regular">Square Full</a>
+        /// <a href="https://fontawesome.com/icons/square-full?f=classic&amp;s=solid">Square Full</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SquareFull;
     }

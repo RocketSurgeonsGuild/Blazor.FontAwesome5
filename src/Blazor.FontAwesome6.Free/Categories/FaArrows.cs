@@ -821,7 +821,7 @@ public static partial class FaArrows
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CircleDown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-down?f=classic&amp;s=regular">Circle Down</a>
+        /// <a href="https://fontawesome.com/icons/circle-down?f=classic&amp;s=solid">Circle Down</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleDown;
     }
@@ -836,7 +836,7 @@ public static partial class FaArrows
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CircleLeft;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-left?f=classic&amp;s=regular">Circle Left</a>
+        /// <a href="https://fontawesome.com/icons/circle-left?f=classic&amp;s=solid">Circle Left</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleLeft;
     }
@@ -851,7 +851,7 @@ public static partial class FaArrows
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CircleRight;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-right?f=classic&amp;s=regular">Circle Right</a>
+        /// <a href="https://fontawesome.com/icons/circle-right?f=classic&amp;s=solid">Circle Right</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleRight;
     }
@@ -866,7 +866,7 @@ public static partial class FaArrows
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.CircleUp;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/circle-up?f=classic&amp;s=regular">Circle Up</a>
+        /// <a href="https://fontawesome.com/icons/circle-up?f=classic&amp;s=solid">Circle Up</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CircleUp;
     }
@@ -1134,7 +1134,7 @@ public static partial class FaArrows
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.ShareFromSquare;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/share-from-square?f=classic&amp;s=regular">Share From Square</a>
+        /// <a href="https://fontawesome.com/icons/share-from-square?f=classic&amp;s=solid">Share From Square</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ShareFromSquare;
     }
@@ -1204,7 +1204,7 @@ public static partial class FaArrows
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.SquareCaretDown;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/square-caret-down?f=classic&amp;s=regular">Square Caret Down</a>
+        /// <a href="https://fontawesome.com/icons/square-caret-down?f=classic&amp;s=solid">Square Caret Down</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SquareCaretDown;
     }
@@ -1219,7 +1219,7 @@ public static partial class FaArrows
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.SquareCaretLeft;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/square-caret-left?f=classic&amp;s=regular">Square Caret Left</a>
+        /// <a href="https://fontawesome.com/icons/square-caret-left?f=classic&amp;s=solid">Square Caret Left</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SquareCaretLeft;
     }
@@ -1234,7 +1234,7 @@ public static partial class FaArrows
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.SquareCaretRight;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/square-caret-right?f=classic&amp;s=regular">Square Caret Right</a>
+        /// <a href="https://fontawesome.com/icons/square-caret-right?f=classic&amp;s=solid">Square Caret Right</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SquareCaretRight;
     }
@@ -1249,7 +1249,7 @@ public static partial class FaArrows
         /// </summary>
         public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.SquareCaretUp;
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/square-caret-up?f=classic&amp;s=regular">Square Caret Up</a>
+        /// <a href="https://fontawesome.com/icons/square-caret-up?f=classic&amp;s=solid">Square Caret Up</a>
         /// </summary>
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SquareCaretUp;
     }

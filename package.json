@@ -8,6 +8,6 @@
         "which": "^4.0.0"
     },
     "scripts": {
-        "husky": "husky install"
+        "husky": "husky"
     }
 }

@@ -55,7 +55,7 @@ jobs:
           echo "message=$(git show -s --format=%s)" >> "$GITHUB_OUTPUT"
       - name: npm ci
         run: |
-          npm ci
+          npm ci --ignore-scripts
       - name: 🔨 Use .NET Core 6.0 SDK
         uses: actions/setup-dotnet@v4
         with:
@@ -76,7 +76,11 @@ jobs:
         run: |
           dotnet nuke LintStaged --skip
       - name: Add & Commit
+        env:
+          GITHUB_TOKEN: '${{ secrets.RSG_BOT_TOKEN }}'
         if: "'${{ steps.commit-message.outputs.message }}' == 'Automatically linting code'"
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: planetscale/ghcommit-action@v0.1.35
         with:
           commit_message: 'Automatically linting code'
+          repo: '${{ github.repository }}'
+          branch: '${{ github.event.pull_request.head.ref }}'

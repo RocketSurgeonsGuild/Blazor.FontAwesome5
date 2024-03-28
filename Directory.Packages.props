@@ -6,12 +6,12 @@
     <PackageVersion Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="3.3.4" />
     <PackageVersion Include="PrettyCode.StringBuilder" Version="1.0.0" />
     <PackageVersion Include="Rocket.Surgery.Conventions.CommandLine" Version="12.10.0" />
-    <PackageVersion Include="Rocket.Surgery.LaunchPad.Foundation" Version="1.7.7" />
+    <PackageVersion Include="Rocket.Surgery.LaunchPad.Foundation" Version="1.7.8" />
     <PackageVersion Include="Rocket.Surgery.MSBuild.CI" Version="1.2.1" />
     <PackageVersion Include="Rocket.Surgery.MSBuild.GitVersion" Version="1.2.1" />
     <PackageVersion Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="1.2.1" Condition="'$(MSBuildProjectName)'!='.build'" />
     <PackageVersion Include="Rocket.Surgery.MSBuild.SourceLink" Version="1.2.1" />
-    <PackageVersion Include="Polyfill" Version="4.0.0" />
+    <PackageVersion Include="Polyfill" Version="4.1.0" />
     <PackageVersion Include="Roslynator.Analyzers" Version="4.12.0" />
     <PackageVersion Include="Roslynator.Formatting.Analyzers" Version="4.12.0" />
     <PackageVersion Include="Roslynator.CodeAnalysis.Analyzers" Version="4.12.0" />
@@ -31,7 +31,7 @@
     <PackageVersion Include="GitVersion.Tool" Version="6.0.0-beta.7" />
     <PackageVersion Include="Nuke.Common" Version="8.0.0" />
     <PackageVersion Include="ReportGenerator" Version="5.2.4" />
-    <PackageVersion Include="Rocket.Surgery.Nuke" Version="1.8.23" />
+    <PackageVersion Include="Rocket.Surgery.Nuke" Version="1.8.26" />
     <PackageVersion Include="Humanizer.Core" Version="2.14.1" />
   </ItemGroup>
   <ItemGroup>
@@ -54,15 +54,15 @@
     <PackageVersion Include="Verify.AngleSharp" Version="4.3.1" />
     <PackageVersion Include="Verify.ImageMagick" Version="3.3.0" />
     <PackageVersion Include="Verify.Blazor" Version="11.0.0" />
-    <PackageVersion Include="Verify.Xunit" Version="23.5.2" />
+    <PackageVersion Include="Verify.Xunit" Version="23.6.0" />
     <PackageVersion Include="Verify.Playwright" Version="2.3.0" />
     <PackageVersion Include="FakeItEasy" Version="8.1.0" />
     <PackageVersion Include="FakeItEasy.Analyzer.CSharp" Version="6.1.1" />
     <PackageVersion Include="FluentAssertions" Version="6.12.0" />
     <PackageVersion Include="FluentAssertions.Analyzers" Version="0.31.0" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
-    <PackageVersion Include="Rocket.Surgery.Extensions.Testing.FakeItEasy" Version="8.0.14" />
-    <PackageVersion Include="Rocket.Surgery.Extensions.Testing.XUnit" Version="8.0.14" />
+    <PackageVersion Include="Rocket.Surgery.Extensions.Testing.FakeItEasy" Version="8.0.17" />
+    <PackageVersion Include="Rocket.Surgery.Extensions.Testing.XUnit" Version="8.0.17" />
     <PackageVersion Include="xunit" Version="2.7.0" />
     <PackageVersion Include="xunit.analyzers" Version="1.11.0" />
     <PackageVersion Include="xunit.runner.visualstudio" Version="2.5.7" />

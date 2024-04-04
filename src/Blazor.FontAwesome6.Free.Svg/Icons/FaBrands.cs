@@ -221,6 +221,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/blogger-b?f=classic&amp;s=brands">Blogger B</a>
     /// </summary>
     public static SvgIcon BloggerB => f_BloggerB ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "blogger-b", "f37d", 448, 512, ImmutableArray.Create("M446.6 222.7c-1.8-8-6.8-15.4-12.5-18.5-1.8-1-13-2.2-25-2.7-20.1-.9-22.3-1.3-28.7-5-10.1-5.9-12.8-12.3-12.9-29.5-.1-33-13.8-63.7-40.9-91.3-19.3-19.7-40.9-33-65.5-40.5-5.9-1.8-19.1-2.4-63.3-2.9-69.4-.8-84.8.6-108.4 10C45.9 59.5 14.7 96.1 3.3 142.9 1.2 151.7.7 165.8.2 246.8c-.6 101.5.1 116.4 6.4 136.5 15.6 49.6 59.9 86.3 104.4 94.3 14.8 2.7 197.3 3.3 216 .8 32.5-4.4 58-17.5 81.9-41.9 17.3-17.7 28.1-36.8 35.2-62.1 4.9-17.6 4.5-142.8 2.5-151.7zm-322.1-63.6c7.8-7.9 10-8.2 58.8-8.2 43.9 0 45.4.1 51.8 3.4 9.3 4.7 13.4 11.3 13.4 21.9 0 9.5-3.8 16.2-12.3 21.6-4.6 2.9-7.3 3.1-50.3 3.3-26.5.2-47.7-.4-50.8-1.2-16.6-4.7-22.8-28.5-10.6-40.8zm191.8 199.8l-14.9 2.4-77.5.9c-68.1.8-87.3-.4-90.9-2-7.1-3.1-13.8-11.7-14.9-19.4-1.1-7.3 2.6-17.3 8.2-22.4 7.1-6.4 10.2-6.6 97.3-6.7 89.6-.1 89.1-.1 97.6 7.8 12.1 11.3 9.5 31.2-4.9 39.4z"u8.ToArray().ToImmutableArray()));
+    private static SvgIcon? f_Bluesky;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/bluesky?f=classic&amp;s=brands">Bluesky</a>
+    /// </summary>
+    public static SvgIcon Bluesky => f_Bluesky ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "bluesky", "e671", 576, 512, ImmutableArray.Create("M407.8 294.7c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3zM288 227.1C261.9 176.4 190.9 81.9 124.9 35.3C61.6-9.4 37.5-1.7 21.6 5.5C3.3 13.8 0 41.9 0 58.4S9.1 194 15 213.9c19.5 65.7 89.1 87.9 153.2 80.7c3.3-.5 6.6-.9 10-1.4c-3.3 .5-6.6 1-10 1.4C74.3 308.6-9.1 342.8 100.3 464.5C220.6 589.1 265.1 437.8 288 361.1c22.9 76.7 49.2 222.5 185.6 103.4c102.4-103.4 28.1-156-65.8-169.9c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3c64.1 7.1 133.6-15.1 153.2-80.7C566.9 194 576 75 576 58.4s-3.3-44.7-21.6-52.9c-15.8-7.1-40-14.9-103.2 29.8C385.1 81.9 314.1 176.4 288 227.1z"u8.ToArray().ToImmutableArray()));
     private static SvgIcon? f_Bluetooth;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/bluetooth?f=classic&amp;s=brands">Bluetooth</a>
@@ -770,7 +775,7 @@ public static partial class FaBrands
     /// <summary>
     /// <a href="https://fontawesome.com/icons/font-awesome?f=classic&amp;s=brands">Font Awesome</a>
     /// </summary>
-    public static SvgIcon FontAwesome => f_FontAwesome ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "font-awesome", "f2b4", 448, 512, ImmutableArray.Create("M448 48V384C385 407 366 416 329 416C266 416 242 384 179 384C159 384 143 388 128 392V328C143 324 159 320 179 320C242 320 266 352 329 352C349 352 364 349 384 343V135C364 141 349 144 329 144C266 144 242 112 179 112C128 112 104 133 64 141V448C64 466 50 480 32 480S0 466 0 448V64C0 46 14 32 32 32S64 46 64 64V77C104 69 128 48 179 48C242 48 266 80 329 80C366 80 385 71 448 48Z"u8.ToArray().ToImmutableArray()));
+    public static SvgIcon FontAwesome => f_FontAwesome ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "font-awesome", "f2b4", 512, 512, ImmutableArray.Create("M91.7 96C106.3 86.8 116 70.5 116 52C116 23.3 92.7 0 64 0S12 23.3 12 52c0 16.7 7.8 31.5 20 41l0 3 0 352 0 64 64 0 0-64 373.6 0c14.6 0 26.4-11.8 26.4-26.4c0-3.7-.8-7.3-2.3-10.7L432 272l61.7-138.9c1.5-3.4 2.3-7 2.3-10.7c0-14.6-11.8-26.4-26.4-26.4L91.7 96z"u8.ToArray().ToImmutableArray()));
     /// <summary>
     /// <a href="https://fontawesome.com/icons/font-awesome?f=classic&amp;s=brands">Font Awesome</a>
     /// </summary>
@@ -1139,6 +1144,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/jsfiddle?f=classic&amp;s=brands">jsFiddle</a>
     /// </summary>
     public static SvgIcon Jsfiddle => f_Jsfiddle ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "jsfiddle", "f1cc", 576, 512, ImmutableArray.Create("M510.634 237.462c-4.727-2.621-5.664-5.748-6.381-10.776-2.352-16.488-3.539-33.619-9.097-49.095-35.895-99.957-153.99-143.386-246.849-91.646-27.37 15.25-48.971 36.369-65.493 63.903-3.184-1.508-5.458-2.71-7.824-3.686-30.102-12.421-59.049-10.121-85.331 9.167-25.531 18.737-36.422 44.548-32.676 76.408.355 3.025-1.967 7.621-4.514 9.545-39.712 29.992-56.031 78.065-41.902 124.615 13.831 45.569 57.514 79.796 105.608 81.433 30.291 1.031 60.637.546 90.959.539 84.041-.021 168.09.531 252.12-.48 52.664-.634 96.108-36.873 108.212-87.293 11.54-48.074-11.144-97.3-56.832-122.634zm21.107 156.88c-18.23 22.432-42.343 35.253-71.28 35.65-56.874.781-113.767.23-170.652.23 0 .7-163.028.159-163.728.154-43.861-.332-76.739-19.766-95.175-59.995-18.902-41.245-4.004-90.848 34.186-116.106 9.182-6.073 12.505-11.566 10.096-23.136-5.49-26.361 4.453-47.956 26.42-62.981 22.987-15.723 47.422-16.146 72.034-3.083 10.269 5.45 14.607 11.564 22.198-2.527 14.222-26.399 34.557-46.727 60.671-61.294 97.46-54.366 228.37 7.568 230.24 132.697.122 8.15 2.412 12.428 9.848 15.894 57.56 26.829 74.456 96.122 35.142 144.497zm-87.789-80.499c-5.848 31.157-34.622 55.096-66.666 55.095-16.953-.001-32.058-6.545-44.079-17.705-27.697-25.713-71.141-74.98-95.937-93.387-20.056-14.888-41.99-12.333-60.272 3.782-49.996 44.071 15.859 121.775 67.063 77.188 4.548-3.96 7.84-9.543 12.744-12.844 8.184-5.509 20.766-.884 13.168 10.622-17.358 26.284-49.33 38.197-78.863 29.301-28.897-8.704-48.84-35.968-48.626-70.179 1.225-22.485 12.364-43.06 35.414-55.965 22.575-12.638 46.369-13.146 66.991 2.474C295.68 280.7 320.467 323.97 352.185 343.47c24.558 15.099 54.254 7.363 68.823-17.506 28.83-49.209-34.592-105.016-78.868-63.46-3.989 3.744-6.917 8.932-11.41 11.72-10.975 6.811-17.333-4.113-12.809-10.353 20.703-28.554 50.464-40.44 83.271-28.214 31.429 11.714 49.108 44.366 42.76 78.186z"u8.ToArray().ToImmutableArray()));
+    private static SvgIcon? f_Jxl;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/jxl?f=classic&amp;s=brands">Jxl</a>
+    /// </summary>
+    public static SvgIcon Jxl => f_Jxl ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "jxl", "e67b", 448, 512, ImmutableArray.Create("M412.2 32H35.8C16 32 0 48 0 67.8V444.2C0 464 16 480 35.8 480H412.2c19.8 0 35.8-16 35.8-35.8V67.8C448 48 432 32 412.2 32zM378.6 333.7c0 40.2-32.6 72.8-72.8 72.8H70.2c0-40.2 32.6-72.8 72.8-72.8H378.6zm0-113.9c0 40.2-32.6 72.8-72.8 72.8H70.2c0-40.2 32.6-72.8 72.8-72.8H378.6zm0-113.9c0 40.2-32.6 72.8-72.8 72.8H70.2c0-40.2 32.6-72.8 72.8-72.8H378.6z"u8.ToArray().ToImmutableArray()));
     private static SvgIcon? f_Kaggle;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/kaggle?f=classic&amp;s=brands">Kaggle</a>
@@ -1158,12 +1168,16 @@ public static partial class FaBrands
     /// <summary>
     /// <a href="https://fontawesome.com/icons/kickstarter?f=classic&amp;s=brands">Kickstarter</a>
     /// </summary>
-    public static SvgIcon Kickstarter => f_Kickstarter ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "kickstarter", "f3bb", 448, 512, ImmutableArray.Create("M400 480H48c-26.4 0-48-21.6-48-48V80c0-26.4 21.6-48 48-48h352c26.4 0 48 21.6 48 48v352c0 26.4-21.6 48-48 48zM199.6 178.5c0-30.7-17.6-45.1-39.7-45.1-25.8 0-40 19.8-40 44.5v154.8c0 25.8 13.7 45.6 40.5 45.6 21.5 0 39.2-14 39.2-45.6v-41.8l60.6 75.7c12.3 14.9 39 16.8 55.8 0 14.6-15.1 14.8-36.8 4-50.4l-49.1-62.8 40.5-58.7c9.4-13.5 9.5-34.5-5.6-49.1-16.4-15.9-44.6-17.3-61.4 7l-44.8 64.7v-38.8z"u8.ToArray().ToImmutableArray()));
+    public static SvgIcon Kickstarter => f_Kickstarter ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "kickstarter", "f3bb", 448, 512, ImmutableArray.Create("M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM320.8 233l-23.3 23.1L320.8 279c24.1 23.9 24.1 63 0 86.9s-63.4 23.9-87.6 0l-8.5-8.4c-11.3 16-29.7 26.5-50.9 26.5c-34.1 0-61.9-27.5-61.9-61.4l0-133.2c0-33.8 27.7-61.4 61.9-61.4c21.1 0 39.6 10.5 50.9 26.5l8.5-8.4c24.1-23.9 63.4-23.9 87.6 0s24.1 63 0 86.9z"u8.ToArray().ToImmutableArray()));
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/kickstarter?f=classic&amp;s=brands">Kickstarter</a>
+    /// </summary>
+    public static SvgIcon SquareKickstarter => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaBrands.Kickstarter;
     private static SvgIcon? f_KickstarterK;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/kickstarter-k?f=classic&amp;s=brands">Kickstarter K</a>
     /// </summary>
-    public static SvgIcon KickstarterK => f_KickstarterK ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "kickstarter-k", "f3bc", 384, 512, ImmutableArray.Create("M147.3 114.4c0-56.2-32.5-82.4-73.4-82.4C26.2 32 0 68.2 0 113.4v283c0 47.3 25.3 83.4 74.9 83.4 39.8 0 72.4-25.6 72.4-83.4v-76.5l112.1 138.3c22.7 27.2 72.1 30.7 103.2 0 27-27.6 27.3-67.4 7.4-92.2l-90.8-114.8 74.9-107.4c17.4-24.7 17.5-63.1-10.4-89.8-30.3-29-82.4-31.6-113.6 12.8L147.3 185v-70.6z"u8.ToArray().ToImmutableArray()));
+    public static SvgIcon KickstarterK => f_KickstarterK ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "kickstarter-k", "f3bc", 448, 512, ImmutableArray.Create("M356.6 256.2l40.8-40.5c42.2-41.9 42.2-110.3 0-152.1s-111-41.9-153.2 0L229.3 78.4C209.6 50.3 177.1 32 140.2 32C80.5 32 32 80.2 32 139.5V372.5C32 431.9 80.5 480 140.2 480c37.1 0 69.3-18.3 89-46.4l14.9 14.7c42.2 41.9 111 41.9 153.2 0s42.2-110.3 0-152.1l-40.8-40z"u8.ToArray().ToImmutableArray()));
     private static SvgIcon? f_Korvue;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/korvue?f=classic&amp;s=brands">KORVUE</a>
@@ -1870,16 +1884,16 @@ public static partial class FaBrands
     public static SvgIcon FacebookSquare => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaBrands.SquareFacebook;
     private static SvgIcon? f_SquareFontAwesome;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/square-font-awesome?f=classic&amp;s=brands">Font Awesome in Square</a>
+    /// <a href="https://fontawesome.com/icons/square-font-awesome?f=classic&amp;s=brands">Square Font Awesome</a>
     /// </summary>
-    public static SvgIcon SquareFontAwesome => f_SquareFontAwesome ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "square-font-awesome", "e5ad", 448, 512, ImmutableArray.Create("M384.5,32.5h-320c-35.3,0-64,28.7-64,64v320c0,35.3,28.7,64,64,64h320c35.3,0,64-28.7,64-64v-320 C448.5,61.2,419.8,32.5,384.5,32.5z M336.5,312.5c-31.6,11.2-41.2,16-59.8,16c-31.4,0-43.2-16-74.6-16c-10.2,0-18.2,1.6-25.6,4v-32 c7.4-2.2,15.4-4,25.6-4c31.2,0,43.2,16,74.6,16c10.2,0,17.8-1.4,27.8-4.6v-96c-10,3.2-17.6,4.6-27.8,4.6c-31.4,0-43.2-16-74.6-16 c-25.4,0-37.4,10.4-57.6,14.4v153.6c0,8.8-7.2,16-16,16c-8.8,0-16-7.2-16-16v-192c0-8.8,7.2-16,16-16c8.8,0,16,7.2,16,16v6.4 c20.2-4,32.2-14.4,57.6-14.4c31.2,0,43.2,16,74.6,16c18.6,0,28.2-4.8,59.8-16V312.5z"u8.ToArray().ToImmutableArray()));
+    public static SvgIcon SquareFontAwesome => f_SquareFontAwesome ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "square-font-awesome", "e5ad", 448, 512, ImmutableArray.Create("M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm90 122c0 9.3-4.8 17.4-12.1 22l188.9 0c7.3 0 13.2 5.9 13.2 13.2c0 1.8-.4 3.7-1.1 5.4L312 264l30.9 69.4c.7 1.7 1.1 3.5 1.1 5.4c0 7.3-5.9 13.2-13.2 13.2L144 352l0 32-32 0 0-32 0-176 0-1.5c-6.1-4.8-10-12.2-10-20.5c0-14.4 11.6-26 26-26s26 11.6 26 26z"u8.ToArray().ToImmutableArray()));
     private static SvgIcon? f_SquareFontAwesomeStroke;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/square-font-awesome-stroke?f=classic&amp;s=brands">Font Awesome in Square with Stroke Outline</a>
+    /// <a href="https://fontawesome.com/icons/square-font-awesome-stroke?f=classic&amp;s=brands">Square Font Awesome Stroke</a>
     /// </summary>
-    public static SvgIcon SquareFontAwesomeStroke => f_SquareFontAwesomeStroke ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "square-font-awesome-stroke", "f35c", 448, 512, ImmutableArray.Create("M201.6,152c-25.4,0-37.4,10.4-57.6,14.4V160c0-8.8-7.2-16-16-16s-16,7.2-16,16v192c0,0.8,0.1,1.6,0.2,2.4 c0.1,0.4,0.1,0.8,0.2,1.2c1.6,7.1,8,12.4,15.6,12.4s14-5.3,15.6-12.4c0.1-0.4,0.2-0.8,0.2-1.2c0.1-0.8,0.2-1.6,0.2-2.4V198.4 c4-0.8,7.7-1.8,11.2-3c14.3-4.7,26-11.4,46.4-11.4c31.4,0,43.2,16,74.6,16c8.9,0,15.9-1.1,24.2-3.5c1.2-0.3,2.4-0.7,3.6-1.1v96 c-10,3.2-17.6,4.6-27.8,4.6c-31.4,0-43.4-16-74.6-16c-10.2,0-18.2,1.8-25.6,4v32c7.4-2.4,15.4-4,25.6-4c31.4,0,43.2,16,74.6,16 c18.6,0,28.2-4.8,59.8-16V152c-31.6,11.2-41.2,16-59.8,16C244.8,168,232.8,152,201.6,152z M384,32H64C28.7,32,0,60.7,0,96v320 c0,35.3,28.7,64,64,64h320c35.3,0,64-28.7,64-64V96C448,60.7,419.3,32,384,32z M416,416c0,17.6-14.4,32-32,32H64 c-17.6,0-32-14.4-32-32V96c0-17.6,14.4-32,32-32h320c17.6,0,32,14.4,32,32V416z"u8.ToArray().ToImmutableArray()));
+    public static SvgIcon SquareFontAwesomeStroke => f_SquareFontAwesomeStroke ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "square-font-awesome-stroke", "f35c", 448, 512, ImmutableArray.Create("M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm154 58c0 9.3-4.8 17.4-12.1 22l188.9 0c7.3 0 13.2 5.9 13.2 13.2c0 1.8-.4 3.7-1.1 5.4L312 264l30.9 69.4c.8 1.7 1.1 3.5 1.1 5.4c0 7.3-5.9 13.2-13.2 13.2L144 352l0 32-32 0 0-32 0-176 0-1.5c-6.1-4.8-10-12.2-10-20.5c0-14.4 11.6-26 26-26s26 11.6 26 26z"u8.ToArray().ToImmutableArray()));
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/square-font-awesome-stroke?f=classic&amp;s=brands">Font Awesome in Square with Stroke Outline</a>
+    /// <a href="https://fontawesome.com/icons/square-font-awesome-stroke?f=classic&amp;s=brands">Square Font Awesome Stroke</a>
     /// </summary>
     public static SvgIcon FontAwesomeAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaBrands.SquareFontAwesomeStroke;
     private static SvgIcon? f_SquareGit;
@@ -2036,6 +2050,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/square-twitter?f=classic&amp;s=brands">Square Twitter</a>
     /// </summary>
     public static SvgIcon TwitterSquare => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaBrands.SquareTwitter;
+    private static SvgIcon? f_SquareUpwork;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/square-upwork?f=classic&amp;s=brands">Square Upwork</a>
+    /// </summary>
+    public static SvgIcon SquareUpwork => f_SquareUpwork ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "square-upwork", "e67c", 448, 512, ImmutableArray.Create("M56 32l336 0c30.9 0 56 25.1 56 56l0 336c0 30.9-25.1 56-56 56L56 480c-30.9 0-56-25.1-56-56L0 88C0 57.1 25.1 32 56 32zM270.9 274.2c6.6-52.9 25.9-69.5 51.4-69.5c25.3 0 44.9 20.2 44.9 49.7s-19.7 49.7-44.9 49.7c-27.9 0-46.3-21.5-51.4-29.9zm-26.7-41.8c-8.2-15.5-14.3-36.3-19.2-55.6l-29.7 0-33.2 0 0 78.1c0 28.4-12.9 49.4-38.2 49.4s-39.8-20.9-39.8-49.3l.3-78.1-36.2 0 0 78.1c0 22.8 7.4 43.5 20.9 58.2c13.9 15.2 32.8 23.2 54.8 23.2c43.7 0 74.2-33.5 74.2-81.5l0-52.5c4.6 17.3 15.4 50.5 36.2 79.7L215 392.6l36.8 0 12.8-78.4c4.2 3.5 8.7 6.6 13.4 9.4c12.3 7.8 26.4 12.2 40.9 12.6l.1 0c.5 0 1.1 0 1.6 0c.6 0 1.1 0 1.7 0c45.1 0 80.9-34.9 80.9-81.9s-35.9-82.2-80.9-82.2c-45.4 0-70.9 29.7-78.1 60.1z"u8.ToArray().ToImmutableArray()));
     private static SvgIcon? f_SquareViadeo;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-viadeo?f=classic&amp;s=brands">Square Viadeo</a>
@@ -2054,6 +2073,16 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/square-vimeo?f=classic&amp;s=brands">Square Vimeo</a>
     /// </summary>
     public static SvgIcon VimeoSquare => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaBrands.SquareVimeo;
+    private static SvgIcon? f_SquareWebAwesome;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/square-web-awesome?f=classic&amp;s=brands">Square Web Awesome</a>
+    /// </summary>
+    public static SvgIcon SquareWebAwesome => f_SquareWebAwesome ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "square-web-awesome", "e683", 448, 512, ImmutableArray.Create("M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM235 177.6L288 224l52.2-10.4c-2.6-3.9-4.2-8.5-4.2-13.6c0-13.3 10.7-24 24-24s24 10.7 24 24c0 13-10.3 23.6-23.2 24L304.5 349.1c-5.2 11.5-16.6 18.9-29.2 18.9l-102.6 0c-12.6 0-24-7.4-29.2-18.9L87.2 224C74.3 223.6 64 213 64 200c0-13.3 10.7-24 24-24s24 10.7 24 24c0 5-1.5 9.7-4.2 13.6L160 224l53.1-46.4c-8.9-4.1-15-13.1-15-23.6c0-14.4 11.6-26 26-26s26 11.6 26 26c0 10.5-6.2 19.5-15.1 23.6z"u8.ToArray().ToImmutableArray()));
+    private static SvgIcon? f_SquareWebAwesomeStroke;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/square-web-awesome-stroke?f=classic&amp;s=brands">Square Web Awesome Stroke</a>
+    /// </summary>
+    public static SvgIcon SquareWebAwesomeStroke => f_SquareWebAwesomeStroke ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "square-web-awesome-stroke", "e684", 448, 512, ImmutableArray.Create("M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm235 81.6L288 224l52.2-10.4c-2.6-3.9-4.2-8.5-4.2-13.6c0-13.3 10.7-24 24-24s24 10.7 24 24c0 13-10.3 23.6-23.2 24L304.5 349.1c-5.2 11.5-16.6 18.9-29.2 18.9l-102.6 0c-12.6 0-24-7.4-29.2-18.9L87.2 224C74.3 223.6 64 213 64 200c0-13.3 10.7-24 24-24s24 10.7 24 24c0 5-1.5 9.7-4.2 13.6L160 224l53.1-46.4c-8.9-4.1-15-13.1-15-23.6c0-14.4 11.6-26 26-26s26 11.6 26 26c0 10.5-6.2 19.5-15.1 23.6z"u8.ToArray().ToImmutableArray()));
     private static SvgIcon? f_SquareWhatsapp;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-whatsapp?f=classic&amp;s=brands">Square Whatsapp</a>
@@ -2319,7 +2348,7 @@ public static partial class FaBrands
     /// <summary>
     /// <a href="https://fontawesome.com/icons/upwork?f=classic&amp;s=brands">Upwork</a>
     /// </summary>
-    public static SvgIcon Upwork => f_Upwork ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "upwork", "e641", 448, 512, ImmutableArray.Create("M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM270.8 274.3c5.2 8.4 23.6 29.9 51.5 29.9v0c25.2 0 44.9-20.2 44.9-49.7s-19.4-49.7-44.9-49.7s-44.9 16.7-51.5 69.5zm-26.7-41.8c7.3-30.5 32.7-60.1 78.2-60.1l0 0c45.1 0 80.9 35.2 80.9 82.2s-35.9 81.9-80.9 81.9c-.6 0-1.1 0-1.7 0c-.5 0-1.1 0-1.6 0h-.1c-14.5-.5-28.7-4.8-40.9-12.6c-4.7-2.8-9.1-6-13.4-9.5l-12.8 78.4H214.9l19.4-110.6c-20.8-29.1-31.6-62.4-36.2-79.7V255c0 48-30.5 81.5-74.2 81.5c-22 0-41-8-54.8-23.3c-13.4-14.8-20.8-35.5-20.8-58.3V176.8H84.5l-.3 78.2c0 28.4 14.5 49.3 39.8 49.3s38.2-20.9 38.2-49.3V176.8h62.8c4.8 19.3 10.9 40.1 19.2 55.6z"u8.ToArray().ToImmutableArray()));
+    public static SvgIcon Upwork => f_Upwork ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "upwork", "e641", 641, 512, ImmutableArray.Create("M494.7 295.6c-50.3 0-83.5-38.9-92.8-53.9c11.9-95.3 46.8-125.4 92.8-125.4c45.5 0 80.9 36.4 80.9 89.7s-35.4 89.7-80.9 89.7zm0-237.8c-81.9 0-127.8 53.4-141 108.4c-14.9-28-25.9-65.5-34.5-100.3H206v141c0 51.1-23.3 89-68.8 89s-71.6-37.8-71.6-89l.5-141H.8v141c0 41.1 13.3 78.4 37.6 105.1c25 27.5 59.2 41.8 98.8 41.8c78.8 0 133.8-60.4 133.8-146.9V112.1c8.2 31.2 27.8 91.1 65.3 143.6l-35 199.4h66.4l23.1-141.3c7.6 6.3 15.7 12 24.2 17c22.2 14 47.7 21.9 73.9 22.8c0 0 4 .2 6.1 .2c81.2 0 145.9-62.9 145.9-147.8s-64.8-148.1-146-148.1z"u8.ToArray().ToImmutableArray()));
     private static SvgIcon? f_Usb;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/usb?f=classic&amp;s=brands">USB</a>
@@ -2395,6 +2424,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/waze?f=classic&amp;s=brands">Waze</a>
     /// </summary>
     public static SvgIcon Waze => f_Waze ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "waze", "f83f", 512, 512, ImmutableArray.Create("M502.17 201.67C516.69 287.53 471.23 369.59 389 409.8c13 34.1-12.4 70.2-48.32 70.2a51.68 51.68 0 0 1-51.57-49c-6.44.19-64.2 0-76.33-.64A51.69 51.69 0 0 1 159 479.92c-33.86-1.36-57.95-34.84-47-67.92-37.21-13.11-72.54-34.87-99.62-70.8-13-17.28-.48-41.8 20.84-41.8 46.31 0 32.22-54.17 43.15-110.26C94.8 95.2 193.12 32 288.09 32c102.48 0 197.15 70.67 214.08 169.67zM373.51 388.28c42-19.18 81.33-56.71 96.29-102.14 40.48-123.09-64.15-228-181.71-228-83.45 0-170.32 55.42-186.07 136-9.53 48.91 5 131.35-68.75 131.35C58.21 358.6 91.6 378.11 127 389.54c24.66-21.8 63.87-15.47 79.83 14.34 14.22 1 79.19 1.18 87.9.82a51.69 51.69 0 0 1 78.78-16.42zM205.12 187.13c0-34.74 50.84-34.75 50.84 0s-50.84 34.74-50.84 0zm116.57 0c0-34.74 50.86-34.75 50.86 0s-50.86 34.75-50.86 0zm-122.61 70.69c-3.44-16.94 22.18-22.18 25.62-5.21l.06.28c4.14 21.42 29.85 44 64.12 43.07 35.68-.94 59.25-22.21 64.11-42.77 4.46-16.05 28.6-10.36 25.47 6-5.23 22.18-31.21 62-91.46 62.9-42.55 0-80.88-27.84-87.9-64.25z"u8.ToArray().ToImmutableArray()));
+    private static SvgIcon? f_WebAwesome;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/web-awesome?f=classic&amp;s=brands">Web Awesome</a>
+    /// </summary>
+    public static SvgIcon WebAwesome => f_WebAwesome ??= new SvgIcon(IconFamily.Classic, IconStyle.Brands, "web-awesome", "e682", 640, 512, ImmutableArray.Create("M372.2 52c0 20.9-12.4 39-30.2 47.2L448 192l104.4-20.9c-5.3-7.7-8.4-17.1-8.4-27.1c0-26.5 21.5-48 48-48s48 21.5 48 48c0 26-20.6 47.1-46.4 48L481 442.3c-10.3 23-33.2 37.7-58.4 37.7l-205.2 0c-25.2 0-48-14.8-58.4-37.7L46.4 192C20.6 191.1 0 170 0 144c0-26.5 21.5-48 48-48s48 21.5 48 48c0 10.1-3.1 19.4-8.4 27.1L192 192 298.1 99.1c-17.7-8.3-30-26.3-30-47.1c0-28.7 23.3-52 52-52s52 23.3 52 52z"u8.ToArray().ToImmutableArray()));
     private static SvgIcon? f_Webflow;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/webflow?f=classic&amp;s=brands">Webflow</a>

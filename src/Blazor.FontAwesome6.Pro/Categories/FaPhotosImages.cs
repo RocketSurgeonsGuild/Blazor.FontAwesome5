@@ -1040,6 +1040,49 @@ public static partial class FaPhotosImages
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FileJpg;
     }
     /// <summary>
+    /// File Png
+    /// <a href="https://fontawesome.com/icons/file-png">File Png</a>
+    /// </summary>
+    public static partial class FilePng
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/file-png?f=classic&amp;s=light">File Png</a>
+        /// </summary>
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FilePng;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/file-png?f=classic&amp;s=regular">File Png</a>
+        /// </summary>
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FilePng;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/file-png?f=classic&amp;s=solid">File Png</a>
+        /// </summary>
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FilePng;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/file-png?f=classic&amp;s=thin">File Png</a>
+        /// </summary>
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FilePng;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/file-png?f=classic&amp;s=duotone">File Png</a>
+        /// </summary>
+        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FilePng;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/file-png?f=sharp&amp;s=light">File Png</a>
+        /// </summary>
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FilePng;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/file-png?f=sharp&amp;s=regular">File Png</a>
+        /// </summary>
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FilePng;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/file-png?f=sharp&amp;s=solid">File Png</a>
+        /// </summary>
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FilePng;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/file-png?f=sharp&amp;s=thin">File Png</a>
+        /// </summary>
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FilePng;
+    }
+    /// <summary>
     /// Film
     /// <a href="https://fontawesome.com/icons/film">Film</a>
     /// </summary>

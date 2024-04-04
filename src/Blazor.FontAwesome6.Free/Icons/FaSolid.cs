@@ -7825,6 +7825,11 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/table-cells?f=classic&amp;s=solid">Table Cells</a>
     /// </summary>
     public static Icon Th => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TableCells;
+    private static Icon? f_TableCellsColumnLock;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/table-cells-column-lock?f=classic&amp;s=solid">Table Cells Column Lock</a>
+    /// </summary>
+    public static Icon TableCellsColumnLock => f_TableCellsColumnLock ??= new Icon(IconFamily.Classic, IconStyle.Solid, "table-cells-column-lock", "e678");
     private static Icon? f_TableCellsLarge;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/table-cells-large?f=classic&amp;s=solid">Table Cells Large</a>
@@ -7834,6 +7839,11 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/table-cells-large?f=classic&amp;s=solid">Table Cells Large</a>
     /// </summary>
     public static Icon ThLarge => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.TableCellsLarge;
+    private static Icon? f_TableCellsRowLock;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/table-cells-row-lock?f=classic&amp;s=solid">Table Cells Row Lock</a>
+    /// </summary>
+    public static Icon TableCellsRowLock => f_TableCellsRowLock ??= new Icon(IconFamily.Classic, IconStyle.Solid, "table-cells-row-lock", "e67a");
     private static Icon? f_TableColumns;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/table-columns?f=classic&amp;s=solid">Table Columns</a>

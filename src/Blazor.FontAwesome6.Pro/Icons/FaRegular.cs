@@ -334,6 +334,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/ankh?f=classic&amp;s=regular">Ankh</a>
     /// </summary>
     public static Icon Ankh => f_Ankh ??= new Icon(IconFamily.Classic, IconStyle.Regular, "ankh", "f644");
+    private static Icon? f_Ant;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/ant?f=classic&amp;s=regular">Ant</a>
+    /// </summary>
+    public static Icon Ant => f_Ant ??= new Icon(IconFamily.Classic, IconStyle.Regular, "ant", "e680");
     private static Icon? f_Apartment;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/apartment?f=classic&amp;s=regular">Apartment</a>
@@ -435,6 +440,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/arrow-down-from-arc?f=classic&amp;s=regular">Arrow Down From Arc</a>
     /// </summary>
     public static Icon ArrowDownFromArc => f_ArrowDownFromArc ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-down-from-arc", "e614");
+    private static Icon? f_ArrowDownFromBracket;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/arrow-down-from-bracket?f=classic&amp;s=regular">Arrow Down From Bracket</a>
+    /// </summary>
+    public static Icon ArrowDownFromBracket => f_ArrowDownFromBracket ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-down-from-bracket", "e667");
     private static Icon? f_ArrowDownFromDottedLine;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-down-from-dotted-line?f=classic&amp;s=regular">Arrow Down From Dotted Line</a>
@@ -588,6 +598,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/arrow-left-from-arc?f=classic&amp;s=regular">Arrow Left From Arc</a>
     /// </summary>
     public static Icon ArrowLeftFromArc => f_ArrowLeftFromArc ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-left-from-arc", "e615");
+    private static Icon? f_ArrowLeftFromBracket;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/arrow-left-from-bracket?f=classic&amp;s=regular">Arrow Left From Bracket</a>
+    /// </summary>
+    public static Icon ArrowLeftFromBracket => f_ArrowLeftFromBracket ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-left-from-bracket", "e668");
     private static Icon? f_ArrowLeftFromLine;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-left-from-line?f=classic&amp;s=regular">Arrow Left From Line</a>
@@ -616,6 +631,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/arrow-left-to-arc?f=classic&amp;s=regular">Arrow Left To Arc</a>
     /// </summary>
     public static Icon ArrowLeftToArc => f_ArrowLeftToArc ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-left-to-arc", "e616");
+    private static Icon? f_ArrowLeftToBracket;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/arrow-left-to-bracket?f=classic&amp;s=regular">Arrow Left To Bracket</a>
+    /// </summary>
+    public static Icon ArrowLeftToBracket => f_ArrowLeftToBracket ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-left-to-bracket", "e669");
     private static Icon? f_ArrowLeftToLine;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-left-to-line?f=classic&amp;s=regular">Arrow Left To Line</a>
@@ -978,6 +998,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/arrow-up-to-arc?f=classic&amp;s=regular">Arrow Up To Arc</a>
     /// </summary>
     public static Icon ArrowUpToArc => f_ArrowUpToArc ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-up-to-arc", "e617");
+    private static Icon? f_ArrowUpToBracket;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/arrow-up-to-bracket?f=classic&amp;s=regular">Arrow Up To Bracket</a>
+    /// </summary>
+    public static Icon ArrowUpToBracket => f_ArrowUpToBracket ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-up-to-bracket", "e66a");
     private static Icon? f_ArrowUpToDottedLine;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-up-to-dotted-line?f=classic&amp;s=regular">Arrow Up To Dotted Line</a>
@@ -2276,6 +2301,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/bore-hole?f=classic&amp;s=regular">Bore Hole</a>
     /// </summary>
     public static Icon BoreHole => f_BoreHole ??= new Icon(IconFamily.Classic, IconStyle.Regular, "bore-hole", "e4c3");
+    private static Icon? f_BottleBaby;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/bottle-baby?f=classic&amp;s=regular">Bottle Baby</a>
+    /// </summary>
+    public static Icon BottleBaby => f_BottleBaby ??= new Icon(IconFamily.Classic, IconStyle.Regular, "bottle-baby", "e673");
     private static Icon? f_BottleDroplet;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/bottle-droplet?f=classic&amp;s=regular">Bottle Droplet</a>
@@ -2954,6 +2984,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/cactus?f=classic&amp;s=regular">Cactus</a>
     /// </summary>
     public static Icon Cactus => f_Cactus ??= new Icon(IconFamily.Classic, IconStyle.Regular, "cactus", "f8a7");
+    private static Icon? f_Caduceus;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/caduceus?f=classic&amp;s=regular">Caduceus</a>
+    /// </summary>
+    public static Icon Caduceus => f_Caduceus ??= new Icon(IconFamily.Classic, IconStyle.Regular, "caduceus", "e681");
     private static Icon? f_CakeCandles;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/cake-candles?f=classic&amp;s=regular">Cake Candles</a>
@@ -4489,6 +4524,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/circle-g?f=classic&amp;s=regular">Circle G</a>
     /// </summary>
     public static Icon CircleG => f_CircleG ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-g", "e10f");
+    private static Icon? f_CircleGf;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/circle-gf?f=classic&amp;s=regular">Circle Gf</a>
+    /// </summary>
+    public static Icon CircleGf => f_CircleGf ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-gf", "e67f");
     private static Icon? f_CircleH;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/circle-h?f=classic&amp;s=regular">Circle H</a>
@@ -4885,6 +4925,20 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/circle-waveform-lines?f=classic&amp;s=regular">Circle Waveform Lines</a>
     /// </summary>
     public static Icon WaveformCircle => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CircleWaveformLines;
+    private static Icon? f_CircleWifi;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/circle-wifi?f=classic&amp;s=regular">Circle Wifi</a>
+    /// </summary>
+    public static Icon CircleWifi => f_CircleWifi ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-wifi", "e67d");
+    private static Icon? f_CircleWifiCircleWifi;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/circle-wifi-circle-wifi?f=classic&amp;s=regular">Circle Wifi Circle Wifi</a>
+    /// </summary>
+    public static Icon CircleWifiCircleWifi => f_CircleWifiCircleWifi ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-wifi-circle-wifi", "e67e");
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/circle-wifi-circle-wifi?f=classic&amp;s=regular">Circle Wifi Circle Wifi</a>
+    /// </summary>
+    public static Icon CircleWifiGroup => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CircleWifiCircleWifi;
     private static Icon? f_CircleX;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/circle-x?f=classic&amp;s=regular">Circle X</a>
@@ -6458,6 +6512,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/down?f=classic&amp;s=regular">Down</a>
     /// </summary>
     public static Icon ArrowAltDown => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Down;
+    private static Icon? f_DownFromBracket;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/down-from-bracket?f=classic&amp;s=regular">Down From Bracket</a>
+    /// </summary>
+    public static Icon DownFromBracket => f_DownFromBracket ??= new Icon(IconFamily.Classic, IconStyle.Regular, "down-from-bracket", "e66b");
     private static Icon? f_DownFromDottedLine;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/down-from-dotted-line?f=classic&amp;s=regular">Down From Dotted Line</a>
@@ -7846,6 +7905,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/file-binary?f=classic&amp;s=regular">File Binary</a>
     /// </summary>
     public static Icon FileBinary => f_FileBinary ??= new Icon(IconFamily.Classic, IconStyle.Regular, "file-binary", "e175");
+    private static Icon? f_FileCad;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/file-cad?f=classic&amp;s=regular">File Cad</a>
+    /// </summary>
+    public static Icon FileCad => f_FileCad ??= new Icon(IconFamily.Classic, IconStyle.Regular, "file-cad", "e672");
     private static Icon? f_FileCertificate;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/file-certificate?f=classic&amp;s=regular">File Certificate</a>
@@ -11166,6 +11230,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/left?f=classic&amp;s=regular">Left</a>
     /// </summary>
     public static Icon ArrowAltLeft => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Left;
+    private static Icon? f_LeftFromBracket;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/left-from-bracket?f=classic&amp;s=regular">Left From Bracket</a>
+    /// </summary>
+    public static Icon LeftFromBracket => f_LeftFromBracket ??= new Icon(IconFamily.Classic, IconStyle.Regular, "left-from-bracket", "e66c");
     private static Icon? f_LeftFromLine;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/left-from-line?f=classic&amp;s=regular">Left From Line</a>
@@ -11198,6 +11267,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/left-right?f=classic&amp;s=regular">Left Right</a>
     /// </summary>
     public static Icon ArrowsAltH => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.LeftRight;
+    private static Icon? f_LeftToBracket;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/left-to-bracket?f=classic&amp;s=regular">Left To Bracket</a>
+    /// </summary>
+    public static Icon LeftToBracket => f_LeftToBracket ??= new Icon(IconFamily.Classic, IconStyle.Regular, "left-to-bracket", "e66d");
     private static Icon? f_LeftToLine;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/left-to-line?f=classic&amp;s=regular">Left To Line</a>
@@ -14800,6 +14874,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/reel?f=classic&amp;s=regular">Reel</a>
     /// </summary>
     public static Icon Reel => f_Reel ??= new Icon(IconFamily.Classic, IconStyle.Regular, "reel", "e238");
+    private static Icon? f_ReflectBoth;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/reflect-both?f=classic&amp;s=regular">Reflect Both</a>
+    /// </summary>
+    public static Icon ReflectBoth => f_ReflectBoth ??= new Icon(IconFamily.Classic, IconStyle.Regular, "reflect-both", "e66f");
     private static Icon? f_ReflectHorizontal;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/reflect-horizontal?f=classic&amp;s=regular">Reflect Horizontal</a>
@@ -17584,6 +17663,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/table-cells?f=classic&amp;s=regular">Table Cells</a>
     /// </summary>
     public static Icon Th => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TableCells;
+    private static Icon? f_TableCellsColumnLock;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/table-cells-column-lock?f=classic&amp;s=regular">Table Cells Column Lock</a>
+    /// </summary>
+    public static Icon TableCellsColumnLock => f_TableCellsColumnLock ??= new Icon(IconFamily.Classic, IconStyle.Regular, "table-cells-column-lock", "e678");
     private static Icon? f_TableCellsLarge;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/table-cells-large?f=classic&amp;s=regular">Table Cells Large</a>
@@ -17593,6 +17677,16 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/table-cells-large?f=classic&amp;s=regular">Table Cells Large</a>
     /// </summary>
     public static Icon ThLarge => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TableCellsLarge;
+    private static Icon? f_TableCellsLock;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/table-cells-lock?f=classic&amp;s=regular">Table Cells Lock</a>
+    /// </summary>
+    public static Icon TableCellsLock => f_TableCellsLock ??= new Icon(IconFamily.Classic, IconStyle.Regular, "table-cells-lock", "e679");
+    private static Icon? f_TableCellsRowLock;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/table-cells-row-lock?f=classic&amp;s=regular">Table Cells Row Lock</a>
+    /// </summary>
+    public static Icon TableCellsRowLock => f_TableCellsRowLock ??= new Icon(IconFamily.Classic, IconStyle.Regular, "table-cells-row-lock", "e67a");
     private static Icon? f_TableColumns;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/table-columns?f=classic&amp;s=regular">Table Columns</a>
@@ -19136,6 +19230,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/up-right-from-square?f=classic&amp;s=regular">Up Right From Square</a>
     /// </summary>
     public static Icon ExternalLinkAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.UpRightFromSquare;
+    private static Icon? f_UpToBracket;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/up-to-bracket?f=classic&amp;s=regular">Up To Bracket</a>
+    /// </summary>
+    public static Icon UpToBracket => f_UpToBracket ??= new Icon(IconFamily.Classic, IconStyle.Regular, "up-to-bracket", "e66e");
     private static Icon? f_UpToDottedLine;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/up-to-dotted-line?f=classic&amp;s=regular">Up To Dotted Line</a>
@@ -20006,6 +20105,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/waves-sine?f=classic&amp;s=regular">Waves Sine</a>
     /// </summary>
     public static Icon WavesSine => f_WavesSine ??= new Icon(IconFamily.Classic, IconStyle.Regular, "waves-sine", "e65d");
+    private static Icon? f_WebAwesome;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/web-awesome?f=classic&amp;s=regular">Web Awesome</a>
+    /// </summary>
+    public static Icon WebAwesome => f_WebAwesome ??= new Icon(IconFamily.Classic, IconStyle.Regular, "web-awesome", "e682");
     private static Icon? f_Webhook;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/webhook?f=classic&amp;s=regular">Webhook</a>

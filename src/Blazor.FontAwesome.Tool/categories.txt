@@ -2092,7 +2092,6 @@ energy:
     - circle-radiation
     - explosion
     - fan
-    - file-jpg
     - fire
     - fire-flame-curved
     - fire-flame-simple
@@ -2186,6 +2185,7 @@ files:
     - file-pen
     - file-plus
     - file-plus-minus
+    - file-png
     - file-powerpoint
     - file-ppt
     - file-shield
@@ -4355,6 +4355,7 @@ photos-images:
     - face-viewfinder
     - file-image
     - file-jpg
+    - file-png
     - film
     - film-canister
     - film-simple

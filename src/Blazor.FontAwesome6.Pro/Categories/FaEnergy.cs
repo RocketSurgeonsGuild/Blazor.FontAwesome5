@@ -954,49 +954,6 @@ public static partial class FaEnergy
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Fan;
     }
     /// <summary>
-    /// File Jpg
-    /// <a href="https://fontawesome.com/icons/file-jpg">File Jpg</a>
-    /// </summary>
-    public static partial class FileJpg
-    {
-        /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-jpg?f=classic&amp;s=light">File Jpg</a>
-        /// </summary>
-        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FileJpg;
-        /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-jpg?f=classic&amp;s=regular">File Jpg</a>
-        /// </summary>
-        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FileJpg;
-        /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-jpg?f=classic&amp;s=solid">File Jpg</a>
-        /// </summary>
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FileJpg;
-        /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-jpg?f=classic&amp;s=thin">File Jpg</a>
-        /// </summary>
-        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FileJpg;
-        /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-jpg?f=classic&amp;s=duotone">File Jpg</a>
-        /// </summary>
-        public static Icon Duotone => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotone.FileJpg;
-        /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-jpg?f=sharp&amp;s=light">File Jpg</a>
-        /// </summary>
-        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FileJpg;
-        /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-jpg?f=sharp&amp;s=regular">File Jpg</a>
-        /// </summary>
-        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FileJpg;
-        /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-jpg?f=sharp&amp;s=solid">File Jpg</a>
-        /// </summary>
-        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FileJpg;
-        /// <summary>
-        /// <a href="https://fontawesome.com/icons/file-jpg?f=sharp&amp;s=thin">File Jpg</a>
-        /// </summary>
-        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FileJpg;
-    }
-    /// <summary>
     /// Fire
     /// <a href="https://fontawesome.com/icons/fire">Fire</a>
     /// </summary>

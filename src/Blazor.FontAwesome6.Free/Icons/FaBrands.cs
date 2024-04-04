@@ -221,6 +221,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/blogger-b?f=classic&amp;s=brands">Blogger B</a>
     /// </summary>
     public static Icon BloggerB => f_BloggerB ??= new Icon(IconFamily.Classic, IconStyle.Brands, "blogger-b", "f37d");
+    private static Icon? f_Bluesky;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/bluesky?f=classic&amp;s=brands">Bluesky</a>
+    /// </summary>
+    public static Icon Bluesky => f_Bluesky ??= new Icon(IconFamily.Classic, IconStyle.Brands, "bluesky", "e671");
     private static Icon? f_Bluetooth;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/bluetooth?f=classic&amp;s=brands">Bluetooth</a>
@@ -1139,6 +1144,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/jsfiddle?f=classic&amp;s=brands">jsFiddle</a>
     /// </summary>
     public static Icon Jsfiddle => f_Jsfiddle ??= new Icon(IconFamily.Classic, IconStyle.Brands, "jsfiddle", "f1cc");
+    private static Icon? f_Jxl;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/jxl?f=classic&amp;s=brands">Jxl</a>
+    /// </summary>
+    public static Icon Jxl => f_Jxl ??= new Icon(IconFamily.Classic, IconStyle.Brands, "jxl", "e67b");
     private static Icon? f_Kaggle;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/kaggle?f=classic&amp;s=brands">Kaggle</a>
@@ -1159,6 +1169,10 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/kickstarter?f=classic&amp;s=brands">Kickstarter</a>
     /// </summary>
     public static Icon Kickstarter => f_Kickstarter ??= new Icon(IconFamily.Classic, IconStyle.Brands, "kickstarter", "f3bb");
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/kickstarter?f=classic&amp;s=brands">Kickstarter</a>
+    /// </summary>
+    public static Icon SquareKickstarter => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.Kickstarter;
     private static Icon? f_KickstarterK;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/kickstarter-k?f=classic&amp;s=brands">Kickstarter K</a>
@@ -1870,16 +1884,16 @@ public static partial class FaBrands
     public static Icon FacebookSquare => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.SquareFacebook;
     private static Icon? f_SquareFontAwesome;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/square-font-awesome?f=classic&amp;s=brands">Font Awesome in Square</a>
+    /// <a href="https://fontawesome.com/icons/square-font-awesome?f=classic&amp;s=brands">Square Font Awesome</a>
     /// </summary>
     public static Icon SquareFontAwesome => f_SquareFontAwesome ??= new Icon(IconFamily.Classic, IconStyle.Brands, "square-font-awesome", "e5ad");
     private static Icon? f_SquareFontAwesomeStroke;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/square-font-awesome-stroke?f=classic&amp;s=brands">Font Awesome in Square with Stroke Outline</a>
+    /// <a href="https://fontawesome.com/icons/square-font-awesome-stroke?f=classic&amp;s=brands">Square Font Awesome Stroke</a>
     /// </summary>
     public static Icon SquareFontAwesomeStroke => f_SquareFontAwesomeStroke ??= new Icon(IconFamily.Classic, IconStyle.Brands, "square-font-awesome-stroke", "f35c");
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/square-font-awesome-stroke?f=classic&amp;s=brands">Font Awesome in Square with Stroke Outline</a>
+    /// <a href="https://fontawesome.com/icons/square-font-awesome-stroke?f=classic&amp;s=brands">Square Font Awesome Stroke</a>
     /// </summary>
     public static Icon FontAwesomeAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.SquareFontAwesomeStroke;
     private static Icon? f_SquareGit;
@@ -2036,6 +2050,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/square-twitter?f=classic&amp;s=brands">Square Twitter</a>
     /// </summary>
     public static Icon TwitterSquare => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.SquareTwitter;
+    private static Icon? f_SquareUpwork;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/square-upwork?f=classic&amp;s=brands">Square Upwork</a>
+    /// </summary>
+    public static Icon SquareUpwork => f_SquareUpwork ??= new Icon(IconFamily.Classic, IconStyle.Brands, "square-upwork", "e67c");
     private static Icon? f_SquareViadeo;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-viadeo?f=classic&amp;s=brands">Square Viadeo</a>
@@ -2054,6 +2073,16 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/square-vimeo?f=classic&amp;s=brands">Square Vimeo</a>
     /// </summary>
     public static Icon VimeoSquare => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.SquareVimeo;
+    private static Icon? f_SquareWebAwesome;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/square-web-awesome?f=classic&amp;s=brands">Square Web Awesome</a>
+    /// </summary>
+    public static Icon SquareWebAwesome => f_SquareWebAwesome ??= new Icon(IconFamily.Classic, IconStyle.Brands, "square-web-awesome", "e683");
+    private static Icon? f_SquareWebAwesomeStroke;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/square-web-awesome-stroke?f=classic&amp;s=brands">Square Web Awesome Stroke</a>
+    /// </summary>
+    public static Icon SquareWebAwesomeStroke => f_SquareWebAwesomeStroke ??= new Icon(IconFamily.Classic, IconStyle.Brands, "square-web-awesome-stroke", "e684");
     private static Icon? f_SquareWhatsapp;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-whatsapp?f=classic&amp;s=brands">Square Whatsapp</a>
@@ -2395,6 +2424,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/waze?f=classic&amp;s=brands">Waze</a>
     /// </summary>
     public static Icon Waze => f_Waze ??= new Icon(IconFamily.Classic, IconStyle.Brands, "waze", "f83f");
+    private static Icon? f_WebAwesome;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/web-awesome?f=classic&amp;s=brands">Web Awesome</a>
+    /// </summary>
+    public static Icon WebAwesome => f_WebAwesome ??= new Icon(IconFamily.Classic, IconStyle.Brands, "web-awesome", "e682");
     private static Icon? f_Webflow;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/webflow?f=classic&amp;s=brands">Webflow</a>

@@ -5,6 +5,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free.Svg;
 /// <summary>
 /// Font Awesome Regular Icons
 /// </summary>
+[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public static partial class FaRegular
 {
     private static SvgIcon? f_AddressBook;

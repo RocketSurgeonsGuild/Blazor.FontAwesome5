@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
   <ItemGroup>
     <PackageVersion Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" />
@@ -9,7 +9,8 @@
     <PackageVersion Include="Rocket.Surgery.LaunchPad.Foundation" Version="1.8.5" />
     <PackageVersion Include="Rocket.Surgery.MSBuild.CI" Version="1.2.1" />
     <PackageVersion Include="Rocket.Surgery.MSBuild.GitVersion" Version="1.2.1" />
-    <PackageVersion Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="1.2.1" Condition="'$(MSBuildProjectName)'!='.build'" />
+    <PackageVersion Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="1.2.1"
+      Condition="'$(MSBuildProjectName)'!='.build'" />
     <PackageVersion Include="Rocket.Surgery.MSBuild.SourceLink" Version="1.2.1" />
     <PackageVersion Include="Polyfill" Version="4.3.0" />
     <PackageVersion Include="Roslynator.Analyzers" Version="4.12.0" />
@@ -49,7 +50,6 @@
   <ItemGroup>
     <PackageVersion Include="Bogus" Version="35.5.0" />
     <PackageVersion Include="coverlet.collector" Version="6.0.2" />
-    <PackageVersion Include="coverlet.msbuild" Version="6.0.2" />
     <PackageVersion Include="Microsoft.Playwright" Version="1.42.0" />
     <PackageVersion Include="Verify.AngleSharp" Version="4.3.1" />
     <PackageVersion Include="Verify.ImageMagick" Version="3.3.0" />
@@ -68,7 +68,7 @@
     <PackageVersion Include="xunit.runner.visualstudio" Version="2.5.7" />
   </ItemGroup>
   <Import
-        Project="$(MSBuildThisFileDirectory)/Directory.Packages.support.props"
-        Condition="Exists('$(MSBuildThisFileDirectory)/Directory.Packages.support.props')"
-    />
+    Project="$(MSBuildThisFileDirectory)/Directory.Packages.support.props"
+    Condition="Exists('$(MSBuildThisFileDirectory)/Directory.Packages.support.props')"
+  />
 </Project>

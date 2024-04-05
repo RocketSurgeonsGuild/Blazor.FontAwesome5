@@ -5,6 +5,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Free.Svg;
 /// <summary>
 /// Font Awesome Brands Icons
 /// </summary>
+[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public static partial class FaBrands
 {
     private static SvgIcon? f__42Group;

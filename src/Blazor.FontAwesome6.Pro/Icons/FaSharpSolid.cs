@@ -5,6 +5,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Pro;
 /// <summary>
 /// Font Awesome SharpSolid Icons
 /// </summary>
+[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public static partial class FaSharpSolid
 {
     private static Icon? f__0;

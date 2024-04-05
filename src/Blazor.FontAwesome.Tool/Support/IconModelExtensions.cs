@@ -23,6 +23,7 @@ internal static class IconModelExtensions
         sb.AppendLine("/// <summary>");
         sb.AppendLine($"/// Font Awesome {label} Icons");
         sb.AppendLine("/// </summary>");
+        sb.AppendLine("[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]");
         sb.AppendLine($"public static partial class Fa{label.Pascalize()}");
         sb.AppendLine("{");
         using (sb.Indent())
@@ -54,6 +55,7 @@ internal static class IconModelExtensions
         sb.AppendLine("/// <summary>");
         sb.AppendLine($"/// Font Awesome {categoryModel.Label} Category Icons");
         sb.AppendLine("/// </summary>");
+        sb.AppendLine("[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]");
         sb.AppendLine($"public static partial class Fa{categoryModel.Name.Humanize().Pascalize()}");
         sb.AppendLine("{");
         using (sb.Indent())
@@ -118,6 +120,7 @@ internal static class IconModelExtensions
             sb.AppendLine($"/// {icon.Label}");
             sb.AppendLine($"/// <a href=\"{GetRootHref(icon)}\">{icon.Label}</a>");
             sb.AppendLine("/// </summary>");
+            sb.AppendLine("[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]");
             sb.AppendLine(
                 $"public static partial class {ToModelName(icon)}{( categoryModel.Name.Equals(icon.Id, StringComparison.OrdinalIgnoreCase) ? "Icon" : "" )}"
             );
@@ -133,6 +136,7 @@ internal static class IconModelExtensions
                 sb.AppendLine("/// <summary>");
                 sb.AppendLine($"/// <a href=\"{GetHref(style)}\">{style.Label}</a>");
                 sb.AppendLine("/// </summary>");
+                sb.AppendLine("[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]");
                 sb.AppendLine($"public static {GetIconClass(svgMode)} {styleName} => global::{@namespace}.Fa{styleName}.{ToModelName(rootIcon)};");
             }
         }

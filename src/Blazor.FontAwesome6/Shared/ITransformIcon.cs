@@ -1,4 +1,4 @@
-using Rocket.Surgery.Blazor.FontAwesome6;
+
 
 // ReSharper disable once CheckNamespace
 namespace Rocket.Surgery.Blazor.FontAwesome6;

@@ -15,7 +15,6 @@ public class Renderer
         if (RendererConfig.AutoA11y)
         {
             if (!string.IsNullOrEmpty(parameters.Title))
-            {
                 parameters = parameters with
                 {
                     Attributes = parameters.Attributes.SetItem(
@@ -23,14 +22,11 @@ public class Renderer
                         $"{RendererConfig.ReplacementClass}-title-{parameters.TitleId ?? UniqueIdGenerator.NextUniqueId()}"
                     )
                 };
-            }
             else
-            {
                 parameters = parameters with
                 {
                     Attributes = parameters.Attributes.SetItem("aria-hidden", "true").SetItem("focusable", "false"),
                 };
-            }
         }
 
         return ImmutableArray.Create(MakeInlineSvgAbstract(parameters, iconDefinition));
@@ -39,63 +35,47 @@ public class Renderer
     public string RenderToHtml(ISvgIcon iconDefinition, SvgParameters? parameters = null) =>
         string.Join("", Render(iconDefinition, parameters).Select(x => x.ToHtml()));
 
-    private SvgContent? AsFoundIcon(ISvgIcon? icon)
-    {
-        if (icon is { VectorData: [var secondary, var primary] })
+    private SvgContent? AsFoundIcon(ISvgIcon? icon) =>
+        icon switch
         {
-            return new()
+            {
+                VectorData: [var secondary, var primary]
+            } => new()
             {
                 Tag = "g",
                 Classes = ImmutableArray.Create($"{RendererConfig.CssPrefix}-{DUOTONE_CLASSES.GROUP}"),
                 Children = ImmutableArray.Create(
-                               new SvgContent
-                               {
-                                   Tag = "path",
-                                   Classes = ImmutableArray.Create($"{RendererConfig.CssPrefix}-{DUOTONE_CLASSES.SECONDARY}"),
-                                   Attributes = ImmutableDictionary<string, string>
-                                               .Empty
-                                               .AddRange(
-                                                    [
-                                                        new("fill", "currentColor"),
-                                                        new("d", Encoding.UTF8.GetString(secondary.AsSpan()))
-                                                    ]
-                                                )
-                               },
-                               new SvgContent
-                               {
-                                   Tag = "path",
-                                   Classes = ImmutableArray.Create($"{RendererConfig.CssPrefix}-{DUOTONE_CLASSES.PRIMARY}"),
-                                   Attributes = ImmutableDictionary<string, string>
-                                               .Empty
-                                               .AddRange(
-                                                    [
-                                                        new("fill", "currentColor"),
-                                                        new("d", Encoding.UTF8.GetString(primary.AsSpan()))
-                                                    ]
-                                                )
-                               }
-                           )
-            };
-        }
-
-        if (icon is { VectorData: [var vector] })
-        {
-            return new()
+                    new SvgContent
+                    {
+                        Tag = "path",
+                        Classes = ImmutableArray.Create($"{RendererConfig.CssPrefix}-{DUOTONE_CLASSES.SECONDARY}"),
+                        Attributes =
+                            ImmutableDictionary<string, string>.Empty.AddRange(
+                                [new("fill", "currentColor"), new("d", Encoding.UTF8.GetString(secondary.AsSpan()))]
+                            )
+                    },
+                    new SvgContent
+                    {
+                        Tag = "path",
+                        Classes = ImmutableArray.Create($"{RendererConfig.CssPrefix}-{DUOTONE_CLASSES.PRIMARY}"),
+                        Attributes =
+                            ImmutableDictionary<string, string>.Empty.AddRange(
+                                [new("fill", "currentColor"), new("d", Encoding.UTF8.GetString(primary.AsSpan()))]
+                            )
+                    }
+                )
+            },
+            {
+                VectorData: [var vector]
+            } => new()
             {
                 Tag = "path",
-                Attributes = ImmutableDictionary<string, string>
-                            .Empty
-                            .AddRange(
-                                 [
-                                     new("fill", "currentColor"),
-                                     new("d", Encoding.UTF8.GetString(vector.AsSpan())),
-                                 ]
-                             )
-            };
-        }
-
-        return null;
-    }
+                Attributes = ImmutableDictionary<string, string>.Empty.AddRange(
+                    [new("fill", "currentColor"), new("d", Encoding.UTF8.GetString(vector.AsSpan())),]
+                )
+            },
+            _ => null
+        };
 
     private SvgContent MakeInlineSvgAbstract(SvgParameters parameters, ISvgIcon icon)
     {
@@ -117,16 +97,13 @@ public class Renderer
                 ]
             ),
             Styles = parameters.Styles,
-            Classes = parameters.Classes.AddRange(new[] { RendererConfig.ReplacementClass, icon.Name}),
+            Classes = parameters.Classes.AddRange(new[] { RendererConfig.ReplacementClass, icon.Name }),
         };
 
         if (isUploadedIcon && !parameters.Classes.Contains("fa-fw"))
-        {
             content = content with { Attributes = content.Attributes.Add("width", $"{( width / height ) * 16 * 0.0625}em") };
-        }
 
         if (!string.IsNullOrEmpty(parameters.Title))
-        {
             content = content with
             {
                 Attributes = content.Attributes.Remove("title"),
@@ -144,7 +121,6 @@ public class Renderer
                     }
                 )
             };
-        }
 
         var args = new SvgArgs
         {
@@ -209,17 +185,14 @@ public class Renderer
     {
         var styleString = GetStyleString(parameters.Styles);
         if (!string.IsNullOrEmpty(styleString))
-        {
             parameters = parameters with
             {
                 Attributes = SetStyleAttribute(parameters.Attributes, parameters.Styles)
             };
-        }
 
         SvgContent? nextChild = null;
 
         if (parameters.Transform != SvgTransform.None)
-        {
             nextChild = GenerateAbstractTransformGrouping(
                 new()
                 {
@@ -230,7 +203,6 @@ public class Renderer
                     IconWidth = parameters.Icon.Width
                 }
             );
-        }
 
         parameters = parameters with { Children = parameters.Children.Add(nextChild ?? parameters.IconContent) };
 

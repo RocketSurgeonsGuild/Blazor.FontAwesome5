@@ -5,7 +5,7 @@
     <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="8.0.0" />
     <PackageVersion Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="3.3.4" />
     <PackageVersion Include="PrettyCode.StringBuilder" Version="1.0.0" />
-    <PackageVersion Include="Rocket.Surgery.Conventions.CommandLine" Version="12.11.1" />
+    <PackageVersion Include="Rocket.Surgery.Conventions.CommandLine" Version="12.11.2" />
     <PackageVersion Include="Rocket.Surgery.LaunchPad.Foundation" Version="1.8.7" />
     <PackageVersion Include="Rocket.Surgery.MSBuild.CI" Version="1.2.1" />
     <PackageVersion Include="Rocket.Surgery.MSBuild.GitVersion" Version="1.2.1" />

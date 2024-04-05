@@ -163,7 +163,7 @@ public class Renderer
                 ]
             ),
             Styles = parameters.Styles,
-            Classes = parameters.Classes.AddRange(RendererConfig.ReplacementClass, icon.Name),
+            Classes = parameters.Classes.AddRange(new [] { RendererConfig.ReplacementClass, icon.Name }),
         };
 
         if (isUploadedIcon && !parameters.Classes.Contains("fa-fw"))

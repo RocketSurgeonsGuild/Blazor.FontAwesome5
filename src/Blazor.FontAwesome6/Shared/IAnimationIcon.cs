@@ -1,13 +1,15 @@
-﻿namespace Rocket.Surgery.Blazor.FontAwesome6;
+﻿// ReSharper disable once CheckNamespace
+
+namespace Rocket.Surgery.Blazor.FontAwesome6;
 
 public interface IAnimationIcon
 {
-    IconAnimation Animation { get;  }
-    string? AnimationDelay { get;  }
-    string? AnimationDirection { get;  }
-    string? AnimationDuration { get;  }
-    string? AnimationIterationCount { get;  }
-    string? AnimationTiming { get;  }
+    IconAnimation Animation { get; }
+    string? AnimationDelay { get; }
+    string? AnimationDirection { get; }
+    string? AnimationDuration { get; }
+    string? AnimationIterationCount { get; }
+    string? AnimationTiming { get; }
 
     double? BeatScale { get; }
     double? FadeOpacity { get; }
@@ -27,5 +29,4 @@ public interface IAnimationIcon
     double? FlipY { get; }
     double? FlipZ { get; }
     string? FlipAngle { get; }
-
 }

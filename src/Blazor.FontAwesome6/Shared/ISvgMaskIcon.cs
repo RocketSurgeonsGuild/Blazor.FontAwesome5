@@ -1,6 +1,8 @@
-﻿namespace Rocket.Surgery.Blazor.FontAwesome6;
+﻿// ReSharper disable once CheckNamespace
 
-public interface ISvgMaskIcon 
+namespace Rocket.Surgery.Blazor.FontAwesome6;
+
+public interface ISvgMaskIcon
 {
     SvgIcon? Mask { get; }
 }

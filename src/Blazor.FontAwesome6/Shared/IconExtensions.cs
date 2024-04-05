@@ -2,6 +2,7 @@
 using System.Globalization;
 using System.Text;
 
+// ReSharper disable once CheckNamespace
 namespace Rocket.Surgery.Blazor.FontAwesome6;
 
 internal static class IconExtensions
@@ -418,310 +419,147 @@ internal static class IconExtensions
         var results = ImmutableDictionary.CreateBuilder<string, string>();
 
         if (overrides is IIcon { PrimaryOpacity: { } op2 and (> 0.001), })
-        {
-            results.Add($"--fa-primary-opacity", $"{op2:F2}");
-        }
-        else if (icon is IIcon { PrimaryOpacity: { } op and (> 0.001), })
-        {
-            results.Add($"--fa-primary-opacity", $"{op:F2}");
-        }
+            results.Add("--fa-primary-opacity", $"{op2:F2}");
+        else if (icon is IIcon { PrimaryOpacity: { } op and (> 0.001), }) results.Add("--fa-primary-opacity", $"{op:F2}");
 
         if (overrides is IIcon { PrimaryColor: { } pc2, })
-        {
-            results.Add($"--fa-primary-color", $"{pc2}");
-        }
-        else if (icon is IIcon { PrimaryColor: { } pc, })
-        {
-            results.Add($"--fa-primary-color", $"{pc}");
-        }
+            results.Add("--fa-primary-color", $"{pc2}");
+        else if (icon is IIcon { PrimaryColor: { } pc, }) results.Add("--fa-primary-color", $"{pc}");
 
         if (overrides is IIcon { SecondaryOpacity: { } so2 and (> 0.001), })
-        {
-            results.Add($"--fa-secondary-opacity", $"{so2:F2}");
-        }
-        else if (icon is IIcon { SecondaryOpacity: { } so and (> 0.001), })
-        {
-            results.Add($"--fa-secondary-opacity", $"{so:F2}");
-        }
+            results.Add("--fa-secondary-opacity", $"{so2:F2}");
+        else if (icon is IIcon { SecondaryOpacity: { } so and (> 0.001), }) results.Add("--fa-secondary-opacity", $"{so:F2}");
 
         if (overrides is IIcon { SecondaryColor: { } sc2, })
-        {
-            results.Add($"--fa-secondary-color", $"{sc2}");
-        }
-        else if (icon is IIcon { SecondaryColor: { } sc, })
-        {
-            results.Add($"--fa-secondary-color", $"{sc}");
-        }
+            results.Add("--fa-secondary-color", $"{sc2}");
+        else if (icon is IIcon { SecondaryColor: { } sc, }) results.Add("--fa-secondary-color", $"{sc}");
 
         if (overrides is IIcon { PullMargin: { } pm2, Pull: not IconPull.None, })
-        {
-            results.Add($"--fa-pull-margin", $"{pm2}");
-        }
-        else if (icon is IIcon { PullMargin: { } pm, Pull: not IconPull.None, })
-        {
-            results.Add($"--fa-pull-margin", $"{pm}");
-        }
+            results.Add("--fa-pull-margin", $"{pm2}");
+        else if (icon is IIcon { PullMargin: { } pm, Pull: not IconPull.None, }) results.Add("--fa-pull-margin", $"{pm}");
 
         if (overrides is IIcon { StackZIndex: { Length: > 0, } stackZIndex2, })
-        {
-            results.Add($"--fa-stack-z-index", $"{stackZIndex2}");
-        }
-        else if (icon is IIcon { StackZIndex: { Length: > 0, } stackZIndex, })
-        {
-            results.Add($"--fa-stack-z-index", $"{stackZIndex}");
-        }
+            results.Add("--fa-stack-z-index", $"{stackZIndex2}");
+        else if (icon is IIcon { StackZIndex: { Length: > 0, } stackZIndex, }) results.Add("--fa-stack-z-index", $"{stackZIndex}");
 
         if (overrides is IIcon { InverseColor: { Length: > 0, } inverseColor2, })
-        {
-            results.Add($"--fa-inverse", $"{inverseColor2}");
-        }
-        else if (icon is IIcon { InverseColor: { Length: > 0, } inverseColor, })
-        {
-            results.Add($"--fa-inverse", $"{inverseColor}");
-        }
+            results.Add("--fa-inverse", $"{inverseColor2}");
+        else if (icon is IIcon { InverseColor: { Length: > 0, } inverseColor, }) results.Add("--fa-inverse", $"{inverseColor}");
 
         if (overrides is IIcon { RotateBy: { } rotateBy2, })
-        {
-            results.Add($"--fa-rotate-angle", $"{rotateBy2}");
-        }
-        else if (icon is IIcon { RotateBy: { } rotateBy, })
-        {
-            results.Add($"--fa-rotate-angle", $"{rotateBy}");
-        }
+            results.Add("--fa-rotate-angle", $"{rotateBy2}");
+        else if (icon is IIcon { RotateBy: { } rotateBy, }) results.Add("--fa-rotate-angle", $"{rotateBy}");
 
         if (overrides is IAnimationIcon { AnimationDelay: { } animationDelay2, })
-        {
-            results.Add($"--fa-animation-delay", $"{animationDelay2}");
-        }
-        else if (icon is IAnimationIcon { AnimationDelay: { } animationDelay, })
-        {
-            results.Add($"--fa-animation-delay", $"{animationDelay}");
-        }
+            results.Add("--fa-animation-delay", $"{animationDelay2}");
+        else if (icon is IAnimationIcon { AnimationDelay: { } animationDelay, }) results.Add("--fa-animation-delay", $"{animationDelay}");
 
         if (overrides is IAnimationIcon { AnimationDirection: { } animationDirection2, })
-        {
-            results.Add($"--fa-animation-direction", $"{animationDirection2}");
-        }
-        else if (icon is IAnimationIcon { AnimationDirection: { } animationDirection, })
-        {
-            results.Add($"--fa-animation-direction", $"{animationDirection}");
-        }
+            results.Add("--fa-animation-direction", $"{animationDirection2}");
+        else if (icon is IAnimationIcon { AnimationDirection: { } animationDirection, }) results.Add("--fa-animation-direction", $"{animationDirection}");
 
         if (overrides is IAnimationIcon { AnimationDuration: { } animationDuration2, })
-        {
-            results.Add($"--fa-animation-duration", $"{animationDuration2}");
-        }
-        else if (icon is IAnimationIcon { AnimationDuration: { } animationDuration, })
-        {
-            results.Add($"--fa-animation-duration", $"{animationDuration}");
-        }
+            results.Add("--fa-animation-duration", $"{animationDuration2}");
+        else if (icon is IAnimationIcon { AnimationDuration: { } animationDuration, }) results.Add("--fa-animation-duration", $"{animationDuration}");
 
         if (overrides is IAnimationIcon { AnimationIterationCount: { } animationIterationCount2, })
-        {
-            results.Add($"--fa-animation-iteration-count", $"{animationIterationCount2}");
-        }
+            results.Add("--fa-animation-iteration-count", $"{animationIterationCount2}");
         else if (icon is IAnimationIcon { AnimationIterationCount: { } animationIterationCount, })
-        {
-            results.Add($"--fa-animation-iteration-count", $"{animationIterationCount}");
-        }
+            results.Add("--fa-animation-iteration-count", $"{animationIterationCount}");
 
         if (overrides is IAnimationIcon { AnimationTiming: { } animationTiming2, })
-        {
-            results.Add($"--fa-animation-timing", $"{animationTiming2}");
-        }
-        else if (icon is IAnimationIcon { AnimationTiming: { } animationTiming, })
-        {
-            results.Add(";--fa-animation-timing", $"{animationTiming}");
-        }
+            results.Add("--fa-animation-timing", $"{animationTiming2}");
+        else if (icon is IAnimationIcon { AnimationTiming: { } animationTiming, }) results.Add(";--fa-animation-timing", $"{animationTiming}");
 
         if (overrides is IAnimationIcon { BeatScale: { } beatScale2 and (> 0.001), })
-        {
-            results.Add($"--fa-beat-scale", $"{beatScale2:F2}");
-        }
-        else if (icon is IAnimationIcon { BeatScale: { } beatScale and (> 0.001), })
-        {
-            results.Add($"--fa-beat-scale", $"{beatScale:F2}");
-        }
+            results.Add("--fa-beat-scale", $"{beatScale2:F2}");
+        else if (icon is IAnimationIcon { BeatScale: { } beatScale and (> 0.001), }) results.Add("--fa-beat-scale", $"{beatScale:F2}");
 
         if (overrides is IAnimationIcon { FadeOpacity: { } fadeOpacity2 and (> 0.001), })
-        {
-            results.Add($"--fa-fade-opacity", $"{fadeOpacity2:F2}");
-        }
-        else if (icon is IAnimationIcon { FadeOpacity: { } fadeOpacity and (> 0.001), })
-        {
-            results.Add($"--fa-fade-opacity", $"{fadeOpacity:F2}");
-        }
+            results.Add("--fa-fade-opacity", $"{fadeOpacity2:F2}");
+        else if (icon is IAnimationIcon { FadeOpacity: { } fadeOpacity and (> 0.001), }) results.Add("--fa-fade-opacity", $"{fadeOpacity:F2}");
 
         if (overrides is IAnimationIcon { BeatFadeOpacity: { } beatFadeOpacity2 and (> 0.001), })
-        {
-            results.Add($"--fa-beat-fade-opacity", $"{beatFadeOpacity2:F2}");
-        }
-        else if (icon is IAnimationIcon { BeatFadeOpacity: { } beatFadeOpacity and (> 0.001), })
-        {
-            results.Add($"--fa-beat-fade-opacity", $"{beatFadeOpacity:F2}");
-        }
+            results.Add("--fa-beat-fade-opacity", $"{beatFadeOpacity2:F2}");
+        else if (icon is IAnimationIcon { BeatFadeOpacity: { } beatFadeOpacity and (> 0.001), }) results.Add("--fa-beat-fade-opacity", $"{beatFadeOpacity:F2}");
 
         if (overrides is IAnimationIcon { BeatFadeScale: { } beatFadeScale2 and (> 0.001), })
-        {
-            results.Add($"--fa-beat-fade-scale", $"{beatFadeScale2:F2}");
-        }
-        else if (icon is IAnimationIcon { BeatFadeScale: { } beatFadeScale and (> 0.001), })
-        {
-            results.Add($"--fa-beat-fade-scale", $"{beatFadeScale:F2}");
-        }
+            results.Add("--fa-beat-fade-scale", $"{beatFadeScale2:F2}");
+        else if (icon is IAnimationIcon { BeatFadeScale: { } beatFadeScale and (> 0.001), }) results.Add("--fa-beat-fade-scale", $"{beatFadeScale:F2}");
 
         if (overrides is IAnimationIcon { BounceRebound: { } bounceRebound2 and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-rebound", $"{bounceRebound2:F2}");
-        }
-        else if (icon is IAnimationIcon { BounceRebound: { } bounceRebound and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-rebound", $"{bounceRebound:F2}");
-        }
+            results.Add("--fa-bounce-rebound", $"{bounceRebound2:F2}");
+        else if (icon is IAnimationIcon { BounceRebound: { } bounceRebound and (> 0.001), }) results.Add("--fa-bounce-rebound", $"{bounceRebound:F2}");
 
         if (overrides is IAnimationIcon { BounceHeight: { } bounceHeight2 and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-height", $"{bounceHeight2:F2}");
-        }
-        else if (icon is IAnimationIcon { BounceHeight: { } bounceHeight and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-height", $"{bounceHeight:F2}");
-        }
+            results.Add("--fa-bounce-height", $"{bounceHeight2:F2}");
+        else if (icon is IAnimationIcon { BounceHeight: { } bounceHeight and (> 0.001), }) results.Add("--fa-bounce-height", $"{bounceHeight:F2}");
 
         if (overrides is IAnimationIcon { BounceStartScaleX: { } bounceStartScaleX2 and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-start-scale-x", $"{bounceStartScaleX2:F2}");
-        }
+            results.Add("--fa-bounce-start-scale-x", $"{bounceStartScaleX2:F2}");
         else if (icon is IAnimationIcon { BounceStartScaleX: { } bounceStartScaleX and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-start-scale-x", $"{bounceStartScaleX:F2}");
-        }
+            results.Add("--fa-bounce-start-scale-x", $"{bounceStartScaleX:F2}");
 
         if (overrides is IAnimationIcon { BounceStartScaleY: { } bounceStartScaleY2 and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-start-scale-y", $"{bounceStartScaleY2:F2}");
-        }
+            results.Add("--fa-bounce-start-scale-y", $"{bounceStartScaleY2:F2}");
         else if (icon is IAnimationIcon { BounceStartScaleY: { } bounceStartScaleY and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-start-scale-y", $"{bounceStartScaleY:F2}");
-        }
+            results.Add("--fa-bounce-start-scale-y", $"{bounceStartScaleY:F2}");
 
         if (overrides is IAnimationIcon { BounceJumpScaleX: { } bounceJumpScaleX2 and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-jump-scale-x", $"{bounceJumpScaleX2:F2}");
-        }
+            results.Add("--fa-bounce-jump-scale-x", $"{bounceJumpScaleX2:F2}");
         else if (icon is IAnimationIcon { BounceJumpScaleX: { } bounceJumpScaleX and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-jump-scale-x", $"{bounceJumpScaleX:F2}");
-        }
+            results.Add("--fa-bounce-jump-scale-x", $"{bounceJumpScaleX:F2}");
 
         if (overrides is IAnimationIcon { BounceJumpScaleY: { } bounceJumpScaleY2 and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-jump-scale-y", $"{bounceJumpScaleY2:F2}");
-        }
+            results.Add("--fa-bounce-jump-scale-y", $"{bounceJumpScaleY2:F2}");
         else if (icon is IAnimationIcon { BounceJumpScaleY: { } bounceJumpScaleY and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-jump-scale-y", $"{bounceJumpScaleY:F2}");
-        }
+            results.Add("--fa-bounce-jump-scale-y", $"{bounceJumpScaleY:F2}");
 
         if (overrides is IAnimationIcon { BounceLandScaleX: { } bounceLandScaleX2 and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-land-scale-x", $"{bounceLandScaleX2:F2}");
-        }
+            results.Add("--fa-bounce-land-scale-x", $"{bounceLandScaleX2:F2}");
         else if (icon is IAnimationIcon { BounceLandScaleX: { } bounceLandScaleX and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-land-scale-x", $"{bounceLandScaleX:F2}");
-        }
+            results.Add("--fa-bounce-land-scale-x", $"{bounceLandScaleX:F2}");
 
         if (overrides is IAnimationIcon { BounceLandScaleY: { } bounceLandScaleY2 and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-land-scale-y", $"{bounceLandScaleY2:F2}");
-        }
+            results.Add("--fa-bounce-land-scale-y", $"{bounceLandScaleY2:F2}");
         else if (icon is IAnimationIcon { BounceLandScaleY: { } bounceLandScaleY and (> 0.001), })
-        {
-            results.Add($"--fa-bounce-land-scale-y", $"{bounceLandScaleY:F2}");
-        }
+            results.Add("--fa-bounce-land-scale-y", $"{bounceLandScaleY:F2}");
 
         if (overrides is IAnimationIcon { FlipX: { } flipX2 and (> 0.001), })
-        {
-            results.Add($"--fa-flip-x", $"{flipX2:F2}");
-        }
-        else if (icon is IAnimationIcon { FlipX: { } flipX and (> 0.001), })
-        {
-            results.Add($"--fa-flip-x", $"{flipX:F2}");
-        }
+            results.Add("--fa-flip-x", $"{flipX2:F2}");
+        else if (icon is IAnimationIcon { FlipX: { } flipX and (> 0.001), }) results.Add("--fa-flip-x", $"{flipX:F2}");
 
         if (overrides is IAnimationIcon { FlipY: { } flipY2 and (> 0.001), })
-        {
-            results.Add($"--fa-flip-y", $"{flipY2:F2}");
-        }
-        else if (icon is IAnimationIcon { FlipY: { } flipY and (> 0.001), })
-        {
-            results.Add($"--fa-flip-y", $"{flipY:F2}");
-        }
+            results.Add("--fa-flip-y", $"{flipY2:F2}");
+        else if (icon is IAnimationIcon { FlipY: { } flipY and (> 0.001), }) results.Add("--fa-flip-y", $"{flipY:F2}");
 
         if (overrides is IAnimationIcon { FlipZ: { } flipZ2 and (> 0.001), })
-        {
-            results.Add($"--fa-flip-z", $"{flipZ2:F2}");
-        }
-        else if (icon is IAnimationIcon { FlipZ: { } flipZ and (> 0.001), })
-        {
-            results.Add($"--fa-flip-z", $"{flipZ:F2}");
-        }
+            results.Add("--fa-flip-z", $"{flipZ2:F2}");
+        else if (icon is IAnimationIcon { FlipZ: { } flipZ and (> 0.001), }) results.Add("--fa-flip-z", $"{flipZ:F2}");
 
         if (overrides is IAnimationIcon { FlipAngle: { } flipAngle2, })
-        {
-            results.Add($"--fa-flip-angle", $"{flipAngle2}");
-        }
-        else if (icon is IAnimationIcon { FlipAngle: { } flipAngle, })
-        {
-            results.Add($"--fa-flip-angle", $"{flipAngle}");
-        }
+            results.Add("--fa-flip-angle", flipAngle2);
+        else if (icon is IAnimationIcon { FlipAngle: { } flipAngle, }) results.Add("--fa-flip-angle", flipAngle);
 
         if (overrides is IIcon { Border: true, BorderColor: { } borderColor2, })
-        {
-            results.Add($"--fa-border-color", $"{borderColor2}");
-        }
-        else if (icon is IIcon { Border: true, BorderColor: { } borderColor, })
-        {
-            results.Add($"--fa-border-color", $"{borderColor}");
-        }
+            results.Add("--fa-border-color", borderColor2);
+        else if (icon is IIcon { Border: true, BorderColor: { } borderColor, }) results.Add("--fa-border-color", borderColor);
 
         if (overrides is IIcon { Border: true, BorderPadding: { } borderPadding2, })
-        {
-            results.Add($"--fa-border-padding", $"{borderPadding2}");
-        }
-        else if (icon is IIcon { Border: true, BorderPadding: { } borderPadding, })
-        {
-            results.Add($"--fa-border-padding", $"{borderPadding}");
-        }
+            results.Add("--fa-border-padding", borderPadding2);
+        else if (icon is IIcon { Border: true, BorderPadding: { } borderPadding, }) results.Add("--fa-border-padding", borderPadding);
 
         if (overrides is IIcon { Border: true, BorderRadius: { } borderRadius2, })
-        {
-            results.Add($"--fa-border-radius", $"{borderRadius2}");
-        }
-        else if (icon is IIcon { Border: true, BorderRadius: { } borderRadius, })
-        {
-            results.Add($"--fa-border-radius", $"{borderRadius}");
-        }
+            results.Add("--fa-border-radius", borderRadius2);
+        else if (icon is IIcon { Border: true, BorderRadius: { } borderRadius, }) results.Add("--fa-border-radius", borderRadius);
 
         if (overrides is IIcon { Border: true, BorderStyle: { } borderStyle2, })
-        {
-            results.Add($"--fa-border-style", $"{borderStyle2}");
-        }
-        else if (icon is IIcon { Border: true, BorderStyle: { } borderStyle, })
-        {
-            results.Add($"--fa-border-style", $"{borderStyle}");
-        }
+            results.Add("--fa-border-style", borderStyle2);
+        else if (icon is IIcon { Border: true, BorderStyle: { } borderStyle, }) results.Add("--fa-border-style", borderStyle);
 
         if (overrides is IIcon { Border: true, BorderWidth: { } borderWidth2, })
-        {
-            results.Add($"--fa-border-width", $"{borderWidth2}");
-        }
-        else if (icon is IIcon { Border: true, BorderWidth: { } borderWidth, })
-        {
-            results.Add($"--fa-border-width", $"{borderWidth}");
-        }
+            results.Add("--fa-border-width", borderWidth2);
+        else if (icon is IIcon { Border: true, BorderWidth: { } borderWidth, }) results.Add("--fa-border-width", borderWidth);
 
         return results.ToImmutable();
     }
@@ -825,14 +663,10 @@ internal static class IconExtensions
     {
         sb.Append("fa-");
         if (string.IsNullOrWhiteSpace(name))
-        {
             // default icon
             sb.Append("bomb");
-        }
         else
-        {
             sb.Append(name);
-        }
     }
 
     public static ImmutableArray<string> ApplyClass(this ISharedIcon icon, ISharedIcon? overrides, bool stack = false)
@@ -841,49 +675,26 @@ internal static class IconExtensions
         if (icon is IIcon { } i)
         {
             if (overrides is IIcon { Inverse: true, } || ( overrides is null or IIcon { Inverse: null, } && i is { Inverse: true, } ))
-            {
                 results.Add("fa-inverse");
-            }
 
             if (overrides is IIcon { Pull: not IconPull.None, } overrides2)
-            {
                 results.Add(Icon.ToString(overrides2.Pull));
-            }
-            else if (i is { Pull: not IconPull.None, })
-            {
-                results.Add(Icon.ToString(i.Pull));
-            }
+            else if (i is { Pull: not IconPull.None, }) results.Add(Icon.ToString(i.Pull));
 
             if (overrides is IIcon { SwapOpacity: true, } || ( overrides is null or IIcon { SwapOpacity: null, } && i is { SwapOpacity: true, } ))
-            {
                 results.Add("fa-swap-opacity");
-            }
 
-            if (overrides is IIcon { RotateBy: { }, } || i is { RotateBy: { }, })
-            {
-                results.Add("fa-rotate-by");
-            }
+            if (overrides is IIcon { RotateBy: { }, } || i is { RotateBy: { }, }) results.Add("fa-rotate-by");
         }
 
 
         if (overrides is { CssClass: { Length: > 0, } cssClass2, })
-        {
             results.AddRange(cssClass2.Split(' ', StringSplitOptions.RemoveEmptyEntries));
-        }
-        else if (icon is { CssClass: { Length: > 0, } cssClass, })
-        {
-            results.AddRange(cssClass.Split(' ', StringSplitOptions.RemoveEmptyEntries));
-        }
+        else if (icon is { CssClass: { Length: > 0, } cssClass, }) results.AddRange(cssClass.Split(' ', StringSplitOptions.RemoveEmptyEntries));
 
-        if (overrides is { FixedWidth: true, } || ( overrides is null or { FixedWidth: null, } && icon is { FixedWidth: true, } ))
-        {
-            results.Add("fa-fw");
-        }
+        if (overrides is { FixedWidth: true, } || ( overrides is null or { FixedWidth: null, } && icon is { FixedWidth: true, } )) results.Add("fa-fw");
 
-        if (overrides is { Border: true, } || ( overrides is null or { Border: null, } && icon is { Border: true, } ))
-        {
-            results.Add("fa-border");
-        }
+        if (overrides is { Border: true, } || ( overrides is null or { Border: null, } && icon is { Border: true, } )) results.Add("fa-border");
 
         var size = overrides is { } && overrides.Size != IconSize.Normal ? overrides.Size : icon.Size;
         results.Add(Icon.ToString(size, stack));
@@ -913,10 +724,7 @@ internal static class IconExtensions
                                 { Fade: true, }      => IconAnimation.Fade,
                                 _                    => animation,
                             };
-                if (animationOverrides is { Reverse: true, })
-                {
-                    animation |= IconAnimation.Reverse;
-                }
+                if (animationOverrides is { Reverse: true, }) animation |= IconAnimation.Reverse;
             }
 
             if (animation is (IconAnimation.Reverse or IconAnimation.None) && icon is IAnimationComponent iconOverrides)
@@ -933,16 +741,10 @@ internal static class IconExtensions
                                 { Fade: true, }      => IconAnimation.Fade,
                                 _                    => animation,
                             };
-                if (iconOverrides is { Reverse: true, })
-                {
-                    animation |= IconAnimation.Reverse;
-                }
+                if (iconOverrides is { Reverse: true, }) animation |= IconAnimation.Reverse;
             }
 
-            if (animation != IconAnimation.None)
-            {
-                results.Add(Icon.ToString(animation));
-            }
+            if (animation != IconAnimation.None) results.Add(Icon.ToString(animation));
         }
 
         return results.ToImmutable();
@@ -956,10 +758,7 @@ internal static class IconExtensions
             sb.Append(' ');
 
             ApplyName(sb, i.Name);
-            if (overrides is IIcon { Inverse: true, } || ( overrides is null or IIcon { Inverse: null, } && i is { Inverse: true, } ))
-            {
-                sb.Append(" fa-inverse");
-            }
+            if (overrides is IIcon { Inverse: true, } || ( overrides is null or IIcon { Inverse: null, } && i is { Inverse: true, } )) sb.Append(" fa-inverse");
 
             if (overrides is IIcon { Pull: not IconPull.None, } overrides2)
             {
@@ -973,14 +772,9 @@ internal static class IconExtensions
             }
 
             if (overrides is IIcon { SwapOpacity: true, } || ( overrides is null or IIcon { SwapOpacity: null, } && i is { SwapOpacity: true, } ))
-            {
                 sb.Append(" fa-swap-opacity");
-            }
 
-            if (overrides is IIcon { RotateBy: { }, } || i is { RotateBy: { }, })
-            {
-                sb.Append(" fa-rotate-by");
-            }
+            if (overrides is IIcon { RotateBy: { }, } || i is { RotateBy: { }, }) sb.Append(" fa-rotate-by");
         }
 
 
@@ -1001,15 +795,9 @@ internal static class IconExtensions
             sb.Append(cssClass);
         }
 
-        if (overrides is { FixedWidth: true, } || ( overrides is null or { FixedWidth: null, } && icon is { FixedWidth: true, } ))
-        {
-            sb.Append(" fa-fw");
-        }
+        if (overrides is { FixedWidth: true, } || ( overrides is null or { FixedWidth: null, } && icon is { FixedWidth: true, } )) sb.Append(" fa-fw");
 
-        if (overrides is { Border: true, } || ( overrides is null or { Border: null, } && icon is { Border: true, } ))
-        {
-            sb.Append(" fa-border");
-        }
+        if (overrides is { Border: true, } || ( overrides is null or { Border: null, } && icon is { Border: true, } )) sb.Append(" fa-border");
 
         var size = overrides is { } && overrides.Size != IconSize.Normal ? overrides.Size : icon.Size;
         sb.Append(Icon.ToString(size, stack));
@@ -1039,10 +827,7 @@ internal static class IconExtensions
                                 { Fade: true, }      => IconAnimation.Fade,
                                 _                    => animation,
                             };
-                if (animationOverrides is { Reverse: true, })
-                {
-                    animation |= IconAnimation.Reverse;
-                }
+                if (animationOverrides is { Reverse: true, }) animation |= IconAnimation.Reverse;
             }
 
             if (animation is (IconAnimation.Reverse or IconAnimation.None) && icon is IAnimationComponent iconOverrides)
@@ -1059,16 +844,10 @@ internal static class IconExtensions
                                 { Fade: true, }      => IconAnimation.Fade,
                                 _                    => animation,
                             };
-                if (iconOverrides is { Reverse: true, })
-                {
-                    animation |= IconAnimation.Reverse;
-                }
+                if (iconOverrides is { Reverse: true, }) animation |= IconAnimation.Reverse;
             }
 
-            if (animation != IconAnimation.None)
-            {
-                sb.Append(Icon.ToString(animation));
-            }
+            if (animation != IconAnimation.None) sb.Append(Icon.ToString(animation));
         }
     }
 

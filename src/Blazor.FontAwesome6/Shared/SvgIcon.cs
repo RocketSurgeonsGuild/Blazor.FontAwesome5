@@ -1,16 +1,25 @@
 ﻿using System.Collections.Immutable;
 using Rocket.Surgery.Blazor.FontAwesome6.Vector;
 
+// ReSharper disable once CheckNamespace
 namespace Rocket.Surgery.Blazor.FontAwesome6;
 
 public sealed record SvgIcon : Icon, ISvgIcon
 {
     private readonly int _width;
     private readonly int _height;
-    private SvgIcon? _mask;
     private readonly ImmutableArray<ImmutableArray<byte>> _vectorData;
+    private SvgIcon? _mask;
 
-    public SvgIcon(IconFamily family, IconStyle style, string name, string unicode, int width, int height, ImmutableArray<ImmutableArray<byte>> vectorData) : base(
+    public SvgIcon(
+        IconFamily family,
+        IconStyle style,
+        string name,
+        string unicode,
+        int width,
+        int height,
+        ImmutableArray<ImmutableArray<byte>> vectorData
+    ) : base(
         family,
         style,
         name,
@@ -24,7 +33,7 @@ public sealed record SvgIcon : Icon, ISvgIcon
 
     public SvgIcon Mask(SvgIcon mask)
     {
-        return this with { _mask = mask };
+        return this with { _mask = mask, };
     }
 
     public override string ToIcon()
@@ -32,11 +41,11 @@ public sealed record SvgIcon : Icon, ISvgIcon
         var icon = (ISvgIcon)this;
         return Renderer.Instance.RenderToHtml(
             icon,
-            new SvgParameters()
+            new()
             {
                 Styles = icon.ApplyStyle(null),
                 Classes = icon.ApplyClass(null),
-                Transform = new SvgTransform()
+                Transform = new()
                 {
                     Rotate = icon.Rotate,
                     Size = 16 + icon.Scale,

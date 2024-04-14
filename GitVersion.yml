@@ -1,38 +1,19 @@
-mode: ContinuousDelivery
+workflow: GitHubFlow/v1
+semantic-version-format: Loose
+
 branches:
   main:
     label: beta
-    increment: Inherit
-    track-merge-target: false
-    regex: ^master$|^main$
     source-branches:
-      - release
-    is-source-branch-for: []
-    tracks-release-branches: false
-    is-release-branch: false
-    pre-release-weight: 55000
+      - next
   pull-request:
     mode: ContinuousDelivery
     label: pr
-    increment: Inherit
-    label-number-pattern: '[/-](?<number>\d+)'
-    regex: ^(pull|pull\-requests|pr)[/-]
     source-branches:
       - main
-      - release
       - feature
-    is-source-branch-for: []
-    pre-release-weight: 30000
   next:
+    mode: ContinuousDelivery
     regex: ^next$
     increment: Major
     label: next
-    track-merge-target: false
-    tracks-release-branches: false
-    is-release-branch: false
-    source-branches: ['main']
-increment: Patch
-source-branches: []
-is-source-branch-for: []
-ignore:
-  sha: []

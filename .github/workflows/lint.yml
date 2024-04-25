@@ -82,7 +82,7 @@ jobs:
         env:
           GITHUB_TOKEN: '${{ secrets.RSG_BOT_TOKEN }}'
         if: "'${{ steps.commit-message.outputs.message }}' == 'Automatically linting code'"
-        uses: planetscale/ghcommit-action@v0.1.35
+        uses: planetscale/ghcommit-action@v0.1.36
         with:
           commit_message: 'Automatically linting code'
           repo: '${{ github.repository }}'

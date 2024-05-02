@@ -108,14 +108,17 @@ jobs:
         uses: actions/setup-dotnet@v4.0.0
         with:
           dotnet-version: '8.0.x'
-      - name: 🎁 dotnet tool restore
+      - name: 🚒 dotnet workload restore
+        run: |
+          dotnet workload restore
+      - name: ⚒️ dotnet tool restore
         run: |
           dotnet tool restore
       - name: 🎁 Restore
         id: restore
         run: |
           dotnet nuke Restore --skip
-      - name: ⚙ Build
+      - name: ⚙️ Build
         id: build
         run: |
           dotnet nuke Build --skip
@@ -133,7 +136,7 @@ jobs:
         with:
           name: 'coverage'
           path: 'coverage/'
-      - name: 🐿 Publish Coverage
+      - name: 📫 Publish Coverage
         if: (github.event_name != 'pull_request' && github.event_name != 'pull_request_target') || ((github.event_name == 'pull_request' || github.event_name == 'pull_request_target') && github.event.pull_request.user.login != 'renovate[bot]' && github.event.pull_request.user.login != 'dependabot[bot]')
         uses: codecov/codecov-action@v4.3.1
         with:

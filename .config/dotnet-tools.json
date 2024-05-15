@@ -23,7 +23,7 @@
             "commands": ["jb"]
         },
         "dotnet-outdated-tool": {
-            "version": "4.6.1",
+            "version": "4.6.2",
             "commands": ["dotnet-outdated"]
         },
         "strawberryshake.tools": {

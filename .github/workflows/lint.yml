@@ -68,6 +68,7 @@ jobs:
         with:
           dotnet-version: '8.0.x'
       - name: 🚒 dotnet workload restore
+        continue-on-error: true
         run: |
           dotnet workload restore
       - name: ⚒️ dotnet tool restore

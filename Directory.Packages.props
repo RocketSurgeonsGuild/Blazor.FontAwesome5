@@ -11,7 +11,7 @@
     <PackageVersion Include="Rocket.Surgery.MSBuild.GitVersion" Version="1.2.1" />
     <PackageVersion Include="Rocket.Surgery.MSBuild.JetBrains.Annotations" Version="1.2.1" Condition="'$(MSBuildProjectName)'!='.build'" />
     <PackageVersion Include="Rocket.Surgery.MSBuild.SourceLink" Version="1.2.1" />
-    <PackageVersion Include="Polyfill" Version="5.5.2" />
+    <PackageVersion Include="Polyfill" Version="5.5.3" />
     <PackageVersion Include="Roslynator.Analyzers" Version="4.12.4" />
     <PackageVersion Include="Roslynator.Formatting.Analyzers" Version="4.12.4" />
     <PackageVersion Include="Roslynator.CodeAnalysis.Analyzers" Version="4.12.4" />

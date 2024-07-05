@@ -133,7 +133,7 @@ jobs:
           dotnet nuke Pack --skip
       - name: 🏺 Publish coverage data
         if: always()
-        uses: actions/upload-artifact@v4.3.3
+        uses: actions/upload-artifact@v4.3.4
         with:
           name: 'coverage'
           path: 'coverage/'
@@ -145,19 +145,19 @@ jobs:
           token: '${{ secrets.CODECOV_TOKEN }}'
       - name: 🏺 Publish logs
         if: always()
-        uses: actions/upload-artifact@v4.3.3
+        uses: actions/upload-artifact@v4.3.4
         with:
           name: 'logs'
           path: 'artifacts/logs/'
       - name: 🏺 Publish test data
         if: always()
-        uses: actions/upload-artifact@v4.3.3
+        uses: actions/upload-artifact@v4.3.4
         with:
           name: 'test data'
           path: 'artifacts/test/'
       - name: 🏺 Publish NuGet Packages
         if: always()
-        uses: actions/upload-artifact@v4.3.3
+        uses: actions/upload-artifact@v4.3.4
         with:
           name: 'nuget'
           path: 'artifacts/nuget/'

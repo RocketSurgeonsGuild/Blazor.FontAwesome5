@@ -4,31 +4,43 @@
     "tools": {
         "gitversion.tool": {
             "version": "6.0.0",
-            "commands": ["dotnet-gitversion"]
+            "commands": ["dotnet-gitversion"],
+            "rollForward": false
         },
         "dotnet-reportgenerator-globaltool": {
             "version": "5.3.8",
-            "commands": ["reportgenerator"]
+            "commands": ["reportgenerator"],
+            "rollForward": false
         },
         "nuke.globaltool": {
             "version": "8.0.0",
-            "commands": ["nuke"]
+            "commands": ["nuke"],
+            "rollForward": false
         },
         "codecov.tool": {
             "version": "1.13.0",
-            "commands": ["codecov"]
+            "commands": ["codecov"],
+            "rollForward": false
         },
         "jetbrains.resharper.globaltools": {
             "version": "2024.1.4",
-            "commands": ["jb"]
+            "commands": ["jb"],
+            "rollForward": false
         },
         "dotnet-outdated-tool": {
             "version": "4.6.4",
-            "commands": ["dotnet-outdated"]
+            "commands": ["dotnet-outdated"],
+            "rollForward": false
         },
         "strawberryshake.tools": {
             "version": "13.9.9",
-            "commands": ["dotnet-graphql"]
+            "commands": ["dotnet-graphql"],
+            "rollForward": false
+        },
+        "verify.tool": {
+            "version": "0.6.0",
+            "commands": ["dotnet-verify"],
+            "rollForward": false
         }
     }
 }

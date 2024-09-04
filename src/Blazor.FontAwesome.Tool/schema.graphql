@@ -1,21 +1,21 @@
 schema {
-  query: RootQueryType
-  mutation: RootMutationType
-  subscription: RootSubscriptionType
+    query: RootQueryType
+    mutation: RootMutationType
+    subscription: RootSubscriptionType
 }
 
 "A Font Awesome account."
 type Account {
-  "Requires auth scope: `profile_read`"
-  email: String
-  "Requires auth scope: `profile_read`"
-  id: Int
-  "A Font Awesome Kit.\n\nRequires auth scope: `kits_read`"
-  kit("A kit token like `5ac0b01a82`." token: String!): Kit
-  "All kits available on this account, regardless of status.\n\nRequires auth scope: `kits_read`"
-  kits: [Kit]
-  "Collection of domains that have been whitelisted for this account's use of the\nFont Awesome 5 Pro CDN.\n\nFont Awesome 6 is not available on the Font Awesome 5 Pro CDN.\n\nFont Awesome 6 is available by way of CDN-hosted Kits, but the values in this\nfield have no relationship to the Kits CDN. The similar feature for allowing\ndomain referrers for Kits is the `Kit.domains` field.\n\nRequires auth scope: `domains_read`"
-  proCdnReferrers: ProCdnReferrers
+    "Requires auth scope: `profile_read`"
+    email: String
+    "Requires auth scope: `profile_read`"
+    id: Int
+    "A Font Awesome Kit.\n\nRequires auth scope: `kits_read`"
+    kit("A kit token like `5ac0b01a82`." token: String!): Kit
+    "All kits available on this account, regardless of status.\n\nRequires auth scope: `kits_read`"
+    kits: [Kit]
+    "Collection of domains that have been whitelisted for this account's use of the\nFont Awesome 5 Pro CDN.\n\nFont Awesome 6 is not available on the Font Awesome 5 Pro CDN.\n\nFont Awesome 6 is available by way of CDN-hosted Kits, but the values in this\nfield have no relationship to the Kits CDN. The similar feature for allowing\ndomain referrers for Kits is the `Kit.domains` field.\n\nRequires auth scope: `domains_read`"
+    proCdnReferrers: ProCdnReferrers
 }
 
 "The `Date` scalar type represents a date. The Date appears in a JSON\nresponse as an ISO8601 formatted string, without a time component."
@@ -23,84 +23,93 @@ scalar Date
 
 "Metadata about the download formats available for this release."
 type Download {
-  "Whether this release has separate download assets for Web and Desktop use cases."
-  separatesWebDesktop: Boolean!
+    "Whether this release has separate download assets for Web and Desktop use cases."
+    separatesWebDesktop: Boolean!
 }
 
 "A valid family name."
 enum Family {
-  CLASSIC
-  DUOTONE
-  SHARP
+    CLASSIC
+    DUOTONE
+    SHARP
 }
 
 "A combination of family and style."
 type FamilyStyle {
-  "Lowercase full name of a family.\n\nThis is suitable for building a CSS class name like \"fa-sharp\" when the value is \"sharp\"."
-  family: String!
-  "A single term that fully-specifies a familyStyle. This can be used in the Font Awesome JavaScript API\nwhere a `prefix` is expected. It can also be used as a CSS class."
-  prefix: String!
-  "Lowercase full name of a style.\n\nThis is suitable for building a CSS class name like \"fa-solid\" when the value is \"solid\"."
-  style: String!
+    "Lowercase full name of a family.\n\nThis is suitable for building a CSS class name like \"fa-sharp\" when the value is \"sharp\"."
+    family: String!
+    "A single term that fully-specifies a familyStyle. This can be used in the Font Awesome JavaScript API\nwhere a `prefix` is expected. It can also be used as a CSS class."
+    prefix: String!
+    "Lowercase full name of a style.\n\nThis is suitable for building a CSS class name like \"fa-solid\" when the value is \"solid\"."
+    style: String!
 }
 
 input FamilyStyleFilter {
-  family: Family!
-  style: Style!
+    family: Family!
+    style: Style!
 }
 
 "Indicates for each license type, in which families and styles this icon appears."
 type FamilyStylesByLicense {
-  "A list of families and styles in which this icon appears in Font Awesome Free.\n\nFree icons normally only appear in the \"classic\" family and \"solid\" style. Some also appear\nin the \"classic\" family and \"regular\" style for closer visual equivalence with Font Awesome 4.\n\nFor icons that do not appear in Font Awesome Free at all, like alicorn, this\nwill be an empty list."
-  free: [FamilyStyle!]!
-  "A list of families and styles in which this icon appears in Font Awesome Pro.\n\nPro icons normally appear in all available families and styles."
-  pro: [FamilyStyle!]!
+    "A list of families and styles in which this icon appears in Font Awesome Free.\n\nFree icons normally only appear in the \"classic\" family and \"solid\" style. Some also appear\nin the \"classic\" family and \"regular\" style for closer visual equivalence with Font Awesome 4.\n\nFor icons that do not appear in Font Awesome Free at all, like alicorn, this\nwill be an empty list."
+    free: [FamilyStyle!]!
+    "A list of families and styles in which this icon appears in Font Awesome Pro.\n\nPro icons normally appear in all available families and styles."
+    pro: [FamilyStyle!]!
 }
 
 "A single icon within a particular release."
 type Icon {
-  "List of Font Awesome versions in which this icon was changed."
-  changes: [String!]!
-  "Indicates for each license type, in which families and styles this icon appears."
-  familyStylesByLicense: FamilyStylesByLicense!
-  "The identifying name of an icon, like \"coffee\" or \"bicycle\"."
-  id: String!
-  "Usually, a more human readable representation of this icon.\n\nFor example, the icon with id \"coffee-pot\" has a label of \"Coffee Pot\"."
-  label: String!
-  "Deprecated\n\nAn object representing for each license type--free and pro--in which legacy styles this icon appears.\n\nIn current versions of Font Awesome, every style is in a family. This field doesn't know about families. In particular, it doesn't know about any styles in the Sharp family."
-  membership: Membership! @deprecated(reason: "This field produces only legacy style names without reference to families. Styles in the Sharp family will not be found here, even if they are available for this icon and license. Use the familyStylesByLicense field instead.")
-  "A renaming or change in style for this icon between Font Awesome 4 and Font Awesome 5.\n\nThis will be null when this icon has no shim."
-  shim: Shim
-  "Deprecated\n\nList of legacy Font Awesome style names in which this icon appears, such as: \"solid\", \"regular\", \"light\", \"duotone\".\n\nIn current versions of Font Awesome, every style is in a family. This field doesn't know about families. In particular, it doesn't know about any styles in the Sharp family."
-  styles: [String!]! @deprecated(reason: "This field produces only legacy style names without reference to families. Styles in the Sharp family will not be found here, even if they are available for this icon and license. Use the familyStylesByLicense field instead.")
-  "SVGs for an icon. Available styles are limited by the scopes on the token\n\nRequires auth scope `svg_icons_pro` or `svg_icons_free`.\n\nResolved values are limited by the auth scopes on the token used to authorize\nthe query request. If the token used has only the `svg_icons_free` scope, then\nonly free icon styles will be available here. If the token has the `svg_icons_pro`,\nthen both free and pro styles will be available here."
-  svgs("By default, with no `filter` argument, all styles licensed by the request's authorization token are returned.\nThis argument allows for limiting the returned SVGs to a subset of the available licensed styles." filter: SvgsFilter): [Svg!]
-  "Unicode by which this icon can be identified--just the hex digits as a string.\n\nFor example, the value of this field for the coffee icon is \"f0f4\"."
-  unicode: String!
+    "List of Font Awesome versions in which this icon was changed."
+    changes: [String!]!
+    "Indicates for each license type, in which families and styles this icon appears."
+    familyStylesByLicense: FamilyStylesByLicense!
+    "The identifying name of an icon, like \"coffee\" or \"bicycle\"."
+    id: String!
+    "Usually, a more human readable representation of this icon.\n\nFor example, the icon with id \"coffee-pot\" has a label of \"Coffee Pot\"."
+    label: String!
+    "Deprecated\n\nAn object representing for each license type--free and pro--in which legacy styles this icon appears.\n\nIn current versions of Font Awesome, every style is in a family. This field doesn't know about families. In particular, it doesn't know about any styles in the Sharp family."
+    membership: Membership!
+        @deprecated(
+            reason: "This field produces only legacy style names without reference to families. Styles in the Sharp family will not be found here, even if they are available for this icon and license. Use the familyStylesByLicense field instead."
+        )
+    "A renaming or change in style for this icon between Font Awesome 4 and Font Awesome 5.\n\nThis will be null when this icon has no shim."
+    shim: Shim
+    "Deprecated\n\nList of legacy Font Awesome style names in which this icon appears, such as: \"solid\", \"regular\", \"light\", \"duotone\".\n\nIn current versions of Font Awesome, every style is in a family. This field doesn't know about families. In particular, it doesn't know about any styles in the Sharp family."
+    styles: [String!]!
+        @deprecated(
+            reason: "This field produces only legacy style names without reference to families. Styles in the Sharp family will not be found here, even if they are available for this icon and license. Use the familyStylesByLicense field instead."
+        )
+    "SVGs for an icon. Available styles are limited by the scopes on the token\n\nRequires auth scope `svg_icons_pro` or `svg_icons_free`.\n\nResolved values are limited by the auth scopes on the token used to authorize\nthe query request. If the token used has only the `svg_icons_free` scope, then\nonly free icon styles will be available here. If the token has the `svg_icons_pro`,\nthen both free and pro styles will be available here."
+    svgs(
+        "By default, with no `filter` argument, all styles licensed by the request's authorization token are returned.\nThis argument allows for limiting the returned SVGs to a subset of the available licensed styles."
+        filter: SvgsFilter
+    ): [Svg!]
+    "Unicode by which this icon can be identified--just the hex digits as a string.\n\nFor example, the value of this field for the coffee icon is \"f0f4\"."
+    unicode: String!
 }
 
 "Metadata about icon counts in Free vs. Pro in this release."
 type IconCount {
-  "Count of Free icons in this release."
-  free: Int!
-  "Count of Pro icons in this release."
-  pro: Int!
+    "Count of Free icons in this release."
+    free: Int!
+    "Count of Pro icons in this release."
+    pro: Int!
 }
 
-"An icon uploaded to a kit. A valid Font Awesome SVG can be built from the data\nin this object, for example:\n\n```\n<svg class=\"svg-inline--fa\" viewBox=\"0 0 ${width} ${height}\">\n  <path d=\"${path}\" \/>\n<\/svg>\n```\n\nOr the icon could be referenced using CSS class names, such as on an `<i>` tag like:\n\n```\n<i class=\"fak fa-${name}\"><\/i>\n```\n\nNotice `fak` is used as the style prefix class for all icon uploads (think: Font Awesome Kit).\n\nOr the icon could be referenced using a CSS pseudo-element:\n\nHTML:\n```\n<ul class=\"fancy-list\">\n  <li>Alpha<\/li>\n  <li>Beta<\/li>\n<\/ul>\n```\n\nCSS:\n```\n.fancy-list {\n  list-style-type: none;\n  margin-left: 2.5em;\n  padding-left: 0;\n}\n\n.fancy-list li:before {\n  content: '\\e001';\n  font-family: 'Font Awesome Kit';\n  margin-right: 0.25em;\n}\n```\n\nReplace `e001` with the unicode value found in this icon upload object.\n\nNote that the font-family for an icon upload is always \"Font Awesome Kit\"."
+"An icon uploaded to a kit. A valid Font Awesome SVG can be built from the data\nin this object, for example:\n\n```\n<svg class=\"svg-inline--fa\" viewBox=\"0 0 ${width} ${height}\">\n  <path d=\"${path}\" />\n</svg>\n```\n\nOr the icon could be referenced using CSS class names, such as on an `<i>` tag like:\n\n```\n<i class=\"fak fa-${name}\"></i>\n```\n\nNotice `fak` is used as the style prefix class for all icon uploads (think: Font Awesome Kit).\n\nOr the icon could be referenced using a CSS pseudo-element:\n\nHTML:\n```\n<ul class=\"fancy-list\">\n  <li>Alpha</li>\n  <li>Beta</li>\n</ul>\n```\n\nCSS:\n```\n.fancy-list {\n  list-style-type: none;\n  margin-left: 2.5em;\n  padding-left: 0;\n}\n\n.fancy-list li:before {\n  content: '\\e001';\n  font-family: 'Font Awesome Kit';\n  margin-right: 0.25em;\n}\n```\n\nReplace `e001` with the unicode value found in this icon upload object.\n\nNote that the font-family for an icon upload is always \"Font Awesome Kit\"."
 type IconUpload {
-  height: String!
-  "An HTML representation of the icon upload as an `<svg>` element."
-  html: String!
-  iconDefinition: Json!
-  name: String!
-  "Deprecated.\n\nSVG path data for only the primary path. Since Icon Uploads may be Duotone,\nprefer the `pathData` field which provides any number of paths."
-  path: String! @deprecated(reason: "This field only provides the primary path. Use pathData, which may include multiple paths, such as for Duotone icons.")
-  "A monotone icon has exactly one SVG path, the primary path.\n\nA duotone icon always has two `pathData` elements, and the following rules apply:\n- The first list element corresponds to the icon's secondary path, and the second\nlist element corresponds to the icon's primary path.\n\n    Heads up! This might seem counterintuitive: the first path (at list index 0)\nis the _second_ layer for a duotone icon.\n\n- A duotone icon upload may have an empty string as its primary path, indicating\n  that it has only a secondary path, as is the case for many of the official\n  icons, such as those for English alphanumeric characters."
-  pathData: [String!]!
-  unicode: Int!
-  version: Int!
-  width: String!
+    height: String!
+    "An HTML representation of the icon upload as an `<svg>` element."
+    html: String!
+    iconDefinition: Json!
+    name: String!
+    "Deprecated.\n\nSVG path data for only the primary path. Since Icon Uploads may be Duotone,\nprefer the `pathData` field which provides any number of paths."
+    path: String! @deprecated(reason: "This field only provides the primary path. Use pathData, which may include multiple paths, such as for Duotone icons.")
+    "A monotone icon has exactly one SVG path, the primary path.\n\nA duotone icon always has two `pathData` elements, and the following rules apply:\n- The first list element corresponds to the icon's secondary path, and the second\nlist element corresponds to the icon's primary path.\n\n    Heads up! This might seem counterintuitive: the first path (at list index 0)\nis the _second_ layer for a duotone icon.\n\n- A duotone icon upload may have an empty string as its primary path, indicating\n  that it has only a secondary path, as is the case for many of the official\n  icons, such as those for English alphanumeric characters."
+    pathData: [String!]!
+    unicode: Int!
+    version: Int!
+    width: String!
 }
 
 "The `Json` scalar type represents arbitrary json string data, represented as UTF-8\ncharacter sequences. The Json type is most often used to represent a free-form\nhuman-readable json string."
@@ -108,162 +117,181 @@ scalar Json
 
 "A kit"
 type Kit {
-  "Whether the auto accessibility features are enabled for this kit."
-  autoAccessibilityEnabled: Boolean!
-  "Domains for which this kit has been whitelisted. May include wildcards.\n\nRequires auth scope: `domains_read`"
-  domains: [String!]!
-  "List of icon uploads on this kit."
-  iconUploads: [IconUpload]
-  integrityHash: String! @deprecated(reason: "kits are dropping support for SRI")
-  "Either 'free' or 'pro'."
-  licenseSelected: String!
-  "Whether the CSS or JavaScript assets loaded by this kit are minified."
-  minified: Boolean!
-  "User-assignable nickname."
-  name: String!
-  "The release of Font Awesome to which this kit's `version` refers.\n\nIf the value of the kit's `version` field is a symbolic version range like\n5.x or 6.x, representing the most recently released version in each of those\nmajor version branches, this release will be for that specific version.\n\nCAVEAT: The version range is resolved to the specific version at the time this\nquery is executed; whereas the actual version loaded by the kit in the browser\nat any given time will be determined by the kit loader. During deployment\nprocess of a new release, it is possible that there will be small gap in time\nbetween the moment when the kit begins loading the newly released version in\nbrowsers, and the moment when this field's resolution starts reflecting that\nnewly-released version. Theses values will be eventually consistent; the vast\nmajority of the time, they will be identical."
-  release: Release!
-  "Whether this kit automatically handles Font Awesome 4 compatibility."
-  shimEnabled: Boolean!
-  "A value of 'published' indicates that the kit is live and usable."
-  status: String!
-  "Either 'svg' or 'webfont'."
-  technologySelected: String!
-  "Identifies the kit and is used in the kit's URL.\n\nExample: `5ac0b01a82`."
-  token: ID!
-  useIntegrityHash: Boolean! @deprecated(reason: "kits are dropping support for SRI")
-  "A major.minor.patch version number like 5.13.0. The word \"latest\" will resolve to the latest full version of 5.x but is deprecated for version 6."
-  version: String!
+    "Whether the auto accessibility features are enabled for this kit."
+    autoAccessibilityEnabled: Boolean!
+    "Domains for which this kit has been whitelisted. May include wildcards.\n\nRequires auth scope: `domains_read`"
+    domains: [String!]!
+    "List of icon uploads on this kit."
+    iconUploads: [IconUpload]
+    integrityHash: String! @deprecated(reason: "kits are dropping support for SRI")
+    "Either 'free' or 'pro'."
+    licenseSelected: String!
+    "Whether the CSS or JavaScript assets loaded by this kit are minified."
+    minified: Boolean!
+    "User-assignable nickname."
+    name: String!
+    "The release of Font Awesome to which this kit's `version` refers.\n\nIf the value of the kit's `version` field is a symbolic version range like\n5.x or 6.x, representing the most recently released version in each of those\nmajor version branches, this release will be for that specific version.\n\nCAVEAT: The version range is resolved to the specific version at the time this\nquery is executed; whereas the actual version loaded by the kit in the browser\nat any given time will be determined by the kit loader. During deployment\nprocess of a new release, it is possible that there will be small gap in time\nbetween the moment when the kit begins loading the newly released version in\nbrowsers, and the moment when this field's resolution starts reflecting that\nnewly-released version. Theses values will be eventually consistent; the vast\nmajority of the time, they will be identical."
+    release: Release!
+    "Whether this kit automatically handles Font Awesome 4 compatibility."
+    shimEnabled: Boolean!
+    "A value of 'published' indicates that the kit is live and usable."
+    status: String!
+    "Either 'svg' or 'webfont'."
+    technologySelected: String!
+    "Identifies the kit and is used in the kit's URL.\n\nExample: `5ac0b01a82`."
+    token: ID!
+    useIntegrityHash: Boolean! @deprecated(reason: "kits are dropping support for SRI")
+    "A major.minor.patch version number like 5.13.0. The word \"latest\" will resolve to the latest full version of 5.x but is deprecated for version 6."
+    version: String!
 }
 
-"Indicates for each license type, in which families and\/or styles this icon appears."
+"Indicates for each license type, in which families and/or styles this icon appears."
 type Membership {
-  "A list of styles in which this icon appears in Font Awesome Free.\n\nFree icons normally only appear in the \"solid\" style. Some also appear\nin the \"regular\" style for closer visual equivalence with Font Awesome 4.\n\nFor icons that do not appear in Font Awesome Free at all, like alicorn, this\nwill be an empty list."
-  free: [String!]!
-  "A list of styles in which this icon appears in Font Awesome Pro.\n\nPro icons normally appear in all available styles."
-  pro: [String!]!
+    "A list of styles in which this icon appears in Font Awesome Free.\n\nFree icons normally only appear in the \"solid\" style. Some also appear\nin the \"regular\" style for closer visual equivalence with Font Awesome 4.\n\nFor icons that do not appear in Font Awesome Free at all, like alicorn, this\nwill be an empty list."
+    free: [String!]!
+    "A list of styles in which this icon appears in Font Awesome Pro.\n\nPro icons normally appear in all available styles."
+    pro: [String!]!
 }
 
 type RootMutationType {
-  "Create a subset.\n\nRequires auth scope: `subsetter_write`"
-  createSubset(icons: [SubsetIcon] "A unique identifier to track this subset" id: String "Version of Font Awesome like 5.15.1" version: String): SubsetZipArchive
+    "Create a subset.\n\nRequires auth scope: `subsetter_write`"
+    createSubset(
+        icons: [SubsetIcon]
+        "A unique identifier to track this subset"
+        id: String
+        "Version of Font Awesome like 5.15.1"
+        version: String
+    ): SubsetZipArchive
 }
 
 type ProCdnReferrers {
-  "Whether this Pro CDN domains whitelist is active."
-  active: Boolean!
-  "Domains that have been whitelisted for this account's use of the Pro CDN. Does not include wildcards."
-  hostnames: [String!]!
-  "The maximum number of Pro CDN domains allowed for this account."
-  limit: Int!
+    "Whether this Pro CDN domains whitelist is active."
+    active: Boolean!
+    "Domains that have been whitelisted for this account's use of the Pro CDN. Does not include wildcards."
+    hostnames: [String!]!
+    "The maximum number of Pro CDN domains allowed for this account."
+    limit: Int!
 }
 
 type RootQueryType {
-  "Current authenticated account."
-  me: Account
-  "Release metadata for a given version."
-  release("A [semver 2.0](https:\/\/semver.org\/#semantic-versioning-200) parseable version,\nlike \"5.9.0\" or \"6.0.0-beta1\".\n\nOr one of the following symbolic versions: \"latest\", \"5.x\", or \"6.x\".\n\n\"5.x\" will be resolved to the latest stable version with major version 5.\n\n\"6.x\" will be resolved to the latest stable version with major version 6,\nif available; otherwise, resolves to the latest pre-release version (example: 6.0.0-beta1).\n\n\"latest\" is deprecated and will be resolved the same way as \"5.x\"." version: String!): Release
-  "Metadata for all full releases of Font Awesome 5 or later."
-  releases: [Release]!
-  "Search\n  Query syntax example:\n  ```javascript\n  search(version: \"5.9.0\", query: \"coff\", first: 3) {\n    id\n    label\n    unicode\n  }\n  ```\n\n  A null result on this field indicates a problem with executing\n  the search, such as trying to search on a non-existent version."
-  search("Limit results to the first X matched. Defaults to 15." first: Int "A string of search terms, like \"coff\" or \"coffee mug\"" query: String! "A [semver 2.0](https:\/\/semver.org\/#semantic-versioning-200) parseable version,\nlike \"5.9.0\" or \"6.0.0-beta1\".\n\nOr one of the following symbolic versions: \"latest\", \"5.x\", or \"6.x\".\n\n\"5.x\" will be resolved to the latest stable version with major version 5.\n\n\"6.x\" will be resolved to the latest stable version with major version 6,\nif available; otherwise, resolves to the latest pre-release version (example: 6.0.0-beta1).\n\n\"latest\" is deprecated and will be resolved the same way as \"5.x\"." version: String!): [Icon]
+    "Current authenticated account."
+    me: Account
+    "Release metadata for a given version."
+    release(
+        "A [semver 2.0](https://semver.org/#semantic-versioning-200) parseable version,\nlike \"5.9.0\" or \"6.0.0-beta1\".\n\nOr one of the following symbolic versions: \"latest\", \"5.x\", or \"6.x\".\n\n\"5.x\" will be resolved to the latest stable version with major version 5.\n\n\"6.x\" will be resolved to the latest stable version with major version 6,\nif available; otherwise, resolves to the latest pre-release version (example: 6.0.0-beta1).\n\n\"latest\" is deprecated and will be resolved the same way as \"5.x\"."
+        version: String!
+    ): Release
+    "Metadata for all full releases of Font Awesome 5 or later."
+    releases: [Release]!
+    "Search\n  Query syntax example:\n  ```javascript\n  search(version: \"5.9.0\", query: \"coff\", first: 3) {\n    id\n    label\n    unicode\n  }\n  ```\n\n  A null result on this field indicates a problem with executing\n  the search, such as trying to search on a non-existent version."
+    search(
+        "Limit results to the first X matched. Defaults to 15."
+        first: Int
+        "A string of search terms, like \"coff\" or \"coffee mug\""
+        query: String!
+        "A [semver 2.0](https://semver.org/#semantic-versioning-200) parseable version,\nlike \"5.9.0\" or \"6.0.0-beta1\".\n\nOr one of the following symbolic versions: \"latest\", \"5.x\", or \"6.x\".\n\n\"5.x\" will be resolved to the latest stable version with major version 5.\n\n\"6.x\" will be resolved to the latest stable version with major version 6,\nif available; otherwise, resolves to the latest pre-release version (example: 6.0.0-beta1).\n\n\"latest\" is deprecated and will be resolved the same way as \"5.x\"."
+        version: String!
+    ): [Icon]
 }
 
 "All metadata for a Font Awesome release."
 type Release {
-  "The date on which this version of Font Awesome was released."
-  date: Date!
-  "Metadata about the download formats available for this release."
-  download: Download!
-  "All families and styles that are available in this release."
-  familyStyles: [FamilyStyle!]!
-  "Metadata about icon counts in Free vs. Pro in this release.\nThese counts are multiplied across available families and styles.\n\nFor example, if an icon named `star` is\nis available in Font Awesome Free in both Classic Solid and Classic Regular, it contributes\na value of 2 to the `free` count, one for each its familyStyles."
-  iconCount: IconCount!
-  "Metadata about icon id counts in Free vs. Pro in this release.\nThese counts are without regard to the number of familyStyles in which icons\nappear.\n\nFor example, if an icon named `star` is\nis available in Font Awesome Free in both Classic Solid and Classic Regular, it contributes\na value of 1 to the `free` count, because there's only one `star` identifier in the release."
-  iconIdCount: IconCount!
-  "All icons in this release."
-  icons("Valid values are \"free\" or \"pro\".\n\n\"free\" returns icons available in Font Awesome Free.\n\n\"pro\" returns icons available only in Pro.\n\nBy default (when no license argument is given), all icons are returned." license: String): [Icon!]!
-  "Whether this release, at the time of this query's execution, is the latest\navailable Font Awesome release."
-  isLatest: Boolean!
-  "For each license type--free and pro--provides Subresource Integrity hashes for each CDN resource available in this release."
-  srisByLicense: SrisByLicense!
-  "The major.minor.patch version number that identifies this release.\n\nExample: 5.13.0"
-  version: String!
+    "The date on which this version of Font Awesome was released."
+    date: Date!
+    "Metadata about the download formats available for this release."
+    download: Download!
+    "All families and styles that are available in this release."
+    familyStyles: [FamilyStyle!]!
+    "Metadata about icon counts in Free vs. Pro in this release.\nThese counts are multiplied across available families and styles.\n\nFor example, if an icon named `star` is\nis available in Font Awesome Free in both Classic Solid and Classic Regular, it contributes\na value of 2 to the `free` count, one for each its familyStyles."
+    iconCount: IconCount!
+    "Metadata about icon id counts in Free vs. Pro in this release.\nThese counts are without regard to the number of familyStyles in which icons\nappear.\n\nFor example, if an icon named `star` is\nis available in Font Awesome Free in both Classic Solid and Classic Regular, it contributes\na value of 1 to the `free` count, because there's only one `star` identifier in the release."
+    iconIdCount: IconCount!
+    "All icons in this release."
+    icons(
+        "Valid values are \"free\" or \"pro\".\n\n\"free\" returns icons available in Font Awesome Free.\n\n\"pro\" returns icons available only in Pro.\n\nBy default (when no license argument is given), all icons are returned."
+        license: String
+    ): [Icon!]!
+    "Whether this release, at the time of this query's execution, is the latest\navailable Font Awesome release."
+    isLatest: Boolean!
+    "For each license type--free and pro--provides Subresource Integrity hashes for each CDN resource available in this release."
+    srisByLicense: SrisByLicense!
+    "The major.minor.patch version number that identifies this release.\n\nExample: 5.13.0"
+    version: String!
 }
 
-"A renaming or change in style for this icon between Font Awesome 4 and Font Awesome 5.\n\nExamples of icons with no shims include intersection and coffee.\nThe intersection icon first apppeared in Font Awesome 5, and therefore has\nno shim.\n\nThe coffee icon appeared prior to Font Awesome 5, yet because its\nequivalent form in Font Awesome 5 is in the Solid (fas) style, and because\nthat is the default style in Font Awesome 5, no shim is required.\n\nExamples of icons with shims include bluetooth, bath, and address-book.\n\nThe bluetooth icon's name is the same in Font Awesome 4 and 5, but because\nit is a brand icon, and all brand icons appear in the Font Awesome 5\nBrand (fab) style, the shim exists to map it into that style.\n\nThe bath icon in Font Awesome 5 is equivalent to the icon that was called\n\"bathtub\" in Font Awesome 4. The shim maps from the old name to the new name.\n\nThe address-book icon is equivalent to what was called address-book-o in\nFont Awesome 4. Its name change in Font Awesome 5\nindicates a naming convention change. Instead of the \"-o\" in the icon name,\nindicating an \"outline\" style for some icons in Font Awesome 4, Font Awesome 5\nhas a Regular (far) style and all icons have Regular style variants. Since\nthe Regular (far) style is a non-default style in Font Awesome 5, the shim\nmust not only map the icon's name from address-book-o, but also its style\ninto the Font Awesome 5 Regular (far) style.\n\nLearn more in the [docs on fontawesome.com](https:\/\/fontawesome.com\/how-to-use\/graphql-api\/objects\/shim)."
+"A renaming or change in style for this icon between Font Awesome 4 and Font Awesome 5.\n\nExamples of icons with no shims include intersection and coffee.\nThe intersection icon first apppeared in Font Awesome 5, and therefore has\nno shim.\n\nThe coffee icon appeared prior to Font Awesome 5, yet because its\nequivalent form in Font Awesome 5 is in the Solid (fas) style, and because\nthat is the default style in Font Awesome 5, no shim is required.\n\nExamples of icons with shims include bluetooth, bath, and address-book.\n\nThe bluetooth icon's name is the same in Font Awesome 4 and 5, but because\nit is a brand icon, and all brand icons appear in the Font Awesome 5\nBrand (fab) style, the shim exists to map it into that style.\n\nThe bath icon in Font Awesome 5 is equivalent to the icon that was called\n\"bathtub\" in Font Awesome 4. The shim maps from the old name to the new name.\n\nThe address-book icon is equivalent to what was called address-book-o in\nFont Awesome 4. Its name change in Font Awesome 5\nindicates a naming convention change. Instead of the \"-o\" in the icon name,\nindicating an \"outline\" style for some icons in Font Awesome 4, Font Awesome 5\nhas a Regular (far) style and all icons have Regular style variants. Since\nthe Regular (far) style is a non-default style in Font Awesome 5, the shim\nmust not only map the icon's name from address-book-o, but also its style\ninto the Font Awesome 5 Regular (far) style.\n\nLearn more in the [docs on fontawesome.com](https://fontawesome.com/how-to-use/graphql-api/objects/shim)."
 type Shim {
-  "The version 4 name of the icon.\n\nExample: the shim for the Font Awesome 5 \"bath\" icon has an id of \"bathtub\",\nbecause this icon was called \"bathtub\" in Font Awesome 4."
-  id: String!
-  "If name is null, it means the original and shimmed names are the same.\nThe prefix is the significant difference. For example, this will be the case\nfor any version 4 icon whose version 5 equivalent is in the Regular (far)\nstyle instead of the default Solid (fas) style."
-  name: String
-  "If prefix is null, it means that the version 5 equivalent has the default\nstyle, which is Solid (fas)."
-  prefix: String
+    "The version 4 name of the icon.\n\nExample: the shim for the Font Awesome 5 \"bath\" icon has an id of \"bathtub\",\nbecause this icon was called \"bathtub\" in Font Awesome 4."
+    id: String!
+    "If name is null, it means the original and shimmed names are the same.\nThe prefix is the significant difference. For example, this will be the case\nfor any version 4 icon whose version 5 equivalent is in the Regular (far)\nstyle instead of the default Solid (fas) style."
+    name: String
+    "If prefix is null, it means that the version 5 equivalent has the default\nstyle, which is Solid (fas)."
+    prefix: String
 }
 
-"A [Subresource Integrity](https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/Security\/Subresource_Integrity) hash value for a CDN resource at a relative path."
+"A [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) hash value for a CDN resource at a relative path."
 type Sri {
-  "Relative path to a resource on a Font Awesome CDN.\n\nExample: \"css\/all.css\" is a relative path to the stylesheet that loads all\nicons using the Webfonts with CSS technology."
-  path: String!
-  "The hash value of the contents of the resource indicated by path.\n\nFor example, this value for the contents of \"css\/all.css\" in Font Awesome 5.13.0 is:\n\nsha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i\/6YWSzkz3V"
-  value: String!
+    "Relative path to a resource on a Font Awesome CDN.\n\nExample: \"css/all.css\" is a relative path to the stylesheet that loads all\nicons using the Webfonts with CSS technology."
+    path: String!
+    "The hash value of the contents of the resource indicated by path.\n\nFor example, this value for the contents of \"css/all.css\" in Font Awesome 5.13.0 is:\n\nsha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+    value: String!
 }
 
-"An Sri collection for a Font Awesome release, organized by license: free or pro.\n\nThe relative path \"css\/all.css\" is valid on both the Free and Pro CDNs, but\nrefers to two different resources with different contents, and therefore different hashes."
+"An Sri collection for a Font Awesome release, organized by license: free or pro.\n\nThe relative path \"css/all.css\" is valid on both the Free and Pro CDNs, but\nrefers to two different resources with different contents, and therefore different hashes."
 type SrisByLicense {
-  "The set of Sri objects for all resources on the Free CDN for this release."
-  free: [Sri!]!
-  "The set of Sri objects for all resources on the Pro CDN for this release."
-  pro: [Sri!]!
+    "The set of Sri objects for all resources on the Free CDN for this release."
+    free: [Sri!]!
+    "The set of Sri objects for all resources on the Pro CDN for this release."
+    pro: [Sri!]!
 }
 
 "A valid style name."
 enum Style {
-  BRANDS
-  DUOTONE
-  LIGHT
-  REGULAR
-  SOLID
-  THIN
+    BRANDS
+    DUOTONE
+    LIGHT
+    REGULAR
+    SOLID
+    THIN
 }
 
 type RootSubscriptionType {
-  "Subset created.\n\nRequires auth scope: `subsetter_write`"
-  subsetCreated(id: String): SubsetZipArchive
+    "Subset created.\n\nRequires auth scope: `subsetter_write`"
+    subsetCreated(id: String): SubsetZipArchive
 }
 
 "An icon to subset"
 input SubsetIcon {
-  name: String
-  styles: [String]
-  version: String
+    name: String
+    styles: [String]
+    version: String
 }
 
 "URI location of subsetted Font Awesome in ZIP archive format"
 type SubsetZipArchive {
-  id: String
-  readyForDownload: Boolean
-  url: String
+    id: String
+    readyForDownload: Boolean
+    url: String
 }
 
 "An SVG for an icon in a specific family and style.\n\nThe various separate fields can be used to construct an\n`<svg>` HTML element. Alternatively, the `html` field provides\na fully formed `<svg>` HTML element."
 type Svg {
-  "The SVG's familyStyle."
-  familyStyle: FamilyStyle!
-  "The SVG's viewBox height. It can be used as the fourth parameter\nin an `<svg>` `viewBox` attribute, like this:\n\n```\n<svg viewBox=\"0 0 {{ width }} {{ height }}\" ...>\n  ...\n<\/svg>\n```"
-  height: Int!
-  "An `<svg>` HTML element."
-  html: String!
-  "An `IconDefinition` object, as would be used in the Font Awesome JavaScript\nAPI to represent an icon. For example, an `IconDefinition` can be added\nto the JavaScript API's `library` using `library.add(iconDefinition)`.\n\nSee also: [JavaScript API documentation](https:\/\/fontawesome.com\/docs\/apis\/javascript\/methods#library-add-icondefinitions)"
-  iconDefinition: Json!
-  "A monotone icon has exactly one SVG path, the primary path.\n\nA duotone icon always has two `pathData` elements, and the following rules apply:\n- The first list element corresponds to the icon's secondary path, and the second\nlist element corresponds to the icon's primary path.\n\n    Heads up! This might seem counterintuitive: the first path (at list index 0)\nis the _second_ layer for a duotone icon.\n\n- Either path may be an empty string, indicating no path for\nthat layer.\n\n    Some duotone icons have only a primary path, while other duotone\nicons have only a secondary path."
-  pathData: [String!]!
-  "The SVG's viewBox width. It can be used as the third parameter\nin an `<svg>` `viewBox` attribute, like this:\n\n```\n<svg viewBox=\"0 0 {{ width }} {{ height }}\" ...>\n  ...\n<\/svg>\n```"
-  width: Int!
+    "The SVG's familyStyle."
+    familyStyle: FamilyStyle!
+    "The SVG's viewBox height. It can be used as the fourth parameter\nin an `<svg>` `viewBox` attribute, like this:\n\n```\n<svg viewBox=\"0 0 {{ width }} {{ height }}\" ...>\n  ...\n</svg>\n```"
+    height: Int!
+    "An `<svg>` HTML element."
+    html: String!
+    "An `IconDefinition` object, as would be used in the Font Awesome JavaScript\nAPI to represent an icon. For example, an `IconDefinition` can be added\nto the JavaScript API's `library` using `library.add(iconDefinition)`.\n\nSee also: [JavaScript API documentation](https://fontawesome.com/docs/apis/javascript/methods#library-add-icondefinitions)"
+    iconDefinition: Json!
+    "A monotone icon has exactly one SVG path, the primary path.\n\nA duotone icon always has two `pathData` elements, and the following rules apply:\n- The first list element corresponds to the icon's secondary path, and the second\nlist element corresponds to the icon's primary path.\n\n    Heads up! This might seem counterintuitive: the first path (at list index 0)\nis the _second_ layer for a duotone icon.\n\n- Either path may be an empty string, indicating no path for\nthat layer.\n\n    Some duotone icons have only a primary path, while other duotone\nicons have only a secondary path."
+    pathData: [String!]!
+    "The SVG's viewBox width. It can be used as the third parameter\nin an `<svg>` `viewBox` attribute, like this:\n\n```\n<svg viewBox=\"0 0 {{ width }} {{ height }}\" ...>\n  ...\n</svg>\n```"
+    width: Int!
 }
 
 "Input argument for filtering families and styles of SVGs."
 input SvgsFilter {
-  "Limit SVGs to those belonging to one of the given familyStyles."
-  familyStyles: [FamilyStyleFilter!]
+    "Limit SVGs to those belonging to one of the given familyStyles."
+    familyStyles: [FamilyStyleFilter!]
 }

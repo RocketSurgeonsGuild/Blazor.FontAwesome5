@@ -1,6 +1,6 @@
 {
-  "coverage-gutters.customizable.status-bar-toggler-watchCoverageAndVisibleEditors-enabled": true,
-  "coverage-gutters.coverageFileNames": ["coverage/coverage.info"],
-  "coverage-gutters.showGutterCoverage": true,
-  "coverage-gutters.showRulerCoverage": true
+    "coverage-gutters.customizable.status-bar-toggler-watchCoverageAndVisibleEditors-enabled": true,
+    "coverage-gutters.coverageFileNames": ["coverage/coverage.info"],
+    "coverage-gutters.showGutterCoverage": true,
+    "coverage-gutters.showRulerCoverage": true
 }

@@ -12,9 +12,7 @@
                     shim {
                         id
                     }
-                    svgs(filter:{
-                        familyStyles:[{family: $family, style: $style}]
-                    }) {
+                    svgs(filter: { familyStyles: [{ family: $family, style: $style }] }) {
                         familyStyle {
                             prefix
                         }

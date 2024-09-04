@@ -14,7 +14,6 @@
             Tags
         -->
         <LangVersion>preview</LangVersion>
-        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
         <Features>strict</Features>
         <Nullable>enable</Nullable>
         <AnalysisMode>AllEnabledByDefault</AnalysisMode>
@@ -48,5 +47,6 @@
     <ItemGroup>
         <Using Include="JetBrains.Annotations" />
         <Using Include="System.Diagnostics.CodeAnalysis" />
+        <Using Include="System.Diagnostics.CodeAnalysis.NotNullAttribute" Alias="NotNullAttribute" />
     </ItemGroup>
 </Project>

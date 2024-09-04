@@ -1,3 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Project>
+    <ItemGroup>
+        <PackageReference Include="JetBrains.Annotations" PrivateAssets="all" />
+        <PackageReference Include="JetBrains.ExternalAnnotations" PrivateAssets="all" />
+    </ItemGroup>
 </Project>

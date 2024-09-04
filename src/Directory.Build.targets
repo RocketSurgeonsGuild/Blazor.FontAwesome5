@@ -1,6 +1,10 @@
 <Project>
     <ItemGroup>
-        <PackageReference Include="Polyfill" PrivateAssets="All" />
+        <PackageReference Include="Polyfill"
+            IncludeAssets="runtime;build;contentfiles;analyzers;buildtransitive" PrivateAssets="all" />
+        <PackageReference Include="JetBrains.Annotations"
+            IncludeAssets="runtime;build;contentfiles;analyzers;buildtransitive" PrivateAssets="all" />
     </ItemGroup>
-    <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.targets', '$(MSBuildThisFileDirectory)../'))" />
+    <Import
+        Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.targets', '$(MSBuildThisFileDirectory)../'))" />
 </Project>

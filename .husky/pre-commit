@@ -1,8 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-output=$(git diff --cached --name-only | wc -l)
-if [ $output -gt 0 ]; then
-  dotnet nuke lint-staged
-fi
-
+dotnet nuke lint
+dotnet husky run --group pre-commit

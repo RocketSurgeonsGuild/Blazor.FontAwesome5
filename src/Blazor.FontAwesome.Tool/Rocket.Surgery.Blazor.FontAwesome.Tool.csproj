@@ -3,13 +3,12 @@
     <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
     <OutputType>Exe</OutputType>
     <IsTrimmable>false</IsTrimmable>
-      <PackAsTool>true</PackAsTool>
-<ToolCommandName>font-awesome</ToolCommandName>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>font-awesome</ToolCommandName>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Rocket.Surgery.Conventions.CommandLine" />
     <PackageReference Include="Rocket.Surgery.LaunchPad.Foundation" />
-    <PackageReference Include="Spectre.Console.Analyzer" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" PrivateAssets="all" />
     <PackageReference Include="Spectre.Console.Cli" />
     <PackageReference Include="StrawberryShake.Server" />
     <EmbeddedResource Include="categories.txt" Condition="Exists('categories.txt')" LogicalName="categories.yml" />

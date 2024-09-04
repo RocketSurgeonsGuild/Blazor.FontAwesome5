@@ -56,9 +56,6 @@ jobs:
         id: commit-message
         run: |
           echo "message=$(git show -s --format=%s)" >> "$GITHUB_OUTPUT"
-      - name: npm ci
-        run: |
-          npm ci --ignore-scripts
       - name: 🔨 Use .NET Core 6.0 SDK
         uses: actions/setup-dotnet@v4
         with:
@@ -74,18 +71,54 @@ jobs:
       - name: ⚒️ dotnet tool restore
         run: |
           dotnet tool restore
+      - name: 🎁 Restore
+        id: restore
+        run: |
+          dotnet nuke DotnetCoreRestore Restore --skip
+      - name: Lint
+        id: lint
+        run: |
+          dotnet nuke Lint --skip
       - name: Regenerate Build Configurations
         id: regenerateBuildConfigurations
         run: |
           dotnet nuke RegenerateBuildConfigurations --skip
-      - name: Lint Staged
-        id: lintStaged
+      - name: Lint Public Api Analyzers
+        id: lintPublicApiAnalyzers
         run: |
-          dotnet nuke LintStaged --skip
+          dotnet nuke LintPublicApiAnalyzers --skip
+      - name: Prettier
+        id: prettier
+        run: |
+          dotnet nuke Prettier --skip
+      - name: Dotnet Format
+        id: dotnetFormat
+        run: |
+          dotnet nuke DotnetFormat --skip
+      - name: Jet Brains Cleanup Code
+        id: jetBrainsCleanupCode
+        run: |
+          dotnet nuke JetBrainsCleanupCode --skip
+      - name: Generate Solution Items
+        id: generateSolutionItems
+        run: |
+          dotnet nuke GenerateSolutionItems --skip
+      - name: Generate Readme
+        id: generateReadme
+        run: |
+          dotnet nuke GenerateReadme --skip
+      - name: Move Unshipped to Shipped
+        id: moveUnshippedToShipped
+        run: |
+          dotnet nuke MoveUnshippedToShipped --skip
+      - name: Lint Git Add
+        id: lintGitAdd
+        run: |
+          dotnet nuke LintGitAdd --skip
       - name: Add & Commit
         env:
           GITHUB_TOKEN: '${{ secrets.RSG_BOT_TOKEN }}'
-        if: "'${{ steps.commit-message.outputs.message }}' == 'Automatically linting code'"
+        if: "contains('${{ steps.commit-message.outputs.message }}', 'Automatically linting code')"
         uses: planetscale/ghcommit-action@v0.1.44
         with:
           commit_message: 'Automatically linting code'

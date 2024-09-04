@@ -41,6 +41,11 @@
             "version": "0.6.0",
             "commands": ["dotnet-verify"],
             "rollForward": false
+        },
+        "husky": {
+            "version": "0.7.1",
+            "commands": ["husky"],
+            "rollForward": false
         }
     }
 }

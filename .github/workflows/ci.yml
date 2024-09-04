@@ -118,19 +118,19 @@ jobs:
       - name: 🎁 Restore
         id: restore
         run: |
-          dotnet nuke Restore --skip
+          dotnet nuke DotnetCoreRestore Restore --skip
       - name: ⚙️ Build
         id: build
         run: |
-          dotnet nuke Build --skip
+          dotnet nuke DotnetCoreBuild Build --skip
       - name: 🚦 Test
         id: test
         run: |
-          dotnet nuke Test TriggerCodeCoverageReports GenerateCodeCoverageReportCobertura GenerateCodeCoverageBadges GenerateCodeCoverageSummary GenerateCodeCoverageReport --skip
+          dotnet nuke DotnetCoreTest Test TriggerCodeCoverageReports GenerateCodeCoverageReportCobertura GenerateCodeCoverageBadges GenerateCodeCoverageSummary GenerateCodeCoverageReport --skip
       - name: 📦 Pack
         id: pack
         run: |
-          dotnet nuke Pack --skip
+          dotnet nuke DotnetCorePack Pack --skip
       - name: 🏺 Publish coverage data
         if: always()
         uses: actions/upload-artifact@v4.4.0

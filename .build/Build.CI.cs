@@ -1,5 +1,5 @@
+using System.Diagnostics;
 using Nuke.Common.CI.GitHubActions;
-using Nuke.Common.CI.GitHubActions.Configuration;
 using Rocket.Surgery.Nuke.ContinuousIntegration;
 using Rocket.Surgery.Nuke.DotNetCore;
 using Rocket.Surgery.Nuke.GithubActions;
@@ -10,71 +10,71 @@ using Rocket.Surgery.Nuke.GithubActions;
     "ci-ignore",
     GitHubActionsImage.UbuntuLatest,
     AutoGenerate = false,
-    On = new[] { RocketSurgeonGitHubActionsTrigger.Push },
-    OnPushTags = new[] { "v*" },
-    OnPushBranches = new[] { "master", "main", "next" },
-    OnPullRequestBranches = new[] { "master", "main", "next" },
-    Enhancements = new[] { nameof(CiIgnoreMiddleware) }
+    On = [RocketSurgeonGitHubActionsTrigger.Push,],
+    OnPushTags = ["v*",],
+    OnPushBranches = ["master", "main", "next",],
+    OnPullRequestBranches = ["master", "main", "next",],
+    Enhancements = [nameof(CiIgnoreMiddleware),]
 )]
 [GitHubActionsSteps(
     "ci",
     GitHubActionsImage.UbuntuLatest,
     AutoGenerate = false,
-    On = new[] { RocketSurgeonGitHubActionsTrigger.Push },
-    OnPushTags = new[] { "v*" },
-    OnPushBranches = new[] { "master", "main", "next" },
-    OnPullRequestBranches = new[] { "master", "main", "next" },
-    InvokedTargets = new[] { nameof(Default) },
-    NonEntryTargets = new[]
-    {
+    On = [RocketSurgeonGitHubActionsTrigger.Push,],
+    OnPushTags = ["v*",],
+    OnPushBranches = ["master", "main", "next",],
+    OnPullRequestBranches = ["master", "main", "next",],
+    InvokedTargets = [nameof(Default),],
+    NonEntryTargets =
+    [
         nameof(ICIEnvironment.CIEnvironment),
         nameof(ITriggerCodeCoverageReports.TriggerCodeCoverageReports),
         nameof(ITriggerCodeCoverageReports.GenerateCodeCoverageReportCobertura),
         nameof(IGenerateCodeCoverageBadges.GenerateCodeCoverageBadges),
         nameof(IGenerateCodeCoverageReport.GenerateCodeCoverageReport),
         nameof(IGenerateCodeCoverageSummary.GenerateCodeCoverageSummary),
-        nameof(Default)
-    },
-    ExcludedTargets = new[] { nameof(ICanClean.Clean), nameof(ICanRestoreWithDotNetCore.DotnetToolRestore) },
-    Enhancements = new[] { nameof(CiMiddleware) }
+        nameof(Default),
+    ],
+    ExcludedTargets = [nameof(ICanClean.Clean), nameof(ICanRestoreWithDotNetCore.DotnetToolRestore),],
+    Enhancements = [nameof(CiMiddleware),]
 )]
 [GitHubActionsLint(
     "lint",
     GitHubActionsImage.UbuntuLatest,
     AutoGenerate = false,
-    OnPullRequestTargetBranches = new[] { "master", "main", "next" },
-    Enhancements = new[] { nameof(LintStagedMiddleware) }
+    OnPullRequestTargetBranches = ["master", "main", "next",],
+    Enhancements = [nameof(LintStagedMiddleware),]
 )]
 [PrintBuildVersion]
 [PrintCIEnvironment]
 [UploadLogs]
 [TitleEvents]
 [ContinuousIntegrationConventions]
+[DebuggerDisplay("{DebuggerDisplay,nq}")]
 public partial class Pipeline
 {
     public static RocketSurgeonGitHubActionsConfiguration CiIgnoreMiddleware(RocketSurgeonGitHubActionsConfiguration configuration)
     {
-        ((RocketSurgeonsGithubActionsJob)configuration.Jobs[0]).Steps = new List<GitHubActionsStep>
-        {
+        ( (RocketSurgeonsGithubActionsJob)configuration.Jobs[0] ).Steps =
+        [
             new RunStep("N/A")
             {
-                Run = "echo \"No build required\""
-            }
-        };
+                Run = "echo \"No build required\"",
+            },
+        ];
 
         return configuration.IncludeRepositoryConfigurationFiles();
     }
 
     public static RocketSurgeonGitHubActionsConfiguration CiMiddleware(RocketSurgeonGitHubActionsConfiguration configuration)
     {
-        configuration
+        _ = configuration
            .ExcludeRepositoryConfigurationFiles()
            .AddNugetPublish()
            .Jobs.OfType<RocketSurgeonsGithubActionsJob>()
            .First(z => z.Name.Equals("build", StringComparison.OrdinalIgnoreCase))
-           .UseDotNetSdks("6.0", "8.0")
-           .AddNuGetCache()
-           // .ConfigureForGitVersion()
+           .UseDotNetSdks("8.0")
+            // .ConfigureForGitVersion()
            .ConfigureStep<CheckoutStep>(step => step.FetchDepth = 0)
            .PublishLogs<Pipeline>();
 
@@ -83,11 +83,14 @@ public partial class Pipeline
 
     public static RocketSurgeonGitHubActionsConfiguration LintStagedMiddleware(RocketSurgeonGitHubActionsConfiguration configuration)
     {
-        configuration
+        _ = configuration
            .Jobs.OfType<RocketSurgeonsGithubActionsJob>()
            .First(z => z.Name.Equals("Build", StringComparison.OrdinalIgnoreCase))
-           .UseDotNetSdks("6.0", "8.0");
+           .UseDotNetSdks("8.0");
 
         return configuration;
     }
+
+    [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+    private string DebuggerDisplay => ToString();
 }

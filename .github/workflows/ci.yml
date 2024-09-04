@@ -84,8 +84,6 @@ permissions:
 
 jobs:
   build:
-    env:
-      NUGET_PACKAGES: '${{ github.workspace }}/.nuget/packages'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -93,17 +91,6 @@ jobs:
         with:
           clean: 'false'
           fetch-depth: '0'
-      - name: NuGet Cache
-        uses: actions/cache@v4
-        with:
-          path: '${{ github.workspace }}/.nuget/packages'
-          key: "${{ runner.os }}-nuget-${{ hashFiles('**/Directory.Packages.props') }}-${{ hashFiles('**/Directory.Packages.support.props') }}"
-          restore-keys: |
-            ${{ runner.os }}-nuget-
-      - name: 🔨 Use .NET Core 6.0 SDK
-        uses: actions/setup-dotnet@v4.0.1
-        with:
-          dotnet-version: '6.0.x'
       - name: 🔨 Use .NET Core 8.0 SDK
         uses: actions/setup-dotnet@v4.0.1
         with:

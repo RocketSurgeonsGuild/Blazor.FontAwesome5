@@ -56,10 +56,6 @@ jobs:
         id: commit-message
         run: |
           echo "message=$(git show -s --format=%s)" >> "$GITHUB_OUTPUT"
-      - name: 🔨 Use .NET Core 6.0 SDK
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '6.0.x'
       - name: 🔨 Use .NET Core 8.0 SDK
         uses: actions/setup-dotnet@v4
         with:

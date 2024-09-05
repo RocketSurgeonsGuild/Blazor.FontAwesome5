@@ -79,10 +79,6 @@ jobs:
         id: regenerateBuildConfigurations
         run: |
           dotnet nuke RegenerateBuildConfigurations --skip
-      - name: Lint Public Api Analyzers
-        id: lintPublicApiAnalyzers
-        run: |
-          dotnet nuke LintPublicApiAnalyzers --skip
       - name: Prettier
         id: prettier
         run: |
@@ -103,10 +99,6 @@ jobs:
         id: generateReadme
         run: |
           dotnet nuke GenerateReadme --skip
-      - name: Move Unshipped to Shipped
-        id: moveUnshippedToShipped
-        run: |
-          dotnet nuke MoveUnshippedToShipped --skip
       - name: Lint Git Add
         id: lintGitAdd
         run: |

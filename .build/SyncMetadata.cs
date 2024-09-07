@@ -15,24 +15,36 @@ public partial class Pipeline
     [Parameter]
     public string FontAwesomeToken { get; set; }
 
+    public Target LintFiles => d => d
+                                   .Executes(
+                                        () =>
+                                        {
+                                            _ = this.CastAs<ICanLint>().LintMatcher
+                                                .AddExclude(Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free.Directory)
+                                                .AddExclude(Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Pro.Directory)
+                                                .AddExclude(Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free_Svg.Directory)
+                                                 ;
+                                        })
+                                   .Inherit<ICanLint>(z => z.LintFiles);
+
     private Target RegenerateFromMetadata =>
         _ => _
             .Requires(() => FontAwesomeToken)
             .Executes(
                  async () =>
                  {
-                     var stringV = "6";
+                     const string stringV = "6";
                      var packageDirectory = TemporaryDirectory / "V6";
-                     packageDirectory.CreateDirectory();
-                     ( packageDirectory / "package.json" ).WriteAllText("{}");
-                     ( packageDirectory / ".npmrc" ).WriteAllText(
+                     _ = (ITargetDefinition)packageDirectory.CreateDirectory();
+                     _ = (ITargetDefinition)( packageDirectory / "package.json" ).WriteAllText("{}");
+                     _ = (ITargetDefinition)( packageDirectory / ".npmrc" ).WriteAllText(
                          $@"@fortawesome:registry=https://npm.fontawesome.com/
 //npm.fontawesome.com/:_authToken={FontAwesomeToken}"
                      );
 
                      if (!( TemporaryDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" ).DirectoryExists())
                      {
-                         Npm($"install @fortawesome/fontawesome-pro@{stringV} --no-package-lock", packageDirectory);
+                         _ = (ITargetDefinition)Npm($"install @fortawesome/fontawesome-pro@{stringV} --no-package-lock", packageDirectory);
                      }
 
                      var iconsData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "icon-families.json";
@@ -65,8 +77,8 @@ public partial class Pipeline
                      var proIcons = await mediator.Send(new GetIconsFromIconFamilies.Request(iconsData, true));
                      {
                          // Free
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Icons" ).CreateOrCleanDirectory();
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Categories" ).CreateOrCleanDirectory();
+                         _ = (ITargetDefinition)( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Icons" ).CreateOrCleanDirectory();
+                         _ = (ITargetDefinition)( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Categories" ).CreateOrCleanDirectory();
                          await writeFileContents(
                              mediator,
                              freeIcons,
@@ -78,8 +90,8 @@ public partial class Pipeline
                      }
 
                      {
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Free.Svg" / "Icons" ).CreateOrCleanDirectory();
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Free.Svg" / "Categories" ).CreateOrCleanDirectory();
+                         _ = (ITargetDefinition)( RootDirectory / "src" / "Blazor.FontAwesome6.Free.Svg" / "Icons" ).CreateOrCleanDirectory();
+                         _ = (ITargetDefinition)( RootDirectory / "src" / "Blazor.FontAwesome6.Free.Svg" / "Categories" ).CreateOrCleanDirectory();
                          // Free SVG
                          await writeFileContents(
                              mediator,
@@ -92,8 +104,8 @@ public partial class Pipeline
                      }
 
                      {
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Icons" ).CreateOrCleanDirectory();
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Categories" ).CreateOrCleanDirectory();
+                         _ = (ITargetDefinition)( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Icons" ).CreateOrCleanDirectory();
+                         _ = (ITargetDefinition)( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Categories" ).CreateOrCleanDirectory();
                          // Pro
                          await writeFileContents(
                              mediator,
@@ -122,7 +134,7 @@ public partial class Pipeline
                          await foreach (var item in fileContents)
                          {
                              Log.Information("Writing {FileName}", item.FileName);
-                             Directory.CreateDirectory(Path.GetDirectoryName(Path.Combine(output, item.FileName))!);
+                             _ = Directory.CreateDirectory(Path.GetDirectoryName(Path.Combine(output, item.FileName))!);
                              await File.WriteAllTextAsync(Path.Combine(output, item.FileName), item.Content);
                          }
                      }

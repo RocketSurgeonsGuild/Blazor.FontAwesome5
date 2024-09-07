@@ -19,12 +19,15 @@ public partial class Pipeline
                                    .Executes(
                                         () =>
                                         {
-                                            _ = this.CastAs<ICanLint>().LintMatcher
-                                                .AddExclude(Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free.Directory)
-                                                .AddExclude(Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Pro.Directory)
-                                                .AddExclude(Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free_Svg.Directory)
-                                                 ;
-                                        })
+                                            _ = this
+                                               .CastAs<ICanLint>()
+                                               .LintMatcher
+                                               .AddExclude(Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free.Directory)
+                                               .AddExclude(Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Pro.Directory)
+                                               .AddExclude(Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free_Svg.Directory)
+                                                ;
+                                        }
+                                    )
                                    .Inherit<ICanLint>(z => z.LintFiles);
 
     private Target RegenerateFromMetadata =>
@@ -51,21 +54,15 @@ public partial class Pipeline
                      var categoriesData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "categories.yml";
                      CopyFile(categoriesData, RootDirectory / "src" / "Blazor.FontAwesome.Tool" / "categories.txt", FileExistsPolicy.Overwrite);
 
+                     var categoryProvider = ( categoriesData.FileExists() )
+                         ? CategoryProvider.Create(File.OpenRead(categoriesData))
+                         : CategoryProvider.CreateDefault();
                      var host = Microsoft
                                .Extensions.Hosting.Host.CreateDefaultBuilder()
                                .ConfigureRocketSurgery(Imports.GetConventions)
+                               .ConfigureServices((_, collection) => collection.AddSingleton(categoryProvider))
                                .Build();
                      await host.StartAsync();
-                     CategoryProvider categoryProvider;
-                     if (categoriesData.FileExists())
-                     {
-                         await using var stream = File.OpenRead(categoriesData);
-                         categoryProvider = CategoryProvider.Create(stream);
-                     }
-                     else
-                     {
-                         categoryProvider = CategoryProvider.CreateDefault();
-                     }
 
                      var mediator = host.Services.GetRequiredService<IMediator>();
 
@@ -84,8 +81,7 @@ public partial class Pipeline
                              freeIcons,
                              false,
                              "Rocket.Surgery.Blazor.FontAwesome6.Free",
-                             RootDirectory / "src" / "Blazor.FontAwesome6.Free",
-                             categoryProvider
+                             RootDirectory / "src" / "Blazor.FontAwesome6.Free"
                          );
                      }
 
@@ -98,8 +94,7 @@ public partial class Pipeline
                              freeIcons,
                              true,
                              "Rocket.Surgery.Blazor.FontAwesome6.Free.Svg",
-                             RootDirectory / "src" / "Blazor.FontAwesome6.Free.Svg",
-                             categoryProvider
+                             RootDirectory / "src" / "Blazor.FontAwesome6.Free.Svg"
                          );
                      }
 
@@ -112,8 +107,7 @@ public partial class Pipeline
                              proIcons,
                              false,
                              "Rocket.Surgery.Blazor.FontAwesome6.Pro",
-                             RootDirectory / "src" / "Blazor.FontAwesome6.Pro",
-                             categoryProvider
+                             RootDirectory / "src" / "Blazor.FontAwesome6.Pro"
                          );
                      }
 
@@ -126,8 +120,7 @@ public partial class Pipeline
                          ImmutableArray<IconModel> icons,
                          bool svgMode,
                          string @namespace,
-                         string output,
-                         CategoryProvider categoryProvider
+                         string output
                      )
                      {
                          var fileContents = mediator.CreateStream(new GetFileContentForIcons.Request(icons, @namespace, svgMode));

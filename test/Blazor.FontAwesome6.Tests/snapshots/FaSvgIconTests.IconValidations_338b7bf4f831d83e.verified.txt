@@ -1,6 +1,7 @@
 ﻿{
   Instance: {
     Icon: {
+      Style: Solid,
       Name: building-columns,
       Unicode: f19c
     }

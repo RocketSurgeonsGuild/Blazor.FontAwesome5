@@ -1,0 +1,22 @@
+﻿[
+  {
+    Id: album-circle-plus,
+    Label: Album Circle Plus,
+    Family: Sharp,
+    Style: Regular,
+    Height: 512,
+    Width: 576,
+    Prefix: fasr,
+    LongPrefix: fa-sharp fa-regular
+  },
+  {
+    Id: album-circle-user,
+    Label: Album Circle User,
+    Family: Sharp,
+    Style: Regular,
+    Height: 512,
+    Width: 576,
+    Prefix: fasr,
+    LongPrefix: fa-sharp fa-regular
+  }
+]

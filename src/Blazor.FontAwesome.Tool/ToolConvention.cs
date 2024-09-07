@@ -21,6 +21,7 @@ class ToolConvention : ICommandLineConvention, IServiceConvention
     public void Register(IConventionContext context, IConfiguration configuration, IServiceCollection services)
     {
         services
+           .AddTransient<CategoryProvider>(_ => CategoryProvider.Instance ?? CategoryProvider.CreateDefault())
            .AddSingleton<FontAwesomeApiKeyProvider>()
            .AddSingleton<FontAwesomeApiKeyHandler>()
            .AddFontAwesome(ExecutionStrategy.NetworkOnly)

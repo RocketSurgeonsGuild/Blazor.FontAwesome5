@@ -1,0 +1,22 @@
+﻿[
+  {
+    Id: arrow-down-from-dotted-line,
+    Label: Arrow Down From Dotted Line,
+    Family: Sharp,
+    Style: Regular,
+    Height: 512,
+    Width: 448,
+    Prefix: fasr,
+    LongPrefix: fa-sharp fa-regular
+  },
+  {
+    Id: arrow-down-to-dotted-line,
+    Label: Arrow Down To Dotted Line,
+    Family: Sharp,
+    Style: Regular,
+    Height: 512,
+    Width: 448,
+    Prefix: fasr,
+    LongPrefix: fa-sharp fa-regular
+  }
+]

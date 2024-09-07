@@ -1,0 +1,20 @@
+﻿[
+  {
+    Id: house-flood-water-circle-arrow-right,
+    Label: House Flood Water Circle Arrow Right,
+    Style: Solid,
+    Height: 512,
+    Width: 640,
+    Prefix: fas,
+    LongPrefix: fa-solid
+  },
+  {
+    Id: house-flood-water-circle-arrow-right,
+    Label: House Flood Water Circle Arrow Right,
+    Style: Solid,
+    Height: 512,
+    Width: 640,
+    Prefix: fas,
+    LongPrefix: fa-solid
+  }
+]

@@ -4,5 +4,6 @@ public enum IconFamily
 {
     Classic,
     Duotone,
-    Sharp
+    Sharp,
+    SharpDuotone
 }

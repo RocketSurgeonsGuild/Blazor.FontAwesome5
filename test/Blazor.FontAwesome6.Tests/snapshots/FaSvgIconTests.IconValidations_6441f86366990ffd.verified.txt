@@ -1,6 +1,7 @@
 ﻿{
   Instance: {
     Icon: {
+      Style: Solid,
       Name: barcode,
       Unicode: f02a
     }

@@ -1,0 +1,18 @@
+﻿[
+  {
+    Id: 500px,
+    Label: 500px,
+    Height: 512,
+    Width: 448,
+    Prefix: fab,
+    LongPrefix: fa-brands
+  },
+  {
+    Id: accusoft,
+    Label: Accusoft,
+    Height: 512,
+    Width: 640,
+    Prefix: fab,
+    LongPrefix: fa-brands
+  }
+]

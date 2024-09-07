@@ -33,7 +33,7 @@ class EmitCommand : AsyncCommand<EmitCommand.Settings>
         CategoryProvider categoryProvider;
         if (settings is { Categories: { Length: > 0 } categoriesFile })
         {
-            using var stream = File.OpenRead(categoriesFile);
+            await using var stream = File.OpenRead(categoriesFile);
             categoryProvider = CategoryProvider.Create(stream);
         }
         else
@@ -41,22 +41,23 @@ class EmitCommand : AsyncCommand<EmitCommand.Settings>
             categoryProvider = CategoryProvider.CreateDefault();
         }
 
+        CategoryProvider.Instance = categoryProvider;
 
         if (settings is { FilePath.Length: > 0 })
         {
             throw new NotImplementedException();
         }
 
-        else if (settings is { KitName.Length: > 0 })
+        if (settings is { KitName.Length: > 0 })
         {
-            var request = new GetIconsFromKit.Request(settings.KitName, categoryProvider);
+            var request = new GetIconsFromKit.Request(settings.KitName);
             var response = await _mediator.Send(request);
             icons = response;
         }
 
         else if (settings is { Release.Length: > 0 })
         {
-            var request = new GetIconsFromRelease.Request(settings.Release, categoryProvider);
+            var request = new GetIconsFromRelease.Request(settings.Release);
             var response = await _mediator.Send(request);
             icons = response;
         }
@@ -65,7 +66,7 @@ class EmitCommand : AsyncCommand<EmitCommand.Settings>
             throw new Exception("not sure how this happened... validation!");
         }
 
-        var fileContents = _mediator.CreateStream(new GetFileContentForIcons.Request(icons, settings.Namespace, settings.SvgMode, categoryProvider));
+        var fileContents = _mediator.CreateStream(new GetFileContentForIcons.Request(icons, settings.Namespace, settings.SvgMode));
         await foreach (var item in fileContents)
         {
             AnsiConsole.MarkupLine($"[bold]Writing[/] {item.FileName}");

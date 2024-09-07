@@ -1,0 +1,20 @@
+﻿[
+  {
+    Id: arrow-down-from-dotted-line,
+    Label: Arrow Down From Dotted Line,
+    Style: Thin,
+    Height: 512,
+    Width: 448,
+    Prefix: fat,
+    LongPrefix: fa-thin
+  },
+  {
+    Id: arrow-down-to-dotted-line,
+    Label: Arrow Down To Dotted Line,
+    Style: Thin,
+    Height: 512,
+    Width: 448,
+    Prefix: fat,
+    LongPrefix: fa-thin
+  }
+]

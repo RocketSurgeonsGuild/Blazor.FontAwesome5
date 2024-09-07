@@ -1,0 +1,18 @@
+﻿[
+  {
+    Id: creative-commons-nc-eu,
+    Label: Creative Commons Noncommercial (Euro Sign),
+    Height: 512,
+    Width: 496,
+    Prefix: fab,
+    LongPrefix: fa-brands
+  },
+  {
+    Id: creative-commons-nc-jp,
+    Label: Creative Commons Noncommercial (Yen Sign),
+    Height: 512,
+    Width: 496,
+    Prefix: fab,
+    LongPrefix: fa-brands
+  }
+]

@@ -7,6 +7,8 @@ namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 
 public class CategoryProvider
 {
+    public static CategoryProvider? Instance { get; internal set; }
+
     public static CategoryProvider Create(Stream stream)
     {
         using var reader = new StreamReader(stream);
@@ -22,7 +24,6 @@ public class CategoryProvider
 
     public static CategoryProvider CreateDefault()
     {
-
         var fileResourceName = typeof(CategoryProvider).Assembly.GetManifestResourceNames().FirstOrDefault(x => x.EndsWith("categories.yml"));
         if (fileResourceName is null)
         {

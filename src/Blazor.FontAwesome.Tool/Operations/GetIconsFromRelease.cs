@@ -8,9 +8,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 
 public static class GetIconsFromRelease
 {
-    public record Request(string Version, CategoryProvider CategoryProvider) : IRequest<ImmutableArray<IconModel>>;
+    public record Request(string Version) : IRequest<ImmutableArray<IconModel>>;
 
-    class Handler(IFontAwesome fontAwesome) : IRequestHandler<Request, ImmutableArray<IconModel>>
+    class Handler(IFontAwesome fontAwesome, CategoryProvider categoryProvider) : IRequestHandler<Request, ImmutableArray<IconModel>>
     {
         public async Task<ImmutableArray<IconModel>> Handle(Request request, CancellationToken cancellationToken)
         {
@@ -41,7 +41,7 @@ public static class GetIconsFromRelease
                                               var svg = icon.Svgs.Single();
                                               return new IconModel()
                                               {
-                                                  Categories = request.CategoryProvider.CategoryLookup[icon.Id].ToImmutableHashSet(),
+                                                  Categories = categoryProvider.CategoryLookup[icon.Id].ToImmutableHashSet(),
                                                   RawFamily = style.Family,
                                                   RawStyle = style.Style,
                                                   Height = svg.Height,
@@ -49,16 +49,8 @@ public static class GetIconsFromRelease
                                                   Id = icon.Id,
                                                   Label = icon.Label,
                                                   Unicode = icon.Unicode,
-                                                  PathData = svg.PathData.Where(z => !string.IsNullOrWhiteSpace(z)).ToImmutableArray(),
-                                                  Prefix = svg.FamilyStyle.Prefix,
-                                                  LongPrefix = ( iconFamily, iconStyle ) switch
-                                                               {
-                                                                   (_, Style.Brands) => "fa-brands",
-                                                                   (Family.Duotone, _) => "fa-duotone",
-                                                                   (Family.Classic, _) => $"fa-{style.Style.ToLowerInvariant()}",
-                                                                   (_, _) => $"fa-{style.Family.ToLowerInvariant()} fa-{style.Style.ToLowerInvariant()}",
-                                                               },
-                                                  Aliases = ImmutableArray<string>.Empty,
+                                                  PathData = svg.PathData.Where(z => !string.IsNullOrWhiteSpace(z)).ToImmutableList(),
+                                                  Aliases = ImmutableList<string>.Empty,
                                                   // shims are not working quiet like I expect
 //                                                  Aliases = icon is { Shim.Id.Length: > 0 }
 //                                                      ? ImmutableArray.Create(icon.Shim.Id)
@@ -69,7 +61,7 @@ public static class GetIconsFromRelease
                             }
                         );
 
-            return ( await icons.ToArrayAsync(cancellationToken) ).ToImmutableArray();
+            return [..( await icons.ToArrayAsync(cancellationToken) )];
         }
     }
 }

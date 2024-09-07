@@ -2,6 +2,7 @@
   Instance: {
     Icon: {
       Family: Duotone,
+      Style: Solid,
       Name: circle-half-stroke,
       Unicode: f042
     }

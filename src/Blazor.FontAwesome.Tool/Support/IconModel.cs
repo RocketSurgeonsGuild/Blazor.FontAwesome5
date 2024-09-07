@@ -1,4 +1,6 @@
 using System.Collections.Immutable;
+using System.Text.RegularExpressions;
+using Humanizer;
 
 namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 
@@ -83,27 +85,114 @@ public record IconModel
     ///     Some duotone icons have only a primary path, while other duotone
     /// icons have only a secondary path.
     /// </summary>
-    public required ImmutableArray<string> PathData { get; init; }
-
-    /// <summary>
-    /// A single term that fully-specifies a familyStyle. This can be used in the Font Awesome JavaScript API
-    /// where a `prefix` is expected. It can also be used as a CSS class.
-    /// </summary>
-    public required string Prefix { get; init; }
-
-    /// <summary>
-    /// A single term that fully-specifies a familyStyle. This can be used in the Font Awesome JavaScript API
-    /// where a `prefix` is expected. It can also be used as a CSS class. This is the longer version fa-xyz
-    /// </summary>
-    public required string LongPrefix { get; init; }
+    public required ImmutableList<string> PathData { get; init; }
 
     /// <summary>
     /// The aliases for the icon
     /// </summary>
-    public required ImmutableArray<string> Aliases { get; init; }
+    public required ImmutableList<string> Aliases { get; init; }
 
     /// <summary>
     /// The categories the icon belongs to
     /// </summary>
     public required ImmutableHashSet<CategoryModel> Categories { get; init; }
+
+    private readonly string? _prefix;
+
+    /// <summary>
+    /// A single term that fully-specifies a familyStyle. This can be used in the Font Awesome JavaScript API
+    /// where a `prefix` is expected. It can also be used as a CSS class.
+    /// </summary>
+    public string Prefix
+    {
+        get => (_prefix, Family, Style) switch
+        {
+            ({ Length: > 0 }, _, _) => _prefix,
+            (_, _, Style.Brands) => "fab",
+            (_, Family.Duotone, _) => "fad",
+            (_, Family.Classic, _) => $"fa{GetAbbreviation(Style.Humanize())}",
+            (_, _, _) => $"fa{GetAbbreviation(Family.Humanize())}{GetAbbreviation(Style.Humanize())}",
+        };
+        init => _prefix = value;
+    }
+
+    private readonly string? _longPrefix;
+
+    /// <summary>
+    /// A single term that fully-specifies a familyStyle. This can be used in the Font Awesome JavaScript API
+    /// where a `prefix` is expected. It can also be used as a CSS class. This is the longer version fa-xyz
+    /// </summary>               };
+    public string LongPrefix
+    {
+        get => (_longPrefix, Family, Style) switch
+        {
+            ({ Length: > 0 }, _, _) => _longPrefix,
+            (_, _, Style.Brands) => "fa-brands",
+            (_, Family.Classic, _) => $"fa-{GetStyleNameDashes(Style.Humanize())}",
+            (_, _, _) => $"fa-{GetStyleNameDashes(Family.Humanize())} fa-{GetStyleNameDashes(Style.Humanize())}",
+        };
+
+        init => _longPrefix = value;
+    }
+
+    public override string ToString() => $"{RawFamily} {RawStyle} {Id}";
+
+    private static string GetAbbreviation(string huamnizedString)
+    {
+        return string.Join("", huamnizedString.Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(z => char.ToLower(z[0])));
+    }
+
+    internal static string GetStyleNameDashes(string huamnizedString)
+    {
+        return huamnizedString.Humanize().Underscore().Dasherize();
+    }
+}
+
+public partial record CodeIconModel(IconModel Icon)
+{
+    /// <summary>
+    /// The model name to be used in code
+    /// </summary>
+    public string CodeModelName => GetCodeModelName(Icon.Id);
+
+    /// <summary>
+    /// All the aliases for the icon
+    /// </summary>
+    public IEnumerable<string> CodeAliases => Icon.Aliases.Select(GetCodeModelName);
+
+    /// <summary>
+    /// The name to be used in code
+    /// </summary>
+    public string CodeName => Icon.Label.Humanize().Pascalize();
+
+    /// <summary>
+    /// The style name to be used in code
+    /// </summary>
+    public string CodeStyleName => GetCodeStyleName(Icon.Family, Icon.Style);
+
+
+    public string IconClass(bool svgMode) => svgMode ? "SvgIcon" : "Icon";
+
+    public string Href =>
+        $"https://fontawesome.com/icons/user?f={IconModel.GetStyleNameDashes(Icon.Family.Humanize())}&s={IconModel.GetStyleNameDashes(Icon.Style.Humanize())}";
+
+    public string RootHref => $"https://fontawesome.com/icons/{Icon.Id}";
+
+
+    private static string GetCodeStyleName(Family family, Style rawStyle) =>
+        family == Family.Classic
+            ? rawStyle.Humanize().Pascalize()
+            : family.Humanize().Pascalize() + rawStyle.Humanize().Pascalize();
+
+    private static readonly Regex _startsWithDigit = MyRegex();
+
+    private static string GetCodeModelName(string id)
+    {
+        if (id.Equals(nameof(Equals), StringComparison.OrdinalIgnoreCase)) return "equal".Pascalize();
+        if (_startsWithDigit.IsMatch(id)) return "_" + id.Replace('-', ' ').Humanize().Pascalize();
+        return id.Replace('-', ' ').Humanize().Pascalize();
+    }
+
+    [GeneratedRegex(@"^\d", RegexOptions.Compiled)]
+    private static partial Regex MyRegex();
 }

@@ -61,20 +61,8 @@ public partial class Pipeline
                      // free svg
                      // pro
 
-                     var freeIcons = await mediator.Send(
-                         new GetIconsFromIconFamilies.Request(
-                             iconsData,
-                             false,
-                             categoryProvider
-                         )
-                     );
-                     var proIcons = await mediator.Send(
-                         new GetIconsFromIconFamilies.Request(
-                             iconsData,
-                             true,
-                             categoryProvider
-                         )
-                     );
+                     var freeIcons = await mediator.Send(new GetIconsFromIconFamilies.Request(iconsData, false));
+                     var proIcons = await mediator.Send(new GetIconsFromIconFamilies.Request(iconsData, true));
                      {
                          // Free
                          ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Icons" ).CreateOrCleanDirectory();
@@ -130,7 +118,7 @@ public partial class Pipeline
                          CategoryProvider categoryProvider
                      )
                      {
-                         var fileContents = mediator.CreateStream(new GetFileContentForIcons.Request(icons, @namespace, svgMode, categoryProvider));
+                         var fileContents = mediator.CreateStream(new GetFileContentForIcons.Request(icons, @namespace, svgMode));
                          await foreach (var item in fileContents)
                          {
                              Log.Information("Writing {FileName}", item.FileName);

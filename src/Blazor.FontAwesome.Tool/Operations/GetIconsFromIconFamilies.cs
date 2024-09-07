@@ -8,12 +8,11 @@ namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 
 public static class GetIconsFromIconFamilies
 {
-    public record Request(string FilePath, bool GetProIcons, CategoryProvider CategoryProvider) : IRequest<ImmutableArray<IconModel>>;
+    public record Request(string FilePath, bool GetProIcons) : IRequest<ImmutableArray<IconModel>>;
 
-    class Handler : IRequestHandler<Request, ImmutableArray<IconModel>>
+    class Handler(CategoryProvider categoryProvider) : IRequestHandler<Request, ImmutableArray<IconModel>>
     {
-        public Handler() { }
-
+        [RequiresUnreferencedCode("Calls System.Text.Json.JsonSerializer.Deserialize<TValue>(Stream, JsonSerializerOptions)")]
         public async Task<ImmutableArray<IconModel>> Handle(Request request, CancellationToken cancellationToken)
         {
             await using var stream = File.OpenRead(request.FilePath);
@@ -26,56 +25,45 @@ public static class GetIconsFromIconFamilies
                 }
             );
 
-            return icons
-                  .SelectMany(
-                       z => ( request.GetProIcons ? z.Value.FamilyStylesByLicense.Pro : z.Value.FamilyStylesByLicense.Free ),
-                       (iconBase, familyStyle) => ( Name: iconBase.Key, IconBase: iconBase.Value, Family: familyStyle.Family, Style: familyStyle.Style )
-                   )
-                  .Select(
-                       z =>
-                       {
-                           if (z.IconBase.Svgs.TryGetValue(z.Family, out var f) && f.TryGetValue(z.Style, out var s))
-                           {
-                               return ( z.Name, z.IconBase, z.Family, z.Style, SvgData: s );
-                           }
+            return [
+                ..icons
+                 .SelectMany(
+                      z => ( request.GetProIcons ? z.Value.FamilyStylesByLicense.Pro : z.Value.FamilyStylesByLicense.Free ),
+                      (iconBase, familyStyle) => ( Name: iconBase.Key, IconBase: iconBase.Value, Family: familyStyle.Family, Style: familyStyle.Style )
+                  )
+                 .Select(
+                      z =>
+                      {
+                          if (z.IconBase.Svgs.TryGetValue(z.Family, out var f) && f.TryGetValue(z.Style, out var s))
+                          {
+                              return ( z.Name, z.IconBase, z.Family, z.Style, SvgData: s );
+                          }
 
-                           return ( z.Name, z.IconBase, z.Family, z.Style, SvgData: null! );
-                       }
-                   )
-                  .Where(z => z.SvgData != null!)
-                  .Select(
-                       a => new IconModel()
-                       {
-                           Label = a.IconBase.Label,
-                           Unicode = a.IconBase.Unicode!,
-                           Aliases = a.IconBase.Aliases.Names.Where(x=>!x.Equals(a.IconBase.Label, StringComparison.OrdinalIgnoreCase)).ToImmutableArray(),
-                           Categories = request.CategoryProvider.CategoryLookup[a.Name].ToImmutableHashSet(),
-                           Height = a.SvgData.Height,
-                           Width = a.SvgData.Width,
-                           Id = a.Name,
-                           RawFamily = a.Family.ToString(),
-                           RawStyle = a.Style.ToString(),
-                           PathData = a.SvgData.Path.ValueKind == JsonValueKind.Array ? a.SvgData.Path.EnumerateArray().Select(z => z.GetString()!).ToImmutableArray() : ImmutableArray.Create(a.SvgData.Path.GetString()!),
-
-                           Prefix = ( a.Family, a.Style ) switch
-                                    {
-                                        (_, Style.Brands)   => "fab",
-                                        (Family.Duotone, _) => "fad",
-                                        (Family.Classic, _) => $"fa{a.Style.ToString()[..1].ToLowerInvariant()}",
-                                        (_, _) =>
-                                            $"fa{a.Family.ToString()[..1].ToLowerInvariant()}{a.Style.ToString()[..1].ToLowerInvariant()}",
-                                    },
-                           LongPrefix = ( a.Family, a.Style ) switch
-                                        {
-                                            (_, Style.Brands)   => "fa-brands",
-                                            (Family.Duotone, _) => "fa-duotone",
-                                            (Family.Classic, _) => $"fa-{a.Style.ToString().ToLowerInvariant()}",
-                                            (_, _) =>
-                                                $"fa-{a.Family.ToString().ToLowerInvariant()} fa-{a.Style.ToString().ToLowerInvariant()}",
-                                        },
-                       }
-                   )
-                  .ToImmutableArray();
+                          return ( z.Name, z.IconBase, z.Family, z.Style, SvgData: null! );
+                      }
+                  )
+                 .Where(z => z.SvgData != null!)
+                 .Select(
+                      a => new IconModel()
+                      {
+                          Label = a.IconBase.Label,
+                          Unicode = a.IconBase.Unicode!,
+                          Aliases = [..a.IconBase.Aliases.Names.Where(x => !x.Equals(a.IconBase.Label, StringComparison.OrdinalIgnoreCase))],
+                          Categories = categoryProvider.CategoryLookup[a.Name].ToImmutableHashSet(),
+                          Height = a.SvgData.Height,
+                          Width = a.SvgData.Width,
+                          Id = a.Name,
+                          RawFamily = a.Family.ToString(),
+                          RawStyle = a.Style.ToString(),
+                          PathData =
+                          [
+                              ..a.SvgData.Path.ValueKind == JsonValueKind.Array
+                                  ? a.SvgData.Path.EnumerateArray().Select(z => z.GetString()!)
+                                  : [a.SvgData.Path.GetString()!]
+                          ],
+                      }
+                  )
+            ];
         }
     }
 

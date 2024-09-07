@@ -1,11 +1,14 @@
 using System;
+using System.CodeDom.Compiler;
 using System.Collections.Immutable;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 using Rocket.Surgery.Blazor.FontAwesome6;
 namespace Rocket.Surgery.Blazor.FontAwesome6.Free;
 /// <summary>
 /// Font Awesome Regular Icons
 /// </summary>
-[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+[ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
 public static partial class FaRegular
 {
     private static Icon? f_AddressBook;

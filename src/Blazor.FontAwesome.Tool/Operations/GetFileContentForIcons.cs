@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Collections.Immutable;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 using Humanizer;
@@ -38,6 +39,8 @@ public static class GetFileContentForIcons
         }
     }
 
+    private static string CodeGeneratedAttribute => $"[ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode(\"Rocket.Surgery.Blazor.FontAwesome6\", \"{typeof(GetFileContentForIcons).Assembly.GetCustomAttribute<AssemblyVersionAttribute>()?.Version ?? ""}\")]";
+
     internal static (string FileName, string Content) GetIconFileContent(
         this IGrouping<string, CodeIconModel> models,
         bool svgMode,
@@ -47,13 +50,16 @@ public static class GetFileContentForIcons
         var sb = new StringBuilder(new(), 4, ' ', "\n", 0);
 
         sb.AppendLine("using System;");
+        sb.AppendLine("using System.CodeDom.Compiler;");
         sb.AppendLine("using System.Collections.Immutable;");
+        sb.AppendLine("using System.Diagnostics.CodeAnalysis;");
+        sb.AppendLine("using System.Runtime.CompilerServices;");
         sb.AppendLine($"using Rocket.Surgery.Blazor.FontAwesome6;");
         sb.AppendLine($"namespace {@namespace};");
         sb.AppendLine("/// <summary>");
         sb.AppendLine($"/// Font Awesome {models.Key.Humanize()} Icons");
         sb.AppendLine("/// </summary>");
-        sb.AppendLine("[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]");
+        sb.AppendLine(CodeGeneratedAttribute);
         sb.AppendLine($"public static partial class Fa{models.Key}");
         sb.AppendLine("{");
         using (sb.Indent())
@@ -79,13 +85,16 @@ public static class GetFileContentForIcons
         var sb = new StringBuilder(new(), 4, ' ', "\n", 0);
 
         sb.AppendLine("using System;");
+        sb.AppendLine("using System.CodeDom.Compiler;");
         sb.AppendLine("using System.Collections.Immutable;");
+        sb.AppendLine("using System.Diagnostics.CodeAnalysis;");
+        sb.AppendLine("using System.Runtime.CompilerServices;");
         sb.AppendLine($"using Rocket.Surgery.Blazor.FontAwesome6;");
         sb.AppendLine($"namespace {@namespace}.Categories;");
         sb.AppendLine("/// <summary>");
         sb.AppendLine($"/// Font Awesome {categoryModel.Label} Category Icons");
         sb.AppendLine("/// </summary>");
-        sb.AppendLine("[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]");
+        sb.AppendLine(CodeGeneratedAttribute);
         sb.AppendLine($"public static partial class Fa{categoryModel.Name.Humanize().Pascalize()}");
         sb.AppendLine("{");
         using (sb.Indent())
@@ -150,7 +159,7 @@ public static class GetFileContentForIcons
             sb.AppendLine($"/// {ci.Icon.Label}");
             sb.AppendLine($"/// <a href=\"{ci.RootHref}\">{ci.Icon.Label}</a>");
             sb.AppendLine("/// </summary>");
-            sb.AppendLine("[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]");
+            sb.AppendLine(CodeGeneratedAttribute);
             sb.AppendLine(
                 $"public static partial class {ci.CodeModelName}{( categoryModel.Name.Equals(ci.Icon.Id, StringComparison.OrdinalIgnoreCase) ? "Icon" : "" )}"
             );
@@ -165,7 +174,7 @@ public static class GetFileContentForIcons
                 sb.AppendLine("/// <summary>");
                 sb.AppendLine($"/// <a href=\"{icon.Href}\">{icon.Icon.Label}</a>");
                 sb.AppendLine("/// </summary>");
-                sb.AppendLine("[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]");
+                sb.AppendLine(CodeGeneratedAttribute);
                 sb.AppendLine($"public static { icon.IconClass(svgMode)} {icon.CodeStyleName} => global::{@namespace}.Fa{icon.CodeStyleName}.{rootCi.CodeModelName};");
             }
         }

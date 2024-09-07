@@ -1,11 +1,14 @@
 using System;
+using System.CodeDom.Compiler;
 using System.Collections.Immutable;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 using Rocket.Surgery.Blazor.FontAwesome6;
 namespace Rocket.Surgery.Blazor.FontAwesome6.Pro;
 /// <summary>
 /// Font Awesome Thin Icons
 /// </summary>
-[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+[ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
 public static partial class FaThin
 {
     private static Icon? f__0;
@@ -6262,6 +6265,11 @@ public static partial class FaThin
     /// <a href="https://fontawesome.com/icons/diamond-turn-right?f=classic&amp;s=thin">Diamond Turn Right</a>
     /// </summary>
     public static Icon Directions => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.DiamondTurnRight;
+    private static Icon? f_Diamonds4;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/diamonds-4?f=classic&amp;s=thin">Diamonds 4</a>
+    /// </summary>
+    public static Icon Diamonds4 => f_Diamonds4 ??= new Icon(IconFamily.Classic, IconStyle.Thin, "diamonds-4", "e68b");
     private static Icon? f_Dice;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/dice?f=classic&amp;s=thin">Dice</a>
@@ -9206,6 +9214,11 @@ public static partial class FaThin
     /// <a href="https://fontawesome.com/icons/globe-stand?f=classic&amp;s=thin">Globe Stand</a>
     /// </summary>
     public static Icon GlobeStand => f_GlobeStand ??= new Icon(IconFamily.Classic, IconStyle.Thin, "globe-stand", "f5f6");
+    private static Icon? f_GlobeWifi;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/globe-wifi?f=classic&amp;s=thin">Globe Wifi</a>
+    /// </summary>
+    public static Icon GlobeWifi => f_GlobeWifi ??= new Icon(IconFamily.Classic, IconStyle.Thin, "globe-wifi", "e685");
     private static Icon? f_GoalNet;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/goal-net?f=classic&amp;s=thin">Goal Net</a>
@@ -10610,6 +10623,11 @@ public static partial class FaThin
     /// <a href="https://fontawesome.com/icons/hurricane?f=classic&amp;s=thin">Hurricane</a>
     /// </summary>
     public static Icon Hurricane => f_Hurricane ??= new Icon(IconFamily.Classic, IconStyle.Thin, "hurricane", "f751");
+    private static Icon? f_Hydra;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/hydra?f=classic&amp;s=thin">Hydra</a>
+    /// </summary>
+    public static Icon Hydra => f_Hydra ??= new Icon(IconFamily.Classic, IconStyle.Thin, "hydra", "e686");
     private static Icon? f_Hyphen;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hyphen?f=classic&amp;s=thin">Hyphen</a>
@@ -11367,6 +11385,11 @@ public static partial class FaThin
     /// <a href="https://fontawesome.com/icons/lightbulb-gear?f=classic&amp;s=thin">Lightbulb Gear</a>
     /// </summary>
     public static Icon LightbulbGear => f_LightbulbGear ??= new Icon(IconFamily.Classic, IconStyle.Thin, "lightbulb-gear", "e5fd");
+    private static Icon? f_LightbulbMessage;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/lightbulb-message?f=classic&amp;s=thin">Lightbulb Message</a>
+    /// </summary>
+    public static Icon LightbulbMessage => f_LightbulbMessage ??= new Icon(IconFamily.Classic, IconStyle.Thin, "lightbulb-message", "e687");
     private static Icon? f_LightbulbOn;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/lightbulb-on?f=classic&amp;s=thin">Lightbulb On</a>
@@ -13079,6 +13102,11 @@ public static partial class FaThin
     /// <a href="https://fontawesome.com/icons/octagon-xmark?f=classic&amp;s=thin">Octagon Xmark</a>
     /// </summary>
     public static Icon XmarkOctagon => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.OctagonXmark;
+    private static Icon? f_Octopus;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/octopus?f=classic&amp;s=thin">Octopus</a>
+    /// </summary>
+    public static Icon Octopus => f_Octopus ??= new Icon(IconFamily.Classic, IconStyle.Thin, "octopus", "e688");
     private static Icon? f_OilCan;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/oil-can?f=classic&amp;s=thin">Oil Can</a>
@@ -17669,6 +17697,11 @@ public static partial class FaThin
     /// <a href="https://fontawesome.com/icons/table-cells-column-lock?f=classic&amp;s=thin">Table Cells Column Lock</a>
     /// </summary>
     public static Icon TableCellsColumnLock => f_TableCellsColumnLock ??= new Icon(IconFamily.Classic, IconStyle.Thin, "table-cells-column-lock", "e678");
+    private static Icon? f_TableCellsColumnUnlock;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/table-cells-column-unlock?f=classic&amp;s=thin">Table Cells Column Unlock</a>
+    /// </summary>
+    public static Icon TableCellsColumnUnlock => f_TableCellsColumnUnlock ??= new Icon(IconFamily.Classic, IconStyle.Thin, "table-cells-column-unlock", "e690");
     private static Icon? f_TableCellsLarge;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/table-cells-large?f=classic&amp;s=thin">Table Cells Large</a>
@@ -17688,6 +17721,16 @@ public static partial class FaThin
     /// <a href="https://fontawesome.com/icons/table-cells-row-lock?f=classic&amp;s=thin">Table Cells Row Lock</a>
     /// </summary>
     public static Icon TableCellsRowLock => f_TableCellsRowLock ??= new Icon(IconFamily.Classic, IconStyle.Thin, "table-cells-row-lock", "e67a");
+    private static Icon? f_TableCellsRowUnlock;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/table-cells-row-unlock?f=classic&amp;s=thin">Table Cells Row Unlock</a>
+    /// </summary>
+    public static Icon TableCellsRowUnlock => f_TableCellsRowUnlock ??= new Icon(IconFamily.Classic, IconStyle.Thin, "table-cells-row-unlock", "e691");
+    private static Icon? f_TableCellsUnlock;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/table-cells-unlock?f=classic&amp;s=thin">Table Cells Unlock</a>
+    /// </summary>
+    public static Icon TableCellsUnlock => f_TableCellsUnlock ??= new Icon(IconFamily.Classic, IconStyle.Thin, "table-cells-unlock", "e692");
     private static Icon? f_TableColumns;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/table-columns?f=classic&amp;s=thin">Table Columns</a>
@@ -18155,6 +18198,15 @@ public static partial class FaThin
     /// <a href="https://fontawesome.com/icons/thumbtack?f=classic&amp;s=thin">Thumbtack</a>
     /// </summary>
     public static Icon ThumbTack => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Thumbtack;
+    private static Icon? f_ThumbtackSlash;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/thumbtack-slash?f=classic&amp;s=thin">Thumbtack Slash</a>
+    /// </summary>
+    public static Icon ThumbtackSlash => f_ThumbtackSlash ??= new Icon(IconFamily.Classic, IconStyle.Thin, "thumbtack-slash", "e68f");
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/thumbtack-slash?f=classic&amp;s=thin">Thumbtack Slash</a>
+    /// </summary>
+    public static Icon ThumbTackSlash => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.ThumbtackSlash;
     private static Icon? f_Tick;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/tick?f=classic&amp;s=thin">Tick</a>
@@ -19275,6 +19327,11 @@ public static partial class FaThin
     /// <a href="https://fontawesome.com/icons/user-astronaut?f=classic&amp;s=thin">User Astronaut</a>
     /// </summary>
     public static Icon UserAstronaut => f_UserAstronaut ??= new Icon(IconFamily.Classic, IconStyle.Thin, "user-astronaut", "f4fb");
+    private static Icon? f_UserBeardBolt;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/user-beard-bolt?f=classic&amp;s=thin">User Beard Bolt</a>
+    /// </summary>
+    public static Icon UserBeardBolt => f_UserBeardBolt ??= new Icon(IconFamily.Classic, IconStyle.Thin, "user-beard-bolt", "e689");
     private static Icon? f_UserBountyHunter;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/user-bounty-hunter?f=classic&amp;s=thin">User Bounty Hunter</a>
@@ -19420,6 +19477,11 @@ public static partial class FaThin
     /// <a href="https://fontawesome.com/icons/user-helmet-safety?f=classic&amp;s=thin">User Helmet Safety</a>
     /// </summary>
     public static Icon UserHardHat => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.UserHelmetSafety;
+    private static Icon? f_UserHoodie;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/user-hoodie?f=classic&amp;s=thin">User Hoodie</a>
+    /// </summary>
+    public static Icon UserHoodie => f_UserHoodie ??= new Icon(IconFamily.Classic, IconStyle.Thin, "user-hoodie", "e68a");
     private static Icon? f_UserInjured;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/user-injured?f=classic&amp;s=thin">User Injured</a>

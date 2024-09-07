@@ -1,11 +1,14 @@
 using System;
+using System.CodeDom.Compiler;
 using System.Collections.Immutable;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 using Rocket.Surgery.Blazor.FontAwesome6;
 namespace Rocket.Surgery.Blazor.FontAwesome6.Pro;
 /// <summary>
-/// Font Awesome SharpSolid Icons
+/// Font Awesome Sharp solid Icons
 /// </summary>
-[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+[ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
 public static partial class FaSharpSolid
 {
     private static Icon? f__0;
@@ -6262,6 +6265,11 @@ public static partial class FaSharpSolid
     /// <a href="https://fontawesome.com/icons/diamond-turn-right?f=sharp&amp;s=solid">Diamond Turn Right</a>
     /// </summary>
     public static Icon Directions => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.DiamondTurnRight;
+    private static Icon? f_Diamonds4;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/diamonds-4?f=sharp&amp;s=solid">Diamonds 4</a>
+    /// </summary>
+    public static Icon Diamonds4 => f_Diamonds4 ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "diamonds-4", "e68b");
     private static Icon? f_Dice;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/dice?f=sharp&amp;s=solid">Dice</a>
@@ -9206,6 +9214,11 @@ public static partial class FaSharpSolid
     /// <a href="https://fontawesome.com/icons/globe-stand?f=sharp&amp;s=solid">Globe Stand</a>
     /// </summary>
     public static Icon GlobeStand => f_GlobeStand ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "globe-stand", "f5f6");
+    private static Icon? f_GlobeWifi;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/globe-wifi?f=sharp&amp;s=solid">Globe Wifi</a>
+    /// </summary>
+    public static Icon GlobeWifi => f_GlobeWifi ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "globe-wifi", "e685");
     private static Icon? f_GoalNet;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/goal-net?f=sharp&amp;s=solid">Goal Net</a>
@@ -10610,6 +10623,11 @@ public static partial class FaSharpSolid
     /// <a href="https://fontawesome.com/icons/hurricane?f=sharp&amp;s=solid">Hurricane</a>
     /// </summary>
     public static Icon Hurricane => f_Hurricane ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "hurricane", "f751");
+    private static Icon? f_Hydra;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/hydra?f=sharp&amp;s=solid">Hydra</a>
+    /// </summary>
+    public static Icon Hydra => f_Hydra ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "hydra", "e686");
     private static Icon? f_Hyphen;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hyphen?f=sharp&amp;s=solid">Hyphen</a>
@@ -11367,6 +11385,11 @@ public static partial class FaSharpSolid
     /// <a href="https://fontawesome.com/icons/lightbulb-gear?f=sharp&amp;s=solid">Lightbulb Gear</a>
     /// </summary>
     public static Icon LightbulbGear => f_LightbulbGear ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "lightbulb-gear", "e5fd");
+    private static Icon? f_LightbulbMessage;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/lightbulb-message?f=sharp&amp;s=solid">Lightbulb Message</a>
+    /// </summary>
+    public static Icon LightbulbMessage => f_LightbulbMessage ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "lightbulb-message", "e687");
     private static Icon? f_LightbulbOn;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/lightbulb-on?f=sharp&amp;s=solid">Lightbulb On</a>
@@ -13079,6 +13102,11 @@ public static partial class FaSharpSolid
     /// <a href="https://fontawesome.com/icons/octagon-xmark?f=sharp&amp;s=solid">Octagon Xmark</a>
     /// </summary>
     public static Icon XmarkOctagon => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.OctagonXmark;
+    private static Icon? f_Octopus;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/octopus?f=sharp&amp;s=solid">Octopus</a>
+    /// </summary>
+    public static Icon Octopus => f_Octopus ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "octopus", "e688");
     private static Icon? f_OilCan;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/oil-can?f=sharp&amp;s=solid">Oil Can</a>
@@ -17669,6 +17697,11 @@ public static partial class FaSharpSolid
     /// <a href="https://fontawesome.com/icons/table-cells-column-lock?f=sharp&amp;s=solid">Table Cells Column Lock</a>
     /// </summary>
     public static Icon TableCellsColumnLock => f_TableCellsColumnLock ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "table-cells-column-lock", "e678");
+    private static Icon? f_TableCellsColumnUnlock;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/table-cells-column-unlock?f=sharp&amp;s=solid">Table Cells Column Unlock</a>
+    /// </summary>
+    public static Icon TableCellsColumnUnlock => f_TableCellsColumnUnlock ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "table-cells-column-unlock", "e690");
     private static Icon? f_TableCellsLarge;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/table-cells-large?f=sharp&amp;s=solid">Table Cells Large</a>
@@ -17688,6 +17721,16 @@ public static partial class FaSharpSolid
     /// <a href="https://fontawesome.com/icons/table-cells-row-lock?f=sharp&amp;s=solid">Table Cells Row Lock</a>
     /// </summary>
     public static Icon TableCellsRowLock => f_TableCellsRowLock ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "table-cells-row-lock", "e67a");
+    private static Icon? f_TableCellsRowUnlock;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/table-cells-row-unlock?f=sharp&amp;s=solid">Table Cells Row Unlock</a>
+    /// </summary>
+    public static Icon TableCellsRowUnlock => f_TableCellsRowUnlock ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "table-cells-row-unlock", "e691");
+    private static Icon? f_TableCellsUnlock;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/table-cells-unlock?f=sharp&amp;s=solid">Table Cells Unlock</a>
+    /// </summary>
+    public static Icon TableCellsUnlock => f_TableCellsUnlock ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "table-cells-unlock", "e692");
     private static Icon? f_TableColumns;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/table-columns?f=sharp&amp;s=solid">Table Columns</a>
@@ -18155,6 +18198,15 @@ public static partial class FaSharpSolid
     /// <a href="https://fontawesome.com/icons/thumbtack?f=sharp&amp;s=solid">Thumbtack</a>
     /// </summary>
     public static Icon ThumbTack => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Thumbtack;
+    private static Icon? f_ThumbtackSlash;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/thumbtack-slash?f=sharp&amp;s=solid">Thumbtack Slash</a>
+    /// </summary>
+    public static Icon ThumbtackSlash => f_ThumbtackSlash ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "thumbtack-slash", "e68f");
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/thumbtack-slash?f=sharp&amp;s=solid">Thumbtack Slash</a>
+    /// </summary>
+    public static Icon ThumbTackSlash => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.ThumbtackSlash;
     private static Icon? f_Tick;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/tick?f=sharp&amp;s=solid">Tick</a>
@@ -19275,6 +19327,11 @@ public static partial class FaSharpSolid
     /// <a href="https://fontawesome.com/icons/user-astronaut?f=sharp&amp;s=solid">User Astronaut</a>
     /// </summary>
     public static Icon UserAstronaut => f_UserAstronaut ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "user-astronaut", "f4fb");
+    private static Icon? f_UserBeardBolt;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/user-beard-bolt?f=sharp&amp;s=solid">User Beard Bolt</a>
+    /// </summary>
+    public static Icon UserBeardBolt => f_UserBeardBolt ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "user-beard-bolt", "e689");
     private static Icon? f_UserBountyHunter;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/user-bounty-hunter?f=sharp&amp;s=solid">User Bounty Hunter</a>
@@ -19420,6 +19477,11 @@ public static partial class FaSharpSolid
     /// <a href="https://fontawesome.com/icons/user-helmet-safety?f=sharp&amp;s=solid">User Helmet Safety</a>
     /// </summary>
     public static Icon UserHardHat => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.UserHelmetSafety;
+    private static Icon? f_UserHoodie;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/user-hoodie?f=sharp&amp;s=solid">User Hoodie</a>
+    /// </summary>
+    public static Icon UserHoodie => f_UserHoodie ??= new Icon(IconFamily.Sharp, IconStyle.Solid, "user-hoodie", "e68a");
     private static Icon? f_UserInjured;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/user-injured?f=sharp&amp;s=solid">User Injured</a>

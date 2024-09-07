@@ -106,6 +106,10 @@ jobs:
         id: lintGitAdd
         run: |
           dotnet nuke LintGitAdd --skip
+      - name: Regenerate From Metadata
+        id: regenerateFromMetadata
+        run: |
+          dotnet nuke RegenerateFromMetadata --skip
       - name: Add & Commit
         env:
           GITHUB_TOKEN: '${{ secrets.RSG_BOT_TOKEN }}'

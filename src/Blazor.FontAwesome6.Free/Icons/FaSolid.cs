@@ -1,11 +1,14 @@
 using System;
+using System.CodeDom.Compiler;
 using System.Collections.Immutable;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 using Rocket.Surgery.Blazor.FontAwesome6;
 namespace Rocket.Surgery.Blazor.FontAwesome6.Free;
 /// <summary>
 /// Font Awesome Solid Icons
 /// </summary>
-[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+[ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
 public static partial class FaSolid
 {
     private static Icon? f__0;
@@ -7845,6 +7848,11 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/table-cells-row-lock?f=classic&amp;s=solid">Table Cells Row Lock</a>
     /// </summary>
     public static Icon TableCellsRowLock => f_TableCellsRowLock ??= new Icon(IconFamily.Classic, IconStyle.Solid, "table-cells-row-lock", "e67a");
+    private static Icon? f_TableCellsRowUnlock;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/table-cells-row-unlock?f=classic&amp;s=solid">Table Cells Row Unlock</a>
+    /// </summary>
+    public static Icon TableCellsRowUnlock => f_TableCellsRowUnlock ??= new Icon(IconFamily.Classic, IconStyle.Solid, "table-cells-row-unlock", "e691");
     private static Icon? f_TableColumns;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/table-columns?f=classic&amp;s=solid">Table Columns</a>
@@ -8157,6 +8165,15 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/thumbtack?f=classic&amp;s=solid">Thumbtack</a>
     /// </summary>
     public static Icon ThumbTack => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Thumbtack;
+    private static Icon? f_ThumbtackSlash;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/thumbtack-slash?f=classic&amp;s=solid">Thumbtack Slash</a>
+    /// </summary>
+    public static Icon ThumbtackSlash => f_ThumbtackSlash ??= new Icon(IconFamily.Classic, IconStyle.Solid, "thumbtack-slash", "e68f");
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/thumbtack-slash?f=classic&amp;s=solid">Thumbtack Slash</a>
+    /// </summary>
+    public static Icon ThumbTackSlash => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ThumbtackSlash;
     private static Icon? f_Ticket;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/ticket?f=classic&amp;s=solid">Ticket</a>
@@ -9022,6 +9039,11 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/wave-square?f=classic&amp;s=solid">Wave Square</a>
     /// </summary>
     public static Icon WaveSquare => f_WaveSquare ??= new Icon(IconFamily.Classic, IconStyle.Solid, "wave-square", "f83e");
+    private static Icon? f_WebAwesome;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/web-awesome?f=classic&amp;s=solid">Web Awesome</a>
+    /// </summary>
+    public static Icon WebAwesome => f_WebAwesome ??= new Icon(IconFamily.Classic, IconStyle.Solid, "web-awesome", "e682");
     private static Icon? f_WeightHanging;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/weight-hanging?f=classic&amp;s=solid">Weight Hanging</a>

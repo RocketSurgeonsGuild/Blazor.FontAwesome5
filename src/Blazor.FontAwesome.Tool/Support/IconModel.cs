@@ -174,7 +174,7 @@ public partial record CodeIconModel(IconModel Icon)
     public string IconClass(bool svgMode) => svgMode ? "SvgIcon" : "Icon";
 
     public string Href =>
-        $"https://fontawesome.com/icons/user?f={IconModel.GetStyleNameDashes(Icon.Family.Humanize())}&s={IconModel.GetStyleNameDashes(Icon.Style.Humanize())}";
+        $"https://fontawesome.com/icons/{Icon.Id}?f={IconModel.GetStyleNameDashes(Icon.Family.Humanize())}&amp;s={IconModel.GetStyleNameDashes(Icon.Style.Humanize())}";
 
     public string RootHref => $"https://fontawesome.com/icons/{Icon.Id}";
 

@@ -1,6 +1,7 @@
 using System.Collections.Immutable;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using Humanizer;
 using MediatR;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 
@@ -16,14 +17,29 @@ public static class GetIconsFromIconFamilies
         public async Task<ImmutableArray<IconModel>> Handle(Request request, CancellationToken cancellationToken)
         {
             await using var stream = File.OpenRead(request.FilePath);
-            var icons = JsonSerializer.Deserialize<Dictionary<string, IconModelBase>>(
+            var icons = JsonSerializer.Deserialize<Dictionary<string, IconModelIntermediate>>(
                 stream,
                 new JsonSerializerOptions()
                 {
-                    Converters = { new JsonStringEnumConverter<Family>(), new JsonStringEnumConverter<Style>() },
+                    Converters =
+                    {
+                        new JsonStringEnumConverter<Family>(JsonNamingPolicy.KebabCaseLower),
+                        new JsonStringEnumConverter<Style>(JsonNamingPolicy.KebabCaseLower)
+                    },
                     PropertyNameCaseInsensitive = true,
                 }
-            );
+            )!
+           .ToDictionary(z => z.Key, z => new IconModelBase()
+            {
+                Label = z.Value.Label,
+                FamilyStylesByLicense = z.Value.FamilyStylesByLicense,
+                Unicode = z.Value.Unicode,
+                Ligatures = [..z.Value.Ligatures],
+                Private = z.Value.Private,
+                Aliases = z.Value.Aliases,
+                Svgs = parseDictionary(z.Value.Svgs)
+            });
+
 
             return [
                 ..icons
@@ -64,24 +80,46 @@ public static class GetIconsFromIconFamilies
                       }
                   )
             ];
+
+          static  ImmutableDictionary<Family, ImmutableDictionary<Style, SvgData>> parseDictionary(Dictionary<string, Dictionary<string, SvgData>> dictionary)
+            {
+                return dictionary.ToImmutableDictionary(
+                    static x => Enum.Parse<Family>(x.Key.Dehumanize(), true),
+                    static x => x.Value.ToImmutableDictionary(
+                        static y => Enum.Parse<Style>(y.Key.Dehumanize(), true),
+                        static y => y.Value
+                    )
+                );
+            }
         }
     }
 
-    private class IconModelBase
+    private class IconModelIntermediate
     {
         public string Label { get; set; }
         public FamilyStylesByLicense FamilyStylesByLicense { get; set; } = new FamilyStylesByLicense();
         public string? Unicode { get; set; }
-        public IEnumerable<string> Ligatures { get; set; } = Enumerable.Empty<string>();
+        public IEnumerable<string> Ligatures { get; set; } = [];
         public bool Private { get; set; }
         public IconAliases Aliases { get; set; } = new IconAliases();
-        public Dictionary<Family, Dictionary<Style, SvgData>> Svgs { get; set; } = new();
+        public Dictionary<string, Dictionary<string, SvgData>> Svgs { get; set; } = new();
+    }
+
+    private record IconModelBase
+    {
+        public required string Label { get; init; }
+        public required  FamilyStylesByLicense FamilyStylesByLicense { get; init; } = new FamilyStylesByLicense();
+        public required  string? Unicode { get; init; }
+        public required  ImmutableArray<string> Ligatures { get; init; } = [];
+        public required  bool Private { get; init; }
+        public required  IconAliases Aliases { get; init; } = new IconAliases();
+        public required  ImmutableDictionary<Family, ImmutableDictionary<Style, SvgData>> Svgs { get; init; }
     }
 
     private class FamilyStylesByLicense
     {
-        public IEnumerable<FontAwesomeFamilyStyle> Free { get; set; } = Enumerable.Empty<FontAwesomeFamilyStyle>();
-        public IEnumerable<FontAwesomeFamilyStyle> Pro { get; set; } = Enumerable.Empty<FontAwesomeFamilyStyle>();
+        public ImmutableArray<FontAwesomeFamilyStyle> Free { get; set; } = [];
+        public ImmutableArray<FontAwesomeFamilyStyle> Pro { get; set; } = [];
     }
 
     private class FontAwesomeFamilyStyle
@@ -100,8 +138,8 @@ public static class GetIconsFromIconFamilies
         public JsonElement Path { get; set; }
     }
 
-    class IconAliases
+    record IconAliases
     {
-        public IEnumerable<string> Names { get; set; } = Enumerable.Empty<string>();
+        public ImmutableArray<string> Names { get; init; } = [];
     }
 }

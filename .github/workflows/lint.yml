@@ -74,10 +74,10 @@ jobs:
         id: restore
         run: |
           dotnet nuke DotnetCoreRestore Restore --skip
-      - name: Lint
-        id: lint
+      - name: Lint Files
+        id: lintFiles
         run: |
-          dotnet nuke Lint --skip
+          dotnet nuke LintFiles --skip
       - name: Regenerate Build Configurations
         id: regenerateBuildConfigurations
         run: |

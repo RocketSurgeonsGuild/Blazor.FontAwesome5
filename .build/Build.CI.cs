@@ -25,17 +25,6 @@ using Rocket.Surgery.Nuke.GithubActions;
     OnPushBranches = ["master", "main", "next"],
     OnPullRequestBranches = ["master", "main", "next"],
     InvokedTargets = [nameof(Default)],
-    NonEntryTargets =
-    [
-        nameof(ICIEnvironment.CIEnvironment),
-        nameof(ITriggerCodeCoverageReports.TriggerCodeCoverageReports),
-        nameof(ITriggerCodeCoverageReports.GenerateCodeCoverageReportCobertura),
-        nameof(IGenerateCodeCoverageBadges.GenerateCodeCoverageBadges),
-        nameof(IGenerateCodeCoverageReport.GenerateCodeCoverageReport),
-        nameof(IGenerateCodeCoverageSummary.GenerateCodeCoverageSummary),
-        nameof(Default)
-    ],
-    ExcludedTargets = [nameof(ICanClean.Clean), nameof(ICanRestoreWithDotNetCore.DotnetToolRestore)],
     Enhancements = [nameof(CiMiddleware)]
 )]
 [GitHubActionsLint(

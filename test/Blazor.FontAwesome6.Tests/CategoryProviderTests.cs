@@ -3,7 +3,6 @@ using System.Collections.Concurrent;
 using System.Collections.Frozen;
 using System.Collections.Immutable;
 using System.Reflection;
-using System.Text.Json;
 using System.Text.RegularExpressions;
 using FluentAssertions;
 using MediatR;

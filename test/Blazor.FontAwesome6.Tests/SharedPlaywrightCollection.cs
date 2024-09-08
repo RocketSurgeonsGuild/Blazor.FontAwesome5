@@ -2,3 +2,4 @@
 //
 //[CollectionDefinition(nameof(PlaywrightFixture))]
 //public class SharedPlaywrightCollection : ICollectionFixture<PlaywrightFixture> {}
+

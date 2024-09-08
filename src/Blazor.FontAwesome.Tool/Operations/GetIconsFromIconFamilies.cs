@@ -82,7 +82,7 @@ public static class GetIconsFromIconFamilies
                                     JsonValueKind.Array  => a.SvgData.Path.EnumerateArray().Select(z => z.GetString()!),
                                     JsonValueKind.String => [a.SvgData.Path.GetString()!,],
                                     _                    => [],
-                                }
+                                },
                           ],
                       }
                   ),

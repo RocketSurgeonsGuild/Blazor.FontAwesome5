@@ -29,7 +29,7 @@ public class ModuleInitializer
         VerifierSettings.ScrubLinesWithReplace(
             s =>
             {
-                if (regex.Matches(s) is { Count: > 0 } matches)
+                if (regex.Matches(s) is { Count: > 0, } matches)
 
                 {
                     foreach (var match in matches.OfType<Match>())

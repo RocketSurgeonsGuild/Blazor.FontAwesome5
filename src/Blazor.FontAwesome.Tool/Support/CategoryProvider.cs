@@ -1,11 +1,12 @@
 using System.Collections.Frozen;
 using System.Collections.Immutable;
+using System.Diagnostics;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
 namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 
-[System.Diagnostics.DebuggerDisplay("{DebuggerDisplay,nq}")]
+[DebuggerDisplay("{DebuggerDisplay,nq}")]
 public sealed class CategoryProvider
 {
     public static CategoryProvider? Instance { get; internal set; }
@@ -40,21 +41,15 @@ public sealed class CategoryProvider
         var categoryModels = dictionary as CategoryModel[] ?? dictionary.ToArray();
         Categories = categoryModels.ToFrozenDictionary(z => z.Name, z => z, StringComparer.OrdinalIgnoreCase);
         CategoryLookup = categoryModels
-                        .SelectMany(z => z.Icons, (z, y) => (category: z, iconName: y))
+                        .SelectMany(z => z.Icons, (z, y) => ( category: z, iconName: y ))
                         .ToLookup(z => z.iconName, z => z.category, StringComparer.OrdinalIgnoreCase);
     }
 
     public FrozenDictionary<string, CategoryModel> Categories { get; }
     public ILookup<string, CategoryModel> CategoryLookup { get; }
 
-    [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]
-    private string DebuggerDisplay
-    {
-        get
-        {
-            return ToString();
-        }
-    }
+    [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+    private string DebuggerDisplay => ToString();
 
     private class CategoryDictionary : Dictionary<string, CategoryModelBase>
     {
@@ -76,6 +71,7 @@ public sealed class CategoryProvider
     {
         [YamlMember(Alias = "icons")]
         public IEnumerable<string> Icons { get; } = null!;
+
         [YamlMember(Alias = "label")]
         public string Label { get; } = null!;
     }

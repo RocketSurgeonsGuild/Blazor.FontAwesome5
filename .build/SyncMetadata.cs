@@ -1,8 +1,10 @@
 using System.Collections.Immutable;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.FileSystemGlobbing;
 using Nuke.Common;
 using Nuke.Common.IO;
+using Nuke.Common.ProjectModel;
 using Nuke.Common.Tools.Git;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
@@ -21,13 +23,28 @@ public partial class Pipeline
                                    .Executes(
                                         () =>
                                         {
-                                            var a = this
-                                                   .CastAs<ICanDotNetFormat>()
-                                                   .DotnetFormatMatcher
-                                                   .AddExclude(Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free.Directory)
-                                                   .AddExclude(Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Pro.Directory)
-                                                   .AddExclude(Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free_Svg.Directory)
-                                                ;
+                                            excludeProjects(
+                                                this.CastAs<ICanDotNetFormat>().DotnetFormatMatcher,
+                                                Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free,
+                                                Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Pro,
+                                                Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free_Svg
+                                            );
+                                            excludeProjects(
+                                                this.CastAs<ICanDotNetFormat>().JetBrainsCleanupCodeMatcher,
+                                                Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free,
+                                                Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Pro,
+                                                Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free_Svg
+                                            );
+
+                                            static Matcher excludeProjects(Matcher matcher, params Project[] projects)
+                                            {
+                                                foreach (var item in projects)
+                                                {
+                                                    matcher.AddExclude(RootDirectory.GetUnixRelativePathTo(item.Directory) + "/**/*.cs");
+                                                }
+
+                                                return matcher;
+                                            }
                                         }
                                     )
                                    .Inherit<ICanLint>(z => z.LintFiles);

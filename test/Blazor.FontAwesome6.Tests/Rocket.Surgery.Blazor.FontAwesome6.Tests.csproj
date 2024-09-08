@@ -17,10 +17,10 @@
         <PackageReference Include="Microsoft.AspNetCore.Components" />
         <PackageReference Include="Microsoft.AspNetCore.Components.Web" />
         <PackageReference Include="bunit" />
-        <PackageReference Include="Microsoft.Playwright" />
+<!--        <PackageReference Include="Microsoft.Playwright" />-->
         <PackageReference Include="Verify.AngleSharp" />
         <PackageReference Include="Verify.ImageMagick" />
-        <PackageReference Include="Verify.Playwright" />
+<!--        <PackageReference Include="Verify.Playwright" />-->
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
         <ProjectReference Include="..\..\src\Blazor.FontAwesome6\Rocket.Surgery.Blazor.FontAwesome6.csproj" />
         <Compile Remove="snapshots\**\*.cs" />

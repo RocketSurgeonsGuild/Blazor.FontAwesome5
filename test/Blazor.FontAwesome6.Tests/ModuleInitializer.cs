@@ -13,7 +13,7 @@ public class ModuleInitializer
     public static void Init()
     {
         VerifyBunit.Initialize();
-        VerifyPlaywright.Initialize(true);
+//        VerifyPlaywright.Initialize(true);
         VerifyAngleSharpDiffing.Initialize();
         HtmlPrettyPrint.All(
             list =>

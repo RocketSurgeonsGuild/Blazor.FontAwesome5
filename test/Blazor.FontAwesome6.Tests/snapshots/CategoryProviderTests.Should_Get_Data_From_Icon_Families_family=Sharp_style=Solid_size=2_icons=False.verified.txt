@@ -1,0 +1,22 @@
+﻿[
+  {
+    Id: 360-degrees,
+    Label: 360 Degrees,
+    Family: Sharp,
+    Style: Solid,
+    Height: 512,
+    Width: 640,
+    Prefix: fass,
+    LongPrefix: fa-sharp fa-solid
+  },
+  {
+    Id: accent-grave,
+    Label: Accent Grave,
+    Family: Sharp,
+    Style: Solid,
+    Height: 512,
+    Width: 192,
+    Prefix: fass,
+    LongPrefix: fa-sharp fa-solid
+  }
+]

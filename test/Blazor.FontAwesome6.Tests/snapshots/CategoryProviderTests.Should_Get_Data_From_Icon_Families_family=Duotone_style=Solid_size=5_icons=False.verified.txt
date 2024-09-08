@@ -7,7 +7,7 @@
     Height: 512,
     Width: 448,
     Prefix: fad,
-    LongPrefix: fa-duotone
+    LongPrefix: fa-duotone fa-solid
   },
   {
     Id: arrow-down-to-dotted-line,
@@ -17,6 +17,6 @@
     Height: 512,
     Width: 448,
     Prefix: fad,
-    LongPrefix: fa-duotone
+    LongPrefix: fa-duotone fa-solid
   }
 ]

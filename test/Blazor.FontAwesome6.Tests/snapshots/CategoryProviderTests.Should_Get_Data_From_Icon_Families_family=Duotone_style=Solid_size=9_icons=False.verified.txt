@@ -1,0 +1,22 @@
+﻿[
+  {
+    Id: arrow-down-left-and-arrow-up-right-to-center,
+    Label: Arrow Down Left And Arrow Up Right To Center,
+    Family: Duotone,
+    Style: Solid,
+    Height: 512,
+    Width: 512,
+    Prefix: fad,
+    LongPrefix: fa-duotone fa-solid
+  },
+  {
+    Id: arrow-up-right-and-arrow-down-left-from-center,
+    Label: Arrow Up Right And Arrow Down Left From Center,
+    Family: Duotone,
+    Style: Solid,
+    Height: 512,
+    Width: 512,
+    Prefix: fad,
+    LongPrefix: fa-duotone fa-solid
+  }
+]

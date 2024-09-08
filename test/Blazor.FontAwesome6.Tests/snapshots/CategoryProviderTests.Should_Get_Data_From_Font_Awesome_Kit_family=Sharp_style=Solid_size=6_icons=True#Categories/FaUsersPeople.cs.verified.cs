@@ -1,24 +1,27 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Immutable;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 using Rocket.Surgery.Blazor.FontAwesome6;
 namespace Someplace.Categories;
 /// <summary>
 /// Font Awesome Users + People Category Icons
 /// </summary>
-[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+[ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
 public static partial class FaUsersPeople
 {
     /// <summary>
     /// Person Walking Dashed Line Arrow Right
     /// <a href="https://fontawesome.com/icons/person-walking-dashed-line-arrow-right">Person Walking Dashed Line Arrow Right</a>
     /// </summary>
-    [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
     public static partial class PersonWalkingDashedLineArrowRight
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/user?f=sharp&s=solid">Person Walking Dashed Line Arrow Right</a>
+        /// <a href="https://fontawesome.com/icons/person-walking-dashed-line-arrow-right?f=sharp&amp;s=solid">Person Walking Dashed Line Arrow Right</a>
         /// </summary>
-        [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static SvgIcon SharpSolid => global::Someplace.FaSharpSolid.PersonWalkingDashedLineArrowRight;
     }
 }

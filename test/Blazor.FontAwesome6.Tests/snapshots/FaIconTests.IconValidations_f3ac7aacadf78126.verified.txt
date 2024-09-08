@@ -1,0 +1,18 @@
+﻿{
+  Instance: {
+    Icon: {
+      Family: Duotone,
+      Style: Solid,
+      Name: building-columns,
+      Unicode: f19c
+    },
+    BeatScale: 4.0,
+    Beat: true,
+    AnimationDelay: 9s,
+    AnimationDirection: alternate-reverse,
+    AnimationDuration: 10s,
+    AnimationIterationCount: 11,
+    AnimationTiming: ease-in-out
+  },
+  NodeCount: 1
+}

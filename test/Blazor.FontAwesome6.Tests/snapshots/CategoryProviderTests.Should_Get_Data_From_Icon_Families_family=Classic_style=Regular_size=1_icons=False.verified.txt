@@ -9,11 +9,11 @@
     LongPrefix: fa-regular
   },
   {
-    Id: 00,
-    Label: 00,
+    Id: 1,
+    Label: 1,
     Style: Regular,
     Height: 512,
-    Width: 640,
+    Width: 256,
     Prefix: far,
     LongPrefix: fa-regular
   }

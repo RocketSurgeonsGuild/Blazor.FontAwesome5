@@ -9,11 +9,11 @@
     LongPrefix: fa-thin
   },
   {
-    Id: 00,
-    Label: 00,
+    Id: 1,
+    Label: 1,
     Style: Thin,
     Height: 512,
-    Width: 640,
+    Width: 256,
     Prefix: fat,
     LongPrefix: fa-thin
   }

@@ -1,21 +1,24 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Immutable;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 using Rocket.Surgery.Blazor.FontAwesome6;
 namespace Someplace;
 /// <summary>
 /// Font Awesome Sharp light Icons
 /// </summary>
-[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+[ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
 public static partial class FaSharpLight
 {
     private static Icon? f__0;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/user?f=sharp&s=light">0</a>
+    /// <a href="https://fontawesome.com/icons/0?f=sharp&amp;s=light">0</a>
     /// </summary>
     public static Icon _0 => f__0 ??= new Icon(IconFamily.Sharp, IconStyle.Light, "0", "[unicode]");
-    private static Icon? f__00;
+    private static Icon? f__1;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/user?f=sharp&s=light">00</a>
+    /// <a href="https://fontawesome.com/icons/1?f=sharp&amp;s=light">1</a>
     /// </summary>
-    public static Icon _00 => f__00 ??= new Icon(IconFamily.Sharp, IconStyle.Light, "00", "[unicode]");
+    public static Icon _1 => f__1 ??= new Icon(IconFamily.Sharp, IconStyle.Light, "1", "[unicode]");
 }

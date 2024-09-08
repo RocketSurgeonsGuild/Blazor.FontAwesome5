@@ -1,24 +1,27 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Immutable;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 using Rocket.Surgery.Blazor.FontAwesome6;
 namespace Someplace.Categories;
 /// <summary>
 /// Font Awesome Film + Video Category Icons
 /// </summary>
-[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+[ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
 public static partial class FaFilmVideo
 {
     /// <summary>
     /// 360 Degrees
     /// <a href="https://fontawesome.com/icons/360-degrees">360 Degrees</a>
     /// </summary>
-    [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
     public static partial class _360Degrees
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/user?f=sharp&s=light">360 Degrees</a>
+        /// <a href="https://fontawesome.com/icons/360-degrees?f=sharp&amp;s=light">360 Degrees</a>
         /// </summary>
-        [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static SvgIcon SharpLight => global::Someplace.FaSharpLight._360Degrees;
     }
 }

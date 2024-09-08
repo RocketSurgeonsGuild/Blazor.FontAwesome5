@@ -1,37 +1,40 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Immutable;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 using Rocket.Surgery.Blazor.FontAwesome6;
 namespace Someplace.Categories;
 /// <summary>
 /// Font Awesome Arrows Category Icons
 /// </summary>
-[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+[ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
 public static partial class FaArrows
 {
     /// <summary>
     /// Arrow Down From Dotted Line
     /// <a href="https://fontawesome.com/icons/arrow-down-from-dotted-line">Arrow Down From Dotted Line</a>
     /// </summary>
-    [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
     public static partial class ArrowDownFromDottedLine
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/user?f=classic&s=thin">Arrow Down From Dotted Line</a>
+        /// <a href="https://fontawesome.com/icons/arrow-down-from-dotted-line?f=classic&amp;s=thin">Arrow Down From Dotted Line</a>
         /// </summary>
-        [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static SvgIcon Thin => global::Someplace.FaThin.ArrowDownFromDottedLine;
     }
     /// <summary>
     /// Arrow Down To Dotted Line
     /// <a href="https://fontawesome.com/icons/arrow-down-to-dotted-line">Arrow Down To Dotted Line</a>
     /// </summary>
-    [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
     public static partial class ArrowDownToDottedLine
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/user?f=classic&s=thin">Arrow Down To Dotted Line</a>
+        /// <a href="https://fontawesome.com/icons/arrow-down-to-dotted-line?f=classic&amp;s=thin">Arrow Down To Dotted Line</a>
         /// </summary>
-        [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static SvgIcon Thin => global::Someplace.FaThin.ArrowDownToDottedLine;
     }
 }

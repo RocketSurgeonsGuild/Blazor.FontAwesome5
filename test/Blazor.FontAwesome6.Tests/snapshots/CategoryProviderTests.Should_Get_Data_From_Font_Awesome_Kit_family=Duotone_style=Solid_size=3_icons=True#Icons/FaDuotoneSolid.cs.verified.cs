@@ -1,21 +1,24 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Immutable;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 using Rocket.Surgery.Blazor.FontAwesome6;
 namespace Someplace;
 /// <summary>
 /// Font Awesome Duotone solid Icons
 /// </summary>
-[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+[ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
 public static partial class FaDuotoneSolid
 {
     private static SvgIcon? f_AlbumCirclePlus;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/user?f=duotone&s=solid">Album Circle Plus</a>
+    /// <a href="https://fontawesome.com/icons/album-circle-plus?f=duotone&amp;s=solid">Album Circle Plus</a>
     /// </summary>
     public static SvgIcon AlbumCirclePlus => f_AlbumCirclePlus ??= new SvgIcon(IconFamily.Duotone, IconStyle.Solid, "album-circle-plus", "[unicode]", 576, 512, "[path]");
     private static SvgIcon? f_AlbumCircleUser;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/user?f=duotone&s=solid">Album Circle User</a>
+    /// <a href="https://fontawesome.com/icons/album-circle-user?f=duotone&amp;s=solid">Album Circle User</a>
     /// </summary>
     public static SvgIcon AlbumCircleUser => f_AlbumCircleUser ??= new SvgIcon(IconFamily.Duotone, IconStyle.Solid, "album-circle-user", "[unicode]", 576, 512, "[path]");
 }

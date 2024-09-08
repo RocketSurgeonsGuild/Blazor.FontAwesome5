@@ -1,21 +1,24 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Immutable;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 using Rocket.Surgery.Blazor.FontAwesome6;
 namespace Someplace;
 /// <summary>
 /// Font Awesome Regular Icons
 /// </summary>
-[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+[ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
 public static partial class FaRegular
 {
     private static SvgIcon? f__0;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/user?f=classic&s=regular">0</a>
+    /// <a href="https://fontawesome.com/icons/0?f=classic&amp;s=regular">0</a>
     /// </summary>
     public static SvgIcon _0 => f__0 ??= new SvgIcon(IconFamily.Classic, IconStyle.Regular, "0", "[unicode]", 320, 512, "[path]");
-    private static SvgIcon? f__00;
+    private static SvgIcon? f__1;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/user?f=classic&s=regular">00</a>
+    /// <a href="https://fontawesome.com/icons/1?f=classic&amp;s=regular">1</a>
     /// </summary>
-    public static SvgIcon _00 => f__00 ??= new SvgIcon(IconFamily.Classic, IconStyle.Regular, "00", "[unicode]", 640, 512, "[path]");
+    public static SvgIcon _1 => f__1 ??= new SvgIcon(IconFamily.Classic, IconStyle.Regular, "1", "[unicode]", 256, 512, "[path]");
 }

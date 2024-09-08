@@ -1,0 +1,20 @@
+﻿[
+  {
+    Id: house-flood-water-circle-arrow-right,
+    Label: House Flood Water Circle Arrow Right,
+    Style: Regular,
+    Height: 512,
+    Width: 640,
+    Prefix: far,
+    LongPrefix: fa-regular
+  },
+  {
+    Id: person-walking-dashed-line-arrow-right,
+    Label: Person Walking Dashed Line Arrow Right,
+    Style: Regular,
+    Height: 512,
+    Width: 640,
+    Prefix: far,
+    LongPrefix: fa-regular
+  }
+]

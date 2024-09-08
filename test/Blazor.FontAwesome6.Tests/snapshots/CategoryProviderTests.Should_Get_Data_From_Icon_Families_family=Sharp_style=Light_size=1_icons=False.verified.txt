@@ -10,12 +10,12 @@
     LongPrefix: fa-sharp fa-light
   },
   {
-    Id: 00,
-    Label: 00,
+    Id: 1,
+    Label: 1,
     Family: Sharp,
     Style: Light,
     Height: 512,
-    Width: 640,
+    Width: 256,
     Prefix: fasl,
     LongPrefix: fa-sharp fa-light
   }

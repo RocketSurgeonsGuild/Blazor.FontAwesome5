@@ -1,11 +1,12 @@
-﻿using System.Collections.Frozen;
+using System.Collections.Frozen;
 using System.Collections.Immutable;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
 namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 
-public class CategoryProvider
+[System.Diagnostics.DebuggerDisplay("{DebuggerDisplay,nq}")]
+public sealed class CategoryProvider
 {
     public static CategoryProvider? Instance { get; internal set; }
 
@@ -15,7 +16,7 @@ public class CategoryProvider
 
         return new(
             new DeserializerBuilder()
-               .WithNamingConvention(CamelCaseNamingConvention.Instance)
+               .WithNamingConvention(HyphenatedNamingConvention.Instance)
                .Build()
                .Deserialize<CategoryDictionary>(reader.ReadToEnd())
                .ToModels()
@@ -39,12 +40,21 @@ public class CategoryProvider
         var categoryModels = dictionary as CategoryModel[] ?? dictionary.ToArray();
         Categories = categoryModels.ToFrozenDictionary(z => z.Name, z => z, StringComparer.OrdinalIgnoreCase);
         CategoryLookup = categoryModels
-                        .SelectMany(z => z.Icons, (z, y) => ( category: z, iconName: y ))
+                        .SelectMany(z => z.Icons, (z, y) => (category: z, iconName: y))
                         .ToLookup(z => z.iconName, z => z.category, StringComparer.OrdinalIgnoreCase);
     }
 
     public FrozenDictionary<string, CategoryModel> Categories { get; }
     public ILookup<string, CategoryModel> CategoryLookup { get; }
+
+    [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]
+    private string DebuggerDisplay
+    {
+        get
+        {
+            return ToString();
+        }
+    }
 
     private class CategoryDictionary : Dictionary<string, CategoryModelBase>
     {
@@ -64,7 +74,9 @@ public class CategoryProvider
 
     private class CategoryModelBase
     {
-        public IEnumerable<string> Icons { get; }
-        public string Label { get; }
+        [YamlMember(Alias = "icons")]
+        public IEnumerable<string> Icons { get; } = null!;
+        [YamlMember(Alias = "label")]
+        public string Label { get; } = null!;
     }
 }

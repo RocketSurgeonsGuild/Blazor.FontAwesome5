@@ -11,21 +11,20 @@ public class IconTests : LoggerTest
     [Fact]
     public Task Should_Support_Implicit_Conversion_From_Known_Enum()
     {
-        return Verify(FaDuotone.CircleHalfStroke);
+        return Verify(FaDuotoneSolid.CircleHalfStroke);
     }
 
     [Fact]
     public Task Should_Render_An_Icon()
     {
-        return Verify(FaDuotone.CircleHalfStroke.ToIcon());
+        return Verify(FaDuotoneSolid.CircleHalfStroke.ToIcon());
     }
 
     [Fact]
     public Task Should_Render_A_Transformed_Icon()
     {
         return Verify(
-            FaDuotone
-               .CircleHalfStroke
+            FaDuotoneSolid.CircleHalfStroke
                .Left(2)
                .RotateLeft(120)
                .RotateRight(80)
@@ -42,21 +41,20 @@ public class IconTests : LoggerTest
     [Fact]
     public Task Should_Render_A_FixedWith_Icon()
     {
-        return Verify(FaDuotone.CircleHalfStroke.FixedWidth().ToIcon());
+        return Verify(FaDuotoneSolid.CircleHalfStroke.FixedWidth().ToIcon());
     }
 
     [Fact]
     public Task Should_Render_A_Spin_Icon()
     {
-        return Verify(FaDuotone.CircleHalfStroke.Spin());
+        return Verify(FaDuotoneSolid.CircleHalfStroke.Spin());
     }
 
     [Fact]
     public Task Should_Render_A_Pulse_Icon()
     {
         return Verify(
-            FaDuotone
-               .CircleHalfStroke
+            FaDuotoneSolid.CircleHalfStroke
                .SpinPulse()
                .ToIcon()
         );
@@ -66,8 +64,7 @@ public class IconTests : LoggerTest
     public Task Should_Render_A_Border_Icon()
     {
         return Verify(
-            FaDuotone
-               .CircleHalfStroke
+            FaDuotoneSolid.CircleHalfStroke
                .Border()
                .ToIcon()
         );
@@ -77,8 +74,7 @@ public class IconTests : LoggerTest
     public Task Should_Render_A_Inverse_Icon()
     {
         return Verify(
-            FaDuotone
-               .CircleHalfStroke
+            FaDuotoneSolid.CircleHalfStroke
                .Inverse()
                .ToIcon()
         );
@@ -88,8 +84,7 @@ public class IconTests : LoggerTest
     public Task Should_Render_A_Mask_Icon()
     {
         return Verify(
-            FaDuotone
-               .CircleHalfStroke
+            FaDuotoneSolid.CircleHalfStroke
                .Mask(FaBrands.Microsoft)
                .ToIcon()
         );
@@ -105,8 +100,7 @@ public class IconTests : LoggerTest
     public Task Should_Render_A_Flip_Icon(IconFlip iconFlip, string expected)
     {
         return Verify(
-                FaDuotone
-                   .CircleHalfStroke
+                FaDuotoneSolid.CircleHalfStroke
                    .FlipIcon(iconFlip)
                    .ToIcon()
             )
@@ -124,8 +118,7 @@ public class IconTests : LoggerTest
     public Task Should_Render_A_Size_Icon(IconSize iconSize, string expected)
     {
         return Verify(
-                FaDuotone
-                   .CircleHalfStroke
+                FaDuotoneSolid.CircleHalfStroke
                    .Size(iconSize)
                    .ToIcon()
             )
@@ -139,8 +132,7 @@ public class IconTests : LoggerTest
     public Task Should_Render_A_Pull_Icon(IconPull iconPull, string expected)
     {
         return Verify(
-                FaDuotone
-                   .CircleHalfStroke
+                FaDuotoneSolid.CircleHalfStroke
                    .Pull(iconPull)
                    .ToIcon()
             )
@@ -162,14 +154,13 @@ public class IconTests : LoggerTest
         {
             foreach (var size in Enum.GetValues<IconSize>().Distinct())
             {
-                AddIcon(FaDuotone.Link.Size(size), size);
+                AddIcon(FaDuotoneSolid.Link.Size(size), size);
             }
 
-            AddIcon(FaDuotone.Link.FixedWidth());
-            AddIcon(FaDuotone.Link.FixedWidth(false));
+            AddIcon(FaDuotoneSolid.Link.FixedWidth());
+            AddIcon(FaDuotoneSolid.Link.FixedWidth(false));
             AddIcon(
-                FaDuotone
-                   .Barcode
+                FaDuotoneSolid.Barcode
                    .Grow(2)
                    .Shrink(3)
                    .Up(4)
@@ -178,13 +169,13 @@ public class IconTests : LoggerTest
                    .Right(7)
                    .Rotate(8)
             );
-            AddIcon(FaDuotone.Barcode.RotateLeft(100));
-            AddIcon(FaDuotone.Barcode.RotateRight(100));
-            AddIcon(FaDuotone.Barcode.RotateBy("100deg"));
-            AddIcon(FaDuotone.Barcode.FlipIcon());
-            AddIcon(FaDuotone.Barcode.FlipIcon(IconFlip.Vertical));
-            AddIcon(FaDuotone.Barcode.FlipIcon(IconFlip.Horizontal));
-            AddIcon(FaDuotone.Barcode.FlipIcon(IconFlip.Both));
+            AddIcon(FaDuotoneSolid.Barcode.RotateLeft(100));
+            AddIcon(FaDuotoneSolid.Barcode.RotateRight(100));
+            AddIcon(FaDuotoneSolid.Barcode.RotateBy("100deg"));
+            AddIcon(FaDuotoneSolid.Barcode.FlipIcon());
+            AddIcon(FaDuotoneSolid.Barcode.FlipIcon(IconFlip.Vertical));
+            AddIcon(FaDuotoneSolid.Barcode.FlipIcon(IconFlip.Horizontal));
+            AddIcon(FaDuotoneSolid.Barcode.FlipIcon(IconFlip.Both));
         }
     }
 
@@ -193,7 +184,7 @@ public class IconTests : LoggerTest
         public IconBorderAndPullData()
         {
             AddIcon(
-                FaDuotone.BuildingColumns
+                FaDuotoneSolid.BuildingColumns
                          .Border(
                               true,
                               "#FF0000",
@@ -205,12 +196,12 @@ public class IconTests : LoggerTest
             );
             foreach (var item in Enum.GetValues<IconPull>())
             {
-                AddIcon(FaDuotone.BuildingColumns.Pull(item, "20px"), item);
+                AddIcon(FaDuotoneSolid.BuildingColumns.Pull(item, "20px"), item);
             }
 
-            AddIcon(FaDuotone.BuildingColumns.Pull(IconPull.Right).PullMargin("10px"));
-            AddIcon(FaDuotone.BuildingColumns.PullRight());
-            AddIcon(FaDuotone.BuildingColumns.PullLeft());
+            AddIcon(FaDuotoneSolid.BuildingColumns.Pull(IconPull.Right).PullMargin("10px"));
+            AddIcon(FaDuotoneSolid.BuildingColumns.PullRight());
+            AddIcon(FaDuotoneSolid.BuildingColumns.PullLeft());
         }
     }
 
@@ -234,7 +225,7 @@ public class IconTests : LoggerTest
             foreach (var item in Enum.GetValues<IconAnimation>().Concat(Enum.GetValues<IconAnimation>().Select(i => i | IconAnimation.Reverse)).Distinct())
             {
                 AddIcon(
-                    FaDuotone.BatteryFull
+                    FaDuotoneSolid.BatteryFull
                              .Animate(
                                   item,
                                   "3s",
@@ -248,38 +239,33 @@ public class IconTests : LoggerTest
             }
 
             AddIcon(
-                FaDuotone
-                   .BatteryFull
+                FaDuotoneSolid.BatteryFull
                    .Animate(IconAnimation.Beat)
                    .AnimationDirection("alternate-reverse")
             );
             AddIcon(
-                FaDuotone
-                   .BatteryFull
+                FaDuotoneSolid.BatteryFull
                    .Animate(IconAnimation.Beat)
                    .AnimationDuration("2s")
             );
             AddIcon(
-                FaDuotone
-                   .BatteryFull
+                FaDuotoneSolid.BatteryFull
                    .Animate(IconAnimation.Beat)
                    .AnimationTiming("ease-in-out")
             );
             AddIcon(
-                FaDuotone
-                   .BatteryFull
+                FaDuotoneSolid.BatteryFull
                    .Animate(IconAnimation.Beat)
                    .AnimationDelay("3s")
             );
             AddIcon(
-                FaDuotone
-                   .BatteryFull
+                FaDuotoneSolid.BatteryFull
                    .Animate(IconAnimation.Beat)
                    .AnimationIterationCount("4s")
             );
 
             AddIcon(
-                FaDuotone.BuildingColumns
+                FaDuotoneSolid.BuildingColumns
                          .Bounce(
                               1,
                               2,
@@ -298,7 +284,7 @@ public class IconTests : LoggerTest
             );
 
             AddIcon(
-                FaDuotone.BuildingColumns
+                FaDuotoneSolid.BuildingColumns
                          .Beat(
                               4,
                               "9s",
@@ -310,7 +296,7 @@ public class IconTests : LoggerTest
             );
 
             AddIcon(
-                FaDuotone.BuildingColumns
+                FaDuotoneSolid.BuildingColumns
                          .Fade(
                               4,
                               "9s",
@@ -322,7 +308,7 @@ public class IconTests : LoggerTest
             );
 
             AddIcon(
-                FaDuotone.BuildingColumns
+                FaDuotoneSolid.BuildingColumns
                          .BeatFade(
                               4,
                               5,
@@ -335,7 +321,7 @@ public class IconTests : LoggerTest
             );
 
             AddIcon(
-                FaDuotone.BuildingColumns
+                FaDuotoneSolid.BuildingColumns
                          .Flip(
                               1,
                               2,
@@ -350,7 +336,7 @@ public class IconTests : LoggerTest
             );
 
             AddIcon(
-                FaDuotone.BuildingColumns
+                FaDuotoneSolid.BuildingColumns
                          .Shake(
                               "9s",
                               "alternate-reverse",
@@ -361,7 +347,7 @@ public class IconTests : LoggerTest
             );
 
             AddIcon(
-                FaDuotone.BuildingColumns
+                FaDuotoneSolid.BuildingColumns
                          .Spin(
                               true,
                               "9s",
@@ -373,7 +359,7 @@ public class IconTests : LoggerTest
             );
 
             AddIcon(
-                FaDuotone.BuildingColumns
+                FaDuotoneSolid.BuildingColumns
                          .Spin(
                               false,
                               "9s",
@@ -385,7 +371,7 @@ public class IconTests : LoggerTest
             );
 
             AddIcon(
-                FaDuotone.BuildingColumns
+                FaDuotoneSolid.BuildingColumns
                          .SpinPulse(
                               true,
                               "9s",
@@ -397,7 +383,7 @@ public class IconTests : LoggerTest
             );
 
             AddIcon(
-                FaDuotone.BuildingColumns
+                FaDuotoneSolid.BuildingColumns
                          .SpinPulse(
                               false,
                               "9s",

@@ -24,7 +24,8 @@ public class IconTests : LoggerTest
     public Task Should_Render_A_Transformed_Icon()
     {
         return Verify(
-            FaDuotoneSolid.CircleHalfStroke
+            FaDuotoneSolid
+               .CircleHalfStroke
                .Left(2)
                .RotateLeft(120)
                .RotateRight(80)
@@ -54,7 +55,8 @@ public class IconTests : LoggerTest
     public Task Should_Render_A_Pulse_Icon()
     {
         return Verify(
-            FaDuotoneSolid.CircleHalfStroke
+            FaDuotoneSolid
+               .CircleHalfStroke
                .SpinPulse()
                .ToIcon()
         );
@@ -64,7 +66,8 @@ public class IconTests : LoggerTest
     public Task Should_Render_A_Border_Icon()
     {
         return Verify(
-            FaDuotoneSolid.CircleHalfStroke
+            FaDuotoneSolid
+               .CircleHalfStroke
                .Border()
                .ToIcon()
         );
@@ -74,7 +77,8 @@ public class IconTests : LoggerTest
     public Task Should_Render_A_Inverse_Icon()
     {
         return Verify(
-            FaDuotoneSolid.CircleHalfStroke
+            FaDuotoneSolid
+               .CircleHalfStroke
                .Inverse()
                .ToIcon()
         );
@@ -84,7 +88,8 @@ public class IconTests : LoggerTest
     public Task Should_Render_A_Mask_Icon()
     {
         return Verify(
-            FaDuotoneSolid.CircleHalfStroke
+            FaDuotoneSolid
+               .CircleHalfStroke
                .Mask(FaBrands.Microsoft)
                .ToIcon()
         );
@@ -100,7 +105,8 @@ public class IconTests : LoggerTest
     public Task Should_Render_A_Flip_Icon(IconFlip iconFlip, string expected)
     {
         return Verify(
-                FaDuotoneSolid.CircleHalfStroke
+                FaDuotoneSolid
+                   .CircleHalfStroke
                    .FlipIcon(iconFlip)
                    .ToIcon()
             )
@@ -118,7 +124,8 @@ public class IconTests : LoggerTest
     public Task Should_Render_A_Size_Icon(IconSize iconSize, string expected)
     {
         return Verify(
-                FaDuotoneSolid.CircleHalfStroke
+                FaDuotoneSolid
+                   .CircleHalfStroke
                    .Size(iconSize)
                    .ToIcon()
             )
@@ -132,7 +139,8 @@ public class IconTests : LoggerTest
     public Task Should_Render_A_Pull_Icon(IconPull iconPull, string expected)
     {
         return Verify(
-                FaDuotoneSolid.CircleHalfStroke
+                FaDuotoneSolid
+                   .CircleHalfStroke
                    .Pull(iconPull)
                    .ToIcon()
             )
@@ -160,7 +168,8 @@ public class IconTests : LoggerTest
             AddIcon(FaDuotoneSolid.Link.FixedWidth());
             AddIcon(FaDuotoneSolid.Link.FixedWidth(false));
             AddIcon(
-                FaDuotoneSolid.Barcode
+                FaDuotoneSolid
+                   .Barcode
                    .Grow(2)
                    .Shrink(3)
                    .Up(4)
@@ -185,14 +194,14 @@ public class IconTests : LoggerTest
         {
             AddIcon(
                 FaDuotoneSolid.BuildingColumns
-                         .Border(
-                              true,
-                              "#FF0000",
-                              "6px",
-                              "8px",
-                              "solid",
-                              "100px"
-                          )
+                              .Border(
+                                   true,
+                                   "#FF0000",
+                                   "6px",
+                                   "8px",
+                                   "solid",
+                                   "100px"
+                               )
             );
             foreach (var item in Enum.GetValues<IconPull>())
             {
@@ -226,172 +235,177 @@ public class IconTests : LoggerTest
             {
                 AddIcon(
                     FaDuotoneSolid.BatteryFull
-                             .Animate(
-                                  item,
-                                  "3s",
-                                  "alternate-reverse",
-                                  "4s",
-                                  "5s",
-                                  "ease-in-out"
-                              ),
+                                  .Animate(
+                                       item,
+                                       "3s",
+                                       "alternate-reverse",
+                                       "4s",
+                                       "5s",
+                                       "ease-in-out"
+                                   ),
                     item
                 );
             }
 
             AddIcon(
-                FaDuotoneSolid.BatteryFull
+                FaDuotoneSolid
+                   .BatteryFull
                    .Animate(IconAnimation.Beat)
                    .AnimationDirection("alternate-reverse")
             );
             AddIcon(
-                FaDuotoneSolid.BatteryFull
+                FaDuotoneSolid
+                   .BatteryFull
                    .Animate(IconAnimation.Beat)
                    .AnimationDuration("2s")
             );
             AddIcon(
-                FaDuotoneSolid.BatteryFull
+                FaDuotoneSolid
+                   .BatteryFull
                    .Animate(IconAnimation.Beat)
                    .AnimationTiming("ease-in-out")
             );
             AddIcon(
-                FaDuotoneSolid.BatteryFull
+                FaDuotoneSolid
+                   .BatteryFull
                    .Animate(IconAnimation.Beat)
                    .AnimationDelay("3s")
             );
             AddIcon(
-                FaDuotoneSolid.BatteryFull
+                FaDuotoneSolid
+                   .BatteryFull
                    .Animate(IconAnimation.Beat)
                    .AnimationIterationCount("4s")
             );
 
             AddIcon(
                 FaDuotoneSolid.BuildingColumns
-                         .Bounce(
-                              1,
-                              2,
-                              3,
-                              4,
-                              5,
-                              6,
-                              7,
-                              8,
-                              "9s",
-                              "alternate-reverse",
-                              "10s",
-                              "11",
-                              "ease-in-out"
-                          )
+                              .Bounce(
+                                   1,
+                                   2,
+                                   3,
+                                   4,
+                                   5,
+                                   6,
+                                   7,
+                                   8,
+                                   "9s",
+                                   "alternate-reverse",
+                                   "10s",
+                                   "11",
+                                   "ease-in-out"
+                               )
             );
 
             AddIcon(
                 FaDuotoneSolid.BuildingColumns
-                         .Beat(
-                              4,
-                              "9s",
-                              "alternate-reverse",
-                              "10s",
-                              "11",
-                              "ease-in-out"
-                          )
+                              .Beat(
+                                   4,
+                                   "9s",
+                                   "alternate-reverse",
+                                   "10s",
+                                   "11",
+                                   "ease-in-out"
+                               )
             );
 
             AddIcon(
                 FaDuotoneSolid.BuildingColumns
-                         .Fade(
-                              4,
-                              "9s",
-                              "alternate-reverse",
-                              "10s",
-                              "11",
-                              "ease-in-out"
-                          )
+                              .Fade(
+                                   4,
+                                   "9s",
+                                   "alternate-reverse",
+                                   "10s",
+                                   "11",
+                                   "ease-in-out"
+                               )
             );
 
             AddIcon(
                 FaDuotoneSolid.BuildingColumns
-                         .BeatFade(
-                              4,
-                              5,
-                              "9s",
-                              "alternate-reverse",
-                              "10s",
-                              "11",
-                              "ease-in-out"
-                          )
+                              .BeatFade(
+                                   4,
+                                   5,
+                                   "9s",
+                                   "alternate-reverse",
+                                   "10s",
+                                   "11",
+                                   "ease-in-out"
+                               )
             );
 
             AddIcon(
                 FaDuotoneSolid.BuildingColumns
-                         .Flip(
-                              1,
-                              2,
-                              3,
-                              "10deg",
-                              "9s",
-                              "alternate-reverse",
-                              "10s",
-                              "11",
-                              "ease-in-out"
-                          )
+                              .Flip(
+                                   1,
+                                   2,
+                                   3,
+                                   "10deg",
+                                   "9s",
+                                   "alternate-reverse",
+                                   "10s",
+                                   "11",
+                                   "ease-in-out"
+                               )
             );
 
             AddIcon(
                 FaDuotoneSolid.BuildingColumns
-                         .Shake(
-                              "9s",
-                              "alternate-reverse",
-                              "10s",
-                              "11",
-                              "ease-in-out"
-                          )
+                              .Shake(
+                                   "9s",
+                                   "alternate-reverse",
+                                   "10s",
+                                   "11",
+                                   "ease-in-out"
+                               )
             );
 
             AddIcon(
                 FaDuotoneSolid.BuildingColumns
-                         .Spin(
-                              true,
-                              "9s",
-                              "alternate-reverse",
-                              "10s",
-                              "11",
-                              "ease-in-out"
-                          )
+                              .Spin(
+                                   true,
+                                   "9s",
+                                   "alternate-reverse",
+                                   "10s",
+                                   "11",
+                                   "ease-in-out"
+                               )
             );
 
             AddIcon(
                 FaDuotoneSolid.BuildingColumns
-                         .Spin(
-                              false,
-                              "9s",
-                              "alternate-reverse",
-                              "10s",
-                              "11",
-                              "ease-in-out"
-                          )
+                              .Spin(
+                                   false,
+                                   "9s",
+                                   "alternate-reverse",
+                                   "10s",
+                                   "11",
+                                   "ease-in-out"
+                               )
             );
 
             AddIcon(
                 FaDuotoneSolid.BuildingColumns
-                         .SpinPulse(
-                              true,
-                              "9s",
-                              "alternate-reverse",
-                              "10s",
-                              "11",
-                              "ease-in-out"
-                          )
+                              .SpinPulse(
+                                   true,
+                                   "9s",
+                                   "alternate-reverse",
+                                   "10s",
+                                   "11",
+                                   "ease-in-out"
+                               )
             );
 
             AddIcon(
                 FaDuotoneSolid.BuildingColumns
-                         .SpinPulse(
-                              false,
-                              "9s",
-                              "alternate-reverse",
-                              "10s",
-                              "11",
-                              "ease-in-out"
-                          )
+                              .SpinPulse(
+                                   false,
+                                   "9s",
+                                   "alternate-reverse",
+                                   "10s",
+                                   "11",
+                                   "ease-in-out"
+                               )
             );
         }
     }

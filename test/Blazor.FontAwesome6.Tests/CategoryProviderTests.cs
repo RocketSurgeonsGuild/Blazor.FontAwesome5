@@ -2,11 +2,9 @@
 using System.Collections.Concurrent;
 using System.Collections.Frozen;
 using System.Collections.Immutable;
-using System.Reactive.Disposables;
 using System.Reflection;
 using System.Text.Json;
 using System.Text.RegularExpressions;
-using DryIoc.ImTools;
 using FluentAssertions;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,7 +13,6 @@ using Rocket.Surgery.Blazor.FontAwesome.Tool;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 using Rocket.Surgery.Hosting;
-using SkipException = Xunit.Sdk.SkipException;
 
 namespace Rocket.Surgery.Blazor.FontAwesome6.Tests;
 
@@ -107,12 +104,20 @@ public class CategoryProviderTests
         }
     }
 
-    public static IEnumerable<object[]> GetIconsFromIconFamilies() => FontFamilies is null ? [] : ReturnMemberData(FontFamilies, new GetIconsFromIconFamilies.Request(FontFamilies, true));
+    public static IEnumerable<object[]> GetIconsFromIconFamilies()
+    {
+        return FontFamilies is null ? [] : ReturnMemberData(FontFamilies, new GetIconsFromIconFamilies.Request(FontFamilies, true));
+    }
 
-    public static IEnumerable<object[]> GetIconsFromRelease(string faVersion) =>
-        ReturnMemberData(faVersion, new GetIconsFromRelease.Request(faVersion));
+    public static IEnumerable<object[]> GetIconsFromRelease(string faVersion)
+    {
+        return ReturnMemberData(faVersion, new GetIconsFromRelease.Request(faVersion));
+    }
 
-    public static IEnumerable<object[]> GetIconsFromKit(string kit) => ReturnMemberData(kit, new GetIconsFromKit.Request(kit));
+    public static IEnumerable<object[]> GetIconsFromKit(string kit)
+    {
+        return ReturnMemberData(kit, new GetIconsFromKit.Request(kit));
+    }
 
     private static readonly ConcurrentDictionary<string, ImmutableArray<IconModel>> _cache = new();
     private static string TempDirectory { get; } = Path.Combine(Path.GetTempPath(), ".fat");
@@ -144,10 +149,11 @@ public class CategoryProviderTests
             iconsTask.Wait();
             var icons = iconsTask.Result;
 
-            return [
+            return
+            [
                 ..icons
                  .GroupBy(z => ( z.Family, z.Style, Size: z.Id.Split('-').Length ))
-                 .SelectMany(z => z.Take(5))
+                 .SelectMany(z => z.Take(5)),
             ];
         }
 
@@ -158,11 +164,11 @@ public class CategoryProviderTests
                                      .GroupBy(z => ( z.Family, z.Style, Size: z.Id.Split('-').Length ))
                                      .Select(z => ( z.Key.Family, z.Key.Style, z.Key.Size, Icons: z.Take(2).ToFrozenSet() ))
                                      .Where((_, i) => i % 2 == 1)
-                                      )
+                    )
             {
                 // 2 is svg mode
-                yield return [iconGroup.Family, iconGroup.Style, iconGroup.Size, new IconsCollection(iconGroup.Icons), true];
-                yield return [iconGroup.Family, iconGroup.Style, iconGroup.Size, new IconsCollection(iconGroup.Icons), false];
+                yield return [iconGroup.Family, iconGroup.Style, iconGroup.Size, new IconsCollection(iconGroup.Icons), true,];
+                yield return [iconGroup.Family, iconGroup.Style, iconGroup.Size, new IconsCollection(iconGroup.Icons), false,];
             }
         }
     }
@@ -173,7 +179,7 @@ public class CategoryProviderTests
         var host = Host
                   .CreateDefaultBuilder()
                   .ConfigureRocketSurgery()
-                  .ConfigureServices((_, collection) => collection.AddSingleton(new FontAwesomeApiKeyProvider() { ApiKey = ApiKey }))
+                  .ConfigureServices((_, collection) => collection.AddSingleton(new FontAwesomeApiKeyProvider { ApiKey = ApiKey, }))
                   .Build();
         await host.StartAsync();
         var mediator = host.Services.GetRequiredService<IMediator>();
@@ -185,7 +191,7 @@ public class CategoryProviderTests
         var host = Host
                   .CreateDefaultBuilder()
                   .ConfigureRocketSurgery()
-                  .ConfigureServices((_, collection) => collection.AddSingleton(new FontAwesomeApiKeyProvider() { ApiKey = ApiKey }))
+                  .ConfigureServices((_, collection) => collection.AddSingleton(new FontAwesomeApiKeyProvider { ApiKey = ApiKey, }))
                   .Build();
         await host.StartAsync();
         var mediator = host.Services.GetRequiredService<IMediator>();
@@ -197,6 +203,16 @@ public class CategoryProviderTests
 
     public class IconsCollection(FrozenSet<IconModel> icons) : IEnumerable<IconModel>
     {
+        public static implicit operator ImmutableArray<IconModel>(IconsCollection collection)
+        {
+            return [..collection,];
+        }
+
+        public override string ToString()
+        {
+            return icons.First().Id;
+        }
+
         public IEnumerator<IconModel> GetEnumerator()
         {
             return icons.GetEnumerator();
@@ -206,12 +222,5 @@ public class CategoryProviderTests
         {
             return icons.GetEnumerator();
         }
-
-        public override string ToString()
-        {
-            return icons.First().Id;
-        }
-
-        public static implicit operator ImmutableArray<IconModel>(IconsCollection collection) => [..collection];
     }
 }

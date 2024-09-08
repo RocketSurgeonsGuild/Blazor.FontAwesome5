@@ -1,19 +1,16 @@
 ﻿using System.Collections.Immutable;
 using System.ComponentModel;
-using System.Xml;
 using FluentValidation;
 using MediatR;
-using PrettyCode;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 using Rocket.Surgery.Conventions.CommandLine;
 using Spectre.Console;
 using Spectre.Console.Cli;
-using Exception = System.Exception;
 
 namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Commands;
 
-class EmitCommand : AsyncCommand<EmitCommand.Settings>
+internal class EmitCommand : AsyncCommand<EmitCommand.Settings>
 {
     private readonly FontAwesomeApiKeyProvider _apiKeyProvider;
     private readonly IMediator _mediator;
@@ -31,7 +28,7 @@ class EmitCommand : AsyncCommand<EmitCommand.Settings>
         ImmutableArray<IconModel> icons;
 
         CategoryProvider categoryProvider;
-        if (settings is { Categories: { Length: > 0 } categoriesFile })
+        if (settings is { Categories: { Length: > 0, } categoriesFile, })
         {
             await using var stream = File.OpenRead(categoriesFile);
             categoryProvider = CategoryProvider.Create(stream);
@@ -43,19 +40,19 @@ class EmitCommand : AsyncCommand<EmitCommand.Settings>
 
         CategoryProvider.Instance = categoryProvider;
 
-        if (settings is { FilePath.Length: > 0 })
+        if (settings is { FilePath.Length: > 0, })
         {
             throw new NotImplementedException();
         }
 
-        if (settings is { KitName.Length: > 0 })
+        if (settings is { KitName.Length: > 0, })
         {
             var request = new GetIconsFromKit.Request(settings.KitName);
             var response = await _mediator.Send(request);
             icons = response;
         }
 
-        else if (settings is { Release.Length: > 0 })
+        else if (settings is { Release.Length: > 0, })
         {
             var request = new GetIconsFromRelease.Request(settings.Release);
             var response = await _mediator.Send(request);
@@ -63,7 +60,7 @@ class EmitCommand : AsyncCommand<EmitCommand.Settings>
         }
         else
         {
-            throw new Exception("not sure how this happened... validation!");
+            throw new("not sure how this happened... validation!");
         }
 
         var fileContents = _mediator.CreateStream(new GetFileContentForIcons.Request(icons, settings.Namespace, settings.SvgMode));
@@ -79,20 +76,22 @@ class EmitCommand : AsyncCommand<EmitCommand.Settings>
 
     public override ValidationResult Validate(CommandContext context, Settings settings)
     {
-        return new SettingsValidator().Validate(settings) is { IsValid: false } result ? ValidationResult.Error(result.ToString()) : ValidationResult.Success();
+        return new SettingsValidator().Validate(settings) is { IsValid: false, } result
+            ? ValidationResult.Error(result.ToString())
+            : ValidationResult.Success();
     }
 
-    class SettingsValidator : AbstractValidator<Settings>
+    private class SettingsValidator : AbstractValidator<Settings>
     {
         public SettingsValidator()
         {
             When(
-                z => z.Categories is { Length: > 0 },
+                z => z.Categories is { Length: > 0, },
                 () => RuleFor(x => x.Categories)
-                     .Must(File.Exists)
+                   .Must(File.Exists)
             );
             When(
-                z => z.FilePath is { Length: > 0 },
+                z => z.FilePath is { Length: > 0, },
                 () =>
                 {
                     RuleFor(x => x.FilePath)
@@ -102,7 +101,7 @@ class EmitCommand : AsyncCommand<EmitCommand.Settings>
                 }
             );
             When(
-                z => z.KitName is { Length: > 0 },
+                z => z.KitName is { Length: > 0, },
                 () =>
                 {
                     RuleFor(z => z.ApiKey).NotNull().NotEmpty();
@@ -111,7 +110,7 @@ class EmitCommand : AsyncCommand<EmitCommand.Settings>
                 }
             );
             When(
-                z => z.Release is { Length: > 0 },
+                z => z.Release is { Length: > 0, },
                 () =>
                 {
                     RuleFor(z => z.ApiKey).NotNull().NotEmpty();
@@ -141,7 +140,7 @@ class EmitCommand : AsyncCommand<EmitCommand.Settings>
         [CommandOption("--release")]
         public string? Release { get; init; }
 
-        [Description($"The namespace you wish to have the generated code in, defaults to Rocket.Surgery.Blazor.FontAwesome6")]
+        [Description("The namespace you wish to have the generated code in, defaults to Rocket.Surgery.Blazor.FontAwesome6")]
         [CommandOption("--namespace")]
         public string Namespace { get; init; } = "Rocket.Surgery.Blazor.FontAwesome6";
 

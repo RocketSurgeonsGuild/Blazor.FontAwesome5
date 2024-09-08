@@ -5,5 +5,5 @@ public enum IconFamily
     Classic,
     Duotone,
     Sharp,
-    SharpDuotone
+    SharpDuotone,
 }

@@ -2,7 +2,6 @@ using System.Collections.Immutable;
 using Humanizer;
 using MediatR;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
-using Rocket.Surgery.LaunchPad.Foundation;
 using StrawberryShake;
 
 namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
@@ -11,14 +10,15 @@ public static class GetIconsFromKit
 {
     public record Request(string Name) : IRequest<ImmutableArray<IconModel>>;
 
-    class Handler(IFontAwesome fontAwesome, CategoryProvider categoryProvider) : IRequestHandler<Request, ImmutableArray<IconModel>>
+    private class Handler(IFontAwesome fontAwesome, CategoryProvider categoryProvider) : IRequestHandler<Request, ImmutableArray<IconModel>>
     {
         public async Task<ImmutableArray<IconModel>> Handle(Request request, CancellationToken cancellationToken)
         {
             var styles = await fontAwesome.GetKitStyles.ExecuteAsync(request.Name, cancellationToken);
             styles.EnsureNoErrors();
             var icons = styles
-                       .Data!.Me.Kit.Release.FamilyStyles
+                       .Data!
+                       .Me.Kit.Release.FamilyStyles
                        .ToAsyncEnumerable()
                        .SelectManyAwait(
                             async style =>
@@ -34,7 +34,8 @@ public static class GetIconsFromKit
 
                                 icns.EnsureNoErrors();
                                 return icns
-                                      .Data!.Me.Kit.Release.Icons
+                                      .Data!
+                                      .Me.Kit.Release.Icons
                                       .Select(
                                            icon =>
                                            {
@@ -46,7 +47,7 @@ public static class GetIconsFromKit
 
                                                var styleCss = $"fa-{style.Style.Humanize().Underscore().Dasherize()}";
                                                var familyCss = $"fa-{style.Family.Humanize().Underscore().Dasherize()}";
-                                               return new IconModel()
+                                               return new IconModel
                                                {
                                                    Categories = categoryProvider.CategoryLookup[icon.Id].ToImmutableHashSet(),
                                                    RawFamily = style.Family,
@@ -56,7 +57,7 @@ public static class GetIconsFromKit
                                                    Id = icon.Id,
                                                    Label = icon.Label,
                                                    Unicode = icon.Unicode,
-                                                   PathData = [..svg.PathData.Where(z => !string.IsNullOrWhiteSpace(z))],
+                                                   PathData = [..svg.PathData.Where(z => !string.IsNullOrWhiteSpace(z)),],
                                                    Aliases = ImmutableList<string>.Empty,
                                                    // shims are not working quiet like I expect
 //                                                  Aliases = icon is { Shim.Id.Length: > 0 }
@@ -65,12 +66,13 @@ public static class GetIconsFromKit
                                                };
                                            }
                                        )
-                                      .Where(z => z is {})
+                                      .Where(z => z is { })
                                       .ToAsyncEnumerable();
                             }
                         );
             var customIcons = styles
-                             .Data!.Me.Kit.Release.FamilyStyles
+                             .Data!
+                             .Me.Kit.Release.FamilyStyles
                              .ToAsyncEnumerable()
                              .SelectManyAwait(
                                   async style =>
@@ -82,8 +84,9 @@ public static class GetIconsFromKit
 
                                       icns.EnsureNoErrors();
                                       return icns
-                                            .Data!.Me.Kit.IconUploads.Select(
-                                                 icon => new IconModel()
+                                            .Data!
+                                            .Me.Kit.IconUploads.Select(
+                                                 icon => new IconModel
                                                  {
                                                      Categories = ImmutableHashSet<CategoryModel>.Empty,
                                                      RawFamily = style.Family,
@@ -102,7 +105,7 @@ public static class GetIconsFromKit
                                             .ToAsyncEnumerable();
                                   }
                               );
-            return [..await icons.Concat(customIcons).ToArrayAsync(cancellationToken)];
+            return [..await icons.Concat(customIcons).ToArrayAsync(cancellationToken),];
         }
     }
 }

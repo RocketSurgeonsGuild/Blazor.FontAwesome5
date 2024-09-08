@@ -2,7 +2,6 @@
 using System.Collections.Immutable;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using System.Text.RegularExpressions;
 using Humanizer;
 using MediatR;
 using PrettyCode;
@@ -12,35 +11,6 @@ namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 
 public static class GetFileContentForIcons
 {
-    public record Request(ImmutableArray<IconModel> Icons, string Namespace, bool AsSvgIcon) : IStreamRequest<FileContent>;
-    public record FileContent(string FileName, string Content);
-
-    class Handler(CategoryProvider categoryProvider) : IStreamRequestHandler<Request, FileContent>
-    {
-        public async IAsyncEnumerable<FileContent> Handle(Request request, [EnumeratorCancellation] CancellationToken cancellationToken)
-        {
-
-            foreach (var iconSet in request.Icons
-                                           .Select(z => new CodeIconModel(z))
-                                           .GroupBy(z => z.CodeStyleName)
-                                           .Select(group => GetIconFileContent(group, request.AsSvgIcon, request.Namespace)))
-            {
-                yield return new ("Icons/" + iconSet.FileName, iconSet.Content);
-            }
-
-            foreach (var category in categoryProvider.Categories.Values)
-            {
-                var categoryIcons = request.Icons.Select(z => new CodeIconModel(z)).Where(z => z.Icon.Categories.Contains(category)).ToFrozenSet();
-                if (categoryIcons.Count == 0) continue;
-
-                var categoryFileContent = GetCategoryFileContent(categoryIcons, category, request.AsSvgIcon, request.Namespace);
-                yield return new ("Categories/" + categoryFileContent.FileName, categoryFileContent.Content);
-            }
-        }
-    }
-
-    private static string CodeGeneratedAttribute => $"[ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode(\"Rocket.Surgery.Blazor.FontAwesome6\", \"{typeof(GetFileContentForIcons).Assembly.GetCustomAttribute<AssemblyVersionAttribute>()?.Version ?? ""}\")]";
-
     internal static (string FileName, string Content) GetIconFileContent(
         this IGrouping<string, CodeIconModel> models,
         bool svgMode,
@@ -54,7 +24,7 @@ public static class GetFileContentForIcons
         sb.AppendLine("using System.Collections.Immutable;");
         sb.AppendLine("using System.Diagnostics.CodeAnalysis;");
         sb.AppendLine("using System.Runtime.CompilerServices;");
-        sb.AppendLine($"using Rocket.Surgery.Blazor.FontAwesome6;");
+        sb.AppendLine("using Rocket.Surgery.Blazor.FontAwesome6;");
         sb.AppendLine($"namespace {@namespace};");
         sb.AppendLine("/// <summary>");
         sb.AppendLine($"/// Font Awesome {models.Key.Humanize()} Icons");
@@ -89,7 +59,7 @@ public static class GetFileContentForIcons
         sb.AppendLine("using System.Collections.Immutable;");
         sb.AppendLine("using System.Diagnostics.CodeAnalysis;");
         sb.AppendLine("using System.Runtime.CompilerServices;");
-        sb.AppendLine($"using Rocket.Surgery.Blazor.FontAwesome6;");
+        sb.AppendLine("using Rocket.Surgery.Blazor.FontAwesome6;");
         sb.AppendLine($"namespace {@namespace}.Categories;");
         sb.AppendLine("/// <summary>");
         sb.AppendLine($"/// Font Awesome {categoryModel.Label} Category Icons");
@@ -110,18 +80,21 @@ public static class GetFileContentForIcons
         return ( $"Fa{categoryModel.Name.Humanize().Pascalize()}.cs", sb.ToString() );
     }
 
+    private static string CodeGeneratedAttribute =>
+        $"[ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode(\"Rocket.Surgery.Blazor.FontAwesome6\", \"{typeof(GetFileContentForIcons).Assembly.GetCustomAttribute<AssemblyVersionAttribute>()?.Version ?? ""}\")]";
+
     private static void AppendIconProperties(CodeIconModel icon, StringBuilder sb, bool svgMode, string @namespace)
     {
         sb.AppendLine($"private static {icon.IconClass(svgMode)}? f_{icon.CodeModelName};");
         EmitSummaryComment(icon, sb);
         if (svgMode)
         {
-            string pathData = "ImmutableArray<string>.Empty";
-            if (icon is { Icon.PathData.Count: 1 })
+            var pathData = "ImmutableArray<string>.Empty";
+            if (icon is { Icon.PathData.Count: 1, })
             {
                 pathData = $"ImmutableArray.Create(\"{icon.Icon.PathData[0]}\"u8.ToArray().ToImmutableArray())";
             }
-            else if (icon is { Icon.PathData.Count: 2 })
+            else if (icon is { Icon.PathData.Count: 2, })
             {
                 pathData =
                     $"ImmutableArray.Create(\"{icon.Icon.PathData[0]}\"u8.ToArray().ToImmutableArray(), \"{icon.Icon.PathData[1]}\"u8.ToArray().ToImmutableArray())";
@@ -137,6 +110,7 @@ public static class GetFileContentForIcons
                 $"public static Icon {icon.CodeModelName} => f_{icon.CodeModelName} ??= new Icon(IconFamily.{icon.Icon.Family}, IconStyle.{icon.Icon.Style}, \"{icon.Icon.Id}\", \"{icon.Icon.Unicode}\");"
             );
         }
+
         foreach (var alias in icon.CodeAliases)
         {
             EmitSummaryComment(icon, sb);
@@ -168,14 +142,16 @@ public static class GetFileContentForIcons
         using (sb.Indent())
         {
             foreach (var icon in icons
-                                 .OrderBy(z => z.Icon.Family)
-                                 .ThenBy(z => z.Icon.Style))
+                                .OrderBy(z => z.Icon.Family)
+                                .ThenBy(z => z.Icon.Style))
             {
                 sb.AppendLine("/// <summary>");
                 sb.AppendLine($"/// <a href=\"{icon.Href}\">{icon.Icon.Label}</a>");
                 sb.AppendLine("/// </summary>");
                 sb.AppendLine(CodeGeneratedAttribute);
-                sb.AppendLine($"public static { icon.IconClass(svgMode)} {icon.CodeStyleName} => global::{@namespace}.Fa{icon.CodeStyleName}.{rootCi.CodeModelName};");
+                sb.AppendLine(
+                    $"public static {icon.IconClass(svgMode)} {icon.CodeStyleName} => global::{@namespace}.Fa{icon.CodeStyleName}.{rootCi.CodeModelName};"
+                );
             }
         }
 
@@ -187,5 +163,33 @@ public static class GetFileContentForIcons
         sb.AppendLine("/// <summary>");
         sb.AppendLine($"/// <a href=\"{icon.Href}\">{icon.Icon.Label}</a>");
         sb.AppendLine("/// </summary>");
+    }
+
+    public record Request(ImmutableArray<IconModel> Icons, string Namespace, bool AsSvgIcon) : IStreamRequest<FileContent>;
+
+    public record FileContent(string FileName, string Content);
+
+    private class Handler(CategoryProvider categoryProvider) : IStreamRequestHandler<Request, FileContent>
+    {
+        public async IAsyncEnumerable<FileContent> Handle(Request request, [EnumeratorCancellation] CancellationToken cancellationToken)
+        {
+            foreach (var iconSet in request
+                                   .Icons
+                                   .Select(z => new CodeIconModel(z))
+                                   .GroupBy(z => z.CodeStyleName)
+                                   .Select(group => GetIconFileContent(group, request.AsSvgIcon, request.Namespace)))
+            {
+                yield return new("Icons/" + iconSet.FileName, iconSet.Content);
+            }
+
+            foreach (var category in categoryProvider.Categories.Values)
+            {
+                var categoryIcons = request.Icons.Select(z => new CodeIconModel(z)).Where(z => z.Icon.Categories.Contains(category)).ToFrozenSet();
+                if (categoryIcons.Count == 0) continue;
+
+                var categoryFileContent = GetCategoryFileContent(categoryIcons, category, request.AsSvgIcon, request.Namespace);
+                yield return new("Categories/" + categoryFileContent.FileName, categoryFileContent.Content);
+            }
+        }
     }
 }

@@ -34,6 +34,18 @@ public class CategoryProvider
         return Create(stream);
     }
 
+    private CategoryProvider(IEnumerable<CategoryModel> dictionary)
+    {
+        var categoryModels = dictionary as CategoryModel[] ?? dictionary.ToArray();
+        Categories = categoryModels.ToFrozenDictionary(z => z.Name, z => z, StringComparer.OrdinalIgnoreCase);
+        CategoryLookup = categoryModels
+                        .SelectMany(z => z.Icons, (z, y) => ( category: z, iconName: y ))
+                        .ToLookup(z => z.iconName, z => z.category, StringComparer.OrdinalIgnoreCase);
+    }
+
+    public FrozenDictionary<string, CategoryModel> Categories { get; }
+    public ILookup<string, CategoryModel> CategoryLookup { get; }
+
     private class CategoryDictionary : Dictionary<string, CategoryModelBase>
     {
         public IEnumerable<CategoryModel> ToModels()
@@ -52,19 +64,7 @@ public class CategoryProvider
 
     private class CategoryModelBase
     {
-        public IEnumerable<string> Icons { get; set; }
-        public string Label { get; set; }
+        public IEnumerable<string> Icons { get; }
+        public string Label { get; }
     }
-
-    private CategoryProvider(IEnumerable<CategoryModel> dictionary)
-    {
-        var categoryModels = dictionary as CategoryModel[] ?? dictionary.ToArray();
-        Categories = categoryModels.ToFrozenDictionary(z => z.Name, z => z, StringComparer.OrdinalIgnoreCase);
-        CategoryLookup = categoryModels
-                        .SelectMany(z => z.Icons, (z, y) => ( category: z, iconName: y ))
-                        .ToLookup(z => z.iconName, z => z.category, StringComparer.OrdinalIgnoreCase);
-    }
-
-    public FrozenDictionary<string, CategoryModel> Categories { get; }
-    public ILookup<string, CategoryModel> CategoryLookup { get; }
 }

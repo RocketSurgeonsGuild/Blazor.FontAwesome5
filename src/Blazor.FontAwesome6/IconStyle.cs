@@ -7,5 +7,5 @@ public enum IconStyle
     Light,
     Regular,
     Solid,
-    Thin
+    Thin,
 }

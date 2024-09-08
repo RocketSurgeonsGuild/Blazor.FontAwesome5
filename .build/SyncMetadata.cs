@@ -18,23 +18,6 @@ using static Nuke.Common.Tools.Npm.NpmTasks;
 [GitHubActionsSecret("FONT_AWESOME_API_KEY")]
 public partial class Pipeline
 {
-    // need a better way to do this
-    public Matcher LintMatcher => excludeProjects(
-        new Matcher(StringComparison.OrdinalIgnoreCase)
-           .AddInclude("**/*")
-           .AddExclude("**/node_modules/**/*")
-           .AddExclude(".idea/**/*")
-           .AddExclude(".vscode/**/*")
-           .AddExclude(".nuke/**/*")
-           .AddExclude("**/bin/**/*")
-           .AddExclude("**/obj/**/*")
-           .AddExclude("**/*.verified.*")
-           .AddExclude("**/*.received.*"),
-        Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free,
-        Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Pro,
-        Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free_Svg
-    );
-
     private static Matcher excludeProjects(Matcher matcher, params Project[] projects)
     {
         foreach (var item in projects)
@@ -77,7 +60,7 @@ public partial class Pipeline
                      var categoriesData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "categories.yml";
                      CopyFile(categoriesData, RootDirectory / "src" / "Blazor.FontAwesome.Tool" / "categories.txt", FileExistsPolicy.Overwrite);
 
-                     var categoryProvider = ( categoriesData.FileExists() )
+                     var categoryProvider = categoriesData.FileExists()
                          ? CategoryProvider.Create(File.OpenRead(categoriesData))
                          : CategoryProvider.CreateDefault();
                      var host = Microsoft
@@ -158,4 +141,21 @@ public partial class Pipeline
                      }
                  }
              );
+
+    // need a better way to do this
+    public Matcher LintMatcher => excludeProjects(
+        new Matcher(StringComparison.OrdinalIgnoreCase)
+           .AddInclude("**/*")
+           .AddExclude("**/node_modules/**/*")
+           .AddExclude(".idea/**/*")
+           .AddExclude(".vscode/**/*")
+           .AddExclude(".nuke/**/*")
+           .AddExclude("**/bin/**/*")
+           .AddExclude("**/obj/**/*")
+           .AddExclude("**/*.verified.*")
+           .AddExclude("**/*.received.*"),
+        Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free,
+        Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Pro,
+        Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free_Svg
+    );
 }

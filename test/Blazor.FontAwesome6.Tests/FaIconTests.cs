@@ -1,7 +1,5 @@
 ﻿using System.Runtime.CompilerServices;
-using Bogus;
 using Bunit;
-using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Rocket.Surgery.Blazor.FontAwesome6.Pro;
 using Rocket.Surgery.Extensions.Testing;
@@ -12,16 +10,19 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests;
 public class FaIconTests : LoggerTest
 {
     [Fact]
-    public Task Should_Support_Implicit_Conversion_From_Known_Enum() =>
-        Verify(
+    public Task Should_Support_Implicit_Conversion_From_Known_Enum()
+    {
+        return Verify(
             _host.RenderComponent<FaIcon>(
                 builder => builder.Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
             )
         );
+    }
 
     [Fact]
-    public Task Should_Render_A_Transformed_Icon() =>
-        Verify(
+    public Task Should_Render_A_Transformed_Icon()
+    {
+        return Verify(
             _host.RenderComponent<FaIcon>(
                 builder => builder
                           .Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
@@ -34,30 +35,36 @@ public class FaIconTests : LoggerTest
                           .Add(x => x.Shrink, 4)
             )
         );
+    }
 
     [Fact]
-    public Task Should_Render_A_FixedWith_Icon() =>
-        Verify(
+    public Task Should_Render_A_FixedWith_Icon()
+    {
+        return Verify(
             _host.RenderComponent<FaIcon>(
                 builder => builder
                           .Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
                           .Add(x => x.FixedWidth, true)
             )
         );
+    }
 
     [Fact]
-    public Task Should_Render_A_Spin_Icon() =>
-        Verify(
+    public Task Should_Render_A_Spin_Icon()
+    {
+        return Verify(
             _host.RenderComponent<FaIcon>(
                 builder => builder
                           .Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
                           .Add(x => x.Spin, true)
             )
         );
+    }
 
     [Fact]
-    public Task Should_Render_A_Spin_Reverse_Icon() =>
-        Verify(
+    public Task Should_Render_A_Spin_Reverse_Icon()
+    {
+        return Verify(
             _host.RenderComponent<FaIcon>(
                 builder => builder
                           .Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
@@ -65,20 +72,24 @@ public class FaIconTests : LoggerTest
                           .Add(z => z.Reverse, true)
             )
         );
+    }
 
     [Fact]
-    public Task Should_Render_A_Pulse_Icon() =>
-        Verify(
+    public Task Should_Render_A_Pulse_Icon()
+    {
+        return Verify(
             _host.RenderComponent<FaIcon>(
                 builder => builder
                           .Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
                           .Add(x => x.SpinPulse, true)
             )
         );
+    }
 
     [Fact]
-    public Task Should_Render_A_Pulse_Reverse_Icon() =>
-        Verify(
+    public Task Should_Render_A_Pulse_Reverse_Icon()
+    {
+        return Verify(
             _host.RenderComponent<FaIcon>(
                 builder => builder
                           .Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
@@ -86,36 +97,43 @@ public class FaIconTests : LoggerTest
                           .Add(z => z.Reverse, true)
             )
         );
+    }
 
     [Fact]
-    public Task Should_Render_A_Border_Icon() =>
-        Verify(
+    public Task Should_Render_A_Border_Icon()
+    {
+        return Verify(
             _host.RenderComponent<FaIcon>(
                 builder => builder
                           .Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
                           .Add(x => x.Border, true)
             )
         );
+    }
 
     [Fact]
-    public Task Should_Render_A_Inverse_Icon() =>
-        Verify(
+    public Task Should_Render_A_Inverse_Icon()
+    {
+        return Verify(
             _host.RenderComponent<FaIcon>(
                 builder => builder
                           .Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
                           .Add(x => x.Inverse, true)
             )
         );
+    }
 
     [Fact]
-    public Task Should_Render_A_Mask_Icon() =>
-        Verify(
+    public Task Should_Render_A_Mask_Icon()
+    {
+        return Verify(
             _host.RenderComponent<FaIcon>(
                 builder => builder
                           .Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
                           .Add(x => x.Mask, FaDuotoneSolid.ChartMixed)
             )
         );
+    }
 
     public FaIconTests(ITestOutputHelper testOutputHelper) : base(testOutputHelper, LogLevel.Information) { }
     private TestContext _host = new();
@@ -125,14 +143,17 @@ public class FaIconTests : LoggerTest
     [InlineData(IconFlip.Horizontal, "<i class=\"fa-regular fa-circle-half-stroke\" data-fa-transform=\"flip-h\"></i>")]
     [InlineData(IconFlip.Vertical, "<i class=\"fa-regular fa-circle-half-stroke\" data-fa-transform=\"flip-v\"></i>")]
     [InlineData(IconFlip.Both, "<i class=\"fa-regular fa-circle-half-stroke\" data-fa-transform=\"flip-h flip-v\"></i>")]
-    public Task Should_Render_A_Flip_Icon(IconFlip iconFlip, string expected) =>
-        Verify(
-            _host.RenderComponent<FaIcon>(
-                builder => builder
-                          .Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
-                          .Add(x => x.FlipTransform, iconFlip)
+    public Task Should_Render_A_Flip_Icon(IconFlip iconFlip, string expected)
+    {
+        return Verify(
+                _host.RenderComponent<FaIcon>(
+                    builder => builder
+                              .Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
+                              .Add(x => x.FlipTransform, iconFlip)
+                )
             )
-        ).UseHashedParameters(iconFlip, expected);
+           .UseHashedParameters(iconFlip, expected);
+    }
 
     [Theory]
     [InlineData(IconSize.ExtraSmall, "<i class=\"fa-regular fa-circle-half-stroke fa-xs\"></i>")]
@@ -142,33 +163,42 @@ public class FaIconTests : LoggerTest
     [InlineData(IconSize._2X, "<i class=\"fa-regular fa-circle-half-stroke fa-2x\"></i>")]
     [InlineData(IconSize._5X, "<i class=\"fa-regular fa-circle-half-stroke fa-5x\"></i>")]
     [InlineData(IconSize._10X, "<i class=\"fa-regular fa-circle-half-stroke fa-10x\"></i>")]
-    public Task Should_Render_A_Size_Icon(IconSize iconSize, string expected) =>
-        Verify(
-            _host.RenderComponent<FaIcon>(
-                builder => builder
-                          .Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
-                          .Add(x => x.Size, iconSize)
+    public Task Should_Render_A_Size_Icon(IconSize iconSize, string expected)
+    {
+        return Verify(
+                _host.RenderComponent<FaIcon>(
+                    builder => builder
+                              .Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
+                              .Add(x => x.Size, iconSize)
+                )
             )
-        ).UseHashedParameters(iconSize, expected);
+           .UseHashedParameters(iconSize, expected);
+    }
 
     [Theory]
     [InlineData(IconPull.None, "<i class=\"fa-regular fa-circle-half-stroke\"></i>")]
     [InlineData(IconPull.Left, "<i class=\"fa-regular fa-circle-half-stroke fa-pull-left\"></i>")]
     [InlineData(IconPull.Right, "<i class=\"fa-regular fa-circle-half-stroke fa-pull-right\"></i>")]
-    public Task Should_Render_A_Pull_Icon(IconPull iconPull, string expected) =>
-        Verify(
-            _host.RenderComponent<FaIcon>(
-                builder => builder
-                          .Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
-                          .Add(x => x.Pull, iconPull)
+    public Task Should_Render_A_Pull_Icon(IconPull iconPull, string expected)
+    {
+        return Verify(
+                _host.RenderComponent<FaIcon>(
+                    builder => builder
+                              .Add(x => x.Icon, FaDuotoneSolid.CircleHalfStroke)
+                              .Add(x => x.Pull, iconPull)
+                )
             )
-        ).UseHashedParameters(iconPull, expected);
+           .UseHashedParameters(iconPull, expected);
+    }
 
     [Theory]
     [ClassData(typeof(IconAnimationData))]
     [ClassData(typeof(IconBorderAndPullData))]
     [ClassData(typeof(IconTransformData))]
-    public Task IconValidations(string id, Action<ComponentParameterCollectionBuilder<FaIcon>> icon) => Verify(_host.RenderComponent(icon)).UseHashedParameters(id);
+    public Task IconValidations(string id, Action<ComponentParameterCollectionBuilder<FaIcon>> icon)
+    {
+        return Verify(_host.RenderComponent(icon)).UseHashedParameters(id);
+    }
 
     private class IconTransformData : IconTheory
     {
@@ -313,14 +343,14 @@ public class FaIconTests : LoggerTest
                 z => z.Add(
                     x => x.Icon,
                     FaDuotoneSolid.BuildingColumns
-                           .Border(
-                                true,
-                                "#FF0000",
-                                "6px",
-                                "8px",
-                                "dotted",
-                                "12px"
-                            )
+                                  .Border(
+                                       true,
+                                       "#FF0000",
+                                       "6px",
+                                       "8px",
+                                       "dotted",
+                                       "12px"
+                                   )
                 )
             );
             foreach (var item in Enum.GetValues<IconPull>())
@@ -349,14 +379,14 @@ public class FaIconTests : LoggerTest
                     z => z.Add(
                         x => x.Icon,
                         FaDuotoneSolid.BatteryFull
-                               .Animate(
-                                    item,
-                                    "3s",
-                                    "alternate-reverse",
-                                    "4s",
-                                    "5s",
-                                    "ease-in-out"
-                                )
+                                      .Animate(
+                                           item,
+                                           "3s",
+                                           "alternate-reverse",
+                                           "4s",
+                                           "5s",
+                                           "ease-in-out"
+                                       )
                     ),
                     item
                 );
@@ -376,14 +406,14 @@ public class FaIconTests : LoggerTest
                         .Add(
                              x => x.Icon,
                              FaDuotoneSolid.BatteryFull
-                                    .Animate(
-                                         item,
-                                         "10s",
-                                         "11alternate-reverse",
-                                         "10s",
-                                         "10s",
-                                         "11ease-in-out"
-                                     )
+                                           .Animate(
+                                                item,
+                                                "10s",
+                                                "11alternate-reverse",
+                                                "10s",
+                                                "10s",
+                                                "11ease-in-out"
+                                            )
                          )
                         .Add(z => z.AnimationDelay, "3s")
                         .Add(z => z.AnimationDirection, "alternate-reverse")
@@ -397,7 +427,9 @@ public class FaIconTests : LoggerTest
             AddIcon(
                 z => z
                    .Add(
-                        x => x.Icon,FaDuotoneSolid.BatteryFull
+                        x => x.Icon,
+                        FaDuotoneSolid
+                           .BatteryFull
                            .Animate(IconAnimation.Beat)
                            .AnimationDirection("alternate-reverse")
                     )
@@ -415,7 +447,8 @@ public class FaIconTests : LoggerTest
                 z => z
                     .Add(
                          x => x.Icon,
-                         FaDuotoneSolid.BatteryFull
+                         FaDuotoneSolid
+                            .BatteryFull
                             .Animate(IconAnimation.Bounce)
                             .AnimationDirection("reverse")
                      )
@@ -426,7 +459,9 @@ public class FaIconTests : LoggerTest
             AddIcon(
                 z => z
                    .Add(
-                        x => x.Icon,FaDuotoneSolid.BatteryFull
+                        x => x.Icon,
+                        FaDuotoneSolid
+                           .BatteryFull
                            .Animate(IconAnimation.Beat)
                            .AnimationDuration("2s")
                     )
@@ -444,7 +479,8 @@ public class FaIconTests : LoggerTest
                 z => z
                     .Add(
                          x => x.Icon,
-                         FaDuotoneSolid.BatteryFull
+                         FaDuotoneSolid
+                            .BatteryFull
                             .Animate(IconAnimation.Bounce)
                             .AnimationDuration("10s")
                      )
@@ -455,7 +491,9 @@ public class FaIconTests : LoggerTest
             AddIcon(
                 z => z
                    .Add(
-                        x => x.Icon,FaDuotoneSolid.BatteryFull
+                        x => x.Icon,
+                        FaDuotoneSolid
+                           .BatteryFull
                            .Animate(IconAnimation.Beat)
                            .AnimationTiming("ease-in-out")
                     )
@@ -473,7 +511,8 @@ public class FaIconTests : LoggerTest
                 z => z
                     .Add(
                          x => x.Icon,
-                         FaDuotoneSolid.BatteryFull
+                         FaDuotoneSolid
+                            .BatteryFull
                             .Animate(IconAnimation.Bounce)
                             .AnimationTiming("ease-out")
                      )
@@ -484,7 +523,9 @@ public class FaIconTests : LoggerTest
             AddIcon(
                 z => z
                    .Add(
-                        x => x.Icon,FaDuotoneSolid.BatteryFull
+                        x => x.Icon,
+                        FaDuotoneSolid
+                           .BatteryFull
                            .Animate(IconAnimation.Beat)
                            .AnimationDelay("3s")
                     )
@@ -502,7 +543,8 @@ public class FaIconTests : LoggerTest
                 z => z
                     .Add(
                          x => x.Icon,
-                         FaDuotoneSolid.BatteryFull
+                         FaDuotoneSolid
+                            .BatteryFull
                             .Animate(IconAnimation.Bounce)
                             .AnimationDelay("10s")
                      )
@@ -513,7 +555,9 @@ public class FaIconTests : LoggerTest
             AddIcon(
                 z => z
                    .Add(
-                        x => x.Icon,FaDuotoneSolid.BatteryFull
+                        x => x.Icon,
+                        FaDuotoneSolid
+                           .BatteryFull
                            .Animate(IconAnimation.Beat)
                            .AnimationIterationCount("4s")
                     )
@@ -531,7 +575,8 @@ public class FaIconTests : LoggerTest
                 z => z
                     .Add(
                          x => x.Icon,
-                         FaDuotoneSolid.BatteryFull
+                         FaDuotoneSolid
+                            .BatteryFull
                             .Animate(IconAnimation.Bounce)
                             .AnimationIterationCount("10s")
                      )
@@ -544,21 +589,21 @@ public class FaIconTests : LoggerTest
                    .Add(
                         x => x.Icon,
                         FaDuotoneSolid.BuildingColumns
-                               .Bounce(
-                                    1,
-                                    2,
-                                    3,
-                                    4,
-                                    5,
-                                    6,
-                                    7,
-                                    8,
-                                    "9s",
-                                    "alternate-reverse",
-                                    "10s",
-                                    "11",
-                                    "ease-in-out"
-                                )
+                                      .Bounce(
+                                           1,
+                                           2,
+                                           3,
+                                           4,
+                                           5,
+                                           6,
+                                           7,
+                                           8,
+                                           "9s",
+                                           "alternate-reverse",
+                                           "10s",
+                                           "11",
+                                           "ease-in-out"
+                                       )
                     )
             );
             AddIcon(
@@ -587,21 +632,21 @@ public class FaIconTests : LoggerTest
                     .Add(
                          x => x.Icon,
                          FaDuotoneSolid.BuildingColumns
-                                .Bounce(
-                                     10,
-                                     10,
-                                     10,
-                                     10,
-                                     10,
-                                     10,
-                                     10,
-                                     10,
-                                     "11s",
-                                     "reverse",
-                                     "11s",
-                                     "10",
-                                     "ease-in"
-                                 )
+                                       .Bounce(
+                                            10,
+                                            10,
+                                            10,
+                                            10,
+                                            10,
+                                            10,
+                                            10,
+                                            10,
+                                            "11s",
+                                            "reverse",
+                                            "11s",
+                                            "10",
+                                            "ease-in"
+                                        )
                      )
                     .Add(z => z.Bounce, true)
                     .Add(z => z.BounceRebound, 1)
@@ -624,14 +669,14 @@ public class FaIconTests : LoggerTest
                    .Add(
                         x => x.Icon,
                         FaDuotoneSolid.BuildingColumns
-                               .Beat(
-                                    4,
-                                    "9s",
-                                    "alternate-reverse",
-                                    "10s",
-                                    "11",
-                                    "ease-in-out"
-                                )
+                                      .Beat(
+                                           4,
+                                           "9s",
+                                           "alternate-reverse",
+                                           "10s",
+                                           "11",
+                                           "ease-in-out"
+                                       )
                     )
             );
             AddIcon(
@@ -653,14 +698,14 @@ public class FaIconTests : LoggerTest
                     .Add(
                          x => x.Icon,
                          FaDuotoneSolid.BuildingColumns
-                                .Beat(
-                                     10,
-                                     "10s",
-                                     "reverse",
-                                     "11s",
-                                     "10",
-                                     "ease-in"
-                                 )
+                                       .Beat(
+                                            10,
+                                            "10s",
+                                            "reverse",
+                                            "11s",
+                                            "10",
+                                            "ease-in"
+                                        )
                      )
                     .Add(z => z.Beat, true)
                     .Add(z => z.BeatScale, 4)
@@ -676,14 +721,14 @@ public class FaIconTests : LoggerTest
                    .Add(
                         x => x.Icon,
                         FaDuotoneSolid.BuildingColumns
-                               .Fade(
-                                    4,
-                                    "9s",
-                                    "alternate-reverse",
-                                    "10s",
-                                    "11",
-                                    "ease-in-out"
-                                )
+                                      .Fade(
+                                           4,
+                                           "9s",
+                                           "alternate-reverse",
+                                           "10s",
+                                           "11",
+                                           "ease-in-out"
+                                       )
                     )
             );
             AddIcon(
@@ -705,14 +750,14 @@ public class FaIconTests : LoggerTest
                     .Add(
                          x => x.Icon,
                          FaDuotoneSolid.BuildingColumns
-                                .Fade(
-                                     10,
-                                     "10s",
-                                     "reverse",
-                                     "11s",
-                                     "10",
-                                     "ease-in"
-                                 )
+                                       .Fade(
+                                            10,
+                                            "10s",
+                                            "reverse",
+                                            "11s",
+                                            "10",
+                                            "ease-in"
+                                        )
                      )
                     .Add(z => z.Fade, true)
                     .Add(z => z.FadeOpacity, 4)
@@ -728,15 +773,15 @@ public class FaIconTests : LoggerTest
                    .Add(
                         x => x.Icon,
                         FaDuotoneSolid.BuildingColumns
-                               .BeatFade(
-                                    4,
-                                    5,
-                                    "9s",
-                                    "alternate-reverse",
-                                    "10s",
-                                    "11",
-                                    "ease-in-out"
-                                )
+                                      .BeatFade(
+                                           4,
+                                           5,
+                                           "9s",
+                                           "alternate-reverse",
+                                           "10s",
+                                           "11",
+                                           "ease-in-out"
+                                       )
                     )
             );
             AddIcon(
@@ -759,15 +804,15 @@ public class FaIconTests : LoggerTest
                     .Add(
                          x => x.Icon,
                          FaDuotoneSolid.BuildingColumns
-                                .BeatFade(
-                                     10,
-                                     10,
-                                     "10s",
-                                     "reverse",
-                                     "11s",
-                                     "10",
-                                     "ease-in"
-                                 )
+                                       .BeatFade(
+                                            10,
+                                            10,
+                                            "10s",
+                                            "reverse",
+                                            "11s",
+                                            "10",
+                                            "ease-in"
+                                        )
                      )
                     .Add(z => z.BeatFade, true)
                     .Add(z => z.BeatFadeOpacity, 4)
@@ -784,17 +829,17 @@ public class FaIconTests : LoggerTest
                    .Add(
                         x => x.Icon,
                         FaDuotoneSolid.BuildingColumns
-                               .Flip(
-                                    1,
-                                    2,
-                                    3,
-                                    "10deg",
-                                    "9s",
-                                    "alternate-reverse",
-                                    "10s",
-                                    "11",
-                                    "ease-in-out"
-                                )
+                                      .Flip(
+                                           1,
+                                           2,
+                                           3,
+                                           "10deg",
+                                           "9s",
+                                           "alternate-reverse",
+                                           "10s",
+                                           "11",
+                                           "ease-in-out"
+                                       )
                     )
             );
             AddIcon(
@@ -818,17 +863,17 @@ public class FaIconTests : LoggerTest
                     .Add(
                          x => x.Icon,
                          FaDuotoneSolid.BuildingColumns
-                                .Flip(
-                                     10,
-                                     10,
-                                     10,
-                                     "11deg",
-                                     "10s",
-                                     "reverse",
-                                     "11s",
-                                     "10",
-                                     "ease-in"
-                                 )
+                                       .Flip(
+                                            10,
+                                            10,
+                                            10,
+                                            "11deg",
+                                            "10s",
+                                            "reverse",
+                                            "11s",
+                                            "10",
+                                            "ease-in"
+                                        )
                      )
                     .Add(z => z.FlipX, 1)
                     .Add(z => z.FlipY, 2)
@@ -846,13 +891,13 @@ public class FaIconTests : LoggerTest
                    .Add(
                         x => x.Icon,
                         FaDuotoneSolid.BuildingColumns
-                               .Shake(
-                                    "9s",
-                                    "alternate-reverse",
-                                    "10s",
-                                    "11",
-                                    "ease-in-out"
-                                )
+                                      .Shake(
+                                           "9s",
+                                           "alternate-reverse",
+                                           "10s",
+                                           "11",
+                                           "ease-in-out"
+                                       )
                     )
             );
             AddIcon(
@@ -873,13 +918,13 @@ public class FaIconTests : LoggerTest
                     .Add(
                          x => x.Icon,
                          FaDuotoneSolid.BuildingColumns
-                                .Shake(
-                                     "10s",
-                                     "reverse",
-                                     "11s",
-                                     "10",
-                                     "ease-in"
-                                 )
+                                       .Shake(
+                                            "10s",
+                                            "reverse",
+                                            "11s",
+                                            "10",
+                                            "ease-in"
+                                        )
                      )
                     .Add(z => z.Shake, true)
                     .Add(z => z.AnimationDelay, "9s")
@@ -894,14 +939,14 @@ public class FaIconTests : LoggerTest
                    .Add(
                         x => x.Icon,
                         FaDuotoneSolid.BuildingColumns
-                               .Spin(
-                                    true,
-                                    "9s",
-                                    "alternate-reverse",
-                                    "10s",
-                                    "11",
-                                    "ease-in-out"
-                                )
+                                      .Spin(
+                                           true,
+                                           "9s",
+                                           "alternate-reverse",
+                                           "10s",
+                                           "11",
+                                           "ease-in-out"
+                                       )
                     )
             );
             AddIcon(
@@ -922,14 +967,14 @@ public class FaIconTests : LoggerTest
                     .Add(
                          x => x.Icon,
                          FaDuotoneSolid.BuildingColumns
-                                .Spin(
-                                     true,
-                                     "10s",
-                                     "reverse",
-                                     "11s",
-                                     "10",
-                                     "ease-in"
-                                 )
+                                       .Spin(
+                                            true,
+                                            "10s",
+                                            "reverse",
+                                            "11s",
+                                            "10",
+                                            "ease-in"
+                                        )
                      )
                     .Add(z => z.Spin, true)
                     .Add(z => z.AnimationDelay, "9s")
@@ -944,14 +989,14 @@ public class FaIconTests : LoggerTest
                    .Add(
                         x => x.Icon,
                         FaDuotoneSolid.BuildingColumns
-                               .Spin(
-                                    false,
-                                    "9s",
-                                    "alternate-reverse",
-                                    "10s",
-                                    "11",
-                                    "ease-in-out"
-                                )
+                                      .Spin(
+                                           false,
+                                           "9s",
+                                           "alternate-reverse",
+                                           "10s",
+                                           "11",
+                                           "ease-in-out"
+                                       )
                     )
             );
             AddIcon(
@@ -972,14 +1017,14 @@ public class FaIconTests : LoggerTest
                     .Add(
                          x => x.Icon,
                          FaDuotoneSolid.BuildingColumns
-                                .Spin(
-                                     false,
-                                     "10s",
-                                     "reverse",
-                                     "11s",
-                                     "10",
-                                     "ease-in"
-                                 )
+                                       .Spin(
+                                            false,
+                                            "10s",
+                                            "reverse",
+                                            "11s",
+                                            "10",
+                                            "ease-in"
+                                        )
                      )
                     .Add(z => z.Spin, false)
                     .Add(z => z.AnimationDelay, "9s")
@@ -994,14 +1039,14 @@ public class FaIconTests : LoggerTest
                    .Add(
                         x => x.Icon,
                         FaDuotoneSolid.BuildingColumns
-                               .SpinPulse(
-                                    true,
-                                    "9s",
-                                    "alternate-reverse",
-                                    "10s",
-                                    "11",
-                                    "ease-in-out"
-                                )
+                                      .SpinPulse(
+                                           true,
+                                           "9s",
+                                           "alternate-reverse",
+                                           "10s",
+                                           "11",
+                                           "ease-in-out"
+                                       )
                     )
             );
             AddIcon(
@@ -1022,14 +1067,14 @@ public class FaIconTests : LoggerTest
                     .Add(
                          x => x.Icon,
                          FaDuotoneSolid.BuildingColumns
-                                .SpinPulse(
-                                     true,
-                                     "10s",
-                                     "reverse",
-                                     "11s",
-                                     "10",
-                                     "ease-in"
-                                 )
+                                       .SpinPulse(
+                                            true,
+                                            "10s",
+                                            "reverse",
+                                            "11s",
+                                            "10",
+                                            "ease-in"
+                                        )
                      )
                     .Add(z => z.SpinPulse, true)
                     .Add(z => z.AnimationDelay, "9s")
@@ -1044,14 +1089,14 @@ public class FaIconTests : LoggerTest
                    .Add(
                         x => x.Icon,
                         FaDuotoneSolid.BuildingColumns
-                               .SpinPulse(
-                                    false,
-                                    "9s",
-                                    "alternate-reverse",
-                                    "10s",
-                                    "11",
-                                    "ease-in-out"
-                                )
+                                      .SpinPulse(
+                                           false,
+                                           "9s",
+                                           "alternate-reverse",
+                                           "10s",
+                                           "11",
+                                           "ease-in-out"
+                                       )
                     )
             );
             AddIcon(
@@ -1072,14 +1117,14 @@ public class FaIconTests : LoggerTest
                     .Add(
                          x => x.Icon,
                          FaDuotoneSolid.BuildingColumns
-                                .SpinPulse(
-                                     false,
-                                     "10s",
-                                     "reverse",
-                                     "11s",
-                                     "10",
-                                     "ease-in"
-                                 )
+                                       .SpinPulse(
+                                            false,
+                                            "10s",
+                                            "reverse",
+                                            "11s",
+                                            "10",
+                                            "ease-in"
+                                        )
                      )
                     .Add(z => z.SpinPulse, false)
                     .Add(z => z.AnimationDelay, "9s")

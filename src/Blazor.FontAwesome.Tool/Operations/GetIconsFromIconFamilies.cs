@@ -77,9 +77,12 @@ public static class GetIconsFromIconFamilies
                           RawStyle = a.Style.ToString(),
                           PathData =
                           [
-                              ..a.SvgData.Path.ValueKind == JsonValueKind.Array
-                                  ? a.SvgData.Path.EnumerateArray().Select(z => z.GetString()!)
-                                  : [a.SvgData.Path.GetString()!,],
+                              ..a.SvgData.Path.ValueKind switch
+                                {
+                                    JsonValueKind.Array  => a.SvgData.Path.EnumerateArray().Select(z => z.GetString()!),
+                                    JsonValueKind.String => [a.SvgData.Path.GetString()!,],
+                                    _                    => [],
+                                }
                           ],
                       }
                   ),
@@ -98,17 +101,19 @@ public static class GetIconsFromIconFamilies
         }
     }
 
+    [PublicAPI]
     private class IconModelIntermediate
     {
-        public string Label { get; }
-        public FamilyStylesByLicense FamilyStylesByLicense { get; } = new();
-        public string? Unicode { get; }
-        public IEnumerable<string> Ligatures { get; } = [];
-        public bool Private { get; }
-        public IconAliases Aliases { get; } = new();
-        public Dictionary<string, Dictionary<string, SvgData>> Svgs { get; } = new();
+        public string Label { get; set; }
+        public FamilyStylesByLicense FamilyStylesByLicense { get; set; } = new();
+        public string? Unicode { get; set; }
+        public IEnumerable<string> Ligatures { get; set; } = [];
+        public bool Private { get; set; }
+        public IconAliases Aliases { get; set; } = new();
+        public Dictionary<string, Dictionary<string, SvgData>> Svgs { get; set; } = new();
     }
 
+    [PublicAPI]
     private record IconModelBase
     {
         public required string Label { get; init; }
@@ -120,30 +125,34 @@ public static class GetIconsFromIconFamilies
         public required ImmutableDictionary<Family, ImmutableDictionary<Style, SvgData>> Svgs { get; init; }
     }
 
+    [PublicAPI]
     private class FamilyStylesByLicense
     {
-        public ImmutableArray<FontAwesomeFamilyStyle> Free { get; } = [];
-        public ImmutableArray<FontAwesomeFamilyStyle> Pro { get; } = [];
+        public ImmutableArray<FontAwesomeFamilyStyle> Free { get; set; } = [];
+        public ImmutableArray<FontAwesomeFamilyStyle> Pro { get; set; } = [];
     }
 
+    [PublicAPI]
     private class FontAwesomeFamilyStyle
     {
-        public Family Family { get; }
-        public Style Style { get; }
+        public Family Family { get; set; }
+        public Style Style { get; set; }
     }
 
+    [PublicAPI]
     private class SvgData
     {
         public int LastModified { get; set; }
         public string Raw { get; set; }
         public int[] ViewBox { get; set; }
-        public int Width { get; }
-        public int Height { get; }
-        public JsonElement Path { get; }
+        public int Width { get; set; }
+        public int Height { get; set; }
+        public JsonElement Path { get; set; }
     }
 
+    [PublicAPI]
     private record IconAliases
     {
-        public ImmutableArray<string> Names { get; } = [];
+        public ImmutableArray<string> Names { get; set; } = [];
     }
 }

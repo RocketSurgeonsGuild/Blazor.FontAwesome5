@@ -1,4 +1,5 @@
 using System.Collections.Immutable;
+using System.Net;
 using System.Text.RegularExpressions;
 using Humanizer;
 
@@ -193,6 +194,7 @@ public partial record CodeIconModel(IconModel Icon)
         $"https://fontawesome.com/icons/{Icon.Id}?f={IconModel.GetStyleNameDashes(Icon.Family.Humanize())}&amp;s={IconModel.GetStyleNameDashes(Icon.Style.Humanize())}";
 
     public string RootHref => $"https://fontawesome.com/icons/{Icon.Id}";
+    public string EncodedLabel => WebUtility.HtmlEncode(Icon.Label);
 
 
     public string IconClass(bool svgMode)

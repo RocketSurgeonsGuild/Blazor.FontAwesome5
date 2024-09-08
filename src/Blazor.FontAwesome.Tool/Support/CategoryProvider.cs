@@ -67,12 +67,10 @@ public sealed class CategoryProvider
         }
     }
 
+    [PublicAPI]
     private class CategoryModelBase
     {
-        [YamlMember(Alias = "icons")]
-        public IEnumerable<string> Icons { get; } = null!;
-
-        [YamlMember(Alias = "label")]
-        public string Label { get; } = null!;
+        public IEnumerable<string> Icons { get; set; } = null!;
+        public string Label { get; set; } = null!;
     }
 }

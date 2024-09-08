@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Collections.Immutable;
+using System.Net;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using Humanizer;
@@ -62,7 +63,7 @@ public static class GetFileContentForIcons
         sb.AppendLine("using Rocket.Surgery.Blazor.FontAwesome6;");
         sb.AppendLine($"namespace {@namespace}.Categories;");
         sb.AppendLine("/// <summary>");
-        sb.AppendLine($"/// Font Awesome {categoryModel.Label} Category Icons");
+        sb.AppendLine($"/// Font Awesome {WebUtility.HtmlEncode(categoryModel.Label)} Category Icons");
         sb.AppendLine("/// </summary>");
         sb.AppendLine(CodeGeneratedAttribute);
         sb.AppendLine($"public static partial class Fa{categoryModel.Name.Humanize().Pascalize()}");
@@ -130,8 +131,8 @@ public static class GetFileContentForIcons
         {
             var ci = rootCi = icons.First();
             sb.AppendLine("/// <summary>");
-            sb.AppendLine($"/// {ci.Icon.Label}");
-            sb.AppendLine($"/// <a href=\"{ci.RootHref}\">{ci.Icon.Label}</a>");
+            sb.AppendLine($"/// {ci.EncodedLabel}");
+            sb.AppendLine($"/// <a href=\"{ci.RootHref}\">{ci.EncodedLabel}</a>");
             sb.AppendLine("/// </summary>");
             sb.AppendLine(CodeGeneratedAttribute);
             sb.AppendLine(
@@ -146,7 +147,7 @@ public static class GetFileContentForIcons
                                 .ThenBy(z => z.Icon.Style))
             {
                 sb.AppendLine("/// <summary>");
-                sb.AppendLine($"/// <a href=\"{icon.Href}\">{icon.Icon.Label}</a>");
+                sb.AppendLine($"/// <a href=\"{icon.Href}\">{icon.EncodedLabel}</a>");
                 sb.AppendLine("/// </summary>");
                 sb.AppendLine(CodeGeneratedAttribute);
                 sb.AppendLine(
@@ -161,7 +162,7 @@ public static class GetFileContentForIcons
     private static void EmitSummaryComment(CodeIconModel icon, StringBuilder sb)
     {
         sb.AppendLine("/// <summary>");
-        sb.AppendLine($"/// <a href=\"{icon.Href}\">{icon.Icon.Label}</a>");
+        sb.AppendLine($"/// <a href=\"{icon.Href}\">{icon.EncodedLabel}</a>");
         sb.AppendLine("/// </summary>");
     }
 

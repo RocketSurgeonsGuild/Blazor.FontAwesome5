@@ -127,20 +127,9 @@ public class CategoryProviderTests
         if (_cache.TryGetValue(key, out var result))
             return YieldIcons(result);
 
-        var filename = Path.Combine(TempDirectory, $"{key}.json");
-        // json deserialize if the file exists.  Only if the file is not found or older than 24 hours should we make the request.
-        if (File.Exists(filename) && File.GetLastWriteTime(filename) > DateTime.UtcNow.AddHours(-24))
-        {
-            var icons = JsonSerializer.Deserialize<ImmutableArray<IconModel>>(File.ReadAllText(filename));
-            _cache.TryAdd(key, icons);
-            return YieldIcons(icons);
-        }
-
         result = RequestData(request);
         _cache.TryAdd(key, result);
         if (!Directory.Exists(TempDirectory)) Directory.CreateDirectory(TempDirectory);
-
-        File.WriteAllText(filename, JsonSerializer.Serialize(result));
         return YieldIcons(result);
 
         static ImmutableArray<IconModel> RequestData(IRequest<ImmutableArray<IconModel>> request)

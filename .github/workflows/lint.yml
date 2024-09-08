@@ -36,6 +36,8 @@ permissions:
   repository-projects: none
   security-events: none
   statuses: write
+env:
+  FONT_AWESOME_API_KEY: '${{ secrets.FONT_AWESOME_API_KEY }}'
 concurrency:
   group: 'lint-${{ github.event.pull_request.number }}'
   cancel-in-progress: true
@@ -73,43 +75,43 @@ jobs:
       - name: 🎁 Restore
         id: restore
         run: |
-          dotnet nuke DotnetCoreRestore Restore --skip
+          dotnet nuke DotnetCoreRestore Restore --skip --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Lint Files
         id: lintFiles
         run: |
-          dotnet nuke LintFiles --skip
+          dotnet nuke LintFiles --skip --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Regenerate Build Configurations
         id: regenerateBuildConfigurations
         run: |
-          dotnet nuke RegenerateBuildConfigurations --skip
+          dotnet nuke RegenerateBuildConfigurations --skip --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Prettier
         id: prettier
         run: |
-          dotnet nuke Prettier --skip
+          dotnet nuke Prettier --skip --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Dotnet Format
         id: dotnetFormat
         run: |
-          dotnet nuke DotnetFormat --skip
+          dotnet nuke DotnetFormat --skip --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Jet Brains Cleanup Code
         id: jetBrainsCleanupCode
         run: |
-          dotnet nuke JetBrainsCleanupCode --skip
+          dotnet nuke JetBrainsCleanupCode --skip --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Generate Solution Items
         id: generateSolutionItems
         run: |
-          dotnet nuke GenerateSolutionItems --skip
+          dotnet nuke GenerateSolutionItems --skip --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Generate Readme
         id: generateReadme
         run: |
-          dotnet nuke GenerateReadme --skip
+          dotnet nuke GenerateReadme --skip --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Lint Git Add
         id: lintGitAdd
         run: |
-          dotnet nuke LintGitAdd --skip
+          dotnet nuke LintGitAdd --skip --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Regenerate From Metadata
         id: regenerateFromMetadata
         run: |
-          dotnet nuke RegenerateFromMetadata --skip
+          dotnet nuke RegenerateFromMetadata --skip --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Add & Commit
         env:
           GITHUB_TOKEN: '${{ secrets.RSG_BOT_TOKEN }}'

@@ -74,6 +74,7 @@ public partial class Pipeline
             // .ConfigureForGitVersion()
            .ConfigureStep<CheckoutStep>(step => step.FetchDepth = 0)
            .PublishLogs<Pipeline>();
+        configuration.Environment["FONT_AWESOME_API_KEY"] = "${{ secrets.FONT_AWESOME_API_KEY }}";
 
         return configuration;
     }
@@ -84,6 +85,7 @@ public partial class Pipeline
            .Jobs.OfType<RocketSurgeonsGithubActionsJob>()
            .First(z => z.Name.Equals("Build", StringComparison.OrdinalIgnoreCase))
            .UseDotNetSdks("8.0");
+        configuration.Environment["FONT_AWESOME_API_KEY"] = "${{ secrets.FONT_AWESOME_API_KEY }}";
 
         return configuration;
     }

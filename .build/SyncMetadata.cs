@@ -9,45 +9,44 @@ using Nuke.Common.Tools.Git;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 using Rocket.Surgery.Hosting;
-using Rocket.Surgery.Nuke.DotNetCore;
+using Rocket.Surgery.Nuke.GithubActions;
 using Serilog;
 using static Nuke.Common.IO.FileSystemTasks;
 using static Nuke.Common.Tools.Npm.NpmTasks;
 
+[GitHubActionsSecret("FONT_AWESOME_TOKEN")]
+[GitHubActionsSecret("FONT_AWESOME_API_KEY")]
 public partial class Pipeline
 {
+    // need a better way to do this
+    public Matcher LintMatcher => excludeProjects(
+        new Matcher(StringComparison.OrdinalIgnoreCase)
+           .AddInclude("**/*")
+           .AddExclude("**/node_modules/**/*")
+           .AddExclude(".idea/**/*")
+           .AddExclude(".vscode/**/*")
+           .AddExclude(".nuke/**/*")
+           .AddExclude("**/bin/**/*")
+           .AddExclude("**/obj/**/*")
+           .AddExclude("**/*.verified.*")
+           .AddExclude("**/*.received.*"),
+        Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free,
+        Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Pro,
+        Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free_Svg
+    );
+
+    private static Matcher excludeProjects(Matcher matcher, params Project[] projects)
+    {
+        foreach (var item in projects)
+        {
+            _ = matcher.AddExclude(RootDirectory.GetUnixRelativePathTo(item.Directory) + "/**/*.cs");
+        }
+
+        return matcher;
+    }
+
     [Parameter]
     public string FontAwesomeToken { get; set; }
-
-    public Target LintFiles => d => d
-                                   .Executes(
-                                        () =>
-                                        {
-                                            excludeProjects(
-                                                this.CastAs<ICanDotNetFormat>().DotnetFormatMatcher,
-                                                Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free,
-                                                Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Pro,
-                                                Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free_Svg
-                                            );
-                                            excludeProjects(
-                                                this.CastAs<ICanDotNetFormat>().JetBrainsCleanupCodeMatcher,
-                                                Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free,
-                                                Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Pro,
-                                                Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free_Svg
-                                            );
-
-                                            static Matcher excludeProjects(Matcher matcher, params Project[] projects)
-                                            {
-                                                foreach (var item in projects)
-                                                {
-                                                    matcher.AddExclude(RootDirectory.GetUnixRelativePathTo(item.Directory) + "/**/*.cs");
-                                                }
-
-                                                return matcher;
-                                            }
-                                        }
-                                    )
-                                   .Inherit<ICanLint>(z => z.LintFiles);
 
     private Target RegenerateFromMetadata =>
         t => t

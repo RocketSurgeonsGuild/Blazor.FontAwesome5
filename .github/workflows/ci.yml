@@ -81,6 +81,8 @@ permissions:
   repository-projects: none
   security-events: none
   statuses: write
+env:
+  FONT_AWESOME_API_KEY: '${{ secrets.FONT_AWESOME_API_KEY }}'
 
 jobs:
   build:
@@ -105,23 +107,23 @@ jobs:
       - name: 🎁 Restore
         id: restore
         run: |
-          dotnet nuke DotnetCoreRestore Restore --skip
+          dotnet nuke DotnetCoreRestore Restore --skip --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: ⚙️ Build
         id: build
         run: |
-          dotnet nuke DotnetCoreBuild Build --skip
+          dotnet nuke DotnetCoreBuild Build --skip --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: 🚦 Test
         id: test
         run: |
-          dotnet nuke DotnetCoreTest Test TriggerCodeCoverageReports GenerateCodeCoverageReportCobertura GenerateCodeCoverageBadges GenerateCodeCoverageSummary GenerateCodeCoverageReport --skip
+          dotnet nuke DotnetCoreTest Test TriggerCodeCoverageReports GenerateCodeCoverageReportCobertura GenerateCodeCoverageBadges GenerateCodeCoverageSummary GenerateCodeCoverageReport --skip --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: 📦 Pack
         id: pack
         run: |
-          dotnet nuke DotnetCorePack Pack --skip
+          dotnet nuke DotnetCorePack Pack --skip --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Default
         id: default
         run: |
-          dotnet nuke Default --skip
+          dotnet nuke Default --skip --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: 🏺 Publish coverage data
         if: always()
         uses: actions/upload-artifact@v4.4.0

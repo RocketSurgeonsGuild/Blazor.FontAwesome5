@@ -1,0 +1,20 @@
+﻿[
+  {
+    Id: 0,
+    Label: 0,
+    Style: Light,
+    Height: 512,
+    Width: 320,
+    Prefix: fal,
+    LongPrefix: fa-light
+  },
+  {
+    Id: 00,
+    Label: 00,
+    Style: Light,
+    Height: 512,
+    Width: 640,
+    Prefix: fal,
+    LongPrefix: fa-light
+  }
+]

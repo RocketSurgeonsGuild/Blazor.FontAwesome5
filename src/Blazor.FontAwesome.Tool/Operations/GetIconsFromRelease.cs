@@ -1,4 +1,5 @@
 using System.Collections.Immutable;
+using Humanizer;
 using MediatR;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 using StrawberryShake;
@@ -21,8 +22,8 @@ public static class GetIconsFromRelease
                        .SelectManyAwait(
                             async style =>
                             {
-                                var iconFamily = Enum.TryParse<Family>(style.Family, true, out var _f) ? _f : default;
-                                var iconStyle = Enum.TryParse<Style>(style.Style, true, out var _s) ? _s : default;
+                                var iconFamily = Enum.TryParse<Family>(style.Family.Pascalize(), true, out var _f) ? _f : default;
+                                var iconStyle = Enum.TryParse<Style>(style.Style.Pascalize(), true, out var _s) ? _s : default;
                                 var icons = await fontAwesome.GetReleaseIcons.ExecuteAsync(
                                     request.Version,
                                     iconFamily,

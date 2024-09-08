@@ -16,9 +16,9 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/house-flood-water-circle-arrow-right?f=classic&amp;s=solid">House Flood Water Circle Arrow Right</a>
     /// </summary>
     public static SvgIcon HouseFloodWaterCircleArrowRight => f_HouseFloodWaterCircleArrowRight ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "house-flood-water-circle-arrow-right", "[unicode]", 640, 512, "[path]");
-    private static SvgIcon? f_HouseFloodWaterCircleArrowRight;
+    private static SvgIcon? f_PersonWalkingDashedLineArrowRight;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/house-flood-water-circle-arrow-right?f=classic&amp;s=solid">House Flood Water Circle Arrow Right</a>
+    /// <a href="https://fontawesome.com/icons/person-walking-dashed-line-arrow-right?f=classic&amp;s=solid">Person Walking Dashed Line Arrow Right</a>
     /// </summary>
-    public static SvgIcon HouseFloodWaterCircleArrowRight => f_HouseFloodWaterCircleArrowRight ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "house-flood-water-circle-arrow-right", "[unicode]", 640, 512, "[path]");
+    public static SvgIcon PersonWalkingDashedLineArrowRight => f_PersonWalkingDashedLineArrowRight ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "person-walking-dashed-line-arrow-right", "[unicode]", 640, 512, "[path]");
 }

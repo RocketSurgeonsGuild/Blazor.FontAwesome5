@@ -1,0 +1,20 @@
+﻿[
+  {
+    Id: down-left-and-up-right-to-center,
+    Label: Down Left And Up Right To Center,
+    Style: Light,
+    Height: 512,
+    Width: 512,
+    Prefix: fal,
+    LongPrefix: fa-light
+  },
+  {
+    Id: up-right-and-down-left-from-center,
+    Label: Up Right And Down Left From Center,
+    Style: Light,
+    Height: 512,
+    Width: 512,
+    Prefix: fal,
+    LongPrefix: fa-light
+  }
+]

@@ -35,7 +35,7 @@ public record IconModel
     /// <summary>
     ///     The family of the icon, like "solid" or "brands".
     /// </summary>
-    public Family Family => Enum.TryParse<Family>(RawFamily, true, out var family) ? family : default;
+    public Family Family => ParseFamily(RawFamily) ?? throw new NotSupportedException($"Unknown family {RawFamily}");
 
     /// <summary>
     ///     The family of the icon, like "solid" or "brands".
@@ -45,7 +45,7 @@ public record IconModel
     /// <summary>
     ///     The style of the icon, like "solid" or "light".
     /// </summary>
-    public Style Style => Enum.TryParse<Style>(RawStyle, true, out var style) ? style : default;
+    public Style Style => ParseStyle(RawStyle) ?? throw new NotSupportedException($"Unknown style {RawStyle}");
 
     /// <summary>
     ///     The style of the icon, like "solid" or "light".
@@ -147,6 +147,10 @@ public record IconModel
     {
         return $"{RawFamily} {RawStyle} {Id}";
     }
+
+    public static Family? ParseFamily(string rawFamily) => ParseEnum<Family>(rawFamily);
+    public static Style? ParseStyle(string rawStyle) => ParseEnum<Style>(rawStyle);
+    private static T? ParseEnum<T>(string value) where T : struct => Enum.TryParse<T>(value.Replace('-', ' ').Humanize().Pascalize(), true, out var family) ? family : default;
 }
 
 public partial record CodeIconModel(IconModel Icon)

@@ -1,0 +1,20 @@
+﻿[
+  {
+    Id: arrow-down-left-and-arrow-up-right-to-center,
+    Label: Arrow Down Left And Arrow Up Right To Center,
+    Style: Solid,
+    Height: 512,
+    Width: 512,
+    Prefix: fas,
+    LongPrefix: fa-solid
+  },
+  {
+    Id: arrow-down-left-and-arrow-up-right-to-center,
+    Label: Arrow Down Left And Arrow Up Right To Center,
+    Style: Solid,
+    Height: 512,
+    Width: 512,
+    Prefix: fas,
+    LongPrefix: fa-solid
+  }
+]

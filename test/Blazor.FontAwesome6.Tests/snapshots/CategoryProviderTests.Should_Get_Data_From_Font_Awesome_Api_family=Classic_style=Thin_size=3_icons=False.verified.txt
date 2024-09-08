@@ -1,0 +1,20 @@
+﻿[
+  {
+    Id: album-circle-plus,
+    Label: Album Circle Plus,
+    Style: Thin,
+    Height: 512,
+    Width: 576,
+    Prefix: fat,
+    LongPrefix: fa-thin
+  },
+  {
+    Id: album-circle-user,
+    Label: Album Circle User,
+    Style: Thin,
+    Height: 512,
+    Width: 576,
+    Prefix: fat,
+    LongPrefix: fa-thin
+  }
+]

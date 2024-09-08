@@ -23,8 +23,8 @@ public static class GetIconsFromKit
                        .SelectManyAwait(
                             async style =>
                             {
-                                var iconFamily = Enum.TryParse<Family>(style.Family, true, out var _f) ? _f : default;
-                                var iconStyle = Enum.TryParse<Style>(style.Style, true, out var _s) ? _s : default;
+                                var iconFamily = IconModel.ParseFamily(style.Family) ?? throw new NotSupportedException($"Unknown family {style.Family}");
+                                var iconStyle = IconModel.ParseStyle(style.Style) ?? throw new NotSupportedException($"Unknown style {style.Style}");
                                 var icns = await fontAwesome.GetKitIcons.ExecuteAsync(
                                     request.Name,
                                     iconFamily,
@@ -45,8 +45,6 @@ public static class GetIconsFromKit
                                                    return null;
                                                }
 
-                                               var styleCss = $"fa-{style.Style.Humanize().Underscore().Dasherize()}";
-                                               var familyCss = $"fa-{style.Family.Humanize().Underscore().Dasherize()}";
                                                return new IconModel
                                                {
                                                    Categories = categoryProvider.CategoryLookup[icon.Id].ToImmutableHashSet(),

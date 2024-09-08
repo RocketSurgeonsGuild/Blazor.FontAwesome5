@@ -55,6 +55,8 @@ alert:
     - circle-exclamation-check
     - circle-quarters
     - circle-radiation
+    - circle-wifi
+    - circle-wifi-circle-wifi
     - cloud-exclamation
     - cloud-question
     - comment-exclamation
@@ -175,6 +177,7 @@ alphabet:
 animals:
   icons:
     - alicorn
+    - ant
     - badger-honey
     - bat
     - bee
@@ -205,6 +208,7 @@ animals:
     - horse
     - horse-head
     - horse-saddle
+    - hydra
     - kiwi-bird
     - lobster
     - locust
@@ -212,6 +216,7 @@ animals:
     - mosquito
     - mouse-field
     - narwhal
+    - octopus
     - otter
     - paw
     - paw-claws
@@ -257,6 +262,7 @@ arrows:
     - arrow-down-arrow-up
     - arrow-down-big-small
     - arrow-down-from-arc
+    - arrow-down-from-bracket
     - arrow-down-from-dotted-line
     - arrow-down-from-line
     - arrow-down-left
@@ -278,10 +284,12 @@ arrows:
     - arrow-down-z-a
     - arrow-left
     - arrow-left-from-arc
+    - arrow-left-from-bracket
     - arrow-left-from-line
     - arrow-left-long
     - arrow-left-long-to-line
     - arrow-left-to-arc
+    - arrow-left-to-bracket
     - arrow-left-to-line
     - arrow-pointer
     - arrow-progress
@@ -329,6 +337,7 @@ arrows:
     - arrow-up-small-big
     - arrow-up-square-triangle
     - arrow-up-to-arc
+    - arrow-up-to-bracket
     - arrow-up-to-dotted-line
     - arrow-up-to-line
     - arrow-up-triangle-square
@@ -399,6 +408,7 @@ arrows:
     - cloud-arrow-down
     - cloud-arrow-up
     - down
+    - down-from-bracket
     - down-from-dotted-line
     - down-from-line
     - down-left
@@ -412,10 +422,12 @@ arrows:
     - inbox-in
     - inbox-out
     - left
+    - left-from-bracket
     - left-from-line
     - left-long
     - left-long-to-line
     - left-right
+    - left-to-bracket
     - left-to-line
     - location-arrow
     - location-arrow-up
@@ -494,6 +506,7 @@ arrows:
     - up-right
     - up-right-and-down-left-from-center
     - up-right-from-square
+    - up-to-bracket
     - up-to-dotted-line
     - up-to-line
     - upload
@@ -881,6 +894,7 @@ business:
     - tag
     - tags
     - thumbtack
+    - thumbtack-slash
     - timeline
     - timeline-arrow
     - trademark
@@ -1073,6 +1087,7 @@ childhood:
     - bell-school-slash
     - block
     - block-question
+    - bottle-baby
     - bowl-soft-serve
     - bucket
     - cake-candles
@@ -1244,6 +1259,7 @@ coding:
     - square-terminal
     - terminal
     - user-secret
+    - web-awesome
     - webhook
     - window
     - window-flip
@@ -1264,6 +1280,8 @@ communication:
     - circle-phone
     - circle-phone-flip
     - circle-phone-hangup
+    - circle-wifi
+    - circle-wifi-circle-wifi
     - comment
     - comment-arrow-down
     - comment-arrow-up
@@ -1306,6 +1324,7 @@ communication:
     - face-smile
     - face-smile-plus
     - fax
+    - globe-wifi
     - hands-asl-interpreting
     - hundred-points
     - icons
@@ -1313,6 +1332,7 @@ communication:
     - inbox-in
     - inbox-out
     - language
+    - lightbulb-message
     - mailbox
     - mailbox-flag-up
     - message
@@ -1393,6 +1413,8 @@ connectivity:
   icons:
     - bluetooth
     - circle-nodes
+    - circle-wifi
+    - circle-wifi-circle-wifi
     - cloud
     - cloud-arrow-down
     - cloud-arrow-up
@@ -1406,6 +1428,7 @@ connectivity:
     - ethernet
     - globe
     - globe-pointer
+    - globe-wifi
     - house-signal
     - link-horizontal
     - link-horizontal-slash
@@ -1521,6 +1544,7 @@ design:
     - crosshairs-simple
     - cube
     - cubes
+    - diamonds-4
     - distribute-spacing-horizontal
     - distribute-spacing-vertical
     - draw-circle
@@ -1599,6 +1623,7 @@ design:
     - pencil-mechanical
     - rectangle-pro
     - rectangles-mixed
+    - reflect-both
     - reflect-horizontal
     - reflect-vertical
     - ruler-combined
@@ -1623,6 +1648,7 @@ design:
     - vector-square
     - wand-magic
     - wand-magic-sparkles
+    - web-awesome
     - wrench-simple
   label: Design
 devices-hardware:
@@ -2153,6 +2179,7 @@ files:
     - file-arrow-up
     - file-audio
     - file-binary
+    - file-cad
     - file-check
     - file-circle-check
     - file-circle-exclamation
@@ -2328,6 +2355,7 @@ food-beverage:
     - beer-mug-empty
     - blender
     - bone
+    - bottle-baby
     - bottle-droplet
     - bottle-water
     - bowl-chopsticks
@@ -2363,6 +2391,7 @@ food-beverage:
     - cheese
     - cheese-swiss
     - chopsticks
+    - circle-gf
     - cloud-meatball
     - coffee-bean
     - coffee-beans
@@ -3565,6 +3594,7 @@ maps:
     - tags
     - taxi
     - thumbtack
+    - thumbtack-slash
     - ticket
     - ticket-simple
     - tickets
@@ -4516,6 +4546,7 @@ religion:
     - tombstone
     - tombstone-blank
     - torii-gate
+    - user-beard-bolt
     - vihara
     - yin-yang
   label: Religion
@@ -4762,6 +4793,7 @@ shapes:
     - diamond
     - diamond-half
     - diamond-half-stroke
+    - diamonds-4
     - file
     - folder
     - heart
@@ -4826,6 +4858,7 @@ shopping:
     - box-open-full
     - btc
     - bullhorn
+    - caduceus
     - camera
     - camera-retro
     - cart-arrow-down
@@ -4919,12 +4952,14 @@ social:
     - bags-shopping
     - bell
     - bird
+    - bluesky
     - cake-candles
     - camera
     - circle-envelope
     - circle-user
     - comment
     - envelope
+    - facebook
     - hashtag
     - heart
     - icons
@@ -4950,6 +4985,7 @@ social:
     - thumbs-down
     - thumbs-up
     - thumbtack
+    - thumbtack-slash
     - user
     - user-crown
     - user-group
@@ -5159,7 +5195,13 @@ text-formatting:
     - symbols
     - table
     - table-cells
+    - table-cells-column-lock
+    - table-cells-column-unlock
     - table-cells-large
+    - table-cells-lock
+    - table-cells-row-lock
+    - table-cells-row-unlock
+    - table-cells-unlock
     - table-columns
     - table-layout
     - table-list
@@ -5432,6 +5474,7 @@ travel-hotel:
     - caravan-simple
     - cars
     - cart-flatbed-suitcase
+    - circle-gf
     - dice
     - dice-five
     - door-closed
@@ -5689,6 +5732,7 @@ users-people:
     - user
     - user-alien
     - user-astronaut
+    - user-beard-bolt
     - user-bounty-hunter
     - user-check
     - user-chef
@@ -5710,6 +5754,7 @@ users-people:
     - user-hair-mullet
     - user-headset
     - user-helmet-safety
+    - user-hoodie
     - user-injured
     - user-large
     - user-large-slash
@@ -5903,5 +5948,6 @@ writing:
     - square-pen
     - square-quote
     - thumbtack
+    - thumbtack-slash
     - typewriter
   label: Writing

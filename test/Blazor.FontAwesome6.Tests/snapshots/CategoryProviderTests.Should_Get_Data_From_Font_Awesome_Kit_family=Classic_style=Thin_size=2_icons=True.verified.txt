@@ -1,0 +1,20 @@
+﻿[
+  {
+    Id: 360-degrees,
+    Label: 360 Degrees,
+    Style: Thin,
+    Height: 512,
+    Width: 640,
+    Prefix: fat,
+    LongPrefix: fa-thin
+  },
+  {
+    Id: accent-grave,
+    Label: Accent Grave,
+    Style: Thin,
+    Height: 512,
+    Width: 192,
+    Prefix: fat,
+    LongPrefix: fa-thin
+  }
+]

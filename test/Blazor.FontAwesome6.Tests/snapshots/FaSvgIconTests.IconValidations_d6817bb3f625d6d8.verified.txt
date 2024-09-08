@@ -1,6 +1,7 @@
 ﻿{
   Instance: {
     Icon: {
+      Style: Solid,
       Name: link,
       Unicode: f0c1
     },

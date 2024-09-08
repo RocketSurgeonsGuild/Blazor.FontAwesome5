@@ -22,7 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference
-      Include="..\src\Blazor.FontAwesome.Tool\Rocket.Surgery.Blazor.FontAwesome.Tool.csproj" />
+    <ProjectReference Include="..\src\Blazor.FontAwesome.Tool\Rocket.Surgery.Blazor.FontAwesome.Tool.csproj" />
   </ItemGroup>
 </Project>

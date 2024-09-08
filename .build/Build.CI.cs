@@ -1,7 +1,6 @@
 using System.Diagnostics;
 using Nuke.Common.CI.GitHubActions;
 using Rocket.Surgery.Nuke.ContinuousIntegration;
-using Rocket.Surgery.Nuke.DotNetCore;
 using Rocket.Surgery.Nuke.GithubActions;
 
 #pragma warning disable CA1050
@@ -10,29 +9,29 @@ using Rocket.Surgery.Nuke.GithubActions;
     "ci-ignore",
     GitHubActionsImage.UbuntuLatest,
     AutoGenerate = false,
-    On = [RocketSurgeonGitHubActionsTrigger.Push],
-    OnPushTags = ["v*"],
-    OnPushBranches = ["master", "main", "next"],
-    OnPullRequestBranches = ["master", "main", "next"],
-    Enhancements = [nameof(CiIgnoreMiddleware)]
+    On = [RocketSurgeonGitHubActionsTrigger.Push,],
+    OnPushTags = ["v*",],
+    OnPushBranches = ["master", "main", "next",],
+    OnPullRequestBranches = ["master", "main", "next",],
+    Enhancements = [nameof(CiIgnoreMiddleware),]
 )]
 [GitHubActionsSteps(
     "ci",
     GitHubActionsImage.UbuntuLatest,
     AutoGenerate = false,
-    On = [RocketSurgeonGitHubActionsTrigger.Push],
-    OnPushTags = ["v*"],
-    OnPushBranches = ["master", "main", "next"],
-    OnPullRequestBranches = ["master", "main", "next"],
-    InvokedTargets = [nameof(Default)],
-    Enhancements = [nameof(CiMiddleware)]
+    On = [RocketSurgeonGitHubActionsTrigger.Push,],
+    OnPushTags = ["v*",],
+    OnPushBranches = ["master", "main", "next",],
+    OnPullRequestBranches = ["master", "main", "next",],
+    InvokedTargets = [nameof(Default),],
+    Enhancements = [nameof(CiMiddleware),]
 )]
 [GitHubActionsLint(
     "lint",
     GitHubActionsImage.UbuntuLatest,
     AutoGenerate = false,
-    OnPullRequestTargetBranches = ["master", "main", "next"],
-    Enhancements = [nameof(LintStagedMiddleware)]
+    OnPullRequestTargetBranches = ["master", "main", "next",],
+    Enhancements = [nameof(LintStagedMiddleware),]
 )]
 [PrintBuildVersion]
 [PrintCIEnvironment]
@@ -41,15 +40,6 @@ using Rocket.Surgery.Nuke.GithubActions;
 [ContinuousIntegrationConventions]
 public partial class Pipeline
 {
-    [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]
-    private string DebuggerDisplay
-    {
-        get
-        {
-            return ToString();
-        }
-    }
-
     public static RocketSurgeonGitHubActionsConfiguration CiIgnoreMiddleware(RocketSurgeonGitHubActionsConfiguration configuration)
     {
         ( (RocketSurgeonsGithubActionsJob)configuration.Jobs[0] ).Steps =
@@ -74,6 +64,7 @@ public partial class Pipeline
             // .ConfigureForGitVersion()
            .ConfigureStep<CheckoutStep>(step => step.FetchDepth = 0)
            .PublishLogs<Pipeline>();
+        configuration.Environment["FONT_AWESOME_API_KEY"] = "${{ secrets.FONT_AWESOME_API_KEY }}";
 
         return configuration;
     }
@@ -84,7 +75,11 @@ public partial class Pipeline
            .Jobs.OfType<RocketSurgeonsGithubActionsJob>()
            .First(z => z.Name.Equals("Build", StringComparison.OrdinalIgnoreCase))
            .UseDotNetSdks("8.0");
+        configuration.Environment["FONT_AWESOME_API_KEY"] = "${{ secrets.FONT_AWESOME_API_KEY }}";
 
         return configuration;
     }
+
+    [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+    private string DebuggerDisplay => ToString();
 }

@@ -6,12 +6,11 @@ using Rocket.Surgery.Conventions;
 using Rocket.Surgery.Conventions.CommandLine;
 using Rocket.Surgery.Conventions.DependencyInjection;
 using Spectre.Console.Cli;
-using StrawberryShake;
 
 namespace Rocket.Surgery.Blazor.FontAwesome.Tool;
 
 [ExportConvention]
-class ToolConvention : ICommandLineConvention, IServiceConvention
+internal class ToolConvention : ICommandLineConvention, IServiceConvention
 {
     public void Register(IConventionContext context, IConfigurator app)
     {
@@ -21,9 +20,10 @@ class ToolConvention : ICommandLineConvention, IServiceConvention
     public void Register(IConventionContext context, IConfiguration configuration, IServiceCollection services)
     {
         services
+           .AddTransient<CategoryProvider>(_ => CategoryProvider.Instance ?? CategoryProvider.CreateDefault())
            .AddSingleton<FontAwesomeApiKeyProvider>()
            .AddSingleton<FontAwesomeApiKeyHandler>()
-           .AddFontAwesome(ExecutionStrategy.NetworkOnly)
+           .AddFontAwesome()
            .ConfigureHttpClient(
                 client => client.BaseAddress = new("https://api.fontawesome.com/"),
                 builder => builder.AddHttpMessageHandler<FontAwesomeApiKeyHandler>()

@@ -1,11 +1,14 @@
 using System;
+using System.CodeDom.Compiler;
 using System.Collections.Immutable;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 using Rocket.Surgery.Blazor.FontAwesome6;
 namespace Rocket.Surgery.Blazor.FontAwesome6.Free;
 /// <summary>
 /// Font Awesome Brands Icons
 /// </summary>
-[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+[ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
 public static partial class FaBrands
 {
     private static Icon? f__42Group;
@@ -522,6 +525,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/dailymotion?f=classic&amp;s=brands">dailymotion</a>
     /// </summary>
     public static Icon Dailymotion => f_Dailymotion ??= new Icon(IconFamily.Classic, IconStyle.Brands, "dailymotion", "e052");
+    private static Icon? f_DartLang;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/dart-lang?f=classic&amp;s=brands">Dart Lang</a>
+    /// </summary>
+    public static Icon DartLang => f_DartLang ??= new Icon(IconFamily.Classic, IconStyle.Brands, "dart-lang", "e693");
     private static Icon? f_Dashcube;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/dashcube?f=classic&amp;s=brands">DashCube</a>
@@ -767,6 +775,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/flipboard?f=classic&amp;s=brands">Flipboard</a>
     /// </summary>
     public static Icon Flipboard => f_Flipboard ??= new Icon(IconFamily.Classic, IconStyle.Brands, "flipboard", "f44d");
+    private static Icon? f_Flutter;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/flutter?f=classic&amp;s=brands">Flutter</a>
+    /// </summary>
+    public static Icon Flutter => f_Flutter ??= new Icon(IconFamily.Classic, IconStyle.Brands, "flutter", "e694");
     private static Icon? f_Fly;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/fly?f=classic&amp;s=brands">Fly</a>
@@ -1147,7 +1160,7 @@ public static partial class FaBrands
     public static Icon Jsfiddle => f_Jsfiddle ??= new Icon(IconFamily.Classic, IconStyle.Brands, "jsfiddle", "f1cc");
     private static Icon? f_Jxl;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/jxl?f=classic&amp;s=brands">Jxl</a>
+    /// <a href="https://fontawesome.com/icons/jxl?f=classic&amp;s=brands">JXL</a>
     /// </summary>
     public static Icon Jxl => f_Jxl ??= new Icon(IconFamily.Classic, IconStyle.Brands, "jxl", "e67b");
     private static Icon? f_Kaggle;
@@ -1828,7 +1841,7 @@ public static partial class FaBrands
     public static Icon SnapchatGhost => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.Snapchat;
     private static Icon? f_Soundcloud;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/soundcloud?f=classic&amp;s=brands">SoundCloud</a>
+    /// <a href="https://fontawesome.com/icons/soundcloud?f=classic&amp;s=brands">Soundcloud</a>
     /// </summary>
     public static Icon Soundcloud => f_Soundcloud ??= new Icon(IconFamily.Classic, IconStyle.Brands, "soundcloud", "f1be");
     private static Icon? f_Sourcetree;

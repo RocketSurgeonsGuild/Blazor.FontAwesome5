@@ -1,0 +1,20 @@
+﻿[
+  {
+    Id: album-collection-circle-plus,
+    Label: Album Collection Circle Plus,
+    Style: Solid,
+    Height: 512,
+    Width: 640,
+    Prefix: fas,
+    LongPrefix: fa-solid
+  },
+  {
+    Id: album-collection-circle-user,
+    Label: Album Collection Circle User,
+    Style: Solid,
+    Height: 512,
+    Width: 640,
+    Prefix: fas,
+    LongPrefix: fa-solid
+  }
+]

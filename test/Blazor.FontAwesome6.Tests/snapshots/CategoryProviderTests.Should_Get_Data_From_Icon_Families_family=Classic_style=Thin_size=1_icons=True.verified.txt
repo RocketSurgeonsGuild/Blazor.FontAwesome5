@@ -1,0 +1,20 @@
+﻿[
+  {
+    Id: 0,
+    Label: 0,
+    Style: Thin,
+    Height: 512,
+    Width: 320,
+    Prefix: fat,
+    LongPrefix: fa-thin
+  },
+  {
+    Id: 1,
+    Label: 1,
+    Style: Thin,
+    Height: 512,
+    Width: 256,
+    Prefix: fat,
+    LongPrefix: fa-thin
+  }
+]

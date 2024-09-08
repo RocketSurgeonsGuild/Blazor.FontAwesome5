@@ -1,0 +1,20 @@
+﻿[
+  {
+    Id: album-circle-plus,
+    Label: Album Circle Plus,
+    Style: Regular,
+    Height: 512,
+    Width: 576,
+    Prefix: far,
+    LongPrefix: fa-regular
+  },
+  {
+    Id: album-circle-user,
+    Label: Album Circle User,
+    Style: Regular,
+    Height: 512,
+    Width: 576,
+    Prefix: far,
+    LongPrefix: fa-regular
+  }
+]

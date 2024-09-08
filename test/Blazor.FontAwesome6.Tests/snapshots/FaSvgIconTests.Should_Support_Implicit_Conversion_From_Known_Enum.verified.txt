@@ -1,6 +1,7 @@
 ﻿{
   Instance: {
     Icon: {
+      Style: Solid,
       Name: circle-half-stroke,
       Unicode: f042
     }

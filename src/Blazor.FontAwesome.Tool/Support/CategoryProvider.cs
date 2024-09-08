@@ -1,19 +1,23 @@
-﻿using System.Collections.Frozen;
+using System.Collections.Frozen;
 using System.Collections.Immutable;
+using System.Diagnostics;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
 namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 
-public class CategoryProvider
+[DebuggerDisplay("{DebuggerDisplay,nq}")]
+public sealed class CategoryProvider
 {
+    public static CategoryProvider? Instance { get; internal set; }
+
     public static CategoryProvider Create(Stream stream)
     {
         using var reader = new StreamReader(stream);
 
         return new(
             new DeserializerBuilder()
-               .WithNamingConvention(CamelCaseNamingConvention.Instance)
+               .WithNamingConvention(HyphenatedNamingConvention.Instance)
                .Build()
                .Deserialize<CategoryDictionary>(reader.ReadToEnd())
                .ToModels()
@@ -22,7 +26,6 @@ public class CategoryProvider
 
     public static CategoryProvider CreateDefault()
     {
-
         var fileResourceName = typeof(CategoryProvider).Assembly.GetManifestResourceNames().FirstOrDefault(x => x.EndsWith("categories.yml"));
         if (fileResourceName is null)
         {
@@ -32,6 +35,21 @@ public class CategoryProvider
         using var stream = typeof(CategoryProvider).Assembly.GetManifestResourceStream(fileResourceName)!;
         return Create(stream);
     }
+
+    private CategoryProvider(IEnumerable<CategoryModel> dictionary)
+    {
+        var categoryModels = dictionary as CategoryModel[] ?? dictionary.ToArray();
+        Categories = categoryModels.ToFrozenDictionary(z => z.Name, z => z, StringComparer.OrdinalIgnoreCase);
+        CategoryLookup = categoryModels
+                        .SelectMany(z => z.Icons, (z, y) => ( category: z, iconName: y ))
+                        .ToLookup(z => z.iconName, z => z.category, StringComparer.OrdinalIgnoreCase);
+    }
+
+    public FrozenDictionary<string, CategoryModel> Categories { get; }
+    public ILookup<string, CategoryModel> CategoryLookup { get; }
+
+    [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+    private string DebuggerDisplay => ToString();
 
     private class CategoryDictionary : Dictionary<string, CategoryModelBase>
     {
@@ -49,21 +67,10 @@ public class CategoryProvider
         }
     }
 
+    [PublicAPI]
     private class CategoryModelBase
     {
-        public IEnumerable<string> Icons { get; set; }
-        public string Label { get; set; }
+        public IEnumerable<string> Icons { get; set; } = null!;
+        public string Label { get; set; } = null!;
     }
-
-    private CategoryProvider(IEnumerable<CategoryModel> dictionary)
-    {
-        var categoryModels = dictionary as CategoryModel[] ?? dictionary.ToArray();
-        Categories = categoryModels.ToFrozenDictionary(z => z.Name, z => z, StringComparer.OrdinalIgnoreCase);
-        CategoryLookup = categoryModels
-                        .SelectMany(z => z.Icons, (z, y) => ( category: z, iconName: y ))
-                        .ToLookup(z => z.iconName, z => z.category, StringComparer.OrdinalIgnoreCase);
-    }
-
-    public FrozenDictionary<string, CategoryModel> Categories { get; }
-    public ILookup<string, CategoryModel> CategoryLookup { get; }
 }

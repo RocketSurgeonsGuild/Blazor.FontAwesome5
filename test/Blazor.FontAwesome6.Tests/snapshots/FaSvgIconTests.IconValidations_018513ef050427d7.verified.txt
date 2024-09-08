@@ -1,6 +1,7 @@
 ﻿{
   Instance: {
     Icon: {
+      Style: Solid,
       Name: battery-full,
       Unicode: f240
     }

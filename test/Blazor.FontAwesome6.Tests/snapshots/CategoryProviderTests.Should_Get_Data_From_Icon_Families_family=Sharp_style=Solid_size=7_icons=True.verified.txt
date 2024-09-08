@@ -1,0 +1,28 @@
+﻿[
+  {
+    Id: down-left-and-up-right-to-center,
+    Label: Down Left And Up Right To Center,
+    Family: Sharp,
+    Style: Solid,
+    Height: 512,
+    Width: 512,
+    Aliases: [
+      compress-alt
+    ],
+    Prefix: fass,
+    LongPrefix: fa-sharp fa-solid
+  },
+  {
+    Id: up-right-and-down-left-from-center,
+    Label: Up Right And Down Left From Center,
+    Family: Sharp,
+    Style: Solid,
+    Height: 512,
+    Width: 512,
+    Aliases: [
+      expand-alt
+    ],
+    Prefix: fass,
+    LongPrefix: fa-sharp fa-solid
+  }
+]

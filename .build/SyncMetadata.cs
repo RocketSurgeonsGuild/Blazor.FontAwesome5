@@ -1,59 +1,74 @@
 using System.Collections.Immutable;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.FileSystemGlobbing;
 using Nuke.Common;
 using Nuke.Common.IO;
+using Nuke.Common.ProjectModel;
+using Nuke.Common.Tools.Git;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 using Rocket.Surgery.Hosting;
+using Rocket.Surgery.Nuke.GithubActions;
 using Serilog;
 using static Nuke.Common.IO.FileSystemTasks;
 using static Nuke.Common.Tools.Npm.NpmTasks;
 
+[GitHubActionsSecret("FONT_AWESOME_TOKEN")]
+[GitHubActionsSecret("FONT_AWESOME_API_KEY")]
 public partial class Pipeline
 {
+    private static Matcher excludeProjects(Matcher matcher, params Project[] projects)
+    {
+        foreach (var item in projects)
+        {
+            _ = matcher.AddExclude(RootDirectory.GetUnixRelativePathTo(item.Directory) + "/**/*.cs");
+        }
+
+        return matcher;
+    }
+
     [Parameter]
     public string FontAwesomeToken { get; set; }
 
     private Target RegenerateFromMetadata =>
-        _ => _
+        t => t
             .Requires(() => FontAwesomeToken)
+            .OnlyWhenStatic(() => !string.IsNullOrWhiteSpace(FontAwesomeToken))
+            .TryTriggeredBy<IHaveLintTarget>(a => a.Lint)
             .Executes(
                  async () =>
                  {
-                     var stringV = "6";
+                     const string stringV = "6";
                      var packageDirectory = TemporaryDirectory / "V6";
-                     packageDirectory.CreateDirectory();
-                     ( packageDirectory / "package.json" ).WriteAllText("{}");
-                     ( packageDirectory / ".npmrc" ).WriteAllText(
-                         $@"@fortawesome:registry=https://npm.fontawesome.com/
-//npm.fontawesome.com/:_authToken={FontAwesomeToken}"
-                     );
+                     _ = packageDirectory.CreateDirectory();
+                     _ = ( packageDirectory / "package.json" ).WriteAllText("{}");
+                     _ = ( packageDirectory / ".npmrc" )
+                        .WriteAllText(
+                             $"""
+                             @fortawesome:registry=https://npm.fontawesome.com/
+                             //npm.fontawesome.com/:_authToken={FontAwesomeToken}
+                             """
+                         );
 
                      if (!( TemporaryDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" ).DirectoryExists())
                      {
-                         Npm($"install @fortawesome/fontawesome-pro@{stringV} --no-package-lock", packageDirectory);
+                         _ = Npm($"install @fortawesome/fontawesome-pro@{stringV} --no-package-lock", packageDirectory);
                      }
 
                      var iconsData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "icon-families.json";
                      var categoriesData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "categories.yml";
                      CopyFile(categoriesData, RootDirectory / "src" / "Blazor.FontAwesome.Tool" / "categories.txt", FileExistsPolicy.Overwrite);
 
+                     var categoryProvider = categoriesData.FileExists()
+                         ? CategoryProvider.Create(File.OpenRead(categoriesData))
+                         : CategoryProvider.CreateDefault();
                      var host = Microsoft
                                .Extensions.Hosting.Host.CreateDefaultBuilder()
                                .ConfigureRocketSurgery(Imports.GetConventions)
+                               .ConfigureServices((_, collection) => collection.AddSingleton(categoryProvider))
                                .Build();
                      await host.StartAsync();
-                     CategoryProvider categoryProvider;
-                     if (categoriesData.FileExists())
-                     {
-                         await using var stream = File.OpenRead(categoriesData);
-                         categoryProvider = CategoryProvider.Create(stream);
-                     }
-                     else
-                     {
-                         categoryProvider = CategoryProvider.CreateDefault();
-                     }
 
                      var mediator = host.Services.GetRequiredService<IMediator>();
 
@@ -61,83 +76,86 @@ public partial class Pipeline
                      // free svg
                      // pro
 
-                     var freeIcons = await mediator.Send(
-                         new GetIconsFromIconFamilies.Request(
-                             iconsData,
-                             false,
-                             categoryProvider
-                         )
-                     );
-                     var proIcons = await mediator.Send(
-                         new GetIconsFromIconFamilies.Request(
-                             iconsData,
-                             true,
-                             categoryProvider
-                         )
-                     );
+                     var freeIcons = await mediator.Send(new GetIconsFromIconFamilies.Request(iconsData, false));
+                     var proIcons = await mediator.Send(new GetIconsFromIconFamilies.Request(iconsData, true));
+                     // ReSharper disable InvokeAsExtensionMethod
                      {
                          // Free
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Icons" ).CreateOrCleanDirectory();
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Free" / "Categories" ).CreateOrCleanDirectory();
                          await writeFileContents(
                              mediator,
                              freeIcons,
                              false,
                              "Rocket.Surgery.Blazor.FontAwesome6.Free",
-                             RootDirectory / "src" / "Blazor.FontAwesome6.Free",
-                             categoryProvider
+                             RootDirectory / "src" / "Blazor.FontAwesome6.Free"
                          );
                      }
 
                      {
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Free.Svg" / "Icons" ).CreateOrCleanDirectory();
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Free.Svg" / "Categories" ).CreateOrCleanDirectory();
                          // Free SVG
                          await writeFileContents(
                              mediator,
                              freeIcons,
                              true,
                              "Rocket.Surgery.Blazor.FontAwesome6.Free.Svg",
-                             RootDirectory / "src" / "Blazor.FontAwesome6.Free.Svg",
-                             categoryProvider
+                             RootDirectory / "src" / "Blazor.FontAwesome6.Free.Svg"
                          );
                      }
 
                      {
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Icons" ).CreateOrCleanDirectory();
-                         ( RootDirectory / "src" / "Blazor.FontAwesome6.Pro" / "Categories" ).CreateOrCleanDirectory();
-                         // Pro
                          await writeFileContents(
                              mediator,
                              proIcons,
                              false,
                              "Rocket.Surgery.Blazor.FontAwesome6.Pro",
-                             RootDirectory / "src" / "Blazor.FontAwesome6.Pro",
-                             categoryProvider
+                             RootDirectory / "src" / "Blazor.FontAwesome6.Pro"
                          );
                      }
+                     // ReSharper enable InvokeAsExtensionMethod
 
                      {
                          // No Pro SVG because it's not free
                      }
+
 
                      static async Task writeFileContents(
                          IMediator mediator,
                          ImmutableArray<IconModel> icons,
                          bool svgMode,
                          string @namespace,
-                         string output,
-                         CategoryProvider categoryProvider
+                         AbsolutePath output
                      )
                      {
-                         var fileContents = mediator.CreateStream(new GetFileContentForIcons.Request(icons, @namespace, svgMode, categoryProvider));
+                         _ = output.CreateDirectory();
+                         _ = ( output / "Icons" ).CreateOrCleanDirectory();
+                         _ = ( output / "Categories" ).CreateOrCleanDirectory();
+
+                         var fileContents = mediator.CreateStream(new GetFileContentForIcons.Request(icons, @namespace, svgMode));
                          await foreach (var item in fileContents)
                          {
-                             Log.Information("Writing {FileName}", item.FileName);
-                             Directory.CreateDirectory(Path.GetDirectoryName(Path.Combine(output, item.FileName))!);
-                             await File.WriteAllTextAsync(Path.Combine(output, item.FileName), item.Content);
+                             var fileOutputPath = output / item.FileName;
+                             Log.Information("Writing {FileName}", fileOutputPath);
+                             _ = fileOutputPath.WriteAllText(item.Content);
                          }
+
+                         _ = GitTasks.Git($"add {RootDirectory.GetRelativePathTo(output)}");
                      }
                  }
              );
+
+    // need a better way to do this
+    public Matcher LintMatcher => excludeProjects(
+        new Matcher(StringComparison.OrdinalIgnoreCase)
+           .AddInclude("**/*")
+           .AddExclude("**/node_modules/**/*")
+           .AddExclude(".idea/**/*")
+           .AddExclude(".vscode/**/*")
+           .AddExclude(".nuke/**/*")
+           .AddExclude("**/bin/**/*")
+           .AddExclude("**/obj/**/*")
+           .AddExclude("**/*.verified.*")
+           .AddExclude("**/*.received.*"),
+        Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free,
+        Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Pro,
+        Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free_Svg
+    );
 }

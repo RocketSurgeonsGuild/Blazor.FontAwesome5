@@ -1,5 +1,4 @@
 using System.Collections.Immutable;
-using Humanizer;
 using MediatR;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 using StrawberryShake;
@@ -8,9 +7,9 @@ namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 
 public static class GetIconsFromRelease
 {
-    public record Request(string Version, CategoryProvider CategoryProvider) : IRequest<ImmutableArray<IconModel>>;
+    public record Request(string Version) : IRequest<ImmutableArray<IconModel>>;
 
-    class Handler(IFontAwesome fontAwesome) : IRequestHandler<Request, ImmutableArray<IconModel>>
+    private class Handler(IFontAwesome fontAwesome, CategoryProvider categoryProvider) : IRequestHandler<Request, ImmutableArray<IconModel>>
     {
         public async Task<ImmutableArray<IconModel>> Handle(Request request, CancellationToken cancellationToken)
         {
@@ -32,44 +31,37 @@ public static class GetIconsFromRelease
                                 );
 
                                 icons.EnsureNoErrors();
-                                return icons.Data.Release.Icons
-                                            .Where(z => z.Svgs?.Any() == true)
-                                     .Select(
-                                          icon =>
-                                          {
-
-                                              var svg = icon.Svgs.Single();
-                                              return new IconModel()
-                                              {
-                                                  Categories = request.CategoryProvider.CategoryLookup[icon.Id].ToImmutableHashSet(),
-                                                  RawFamily = style.Family,
-                                                  RawStyle = style.Style,
-                                                  Height = svg.Height,
-                                                  Width = svg.Width,
-                                                  Id = icon.Id,
-                                                  Label = icon.Label,
-                                                  Unicode = icon.Unicode,
-                                                  PathData = svg.PathData.Where(z => !string.IsNullOrWhiteSpace(z)).ToImmutableArray(),
-                                                  Prefix = svg.FamilyStyle.Prefix,
-                                                  LongPrefix = ( iconFamily, iconStyle ) switch
-                                                               {
-                                                                   (_, Style.Brands) => "fa-brands",
-                                                                   (Family.Duotone, _) => "fa-duotone",
-                                                                   (Family.Classic, _) => $"fa-{style.Style.ToLowerInvariant()}",
-                                                                   (_, _) => $"fa-{style.Family.ToLowerInvariant()} fa-{style.Style.ToLowerInvariant()}",
-                                                               },
-                                                  Aliases = ImmutableArray<string>.Empty,
-                                                  // shims are not working quiet like I expect
+                                return icons
+                                      .Data.Release.Icons
+                                      .Where(z => z.Svgs?.Any() == true)
+                                      .Select(
+                                           icon =>
+                                           {
+                                               var svg = icon.Svgs.Single();
+                                               return new IconModel
+                                               {
+                                                   Categories = categoryProvider.CategoryLookup[icon.Id].ToImmutableHashSet(),
+                                                   RawFamily = style.Family,
+                                                   RawStyle = style.Style,
+                                                   Height = svg.Height,
+                                                   Width = svg.Width,
+                                                   Id = icon.Id,
+                                                   Label = icon.Label,
+                                                   Unicode = icon.Unicode,
+                                                   PathData = svg.PathData.Where(z => !string.IsNullOrWhiteSpace(z)).ToImmutableList(),
+                                                   Aliases = ImmutableList<string>.Empty,
+                                                   // shims are not working quiet like I expect
 //                                                  Aliases = icon is { Shim.Id.Length: > 0 }
 //                                                      ? ImmutableArray.Create(icon.Shim.Id)
 //                                                      : ImmutableArray<string>.Empty,
-                                              };
-                                          }
-                                      ).ToAsyncEnumerable();
+                                               };
+                                           }
+                                       )
+                                      .ToAsyncEnumerable();
                             }
                         );
 
-            return ( await icons.ToArrayAsync(cancellationToken) ).ToImmutableArray();
+            return [..await icons.ToArrayAsync(cancellationToken),];
         }
     }
 }

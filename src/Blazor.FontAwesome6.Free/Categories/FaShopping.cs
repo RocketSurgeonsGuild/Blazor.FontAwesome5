@@ -282,14 +282,14 @@ public static partial class FaShopping
         public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.CcApplePay;
     }
     /// <summary>
-    /// Diner's Club Credit Card
-    /// <a href="https://fontawesome.com/icons/cc-diners-club">Diner's Club Credit Card</a>
+    /// Diner&#39;s Club Credit Card
+    /// <a href="https://fontawesome.com/icons/cc-diners-club">Diner&#39;s Club Credit Card</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
     public static partial class CcDinersClub
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/cc-diners-club?f=classic&amp;s=brands">Diner's Club Credit Card</a>
+        /// <a href="https://fontawesome.com/icons/cc-diners-club?f=classic&amp;s=brands">Diner&#39;s Club Credit Card</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.CcDinersClub;

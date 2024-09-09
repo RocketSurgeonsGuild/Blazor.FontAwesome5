@@ -272,7 +272,7 @@ public static partial class FaBrands
     public static Icon Buffer => f_Buffer ??= new Icon(IconFamily.Classic, IconStyle.Brands, "buffer", "f837");
     private static Icon? f_Buromobelexperte;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/buromobelexperte?f=classic&amp;s=brands">Büromöbel-Experte GmbH & Co. KG.</a>
+    /// <a href="https://fontawesome.com/icons/buromobelexperte?f=classic&amp;s=brands">B&#252;rom&#246;bel-Experte GmbH &amp; Co. KG.</a>
     /// </summary>
     public static Icon Buromobelexperte => f_Buromobelexperte ??= new Icon(IconFamily.Classic, IconStyle.Brands, "buromobelexperte", "f37f");
     private static Icon? f_BuyNLarge;
@@ -307,7 +307,7 @@ public static partial class FaBrands
     public static Icon CcApplePay => f_CcApplePay ??= new Icon(IconFamily.Classic, IconStyle.Brands, "cc-apple-pay", "f416");
     private static Icon? f_CcDinersClub;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/cc-diners-club?f=classic&amp;s=brands">Diner's Club Credit Card</a>
+    /// <a href="https://fontawesome.com/icons/cc-diners-club?f=classic&amp;s=brands">Diner&#39;s Club Credit Card</a>
     /// </summary>
     public static Icon CcDinersClub => f_CcDinersClub ??= new Icon(IconFamily.Classic, IconStyle.Brands, "cc-diners-club", "f24c");
     private static Icon? f_CcDiscover;
@@ -512,12 +512,12 @@ public static partial class FaBrands
     public static Icon Cuttlefish => f_Cuttlefish ??= new Icon(IconFamily.Classic, IconStyle.Brands, "cuttlefish", "f38c");
     private static Icon? f_DAndD;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/d-and-d?f=classic&amp;s=brands">Dungeons & Dragons</a>
+    /// <a href="https://fontawesome.com/icons/d-and-d?f=classic&amp;s=brands">Dungeons &amp; Dragons</a>
     /// </summary>
     public static Icon DAndD => f_DAndD ??= new Icon(IconFamily.Classic, IconStyle.Brands, "d-and-d", "f38d");
     private static Icon? f_DAndDBeyond;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/d-and-d-beyond?f=classic&amp;s=brands">D&D Beyond</a>
+    /// <a href="https://fontawesome.com/icons/d-and-d-beyond?f=classic&amp;s=brands">D&amp;D Beyond</a>
     /// </summary>
     public static Icon DAndDBeyond => f_DAndDBeyond ??= new Icon(IconFamily.Classic, IconStyle.Brands, "d-and-d-beyond", "f6ca");
     private static Icon? f_Dailymotion;
@@ -2465,7 +2465,7 @@ public static partial class FaBrands
     public static Icon Weixin => f_Weixin ??= new Icon(IconFamily.Classic, IconStyle.Brands, "weixin", "f1d7");
     private static Icon? f_Whatsapp;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/whatsapp?f=classic&amp;s=brands">What's App</a>
+    /// <a href="https://fontawesome.com/icons/whatsapp?f=classic&amp;s=brands">What&#39;s App</a>
     /// </summary>
     public static Icon Whatsapp => f_Whatsapp ??= new Icon(IconFamily.Classic, IconStyle.Brands, "whatsapp", "f232");
     private static Icon? f_Whmcs;

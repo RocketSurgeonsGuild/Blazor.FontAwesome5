@@ -1939,27 +1939,27 @@ public static partial class FaGaming
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.CrystalBall;
     }
     /// <summary>
-    /// Dungeons & Dragons
-    /// <a href="https://fontawesome.com/icons/d-and-d">Dungeons & Dragons</a>
+    /// Dungeons &amp; Dragons
+    /// <a href="https://fontawesome.com/icons/d-and-d">Dungeons &amp; Dragons</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
     public static partial class DAndD
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/d-and-d?f=classic&amp;s=brands">Dungeons & Dragons</a>
+        /// <a href="https://fontawesome.com/icons/d-and-d?f=classic&amp;s=brands">Dungeons &amp; Dragons</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaBrands.DAndD;
     }
     /// <summary>
-    /// D&D Beyond
-    /// <a href="https://fontawesome.com/icons/d-and-d-beyond">D&D Beyond</a>
+    /// D&amp;D Beyond
+    /// <a href="https://fontawesome.com/icons/d-and-d-beyond">D&amp;D Beyond</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
     public static partial class DAndDBeyond
     {
         /// <summary>
-        /// <a href="https://fontawesome.com/icons/d-and-d-beyond?f=classic&amp;s=brands">D&D Beyond</a>
+        /// <a href="https://fontawesome.com/icons/d-and-d-beyond?f=classic&amp;s=brands">D&amp;D Beyond</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaBrands.DAndDBeyond;

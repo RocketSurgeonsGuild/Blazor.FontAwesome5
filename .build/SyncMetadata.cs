@@ -143,19 +143,15 @@ public partial class Pipeline
              );
 
     // need a better way to do this
-    public Matcher LintMatcher => excludeProjects(
-        new Matcher(StringComparison.OrdinalIgnoreCase)
-           .AddInclude("**/*")
-           .AddExclude("**/node_modules/**/*")
-           .AddExclude(".idea/**/*")
-           .AddExclude(".vscode/**/*")
-           .AddExclude(".nuke/**/*")
-           .AddExclude("**/bin/**/*")
-           .AddExclude("**/obj/**/*")
-           .AddExclude("**/*.verified.*")
-           .AddExclude("**/*.received.*"),
-        Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free,
-        Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Pro,
-        Solution.src.Rocket_Surgery_Blazor_FontAwesome6_Free_Svg
-    );
+    public Matcher LintMatcher => new Matcher(StringComparison.OrdinalIgnoreCase)
+                                 .AddInclude("**/*")
+                                 .AddExclude("**/node_modules/**/*")
+                                 .AddExclude(".idea/**/*")
+                                 .AddExclude(".vscode/**/*")
+                                 .AddExclude(".nuke/**/*")
+                                 .AddExclude("**/bin/**/*")
+                                 .AddExclude("**/obj/**/*")
+                                 .AddExclude("**/*.g.*")
+                                 .AddExclude("**/*.verified.*")
+                                 .AddExclude("**/*.received.*");
 }

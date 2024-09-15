@@ -4,16 +4,16 @@ VisualStudioVersion = 16.0.29006.145
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8FFDF555-DB50-45F9-9A2D-6410F39151C3}"
 	ProjectSection(SolutionItems) = preProject
-		src/Directory.Build.props = src/Directory.Build.props
-		src/Directory.Build.targets = src/Directory.Build.targets
-		src/.editorconfig = src/.editorconfig
+		Directory.Build.props = src\Directory.Build.props
+		Directory.Build.targets = src\Directory.Build.targets
+		.editorconfig = src\.editorconfig
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DF33E0FB-9790-4654-B60F-8AB22E0CC3D1}"
 	ProjectSection(SolutionItems) = preProject
-		test/Directory.Build.props = test/Directory.Build.props
-		test/Directory.Build.targets = test/Directory.Build.targets
-		test/.editorconfig = test/.editorconfig
+		Directory.Build.props = test\Directory.Build.props
+		Directory.Build.targets = test\Directory.Build.targets
+		.editorconfig = test\.editorconfig
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = ".build", ".build\.build.csproj", "{55EFAE2F-A7CA-4917-A381-4A6EF5E79610}"
@@ -28,7 +28,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rocket.Surgery.Blazor.FontA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{F876220B-2224-4AB5-A20F-48EB8BC87F6E}"
 	ProjectSection(SolutionItems) = preProject
-		.config/dotnet-tools.json = .config/dotnet-tools.json
+		.config\dotnet-tools.json = .config\dotnet-tools.json
 		Directory.Build.props = Directory.Build.props
 		Directory.Packages.props = Directory.Packages.props
 		Directory.Packages.support.props = Directory.Packages.support.props
@@ -38,7 +38,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{F87622
 		build.ps1 = build.ps1
 		build.sh = build.sh
 		GitReleaseManager.yaml = GitReleaseManager.yaml
-		.appveyor.yml = .appveyor.yml
 		.codecov.yml = .codecov.yml
 		GitVersion.yml = GitVersion.yml
 		LICENSE = LICENSE
@@ -48,40 +47,40 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{F87622
 		.gitmodules = .gitmodules
 		.prettierignore = .prettierignore
 		.prettierrc = .prettierrc
-		.lintstagedrc.js = .lintstagedrc.js
 		NuGet.config = NuGet.config
 		package.json = package.json
+		dotnet-tools.json = .config\dotnet-tools.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{374E2062-D12B-4937-A9E1-717AB4D9E416}"
 	ProjectSection(SolutionItems) = preProject
-		.github/labels.yml = .github/labels.yml
-		.github/release.yml = .github/release.yml
-		.github/renovate.json = .github/renovate.json
+		labels.yml = .github\labels.yml
+		release.yml = .github\release.yml
+		renovate.json = .github\renovate.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{1FB1D14D-7FF7-49F4-A528-2915C797731A}"
 	ProjectSection(SolutionItems) = preProject
-		.github/workflows/ci-ignore.yml = .github/workflows/ci-ignore.yml
-		.github/workflows/ci.yml = .github/workflows/ci.yml
-		.github/workflows/close-milestone.yml = .github/workflows/close-milestone.yml
-		.github/workflows/dependabot-merge.yml = .github/workflows/dependabot-merge.yml
-		.github/workflows/draft-release.yml = .github/workflows/draft-release.yml
-		.github/workflows/fontawesome.yml = .github/workflows/fontawesome.yml
-		.github/workflows/lint.yml = .github/workflows/lint.yml
-		.github/workflows/sync-labels.yml = .github/workflows/sync-labels.yml
-		.github/workflows/update-milestone.yml = .github/workflows/update-milestone.yml
+		ci-ignore.yml = .github\workflows\ci-ignore.yml
+		ci.yml = .github\workflows\ci.yml
+		close-milestone.yml = .github\workflows\close-milestone.yml
+		dependabot-merge.yml = .github\workflows\dependabot-merge.yml
+		draft-release.yml = .github\workflows\draft-release.yml
+		fontawesome.yml = .github\workflows\fontawesome.yml
+		lint.yml = .github\workflows\lint.yml
+		sync-labels.yml = .github\workflows\sync-labels.yml
+		update-milestone.yml = .github\workflows\update-milestone.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".husky", ".husky", "{A19952A1-EF7C-466A-8C7C-F635B87F1753}"
 	ProjectSection(SolutionItems) = preProject
-		.husky/pre-commit = .husky/pre-commit
-		.husky/task-runner.json = .husky/task-runner.json
+		pre-commit = .husky\pre-commit
+		task-runner.json = .husky\task-runner.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".vscode", ".vscode", "{3227AD5A-9517-4E30-B1BD-D75E69A5D8E8}"
 	ProjectSection(SolutionItems) = preProject
-		.vscode/settings.json = .vscode/settings.json
+		settings.json = .vscode\settings.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{9376F1D9-81D2-4E90-A14A-CCA763273E64}"

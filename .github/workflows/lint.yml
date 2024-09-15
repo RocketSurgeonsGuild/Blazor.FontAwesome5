@@ -79,39 +79,39 @@ jobs:
       - name: Lint Files
         id: lintFiles
         run: |
-          dotnet nuke --target LintFiles --skip Restore --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+          dotnet .build/bin/Debug/.build.dll --target LintFiles --skip Restore --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Regenerate Build Configurations
         id: regenerateBuildConfigurations
         run: |
-          dotnet nuke --target RegenerateBuildConfigurations --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+          dotnet .build/bin/Debug/.build.dll --target RegenerateBuildConfigurations --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Prettier
         id: prettier
         run: |
-          dotnet nuke --target Prettier --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+          dotnet .build/bin/Debug/.build.dll --target Prettier --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Dotnet Format
         id: dotnetFormat
         run: |
-          dotnet nuke --target DotnetFormat --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+          dotnet .build/bin/Debug/.build.dll --target DotnetFormat --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Jet Brains Cleanup Code
         id: jetBrainsCleanupCode
         run: |
-          dotnet nuke --target JetBrainsCleanupCode --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+          dotnet .build/bin/Debug/.build.dll --target JetBrainsCleanupCode --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Generate Solution Items
         id: generateSolutionItems
         run: |
-          dotnet nuke --target GenerateSolutionItems --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+          dotnet .build/bin/Debug/.build.dll --target GenerateSolutionItems --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Generate Readme
         id: generateReadme
         run: |
-          dotnet nuke --target GenerateReadme --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+          dotnet .build/bin/Debug/.build.dll --target GenerateReadme --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Lint Git Add
         id: lintGitAdd
         run: |
-          dotnet nuke --target LintGitAdd --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+          dotnet .build/bin/Debug/.build.dll --target LintGitAdd --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Regenerate From Metadata
         id: regenerateFromMetadata
         run: |
-          dotnet nuke --target RegenerateFromMetadata --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+          dotnet .build/bin/Debug/.build.dll --target RegenerateFromMetadata --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Add & Commit
         env:
           GITHUB_TOKEN: '${{ secrets.RSG_BOT_TOKEN }}'

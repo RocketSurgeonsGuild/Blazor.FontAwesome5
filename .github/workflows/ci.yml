@@ -111,19 +111,19 @@ jobs:
       - name: ⚙️ Build
         id: build
         run: |
-          dotnet nuke --target DotnetCoreBuild Build --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+          dotnet .build/bin/Debug/.build.dll --target DotnetCoreBuild Build --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: 🚦 Test
         id: test
         run: |
-          dotnet nuke --target DotnetCoreTest Test TriggerCodeCoverageReports GenerateCodeCoverageReportCobertura GenerateCodeCoverageBadges GenerateCodeCoverageSummary GenerateCodeCoverageReport --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+          dotnet .build/bin/Debug/.build.dll --target DotnetCoreTest Test TriggerCodeCoverageReports GenerateCodeCoverageReportCobertura GenerateCodeCoverageBadges GenerateCodeCoverageSummary GenerateCodeCoverageReport --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: 📦 Pack
         id: pack
         run: |
-          dotnet nuke --target DotnetCorePack Pack --skip Build --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+          dotnet .build/bin/Debug/.build.dll --target DotnetCorePack Pack --skip Build --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Default
         id: default
         run: |
-          dotnet nuke --target Default --skip Restore Build Test Pack --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+          dotnet .build/bin/Debug/.build.dll --target Default --skip Restore Build Test Pack --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: 🏺 Publish coverage data
         if: always()
         uses: actions/upload-artifact@v4.4.0

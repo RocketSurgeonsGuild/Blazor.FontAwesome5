@@ -43,7 +43,7 @@ public static class GetFileContentForIcons
 
         sb.AppendLine("}");
 
-        return ( $"Fa{models.Key}.cs", sb.ToString() );
+        return ( $"Fa{models.Key}.g.cs", sb.ToString() );
     }
 
     internal static (string FileName, string Content) GetCategoryFileContent(
@@ -78,7 +78,7 @@ public static class GetFileContentForIcons
 
         sb.AppendLine("}");
 
-        return ( $"Fa{categoryModel.Name.Humanize().Pascalize()}.cs", sb.ToString() );
+        return ( $"Fa{categoryModel.Name.Humanize().Pascalize()}.g.cs", sb.ToString() );
     }
 
     private static string CodeGeneratedAttribute =>

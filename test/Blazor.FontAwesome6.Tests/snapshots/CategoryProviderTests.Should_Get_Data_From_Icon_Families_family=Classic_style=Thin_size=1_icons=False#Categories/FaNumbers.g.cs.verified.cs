@@ -1,4 +1,5 @@
-﻿using System;
+﻿#nullable enable
+using System;
 using System.CodeDom.Compiler;
 using System.Collections.Immutable;
 using System.Diagnostics.CodeAnalysis;

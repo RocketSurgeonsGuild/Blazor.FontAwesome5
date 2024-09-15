@@ -168,25 +168,9 @@ public static class GetFileContentForIcons
         _ = sb.AppendLine("/// </summary>");
     }
 
-    [System.Diagnostics.DebuggerDisplay("{DebuggerDisplay,nq}")]
-    public record Request(ImmutableArray<IconModel> Icons, string Namespace, bool AsSvgIcon) : IStreamRequest<FileContent> [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]
-    private string DebuggerDisplay
-    {
-        get
-        {
-            return ToString();
-        }
-    };
+    public record Request(ImmutableArray<IconModel> Icons, string Namespace, bool AsSvgIcon) : IStreamRequest<FileContent>;
 
-    [System.Diagnostics.DebuggerDisplay("{DebuggerDisplay,nq}")]
-    public record FileContent(string FileName, string Content) [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]
-    private string DebuggerDisplay
-    {
-        get
-        {
-            return ToString();
-        }
-    };
+    public record FileContent(string FileName, string Content);
 
     private class Handler(CategoryProvider categoryProvider) : IStreamRequestHandler<Request, FileContent>
     {

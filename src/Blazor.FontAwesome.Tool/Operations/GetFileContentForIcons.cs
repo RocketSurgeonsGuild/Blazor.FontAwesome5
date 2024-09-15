@@ -44,7 +44,7 @@ public static class GetFileContentForIcons
 
         _ = sb.AppendLine("}");
 
-        return ($"Fa{models.Key}.g.cs", sb.ToString());
+        return ( $"Fa{models.Key}.g.cs", sb.ToString() );
     }
 
     internal static (string FileName, string Content) GetCategoryFileContent(
@@ -80,7 +80,7 @@ public static class GetFileContentForIcons
 
         _ = sb.AppendLine("}");
 
-        return ($"Fa{categoryModel.Name.Humanize().Pascalize()}.g.cs", sb.ToString());
+        return ( $"Fa{categoryModel.Name.Humanize().Pascalize()}.g.cs", sb.ToString() );
     }
 
     private static string CodeGeneratedAttribute =>
@@ -138,7 +138,7 @@ public static class GetFileContentForIcons
             _ = sb.AppendLine("/// </summary>");
             _ = sb.AppendLine(CodeGeneratedAttribute);
             _ = sb.AppendLine(
-                $"public static partial class {ci.CodeModelName}{( ( categoryModel.Name.Equals(ci.Icon.Id, StringComparison.OrdinalIgnoreCase) ) ? "Icon" : "" )}"
+                $"public static partial class {ci.CodeModelName}{( categoryModel.Name.Equals(ci.Icon.Id, StringComparison.OrdinalIgnoreCase) ? "Icon" : "" )}"
             );
         }
         _ = sb.AppendLine("{");
@@ -176,11 +176,11 @@ public static class GetFileContentForIcons
     {
         public async IAsyncEnumerable<FileContent> Handle(Request request, [EnumeratorCancellation] CancellationToken cancellationToken)
         {
-            foreach (var (FileName, Content) in request
-                                   .Icons
-                                   .Select(z => new CodeIconModel(z))
-                                   .GroupBy(z => z.CodeStyleName)
-                                   .Select(group => group.GetIconFileContent(request.AsSvgIcon, request.Namespace)))
+            foreach (( var FileName, var Content ) in request
+                                                     .Icons
+                                                     .Select(z => new CodeIconModel(z))
+                                                     .GroupBy(z => z.CodeStyleName)
+                                                     .Select(group => group.GetIconFileContent(request.AsSvgIcon, request.Namespace)))
             {
                 yield return new("Icons/" + FileName, Content);
             }
@@ -193,7 +193,7 @@ public static class GetFileContentForIcons
                     continue;
                 }
 
-                var (FileName, Content) = GetCategoryFileContent(categoryIcons, category, request.AsSvgIcon, request.Namespace);
+                ( var FileName, var Content ) = GetCategoryFileContent(categoryIcons, category, request.AsSvgIcon, request.Namespace);
                 yield return new("Categories/" + FileName, Content);
             }
         }

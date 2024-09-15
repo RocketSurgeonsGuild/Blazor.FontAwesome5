@@ -1,6 +1,6 @@
 [CmdletBinding()]
 Param(
-    [Parameter(Position = 0, Mandatory = $false, ValueFromRemainingArguments = $true)]
+    [Parameter(Position=0,Mandatory=$false,ValueFromRemainingArguments=$true)]
     [string[]]$BuildArguments
 )
 
@@ -14,17 +14,16 @@ $PSScriptRoot = Split-Path $MyInvocation.MyCommand.Path -Parent
 ###########################################################################
 
 $IsCI = $env:CI -eq "true"
-$BuildProjectFile = "$PSScriptRoot\.build\.build.csproj"
-$ExePath = "$PSScriptRoot\.build\bin\Debug\.build.exe"
-$TempDirectory = "$PSScriptRoot\\.nuke\temp"
+$ExePath = "$PSScriptRoot/.build/bin/Debug/.build.exe"
+$BuildProjectFile = "$PSScriptRoot/.build/.build.csproj"
+$TempDirectory = "$PSScriptRoot/.nuke/temp"
 
-$DotNetGlobalFile = "$PSScriptRoot\\global.json"
+$DotNetGlobalFile = "$PSScriptRoot/global.json"
 $DotNetInstallUrl = "https://dot.net/v1/dotnet-install.ps1"
-$DotNetChannel = "Current"
+$DotNetChannel = "STS"
 
-$env:DOTNET_SKIP_FIRST_TIME_EXPERIENCE = 1
 $env:DOTNET_CLI_TELEMETRY_OPTOUT = 1
-$env:DOTNET_MULTILEVEL_LOOKUP = 0
+$env:DOTNET_NOLOGO = 1
 
 ###########################################################################
 # EXECUTION
@@ -37,12 +36,12 @@ function ExecSafe([scriptblock] $cmd) {
 
 # If dotnet CLI is installed globally and it matches requested version, use for execution
 if ($null -ne (Get-Command "dotnet" -ErrorAction SilentlyContinue) -and `
-    $(dotnet --version) -and $LASTEXITCODE -eq 0) {
+     $(dotnet --version) -and $LASTEXITCODE -eq 0) {
     $env:DOTNET_EXE = (Get-Command "dotnet").Path
 }
 else {
     # Download install script
-    $DotNetInstallFile = "$TempDirectory\dotnet-install.ps1"
+    $DotNetInstallFile = "$TempDirectory/dotnet-install.ps1"
     New-Item -ItemType Directory -Path $TempDirectory -Force | Out-Null
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     (New-Object System.Net.WebClient).DownloadFile($DotNetInstallUrl, $DotNetInstallFile)
@@ -56,21 +55,26 @@ else {
     }
 
     # Install by channel or version
-    $DotNetDirectory = "$TempDirectory\dotnet-win"
+    $DotNetDirectory = "$TempDirectory/dotnet-win"
     if (!(Test-Path variable:DotNetVersion)) {
-        ExecSafe { & $DotNetInstallFile -InstallDir $DotNetDirectory -Channel $DotNetChannel -NoPath }
+        ExecSafe { & powershell $DotNetInstallFile -InstallDir $DotNetDirectory -Channel $DotNetChannel -NoPath }
+    } else {
+        ExecSafe { & powershell $DotNetInstallFile -InstallDir $DotNetDirectory -Version $DotNetVersion -NoPath }
     }
-    else {
-        ExecSafe { & $DotNetInstallFile -InstallDir $DotNetDirectory -Version $DotNetVersion -NoPath }
-    }
-    $env:DOTNET_EXE = "$DotNetDirectory\dotnet.exe"
+    $env:DOTNET_EXE = "$DotNetDirectory/dotnet.exe"
+    $env:PATH = "$DotNetDirectory;$env:PATH"
+}
+
+if (Test-Path env:NUKE_ENTERPRISE_TOKEN) {
+    & $env:DOTNET_EXE nuget remove source "nuke-enterprise" > $null
+    & $env:DOTNET_EXE nuget add source "https://f.feedz.io/nuke/enterprise/nuget" --name "nuke-enterprise" --username "PAT" --password $env:NUKE_ENTERPRISE_TOKEN > $null
 }
 
 # only execute the build if not running in CI or if running in CI and the project has not been built
 if ($IsCI) {
     if (-not (Test-Path "$ExePath")) {
         ExecSafe { & $env:DOTNET_EXE build $BuildProjectFile /nodeReuse:false /p:UseSharedCompilation=false -nologo -clp:NoSummary --verbosity quiet }
-        New-Item -Type File = "$PSScriptRoot\.nuke\temp\ci" | Out-Null
+        New-Item -Type File = "$PSScriptRoot/.nuke/temp/ci" | Out-Null
     }
 }
 else {

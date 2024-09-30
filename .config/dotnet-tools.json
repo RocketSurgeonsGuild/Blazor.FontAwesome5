@@ -33,7 +33,7 @@
             "rollForward": false
         },
         "strawberryshake.tools": {
-            "version": "13.9.13",
+            "version": "13.9.14",
             "commands": ["dotnet-graphql"],
             "rollForward": false
         },

@@ -8,7 +8,7 @@
         <GlobalPackageReference Include="Rocket.Surgery.MSBuild.CI" Version="1.2.1" />
         <GlobalPackageReference Include="Rocket.Surgery.MSBuild.GitVersion" Version="1.2.1" />
         <GlobalPackageReference Include="Rocket.Surgery.MSBuild.SourceLink" Version="1.2.1" />
-        <GlobalPackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4" />
+        <GlobalPackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.11.0" />
         <GlobalPackageReference Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.4" />
         <GlobalPackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" />
         <GlobalPackageReference Include="Roslynator.Analyzers" Version="4.12.7" />

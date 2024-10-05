@@ -5,6 +5,6 @@ on:
       - released
 jobs:
   close_milestone:
-    uses: RocketSurgeonsGuild/actions/.github/workflows/close-milestone6.yml@v0.3.10
+    uses: RocketSurgeonsGuild/actions/.github/workflows/close-milestone6.yml@v0.3.11
     secrets:
       RSG_BOT_TOKEN: ${{ secrets.RSG_BOT_TOKEN }}

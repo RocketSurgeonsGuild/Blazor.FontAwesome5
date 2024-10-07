@@ -18,7 +18,7 @@
         <GlobalPackageReference Include="Roslynator.Refactorings" Version="4.12.7" />
         <GlobalPackageReference Include="Spectre.Console.Analyzer" Version="1.0.0" />
         <GlobalPackageReference Include="FakeItEasy.Analyzer.CSharp" Version="6.1.1" />
-        <GlobalPackageReference Include="FluentAssertions.Analyzers" Version="0.33.0" />
+        <GlobalPackageReference Include="FluentAssertions.Analyzers" Version="0.34.1" />
         <GlobalPackageReference Include="xunit.analyzers" Version="1.16.0" />
     </ItemGroup>
     <ItemGroup>

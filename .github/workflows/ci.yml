@@ -89,7 +89,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@6b42224f41ee5dfe5395e27c8b2746f1f9955030
+        uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871
         with:
           clean: 'false'
           fetch-depth: '0'
@@ -126,7 +126,7 @@ jobs:
           dotnet .build/bin/Debug/.build.dll --target Default --skip Restore Build Test Pack --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: 🏺 Publish coverage data
         if: always()
-        uses: actions/upload-artifact@v4.4.0
+        uses: actions/upload-artifact@v4.4.1
         with:
           name: 'coverage'
           path: 'coverage/'
@@ -138,19 +138,19 @@ jobs:
           token: '${{ secrets.CODECOV_TOKEN }}'
       - name: 🏺 Publish logs
         if: always()
-        uses: actions/upload-artifact@v4.4.0
+        uses: actions/upload-artifact@v4.4.1
         with:
           name: 'logs'
           path: 'artifacts/logs/'
       - name: 🏺 Publish test data
         if: always()
-        uses: actions/upload-artifact@v4.4.0
+        uses: actions/upload-artifact@v4.4.1
         with:
           name: 'test data'
           path: 'artifacts/test/'
       - name: 🏺 Publish NuGet Packages
         if: always()
-        uses: actions/upload-artifact@v4.4.0
+        uses: actions/upload-artifact@v4.4.1
         with:
           name: 'nuget'
           path: 'artifacts/nuget/'

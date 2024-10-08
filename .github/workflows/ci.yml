@@ -126,7 +126,7 @@ jobs:
           dotnet .build/bin/Debug/.build.dll --target Default --skip Restore Build Test Pack --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: 🏺 Publish coverage data
         if: always()
-        uses: actions/upload-artifact@v4.4.1
+        uses: actions/upload-artifact@v4.4.2
         with:
           name: 'coverage'
           path: 'coverage/'
@@ -138,19 +138,19 @@ jobs:
           token: '${{ secrets.CODECOV_TOKEN }}'
       - name: 🏺 Publish logs
         if: always()
-        uses: actions/upload-artifact@v4.4.1
+        uses: actions/upload-artifact@v4.4.2
         with:
           name: 'logs'
           path: 'artifacts/logs/'
       - name: 🏺 Publish test data
         if: always()
-        uses: actions/upload-artifact@v4.4.1
+        uses: actions/upload-artifact@v4.4.2
         with:
           name: 'test data'
           path: 'artifacts/test/'
       - name: 🏺 Publish NuGet Packages
         if: always()
-        uses: actions/upload-artifact@v4.4.1
+        uses: actions/upload-artifact@v4.4.2
         with:
           name: 'nuget'
           path: 'artifacts/nuget/'

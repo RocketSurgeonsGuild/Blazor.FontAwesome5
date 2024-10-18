@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <Project>
     <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
         <PackageVersion Update="Microsoft.AspNetCore.Components" Version="6.0.35" />

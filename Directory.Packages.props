@@ -44,7 +44,7 @@
         <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.10" />
         <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.10" />
         <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
-        <PackageVersion Include="bunit" Version="1.33.3" />
+        <PackageVersion Include="bunit" Version="1.34.0" />
         <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.11.0" />
         <PackageVersion Include="Bogus" Version="35.6.1" />
         <PackageVersion Include="coverlet.collector" Version="6.0.2" />

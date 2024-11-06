@@ -1,37 +1,5 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "properties": {
-    "Artifacts": {
-      "type": "string",
-      "description": "The directory where artifacts are to be dropped"
-    },
-    "Configuration": {
-      "type": "string",
-      "description": "Configuration to build",
-      "enum": [
-        "Debug",
-        "Release"
-      ]
-    },
-    "Coverage": {
-      "type": "string",
-      "description": "The directory where coverage artifacts are to be dropped"
-    },
-    "FontAwesomeToken": {
-      "type": "string"
-    },
-    "lint-files": {
-      "type": "array",
-      "description": "The files to lint, if not given lints all files",
-      "items": {
-        "type": "string"
-      }
-    },
-    "Solution": {
-      "type": "string",
-      "description": "Path to a solution file that is automatically loaded"
-    }
-  },
   "definitions": {
     "Host": {
       "type": "string",
@@ -155,5 +123,43 @@
       }
     }
   },
-  "$ref": "#/definitions/NukeBuild"
+  "allOf": [
+    {
+      "properties": {
+        "Artifacts": {
+          "type": "string",
+          "description": "The directory where artifacts are to be dropped"
+        },
+        "Configuration": {
+          "type": "string",
+          "description": "Configuration to build",
+          "enum": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "Coverage": {
+          "type": "string",
+          "description": "The directory where coverage artifacts are to be dropped"
+        },
+        "FontAwesomeToken": {
+          "type": "string"
+        },
+        "lint-files": {
+          "type": "array",
+          "description": "The files to lint, if not given lints all files",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Solution": {
+          "type": "string",
+          "description": "Path to a solution file that is automatically loaded"
+        }
+      }
+    },
+    {
+      "$ref": "#/definitions/NukeBuild"
+    }
+  ]
 }

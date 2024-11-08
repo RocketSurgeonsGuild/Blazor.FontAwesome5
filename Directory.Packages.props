@@ -19,7 +19,7 @@
         <GlobalPackageReference Include="Spectre.Console.Analyzer" Version="1.0.0" />
         <GlobalPackageReference Include="FakeItEasy.Analyzer.CSharp" Version="6.1.1" />
         <GlobalPackageReference Include="FluentAssertions.Analyzers" Version="0.34.1" />
-        <GlobalPackageReference Include="xunit.analyzers" Version="1.16.0" />
+        <GlobalPackageReference Include="xunit.analyzers" Version="1.17.0" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="JetBrains.Annotations" Version="2024.3.0" />

@@ -30,7 +30,7 @@
         <PackageVersion Include="Polyfill" Version="7.4.1" />
         <PackageVersion Include="Spectre.Console.Cli" Version="0.49.1" />
         <PackageVersion Include="StrawberryShake.Server" Version="14.1.0" />
-        <PackageVersion Include="Verify.BUnit" Version="11.1.0" />
+        <PackageVersion Include="Verify.BUnit" Version="11.2.1" />
         <PackageVersion Include="Xunit.SkippableFact" Version="1.4.13" />
         <PackageVersion Include="YamlDotNet" Version="15.3.0" />
         <PackageVersion Include="GitVersion.Tool" Version="6.0.5" />
@@ -49,8 +49,8 @@
         <PackageVersion Include="Bogus" Version="35.6.1" />
         <PackageVersion Include="coverlet.collector" Version="6.0.2" />
         <PackageVersion Include="Microsoft.Playwright" Version="1.48.0" />
-        <PackageVersion Include="Verify.AngleSharp" Version="4.3.1" />
-        <PackageVersion Include="Verify.ImageMagick" Version="3.5.0" />
+        <PackageVersion Include="Verify.AngleSharp" Version="4.5.0" />
+        <PackageVersion Include="Verify.ImageMagick" Version="3.6.0" />
         <PackageVersion Include="Verify.Blazor" Version="11.0.0" />
         <PackageVersion Include="Verify.Xunit" Version="26.6.0" />
         <PackageVersion Include="Verify.Playwright" Version="3.0.0" />

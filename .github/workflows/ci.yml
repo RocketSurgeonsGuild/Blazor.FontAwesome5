@@ -86,6 +86,20 @@ env:
 
 jobs:
   build:
+    permissions:
+      actions: read
+      checks: write
+      contents: read
+      deployments: read
+      id-token: none
+      issues: write
+      discussions: none
+      packages: none
+      pages: none
+      pull-requests: write
+      repository-projects: none
+      security-events: none
+      statuses: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -97,6 +111,10 @@ jobs:
         uses: actions/setup-dotnet@v4.1.0
         with:
           dotnet-version: '8.0.x'
+      - name: 🔨 Use .NET Core 9.0 SDK
+        uses: actions/setup-dotnet@v4.1.0
+        with:
+          dotnet-version: '9.0.x'
       - name: 🚒 dotnet workload restore
         continue-on-error: true
         run: |
@@ -115,7 +133,7 @@ jobs:
       - name: 🚦 Test
         id: test
         run: |
-          dotnet .build/bin/Debug/.build.dll --target DotnetCoreTest Test TriggerCodeCoverageReports GenerateCodeCoverageReportCobertura GenerateCodeCoverageBadges GenerateCodeCoverageSummary GenerateCodeCoverageReport --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+          dotnet .build/bin/Debug/.build.dll --target DotnetCoreTest Test CollectCodeCoverage GenerateCodeCoverageReportCobertura GenerateCodeCoverageBadges GenerateCodeCoverageSummary GenerateCodeCoverageReport --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: 📦 Pack
         id: pack
         run: |
@@ -124,18 +142,6 @@ jobs:
         id: default
         run: |
           dotnet .build/bin/Debug/.build.dll --target Default --skip Restore Build Test Pack --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
-      - name: 🏺 Publish coverage data
-        if: always()
-        uses: actions/upload-artifact@v4.4.3
-        with:
-          name: 'coverage'
-          path: 'coverage/'
-      - name: 📫 Publish Coverage
-        if: (github.event_name != 'pull_request' && github.event_name != 'pull_request_target') || ((github.event_name == 'pull_request' || github.event_name == 'pull_request_target') && github.event.pull_request.user.login != 'renovate[bot]' && github.event.pull_request.user.login != 'dependabot[bot]')
-        uses: codecov/codecov-action@v5.0.2
-        with:
-          name: 'actions-${{ matrix.os }}'
-          token: '${{ secrets.CODECOV_TOKEN }}'
       - name: 🏺 Publish logs
         if: always()
         uses: actions/upload-artifact@v4.4.3
@@ -148,6 +154,30 @@ jobs:
         with:
           name: 'test data'
           path: 'artifacts/test/'
+      - name: 📫 Publish Test Results
+        if: always()
+        uses: EnricoMi/publish-unit-test-result-action@v2
+        with:
+          files: 'artifacts/test/**/*.trx'
+      - name: 🏺 Publish coverage data
+        if: always()
+        uses: actions/upload-artifact@v4.4.3
+        with:
+          name: 'coverage'
+          path: 'coverage/'
+      - name: 📫 Publish Coverage Comment
+        if: github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: 'Coverage'
+          path: 'coverage/summary/SummaryGithub.md'
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+      - name: 📫 Publish Codecov Coverage
+        if: (github.event_name != 'pull_request' && github.event_name != 'pull_request_target') || ((github.event_name == 'pull_request' || github.event_name == 'pull_request_target') && github.event.pull_request.user.login != 'renovate[bot]' && github.event.pull_request.user.login != 'dependabot[bot]')
+        uses: codecov/codecov-action@v5.0.2
+        with:
+          name: 'actions'
+          token: '${{ secrets.CODECOV_TOKEN }}'
       - name: 🏺 Publish NuGet Packages
         if: always()
         uses: actions/upload-artifact@v4.4.3

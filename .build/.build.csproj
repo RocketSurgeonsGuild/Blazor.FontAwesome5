@@ -12,6 +12,8 @@
     <PackageReference Include="GitVersion.Tool" ExcludeAssets="All" />
     <PackageReference Include="PrettyCode.StringBuilder" />
     <PackageReference Include="ReportGenerator" ExcludeAssets="All" />
+    <PackageReference Include="JetBrains.ReSharper.GlobalTools" ExcludeAssets="All" />
+    <PackageReference Include="JetBrains.dotCover.CommandLineTools" ExcludeAssets="All" />
     <PackageReference Include="Rocket.Surgery.Nuke" />
   </ItemGroup>
 
@@ -22,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Blazor.FontAwesome.Tool\Rocket.Surgery.Blazor.FontAwesome.Tool.csproj" />
+    <ProjectReference
+      Include="..\src\Blazor.FontAwesome.Tool\Rocket.Surgery.Blazor.FontAwesome.Tool.csproj" />
   </ItemGroup>
 </Project>

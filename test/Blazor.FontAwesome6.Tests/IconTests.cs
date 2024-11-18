@@ -110,7 +110,7 @@ public class IconTests : LoggerTest
                    .FlipIcon(iconFlip)
                    .ToIcon()
             )
-           .UseHashedParameters(iconFlip, expected);
+           .HashParameters().UseParameters(iconFlip, expected);
     }
 
     [Theory]
@@ -129,7 +129,7 @@ public class IconTests : LoggerTest
                    .Size(iconSize)
                    .ToIcon()
             )
-           .UseHashedParameters(iconSize, expected);
+           .HashParameters().UseParameters(iconSize, expected);
     }
 
     [Theory]
@@ -144,7 +144,7 @@ public class IconTests : LoggerTest
                    .Pull(iconPull)
                    .ToIcon()
             )
-           .UseHashedParameters(iconPull, expected);
+           .HashParameters().UseParameters(iconPull, expected);
     }
 
     [Theory]
@@ -153,7 +153,7 @@ public class IconTests : LoggerTest
     [ClassData(typeof(IconTransformData))]
     public Task IconValidations(string id, Icon icon)
     {
-        return Verify(icon.ToIcon()).UseHashedParameters(id);
+        return Verify(icon.ToIcon()).HashParameters().UseParameters(id);
     }
 
     private class IconTransformData : IconTheory

@@ -3063,7 +3063,7 @@ dotnet_diagnostic.rcs1258.severity = suggestion
 dotnet_diagnostic.rcs1259.severity = suggestion
 
 # Add/remove trailing comma
-dotnet_diagnostic.rcs1260.severity = suggestion
+dotnet_diagnostic.rcs1260.severity = none
 # Options: roslynator_trailing_comma_style
 
 # Use pattern matching
@@ -4677,7 +4677,7 @@ resharper_T4_wrap_lines = true
 resharper_toplevel_function_declaration_return_type_style = do_not_change
 resharper_toplevel_function_definition_return_type_style = do_not_change
 resharper_trailing_comma_in_multiline_lists = true
-resharper_trailing_comma_in_singleline_lists = true
+resharper_trailing_comma_in_singleline_lists = false
 resharper_use_continuous_indent_inside_initializer_braces = true
 resharper_use_continuous_indent_inside_parens = true
 resharper_use_continuous_line_indent_in_expression_braces = false

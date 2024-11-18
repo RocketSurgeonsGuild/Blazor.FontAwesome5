@@ -152,7 +152,7 @@ public class FaIconTests : LoggerTest
                               .Add(x => x.FlipTransform, iconFlip)
                 )
             )
-           .UseHashedParameters(iconFlip, expected);
+           .HashParameters().UseParameters(iconFlip, expected);
     }
 
     [Theory]
@@ -172,7 +172,7 @@ public class FaIconTests : LoggerTest
                               .Add(x => x.Size, iconSize)
                 )
             )
-           .UseHashedParameters(iconSize, expected);
+           .HashParameters().UseParameters(iconSize, expected);
     }
 
     [Theory]
@@ -188,7 +188,7 @@ public class FaIconTests : LoggerTest
                               .Add(x => x.Pull, iconPull)
                 )
             )
-           .UseHashedParameters(iconPull, expected);
+           .HashParameters().UseParameters(iconPull, expected);
     }
 
     [Theory]
@@ -197,7 +197,7 @@ public class FaIconTests : LoggerTest
     [ClassData(typeof(IconTransformData))]
     public Task IconValidations(string id, Action<ComponentParameterCollectionBuilder<FaIcon>> icon)
     {
-        return Verify(_host.RenderComponent(icon)).UseHashedParameters(id);
+        return Verify(_host.RenderComponent(icon)).HashParameters().UseParameters(id);
     }
 
     private class IconTransformData : IconTheory

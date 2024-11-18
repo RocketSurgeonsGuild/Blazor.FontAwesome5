@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
@@ -9,17 +9,19 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" />
     <PackageReference
-            Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer"
-            IncludeAssets="runtime;build;contentfiles;analyzers;buildtransitive"
-            PrivateAssets="all"
-        />
+      Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer"
+      IncludeAssets="runtime;build;contentfiles;analyzers;buildtransitive"
+      PrivateAssets="all"
+    />
   </ItemGroup>
   <ItemGroup>
-    <AssemblyMetadata Include="ContentRootPath" Value="$([System.IO.Path]::GetDirectoryName($(MSBuildThisFileDirectory)))" />
+    <AssemblyMetadata Include="ContentRootPath"
+      Value="$([System.IO.Path]::GetDirectoryName($(MSBuildThisFileDirectory)))" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Blazor.FontAwesome6.Free\Rocket.Surgery.Blazor.FontAwesome6.Free.csproj" />
+    <ProjectReference
+      Include="..\..\src\Blazor.FontAwesome6.Free\Rocket.Surgery.Blazor.FontAwesome6.Free.csproj" />
   </ItemGroup>
 
 </Project>

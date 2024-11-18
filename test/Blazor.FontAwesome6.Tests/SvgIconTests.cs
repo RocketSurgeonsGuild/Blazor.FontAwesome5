@@ -76,7 +76,7 @@ public class SvgIconTests : LoggerTest
                       .FlipIcon(iconFlip)
                       .ToIcon()
             )
-           .UseHashedParameters(iconFlip, expected);
+           .HashParameters().UseParameters(iconFlip, expected);
 
     [Theory]
     [InlineData(IconSize.ExtraSmall, "<i class=\"fa-regular fa-circle-half-stroke fa-xs\"></i>")]
@@ -91,7 +91,7 @@ public class SvgIconTests : LoggerTest
                       .Size(iconSize)
                       .ToIcon()
             )
-           .UseHashedParameters(iconSize, expected);
+           .HashParameters().UseParameters(iconSize, expected);
 
     [Theory]
     [InlineData(IconPull.None, "<i class=\"fa-regular fa-circle-half-stroke\"></i>")]
@@ -104,13 +104,13 @@ public class SvgIconTests : LoggerTest
                    .Pull(iconPull)
                    .ToIcon()
             )
-           .UseHashedParameters(iconPull, expected);
+           .HashParameters().UseParameters(iconPull, expected);
 
     [Theory]
     [ClassData(typeof(IconAnimationData))]
     [ClassData(typeof(IconBorderAndPullData))]
     [ClassData(typeof(IconTransformData))]
-    public Task IconValidations(string id, Icon icon) => Verify(icon.ToIcon()).UseHashedParameters(id);
+    public Task IconValidations(string id, Icon icon) => Verify(icon.ToIcon()).HashParameters().UseParameters(id);
 
     private class IconTransformData : IconTheory
     {

@@ -1,7 +1,7 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": ["local>RocketSurgeonsGuild/.github:renovate-config"],
-    "ignorePaths": ["**/node_modules/**", "**/bower_components/**", "**/*.csproj"],
+    "ignorePaths": ["**/node_modules/**", "**/*.csproj"],
     "packageRules": [
         {
             "matchCategories": ["js"],

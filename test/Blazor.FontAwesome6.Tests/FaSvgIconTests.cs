@@ -132,7 +132,7 @@ public class FaSvgIconTests : LoggerTest
                           .Add(x => x.Icon, FaSolid.Adjust)
                           .Add(x => x.FlipTransform, iconFlip)
             )
-        ).UseHashedParameters(iconFlip, expected);
+        ).HashParameters().UseParameters(iconFlip, expected);
 
     [Theory]
     [InlineData(IconSize.ExtraSmall, "<i class=\"fa-regular fa-circle-half-stroke fa-xs\"></i>")]
@@ -149,7 +149,7 @@ public class FaSvgIconTests : LoggerTest
                           .Add(x => x.Icon, FaSolid.Adjust)
                           .Add(x => x.Size, iconSize)
             )
-        ).UseHashedParameters(iconSize, expected);
+        ).HashParameters().UseParameters(iconSize, expected);
 
     [Theory]
     [InlineData(IconPull.None, "<i class=\"fa-regular fa-circle-half-stroke\"></i>")]
@@ -162,13 +162,13 @@ public class FaSvgIconTests : LoggerTest
                           .Add(x => x.Icon, FaSolid.Adjust)
                           .Add(x => x.Pull, iconPull)
             )
-        ).UseHashedParameters(iconPull, expected);
+        ).HashParameters().UseParameters(iconPull, expected);
 
     [Theory]
     [ClassData(typeof(IconAnimationData))]
     [ClassData(typeof(IconBorderAndPullData))]
     [ClassData(typeof(IconTransformData))]
-    public Task IconValidations(string id, Action<ComponentParameterCollectionBuilder<FaIcon>> icon) => Verify(_host.RenderComponent(icon)).UseHashedParameters(id);
+    public Task IconValidations(string id, Action<ComponentParameterCollectionBuilder<FaIcon>> icon) => Verify(_host.RenderComponent(icon)).HashParameters().UseParameters(id);
 
     private class IconTransformData : IconTheory
     {

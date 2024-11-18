@@ -4,6 +4,7 @@ using AngleSharp.Dom;
 using DiffEngine;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 using VerifyTests.AngleSharp;
+using VerifyTests.Blazor;
 
 namespace Rocket.Surgery.Blazor.FontAwesome6.Tests;
 
@@ -19,7 +20,7 @@ public class ModuleInitializer
             list =>
             {
                 list.ScrubAttributes(attr => attr.Name.StartsWith("b-") && attr.Name.Length == 12);
-                foreach (var comment in list.DescendentsAndSelf<IComment>().Where(z => z.NodeValue == "!").ToArray())
+                foreach (var comment in list.DescendantsAndSelf<IComment>().Where(z => z.NodeValue == "!").ToArray())
                 {
                     comment.Remove();
                 }

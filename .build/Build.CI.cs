@@ -42,7 +42,7 @@ public partial class Pipeline
 {
     public static RocketSurgeonGitHubActionsConfiguration CiIgnoreMiddleware(RocketSurgeonGitHubActionsConfiguration configuration)
     {
-        ( (RocketSurgeonsGithubActionsJob)configuration.Jobs[0] ).Steps =
+        ((RocketSurgeonsGithubActionsJob)configuration.Jobs[0]).Steps =
         [
             new RunStep("N/A")
             {
@@ -60,8 +60,8 @@ public partial class Pipeline
            .AddNugetPublish()
            .Jobs.OfType<RocketSurgeonsGithubActionsJob>()
            .First(z => z.Name.Equals("build", StringComparison.OrdinalIgnoreCase))
-           .UseDotNetSdks("8.0")
-            // .ConfigureForGitVersion()
+           .UseDotNetSdks("8.0", "9.0")
+           // .ConfigureForGitVersion()
            .ConfigureStep<CheckoutStep>(step => step.FetchDepth = 0)
            .PublishLogs<Pipeline>();
         configuration.Environment["FONT_AWESOME_API_KEY"] = "${{ secrets.FONT_AWESOME_API_KEY }}";
@@ -74,7 +74,7 @@ public partial class Pipeline
         _ = configuration
            .Jobs.OfType<RocketSurgeonsGithubActionsJob>()
            .First(z => z.Name.Equals("Build", StringComparison.OrdinalIgnoreCase))
-           .UseDotNetSdks("8.0");
+           .UseDotNetSdks("8.0", "9.0");
         configuration.Environment["FONT_AWESOME_API_KEY"] = "${{ secrets.FONT_AWESOME_API_KEY }}";
 
         return configuration;

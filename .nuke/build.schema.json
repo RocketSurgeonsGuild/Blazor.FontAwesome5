@@ -27,6 +27,7 @@
         "Build",
         "Clean",
         "CleanWellKnownTemporaryFiles",
+        "CollectCodeCoverage",
         "Default",
         "DotnetCoreBuild",
         "DotnetCorePack",
@@ -51,8 +52,7 @@
         "RegenerateBuildConfigurations",
         "RegenerateFromMetadata",
         "Restore",
-        "Test",
-        "TriggerCodeCoverageReports"
+        "Test"
       ]
     },
     "Verbosity": {

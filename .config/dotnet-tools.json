@@ -27,6 +27,27 @@
             "commands": ["jb"],
             "rollForward": false
         },
+        "jetbrains.dotcover.commandlinetools": {
+          "version": "2024.3.0",
+          "commands": [
+            "dotnet-dotCover"
+          ],
+          "rollForward": false
+        },
+        "jetbrains.dottrace.globaltools": {
+          "version": "2024.3.0",
+          "commands": [
+            "dottrace"
+          ],
+          "rollForward": false
+        },
+        "dotnet-coverage": {
+          "version": "17.12.6",
+          "commands": [
+            "dotnet-coverage"
+          ],
+          "rollForward": false
+        },
         "dotnet-outdated-tool": {
             "version": "4.6.4",
             "commands": ["dotnet-outdated"],
@@ -45,11 +66,6 @@
         "husky": {
             "version": "0.7.1",
             "commands": ["husky"],
-            "rollForward": false
-        },
-        "liquidtestreports.cli": {
-            "version": "2.0.0-beta.2",
-            "commands": ["liquid"],
             "rollForward": false
         }
     }

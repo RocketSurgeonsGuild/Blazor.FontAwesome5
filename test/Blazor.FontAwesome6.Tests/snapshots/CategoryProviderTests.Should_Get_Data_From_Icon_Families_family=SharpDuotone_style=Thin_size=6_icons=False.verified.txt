@@ -1,0 +1,22 @@
+﻿[
+  {
+    Id: house-flood-water-circle-arrow-right,
+    Label: House Flood Water Circle Arrow Right,
+    Family: SharpDuotone,
+    Style: Thin,
+    Height: 512,
+    Width: 640,
+    Prefix: fasdt,
+    LongPrefix: fa-sharp-duotone fa-thin
+  },
+  {
+    Id: person-walking-dashed-line-arrow-right,
+    Label: Person Walking Dashed Line Arrow Right,
+    Family: SharpDuotone,
+    Style: Thin,
+    Height: 512,
+    Width: 640,
+    Prefix: fasdt,
+    LongPrefix: fa-sharp-duotone fa-thin
+  }
+]

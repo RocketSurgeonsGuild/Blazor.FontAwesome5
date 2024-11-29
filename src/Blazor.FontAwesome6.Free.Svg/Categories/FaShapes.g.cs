@@ -339,6 +339,19 @@ public static partial class FaShapes
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Square;
     }
     /// <summary>
+    /// Square Binary
+    /// <a href="https://fontawesome.com/icons/square-binary">Square Binary</a>
+    /// </summary>
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+    public static partial class SquareBinary
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/square-binary?f=classic&amp;s=solid">Square Binary</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.SquareBinary;
+    }
+    /// <summary>
     /// Star
     /// <a href="https://fontawesome.com/icons/star">Star</a>
     /// </summary>

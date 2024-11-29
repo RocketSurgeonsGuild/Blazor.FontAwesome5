@@ -1,0 +1,22 @@
+﻿[
+  {
+    Id: album-circle-plus,
+    Label: Album Circle Plus,
+    Family: SharpDuotone,
+    Style: Regular,
+    Height: 512,
+    Width: 576,
+    Prefix: fasdr,
+    LongPrefix: fa-sharp-duotone fa-regular
+  },
+  {
+    Id: album-circle-user,
+    Label: Album Circle User,
+    Family: SharpDuotone,
+    Style: Regular,
+    Height: 512,
+    Width: 576,
+    Prefix: fasdr,
+    LongPrefix: fa-sharp-duotone fa-regular
+  }
+]

@@ -1,0 +1,28 @@
+﻿[
+  {
+    Id: down-left-and-up-right-to-center,
+    Label: Down Left And Up Right To Center,
+    Family: Duotone,
+    Style: Thin,
+    Height: 512,
+    Width: 512,
+    Aliases: [
+      compress-alt
+    ],
+    Prefix: fad,
+    LongPrefix: fa-duotone fa-thin
+  },
+  {
+    Id: up-right-and-down-left-from-center,
+    Label: Up Right And Down Left From Center,
+    Family: Duotone,
+    Style: Thin,
+    Height: 512,
+    Width: 512,
+    Aliases: [
+      expand-alt
+    ],
+    Prefix: fad,
+    LongPrefix: fa-duotone fa-thin
+  }
+]

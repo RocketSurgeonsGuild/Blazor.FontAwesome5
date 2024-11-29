@@ -331,6 +331,19 @@ public static partial class FaSocial
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ShareNodes;
     }
     /// <summary>
+    /// Square Bluesky
+    /// <a href="https://fontawesome.com/icons/square-bluesky">Square Bluesky</a>
+    /// </summary>
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+    public static partial class SquareBluesky
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/square-bluesky?f=classic&amp;s=brands">Square Bluesky</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static SvgIcon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaBrands.SquareBluesky;
+    }
+    /// <summary>
     /// Square Poll Horizontal
     /// <a href="https://fontawesome.com/icons/square-poll-horizontal">Square Poll Horizontal</a>
     /// </summary>

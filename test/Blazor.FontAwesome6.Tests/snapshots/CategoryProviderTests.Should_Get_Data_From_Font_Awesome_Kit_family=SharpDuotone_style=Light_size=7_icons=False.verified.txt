@@ -1,0 +1,22 @@
+﻿[
+  {
+    Id: down-left-and-up-right-to-center,
+    Label: Down Left And Up Right To Center,
+    Family: SharpDuotone,
+    Style: Light,
+    Height: 512,
+    Width: 512,
+    Prefix: fasdl,
+    LongPrefix: fa-sharp-duotone fa-light
+  },
+  {
+    Id: up-right-and-down-left-from-center,
+    Label: Up Right And Down Left From Center,
+    Family: SharpDuotone,
+    Style: Light,
+    Height: 512,
+    Width: 512,
+    Prefix: fasdl,
+    LongPrefix: fa-sharp-duotone fa-light
+  }
+]

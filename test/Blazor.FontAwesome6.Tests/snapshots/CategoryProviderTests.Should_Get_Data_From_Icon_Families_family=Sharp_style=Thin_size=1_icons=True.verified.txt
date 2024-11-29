@@ -1,0 +1,22 @@
+﻿[
+  {
+    Id: 0,
+    Label: 0,
+    Family: Sharp,
+    Style: Thin,
+    Height: 512,
+    Width: 320,
+    Prefix: fast,
+    LongPrefix: fa-sharp fa-thin
+  },
+  {
+    Id: 1,
+    Label: 1,
+    Family: Sharp,
+    Style: Thin,
+    Height: 512,
+    Width: 256,
+    Prefix: fast,
+    LongPrefix: fa-sharp fa-thin
+  }
+]

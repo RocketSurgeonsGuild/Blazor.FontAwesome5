@@ -1,8 +1,0 @@
-﻿{
-  Instance: {
-    Icon: {
-      Name: battery-full
-    }
-  },
-  NodeCount: 2
-}

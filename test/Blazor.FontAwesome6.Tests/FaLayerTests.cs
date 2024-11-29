@@ -3,18 +3,16 @@ using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Rocket.Surgery.Blazor.FontAwesome6.Pro;
 using Rocket.Surgery.Extensions.Testing;
+using Serilog.Events;
 using Xunit;
 using Xunit.Abstractions;
 
 namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
 {
-    public class FaLayerTests : LoggerTest
+    public class FaLayerTests
+        (ITestOutputHelper testOutputHelper) : LoggerTest<XUnitTestContext>(XUnitTestContext.Create(testOutputHelper, LogEventLevel.Information))
     {
         private TestContext _host = new TestContext();
-
-        public FaLayerTests(ITestOutputHelper testOutputHelper) : base(testOutputHelper, LogLevel.Information)
-        {
-        }
 
         [Fact]
         public void Should_Support_Documentation_styling_layering_example_1()

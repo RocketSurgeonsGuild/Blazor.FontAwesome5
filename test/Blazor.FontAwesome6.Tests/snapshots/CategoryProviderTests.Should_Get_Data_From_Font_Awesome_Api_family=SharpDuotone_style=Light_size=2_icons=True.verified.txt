@@ -1,0 +1,22 @@
+﻿[
+  {
+    Id: 360-degrees,
+    Label: 360 Degrees,
+    Family: SharpDuotone,
+    Style: Light,
+    Height: 512,
+    Width: 640,
+    Prefix: fasdl,
+    LongPrefix: fa-sharp-duotone fa-light
+  },
+  {
+    Id: accent-grave,
+    Label: Accent Grave,
+    Family: SharpDuotone,
+    Style: Light,
+    Height: 512,
+    Width: 192,
+    Prefix: fasdl,
+    LongPrefix: fa-sharp-duotone fa-light
+  }
+]

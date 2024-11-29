@@ -1,0 +1,22 @@
+﻿[
+  {
+    Id: 0,
+    Label: 0,
+    Family: Duotone,
+    Style: Regular,
+    Height: 512,
+    Width: 320,
+    Prefix: fad,
+    LongPrefix: fa-duotone fa-regular
+  },
+  {
+    Id: 1,
+    Label: 1,
+    Family: Duotone,
+    Style: Regular,
+    Height: 512,
+    Width: 256,
+    Prefix: fad,
+    LongPrefix: fa-duotone fa-regular
+  }
+]

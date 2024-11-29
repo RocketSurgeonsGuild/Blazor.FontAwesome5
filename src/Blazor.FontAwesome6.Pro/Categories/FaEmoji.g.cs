@@ -40,10 +40,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceAngry;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-angry?f=duotone&amp;s=light">Face Angry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceAngry;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-angry?f=duotone&amp;s=regular">Face Angry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceAngry;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-angry?f=duotone&amp;s=solid">Face Angry</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceAngry;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-angry?f=duotone&amp;s=thin">Face Angry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceAngry;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-angry?f=sharp&amp;s=light">Face Angry</a>
         /// </summary>
@@ -65,10 +80,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceAngry;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-angry?f=sharp-duotone&amp;s=light">Face Angry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceAngry;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-angry?f=sharp-duotone&amp;s=regular">Face Angry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceAngry;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-angry?f=sharp-duotone&amp;s=solid">Face Angry</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceAngry;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-angry?f=sharp-duotone&amp;s=thin">Face Angry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceAngry;
     }
     /// <summary>
     /// Face Angry Horns
@@ -98,10 +128,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceAngryHorns;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=duotone&amp;s=light">Face Angry Horns</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceAngryHorns;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=duotone&amp;s=regular">Face Angry Horns</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceAngryHorns;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-angry-horns?f=duotone&amp;s=solid">Face Angry Horns</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceAngryHorns;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=duotone&amp;s=thin">Face Angry Horns</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceAngryHorns;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-angry-horns?f=sharp&amp;s=light">Face Angry Horns</a>
         /// </summary>
@@ -123,10 +168,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceAngryHorns;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=sharp-duotone&amp;s=light">Face Angry Horns</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceAngryHorns;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=sharp-duotone&amp;s=regular">Face Angry Horns</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceAngryHorns;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-angry-horns?f=sharp-duotone&amp;s=solid">Face Angry Horns</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceAngryHorns;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-angry-horns?f=sharp-duotone&amp;s=thin">Face Angry Horns</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceAngryHorns;
     }
     /// <summary>
     /// Face Anguished
@@ -156,10 +216,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceAnguished;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-anguished?f=duotone&amp;s=light">Face Anguished</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceAnguished;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-anguished?f=duotone&amp;s=regular">Face Anguished</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceAnguished;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-anguished?f=duotone&amp;s=solid">Face Anguished</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceAnguished;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-anguished?f=duotone&amp;s=thin">Face Anguished</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceAnguished;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-anguished?f=sharp&amp;s=light">Face Anguished</a>
         /// </summary>
@@ -181,10 +256,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceAnguished;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-anguished?f=sharp-duotone&amp;s=light">Face Anguished</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceAnguished;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-anguished?f=sharp-duotone&amp;s=regular">Face Anguished</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceAnguished;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-anguished?f=sharp-duotone&amp;s=solid">Face Anguished</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceAnguished;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-anguished?f=sharp-duotone&amp;s=thin">Face Anguished</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceAnguished;
     }
     /// <summary>
     /// Face Anxious Sweat
@@ -214,10 +304,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceAnxiousSweat;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=duotone&amp;s=light">Face Anxious Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceAnxiousSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=duotone&amp;s=regular">Face Anxious Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceAnxiousSweat;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=duotone&amp;s=solid">Face Anxious Sweat</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceAnxiousSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=duotone&amp;s=thin">Face Anxious Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceAnxiousSweat;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=sharp&amp;s=light">Face Anxious Sweat</a>
         /// </summary>
@@ -239,10 +344,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceAnxiousSweat;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=sharp-duotone&amp;s=light">Face Anxious Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceAnxiousSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=sharp-duotone&amp;s=regular">Face Anxious Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceAnxiousSweat;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=sharp-duotone&amp;s=solid">Face Anxious Sweat</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceAnxiousSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-anxious-sweat?f=sharp-duotone&amp;s=thin">Face Anxious Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceAnxiousSweat;
     }
     /// <summary>
     /// Face Astonished
@@ -272,10 +392,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceAstonished;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-astonished?f=duotone&amp;s=light">Face Astonished</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceAstonished;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-astonished?f=duotone&amp;s=regular">Face Astonished</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceAstonished;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-astonished?f=duotone&amp;s=solid">Face Astonished</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceAstonished;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-astonished?f=duotone&amp;s=thin">Face Astonished</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceAstonished;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-astonished?f=sharp&amp;s=light">Face Astonished</a>
         /// </summary>
@@ -297,10 +432,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceAstonished;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-astonished?f=sharp-duotone&amp;s=light">Face Astonished</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceAstonished;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-astonished?f=sharp-duotone&amp;s=regular">Face Astonished</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceAstonished;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-astonished?f=sharp-duotone&amp;s=solid">Face Astonished</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceAstonished;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-astonished?f=sharp-duotone&amp;s=thin">Face Astonished</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceAstonished;
     }
     /// <summary>
     /// Face Awesome
@@ -330,10 +480,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceAwesome;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-awesome?f=duotone&amp;s=light">Face Awesome</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceAwesome;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-awesome?f=duotone&amp;s=regular">Face Awesome</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceAwesome;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-awesome?f=duotone&amp;s=solid">Face Awesome</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceAwesome;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-awesome?f=duotone&amp;s=thin">Face Awesome</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceAwesome;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-awesome?f=sharp&amp;s=light">Face Awesome</a>
         /// </summary>
@@ -355,10 +520,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceAwesome;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-awesome?f=sharp-duotone&amp;s=light">Face Awesome</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceAwesome;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-awesome?f=sharp-duotone&amp;s=regular">Face Awesome</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceAwesome;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-awesome?f=sharp-duotone&amp;s=solid">Face Awesome</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceAwesome;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-awesome?f=sharp-duotone&amp;s=thin">Face Awesome</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceAwesome;
     }
     /// <summary>
     /// Face Beam Hand Over Mouth
@@ -388,10 +568,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceBeamHandOverMouth;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=duotone&amp;s=light">Face Beam Hand Over Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceBeamHandOverMouth;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=duotone&amp;s=regular">Face Beam Hand Over Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceBeamHandOverMouth;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=duotone&amp;s=solid">Face Beam Hand Over Mouth</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceBeamHandOverMouth;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=duotone&amp;s=thin">Face Beam Hand Over Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceBeamHandOverMouth;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=sharp&amp;s=light">Face Beam Hand Over Mouth</a>
         /// </summary>
@@ -413,10 +608,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceBeamHandOverMouth;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=sharp-duotone&amp;s=light">Face Beam Hand Over Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceBeamHandOverMouth;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=sharp-duotone&amp;s=regular">Face Beam Hand Over Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceBeamHandOverMouth;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=sharp-duotone&amp;s=solid">Face Beam Hand Over Mouth</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceBeamHandOverMouth;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-beam-hand-over-mouth?f=sharp-duotone&amp;s=thin">Face Beam Hand Over Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceBeamHandOverMouth;
     }
     /// <summary>
     /// Face Clouds
@@ -446,10 +656,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceClouds;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-clouds?f=duotone&amp;s=light">Face Clouds</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceClouds;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-clouds?f=duotone&amp;s=regular">Face Clouds</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceClouds;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-clouds?f=duotone&amp;s=solid">Face Clouds</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceClouds;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-clouds?f=duotone&amp;s=thin">Face Clouds</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceClouds;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-clouds?f=sharp&amp;s=light">Face Clouds</a>
         /// </summary>
@@ -471,10 +696,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceClouds;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-clouds?f=sharp-duotone&amp;s=light">Face Clouds</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceClouds;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-clouds?f=sharp-duotone&amp;s=regular">Face Clouds</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceClouds;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-clouds?f=sharp-duotone&amp;s=solid">Face Clouds</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceClouds;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-clouds?f=sharp-duotone&amp;s=thin">Face Clouds</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceClouds;
     }
     /// <summary>
     /// Face Confounded
@@ -504,10 +744,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceConfounded;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-confounded?f=duotone&amp;s=light">Face Confounded</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceConfounded;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-confounded?f=duotone&amp;s=regular">Face Confounded</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceConfounded;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-confounded?f=duotone&amp;s=solid">Face Confounded</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceConfounded;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-confounded?f=duotone&amp;s=thin">Face Confounded</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceConfounded;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-confounded?f=sharp&amp;s=light">Face Confounded</a>
         /// </summary>
@@ -529,10 +784,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceConfounded;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-confounded?f=sharp-duotone&amp;s=light">Face Confounded</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceConfounded;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-confounded?f=sharp-duotone&amp;s=regular">Face Confounded</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceConfounded;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-confounded?f=sharp-duotone&amp;s=solid">Face Confounded</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceConfounded;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-confounded?f=sharp-duotone&amp;s=thin">Face Confounded</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceConfounded;
     }
     /// <summary>
     /// Face Confused
@@ -562,10 +832,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceConfused;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-confused?f=duotone&amp;s=light">Face Confused</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceConfused;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-confused?f=duotone&amp;s=regular">Face Confused</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceConfused;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-confused?f=duotone&amp;s=solid">Face Confused</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceConfused;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-confused?f=duotone&amp;s=thin">Face Confused</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceConfused;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-confused?f=sharp&amp;s=light">Face Confused</a>
         /// </summary>
@@ -587,10 +872,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceConfused;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-confused?f=sharp-duotone&amp;s=light">Face Confused</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceConfused;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-confused?f=sharp-duotone&amp;s=regular">Face Confused</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceConfused;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-confused?f=sharp-duotone&amp;s=solid">Face Confused</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceConfused;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-confused?f=sharp-duotone&amp;s=thin">Face Confused</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceConfused;
     }
     /// <summary>
     /// Face Cowboy Hat
@@ -620,10 +920,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceCowboyHat;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=duotone&amp;s=light">Face Cowboy Hat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceCowboyHat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=duotone&amp;s=regular">Face Cowboy Hat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceCowboyHat;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=duotone&amp;s=solid">Face Cowboy Hat</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceCowboyHat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=duotone&amp;s=thin">Face Cowboy Hat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceCowboyHat;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=sharp&amp;s=light">Face Cowboy Hat</a>
         /// </summary>
@@ -645,10 +960,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceCowboyHat;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=sharp-duotone&amp;s=light">Face Cowboy Hat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceCowboyHat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=sharp-duotone&amp;s=regular">Face Cowboy Hat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceCowboyHat;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=sharp-duotone&amp;s=solid">Face Cowboy Hat</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceCowboyHat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-cowboy-hat?f=sharp-duotone&amp;s=thin">Face Cowboy Hat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceCowboyHat;
     }
     /// <summary>
     /// Face Diagonal Mouth
@@ -678,10 +1008,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceDiagonalMouth;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=duotone&amp;s=light">Face Diagonal Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceDiagonalMouth;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=duotone&amp;s=regular">Face Diagonal Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceDiagonalMouth;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=duotone&amp;s=solid">Face Diagonal Mouth</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceDiagonalMouth;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=duotone&amp;s=thin">Face Diagonal Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceDiagonalMouth;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=sharp&amp;s=light">Face Diagonal Mouth</a>
         /// </summary>
@@ -703,10 +1048,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceDiagonalMouth;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=sharp-duotone&amp;s=light">Face Diagonal Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceDiagonalMouth;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=sharp-duotone&amp;s=regular">Face Diagonal Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceDiagonalMouth;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=sharp-duotone&amp;s=solid">Face Diagonal Mouth</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceDiagonalMouth;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-diagonal-mouth?f=sharp-duotone&amp;s=thin">Face Diagonal Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceDiagonalMouth;
     }
     /// <summary>
     /// Face Disappointed
@@ -736,10 +1096,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceDisappointed;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-disappointed?f=duotone&amp;s=light">Face Disappointed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceDisappointed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-disappointed?f=duotone&amp;s=regular">Face Disappointed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceDisappointed;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-disappointed?f=duotone&amp;s=solid">Face Disappointed</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceDisappointed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-disappointed?f=duotone&amp;s=thin">Face Disappointed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceDisappointed;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-disappointed?f=sharp&amp;s=light">Face Disappointed</a>
         /// </summary>
@@ -761,10 +1136,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceDisappointed;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-disappointed?f=sharp-duotone&amp;s=light">Face Disappointed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceDisappointed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-disappointed?f=sharp-duotone&amp;s=regular">Face Disappointed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceDisappointed;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-disappointed?f=sharp-duotone&amp;s=solid">Face Disappointed</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceDisappointed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-disappointed?f=sharp-duotone&amp;s=thin">Face Disappointed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceDisappointed;
     }
     /// <summary>
     /// Face Disguise
@@ -794,10 +1184,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceDisguise;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-disguise?f=duotone&amp;s=light">Face Disguise</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceDisguise;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-disguise?f=duotone&amp;s=regular">Face Disguise</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceDisguise;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-disguise?f=duotone&amp;s=solid">Face Disguise</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceDisguise;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-disguise?f=duotone&amp;s=thin">Face Disguise</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceDisguise;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-disguise?f=sharp&amp;s=light">Face Disguise</a>
         /// </summary>
@@ -819,10 +1224,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceDisguise;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-disguise?f=sharp-duotone&amp;s=light">Face Disguise</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceDisguise;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-disguise?f=sharp-duotone&amp;s=regular">Face Disguise</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceDisguise;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-disguise?f=sharp-duotone&amp;s=solid">Face Disguise</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceDisguise;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-disguise?f=sharp-duotone&amp;s=thin">Face Disguise</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceDisguise;
     }
     /// <summary>
     /// Face Dizzy
@@ -852,10 +1272,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceDizzy;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-dizzy?f=duotone&amp;s=light">Face Dizzy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceDizzy;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-dizzy?f=duotone&amp;s=regular">Face Dizzy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceDizzy;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-dizzy?f=duotone&amp;s=solid">Face Dizzy</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceDizzy;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-dizzy?f=duotone&amp;s=thin">Face Dizzy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceDizzy;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-dizzy?f=sharp&amp;s=light">Face Dizzy</a>
         /// </summary>
@@ -877,10 +1312,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceDizzy;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-dizzy?f=sharp-duotone&amp;s=light">Face Dizzy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceDizzy;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-dizzy?f=sharp-duotone&amp;s=regular">Face Dizzy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceDizzy;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-dizzy?f=sharp-duotone&amp;s=solid">Face Dizzy</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceDizzy;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-dizzy?f=sharp-duotone&amp;s=thin">Face Dizzy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceDizzy;
     }
     /// <summary>
     /// Face Dotted
@@ -910,10 +1360,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceDotted;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-dotted?f=duotone&amp;s=light">Face Dotted</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceDotted;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-dotted?f=duotone&amp;s=regular">Face Dotted</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceDotted;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-dotted?f=duotone&amp;s=solid">Face Dotted</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceDotted;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-dotted?f=duotone&amp;s=thin">Face Dotted</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceDotted;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-dotted?f=sharp&amp;s=light">Face Dotted</a>
         /// </summary>
@@ -935,10 +1400,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceDotted;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-dotted?f=sharp-duotone&amp;s=light">Face Dotted</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceDotted;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-dotted?f=sharp-duotone&amp;s=regular">Face Dotted</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceDotted;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-dotted?f=sharp-duotone&amp;s=solid">Face Dotted</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceDotted;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-dotted?f=sharp-duotone&amp;s=thin">Face Dotted</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceDotted;
     }
     /// <summary>
     /// Face Downcast Sweat
@@ -968,10 +1448,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceDowncastSweat;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=duotone&amp;s=light">Face Downcast Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceDowncastSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=duotone&amp;s=regular">Face Downcast Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceDowncastSweat;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=duotone&amp;s=solid">Face Downcast Sweat</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceDowncastSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=duotone&amp;s=thin">Face Downcast Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceDowncastSweat;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=sharp&amp;s=light">Face Downcast Sweat</a>
         /// </summary>
@@ -993,10 +1488,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceDowncastSweat;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=sharp-duotone&amp;s=light">Face Downcast Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceDowncastSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=sharp-duotone&amp;s=regular">Face Downcast Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceDowncastSweat;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=sharp-duotone&amp;s=solid">Face Downcast Sweat</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceDowncastSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-downcast-sweat?f=sharp-duotone&amp;s=thin">Face Downcast Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceDowncastSweat;
     }
     /// <summary>
     /// Face Drooling
@@ -1026,10 +1536,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceDrooling;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-drooling?f=duotone&amp;s=light">Face Drooling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceDrooling;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-drooling?f=duotone&amp;s=regular">Face Drooling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceDrooling;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-drooling?f=duotone&amp;s=solid">Face Drooling</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceDrooling;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-drooling?f=duotone&amp;s=thin">Face Drooling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceDrooling;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-drooling?f=sharp&amp;s=light">Face Drooling</a>
         /// </summary>
@@ -1051,10 +1576,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceDrooling;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-drooling?f=sharp-duotone&amp;s=light">Face Drooling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceDrooling;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-drooling?f=sharp-duotone&amp;s=regular">Face Drooling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceDrooling;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-drooling?f=sharp-duotone&amp;s=solid">Face Drooling</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceDrooling;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-drooling?f=sharp-duotone&amp;s=thin">Face Drooling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceDrooling;
     }
     /// <summary>
     /// Face Exhaling
@@ -1084,10 +1624,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceExhaling;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-exhaling?f=duotone&amp;s=light">Face Exhaling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceExhaling;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-exhaling?f=duotone&amp;s=regular">Face Exhaling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceExhaling;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-exhaling?f=duotone&amp;s=solid">Face Exhaling</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceExhaling;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-exhaling?f=duotone&amp;s=thin">Face Exhaling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceExhaling;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-exhaling?f=sharp&amp;s=light">Face Exhaling</a>
         /// </summary>
@@ -1109,10 +1664,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceExhaling;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-exhaling?f=sharp-duotone&amp;s=light">Face Exhaling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceExhaling;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-exhaling?f=sharp-duotone&amp;s=regular">Face Exhaling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceExhaling;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-exhaling?f=sharp-duotone&amp;s=solid">Face Exhaling</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceExhaling;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-exhaling?f=sharp-duotone&amp;s=thin">Face Exhaling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceExhaling;
     }
     /// <summary>
     /// Face Explode
@@ -1142,10 +1712,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceExplode;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-explode?f=duotone&amp;s=light">Face Explode</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceExplode;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-explode?f=duotone&amp;s=regular">Face Explode</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceExplode;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-explode?f=duotone&amp;s=solid">Face Explode</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceExplode;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-explode?f=duotone&amp;s=thin">Face Explode</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceExplode;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-explode?f=sharp&amp;s=light">Face Explode</a>
         /// </summary>
@@ -1167,10 +1752,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceExplode;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-explode?f=sharp-duotone&amp;s=light">Face Explode</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceExplode;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-explode?f=sharp-duotone&amp;s=regular">Face Explode</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceExplode;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-explode?f=sharp-duotone&amp;s=solid">Face Explode</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceExplode;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-explode?f=sharp-duotone&amp;s=thin">Face Explode</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceExplode;
     }
     /// <summary>
     /// Face Expressionless
@@ -1200,10 +1800,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceExpressionless;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-expressionless?f=duotone&amp;s=light">Face Expressionless</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceExpressionless;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-expressionless?f=duotone&amp;s=regular">Face Expressionless</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceExpressionless;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-expressionless?f=duotone&amp;s=solid">Face Expressionless</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceExpressionless;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-expressionless?f=duotone&amp;s=thin">Face Expressionless</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceExpressionless;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-expressionless?f=sharp&amp;s=light">Face Expressionless</a>
         /// </summary>
@@ -1225,10 +1840,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceExpressionless;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-expressionless?f=sharp-duotone&amp;s=light">Face Expressionless</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceExpressionless;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-expressionless?f=sharp-duotone&amp;s=regular">Face Expressionless</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceExpressionless;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-expressionless?f=sharp-duotone&amp;s=solid">Face Expressionless</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceExpressionless;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-expressionless?f=sharp-duotone&amp;s=thin">Face Expressionless</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceExpressionless;
     }
     /// <summary>
     /// Face Eyes Xmarks
@@ -1258,10 +1888,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceEyesXmarks;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=duotone&amp;s=light">Face Eyes Xmarks</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceEyesXmarks;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=duotone&amp;s=regular">Face Eyes Xmarks</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceEyesXmarks;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=duotone&amp;s=solid">Face Eyes Xmarks</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceEyesXmarks;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=duotone&amp;s=thin">Face Eyes Xmarks</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceEyesXmarks;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=sharp&amp;s=light">Face Eyes Xmarks</a>
         /// </summary>
@@ -1283,10 +1928,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceEyesXmarks;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=sharp-duotone&amp;s=light">Face Eyes Xmarks</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceEyesXmarks;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=sharp-duotone&amp;s=regular">Face Eyes Xmarks</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceEyesXmarks;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=sharp-duotone&amp;s=solid">Face Eyes Xmarks</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceEyesXmarks;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-eyes-xmarks?f=sharp-duotone&amp;s=thin">Face Eyes Xmarks</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceEyesXmarks;
     }
     /// <summary>
     /// Face Fearful
@@ -1316,10 +1976,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceFearful;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-fearful?f=duotone&amp;s=light">Face Fearful</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceFearful;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-fearful?f=duotone&amp;s=regular">Face Fearful</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceFearful;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-fearful?f=duotone&amp;s=solid">Face Fearful</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceFearful;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-fearful?f=duotone&amp;s=thin">Face Fearful</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceFearful;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-fearful?f=sharp&amp;s=light">Face Fearful</a>
         /// </summary>
@@ -1341,10 +2016,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceFearful;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-fearful?f=sharp-duotone&amp;s=light">Face Fearful</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceFearful;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-fearful?f=sharp-duotone&amp;s=regular">Face Fearful</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceFearful;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-fearful?f=sharp-duotone&amp;s=solid">Face Fearful</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceFearful;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-fearful?f=sharp-duotone&amp;s=thin">Face Fearful</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceFearful;
     }
     /// <summary>
     /// Face Flushed
@@ -1374,10 +2064,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceFlushed;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-flushed?f=duotone&amp;s=light">Face Flushed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceFlushed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-flushed?f=duotone&amp;s=regular">Face Flushed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceFlushed;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-flushed?f=duotone&amp;s=solid">Face Flushed</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceFlushed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-flushed?f=duotone&amp;s=thin">Face Flushed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceFlushed;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-flushed?f=sharp&amp;s=light">Face Flushed</a>
         /// </summary>
@@ -1399,10 +2104,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceFlushed;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-flushed?f=sharp-duotone&amp;s=light">Face Flushed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceFlushed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-flushed?f=sharp-duotone&amp;s=regular">Face Flushed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceFlushed;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-flushed?f=sharp-duotone&amp;s=solid">Face Flushed</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceFlushed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-flushed?f=sharp-duotone&amp;s=thin">Face Flushed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceFlushed;
     }
     /// <summary>
     /// Face Frown
@@ -1432,10 +2152,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceFrown;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown?f=duotone&amp;s=light">Face Frown</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceFrown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown?f=duotone&amp;s=regular">Face Frown</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceFrown;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-frown?f=duotone&amp;s=solid">Face Frown</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceFrown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown?f=duotone&amp;s=thin">Face Frown</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceFrown;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-frown?f=sharp&amp;s=light">Face Frown</a>
         /// </summary>
@@ -1457,10 +2192,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceFrown;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown?f=sharp-duotone&amp;s=light">Face Frown</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceFrown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown?f=sharp-duotone&amp;s=regular">Face Frown</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceFrown;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-frown?f=sharp-duotone&amp;s=solid">Face Frown</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceFrown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown?f=sharp-duotone&amp;s=thin">Face Frown</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceFrown;
     }
     /// <summary>
     /// Face Frown Open
@@ -1490,10 +2240,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceFrownOpen;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown-open?f=duotone&amp;s=light">Face Frown Open</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceFrownOpen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown-open?f=duotone&amp;s=regular">Face Frown Open</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceFrownOpen;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-frown-open?f=duotone&amp;s=solid">Face Frown Open</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceFrownOpen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown-open?f=duotone&amp;s=thin">Face Frown Open</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceFrownOpen;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-frown-open?f=sharp&amp;s=light">Face Frown Open</a>
         /// </summary>
@@ -1515,10 +2280,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceFrownOpen;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown-open?f=sharp-duotone&amp;s=light">Face Frown Open</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceFrownOpen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown-open?f=sharp-duotone&amp;s=regular">Face Frown Open</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceFrownOpen;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-frown-open?f=sharp-duotone&amp;s=solid">Face Frown Open</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceFrownOpen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown-open?f=sharp-duotone&amp;s=thin">Face Frown Open</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceFrownOpen;
     }
     /// <summary>
     /// Face Frown Slight
@@ -1548,10 +2328,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceFrownSlight;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=duotone&amp;s=light">Face Frown Slight</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceFrownSlight;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=duotone&amp;s=regular">Face Frown Slight</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceFrownSlight;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-frown-slight?f=duotone&amp;s=solid">Face Frown Slight</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceFrownSlight;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=duotone&amp;s=thin">Face Frown Slight</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceFrownSlight;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-frown-slight?f=sharp&amp;s=light">Face Frown Slight</a>
         /// </summary>
@@ -1573,10 +2368,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceFrownSlight;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=sharp-duotone&amp;s=light">Face Frown Slight</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceFrownSlight;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=sharp-duotone&amp;s=regular">Face Frown Slight</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceFrownSlight;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-frown-slight?f=sharp-duotone&amp;s=solid">Face Frown Slight</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceFrownSlight;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-frown-slight?f=sharp-duotone&amp;s=thin">Face Frown Slight</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceFrownSlight;
     }
     /// <summary>
     /// Face Glasses
@@ -1606,10 +2416,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGlasses;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-glasses?f=duotone&amp;s=light">Face Glasses</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceGlasses;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-glasses?f=duotone&amp;s=regular">Face Glasses</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceGlasses;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-glasses?f=duotone&amp;s=solid">Face Glasses</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceGlasses;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-glasses?f=duotone&amp;s=thin">Face Glasses</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceGlasses;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-glasses?f=sharp&amp;s=light">Face Glasses</a>
         /// </summary>
@@ -1631,10 +2456,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGlasses;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-glasses?f=sharp-duotone&amp;s=light">Face Glasses</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceGlasses;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-glasses?f=sharp-duotone&amp;s=regular">Face Glasses</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceGlasses;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-glasses?f=sharp-duotone&amp;s=solid">Face Glasses</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceGlasses;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-glasses?f=sharp-duotone&amp;s=thin">Face Glasses</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceGlasses;
     }
     /// <summary>
     /// Face Grimace
@@ -1664,10 +2504,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrimace;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grimace?f=duotone&amp;s=light">Face Grimace</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceGrimace;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grimace?f=duotone&amp;s=regular">Face Grimace</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceGrimace;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grimace?f=duotone&amp;s=solid">Face Grimace</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceGrimace;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grimace?f=duotone&amp;s=thin">Face Grimace</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceGrimace;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grimace?f=sharp&amp;s=light">Face Grimace</a>
         /// </summary>
@@ -1689,10 +2544,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrimace;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grimace?f=sharp-duotone&amp;s=light">Face Grimace</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceGrimace;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grimace?f=sharp-duotone&amp;s=regular">Face Grimace</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceGrimace;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grimace?f=sharp-duotone&amp;s=solid">Face Grimace</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceGrimace;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grimace?f=sharp-duotone&amp;s=thin">Face Grimace</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceGrimace;
     }
     /// <summary>
     /// Face Grin
@@ -1722,10 +2592,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrin;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin?f=duotone&amp;s=light">Face Grin</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceGrin;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin?f=duotone&amp;s=regular">Face Grin</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceGrin;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin?f=duotone&amp;s=solid">Face Grin</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceGrin;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin?f=duotone&amp;s=thin">Face Grin</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceGrin;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin?f=sharp&amp;s=light">Face Grin</a>
         /// </summary>
@@ -1747,10 +2632,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrin;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin?f=sharp-duotone&amp;s=light">Face Grin</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceGrin;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin?f=sharp-duotone&amp;s=regular">Face Grin</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceGrin;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin?f=sharp-duotone&amp;s=solid">Face Grin</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceGrin;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin?f=sharp-duotone&amp;s=thin">Face Grin</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceGrin;
     }
     /// <summary>
     /// Face Grin Beam
@@ -1780,10 +2680,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinBeam;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=duotone&amp;s=light">Face Grin Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceGrinBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=duotone&amp;s=regular">Face Grin Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceGrinBeam;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-beam?f=duotone&amp;s=solid">Face Grin Beam</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceGrinBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=duotone&amp;s=thin">Face Grin Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceGrinBeam;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-beam?f=sharp&amp;s=light">Face Grin Beam</a>
         /// </summary>
@@ -1805,10 +2720,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinBeam;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=sharp-duotone&amp;s=light">Face Grin Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceGrinBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=sharp-duotone&amp;s=regular">Face Grin Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceGrinBeam;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-beam?f=sharp-duotone&amp;s=solid">Face Grin Beam</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceGrinBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam?f=sharp-duotone&amp;s=thin">Face Grin Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceGrinBeam;
     }
     /// <summary>
     /// Face Grin Beam Sweat
@@ -1838,10 +2768,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinBeamSweat;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=duotone&amp;s=light">Face Grin Beam Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceGrinBeamSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=duotone&amp;s=regular">Face Grin Beam Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceGrinBeamSweat;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=duotone&amp;s=solid">Face Grin Beam Sweat</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceGrinBeamSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=duotone&amp;s=thin">Face Grin Beam Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceGrinBeamSweat;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=sharp&amp;s=light">Face Grin Beam Sweat</a>
         /// </summary>
@@ -1863,10 +2808,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinBeamSweat;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=sharp-duotone&amp;s=light">Face Grin Beam Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceGrinBeamSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=sharp-duotone&amp;s=regular">Face Grin Beam Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceGrinBeamSweat;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=sharp-duotone&amp;s=solid">Face Grin Beam Sweat</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceGrinBeamSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-beam-sweat?f=sharp-duotone&amp;s=thin">Face Grin Beam Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceGrinBeamSweat;
     }
     /// <summary>
     /// Face Grin Hearts
@@ -1896,10 +2856,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinHearts;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=duotone&amp;s=light">Face Grin Hearts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceGrinHearts;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=duotone&amp;s=regular">Face Grin Hearts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceGrinHearts;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=duotone&amp;s=solid">Face Grin Hearts</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceGrinHearts;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=duotone&amp;s=thin">Face Grin Hearts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceGrinHearts;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=sharp&amp;s=light">Face Grin Hearts</a>
         /// </summary>
@@ -1921,10 +2896,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinHearts;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=sharp-duotone&amp;s=light">Face Grin Hearts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceGrinHearts;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=sharp-duotone&amp;s=regular">Face Grin Hearts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceGrinHearts;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=sharp-duotone&amp;s=solid">Face Grin Hearts</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceGrinHearts;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-hearts?f=sharp-duotone&amp;s=thin">Face Grin Hearts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceGrinHearts;
     }
     /// <summary>
     /// Face Grin Squint
@@ -1954,10 +2944,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinSquint;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=duotone&amp;s=light">Face Grin Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceGrinSquint;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=duotone&amp;s=regular">Face Grin Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceGrinSquint;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-squint?f=duotone&amp;s=solid">Face Grin Squint</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceGrinSquint;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=duotone&amp;s=thin">Face Grin Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceGrinSquint;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-squint?f=sharp&amp;s=light">Face Grin Squint</a>
         /// </summary>
@@ -1979,10 +2984,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinSquint;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=sharp-duotone&amp;s=light">Face Grin Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceGrinSquint;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=sharp-duotone&amp;s=regular">Face Grin Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceGrinSquint;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-squint?f=sharp-duotone&amp;s=solid">Face Grin Squint</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceGrinSquint;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint?f=sharp-duotone&amp;s=thin">Face Grin Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceGrinSquint;
     }
     /// <summary>
     /// Face Grin Squint Tears
@@ -2012,10 +3032,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinSquintTears;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=duotone&amp;s=light">Face Grin Squint Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceGrinSquintTears;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=duotone&amp;s=regular">Face Grin Squint Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceGrinSquintTears;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=duotone&amp;s=solid">Face Grin Squint Tears</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceGrinSquintTears;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=duotone&amp;s=thin">Face Grin Squint Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceGrinSquintTears;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=sharp&amp;s=light">Face Grin Squint Tears</a>
         /// </summary>
@@ -2037,10 +3072,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinSquintTears;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=sharp-duotone&amp;s=light">Face Grin Squint Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceGrinSquintTears;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=sharp-duotone&amp;s=regular">Face Grin Squint Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceGrinSquintTears;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=sharp-duotone&amp;s=solid">Face Grin Squint Tears</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceGrinSquintTears;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-squint-tears?f=sharp-duotone&amp;s=thin">Face Grin Squint Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceGrinSquintTears;
     }
     /// <summary>
     /// Face Grin Stars
@@ -2070,10 +3120,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinStars;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=duotone&amp;s=light">Face Grin Stars</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceGrinStars;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=duotone&amp;s=regular">Face Grin Stars</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceGrinStars;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-stars?f=duotone&amp;s=solid">Face Grin Stars</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceGrinStars;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=duotone&amp;s=thin">Face Grin Stars</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceGrinStars;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-stars?f=sharp&amp;s=light">Face Grin Stars</a>
         /// </summary>
@@ -2095,10 +3160,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinStars;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=sharp-duotone&amp;s=light">Face Grin Stars</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceGrinStars;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=sharp-duotone&amp;s=regular">Face Grin Stars</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceGrinStars;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-stars?f=sharp-duotone&amp;s=solid">Face Grin Stars</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceGrinStars;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-stars?f=sharp-duotone&amp;s=thin">Face Grin Stars</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceGrinStars;
     }
     /// <summary>
     /// Face Grin Tears
@@ -2128,10 +3208,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinTears;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=duotone&amp;s=light">Face Grin Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceGrinTears;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=duotone&amp;s=regular">Face Grin Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceGrinTears;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-tears?f=duotone&amp;s=solid">Face Grin Tears</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceGrinTears;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=duotone&amp;s=thin">Face Grin Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceGrinTears;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-tears?f=sharp&amp;s=light">Face Grin Tears</a>
         /// </summary>
@@ -2153,10 +3248,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinTears;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=sharp-duotone&amp;s=light">Face Grin Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceGrinTears;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=sharp-duotone&amp;s=regular">Face Grin Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceGrinTears;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-tears?f=sharp-duotone&amp;s=solid">Face Grin Tears</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceGrinTears;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tears?f=sharp-duotone&amp;s=thin">Face Grin Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceGrinTears;
     }
     /// <summary>
     /// Face Grin Tongue
@@ -2186,10 +3296,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinTongue;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=duotone&amp;s=light">Face Grin Tongue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceGrinTongue;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=duotone&amp;s=regular">Face Grin Tongue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceGrinTongue;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=duotone&amp;s=solid">Face Grin Tongue</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceGrinTongue;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=duotone&amp;s=thin">Face Grin Tongue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceGrinTongue;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=sharp&amp;s=light">Face Grin Tongue</a>
         /// </summary>
@@ -2211,10 +3336,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinTongue;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=sharp-duotone&amp;s=light">Face Grin Tongue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceGrinTongue;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=sharp-duotone&amp;s=regular">Face Grin Tongue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceGrinTongue;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=sharp-duotone&amp;s=solid">Face Grin Tongue</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceGrinTongue;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue?f=sharp-duotone&amp;s=thin">Face Grin Tongue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceGrinTongue;
     }
     /// <summary>
     /// Face Grin Tongue Squint
@@ -2244,10 +3384,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinTongueSquint;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=duotone&amp;s=light">Face Grin Tongue Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceGrinTongueSquint;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=duotone&amp;s=regular">Face Grin Tongue Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceGrinTongueSquint;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=duotone&amp;s=solid">Face Grin Tongue Squint</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceGrinTongueSquint;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=duotone&amp;s=thin">Face Grin Tongue Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceGrinTongueSquint;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=sharp&amp;s=light">Face Grin Tongue Squint</a>
         /// </summary>
@@ -2269,10 +3424,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinTongueSquint;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=sharp-duotone&amp;s=light">Face Grin Tongue Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceGrinTongueSquint;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=sharp-duotone&amp;s=regular">Face Grin Tongue Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceGrinTongueSquint;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=sharp-duotone&amp;s=solid">Face Grin Tongue Squint</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceGrinTongueSquint;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-squint?f=sharp-duotone&amp;s=thin">Face Grin Tongue Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceGrinTongueSquint;
     }
     /// <summary>
     /// Face Grin Tongue Wink
@@ -2302,10 +3472,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinTongueWink;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=duotone&amp;s=light">Face Grin Tongue Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceGrinTongueWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=duotone&amp;s=regular">Face Grin Tongue Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceGrinTongueWink;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=duotone&amp;s=solid">Face Grin Tongue Wink</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceGrinTongueWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=duotone&amp;s=thin">Face Grin Tongue Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceGrinTongueWink;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=sharp&amp;s=light">Face Grin Tongue Wink</a>
         /// </summary>
@@ -2327,10 +3512,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinTongueWink;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=sharp-duotone&amp;s=light">Face Grin Tongue Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceGrinTongueWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=sharp-duotone&amp;s=regular">Face Grin Tongue Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceGrinTongueWink;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=sharp-duotone&amp;s=solid">Face Grin Tongue Wink</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceGrinTongueWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-tongue-wink?f=sharp-duotone&amp;s=thin">Face Grin Tongue Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceGrinTongueWink;
     }
     /// <summary>
     /// Face Grin Wide
@@ -2360,10 +3560,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinWide;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=duotone&amp;s=light">Face Grin Wide</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceGrinWide;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=duotone&amp;s=regular">Face Grin Wide</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceGrinWide;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-wide?f=duotone&amp;s=solid">Face Grin Wide</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceGrinWide;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=duotone&amp;s=thin">Face Grin Wide</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceGrinWide;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-wide?f=sharp&amp;s=light">Face Grin Wide</a>
         /// </summary>
@@ -2385,10 +3600,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinWide;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=sharp-duotone&amp;s=light">Face Grin Wide</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceGrinWide;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=sharp-duotone&amp;s=regular">Face Grin Wide</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceGrinWide;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-wide?f=sharp-duotone&amp;s=solid">Face Grin Wide</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceGrinWide;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-wide?f=sharp-duotone&amp;s=thin">Face Grin Wide</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceGrinWide;
     }
     /// <summary>
     /// Face Grin Wink
@@ -2418,10 +3648,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceGrinWink;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=duotone&amp;s=light">Face Grin Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceGrinWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=duotone&amp;s=regular">Face Grin Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceGrinWink;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-wink?f=duotone&amp;s=solid">Face Grin Wink</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceGrinWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=duotone&amp;s=thin">Face Grin Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceGrinWink;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-wink?f=sharp&amp;s=light">Face Grin Wink</a>
         /// </summary>
@@ -2443,10 +3688,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceGrinWink;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=sharp-duotone&amp;s=light">Face Grin Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceGrinWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=sharp-duotone&amp;s=regular">Face Grin Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceGrinWink;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-grin-wink?f=sharp-duotone&amp;s=solid">Face Grin Wink</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceGrinWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-grin-wink?f=sharp-duotone&amp;s=thin">Face Grin Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceGrinWink;
     }
     /// <summary>
     /// Face Hand Over Mouth
@@ -2476,10 +3736,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceHandOverMouth;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=duotone&amp;s=light">Face Hand Over Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceHandOverMouth;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=duotone&amp;s=regular">Face Hand Over Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceHandOverMouth;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=duotone&amp;s=solid">Face Hand Over Mouth</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceHandOverMouth;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=duotone&amp;s=thin">Face Hand Over Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceHandOverMouth;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=sharp&amp;s=light">Face Hand Over Mouth</a>
         /// </summary>
@@ -2501,10 +3776,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceHandOverMouth;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=sharp-duotone&amp;s=light">Face Hand Over Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceHandOverMouth;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=sharp-duotone&amp;s=regular">Face Hand Over Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceHandOverMouth;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=sharp-duotone&amp;s=solid">Face Hand Over Mouth</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceHandOverMouth;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-over-mouth?f=sharp-duotone&amp;s=thin">Face Hand Over Mouth</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceHandOverMouth;
     }
     /// <summary>
     /// Face Hand Peeking
@@ -2534,10 +3824,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceHandPeeking;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=duotone&amp;s=light">Face Hand Peeking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceHandPeeking;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=duotone&amp;s=regular">Face Hand Peeking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceHandPeeking;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=duotone&amp;s=solid">Face Hand Peeking</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceHandPeeking;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=duotone&amp;s=thin">Face Hand Peeking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceHandPeeking;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=sharp&amp;s=light">Face Hand Peeking</a>
         /// </summary>
@@ -2559,10 +3864,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceHandPeeking;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=sharp-duotone&amp;s=light">Face Hand Peeking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceHandPeeking;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=sharp-duotone&amp;s=regular">Face Hand Peeking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceHandPeeking;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=sharp-duotone&amp;s=solid">Face Hand Peeking</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceHandPeeking;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-peeking?f=sharp-duotone&amp;s=thin">Face Hand Peeking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceHandPeeking;
     }
     /// <summary>
     /// Face Hand Yawn
@@ -2592,10 +3912,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceHandYawn;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=duotone&amp;s=light">Face Hand Yawn</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceHandYawn;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=duotone&amp;s=regular">Face Hand Yawn</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceHandYawn;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=duotone&amp;s=solid">Face Hand Yawn</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceHandYawn;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=duotone&amp;s=thin">Face Hand Yawn</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceHandYawn;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=sharp&amp;s=light">Face Hand Yawn</a>
         /// </summary>
@@ -2617,10 +3952,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceHandYawn;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=sharp-duotone&amp;s=light">Face Hand Yawn</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceHandYawn;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=sharp-duotone&amp;s=regular">Face Hand Yawn</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceHandYawn;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=sharp-duotone&amp;s=solid">Face Hand Yawn</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceHandYawn;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hand-yawn?f=sharp-duotone&amp;s=thin">Face Hand Yawn</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceHandYawn;
     }
     /// <summary>
     /// Face Head Bandage
@@ -2650,10 +4000,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceHeadBandage;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=duotone&amp;s=light">Face Head Bandage</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceHeadBandage;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=duotone&amp;s=regular">Face Head Bandage</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceHeadBandage;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-head-bandage?f=duotone&amp;s=solid">Face Head Bandage</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceHeadBandage;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=duotone&amp;s=thin">Face Head Bandage</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceHeadBandage;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-head-bandage?f=sharp&amp;s=light">Face Head Bandage</a>
         /// </summary>
@@ -2675,10 +4040,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceHeadBandage;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=sharp-duotone&amp;s=light">Face Head Bandage</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceHeadBandage;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=sharp-duotone&amp;s=regular">Face Head Bandage</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceHeadBandage;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-head-bandage?f=sharp-duotone&amp;s=solid">Face Head Bandage</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceHeadBandage;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-head-bandage?f=sharp-duotone&amp;s=thin">Face Head Bandage</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceHeadBandage;
     }
     /// <summary>
     /// Face Holding Back Tears
@@ -2708,10 +4088,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceHoldingBackTears;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=duotone&amp;s=light">Face Holding Back Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceHoldingBackTears;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=duotone&amp;s=regular">Face Holding Back Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceHoldingBackTears;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=duotone&amp;s=solid">Face Holding Back Tears</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceHoldingBackTears;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=duotone&amp;s=thin">Face Holding Back Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceHoldingBackTears;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=sharp&amp;s=light">Face Holding Back Tears</a>
         /// </summary>
@@ -2733,10 +4128,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceHoldingBackTears;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=sharp-duotone&amp;s=light">Face Holding Back Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceHoldingBackTears;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=sharp-duotone&amp;s=regular">Face Holding Back Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceHoldingBackTears;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=sharp-duotone&amp;s=solid">Face Holding Back Tears</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceHoldingBackTears;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-holding-back-tears?f=sharp-duotone&amp;s=thin">Face Holding Back Tears</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceHoldingBackTears;
     }
     /// <summary>
     /// Face Hushed
@@ -2766,10 +4176,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceHushed;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hushed?f=duotone&amp;s=light">Face Hushed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceHushed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hushed?f=duotone&amp;s=regular">Face Hushed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceHushed;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-hushed?f=duotone&amp;s=solid">Face Hushed</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceHushed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hushed?f=duotone&amp;s=thin">Face Hushed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceHushed;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-hushed?f=sharp&amp;s=light">Face Hushed</a>
         /// </summary>
@@ -2791,10 +4216,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceHushed;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hushed?f=sharp-duotone&amp;s=light">Face Hushed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceHushed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hushed?f=sharp-duotone&amp;s=regular">Face Hushed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceHushed;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-hushed?f=sharp-duotone&amp;s=solid">Face Hushed</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceHushed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-hushed?f=sharp-duotone&amp;s=thin">Face Hushed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceHushed;
     }
     /// <summary>
     /// Face Icicles
@@ -2824,10 +4264,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceIcicles;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-icicles?f=duotone&amp;s=light">Face Icicles</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceIcicles;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-icicles?f=duotone&amp;s=regular">Face Icicles</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceIcicles;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-icicles?f=duotone&amp;s=solid">Face Icicles</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceIcicles;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-icicles?f=duotone&amp;s=thin">Face Icicles</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceIcicles;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-icicles?f=sharp&amp;s=light">Face Icicles</a>
         /// </summary>
@@ -2849,10 +4304,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceIcicles;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-icicles?f=sharp-duotone&amp;s=light">Face Icicles</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceIcicles;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-icicles?f=sharp-duotone&amp;s=regular">Face Icicles</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceIcicles;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-icicles?f=sharp-duotone&amp;s=solid">Face Icicles</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceIcicles;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-icicles?f=sharp-duotone&amp;s=thin">Face Icicles</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceIcicles;
     }
     /// <summary>
     /// Face Kiss
@@ -2882,10 +4352,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceKiss;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss?f=duotone&amp;s=light">Face Kiss</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceKiss;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss?f=duotone&amp;s=regular">Face Kiss</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceKiss;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-kiss?f=duotone&amp;s=solid">Face Kiss</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceKiss;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss?f=duotone&amp;s=thin">Face Kiss</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceKiss;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-kiss?f=sharp&amp;s=light">Face Kiss</a>
         /// </summary>
@@ -2907,10 +4392,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceKiss;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss?f=sharp-duotone&amp;s=light">Face Kiss</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceKiss;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss?f=sharp-duotone&amp;s=regular">Face Kiss</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceKiss;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-kiss?f=sharp-duotone&amp;s=solid">Face Kiss</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceKiss;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss?f=sharp-duotone&amp;s=thin">Face Kiss</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceKiss;
     }
     /// <summary>
     /// Face Kiss Beam
@@ -2940,10 +4440,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceKissBeam;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=duotone&amp;s=light">Face Kiss Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceKissBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=duotone&amp;s=regular">Face Kiss Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceKissBeam;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=duotone&amp;s=solid">Face Kiss Beam</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceKissBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=duotone&amp;s=thin">Face Kiss Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceKissBeam;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=sharp&amp;s=light">Face Kiss Beam</a>
         /// </summary>
@@ -2965,10 +4480,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceKissBeam;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=sharp-duotone&amp;s=light">Face Kiss Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceKissBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=sharp-duotone&amp;s=regular">Face Kiss Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceKissBeam;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=sharp-duotone&amp;s=solid">Face Kiss Beam</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceKissBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-beam?f=sharp-duotone&amp;s=thin">Face Kiss Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceKissBeam;
     }
     /// <summary>
     /// Face Kiss Closed Eyes
@@ -2998,10 +4528,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceKissClosedEyes;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=duotone&amp;s=light">Face Kiss Closed Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceKissClosedEyes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=duotone&amp;s=regular">Face Kiss Closed Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceKissClosedEyes;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=duotone&amp;s=solid">Face Kiss Closed Eyes</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceKissClosedEyes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=duotone&amp;s=thin">Face Kiss Closed Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceKissClosedEyes;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=sharp&amp;s=light">Face Kiss Closed Eyes</a>
         /// </summary>
@@ -3023,10 +4568,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceKissClosedEyes;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=sharp-duotone&amp;s=light">Face Kiss Closed Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceKissClosedEyes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=sharp-duotone&amp;s=regular">Face Kiss Closed Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceKissClosedEyes;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=sharp-duotone&amp;s=solid">Face Kiss Closed Eyes</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceKissClosedEyes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-closed-eyes?f=sharp-duotone&amp;s=thin">Face Kiss Closed Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceKissClosedEyes;
     }
     /// <summary>
     /// Face Kiss Wink Heart
@@ -3056,10 +4616,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceKissWinkHeart;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=duotone&amp;s=light">Face Kiss Wink Heart</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceKissWinkHeart;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=duotone&amp;s=regular">Face Kiss Wink Heart</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceKissWinkHeart;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=duotone&amp;s=solid">Face Kiss Wink Heart</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceKissWinkHeart;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=duotone&amp;s=thin">Face Kiss Wink Heart</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceKissWinkHeart;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=sharp&amp;s=light">Face Kiss Wink Heart</a>
         /// </summary>
@@ -3081,10 +4656,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceKissWinkHeart;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=sharp-duotone&amp;s=light">Face Kiss Wink Heart</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceKissWinkHeart;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=sharp-duotone&amp;s=regular">Face Kiss Wink Heart</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceKissWinkHeart;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=sharp-duotone&amp;s=solid">Face Kiss Wink Heart</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceKissWinkHeart;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-kiss-wink-heart?f=sharp-duotone&amp;s=thin">Face Kiss Wink Heart</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceKissWinkHeart;
     }
     /// <summary>
     /// Face Laugh
@@ -3114,10 +4704,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceLaugh;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh?f=duotone&amp;s=light">Face Laugh</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceLaugh;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh?f=duotone&amp;s=regular">Face Laugh</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceLaugh;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-laugh?f=duotone&amp;s=solid">Face Laugh</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceLaugh;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh?f=duotone&amp;s=thin">Face Laugh</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceLaugh;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-laugh?f=sharp&amp;s=light">Face Laugh</a>
         /// </summary>
@@ -3139,10 +4744,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceLaugh;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh?f=sharp-duotone&amp;s=light">Face Laugh</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceLaugh;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh?f=sharp-duotone&amp;s=regular">Face Laugh</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceLaugh;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-laugh?f=sharp-duotone&amp;s=solid">Face Laugh</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceLaugh;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh?f=sharp-duotone&amp;s=thin">Face Laugh</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceLaugh;
     }
     /// <summary>
     /// Face Laugh Beam
@@ -3172,10 +4792,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceLaughBeam;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=duotone&amp;s=light">Face Laugh Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceLaughBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=duotone&amp;s=regular">Face Laugh Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceLaughBeam;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=duotone&amp;s=solid">Face Laugh Beam</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceLaughBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=duotone&amp;s=thin">Face Laugh Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceLaughBeam;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=sharp&amp;s=light">Face Laugh Beam</a>
         /// </summary>
@@ -3197,10 +4832,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceLaughBeam;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=sharp-duotone&amp;s=light">Face Laugh Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceLaughBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=sharp-duotone&amp;s=regular">Face Laugh Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceLaughBeam;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=sharp-duotone&amp;s=solid">Face Laugh Beam</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceLaughBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-beam?f=sharp-duotone&amp;s=thin">Face Laugh Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceLaughBeam;
     }
     /// <summary>
     /// Face Laugh Squint
@@ -3230,10 +4880,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceLaughSquint;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=duotone&amp;s=light">Face Laugh Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceLaughSquint;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=duotone&amp;s=regular">Face Laugh Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceLaughSquint;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=duotone&amp;s=solid">Face Laugh Squint</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceLaughSquint;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=duotone&amp;s=thin">Face Laugh Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceLaughSquint;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=sharp&amp;s=light">Face Laugh Squint</a>
         /// </summary>
@@ -3255,10 +4920,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceLaughSquint;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=sharp-duotone&amp;s=light">Face Laugh Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceLaughSquint;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=sharp-duotone&amp;s=regular">Face Laugh Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceLaughSquint;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=sharp-duotone&amp;s=solid">Face Laugh Squint</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceLaughSquint;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-squint?f=sharp-duotone&amp;s=thin">Face Laugh Squint</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceLaughSquint;
     }
     /// <summary>
     /// Face Laugh Wink
@@ -3288,10 +4968,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceLaughWink;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=duotone&amp;s=light">Face Laugh Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceLaughWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=duotone&amp;s=regular">Face Laugh Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceLaughWink;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=duotone&amp;s=solid">Face Laugh Wink</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceLaughWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=duotone&amp;s=thin">Face Laugh Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceLaughWink;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=sharp&amp;s=light">Face Laugh Wink</a>
         /// </summary>
@@ -3313,10 +5008,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceLaughWink;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=sharp-duotone&amp;s=light">Face Laugh Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceLaughWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=sharp-duotone&amp;s=regular">Face Laugh Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceLaughWink;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=sharp-duotone&amp;s=solid">Face Laugh Wink</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceLaughWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-laugh-wink?f=sharp-duotone&amp;s=thin">Face Laugh Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceLaughWink;
     }
     /// <summary>
     /// Face Lying
@@ -3346,10 +5056,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceLying;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-lying?f=duotone&amp;s=light">Face Lying</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceLying;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-lying?f=duotone&amp;s=regular">Face Lying</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceLying;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-lying?f=duotone&amp;s=solid">Face Lying</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceLying;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-lying?f=duotone&amp;s=thin">Face Lying</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceLying;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-lying?f=sharp&amp;s=light">Face Lying</a>
         /// </summary>
@@ -3371,10 +5096,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceLying;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-lying?f=sharp-duotone&amp;s=light">Face Lying</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceLying;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-lying?f=sharp-duotone&amp;s=regular">Face Lying</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceLying;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-lying?f=sharp-duotone&amp;s=solid">Face Lying</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceLying;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-lying?f=sharp-duotone&amp;s=thin">Face Lying</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceLying;
     }
     /// <summary>
     /// Face Mask
@@ -3404,10 +5144,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceMask;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-mask?f=duotone&amp;s=light">Face Mask</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceMask;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-mask?f=duotone&amp;s=regular">Face Mask</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceMask;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-mask?f=duotone&amp;s=solid">Face Mask</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceMask;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-mask?f=duotone&amp;s=thin">Face Mask</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceMask;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-mask?f=sharp&amp;s=light">Face Mask</a>
         /// </summary>
@@ -3429,10 +5184,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceMask;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-mask?f=sharp-duotone&amp;s=light">Face Mask</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceMask;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-mask?f=sharp-duotone&amp;s=regular">Face Mask</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceMask;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-mask?f=sharp-duotone&amp;s=solid">Face Mask</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceMask;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-mask?f=sharp-duotone&amp;s=thin">Face Mask</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceMask;
     }
     /// <summary>
     /// Face Meh
@@ -3462,10 +5232,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceMeh;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-meh?f=duotone&amp;s=light">Face Meh</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceMeh;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-meh?f=duotone&amp;s=regular">Face Meh</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceMeh;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-meh?f=duotone&amp;s=solid">Face Meh</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceMeh;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-meh?f=duotone&amp;s=thin">Face Meh</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceMeh;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-meh?f=sharp&amp;s=light">Face Meh</a>
         /// </summary>
@@ -3487,10 +5272,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceMeh;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-meh?f=sharp-duotone&amp;s=light">Face Meh</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceMeh;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-meh?f=sharp-duotone&amp;s=regular">Face Meh</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceMeh;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-meh?f=sharp-duotone&amp;s=solid">Face Meh</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceMeh;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-meh?f=sharp-duotone&amp;s=thin">Face Meh</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceMeh;
     }
     /// <summary>
     /// Face Meh Blank
@@ -3520,10 +5320,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceMehBlank;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=duotone&amp;s=light">Face Meh Blank</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceMehBlank;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=duotone&amp;s=regular">Face Meh Blank</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceMehBlank;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-meh-blank?f=duotone&amp;s=solid">Face Meh Blank</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceMehBlank;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=duotone&amp;s=thin">Face Meh Blank</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceMehBlank;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-meh-blank?f=sharp&amp;s=light">Face Meh Blank</a>
         /// </summary>
@@ -3545,10 +5360,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceMehBlank;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=sharp-duotone&amp;s=light">Face Meh Blank</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceMehBlank;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=sharp-duotone&amp;s=regular">Face Meh Blank</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceMehBlank;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-meh-blank?f=sharp-duotone&amp;s=solid">Face Meh Blank</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceMehBlank;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-meh-blank?f=sharp-duotone&amp;s=thin">Face Meh Blank</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceMehBlank;
     }
     /// <summary>
     /// Face Melting
@@ -3578,10 +5408,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceMelting;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-melting?f=duotone&amp;s=light">Face Melting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceMelting;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-melting?f=duotone&amp;s=regular">Face Melting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceMelting;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-melting?f=duotone&amp;s=solid">Face Melting</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceMelting;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-melting?f=duotone&amp;s=thin">Face Melting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceMelting;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-melting?f=sharp&amp;s=light">Face Melting</a>
         /// </summary>
@@ -3603,10 +5448,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceMelting;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-melting?f=sharp-duotone&amp;s=light">Face Melting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceMelting;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-melting?f=sharp-duotone&amp;s=regular">Face Melting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceMelting;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-melting?f=sharp-duotone&amp;s=solid">Face Melting</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceMelting;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-melting?f=sharp-duotone&amp;s=thin">Face Melting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceMelting;
     }
     /// <summary>
     /// Face Monocle
@@ -3636,10 +5496,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceMonocle;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-monocle?f=duotone&amp;s=light">Face Monocle</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceMonocle;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-monocle?f=duotone&amp;s=regular">Face Monocle</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceMonocle;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-monocle?f=duotone&amp;s=solid">Face Monocle</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceMonocle;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-monocle?f=duotone&amp;s=thin">Face Monocle</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceMonocle;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-monocle?f=sharp&amp;s=light">Face Monocle</a>
         /// </summary>
@@ -3661,10 +5536,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceMonocle;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-monocle?f=sharp-duotone&amp;s=light">Face Monocle</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceMonocle;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-monocle?f=sharp-duotone&amp;s=regular">Face Monocle</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceMonocle;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-monocle?f=sharp-duotone&amp;s=solid">Face Monocle</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceMonocle;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-monocle?f=sharp-duotone&amp;s=thin">Face Monocle</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceMonocle;
     }
     /// <summary>
     /// Face Nauseated
@@ -3694,10 +5584,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceNauseated;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-nauseated?f=duotone&amp;s=light">Face Nauseated</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceNauseated;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-nauseated?f=duotone&amp;s=regular">Face Nauseated</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceNauseated;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-nauseated?f=duotone&amp;s=solid">Face Nauseated</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceNauseated;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-nauseated?f=duotone&amp;s=thin">Face Nauseated</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceNauseated;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-nauseated?f=sharp&amp;s=light">Face Nauseated</a>
         /// </summary>
@@ -3719,10 +5624,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceNauseated;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-nauseated?f=sharp-duotone&amp;s=light">Face Nauseated</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceNauseated;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-nauseated?f=sharp-duotone&amp;s=regular">Face Nauseated</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceNauseated;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-nauseated?f=sharp-duotone&amp;s=solid">Face Nauseated</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceNauseated;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-nauseated?f=sharp-duotone&amp;s=thin">Face Nauseated</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceNauseated;
     }
     /// <summary>
     /// Face Nose Steam
@@ -3752,10 +5672,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceNoseSteam;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=duotone&amp;s=light">Face Nose Steam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceNoseSteam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=duotone&amp;s=regular">Face Nose Steam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceNoseSteam;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-nose-steam?f=duotone&amp;s=solid">Face Nose Steam</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceNoseSteam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=duotone&amp;s=thin">Face Nose Steam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceNoseSteam;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-nose-steam?f=sharp&amp;s=light">Face Nose Steam</a>
         /// </summary>
@@ -3777,10 +5712,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceNoseSteam;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=sharp-duotone&amp;s=light">Face Nose Steam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceNoseSteam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=sharp-duotone&amp;s=regular">Face Nose Steam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceNoseSteam;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-nose-steam?f=sharp-duotone&amp;s=solid">Face Nose Steam</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceNoseSteam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-nose-steam?f=sharp-duotone&amp;s=thin">Face Nose Steam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceNoseSteam;
     }
     /// <summary>
     /// Face Party
@@ -3810,10 +5760,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceParty;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-party?f=duotone&amp;s=light">Face Party</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceParty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-party?f=duotone&amp;s=regular">Face Party</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceParty;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-party?f=duotone&amp;s=solid">Face Party</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceParty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-party?f=duotone&amp;s=thin">Face Party</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceParty;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-party?f=sharp&amp;s=light">Face Party</a>
         /// </summary>
@@ -3835,10 +5800,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceParty;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-party?f=sharp-duotone&amp;s=light">Face Party</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceParty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-party?f=sharp-duotone&amp;s=regular">Face Party</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceParty;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-party?f=sharp-duotone&amp;s=solid">Face Party</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceParty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-party?f=sharp-duotone&amp;s=thin">Face Party</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceParty;
     }
     /// <summary>
     /// Face Pensive
@@ -3868,10 +5848,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FacePensive;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pensive?f=duotone&amp;s=light">Face Pensive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FacePensive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pensive?f=duotone&amp;s=regular">Face Pensive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FacePensive;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-pensive?f=duotone&amp;s=solid">Face Pensive</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FacePensive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pensive?f=duotone&amp;s=thin">Face Pensive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FacePensive;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-pensive?f=sharp&amp;s=light">Face Pensive</a>
         /// </summary>
@@ -3893,10 +5888,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FacePensive;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pensive?f=sharp-duotone&amp;s=light">Face Pensive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FacePensive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pensive?f=sharp-duotone&amp;s=regular">Face Pensive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FacePensive;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-pensive?f=sharp-duotone&amp;s=solid">Face Pensive</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FacePensive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pensive?f=sharp-duotone&amp;s=thin">Face Pensive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FacePensive;
     }
     /// <summary>
     /// Face Persevering
@@ -3926,10 +5936,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FacePersevering;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-persevering?f=duotone&amp;s=light">Face Persevering</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FacePersevering;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-persevering?f=duotone&amp;s=regular">Face Persevering</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FacePersevering;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-persevering?f=duotone&amp;s=solid">Face Persevering</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FacePersevering;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-persevering?f=duotone&amp;s=thin">Face Persevering</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FacePersevering;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-persevering?f=sharp&amp;s=light">Face Persevering</a>
         /// </summary>
@@ -3951,10 +5976,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FacePersevering;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-persevering?f=sharp-duotone&amp;s=light">Face Persevering</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FacePersevering;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-persevering?f=sharp-duotone&amp;s=regular">Face Persevering</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FacePersevering;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-persevering?f=sharp-duotone&amp;s=solid">Face Persevering</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FacePersevering;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-persevering?f=sharp-duotone&amp;s=thin">Face Persevering</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FacePersevering;
     }
     /// <summary>
     /// Face Pleading
@@ -3984,10 +6024,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FacePleading;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pleading?f=duotone&amp;s=light">Face Pleading</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FacePleading;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pleading?f=duotone&amp;s=regular">Face Pleading</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FacePleading;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-pleading?f=duotone&amp;s=solid">Face Pleading</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FacePleading;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pleading?f=duotone&amp;s=thin">Face Pleading</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FacePleading;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-pleading?f=sharp&amp;s=light">Face Pleading</a>
         /// </summary>
@@ -4009,10 +6064,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FacePleading;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pleading?f=sharp-duotone&amp;s=light">Face Pleading</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FacePleading;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pleading?f=sharp-duotone&amp;s=regular">Face Pleading</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FacePleading;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-pleading?f=sharp-duotone&amp;s=solid">Face Pleading</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FacePleading;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pleading?f=sharp-duotone&amp;s=thin">Face Pleading</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FacePleading;
     }
     /// <summary>
     /// Face Pouting
@@ -4042,10 +6112,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FacePouting;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pouting?f=duotone&amp;s=light">Face Pouting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FacePouting;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pouting?f=duotone&amp;s=regular">Face Pouting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FacePouting;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-pouting?f=duotone&amp;s=solid">Face Pouting</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FacePouting;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pouting?f=duotone&amp;s=thin">Face Pouting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FacePouting;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-pouting?f=sharp&amp;s=light">Face Pouting</a>
         /// </summary>
@@ -4067,10 +6152,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FacePouting;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pouting?f=sharp-duotone&amp;s=light">Face Pouting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FacePouting;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pouting?f=sharp-duotone&amp;s=regular">Face Pouting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FacePouting;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-pouting?f=sharp-duotone&amp;s=solid">Face Pouting</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FacePouting;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-pouting?f=sharp-duotone&amp;s=thin">Face Pouting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FacePouting;
     }
     /// <summary>
     /// Face Raised Eyebrow
@@ -4100,10 +6200,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceRaisedEyebrow;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=duotone&amp;s=light">Face Raised Eyebrow</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceRaisedEyebrow;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=duotone&amp;s=regular">Face Raised Eyebrow</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceRaisedEyebrow;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=duotone&amp;s=solid">Face Raised Eyebrow</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceRaisedEyebrow;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=duotone&amp;s=thin">Face Raised Eyebrow</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceRaisedEyebrow;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=sharp&amp;s=light">Face Raised Eyebrow</a>
         /// </summary>
@@ -4125,10 +6240,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceRaisedEyebrow;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=sharp-duotone&amp;s=light">Face Raised Eyebrow</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceRaisedEyebrow;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=sharp-duotone&amp;s=regular">Face Raised Eyebrow</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceRaisedEyebrow;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=sharp-duotone&amp;s=solid">Face Raised Eyebrow</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceRaisedEyebrow;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-raised-eyebrow?f=sharp-duotone&amp;s=thin">Face Raised Eyebrow</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceRaisedEyebrow;
     }
     /// <summary>
     /// Face Relieved
@@ -4158,10 +6288,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceRelieved;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-relieved?f=duotone&amp;s=light">Face Relieved</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceRelieved;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-relieved?f=duotone&amp;s=regular">Face Relieved</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceRelieved;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-relieved?f=duotone&amp;s=solid">Face Relieved</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceRelieved;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-relieved?f=duotone&amp;s=thin">Face Relieved</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceRelieved;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-relieved?f=sharp&amp;s=light">Face Relieved</a>
         /// </summary>
@@ -4183,10 +6328,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceRelieved;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-relieved?f=sharp-duotone&amp;s=light">Face Relieved</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceRelieved;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-relieved?f=sharp-duotone&amp;s=regular">Face Relieved</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceRelieved;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-relieved?f=sharp-duotone&amp;s=solid">Face Relieved</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceRelieved;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-relieved?f=sharp-duotone&amp;s=thin">Face Relieved</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceRelieved;
     }
     /// <summary>
     /// Face Rolling Eyes
@@ -4216,10 +6376,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceRollingEyes;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=duotone&amp;s=light">Face Rolling Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceRollingEyes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=duotone&amp;s=regular">Face Rolling Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceRollingEyes;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=duotone&amp;s=solid">Face Rolling Eyes</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceRollingEyes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=duotone&amp;s=thin">Face Rolling Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceRollingEyes;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=sharp&amp;s=light">Face Rolling Eyes</a>
         /// </summary>
@@ -4241,10 +6416,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceRollingEyes;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=sharp-duotone&amp;s=light">Face Rolling Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceRollingEyes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=sharp-duotone&amp;s=regular">Face Rolling Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceRollingEyes;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=sharp-duotone&amp;s=solid">Face Rolling Eyes</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceRollingEyes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-rolling-eyes?f=sharp-duotone&amp;s=thin">Face Rolling Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceRollingEyes;
     }
     /// <summary>
     /// Face Sad Cry
@@ -4274,10 +6464,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSadCry;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=duotone&amp;s=light">Face Sad Cry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSadCry;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=duotone&amp;s=regular">Face Sad Cry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSadCry;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sad-cry?f=duotone&amp;s=solid">Face Sad Cry</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSadCry;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=duotone&amp;s=thin">Face Sad Cry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSadCry;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sad-cry?f=sharp&amp;s=light">Face Sad Cry</a>
         /// </summary>
@@ -4299,10 +6504,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSadCry;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=sharp-duotone&amp;s=light">Face Sad Cry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSadCry;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=sharp-duotone&amp;s=regular">Face Sad Cry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSadCry;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sad-cry?f=sharp-duotone&amp;s=solid">Face Sad Cry</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSadCry;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-cry?f=sharp-duotone&amp;s=thin">Face Sad Cry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSadCry;
     }
     /// <summary>
     /// Face Sad Sweat
@@ -4332,10 +6552,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSadSweat;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=duotone&amp;s=light">Face Sad Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSadSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=duotone&amp;s=regular">Face Sad Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSadSweat;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=duotone&amp;s=solid">Face Sad Sweat</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSadSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=duotone&amp;s=thin">Face Sad Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSadSweat;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=sharp&amp;s=light">Face Sad Sweat</a>
         /// </summary>
@@ -4357,10 +6592,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSadSweat;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=sharp-duotone&amp;s=light">Face Sad Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSadSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=sharp-duotone&amp;s=regular">Face Sad Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSadSweat;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=sharp-duotone&amp;s=solid">Face Sad Sweat</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSadSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-sweat?f=sharp-duotone&amp;s=thin">Face Sad Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSadSweat;
     }
     /// <summary>
     /// Face Sad Tear
@@ -4390,10 +6640,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSadTear;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=duotone&amp;s=light">Face Sad Tear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSadTear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=duotone&amp;s=regular">Face Sad Tear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSadTear;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sad-tear?f=duotone&amp;s=solid">Face Sad Tear</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSadTear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=duotone&amp;s=thin">Face Sad Tear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSadTear;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sad-tear?f=sharp&amp;s=light">Face Sad Tear</a>
         /// </summary>
@@ -4415,10 +6680,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSadTear;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=sharp-duotone&amp;s=light">Face Sad Tear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSadTear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=sharp-duotone&amp;s=regular">Face Sad Tear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSadTear;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sad-tear?f=sharp-duotone&amp;s=solid">Face Sad Tear</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSadTear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sad-tear?f=sharp-duotone&amp;s=thin">Face Sad Tear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSadTear;
     }
     /// <summary>
     /// Face Saluting
@@ -4448,10 +6728,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSaluting;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-saluting?f=duotone&amp;s=light">Face Saluting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSaluting;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-saluting?f=duotone&amp;s=regular">Face Saluting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSaluting;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-saluting?f=duotone&amp;s=solid">Face Saluting</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSaluting;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-saluting?f=duotone&amp;s=thin">Face Saluting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSaluting;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-saluting?f=sharp&amp;s=light">Face Saluting</a>
         /// </summary>
@@ -4473,10 +6768,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSaluting;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-saluting?f=sharp-duotone&amp;s=light">Face Saluting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSaluting;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-saluting?f=sharp-duotone&amp;s=regular">Face Saluting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSaluting;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-saluting?f=sharp-duotone&amp;s=solid">Face Saluting</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSaluting;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-saluting?f=sharp-duotone&amp;s=thin">Face Saluting</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSaluting;
     }
     /// <summary>
     /// Face Scream
@@ -4506,10 +6816,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceScream;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-scream?f=duotone&amp;s=light">Face Scream</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceScream;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-scream?f=duotone&amp;s=regular">Face Scream</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceScream;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-scream?f=duotone&amp;s=solid">Face Scream</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceScream;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-scream?f=duotone&amp;s=thin">Face Scream</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceScream;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-scream?f=sharp&amp;s=light">Face Scream</a>
         /// </summary>
@@ -4531,10 +6856,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceScream;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-scream?f=sharp-duotone&amp;s=light">Face Scream</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceScream;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-scream?f=sharp-duotone&amp;s=regular">Face Scream</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceScream;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-scream?f=sharp-duotone&amp;s=solid">Face Scream</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceScream;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-scream?f=sharp-duotone&amp;s=thin">Face Scream</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceScream;
     }
     /// <summary>
     /// Face Shush
@@ -4564,10 +6904,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceShush;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-shush?f=duotone&amp;s=light">Face Shush</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceShush;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-shush?f=duotone&amp;s=regular">Face Shush</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceShush;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-shush?f=duotone&amp;s=solid">Face Shush</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceShush;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-shush?f=duotone&amp;s=thin">Face Shush</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceShush;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-shush?f=sharp&amp;s=light">Face Shush</a>
         /// </summary>
@@ -4589,10 +6944,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceShush;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-shush?f=sharp-duotone&amp;s=light">Face Shush</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceShush;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-shush?f=sharp-duotone&amp;s=regular">Face Shush</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceShush;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-shush?f=sharp-duotone&amp;s=solid">Face Shush</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceShush;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-shush?f=sharp-duotone&amp;s=thin">Face Shush</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceShush;
     }
     /// <summary>
     /// Face Sleeping
@@ -4622,10 +6992,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSleeping;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sleeping?f=duotone&amp;s=light">Face Sleeping</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSleeping;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sleeping?f=duotone&amp;s=regular">Face Sleeping</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSleeping;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sleeping?f=duotone&amp;s=solid">Face Sleeping</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSleeping;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sleeping?f=duotone&amp;s=thin">Face Sleeping</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSleeping;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sleeping?f=sharp&amp;s=light">Face Sleeping</a>
         /// </summary>
@@ -4647,10 +7032,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSleeping;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sleeping?f=sharp-duotone&amp;s=light">Face Sleeping</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSleeping;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sleeping?f=sharp-duotone&amp;s=regular">Face Sleeping</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSleeping;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sleeping?f=sharp-duotone&amp;s=solid">Face Sleeping</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSleeping;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sleeping?f=sharp-duotone&amp;s=thin">Face Sleeping</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSleeping;
     }
     /// <summary>
     /// Face Sleepy
@@ -4680,10 +7080,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSleepy;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sleepy?f=duotone&amp;s=light">Face Sleepy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSleepy;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sleepy?f=duotone&amp;s=regular">Face Sleepy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSleepy;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sleepy?f=duotone&amp;s=solid">Face Sleepy</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSleepy;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sleepy?f=duotone&amp;s=thin">Face Sleepy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSleepy;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sleepy?f=sharp&amp;s=light">Face Sleepy</a>
         /// </summary>
@@ -4705,10 +7120,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSleepy;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sleepy?f=sharp-duotone&amp;s=light">Face Sleepy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSleepy;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sleepy?f=sharp-duotone&amp;s=regular">Face Sleepy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSleepy;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sleepy?f=sharp-duotone&amp;s=solid">Face Sleepy</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSleepy;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sleepy?f=sharp-duotone&amp;s=thin">Face Sleepy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSleepy;
     }
     /// <summary>
     /// Face Smile
@@ -4738,10 +7168,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmile;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile?f=duotone&amp;s=light">Face Smile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSmile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile?f=duotone&amp;s=regular">Face Smile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSmile;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile?f=duotone&amp;s=solid">Face Smile</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSmile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile?f=duotone&amp;s=thin">Face Smile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSmile;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile?f=sharp&amp;s=light">Face Smile</a>
         /// </summary>
@@ -4763,10 +7208,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmile;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile?f=sharp-duotone&amp;s=light">Face Smile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSmile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile?f=sharp-duotone&amp;s=regular">Face Smile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSmile;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile?f=sharp-duotone&amp;s=solid">Face Smile</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSmile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile?f=sharp-duotone&amp;s=thin">Face Smile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSmile;
     }
     /// <summary>
     /// Face Smile Beam
@@ -4796,10 +7256,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileBeam;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=duotone&amp;s=light">Face Smile Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSmileBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=duotone&amp;s=regular">Face Smile Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSmileBeam;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-beam?f=duotone&amp;s=solid">Face Smile Beam</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSmileBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=duotone&amp;s=thin">Face Smile Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSmileBeam;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-beam?f=sharp&amp;s=light">Face Smile Beam</a>
         /// </summary>
@@ -4821,10 +7296,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileBeam;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=sharp-duotone&amp;s=light">Face Smile Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSmileBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=sharp-duotone&amp;s=regular">Face Smile Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSmileBeam;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-beam?f=sharp-duotone&amp;s=solid">Face Smile Beam</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSmileBeam;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-beam?f=sharp-duotone&amp;s=thin">Face Smile Beam</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSmileBeam;
     }
     /// <summary>
     /// Face Smile Halo
@@ -4854,10 +7344,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileHalo;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=duotone&amp;s=light">Face Smile Halo</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSmileHalo;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=duotone&amp;s=regular">Face Smile Halo</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSmileHalo;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-halo?f=duotone&amp;s=solid">Face Smile Halo</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSmileHalo;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=duotone&amp;s=thin">Face Smile Halo</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSmileHalo;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-halo?f=sharp&amp;s=light">Face Smile Halo</a>
         /// </summary>
@@ -4879,10 +7384,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileHalo;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=sharp-duotone&amp;s=light">Face Smile Halo</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSmileHalo;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=sharp-duotone&amp;s=regular">Face Smile Halo</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSmileHalo;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-halo?f=sharp-duotone&amp;s=solid">Face Smile Halo</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSmileHalo;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-halo?f=sharp-duotone&amp;s=thin">Face Smile Halo</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSmileHalo;
     }
     /// <summary>
     /// Face Smile Hearts
@@ -4912,10 +7432,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileHearts;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=duotone&amp;s=light">Face Smile Hearts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSmileHearts;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=duotone&amp;s=regular">Face Smile Hearts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSmileHearts;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=duotone&amp;s=solid">Face Smile Hearts</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSmileHearts;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=duotone&amp;s=thin">Face Smile Hearts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSmileHearts;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=sharp&amp;s=light">Face Smile Hearts</a>
         /// </summary>
@@ -4937,10 +7472,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileHearts;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=sharp-duotone&amp;s=light">Face Smile Hearts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSmileHearts;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=sharp-duotone&amp;s=regular">Face Smile Hearts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSmileHearts;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=sharp-duotone&amp;s=solid">Face Smile Hearts</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSmileHearts;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-hearts?f=sharp-duotone&amp;s=thin">Face Smile Hearts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSmileHearts;
     }
     /// <summary>
     /// Face Smile Horns
@@ -4970,10 +7520,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileHorns;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=duotone&amp;s=light">Face Smile Horns</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSmileHorns;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=duotone&amp;s=regular">Face Smile Horns</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSmileHorns;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-horns?f=duotone&amp;s=solid">Face Smile Horns</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSmileHorns;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=duotone&amp;s=thin">Face Smile Horns</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSmileHorns;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-horns?f=sharp&amp;s=light">Face Smile Horns</a>
         /// </summary>
@@ -4995,10 +7560,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileHorns;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=sharp-duotone&amp;s=light">Face Smile Horns</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSmileHorns;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=sharp-duotone&amp;s=regular">Face Smile Horns</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSmileHorns;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-horns?f=sharp-duotone&amp;s=solid">Face Smile Horns</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSmileHorns;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-horns?f=sharp-duotone&amp;s=thin">Face Smile Horns</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSmileHorns;
     }
     /// <summary>
     /// Face Smile Relaxed
@@ -5028,10 +7608,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileRelaxed;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=duotone&amp;s=light">Face Smile Relaxed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSmileRelaxed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=duotone&amp;s=regular">Face Smile Relaxed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSmileRelaxed;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=duotone&amp;s=solid">Face Smile Relaxed</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSmileRelaxed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=duotone&amp;s=thin">Face Smile Relaxed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSmileRelaxed;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=sharp&amp;s=light">Face Smile Relaxed</a>
         /// </summary>
@@ -5053,10 +7648,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileRelaxed;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=sharp-duotone&amp;s=light">Face Smile Relaxed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSmileRelaxed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=sharp-duotone&amp;s=regular">Face Smile Relaxed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSmileRelaxed;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=sharp-duotone&amp;s=solid">Face Smile Relaxed</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSmileRelaxed;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-relaxed?f=sharp-duotone&amp;s=thin">Face Smile Relaxed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSmileRelaxed;
     }
     /// <summary>
     /// Face Smile Tear
@@ -5086,10 +7696,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileTear;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=duotone&amp;s=light">Face Smile Tear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSmileTear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=duotone&amp;s=regular">Face Smile Tear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSmileTear;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-tear?f=duotone&amp;s=solid">Face Smile Tear</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSmileTear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=duotone&amp;s=thin">Face Smile Tear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSmileTear;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-tear?f=sharp&amp;s=light">Face Smile Tear</a>
         /// </summary>
@@ -5111,10 +7736,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileTear;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=sharp-duotone&amp;s=light">Face Smile Tear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSmileTear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=sharp-duotone&amp;s=regular">Face Smile Tear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSmileTear;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-tear?f=sharp-duotone&amp;s=solid">Face Smile Tear</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSmileTear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-tear?f=sharp-duotone&amp;s=thin">Face Smile Tear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSmileTear;
     }
     /// <summary>
     /// Face Smile Tongue
@@ -5144,10 +7784,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileTongue;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=duotone&amp;s=light">Face Smile Tongue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSmileTongue;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=duotone&amp;s=regular">Face Smile Tongue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSmileTongue;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=duotone&amp;s=solid">Face Smile Tongue</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSmileTongue;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=duotone&amp;s=thin">Face Smile Tongue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSmileTongue;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=sharp&amp;s=light">Face Smile Tongue</a>
         /// </summary>
@@ -5169,10 +7824,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileTongue;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=sharp-duotone&amp;s=light">Face Smile Tongue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSmileTongue;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=sharp-duotone&amp;s=regular">Face Smile Tongue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSmileTongue;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=sharp-duotone&amp;s=solid">Face Smile Tongue</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSmileTongue;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-tongue?f=sharp-duotone&amp;s=thin">Face Smile Tongue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSmileTongue;
     }
     /// <summary>
     /// Face Smile Upside Down
@@ -5202,10 +7872,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileUpsideDown;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=duotone&amp;s=light">Face Smile Upside Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSmileUpsideDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=duotone&amp;s=regular">Face Smile Upside Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSmileUpsideDown;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=duotone&amp;s=solid">Face Smile Upside Down</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSmileUpsideDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=duotone&amp;s=thin">Face Smile Upside Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSmileUpsideDown;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=sharp&amp;s=light">Face Smile Upside Down</a>
         /// </summary>
@@ -5227,10 +7912,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileUpsideDown;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=sharp-duotone&amp;s=light">Face Smile Upside Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSmileUpsideDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=sharp-duotone&amp;s=regular">Face Smile Upside Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSmileUpsideDown;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=sharp-duotone&amp;s=solid">Face Smile Upside Down</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSmileUpsideDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-upside-down?f=sharp-duotone&amp;s=thin">Face Smile Upside Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSmileUpsideDown;
     }
     /// <summary>
     /// Face Smile Wink
@@ -5260,10 +7960,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmileWink;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=duotone&amp;s=light">Face Smile Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSmileWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=duotone&amp;s=regular">Face Smile Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSmileWink;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-wink?f=duotone&amp;s=solid">Face Smile Wink</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSmileWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=duotone&amp;s=thin">Face Smile Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSmileWink;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-wink?f=sharp&amp;s=light">Face Smile Wink</a>
         /// </summary>
@@ -5285,10 +8000,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmileWink;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=sharp-duotone&amp;s=light">Face Smile Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSmileWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=sharp-duotone&amp;s=regular">Face Smile Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSmileWink;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smile-wink?f=sharp-duotone&amp;s=solid">Face Smile Wink</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSmileWink;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smile-wink?f=sharp-duotone&amp;s=thin">Face Smile Wink</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSmileWink;
     }
     /// <summary>
     /// Face Smiling Hands
@@ -5318,10 +8048,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmilingHands;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=duotone&amp;s=light">Face Smiling Hands</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSmilingHands;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=duotone&amp;s=regular">Face Smiling Hands</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSmilingHands;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=duotone&amp;s=solid">Face Smiling Hands</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSmilingHands;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=duotone&amp;s=thin">Face Smiling Hands</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSmilingHands;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=sharp&amp;s=light">Face Smiling Hands</a>
         /// </summary>
@@ -5343,10 +8088,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmilingHands;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=sharp-duotone&amp;s=light">Face Smiling Hands</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSmilingHands;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=sharp-duotone&amp;s=regular">Face Smiling Hands</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSmilingHands;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=sharp-duotone&amp;s=solid">Face Smiling Hands</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSmilingHands;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smiling-hands?f=sharp-duotone&amp;s=thin">Face Smiling Hands</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSmilingHands;
     }
     /// <summary>
     /// Face Smirking
@@ -5376,10 +8136,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSmirking;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smirking?f=duotone&amp;s=light">Face Smirking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSmirking;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smirking?f=duotone&amp;s=regular">Face Smirking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSmirking;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smirking?f=duotone&amp;s=solid">Face Smirking</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSmirking;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smirking?f=duotone&amp;s=thin">Face Smirking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSmirking;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smirking?f=sharp&amp;s=light">Face Smirking</a>
         /// </summary>
@@ -5401,10 +8176,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSmirking;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smirking?f=sharp-duotone&amp;s=light">Face Smirking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSmirking;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smirking?f=sharp-duotone&amp;s=regular">Face Smirking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSmirking;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-smirking?f=sharp-duotone&amp;s=solid">Face Smirking</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSmirking;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-smirking?f=sharp-duotone&amp;s=thin">Face Smirking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSmirking;
     }
     /// <summary>
     /// Face Spiral Eyes
@@ -5434,10 +8224,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSpiralEyes;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=duotone&amp;s=light">Face Spiral Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSpiralEyes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=duotone&amp;s=regular">Face Spiral Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSpiralEyes;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=duotone&amp;s=solid">Face Spiral Eyes</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSpiralEyes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=duotone&amp;s=thin">Face Spiral Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSpiralEyes;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=sharp&amp;s=light">Face Spiral Eyes</a>
         /// </summary>
@@ -5459,10 +8264,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSpiralEyes;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=sharp-duotone&amp;s=light">Face Spiral Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSpiralEyes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=sharp-duotone&amp;s=regular">Face Spiral Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSpiralEyes;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=sharp-duotone&amp;s=solid">Face Spiral Eyes</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSpiralEyes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-spiral-eyes?f=sharp-duotone&amp;s=thin">Face Spiral Eyes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSpiralEyes;
     }
     /// <summary>
     /// Face Sunglasses
@@ -5492,10 +8312,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSunglasses;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=duotone&amp;s=light">Face Sunglasses</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSunglasses;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=duotone&amp;s=regular">Face Sunglasses</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSunglasses;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sunglasses?f=duotone&amp;s=solid">Face Sunglasses</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSunglasses;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=duotone&amp;s=thin">Face Sunglasses</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSunglasses;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sunglasses?f=sharp&amp;s=light">Face Sunglasses</a>
         /// </summary>
@@ -5517,10 +8352,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSunglasses;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=sharp-duotone&amp;s=light">Face Sunglasses</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSunglasses;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=sharp-duotone&amp;s=regular">Face Sunglasses</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSunglasses;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-sunglasses?f=sharp-duotone&amp;s=solid">Face Sunglasses</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSunglasses;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-sunglasses?f=sharp-duotone&amp;s=thin">Face Sunglasses</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSunglasses;
     }
     /// <summary>
     /// Face Surprise
@@ -5550,10 +8400,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSurprise;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-surprise?f=duotone&amp;s=light">Face Surprise</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSurprise;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-surprise?f=duotone&amp;s=regular">Face Surprise</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSurprise;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-surprise?f=duotone&amp;s=solid">Face Surprise</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSurprise;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-surprise?f=duotone&amp;s=thin">Face Surprise</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSurprise;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-surprise?f=sharp&amp;s=light">Face Surprise</a>
         /// </summary>
@@ -5575,10 +8440,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSurprise;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-surprise?f=sharp-duotone&amp;s=light">Face Surprise</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSurprise;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-surprise?f=sharp-duotone&amp;s=regular">Face Surprise</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSurprise;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-surprise?f=sharp-duotone&amp;s=solid">Face Surprise</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSurprise;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-surprise?f=sharp-duotone&amp;s=thin">Face Surprise</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSurprise;
     }
     /// <summary>
     /// Face Swear
@@ -5608,10 +8488,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceSwear;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-swear?f=duotone&amp;s=light">Face Swear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceSwear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-swear?f=duotone&amp;s=regular">Face Swear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceSwear;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-swear?f=duotone&amp;s=solid">Face Swear</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceSwear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-swear?f=duotone&amp;s=thin">Face Swear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceSwear;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-swear?f=sharp&amp;s=light">Face Swear</a>
         /// </summary>
@@ -5633,10 +8528,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceSwear;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-swear?f=sharp-duotone&amp;s=light">Face Swear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceSwear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-swear?f=sharp-duotone&amp;s=regular">Face Swear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceSwear;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-swear?f=sharp-duotone&amp;s=solid">Face Swear</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceSwear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-swear?f=sharp-duotone&amp;s=thin">Face Swear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceSwear;
     }
     /// <summary>
     /// Face Thermometer
@@ -5666,10 +8576,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceThermometer;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-thermometer?f=duotone&amp;s=light">Face Thermometer</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceThermometer;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-thermometer?f=duotone&amp;s=regular">Face Thermometer</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceThermometer;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-thermometer?f=duotone&amp;s=solid">Face Thermometer</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceThermometer;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-thermometer?f=duotone&amp;s=thin">Face Thermometer</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceThermometer;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-thermometer?f=sharp&amp;s=light">Face Thermometer</a>
         /// </summary>
@@ -5691,10 +8616,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceThermometer;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-thermometer?f=sharp-duotone&amp;s=light">Face Thermometer</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceThermometer;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-thermometer?f=sharp-duotone&amp;s=regular">Face Thermometer</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceThermometer;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-thermometer?f=sharp-duotone&amp;s=solid">Face Thermometer</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceThermometer;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-thermometer?f=sharp-duotone&amp;s=thin">Face Thermometer</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceThermometer;
     }
     /// <summary>
     /// Face Thinking
@@ -5724,10 +8664,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceThinking;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-thinking?f=duotone&amp;s=light">Face Thinking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceThinking;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-thinking?f=duotone&amp;s=regular">Face Thinking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceThinking;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-thinking?f=duotone&amp;s=solid">Face Thinking</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceThinking;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-thinking?f=duotone&amp;s=thin">Face Thinking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceThinking;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-thinking?f=sharp&amp;s=light">Face Thinking</a>
         /// </summary>
@@ -5749,10 +8704,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceThinking;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-thinking?f=sharp-duotone&amp;s=light">Face Thinking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceThinking;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-thinking?f=sharp-duotone&amp;s=regular">Face Thinking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceThinking;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-thinking?f=sharp-duotone&amp;s=solid">Face Thinking</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceThinking;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-thinking?f=sharp-duotone&amp;s=thin">Face Thinking</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceThinking;
     }
     /// <summary>
     /// Face Tired
@@ -5782,10 +8752,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceTired;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tired?f=duotone&amp;s=light">Face Tired</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceTired;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tired?f=duotone&amp;s=regular">Face Tired</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceTired;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-tired?f=duotone&amp;s=solid">Face Tired</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceTired;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tired?f=duotone&amp;s=thin">Face Tired</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceTired;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-tired?f=sharp&amp;s=light">Face Tired</a>
         /// </summary>
@@ -5807,10 +8792,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceTired;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tired?f=sharp-duotone&amp;s=light">Face Tired</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceTired;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tired?f=sharp-duotone&amp;s=regular">Face Tired</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceTired;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-tired?f=sharp-duotone&amp;s=solid">Face Tired</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceTired;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tired?f=sharp-duotone&amp;s=thin">Face Tired</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceTired;
     }
     /// <summary>
     /// Face Tissue
@@ -5840,10 +8840,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceTissue;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tissue?f=duotone&amp;s=light">Face Tissue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceTissue;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tissue?f=duotone&amp;s=regular">Face Tissue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceTissue;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-tissue?f=duotone&amp;s=solid">Face Tissue</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceTissue;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tissue?f=duotone&amp;s=thin">Face Tissue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceTissue;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-tissue?f=sharp&amp;s=light">Face Tissue</a>
         /// </summary>
@@ -5865,10 +8880,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceTissue;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tissue?f=sharp-duotone&amp;s=light">Face Tissue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceTissue;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tissue?f=sharp-duotone&amp;s=regular">Face Tissue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceTissue;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-tissue?f=sharp-duotone&amp;s=solid">Face Tissue</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceTissue;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tissue?f=sharp-duotone&amp;s=thin">Face Tissue</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceTissue;
     }
     /// <summary>
     /// Face Tongue Money
@@ -5898,10 +8928,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceTongueMoney;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=duotone&amp;s=light">Face Tongue Money</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceTongueMoney;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=duotone&amp;s=regular">Face Tongue Money</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceTongueMoney;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-tongue-money?f=duotone&amp;s=solid">Face Tongue Money</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceTongueMoney;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=duotone&amp;s=thin">Face Tongue Money</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceTongueMoney;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-tongue-money?f=sharp&amp;s=light">Face Tongue Money</a>
         /// </summary>
@@ -5923,10 +8968,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceTongueMoney;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=sharp-duotone&amp;s=light">Face Tongue Money</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceTongueMoney;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=sharp-duotone&amp;s=regular">Face Tongue Money</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceTongueMoney;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-tongue-money?f=sharp-duotone&amp;s=solid">Face Tongue Money</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceTongueMoney;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tongue-money?f=sharp-duotone&amp;s=thin">Face Tongue Money</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceTongueMoney;
     }
     /// <summary>
     /// Face Tongue Sweat
@@ -5956,10 +9016,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceTongueSweat;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=duotone&amp;s=light">Face Tongue Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceTongueSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=duotone&amp;s=regular">Face Tongue Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceTongueSweat;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=duotone&amp;s=solid">Face Tongue Sweat</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceTongueSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=duotone&amp;s=thin">Face Tongue Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceTongueSweat;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=sharp&amp;s=light">Face Tongue Sweat</a>
         /// </summary>
@@ -5981,10 +9056,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceTongueSweat;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=sharp-duotone&amp;s=light">Face Tongue Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceTongueSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=sharp-duotone&amp;s=regular">Face Tongue Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceTongueSweat;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=sharp-duotone&amp;s=solid">Face Tongue Sweat</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceTongueSweat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-tongue-sweat?f=sharp-duotone&amp;s=thin">Face Tongue Sweat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceTongueSweat;
     }
     /// <summary>
     /// Face Unamused
@@ -6014,10 +9104,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceUnamused;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-unamused?f=duotone&amp;s=light">Face Unamused</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceUnamused;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-unamused?f=duotone&amp;s=regular">Face Unamused</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceUnamused;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-unamused?f=duotone&amp;s=solid">Face Unamused</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceUnamused;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-unamused?f=duotone&amp;s=thin">Face Unamused</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceUnamused;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-unamused?f=sharp&amp;s=light">Face Unamused</a>
         /// </summary>
@@ -6039,10 +9144,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceUnamused;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-unamused?f=sharp-duotone&amp;s=light">Face Unamused</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceUnamused;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-unamused?f=sharp-duotone&amp;s=regular">Face Unamused</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceUnamused;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-unamused?f=sharp-duotone&amp;s=solid">Face Unamused</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceUnamused;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-unamused?f=sharp-duotone&amp;s=thin">Face Unamused</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceUnamused;
     }
     /// <summary>
     /// Face Vomit
@@ -6072,10 +9192,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceVomit;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-vomit?f=duotone&amp;s=light">Face Vomit</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceVomit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-vomit?f=duotone&amp;s=regular">Face Vomit</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceVomit;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-vomit?f=duotone&amp;s=solid">Face Vomit</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceVomit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-vomit?f=duotone&amp;s=thin">Face Vomit</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceVomit;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-vomit?f=sharp&amp;s=light">Face Vomit</a>
         /// </summary>
@@ -6097,10 +9232,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceVomit;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-vomit?f=sharp-duotone&amp;s=light">Face Vomit</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceVomit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-vomit?f=sharp-duotone&amp;s=regular">Face Vomit</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceVomit;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-vomit?f=sharp-duotone&amp;s=solid">Face Vomit</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceVomit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-vomit?f=sharp-duotone&amp;s=thin">Face Vomit</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceVomit;
     }
     /// <summary>
     /// Face Weary
@@ -6130,10 +9280,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceWeary;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-weary?f=duotone&amp;s=light">Face Weary</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceWeary;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-weary?f=duotone&amp;s=regular">Face Weary</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceWeary;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-weary?f=duotone&amp;s=solid">Face Weary</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceWeary;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-weary?f=duotone&amp;s=thin">Face Weary</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceWeary;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-weary?f=sharp&amp;s=light">Face Weary</a>
         /// </summary>
@@ -6155,10 +9320,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceWeary;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-weary?f=sharp-duotone&amp;s=light">Face Weary</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceWeary;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-weary?f=sharp-duotone&amp;s=regular">Face Weary</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceWeary;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-weary?f=sharp-duotone&amp;s=solid">Face Weary</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceWeary;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-weary?f=sharp-duotone&amp;s=thin">Face Weary</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceWeary;
     }
     /// <summary>
     /// Face Woozy
@@ -6188,10 +9368,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceWoozy;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-woozy?f=duotone&amp;s=light">Face Woozy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceWoozy;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-woozy?f=duotone&amp;s=regular">Face Woozy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceWoozy;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-woozy?f=duotone&amp;s=solid">Face Woozy</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceWoozy;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-woozy?f=duotone&amp;s=thin">Face Woozy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceWoozy;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-woozy?f=sharp&amp;s=light">Face Woozy</a>
         /// </summary>
@@ -6213,10 +9408,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceWoozy;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-woozy?f=sharp-duotone&amp;s=light">Face Woozy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceWoozy;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-woozy?f=sharp-duotone&amp;s=regular">Face Woozy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceWoozy;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-woozy?f=sharp-duotone&amp;s=solid">Face Woozy</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceWoozy;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-woozy?f=sharp-duotone&amp;s=thin">Face Woozy</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceWoozy;
     }
     /// <summary>
     /// Face Worried
@@ -6246,10 +9456,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceWorried;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-worried?f=duotone&amp;s=light">Face Worried</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceWorried;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-worried?f=duotone&amp;s=regular">Face Worried</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceWorried;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-worried?f=duotone&amp;s=solid">Face Worried</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceWorried;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-worried?f=duotone&amp;s=thin">Face Worried</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceWorried;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-worried?f=sharp&amp;s=light">Face Worried</a>
         /// </summary>
@@ -6271,10 +9496,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceWorried;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-worried?f=sharp-duotone&amp;s=light">Face Worried</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceWorried;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-worried?f=sharp-duotone&amp;s=regular">Face Worried</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceWorried;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-worried?f=sharp-duotone&amp;s=solid">Face Worried</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceWorried;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-worried?f=sharp-duotone&amp;s=thin">Face Worried</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceWorried;
     }
     /// <summary>
     /// Face Zany
@@ -6304,10 +9544,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceZany;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-zany?f=duotone&amp;s=light">Face Zany</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceZany;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-zany?f=duotone&amp;s=regular">Face Zany</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceZany;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-zany?f=duotone&amp;s=solid">Face Zany</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceZany;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-zany?f=duotone&amp;s=thin">Face Zany</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceZany;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-zany?f=sharp&amp;s=light">Face Zany</a>
         /// </summary>
@@ -6329,10 +9584,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceZany;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-zany?f=sharp-duotone&amp;s=light">Face Zany</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceZany;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-zany?f=sharp-duotone&amp;s=regular">Face Zany</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceZany;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-zany?f=sharp-duotone&amp;s=solid">Face Zany</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceZany;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-zany?f=sharp-duotone&amp;s=thin">Face Zany</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceZany;
     }
     /// <summary>
     /// Face Zipper
@@ -6362,10 +9632,25 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FaceZipper;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-zipper?f=duotone&amp;s=light">Face Zipper</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FaceZipper;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-zipper?f=duotone&amp;s=regular">Face Zipper</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FaceZipper;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-zipper?f=duotone&amp;s=solid">Face Zipper</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FaceZipper;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-zipper?f=duotone&amp;s=thin">Face Zipper</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FaceZipper;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/face-zipper?f=sharp&amp;s=light">Face Zipper</a>
         /// </summary>
@@ -6387,9 +9672,24 @@ public static partial class FaEmoji
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FaceZipper;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-zipper?f=sharp-duotone&amp;s=light">Face Zipper</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FaceZipper;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-zipper?f=sharp-duotone&amp;s=regular">Face Zipper</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FaceZipper;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/face-zipper?f=sharp-duotone&amp;s=solid">Face Zipper</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FaceZipper;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/face-zipper?f=sharp-duotone&amp;s=thin">Face Zipper</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FaceZipper;
     }
 }

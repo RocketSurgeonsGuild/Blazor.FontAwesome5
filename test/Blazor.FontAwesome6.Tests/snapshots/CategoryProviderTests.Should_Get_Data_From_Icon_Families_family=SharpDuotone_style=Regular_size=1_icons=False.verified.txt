@@ -1,0 +1,22 @@
+﻿[
+  {
+    Id: 0,
+    Label: 0,
+    Family: SharpDuotone,
+    Style: Regular,
+    Height: 512,
+    Width: 320,
+    Prefix: fasdr,
+    LongPrefix: fa-sharp-duotone fa-regular
+  },
+  {
+    Id: 1,
+    Label: 1,
+    Family: SharpDuotone,
+    Style: Regular,
+    Height: 512,
+    Width: 256,
+    Prefix: fasdr,
+    LongPrefix: fa-sharp-duotone fa-regular
+  }
+]

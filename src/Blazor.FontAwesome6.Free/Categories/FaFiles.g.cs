@@ -264,6 +264,32 @@ public static partial class FaFiles
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileExport;
     }
     /// <summary>
+    /// File Fragment
+    /// <a href="https://fontawesome.com/icons/file-fragment">File Fragment</a>
+    /// </summary>
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+    public static partial class FileFragment
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/file-fragment?f=classic&amp;s=solid">File Fragment</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileFragment;
+    }
+    /// <summary>
+    /// File Half Dashed
+    /// <a href="https://fontawesome.com/icons/file-half-dashed">File Half Dashed</a>
+    /// </summary>
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+    public static partial class FileHalfDashed
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/file-half-dashed?f=classic&amp;s=solid">File Half Dashed</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileHalfDashed;
+    }
+    /// <summary>
     /// File Image
     /// <a href="https://fontawesome.com/icons/file-image">File Image</a>
     /// </summary>

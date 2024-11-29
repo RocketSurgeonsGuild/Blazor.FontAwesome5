@@ -1,8 +1,0 @@
-﻿{
-  Instance: {
-    Icon: {
-      Name: building-columns
-    }
-  },
-  NodeCount: 2
-}

@@ -49,7 +49,7 @@
     <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.11.0" />
     <PackageVersion Include="Bogus" Version="35.6.1" />
     <PackageVersion Include="Microsoft.CodeCoverage" Version="17.12.0" />
-    <PackageVersion Include="Microsoft.Playwright" Version="1.48.0" />
+    <PackageVersion Include="Microsoft.Playwright" Version="1.49.0" />
     <PackageVersion Include="Verify.AngleSharp" Version="4.5.0" />
     <PackageVersion Include="Verify.ImageMagick" Version="3.6.0" />
     <PackageVersion Include="Verify.Blazor" Version="11.0.0" />

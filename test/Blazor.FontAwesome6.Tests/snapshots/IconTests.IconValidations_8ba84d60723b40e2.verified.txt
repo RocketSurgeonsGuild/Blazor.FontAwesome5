@@ -1,1 +1,0 @@
-﻿<i class="fa-duotone fa-building-columns fa-pull-left" style=";--fa-pull-margin: 20px"></i>

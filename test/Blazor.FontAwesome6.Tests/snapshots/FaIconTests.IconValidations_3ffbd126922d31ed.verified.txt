@@ -1,9 +1,0 @@
-﻿{
-  Instance: {
-    Icon: {
-      Name: barcode
-    },
-    FlipTransform: Both
-  },
-  NodeCount: 4
-}

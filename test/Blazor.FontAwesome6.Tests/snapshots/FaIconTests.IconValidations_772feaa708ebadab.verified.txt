@@ -1,9 +1,0 @@
-﻿{
-  Instance: {
-    Icon: {
-      Name: link
-    },
-    Size: SevenX
-  },
-  NodeCount: 2
-}

@@ -1,0 +1,22 @@
+﻿[
+  {
+    Id: arrow-down-from-dotted-line,
+    Label: Arrow Down From Dotted Line,
+    Family: Duotone,
+    Style: Light,
+    Height: 512,
+    Width: 448,
+    Prefix: fad,
+    LongPrefix: fa-duotone fa-light
+  },
+  {
+    Id: arrow-down-to-dotted-line,
+    Label: Arrow Down To Dotted Line,
+    Family: Duotone,
+    Style: Light,
+    Height: 512,
+    Width: 448,
+    Prefix: fad,
+    LongPrefix: fa-duotone fa-light
+  }
+]

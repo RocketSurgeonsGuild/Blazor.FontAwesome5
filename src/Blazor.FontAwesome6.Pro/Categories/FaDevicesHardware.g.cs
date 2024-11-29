@@ -40,10 +40,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Album;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/album?f=duotone&amp;s=light">Album</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Album;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/album?f=duotone&amp;s=regular">Album</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Album;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/album?f=duotone&amp;s=solid">Album</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Album;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/album?f=duotone&amp;s=thin">Album</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Album;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/album?f=sharp&amp;s=light">Album</a>
         /// </summary>
@@ -65,10 +80,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Album;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/album?f=sharp-duotone&amp;s=light">Album</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Album;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/album?f=sharp-duotone&amp;s=regular">Album</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Album;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/album?f=sharp-duotone&amp;s=solid">Album</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Album;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/album?f=sharp-duotone&amp;s=thin">Album</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Album;
     }
     /// <summary>
     /// Album Circle Plus
@@ -98,10 +128,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.AlbumCirclePlus;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/album-circle-plus?f=duotone&amp;s=light">Album Circle Plus</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.AlbumCirclePlus;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/album-circle-plus?f=duotone&amp;s=regular">Album Circle Plus</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.AlbumCirclePlus;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/album-circle-plus?f=duotone&amp;s=solid">Album Circle Plus</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.AlbumCirclePlus;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/album-circle-plus?f=duotone&amp;s=thin">Album Circle Plus</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.AlbumCirclePlus;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/album-circle-plus?f=sharp&amp;s=light">Album Circle Plus</a>
         /// </summary>
@@ -123,10 +168,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.AlbumCirclePlus;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/album-circle-plus?f=sharp-duotone&amp;s=light">Album Circle Plus</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.AlbumCirclePlus;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/album-circle-plus?f=sharp-duotone&amp;s=regular">Album Circle Plus</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.AlbumCirclePlus;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/album-circle-plus?f=sharp-duotone&amp;s=solid">Album Circle Plus</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.AlbumCirclePlus;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/album-circle-plus?f=sharp-duotone&amp;s=thin">Album Circle Plus</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.AlbumCirclePlus;
     }
     /// <summary>
     /// Album Circle User
@@ -156,10 +216,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.AlbumCircleUser;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/album-circle-user?f=duotone&amp;s=light">Album Circle User</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.AlbumCircleUser;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/album-circle-user?f=duotone&amp;s=regular">Album Circle User</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.AlbumCircleUser;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/album-circle-user?f=duotone&amp;s=solid">Album Circle User</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.AlbumCircleUser;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/album-circle-user?f=duotone&amp;s=thin">Album Circle User</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.AlbumCircleUser;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/album-circle-user?f=sharp&amp;s=light">Album Circle User</a>
         /// </summary>
@@ -181,10 +256,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.AlbumCircleUser;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/album-circle-user?f=sharp-duotone&amp;s=light">Album Circle User</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.AlbumCircleUser;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/album-circle-user?f=sharp-duotone&amp;s=regular">Album Circle User</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.AlbumCircleUser;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/album-circle-user?f=sharp-duotone&amp;s=solid">Album Circle User</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.AlbumCircleUser;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/album-circle-user?f=sharp-duotone&amp;s=thin">Album Circle User</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.AlbumCircleUser;
     }
     /// <summary>
     /// Blender Phone
@@ -214,10 +304,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.BlenderPhone;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/blender-phone?f=duotone&amp;s=light">Blender Phone</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.BlenderPhone;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/blender-phone?f=duotone&amp;s=regular">Blender Phone</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.BlenderPhone;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/blender-phone?f=duotone&amp;s=solid">Blender Phone</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.BlenderPhone;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/blender-phone?f=duotone&amp;s=thin">Blender Phone</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.BlenderPhone;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/blender-phone?f=sharp&amp;s=light">Blender Phone</a>
         /// </summary>
@@ -239,10 +344,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.BlenderPhone;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/blender-phone?f=sharp-duotone&amp;s=light">Blender Phone</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.BlenderPhone;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/blender-phone?f=sharp-duotone&amp;s=regular">Blender Phone</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.BlenderPhone;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/blender-phone?f=sharp-duotone&amp;s=solid">Blender Phone</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.BlenderPhone;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/blender-phone?f=sharp-duotone&amp;s=thin">Blender Phone</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.BlenderPhone;
     }
     /// <summary>
     /// Camera
@@ -272,10 +392,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Camera;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera?f=duotone&amp;s=light">Camera</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Camera;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera?f=duotone&amp;s=regular">Camera</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Camera;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/camera?f=duotone&amp;s=solid">Camera</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Camera;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera?f=duotone&amp;s=thin">Camera</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Camera;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/camera?f=sharp&amp;s=light">Camera</a>
         /// </summary>
@@ -297,10 +432,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Camera;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera?f=sharp-duotone&amp;s=light">Camera</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Camera;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera?f=sharp-duotone&amp;s=regular">Camera</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Camera;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/camera?f=sharp-duotone&amp;s=solid">Camera</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Camera;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera?f=sharp-duotone&amp;s=thin">Camera</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Camera;
     }
     /// <summary>
     /// Camera Retro
@@ -330,10 +480,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CameraRetro;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-retro?f=duotone&amp;s=light">Camera Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.CameraRetro;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-retro?f=duotone&amp;s=regular">Camera Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.CameraRetro;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/camera-retro?f=duotone&amp;s=solid">Camera Retro</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.CameraRetro;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-retro?f=duotone&amp;s=thin">Camera Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.CameraRetro;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/camera-retro?f=sharp&amp;s=light">Camera Retro</a>
         /// </summary>
@@ -355,10 +520,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CameraRetro;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-retro?f=sharp-duotone&amp;s=light">Camera Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.CameraRetro;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-retro?f=sharp-duotone&amp;s=regular">Camera Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.CameraRetro;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/camera-retro?f=sharp-duotone&amp;s=solid">Camera Retro</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.CameraRetro;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-retro?f=sharp-duotone&amp;s=thin">Camera Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.CameraRetro;
     }
     /// <summary>
     /// Camera Web
@@ -388,10 +568,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CameraWeb;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-web?f=duotone&amp;s=light">Camera Web</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.CameraWeb;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-web?f=duotone&amp;s=regular">Camera Web</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.CameraWeb;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/camera-web?f=duotone&amp;s=solid">Camera Web</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.CameraWeb;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-web?f=duotone&amp;s=thin">Camera Web</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.CameraWeb;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/camera-web?f=sharp&amp;s=light">Camera Web</a>
         /// </summary>
@@ -413,10 +608,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CameraWeb;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-web?f=sharp-duotone&amp;s=light">Camera Web</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.CameraWeb;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-web?f=sharp-duotone&amp;s=regular">Camera Web</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.CameraWeb;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/camera-web?f=sharp-duotone&amp;s=solid">Camera Web</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.CameraWeb;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-web?f=sharp-duotone&amp;s=thin">Camera Web</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.CameraWeb;
     }
     /// <summary>
     /// Camera Web Slash
@@ -446,10 +656,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CameraWebSlash;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-web-slash?f=duotone&amp;s=light">Camera Web Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.CameraWebSlash;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-web-slash?f=duotone&amp;s=regular">Camera Web Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.CameraWebSlash;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/camera-web-slash?f=duotone&amp;s=solid">Camera Web Slash</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.CameraWebSlash;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-web-slash?f=duotone&amp;s=thin">Camera Web Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.CameraWebSlash;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/camera-web-slash?f=sharp&amp;s=light">Camera Web Slash</a>
         /// </summary>
@@ -471,10 +696,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CameraWebSlash;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-web-slash?f=sharp-duotone&amp;s=light">Camera Web Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.CameraWebSlash;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-web-slash?f=sharp-duotone&amp;s=regular">Camera Web Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.CameraWebSlash;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/camera-web-slash?f=sharp-duotone&amp;s=solid">Camera Web Slash</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.CameraWebSlash;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/camera-web-slash?f=sharp-duotone&amp;s=thin">Camera Web Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.CameraWebSlash;
     }
     /// <summary>
     /// Car Battery
@@ -504,10 +744,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CarBattery;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/car-battery?f=duotone&amp;s=light">Car Battery</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.CarBattery;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/car-battery?f=duotone&amp;s=regular">Car Battery</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.CarBattery;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/car-battery?f=duotone&amp;s=solid">Car Battery</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.CarBattery;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/car-battery?f=duotone&amp;s=thin">Car Battery</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.CarBattery;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/car-battery?f=sharp&amp;s=light">Car Battery</a>
         /// </summary>
@@ -529,10 +784,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CarBattery;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/car-battery?f=sharp-duotone&amp;s=light">Car Battery</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.CarBattery;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/car-battery?f=sharp-duotone&amp;s=regular">Car Battery</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.CarBattery;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/car-battery?f=sharp-duotone&amp;s=solid">Car Battery</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.CarBattery;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/car-battery?f=sharp-duotone&amp;s=thin">Car Battery</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.CarBattery;
     }
     /// <summary>
     /// Compact Disc
@@ -562,10 +832,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CompactDisc;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/compact-disc?f=duotone&amp;s=light">Compact Disc</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.CompactDisc;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/compact-disc?f=duotone&amp;s=regular">Compact Disc</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.CompactDisc;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/compact-disc?f=duotone&amp;s=solid">Compact Disc</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.CompactDisc;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/compact-disc?f=duotone&amp;s=thin">Compact Disc</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.CompactDisc;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/compact-disc?f=sharp&amp;s=light">Compact Disc</a>
         /// </summary>
@@ -587,10 +872,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CompactDisc;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/compact-disc?f=sharp-duotone&amp;s=light">Compact Disc</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.CompactDisc;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/compact-disc?f=sharp-duotone&amp;s=regular">Compact Disc</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.CompactDisc;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/compact-disc?f=sharp-duotone&amp;s=solid">Compact Disc</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.CompactDisc;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/compact-disc?f=sharp-duotone&amp;s=thin">Compact Disc</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.CompactDisc;
     }
     /// <summary>
     /// Computer
@@ -620,10 +920,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Computer;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer?f=duotone&amp;s=light">Computer</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Computer;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer?f=duotone&amp;s=regular">Computer</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Computer;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/computer?f=duotone&amp;s=solid">Computer</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Computer;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer?f=duotone&amp;s=thin">Computer</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Computer;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/computer?f=sharp&amp;s=light">Computer</a>
         /// </summary>
@@ -645,10 +960,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Computer;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer?f=sharp-duotone&amp;s=light">Computer</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Computer;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer?f=sharp-duotone&amp;s=regular">Computer</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Computer;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/computer?f=sharp-duotone&amp;s=solid">Computer</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Computer;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer?f=sharp-duotone&amp;s=thin">Computer</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Computer;
     }
     /// <summary>
     /// Computer Classic
@@ -678,10 +1008,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.ComputerClassic;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-classic?f=duotone&amp;s=light">Computer Classic</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.ComputerClassic;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-classic?f=duotone&amp;s=regular">Computer Classic</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.ComputerClassic;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/computer-classic?f=duotone&amp;s=solid">Computer Classic</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.ComputerClassic;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-classic?f=duotone&amp;s=thin">Computer Classic</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.ComputerClassic;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/computer-classic?f=sharp&amp;s=light">Computer Classic</a>
         /// </summary>
@@ -703,10 +1048,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.ComputerClassic;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-classic?f=sharp-duotone&amp;s=light">Computer Classic</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.ComputerClassic;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-classic?f=sharp-duotone&amp;s=regular">Computer Classic</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.ComputerClassic;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/computer-classic?f=sharp-duotone&amp;s=solid">Computer Classic</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.ComputerClassic;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-classic?f=sharp-duotone&amp;s=thin">Computer Classic</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.ComputerClassic;
     }
     /// <summary>
     /// Computer Mouse
@@ -736,10 +1096,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.ComputerMouse;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-mouse?f=duotone&amp;s=light">Computer Mouse</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.ComputerMouse;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-mouse?f=duotone&amp;s=regular">Computer Mouse</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.ComputerMouse;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/computer-mouse?f=duotone&amp;s=solid">Computer Mouse</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.ComputerMouse;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-mouse?f=duotone&amp;s=thin">Computer Mouse</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.ComputerMouse;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/computer-mouse?f=sharp&amp;s=light">Computer Mouse</a>
         /// </summary>
@@ -761,10 +1136,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.ComputerMouse;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-mouse?f=sharp-duotone&amp;s=light">Computer Mouse</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.ComputerMouse;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-mouse?f=sharp-duotone&amp;s=regular">Computer Mouse</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.ComputerMouse;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/computer-mouse?f=sharp-duotone&amp;s=solid">Computer Mouse</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.ComputerMouse;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-mouse?f=sharp-duotone&amp;s=thin">Computer Mouse</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.ComputerMouse;
     }
     /// <summary>
     /// Computer Mouse Scrollwheel
@@ -794,10 +1184,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.ComputerMouseScrollwheel;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-mouse-scrollwheel?f=duotone&amp;s=light">Computer Mouse Scrollwheel</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.ComputerMouseScrollwheel;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-mouse-scrollwheel?f=duotone&amp;s=regular">Computer Mouse Scrollwheel</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.ComputerMouseScrollwheel;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/computer-mouse-scrollwheel?f=duotone&amp;s=solid">Computer Mouse Scrollwheel</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.ComputerMouseScrollwheel;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-mouse-scrollwheel?f=duotone&amp;s=thin">Computer Mouse Scrollwheel</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.ComputerMouseScrollwheel;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/computer-mouse-scrollwheel?f=sharp&amp;s=light">Computer Mouse Scrollwheel</a>
         /// </summary>
@@ -819,10 +1224,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.ComputerMouseScrollwheel;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-mouse-scrollwheel?f=sharp-duotone&amp;s=light">Computer Mouse Scrollwheel</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.ComputerMouseScrollwheel;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-mouse-scrollwheel?f=sharp-duotone&amp;s=regular">Computer Mouse Scrollwheel</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.ComputerMouseScrollwheel;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/computer-mouse-scrollwheel?f=sharp-duotone&amp;s=solid">Computer Mouse Scrollwheel</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.ComputerMouseScrollwheel;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-mouse-scrollwheel?f=sharp-duotone&amp;s=thin">Computer Mouse Scrollwheel</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.ComputerMouseScrollwheel;
     }
     /// <summary>
     /// Computer Speaker
@@ -852,10 +1272,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.ComputerSpeaker;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-speaker?f=duotone&amp;s=light">Computer Speaker</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.ComputerSpeaker;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-speaker?f=duotone&amp;s=regular">Computer Speaker</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.ComputerSpeaker;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/computer-speaker?f=duotone&amp;s=solid">Computer Speaker</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.ComputerSpeaker;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-speaker?f=duotone&amp;s=thin">Computer Speaker</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.ComputerSpeaker;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/computer-speaker?f=sharp&amp;s=light">Computer Speaker</a>
         /// </summary>
@@ -877,10 +1312,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.ComputerSpeaker;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-speaker?f=sharp-duotone&amp;s=light">Computer Speaker</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.ComputerSpeaker;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-speaker?f=sharp-duotone&amp;s=regular">Computer Speaker</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.ComputerSpeaker;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/computer-speaker?f=sharp-duotone&amp;s=solid">Computer Speaker</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.ComputerSpeaker;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/computer-speaker?f=sharp-duotone&amp;s=thin">Computer Speaker</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.ComputerSpeaker;
     }
     /// <summary>
     /// Database
@@ -910,10 +1360,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Database;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/database?f=duotone&amp;s=light">Database</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Database;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/database?f=duotone&amp;s=regular">Database</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Database;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/database?f=duotone&amp;s=solid">Database</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Database;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/database?f=duotone&amp;s=thin">Database</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Database;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/database?f=sharp&amp;s=light">Database</a>
         /// </summary>
@@ -935,10 +1400,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Database;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/database?f=sharp-duotone&amp;s=light">Database</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Database;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/database?f=sharp-duotone&amp;s=regular">Database</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Database;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/database?f=sharp-duotone&amp;s=solid">Database</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Database;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/database?f=sharp-duotone&amp;s=thin">Database</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Database;
     }
     /// <summary>
     /// Desktop
@@ -968,10 +1448,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Desktop;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/desktop?f=duotone&amp;s=light">Desktop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Desktop;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/desktop?f=duotone&amp;s=regular">Desktop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Desktop;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/desktop?f=duotone&amp;s=solid">Desktop</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Desktop;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/desktop?f=duotone&amp;s=thin">Desktop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Desktop;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/desktop?f=sharp&amp;s=light">Desktop</a>
         /// </summary>
@@ -993,10 +1488,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Desktop;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/desktop?f=sharp-duotone&amp;s=light">Desktop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Desktop;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/desktop?f=sharp-duotone&amp;s=regular">Desktop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Desktop;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/desktop?f=sharp-duotone&amp;s=solid">Desktop</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Desktop;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/desktop?f=sharp-duotone&amp;s=thin">Desktop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Desktop;
     }
     /// <summary>
     /// Desktop Arrow Down
@@ -1026,10 +1536,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.DesktopArrowDown;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/desktop-arrow-down?f=duotone&amp;s=light">Desktop Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.DesktopArrowDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/desktop-arrow-down?f=duotone&amp;s=regular">Desktop Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.DesktopArrowDown;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/desktop-arrow-down?f=duotone&amp;s=solid">Desktop Arrow Down</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.DesktopArrowDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/desktop-arrow-down?f=duotone&amp;s=thin">Desktop Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.DesktopArrowDown;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/desktop-arrow-down?f=sharp&amp;s=light">Desktop Arrow Down</a>
         /// </summary>
@@ -1051,10 +1576,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.DesktopArrowDown;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/desktop-arrow-down?f=sharp-duotone&amp;s=light">Desktop Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.DesktopArrowDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/desktop-arrow-down?f=sharp-duotone&amp;s=regular">Desktop Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.DesktopArrowDown;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/desktop-arrow-down?f=sharp-duotone&amp;s=solid">Desktop Arrow Down</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.DesktopArrowDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/desktop-arrow-down?f=sharp-duotone&amp;s=thin">Desktop Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.DesktopArrowDown;
     }
     /// <summary>
     /// Disc Drive
@@ -1084,10 +1624,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.DiscDrive;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/disc-drive?f=duotone&amp;s=light">Disc Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.DiscDrive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/disc-drive?f=duotone&amp;s=regular">Disc Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.DiscDrive;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/disc-drive?f=duotone&amp;s=solid">Disc Drive</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.DiscDrive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/disc-drive?f=duotone&amp;s=thin">Disc Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.DiscDrive;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/disc-drive?f=sharp&amp;s=light">Disc Drive</a>
         /// </summary>
@@ -1109,10 +1664,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.DiscDrive;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/disc-drive?f=sharp-duotone&amp;s=light">Disc Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.DiscDrive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/disc-drive?f=sharp-duotone&amp;s=regular">Disc Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.DiscDrive;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/disc-drive?f=sharp-duotone&amp;s=solid">Disc Drive</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.DiscDrive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/disc-drive?f=sharp-duotone&amp;s=thin">Disc Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.DiscDrive;
     }
     /// <summary>
     /// Display
@@ -1142,10 +1712,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Display;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/display?f=duotone&amp;s=light">Display</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Display;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display?f=duotone&amp;s=regular">Display</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Display;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/display?f=duotone&amp;s=solid">Display</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Display;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display?f=duotone&amp;s=thin">Display</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Display;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/display?f=sharp&amp;s=light">Display</a>
         /// </summary>
@@ -1167,10 +1752,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Display;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/display?f=sharp-duotone&amp;s=light">Display</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Display;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display?f=sharp-duotone&amp;s=regular">Display</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Display;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/display?f=sharp-duotone&amp;s=solid">Display</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Display;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display?f=sharp-duotone&amp;s=thin">Display</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Display;
     }
     /// <summary>
     /// Display Arrow Down
@@ -1200,10 +1800,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.DisplayArrowDown;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-arrow-down?f=duotone&amp;s=light">Display Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.DisplayArrowDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-arrow-down?f=duotone&amp;s=regular">Display Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.DisplayArrowDown;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/display-arrow-down?f=duotone&amp;s=solid">Display Arrow Down</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.DisplayArrowDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-arrow-down?f=duotone&amp;s=thin">Display Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.DisplayArrowDown;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/display-arrow-down?f=sharp&amp;s=light">Display Arrow Down</a>
         /// </summary>
@@ -1225,10 +1840,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.DisplayArrowDown;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-arrow-down?f=sharp-duotone&amp;s=light">Display Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.DisplayArrowDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-arrow-down?f=sharp-duotone&amp;s=regular">Display Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.DisplayArrowDown;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/display-arrow-down?f=sharp-duotone&amp;s=solid">Display Arrow Down</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.DisplayArrowDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-arrow-down?f=sharp-duotone&amp;s=thin">Display Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.DisplayArrowDown;
     }
     /// <summary>
     /// Display Code
@@ -1258,10 +1888,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.DisplayCode;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-code?f=duotone&amp;s=light">Display Code</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.DisplayCode;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-code?f=duotone&amp;s=regular">Display Code</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.DisplayCode;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/display-code?f=duotone&amp;s=solid">Display Code</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.DisplayCode;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-code?f=duotone&amp;s=thin">Display Code</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.DisplayCode;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/display-code?f=sharp&amp;s=light">Display Code</a>
         /// </summary>
@@ -1283,10 +1928,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.DisplayCode;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-code?f=sharp-duotone&amp;s=light">Display Code</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.DisplayCode;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-code?f=sharp-duotone&amp;s=regular">Display Code</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.DisplayCode;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/display-code?f=sharp-duotone&amp;s=solid">Display Code</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.DisplayCode;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-code?f=sharp-duotone&amp;s=thin">Display Code</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.DisplayCode;
     }
     /// <summary>
     /// Display Medical
@@ -1316,10 +1976,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.DisplayMedical;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-medical?f=duotone&amp;s=light">Display Medical</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.DisplayMedical;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-medical?f=duotone&amp;s=regular">Display Medical</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.DisplayMedical;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/display-medical?f=duotone&amp;s=solid">Display Medical</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.DisplayMedical;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-medical?f=duotone&amp;s=thin">Display Medical</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.DisplayMedical;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/display-medical?f=sharp&amp;s=light">Display Medical</a>
         /// </summary>
@@ -1341,10 +2016,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.DisplayMedical;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-medical?f=sharp-duotone&amp;s=light">Display Medical</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.DisplayMedical;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-medical?f=sharp-duotone&amp;s=regular">Display Medical</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.DisplayMedical;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/display-medical?f=sharp-duotone&amp;s=solid">Display Medical</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.DisplayMedical;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-medical?f=sharp-duotone&amp;s=thin">Display Medical</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.DisplayMedical;
     }
     /// <summary>
     /// Display Slash
@@ -1374,10 +2064,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.DisplaySlash;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-slash?f=duotone&amp;s=light">Display Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.DisplaySlash;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-slash?f=duotone&amp;s=regular">Display Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.DisplaySlash;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/display-slash?f=duotone&amp;s=solid">Display Slash</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.DisplaySlash;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-slash?f=duotone&amp;s=thin">Display Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.DisplaySlash;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/display-slash?f=sharp&amp;s=light">Display Slash</a>
         /// </summary>
@@ -1399,10 +2104,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.DisplaySlash;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-slash?f=sharp-duotone&amp;s=light">Display Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.DisplaySlash;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-slash?f=sharp-duotone&amp;s=regular">Display Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.DisplaySlash;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/display-slash?f=sharp-duotone&amp;s=solid">Display Slash</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.DisplaySlash;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/display-slash?f=sharp-duotone&amp;s=thin">Display Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.DisplaySlash;
     }
     /// <summary>
     /// Download
@@ -1432,10 +2152,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Download;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/download?f=duotone&amp;s=light">Download</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Download;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/download?f=duotone&amp;s=regular">Download</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Download;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/download?f=duotone&amp;s=solid">Download</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Download;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/download?f=duotone&amp;s=thin">Download</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Download;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/download?f=sharp&amp;s=light">Download</a>
         /// </summary>
@@ -1457,10 +2192,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Download;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/download?f=sharp-duotone&amp;s=light">Download</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Download;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/download?f=sharp-duotone&amp;s=regular">Download</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Download;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/download?f=sharp-duotone&amp;s=solid">Download</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Download;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/download?f=sharp-duotone&amp;s=thin">Download</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Download;
     }
     /// <summary>
     /// Engine
@@ -1490,10 +2240,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Engine;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/engine?f=duotone&amp;s=light">Engine</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Engine;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/engine?f=duotone&amp;s=regular">Engine</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Engine;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/engine?f=duotone&amp;s=solid">Engine</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Engine;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/engine?f=duotone&amp;s=thin">Engine</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Engine;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/engine?f=sharp&amp;s=light">Engine</a>
         /// </summary>
@@ -1515,10 +2280,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Engine;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/engine?f=sharp-duotone&amp;s=light">Engine</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Engine;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/engine?f=sharp-duotone&amp;s=regular">Engine</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Engine;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/engine?f=sharp-duotone&amp;s=solid">Engine</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Engine;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/engine?f=sharp-duotone&amp;s=thin">Engine</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Engine;
     }
     /// <summary>
     /// Ethernet
@@ -1548,10 +2328,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Ethernet;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/ethernet?f=duotone&amp;s=light">Ethernet</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Ethernet;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/ethernet?f=duotone&amp;s=regular">Ethernet</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Ethernet;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/ethernet?f=duotone&amp;s=solid">Ethernet</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Ethernet;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/ethernet?f=duotone&amp;s=thin">Ethernet</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Ethernet;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/ethernet?f=sharp&amp;s=light">Ethernet</a>
         /// </summary>
@@ -1573,10 +2368,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Ethernet;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/ethernet?f=sharp-duotone&amp;s=light">Ethernet</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Ethernet;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/ethernet?f=sharp-duotone&amp;s=regular">Ethernet</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Ethernet;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/ethernet?f=sharp-duotone&amp;s=solid">Ethernet</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Ethernet;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/ethernet?f=sharp-duotone&amp;s=thin">Ethernet</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Ethernet;
     }
     /// <summary>
     /// Fax
@@ -1606,10 +2416,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Fax;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/fax?f=duotone&amp;s=light">Fax</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Fax;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/fax?f=duotone&amp;s=regular">Fax</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Fax;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/fax?f=duotone&amp;s=solid">Fax</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Fax;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/fax?f=duotone&amp;s=thin">Fax</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Fax;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/fax?f=sharp&amp;s=light">Fax</a>
         /// </summary>
@@ -1631,10 +2456,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Fax;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/fax?f=sharp-duotone&amp;s=light">Fax</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Fax;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/fax?f=sharp-duotone&amp;s=regular">Fax</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Fax;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/fax?f=sharp-duotone&amp;s=solid">Fax</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Fax;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/fax?f=sharp-duotone&amp;s=thin">Fax</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Fax;
     }
     /// <summary>
     /// Flashlight
@@ -1664,10 +2504,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Flashlight;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/flashlight?f=duotone&amp;s=light">Flashlight</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Flashlight;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/flashlight?f=duotone&amp;s=regular">Flashlight</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Flashlight;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/flashlight?f=duotone&amp;s=solid">Flashlight</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Flashlight;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/flashlight?f=duotone&amp;s=thin">Flashlight</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Flashlight;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/flashlight?f=sharp&amp;s=light">Flashlight</a>
         /// </summary>
@@ -1689,10 +2544,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Flashlight;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/flashlight?f=sharp-duotone&amp;s=light">Flashlight</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Flashlight;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/flashlight?f=sharp-duotone&amp;s=regular">Flashlight</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Flashlight;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/flashlight?f=sharp-duotone&amp;s=solid">Flashlight</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Flashlight;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/flashlight?f=sharp-duotone&amp;s=thin">Flashlight</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Flashlight;
     }
     /// <summary>
     /// Floppy Disk
@@ -1722,10 +2592,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FloppyDisk;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disk?f=duotone&amp;s=light">Floppy Disk</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FloppyDisk;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disk?f=duotone&amp;s=regular">Floppy Disk</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FloppyDisk;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/floppy-disk?f=duotone&amp;s=solid">Floppy Disk</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FloppyDisk;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disk?f=duotone&amp;s=thin">Floppy Disk</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FloppyDisk;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/floppy-disk?f=sharp&amp;s=light">Floppy Disk</a>
         /// </summary>
@@ -1747,10 +2632,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FloppyDisk;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disk?f=sharp-duotone&amp;s=light">Floppy Disk</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FloppyDisk;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disk?f=sharp-duotone&amp;s=regular">Floppy Disk</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FloppyDisk;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/floppy-disk?f=sharp-duotone&amp;s=solid">Floppy Disk</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FloppyDisk;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disk?f=sharp-duotone&amp;s=thin">Floppy Disk</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FloppyDisk;
     }
     /// <summary>
     /// Floppy Disk Pen
@@ -1780,10 +2680,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FloppyDiskPen;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disk-pen?f=duotone&amp;s=light">Floppy Disk Pen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FloppyDiskPen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disk-pen?f=duotone&amp;s=regular">Floppy Disk Pen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FloppyDiskPen;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/floppy-disk-pen?f=duotone&amp;s=solid">Floppy Disk Pen</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FloppyDiskPen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disk-pen?f=duotone&amp;s=thin">Floppy Disk Pen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FloppyDiskPen;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/floppy-disk-pen?f=sharp&amp;s=light">Floppy Disk Pen</a>
         /// </summary>
@@ -1805,10 +2720,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FloppyDiskPen;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disk-pen?f=sharp-duotone&amp;s=light">Floppy Disk Pen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FloppyDiskPen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disk-pen?f=sharp-duotone&amp;s=regular">Floppy Disk Pen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FloppyDiskPen;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/floppy-disk-pen?f=sharp-duotone&amp;s=solid">Floppy Disk Pen</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FloppyDiskPen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disk-pen?f=sharp-duotone&amp;s=thin">Floppy Disk Pen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FloppyDiskPen;
     }
     /// <summary>
     /// Floppy Disks
@@ -1838,10 +2768,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FloppyDisks;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disks?f=duotone&amp;s=light">Floppy Disks</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FloppyDisks;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disks?f=duotone&amp;s=regular">Floppy Disks</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FloppyDisks;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/floppy-disks?f=duotone&amp;s=solid">Floppy Disks</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FloppyDisks;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disks?f=duotone&amp;s=thin">Floppy Disks</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FloppyDisks;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/floppy-disks?f=sharp&amp;s=light">Floppy Disks</a>
         /// </summary>
@@ -1863,10 +2808,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FloppyDisks;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disks?f=sharp-duotone&amp;s=light">Floppy Disks</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FloppyDisks;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disks?f=sharp-duotone&amp;s=regular">Floppy Disks</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FloppyDisks;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/floppy-disks?f=sharp-duotone&amp;s=solid">Floppy Disks</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FloppyDisks;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/floppy-disks?f=sharp-duotone&amp;s=thin">Floppy Disks</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FloppyDisks;
     }
     /// <summary>
     /// Flux Capacitor
@@ -1896,10 +2856,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FluxCapacitor;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/flux-capacitor?f=duotone&amp;s=light">Flux Capacitor</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FluxCapacitor;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/flux-capacitor?f=duotone&amp;s=regular">Flux Capacitor</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FluxCapacitor;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/flux-capacitor?f=duotone&amp;s=solid">Flux Capacitor</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FluxCapacitor;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/flux-capacitor?f=duotone&amp;s=thin">Flux Capacitor</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FluxCapacitor;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/flux-capacitor?f=sharp&amp;s=light">Flux Capacitor</a>
         /// </summary>
@@ -1921,10 +2896,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FluxCapacitor;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/flux-capacitor?f=sharp-duotone&amp;s=light">Flux Capacitor</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FluxCapacitor;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/flux-capacitor?f=sharp-duotone&amp;s=regular">Flux Capacitor</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FluxCapacitor;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/flux-capacitor?f=sharp-duotone&amp;s=solid">Flux Capacitor</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FluxCapacitor;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/flux-capacitor?f=sharp-duotone&amp;s=thin">Flux Capacitor</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FluxCapacitor;
     }
     /// <summary>
     /// Game Console Handheld
@@ -1954,10 +2944,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.GameConsoleHandheld;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/game-console-handheld?f=duotone&amp;s=light">Game Console Handheld</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.GameConsoleHandheld;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/game-console-handheld?f=duotone&amp;s=regular">Game Console Handheld</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.GameConsoleHandheld;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/game-console-handheld?f=duotone&amp;s=solid">Game Console Handheld</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.GameConsoleHandheld;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/game-console-handheld?f=duotone&amp;s=thin">Game Console Handheld</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.GameConsoleHandheld;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/game-console-handheld?f=sharp&amp;s=light">Game Console Handheld</a>
         /// </summary>
@@ -1979,10 +2984,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.GameConsoleHandheld;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/game-console-handheld?f=sharp-duotone&amp;s=light">Game Console Handheld</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.GameConsoleHandheld;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/game-console-handheld?f=sharp-duotone&amp;s=regular">Game Console Handheld</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.GameConsoleHandheld;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/game-console-handheld?f=sharp-duotone&amp;s=solid">Game Console Handheld</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.GameConsoleHandheld;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/game-console-handheld?f=sharp-duotone&amp;s=thin">Game Console Handheld</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.GameConsoleHandheld;
     }
     /// <summary>
     /// Game Console Handheld Crank
@@ -2012,10 +3032,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.GameConsoleHandheldCrank;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/game-console-handheld-crank?f=duotone&amp;s=light">Game Console Handheld Crank</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.GameConsoleHandheldCrank;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/game-console-handheld-crank?f=duotone&amp;s=regular">Game Console Handheld Crank</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.GameConsoleHandheldCrank;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/game-console-handheld-crank?f=duotone&amp;s=solid">Game Console Handheld Crank</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.GameConsoleHandheldCrank;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/game-console-handheld-crank?f=duotone&amp;s=thin">Game Console Handheld Crank</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.GameConsoleHandheldCrank;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/game-console-handheld-crank?f=sharp&amp;s=light">Game Console Handheld Crank</a>
         /// </summary>
@@ -2037,10 +3072,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.GameConsoleHandheldCrank;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/game-console-handheld-crank?f=sharp-duotone&amp;s=light">Game Console Handheld Crank</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.GameConsoleHandheldCrank;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/game-console-handheld-crank?f=sharp-duotone&amp;s=regular">Game Console Handheld Crank</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.GameConsoleHandheldCrank;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/game-console-handheld-crank?f=sharp-duotone&amp;s=solid">Game Console Handheld Crank</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.GameConsoleHandheldCrank;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/game-console-handheld-crank?f=sharp-duotone&amp;s=thin">Game Console Handheld Crank</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.GameConsoleHandheldCrank;
     }
     /// <summary>
     /// Gamepad
@@ -2070,10 +3120,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Gamepad;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/gamepad?f=duotone&amp;s=light">Gamepad</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Gamepad;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/gamepad?f=duotone&amp;s=regular">Gamepad</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Gamepad;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/gamepad?f=duotone&amp;s=solid">Gamepad</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Gamepad;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/gamepad?f=duotone&amp;s=thin">Gamepad</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Gamepad;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/gamepad?f=sharp&amp;s=light">Gamepad</a>
         /// </summary>
@@ -2095,10 +3160,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Gamepad;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/gamepad?f=sharp-duotone&amp;s=light">Gamepad</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Gamepad;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/gamepad?f=sharp-duotone&amp;s=regular">Gamepad</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Gamepad;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/gamepad?f=sharp-duotone&amp;s=solid">Gamepad</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Gamepad;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/gamepad?f=sharp-duotone&amp;s=thin">Gamepad</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Gamepad;
     }
     /// <summary>
     /// Gamepad Modern
@@ -2128,10 +3208,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.GamepadModern;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/gamepad-modern?f=duotone&amp;s=light">Gamepad Modern</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.GamepadModern;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/gamepad-modern?f=duotone&amp;s=regular">Gamepad Modern</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.GamepadModern;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/gamepad-modern?f=duotone&amp;s=solid">Gamepad Modern</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.GamepadModern;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/gamepad-modern?f=duotone&amp;s=thin">Gamepad Modern</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.GamepadModern;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/gamepad-modern?f=sharp&amp;s=light">Gamepad Modern</a>
         /// </summary>
@@ -2153,10 +3248,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.GamepadModern;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/gamepad-modern?f=sharp-duotone&amp;s=light">Gamepad Modern</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.GamepadModern;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/gamepad-modern?f=sharp-duotone&amp;s=regular">Gamepad Modern</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.GamepadModern;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/gamepad-modern?f=sharp-duotone&amp;s=solid">Gamepad Modern</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.GamepadModern;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/gamepad-modern?f=sharp-duotone&amp;s=thin">Gamepad Modern</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.GamepadModern;
     }
     /// <summary>
     /// Hard Drive
@@ -2186,10 +3296,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.HardDrive;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/hard-drive?f=duotone&amp;s=light">Hard Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.HardDrive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/hard-drive?f=duotone&amp;s=regular">Hard Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.HardDrive;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/hard-drive?f=duotone&amp;s=solid">Hard Drive</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.HardDrive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/hard-drive?f=duotone&amp;s=thin">Hard Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.HardDrive;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/hard-drive?f=sharp&amp;s=light">Hard Drive</a>
         /// </summary>
@@ -2211,10 +3336,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.HardDrive;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/hard-drive?f=sharp-duotone&amp;s=light">Hard Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.HardDrive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/hard-drive?f=sharp-duotone&amp;s=regular">Hard Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.HardDrive;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/hard-drive?f=sharp-duotone&amp;s=solid">Hard Drive</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.HardDrive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/hard-drive?f=sharp-duotone&amp;s=thin">Hard Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.HardDrive;
     }
     /// <summary>
     /// Headphones
@@ -2244,10 +3384,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Headphones;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/headphones?f=duotone&amp;s=light">Headphones</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Headphones;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/headphones?f=duotone&amp;s=regular">Headphones</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Headphones;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/headphones?f=duotone&amp;s=solid">Headphones</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Headphones;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/headphones?f=duotone&amp;s=thin">Headphones</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Headphones;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/headphones?f=sharp&amp;s=light">Headphones</a>
         /// </summary>
@@ -2269,10 +3424,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Headphones;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/headphones?f=sharp-duotone&amp;s=light">Headphones</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Headphones;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/headphones?f=sharp-duotone&amp;s=regular">Headphones</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Headphones;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/headphones?f=sharp-duotone&amp;s=solid">Headphones</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Headphones;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/headphones?f=sharp-duotone&amp;s=thin">Headphones</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Headphones;
     }
     /// <summary>
     /// House Laptop
@@ -2302,10 +3472,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.HouseLaptop;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/house-laptop?f=duotone&amp;s=light">House Laptop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.HouseLaptop;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/house-laptop?f=duotone&amp;s=regular">House Laptop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.HouseLaptop;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/house-laptop?f=duotone&amp;s=solid">House Laptop</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.HouseLaptop;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/house-laptop?f=duotone&amp;s=thin">House Laptop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.HouseLaptop;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/house-laptop?f=sharp&amp;s=light">House Laptop</a>
         /// </summary>
@@ -2327,10 +3512,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.HouseLaptop;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/house-laptop?f=sharp-duotone&amp;s=light">House Laptop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.HouseLaptop;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/house-laptop?f=sharp-duotone&amp;s=regular">House Laptop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.HouseLaptop;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/house-laptop?f=sharp-duotone&amp;s=solid">House Laptop</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.HouseLaptop;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/house-laptop?f=sharp-duotone&amp;s=thin">House Laptop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.HouseLaptop;
     }
     /// <summary>
     /// Keyboard
@@ -2360,10 +3560,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Keyboard;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard?f=duotone&amp;s=light">Keyboard</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Keyboard;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard?f=duotone&amp;s=regular">Keyboard</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Keyboard;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/keyboard?f=duotone&amp;s=solid">Keyboard</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Keyboard;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard?f=duotone&amp;s=thin">Keyboard</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Keyboard;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/keyboard?f=sharp&amp;s=light">Keyboard</a>
         /// </summary>
@@ -2385,10 +3600,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Keyboard;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard?f=sharp-duotone&amp;s=light">Keyboard</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Keyboard;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard?f=sharp-duotone&amp;s=regular">Keyboard</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Keyboard;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/keyboard?f=sharp-duotone&amp;s=solid">Keyboard</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Keyboard;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard?f=sharp-duotone&amp;s=thin">Keyboard</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Keyboard;
     }
     /// <summary>
     /// Keyboard Down
@@ -2418,10 +3648,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.KeyboardDown;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard-down?f=duotone&amp;s=light">Keyboard Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.KeyboardDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard-down?f=duotone&amp;s=regular">Keyboard Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.KeyboardDown;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/keyboard-down?f=duotone&amp;s=solid">Keyboard Down</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.KeyboardDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard-down?f=duotone&amp;s=thin">Keyboard Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.KeyboardDown;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/keyboard-down?f=sharp&amp;s=light">Keyboard Down</a>
         /// </summary>
@@ -2443,10 +3688,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.KeyboardDown;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard-down?f=sharp-duotone&amp;s=light">Keyboard Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.KeyboardDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard-down?f=sharp-duotone&amp;s=regular">Keyboard Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.KeyboardDown;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/keyboard-down?f=sharp-duotone&amp;s=solid">Keyboard Down</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.KeyboardDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard-down?f=sharp-duotone&amp;s=thin">Keyboard Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.KeyboardDown;
     }
     /// <summary>
     /// Keyboard Left
@@ -2476,10 +3736,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.KeyboardLeft;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard-left?f=duotone&amp;s=light">Keyboard Left</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.KeyboardLeft;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard-left?f=duotone&amp;s=regular">Keyboard Left</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.KeyboardLeft;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/keyboard-left?f=duotone&amp;s=solid">Keyboard Left</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.KeyboardLeft;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard-left?f=duotone&amp;s=thin">Keyboard Left</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.KeyboardLeft;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/keyboard-left?f=sharp&amp;s=light">Keyboard Left</a>
         /// </summary>
@@ -2501,10 +3776,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.KeyboardLeft;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard-left?f=sharp-duotone&amp;s=light">Keyboard Left</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.KeyboardLeft;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard-left?f=sharp-duotone&amp;s=regular">Keyboard Left</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.KeyboardLeft;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/keyboard-left?f=sharp-duotone&amp;s=solid">Keyboard Left</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.KeyboardLeft;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/keyboard-left?f=sharp-duotone&amp;s=thin">Keyboard Left</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.KeyboardLeft;
     }
     /// <summary>
     /// Laptop
@@ -2534,10 +3824,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Laptop;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop?f=duotone&amp;s=light">Laptop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Laptop;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop?f=duotone&amp;s=regular">Laptop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Laptop;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop?f=duotone&amp;s=solid">Laptop</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Laptop;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop?f=duotone&amp;s=thin">Laptop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Laptop;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop?f=sharp&amp;s=light">Laptop</a>
         /// </summary>
@@ -2559,10 +3864,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Laptop;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop?f=sharp-duotone&amp;s=light">Laptop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Laptop;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop?f=sharp-duotone&amp;s=regular">Laptop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Laptop;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop?f=sharp-duotone&amp;s=solid">Laptop</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Laptop;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop?f=sharp-duotone&amp;s=thin">Laptop</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Laptop;
     }
     /// <summary>
     /// Laptop Arrow Down
@@ -2592,10 +3912,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.LaptopArrowDown;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-arrow-down?f=duotone&amp;s=light">Laptop Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.LaptopArrowDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-arrow-down?f=duotone&amp;s=regular">Laptop Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.LaptopArrowDown;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop-arrow-down?f=duotone&amp;s=solid">Laptop Arrow Down</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.LaptopArrowDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-arrow-down?f=duotone&amp;s=thin">Laptop Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.LaptopArrowDown;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop-arrow-down?f=sharp&amp;s=light">Laptop Arrow Down</a>
         /// </summary>
@@ -2617,10 +3952,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.LaptopArrowDown;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-arrow-down?f=sharp-duotone&amp;s=light">Laptop Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.LaptopArrowDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-arrow-down?f=sharp-duotone&amp;s=regular">Laptop Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.LaptopArrowDown;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop-arrow-down?f=sharp-duotone&amp;s=solid">Laptop Arrow Down</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.LaptopArrowDown;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-arrow-down?f=sharp-duotone&amp;s=thin">Laptop Arrow Down</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.LaptopArrowDown;
     }
     /// <summary>
     /// Laptop Binary
@@ -2650,10 +4000,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.LaptopBinary;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-binary?f=duotone&amp;s=light">Laptop Binary</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.LaptopBinary;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-binary?f=duotone&amp;s=regular">Laptop Binary</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.LaptopBinary;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop-binary?f=duotone&amp;s=solid">Laptop Binary</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.LaptopBinary;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-binary?f=duotone&amp;s=thin">Laptop Binary</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.LaptopBinary;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop-binary?f=sharp&amp;s=light">Laptop Binary</a>
         /// </summary>
@@ -2675,10 +4040,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.LaptopBinary;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-binary?f=sharp-duotone&amp;s=light">Laptop Binary</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.LaptopBinary;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-binary?f=sharp-duotone&amp;s=regular">Laptop Binary</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.LaptopBinary;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop-binary?f=sharp-duotone&amp;s=solid">Laptop Binary</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.LaptopBinary;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-binary?f=sharp-duotone&amp;s=thin">Laptop Binary</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.LaptopBinary;
     }
     /// <summary>
     /// Laptop File
@@ -2708,10 +4088,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.LaptopFile;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-file?f=duotone&amp;s=light">Laptop File</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.LaptopFile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-file?f=duotone&amp;s=regular">Laptop File</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.LaptopFile;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop-file?f=duotone&amp;s=solid">Laptop File</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.LaptopFile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-file?f=duotone&amp;s=thin">Laptop File</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.LaptopFile;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop-file?f=sharp&amp;s=light">Laptop File</a>
         /// </summary>
@@ -2733,10 +4128,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.LaptopFile;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-file?f=sharp-duotone&amp;s=light">Laptop File</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.LaptopFile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-file?f=sharp-duotone&amp;s=regular">Laptop File</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.LaptopFile;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop-file?f=sharp-duotone&amp;s=solid">Laptop File</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.LaptopFile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-file?f=sharp-duotone&amp;s=thin">Laptop File</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.LaptopFile;
     }
     /// <summary>
     /// Laptop Mobile
@@ -2766,10 +4176,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.LaptopMobile;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-mobile?f=duotone&amp;s=light">Laptop Mobile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.LaptopMobile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-mobile?f=duotone&amp;s=regular">Laptop Mobile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.LaptopMobile;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop-mobile?f=duotone&amp;s=solid">Laptop Mobile</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.LaptopMobile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-mobile?f=duotone&amp;s=thin">Laptop Mobile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.LaptopMobile;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop-mobile?f=sharp&amp;s=light">Laptop Mobile</a>
         /// </summary>
@@ -2791,10 +4216,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.LaptopMobile;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-mobile?f=sharp-duotone&amp;s=light">Laptop Mobile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.LaptopMobile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-mobile?f=sharp-duotone&amp;s=regular">Laptop Mobile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.LaptopMobile;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop-mobile?f=sharp-duotone&amp;s=solid">Laptop Mobile</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.LaptopMobile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-mobile?f=sharp-duotone&amp;s=thin">Laptop Mobile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.LaptopMobile;
     }
     /// <summary>
     /// Laptop Slash
@@ -2824,10 +4264,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.LaptopSlash;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-slash?f=duotone&amp;s=light">Laptop Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.LaptopSlash;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-slash?f=duotone&amp;s=regular">Laptop Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.LaptopSlash;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop-slash?f=duotone&amp;s=solid">Laptop Slash</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.LaptopSlash;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-slash?f=duotone&amp;s=thin">Laptop Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.LaptopSlash;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop-slash?f=sharp&amp;s=light">Laptop Slash</a>
         /// </summary>
@@ -2849,10 +4304,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.LaptopSlash;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-slash?f=sharp-duotone&amp;s=light">Laptop Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.LaptopSlash;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-slash?f=sharp-duotone&amp;s=regular">Laptop Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.LaptopSlash;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/laptop-slash?f=sharp-duotone&amp;s=solid">Laptop Slash</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.LaptopSlash;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/laptop-slash?f=sharp-duotone&amp;s=thin">Laptop Slash</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.LaptopSlash;
     }
     /// <summary>
     /// Memory
@@ -2882,10 +4352,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Memory;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/memory?f=duotone&amp;s=light">Memory</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Memory;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/memory?f=duotone&amp;s=regular">Memory</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Memory;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/memory?f=duotone&amp;s=solid">Memory</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Memory;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/memory?f=duotone&amp;s=thin">Memory</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Memory;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/memory?f=sharp&amp;s=light">Memory</a>
         /// </summary>
@@ -2907,10 +4392,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Memory;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/memory?f=sharp-duotone&amp;s=light">Memory</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Memory;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/memory?f=sharp-duotone&amp;s=regular">Memory</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Memory;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/memory?f=sharp-duotone&amp;s=solid">Memory</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Memory;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/memory?f=sharp-duotone&amp;s=thin">Memory</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Memory;
     }
     /// <summary>
     /// Meter
@@ -2940,10 +4440,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Meter;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/meter?f=duotone&amp;s=light">Meter</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Meter;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/meter?f=duotone&amp;s=regular">Meter</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Meter;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/meter?f=duotone&amp;s=solid">Meter</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Meter;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/meter?f=duotone&amp;s=thin">Meter</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Meter;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/meter?f=sharp&amp;s=light">Meter</a>
         /// </summary>
@@ -2965,10 +4480,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Meter;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/meter?f=sharp-duotone&amp;s=light">Meter</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Meter;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/meter?f=sharp-duotone&amp;s=regular">Meter</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Meter;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/meter?f=sharp-duotone&amp;s=solid">Meter</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Meter;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/meter?f=sharp-duotone&amp;s=thin">Meter</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Meter;
     }
     /// <summary>
     /// Microchip
@@ -2998,10 +4528,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Microchip;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/microchip?f=duotone&amp;s=light">Microchip</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Microchip;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/microchip?f=duotone&amp;s=regular">Microchip</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Microchip;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/microchip?f=duotone&amp;s=solid">Microchip</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Microchip;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/microchip?f=duotone&amp;s=thin">Microchip</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Microchip;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/microchip?f=sharp&amp;s=light">Microchip</a>
         /// </summary>
@@ -3023,10 +4568,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Microchip;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/microchip?f=sharp-duotone&amp;s=light">Microchip</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Microchip;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/microchip?f=sharp-duotone&amp;s=regular">Microchip</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Microchip;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/microchip?f=sharp-duotone&amp;s=solid">Microchip</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Microchip;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/microchip?f=sharp-duotone&amp;s=thin">Microchip</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Microchip;
     }
     /// <summary>
     /// Microchip Ai
@@ -3056,10 +4616,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.MicrochipAi;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/microchip-ai?f=duotone&amp;s=light">Microchip Ai</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.MicrochipAi;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/microchip-ai?f=duotone&amp;s=regular">Microchip Ai</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.MicrochipAi;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/microchip-ai?f=duotone&amp;s=solid">Microchip Ai</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.MicrochipAi;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/microchip-ai?f=duotone&amp;s=thin">Microchip Ai</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.MicrochipAi;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/microchip-ai?f=sharp&amp;s=light">Microchip Ai</a>
         /// </summary>
@@ -3081,10 +4656,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.MicrochipAi;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/microchip-ai?f=sharp-duotone&amp;s=light">Microchip Ai</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.MicrochipAi;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/microchip-ai?f=sharp-duotone&amp;s=regular">Microchip Ai</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.MicrochipAi;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/microchip-ai?f=sharp-duotone&amp;s=solid">Microchip Ai</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.MicrochipAi;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/microchip-ai?f=sharp-duotone&amp;s=thin">Microchip Ai</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.MicrochipAi;
     }
     /// <summary>
     /// Mobile
@@ -3114,10 +4704,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Mobile;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile?f=duotone&amp;s=light">Mobile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Mobile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile?f=duotone&amp;s=regular">Mobile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Mobile;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile?f=duotone&amp;s=solid">Mobile</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Mobile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile?f=duotone&amp;s=thin">Mobile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Mobile;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile?f=sharp&amp;s=light">Mobile</a>
         /// </summary>
@@ -3139,10 +4744,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Mobile;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile?f=sharp-duotone&amp;s=light">Mobile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Mobile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile?f=sharp-duotone&amp;s=regular">Mobile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Mobile;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile?f=sharp-duotone&amp;s=solid">Mobile</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Mobile;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile?f=sharp-duotone&amp;s=thin">Mobile</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Mobile;
     }
     /// <summary>
     /// Mobile Button
@@ -3172,10 +4792,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.MobileButton;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-button?f=duotone&amp;s=light">Mobile Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.MobileButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-button?f=duotone&amp;s=regular">Mobile Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.MobileButton;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-button?f=duotone&amp;s=solid">Mobile Button</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.MobileButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-button?f=duotone&amp;s=thin">Mobile Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.MobileButton;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-button?f=sharp&amp;s=light">Mobile Button</a>
         /// </summary>
@@ -3197,10 +4832,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.MobileButton;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-button?f=sharp-duotone&amp;s=light">Mobile Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.MobileButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-button?f=sharp-duotone&amp;s=regular">Mobile Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.MobileButton;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-button?f=sharp-duotone&amp;s=solid">Mobile Button</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.MobileButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-button?f=sharp-duotone&amp;s=thin">Mobile Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.MobileButton;
     }
     /// <summary>
     /// Mobile Notch
@@ -3230,10 +4880,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.MobileNotch;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-notch?f=duotone&amp;s=light">Mobile Notch</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.MobileNotch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-notch?f=duotone&amp;s=regular">Mobile Notch</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.MobileNotch;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-notch?f=duotone&amp;s=solid">Mobile Notch</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.MobileNotch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-notch?f=duotone&amp;s=thin">Mobile Notch</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.MobileNotch;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-notch?f=sharp&amp;s=light">Mobile Notch</a>
         /// </summary>
@@ -3255,10 +4920,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.MobileNotch;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-notch?f=sharp-duotone&amp;s=light">Mobile Notch</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.MobileNotch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-notch?f=sharp-duotone&amp;s=regular">Mobile Notch</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.MobileNotch;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-notch?f=sharp-duotone&amp;s=solid">Mobile Notch</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.MobileNotch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-notch?f=sharp-duotone&amp;s=thin">Mobile Notch</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.MobileNotch;
     }
     /// <summary>
     /// Mobile Retro
@@ -3288,10 +4968,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.MobileRetro;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-retro?f=duotone&amp;s=light">Mobile Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.MobileRetro;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-retro?f=duotone&amp;s=regular">Mobile Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.MobileRetro;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-retro?f=duotone&amp;s=solid">Mobile Retro</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.MobileRetro;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-retro?f=duotone&amp;s=thin">Mobile Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.MobileRetro;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-retro?f=sharp&amp;s=light">Mobile Retro</a>
         /// </summary>
@@ -3313,10 +5008,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.MobileRetro;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-retro?f=sharp-duotone&amp;s=light">Mobile Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.MobileRetro;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-retro?f=sharp-duotone&amp;s=regular">Mobile Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.MobileRetro;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-retro?f=sharp-duotone&amp;s=solid">Mobile Retro</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.MobileRetro;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-retro?f=sharp-duotone&amp;s=thin">Mobile Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.MobileRetro;
     }
     /// <summary>
     /// Mobile Screen
@@ -3346,10 +5056,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.MobileScreen;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-screen?f=duotone&amp;s=light">Mobile Screen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.MobileScreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-screen?f=duotone&amp;s=regular">Mobile Screen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.MobileScreen;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-screen?f=duotone&amp;s=solid">Mobile Screen</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.MobileScreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-screen?f=duotone&amp;s=thin">Mobile Screen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.MobileScreen;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-screen?f=sharp&amp;s=light">Mobile Screen</a>
         /// </summary>
@@ -3371,10 +5096,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.MobileScreen;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-screen?f=sharp-duotone&amp;s=light">Mobile Screen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.MobileScreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-screen?f=sharp-duotone&amp;s=regular">Mobile Screen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.MobileScreen;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-screen?f=sharp-duotone&amp;s=solid">Mobile Screen</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.MobileScreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-screen?f=sharp-duotone&amp;s=thin">Mobile Screen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.MobileScreen;
     }
     /// <summary>
     /// Mobile Screen Button
@@ -3404,10 +5144,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.MobileScreenButton;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-screen-button?f=duotone&amp;s=light">Mobile Screen Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.MobileScreenButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-screen-button?f=duotone&amp;s=regular">Mobile Screen Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.MobileScreenButton;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-screen-button?f=duotone&amp;s=solid">Mobile Screen Button</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.MobileScreenButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-screen-button?f=duotone&amp;s=thin">Mobile Screen Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.MobileScreenButton;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-screen-button?f=sharp&amp;s=light">Mobile Screen Button</a>
         /// </summary>
@@ -3429,10 +5184,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.MobileScreenButton;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-screen-button?f=sharp-duotone&amp;s=light">Mobile Screen Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.MobileScreenButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-screen-button?f=sharp-duotone&amp;s=regular">Mobile Screen Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.MobileScreenButton;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-screen-button?f=sharp-duotone&amp;s=solid">Mobile Screen Button</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.MobileScreenButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-screen-button?f=sharp-duotone&amp;s=thin">Mobile Screen Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.MobileScreenButton;
     }
     /// <summary>
     /// Mobile Signal
@@ -3462,10 +5232,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.MobileSignal;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-signal?f=duotone&amp;s=light">Mobile Signal</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.MobileSignal;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-signal?f=duotone&amp;s=regular">Mobile Signal</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.MobileSignal;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-signal?f=duotone&amp;s=solid">Mobile Signal</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.MobileSignal;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-signal?f=duotone&amp;s=thin">Mobile Signal</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.MobileSignal;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-signal?f=sharp&amp;s=light">Mobile Signal</a>
         /// </summary>
@@ -3487,10 +5272,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.MobileSignal;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-signal?f=sharp-duotone&amp;s=light">Mobile Signal</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.MobileSignal;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-signal?f=sharp-duotone&amp;s=regular">Mobile Signal</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.MobileSignal;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-signal?f=sharp-duotone&amp;s=solid">Mobile Signal</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.MobileSignal;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-signal?f=sharp-duotone&amp;s=thin">Mobile Signal</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.MobileSignal;
     }
     /// <summary>
     /// Mobile Signal Out
@@ -3520,10 +5320,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.MobileSignalOut;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=duotone&amp;s=light">Mobile Signal Out</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.MobileSignalOut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=duotone&amp;s=regular">Mobile Signal Out</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.MobileSignalOut;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=duotone&amp;s=solid">Mobile Signal Out</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.MobileSignalOut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=duotone&amp;s=thin">Mobile Signal Out</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.MobileSignalOut;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=sharp&amp;s=light">Mobile Signal Out</a>
         /// </summary>
@@ -3545,10 +5360,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.MobileSignalOut;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=sharp-duotone&amp;s=light">Mobile Signal Out</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.MobileSignalOut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=sharp-duotone&amp;s=regular">Mobile Signal Out</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.MobileSignalOut;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=sharp-duotone&amp;s=solid">Mobile Signal Out</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.MobileSignalOut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mobile-signal-out?f=sharp-duotone&amp;s=thin">Mobile Signal Out</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.MobileSignalOut;
     }
     /// <summary>
     /// Mp3 Player
@@ -3578,10 +5408,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Mp3Player;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mp3-player?f=duotone&amp;s=light">Mp3 Player</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Mp3Player;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mp3-player?f=duotone&amp;s=regular">Mp3 Player</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Mp3Player;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mp3-player?f=duotone&amp;s=solid">Mp3 Player</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Mp3Player;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mp3-player?f=duotone&amp;s=thin">Mp3 Player</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Mp3Player;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/mp3-player?f=sharp&amp;s=light">Mp3 Player</a>
         /// </summary>
@@ -3603,10 +5448,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Mp3Player;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mp3-player?f=sharp-duotone&amp;s=light">Mp3 Player</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Mp3Player;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mp3-player?f=sharp-duotone&amp;s=regular">Mp3 Player</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Mp3Player;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mp3-player?f=sharp-duotone&amp;s=solid">Mp3 Player</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Mp3Player;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mp3-player?f=sharp-duotone&amp;s=thin">Mp3 Player</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Mp3Player;
     }
     /// <summary>
     /// Phone Office
@@ -3636,10 +5496,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.PhoneOffice;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/phone-office?f=duotone&amp;s=light">Phone Office</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.PhoneOffice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/phone-office?f=duotone&amp;s=regular">Phone Office</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.PhoneOffice;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/phone-office?f=duotone&amp;s=solid">Phone Office</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.PhoneOffice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/phone-office?f=duotone&amp;s=thin">Phone Office</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.PhoneOffice;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/phone-office?f=sharp&amp;s=light">Phone Office</a>
         /// </summary>
@@ -3661,10 +5536,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.PhoneOffice;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/phone-office?f=sharp-duotone&amp;s=light">Phone Office</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.PhoneOffice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/phone-office?f=sharp-duotone&amp;s=regular">Phone Office</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.PhoneOffice;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/phone-office?f=sharp-duotone&amp;s=solid">Phone Office</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.PhoneOffice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/phone-office?f=sharp-duotone&amp;s=thin">Phone Office</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.PhoneOffice;
     }
     /// <summary>
     /// Plug
@@ -3694,10 +5584,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Plug;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/plug?f=duotone&amp;s=light">Plug</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Plug;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/plug?f=duotone&amp;s=regular">Plug</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Plug;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/plug?f=duotone&amp;s=solid">Plug</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Plug;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/plug?f=duotone&amp;s=thin">Plug</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Plug;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/plug?f=sharp&amp;s=light">Plug</a>
         /// </summary>
@@ -3719,10 +5624,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Plug;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/plug?f=sharp-duotone&amp;s=light">Plug</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Plug;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/plug?f=sharp-duotone&amp;s=regular">Plug</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Plug;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/plug?f=sharp-duotone&amp;s=solid">Plug</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Plug;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/plug?f=sharp-duotone&amp;s=thin">Plug</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Plug;
     }
     /// <summary>
     /// Power Off
@@ -3752,10 +5672,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.PowerOff;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/power-off?f=duotone&amp;s=light">Power Off</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.PowerOff;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/power-off?f=duotone&amp;s=regular">Power Off</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.PowerOff;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/power-off?f=duotone&amp;s=solid">Power Off</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.PowerOff;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/power-off?f=duotone&amp;s=thin">Power Off</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.PowerOff;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/power-off?f=sharp&amp;s=light">Power Off</a>
         /// </summary>
@@ -3777,10 +5712,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.PowerOff;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/power-off?f=sharp-duotone&amp;s=light">Power Off</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.PowerOff;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/power-off?f=sharp-duotone&amp;s=regular">Power Off</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.PowerOff;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/power-off?f=sharp-duotone&amp;s=solid">Power Off</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.PowerOff;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/power-off?f=sharp-duotone&amp;s=thin">Power Off</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.PowerOff;
     }
     /// <summary>
     /// Print
@@ -3810,10 +5760,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Print;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/print?f=duotone&amp;s=light">Print</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Print;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/print?f=duotone&amp;s=regular">Print</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Print;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/print?f=duotone&amp;s=solid">Print</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Print;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/print?f=duotone&amp;s=thin">Print</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Print;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/print?f=sharp&amp;s=light">Print</a>
         /// </summary>
@@ -3835,10 +5800,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Print;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/print?f=sharp-duotone&amp;s=light">Print</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Print;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/print?f=sharp-duotone&amp;s=regular">Print</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Print;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/print?f=sharp-duotone&amp;s=solid">Print</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Print;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/print?f=sharp-duotone&amp;s=thin">Print</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Print;
     }
     /// <summary>
     /// Projector
@@ -3868,10 +5848,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Projector;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/projector?f=duotone&amp;s=light">Projector</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Projector;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/projector?f=duotone&amp;s=regular">Projector</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Projector;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/projector?f=duotone&amp;s=solid">Projector</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Projector;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/projector?f=duotone&amp;s=thin">Projector</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Projector;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/projector?f=sharp&amp;s=light">Projector</a>
         /// </summary>
@@ -3893,10 +5888,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Projector;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/projector?f=sharp-duotone&amp;s=light">Projector</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Projector;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/projector?f=sharp-duotone&amp;s=regular">Projector</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Projector;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/projector?f=sharp-duotone&amp;s=solid">Projector</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Projector;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/projector?f=sharp-duotone&amp;s=thin">Projector</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Projector;
     }
     /// <summary>
     /// Router
@@ -3926,10 +5936,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Router;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/router?f=duotone&amp;s=light">Router</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Router;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/router?f=duotone&amp;s=regular">Router</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Router;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/router?f=duotone&amp;s=solid">Router</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Router;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/router?f=duotone&amp;s=thin">Router</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Router;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/router?f=sharp&amp;s=light">Router</a>
         /// </summary>
@@ -3951,10 +5976,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Router;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/router?f=sharp-duotone&amp;s=light">Router</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Router;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/router?f=sharp-duotone&amp;s=regular">Router</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Router;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/router?f=sharp-duotone&amp;s=solid">Router</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Router;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/router?f=sharp-duotone&amp;s=thin">Router</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Router;
     }
     /// <summary>
     /// Satellite
@@ -3984,10 +6024,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Satellite;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/satellite?f=duotone&amp;s=light">Satellite</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Satellite;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/satellite?f=duotone&amp;s=regular">Satellite</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Satellite;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/satellite?f=duotone&amp;s=solid">Satellite</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Satellite;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/satellite?f=duotone&amp;s=thin">Satellite</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Satellite;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/satellite?f=sharp&amp;s=light">Satellite</a>
         /// </summary>
@@ -4009,10 +6064,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Satellite;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/satellite?f=sharp-duotone&amp;s=light">Satellite</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Satellite;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/satellite?f=sharp-duotone&amp;s=regular">Satellite</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Satellite;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/satellite?f=sharp-duotone&amp;s=solid">Satellite</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Satellite;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/satellite?f=sharp-duotone&amp;s=thin">Satellite</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Satellite;
     }
     /// <summary>
     /// Satellite Dish
@@ -4042,10 +6112,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SatelliteDish;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/satellite-dish?f=duotone&amp;s=light">Satellite Dish</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.SatelliteDish;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/satellite-dish?f=duotone&amp;s=regular">Satellite Dish</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.SatelliteDish;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/satellite-dish?f=duotone&amp;s=solid">Satellite Dish</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.SatelliteDish;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/satellite-dish?f=duotone&amp;s=thin">Satellite Dish</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.SatelliteDish;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/satellite-dish?f=sharp&amp;s=light">Satellite Dish</a>
         /// </summary>
@@ -4067,10 +6152,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SatelliteDish;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/satellite-dish?f=sharp-duotone&amp;s=light">Satellite Dish</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.SatelliteDish;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/satellite-dish?f=sharp-duotone&amp;s=regular">Satellite Dish</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.SatelliteDish;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/satellite-dish?f=sharp-duotone&amp;s=solid">Satellite Dish</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.SatelliteDish;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/satellite-dish?f=sharp-duotone&amp;s=thin">Satellite Dish</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.SatelliteDish;
     }
     /// <summary>
     /// Scanner Image
@@ -4100,10 +6200,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.ScannerImage;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/scanner-image?f=duotone&amp;s=light">Scanner Image</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.ScannerImage;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/scanner-image?f=duotone&amp;s=regular">Scanner Image</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.ScannerImage;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/scanner-image?f=duotone&amp;s=solid">Scanner Image</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.ScannerImage;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/scanner-image?f=duotone&amp;s=thin">Scanner Image</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.ScannerImage;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/scanner-image?f=sharp&amp;s=light">Scanner Image</a>
         /// </summary>
@@ -4125,10 +6240,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.ScannerImage;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/scanner-image?f=sharp-duotone&amp;s=light">Scanner Image</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.ScannerImage;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/scanner-image?f=sharp-duotone&amp;s=regular">Scanner Image</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.ScannerImage;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/scanner-image?f=sharp-duotone&amp;s=solid">Scanner Image</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.ScannerImage;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/scanner-image?f=sharp-duotone&amp;s=thin">Scanner Image</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.ScannerImage;
     }
     /// <summary>
     /// Sd Card
@@ -4158,10 +6288,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SdCard;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/sd-card?f=duotone&amp;s=light">Sd Card</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.SdCard;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sd-card?f=duotone&amp;s=regular">Sd Card</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.SdCard;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/sd-card?f=duotone&amp;s=solid">Sd Card</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.SdCard;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sd-card?f=duotone&amp;s=thin">Sd Card</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.SdCard;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/sd-card?f=sharp&amp;s=light">Sd Card</a>
         /// </summary>
@@ -4183,10 +6328,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SdCard;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/sd-card?f=sharp-duotone&amp;s=light">Sd Card</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.SdCard;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sd-card?f=sharp-duotone&amp;s=regular">Sd Card</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.SdCard;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/sd-card?f=sharp-duotone&amp;s=solid">Sd Card</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.SdCard;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sd-card?f=sharp-duotone&amp;s=thin">Sd Card</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.SdCard;
     }
     /// <summary>
     /// Sd Cards
@@ -4216,10 +6376,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SdCards;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/sd-cards?f=duotone&amp;s=light">Sd Cards</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.SdCards;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sd-cards?f=duotone&amp;s=regular">Sd Cards</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.SdCards;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/sd-cards?f=duotone&amp;s=solid">Sd Cards</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.SdCards;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sd-cards?f=duotone&amp;s=thin">Sd Cards</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.SdCards;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/sd-cards?f=sharp&amp;s=light">Sd Cards</a>
         /// </summary>
@@ -4241,10 +6416,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SdCards;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/sd-cards?f=sharp-duotone&amp;s=light">Sd Cards</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.SdCards;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sd-cards?f=sharp-duotone&amp;s=regular">Sd Cards</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.SdCards;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/sd-cards?f=sharp-duotone&amp;s=solid">Sd Cards</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.SdCards;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sd-cards?f=sharp-duotone&amp;s=thin">Sd Cards</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.SdCards;
     }
     /// <summary>
     /// Server
@@ -4274,10 +6464,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Server;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/server?f=duotone&amp;s=light">Server</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Server;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/server?f=duotone&amp;s=regular">Server</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Server;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/server?f=duotone&amp;s=solid">Server</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Server;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/server?f=duotone&amp;s=thin">Server</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Server;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/server?f=sharp&amp;s=light">Server</a>
         /// </summary>
@@ -4299,10 +6504,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Server;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/server?f=sharp-duotone&amp;s=light">Server</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Server;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/server?f=sharp-duotone&amp;s=regular">Server</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Server;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/server?f=sharp-duotone&amp;s=solid">Server</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Server;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/server?f=sharp-duotone&amp;s=thin">Server</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Server;
     }
     /// <summary>
     /// Shredder
@@ -4332,10 +6552,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Shredder;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/shredder?f=duotone&amp;s=light">Shredder</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Shredder;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/shredder?f=duotone&amp;s=regular">Shredder</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Shredder;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/shredder?f=duotone&amp;s=solid">Shredder</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Shredder;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/shredder?f=duotone&amp;s=thin">Shredder</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Shredder;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/shredder?f=sharp&amp;s=light">Shredder</a>
         /// </summary>
@@ -4357,10 +6592,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Shredder;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/shredder?f=sharp-duotone&amp;s=light">Shredder</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Shredder;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/shredder?f=sharp-duotone&amp;s=regular">Shredder</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Shredder;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/shredder?f=sharp-duotone&amp;s=solid">Shredder</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Shredder;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/shredder?f=sharp-duotone&amp;s=thin">Shredder</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Shredder;
     }
     /// <summary>
     /// Sim Card
@@ -4390,10 +6640,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SimCard;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/sim-card?f=duotone&amp;s=light">Sim Card</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.SimCard;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sim-card?f=duotone&amp;s=regular">Sim Card</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.SimCard;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/sim-card?f=duotone&amp;s=solid">Sim Card</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.SimCard;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sim-card?f=duotone&amp;s=thin">Sim Card</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.SimCard;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/sim-card?f=sharp&amp;s=light">Sim Card</a>
         /// </summary>
@@ -4415,10 +6680,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SimCard;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/sim-card?f=sharp-duotone&amp;s=light">Sim Card</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.SimCard;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sim-card?f=sharp-duotone&amp;s=regular">Sim Card</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.SimCard;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/sim-card?f=sharp-duotone&amp;s=solid">Sim Card</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.SimCard;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sim-card?f=sharp-duotone&amp;s=thin">Sim Card</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.SimCard;
     }
     /// <summary>
     /// Sim Cards
@@ -4448,10 +6728,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.SimCards;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/sim-cards?f=duotone&amp;s=light">Sim Cards</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.SimCards;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sim-cards?f=duotone&amp;s=regular">Sim Cards</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.SimCards;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/sim-cards?f=duotone&amp;s=solid">Sim Cards</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.SimCards;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sim-cards?f=duotone&amp;s=thin">Sim Cards</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.SimCards;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/sim-cards?f=sharp&amp;s=light">Sim Cards</a>
         /// </summary>
@@ -4473,10 +6768,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.SimCards;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/sim-cards?f=sharp-duotone&amp;s=light">Sim Cards</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.SimCards;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sim-cards?f=sharp-duotone&amp;s=regular">Sim Cards</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.SimCards;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/sim-cards?f=sharp-duotone&amp;s=solid">Sim Cards</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.SimCards;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/sim-cards?f=sharp-duotone&amp;s=thin">Sim Cards</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.SimCards;
     }
     /// <summary>
     /// Speaker
@@ -4506,10 +6816,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Speaker;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/speaker?f=duotone&amp;s=light">Speaker</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Speaker;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/speaker?f=duotone&amp;s=regular">Speaker</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Speaker;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/speaker?f=duotone&amp;s=solid">Speaker</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Speaker;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/speaker?f=duotone&amp;s=thin">Speaker</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Speaker;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/speaker?f=sharp&amp;s=light">Speaker</a>
         /// </summary>
@@ -4531,10 +6856,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Speaker;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/speaker?f=sharp-duotone&amp;s=light">Speaker</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Speaker;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/speaker?f=sharp-duotone&amp;s=regular">Speaker</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Speaker;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/speaker?f=sharp-duotone&amp;s=solid">Speaker</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Speaker;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/speaker?f=sharp-duotone&amp;s=thin">Speaker</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Speaker;
     }
     /// <summary>
     /// Speakers
@@ -4564,10 +6904,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Speakers;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/speakers?f=duotone&amp;s=light">Speakers</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Speakers;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/speakers?f=duotone&amp;s=regular">Speakers</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Speakers;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/speakers?f=duotone&amp;s=solid">Speakers</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Speakers;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/speakers?f=duotone&amp;s=thin">Speakers</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Speakers;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/speakers?f=sharp&amp;s=light">Speakers</a>
         /// </summary>
@@ -4589,10 +6944,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Speakers;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/speakers?f=sharp-duotone&amp;s=light">Speakers</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Speakers;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/speakers?f=sharp-duotone&amp;s=regular">Speakers</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Speakers;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/speakers?f=sharp-duotone&amp;s=solid">Speakers</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Speakers;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/speakers?f=sharp-duotone&amp;s=thin">Speakers</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Speakers;
     }
     /// <summary>
     /// Tablet
@@ -4622,10 +6992,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Tablet;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet?f=duotone&amp;s=light">Tablet</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Tablet;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet?f=duotone&amp;s=regular">Tablet</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Tablet;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tablet?f=duotone&amp;s=solid">Tablet</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Tablet;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet?f=duotone&amp;s=thin">Tablet</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Tablet;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tablet?f=sharp&amp;s=light">Tablet</a>
         /// </summary>
@@ -4647,10 +7032,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Tablet;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet?f=sharp-duotone&amp;s=light">Tablet</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Tablet;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet?f=sharp-duotone&amp;s=regular">Tablet</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Tablet;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tablet?f=sharp-duotone&amp;s=solid">Tablet</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Tablet;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet?f=sharp-duotone&amp;s=thin">Tablet</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Tablet;
     }
     /// <summary>
     /// Tablet Button
@@ -4680,10 +7080,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.TabletButton;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-button?f=duotone&amp;s=light">Tablet Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.TabletButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-button?f=duotone&amp;s=regular">Tablet Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.TabletButton;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tablet-button?f=duotone&amp;s=solid">Tablet Button</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.TabletButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-button?f=duotone&amp;s=thin">Tablet Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.TabletButton;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tablet-button?f=sharp&amp;s=light">Tablet Button</a>
         /// </summary>
@@ -4705,10 +7120,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.TabletButton;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-button?f=sharp-duotone&amp;s=light">Tablet Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.TabletButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-button?f=sharp-duotone&amp;s=regular">Tablet Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.TabletButton;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tablet-button?f=sharp-duotone&amp;s=solid">Tablet Button</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.TabletButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-button?f=sharp-duotone&amp;s=thin">Tablet Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.TabletButton;
     }
     /// <summary>
     /// Tablet Screen
@@ -4738,10 +7168,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.TabletScreen;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-screen?f=duotone&amp;s=light">Tablet Screen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.TabletScreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-screen?f=duotone&amp;s=regular">Tablet Screen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.TabletScreen;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tablet-screen?f=duotone&amp;s=solid">Tablet Screen</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.TabletScreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-screen?f=duotone&amp;s=thin">Tablet Screen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.TabletScreen;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tablet-screen?f=sharp&amp;s=light">Tablet Screen</a>
         /// </summary>
@@ -4763,10 +7208,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.TabletScreen;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-screen?f=sharp-duotone&amp;s=light">Tablet Screen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.TabletScreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-screen?f=sharp-duotone&amp;s=regular">Tablet Screen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.TabletScreen;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tablet-screen?f=sharp-duotone&amp;s=solid">Tablet Screen</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.TabletScreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-screen?f=sharp-duotone&amp;s=thin">Tablet Screen</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.TabletScreen;
     }
     /// <summary>
     /// Tablet Screen Button
@@ -4796,10 +7256,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.TabletScreenButton;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-screen-button?f=duotone&amp;s=light">Tablet Screen Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.TabletScreenButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-screen-button?f=duotone&amp;s=regular">Tablet Screen Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.TabletScreenButton;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tablet-screen-button?f=duotone&amp;s=solid">Tablet Screen Button</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.TabletScreenButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-screen-button?f=duotone&amp;s=thin">Tablet Screen Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.TabletScreenButton;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tablet-screen-button?f=sharp&amp;s=light">Tablet Screen Button</a>
         /// </summary>
@@ -4821,10 +7296,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.TabletScreenButton;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-screen-button?f=sharp-duotone&amp;s=light">Tablet Screen Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.TabletScreenButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-screen-button?f=sharp-duotone&amp;s=regular">Tablet Screen Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.TabletScreenButton;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tablet-screen-button?f=sharp-duotone&amp;s=solid">Tablet Screen Button</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.TabletScreenButton;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tablet-screen-button?f=sharp-duotone&amp;s=thin">Tablet Screen Button</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.TabletScreenButton;
     }
     /// <summary>
     /// Tachograph Digital
@@ -4854,10 +7344,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.TachographDigital;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tachograph-digital?f=duotone&amp;s=light">Tachograph Digital</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.TachographDigital;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tachograph-digital?f=duotone&amp;s=regular">Tachograph Digital</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.TachographDigital;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tachograph-digital?f=duotone&amp;s=solid">Tachograph Digital</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.TachographDigital;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tachograph-digital?f=duotone&amp;s=thin">Tachograph Digital</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.TachographDigital;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tachograph-digital?f=sharp&amp;s=light">Tachograph Digital</a>
         /// </summary>
@@ -4879,10 +7384,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.TachographDigital;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tachograph-digital?f=sharp-duotone&amp;s=light">Tachograph Digital</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.TachographDigital;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tachograph-digital?f=sharp-duotone&amp;s=regular">Tachograph Digital</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.TachographDigital;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tachograph-digital?f=sharp-duotone&amp;s=solid">Tachograph Digital</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.TachographDigital;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tachograph-digital?f=sharp-duotone&amp;s=thin">Tachograph Digital</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.TachographDigital;
     }
     /// <summary>
     /// Tv
@@ -4912,10 +7432,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Tv;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv?f=duotone&amp;s=light">Tv</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Tv;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv?f=duotone&amp;s=regular">Tv</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Tv;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tv?f=duotone&amp;s=solid">Tv</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Tv;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv?f=duotone&amp;s=thin">Tv</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Tv;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tv?f=sharp&amp;s=light">Tv</a>
         /// </summary>
@@ -4937,10 +7472,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Tv;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv?f=sharp-duotone&amp;s=light">Tv</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Tv;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv?f=sharp-duotone&amp;s=regular">Tv</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Tv;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tv?f=sharp-duotone&amp;s=solid">Tv</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Tv;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv?f=sharp-duotone&amp;s=thin">Tv</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Tv;
     }
     /// <summary>
     /// Tv Music
@@ -4970,10 +7520,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.TvMusic;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv-music?f=duotone&amp;s=light">Tv Music</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.TvMusic;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv-music?f=duotone&amp;s=regular">Tv Music</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.TvMusic;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tv-music?f=duotone&amp;s=solid">Tv Music</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.TvMusic;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv-music?f=duotone&amp;s=thin">Tv Music</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.TvMusic;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tv-music?f=sharp&amp;s=light">Tv Music</a>
         /// </summary>
@@ -4995,10 +7560,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.TvMusic;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv-music?f=sharp-duotone&amp;s=light">Tv Music</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.TvMusic;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv-music?f=sharp-duotone&amp;s=regular">Tv Music</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.TvMusic;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tv-music?f=sharp-duotone&amp;s=solid">Tv Music</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.TvMusic;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv-music?f=sharp-duotone&amp;s=thin">Tv Music</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.TvMusic;
     }
     /// <summary>
     /// Tv Retro
@@ -5028,10 +7608,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.TvRetro;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv-retro?f=duotone&amp;s=light">Tv Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.TvRetro;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv-retro?f=duotone&amp;s=regular">Tv Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.TvRetro;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tv-retro?f=duotone&amp;s=solid">Tv Retro</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.TvRetro;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv-retro?f=duotone&amp;s=thin">Tv Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.TvRetro;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tv-retro?f=sharp&amp;s=light">Tv Retro</a>
         /// </summary>
@@ -5053,10 +7648,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.TvRetro;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv-retro?f=sharp-duotone&amp;s=light">Tv Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.TvRetro;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv-retro?f=sharp-duotone&amp;s=regular">Tv Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.TvRetro;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tv-retro?f=sharp-duotone&amp;s=solid">Tv Retro</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.TvRetro;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tv-retro?f=sharp-duotone&amp;s=thin">Tv Retro</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.TvRetro;
     }
     /// <summary>
     /// Typewriter
@@ -5086,10 +7696,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Typewriter;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/typewriter?f=duotone&amp;s=light">Typewriter</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Typewriter;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/typewriter?f=duotone&amp;s=regular">Typewriter</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Typewriter;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/typewriter?f=duotone&amp;s=solid">Typewriter</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Typewriter;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/typewriter?f=duotone&amp;s=thin">Typewriter</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Typewriter;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/typewriter?f=sharp&amp;s=light">Typewriter</a>
         /// </summary>
@@ -5111,10 +7736,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Typewriter;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/typewriter?f=sharp-duotone&amp;s=light">Typewriter</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Typewriter;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/typewriter?f=sharp-duotone&amp;s=regular">Typewriter</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Typewriter;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/typewriter?f=sharp-duotone&amp;s=solid">Typewriter</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Typewriter;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/typewriter?f=sharp-duotone&amp;s=thin">Typewriter</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Typewriter;
     }
     /// <summary>
     /// Upload
@@ -5144,10 +7784,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Upload;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/upload?f=duotone&amp;s=light">Upload</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Upload;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/upload?f=duotone&amp;s=regular">Upload</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Upload;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/upload?f=duotone&amp;s=solid">Upload</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Upload;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/upload?f=duotone&amp;s=thin">Upload</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Upload;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/upload?f=sharp&amp;s=light">Upload</a>
         /// </summary>
@@ -5169,10 +7824,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Upload;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/upload?f=sharp-duotone&amp;s=light">Upload</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Upload;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/upload?f=sharp-duotone&amp;s=regular">Upload</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Upload;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/upload?f=sharp-duotone&amp;s=solid">Upload</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Upload;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/upload?f=sharp-duotone&amp;s=thin">Upload</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Upload;
     }
     /// <summary>
     /// Usb Drive
@@ -5202,10 +7872,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.UsbDrive;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/usb-drive?f=duotone&amp;s=light">Usb Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.UsbDrive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/usb-drive?f=duotone&amp;s=regular">Usb Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.UsbDrive;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/usb-drive?f=duotone&amp;s=solid">Usb Drive</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.UsbDrive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/usb-drive?f=duotone&amp;s=thin">Usb Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.UsbDrive;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/usb-drive?f=sharp&amp;s=light">Usb Drive</a>
         /// </summary>
@@ -5227,10 +7912,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.UsbDrive;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/usb-drive?f=sharp-duotone&amp;s=light">Usb Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.UsbDrive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/usb-drive?f=sharp-duotone&amp;s=regular">Usb Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.UsbDrive;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/usb-drive?f=sharp-duotone&amp;s=solid">Usb Drive</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.UsbDrive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/usb-drive?f=sharp-duotone&amp;s=thin">Usb Drive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.UsbDrive;
     }
     /// <summary>
     /// Walkie Talkie
@@ -5260,10 +7960,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.WalkieTalkie;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/walkie-talkie?f=duotone&amp;s=light">Walkie Talkie</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.WalkieTalkie;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/walkie-talkie?f=duotone&amp;s=regular">Walkie Talkie</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.WalkieTalkie;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/walkie-talkie?f=duotone&amp;s=solid">Walkie Talkie</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.WalkieTalkie;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/walkie-talkie?f=duotone&amp;s=thin">Walkie Talkie</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.WalkieTalkie;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/walkie-talkie?f=sharp&amp;s=light">Walkie Talkie</a>
         /// </summary>
@@ -5285,10 +8000,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.WalkieTalkie;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/walkie-talkie?f=sharp-duotone&amp;s=light">Walkie Talkie</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.WalkieTalkie;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/walkie-talkie?f=sharp-duotone&amp;s=regular">Walkie Talkie</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.WalkieTalkie;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/walkie-talkie?f=sharp-duotone&amp;s=solid">Walkie Talkie</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.WalkieTalkie;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/walkie-talkie?f=sharp-duotone&amp;s=thin">Walkie Talkie</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.WalkieTalkie;
     }
     /// <summary>
     /// Watch Calculator
@@ -5318,10 +8048,25 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.WatchCalculator;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/watch-calculator?f=duotone&amp;s=light">Watch Calculator</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.WatchCalculator;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watch-calculator?f=duotone&amp;s=regular">Watch Calculator</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.WatchCalculator;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/watch-calculator?f=duotone&amp;s=solid">Watch Calculator</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.WatchCalculator;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watch-calculator?f=duotone&amp;s=thin">Watch Calculator</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.WatchCalculator;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/watch-calculator?f=sharp&amp;s=light">Watch Calculator</a>
         /// </summary>
@@ -5343,9 +8088,24 @@ public static partial class FaDevicesHardware
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.WatchCalculator;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/watch-calculator?f=sharp-duotone&amp;s=light">Watch Calculator</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.WatchCalculator;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watch-calculator?f=sharp-duotone&amp;s=regular">Watch Calculator</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.WatchCalculator;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/watch-calculator?f=sharp-duotone&amp;s=solid">Watch Calculator</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.WatchCalculator;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watch-calculator?f=sharp-duotone&amp;s=thin">Watch Calculator</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.WatchCalculator;
     }
 }

@@ -1,9 +1,0 @@
-﻿{
-  Instance: {
-    Icon: {
-      Name: link
-    },
-    FixedWidth: false
-  },
-  NodeCount: 2
-}

@@ -3504,6 +3504,15 @@ public static partial class FaDuotoneSolid
     /// <a href="https://fontawesome.com/icons/caret-up?f=duotone&amp;s=solid">Caret Up</a>
     /// </summary>
     public static Icon CaretUp => f_CaretUp ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "caret-up", "f0d8");
+    private static Icon? f_Carpool;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/carpool?f=duotone&amp;s=solid">Carpool</a>
+    /// </summary>
+    public static Icon Carpool => f_Carpool ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "carpool", "e69c");
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/carpool?f=duotone&amp;s=solid">Carpool</a>
+    /// </summary>
+    public static Icon CarPeople => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Carpool;
     private static Icon? f_Carrot;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/carrot?f=duotone&amp;s=solid">Carrot</a>
@@ -3766,6 +3775,16 @@ public static partial class FaDuotoneSolid
     /// <a href="https://fontawesome.com/icons/chart-column?f=duotone&amp;s=solid">Chart Column</a>
     /// </summary>
     public static Icon ChartColumn => f_ChartColumn ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "chart-column", "e0e3");
+    private static Icon? f_ChartDiagram;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/chart-diagram?f=duotone&amp;s=solid">Chart Diagram</a>
+    /// </summary>
+    public static Icon ChartDiagram => f_ChartDiagram ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "chart-diagram", "e695");
+    private static Icon? f_ChartFft;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/chart-fft?f=duotone&amp;s=solid">Chart Fft</a>
+    /// </summary>
+    public static Icon ChartFft => f_ChartFft ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "chart-fft", "e69e");
     private static Icon? f_ChartGantt;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/chart-gantt?f=duotone&amp;s=solid">Chart Gantt</a>
@@ -3887,6 +3906,11 @@ public static partial class FaDuotoneSolid
     /// <a href="https://fontawesome.com/icons/chart-simple-horizontal?f=duotone&amp;s=solid">Chart Simple Horizontal</a>
     /// </summary>
     public static Icon ChartSimpleHorizontal => f_ChartSimpleHorizontal ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "chart-simple-horizontal", "e474");
+    private static Icon? f_ChartSine;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/chart-sine?f=duotone&amp;s=solid">Chart Sine</a>
+    /// </summary>
+    public static Icon ChartSine => f_ChartSine ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "chart-sine", "e69d");
     private static Icon? f_ChartTreeMap;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/chart-tree-map?f=duotone&amp;s=solid">Chart Tree Map</a>
@@ -4982,6 +5006,15 @@ public static partial class FaDuotoneSolid
     /// <a href="https://fontawesome.com/icons/circles-overlap?f=duotone&amp;s=solid">Circles Overlap</a>
     /// </summary>
     public static Icon CirclesOverlap => f_CirclesOverlap ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "circles-overlap", "e600");
+    private static Icon? f_CirclesOverlap3;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=duotone&amp;s=solid">Circles Overlap 3</a>
+    /// </summary>
+    public static Icon CirclesOverlap3 => f_CirclesOverlap3 ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "circles-overlap-3", "e6a1");
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=duotone&amp;s=solid">Circles Overlap 3</a>
+    /// </summary>
+    public static Icon Pronoun => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.CirclesOverlap3;
     private static Icon? f_Citrus;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/citrus?f=duotone&amp;s=solid">Citrus</a>
@@ -5661,6 +5694,11 @@ public static partial class FaDuotoneSolid
     /// <a href="https://fontawesome.com/icons/comment-music?f=duotone&amp;s=solid">Comment Music</a>
     /// </summary>
     public static Icon CommentMusic => f_CommentMusic ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "comment-music", "f8b0");
+    private static Icon? f_CommentNodes;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/comment-nodes?f=duotone&amp;s=solid">Comment Nodes</a>
+    /// </summary>
+    public static Icon CommentNodes => f_CommentNodes ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "comment-nodes", "e696");
     private static Icon? f_CommentPen;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/comment-pen?f=duotone&amp;s=solid">Comment Pen</a>
@@ -8036,11 +8074,21 @@ public static partial class FaDuotoneSolid
     /// <a href="https://fontawesome.com/icons/file-export?f=duotone&amp;s=solid">File Export</a>
     /// </summary>
     public static Icon ArrowRightFromFile => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FileExport;
+    private static Icon? f_FileFragment;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/file-fragment?f=duotone&amp;s=solid">File Fragment</a>
+    /// </summary>
+    public static Icon FileFragment => f_FileFragment ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "file-fragment", "e697");
     private static Icon? f_FileGif;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/file-gif?f=duotone&amp;s=solid">File Gif</a>
     /// </summary>
     public static Icon FileGif => f_FileGif ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "file-gif", "e645");
+    private static Icon? f_FileHalfDashed;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/file-half-dashed?f=duotone&amp;s=solid">File Half Dashed</a>
+    /// </summary>
+    public static Icon FileHalfDashed => f_FileHalfDashed ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "file-half-dashed", "e698");
     private static Icon? f_FileHeart;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/file-heart?f=duotone&amp;s=solid">File Heart</a>
@@ -10142,6 +10190,16 @@ public static partial class FaDuotoneSolid
     /// <a href="https://fontawesome.com/icons/hexagon-minus?f=duotone&amp;s=solid">Hexagon Minus</a>
     /// </summary>
     public static Icon MinusHexagon => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.HexagonMinus;
+    private static Icon? f_HexagonNodes;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/hexagon-nodes?f=duotone&amp;s=solid">Hexagon Nodes</a>
+    /// </summary>
+    public static Icon HexagonNodes => f_HexagonNodes ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "hexagon-nodes", "e699");
+    private static Icon? f_HexagonNodesBolt;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/hexagon-nodes-bolt?f=duotone&amp;s=solid">Hexagon Nodes Bolt</a>
+    /// </summary>
+    public static Icon HexagonNodesBolt => f_HexagonNodesBolt ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "hexagon-nodes-bolt", "e69a");
     private static Icon? f_HexagonPlus;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hexagon-plus?f=duotone&amp;s=solid">Hexagon Plus</a>
@@ -16643,6 +16701,11 @@ public static partial class FaDuotoneSolid
     /// <a href="https://fontawesome.com/icons/square-b?f=duotone&amp;s=solid">Square B</a>
     /// </summary>
     public static Icon SquareB => f_SquareB ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "square-b", "e264");
+    private static Icon? f_SquareBinary;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/square-binary?f=duotone&amp;s=solid">Square Binary</a>
+    /// </summary>
+    public static Icon SquareBinary => f_SquareBinary ??= new Icon(IconFamily.Duotone, IconStyle.Solid, "square-binary", "e69b");
     private static Icon? f_SquareBolt;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-bolt?f=duotone&amp;s=solid">Square Bolt</a>

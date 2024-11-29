@@ -40,10 +40,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.AppleCore;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-core?f=duotone&amp;s=light">Apple Core</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.AppleCore;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-core?f=duotone&amp;s=regular">Apple Core</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.AppleCore;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/apple-core?f=duotone&amp;s=solid">Apple Core</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.AppleCore;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-core?f=duotone&amp;s=thin">Apple Core</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.AppleCore;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/apple-core?f=sharp&amp;s=light">Apple Core</a>
         /// </summary>
@@ -65,10 +80,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.AppleCore;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-core?f=sharp-duotone&amp;s=light">Apple Core</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.AppleCore;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-core?f=sharp-duotone&amp;s=regular">Apple Core</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.AppleCore;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/apple-core?f=sharp-duotone&amp;s=solid">Apple Core</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.AppleCore;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-core?f=sharp-duotone&amp;s=thin">Apple Core</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.AppleCore;
     }
     /// <summary>
     /// Apple Whole
@@ -98,10 +128,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.AppleWhole;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=duotone&amp;s=light">Apple Whole</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.AppleWhole;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=duotone&amp;s=regular">Apple Whole</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.AppleWhole;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/apple-whole?f=duotone&amp;s=solid">Apple Whole</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.AppleWhole;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=duotone&amp;s=thin">Apple Whole</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.AppleWhole;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/apple-whole?f=sharp&amp;s=light">Apple Whole</a>
         /// </summary>
@@ -123,10 +168,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.AppleWhole;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=sharp-duotone&amp;s=light">Apple Whole</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.AppleWhole;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=sharp-duotone&amp;s=regular">Apple Whole</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.AppleWhole;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/apple-whole?f=sharp-duotone&amp;s=solid">Apple Whole</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.AppleWhole;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/apple-whole?f=sharp-duotone&amp;s=thin">Apple Whole</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.AppleWhole;
     }
     /// <summary>
     /// Avocado
@@ -156,10 +216,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Avocado;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/avocado?f=duotone&amp;s=light">Avocado</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Avocado;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/avocado?f=duotone&amp;s=regular">Avocado</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Avocado;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/avocado?f=duotone&amp;s=solid">Avocado</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Avocado;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/avocado?f=duotone&amp;s=thin">Avocado</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Avocado;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/avocado?f=sharp&amp;s=light">Avocado</a>
         /// </summary>
@@ -181,10 +256,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Avocado;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/avocado?f=sharp-duotone&amp;s=light">Avocado</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Avocado;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/avocado?f=sharp-duotone&amp;s=regular">Avocado</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Avocado;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/avocado?f=sharp-duotone&amp;s=solid">Avocado</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Avocado;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/avocado?f=sharp-duotone&amp;s=thin">Avocado</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Avocado;
     }
     /// <summary>
     /// Banana
@@ -214,10 +304,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Banana;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/banana?f=duotone&amp;s=light">Banana</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Banana;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/banana?f=duotone&amp;s=regular">Banana</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Banana;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/banana?f=duotone&amp;s=solid">Banana</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Banana;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/banana?f=duotone&amp;s=thin">Banana</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Banana;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/banana?f=sharp&amp;s=light">Banana</a>
         /// </summary>
@@ -239,10 +344,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Banana;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/banana?f=sharp-duotone&amp;s=light">Banana</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Banana;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/banana?f=sharp-duotone&amp;s=regular">Banana</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Banana;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/banana?f=sharp-duotone&amp;s=solid">Banana</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Banana;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/banana?f=sharp-duotone&amp;s=thin">Banana</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Banana;
     }
     /// <summary>
     /// Blueberries
@@ -272,10 +392,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Blueberries;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/blueberries?f=duotone&amp;s=light">Blueberries</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Blueberries;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/blueberries?f=duotone&amp;s=regular">Blueberries</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Blueberries;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/blueberries?f=duotone&amp;s=solid">Blueberries</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Blueberries;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/blueberries?f=duotone&amp;s=thin">Blueberries</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Blueberries;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/blueberries?f=sharp&amp;s=light">Blueberries</a>
         /// </summary>
@@ -297,10 +432,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Blueberries;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/blueberries?f=sharp-duotone&amp;s=light">Blueberries</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Blueberries;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/blueberries?f=sharp-duotone&amp;s=regular">Blueberries</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Blueberries;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/blueberries?f=sharp-duotone&amp;s=solid">Blueberries</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Blueberries;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/blueberries?f=sharp-duotone&amp;s=thin">Blueberries</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Blueberries;
     }
     /// <summary>
     /// Broccoli
@@ -330,10 +480,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Broccoli;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/broccoli?f=duotone&amp;s=light">Broccoli</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Broccoli;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/broccoli?f=duotone&amp;s=regular">Broccoli</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Broccoli;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/broccoli?f=duotone&amp;s=solid">Broccoli</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Broccoli;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/broccoli?f=duotone&amp;s=thin">Broccoli</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Broccoli;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/broccoli?f=sharp&amp;s=light">Broccoli</a>
         /// </summary>
@@ -355,10 +520,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Broccoli;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/broccoli?f=sharp-duotone&amp;s=light">Broccoli</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Broccoli;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/broccoli?f=sharp-duotone&amp;s=regular">Broccoli</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Broccoli;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/broccoli?f=sharp-duotone&amp;s=solid">Broccoli</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Broccoli;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/broccoli?f=sharp-duotone&amp;s=thin">Broccoli</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Broccoli;
     }
     /// <summary>
     /// Carrot
@@ -388,10 +568,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Carrot;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/carrot?f=duotone&amp;s=light">Carrot</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Carrot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/carrot?f=duotone&amp;s=regular">Carrot</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Carrot;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/carrot?f=duotone&amp;s=solid">Carrot</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Carrot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/carrot?f=duotone&amp;s=thin">Carrot</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Carrot;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/carrot?f=sharp&amp;s=light">Carrot</a>
         /// </summary>
@@ -413,10 +608,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Carrot;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/carrot?f=sharp-duotone&amp;s=light">Carrot</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Carrot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/carrot?f=sharp-duotone&amp;s=regular">Carrot</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Carrot;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/carrot?f=sharp-duotone&amp;s=solid">Carrot</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Carrot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/carrot?f=sharp-duotone&amp;s=thin">Carrot</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Carrot;
     }
     /// <summary>
     /// Cherries
@@ -446,10 +656,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Cherries;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/cherries?f=duotone&amp;s=light">Cherries</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Cherries;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cherries?f=duotone&amp;s=regular">Cherries</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Cherries;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/cherries?f=duotone&amp;s=solid">Cherries</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Cherries;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cherries?f=duotone&amp;s=thin">Cherries</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Cherries;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/cherries?f=sharp&amp;s=light">Cherries</a>
         /// </summary>
@@ -471,10 +696,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Cherries;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/cherries?f=sharp-duotone&amp;s=light">Cherries</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Cherries;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cherries?f=sharp-duotone&amp;s=regular">Cherries</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Cherries;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/cherries?f=sharp-duotone&amp;s=solid">Cherries</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Cherries;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cherries?f=sharp-duotone&amp;s=thin">Cherries</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Cherries;
     }
     /// <summary>
     /// Chestnut
@@ -504,10 +744,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Chestnut;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/chestnut?f=duotone&amp;s=light">Chestnut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Chestnut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/chestnut?f=duotone&amp;s=regular">Chestnut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Chestnut;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/chestnut?f=duotone&amp;s=solid">Chestnut</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Chestnut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/chestnut?f=duotone&amp;s=thin">Chestnut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Chestnut;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chestnut?f=sharp&amp;s=light">Chestnut</a>
         /// </summary>
@@ -529,10 +784,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Chestnut;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/chestnut?f=sharp-duotone&amp;s=light">Chestnut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Chestnut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/chestnut?f=sharp-duotone&amp;s=regular">Chestnut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Chestnut;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/chestnut?f=sharp-duotone&amp;s=solid">Chestnut</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Chestnut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/chestnut?f=sharp-duotone&amp;s=thin">Chestnut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Chestnut;
     }
     /// <summary>
     /// Citrus
@@ -562,10 +832,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Citrus;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus?f=duotone&amp;s=light">Citrus</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Citrus;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus?f=duotone&amp;s=regular">Citrus</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Citrus;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/citrus?f=duotone&amp;s=solid">Citrus</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Citrus;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus?f=duotone&amp;s=thin">Citrus</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Citrus;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/citrus?f=sharp&amp;s=light">Citrus</a>
         /// </summary>
@@ -587,10 +872,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Citrus;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus?f=sharp-duotone&amp;s=light">Citrus</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Citrus;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus?f=sharp-duotone&amp;s=regular">Citrus</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Citrus;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/citrus?f=sharp-duotone&amp;s=solid">Citrus</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Citrus;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus?f=sharp-duotone&amp;s=thin">Citrus</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Citrus;
     }
     /// <summary>
     /// Citrus Slice
@@ -620,10 +920,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CitrusSlice;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus-slice?f=duotone&amp;s=light">Citrus Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.CitrusSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus-slice?f=duotone&amp;s=regular">Citrus Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.CitrusSlice;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/citrus-slice?f=duotone&amp;s=solid">Citrus Slice</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.CitrusSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus-slice?f=duotone&amp;s=thin">Citrus Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.CitrusSlice;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/citrus-slice?f=sharp&amp;s=light">Citrus Slice</a>
         /// </summary>
@@ -645,10 +960,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CitrusSlice;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus-slice?f=sharp-duotone&amp;s=light">Citrus Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.CitrusSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus-slice?f=sharp-duotone&amp;s=regular">Citrus Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.CitrusSlice;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/citrus-slice?f=sharp-duotone&amp;s=solid">Citrus Slice</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.CitrusSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/citrus-slice?f=sharp-duotone&amp;s=thin">Citrus Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.CitrusSlice;
     }
     /// <summary>
     /// Coconut
@@ -678,10 +1008,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Coconut;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/coconut?f=duotone&amp;s=light">Coconut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Coconut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/coconut?f=duotone&amp;s=regular">Coconut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Coconut;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/coconut?f=duotone&amp;s=solid">Coconut</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Coconut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/coconut?f=duotone&amp;s=thin">Coconut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Coconut;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/coconut?f=sharp&amp;s=light">Coconut</a>
         /// </summary>
@@ -703,10 +1048,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Coconut;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/coconut?f=sharp-duotone&amp;s=light">Coconut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Coconut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/coconut?f=sharp-duotone&amp;s=regular">Coconut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Coconut;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/coconut?f=sharp-duotone&amp;s=solid">Coconut</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Coconut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/coconut?f=sharp-duotone&amp;s=thin">Coconut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Coconut;
     }
     /// <summary>
     /// Crate Apple
@@ -736,10 +1096,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CrateApple;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-apple?f=duotone&amp;s=light">Crate Apple</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.CrateApple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-apple?f=duotone&amp;s=regular">Crate Apple</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.CrateApple;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/crate-apple?f=duotone&amp;s=solid">Crate Apple</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.CrateApple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-apple?f=duotone&amp;s=thin">Crate Apple</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.CrateApple;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/crate-apple?f=sharp&amp;s=light">Crate Apple</a>
         /// </summary>
@@ -761,10 +1136,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CrateApple;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-apple?f=sharp-duotone&amp;s=light">Crate Apple</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.CrateApple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-apple?f=sharp-duotone&amp;s=regular">Crate Apple</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.CrateApple;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/crate-apple?f=sharp-duotone&amp;s=solid">Crate Apple</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.CrateApple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-apple?f=sharp-duotone&amp;s=thin">Crate Apple</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.CrateApple;
     }
     /// <summary>
     /// Crate Empty
@@ -794,10 +1184,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CrateEmpty;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-empty?f=duotone&amp;s=light">Crate Empty</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.CrateEmpty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-empty?f=duotone&amp;s=regular">Crate Empty</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.CrateEmpty;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/crate-empty?f=duotone&amp;s=solid">Crate Empty</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.CrateEmpty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-empty?f=duotone&amp;s=thin">Crate Empty</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.CrateEmpty;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/crate-empty?f=sharp&amp;s=light">Crate Empty</a>
         /// </summary>
@@ -819,10 +1224,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CrateEmpty;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-empty?f=sharp-duotone&amp;s=light">Crate Empty</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.CrateEmpty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-empty?f=sharp-duotone&amp;s=regular">Crate Empty</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.CrateEmpty;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/crate-empty?f=sharp-duotone&amp;s=solid">Crate Empty</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.CrateEmpty;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/crate-empty?f=sharp-duotone&amp;s=thin">Crate Empty</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.CrateEmpty;
     }
     /// <summary>
     /// Cucumber
@@ -852,10 +1272,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Cucumber;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/cucumber?f=duotone&amp;s=light">Cucumber</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Cucumber;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cucumber?f=duotone&amp;s=regular">Cucumber</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Cucumber;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/cucumber?f=duotone&amp;s=solid">Cucumber</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Cucumber;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cucumber?f=duotone&amp;s=thin">Cucumber</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Cucumber;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/cucumber?f=sharp&amp;s=light">Cucumber</a>
         /// </summary>
@@ -877,10 +1312,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Cucumber;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/cucumber?f=sharp-duotone&amp;s=light">Cucumber</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Cucumber;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cucumber?f=sharp-duotone&amp;s=regular">Cucumber</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Cucumber;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/cucumber?f=sharp-duotone&amp;s=solid">Cucumber</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Cucumber;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/cucumber?f=sharp-duotone&amp;s=thin">Cucumber</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Cucumber;
     }
     /// <summary>
     /// Eggplant
@@ -910,10 +1360,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Eggplant;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/eggplant?f=duotone&amp;s=light">Eggplant</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Eggplant;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/eggplant?f=duotone&amp;s=regular">Eggplant</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Eggplant;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/eggplant?f=duotone&amp;s=solid">Eggplant</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Eggplant;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/eggplant?f=duotone&amp;s=thin">Eggplant</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Eggplant;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/eggplant?f=sharp&amp;s=light">Eggplant</a>
         /// </summary>
@@ -935,10 +1400,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Eggplant;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/eggplant?f=sharp-duotone&amp;s=light">Eggplant</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Eggplant;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/eggplant?f=sharp-duotone&amp;s=regular">Eggplant</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Eggplant;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/eggplant?f=sharp-duotone&amp;s=solid">Eggplant</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Eggplant;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/eggplant?f=sharp-duotone&amp;s=thin">Eggplant</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Eggplant;
     }
     /// <summary>
     /// Garlic
@@ -968,10 +1448,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Garlic;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/garlic?f=duotone&amp;s=light">Garlic</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Garlic;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/garlic?f=duotone&amp;s=regular">Garlic</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Garlic;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/garlic?f=duotone&amp;s=solid">Garlic</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Garlic;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/garlic?f=duotone&amp;s=thin">Garlic</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Garlic;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/garlic?f=sharp&amp;s=light">Garlic</a>
         /// </summary>
@@ -993,10 +1488,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Garlic;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/garlic?f=sharp-duotone&amp;s=light">Garlic</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Garlic;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/garlic?f=sharp-duotone&amp;s=regular">Garlic</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Garlic;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/garlic?f=sharp-duotone&amp;s=solid">Garlic</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Garlic;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/garlic?f=sharp-duotone&amp;s=thin">Garlic</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Garlic;
     }
     /// <summary>
     /// Grapes
@@ -1026,10 +1536,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Grapes;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/grapes?f=duotone&amp;s=light">Grapes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Grapes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/grapes?f=duotone&amp;s=regular">Grapes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Grapes;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/grapes?f=duotone&amp;s=solid">Grapes</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Grapes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/grapes?f=duotone&amp;s=thin">Grapes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Grapes;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/grapes?f=sharp&amp;s=light">Grapes</a>
         /// </summary>
@@ -1051,10 +1576,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Grapes;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/grapes?f=sharp-duotone&amp;s=light">Grapes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Grapes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/grapes?f=sharp-duotone&amp;s=regular">Grapes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Grapes;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/grapes?f=sharp-duotone&amp;s=solid">Grapes</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Grapes;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/grapes?f=sharp-duotone&amp;s=thin">Grapes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Grapes;
     }
     /// <summary>
     /// Kiwi Fruit
@@ -1084,10 +1624,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.KiwiFruit;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=duotone&amp;s=light">Kiwi Fruit</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.KiwiFruit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=duotone&amp;s=regular">Kiwi Fruit</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.KiwiFruit;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=duotone&amp;s=solid">Kiwi Fruit</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.KiwiFruit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=duotone&amp;s=thin">Kiwi Fruit</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.KiwiFruit;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=sharp&amp;s=light">Kiwi Fruit</a>
         /// </summary>
@@ -1109,10 +1664,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.KiwiFruit;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=sharp-duotone&amp;s=light">Kiwi Fruit</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.KiwiFruit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=sharp-duotone&amp;s=regular">Kiwi Fruit</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.KiwiFruit;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=sharp-duotone&amp;s=solid">Kiwi Fruit</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.KiwiFruit;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/kiwi-fruit?f=sharp-duotone&amp;s=thin">Kiwi Fruit</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.KiwiFruit;
     }
     /// <summary>
     /// Leaf
@@ -1142,10 +1712,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Leaf;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/leaf?f=duotone&amp;s=light">Leaf</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Leaf;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leaf?f=duotone&amp;s=regular">Leaf</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Leaf;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/leaf?f=duotone&amp;s=solid">Leaf</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Leaf;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leaf?f=duotone&amp;s=thin">Leaf</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Leaf;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/leaf?f=sharp&amp;s=light">Leaf</a>
         /// </summary>
@@ -1167,10 +1752,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Leaf;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/leaf?f=sharp-duotone&amp;s=light">Leaf</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Leaf;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leaf?f=sharp-duotone&amp;s=regular">Leaf</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Leaf;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/leaf?f=sharp-duotone&amp;s=solid">Leaf</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Leaf;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leaf?f=sharp-duotone&amp;s=thin">Leaf</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Leaf;
     }
     /// <summary>
     /// Leafy Green
@@ -1200,10 +1800,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.LeafyGreen;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/leafy-green?f=duotone&amp;s=light">Leafy Green</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.LeafyGreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leafy-green?f=duotone&amp;s=regular">Leafy Green</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.LeafyGreen;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/leafy-green?f=duotone&amp;s=solid">Leafy Green</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.LeafyGreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leafy-green?f=duotone&amp;s=thin">Leafy Green</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.LeafyGreen;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/leafy-green?f=sharp&amp;s=light">Leafy Green</a>
         /// </summary>
@@ -1225,10 +1840,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.LeafyGreen;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/leafy-green?f=sharp-duotone&amp;s=light">Leafy Green</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.LeafyGreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leafy-green?f=sharp-duotone&amp;s=regular">Leafy Green</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.LeafyGreen;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/leafy-green?f=sharp-duotone&amp;s=solid">Leafy Green</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.LeafyGreen;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/leafy-green?f=sharp-duotone&amp;s=thin">Leafy Green</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.LeafyGreen;
     }
     /// <summary>
     /// Lemon
@@ -1258,10 +1888,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Lemon;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/lemon?f=duotone&amp;s=light">Lemon</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Lemon;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/lemon?f=duotone&amp;s=regular">Lemon</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Lemon;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/lemon?f=duotone&amp;s=solid">Lemon</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Lemon;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/lemon?f=duotone&amp;s=thin">Lemon</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Lemon;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/lemon?f=sharp&amp;s=light">Lemon</a>
         /// </summary>
@@ -1283,10 +1928,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Lemon;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/lemon?f=sharp-duotone&amp;s=light">Lemon</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Lemon;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/lemon?f=sharp-duotone&amp;s=regular">Lemon</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Lemon;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/lemon?f=sharp-duotone&amp;s=solid">Lemon</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Lemon;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/lemon?f=sharp-duotone&amp;s=thin">Lemon</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Lemon;
     }
     /// <summary>
     /// Mango
@@ -1316,10 +1976,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Mango;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mango?f=duotone&amp;s=light">Mango</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Mango;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mango?f=duotone&amp;s=regular">Mango</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Mango;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mango?f=duotone&amp;s=solid">Mango</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Mango;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mango?f=duotone&amp;s=thin">Mango</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Mango;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/mango?f=sharp&amp;s=light">Mango</a>
         /// </summary>
@@ -1341,10 +2016,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Mango;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mango?f=sharp-duotone&amp;s=light">Mango</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Mango;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mango?f=sharp-duotone&amp;s=regular">Mango</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Mango;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mango?f=sharp-duotone&amp;s=solid">Mango</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Mango;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mango?f=sharp-duotone&amp;s=thin">Mango</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Mango;
     }
     /// <summary>
     /// Melon
@@ -1374,10 +2064,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Melon;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon?f=duotone&amp;s=light">Melon</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Melon;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon?f=duotone&amp;s=regular">Melon</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Melon;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/melon?f=duotone&amp;s=solid">Melon</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Melon;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon?f=duotone&amp;s=thin">Melon</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Melon;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/melon?f=sharp&amp;s=light">Melon</a>
         /// </summary>
@@ -1399,10 +2104,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Melon;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon?f=sharp-duotone&amp;s=light">Melon</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Melon;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon?f=sharp-duotone&amp;s=regular">Melon</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Melon;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/melon?f=sharp-duotone&amp;s=solid">Melon</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Melon;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon?f=sharp-duotone&amp;s=thin">Melon</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Melon;
     }
     /// <summary>
     /// Melon Slice
@@ -1432,10 +2152,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.MelonSlice;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon-slice?f=duotone&amp;s=light">Melon Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.MelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon-slice?f=duotone&amp;s=regular">Melon Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.MelonSlice;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/melon-slice?f=duotone&amp;s=solid">Melon Slice</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.MelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon-slice?f=duotone&amp;s=thin">Melon Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.MelonSlice;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/melon-slice?f=sharp&amp;s=light">Melon Slice</a>
         /// </summary>
@@ -1457,10 +2192,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.MelonSlice;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon-slice?f=sharp-duotone&amp;s=light">Melon Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.MelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon-slice?f=sharp-duotone&amp;s=regular">Melon Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.MelonSlice;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/melon-slice?f=sharp-duotone&amp;s=solid">Melon Slice</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.MelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/melon-slice?f=sharp-duotone&amp;s=thin">Melon Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.MelonSlice;
     }
     /// <summary>
     /// Mushroom
@@ -1490,10 +2240,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Mushroom;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mushroom?f=duotone&amp;s=light">Mushroom</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Mushroom;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mushroom?f=duotone&amp;s=regular">Mushroom</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Mushroom;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mushroom?f=duotone&amp;s=solid">Mushroom</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Mushroom;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mushroom?f=duotone&amp;s=thin">Mushroom</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Mushroom;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/mushroom?f=sharp&amp;s=light">Mushroom</a>
         /// </summary>
@@ -1515,10 +2280,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Mushroom;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/mushroom?f=sharp-duotone&amp;s=light">Mushroom</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Mushroom;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mushroom?f=sharp-duotone&amp;s=regular">Mushroom</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Mushroom;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/mushroom?f=sharp-duotone&amp;s=solid">Mushroom</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Mushroom;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/mushroom?f=sharp-duotone&amp;s=thin">Mushroom</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Mushroom;
     }
     /// <summary>
     /// Olive
@@ -1548,10 +2328,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Olive;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive?f=duotone&amp;s=light">Olive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Olive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive?f=duotone&amp;s=regular">Olive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Olive;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/olive?f=duotone&amp;s=solid">Olive</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Olive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive?f=duotone&amp;s=thin">Olive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Olive;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/olive?f=sharp&amp;s=light">Olive</a>
         /// </summary>
@@ -1573,10 +2368,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Olive;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive?f=sharp-duotone&amp;s=light">Olive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Olive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive?f=sharp-duotone&amp;s=regular">Olive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Olive;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/olive?f=sharp-duotone&amp;s=solid">Olive</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Olive;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive?f=sharp-duotone&amp;s=thin">Olive</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Olive;
     }
     /// <summary>
     /// Olive Branch
@@ -1606,10 +2416,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.OliveBranch;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive-branch?f=duotone&amp;s=light">Olive Branch</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.OliveBranch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive-branch?f=duotone&amp;s=regular">Olive Branch</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.OliveBranch;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/olive-branch?f=duotone&amp;s=solid">Olive Branch</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.OliveBranch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive-branch?f=duotone&amp;s=thin">Olive Branch</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.OliveBranch;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/olive-branch?f=sharp&amp;s=light">Olive Branch</a>
         /// </summary>
@@ -1631,10 +2456,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.OliveBranch;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive-branch?f=sharp-duotone&amp;s=light">Olive Branch</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.OliveBranch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive-branch?f=sharp-duotone&amp;s=regular">Olive Branch</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.OliveBranch;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/olive-branch?f=sharp-duotone&amp;s=solid">Olive Branch</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.OliveBranch;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/olive-branch?f=sharp-duotone&amp;s=thin">Olive Branch</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.OliveBranch;
     }
     /// <summary>
     /// Onion
@@ -1664,10 +2504,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Onion;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/onion?f=duotone&amp;s=light">Onion</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Onion;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/onion?f=duotone&amp;s=regular">Onion</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Onion;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/onion?f=duotone&amp;s=solid">Onion</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Onion;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/onion?f=duotone&amp;s=thin">Onion</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Onion;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/onion?f=sharp&amp;s=light">Onion</a>
         /// </summary>
@@ -1689,10 +2544,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Onion;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/onion?f=sharp-duotone&amp;s=light">Onion</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Onion;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/onion?f=sharp-duotone&amp;s=regular">Onion</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Onion;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/onion?f=sharp-duotone&amp;s=solid">Onion</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Onion;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/onion?f=sharp-duotone&amp;s=thin">Onion</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Onion;
     }
     /// <summary>
     /// Peach
@@ -1722,10 +2592,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Peach;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/peach?f=duotone&amp;s=light">Peach</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Peach;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peach?f=duotone&amp;s=regular">Peach</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Peach;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/peach?f=duotone&amp;s=solid">Peach</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Peach;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peach?f=duotone&amp;s=thin">Peach</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Peach;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/peach?f=sharp&amp;s=light">Peach</a>
         /// </summary>
@@ -1747,10 +2632,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Peach;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/peach?f=sharp-duotone&amp;s=light">Peach</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Peach;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peach?f=sharp-duotone&amp;s=regular">Peach</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Peach;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/peach?f=sharp-duotone&amp;s=solid">Peach</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Peach;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peach?f=sharp-duotone&amp;s=thin">Peach</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Peach;
     }
     /// <summary>
     /// Peanut
@@ -1780,10 +2680,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Peanut;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/peanut?f=duotone&amp;s=light">Peanut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Peanut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peanut?f=duotone&amp;s=regular">Peanut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Peanut;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/peanut?f=duotone&amp;s=solid">Peanut</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Peanut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peanut?f=duotone&amp;s=thin">Peanut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Peanut;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/peanut?f=sharp&amp;s=light">Peanut</a>
         /// </summary>
@@ -1805,10 +2720,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Peanut;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/peanut?f=sharp-duotone&amp;s=light">Peanut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Peanut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peanut?f=sharp-duotone&amp;s=regular">Peanut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Peanut;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/peanut?f=sharp-duotone&amp;s=solid">Peanut</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Peanut;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peanut?f=sharp-duotone&amp;s=thin">Peanut</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Peanut;
     }
     /// <summary>
     /// Peanuts
@@ -1838,10 +2768,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Peanuts;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/peanuts?f=duotone&amp;s=light">Peanuts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Peanuts;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peanuts?f=duotone&amp;s=regular">Peanuts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Peanuts;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/peanuts?f=duotone&amp;s=solid">Peanuts</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Peanuts;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peanuts?f=duotone&amp;s=thin">Peanuts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Peanuts;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/peanuts?f=sharp&amp;s=light">Peanuts</a>
         /// </summary>
@@ -1863,10 +2808,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Peanuts;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/peanuts?f=sharp-duotone&amp;s=light">Peanuts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Peanuts;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peanuts?f=sharp-duotone&amp;s=regular">Peanuts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Peanuts;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/peanuts?f=sharp-duotone&amp;s=solid">Peanuts</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Peanuts;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peanuts?f=sharp-duotone&amp;s=thin">Peanuts</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Peanuts;
     }
     /// <summary>
     /// Peapod
@@ -1896,10 +2856,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Peapod;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/peapod?f=duotone&amp;s=light">Peapod</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Peapod;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peapod?f=duotone&amp;s=regular">Peapod</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Peapod;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/peapod?f=duotone&amp;s=solid">Peapod</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Peapod;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peapod?f=duotone&amp;s=thin">Peapod</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Peapod;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/peapod?f=sharp&amp;s=light">Peapod</a>
         /// </summary>
@@ -1921,10 +2896,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Peapod;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/peapod?f=sharp-duotone&amp;s=light">Peapod</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Peapod;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peapod?f=sharp-duotone&amp;s=regular">Peapod</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Peapod;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/peapod?f=sharp-duotone&amp;s=solid">Peapod</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Peapod;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/peapod?f=sharp-duotone&amp;s=thin">Peapod</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Peapod;
     }
     /// <summary>
     /// Pear
@@ -1954,10 +2944,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Pear;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/pear?f=duotone&amp;s=light">Pear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Pear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pear?f=duotone&amp;s=regular">Pear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Pear;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/pear?f=duotone&amp;s=solid">Pear</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Pear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pear?f=duotone&amp;s=thin">Pear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Pear;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/pear?f=sharp&amp;s=light">Pear</a>
         /// </summary>
@@ -1979,10 +2984,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Pear;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/pear?f=sharp-duotone&amp;s=light">Pear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Pear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pear?f=sharp-duotone&amp;s=regular">Pear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Pear;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/pear?f=sharp-duotone&amp;s=solid">Pear</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Pear;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pear?f=sharp-duotone&amp;s=thin">Pear</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Pear;
     }
     /// <summary>
     /// Pepper
@@ -2012,10 +3032,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Pepper;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper?f=duotone&amp;s=light">Pepper</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Pepper;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper?f=duotone&amp;s=regular">Pepper</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Pepper;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/pepper?f=duotone&amp;s=solid">Pepper</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Pepper;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper?f=duotone&amp;s=thin">Pepper</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Pepper;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/pepper?f=sharp&amp;s=light">Pepper</a>
         /// </summary>
@@ -2037,10 +3072,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Pepper;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper?f=sharp-duotone&amp;s=light">Pepper</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Pepper;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper?f=sharp-duotone&amp;s=regular">Pepper</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Pepper;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/pepper?f=sharp-duotone&amp;s=solid">Pepper</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Pepper;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper?f=sharp-duotone&amp;s=thin">Pepper</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Pepper;
     }
     /// <summary>
     /// Pepper Hot
@@ -2070,10 +3120,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.PepperHot;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=duotone&amp;s=light">Pepper Hot</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.PepperHot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=duotone&amp;s=regular">Pepper Hot</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.PepperHot;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/pepper-hot?f=duotone&amp;s=solid">Pepper Hot</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.PepperHot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=duotone&amp;s=thin">Pepper Hot</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.PepperHot;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/pepper-hot?f=sharp&amp;s=light">Pepper Hot</a>
         /// </summary>
@@ -2095,10 +3160,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.PepperHot;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=sharp-duotone&amp;s=light">Pepper Hot</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.PepperHot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=sharp-duotone&amp;s=regular">Pepper Hot</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.PepperHot;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/pepper-hot?f=sharp-duotone&amp;s=solid">Pepper Hot</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.PepperHot;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pepper-hot?f=sharp-duotone&amp;s=thin">Pepper Hot</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.PepperHot;
     }
     /// <summary>
     /// Pineapple
@@ -2128,10 +3208,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Pineapple;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/pineapple?f=duotone&amp;s=light">Pineapple</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Pineapple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pineapple?f=duotone&amp;s=regular">Pineapple</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Pineapple;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/pineapple?f=duotone&amp;s=solid">Pineapple</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Pineapple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pineapple?f=duotone&amp;s=thin">Pineapple</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Pineapple;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/pineapple?f=sharp&amp;s=light">Pineapple</a>
         /// </summary>
@@ -2153,10 +3248,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Pineapple;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/pineapple?f=sharp-duotone&amp;s=light">Pineapple</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Pineapple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pineapple?f=sharp-duotone&amp;s=regular">Pineapple</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Pineapple;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/pineapple?f=sharp-duotone&amp;s=solid">Pineapple</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Pineapple;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pineapple?f=sharp-duotone&amp;s=thin">Pineapple</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Pineapple;
     }
     /// <summary>
     /// Potato
@@ -2186,10 +3296,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Potato;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/potato?f=duotone&amp;s=light">Potato</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Potato;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/potato?f=duotone&amp;s=regular">Potato</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Potato;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/potato?f=duotone&amp;s=solid">Potato</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Potato;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/potato?f=duotone&amp;s=thin">Potato</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Potato;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/potato?f=sharp&amp;s=light">Potato</a>
         /// </summary>
@@ -2211,10 +3336,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Potato;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/potato?f=sharp-duotone&amp;s=light">Potato</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Potato;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/potato?f=sharp-duotone&amp;s=regular">Potato</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Potato;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/potato?f=sharp-duotone&amp;s=solid">Potato</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Potato;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/potato?f=sharp-duotone&amp;s=thin">Potato</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Potato;
     }
     /// <summary>
     /// Pumpkin
@@ -2244,10 +3384,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Pumpkin;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/pumpkin?f=duotone&amp;s=light">Pumpkin</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Pumpkin;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pumpkin?f=duotone&amp;s=regular">Pumpkin</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Pumpkin;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/pumpkin?f=duotone&amp;s=solid">Pumpkin</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Pumpkin;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pumpkin?f=duotone&amp;s=thin">Pumpkin</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Pumpkin;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/pumpkin?f=sharp&amp;s=light">Pumpkin</a>
         /// </summary>
@@ -2269,10 +3424,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Pumpkin;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/pumpkin?f=sharp-duotone&amp;s=light">Pumpkin</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Pumpkin;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pumpkin?f=sharp-duotone&amp;s=regular">Pumpkin</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Pumpkin;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/pumpkin?f=sharp-duotone&amp;s=solid">Pumpkin</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Pumpkin;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/pumpkin?f=sharp-duotone&amp;s=thin">Pumpkin</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Pumpkin;
     }
     /// <summary>
     /// Salad
@@ -2302,10 +3472,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Salad;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/salad?f=duotone&amp;s=light">Salad</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Salad;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/salad?f=duotone&amp;s=regular">Salad</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Salad;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/salad?f=duotone&amp;s=solid">Salad</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Salad;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/salad?f=duotone&amp;s=thin">Salad</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Salad;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/salad?f=sharp&amp;s=light">Salad</a>
         /// </summary>
@@ -2327,10 +3512,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Salad;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/salad?f=sharp-duotone&amp;s=light">Salad</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Salad;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/salad?f=sharp-duotone&amp;s=regular">Salad</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Salad;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/salad?f=sharp-duotone&amp;s=solid">Salad</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Salad;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/salad?f=sharp-duotone&amp;s=thin">Salad</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Salad;
     }
     /// <summary>
     /// Seedling
@@ -2360,10 +3560,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Seedling;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/seedling?f=duotone&amp;s=light">Seedling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Seedling;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/seedling?f=duotone&amp;s=regular">Seedling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Seedling;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/seedling?f=duotone&amp;s=solid">Seedling</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Seedling;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/seedling?f=duotone&amp;s=thin">Seedling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Seedling;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/seedling?f=sharp&amp;s=light">Seedling</a>
         /// </summary>
@@ -2385,10 +3600,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Seedling;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/seedling?f=sharp-duotone&amp;s=light">Seedling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Seedling;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/seedling?f=sharp-duotone&amp;s=regular">Seedling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Seedling;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/seedling?f=sharp-duotone&amp;s=solid">Seedling</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Seedling;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/seedling?f=sharp-duotone&amp;s=thin">Seedling</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Seedling;
     }
     /// <summary>
     /// Strawberry
@@ -2418,10 +3648,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Strawberry;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/strawberry?f=duotone&amp;s=light">Strawberry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Strawberry;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/strawberry?f=duotone&amp;s=regular">Strawberry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Strawberry;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/strawberry?f=duotone&amp;s=solid">Strawberry</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Strawberry;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/strawberry?f=duotone&amp;s=thin">Strawberry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Strawberry;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/strawberry?f=sharp&amp;s=light">Strawberry</a>
         /// </summary>
@@ -2443,10 +3688,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Strawberry;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/strawberry?f=sharp-duotone&amp;s=light">Strawberry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Strawberry;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/strawberry?f=sharp-duotone&amp;s=regular">Strawberry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Strawberry;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/strawberry?f=sharp-duotone&amp;s=solid">Strawberry</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Strawberry;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/strawberry?f=sharp-duotone&amp;s=thin">Strawberry</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Strawberry;
     }
     /// <summary>
     /// Tomato
@@ -2476,10 +3736,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Tomato;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tomato?f=duotone&amp;s=light">Tomato</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Tomato;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tomato?f=duotone&amp;s=regular">Tomato</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Tomato;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tomato?f=duotone&amp;s=solid">Tomato</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Tomato;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tomato?f=duotone&amp;s=thin">Tomato</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Tomato;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tomato?f=sharp&amp;s=light">Tomato</a>
         /// </summary>
@@ -2501,10 +3776,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Tomato;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/tomato?f=sharp-duotone&amp;s=light">Tomato</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Tomato;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tomato?f=sharp-duotone&amp;s=regular">Tomato</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Tomato;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/tomato?f=sharp-duotone&amp;s=solid">Tomato</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Tomato;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/tomato?f=sharp-duotone&amp;s=thin">Tomato</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Tomato;
     }
     /// <summary>
     /// Watermelon Slice
@@ -2534,10 +3824,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.WatermelonSlice;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/watermelon-slice?f=duotone&amp;s=light">Watermelon Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.WatermelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watermelon-slice?f=duotone&amp;s=regular">Watermelon Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.WatermelonSlice;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/watermelon-slice?f=duotone&amp;s=solid">Watermelon Slice</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.WatermelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watermelon-slice?f=duotone&amp;s=thin">Watermelon Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.WatermelonSlice;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/watermelon-slice?f=sharp&amp;s=light">Watermelon Slice</a>
         /// </summary>
@@ -2559,10 +3864,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.WatermelonSlice;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/watermelon-slice?f=sharp-duotone&amp;s=light">Watermelon Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.WatermelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watermelon-slice?f=sharp-duotone&amp;s=regular">Watermelon Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.WatermelonSlice;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/watermelon-slice?f=sharp-duotone&amp;s=solid">Watermelon Slice</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.WatermelonSlice;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/watermelon-slice?f=sharp-duotone&amp;s=thin">Watermelon Slice</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.WatermelonSlice;
     }
     /// <summary>
     /// Wheat
@@ -2592,10 +3912,25 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Wheat;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/wheat?f=duotone&amp;s=light">Wheat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Wheat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/wheat?f=duotone&amp;s=regular">Wheat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Wheat;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/wheat?f=duotone&amp;s=solid">Wheat</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Wheat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/wheat?f=duotone&amp;s=thin">Wheat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Wheat;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/wheat?f=sharp&amp;s=light">Wheat</a>
         /// </summary>
@@ -2617,9 +3952,24 @@ public static partial class FaFruitsVegetables
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Wheat;
         /// <summary>
+        /// <a href="https://fontawesome.com/icons/wheat?f=sharp-duotone&amp;s=light">Wheat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Wheat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/wheat?f=sharp-duotone&amp;s=regular">Wheat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Wheat;
+        /// <summary>
         /// <a href="https://fontawesome.com/icons/wheat?f=sharp-duotone&amp;s=solid">Wheat</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Wheat;
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/wheat?f=sharp-duotone&amp;s=thin">Wheat</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Wheat;
     }
 }

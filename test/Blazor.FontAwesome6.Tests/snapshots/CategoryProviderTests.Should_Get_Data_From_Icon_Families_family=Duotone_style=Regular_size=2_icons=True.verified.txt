@@ -1,0 +1,22 @@
+﻿[
+  {
+    Id: 360-degrees,
+    Label: 360 Degrees,
+    Family: Duotone,
+    Style: Regular,
+    Height: 512,
+    Width: 640,
+    Prefix: fad,
+    LongPrefix: fa-duotone fa-regular
+  },
+  {
+    Id: accent-grave,
+    Label: Accent Grave,
+    Family: Duotone,
+    Style: Regular,
+    Height: 512,
+    Width: 192,
+    Prefix: fad,
+    LongPrefix: fa-duotone fa-regular
+  }
+]

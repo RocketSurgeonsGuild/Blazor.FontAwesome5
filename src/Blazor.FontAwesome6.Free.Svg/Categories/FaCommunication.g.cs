@@ -150,6 +150,19 @@ public static partial class FaCommunication
         public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CommentMedical;
     }
     /// <summary>
+    /// Comment Nodes
+    /// <a href="https://fontawesome.com/icons/comment-nodes">Comment Nodes</a>
+    /// </summary>
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+    public static partial class CommentNodes
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/comment-nodes?f=classic&amp;s=solid">Comment Nodes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.CommentNodes;
+    }
+    /// <summary>
     /// Comment Slash
     /// <a href="https://fontawesome.com/icons/comment-slash">Comment Slash</a>
     /// </summary>

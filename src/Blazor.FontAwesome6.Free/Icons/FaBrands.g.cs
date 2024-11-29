@@ -496,6 +496,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/critical-role?f=classic&amp;s=brands">Critical Role</a>
     /// </summary>
     public static Icon CriticalRole => f_CriticalRole ??= new Icon(IconFamily.Classic, IconStyle.Brands, "critical-role", "f6c9");
+    private static Icon? f_Css;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/css?f=classic&amp;s=brands">Css</a>
+    /// </summary>
+    public static Icon Css => f_Css ??= new Icon(IconFamily.Classic, IconStyle.Brands, "css", "e6a2");
     private static Icon? f_Css3;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/css3?f=classic&amp;s=brands">CSS 3 Logo</a>
@@ -741,6 +746,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/figma?f=classic&amp;s=brands">Figma</a>
     /// </summary>
     public static Icon Figma => f_Figma ??= new Icon(IconFamily.Classic, IconStyle.Brands, "figma", "f799");
+    private static Icon? f_FilesPinwheel;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/files-pinwheel?f=classic&amp;s=brands">Files Pinwheel</a>
+    /// </summary>
+    public static Icon FilesPinwheel => f_FilesPinwheel ??= new Icon(IconFamily.Classic, IconStyle.Brands, "files-pinwheel", "e69f");
     private static Icon? f_Firefox;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/firefox?f=classic&amp;s=brands">Firefox</a>
@@ -1879,6 +1889,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/square-behance?f=classic&amp;s=brands">Square Behance</a>
     /// </summary>
     public static Icon BehanceSquare => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.SquareBehance;
+    private static Icon? f_SquareBluesky;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/square-bluesky?f=classic&amp;s=brands">Square Bluesky</a>
+    /// </summary>
+    public static Icon SquareBluesky => f_SquareBluesky ??= new Icon(IconFamily.Classic, IconStyle.Brands, "square-bluesky", "e6a3");
     private static Icon? f_SquareDribbble;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-dribbble?f=classic&amp;s=brands">Square Dribbble</a>
@@ -2406,7 +2421,7 @@ public static partial class FaBrands
     public static Icon Vimeo => f_Vimeo ??= new Icon(IconFamily.Classic, IconStyle.Brands, "vimeo", "f40a");
     private static Icon? f_VimeoV;
     /// <summary>
-    /// <a href="https://fontawesome.com/icons/vimeo-v?f=classic&amp;s=brands">Vimeo</a>
+    /// <a href="https://fontawesome.com/icons/vimeo-v?f=classic&amp;s=brands">Vimeo V</a>
     /// </summary>
     public static Icon VimeoV => f_VimeoV ??= new Icon(IconFamily.Classic, IconStyle.Brands, "vimeo-v", "f27d");
     private static Icon? f_Vine;

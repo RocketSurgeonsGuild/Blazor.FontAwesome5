@@ -13,7 +13,7 @@
             "rollForward": false
         },
         "nuke.globaltool": {
-            "version": "8.1.4",
+            "version": "9.0.1",
             "commands": ["nuke"],
             "rollForward": false
         },
@@ -28,25 +28,19 @@
             "rollForward": false
         },
         "jetbrains.dotcover.commandlinetools": {
-          "version": "2024.3.0",
-          "commands": [
-            "dotnet-dotCover"
-          ],
-          "rollForward": false
+            "version": "2024.3.0",
+            "commands": ["dotnet-dotCover"],
+            "rollForward": false
         },
         "jetbrains.dottrace.globaltools": {
-          "version": "2024.3.0",
-          "commands": [
-            "dottrace"
-          ],
-          "rollForward": false
+            "version": "2024.3.0",
+            "commands": ["dottrace"],
+            "rollForward": false
         },
         "dotnet-coverage": {
-          "version": "17.12.6",
-          "commands": [
-            "dotnet-coverage"
-          ],
-          "rollForward": false
+            "version": "17.12.6",
+            "commands": ["dotnet-coverage"],
+            "rollForward": false
         },
         "dotnet-outdated-tool": {
             "version": "4.6.4",

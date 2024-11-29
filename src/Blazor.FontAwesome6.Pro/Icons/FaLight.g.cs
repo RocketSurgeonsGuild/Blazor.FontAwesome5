@@ -3504,6 +3504,15 @@ public static partial class FaLight
     /// <a href="https://fontawesome.com/icons/caret-up?f=classic&amp;s=light">Caret Up</a>
     /// </summary>
     public static Icon CaretUp => f_CaretUp ??= new Icon(IconFamily.Classic, IconStyle.Light, "caret-up", "f0d8");
+    private static Icon? f_Carpool;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/carpool?f=classic&amp;s=light">Carpool</a>
+    /// </summary>
+    public static Icon Carpool => f_Carpool ??= new Icon(IconFamily.Classic, IconStyle.Light, "carpool", "e69c");
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/carpool?f=classic&amp;s=light">Carpool</a>
+    /// </summary>
+    public static Icon CarPeople => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Carpool;
     private static Icon? f_Carrot;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/carrot?f=classic&amp;s=light">Carrot</a>
@@ -3766,6 +3775,16 @@ public static partial class FaLight
     /// <a href="https://fontawesome.com/icons/chart-column?f=classic&amp;s=light">Chart Column</a>
     /// </summary>
     public static Icon ChartColumn => f_ChartColumn ??= new Icon(IconFamily.Classic, IconStyle.Light, "chart-column", "e0e3");
+    private static Icon? f_ChartDiagram;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/chart-diagram?f=classic&amp;s=light">Chart Diagram</a>
+    /// </summary>
+    public static Icon ChartDiagram => f_ChartDiagram ??= new Icon(IconFamily.Classic, IconStyle.Light, "chart-diagram", "e695");
+    private static Icon? f_ChartFft;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/chart-fft?f=classic&amp;s=light">Chart Fft</a>
+    /// </summary>
+    public static Icon ChartFft => f_ChartFft ??= new Icon(IconFamily.Classic, IconStyle.Light, "chart-fft", "e69e");
     private static Icon? f_ChartGantt;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/chart-gantt?f=classic&amp;s=light">Chart Gantt</a>
@@ -3887,6 +3906,11 @@ public static partial class FaLight
     /// <a href="https://fontawesome.com/icons/chart-simple-horizontal?f=classic&amp;s=light">Chart Simple Horizontal</a>
     /// </summary>
     public static Icon ChartSimpleHorizontal => f_ChartSimpleHorizontal ??= new Icon(IconFamily.Classic, IconStyle.Light, "chart-simple-horizontal", "e474");
+    private static Icon? f_ChartSine;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/chart-sine?f=classic&amp;s=light">Chart Sine</a>
+    /// </summary>
+    public static Icon ChartSine => f_ChartSine ??= new Icon(IconFamily.Classic, IconStyle.Light, "chart-sine", "e69d");
     private static Icon? f_ChartTreeMap;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/chart-tree-map?f=classic&amp;s=light">Chart Tree Map</a>
@@ -4982,6 +5006,15 @@ public static partial class FaLight
     /// <a href="https://fontawesome.com/icons/circles-overlap?f=classic&amp;s=light">Circles Overlap</a>
     /// </summary>
     public static Icon CirclesOverlap => f_CirclesOverlap ??= new Icon(IconFamily.Classic, IconStyle.Light, "circles-overlap", "e600");
+    private static Icon? f_CirclesOverlap3;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=classic&amp;s=light">Circles Overlap 3</a>
+    /// </summary>
+    public static Icon CirclesOverlap3 => f_CirclesOverlap3 ??= new Icon(IconFamily.Classic, IconStyle.Light, "circles-overlap-3", "e6a1");
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=classic&amp;s=light">Circles Overlap 3</a>
+    /// </summary>
+    public static Icon Pronoun => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CirclesOverlap3;
     private static Icon? f_Citrus;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/citrus?f=classic&amp;s=light">Citrus</a>
@@ -5661,6 +5694,11 @@ public static partial class FaLight
     /// <a href="https://fontawesome.com/icons/comment-music?f=classic&amp;s=light">Comment Music</a>
     /// </summary>
     public static Icon CommentMusic => f_CommentMusic ??= new Icon(IconFamily.Classic, IconStyle.Light, "comment-music", "f8b0");
+    private static Icon? f_CommentNodes;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/comment-nodes?f=classic&amp;s=light">Comment Nodes</a>
+    /// </summary>
+    public static Icon CommentNodes => f_CommentNodes ??= new Icon(IconFamily.Classic, IconStyle.Light, "comment-nodes", "e696");
     private static Icon? f_CommentPen;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/comment-pen?f=classic&amp;s=light">Comment Pen</a>
@@ -8036,11 +8074,21 @@ public static partial class FaLight
     /// <a href="https://fontawesome.com/icons/file-export?f=classic&amp;s=light">File Export</a>
     /// </summary>
     public static Icon ArrowRightFromFile => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FileExport;
+    private static Icon? f_FileFragment;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/file-fragment?f=classic&amp;s=light">File Fragment</a>
+    /// </summary>
+    public static Icon FileFragment => f_FileFragment ??= new Icon(IconFamily.Classic, IconStyle.Light, "file-fragment", "e697");
     private static Icon? f_FileGif;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/file-gif?f=classic&amp;s=light">File Gif</a>
     /// </summary>
     public static Icon FileGif => f_FileGif ??= new Icon(IconFamily.Classic, IconStyle.Light, "file-gif", "e645");
+    private static Icon? f_FileHalfDashed;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/file-half-dashed?f=classic&amp;s=light">File Half Dashed</a>
+    /// </summary>
+    public static Icon FileHalfDashed => f_FileHalfDashed ??= new Icon(IconFamily.Classic, IconStyle.Light, "file-half-dashed", "e698");
     private static Icon? f_FileHeart;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/file-heart?f=classic&amp;s=light">File Heart</a>
@@ -10142,6 +10190,16 @@ public static partial class FaLight
     /// <a href="https://fontawesome.com/icons/hexagon-minus?f=classic&amp;s=light">Hexagon Minus</a>
     /// </summary>
     public static Icon MinusHexagon => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.HexagonMinus;
+    private static Icon? f_HexagonNodes;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/hexagon-nodes?f=classic&amp;s=light">Hexagon Nodes</a>
+    /// </summary>
+    public static Icon HexagonNodes => f_HexagonNodes ??= new Icon(IconFamily.Classic, IconStyle.Light, "hexagon-nodes", "e699");
+    private static Icon? f_HexagonNodesBolt;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/hexagon-nodes-bolt?f=classic&amp;s=light">Hexagon Nodes Bolt</a>
+    /// </summary>
+    public static Icon HexagonNodesBolt => f_HexagonNodesBolt ??= new Icon(IconFamily.Classic, IconStyle.Light, "hexagon-nodes-bolt", "e69a");
     private static Icon? f_HexagonPlus;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hexagon-plus?f=classic&amp;s=light">Hexagon Plus</a>
@@ -16643,6 +16701,11 @@ public static partial class FaLight
     /// <a href="https://fontawesome.com/icons/square-b?f=classic&amp;s=light">Square B</a>
     /// </summary>
     public static Icon SquareB => f_SquareB ??= new Icon(IconFamily.Classic, IconStyle.Light, "square-b", "e264");
+    private static Icon? f_SquareBinary;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/square-binary?f=classic&amp;s=light">Square Binary</a>
+    /// </summary>
+    public static Icon SquareBinary => f_SquareBinary ??= new Icon(IconFamily.Classic, IconStyle.Light, "square-binary", "e69b");
     private static Icon? f_SquareBolt;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-bolt?f=classic&amp;s=light">Square Bolt</a>

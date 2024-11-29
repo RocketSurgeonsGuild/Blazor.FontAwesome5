@@ -104,6 +104,19 @@ public static partial class FaCoding
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.BugSlash;
     }
     /// <summary>
+    /// Chart Diagram
+    /// <a href="https://fontawesome.com/icons/chart-diagram">Chart Diagram</a>
+    /// </summary>
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+    public static partial class ChartDiagram
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/chart-diagram?f=classic&amp;s=solid">Chart Diagram</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ChartDiagram;
+    }
+    /// <summary>
     /// Circle Nodes
     /// <a href="https://fontawesome.com/icons/circle-nodes">Circle Nodes</a>
     /// </summary>
@@ -206,6 +219,32 @@ public static partial class FaCoding
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CodePullRequest;
+    }
+    /// <summary>
+    /// Comment Nodes
+    /// <a href="https://fontawesome.com/icons/comment-nodes">Comment Nodes</a>
+    /// </summary>
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+    public static partial class CommentNodes
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/comment-nodes?f=classic&amp;s=solid">Comment Nodes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.CommentNodes;
+    }
+    /// <summary>
+    /// Css
+    /// <a href="https://fontawesome.com/icons/css">Css</a>
+    /// </summary>
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+    public static partial class Css
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/css?f=classic&amp;s=brands">Css</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon Brands => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaBrands.Css;
     }
     /// <summary>
     /// Cube
@@ -412,6 +451,32 @@ public static partial class FaCoding
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Gears;
     }
     /// <summary>
+    /// Hexagon Nodes
+    /// <a href="https://fontawesome.com/icons/hexagon-nodes">Hexagon Nodes</a>
+    /// </summary>
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+    public static partial class HexagonNodes
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/hexagon-nodes?f=classic&amp;s=solid">Hexagon Nodes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HexagonNodes;
+    }
+    /// <summary>
+    /// Hexagon Nodes Bolt
+    /// <a href="https://fontawesome.com/icons/hexagon-nodes-bolt">Hexagon Nodes Bolt</a>
+    /// </summary>
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+    public static partial class HexagonNodesBolt
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/hexagon-nodes-bolt?f=classic&amp;s=solid">Hexagon Nodes Bolt</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HexagonNodesBolt;
+    }
+    /// <summary>
     /// Keyboard
     /// <a href="https://fontawesome.com/icons/keyboard">Keyboard</a>
     /// </summary>
@@ -563,6 +628,19 @@ public static partial class FaCoding
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.Sitemap;
+    }
+    /// <summary>
+    /// Square Binary
+    /// <a href="https://fontawesome.com/icons/square-binary">Square Binary</a>
+    /// </summary>
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+    public static partial class SquareBinary
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/square-binary?f=classic&amp;s=solid">Square Binary</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SquareBinary;
     }
     /// <summary>
     /// Terminal

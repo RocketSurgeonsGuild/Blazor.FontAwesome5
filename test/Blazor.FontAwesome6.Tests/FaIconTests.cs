@@ -3,11 +3,13 @@ using Bunit;
 using Microsoft.Extensions.Logging;
 using Rocket.Surgery.Blazor.FontAwesome6.Pro;
 using Rocket.Surgery.Extensions.Testing;
+using Serilog.Events;
 using Xunit.Abstractions;
 
 namespace Rocket.Surgery.Blazor.FontAwesome6.Tests;
 
-public class FaIconTests : LoggerTest
+public class FaIconTests
+    (ITestOutputHelper testOutputHelper) : LoggerTest<XUnitTestContext>(XUnitTestContext.Create(testOutputHelper, LogEventLevel.Information))
 {
     [Fact]
     public Task Should_Support_Implicit_Conversion_From_Known_Enum()
@@ -135,7 +137,6 @@ public class FaIconTests : LoggerTest
         );
     }
 
-    public FaIconTests(ITestOutputHelper testOutputHelper) : base(testOutputHelper, LogLevel.Information) { }
     private TestContext _host = new();
 
     [Theory]

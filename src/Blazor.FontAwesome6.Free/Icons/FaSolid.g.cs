@@ -1754,6 +1754,11 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/chart-column?f=classic&amp;s=solid">Chart Column</a>
     /// </summary>
     public static Icon ChartColumn => f_ChartColumn ??= new Icon(IconFamily.Classic, IconStyle.Solid, "chart-column", "e0e3");
+    private static Icon? f_ChartDiagram;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/chart-diagram?f=classic&amp;s=solid">Chart Diagram</a>
+    /// </summary>
+    public static Icon ChartDiagram => f_ChartDiagram ??= new Icon(IconFamily.Classic, IconStyle.Solid, "chart-diagram", "e695");
     private static Icon? f_ChartGantt;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/chart-gantt?f=classic&amp;s=solid">Chart Gantt</a>
@@ -2388,6 +2393,11 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/comment-medical?f=classic&amp;s=solid">Comment Medical</a>
     /// </summary>
     public static Icon CommentMedical => f_CommentMedical ??= new Icon(IconFamily.Classic, IconStyle.Solid, "comment-medical", "f7f5");
+    private static Icon? f_CommentNodes;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/comment-nodes?f=classic&amp;s=solid">Comment Nodes</a>
+    /// </summary>
+    public static Icon CommentNodes => f_CommentNodes ??= new Icon(IconFamily.Classic, IconStyle.Solid, "comment-nodes", "e696");
     private static Icon? f_CommentSlash;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/comment-slash?f=classic&amp;s=solid">Comment Slash</a>
@@ -3498,6 +3508,16 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/file-export?f=classic&amp;s=solid">File Export</a>
     /// </summary>
     public static Icon ArrowRightFromFile => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.FileExport;
+    private static Icon? f_FileFragment;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/file-fragment?f=classic&amp;s=solid">File Fragment</a>
+    /// </summary>
+    public static Icon FileFragment => f_FileFragment ??= new Icon(IconFamily.Classic, IconStyle.Solid, "file-fragment", "e697");
+    private static Icon? f_FileHalfDashed;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/file-half-dashed?f=classic&amp;s=solid">File Half Dashed</a>
+    /// </summary>
+    public static Icon FileHalfDashed => f_FileHalfDashed ??= new Icon(IconFamily.Classic, IconStyle.Solid, "file-half-dashed", "e698");
     private static Icon? f_FileImage;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/file-image?f=classic&amp;s=solid">File Image</a>
@@ -4472,6 +4492,16 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/helmet-un?f=classic&amp;s=solid">Helmet Un</a>
     /// </summary>
     public static Icon HelmetUn => f_HelmetUn ??= new Icon(IconFamily.Classic, IconStyle.Solid, "helmet-un", "e503");
+    private static Icon? f_HexagonNodes;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/hexagon-nodes?f=classic&amp;s=solid">Hexagon Nodes</a>
+    /// </summary>
+    public static Icon HexagonNodes => f_HexagonNodes ??= new Icon(IconFamily.Classic, IconStyle.Solid, "hexagon-nodes", "e699");
+    private static Icon? f_HexagonNodesBolt;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/hexagon-nodes-bolt?f=classic&amp;s=solid">Hexagon Nodes Bolt</a>
+    /// </summary>
+    public static Icon HexagonNodesBolt => f_HexagonNodesBolt ??= new Icon(IconFamily.Classic, IconStyle.Solid, "hexagon-nodes-bolt", "e69a");
     private static Icon? f_Highlighter;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/highlighter?f=classic&amp;s=solid">Highlighter</a>
@@ -7425,6 +7455,11 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/square-arrow-up-right?f=classic&amp;s=solid">Square Arrow Up Right</a>
     /// </summary>
     public static Icon ExternalLinkSquare => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.SquareArrowUpRight;
+    private static Icon? f_SquareBinary;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/square-binary?f=classic&amp;s=solid">Square Binary</a>
+    /// </summary>
+    public static Icon SquareBinary => f_SquareBinary ??= new Icon(IconFamily.Classic, IconStyle.Solid, "square-binary", "e69b");
     private static Icon? f_SquareCaretDown;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-caret-down?f=classic&amp;s=solid">Square Caret Down</a>

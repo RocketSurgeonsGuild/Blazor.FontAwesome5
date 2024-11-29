@@ -2,11 +2,13 @@
 using Microsoft.Extensions.Logging;
 using Rocket.Surgery.Blazor.FontAwesome6.Pro;
 using Rocket.Surgery.Extensions.Testing;
+using Serilog.Events;
 using Xunit.Abstractions;
 
 namespace Rocket.Surgery.Blazor.FontAwesome6.Tests;
 
-public class IconTests : LoggerTest
+public class IconTests
+    (ITestOutputHelper testOutputHelper) : LoggerTest<XUnitTestContext>(XUnitTestContext.Create(testOutputHelper, LogEventLevel.Information))
 {
     [Fact]
     public Task Should_Support_Implicit_Conversion_From_Known_Enum()
@@ -94,8 +96,6 @@ public class IconTests : LoggerTest
                .ToIcon()
         );
     }
-
-    public IconTests(ITestOutputHelper testOutputHelper) : base(testOutputHelper, LogLevel.Information) { }
 
     [Theory]
     [InlineData(IconFlip.None, "<i class=\"fa-regular fa-circle-half-stroke\"></i>")]

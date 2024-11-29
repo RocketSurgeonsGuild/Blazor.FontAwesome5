@@ -564,6 +564,7 @@ automotive:
     - car-wrench
     - caravan
     - caravan-simple
+    - carpool
     - cars
     - charging-station
     - engine
@@ -1024,6 +1025,8 @@ charts-diagrams:
     - chart-bullet
     - chart-candlestick
     - chart-column
+    - chart-diagram
+    - chart-fft
     - chart-gantt
     - chart-kanban
     - chart-line
@@ -1045,6 +1048,7 @@ charts-diagrams:
     - chart-scatter-bubble
     - chart-simple
     - chart-simple-horizontal
+    - chart-sine
     - chart-tree-map
     - chart-user
     - chart-waterfall
@@ -1067,6 +1071,8 @@ charts-diagrams:
     - display-chart-up-circle-dollar
     - file-chart-column
     - file-chart-pie
+    - hexagon-nodes
+    - hexagon-nodes-bolt
     - square-kanban
     - square-poll-horizontal
     - square-poll-vertical
@@ -1203,6 +1209,7 @@ coding:
     - browsers
     - bug
     - bug-slash
+    - chart-diagram
     - circle-nodes
     - cloud-binary
     - code
@@ -1215,6 +1222,8 @@ coding:
     - code-pull-request-closed
     - code-pull-request-draft
     - code-simple
+    - comment-nodes
+    - css
     - cube
     - cubes
     - diagram-project
@@ -1233,6 +1242,8 @@ coding:
     - gear-complex-code
     - gears
     - head-side-gear
+    - hexagon-nodes
+    - hexagon-nodes-bolt
     - key-skeleton-left-right
     - keyboard
     - laptop-binary
@@ -1255,6 +1266,7 @@ coding:
     - sidebar-flip
     - sitemap
     - split
+    - square-binary
     - square-code
     - square-terminal
     - terminal
@@ -1299,6 +1311,7 @@ communication:
     - comment-middle-top
     - comment-minus
     - comment-music
+    - comment-nodes
     - comment-pen
     - comment-plus
     - comment-question
@@ -2195,7 +2208,9 @@ files:
     - file-excel
     - file-exclamation
     - file-export
+    - file-fragment
     - file-gif
+    - file-half-dashed
     - file-heart
     - file-image
     - file-import
@@ -2666,6 +2681,7 @@ gaming:
   label: Gaming
 gender:
   icons:
+    - circles-overlap-3
     - genderless
     - mars
     - mars-and-venus
@@ -4784,6 +4800,7 @@ shapes:
     - circle-three-quarters
     - circle-three-quarters-stroke
     - circles-overlap
+    - circles-overlap-3
     - cloud
     - clover
     - club
@@ -4815,6 +4832,7 @@ shapes:
     - spade
     - sparkle
     - square
+    - square-binary
     - square-bolt
     - square-dashed
     - square-dashed-circle-plus
@@ -4977,6 +4995,7 @@ social:
     - share-nodes
     - signal-stream
     - sparkles
+    - square-bluesky
     - square-poll-horizontal
     - square-poll-vertical
     - square-share-nodes
@@ -5368,6 +5387,7 @@ transportation:
     - car-side-bolt
     - car-tilt
     - car-tunnel
+    - carpool
     - cars
     - cart-shopping
     - drone

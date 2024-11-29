@@ -1754,6 +1754,11 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/chart-column?f=classic&amp;s=solid">Chart Column</a>
     /// </summary>
     public static SvgIcon ChartColumn => f_ChartColumn ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "chart-column", "e0e3", 512, 512, ImmutableArray.Create("M32 32c17.7 0 32 14.3 32 32l0 336c0 8.8 7.2 16 16 16l400 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L80 480c-44.2 0-80-35.8-80-80L0 64C0 46.3 14.3 32 32 32zM160 224c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32zm128-64l0 160c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-160c0-17.7 14.3-32 32-32s32 14.3 32 32zm64 32c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32zM480 96l0 224c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-224c0-17.7 14.3-32 32-32s32 14.3 32 32z"u8.ToArray().ToImmutableArray()));
+    private static SvgIcon? f_ChartDiagram;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/chart-diagram?f=classic&amp;s=solid">Chart Diagram</a>
+    /// </summary>
+    public static SvgIcon ChartDiagram => f_ChartDiagram ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "chart-diagram", "e695", 512, 512, ImmutableArray.Create("M80 32C53.5 32 32 53.5 32 80s21.5 48 48 48l152 0 0 40-48 48-56 0c-48.6 0-88 39.4-88 88l0 48-8 0c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-8 0 0-48c0-22.1 17.9-40 40-40l56 0 48 48 0 40-8 0c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-8 0 0-40 48-48 56 0c22.1 0 40 17.9 40 40l0 48-8 0c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-8 0 0-48c0-48.6-39.4-88-88-88l-56 0-48-48 0-40 152 0c26.5 0 48-21.5 48-48s-21.5-48-48-48L80 32z"u8.ToArray().ToImmutableArray()));
     private static SvgIcon? f_ChartGantt;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/chart-gantt?f=classic&amp;s=solid">Chart Gantt</a>
@@ -2388,6 +2393,11 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/comment-medical?f=classic&amp;s=solid">Comment Medical</a>
     /// </summary>
     public static SvgIcon CommentMedical => f_CommentMedical ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "comment-medical", "f7f5", 512, 512, ImmutableArray.Create("M256 448c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9zM224 160c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z"u8.ToArray().ToImmutableArray()));
+    private static SvgIcon? f_CommentNodes;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/comment-nodes?f=classic&amp;s=solid">Comment Nodes</a>
+    /// </summary>
+    public static SvgIcon CommentNodes => f_CommentNodes ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "comment-nodes", "e696", 640, 512, ImmutableArray.Create("M256 448c10.8 0 21.5-.5 32-1.6c.3-15.8 4.4-31.7 12.9-46.4c16-27.7 43.7-44.4 73.2-47.5l16.7-29.2c-4.3-11-6.7-22.9-6.7-35.4c0-53 43-96 96-96c9.1 0 17.8 1.3 26.2 3.6C481.1 102.1 378.6 32 256 32C114.6 32 0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.2 .3-.4 .5-.6 .7c-.3 .3-.5 .5-.6 .7l-.3 .3c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9zm72.6-32c-17.7 30.6-7.2 69.7 23.4 87.4s69.7 7.2 87.4-23.4c1.5-2.6 2.8-5.3 3.9-8l73.3 0c1.1 2.7 2.4 5.4 3.9 8c17.7 30.6 56.8 41.1 87.4 23.4s41.1-56.8 23.4-87.4c-13.4-23.2-39.1-34.8-64-31.4l-17.6-30.7c-11 11.7-25 20.6-40.6 25.6l16.5 28.9c-3.8 4.8-6.8 10-9 15.6l-73.4 0c-2.2-5.6-5.3-10.8-9-15.6l33-57.7c4.1 .8 8.4 1.3 12.8 1.3c35.3 0 64-28.7 64-64s-28.7-64-64-64s-64 28.7-64 64c0 13.4 4.1 25.8 11.2 36.1l-34.6 60.5c-25-3.4-50.6 8.3-64 31.4z"u8.ToArray().ToImmutableArray()));
     private static SvgIcon? f_CommentSlash;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/comment-slash?f=classic&amp;s=solid">Comment Slash</a>
@@ -3498,6 +3508,16 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/file-export?f=classic&amp;s=solid">File Export</a>
     /// </summary>
     public static SvgIcon ArrowRightFromFile => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.FileExport;
+    private static SvgIcon? f_FileFragment;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/file-fragment?f=classic&amp;s=solid">File Fragment</a>
+    /// </summary>
+    public static SvgIcon FileFragment => f_FileFragment ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "file-fragment", "e697", 384, 512, ImmutableArray.Create("M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 288c0 35.3-28.7 64-64 64l-128 0 0-128c0-35.3-28.7-64-64-64L0 320 0 64zm384 64l-128 0L256 0 384 128zM32 352l96 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-96 0c-17.7 0-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32z"u8.ToArray().ToImmutableArray()));
+    private static SvgIcon? f_FileHalfDashed;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/file-half-dashed?f=classic&amp;s=solid">File Half Dashed</a>
+    /// </summary>
+    public static SvgIcon FileHalfDashed => f_FileHalfDashed ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "file-half-dashed", "e698", 384, 512, ImmutableArray.Create("M64 0C28.7 0 0 28.7 0 64L0 320l384 0 0-160-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM0 416l64 0 0-64L0 352l0 64zm288 32l-80 0 0 64 80 0 0-64zm-112 0l-80 0 0 64 80 0 0-64zM64 448L0 448c0 35.3 28.7 64 64 64l0-64zm256 0l0 64c35.3 0 64-28.7 64-64l-64 0zm64-32l0-64-64 0 0 64 64 0z"u8.ToArray().ToImmutableArray()));
     private static SvgIcon? f_FileImage;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/file-image?f=classic&amp;s=solid">File Image</a>
@@ -4472,6 +4492,16 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/helmet-un?f=classic&amp;s=solid">Helmet Un</a>
     /// </summary>
     public static SvgIcon HelmetUn => f_HelmetUn ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "helmet-un", "e503", 512, 512, ImmutableArray.Create("M479.5 224C471.2 98.9 367.2 0 240 0C107.5 0 0 107.5 0 240l0 56.3C0 344.8 39.2 384 87.7 384L200 384l14.9 0L343.5 505.4c4.5 4.2 10.4 6.6 16.5 6.6l96 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-86.5 0-1.5-1.5L368 288l80 0 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-.5 0zM320 417.2l-78-73.7L274.4 288l45.6 0 0 129.2zM285.3 103.1l34.7 52 0-43.2c0-8.8 7.2-16 16-16s16 7.2 16 16l0 96c0 7.1-4.6 13.3-11.4 15.3s-14-.6-17.9-6.4l-34.7-52 0 43.2c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96c0-7.1 4.6-13.3 11.4-15.3s14 .6 17.9 6.4zM160 112l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16l0 64c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16z"u8.ToArray().ToImmutableArray()));
+    private static SvgIcon? f_HexagonNodes;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/hexagon-nodes?f=classic&amp;s=solid">Hexagon Nodes</a>
+    /// </summary>
+    public static SvgIcon HexagonNodes => f_HexagonNodes ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "hexagon-nodes", "e699", 448, 512, ImmutableArray.Create("M248 106.6c18.9-9 32-28.3 32-50.6c0-30.9-25.1-56-56-56s-56 25.1-56 56c0 22.3 13.1 41.6 32 50.6l0 98.8c-2.8 1.3-5.5 2.9-8 4.7l-80.1-45.8c1.6-20.8-8.6-41.6-27.9-52.8C57.2 96 23 105.2 7.5 132S1.2 193 28 208.5c1.3 .8 2.6 1.5 4 2.1l0 90.8c-1.3 .6-2.7 1.3-4 2.1C1.2 319-8 353.2 7.5 380S57.2 416 84 400.5c19.3-11.1 29.4-32 27.8-52.8l50.5-28.9c-11.5-11.2-19.9-25.6-23.8-41.7L88 306.1c-2.6-1.8-5.2-3.3-8-4.7l0-90.8c2.8-1.3 5.5-2.9 8-4.7l80.1 45.8c-.1 1.4-.2 2.8-.2 4.3c0 22.3 13.1 41.6 32 50.6l0 98.8c-18.9 9-32 28.3-32 50.6c0 30.9 25.1 56 56 56s56-25.1 56-56c0-22.3-13.1-41.6-32-50.6l0-98.8c2.8-1.3 5.5-2.9 8-4.7l80.1 45.8c-1.6 20.8 8.6 41.6 27.8 52.8c26.8 15.5 61 6.3 76.5-20.5s6.3-61-20.5-76.5c-1.3-.8-2.7-1.5-4-2.1l0-90.8c1.4-.6 2.7-1.3 4-2.1c26.8-15.5 36-49.7 20.5-76.5S390.8 96 364 111.5c-19.3 11.1-29.4 32-27.8 52.8l-50.6 28.9c11.5 11.2 19.9 25.6 23.8 41.7L360 205.9c2.6 1.8 5.2 3.3 8 4.7l0 90.8c-2.8 1.3-5.5 2.9-8 4.6l-80.1-45.8c.1-1.4 .2-2.8 .2-4.3c0-22.3-13.1-41.6-32-50.6l0-98.8z"u8.ToArray().ToImmutableArray()));
+    private static SvgIcon? f_HexagonNodesBolt;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/hexagon-nodes-bolt?f=classic&amp;s=solid">Hexagon Nodes Bolt</a>
+    /// </summary>
+    public static SvgIcon HexagonNodesBolt => f_HexagonNodesBolt ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "hexagon-nodes-bolt", "e69a", 576, 512, ImmutableArray.Create("M248 106.6c18.9-9 32-28.3 32-50.6c0-30.9-25.1-56-56-56s-56 25.1-56 56c0 22.3 13.1 41.6 32 50.6l0 98.8c-2.8 1.3-5.5 2.9-8 4.7l-80.1-45.8c1.6-20.8-8.6-41.6-27.9-52.8C57.2 96 23 105.2 7.5 132S1.2 193 28 208.5c1.3 .8 2.6 1.5 4 2.1l0 90.8c-1.3 .6-2.7 1.3-4 2.1C1.2 319-8 353.2 7.5 380S57.2 416 84 400.5c19.3-11.1 29.4-32 27.8-52.8l50.5-28.9c-11.5-11.2-19.9-25.6-23.8-41.7L88 306.1c-2.6-1.8-5.2-3.3-8-4.7l0-90.8c2.8-1.3 5.5-2.9 8-4.7l80.1 45.8c-.1 1.4-.2 2.8-.2 4.3c0 22.3 13.1 41.6 32 50.6l0 98.8c-18.9 9-32 28.3-32 50.6c0 30.9 25.1 56 56 56c30.7 0 55.6-24.7 56-55.2c-7.5-12.9-13.5-26.8-17.6-41.5c-4.2-4-9.1-7.3-14.4-9.9l0-98.8c2.8-1.3 5.5-2.9 8-4.7l10.5 6c5.5-15.3 13.1-29.5 22.4-42.5l-9.1-5.2c.1-1.4 .2-2.8 .2-4.3c0-22.3-13.1-41.6-32-50.6l0-98.8zM440.5 132C425 105.2 390.8 96 364 111.5c-19.3 11.1-29.4 32-27.8 52.8l-50.6 28.9c11.5 11.2 19.9 25.6 23.8 41.7L360 205.9c.4 .3 .8 .6 1.3 .9c21.7-9.5 45.6-14.8 70.8-14.8c2 0 4 0 5.9 .1c12.1-17.3 13.8-40.6 2.6-60.1zM432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm47.9-225c4.3 3.7 5.4 9.9 2.6 14.9L452.4 356l35.6 0c5.2 0 9.8 3.3 11.4 8.2s-.1 10.3-4.2 13.4l-96 72c-4.5 3.4-10.8 3.2-15.1-.6s-5.4-9.9-2.6-14.9L411.6 380 376 380c-5.2 0-9.8-3.3-11.4-8.2s.1-10.3 4.2-13.4l96-72c4.5-3.4 10.8-3.2 15.1 .6z"u8.ToArray().ToImmutableArray()));
     private static SvgIcon? f_Highlighter;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/highlighter?f=classic&amp;s=solid">Highlighter</a>
@@ -7425,6 +7455,11 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/square-arrow-up-right?f=classic&amp;s=solid">Square Arrow Up Right</a>
     /// </summary>
     public static SvgIcon ExternalLinkSquare => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.SquareArrowUpRight;
+    private static SvgIcon? f_SquareBinary;
+    /// <summary>
+    /// <a href="https://fontawesome.com/icons/square-binary?f=classic&amp;s=solid">Square Binary</a>
+    /// </summary>
+    public static SvgIcon SquareBinary => f_SquareBinary ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "square-binary", "e69b", 448, 512, ImmutableArray.Create("M0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm144 4c-24.3 0-44 19.7-44 44l0 48c0 24.3 19.7 44 44 44l32 0c24.3 0 44-19.7 44-44l0-48c0-24.3-19.7-44-44-44l-32 0zm-4 44c0-2.2 1.8-4 4-4l32 0c2.2 0 4 1.8 4 4l0 48c0 2.2-1.8 4-4 4l-32 0c-2.2 0-4-1.8-4-4l0-48zm140-44c-11 0-20 9-20 20c0 9.7 6.9 17.7 16 19.6l0 76.4c0 11 9 20 20 20s20-9 20-20l0-96c0-11-9-20-20-20l-16 0zM132 296c0 9.7 6.9 17.7 16 19.6l0 76.4c0 11 9 20 20 20s20-9 20-20l0-96c0-11-9-20-20-20l-16 0c-11 0-20 9-20 20zm96 24l0 48c0 24.3 19.7 44 44 44l32 0c24.3 0 44-19.7 44-44l0-48c0-24.3-19.7-44-44-44l-32 0c-24.3 0-44 19.7-44 44zm44-4l32 0c2.2 0 4 1.8 4 4l0 48c0 2.2-1.8 4-4 4l-32 0c-2.2 0-4-1.8-4-4l0-48c0-2.2 1.8-4 4-4z"u8.ToArray().ToImmutableArray()));
     private static SvgIcon? f_SquareCaretDown;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-caret-down?f=classic&amp;s=solid">Square Caret Down</a>

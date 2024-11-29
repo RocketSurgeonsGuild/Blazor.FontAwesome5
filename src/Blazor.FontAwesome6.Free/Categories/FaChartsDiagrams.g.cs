@@ -70,6 +70,19 @@ public static partial class FaChartsDiagrams
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ChartColumn;
     }
     /// <summary>
+    /// Chart Diagram
+    /// <a href="https://fontawesome.com/icons/chart-diagram">Chart Diagram</a>
+    /// </summary>
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+    public static partial class ChartDiagram
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/chart-diagram?f=classic&amp;s=solid">Chart Diagram</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ChartDiagram;
+    }
+    /// <summary>
     /// Chart Gantt
     /// <a href="https://fontawesome.com/icons/chart-gantt">Chart Gantt</a>
     /// </summary>
@@ -185,6 +198,32 @@ public static partial class FaChartsDiagrams
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
         public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.DiagramSuccessor;
+    }
+    /// <summary>
+    /// Hexagon Nodes
+    /// <a href="https://fontawesome.com/icons/hexagon-nodes">Hexagon Nodes</a>
+    /// </summary>
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+    public static partial class HexagonNodes
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/hexagon-nodes?f=classic&amp;s=solid">Hexagon Nodes</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HexagonNodes;
+    }
+    /// <summary>
+    /// Hexagon Nodes Bolt
+    /// <a href="https://fontawesome.com/icons/hexagon-nodes-bolt">Hexagon Nodes Bolt</a>
+    /// </summary>
+    [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+    public static partial class HexagonNodesBolt
+    {
+        /// <summary>
+        /// <a href="https://fontawesome.com/icons/hexagon-nodes-bolt?f=classic&amp;s=solid">Hexagon Nodes Bolt</a>
+        /// </summary>
+        [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.HexagonNodesBolt;
     }
     /// <summary>
     /// Square Poll Horizontal

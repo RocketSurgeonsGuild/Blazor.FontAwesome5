@@ -19,11 +19,11 @@
         <GlobalPackageReference Include="FakeItEasy.Analyzer.CSharp" Version="6.1.1" />
         <GlobalPackageReference Include="FluentAssertions.Analyzers" Version="0.34.1" />
         <GlobalPackageReference Include="xunit.analyzers" Version="1.18.0" />
-        <GlobalPackageReference Include="JetBrains.ExternalAnnotations" Version="10.2.154" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="JetBrains.Annotations" Version="2024.3.0" />
         <PackageVersion Include="JetBrains.dotCover.CommandLineTools" Version="2024.3.2" />
+        <PackageVersion Include="JetBrains.ExternalAnnotations" Version="10.2.154" />
         <PackageVersion Include="JetBrains.ReSharper.GlobalTools" Version="2024.3.2" />
         <PackageVersion Include="PrettyCode.StringBuilder" Version="1.0.0" />
         <PackageVersion Include="Rocket.Surgery.Conventions.CommandLine" Version="12.11.2" />
@@ -37,7 +37,7 @@
         <PackageVersion Include="GitVersion.Tool" Version="6.1.0" />
         <PackageVersion Include="Nuke.Common" Version="9.0.3" />
         <PackageVersion Include="ReportGenerator" Version="5.4.1" />
-        <PackageVersion Include="Rocket.Surgery.Nuke" Version="2.9.3" />
+        <PackageVersion Include="Rocket.Surgery.Nuke" Version="2.9.6" />
         <PackageVersion Include="Humanizer.Core" Version="2.14.1" />
         <PackageVersion Include="Microsoft.AspNetCore.Components" Version="9.0.0" />
         <PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="9.0.0" />

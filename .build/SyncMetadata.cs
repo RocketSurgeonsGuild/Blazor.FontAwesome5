@@ -16,7 +16,7 @@ using static Nuke.Common.Tools.Npm.NpmTasks;
 
 [GitHubActionsSecret("FONT_AWESOME_TOKEN")]
 [GitHubActionsSecret("FONT_AWESOME_API_KEY")]
-public partial class Pipeline
+internal partial class Pipeline
 {
     private static Matcher excludeProjects(Matcher matcher, params Project[] projects)
     {
@@ -29,7 +29,7 @@ public partial class Pipeline
     }
 
     [Parameter]
-    public string FontAwesomeToken { get; set; }
+    public string FontAwesomeToken { get; set; } = null!;
 
     private Target RegenerateFromMetadata =>
         t => t
@@ -60,7 +60,7 @@ public partial class Pipeline
                      var categoriesData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "categories.yml";
                      CopyFile(categoriesData, RootDirectory / "src" / "Blazor.FontAwesome.Tool" / "categories.txt", FileExistsPolicy.Overwrite);
 
-                     var categoryProvider = categoriesData.FileExists()
+                     var categoryProvider = ( categoriesData.FileExists() )
                          ? CategoryProvider.Create(File.OpenRead(categoriesData))
                          : CategoryProvider.CreateDefault();
                      var host = Microsoft

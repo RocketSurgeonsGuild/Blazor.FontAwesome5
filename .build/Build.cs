@@ -17,7 +17,7 @@ using Rocket.Surgery.Nuke.DotNetCore;
 [NuGetVerbosityMapping]
 [ShutdownDotNetAfterServerBuild]
 [LocalBuildConventions]
-public partial class Pipeline : NukeBuild,
+internal partial class Pipeline : NukeBuild,
                                 ICanRestoreWithDotNetCore,
                                 ICanBuildWithDotNetCore,
                                 ICanTestWithDotNetCore,

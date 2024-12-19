@@ -62,3 +62,4 @@ jobs:
         run: |
           dotnet nuget push **/*.nupkg  --skip-duplicate -s nuget.org --api-key $ENV:ApiKey
           dotnet nuget push **/*.snupkg --skip-duplicate -s nuget.org --api-key $ENV:ApiKey
+          

@@ -84,10 +84,6 @@ jobs:
         id: lintFiles
         run: |
           dotnet .build/bin/Debug/.build.dll --target LintFiles --skip Restore --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
-      - name: Regenerate Build Configurations
-        id: regenerateBuildConfigurations
-        run: |
-          dotnet .build/bin/Debug/.build.dll --target RegenerateBuildConfigurations --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Prettier
         id: prettier
         run: |
@@ -100,6 +96,10 @@ jobs:
         id: jetBrainsCleanupCode
         run: |
           dotnet .build/bin/Debug/.build.dll --target JetBrainsCleanupCode --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+      - name: Regenerate Build Configurations
+        id: regenerateBuildConfigurations
+        run: |
+          dotnet .build/bin/Debug/.build.dll --target RegenerateBuildConfigurations --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Generate Solution Items
         id: generateSolutionItems
         run: |

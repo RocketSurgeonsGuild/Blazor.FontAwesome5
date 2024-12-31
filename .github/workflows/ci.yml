@@ -130,7 +130,7 @@ jobs:
         id: build
         run: |
           dotnet .build/bin/Debug/.build.dll --target DotnetCoreBuild Build --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
-      - name: 🚦 Test
+      - name: 💨 Test
         id: test
         run: |
           dotnet .build/bin/Debug/.build.dll --target DotnetCoreTest Test CollectCodeCoverage GenerateCodeCoverageReportCobertura GenerateCodeCoverageBadges GenerateCodeCoverageSummary GenerateCodeCoverageReport --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
@@ -154,7 +154,7 @@ jobs:
         with:
           name: 'test data'
           path: 'artifacts/test/'
-      - name: 📫 Publish Test Results
+      - name: 🚀 Publish Test Results
         if: always()
         uses: EnricoMi/publish-unit-test-result-action@v2
         with:
@@ -165,7 +165,7 @@ jobs:
         with:
           name: 'coverage'
           path: 'coverage/'
-      - name: 📫 Publish Coverage Comment
+      - name: 🚀 Publish Coverage Comment
         if: always() && github.event_name == 'pull_request'
         continue-on-error: true
         uses: marocchino/sticky-pull-request-comment@v2
@@ -173,7 +173,7 @@ jobs:
           header: 'Coverage'
           path: 'coverage/summary/SummaryGithub.md'
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-      - name: 📫 Publish Codecov Coverage
+      - name: 🚀 Publish Codecov Coverage
         if: always() && (github.event_name != 'pull_request' && github.event_name != 'pull_request_target') || ((github.event_name == 'pull_request' || github.event_name == 'pull_request_target') && github.event.pull_request.user.login != 'renovate[bot]' && github.event.pull_request.user.login != 'dependabot[bot]')
         continue-on-error: true
         uses: codecov/codecov-action@v5.1.2

@@ -15,7 +15,7 @@ indent_style = space
 indent_size = 2
 trim_trailing_whitespace = true
 
-[{*.graphqlconfig,*.graphqlrc,*.har,*.jsb2,*.jsb3,*.json,*.jsonc,*.postman_collection,*.postman_collection.json,*.postman_environment,*.postman_environment.json,.babelrc,.eslintrc,.prettierrc,.stylelintrc,bowerrc,jest.config}]
+[{*.graphqlconfig,*.graphqlrc,*.har,*.jsb2,*.jsb3,*.json,*.jsonc,*.postman_collection,*.postman_environment,.babelrc,.eslintrc,.prettierrc,.stylelintrc,bowerrc,jest.config}]
 indent_style = space
 indent_size = 2
 trim_trailing_whitespace = true
@@ -41,8 +41,17 @@ charset = utf-8
 insert_final_newline = true
 max_line_length = 200
 
+## Other configs
+dotnet_diagnostic.RMG012.severity = error # Unmapped target member
+dotnet_diagnostic.RMG020.severity = error # Unmapped source member
+##
+
+###################################################################################################################
+####            This block is generated off the microsoft documentation (not sure if there is a better place to get all the metadata needed, wtb)
+####   Reference: https://github.com/david-driscoll/scripts/blob/main/EditorConfigGenerator.linq
+###################################################################################################################
 # style options
-csharp_prefer_braces = true
+csharp_prefer_braces = when_multiline
 # Applicable to: IDE0011
 # true, false, when_multiline
 
@@ -54,8 +63,16 @@ csharp_prefer_simple_using_statement = true
 # Applicable to: IDE0063
 # true, false
 
+csharp_prefer_static_anonymous_function = true
+# Applicable to: IDE0320
+# true, false
+
 csharp_prefer_static_local_function = true
 # Applicable to: IDE0062
+# true, false
+
+csharp_prefer_system_threading_lock = true
+# Applicable to: IDE0330
 # true, false
 
 csharp_preferred_modifier_order = public, private, protected, internal, new, abstract, virtual, sealed, static, readonly, override, extern, unsafe, volatile, async, file, required
@@ -70,35 +87,35 @@ csharp_style_deconstructed_variable_declaration = true
 # Applicable to: IDE0042
 # true, false
 
-csharp_style_expression_bodied_accessors = true
+csharp_style_expression_bodied_accessors = when_on_single_line
 # Applicable to: IDE0027
 # true, when_on_single_line, false
 
-csharp_style_expression_bodied_constructors = true
+csharp_style_expression_bodied_constructors = when_on_single_line
 # Applicable to: IDE0021
 # true, when_on_single_line, false
 
-csharp_style_expression_bodied_indexers = true
+csharp_style_expression_bodied_indexers = when_on_single_line
 # Applicable to: IDE0026
 # true, when_on_single_line, false
 
-csharp_style_expression_bodied_lambdas = true
+csharp_style_expression_bodied_lambdas = when_on_single_line
 # Applicable to: IDE0053
 # true, when_on_single_line, false
 
-csharp_style_expression_bodied_local_functions = true
+csharp_style_expression_bodied_local_functions = when_on_single_line
 # Applicable to: IDE0061
 # true, when_on_single_line, false
 
-csharp_style_expression_bodied_methods = true
+csharp_style_expression_bodied_methods = when_on_single_line
 # Applicable to: IDE0022
 # true, when_on_single_line, false
 
-csharp_style_expression_bodied_operators = true
+csharp_style_expression_bodied_operators = when_on_single_line
 # Applicable to: IDE0023, IDE0024
 # true, when_on_single_line, false
 
-csharp_style_expression_bodied_properties = true
+csharp_style_expression_bodied_properties = when_on_single_line
 # Applicable to: IDE0025
 # true, when_on_single_line, false
 
@@ -210,7 +227,7 @@ csharp_using_directive_placement = outside_namespace
 # Applicable to: IDE0065
 # outside_namespace, inside_namespace
 
-dotnet_code_quality_unused_parameters = non_public
+dotnet_code_quality_unused_parameters = all
 # Applicable to: IDE0060
 # all, non_public
 
@@ -254,7 +271,7 @@ dotnet_style_parentheses_in_other_operators = never_if_unnecessary
 # Applicable to: IDE0047, IDE0048
 # always_for_clarity, never_if_unnecessary
 
-dotnet_style_parentheses_in_relational_binary_operators = always_for_clarity
+dotnet_style_parentheses_in_relational_binary_operators = never_if_unnecessary
 # Applicable to: IDE0047, IDE0048
 # always_for_clarity, never_if_unnecessary
 
@@ -268,6 +285,10 @@ dotnet_style_predefined_type_for_member_access = true
 
 dotnet_style_prefer_auto_properties = true
 # Applicable to: IDE0032
+# true, false
+
+dotnet_style_prefer_collection_expression = true
+# Applicable to: IDE0028, IDE0300, IDE0301, IDE0302, IDE0303, IDE0304, IDE0305
 # true, false
 
 dotnet_style_prefer_compound_assignment = true
@@ -470,7 +491,7 @@ csharp_space_between_method_declaration_parameter_list_parentheses = false
 # true, false
 
 csharp_space_between_parentheses = expressions
-# control_flow_statements, expressions, type_casts
+# control_flow_statements, expressions, type_casts, false (or any other value)
 
 csharp_space_between_square_brackets = false
 # true, false
@@ -872,7 +893,7 @@ dotnet_diagnostic.CA1014.severity = none
 # CA1016: Mark assemblies with AssemblyVersionAttribute
 dotnet_diagnostic.CA1016.severity = none
 
-# CA1017: Mark assemblies with Mark assemblies with ComVisibleAttribute
+# CA1017: Mark assemblies with ComVisibleAttribute
 dotnet_diagnostic.CA1017.severity = none
 
 # CA1018: Mark attributes with AttributeUsageAttribute
@@ -931,7 +952,7 @@ dotnet_diagnostic.CA1040.severity = none
 dotnet_code_quality.CA1040.api_surface = public # public, internal, friend, all
 
 # CA1041: Provide ObsoleteAttribute message
-dotnet_diagnostic.CA1041.severity = none
+dotnet_diagnostic.CA1041.severity = warning
 # Options: api_surface
 dotnet_code_quality.CA1041.api_surface = public # public, internal, friend, all
 
@@ -956,12 +977,12 @@ dotnet_diagnostic.CA1046.severity = none
 dotnet_code_quality.CA1046.api_surface = public # public, internal, friend, all
 
 # CA1047: Do not declare protected members in sealed types
-dotnet_diagnostic.CA1047.severity = none
+dotnet_diagnostic.CA1047.severity = warning
 # Options: api_surface
 dotnet_code_quality.CA1047.api_surface = public # public, internal, friend, all
 
 # CA1050: Declare types in namespaces
-dotnet_diagnostic.CA1050.severity = none
+dotnet_diagnostic.CA1050.severity = warning
 
 # CA1051: Do not declare visible instance fields
 dotnet_diagnostic.CA1051.severity = none
@@ -1006,7 +1027,7 @@ dotnet_code_quality.CA1058.api_surface = public # public, internal, friend, all
 dotnet_diagnostic.CA1060.severity = none
 
 # CA1061: Do not hide base class methods
-dotnet_diagnostic.CA1061.severity = none
+dotnet_diagnostic.CA1061.severity = warning
 
 # CA1062: Validate arguments of public methods
 dotnet_diagnostic.CA1062.severity = none
@@ -1032,20 +1053,20 @@ dotnet_diagnostic.CA1065.severity = none
 dotnet_diagnostic.CA1066.severity = none
 
 # CA1067: Override Equals when implementing IEquatable
-dotnet_diagnostic.CA1067.severity = none
+dotnet_diagnostic.CA1067.severity = warning
 
 # CA1068: CancellationToken parameters must come last
-dotnet_diagnostic.CA1068.severity = none
+dotnet_diagnostic.CA1068.severity = warning
 # Options: api_surface, excluded_symbol_names, excluded_type_names_with_derived_types
 dotnet_code_quality.CA1068.api_surface = public # public, internal, friend, all
 # dotnet_code_quality.CA1068.excluded_type_names_with_derived_types =
 # dotnet_code_quality.CA1068.excluded_symbol_names =
 
 # CA1069: Enums should not have duplicate values
-dotnet_diagnostic.CA1069.severity = none
+dotnet_diagnostic.CA1069.severity = warning
 
 # CA1070: Do not declare event fields as virtual
-dotnet_diagnostic.CA1070.severity = none
+dotnet_diagnostic.CA1070.severity = warning
 # Options: api_surface
 dotnet_code_quality.CA1070.api_surface = public # public, internal, friend, all
 
@@ -1086,7 +1107,7 @@ dotnet_diagnostic.CA1310.severity = none
 dotnet_diagnostic.CA1311.severity = none
 
 # CA1401: P/Invokes should not be visible
-dotnet_diagnostic.CA1401.severity = none
+dotnet_diagnostic.CA1401.severity = warning
 
 # CA1416: Validate platform compatibility
 dotnet_diagnostic.CA1416.severity = warning
@@ -1098,13 +1119,13 @@ dotnet_diagnostic.CA1417.severity = warning
 dotnet_diagnostic.CA1418.severity = warning
 
 # CA1419: Provide a parameterless constructor that is as visible as the containing type for concrete types derived from 'System.Runtime.InteropServices.SafeHandle'
-dotnet_diagnostic.CA1419.severity = none
+dotnet_diagnostic.CA1419.severity = warning
 
 # CA1420: Property, type, or attribute requires runtime marshalling
 dotnet_diagnostic.CA1420.severity = warning
 
 # CA1421: Method uses runtime marshalling when DisableRuntimeMarshallingAttribute is applied
-dotnet_diagnostic.CA1421.severity = none
+dotnet_diagnostic.CA1421.severity = warning
 
 # CA1422: Validate platform compatibility - obsoleted APIs
 dotnet_diagnostic.CA1422.severity = warning
@@ -1135,19 +1156,22 @@ dotnet_diagnostic.CA1508.severity = none
 dotnet_diagnostic.CA1509.severity = none
 
 # CA1510: Use ArgumentNullException throw helper
-dotnet_diagnostic.CA1510.severity = none
+dotnet_diagnostic.CA1510.severity = warning
 
 # CA1511: Use ArgumentException throw helper
-dotnet_diagnostic.CA1511.severity = none
+dotnet_diagnostic.CA1511.severity = warning
 
 # CA1512: Use ArgumentOutOfRangeException throw helper
-dotnet_diagnostic.CA1512.severity = none
+dotnet_diagnostic.CA1512.severity = warning
 
 # CA1513: Use ObjectDisposedException throw helper
-dotnet_diagnostic.CA1513.severity = none
+dotnet_diagnostic.CA1513.severity = warning
 
 # CA1514: Avoid redundant length argument
-dotnet_diagnostic.CA1514.severity = none
+dotnet_diagnostic.CA1514.severity = warning
+
+# CA1515: Consider making public types internal
+dotnet_diagnostic.CA1515.severity = none
 
 # CA1700: Do not name enum values 'Reserved'
 dotnet_diagnostic.CA1700.severity = none
@@ -1261,7 +1285,7 @@ dotnet_diagnostic.CA1815.severity = none
 dotnet_code_quality.CA1815.api_surface = public # public, internal, friend, all
 
 # CA1816: Call GC.SuppressFinalize correctly
-dotnet_diagnostic.CA1816.severity = none
+dotnet_diagnostic.CA1816.severity = warning
 
 # CA1819: Properties should not return arrays
 dotnet_diagnostic.CA1819.severity = none
@@ -1272,10 +1296,10 @@ dotnet_code_quality.CA1819.api_surface = public # public, internal, friend, all
 dotnet_diagnostic.CA1820.severity = none
 
 # CA1821: Remove empty finalizers
-dotnet_diagnostic.CA1821.severity = none
+dotnet_diagnostic.CA1821.severity = warning
 
 # CA1822: Mark members as static
-dotnet_diagnostic.CA1822.severity = none
+dotnet_diagnostic.CA1822.severity = warning
 # Options: api_surface
 dotnet_code_quality.CA1822.api_surface = public # public, internal, friend, all
 
@@ -1283,78 +1307,78 @@ dotnet_code_quality.CA1822.api_surface = public # public, internal, friend, all
 dotnet_diagnostic.CA1823.severity = none
 
 # CA1824: Mark assemblies with NeutralResourcesLanguageAttribute
-dotnet_diagnostic.CA1824.severity = none
+dotnet_diagnostic.CA1824.severity = warning
 
 # CA1825: Avoid zero-length array allocations
-dotnet_diagnostic.CA1825.severity = none
+dotnet_diagnostic.CA1825.severity = warning
 
 # CA1826: Use property instead of Linq Enumerable method
-dotnet_diagnostic.CA1826.severity = none
+dotnet_diagnostic.CA1826.severity = warning
 # Options: exclude_ordefault_methods
 dotnet_code_quality.CA1826.exclude_ordefault_methods = false # true, false
 
 # CA1827: Do not use Count()/LongCount() when Any() can be used
-dotnet_diagnostic.CA1827.severity = none
+dotnet_diagnostic.CA1827.severity = warning
 
 # CA1828: Do not use CountAsync/LongCountAsync when AnyAsync can be used
-dotnet_diagnostic.CA1828.severity = none
+dotnet_diagnostic.CA1828.severity = warning
 
 # CA1829: Use Length/Count property instead of Enumerable.Count method
-dotnet_diagnostic.CA1829.severity = none
+dotnet_diagnostic.CA1829.severity = warning
 
 # CA1830: Prefer strongly-typed Append and Insert method overloads on StringBuilder
-dotnet_diagnostic.CA1830.severity = none
+dotnet_diagnostic.CA1830.severity = warning
 
 # CA1831: Use AsSpan instead of Range-based indexers for string when appropriate
 dotnet_diagnostic.CA1831.severity = warning
 
 # CA1832: Use AsSpan or AsMemory instead of Range-based indexers for getting ReadOnlySpan or ReadOnlyMemory portion of an array
-dotnet_diagnostic.CA1832.severity = none
+dotnet_diagnostic.CA1832.severity = warning
 
 # CA1833: Use AsSpan or AsMemory instead of Range-based indexers for getting Span or Memory portion of an array
-dotnet_diagnostic.CA1833.severity = none
+dotnet_diagnostic.CA1833.severity = warning
 
 # CA1834: Use StringBuilder.Append(char) for single character strings
-dotnet_diagnostic.CA1834.severity = none
+dotnet_diagnostic.CA1834.severity = warning
 
 # CA1835: Prefer the memory-based overloads of ReadAsync/WriteAsync methods in stream-based classes
-dotnet_diagnostic.CA1835.severity = none
+dotnet_diagnostic.CA1835.severity = warning
 
 # CA1836: Prefer IsEmpty over Count when available
-dotnet_diagnostic.CA1836.severity = none
+dotnet_diagnostic.CA1836.severity = warning
 
 # CA1837: Use Environment.ProcessId instead of Process.GetCurrentProcess().Id
-dotnet_diagnostic.CA1837.severity = none
+dotnet_diagnostic.CA1837.severity = warning
 
 # CA1838: Avoid StringBuilder parameters for P/Invokes
 dotnet_diagnostic.CA1838.severity = none
 
 # CA1839: Use Environment.ProcessPath instead of Process.GetCurrentProcess().MainModule.FileName
-dotnet_diagnostic.CA1839.severity = none
+dotnet_diagnostic.CA1839.severity = warning
 
 # CA1840: Use Environment.CurrentManagedThreadId instead of Thread.CurrentThread.ManagedThreadId
-dotnet_diagnostic.CA1840.severity = none
+dotnet_diagnostic.CA1840.severity = warning
 
 # CA1841: Prefer Dictionary Contains methods
-dotnet_diagnostic.CA1841.severity = none
+dotnet_diagnostic.CA1841.severity = warning
 
 # CA1842: Do not use 'WhenAll' with a single task
-dotnet_diagnostic.CA1842.severity = none
+dotnet_diagnostic.CA1842.severity = warning
 
 # CA1843: Do not use 'WaitAll' with a single task
-dotnet_diagnostic.CA1843.severity = none
+dotnet_diagnostic.CA1843.severity = warning
 
 # CA1844: Provide memory-based overrides of async methods when subclassing 'Stream'
-dotnet_diagnostic.CA1844.severity = none
+dotnet_diagnostic.CA1844.severity = warning
 
 # CA1845: Use span-based 'string.Concat'
-dotnet_diagnostic.CA1845.severity = none
+dotnet_diagnostic.CA1845.severity = warning
 
 # CA1846: Prefer AsSpan over Substring
-dotnet_diagnostic.CA1846.severity = none
+dotnet_diagnostic.CA1846.severity = warning
 
-# CA1847: Use string.Contains(char) instead of string.Contains(string) with single characters
-dotnet_diagnostic.CA1847.severity = none
+# CA1847: Use String.Contains(char) instead of String.Contains(string) with single characters
+dotnet_diagnostic.CA1847.severity = warning
 
 # CA1848: Use the LoggerMessage delegates
 dotnet_diagnostic.CA1848.severity = none
@@ -1363,7 +1387,7 @@ dotnet_diagnostic.CA1848.severity = none
 dotnet_diagnostic.CA1849.severity = none
 
 # CA1850: Prefer static HashData method over ComputeHash
-dotnet_diagnostic.CA1850.severity = none
+dotnet_diagnostic.CA1850.severity = warning
 
 # CA1851: Possible multiple enumerations of IEnumerable collection
 dotnet_diagnostic.CA1851.severity = none
@@ -1374,13 +1398,13 @@ dotnet_diagnostic.CA1852.severity = none
 dotnet_code_quality.CA1852.ignore_internalsvisibleto = true # true, false
 
 # CA1853: Unnecessary call to 'Dictionary.ContainsKey(key)'
-dotnet_diagnostic.CA1853.severity = none
+dotnet_diagnostic.CA1853.severity = warning
 
 # CA1854: Prefer the IDictionary.TryGetValue(TKey, out TValue) method
-dotnet_diagnostic.CA1854.severity = none
+dotnet_diagnostic.CA1854.severity = warning
 
 # CA1855: Use Span<T>.Clear() instead of Span<T>.Fill()
-dotnet_diagnostic.CA1855.severity = none
+dotnet_diagnostic.CA1855.severity = warning
 
 # CA1856: Incorrect usage of ConstantExpected attribute
 dotnet_diagnostic.CA1856.severity = warning
@@ -1389,7 +1413,7 @@ dotnet_diagnostic.CA1856.severity = warning
 dotnet_diagnostic.CA1857.severity = warning
 
 # CA1858: Use StartsWith instead of IndexOf
-dotnet_diagnostic.CA1858.severity = none
+dotnet_diagnostic.CA1858.severity = warning
 
 # CA1859: Use concrete types when possible for improved performance
 dotnet_diagnostic.CA1859.severity = none
@@ -1399,31 +1423,37 @@ dotnet_code_quality.CA1859.api_surface = public # public, internal, friend, all
 dotnet_diagnostic.CA1860.severity = none
 
 # CA1861: Avoid constant arrays as arguments
-dotnet_diagnostic.CA1861.severity = none
+dotnet_diagnostic.CA1861.severity = warning
 
 # CA1862: Use the 'StringComparison' method overloads to perform case-insensitive string comparisons
-dotnet_diagnostic.CA1862.severity = none
+dotnet_diagnostic.CA1862.severity = warning
 
 # CA1863: Use CompositeFormat
 dotnet_diagnostic.CA1863.severity = none
 
 # CA1864: Prefer the 'IDictionary.TryAdd(TKey, TValue)' method
-dotnet_diagnostic.CA1864.severity = none
+dotnet_diagnostic.CA1864.severity = warning
 
 # CA1865: Use 'string.Method(char)' instead of 'string.Method(string)' for string with single char
-dotnet_diagnostic.CA1865.severity = none
+dotnet_diagnostic.CA1865.severity = warning
 
 # CA1866: Use 'string.Method(char)' instead of 'string.Method(string)' for string with single char
-dotnet_diagnostic.CA1866.severity = none
+dotnet_diagnostic.CA1866.severity = warning
 
 # CA1868: Unnecessary call to 'Contains' for sets
-dotnet_diagnostic.CA1868.severity = none
+dotnet_diagnostic.CA1868.severity = warning
 
 # CA1869: Cache and reuse 'JsonSerializerOptions' instances
-dotnet_diagnostic.CA1869.severity = none
+dotnet_diagnostic.CA1869.severity = warning
 
 # CA1870: Use a cached 'SearchValues' instance
 dotnet_diagnostic.CA1870.severity = warning
+
+# CA1871: Do not pass a nullable struct to 'ArgumentNullException.ThrowIfNull'
+dotnet_diagnostic.CA1871.severity = warning
+
+# CA1872: Prefer Convert.ToHexString and Convert.ToHexStringLower over call chains based on BitConverter.ToString
+dotnet_diagnostic.CA1872.severity = warning
 
 # CA2000: Dispose objects before losing scope
 dotnet_diagnostic.CA2000.severity = none
@@ -1444,13 +1474,13 @@ dotnet_code_quality.CA2007.output_kind = DynamicallyLinkedLibrary, NetModule, Wi
 dotnet_diagnostic.CA2008.severity = none
 
 # CA2009: Do not call ToImmutableCollection on an ImmutableCollection value
-dotnet_diagnostic.CA2009.severity = none
+dotnet_diagnostic.CA2009.severity = warning
 
 # CA2011: Do not assign property within its setter
-dotnet_diagnostic.CA2011.severity = none
+dotnet_diagnostic.CA2011.severity = warning
 
 # CA2012: Use ValueTasks correctly
-dotnet_diagnostic.CA2012.severity = none
+dotnet_diagnostic.CA2012.severity = warning
 
 # CA2013: Do not use ReferenceEquals with value types
 dotnet_diagnostic.CA2013.severity = warning
@@ -1462,7 +1492,7 @@ dotnet_diagnostic.CA2014.severity = warning
 dotnet_diagnostic.CA2015.severity = warning
 
 # CA2016: Forward the CancellationToken parameter to methods that take one
-dotnet_diagnostic.CA2016.severity = none
+dotnet_diagnostic.CA2016.severity = warning
 
 # CA2017: Parameter count mismatch
 dotnet_diagnostic.CA2017.severity = warning
@@ -1471,13 +1501,16 @@ dotnet_diagnostic.CA2017.severity = warning
 dotnet_diagnostic.CA2018.severity = warning
 
 # CA2019: ThreadStatic fields should not use inline initialization
-dotnet_diagnostic.CA2019.severity = none
+dotnet_diagnostic.CA2019.severity = warning
 
 # CA2020: Prevent behavioral change caused by built-in operators of IntPtr/UIntPtr
-dotnet_diagnostic.CA2020.severity = none
+dotnet_diagnostic.CA2020.severity = warning
 
 # CA2021: Don't call Enumerable.Cast<T> or Enumerable.OfType<T> with incompatible types
 dotnet_diagnostic.CA2021.severity = warning
+
+# CA2022: Avoid inexact read with Stream.Read
+dotnet_diagnostic.CA2022.severity = warning
 
 # CA2100: Review SQL queries for security vulnerabilities
 dotnet_diagnostic.CA2100.severity = none
@@ -1486,7 +1519,7 @@ dotnet_diagnostic.CA2100.severity = none
 # dotnet_code_quality.CA2100.excluded_symbol_names =
 
 # CA2101: Specify marshalling for P/Invoke string arguments
-dotnet_diagnostic.CA2101.severity = none
+dotnet_diagnostic.CA2101.severity = warning
 
 # CA2109: Review visible event handlers
 dotnet_diagnostic.CA2109.severity = none
@@ -1507,12 +1540,12 @@ dotnet_diagnostic.CA2201.severity = none
 dotnet_diagnostic.CA2207.severity = none
 
 # CA2208: Instantiate argument exceptions correctly
-dotnet_diagnostic.CA2208.severity = none
+dotnet_diagnostic.CA2208.severity = warning
 # Options: api_surface
 dotnet_code_quality.CA2208.api_surface = public # public, internal, friend, all
 
 # CA2211: Non-constant fields should not be visible
-dotnet_diagnostic.CA2211.severity = none
+dotnet_diagnostic.CA2211.severity = warning
 
 # CA2213: Disposable fields should be disposed
 dotnet_diagnostic.CA2213.severity = none
@@ -1532,13 +1565,13 @@ dotnet_diagnostic.CA2217.severity = none
 dotnet_code_quality.CA2217.api_surface = public # public, internal, friend, all
 
 # CA2218: Override GetHashCode on overriding Equals
-dotnet_diagnostic.CA2218.severity = none
+dotnet_diagnostic.CA2218.severity = warning
 
 # CA2219: Do not raise exceptions in exception clauses
-dotnet_diagnostic.CA2219.severity = none
+dotnet_diagnostic.CA2219.severity = warning
 
 # CA2224: Override Equals on overloading operator equals
-dotnet_diagnostic.CA2224.severity = none
+dotnet_diagnostic.CA2224.severity = warning
 
 # CA2225: Operator overloads have named alternates
 dotnet_diagnostic.CA2225.severity = none
@@ -1557,7 +1590,7 @@ dotnet_diagnostic.CA2227.severity = none
 dotnet_diagnostic.CA2229.severity = none
 
 # CA2231: Overload operator equals on overriding ValueType.Equals
-dotnet_diagnostic.CA2231.severity = none
+dotnet_diagnostic.CA2231.severity = warning
 # Options: api_surface
 dotnet_code_quality.CA2231.api_surface = public # public, internal, friend, all
 
@@ -1573,36 +1606,36 @@ dotnet_diagnostic.CA2235.severity = none
 dotnet_diagnostic.CA2237.severity = none
 
 # CA2241: Provide correct arguments to formatting methods
-dotnet_diagnostic.CA2241.severity = none
+dotnet_diagnostic.CA2241.severity = warning
 # Options: additional_string_formatting_methods, try_determine_additional_string_formatting_methods_automatically
 # dotnet_code_quality.CA2241.additional_string_formatting_methods =
 
 # CA2242: Test for NaN correctly
-dotnet_diagnostic.CA2242.severity = none
+dotnet_diagnostic.CA2242.severity = warning
 
 # CA2243: Attribute string literals should parse correctly
 dotnet_diagnostic.CA2243.severity = none
 
 # CA2244: Do not duplicate indexed element initializations
-dotnet_diagnostic.CA2244.severity = none
+dotnet_diagnostic.CA2244.severity = warning
 
 # CA2245: Do not assign a property to itself
-dotnet_diagnostic.CA2245.severity = none
+dotnet_diagnostic.CA2245.severity = warning
 
 # CA2246: Do not assign a symbol and its member in the same statement
-dotnet_diagnostic.CA2246.severity = none
+dotnet_diagnostic.CA2246.severity = warning
 
 # CA2247: Argument passed to TaskCompletionSource constructor should be TaskCreationOptions enum instead of TaskContinuationOptions enum
 dotnet_diagnostic.CA2247.severity = warning
 
 # CA2248: Provide correct enum argument to Enum.HasFlag
-dotnet_diagnostic.CA2248.severity = none
+dotnet_diagnostic.CA2248.severity = warning
 
 # CA2249: Consider using String.Contains instead of String.IndexOf
-dotnet_diagnostic.CA2249.severity = none
+dotnet_diagnostic.CA2249.severity = warning
 
 # CA2250: Use ThrowIfCancellationRequested
-dotnet_diagnostic.CA2250.severity = none
+dotnet_diagnostic.CA2250.severity = warning
 
 # CA2251: Use String.Equals over String.Compare
 dotnet_diagnostic.CA2251.severity = none
@@ -1611,10 +1644,10 @@ dotnet_diagnostic.CA2251.severity = none
 dotnet_diagnostic.CA2252.severity = warning
 
 # CA2253: Named placeholders should not be numeric values
-dotnet_diagnostic.CA2253.severity = none
+dotnet_diagnostic.CA2253.severity = warning
 
 # CA2254: Template should be a static expression
-dotnet_diagnostic.CA2254.severity = none
+dotnet_diagnostic.CA2254.severity = warning
 
 # CA2255: The ModuleInitializer attribute should not be used in libraries
 dotnet_diagnostic.CA2255.severity = warning
@@ -1636,6 +1669,18 @@ dotnet_diagnostic.CA2260.severity = warning
 
 # CA2261: Do not use ConfigureAwaitOptions.SuppressThrowing with Task<TResult>
 dotnet_diagnostic.CA2261.severity = warning
+
+# CA2262: Set MaxResponseHeadersLength properly
+dotnet_diagnostic.CA2262.severity = warning
+
+# CA2263: Prefer generic overload when type is known
+dotnet_diagnostic.CA2263.severity = warning
+
+# CA2264: Do not pass a non-nullable value to ArgumentNullException.ThrowIfNull
+dotnet_diagnostic.CA2264.severity = warning
+
+# CA2265: Do not compare Span<T> to null or default
+dotnet_diagnostic.CA2265.severity = warning
 
 # CA2300: Do not use insecure deserializer BinaryFormatter
 dotnet_diagnostic.CA2300.severity = none
@@ -2108,7 +2153,7 @@ dotnet_diagnostic.IDE0027.severity = warning
 
 # IDE0028: Use collection initializers
 dotnet_diagnostic.IDE0028.severity = warning
-# Options: dotnet_style_collection_initializer
+# Options: dotnet_style_collection_initializer, dotnet_style_prefer_collection_expression
 
 # IDE0029: Null check can be simplified (ternary conditional check)
 dotnet_diagnostic.IDE0029.severity = warning
@@ -2182,7 +2227,7 @@ dotnet_diagnostic.IDE0047.severity = warning
 # Options: dotnet_style_parentheses_in_arithmetic_binary_operators, dotnet_style_parentheses_in_relational_binary_operators, dotnet_style_parentheses_in_other_binary_operators, dotnet_style_parentheses_in_other_operators
 
 # IDE0048: Add parentheses for clarity
-dotnet_diagnostic.IDE0048.severity = warning
+dotnet_diagnostic.IDE0048.severity = none
 # Options: dotnet_style_parentheses_in_arithmetic_binary_operators, dotnet_style_parentheses_in_relational_binary_operators, dotnet_style_parentheses_in_other_binary_operators, dotnet_style_parentheses_in_other_operators
 
 # IDE0049: Use language keywords instead of framework type names for type references
@@ -2218,15 +2263,15 @@ dotnet_diagnostic.IDE0057.severity = warning
 # Options: csharp_style_prefer_range_operator
 
 # IDE0058: Remove unnecessary expression value
-dotnet_diagnostic.IDE0058.severity = suggestion
+dotnet_diagnostic.IDE0058.severity = none
 # Options: csharp_style_unused_value_expression_statement_preference, visual_basic_style_unused_value_expression_statement_preference
 
 # IDE0059: Remove unnecessary value assignment
-dotnet_diagnostic.IDE0059.severity = suggestion
+dotnet_diagnostic.IDE0059.severity = none
 # Options: csharp_style_unused_value_assignment_preference, visual_basic_style_unused_value_assignment_preference
 
 # IDE0060: Remove unused parameter
-dotnet_diagnostic.IDE0060.severity = suggestion
+dotnet_diagnostic.IDE0060.severity = warning
 # Options: dotnet_code_quality_unused_parameters
 
 # IDE0061: Use expression body for local functions
@@ -2395,25 +2440,93 @@ dotnet_diagnostic.IDE0280.severity = warning
 dotnet_diagnostic.IDE0290.severity = warning
 # Options: csharp_style_prefer_primary_constructors
 
+# IDE0300: Use collection expression for array
+dotnet_diagnostic.IDE0300.severity = warning
+# Options: dotnet_style_prefer_collection_expression
+
+# IDE0301: Use collection expression for empty
+dotnet_diagnostic.IDE0301.severity = warning
+# Options: dotnet_style_prefer_collection_expression
+
+# IDE0302: Use collection expression for stackalloc
+dotnet_diagnostic.IDE0302.severity = warning
+# Options: dotnet_style_prefer_collection_expression
+
+# IDE0303: Use collection expression for Create
+dotnet_diagnostic.IDE0303.severity = warning
+# Options: dotnet_style_prefer_collection_expression
+
+# IDE0304: Use collection expression for builder
+dotnet_diagnostic.IDE0304.severity = warning
+# Options: dotnet_style_prefer_collection_expression
+
+# IDE0305: Use collection expression for fluent
+dotnet_diagnostic.IDE0305.severity = warning
+# Options: dotnet_style_prefer_collection_expression
+
+# IDE0320: Make anonymous function static
+dotnet_diagnostic.IDE0320.severity = warning
+# Options: csharp_prefer_static_anonymous_function
+
+# IDE0330: Prefer 'System.Threading.Lock'
+dotnet_diagnostic.IDE0330.severity = warning
+# Options: csharp_prefer_system_threading_lock
+
 # IDE1005: Use conditional delegate call
 dotnet_diagnostic.IDE1005.severity = warning
 # Options: csharp_style_conditional_delegate_call
 
+###################################################################################################################
+###                     Roslynator
+###        Reference: https://josefpihrt.github.io/docs/roslynator/configuration
+###################################################################################################################
 # Options
 
 roslynator_accessibility_modifiers = explicit
 # Applicable to: rcs1018
 
-roslynator_array_creation_type_style = implicit_when_type_is_obvious
+roslynator_accessor_braces_style = single_line_when_expression_is_on_single_line
+# Default: multi_line
+# Applicable to: rcs0020
+
+roslynator_array_creation_type_style = implicit
 # Applicable to: rcs1014
+
+roslynator_arrow_token_new_line = after
+# Applicable to: rcs0032
+
+roslynator_binary_operator_new_line = after
+# Applicable to: rcs0027
+
+roslynator_blank_line_after_file_scoped_namespace_declaration = true
+# Applicable to: rcs0060
+
+roslynator_blank_line_between_closing_brace_and_switch_section = true
+# Applicable to: rcs0014, rcs1036
+
+roslynator_blank_line_between_single_line_accessors = false
+# Applicable to: rcs0011
+
+roslynator_blank_line_between_switch_sections = omit_after_block
+# Applicable to: rcs0061
+
+roslynator_blank_line_between_using_directives = separate_groups
+# Applicable to: rcs0015
+
+roslynator_block_braces_style = single_line_when_empty
+# Default: multi_line
+# Applicable to: rcs0021
 
 roslynator_body_style = expression
 # Applicable to: rcs1016
 
-roslynator_conditional_operator_condition_parentheses_style = omit_when_condition_is_single_token
+roslynator_conditional_operator_condition_parentheses_style = omit
 # Applicable to: rcs1051
 
-# roslynator_configure_await = true|false
+roslynator_conditional_operator_new_line = after
+# Applicable to: rcs0028
+
+roslynator_configure_await = true
 # Applicable to: rcs1090
 
 roslynator_doc_comment_summary_style = multi_line
@@ -2428,19 +2541,39 @@ roslynator_enum_flag_value_style = shift_operator
 roslynator_enum_has_flag_style = operator
 # Applicable to: rcs1096
 
+roslynator_equals_token_new_line = after
+# Applicable to: rcs0052
+
 roslynator_infinite_loop_style = while
 # Applicable to: rcs1252
+
+roslynator_max_line_length = 200
+# Default: 140
+# Applicable to: rcs0056
+
+roslynator_new_line_at_end_of_file = true
+# Applicable to: rcs0058
+
+roslynator_new_line_before_while_in_do_statement = false
+# Applicable to: rcs0051
 
 roslynator_null_check_style = pattern_matching
 # Applicable to: rcs1248
 
+roslynator_null_conditional_operator_new_line = after
+# Applicable to: rcs0059
+
 roslynator_object_creation_parentheses_style = omit
 # Applicable to: rcs1050
 
-roslynator_object_creation_type_style = implicit_when_type_is_obvious
+roslynator_object_creation_type_style = implicit
 # Applicable to: rcs1250
 
-# roslynator_prefix_field_identifier_with_underscore = true|false
+roslynator_prefix_field_identifier_with_underscore = true
+
+roslynator_tab_length = 4
+# Default: 4
+# Applicable to: rcs0056
 
 roslynator_trailing_comma_style = omit_when_single_line
 # Applicable to: rcs1260
@@ -2457,20 +2590,184 @@ roslynator_use_block_body_when_declaration_spans_over_multiple_lines = false
 roslynator_use_block_body_when_expression_spans_over_multiple_lines = false
 # Applicable to: rcs1016
 
+roslynator_use_collection_expression = true
+# Applicable to: rcs1014, rcs1250
+
+roslynator_use_var = when_type_is_obvious
+# Applicable to: rcs1264
+
 roslynator_use_var_instead_of_implicit_object_creation = false
 # Applicable to: rcs1250
 
 
 # Analyzers
 
+# Add blank line after embedded statement
+dotnet_diagnostic.rcs0001.severity = none
+
+# Add blank line after #region
+dotnet_diagnostic.rcs0002.severity = none
+
+# Add blank line after using directive list
+dotnet_diagnostic.rcs0003.severity = none
+
+# Add blank line before #endregion
+dotnet_diagnostic.rcs0005.severity = none
+
+# Add blank line before using directive list
+dotnet_diagnostic.rcs0006.severity = none
+
+# Add blank line between accessors
+dotnet_diagnostic.rcs0007.severity = none
+
+# Add blank line between closing brace and next statement
+dotnet_diagnostic.rcs0008.severity = none
+
+# Add blank line between declaration and documentation comment
+dotnet_diagnostic.rcs0009.severity = none
+
+# Add blank line between declarations
+dotnet_diagnostic.rcs0010.severity = none
+
+# Add/remove blank line between single-line accessors
+dotnet_diagnostic.rcs0011.severity = none
+# Options: roslynator_blank_line_between_single_line_accessors
+
+# Add blank line between single-line declarations
+dotnet_diagnostic.rcs0012.severity = none
+
+# Add blank line between single-line declarations of different kind
+dotnet_diagnostic.rcs0013.severity = none
+
+# Add/remove blank line between using directives
+dotnet_diagnostic.rcs0015.severity = suggestion
+# Options: roslynator_blank_line_between_using_directives
+
+# Put attribute list on its own line
+dotnet_diagnostic.rcs0016.severity = none
+
+# Format accessor's braces on a single line or multiple lines
+dotnet_diagnostic.rcs0020.severity = suggestion
+# Options: roslynator_accessor_braces_style
+
+# Format block's braces on a single line or multiple lines
+dotnet_diagnostic.rcs0021.severity = suggestion
+# Options: roslynator_block_braces_style
+
+# Format type declaration's braces
+dotnet_diagnostic.rcs0023.severity = none
+
+# Add new line after switch label
+dotnet_diagnostic.rcs0024.severity = none
+
+# Put full accessor on its own line
+dotnet_diagnostic.rcs0025.severity = none
+
+# Place new line after/before binary operator
+dotnet_diagnostic.rcs0027.severity = silent
+# Options: roslynator_binary_operator_new_line
+
+# Place new line after/before '?:' operator
+dotnet_diagnostic.rcs0028.severity = silent
+# Options: roslynator_conditional_operator_new_line
+
+# Put constructor initializer on its own line
+dotnet_diagnostic.rcs0029.severity = none
+
+# Put embedded statement on its own line
+dotnet_diagnostic.rcs0030.severity = none
+
+# Put enum member on its own line
+dotnet_diagnostic.rcs0031.severity = none
+
+# Place new line after/before arrow token
+dotnet_diagnostic.rcs0032.severity = suggestion
+# Options: roslynator_arrow_token_new_line
+
+# Put statement on its own line
+dotnet_diagnostic.rcs0033.severity = none
+
+# Put type parameter constraint on its own line
+dotnet_diagnostic.rcs0034.severity = none
+
+# Remove blank line between single-line declarations of same kind
+dotnet_diagnostic.rcs0036.severity = none
+
+# Remove new line before base list
+dotnet_diagnostic.rcs0039.severity = none
+
+# Remove new line between 'if' keyword and 'else' keyword
+dotnet_diagnostic.rcs0041.severity = none
+
+# Put auto-accessors on a single line
+dotnet_diagnostic.rcs0042.severity = none
+
+# Use carriage return + linefeed as new line
+dotnet_diagnostic.rcs0044.severity = none
+
+# Use linefeed as new line
+dotnet_diagnostic.rcs0045.severity = none
+
+# Use spaces instead of tab
+dotnet_diagnostic.rcs0046.severity = none
+
+# Put initializer on a single line
+dotnet_diagnostic.rcs0048.severity = none
+
+# Add blank line after top comment
+dotnet_diagnostic.rcs0049.severity = none
+
+# Add blank line before top declaration
+dotnet_diagnostic.rcs0050.severity = none
+
+# Add/remove new line before 'while' in 'do' statement
+dotnet_diagnostic.rcs0051.severity = silent
+# Options: roslynator_new_line_before_while_in_do_statement
+
+# Place new line after/before equals token
+dotnet_diagnostic.rcs0052.severity = silent
+# Options: roslynator_equals_token_new_line
+
+# Fix formatting of a list
+dotnet_diagnostic.rcs0053.severity = none
+
+# Fix formatting of a call chain
+dotnet_diagnostic.rcs0054.severity = none
+
+# Fix formatting of a binary expression chain
+dotnet_diagnostic.rcs0055.severity = none
+
+# A line is too long
+dotnet_diagnostic.rcs0056.severity = none
+# Options: roslynator_max_line_length, roslynator_tab_length
+
+# Normalize whitespace at the beginning of a file
+dotnet_diagnostic.rcs0057.severity = none
+
+# Normalize whitespace at the end of a file
+dotnet_diagnostic.rcs0058.severity = none
+# Options: roslynator_new_line_at_end_of_file
+
+# Place new line after/before null-conditional operator
+dotnet_diagnostic.rcs0059.severity = silent
+# Options: roslynator_null_conditional_operator_new_line
+
+# Add/remove line after file scoped namespace declaration
+dotnet_diagnostic.rcs0060.severity = suggestion
+# Options: roslynator_blank_line_after_file_scoped_namespace_declaration
+
+# Add/remove blank line between switch sections
+dotnet_diagnostic.rcs0061.severity = none
+# Options: roslynator_blank_line_between_switch_sections
+
 # Add braces (when expression spans over multiple lines)
-dotnet_diagnostic.rcs1001.severity = suggestion
+dotnet_diagnostic.rcs1001.severity = none
 
 # Remove braces
 dotnet_diagnostic.rcs1002.severity = none
 
 # Add braces to if-else (when expression spans over multiple lines)
-dotnet_diagnostic.rcs1003.severity = suggestion
+dotnet_diagnostic.rcs1003.severity = none
 
 # Remove braces from if-else
 dotnet_diagnostic.rcs1004.severity = none
@@ -2484,24 +2781,12 @@ dotnet_diagnostic.rcs1006.severity = silent
 # Add braces
 dotnet_diagnostic.rcs1007.severity = none
 
-# Use explicit type instead of 'var' (when the type is not obvious)
-dotnet_diagnostic.rcs1008.severity = none
-
-# Use explicit type instead of 'var' (foreach variable)
-dotnet_diagnostic.rcs1009.severity = none
-
-# Use 'var' instead of explicit type (when the type is obvious)
-dotnet_diagnostic.rcs1010.severity = suggestion
-
-# Use explicit type instead of 'var' (when the type is obvious)
-dotnet_diagnostic.rcs1012.severity = none
-
 # Use predefined type
 dotnet_diagnostic.rcs1013.severity = suggestion
 
 # Use explicitly/implicitly typed array
 dotnet_diagnostic.rcs1014.severity = suggestion
-# Options: roslynator_array_creation_type_style
+# Options: roslynator_array_creation_type_style, roslynator_use_collection_expression
 
 # Use nameof operator
 dotnet_diagnostic.rcs1015.severity = suggestion
@@ -2536,7 +2821,7 @@ dotnet_diagnostic.rcs1033.severity = suggestion
 dotnet_diagnostic.rcs1034.severity = suggestion
 
 # Remove unnecessary blank line
-dotnet_diagnostic.rcs1036.severity = silent
+dotnet_diagnostic.rcs1036.severity = suggestion
 # Options: roslynator_blank_line_between_closing_brace_and_switch_section
 
 # Remove trailing white-space
@@ -2794,13 +3079,13 @@ dotnet_diagnostic.rcs1163.severity = suggestion
 dotnet_diagnostic.rcs1164.severity = suggestion
 
 # Unconstrained type parameter checked for null
-dotnet_diagnostic.rcs1165.severity = suggestion
+dotnet_diagnostic.rcs1165.severity = silent
 
 # Value type object is never equal to null
 dotnet_diagnostic.rcs1166.severity = suggestion
 
 # Parameter name differs from base name
-dotnet_diagnostic.rcs1168.severity = suggestion
+dotnet_diagnostic.rcs1168.severity = silent
 
 # Make field read-only
 dotnet_diagnostic.rcs1169.severity = suggestion
@@ -2823,12 +3108,6 @@ dotnet_diagnostic.rcs1174.severity = suggestion
 
 # Unused 'this' parameter
 dotnet_diagnostic.rcs1175.severity = suggestion
-
-# Use 'var' instead of explicit type (when the type is not obvious)
-dotnet_diagnostic.rcs1176.severity = suggestion
-
-# Use 'var' instead of explicit type (in foreach)
-dotnet_diagnostic.rcs1177.severity = suggestion
 
 # Unnecessary assignment
 dotnet_diagnostic.rcs1179.severity = suggestion
@@ -2925,7 +3204,7 @@ dotnet_diagnostic.rcs1211.severity = silent
 dotnet_diagnostic.rcs1212.severity = suggestion
 
 # Remove unused member declaration
-dotnet_diagnostic.rcs1213.severity = suggestion
+dotnet_diagnostic.rcs1213.severity = none
 # Options: roslynator_unity_code_analysis.enabled
 
 # Unnecessary interpolated string
@@ -2953,7 +3232,7 @@ dotnet_diagnostic.rcs1221.severity = suggestion
 dotnet_diagnostic.rcs1222.severity = suggestion
 
 # Mark publicly visible type with DebuggerDisplay attribute
-dotnet_diagnostic.rcs1223.severity = suggestion
+dotnet_diagnostic.rcs1223.severity = none
 
 # Make method an extension method
 dotnet_diagnostic.rcs1224.severity = suggestion
@@ -2967,7 +3246,7 @@ dotnet_diagnostic.rcs1226.severity = suggestion
 # Validate arguments correctly
 dotnet_diagnostic.rcs1227.severity = suggestion
 
-# Unused element in documentation comment
+# Unused element in a documentation comment
 dotnet_diagnostic.rcs1228.severity = silent
 
 # Use async/await when necessary
@@ -3029,8 +3308,8 @@ dotnet_diagnostic.rcs1248.severity = suggestion
 dotnet_diagnostic.rcs1249.severity = suggestion
 
 # Use implicit/explicit object creation
-dotnet_diagnostic.rcs1250.severity = suggestion
-# Options: roslynator_object_creation_type_style, roslynator_use_var_instead_of_implicit_object_creation
+dotnet_diagnostic.rcs1250.severity = none
+# Options: roslynator_object_creation_type_style, roslynator_use_collection_expression, roslynator_use_var_instead_of_implicit_object_creation
 
 # Remove unnecessary braces from record declaration
 dotnet_diagnostic.rcs1251.severity = suggestion
@@ -3066,39 +3345,63 @@ dotnet_diagnostic.rcs1259.severity = suggestion
 dotnet_diagnostic.rcs1260.severity = none
 # Options: roslynator_trailing_comma_style
 
+# Resource can be disposed asynchronously
+dotnet_diagnostic.rcs1261.severity = suggestion
+
+# Unnecessary raw string literal
+dotnet_diagnostic.rcs1262.severity = suggestion
+
+# Invalid reference in a documentation comment
+dotnet_diagnostic.rcs1263.severity = warning
+
+# Use 'var' or explicit type
+dotnet_diagnostic.rcs1264.severity = suggestion
+# Options: roslynator_use_var
+
+# Remove redundant catch block
+dotnet_diagnostic.rcs1265.severity = suggestion
+
+# Use raw string literal
+dotnet_diagnostic.rcs1266.severity = suggestion
+
+# Use string interpolation instead of 'string.Concat'
+dotnet_diagnostic.rcs1267.severity = suggestion
+
+# Simplify numeric comparison
+dotnet_diagnostic.rcs1268.severity = suggestion
+
 # Use pattern matching
-dotnet_diagnostic.rcs9001.severity = none
+dotnet_diagnostic.rcs9001.severity = suggestion
 
 # Use property SyntaxNode.SpanStart
-dotnet_diagnostic.rcs9002.severity = none
+dotnet_diagnostic.rcs9002.severity = suggestion
 
 # Unnecessary conditional access
-dotnet_diagnostic.rcs9003.severity = none
+dotnet_diagnostic.rcs9003.severity = suggestion
 
 # Call 'Any' instead of accessing 'Count'
-dotnet_diagnostic.rcs9004.severity = none
+dotnet_diagnostic.rcs9004.severity = suggestion
 
 # Unnecessary null check
-dotnet_diagnostic.rcs9005.severity = none
+dotnet_diagnostic.rcs9005.severity = suggestion
 
 # Use element access
-dotnet_diagnostic.rcs9006.severity = none
+dotnet_diagnostic.rcs9006.severity = suggestion
 
 # Use return value
-dotnet_diagnostic.rcs9007.severity = none
+dotnet_diagnostic.rcs9007.severity = warning
 
 # Call 'Last' instead of using []
-dotnet_diagnostic.rcs9008.severity = none
+dotnet_diagnostic.rcs9008.severity = suggestion
 
 # Unknown language name
-dotnet_diagnostic.rcs9009.severity = none
+dotnet_diagnostic.rcs9009.severity = warning
 
 # Specify ExportCodeRefactoringProviderAttribute.Name
-dotnet_diagnostic.rcs9010.severity = none
+dotnet_diagnostic.rcs9010.severity = silent
 
 # Specify ExportCodeFixProviderAttribute.Name
-dotnet_diagnostic.rcs9011.severity = none
-
+dotnet_diagnostic.rcs9011.severity = silent
 
 # Refactorings
 
@@ -3172,13 +3475,13 @@ roslynator_refactoring.expand_initializer.enabled = false
 roslynator_refactoring.expand_positional_constructor.enabled = true
 roslynator_refactoring.extract_event_handler_method.enabled = true
 roslynator_refactoring.extract_expression_from_condition.enabled = true
-roslynator_refactoring.extract_type_declaration_to_new_file.enabled = true
+roslynator_refactoring.extract_type_declaration_to_new_file.enabled = false
 roslynator_refactoring.generate_base_constructors.enabled = true
 roslynator_refactoring.generate_combined_enum_member.enabled = true
 roslynator_refactoring.generate_enum_member.enabled = true
 roslynator_refactoring.generate_enum_values.enabled = true
 roslynator_refactoring.generate_event_invoking_method.enabled = true
-roslynator_refactoring.generate_property_for_debuggerdisplay_attribute.enabled = true
+roslynator_refactoring.generate_property_for_debuggerdisplay_attribute.enabled = false
 roslynator_refactoring.implement_custom_enumerator.enabled = true
 roslynator_refactoring.implement_iequatable.enabled = true
 roslynator_refactoring.initialize_field_from_constructor.enabled = true
@@ -3224,7 +3527,7 @@ roslynator_refactoring.remove_all_preprocessor_directives.enabled = true
 roslynator_refactoring.remove_all_region_directives.enabled = true
 roslynator_refactoring.remove_all_statements.enabled = true
 roslynator_refactoring.remove_all_switch_sections.enabled = true
-roslynator_refactoring.remove_argument_name.enabled = false
+roslynator_refactoring.remove_argument_name.enabled = true
 roslynator_refactoring.remove_async_await.enabled = true
 roslynator_refactoring.remove_braces.enabled = true
 roslynator_refactoring.remove_braces_from_if_else.enabled = true
@@ -3256,7 +3559,7 @@ roslynator_refactoring.replace_equality_operator_with_string_isnullorempty.enabl
 roslynator_refactoring.replace_equality_operator_with_string_isnullorwhitespace.enabled = true
 roslynator_refactoring.replace_explicit_cast_with_as_expression.enabled = true
 roslynator_refactoring.replace_interpolated_string_with_interpolation_expression.enabled = true
-roslynator_refactoring.replace_method_with_property.enabled = true
+roslynator_refactoring.replace_method_with_property.enabled = false
 roslynator_refactoring.replace_null_literal_with_default_expression.enabled = true
 roslynator_refactoring.replace_prefix_operator_with_postfix_operator.enabled = true
 roslynator_refactoring.replace_property_with_method.enabled = true
@@ -3279,7 +3582,7 @@ roslynator_refactoring.use_coalesce_expression_instead_of_if.enabled = true
 roslynator_refactoring.use_constant_instead_of_readonly_field.enabled = true
 roslynator_refactoring.use_element_access_instead_of_linq_method.enabled = true
 roslynator_refactoring.use_enumerator_explicitly.enabled = true
-roslynator_refactoring.use_explicit_type.enabled = true
+roslynator_refactoring.use_explicit_type.enabled = false
 roslynator_refactoring.use_implicit_type.enabled = true
 roslynator_refactoring.use_index_initializer.enabled = true
 roslynator_refactoring.use_lambda_instead_of_anonymous_method.enabled = true
@@ -3472,11 +3775,15 @@ roslynator_compiler_diagnostic_fix.cs8112.enabled = true
 roslynator_compiler_diagnostic_fix.cs8139.enabled = true
 roslynator_compiler_diagnostic_fix.cs8340.enabled = true
 roslynator_compiler_diagnostic_fix.cs8403.enabled = true
+roslynator_compiler_diagnostic_fix.cs8600.enabled = true
 roslynator_compiler_diagnostic_fix.cs8602.enabled = true
 roslynator_compiler_diagnostic_fix.cs8604.enabled = true
+roslynator_compiler_diagnostic_fix.cs8610.enabled = true
 roslynator_compiler_diagnostic_fix.cs8618.enabled = true
 roslynator_compiler_diagnostic_fix.cs8625.enabled = true
 roslynator_compiler_diagnostic_fix.cs8632.enabled = true
+roslynator_compiler_diagnostic_fix.cs8765.enabled = true
+roslynator_compiler_diagnostic_fix.cs8767.enabled = true
 
 ij_continuation_indent_size = 4
 ij_formatter_off_tag = @formatter:off
@@ -4272,7 +4579,7 @@ resharper_braces_redundant = true
 resharper_break_template_declaration = line_break
 resharper_builtin_type_apply_to_native_integer = false
 resharper_can_use_global_alias = true
-resharper_configure_await_analysis_mode = disabled
+resharper_configure_await_analysis_mode = enabled
 resharper_constructor_or_destructor_body = block_body
 resharper_continuous_indent_multiplier = 1
 resharper_continuous_line_indent = single
@@ -4474,7 +4781,7 @@ resharper_outdent_binary_pattern_ops = true
 resharper_outdent_namespace_member = false
 resharper_outdent_statement_labels = true
 resharper_outdent_ternary_ops = false
-resharper_parentheses_non_obvious_operations = none, shift, bitwise_and, bitwise_exclusive_or, bitwise_inclusive_or, bitwise
+resharper_parentheses_non_obvious_operations = shift, bitwise_and, bitwise_exclusive_or, bitwise_inclusive_or, bitwise
 resharper_parentheses_redundancy_style = remove_if_not_clarifies_precedence
 resharper_parentheses_same_type_operations = true
 resharper_pi_attributes_indent = align_by_first_attribute

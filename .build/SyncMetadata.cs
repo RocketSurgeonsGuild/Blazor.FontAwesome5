@@ -22,7 +22,7 @@ internal partial class Pipeline
     {
         foreach (var item in projects)
         {
-            _ = matcher.AddExclude(RootDirectory.GetUnixRelativePathTo(item.Directory) + "/**/*.cs");
+            matcher.AddExclude(RootDirectory.GetUnixRelativePathTo(item.Directory) + "/**/*.cs");
         }
 
         return matcher;
@@ -41,9 +41,9 @@ internal partial class Pipeline
                  {
                      const string stringV = "6";
                      var packageDirectory = TemporaryDirectory / "V6";
-                     _ = packageDirectory.CreateDirectory();
-                     _ = ( packageDirectory / "package.json" ).WriteAllText("{}");
-                     _ = ( packageDirectory / ".npmrc" )
+                     packageDirectory.CreateDirectory();
+                     ( packageDirectory / "package.json" ).WriteAllText("{}");
+                     ( packageDirectory / ".npmrc" )
                         .WriteAllText(
                              $"""
                              @fortawesome:registry=https://npm.fontawesome.com/
@@ -53,7 +53,7 @@ internal partial class Pipeline
 
                      if (!( TemporaryDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" ).DirectoryExists())
                      {
-                         _ = Npm($"install @fortawesome/fontawesome-pro@{stringV} --no-package-lock", packageDirectory);
+                         Npm($"install @fortawesome/fontawesome-pro@{stringV} --no-package-lock", packageDirectory);
                      }
 
                      var iconsData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "icon-families.json";
@@ -125,19 +125,19 @@ internal partial class Pipeline
                          AbsolutePath output
                      )
                      {
-                         _ = output.CreateDirectory();
-                         _ = ( output / "Icons" ).CreateOrCleanDirectory();
-                         _ = ( output / "Categories" ).CreateOrCleanDirectory();
+                         output.CreateDirectory();
+                         ( output / "Icons" ).CreateOrCleanDirectory();
+                         ( output / "Categories" ).CreateOrCleanDirectory();
 
                          var fileContents = mediator.CreateStream(new GetFileContentForIcons.Request(icons, @namespace, svgMode));
                          await foreach (var item in fileContents)
                          {
                              var fileOutputPath = output / item.FileName;
                              Log.Information("Writing {FileName}", fileOutputPath);
-                             _ = fileOutputPath.WriteAllText(item.Content);
+                             fileOutputPath.WriteAllText(item.Content);
                          }
 
-                         _ = GitTasks.Git($"add {RootDirectory.GetRelativePathTo(output)}");
+                         GitTasks.Git($"add {RootDirectory.GetRelativePathTo(output)}");
                      }
                  }
              );

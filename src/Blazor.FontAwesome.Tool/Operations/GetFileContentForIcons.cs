@@ -3,9 +3,13 @@ using System.Collections.Immutable;
 using System.Net;
 using System.Reflection;
 using System.Runtime.CompilerServices;
+
 using Humanizer;
+
 using MediatR;
+
 using PrettyCode;
+
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 
 namespace Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
@@ -44,7 +48,7 @@ public static class GetFileContentForIcons
 
         sb.AppendLine("}");
 
-        return ( $"Fa{models.Key}.g.cs", sb.ToString() );
+        return ($"Fa{models.Key}.g.cs", sb.ToString());
     }
 
     internal static (string FileName, string Content) GetCategoryFileContent(
@@ -80,7 +84,7 @@ public static class GetFileContentForIcons
 
         sb.AppendLine("}");
 
-        return ( $"Fa{categoryModel.Name.Humanize().Pascalize()}.g.cs", sb.ToString() );
+        return ($"Fa{categoryModel.Name.Humanize().Pascalize()}.g.cs", sb.ToString());
     }
 
     private static string CodeGeneratedAttribute =>
@@ -93,11 +97,11 @@ public static class GetFileContentForIcons
         if (svgMode)
         {
             var pathData = "ImmutableArray<string>.Empty";
-            if (icon is { Icon.PathData.Count: 1, })
+            if (icon is { Icon.PathData.Count: 1 })
             {
                 pathData = $"ImmutableArray.Create(\"{icon.Icon.PathData[0]}\"u8.ToArray().ToImmutableArray())";
             }
-            else if (icon is { Icon.PathData.Count: 2, })
+            else if (icon is { Icon.PathData.Count: 2 })
             {
                 pathData =
                     $"ImmutableArray.Create(\"{icon.Icon.PathData[0]}\"u8.ToArray().ToImmutableArray(), \"{icon.Icon.PathData[1]}\"u8.ToArray().ToImmutableArray())";
@@ -176,7 +180,7 @@ public static class GetFileContentForIcons
     {
         public async IAsyncEnumerable<FileContent> Handle(Request request, [EnumeratorCancellation] CancellationToken cancellationToken)
         {
-            foreach (( var FileName, var Content ) in request
+            foreach ((var FileName, var Content) in request
                                                      .Icons
                                                      .Select(z => new CodeIconModel(z))
                                                      .GroupBy(z => z.CodeStyleName)
@@ -193,7 +197,7 @@ public static class GetFileContentForIcons
                     continue;
                 }
 
-                ( var FileName, var Content ) = GetCategoryFileContent(categoryIcons, category, request.AsSvgIcon, request.Namespace);
+                (var FileName, var Content) = GetCategoryFileContent(categoryIcons, category, request.AsSvgIcon, request.Namespace);
                 yield return new("Categories/" + FileName, Content);
             }
         }

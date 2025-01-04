@@ -1,15 +1,20 @@
 using System.Collections.Immutable;
+
 using MediatR;
+
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileSystemGlobbing;
+
 using Nuke.Common;
 using Nuke.Common.IO;
 using Nuke.Common.ProjectModel;
 using Nuke.Common.Tools.Git;
+
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 using Rocket.Surgery.Hosting;
 using Rocket.Surgery.Nuke.GithubActions;
+
 using Serilog;
 using static Nuke.Common.IO.FileSystemTasks;
 using static Nuke.Common.Tools.Npm.NpmTasks;
@@ -60,7 +65,7 @@ internal partial class Pipeline
                      var categoriesData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "categories.yml";
                      CopyFile(categoriesData, RootDirectory / "src" / "Blazor.FontAwesome.Tool" / "categories.txt", FileExistsPolicy.Overwrite);
 
-                     var categoryProvider = ( categoriesData.FileExists() )
+                     var categoryProvider = categoriesData.FileExists()
                          ? CategoryProvider.Create(File.OpenRead(categoriesData))
                          : CategoryProvider.CreateDefault();
                      var host = Microsoft
@@ -115,7 +120,6 @@ internal partial class Pipeline
                      {
                          // No Pro SVG because it's not free
                      }
-
 
                      static async Task writeFileContents(
                          IMediator mediator,

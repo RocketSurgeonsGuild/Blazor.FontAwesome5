@@ -1,15 +1,20 @@
 using System.Collections.Immutable;
+
 using MediatR;
+
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileSystemGlobbing;
+
 using Nuke.Common;
 using Nuke.Common.IO;
 using Nuke.Common.ProjectModel;
 using Nuke.Common.Tools.Git;
+
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Operations;
 using Rocket.Surgery.Blazor.FontAwesome.Tool.Support;
 using Rocket.Surgery.Hosting;
 using Rocket.Surgery.Nuke.GithubActions;
+
 using Serilog;
 using static Nuke.Common.IO.FileSystemTasks;
 using static Nuke.Common.Tools.Npm.NpmTasks;
@@ -22,7 +27,7 @@ internal partial class Pipeline
     {
         foreach (var item in projects)
         {
-            _ = matcher.AddExclude(RootDirectory.GetUnixRelativePathTo(item.Directory) + "/**/*.cs");
+            matcher.AddExclude(RootDirectory.GetUnixRelativePathTo(item.Directory) + "/**/*.cs");
         }
 
         return matcher;
@@ -41,9 +46,9 @@ internal partial class Pipeline
                  {
                      const string stringV = "6";
                      var packageDirectory = TemporaryDirectory / "V6";
-                     _ = packageDirectory.CreateDirectory();
-                     _ = ( packageDirectory / "package.json" ).WriteAllText("{}");
-                     _ = ( packageDirectory / ".npmrc" )
+                     packageDirectory.CreateDirectory();
+                     ( packageDirectory / "package.json" ).WriteAllText("{}");
+                     ( packageDirectory / ".npmrc" )
                         .WriteAllText(
                              $"""
                              @fortawesome:registry=https://npm.fontawesome.com/
@@ -53,14 +58,14 @@ internal partial class Pipeline
 
                      if (!( TemporaryDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" ).DirectoryExists())
                      {
-                         _ = Npm($"install @fortawesome/fontawesome-pro@{stringV} --no-package-lock", packageDirectory);
+                         Npm($"install @fortawesome/fontawesome-pro@{stringV} --no-package-lock", packageDirectory);
                      }
 
                      var iconsData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "icon-families.json";
                      var categoriesData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "categories.yml";
                      CopyFile(categoriesData, RootDirectory / "src" / "Blazor.FontAwesome.Tool" / "categories.txt", FileExistsPolicy.Overwrite);
 
-                     var categoryProvider = ( categoriesData.FileExists() )
+                     var categoryProvider = categoriesData.FileExists()
                          ? CategoryProvider.Create(File.OpenRead(categoriesData))
                          : CategoryProvider.CreateDefault();
                      var host = Microsoft
@@ -116,7 +121,6 @@ internal partial class Pipeline
                          // No Pro SVG because it's not free
                      }
 
-
                      static async Task writeFileContents(
                          IMediator mediator,
                          ImmutableArray<IconModel> icons,
@@ -125,19 +129,19 @@ internal partial class Pipeline
                          AbsolutePath output
                      )
                      {
-                         _ = output.CreateDirectory();
-                         _ = ( output / "Icons" ).CreateOrCleanDirectory();
-                         _ = ( output / "Categories" ).CreateOrCleanDirectory();
+                         output.CreateDirectory();
+                         ( output / "Icons" ).CreateOrCleanDirectory();
+                         ( output / "Categories" ).CreateOrCleanDirectory();
 
                          var fileContents = mediator.CreateStream(new GetFileContentForIcons.Request(icons, @namespace, svgMode));
                          await foreach (var item in fileContents)
                          {
                              var fileOutputPath = output / item.FileName;
                              Log.Information("Writing {FileName}", fileOutputPath);
-                             _ = fileOutputPath.WriteAllText(item.Content);
+                             fileOutputPath.WriteAllText(item.Content);
                          }
 
-                         _ = GitTasks.Git($"add {RootDirectory.GetRelativePathTo(output)}");
+                         GitTasks.Git($"add {RootDirectory.GetRelativePathTo(output)}");
                      }
                  }
              );

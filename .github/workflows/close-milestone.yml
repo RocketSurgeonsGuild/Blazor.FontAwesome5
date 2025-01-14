@@ -76,7 +76,7 @@ jobs:
           default-label: ':sparkles: mysterious'
           github-token: '${{ secrets.GITHUB_TOKEN }}'
       - name: 📲 Install GitReleaseManager
-        uses: gittools/actions/gitreleasemanager/setup@v3.1.1
+        uses: gittools/actions/gitreleasemanager/setup@v3.1.2
         with:
           versionSpec: '0.18.0'
       - name: Get Repo and Owner

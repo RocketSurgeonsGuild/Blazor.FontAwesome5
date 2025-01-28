@@ -11,11 +11,11 @@
         <GlobalPackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.11.0" />
         <GlobalPackageReference Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.4" />
         <GlobalPackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" />
-        <GlobalPackageReference Include="Roslynator.Analyzers" Version="4.12.10" />
-        <GlobalPackageReference Include="Roslynator.Formatting.Analyzers" Version="4.12.10" />
-        <GlobalPackageReference Include="Roslynator.CodeAnalysis.Analyzers" Version="4.12.10" />
-        <GlobalPackageReference Include="Roslynator.CodeFixes" Version="4.12.10" />
-        <GlobalPackageReference Include="Roslynator.Refactorings" Version="4.12.10" />
+        <GlobalPackageReference Include="Roslynator.Analyzers" Version="4.12.11" />
+        <GlobalPackageReference Include="Roslynator.Formatting.Analyzers" Version="4.12.11" />
+        <GlobalPackageReference Include="Roslynator.CodeAnalysis.Analyzers" Version="4.12.11" />
+        <GlobalPackageReference Include="Roslynator.CodeFixes" Version="4.12.11" />
+        <GlobalPackageReference Include="Roslynator.Refactorings" Version="4.12.11" />
         <GlobalPackageReference Include="Spectre.Console.Analyzer" Version="1.0.0" />
         <GlobalPackageReference Include="FakeItEasy.Analyzer.CSharp" Version="6.1.1" />
         <GlobalPackageReference Include="FluentAssertions.Analyzers" Version="0.34.1" />

@@ -13,7 +13,7 @@
             "rollForward": false
         },
         "nuke.globaltool": {
-            "version": "9.0.3",
+            "version": "9.0.4",
             "commands": ["nuke"],
             "rollForward": false
         },

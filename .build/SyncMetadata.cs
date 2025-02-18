@@ -16,7 +16,6 @@ using Rocket.Surgery.Hosting;
 using Rocket.Surgery.Nuke.GithubActions;
 
 using Serilog;
-using static Nuke.Common.IO.FileSystemTasks;
 using static Nuke.Common.Tools.Npm.NpmTasks;
 
 [GitHubActionsSecret("FONT_AWESOME_TOKEN")]
@@ -63,7 +62,7 @@ internal partial class Pipeline
 
                      var iconsData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "icon-families.json";
                      var categoriesData = packageDirectory / "node_modules" / "@fortawesome" / "fontawesome-pro" / "metadata" / "categories.yml";
-                     CopyFile(categoriesData, RootDirectory / "src" / "Blazor.FontAwesome.Tool" / "categories.txt", FileExistsPolicy.Overwrite);
+                     categoriesData.Copy(RootDirectory / "src" / "Blazor.FontAwesome.Tool" / "categories.txt", ExistsPolicy.FileOverwrite);
 
                      var categoryProvider = categoriesData.FileExists()
                          ? CategoryProvider.Create(File.OpenRead(categoriesData))

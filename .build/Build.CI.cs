@@ -57,6 +57,9 @@ internal partial class Pipeline
             },
         ];
 
+        // FONT_AWESOME_API_KEY
+        // 
+
         return configuration.IncludeRepositoryConfigurationFiles();
     }
 

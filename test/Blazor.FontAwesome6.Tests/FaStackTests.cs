@@ -1,5 +1,4 @@
 ﻿using Bunit;
-using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Rocket.Surgery.Blazor.FontAwesome6.Pro;
 using Rocket.Surgery.Extensions.Testing;
@@ -7,7 +6,8 @@ using Serilog.Events;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace Rocket.Surgery.Blazor.FontAwesome6.Tests {
+namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
+{
     public class FaStackTests(ITestOutputHelper testOutputHelper) : LoggerTest<XUnitTestContext>(XUnitTestContext.Create(testOutputHelper, LogEventLevel.Information))
     {
         TestContext _host = new TestContext();
@@ -33,7 +33,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests {
                     )
             );
 
-            icon.Markup.Should().Be(
+            icon.Markup.ShouldBe(
                 "<span class=\"fa-stack fa-2x\">" +
                 "<i class=\"fa-solid fa-square fa-stack-2x\"></i>" +
                 "<i class=\"fa-brands fa-twitter fa-inverse fa-stack-1x\"></i>" +
@@ -62,7 +62,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests {
                     )
             );
 
-            icon.Markup.Should().Be(
+            icon.Markup.ShouldBe(
                 "<span class=\"fa-stack fa-2x\">" +
                 "<i class=\"fa-solid fa-circle fa-stack-2x\"></i>" +
                 "<i class=\"fa-solid fa-flag fa-inverse fa-stack-1x\"></i>" +
@@ -91,7 +91,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests {
                     )
             );
 
-            icon.Markup.Should().Be(
+            icon.Markup.ShouldBe(
                 "<span class=\"fa-stack fa-2x\">" +
                 "<i class=\"fa-solid fa-square fa-stack-2x\"></i>" +
                 "<i class=\"fa-solid fa-terminal fa-inverse fa-stack-1x\"></i>" +
@@ -121,7 +121,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests {
                     )
             );
 
-            icon.Markup.Should().Be(
+            icon.Markup.ShouldBe(
                 "<span class=\"fa-stack fa-2x\">" +
                 "<i class=\"fa-solid fa-camera fa-stack-1x\"></i>" +
                 "<i class=\"fa-solid fa-ban fa-stack-2x\" style=\"color:Tomato\"></i>" +

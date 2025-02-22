@@ -4,7 +4,6 @@ using System.Collections.Frozen;
 using System.Collections.Immutable;
 using System.Reflection;
 using System.Text.RegularExpressions;
-using FluentAssertions;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -21,8 +20,8 @@ public class CategoryProviderTests
     public void CategoryProvider_Should_Return_Default_Categories()
     {
         var provider = CategoryProvider.CreateDefault();
-        provider.Should().NotBeNull();
-        provider.Categories.Should().NotBeEmpty();
+        provider.ShouldNotBeNull();
+        provider.Categories.ShouldNotBeEmpty();
     }
 
     [SkippableTheory]
@@ -53,7 +52,7 @@ public class CategoryProviderTests
     {
         var verify = Verify(icons);
 
-//        var scrubValues = new List<string>();
+        //        var scrubValues = new List<string>();
         var regex = new Regex(@"ImmutableArray\.Create\(.*?\)\.ToImmutableArray\(\)\)", RegexOptions.Compiled);
         var regexUnicode = new Regex(@""", "".*?""\);", RegexOptions.Compiled);
         var regexUnicode2 = new Regex("\", \".*?\", (\\d+)", RegexOptions.Compiled);
@@ -68,10 +67,10 @@ public class CategoryProviderTests
             }
         );
         ;
-//        foreach (var icon in icons)
-//        {
-//            scrubValues.Add($"\"{icon.Unicode}\"");
-//        }
+        //        foreach (var icon in icons)
+        //        {
+        //            scrubValues.Add($"\"{icon.Unicode}\"");
+        //        }
         foreach (var second in files)
         {
             verify.AppendContentAsFile(second.Content, "cs", second.FileName);
@@ -149,8 +148,8 @@ public class CategoryProviderTests
         {
             foreach (var iconGroup in icons
                                      .OrderBy(z => z.Id)
-                                     .GroupBy(z => ( z.Family, z.Style, Size: z.Id.Split('-').Length ))
-                                     .Select(z => ( z.Key.Family, z.Key.Style, z.Key.Size, Icons: z.Take(2).ToFrozenSet() ))
+                                     .GroupBy(z => (z.Family, z.Style, Size: z.Id.Split('-').Length))
+                                     .Select(z => (z.Key.Family, z.Key.Style, z.Key.Size, Icons: z.Take(2).ToFrozenSet()))
                                      .Where((_, i) => i % 2 == 1)
                     )
             {
@@ -193,7 +192,7 @@ public class CategoryProviderTests
     {
         public static implicit operator ImmutableArray<IconModel>(IconsCollection collection)
         {
-            return [..collection,];
+            return [.. collection,];
         }
 
         public override string ToString()

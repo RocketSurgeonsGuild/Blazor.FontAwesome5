@@ -1,5 +1,4 @@
 ﻿using Bunit;
-using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Rocket.Surgery.Blazor.FontAwesome6.Pro;
 using Rocket.Surgery.Extensions.Testing;
@@ -37,7 +36,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
                            )
             );
 
-            icon.Markup.Should().Be(
+            icon.Markup.ShouldBe(
                 "<span class=\"fa-layers fa-fw\" style=\"background:MistyRose\">" +
                 "<i class=\"fa-solid fa-circle\" style=\"color:Tomato\"></i>" +
                 "<i class=\"fa-solid fa-xmark fa-inverse\" data-fa-transform=\"shrink-6.00\"></i>" +
@@ -69,7 +68,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
                            )
             );
 
-            icon.Markup.Should().Be(
+            icon.Markup.ShouldBe(
                 "<span class=\"fa-layers fa-fw\" style=\"background:MistyRose\">" +
                 "<i class=\"fa-solid fa-bookmark\"></i>" +
                 "<i class=\"fa-solid fa-heart fa-inverse\" style=\"color:Tomato\" data-fa-transform=\"shrink-10.00 up-2.00\"></i>" +
@@ -118,7 +117,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
                            )
             );
 
-            icon.Markup.Should().Be(
+            icon.Markup.ShouldBe(
                 "<span class=\"fa-layers fa-fw\" style=\"background:MistyRose\">" +
                 "<i class=\"fa-solid fa-play\" data-fa-transform=\"grow-2.00 rotate--90.00\"></i>" +
                 "<i class=\"fa-solid fa-sun fa-inverse\" data-fa-transform=\"shrink-10.00 up-2.00\"></i>" +
@@ -152,7 +151,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
                            )
             );
 
-            icon.Markup.Should().Be(
+            icon.Markup.ShouldBe(
                 "<span class=\"fa-layers fa-fw\" style=\"background:MistyRose\">" +
                 "<i class=\"fa-solid fa-calendar\"></i>" +
                 "<span class=\"fa-layers-text fa-inverse\" style=\"font-weight:900\" data-fa-transform=\"shrink-8.00 down-3.00\">27</span>" +
@@ -184,7 +183,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
                            )
             );
 
-            icon.Markup.Should().Be(
+            icon.Markup.ShouldBe(
                 "<span class=\"fa-layers fa-fw\" style=\"background:MistyRose\">" +
                 "<i class=\"fa-solid fa-certificate\"></i>" +
                 "<span class=\"fa-layers-text fa-inverse\" style=\"font-weight:900\" data-fa-transform=\"shrink-11.50 rotate--30.00\">NEW</span>" +
@@ -213,7 +212,7 @@ namespace Rocket.Surgery.Blazor.FontAwesome6.Tests
                            )
             );
 
-            icon.Markup.Should().Be(
+            icon.Markup.ShouldBe(
                 "<span class=\"fa-layers fa-fw\" style=\"background:MistyRose\">" +
                 "<i class=\"fa-solid fa-envelope\"></i>" +
                 "<span class=\"fa-layers-counter\" style=\"background:Tomato\">1,419</span>" +

@@ -1,7 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 using Bogus;
 using Bunit;
-using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Rocket.Surgery.Extensions.Testing;
 using Xunit.Abstractions;

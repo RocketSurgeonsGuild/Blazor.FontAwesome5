@@ -1,6 +1,5 @@
 ﻿using System.Runtime.CompilerServices;
 using Bogus;
-using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Rocket.Surgery.Blazor.FontAwesome6.Free.Svg;
 using Rocket.Surgery.Extensions.Testing;
@@ -227,7 +226,7 @@ public class SvgIconTests
                 FaSolid
                    .Battery
                    .Animate(IconAnimation.Beat)
-                   .AnimationDelay( "3s")
+                   .AnimationDelay("3s")
             );
             AddIcon(
                 FaSolid

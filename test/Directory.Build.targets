@@ -6,7 +6,8 @@
         <PackageReference Include="Bogus" />
         <PackageReference Include="Microsoft.CodeCoverage" />
         <PackageReference Include="FakeItEasy" />
-        <PackageReference Include="FluentAssertions" />
+        <PackageReference Include="Shouldly" />
+        <Using Include="Shouldly" />
         <PackageReference Include="xunit" />
         <PackageReference Include="xunit.runner.visualstudio" />
     </ItemGroup>

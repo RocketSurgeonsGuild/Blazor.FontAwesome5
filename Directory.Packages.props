@@ -18,7 +18,6 @@
         <GlobalPackageReference Include="Roslynator.Refactorings" Version="4.13.0" />
         <GlobalPackageReference Include="Spectre.Console.Analyzer" Version="1.0.0" />
         <GlobalPackageReference Include="FakeItEasy.Analyzer.CSharp" Version="6.1.1" />
-        <GlobalPackageReference Include="FluentAssertions.Analyzers" Version="0.34.1" />
         <GlobalPackageReference Include="xunit.analyzers" Version="1.20.0" />
     </ItemGroup>
     <ItemGroup>
@@ -57,7 +56,7 @@
         <PackageVersion Include="Verify.Xunit" Version="28.11.0" />
         <PackageVersion Include="Verify.Playwright" Version="3.0.0" />
         <PackageVersion Include="FakeItEasy" Version="8.3.0" />
-        <PackageVersion Include="FluentAssertions" Version="7.0.0" />
+        <PackageVersion Include="Shouldly" Version="4.3.0" />
         <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
         <PackageVersion Include="Rocket.Surgery.Extensions.Testing.FakeItEasy" Version="9.0.4" />
         <PackageVersion Include="Rocket.Surgery.Extensions.Testing.XUnit" Version="9.0.4" />

@@ -51,6 +51,7 @@
         "Prettier",
         "RegenerateBuildConfigurations",
         "RegenerateFromMetadata",
+        "RemoveUnusedDependencies",
         "Restore",
         "Test"
       ]

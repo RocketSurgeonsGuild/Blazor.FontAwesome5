@@ -84,6 +84,10 @@ jobs:
         id: lintFiles
         run: |
           dotnet .build/bin/Debug/.build.dll --target LintFiles --skip Restore --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
+      - name: Remove Unused Dependencies
+        id: removeUnusedDependencies
+        run: |
+          dotnet .build/bin/Debug/.build.dll --target RemoveUnusedDependencies --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: Prettier
         id: prettier
         run: |

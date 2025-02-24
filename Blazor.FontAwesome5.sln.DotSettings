@@ -233,13 +233,17 @@
     &lt;Entry DisplayName="All other members" /&gt;&#xD;
   &lt;/TypePattern&gt;&#xD;
   &lt;TypePattern DisplayName="Default Pattern"&gt;&#xD;
+    &lt;Entry DisplayName="Constructors"&gt;&#xD;
+      &lt;Entry.Match&gt;&#xD;
+        &lt;Kind Is="Constructor" /&gt;&#xD;
+      &lt;/Entry.Match&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
     &lt;Entry DisplayName="Public Methods" Priority="100"&gt;&#xD;
       &lt;Entry.Match&gt;&#xD;
         &lt;And&gt;&#xD;
           &lt;Access Is="Public" /&gt;&#xD;
           &lt;Or&gt;&#xD;
             &lt;Kind Is="Method" /&gt;&#xD;
-            &lt;Kind Is="Constructor" /&gt;&#xD;
             &lt;Kind Is="Destructor" /&gt;&#xD;
             &lt;Kind Is="Operator" /&gt;&#xD;
           &lt;/Or&gt;&#xD;
@@ -309,7 +313,6 @@
           &lt;/Or&gt;&#xD;
           &lt;Or&gt;&#xD;
             &lt;Kind Is="Method" /&gt;&#xD;
-            &lt;Kind Is="Constructor" /&gt;&#xD;
             &lt;Kind Is="Destructor" /&gt;&#xD;
             &lt;Kind Is="Operator" /&gt;&#xD;
           &lt;/Or&gt;&#xD;
@@ -377,7 +380,6 @@
           &lt;Access Is="Private" /&gt;&#xD;
           &lt;Or&gt;&#xD;
             &lt;Kind Is="Method" /&gt;&#xD;
-            &lt;Kind Is="Constructor" /&gt;&#xD;
             &lt;Kind Is="Destructor" /&gt;&#xD;
             &lt;Kind Is="Operator" /&gt;&#xD;
             &lt;Kind Is="Event" /&gt;&#xD;

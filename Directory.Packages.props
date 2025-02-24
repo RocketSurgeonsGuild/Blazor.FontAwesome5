@@ -23,7 +23,7 @@
     <ItemGroup>
         <PackageVersion Include="JetBrains.Annotations" Version="2024.3.0" />
         <PackageVersion Include="JetBrains.dotCover.CommandLineTools" Version="2024.3.5" />
-        <PackageVersion Include="JetBrains.ExternalAnnotations" Version="10.2.155" />
+        <PackageVersion Include="JetBrains.ExternalAnnotations" Version="10.2.156" />
         <PackageVersion Include="JetBrains.ReSharper.GlobalTools" Version="2024.3.5" />
         <PackageVersion Include="PrettyCode.StringBuilder" Version="1.0.0" />
         <PackageVersion Include="Rocket.Surgery.Conventions.CommandLine" Version="12.11.2" />

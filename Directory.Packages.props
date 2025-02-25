@@ -3,7 +3,10 @@
         <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
     </PropertyGroup>
     <ItemGroup>
-        <GlobalPackageReference Include="Rocket.Surgery.MSBuild" Version="1.3.0-beta.2" />
+        <GlobalPackageReference Include="Rocket.Surgery.MSBuild.CI" Version="1.3.0-beta.2" />
+        <GlobalPackageReference Include="Rocket.Surgery.MSBuild.GlobalAnalyzerConfig" Version="1.3.0-beta.2" />
+        <GlobalPackageReference Include="Rocket.Surgery.MSBuild.GitVersion" Version="1.3.0-beta.2" />
+        <GlobalPackageReference Include="Rocket.Surgery.MSBuild.SourceLink" Version="1.3.0-beta.2" />
         <GlobalPackageReference Include="Rocket.Surgery.MyAssembly" Version="1.3.0-beta.2" />
         <GlobalPackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.11.0" />
         <GlobalPackageReference Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.4" />

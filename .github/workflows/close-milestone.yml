@@ -78,7 +78,7 @@ jobs:
       - name: 📲 Install GitReleaseManager
         uses: gittools/actions/gitreleasemanager/setup@v3.2.1
         with:
-          versionSpec: '0.18.0'
+          versionSpec: '0.20.0'
       - name: Get Repo and Owner
         id: repository
         if: ${{ !github.event.release.prerelease && steps.gitversion.outputs.preReleaseTag == '' }}

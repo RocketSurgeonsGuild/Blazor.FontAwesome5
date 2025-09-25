@@ -56,7 +56,7 @@ jobs:
         run: |
           git fetch --prune
       - name: 📲 Install DotNet
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v5
       - name: ⚒️ dotnet tool restore
         run: |
           dotnet tool restore

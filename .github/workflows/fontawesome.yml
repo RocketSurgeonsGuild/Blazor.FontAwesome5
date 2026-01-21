@@ -25,7 +25,7 @@ jobs:
         run: |
           dotnet nuke RegenerateFromMetadata --font-awesome-token "${{ secrets.FONTAWESOME_TOKEN }}" --skip
       - name: ⬅ Pull Request
-        uses: peter-evans/create-pull-request@v8.0.0
+        uses: peter-evans/create-pull-request@v8.1.0
         with:
           token: ${{ secrets.RSG_BOT_TOKEN }}
           branch: 'update/icons'

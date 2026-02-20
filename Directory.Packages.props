@@ -21,10 +21,10 @@
         <GlobalPackageReference Include="xunit.analyzers" Version="1.27.0" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="JetBrains.Annotations" Version="2024.3.0" />
-        <PackageVersion Include="JetBrains.dotCover.CommandLineTools" Version="2024.3.9" />
+        <PackageVersion Include="JetBrains.Annotations" Version="2025.2.4" />
+        <PackageVersion Include="JetBrains.dotCover.CommandLineTools" Version="2025.3.3" />
         <PackageVersion Include="JetBrains.ExternalAnnotations" Version="10.2.167" />
-        <PackageVersion Include="JetBrains.ReSharper.GlobalTools" Version="2024.3.9" />
+        <PackageVersion Include="JetBrains.ReSharper.GlobalTools" Version="2025.3.3" />
         <PackageVersion Include="PrettyCode.StringBuilder" Version="1.0.0" />
         <PackageVersion Include="Rocket.Surgery.Conventions.CommandLine" Version="12.11.2" />
         <PackageVersion Include="Rocket.Surgery.LaunchPad.Foundation" Version="1.8.8" />

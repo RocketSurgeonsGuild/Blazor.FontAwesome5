@@ -31,7 +31,7 @@
         <PackageVersion Include="Polyfill" Version="8.9.1" />
         <PackageVersion Include="Spectre.Console.Cli" Version="0.49.1" />
         <PackageVersion Include="StrawberryShake.Server" Version="15.0.3" />
-        <PackageVersion Include="Verify.BUnit" Version="12.0.0" />
+        <PackageVersion Include="Verify.BUnit" Version="13.0.0" />
         <PackageVersion Include="Xunit.SkippableFact" Version="1.5.61" />
         <PackageVersion Include="YamlDotNet" Version="16.3.0" />
         <PackageVersion Include="GitVersion.Tool" Version="6.6.0" />
@@ -53,7 +53,7 @@
         <PackageVersion Include="Verify.AngleSharp" Version="4.5.0" />
         <PackageVersion Include="Verify.ImageMagick" Version="3.7.0" />
         <PackageVersion Include="Verify.Blazor" Version="11.0.0" />
-        <PackageVersion Include="Verify.Xunit" Version="29.5.0" />
+        <PackageVersion Include="Verify.Xunit" Version="31.12.5" />
 
         <PackageVersion Include="FakeItEasy" Version="9.0.1" />
         <PackageVersion Include="Shouldly" Version="4.3.0" />

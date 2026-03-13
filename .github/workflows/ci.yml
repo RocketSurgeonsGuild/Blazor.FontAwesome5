@@ -168,7 +168,7 @@ jobs:
       - name: 🚀 Publish Coverage Comment
         if: always() && github.event_name == 'pull_request'
         continue-on-error: true
-        uses: marocchino/sticky-pull-request-comment@v2
+        uses: marocchino/sticky-pull-request-comment@v3
         with:
           header: 'Coverage'
           path: 'coverage/summary/SummaryGithub.md'

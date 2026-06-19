@@ -63,7 +63,7 @@
             "rollForward": false
         },
         "gitreleasemanager.tool": {
-            "version": "0.18.0",
+            "version": "0.20.0",
             "commands": ["dotnet-gitreleasemanager"],
             "rollForward": false
         }

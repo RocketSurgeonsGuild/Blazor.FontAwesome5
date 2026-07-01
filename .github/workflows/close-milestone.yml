@@ -71,7 +71,7 @@ jobs:
         with:
           title: 'v${{ steps.gitversion.outputs.majorMinorPatch }}'
       - name: sync milestones
-        uses: RocketSurgeonsGuild/actions/sync-milestone@v0.3.15
+        uses: RocketSurgeonsGuild/actions/sync-milestone@v0.3.19
         with:
           default-label: ':sparkles: mysterious'
           github-token: '${{ secrets.GITHUB_TOKEN }}'

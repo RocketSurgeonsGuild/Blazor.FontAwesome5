@@ -2217,88 +2217,88 @@ public static partial class FaChartsDiagrams
     /// <a href="https://fontawesome.com/icons/chart-scatter-3d">Chart Scatter 3d</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class ChartScatter3d
+    public static partial class ChartScatter 3d
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=classic&amp;s=light">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.ChartScatter3d;
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.ChartScatter 3d;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=classic&amp;s=regular">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ChartScatter3d;
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ChartScatter 3d;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=classic&amp;s=solid">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.ChartScatter3d;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.ChartScatter 3d;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=classic&amp;s=thin">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.ChartScatter3d;
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.ChartScatter 3d;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=duotone&amp;s=light">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.ChartScatter3d;
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.ChartScatter 3d;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=duotone&amp;s=regular">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.ChartScatter3d;
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.ChartScatter 3d;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=duotone&amp;s=solid">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.ChartScatter3d;
+        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.ChartScatter 3d;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=duotone&amp;s=thin">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.ChartScatter3d;
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.ChartScatter 3d;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=sharp&amp;s=light">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.ChartScatter3d;
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.ChartScatter 3d;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=sharp&amp;s=regular">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.ChartScatter3d;
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.ChartScatter 3d;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=sharp&amp;s=solid">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.ChartScatter3d;
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.ChartScatter 3d;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=sharp&amp;s=thin">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.ChartScatter3d;
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.ChartScatter 3d;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=sharp-duotone&amp;s=light">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.ChartScatter3d;
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.ChartScatter 3d;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=sharp-duotone&amp;s=regular">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.ChartScatter3d;
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.ChartScatter 3d;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=sharp-duotone&amp;s=solid">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.ChartScatter3d;
+        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.ChartScatter 3d;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=sharp-duotone&amp;s=thin">Chart Scatter 3d</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.ChartScatter3d;
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.ChartScatter 3d;
     }
     /// <summary>
     /// Chart Scatter Bubble

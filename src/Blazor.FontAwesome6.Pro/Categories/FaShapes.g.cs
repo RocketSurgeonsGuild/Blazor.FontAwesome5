@@ -1777,88 +1777,88 @@ public static partial class FaShapes
     /// <a href="https://fontawesome.com/icons/circles-overlap-3">Circles Overlap 3</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class CirclesOverlap3
+    public static partial class CirclesOverlap 3
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=classic&amp;s=light">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CirclesOverlap3;
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.CirclesOverlap 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=classic&amp;s=regular">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CirclesOverlap3;
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CirclesOverlap 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=classic&amp;s=solid">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.CirclesOverlap3;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.CirclesOverlap 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=classic&amp;s=thin">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CirclesOverlap3;
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.CirclesOverlap 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=duotone&amp;s=light">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.CirclesOverlap3;
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.CirclesOverlap 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=duotone&amp;s=regular">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.CirclesOverlap3;
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.CirclesOverlap 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=duotone&amp;s=solid">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.CirclesOverlap3;
+        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.CirclesOverlap 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=duotone&amp;s=thin">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.CirclesOverlap3;
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.CirclesOverlap 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=sharp&amp;s=light">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.CirclesOverlap3;
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.CirclesOverlap 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=sharp&amp;s=regular">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.CirclesOverlap3;
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.CirclesOverlap 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=sharp&amp;s=solid">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.CirclesOverlap3;
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.CirclesOverlap 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=sharp&amp;s=thin">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CirclesOverlap3;
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.CirclesOverlap 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=sharp-duotone&amp;s=light">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.CirclesOverlap3;
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.CirclesOverlap 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=sharp-duotone&amp;s=regular">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.CirclesOverlap3;
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.CirclesOverlap 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=sharp-duotone&amp;s=solid">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.CirclesOverlap3;
+        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.CirclesOverlap 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=sharp-duotone&amp;s=thin">Circles Overlap 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.CirclesOverlap3;
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.CirclesOverlap 3;
     }
     /// <summary>
     /// Cloud
@@ -2657,88 +2657,88 @@ public static partial class FaShapes
     /// <a href="https://fontawesome.com/icons/diamonds-4">Diamonds 4</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class Diamonds4
+    public static partial class Diamonds 4
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=classic&amp;s=light">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Diamonds4;
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Diamonds 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=classic&amp;s=regular">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Diamonds4;
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Diamonds 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=classic&amp;s=solid">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Diamonds4;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Diamonds 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=classic&amp;s=thin">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Diamonds4;
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Diamonds 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=duotone&amp;s=light">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Diamonds4;
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Diamonds 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=duotone&amp;s=regular">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Diamonds4;
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Diamonds 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=duotone&amp;s=solid">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Diamonds4;
+        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Diamonds 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=duotone&amp;s=thin">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Diamonds4;
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Diamonds 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=sharp&amp;s=light">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Diamonds4;
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Diamonds 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=sharp&amp;s=regular">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Diamonds4;
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Diamonds 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=sharp&amp;s=solid">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Diamonds4;
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Diamonds 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=sharp&amp;s=thin">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Diamonds4;
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Diamonds 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=sharp-duotone&amp;s=light">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Diamonds4;
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Diamonds 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=sharp-duotone&amp;s=regular">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Diamonds4;
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Diamonds 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=sharp-duotone&amp;s=solid">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Diamonds4;
+        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Diamonds 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/diamonds-4?f=sharp-duotone&amp;s=thin">Diamonds 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Diamonds4;
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Diamonds 4;
     }
     /// <summary>
     /// File

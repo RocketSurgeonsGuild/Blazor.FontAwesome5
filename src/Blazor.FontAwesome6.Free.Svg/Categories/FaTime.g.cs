@@ -280,12 +280,12 @@ public static partial class FaTime
     /// <a href="https://fontawesome.com/icons/stopwatch-20">Stopwatch 20</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class Stopwatch20
+    public static partial class Stopwatch 20
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/stopwatch-20?f=classic&amp;s=solid">Stopwatch 20</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Stopwatch20;
+        public static SvgIcon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Stopwatch 20;
     }
 }

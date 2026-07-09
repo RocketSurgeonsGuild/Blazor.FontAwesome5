@@ -214,32 +214,32 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/arrow-down?f=classic&amp;s=solid">Arrow Down</a>
     /// </summary>
     public static SvgIcon ArrowDown => f_ArrowDown ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "arrow-down", "f063", 384, 512, ImmutableArray.Create("M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"u8.ToArray().ToImmutableArray()));
-    private static SvgIcon? f_ArrowDown19;
+    private static SvgIcon? f_ArrowDown 1 9;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-down-1-9?f=classic&amp;s=solid">Arrow Down 1 9</a>
     /// </summary>
-    public static SvgIcon ArrowDown19 => f_ArrowDown19 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "arrow-down-1-9", "f162", 576, 512, ImmutableArray.Create("M450.7 38c-8.3-6-19.1-7.7-28.8-4.4l-48 16c-16.8 5.6-25.8 23.7-20.2 40.5s23.7 25.8 40.5 20.2l5.9-2 0 51.6-16 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l48 0 48 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0 0-96c0-10.3-4.9-19.9-13.3-26zM160 480c9 0 17.5-3.8 23.6-10.4l88-96c11.9-13 11.1-33.3-2-45.2s-33.3-11.1-45.2 2L192 365.7 192 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 301.7L95.6 330.4c-11.9-13-32.2-13.9-45.2-2s-13.9 32.2-2 45.2l88 96C142.5 476.2 151 480 160 480zM418.3 307a32 32 0 1 1 27.4 57.9A32 32 0 1 1 418.3 307zM405.1 419.8l-6.8 9.2c-10.5 14.2-7.5 34.2 6.7 44.8s34.2 7.5 44.8-6.7l48.8-65.8c14-18.9 21.5-41.7 21.5-65.2c0-48.6-39.4-88-88-88s-88 39.4-88 88c0 39.2 25.6 72.4 61.1 83.8z"u8.ToArray().ToImmutableArray()));
+    public static SvgIcon ArrowDown 1 9 => f_ArrowDown 1 9 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "arrow-down-1-9", "f162", 576, 512, ImmutableArray.Create("M450.7 38c-8.3-6-19.1-7.7-28.8-4.4l-48 16c-16.8 5.6-25.8 23.7-20.2 40.5s23.7 25.8 40.5 20.2l5.9-2 0 51.6-16 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l48 0 48 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0 0-96c0-10.3-4.9-19.9-13.3-26zM160 480c9 0 17.5-3.8 23.6-10.4l88-96c11.9-13 11.1-33.3-2-45.2s-33.3-11.1-45.2 2L192 365.7 192 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 301.7L95.6 330.4c-11.9-13-32.2-13.9-45.2-2s-13.9 32.2-2 45.2l88 96C142.5 476.2 151 480 160 480zM418.3 307a32 32 0 1 1 27.4 57.9A32 32 0 1 1 418.3 307zM405.1 419.8l-6.8 9.2c-10.5 14.2-7.5 34.2 6.7 44.8s34.2 7.5 44.8-6.7l48.8-65.8c14-18.9 21.5-41.7 21.5-65.2c0-48.6-39.4-88-88-88s-88 39.4-88 88c0 39.2 25.6 72.4 61.1 83.8z"u8.ToArray().ToImmutableArray()));
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-down-1-9?f=classic&amp;s=solid">Arrow Down 1 9</a>
     /// </summary>
-    public static SvgIcon SortNumericAsc => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowDown19;
+    public static SvgIcon SortNumericAsc => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowDown 1 9;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-down-1-9?f=classic&amp;s=solid">Arrow Down 1 9</a>
     /// </summary>
-    public static SvgIcon SortNumericDown => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowDown19;
-    private static SvgIcon? f_ArrowDown91;
+    public static SvgIcon SortNumericDown => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowDown 1 9;
+    private static SvgIcon? f_ArrowDown 9 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-down-9-1?f=classic&amp;s=solid">Arrow Down 9 1</a>
     /// </summary>
-    public static SvgIcon ArrowDown91 => f_ArrowDown91 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "arrow-down-9-1", "f886", 576, 512, ImmutableArray.Create("M160 480c9 0 17.5-3.8 23.6-10.4l88-96c11.9-13 11.1-33.3-2-45.2s-33.3-11.1-45.2 2L192 365.7 192 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 301.7L95.6 330.4c-11.9-13-32.2-13.9-45.2-2s-13.9 32.2-2 45.2l88 96C142.5 476.2 151 480 160 480zM450.7 294c-8.3-6-19.1-7.7-28.8-4.4l-48 16c-16.8 5.6-25.8 23.7-20.2 40.5s23.7 25.8 40.5 20.2l5.9-2 0 51.6-16 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l48 0 48 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0 0-96c0-10.3-4.9-19.9-13.3-26zM418.3 91a32 32 0 1 1 27.4 57.9A32 32 0 1 1 418.3 91zM405.1 203.8l-6.8 9.2c-10.5 14.2-7.5 34.2 6.7 44.8s34.2 7.5 44.8-6.7l48.8-65.8c14-18.9 21.5-41.7 21.5-65.2c0-48.6-39.4-88-88-88s-88 39.4-88 88c0 39.2 25.6 72.4 61.1 83.8z"u8.ToArray().ToImmutableArray()));
+    public static SvgIcon ArrowDown 9 1 => f_ArrowDown 9 1 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "arrow-down-9-1", "f886", 576, 512, ImmutableArray.Create("M160 480c9 0 17.5-3.8 23.6-10.4l88-96c11.9-13 11.1-33.3-2-45.2s-33.3-11.1-45.2 2L192 365.7 192 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 301.7L95.6 330.4c-11.9-13-32.2-13.9-45.2-2s-13.9 32.2-2 45.2l88 96C142.5 476.2 151 480 160 480zM450.7 294c-8.3-6-19.1-7.7-28.8-4.4l-48 16c-16.8 5.6-25.8 23.7-20.2 40.5s23.7 25.8 40.5 20.2l5.9-2 0 51.6-16 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l48 0 48 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0 0-96c0-10.3-4.9-19.9-13.3-26zM418.3 91a32 32 0 1 1 27.4 57.9A32 32 0 1 1 418.3 91zM405.1 203.8l-6.8 9.2c-10.5 14.2-7.5 34.2 6.7 44.8s34.2 7.5 44.8-6.7l48.8-65.8c14-18.9 21.5-41.7 21.5-65.2c0-48.6-39.4-88-88-88s-88 39.4-88 88c0 39.2 25.6 72.4 61.1 83.8z"u8.ToArray().ToImmutableArray()));
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-down-9-1?f=classic&amp;s=solid">Arrow Down 9 1</a>
     /// </summary>
-    public static SvgIcon SortNumericDesc => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowDown91;
+    public static SvgIcon SortNumericDesc => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowDown 9 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-down-9-1?f=classic&amp;s=solid">Arrow Down 9 1</a>
     /// </summary>
-    public static SvgIcon SortNumericDownAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowDown91;
+    public static SvgIcon SortNumericDownAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowDown 9 1;
     private static SvgIcon? f_ArrowDownAZ;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-down-a-z?f=classic&amp;s=solid">Arrow Down A Z</a>
@@ -451,24 +451,24 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/arrow-up?f=classic&amp;s=solid">Arrow Up</a>
     /// </summary>
     public static SvgIcon ArrowUp => f_ArrowUp ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "arrow-up", "f062", 384, 512, ImmutableArray.Create("M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2 160 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-306.7L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"u8.ToArray().ToImmutableArray()));
-    private static SvgIcon? f_ArrowUp19;
+    private static SvgIcon? f_ArrowUp 1 9;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-up-1-9?f=classic&amp;s=solid">Arrow Up 1 9</a>
     /// </summary>
-    public static SvgIcon ArrowUp19 => f_ArrowUp19 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "arrow-up-1-9", "f163", 576, 512, ImmutableArray.Create("M450.7 38c8.3 6 13.3 15.7 13.3 26l0 96 16 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-48 0-48 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l16 0 0-51.6-5.9 2c-16.8 5.6-34.9-3.5-40.5-20.2s3.5-34.9 20.2-40.5l48-16c9.8-3.3 20.5-1.6 28.8 4.4zM160 32c9 0 17.5 3.8 23.6 10.4l88 96c11.9 13 11.1 33.3-2 45.2s-33.3 11.1-45.2-2L192 146.3 192 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-301.7L95.6 181.6c-11.9 13-32.2 13.9-45.2 2s-13.9-32.2-2-45.2l88-96C142.5 35.8 151 32 160 32zM445.7 364.9A32 32 0 1 0 418.3 307a32 32 0 1 0 27.4 57.9zm-40.7 54.9C369.6 408.4 344 375.2 344 336c0-48.6 39.4-88 88-88s88 39.4 88 88c0 23.5-7.5 46.3-21.5 65.2L449.7 467c-10.5 14.2-30.6 17.2-44.8 6.7s-17.2-30.6-6.7-44.8l6.8-9.2z"u8.ToArray().ToImmutableArray()));
+    public static SvgIcon ArrowUp 1 9 => f_ArrowUp 1 9 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "arrow-up-1-9", "f163", 576, 512, ImmutableArray.Create("M450.7 38c8.3 6 13.3 15.7 13.3 26l0 96 16 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-48 0-48 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l16 0 0-51.6-5.9 2c-16.8 5.6-34.9-3.5-40.5-20.2s3.5-34.9 20.2-40.5l48-16c9.8-3.3 20.5-1.6 28.8 4.4zM160 32c9 0 17.5 3.8 23.6 10.4l88 96c11.9 13 11.1 33.3-2 45.2s-33.3 11.1-45.2-2L192 146.3 192 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-301.7L95.6 181.6c-11.9 13-32.2 13.9-45.2 2s-13.9-32.2-2-45.2l88-96C142.5 35.8 151 32 160 32zM445.7 364.9A32 32 0 1 0 418.3 307a32 32 0 1 0 27.4 57.9zm-40.7 54.9C369.6 408.4 344 375.2 344 336c0-48.6 39.4-88 88-88s88 39.4 88 88c0 23.5-7.5 46.3-21.5 65.2L449.7 467c-10.5 14.2-30.6 17.2-44.8 6.7s-17.2-30.6-6.7-44.8l6.8-9.2z"u8.ToArray().ToImmutableArray()));
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-up-1-9?f=classic&amp;s=solid">Arrow Up 1 9</a>
     /// </summary>
-    public static SvgIcon SortNumericUp => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowUp19;
-    private static SvgIcon? f_ArrowUp91;
+    public static SvgIcon SortNumericUp => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowUp 1 9;
+    private static SvgIcon? f_ArrowUp 9 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-up-9-1?f=classic&amp;s=solid">Arrow Up 9 1</a>
     /// </summary>
-    public static SvgIcon ArrowUp91 => f_ArrowUp91 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "arrow-up-9-1", "f887", 576, 512, ImmutableArray.Create("M160 32c9 0 17.5 3.8 23.6 10.4l88 96c11.9 13 11.1 33.3-2 45.2s-33.3 11.1-45.2-2L192 146.3 192 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-301.7L95.6 181.6c-11.9 13-32.2 13.9-45.2 2s-13.9-32.2-2-45.2l88-96C142.5 35.8 151 32 160 32zM450.7 294c8.3 6 13.3 15.7 13.3 26l0 96 16 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-48 0-48 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l16 0 0-51.6-5.9 2c-16.8 5.6-34.9-3.5-40.5-20.2s3.5-34.9 20.2-40.5l48-16c9.8-3.3 20.5-1.6 28.8 4.4zm-5-145.1A32 32 0 1 0 418.3 91a32 32 0 1 0 27.4 57.9zm-40.7 54.9C369.6 192.4 344 159.2 344 120c0-48.6 39.4-88 88-88s88 39.4 88 88c0 23.5-7.5 46.3-21.5 65.2L449.7 251c-10.5 14.2-30.6 17.2-44.8 6.7s-17.2-30.6-6.7-44.8l6.8-9.2z"u8.ToArray().ToImmutableArray()));
+    public static SvgIcon ArrowUp 9 1 => f_ArrowUp 9 1 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "arrow-up-9-1", "f887", 576, 512, ImmutableArray.Create("M160 32c9 0 17.5 3.8 23.6 10.4l88 96c11.9 13 11.1 33.3-2 45.2s-33.3 11.1-45.2-2L192 146.3 192 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-301.7L95.6 181.6c-11.9 13-32.2 13.9-45.2 2s-13.9-32.2-2-45.2l88-96C142.5 35.8 151 32 160 32zM450.7 294c8.3 6 13.3 15.7 13.3 26l0 96 16 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-48 0-48 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l16 0 0-51.6-5.9 2c-16.8 5.6-34.9-3.5-40.5-20.2s3.5-34.9 20.2-40.5l48-16c9.8-3.3 20.5-1.6 28.8 4.4zm-5-145.1A32 32 0 1 0 418.3 91a32 32 0 1 0 27.4 57.9zm-40.7 54.9C369.6 192.4 344 159.2 344 120c0-48.6 39.4-88 88-88s88 39.4 88 88c0 23.5-7.5 46.3-21.5 65.2L449.7 251c-10.5 14.2-30.6 17.2-44.8 6.7s-17.2-30.6-6.7-44.8l6.8-9.2z"u8.ToArray().ToImmutableArray()));
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-up-9-1?f=classic&amp;s=solid">Arrow Up 9 1</a>
     /// </summary>
-    public static SvgIcon SortNumericUpAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowUp91;
+    public static SvgIcon SortNumericUpAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ArrowUp 9 1;
     private static SvgIcon? f_ArrowUpAZ;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-up-a-z?f=classic&amp;s=solid">Arrow Up A Z</a>
@@ -865,7 +865,7 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-empty?f=classic&amp;s=solid">Battery Empty</a>
     /// </summary>
-    public static SvgIcon Battery0 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BatteryEmpty;
+    public static SvgIcon Battery 0 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BatteryEmpty;
     private static SvgIcon? f_BatteryFull;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-full?f=classic&amp;s=solid">Battery Full</a>
@@ -878,7 +878,7 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-full?f=classic&amp;s=solid">Battery Full</a>
     /// </summary>
-    public static SvgIcon Battery5 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BatteryFull;
+    public static SvgIcon Battery 5 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BatteryFull;
     private static SvgIcon? f_BatteryHalf;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-half?f=classic&amp;s=solid">Battery Half</a>
@@ -887,7 +887,7 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-half?f=classic&amp;s=solid">Battery Half</a>
     /// </summary>
-    public static SvgIcon Battery3 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BatteryHalf;
+    public static SvgIcon Battery 3 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BatteryHalf;
     private static SvgIcon? f_BatteryQuarter;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-quarter?f=classic&amp;s=solid">Battery Quarter</a>
@@ -896,7 +896,7 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-quarter?f=classic&amp;s=solid">Battery Quarter</a>
     /// </summary>
-    public static SvgIcon Battery2 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BatteryQuarter;
+    public static SvgIcon Battery 2 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BatteryQuarter;
     private static SvgIcon? f_BatteryThreeQuarters;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-three-quarters?f=classic&amp;s=solid">Battery Three Quarters</a>
@@ -905,7 +905,7 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-three-quarters?f=classic&amp;s=solid">Battery Three Quarters</a>
     /// </summary>
-    public static SvgIcon Battery4 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BatteryThreeQuarters;
+    public static SvgIcon Battery 4 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.BatteryThreeQuarters;
     private static SvgIcon? f_Bed;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/bed?f=classic&amp;s=solid">Bed</a>
@@ -2639,16 +2639,16 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/dice?f=classic&amp;s=solid">Dice</a>
     /// </summary>
     public static SvgIcon Dice => f_Dice ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "dice", "f522", 640, 512, ImmutableArray.Create("M274.9 34.3c-28.1-28.1-73.7-28.1-101.8 0L34.3 173.1c-28.1 28.1-28.1 73.7 0 101.8L173.1 413.7c28.1 28.1 73.7 28.1 101.8 0L413.7 274.9c28.1-28.1 28.1-73.7 0-101.8L274.9 34.3zM200 224a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM96 200a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM224 376a24 24 0 1 1 0-48 24 24 0 1 1 0 48zM352 200a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM224 120a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm96 328c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-192c0-35.3-28.7-64-64-64l-114.3 0c11.6 36 3.1 77-25.4 105.5L320 413.8l0 34.2zM480 328a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"u8.ToArray().ToImmutableArray()));
-    private static SvgIcon? f_DiceD20;
+    private static SvgIcon? f_DiceD 20;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/dice-d20?f=classic&amp;s=solid">Dice D20</a>
     /// </summary>
-    public static SvgIcon DiceD20 => f_DiceD20 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "dice-d20", "f6cf", 512, 512, ImmutableArray.Create("M48.7 125.8l53.2 31.9c7.8 4.7 17.8 2 22.2-5.9L201.6 12.1c3-5.4-.9-12.1-7.1-12.1c-1.6 0-3.2 .5-4.6 1.4L47.9 98.8c-9.6 6.6-9.2 20.9 .8 26.9zM16 171.7l0 123.5c0 8 10.4 11 14.7 4.4l60-92c5-7.6 2.6-17.8-5.2-22.5L40.2 158C29.6 151.6 16 159.3 16 171.7zM310.4 12.1l77.6 139.6c4.4 7.9 14.5 10.6 22.2 5.9l53.2-31.9c10-6 10.4-20.3 .8-26.9L322.1 1.4c-1.4-.9-3-1.4-4.6-1.4c-6.2 0-10.1 6.7-7.1 12.1zM496 171.7c0-12.4-13.6-20.1-24.2-13.7l-45.3 27.2c-7.8 4.7-10.1 14.9-5.2 22.5l60 92c4.3 6.7 14.7 3.6 14.7-4.4l0-123.5zm-49.3 246L286.1 436.6c-8.1 .9-14.1 7.8-14.1 15.9l0 52.8c0 3.7 3 6.8 6.8 6.8c.8 0 1.6-.1 2.4-.4l172.7-64c6.1-2.2 10.1-8 10.1-14.5c0-9.3-8.1-16.5-17.3-15.4zM233.2 512c3.7 0 6.8-3 6.8-6.8l0-52.6c0-8.1-6.1-14.9-14.1-15.9l-160.6-19c-9.2-1.1-17.3 6.1-17.3 15.4c0 6.5 4 12.3 10.1 14.5l172.7 64c.8 .3 1.6 .4 2.4 .4zM41.7 382.9l170.9 20.2c7.8 .9 13.4-7.5 9.5-14.3l-85.7-150c-5.9-10.4-20.7-10.8-27.3-.8L30.2 358.2c-6.5 9.9-.3 23.3 11.5 24.7zm439.6-24.8L402.9 238.1c-6.5-10-21.4-9.6-27.3 .8L290.2 388.5c-3.9 6.8 1.6 15.2 9.5 14.3l170.1-20c11.8-1.4 18-14.7 11.5-24.6zm-216.9 11l78.4-137.2c6.1-10.7-1.6-23.9-13.9-23.9l-145.7 0c-12.3 0-20 13.3-13.9 23.9l78.4 137.2c3.7 6.4 13 6.4 16.7 0zM174.4 176l163.2 0c12.2 0 19.9-13.1 14-23.8l-80-144c-2.8-5.1-8.2-8.2-14-8.2l-3.2 0c-5.8 0-11.2 3.2-14 8.2l-80 144c-5.9 10.7 1.8 23.8 14 23.8z"u8.ToArray().ToImmutableArray()));
-    private static SvgIcon? f_DiceD6;
+    public static SvgIcon DiceD 20 => f_DiceD 20 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "dice-d20", "f6cf", 512, 512, ImmutableArray.Create("M48.7 125.8l53.2 31.9c7.8 4.7 17.8 2 22.2-5.9L201.6 12.1c3-5.4-.9-12.1-7.1-12.1c-1.6 0-3.2 .5-4.6 1.4L47.9 98.8c-9.6 6.6-9.2 20.9 .8 26.9zM16 171.7l0 123.5c0 8 10.4 11 14.7 4.4l60-92c5-7.6 2.6-17.8-5.2-22.5L40.2 158C29.6 151.6 16 159.3 16 171.7zM310.4 12.1l77.6 139.6c4.4 7.9 14.5 10.6 22.2 5.9l53.2-31.9c10-6 10.4-20.3 .8-26.9L322.1 1.4c-1.4-.9-3-1.4-4.6-1.4c-6.2 0-10.1 6.7-7.1 12.1zM496 171.7c0-12.4-13.6-20.1-24.2-13.7l-45.3 27.2c-7.8 4.7-10.1 14.9-5.2 22.5l60 92c4.3 6.7 14.7 3.6 14.7-4.4l0-123.5zm-49.3 246L286.1 436.6c-8.1 .9-14.1 7.8-14.1 15.9l0 52.8c0 3.7 3 6.8 6.8 6.8c.8 0 1.6-.1 2.4-.4l172.7-64c6.1-2.2 10.1-8 10.1-14.5c0-9.3-8.1-16.5-17.3-15.4zM233.2 512c3.7 0 6.8-3 6.8-6.8l0-52.6c0-8.1-6.1-14.9-14.1-15.9l-160.6-19c-9.2-1.1-17.3 6.1-17.3 15.4c0 6.5 4 12.3 10.1 14.5l172.7 64c.8 .3 1.6 .4 2.4 .4zM41.7 382.9l170.9 20.2c7.8 .9 13.4-7.5 9.5-14.3l-85.7-150c-5.9-10.4-20.7-10.8-27.3-.8L30.2 358.2c-6.5 9.9-.3 23.3 11.5 24.7zm439.6-24.8L402.9 238.1c-6.5-10-21.4-9.6-27.3 .8L290.2 388.5c-3.9 6.8 1.6 15.2 9.5 14.3l170.1-20c11.8-1.4 18-14.7 11.5-24.6zm-216.9 11l78.4-137.2c6.1-10.7-1.6-23.9-13.9-23.9l-145.7 0c-12.3 0-20 13.3-13.9 23.9l78.4 137.2c3.7 6.4 13 6.4 16.7 0zM174.4 176l163.2 0c12.2 0 19.9-13.1 14-23.8l-80-144c-2.8-5.1-8.2-8.2-14-8.2l-3.2 0c-5.8 0-11.2 3.2-14 8.2l-80 144c-5.9 10.7 1.8 23.8 14 23.8z"u8.ToArray().ToImmutableArray()));
+    private static SvgIcon? f_DiceD 6;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/dice-d6?f=classic&amp;s=solid">Dice D6</a>
     /// </summary>
-    public static SvgIcon DiceD6 => f_DiceD6 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "dice-d6", "f6d1", 448, 512, ImmutableArray.Create("M201 10.3c14.3-7.8 31.6-7.8 46 0L422.3 106c5.1 2.8 8.3 8.2 8.3 14s-3.2 11.2-8.3 14L231.7 238c-4.8 2.6-10.5 2.6-15.3 0L25.7 134c-5.1-2.8-8.3-8.2-8.3-14s3.2-11.2 8.3-14L201 10.3zM23.7 170l176 96c5.1 2.8 8.3 8.2 8.3 14l0 216c0 5.6-3 10.9-7.8 13.8s-10.9 3-15.8 .3L25 423.1C9.6 414.7 0 398.6 0 381L0 184c0-5.6 3-10.9 7.8-13.8s10.9-3 15.8-.3zm400.7 0c5-2.7 11-2.6 15.8 .3s7.8 8.1 7.8 13.8l0 197c0 17.6-9.6 33.7-25 42.1L263.7 510c-5 2.7-11 2.6-15.8-.3s-7.8-8.1-7.8-13.8l0-216c0-5.9 3.2-11.2 8.3-14l176-96z"u8.ToArray().ToImmutableArray()));
+    public static SvgIcon DiceD 6 => f_DiceD 6 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "dice-d6", "f6d1", 448, 512, ImmutableArray.Create("M201 10.3c14.3-7.8 31.6-7.8 46 0L422.3 106c5.1 2.8 8.3 8.2 8.3 14s-3.2 11.2-8.3 14L231.7 238c-4.8 2.6-10.5 2.6-15.3 0L25.7 134c-5.1-2.8-8.3-8.2-8.3-14s3.2-11.2 8.3-14L201 10.3zM23.7 170l176 96c5.1 2.8 8.3 8.2 8.3 14l0 216c0 5.6-3 10.9-7.8 13.8s-10.9 3-15.8 .3L25 423.1C9.6 414.7 0 398.6 0 381L0 184c0-5.6 3-10.9 7.8-13.8s10.9-3 15.8-.3zm400.7 0c5-2.7 11-2.6 15.8 .3s7.8 8.1 7.8 13.8l0 197c0 17.6-9.6 33.7-25 42.1L263.7 510c-5 2.7-11 2.6-15.8-.3s-7.8-8.1-7.8-13.8l0-216c0-5.9 3.2-11.2 8.3-14l176-96z"u8.ToArray().ToImmutableArray()));
     private static SvgIcon? f_DiceFive;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/dice-five?f=classic&amp;s=solid">Dice Five</a>
@@ -4596,7 +4596,7 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hourglass-end?f=classic&amp;s=solid">Hourglass End</a>
     /// </summary>
-    public static SvgIcon Hourglass3 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HourglassEnd;
+    public static SvgIcon Hourglass 3 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HourglassEnd;
     private static SvgIcon? f_HourglassHalf;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hourglass-half?f=classic&amp;s=solid">Hourglass Half</a>
@@ -4605,7 +4605,7 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hourglass-half?f=classic&amp;s=solid">Hourglass Half</a>
     /// </summary>
-    public static SvgIcon Hourglass2 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HourglassHalf;
+    public static SvgIcon Hourglass 2 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HourglassHalf;
     private static SvgIcon? f_HourglassStart;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hourglass-start?f=classic&amp;s=solid">Hourglass Start</a>
@@ -4614,7 +4614,7 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hourglass-start?f=classic&amp;s=solid">Hourglass Start</a>
     /// </summary>
-    public static SvgIcon Hourglass1 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HourglassStart;
+    public static SvgIcon Hourglass 1 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.HourglassStart;
     private static SvgIcon? f_House;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/house?f=classic&amp;s=solid">House</a>
@@ -5167,7 +5167,7 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/list-ol?f=classic&amp;s=solid">List Ol</a>
     /// </summary>
-    public static SvgIcon List12 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ListOl;
+    public static SvgIcon List 1 2 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.ListOl;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/list-ol?f=classic&amp;s=solid">List Ol</a>
     /// </summary>
@@ -5605,24 +5605,24 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/money-bill?f=classic&amp;s=solid">Money Bill</a>
     /// </summary>
     public static SvgIcon MoneyBill => f_MoneyBill ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "money-bill", "f0d6", 576, 512, ImmutableArray.Create("M64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 64zm64 320l-64 0 0-64c35.3 0 64 28.7 64 64zM64 192l0-64 64 0c0 35.3-28.7 64-64 64zM448 384c0-35.3 28.7-64 64-64l0 64-64 0zm64-192c-35.3 0-64-28.7-64-64l64 0 0 64zM288 160a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"u8.ToArray().ToImmutableArray()));
-    private static SvgIcon? f_MoneyBill1;
+    private static SvgIcon? f_MoneyBill 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=solid">Money Bill 1</a>
     /// </summary>
-    public static SvgIcon MoneyBill1 => f_MoneyBill1 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "money-bill-1", "f3d1", 576, 512, ImmutableArray.Create("M64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 64zm64 320l-64 0 0-64c35.3 0 64 28.7 64 64zM64 192l0-64 64 0c0 35.3-28.7 64-64 64zM448 384c0-35.3 28.7-64 64-64l0 64-64 0zm64-192c-35.3 0-64-28.7-64-64l64 0 0 64zM176 256a112 112 0 1 1 224 0 112 112 0 1 1 -224 0zm76-48c0 9.7 6.9 17.7 16 19.6l0 48.4-4 0c-11 0-20 9-20 20s9 20 20 20l24 0 24 0c11 0 20-9 20-20s-9-20-20-20l-4 0 0-68c0-11-9-20-20-20l-16 0c-11 0-20 9-20 20z"u8.ToArray().ToImmutableArray()));
+    public static SvgIcon MoneyBill 1 => f_MoneyBill 1 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "money-bill-1", "f3d1", 576, 512, ImmutableArray.Create("M64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 64zm64 320l-64 0 0-64c35.3 0 64 28.7 64 64zM64 192l0-64 64 0c0 35.3-28.7 64-64 64zM448 384c0-35.3 28.7-64 64-64l0 64-64 0zm64-192c-35.3 0-64-28.7-64-64l64 0 0 64zM176 256a112 112 0 1 1 224 0 112 112 0 1 1 -224 0zm76-48c0 9.7 6.9 17.7 16 19.6l0 48.4-4 0c-11 0-20 9-20 20s9 20 20 20l24 0 24 0c11 0 20-9 20-20s-9-20-20-20l-4 0 0-68c0-11-9-20-20-20l-16 0c-11 0-20 9-20 20z"u8.ToArray().ToImmutableArray()));
     /// <summary>
     /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=solid">Money Bill 1</a>
     /// </summary>
-    public static SvgIcon MoneyBillAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.MoneyBill1;
-    private static SvgIcon? f_MoneyBill1Wave;
+    public static SvgIcon MoneyBillAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.MoneyBill 1;
+    private static SvgIcon? f_MoneyBill 1Wave;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/money-bill-1-wave?f=classic&amp;s=solid">Money Bill 1 Wave</a>
     /// </summary>
-    public static SvgIcon MoneyBill1Wave => f_MoneyBill1Wave ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "money-bill-1-wave", "f53b", 576, 512, ImmutableArray.Create("M0 112.5L0 422.3c0 18 10.1 35 27 41.3c87 32.5 174 10.3 261-11.9c79.8-20.3 159.6-40.7 239.3-18.9c23 6.3 48.7-9.5 48.7-33.4l0-309.9c0-18-10.1-35-27-41.3C462 15.9 375 38.1 288 60.3C208.2 80.6 128.4 100.9 48.7 79.1C25.6 72.8 0 88.6 0 112.5zM128 416l-64 0 0-64c35.3 0 64 28.7 64 64zM64 224l0-64 64 0c0 35.3-28.7 64-64 64zM448 352c0-35.3 28.7-64 64-64l0 64-64 0zm64-192c-35.3 0-64-28.7-64-64l64 0 0 64zM384 256c0 61.9-43 112-96 112s-96-50.1-96-112s43-112 96-112s96 50.1 96 112zM252 208c0 9.7 6.9 17.7 16 19.6l0 48.4-4 0c-11 0-20 9-20 20s9 20 20 20l24 0 24 0c11 0 20-9 20-20s-9-20-20-20l-4 0 0-68c0-11-9-20-20-20l-16 0c-11 0-20 9-20 20z"u8.ToArray().ToImmutableArray()));
+    public static SvgIcon MoneyBill 1Wave => f_MoneyBill 1Wave ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "money-bill-1-wave", "f53b", 576, 512, ImmutableArray.Create("M0 112.5L0 422.3c0 18 10.1 35 27 41.3c87 32.5 174 10.3 261-11.9c79.8-20.3 159.6-40.7 239.3-18.9c23 6.3 48.7-9.5 48.7-33.4l0-309.9c0-18-10.1-35-27-41.3C462 15.9 375 38.1 288 60.3C208.2 80.6 128.4 100.9 48.7 79.1C25.6 72.8 0 88.6 0 112.5zM128 416l-64 0 0-64c35.3 0 64 28.7 64 64zM64 224l0-64 64 0c0 35.3-28.7 64-64 64zM448 352c0-35.3 28.7-64 64-64l0 64-64 0zm64-192c-35.3 0-64-28.7-64-64l64 0 0 64zM384 256c0 61.9-43 112-96 112s-96-50.1-96-112s43-112 96-112s96 50.1 96 112zM252 208c0 9.7 6.9 17.7 16 19.6l0 48.4-4 0c-11 0-20 9-20 20s9 20 20 20l24 0 24 0c11 0 20-9 20-20s-9-20-20-20l-4 0 0-68c0-11-9-20-20-20l-16 0c-11 0-20 9-20 20z"u8.ToArray().ToImmutableArray()));
     /// <summary>
     /// <a href="https://fontawesome.com/icons/money-bill-1-wave?f=classic&amp;s=solid">Money Bill 1 Wave</a>
     /// </summary>
-    public static SvgIcon MoneyBillWaveAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.MoneyBill1Wave;
+    public static SvgIcon MoneyBillWaveAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.MoneyBill 1Wave;
     private static SvgIcon? f_MoneyBillTransfer;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/money-bill-transfer?f=classic&amp;s=solid">Money Bill Transfer</a>
@@ -7254,7 +7254,7 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal?f=classic&amp;s=solid">Signal</a>
     /// </summary>
-    public static SvgIcon Signal5 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Signal;
+    public static SvgIcon Signal 5 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Signal;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal?f=classic&amp;s=solid">Signal</a>
     /// </summary>
@@ -7762,11 +7762,11 @@ public static partial class FaSolid
     /// <a href="https://fontawesome.com/icons/stopwatch?f=classic&amp;s=solid">Stopwatch</a>
     /// </summary>
     public static SvgIcon Stopwatch => f_Stopwatch ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "stopwatch", "f2f2", 448, 512, ImmutableArray.Create("M176 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l16 0 0 34.4C92.3 113.8 16 200 16 304c0 114.9 93.1 208 208 208s208-93.1 208-208c0-41.8-12.3-80.7-33.5-113.2l24.1-24.1c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L355.7 143c-28.1-23-62.2-38.8-99.7-44.6L256 64l16 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L224 0 176 0zm72 192l0 128c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-128c0-13.3 10.7-24 24-24s24 10.7 24 24z"u8.ToArray().ToImmutableArray()));
-    private static SvgIcon? f_Stopwatch20;
+    private static SvgIcon? f_Stopwatch 20;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/stopwatch-20?f=classic&amp;s=solid">Stopwatch 20</a>
     /// </summary>
-    public static SvgIcon Stopwatch20 => f_Stopwatch20 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "stopwatch-20", "e06f", 448, 512, ImmutableArray.Create("M176 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l16 0 0 34.4C92.3 113.8 16 200 16 304c0 114.9 93.1 208 208 208s208-93.1 208-208c0-41.8-12.3-80.7-33.5-113.2l24.1-24.1c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L355.7 143c-28.1-23-62.2-38.8-99.7-44.6L256 64l16 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L176 0zM288 204c28.7 0 52 23.3 52 52l0 96c0 28.7-23.3 52-52 52s-52-23.3-52-52l0-96c0-28.7 23.3-52 52-52zm-12 52l0 96c0 6.6 5.4 12 12 12s12-5.4 12-12l0-96c0-6.6-5.4-12-12-12s-12 5.4-12 12zM159.5 244c-5.4 0-10.2 3.5-11.9 8.6l-.6 1.7c-3.5 10.5-14.8 16.1-25.3 12.6s-16.1-14.8-12.6-25.3l.6-1.7c7.2-21.5 27.2-35.9 49.8-35.9c29 0 52.5 23.5 52.5 52.5l0 2.2c0 13.4-4.9 26.4-13.8 36.4l-39 43.9c-6.2 7-10 15.7-10.9 24.9l43.8 0c11 0 20 9 20 20s-9 20-20 20l-64 0c-11 0-20-9-20-20l0-15.7c0-20.6 7.5-40.4 21.2-55.8l39-43.9c2.4-2.7 3.7-6.2 3.7-9.8l0-2.2c0-6.9-5.6-12.5-12.5-12.5z"u8.ToArray().ToImmutableArray()));
+    public static SvgIcon Stopwatch 20 => f_Stopwatch 20 ??= new SvgIcon(IconFamily.Classic, IconStyle.Solid, "stopwatch-20", "e06f", 448, 512, ImmutableArray.Create("M176 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l16 0 0 34.4C92.3 113.8 16 200 16 304c0 114.9 93.1 208 208 208s208-93.1 208-208c0-41.8-12.3-80.7-33.5-113.2l24.1-24.1c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L355.7 143c-28.1-23-62.2-38.8-99.7-44.6L256 64l16 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L176 0zM288 204c28.7 0 52 23.3 52 52l0 96c0 28.7-23.3 52-52 52s-52-23.3-52-52l0-96c0-28.7 23.3-52 52-52zm-12 52l0 96c0 6.6 5.4 12 12 12s12-5.4 12-12l0-96c0-6.6-5.4-12-12-12s-12 5.4-12 12zM159.5 244c-5.4 0-10.2 3.5-11.9 8.6l-.6 1.7c-3.5 10.5-14.8 16.1-25.3 12.6s-16.1-14.8-12.6-25.3l.6-1.7c7.2-21.5 27.2-35.9 49.8-35.9c29 0 52.5 23.5 52.5 52.5l0 2.2c0 13.4-4.9 26.4-13.8 36.4l-39 43.9c-6.2 7-10 15.7-10.9 24.9l43.8 0c11 0 20 9 20 20s-9 20-20 20l-64 0c-11 0-20-9-20-20l0-15.7c0-20.6 7.5-40.4 21.2-55.8l39-43.9c2.4-2.7 3.7-6.2 3.7-9.8l0-2.2c0-6.9-5.6-12.5-12.5-12.5z"u8.ToArray().ToImmutableArray()));
     private static SvgIcon? f_Store;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/store?f=classic&amp;s=solid">Store</a>
@@ -8027,11 +8027,11 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-empty?f=classic&amp;s=solid">Temperature Empty</a>
     /// </summary>
-    public static SvgIcon Temperature0 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureEmpty;
+    public static SvgIcon Temperature 0 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureEmpty;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-empty?f=classic&amp;s=solid">Temperature Empty</a>
     /// </summary>
-    public static SvgIcon Thermometer0 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureEmpty;
+    public static SvgIcon Thermometer 0 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureEmpty;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-empty?f=classic&amp;s=solid">Temperature Empty</a>
     /// </summary>
@@ -8044,11 +8044,11 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-full?f=classic&amp;s=solid">Temperature Full</a>
     /// </summary>
-    public static SvgIcon Temperature4 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureFull;
+    public static SvgIcon Temperature 4 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureFull;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-full?f=classic&amp;s=solid">Temperature Full</a>
     /// </summary>
-    public static SvgIcon Thermometer4 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureFull;
+    public static SvgIcon Thermometer 4 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureFull;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-full?f=classic&amp;s=solid">Temperature Full</a>
     /// </summary>
@@ -8061,11 +8061,11 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-half?f=classic&amp;s=solid">Temperature Half</a>
     /// </summary>
-    public static SvgIcon Temperature2 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureHalf;
+    public static SvgIcon Temperature 2 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureHalf;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-half?f=classic&amp;s=solid">Temperature Half</a>
     /// </summary>
-    public static SvgIcon Thermometer2 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureHalf;
+    public static SvgIcon Thermometer 2 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureHalf;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-half?f=classic&amp;s=solid">Temperature Half</a>
     /// </summary>
@@ -8088,11 +8088,11 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-quarter?f=classic&amp;s=solid">Temperature Quarter</a>
     /// </summary>
-    public static SvgIcon Temperature1 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureQuarter;
+    public static SvgIcon Temperature 1 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureQuarter;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-quarter?f=classic&amp;s=solid">Temperature Quarter</a>
     /// </summary>
-    public static SvgIcon Thermometer1 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureQuarter;
+    public static SvgIcon Thermometer 1 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureQuarter;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-quarter?f=classic&amp;s=solid">Temperature Quarter</a>
     /// </summary>
@@ -8105,11 +8105,11 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-three-quarters?f=classic&amp;s=solid">Temperature Three Quarters</a>
     /// </summary>
-    public static SvgIcon Temperature3 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureThreeQuarters;
+    public static SvgIcon Temperature 3 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureThreeQuarters;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-three-quarters?f=classic&amp;s=solid">Temperature Three Quarters</a>
     /// </summary>
-    public static SvgIcon Thermometer3 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureThreeQuarters;
+    public static SvgIcon Thermometer 3 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.TemperatureThreeQuarters;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-three-quarters?f=classic&amp;s=solid">Temperature Three Quarters</a>
     /// </summary>
@@ -9139,7 +9139,7 @@ public static partial class FaSolid
     /// <summary>
     /// <a href="https://fontawesome.com/icons/wifi?f=classic&amp;s=solid">Wifi</a>
     /// </summary>
-    public static SvgIcon Wifi3 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Wifi;
+    public static SvgIcon Wifi 3 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaSolid.Wifi;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/wifi?f=classic&amp;s=solid">Wifi</a>
     /// </summary>

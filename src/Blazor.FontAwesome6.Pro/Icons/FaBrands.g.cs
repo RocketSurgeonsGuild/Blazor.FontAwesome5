@@ -501,16 +501,16 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/css?f=classic&amp;s=brands">Css</a>
     /// </summary>
     public static Icon Css => f_Css ??= new Icon(IconFamily.Classic, IconStyle.Brands, "css", "e6a2");
-    private static Icon? f_Css3;
+    private static Icon? f_Css 3;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/css3?f=classic&amp;s=brands">CSS 3 Logo</a>
     /// </summary>
-    public static Icon Css3 => f_Css3 ??= new Icon(IconFamily.Classic, IconStyle.Brands, "css3", "f13c");
-    private static Icon? f_Css3Alt;
+    public static Icon Css 3 => f_Css 3 ??= new Icon(IconFamily.Classic, IconStyle.Brands, "css3", "f13c");
+    private static Icon? f_Css 3Alt;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/css3-alt?f=classic&amp;s=brands">Alternate CSS3 Logo</a>
     /// </summary>
-    public static Icon Css3Alt => f_Css3Alt ??= new Icon(IconFamily.Classic, IconStyle.Brands, "css3-alt", "f38b");
+    public static Icon Css 3Alt => f_Css 3Alt ??= new Icon(IconFamily.Classic, IconStyle.Brands, "css3-alt", "f38b");
     private static Icon? f_Cuttlefish;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/cuttlefish?f=classic&amp;s=brands">Cuttlefish</a>
@@ -616,11 +616,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/docker?f=classic&amp;s=brands">Docker</a>
     /// </summary>
     public static Icon Docker => f_Docker ??= new Icon(IconFamily.Classic, IconStyle.Brands, "docker", "f395");
-    private static Icon? f_Draft2digital;
+    private static Icon? f_Draft 2digital;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/draft2digital?f=classic&amp;s=brands">Draft2digital</a>
     /// </summary>
-    public static Icon Draft2digital => f_Draft2digital ??= new Icon(IconFamily.Classic, IconStyle.Brands, "draft2digital", "f396");
+    public static Icon Draft 2digital => f_Draft 2digital ??= new Icon(IconFamily.Classic, IconStyle.Brands, "draft2digital", "f396");
     private static Icon? f_Dribbble;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/dribbble?f=classic&amp;s=brands">Dribbble</a>
@@ -1064,11 +1064,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/houzz?f=classic&amp;s=brands">Houzz</a>
     /// </summary>
     public static Icon Houzz => f_Houzz ??= new Icon(IconFamily.Classic, IconStyle.Brands, "houzz", "f27c");
-    private static Icon? f_Html5;
+    private static Icon? f_Html 5;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/html5?f=classic&amp;s=brands">HTML 5 Logo</a>
     /// </summary>
-    public static Icon Html5 => f_Html5 ??= new Icon(IconFamily.Classic, IconStyle.Brands, "html5", "f13b");
+    public static Icon Html 5 => f_Html 5 ??= new Icon(IconFamily.Classic, IconStyle.Brands, "html5", "f13b");
     private static Icon? f_Hubspot;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hubspot?f=classic&amp;s=brands">HubSpot</a>
@@ -1422,11 +1422,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/npm?f=classic&amp;s=brands">npm</a>
     /// </summary>
     public static Icon Npm => f_Npm ??= new Icon(IconFamily.Classic, IconStyle.Brands, "npm", "f3d4");
-    private static Icon? f_Ns8;
+    private static Icon? f_Ns 8;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/ns8?f=classic&amp;s=brands">NS8</a>
     /// </summary>
-    public static Icon Ns8 => f_Ns8 ??= new Icon(IconFamily.Classic, IconStyle.Brands, "ns8", "f3d5");
+    public static Icon Ns 8 => f_Ns 8 ??= new Icon(IconFamily.Classic, IconStyle.Brands, "ns8", "f3d5");
     private static Icon? f_Nutritionix;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/nutritionix?f=classic&amp;s=brands">Nutritionix</a>
@@ -1492,11 +1492,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/padlet?f=classic&amp;s=brands">Padlet</a>
     /// </summary>
     public static Icon Padlet => f_Padlet ??= new Icon(IconFamily.Classic, IconStyle.Brands, "padlet", "e4a0");
-    private static Icon? f_Page4;
+    private static Icon? f_Page 4;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/page4?f=classic&amp;s=brands">page4 Corporation</a>
     /// </summary>
-    public static Icon Page4 => f_Page4 ??= new Icon(IconFamily.Classic, IconStyle.Brands, "page4", "f3d7");
+    public static Icon Page 4 => f_Page 4 ??= new Icon(IconFamily.Classic, IconStyle.Brands, "page4", "f3d7");
     private static Icon? f_Pagelines;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/pagelines?f=classic&amp;s=brands">Pagelines</a>
@@ -2319,11 +2319,11 @@ public static partial class FaBrands
     /// <a href="https://fontawesome.com/icons/twitter?f=classic&amp;s=brands">Twitter</a>
     /// </summary>
     public static Icon Twitter => f_Twitter ??= new Icon(IconFamily.Classic, IconStyle.Brands, "twitter", "f099");
-    private static Icon? f_Typo3;
+    private static Icon? f_Typo 3;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/typo3?f=classic&amp;s=brands">Typo3</a>
     /// </summary>
-    public static Icon Typo3 => f_Typo3 ??= new Icon(IconFamily.Classic, IconStyle.Brands, "typo3", "f42b");
+    public static Icon Typo 3 => f_Typo 3 ??= new Icon(IconFamily.Classic, IconStyle.Brands, "typo3", "f42b");
     private static Icon? f_Uber;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/uber?f=classic&amp;s=brands">Uber</a>

@@ -902,7 +902,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hourglass-half?f=classic&amp;s=regular">Hourglass Half</a>
     /// </summary>
-    public static Icon Hourglass2 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.HourglassHalf;
+    public static Icon Hourglass 2 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.HourglassHalf;
     private static Icon? f_IdBadge;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/id-badge?f=classic&amp;s=regular">Id Badge</a>
@@ -961,15 +961,15 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/message?f=classic&amp;s=regular">Message</a>
     /// </summary>
     public static Icon CommentAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.Message;
-    private static Icon? f_MoneyBill1;
+    private static Icon? f_MoneyBill 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=regular">Money Bill 1</a>
     /// </summary>
-    public static Icon MoneyBill1 => f_MoneyBill1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "money-bill-1", "f3d1");
+    public static Icon MoneyBill 1 => f_MoneyBill 1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "money-bill-1", "f3d1");
     /// <summary>
     /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=regular">Money Bill 1</a>
     /// </summary>
-    public static Icon MoneyBillAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.MoneyBill1;
+    public static Icon MoneyBillAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.MoneyBill 1;
     private static Icon? f_Moon;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/moon?f=classic&amp;s=regular">Moon</a>

@@ -229,26 +229,26 @@ public static partial class FaGaming
     /// <a href="https://fontawesome.com/icons/dice-d20">Dice D20</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class DiceD20
+    public static partial class DiceD 20
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/dice-d20?f=classic&amp;s=solid">Dice D20</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.DiceD20;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.DiceD 20;
     }
     /// <summary>
     /// Dice D6
     /// <a href="https://fontawesome.com/icons/dice-d6">Dice D6</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class DiceD6
+    public static partial class DiceD 6
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/dice-d6?f=classic&amp;s=solid">Dice D6</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.DiceD6;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.DiceD 6;
     }
     /// <summary>
     /// Dice Five

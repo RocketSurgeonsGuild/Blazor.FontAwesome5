@@ -184,15 +184,15 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/alien?f=classic&amp;s=regular">Alien</a>
     /// </summary>
     public static Icon Alien => f_Alien ??= new Icon(IconFamily.Classic, IconStyle.Regular, "alien", "f8f5");
-    private static Icon? f_Alien8bit;
+    private static Icon? f_Alien 8bit;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/alien-8bit?f=classic&amp;s=regular">Alien 8bit</a>
     /// </summary>
-    public static Icon Alien8bit => f_Alien8bit ??= new Icon(IconFamily.Classic, IconStyle.Regular, "alien-8bit", "f8f6");
+    public static Icon Alien 8bit => f_Alien 8bit ??= new Icon(IconFamily.Classic, IconStyle.Regular, "alien-8bit", "f8f6");
     /// <summary>
     /// <a href="https://fontawesome.com/icons/alien-8bit?f=classic&amp;s=regular">Alien 8bit</a>
     /// </summary>
-    public static Icon AlienMonster => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Alien8bit;
+    public static Icon AlienMonster => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Alien 8bit;
     private static Icon? f_AlignCenter;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/align-center?f=classic&amp;s=regular">Align Center</a>
@@ -268,11 +268,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/angle?f=classic&amp;s=regular">Angle</a>
     /// </summary>
     public static Icon Angle => f_Angle ??= new Icon(IconFamily.Classic, IconStyle.Regular, "angle", "e08c");
-    private static Icon? f_Angle90;
+    private static Icon? f_Angle 90;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/angle-90?f=classic&amp;s=regular">Angle 90</a>
     /// </summary>
-    public static Icon Angle90 => f_Angle90 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "angle-90", "e08d");
+    public static Icon Angle 90 => f_Angle 90 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "angle-90", "e08d");
     private static Icon? f_AngleDown;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/angle-down?f=classic&amp;s=regular">Angle Down</a>
@@ -383,32 +383,32 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/arrow-down?f=classic&amp;s=regular">Arrow Down</a>
     /// </summary>
     public static Icon ArrowDown => f_ArrowDown ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-down", "f063");
-    private static Icon? f_ArrowDown19;
+    private static Icon? f_ArrowDown 1 9;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-down-1-9?f=classic&amp;s=regular">Arrow Down 1 9</a>
     /// </summary>
-    public static Icon ArrowDown19 => f_ArrowDown19 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-down-1-9", "f162");
+    public static Icon ArrowDown 1 9 => f_ArrowDown 1 9 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-down-1-9", "f162");
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-down-1-9?f=classic&amp;s=regular">Arrow Down 1 9</a>
     /// </summary>
-    public static Icon SortNumericAsc => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ArrowDown19;
+    public static Icon SortNumericAsc => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ArrowDown 1 9;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-down-1-9?f=classic&amp;s=regular">Arrow Down 1 9</a>
     /// </summary>
-    public static Icon SortNumericDown => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ArrowDown19;
-    private static Icon? f_ArrowDown91;
+    public static Icon SortNumericDown => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ArrowDown 1 9;
+    private static Icon? f_ArrowDown 9 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-down-9-1?f=classic&amp;s=regular">Arrow Down 9 1</a>
     /// </summary>
-    public static Icon ArrowDown91 => f_ArrowDown91 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-down-9-1", "f886");
+    public static Icon ArrowDown 9 1 => f_ArrowDown 9 1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-down-9-1", "f886");
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-down-9-1?f=classic&amp;s=regular">Arrow Down 9 1</a>
     /// </summary>
-    public static Icon SortNumericDesc => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ArrowDown91;
+    public static Icon SortNumericDesc => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ArrowDown 9 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-down-9-1?f=classic&amp;s=regular">Arrow Down 9 1</a>
     /// </summary>
-    public static Icon SortNumericDownAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ArrowDown91;
+    public static Icon SortNumericDownAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ArrowDown 9 1;
     private static Icon? f_ArrowDownAZ;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-down-a-z?f=classic&amp;s=regular">Arrow Down A Z</a>
@@ -844,24 +844,24 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/arrow-up?f=classic&amp;s=regular">Arrow Up</a>
     /// </summary>
     public static Icon ArrowUp => f_ArrowUp ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-up", "f062");
-    private static Icon? f_ArrowUp19;
+    private static Icon? f_ArrowUp 1 9;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-up-1-9?f=classic&amp;s=regular">Arrow Up 1 9</a>
     /// </summary>
-    public static Icon ArrowUp19 => f_ArrowUp19 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-up-1-9", "f163");
+    public static Icon ArrowUp 1 9 => f_ArrowUp 1 9 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-up-1-9", "f163");
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-up-1-9?f=classic&amp;s=regular">Arrow Up 1 9</a>
     /// </summary>
-    public static Icon SortNumericUp => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ArrowUp19;
-    private static Icon? f_ArrowUp91;
+    public static Icon SortNumericUp => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ArrowUp 1 9;
+    private static Icon? f_ArrowUp 9 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-up-9-1?f=classic&amp;s=regular">Arrow Up 9 1</a>
     /// </summary>
-    public static Icon ArrowUp91 => f_ArrowUp91 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-up-9-1", "f887");
+    public static Icon ArrowUp 9 1 => f_ArrowUp 9 1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrow-up-9-1", "f887");
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-up-9-1?f=classic&amp;s=regular">Arrow Up 9 1</a>
     /// </summary>
-    public static Icon SortNumericUpAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ArrowUp91;
+    public static Icon SortNumericUpAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ArrowUp 9 1;
     private static Icon? f_ArrowUpAZ;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrow-up-a-z?f=classic&amp;s=regular">Arrow Up A Z</a>
@@ -1115,15 +1115,15 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/arrows-repeat?f=classic&amp;s=regular">Arrows Repeat</a>
     /// </summary>
     public static Icon RepeatAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ArrowsRepeat;
-    private static Icon? f_ArrowsRepeat1;
+    private static Icon? f_ArrowsRepeat 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrows-repeat-1?f=classic&amp;s=regular">Arrows Repeat 1</a>
     /// </summary>
-    public static Icon ArrowsRepeat1 => f_ArrowsRepeat1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrows-repeat-1", "f366");
+    public static Icon ArrowsRepeat 1 => f_ArrowsRepeat 1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "arrows-repeat-1", "f366");
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrows-repeat-1?f=classic&amp;s=regular">Arrows Repeat 1</a>
     /// </summary>
-    public static Icon Repeat1Alt => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ArrowsRepeat1;
+    public static Icon Repeat 1Alt => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ArrowsRepeat 1;
     private static Icon? f_ArrowsRetweet;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/arrows-retweet?f=classic&amp;s=regular">Arrows Retweet</a>
@@ -1657,7 +1657,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-empty?f=classic&amp;s=regular">Battery Empty</a>
     /// </summary>
-    public static Icon Battery0 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.BatteryEmpty;
+    public static Icon Battery 0 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.BatteryEmpty;
     private static Icon? f_BatteryExclamation;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-exclamation?f=classic&amp;s=regular">Battery Exclamation</a>
@@ -1675,7 +1675,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-full?f=classic&amp;s=regular">Battery Full</a>
     /// </summary>
-    public static Icon Battery5 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.BatteryFull;
+    public static Icon Battery 5 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.BatteryFull;
     private static Icon? f_BatteryHalf;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-half?f=classic&amp;s=regular">Battery Half</a>
@@ -1684,7 +1684,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-half?f=classic&amp;s=regular">Battery Half</a>
     /// </summary>
-    public static Icon Battery3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.BatteryHalf;
+    public static Icon Battery 3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.BatteryHalf;
     private static Icon? f_BatteryLow;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-low?f=classic&amp;s=regular">Battery Low</a>
@@ -1693,7 +1693,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-low?f=classic&amp;s=regular">Battery Low</a>
     /// </summary>
-    public static Icon Battery1 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.BatteryLow;
+    public static Icon Battery 1 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.BatteryLow;
     private static Icon? f_BatteryQuarter;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-quarter?f=classic&amp;s=regular">Battery Quarter</a>
@@ -1702,7 +1702,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-quarter?f=classic&amp;s=regular">Battery Quarter</a>
     /// </summary>
-    public static Icon Battery2 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.BatteryQuarter;
+    public static Icon Battery 2 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.BatteryQuarter;
     private static Icon? f_BatterySlash;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-slash?f=classic&amp;s=regular">Battery Slash</a>
@@ -1716,7 +1716,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/battery-three-quarters?f=classic&amp;s=regular">Battery Three Quarters</a>
     /// </summary>
-    public static Icon Battery4 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.BatteryThreeQuarters;
+    public static Icon Battery 4 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.BatteryThreeQuarters;
     private static Icon? f_Bed;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/bed?f=classic&amp;s=regular">Bed</a>
@@ -3886,11 +3886,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/chart-scatter?f=classic&amp;s=regular">Chart Scatter</a>
     /// </summary>
     public static Icon ChartScatter => f_ChartScatter ??= new Icon(IconFamily.Classic, IconStyle.Regular, "chart-scatter", "f7ee");
-    private static Icon? f_ChartScatter3d;
+    private static Icon? f_ChartScatter 3d;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/chart-scatter-3d?f=classic&amp;s=regular">Chart Scatter 3d</a>
     /// </summary>
-    public static Icon ChartScatter3d => f_ChartScatter3d ??= new Icon(IconFamily.Classic, IconStyle.Regular, "chart-scatter-3d", "e0e8");
+    public static Icon ChartScatter 3d => f_ChartScatter 3d ??= new Icon(IconFamily.Classic, IconStyle.Regular, "chart-scatter-3d", "e0e8");
     private static Icon? f_ChartScatterBubble;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/chart-scatter-bubble?f=classic&amp;s=regular">Chart Scatter Bubble</a>
@@ -4187,56 +4187,56 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/circle?f=classic&amp;s=regular">Circle</a>
     /// </summary>
     public static Icon Circle => f_Circle ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle", "f111");
-    private static Icon? f_Circle0;
+    private static Icon? f_Circle 0;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/circle-0?f=classic&amp;s=regular">Circle 0</a>
     /// </summary>
-    public static Icon Circle0 => f_Circle0 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-0", "e0ed");
-    private static Icon? f_Circle1;
+    public static Icon Circle 0 => f_Circle 0 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-0", "e0ed");
+    private static Icon? f_Circle 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/circle-1?f=classic&amp;s=regular">Circle 1</a>
     /// </summary>
-    public static Icon Circle1 => f_Circle1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-1", "e0ee");
-    private static Icon? f_Circle2;
+    public static Icon Circle 1 => f_Circle 1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-1", "e0ee");
+    private static Icon? f_Circle 2;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/circle-2?f=classic&amp;s=regular">Circle 2</a>
     /// </summary>
-    public static Icon Circle2 => f_Circle2 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-2", "e0ef");
-    private static Icon? f_Circle3;
+    public static Icon Circle 2 => f_Circle 2 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-2", "e0ef");
+    private static Icon? f_Circle 3;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/circle-3?f=classic&amp;s=regular">Circle 3</a>
     /// </summary>
-    public static Icon Circle3 => f_Circle3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-3", "e0f0");
-    private static Icon? f_Circle4;
+    public static Icon Circle 3 => f_Circle 3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-3", "e0f0");
+    private static Icon? f_Circle 4;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/circle-4?f=classic&amp;s=regular">Circle 4</a>
     /// </summary>
-    public static Icon Circle4 => f_Circle4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-4", "e0f1");
-    private static Icon? f_Circle5;
+    public static Icon Circle 4 => f_Circle 4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-4", "e0f1");
+    private static Icon? f_Circle 5;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/circle-5?f=classic&amp;s=regular">Circle 5</a>
     /// </summary>
-    public static Icon Circle5 => f_Circle5 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-5", "e0f2");
-    private static Icon? f_Circle6;
+    public static Icon Circle 5 => f_Circle 5 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-5", "e0f2");
+    private static Icon? f_Circle 6;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/circle-6?f=classic&amp;s=regular">Circle 6</a>
     /// </summary>
-    public static Icon Circle6 => f_Circle6 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-6", "e0f3");
-    private static Icon? f_Circle7;
+    public static Icon Circle 6 => f_Circle 6 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-6", "e0f3");
+    private static Icon? f_Circle 7;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/circle-7?f=classic&amp;s=regular">Circle 7</a>
     /// </summary>
-    public static Icon Circle7 => f_Circle7 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-7", "e0f4");
-    private static Icon? f_Circle8;
+    public static Icon Circle 7 => f_Circle 7 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-7", "e0f4");
+    private static Icon? f_Circle 8;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/circle-8?f=classic&amp;s=regular">Circle 8</a>
     /// </summary>
-    public static Icon Circle8 => f_Circle8 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-8", "e0f5");
-    private static Icon? f_Circle9;
+    public static Icon Circle 8 => f_Circle 8 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-8", "e0f5");
+    private static Icon? f_Circle 9;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/circle-9?f=classic&amp;s=regular">Circle 9</a>
     /// </summary>
-    public static Icon Circle9 => f_Circle9 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-9", "e0f6");
+    public static Icon Circle 9 => f_Circle 9 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circle-9", "e0f6");
     private static Icon? f_CircleA;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/circle-a?f=classic&amp;s=regular">Circle A</a>
@@ -5006,15 +5006,15 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/circles-overlap?f=classic&amp;s=regular">Circles Overlap</a>
     /// </summary>
     public static Icon CirclesOverlap => f_CirclesOverlap ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circles-overlap", "e600");
-    private static Icon? f_CirclesOverlap3;
+    private static Icon? f_CirclesOverlap 3;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=classic&amp;s=regular">Circles Overlap 3</a>
     /// </summary>
-    public static Icon CirclesOverlap3 => f_CirclesOverlap3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circles-overlap-3", "e6a1");
+    public static Icon CirclesOverlap 3 => f_CirclesOverlap 3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "circles-overlap-3", "e6a1");
     /// <summary>
     /// <a href="https://fontawesome.com/icons/circles-overlap-3?f=classic&amp;s=regular">Circles Overlap 3</a>
     /// </summary>
-    public static Icon Pronoun => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CirclesOverlap3;
+    public static Icon Pronoun => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.CirclesOverlap 3;
     private static Icon? f_Citrus;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/citrus?f=classic&amp;s=regular">Citrus</a>
@@ -5580,11 +5580,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/colon-sign?f=classic&amp;s=regular">Colon Sign</a>
     /// </summary>
     public static Icon ColonSign => f_ColonSign ??= new Icon(IconFamily.Classic, IconStyle.Regular, "colon-sign", "e140");
-    private static Icon? f_Columns3;
+    private static Icon? f_Columns 3;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/columns-3?f=classic&amp;s=regular">Columns 3</a>
     /// </summary>
-    public static Icon Columns3 => f_Columns3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "columns-3", "e361");
+    public static Icon Columns 3 => f_Columns 3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "columns-3", "e361");
     private static Icon? f_Comet;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/comet?f=classic&amp;s=regular">Comet</a>
@@ -6304,46 +6304,46 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/diamond-turn-right?f=classic&amp;s=regular">Diamond Turn Right</a>
     /// </summary>
     public static Icon Directions => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.DiamondTurnRight;
-    private static Icon? f_Diamonds4;
+    private static Icon? f_Diamonds 4;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/diamonds-4?f=classic&amp;s=regular">Diamonds 4</a>
     /// </summary>
-    public static Icon Diamonds4 => f_Diamonds4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "diamonds-4", "e68b");
+    public static Icon Diamonds 4 => f_Diamonds 4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "diamonds-4", "e68b");
     private static Icon? f_Dice;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/dice?f=classic&amp;s=regular">Dice</a>
     /// </summary>
     public static Icon Dice => f_Dice ??= new Icon(IconFamily.Classic, IconStyle.Regular, "dice", "f522");
-    private static Icon? f_DiceD10;
+    private static Icon? f_DiceD 10;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/dice-d10?f=classic&amp;s=regular">Dice D10</a>
     /// </summary>
-    public static Icon DiceD10 => f_DiceD10 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "dice-d10", "f6cd");
-    private static Icon? f_DiceD12;
+    public static Icon DiceD 10 => f_DiceD 10 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "dice-d10", "f6cd");
+    private static Icon? f_DiceD 12;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/dice-d12?f=classic&amp;s=regular">Dice D12</a>
     /// </summary>
-    public static Icon DiceD12 => f_DiceD12 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "dice-d12", "f6ce");
-    private static Icon? f_DiceD20;
+    public static Icon DiceD 12 => f_DiceD 12 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "dice-d12", "f6ce");
+    private static Icon? f_DiceD 20;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/dice-d20?f=classic&amp;s=regular">Dice D20</a>
     /// </summary>
-    public static Icon DiceD20 => f_DiceD20 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "dice-d20", "f6cf");
-    private static Icon? f_DiceD4;
+    public static Icon DiceD 20 => f_DiceD 20 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "dice-d20", "f6cf");
+    private static Icon? f_DiceD 4;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/dice-d4?f=classic&amp;s=regular">Dice D4</a>
     /// </summary>
-    public static Icon DiceD4 => f_DiceD4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "dice-d4", "f6d0");
-    private static Icon? f_DiceD6;
+    public static Icon DiceD 4 => f_DiceD 4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "dice-d4", "f6d0");
+    private static Icon? f_DiceD 6;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/dice-d6?f=classic&amp;s=regular">Dice D6</a>
     /// </summary>
-    public static Icon DiceD6 => f_DiceD6 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "dice-d6", "f6d1");
-    private static Icon? f_DiceD8;
+    public static Icon DiceD 6 => f_DiceD 6 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "dice-d6", "f6d1");
+    private static Icon? f_DiceD 8;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/dice-d8?f=classic&amp;s=regular">Dice D8</a>
     /// </summary>
-    public static Icon DiceD8 => f_DiceD8 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "dice-d8", "f6d2");
+    public static Icon DiceD 8 => f_DiceD 8 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "dice-d8", "f6d2");
     private static Icon? f_DiceFive;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/dice-five?f=classic&amp;s=regular">Dice Five</a>
@@ -8165,16 +8165,16 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/file-mov?f=classic&amp;s=regular">File Mov</a>
     /// </summary>
     public static Icon FileMov => f_FileMov ??= new Icon(IconFamily.Classic, IconStyle.Regular, "file-mov", "e647");
-    private static Icon? f_FileMp3;
+    private static Icon? f_FileMp 3;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/file-mp3?f=classic&amp;s=regular">File Mp3</a>
     /// </summary>
-    public static Icon FileMp3 => f_FileMp3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "file-mp3", "e648");
-    private static Icon? f_FileMp4;
+    public static Icon FileMp 3 => f_FileMp 3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "file-mp3", "e648");
+    private static Icon? f_FileMp 4;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/file-mp4?f=classic&amp;s=regular">File Mp4</a>
     /// </summary>
-    public static Icon FileMp4 => f_FileMp4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "file-mp4", "e649");
+    public static Icon FileMp 4 => f_FileMp 4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "file-mp4", "e649");
     private static Icon? f_FileMusic;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/file-music?f=classic&amp;s=regular">File Music</a>
@@ -9344,27 +9344,27 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/grid?f=classic&amp;s=regular">Grid</a>
     /// </summary>
-    public static Icon Grid3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Grid;
-    private static Icon? f_Grid2;
+    public static Icon Grid 3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Grid;
+    private static Icon? f_Grid 2;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/grid-2?f=classic&amp;s=regular">Grid 2</a>
     /// </summary>
-    public static Icon Grid2 => f_Grid2 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-2", "e196");
-    private static Icon? f_Grid2Plus;
+    public static Icon Grid 2 => f_Grid 2 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-2", "e196");
+    private static Icon? f_Grid 2Plus;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/grid-2-plus?f=classic&amp;s=regular">Grid 2 Plus</a>
     /// </summary>
-    public static Icon Grid2Plus => f_Grid2Plus ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-2-plus", "e197");
-    private static Icon? f_Grid4;
+    public static Icon Grid 2Plus => f_Grid 2Plus ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-2-plus", "e197");
+    private static Icon? f_Grid 4;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/grid-4?f=classic&amp;s=regular">Grid 4</a>
     /// </summary>
-    public static Icon Grid4 => f_Grid4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-4", "e198");
-    private static Icon? f_Grid5;
+    public static Icon Grid 4 => f_Grid 4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-4", "e198");
+    private static Icon? f_Grid 5;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/grid-5?f=classic&amp;s=regular">Grid 5</a>
     /// </summary>
-    public static Icon Grid5 => f_Grid5 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-5", "e199");
+    public static Icon Grid 5 => f_Grid 5 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-5", "e199");
     private static Icon? f_GridDividers;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/grid-dividers?f=classic&amp;s=regular">Grid Dividers</a>
@@ -9380,26 +9380,26 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/grid-round?f=classic&amp;s=regular">Grid Round</a>
     /// </summary>
     public static Icon GridRound => f_GridRound ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-round", "e5da");
-    private static Icon? f_GridRound2;
+    private static Icon? f_GridRound 2;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/grid-round-2?f=classic&amp;s=regular">Grid Round 2</a>
     /// </summary>
-    public static Icon GridRound2 => f_GridRound2 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-round-2", "e5db");
-    private static Icon? f_GridRound2Plus;
+    public static Icon GridRound 2 => f_GridRound 2 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-round-2", "e5db");
+    private static Icon? f_GridRound 2Plus;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/grid-round-2-plus?f=classic&amp;s=regular">Grid Round 2 Plus</a>
     /// </summary>
-    public static Icon GridRound2Plus => f_GridRound2Plus ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-round-2-plus", "e5dc");
-    private static Icon? f_GridRound4;
+    public static Icon GridRound 2Plus => f_GridRound 2Plus ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-round-2-plus", "e5dc");
+    private static Icon? f_GridRound 4;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/grid-round-4?f=classic&amp;s=regular">Grid Round 4</a>
     /// </summary>
-    public static Icon GridRound4 => f_GridRound4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-round-4", "e5dd");
-    private static Icon? f_GridRound5;
+    public static Icon GridRound 4 => f_GridRound 4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-round-4", "e5dd");
+    private static Icon? f_GridRound 5;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/grid-round-5?f=classic&amp;s=regular">Grid Round 5</a>
     /// </summary>
-    public static Icon GridRound5 => f_GridRound5 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-round-5", "e5de");
+    public static Icon GridRound 5 => f_GridRound 5 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "grid-round-5", "e5de");
     private static Icon? f_Grill;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/grill?f=classic&amp;s=regular">Grill</a>
@@ -9494,36 +9494,36 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/h?f=classic&amp;s=regular">H</a>
     /// </summary>
     public static Icon H => f_H ??= new Icon(IconFamily.Classic, IconStyle.Regular, "h", "48");
-    private static Icon? f_H1;
+    private static Icon? f_H 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/h1?f=classic&amp;s=regular">H1</a>
     /// </summary>
-    public static Icon H1 => f_H1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "h1", "f313");
-    private static Icon? f_H2;
+    public static Icon H 1 => f_H 1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "h1", "f313");
+    private static Icon? f_H 2;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/h2?f=classic&amp;s=regular">H2</a>
     /// </summary>
-    public static Icon H2 => f_H2 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "h2", "f314");
-    private static Icon? f_H3;
+    public static Icon H 2 => f_H 2 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "h2", "f314");
+    private static Icon? f_H 3;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/h3?f=classic&amp;s=regular">H3</a>
     /// </summary>
-    public static Icon H3 => f_H3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "h3", "f315");
-    private static Icon? f_H4;
+    public static Icon H 3 => f_H 3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "h3", "f315");
+    private static Icon? f_H 4;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/h4?f=classic&amp;s=regular">H4</a>
     /// </summary>
-    public static Icon H4 => f_H4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "h4", "f86a");
-    private static Icon? f_H5;
+    public static Icon H 4 => f_H 4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "h4", "f86a");
+    private static Icon? f_H 5;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/h5?f=classic&amp;s=regular">H5</a>
     /// </summary>
-    public static Icon H5 => f_H5 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "h5", "e412");
-    private static Icon? f_H6;
+    public static Icon H 5 => f_H 5 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "h5", "e412");
+    private static Icon? f_H 6;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/h6?f=classic&amp;s=regular">H6</a>
     /// </summary>
-    public static Icon H6 => f_H6 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "h6", "e413");
+    public static Icon H 6 => f_H 6 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "h6", "e413");
     private static Icon? f_Hammer;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hammer?f=classic&amp;s=regular">Hammer</a>
@@ -10395,7 +10395,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hourglass-end?f=classic&amp;s=regular">Hourglass End</a>
     /// </summary>
-    public static Icon Hourglass3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.HourglassEnd;
+    public static Icon Hourglass 3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.HourglassEnd;
     private static Icon? f_HourglassHalf;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hourglass-half?f=classic&amp;s=regular">Hourglass Half</a>
@@ -10404,7 +10404,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hourglass-half?f=classic&amp;s=regular">Hourglass Half</a>
     /// </summary>
-    public static Icon Hourglass2 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.HourglassHalf;
+    public static Icon Hourglass 2 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.HourglassHalf;
     private static Icon? f_HourglassStart;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hourglass-start?f=classic&amp;s=regular">Hourglass Start</a>
@@ -10413,7 +10413,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hourglass-start?f=classic&amp;s=regular">Hourglass Start</a>
     /// </summary>
-    public static Icon Hourglass1 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.HourglassStart;
+    public static Icon Hourglass 1 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.HourglassStart;
     private static Icon? f_House;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/house?f=classic&amp;s=regular">House</a>
@@ -11584,7 +11584,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/list-ol?f=classic&amp;s=regular">List Ol</a>
     /// </summary>
-    public static Icon List12 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ListOl;
+    public static Icon List 1 2 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.ListOl;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/list-ol?f=classic&amp;s=regular">List Ol</a>
     /// </summary>
@@ -12627,24 +12627,24 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/money-bill?f=classic&amp;s=regular">Money Bill</a>
     /// </summary>
     public static Icon MoneyBill => f_MoneyBill ??= new Icon(IconFamily.Classic, IconStyle.Regular, "money-bill", "f0d6");
-    private static Icon? f_MoneyBill1;
+    private static Icon? f_MoneyBill 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=regular">Money Bill 1</a>
     /// </summary>
-    public static Icon MoneyBill1 => f_MoneyBill1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "money-bill-1", "f3d1");
+    public static Icon MoneyBill 1 => f_MoneyBill 1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "money-bill-1", "f3d1");
     /// <summary>
     /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=regular">Money Bill 1</a>
     /// </summary>
-    public static Icon MoneyBillAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.MoneyBill1;
-    private static Icon? f_MoneyBill1Wave;
+    public static Icon MoneyBillAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.MoneyBill 1;
+    private static Icon? f_MoneyBill 1Wave;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/money-bill-1-wave?f=classic&amp;s=regular">Money Bill 1 Wave</a>
     /// </summary>
-    public static Icon MoneyBill1Wave => f_MoneyBill1Wave ??= new Icon(IconFamily.Classic, IconStyle.Regular, "money-bill-1-wave", "f53b");
+    public static Icon MoneyBill 1Wave => f_MoneyBill 1Wave ??= new Icon(IconFamily.Classic, IconStyle.Regular, "money-bill-1-wave", "f53b");
     /// <summary>
     /// <a href="https://fontawesome.com/icons/money-bill-1-wave?f=classic&amp;s=regular">Money Bill 1 Wave</a>
     /// </summary>
-    public static Icon MoneyBillWaveAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.MoneyBill1Wave;
+    public static Icon MoneyBillWaveAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.MoneyBill 1Wave;
     private static Icon? f_MoneyBillSimple;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/money-bill-simple?f=classic&amp;s=regular">Money Bill Simple</a>
@@ -12834,11 +12834,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/mouse-field?f=classic&amp;s=regular">Mouse Field</a>
     /// </summary>
     public static Icon MouseField => f_MouseField ??= new Icon(IconFamily.Classic, IconStyle.Regular, "mouse-field", "e5a8");
-    private static Icon? f_Mp3Player;
+    private static Icon? f_Mp 3Player;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/mp3-player?f=classic&amp;s=regular">Mp3 Player</a>
     /// </summary>
-    public static Icon Mp3Player => f_Mp3Player ??= new Icon(IconFamily.Classic, IconStyle.Regular, "mp3-player", "f8ce");
+    public static Icon Mp 3Player => f_Mp 3Player ??= new Icon(IconFamily.Classic, IconStyle.Regular, "mp3-player", "f8ce");
     private static Icon? f_Mug;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/mug?f=classic&amp;s=regular">Mug</a>
@@ -14574,11 +14574,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/poo-storm?f=classic&amp;s=regular">Poo Storm</a>
     /// </summary>
     public static Icon PooBolt => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.PooStorm;
-    private static Icon? f_Pool8Ball;
+    private static Icon? f_Pool 8Ball;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/pool-8-ball?f=classic&amp;s=regular">Pool 8 Ball</a>
     /// </summary>
-    public static Icon Pool8Ball => f_Pool8Ball ??= new Icon(IconFamily.Classic, IconStyle.Regular, "pool-8-ball", "e3c5");
+    public static Icon Pool 8Ball => f_Pool 8Ball ??= new Icon(IconFamily.Classic, IconStyle.Regular, "pool-8-ball", "e3c5");
     private static Icon? f_Poop;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/poop?f=classic&amp;s=regular">Poop</a>
@@ -14992,11 +14992,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/repeat?f=classic&amp;s=regular">Repeat</a>
     /// </summary>
     public static Icon Repeat => f_Repeat ??= new Icon(IconFamily.Classic, IconStyle.Regular, "repeat", "f363");
-    private static Icon? f_Repeat1;
+    private static Icon? f_Repeat 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/repeat-1?f=classic&amp;s=regular">Repeat 1</a>
     /// </summary>
-    public static Icon Repeat1 => f_Repeat1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "repeat-1", "f365");
+    public static Icon Repeat 1 => f_Repeat 1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "repeat-1", "f365");
     private static Icon? f_Reply;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/reply?f=classic&amp;s=regular">Reply</a>
@@ -16055,7 +16055,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal?f=classic&amp;s=regular">Signal</a>
     /// </summary>
-    public static Icon Signal5 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Signal;
+    public static Icon Signal 5 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Signal;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal?f=classic&amp;s=regular">Signal</a>
     /// </summary>
@@ -16072,7 +16072,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal-bars?f=classic&amp;s=regular">Signal Bars</a>
     /// </summary>
-    public static Icon SignalAlt4 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalBars;
+    public static Icon SignalAlt 4 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalBars;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal-bars?f=classic&amp;s=regular">Signal Bars</a>
     /// </summary>
@@ -16085,7 +16085,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal-bars-fair?f=classic&amp;s=regular">Signal Bars Fair</a>
     /// </summary>
-    public static Icon SignalAlt2 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalBarsFair;
+    public static Icon SignalAlt 2 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalBarsFair;
     private static Icon? f_SignalBarsGood;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal-bars-good?f=classic&amp;s=regular">Signal Bars Good</a>
@@ -16094,7 +16094,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal-bars-good?f=classic&amp;s=regular">Signal Bars Good</a>
     /// </summary>
-    public static Icon SignalAlt3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalBarsGood;
+    public static Icon SignalAlt 3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalBarsGood;
     private static Icon? f_SignalBarsSlash;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal-bars-slash?f=classic&amp;s=regular">Signal Bars Slash</a>
@@ -16112,7 +16112,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal-bars-weak?f=classic&amp;s=regular">Signal Bars Weak</a>
     /// </summary>
-    public static Icon SignalAlt1 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalBarsWeak;
+    public static Icon SignalAlt 1 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalBarsWeak;
     private static Icon? f_SignalFair;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal-fair?f=classic&amp;s=regular">Signal Fair</a>
@@ -16121,7 +16121,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal-fair?f=classic&amp;s=regular">Signal Fair</a>
     /// </summary>
-    public static Icon Signal2 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalFair;
+    public static Icon Signal 2 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalFair;
     private static Icon? f_SignalGood;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal-good?f=classic&amp;s=regular">Signal Good</a>
@@ -16130,7 +16130,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal-good?f=classic&amp;s=regular">Signal Good</a>
     /// </summary>
-    public static Icon Signal3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalGood;
+    public static Icon Signal 3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalGood;
     private static Icon? f_SignalSlash;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal-slash?f=classic&amp;s=regular">Signal Slash</a>
@@ -16154,7 +16154,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal-strong?f=classic&amp;s=regular">Signal Strong</a>
     /// </summary>
-    public static Icon Signal4 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalStrong;
+    public static Icon Signal 4 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalStrong;
     private static Icon? f_SignalWeak;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal-weak?f=classic&amp;s=regular">Signal Weak</a>
@@ -16163,7 +16163,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signal-weak?f=classic&amp;s=regular">Signal Weak</a>
     /// </summary>
-    public static Icon Signal1 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalWeak;
+    public static Icon Signal 1 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.SignalWeak;
     private static Icon? f_Signature;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/signature?f=classic&amp;s=regular">Signature</a>
@@ -16571,56 +16571,56 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/square?f=classic&amp;s=regular">Square</a>
     /// </summary>
     public static Icon Square => f_Square ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square", "f0c8");
-    private static Icon? f_Square0;
+    private static Icon? f_Square 0;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-0?f=classic&amp;s=regular">Square 0</a>
     /// </summary>
-    public static Icon Square0 => f_Square0 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-0", "e255");
-    private static Icon? f_Square1;
+    public static Icon Square 0 => f_Square 0 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-0", "e255");
+    private static Icon? f_Square 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-1?f=classic&amp;s=regular">Square 1</a>
     /// </summary>
-    public static Icon Square1 => f_Square1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-1", "e256");
-    private static Icon? f_Square2;
+    public static Icon Square 1 => f_Square 1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-1", "e256");
+    private static Icon? f_Square 2;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-2?f=classic&amp;s=regular">Square 2</a>
     /// </summary>
-    public static Icon Square2 => f_Square2 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-2", "e257");
-    private static Icon? f_Square3;
+    public static Icon Square 2 => f_Square 2 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-2", "e257");
+    private static Icon? f_Square 3;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-3?f=classic&amp;s=regular">Square 3</a>
     /// </summary>
-    public static Icon Square3 => f_Square3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-3", "e258");
-    private static Icon? f_Square4;
+    public static Icon Square 3 => f_Square 3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-3", "e258");
+    private static Icon? f_Square 4;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-4?f=classic&amp;s=regular">Square 4</a>
     /// </summary>
-    public static Icon Square4 => f_Square4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-4", "e259");
-    private static Icon? f_Square5;
+    public static Icon Square 4 => f_Square 4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-4", "e259");
+    private static Icon? f_Square 5;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-5?f=classic&amp;s=regular">Square 5</a>
     /// </summary>
-    public static Icon Square5 => f_Square5 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-5", "e25a");
-    private static Icon? f_Square6;
+    public static Icon Square 5 => f_Square 5 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-5", "e25a");
+    private static Icon? f_Square 6;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-6?f=classic&amp;s=regular">Square 6</a>
     /// </summary>
-    public static Icon Square6 => f_Square6 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-6", "e25b");
-    private static Icon? f_Square7;
+    public static Icon Square 6 => f_Square 6 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-6", "e25b");
+    private static Icon? f_Square 7;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-7?f=classic&amp;s=regular">Square 7</a>
     /// </summary>
-    public static Icon Square7 => f_Square7 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-7", "e25c");
-    private static Icon? f_Square8;
+    public static Icon Square 7 => f_Square 7 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-7", "e25c");
+    private static Icon? f_Square 8;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-8?f=classic&amp;s=regular">Square 8</a>
     /// </summary>
-    public static Icon Square8 => f_Square8 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-8", "e25d");
-    private static Icon? f_Square9;
+    public static Icon Square 8 => f_Square 8 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-8", "e25d");
+    private static Icon? f_Square 9;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-9?f=classic&amp;s=regular">Square 9</a>
     /// </summary>
-    public static Icon Square9 => f_Square9 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-9", "e25e");
+    public static Icon Square 9 => f_Square 9 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "square-9", "e25e");
     private static Icon? f_SquareA;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/square-a?f=classic&amp;s=regular">Square A</a>
@@ -17518,11 +17518,11 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/stopwatch?f=classic&amp;s=regular">Stopwatch</a>
     /// </summary>
     public static Icon Stopwatch => f_Stopwatch ??= new Icon(IconFamily.Classic, IconStyle.Regular, "stopwatch", "f2f2");
-    private static Icon? f_Stopwatch20;
+    private static Icon? f_Stopwatch 20;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/stopwatch-20?f=classic&amp;s=regular">Stopwatch 20</a>
     /// </summary>
-    public static Icon Stopwatch20 => f_Stopwatch20 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "stopwatch-20", "e06f");
+    public static Icon Stopwatch 20 => f_Stopwatch 20 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "stopwatch-20", "e06f");
     private static Icon? f_Store;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/store?f=classic&amp;s=regular">Store</a>
@@ -17929,27 +17929,27 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/tally?f=classic&amp;s=regular">Tally</a>
     /// </summary>
-    public static Icon Tally5 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Tally;
-    private static Icon? f_Tally1;
+    public static Icon Tally 5 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Tally;
+    private static Icon? f_Tally 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/tally-1?f=classic&amp;s=regular">Tally 1</a>
     /// </summary>
-    public static Icon Tally1 => f_Tally1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "tally-1", "e294");
-    private static Icon? f_Tally2;
+    public static Icon Tally 1 => f_Tally 1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "tally-1", "e294");
+    private static Icon? f_Tally 2;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/tally-2?f=classic&amp;s=regular">Tally 2</a>
     /// </summary>
-    public static Icon Tally2 => f_Tally2 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "tally-2", "e295");
-    private static Icon? f_Tally3;
+    public static Icon Tally 2 => f_Tally 2 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "tally-2", "e295");
+    private static Icon? f_Tally 3;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/tally-3?f=classic&amp;s=regular">Tally 3</a>
     /// </summary>
-    public static Icon Tally3 => f_Tally3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "tally-3", "e296");
-    private static Icon? f_Tally4;
+    public static Icon Tally 3 => f_Tally 3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "tally-3", "e296");
+    private static Icon? f_Tally 4;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/tally-4?f=classic&amp;s=regular">Tally 4</a>
     /// </summary>
-    public static Icon Tally4 => f_Tally4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "tally-4", "e297");
+    public static Icon Tally 4 => f_Tally 4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "tally-4", "e297");
     private static Icon? f_Tamale;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/tamale?f=classic&amp;s=regular">Tamale</a>
@@ -18035,11 +18035,11 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-empty?f=classic&amp;s=regular">Temperature Empty</a>
     /// </summary>
-    public static Icon Temperature0 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureEmpty;
+    public static Icon Temperature 0 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureEmpty;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-empty?f=classic&amp;s=regular">Temperature Empty</a>
     /// </summary>
-    public static Icon Thermometer0 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureEmpty;
+    public static Icon Thermometer 0 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureEmpty;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-empty?f=classic&amp;s=regular">Temperature Empty</a>
     /// </summary>
@@ -18052,11 +18052,11 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-full?f=classic&amp;s=regular">Temperature Full</a>
     /// </summary>
-    public static Icon Temperature4 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureFull;
+    public static Icon Temperature 4 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureFull;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-full?f=classic&amp;s=regular">Temperature Full</a>
     /// </summary>
-    public static Icon Thermometer4 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureFull;
+    public static Icon Thermometer 4 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureFull;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-full?f=classic&amp;s=regular">Temperature Full</a>
     /// </summary>
@@ -18069,11 +18069,11 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-half?f=classic&amp;s=regular">Temperature Half</a>
     /// </summary>
-    public static Icon Temperature2 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureHalf;
+    public static Icon Temperature 2 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureHalf;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-half?f=classic&amp;s=regular">Temperature Half</a>
     /// </summary>
-    public static Icon Thermometer2 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureHalf;
+    public static Icon Thermometer 2 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureHalf;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-half?f=classic&amp;s=regular">Temperature Half</a>
     /// </summary>
@@ -18101,11 +18101,11 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-quarter?f=classic&amp;s=regular">Temperature Quarter</a>
     /// </summary>
-    public static Icon Temperature1 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureQuarter;
+    public static Icon Temperature 1 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureQuarter;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-quarter?f=classic&amp;s=regular">Temperature Quarter</a>
     /// </summary>
-    public static Icon Thermometer1 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureQuarter;
+    public static Icon Thermometer 1 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureQuarter;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-quarter?f=classic&amp;s=regular">Temperature Quarter</a>
     /// </summary>
@@ -18136,11 +18136,11 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-three-quarters?f=classic&amp;s=regular">Temperature Three Quarters</a>
     /// </summary>
-    public static Icon Temperature3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureThreeQuarters;
+    public static Icon Temperature 3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureThreeQuarters;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-three-quarters?f=classic&amp;s=regular">Temperature Three Quarters</a>
     /// </summary>
-    public static Icon Thermometer3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureThreeQuarters;
+    public static Icon Thermometer 3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.TemperatureThreeQuarters;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/temperature-three-quarters?f=classic&amp;s=regular">Temperature Three Quarters</a>
     /// </summary>
@@ -18632,41 +18632,41 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/transporter?f=classic&amp;s=regular">Transporter</a>
     /// </summary>
     public static Icon Transporter => f_Transporter ??= new Icon(IconFamily.Classic, IconStyle.Regular, "transporter", "e042");
-    private static Icon? f_Transporter1;
+    private static Icon? f_Transporter 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/transporter-1?f=classic&amp;s=regular">Transporter 1</a>
     /// </summary>
-    public static Icon Transporter1 => f_Transporter1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "transporter-1", "e043");
-    private static Icon? f_Transporter2;
+    public static Icon Transporter 1 => f_Transporter 1 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "transporter-1", "e043");
+    private static Icon? f_Transporter 2;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/transporter-2?f=classic&amp;s=regular">Transporter 2</a>
     /// </summary>
-    public static Icon Transporter2 => f_Transporter2 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "transporter-2", "e044");
-    private static Icon? f_Transporter3;
+    public static Icon Transporter 2 => f_Transporter 2 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "transporter-2", "e044");
+    private static Icon? f_Transporter 3;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/transporter-3?f=classic&amp;s=regular">Transporter 3</a>
     /// </summary>
-    public static Icon Transporter3 => f_Transporter3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "transporter-3", "e045");
-    private static Icon? f_Transporter4;
+    public static Icon Transporter 3 => f_Transporter 3 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "transporter-3", "e045");
+    private static Icon? f_Transporter 4;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/transporter-4?f=classic&amp;s=regular">Transporter 4</a>
     /// </summary>
-    public static Icon Transporter4 => f_Transporter4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "transporter-4", "e2a5");
-    private static Icon? f_Transporter5;
+    public static Icon Transporter 4 => f_Transporter 4 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "transporter-4", "e2a5");
+    private static Icon? f_Transporter 5;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/transporter-5?f=classic&amp;s=regular">Transporter 5</a>
     /// </summary>
-    public static Icon Transporter5 => f_Transporter5 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "transporter-5", "e2a6");
-    private static Icon? f_Transporter6;
+    public static Icon Transporter 5 => f_Transporter 5 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "transporter-5", "e2a6");
+    private static Icon? f_Transporter 6;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/transporter-6?f=classic&amp;s=regular">Transporter 6</a>
     /// </summary>
-    public static Icon Transporter6 => f_Transporter6 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "transporter-6", "e2a7");
-    private static Icon? f_Transporter7;
+    public static Icon Transporter 6 => f_Transporter 6 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "transporter-6", "e2a7");
+    private static Icon? f_Transporter 7;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/transporter-7?f=classic&amp;s=regular">Transporter 7</a>
     /// </summary>
-    public static Icon Transporter7 => f_Transporter7 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "transporter-7", "e2a8");
+    public static Icon Transporter 7 => f_Transporter 7 ??= new Icon(IconFamily.Classic, IconStyle.Regular, "transporter-7", "e2a8");
     private static Icon? f_TransporterEmpty;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/transporter-empty?f=classic&amp;s=regular">Transporter Empty</a>
@@ -20335,7 +20335,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/wifi?f=classic&amp;s=regular">Wifi</a>
     /// </summary>
-    public static Icon Wifi3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Wifi;
+    public static Icon Wifi 3 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Wifi;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/wifi?f=classic&amp;s=regular">Wifi</a>
     /// </summary>
@@ -20353,7 +20353,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/wifi-fair?f=classic&amp;s=regular">Wifi Fair</a>
     /// </summary>
-    public static Icon Wifi2 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.WifiFair;
+    public static Icon Wifi 2 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.WifiFair;
     private static Icon? f_WifiSlash;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/wifi-slash?f=classic&amp;s=regular">Wifi Slash</a>
@@ -20367,7 +20367,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/wifi-weak?f=classic&amp;s=regular">Wifi Weak</a>
     /// </summary>
-    public static Icon Wifi1 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.WifiWeak;
+    public static Icon Wifi 1 => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.WifiWeak;
     private static Icon? f_Wind;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/wind?f=classic&amp;s=regular">Wind</a>

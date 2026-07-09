@@ -134,26 +134,26 @@ public static partial class FaArrows
     /// <a href="https://fontawesome.com/icons/arrow-down-1-9">Arrow Down 1 9</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class ArrowDown19
+    public static partial class ArrowDown 1 9
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/arrow-down-1-9?f=classic&amp;s=solid">Arrow Down 1 9</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ArrowDown19;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ArrowDown 1 9;
     }
     /// <summary>
     /// Arrow Down 9 1
     /// <a href="https://fontawesome.com/icons/arrow-down-9-1">Arrow Down 9 1</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class ArrowDown91
+    public static partial class ArrowDown 9 1
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/arrow-down-9-1?f=classic&amp;s=solid">Arrow Down 9 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ArrowDown91;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ArrowDown 9 1;
     }
     /// <summary>
     /// Arrow Down A Z
@@ -446,26 +446,26 @@ public static partial class FaArrows
     /// <a href="https://fontawesome.com/icons/arrow-up-1-9">Arrow Up 1 9</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class ArrowUp19
+    public static partial class ArrowUp 1 9
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/arrow-up-1-9?f=classic&amp;s=solid">Arrow Up 1 9</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ArrowUp19;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ArrowUp 1 9;
     }
     /// <summary>
     /// Arrow Up 9 1
     /// <a href="https://fontawesome.com/icons/arrow-up-9-1">Arrow Up 9 1</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class ArrowUp91
+    public static partial class ArrowUp 9 1
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/arrow-up-9-1?f=classic&amp;s=solid">Arrow Up 9 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ArrowUp91;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.ArrowUp 9 1;
     }
     /// <summary>
     /// Arrow Up A Z

@@ -105,88 +105,88 @@ public static partial class FaConstruction
     /// <a href="https://fontawesome.com/icons/angle-90">Angle 90</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class Angle90
+    public static partial class Angle 90
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=classic&amp;s=light">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Angle90;
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Angle 90;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=classic&amp;s=regular">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Angle90;
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Angle 90;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=classic&amp;s=solid">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Angle90;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Angle 90;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=classic&amp;s=thin">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Angle90;
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Angle 90;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=duotone&amp;s=light">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Angle90;
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Angle 90;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=duotone&amp;s=regular">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Angle90;
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Angle 90;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=duotone&amp;s=solid">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Angle90;
+        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Angle 90;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=duotone&amp;s=thin">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Angle90;
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Angle 90;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=sharp&amp;s=light">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Angle90;
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Angle 90;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=sharp&amp;s=regular">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Angle90;
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Angle 90;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=sharp&amp;s=solid">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Angle90;
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Angle 90;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=sharp&amp;s=thin">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Angle90;
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Angle 90;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=sharp-duotone&amp;s=light">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Angle90;
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Angle 90;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=sharp-duotone&amp;s=regular">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Angle90;
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Angle 90;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=sharp-duotone&amp;s=solid">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Angle90;
+        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Angle 90;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/angle-90?f=sharp-duotone&amp;s=thin">Angle 90</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Angle90;
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Angle 90;
     }
     /// <summary>
     /// Arrow Up From Ground Water

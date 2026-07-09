@@ -902,7 +902,7 @@ public static partial class FaRegular
     /// <summary>
     /// <a href="https://fontawesome.com/icons/hourglass-half?f=classic&amp;s=regular">Hourglass Half</a>
     /// </summary>
-    public static SvgIcon Hourglass2 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.HourglassHalf;
+    public static SvgIcon Hourglass 2 => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.HourglassHalf;
     private static SvgIcon? f_IdBadge;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/id-badge?f=classic&amp;s=regular">Id Badge</a>
@@ -961,15 +961,15 @@ public static partial class FaRegular
     /// <a href="https://fontawesome.com/icons/message?f=classic&amp;s=regular">Message</a>
     /// </summary>
     public static SvgIcon CommentAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.Message;
-    private static SvgIcon? f_MoneyBill1;
+    private static SvgIcon? f_MoneyBill 1;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=regular">Money Bill 1</a>
     /// </summary>
-    public static SvgIcon MoneyBill1 => f_MoneyBill1 ??= new SvgIcon(IconFamily.Classic, IconStyle.Regular, "money-bill-1", "f3d1", 576, 512, ImmutableArray.Create("M112 112c0 35.3-28.7 64-64 64l0 160c35.3 0 64 28.7 64 64l352 0c0-35.3 28.7-64 64-64l0-160c-35.3 0-64-28.7-64-64l-352 0zM0 128C0 92.7 28.7 64 64 64l448 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128zM176 256a112 112 0 1 1 224 0 112 112 0 1 1 -224 0zm80-48c0 8.8 7.2 16 16 16l0 64-8 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l24 0 24 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-8 0 0-80c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16z"u8.ToArray().ToImmutableArray()));
+    public static SvgIcon MoneyBill 1 => f_MoneyBill 1 ??= new SvgIcon(IconFamily.Classic, IconStyle.Regular, "money-bill-1", "f3d1", 576, 512, ImmutableArray.Create("M112 112c0 35.3-28.7 64-64 64l0 160c35.3 0 64 28.7 64 64l352 0c0-35.3 28.7-64 64-64l0-160c-35.3 0-64-28.7-64-64l-352 0zM0 128C0 92.7 28.7 64 64 64l448 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128zM176 256a112 112 0 1 1 224 0 112 112 0 1 1 -224 0zm80-48c0 8.8 7.2 16 16 16l0 64-8 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l24 0 24 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-8 0 0-80c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16z"u8.ToArray().ToImmutableArray()));
     /// <summary>
     /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=regular">Money Bill 1</a>
     /// </summary>
-    public static SvgIcon MoneyBillAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.MoneyBill1;
+    public static SvgIcon MoneyBillAlt => global::Rocket.Surgery.Blazor.FontAwesome6.Free.Svg.FaRegular.MoneyBill 1;
     private static SvgIcon? f_Moon;
     /// <summary>
     /// <a href="https://fontawesome.com/icons/moon?f=classic&amp;s=regular">Moon</a>

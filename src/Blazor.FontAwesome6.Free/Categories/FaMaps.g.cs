@@ -1067,18 +1067,18 @@ public static partial class FaMaps
     /// <a href="https://fontawesome.com/icons/money-bill-1">Money Bill 1</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class MoneyBill1
+    public static partial class MoneyBill 1
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=regular">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.MoneyBill1;
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaRegular.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=solid">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MoneyBill1;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Free.FaSolid.MoneyBill 1;
     }
     /// <summary>
     /// Monument

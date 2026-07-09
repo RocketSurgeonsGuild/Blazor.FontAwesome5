@@ -3185,176 +3185,176 @@ public static partial class FaFiles
     /// <a href="https://fontawesome.com/icons/file-mp3">File Mp3</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class FileMp3
+    public static partial class FileMp 3
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=classic&amp;s=light">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FileMp3;
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FileMp 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=classic&amp;s=regular">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FileMp3;
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FileMp 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=classic&amp;s=solid">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FileMp3;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FileMp 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=classic&amp;s=thin">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FileMp3;
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FileMp 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=duotone&amp;s=light">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FileMp3;
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FileMp 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=duotone&amp;s=regular">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FileMp3;
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FileMp 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=duotone&amp;s=solid">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FileMp3;
+        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FileMp 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=duotone&amp;s=thin">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FileMp3;
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FileMp 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=sharp&amp;s=light">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FileMp3;
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FileMp 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=sharp&amp;s=regular">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FileMp3;
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FileMp 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=sharp&amp;s=solid">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FileMp3;
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FileMp 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=sharp&amp;s=thin">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FileMp3;
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FileMp 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=sharp-duotone&amp;s=light">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FileMp3;
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FileMp 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=sharp-duotone&amp;s=regular">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FileMp3;
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FileMp 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=sharp-duotone&amp;s=solid">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FileMp3;
+        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FileMp 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp3?f=sharp-duotone&amp;s=thin">File Mp3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FileMp3;
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FileMp 3;
     }
     /// <summary>
     /// File Mp4
     /// <a href="https://fontawesome.com/icons/file-mp4">File Mp4</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class FileMp4
+    public static partial class FileMp 4
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=classic&amp;s=light">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FileMp4;
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.FileMp 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=classic&amp;s=regular">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FileMp4;
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.FileMp 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=classic&amp;s=solid">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FileMp4;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.FileMp 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=classic&amp;s=thin">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FileMp4;
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.FileMp 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=duotone&amp;s=light">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FileMp4;
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.FileMp 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=duotone&amp;s=regular">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FileMp4;
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.FileMp 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=duotone&amp;s=solid">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FileMp4;
+        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.FileMp 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=duotone&amp;s=thin">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FileMp4;
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.FileMp 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=sharp&amp;s=light">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FileMp4;
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.FileMp 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=sharp&amp;s=regular">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FileMp4;
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.FileMp 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=sharp&amp;s=solid">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FileMp4;
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.FileMp 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=sharp&amp;s=thin">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FileMp4;
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.FileMp 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=sharp-duotone&amp;s=light">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FileMp4;
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.FileMp 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=sharp-duotone&amp;s=regular">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FileMp4;
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.FileMp 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=sharp-duotone&amp;s=solid">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FileMp4;
+        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.FileMp 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/file-mp4?f=sharp-duotone&amp;s=thin">File Mp4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FileMp4;
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.FileMp 4;
     }
     /// <summary>
     /// File Music

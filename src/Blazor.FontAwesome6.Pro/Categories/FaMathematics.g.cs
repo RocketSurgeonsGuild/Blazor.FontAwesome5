@@ -3801,352 +3801,352 @@ public static partial class FaMathematics
     /// <a href="https://fontawesome.com/icons/tally-1">Tally 1</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class Tally1
+    public static partial class Tally 1
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=classic&amp;s=light">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Tally1;
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Tally 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=classic&amp;s=regular">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Tally1;
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Tally 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=classic&amp;s=solid">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Tally1;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Tally 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=classic&amp;s=thin">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Tally1;
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Tally 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=duotone&amp;s=light">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Tally1;
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Tally 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=duotone&amp;s=regular">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Tally1;
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Tally 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=duotone&amp;s=solid">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Tally1;
+        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Tally 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=duotone&amp;s=thin">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Tally1;
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Tally 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=sharp&amp;s=light">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Tally1;
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Tally 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=sharp&amp;s=regular">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Tally1;
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Tally 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=sharp&amp;s=solid">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Tally1;
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Tally 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=sharp&amp;s=thin">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Tally1;
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Tally 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=sharp-duotone&amp;s=light">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Tally1;
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Tally 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=sharp-duotone&amp;s=regular">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Tally1;
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Tally 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=sharp-duotone&amp;s=solid">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Tally1;
+        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Tally 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-1?f=sharp-duotone&amp;s=thin">Tally 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Tally1;
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Tally 1;
     }
     /// <summary>
     /// Tally 2
     /// <a href="https://fontawesome.com/icons/tally-2">Tally 2</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class Tally2
+    public static partial class Tally 2
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=classic&amp;s=light">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Tally2;
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Tally 2;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=classic&amp;s=regular">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Tally2;
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Tally 2;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=classic&amp;s=solid">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Tally2;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Tally 2;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=classic&amp;s=thin">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Tally2;
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Tally 2;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=duotone&amp;s=light">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Tally2;
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Tally 2;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=duotone&amp;s=regular">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Tally2;
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Tally 2;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=duotone&amp;s=solid">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Tally2;
+        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Tally 2;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=duotone&amp;s=thin">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Tally2;
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Tally 2;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=sharp&amp;s=light">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Tally2;
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Tally 2;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=sharp&amp;s=regular">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Tally2;
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Tally 2;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=sharp&amp;s=solid">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Tally2;
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Tally 2;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=sharp&amp;s=thin">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Tally2;
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Tally 2;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=sharp-duotone&amp;s=light">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Tally2;
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Tally 2;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=sharp-duotone&amp;s=regular">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Tally2;
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Tally 2;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=sharp-duotone&amp;s=solid">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Tally2;
+        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Tally 2;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-2?f=sharp-duotone&amp;s=thin">Tally 2</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Tally2;
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Tally 2;
     }
     /// <summary>
     /// Tally 3
     /// <a href="https://fontawesome.com/icons/tally-3">Tally 3</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class Tally3
+    public static partial class Tally 3
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=classic&amp;s=light">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Tally3;
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Tally 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=classic&amp;s=regular">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Tally3;
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Tally 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=classic&amp;s=solid">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Tally3;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Tally 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=classic&amp;s=thin">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Tally3;
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Tally 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=duotone&amp;s=light">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Tally3;
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Tally 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=duotone&amp;s=regular">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Tally3;
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Tally 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=duotone&amp;s=solid">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Tally3;
+        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Tally 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=duotone&amp;s=thin">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Tally3;
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Tally 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=sharp&amp;s=light">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Tally3;
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Tally 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=sharp&amp;s=regular">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Tally3;
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Tally 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=sharp&amp;s=solid">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Tally3;
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Tally 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=sharp&amp;s=thin">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Tally3;
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Tally 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=sharp-duotone&amp;s=light">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Tally3;
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Tally 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=sharp-duotone&amp;s=regular">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Tally3;
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Tally 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=sharp-duotone&amp;s=solid">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Tally3;
+        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Tally 3;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-3?f=sharp-duotone&amp;s=thin">Tally 3</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Tally3;
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Tally 3;
     }
     /// <summary>
     /// Tally 4
     /// <a href="https://fontawesome.com/icons/tally-4">Tally 4</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class Tally4
+    public static partial class Tally 4
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=classic&amp;s=light">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Tally4;
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.Tally 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=classic&amp;s=regular">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Tally4;
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.Tally 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=classic&amp;s=solid">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Tally4;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.Tally 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=classic&amp;s=thin">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Tally4;
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.Tally 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=duotone&amp;s=light">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Tally4;
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.Tally 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=duotone&amp;s=regular">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Tally4;
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.Tally 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=duotone&amp;s=solid">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Tally4;
+        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.Tally 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=duotone&amp;s=thin">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Tally4;
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.Tally 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=sharp&amp;s=light">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Tally4;
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.Tally 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=sharp&amp;s=regular">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Tally4;
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.Tally 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=sharp&amp;s=solid">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Tally4;
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.Tally 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=sharp&amp;s=thin">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Tally4;
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.Tally 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=sharp-duotone&amp;s=light">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Tally4;
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.Tally 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=sharp-duotone&amp;s=regular">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Tally4;
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.Tally 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=sharp-duotone&amp;s=solid">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Tally4;
+        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.Tally 4;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/tally-4?f=sharp-duotone&amp;s=thin">Tally 4</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Tally4;
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.Tally 4;
     }
     /// <summary>
     /// Theta

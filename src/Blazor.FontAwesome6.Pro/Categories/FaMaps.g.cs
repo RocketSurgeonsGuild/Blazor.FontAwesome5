@@ -9961,88 +9961,88 @@ public static partial class FaMaps
     /// <a href="https://fontawesome.com/icons/money-bill-1">Money Bill 1</a>
     /// </summary>
     [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-    public static partial class MoneyBill1
+    public static partial class MoneyBill 1
     {
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=light">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.MoneyBill1;
+        public static Icon Light => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaLight.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=regular">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.MoneyBill1;
+        public static Icon Regular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaRegular.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=solid">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.MoneyBill1;
+        public static Icon Solid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSolid.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=classic&amp;s=thin">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.MoneyBill1;
+        public static Icon Thin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaThin.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=duotone&amp;s=light">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.MoneyBill1;
+        public static Icon DuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneLight.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=duotone&amp;s=regular">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.MoneyBill1;
+        public static Icon DuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneRegular.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=duotone&amp;s=solid">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.MoneyBill1;
+        public static Icon DuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneSolid.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=duotone&amp;s=thin">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.MoneyBill1;
+        public static Icon DuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaDuotoneThin.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=sharp&amp;s=light">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.MoneyBill1;
+        public static Icon SharpLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpLight.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=sharp&amp;s=regular">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.MoneyBill1;
+        public static Icon SharpRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpRegular.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=sharp&amp;s=solid">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.MoneyBill1;
+        public static Icon SharpSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpSolid.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=sharp&amp;s=thin">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.MoneyBill1;
+        public static Icon SharpThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpThin.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=sharp-duotone&amp;s=light">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.MoneyBill1;
+        public static Icon SharpDuotoneLight => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneLight.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=sharp-duotone&amp;s=regular">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.MoneyBill1;
+        public static Icon SharpDuotoneRegular => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneRegular.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=sharp-duotone&amp;s=solid">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.MoneyBill1;
+        public static Icon SharpDuotoneSolid => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneSolid.MoneyBill 1;
         /// <summary>
         /// <a href="https://fontawesome.com/icons/money-bill-1?f=sharp-duotone&amp;s=thin">Money Bill 1</a>
         /// </summary>
         [ExcludeFromCodeCoverage, CompilerGenerated, GeneratedCode("Rocket.Surgery.Blazor.FontAwesome6", "")]
-        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.MoneyBill1;
+        public static Icon SharpDuotoneThin => global::Rocket.Surgery.Blazor.FontAwesome6.Pro.FaSharpDuotoneThin.MoneyBill 1;
     }
     /// <summary>
     /// Monument

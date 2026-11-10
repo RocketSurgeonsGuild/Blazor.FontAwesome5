@@ -108,11 +108,11 @@ jobs:
           clean: 'false'
           fetch-depth: '0'
       - name: 🔨 Use .NET Core 8.0 SDK
-        uses: actions/setup-dotnet@v5.3.0
+        uses: actions/setup-dotnet@v5.4.0
         with:
           dotnet-version: '8.0.x'
       - name: 🔨 Use .NET Core 9.0 SDK
-        uses: actions/setup-dotnet@v5.3.0
+        uses: actions/setup-dotnet@v5.4.0
         with:
           dotnet-version: '9.0.x'
       - name: 🚒 dotnet workload restore
@@ -144,13 +144,13 @@ jobs:
           dotnet .build/bin/Debug/.build.dll --target Default --skip Restore Build Test Pack --FontAwesomeToken "${{ secrets.FONT_AWESOME_TOKEN }}"
       - name: 🏺 Publish logs
         if: always()
-        uses: actions/upload-artifact@v7.0.1
+        uses: actions/upload-artifact@v7.0.2
         with:
           name: 'logs'
           path: 'artifacts/logs/'
       - name: 🏺 Publish test data
         if: always()
-        uses: actions/upload-artifact@v7.0.1
+        uses: actions/upload-artifact@v7.0.2
         with:
           name: 'test data'
           path: 'artifacts/test/'
@@ -161,7 +161,7 @@ jobs:
           files: 'artifacts/test/**/*.trx'
       - name: 🏺 Publish coverage data
         if: always()
-        uses: actions/upload-artifact@v7.0.1
+        uses: actions/upload-artifact@v7.0.2
         with:
           name: 'coverage'
           path: 'coverage/'
@@ -176,13 +176,13 @@ jobs:
       - name: 🚀 Publish Codecov Coverage
         if: always() && (github.event_name != 'pull_request' && github.event_name != 'pull_request_target') || ((github.event_name == 'pull_request' || github.event_name == 'pull_request_target') && github.event.pull_request.user.login != 'renovate[bot]' && github.event.pull_request.user.login != 'dependabot[bot]')
         continue-on-error: true
-        uses: codecov/codecov-action@v7.0.0
+        uses: codecov/codecov-action@v7.1.1
         with:
           name: 'actions'
           token: '${{ secrets.CODECOV_TOKEN }}'
       - name: 🏺 Publish NuGet Packages
         if: always()
-        uses: actions/upload-artifact@v7.0.1
+        uses: actions/upload-artifact@v7.0.2
         with:
           name: 'nuget'
           path: 'artifacts/nuget/'
